@@ -1,0 +1,32 @@
+[
+  {
+    "start": 0.15,
+    "end": 2.132,
+    "text": "Why don't astronauts fall?",
+    "speed_adjustment": 1.0
+  },
+  {
+    "start": 2.5,
+    "end": 3.35,
+    "text": "They do.",
+    "speed_adjustment": 1.178
+  },
+  {
+    "start": 3.6,
+    "end": 5.65,
+    "text": "Gravity still pulls them down.",
+    "speed_adjustment": 1.0407
+  },
+  {
+    "start": 5.95,
+    "end": 9.698,
+    "text": "But they move sideways so fast, they keep missing Earth.",
+    "speed_adjustment": 1.0
+  },
+  {
+    "start": 10.25,
+    "end": 11.654,
+    "text": "That's an orbit.",
+    "speed_adjustment": 1.0
+  }
+]
