@@ -1,0 +1,21 @@
+{
+  "provider": "elevenlabs",
+  "status": "pending",
+  "audioFile": null,
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "modelId": "eleven_multilingual_v2",
+  "script": "A Sun-like star fights gravity for billions of years. Gravity squeezes inward. Deep inside, hydrogen nuclei fuse, releasing energy. That energy keeps the star hot, producing pressure that pushes back. For most of its life, the star holds these forces in balance.",
+  "beats": {"gravity": 3.7, "fusion": 6.2, "energy": 10.6, "balance": 15.2},
+  "captions": [
+    {"start": 0.15, "end": 1.9, "text": "A Sun-like star fights gravity"},
+    {"start": 1.9, "end": 3.6, "text": "for billions of years."},
+    {"start": 3.7, "end": 6.1, "text": "Gravity squeezes inward."},
+    {"start": 6.2, "end": 7.4, "text": "Deep inside,"},
+    {"start": 7.4, "end": 9.2, "text": "hydrogen nuclei fuse,"},
+    {"start": 9.2, "end": 10.5, "text": "releasing energy."},
+    {"start": 10.6, "end": 12.8, "text": "That energy keeps the star hot,"},
+    {"start": 12.8, "end": 15.1, "text": "producing pressure that pushes back."},
+    {"start": 15.2, "end": 16.9, "text": "For most of its life,"},
+    {"start": 16.9, "end": 19.8, "text": "the star holds these forces in balance."}
+  ]
+}

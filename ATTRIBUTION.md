@@ -1,40 +1,38 @@
-# Asset and tooling records
+# Current production records
 
-## User-supplied character artwork
+## Original artwork and sound
 
-The four SVGs in `public/assets/characters/` were supplied by the user in this conversation. The originals are preserved as uploaded. No new ownership or public-use license is asserted for this artwork.
+Ember, its vector geometry, two-bone arm rig, face controls, stellar cutaway, and scene artwork were created for this project. The neutral SVG is exported from the editable React component. The score and effects are synthesized from deterministic oscillators and noise; they contain no sampled commercial music or effects.
 
-## Fonts
-
-Outfit variable font, distributed by Google Fonts under the SIL Open Font License 1.1. The license is retained at `public/assets/fonts/OFL.txt`.
-
-- Font: https://github.com/google/fonts/tree/main/ofl/outfit
-
-Nunito variable font, used for the revised title lettering, is distributed by Google Fonts under the SIL Open Font License 1.1. Its license is retained at `public/assets/fonts/Nunito-OFL.txt`. It is a chosen production font; the exact fonts in the reference videos have not been identified.
-
-- Font: https://github.com/google/fonts/tree/main/ofl/nunito
-
-## Geographic source
-
-`src/generated/land.geojson.json` is Natural Earth's 1:110m land dataset, distributed as public-domain map data. The globe design, colors, atmosphere, clouds, lighting, and animation are original to this project.
-
-- Dataset: https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson
-- Terms: https://www.naturalearthdata.com/about/terms-of-use/
-- Projection: `d3-geo` orthographic projection (ISC license; see the installed package's license).
+The four previously supplied character SVGs and their animation source were removed at the user's request. No paths from those characters are used in Ember. Older review MP4s and Git history remain historical records.
 
 ## Narration
 
-The pilot's narration was generated locally using Kokoro-82M with the stock `am_michael` voice, through `kokoro-onnx`. It is synthetic speech, not a recording or imitation of a particular reference narrator.
+ElevenLabs is the required provider for the current long-form test. Narration is pending because no API key is bound and the service is blocked by the running environment's network policy. No narration-provider substitution has been made. The exported visual preview contains music and effects only.
 
-- Runtime: https://github.com/thewh1teagle/kokoro-onnx (MIT).
-- Official ONNX/voice distribution used: https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.1
-- Base model: Kokoro-82M (Apache 2.0), linked from the runtime's documentation.
-- Voice processing: optional timing adjustment with FFmpeg `atempo`, followed by loudness normalization.
+The integration follows the official ElevenLabs Python SDK's documented voice/model conventions and the API's character-timestamp response format. The official SDK README was retrieved from:
 
-## Original production elements
+- https://github.com/elevenlabs/elevenlabs-python
 
-The script, scene design, illustration treatments, animation code, synthesized score, and synthesized effects were created for this pilot. The sound generator uses deterministic oscillators and noise; it does not use sampled commercial music or effects. No footage or soundtrack was extracted from the reference videos for inclusion in the pilot.
+API generation has not been verified against a successful service response. Keys belong only in secure environment settings. Do not publish account credentials or include them in project files.
 
-## Remotion
+## Fonts
 
-Remotion and its CLI are pinned to version 4.0.538 in the lockfile. Remotion's own license applies to use of that software; see the installed packages and https://www.remotion.dev/license.
+Outfit and Nunito are distributed by Google Fonts under the SIL Open Font License 1.1. Local licenses are retained:
+
+- Outfit: `public/assets/fonts/OFL.txt`; https://github.com/google/fonts/tree/main/ofl/outfit
+- Nunito: `public/assets/fonts/Nunito-OFL.txt`; https://github.com/google/fonts/tree/main/ofl/nunito
+
+These are selected production fonts. No claim is made that they are the exact typefaces used in the reference videos.
+
+## Reference access
+
+The user's previously uploaded eight shorts were studied as visual references. Their footage, frames, soundtracks, and narration are not included in the current production assets.
+
+Live requests for `https://www.youtube.com/@kurzgesagt/videos` and `https://kurzgesagt.org/` failed at the environment's network proxy with HTTP 403. No completed live-channel or long-form reference study is claimed.
+
+## Tooling
+
+Remotion packages are pinned to 4.0.538. Remotion's own license applies to use of that software: https://www.remotion.dev/license.
+
+The archived `why-astronauts-float` export used Kokoro-generated narration, public-domain Natural Earth geography, and the user's retired character assets. It is not the current ElevenLabs production and is not regenerated by the present source.

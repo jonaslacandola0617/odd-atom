@@ -2,22 +2,24 @@
   "name": "odd-atom",
   "version": "0.1.0",
   "private": true,
-  "description": "Original animated science shorts made with Remotion",
+  "description": "Original long-form science animation made with Remotion and ElevenLabs narration",
   "scripts": {
     "dev": "remotion studio src/index.ts --browser-executable=/usr/bin/chromium",
-    "render": "remotion render src/index.ts Orbit assets/videos/why-astronauts-float.mp4 --browser-executable=/usr/bin/chromium --concurrency=3 --crf=16 --pixel-format=yuv420p",
-    "still": "remotion still src/index.ts Orbit assets/videos/why-astronauts-float-poster.png --frame=45 --browser-executable=/usr/bin/chromium",
+    "render": "node scripts/render_final.cjs",
+    "render:preview": "remotion render src/index.ts StarBalancePreview assets/videos/star-balance-20s-visual-preview.mp4 --browser-executable=/usr/bin/chromium --concurrency=3 --crf=16 --pixel-format=yuv420p",
+    "still": "remotion still src/index.ts StarBalancePreview assets/videos/star-balance-20s-poster.png --frame=45 --browser-executable=/usr/bin/chromium",
+    "narrate": "python scripts/elevenlabs_narration.py",
+    "character": "node scripts/export_character.cjs",
+    "sound": "python scripts/star_sound_design.py",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@remotion/cli": "4.0.538",
-    "d3-geo": "3.1.1",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "remotion": "4.0.538"
   },
   "devDependencies": {
-    "@types/d3-geo": "3.1.0",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "typescript": "5.9.3"

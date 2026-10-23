@@ -1,98 +1,86 @@
-# Odd Atom
+# Odd Atom — long-form science animation
 
-An original science-animation project built with React and Remotion.
+The current test is **The battle inside a star**: a 20-second, 1920 × 1080, 30 fps landscape segment built with Remotion. It introduces inward gravity, a stellar-core cutaway, hydrogen fusion, and outward pressure.
 
-The first pilot, **Why astronauts float**, is a 12-second, 1080 × 1920, 30 fps video. It uses the supplied astronaut and bird artwork, animated vector paths and expressions, a projected Earth, synchronized captions, locally generated neural narration, an original synthesized score, and timed sound effects.
+**Narration status: ElevenLabs is required and currently pending.** There is no replacement narrator. The exported visual preview has original music, effects, and provisional reading captions. It must not be represented as the completed narrated test.
 
-**[Download the pilot MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/why-astronauts-float.mp4)** · [View the video on GitHub](assets/videos/why-astronauts-float.mp4)
+**[Download the 20-second visual preview](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/star-balance-20s-visual-preview.mp4)** · [View the preview file](assets/videos/star-balance-20s-visual-preview.mp4)
 
-Final video exports are committed under `assets/videos/` so they can be downloaded from the repository. Temporary renders and review files remain in the ignored `out/` directory.
+## Character and direction
 
-## Run and render
+The four supplied character SVGs and their rig were removed at the user's request. The active project uses **Ember**, an original personified star drawn as editable SVG geometry. Its two arms use two-bone inverse kinematics, with connected wrists and independently posed hands. Its eyes, brows, smile, gaze, body compression, surface motion, and cutaway are controlled separately.
 
-Node.js 22 or newer and Chromium are recommended. The cloud environment has Chromium at `/usr/bin/chromium`, which the scripts use explicitly.
+- Original neutral character: `public/assets/characters/ember.svg`.
+- Editable animated rig: `src/characters/Ember.tsx`.
+- Character SVG export: `npm run character`.
+
+This is a landscape segment intended to test a longer explanatory-video format. On-screen text is limited to the opening story title, the mechanism/force labels, and short white narration captions. No branding overlays, episode codes, timers, progress bars, taglines, or production notes appear in the video.
+
+Live inspection of Kurzgesagt's long-form channel and official site is still blocked by the environment's network proxy. The uploaded reference files previously studied are vertical shorts. The current treatment is an original production proposal; it is not claimed to be a completed study of the channel's long-form work or equivalent studio quality. See [production notes](docs/production/star-balance.md).
+
+## Install and preview
+
+Use Node.js 22 or newer and Chromium. Cloud scripts use `/usr/bin/chromium`; on another system, replace that executable path with the local Chrome/Chromium path.
 
 ```sh
 cd /workspace/odd-atom
 npm ci
+npm run typecheck
 npm run dev
 ```
 
-Remotion Studio prints its selected port, normally 3000, and chooses another if that port is busy. Select the `Orbit` composition to scrub the animation or adjust it. Rendering uses the bundled local assets and does not call a voice service or download fonts.
+In Remotion Studio, select `StarBalancePreview` to inspect the visual test. `StarBalance` requires generated ElevenLabs narration and deliberately refuses to render while that requirement is pending.
 
 ```sh
-npm run typecheck
-npm run render
+npm run render:preview
 npm run still
 ```
 
-Outputs:
+Tracked review outputs:
 
-- `assets/videos/why-astronauts-float.mp4` — H.264 video with AAC audio, 360 frames, 12 seconds.
-- `assets/videos/why-astronauts-float-poster.png` — a full-resolution opening still.
+- `assets/videos/star-balance-20s-visual-preview.mp4` — 600-frame landscape visual test, with music and effects but no voice.
+- `assets/videos/star-balance-20s-poster.png` — poster from the visual test.
 
-On another operating system, replace `--browser-executable=/usr/bin/chromium` in the commands with the installed Chrome/Chromium executable. The repository includes its own writable npm cache setting for this cloud environment.
+The older `why-astronauts-float` MP4 is an archived review export. Its retired source characters and rig are not part of the current pipeline. Removing current character assets does not rewrite Git history or alter old video files.
 
-## Character assets
+## Enable ElevenLabs narration
 
-The four original SVG files are stored without modifying their bytes:
+The environment draft now declares `ELEVENLABS_API_KEY` as a secure requirement for `api.elevenlabs.io` and adds network destinations needed for ElevenLabs and channel research. Review and save those changes in environment settings, supply the key securely there, then publish the environment. Draft saving alone does not apply the settings to a running machine. Never paste the key in chat or add it to Git.
 
-| Uploaded name | Repository path |
-|---|---|
-| MALE ORDINARY.svg | `public/assets/characters/male-ordinary.svg` |
-| BIRD.svg | `public/assets/characters/bird.svg` |
-| ASTRONAUT.svg | `public/assets/characters/astronaut.svg` |
-| FEMALE ORDINARY.svg | `public/assets/characters/female-ordinary.svg` |
+An optional non-secret `ELEVENLABS_VOICE_ID` selects a different account-accessible voice. Otherwise the script uses ElevenLabs' documented stock voice ID `JBFqnCBsd6RMkjVDRZzb` with `eleven_multilingual_v2`. No voice cloning is performed.
 
-The pilot uses the astronaut and bird. Both ordinary characters are available for future episodes. The astronaut file is a sheet containing a suit and several helmet expressions; only the appropriate elements are used in the composition.
-
-`python scripts/prepare_characters.py` regenerates `src/generated/characters.json` from the originals using Python's standard library. The astronaut's connected paths share a smooth deformation field, which bends arms and legs without separating their vector seams. The supplied helmet expressions are aligned to a shared head anchor. The bird has independent wing and leg motion. All movement is derived from the Remotion frame number and renders deterministically.
-
-## Pilot story
-
-| Time | Beat |
-|---|---|
-| 0–2.5 s | “Why don't astronauts fall?” An astronaut drifts above Earth's horizon; the bird reacts from a porthole. |
-| 2.5–3.6 s | “They do.” A surprised reaction punctuates the reveal. |
-| 3.6–5.95 s | “Gravity still pulls them down.” The scene pulls back to Earth and an inward gravity arrow. |
-| 5.95–10.25 s | “But they move sideways so fast, they keep missing Earth.” A tangent velocity arrow and a growing orbit trail demonstrate the motion. |
-| 10.25–12 s | “That's an orbit.” The explanation resolves with the orbit and a happy expression. |
-
-In a simplified circular orbit, gravity points toward Earth's center while velocity is tangent to the orbit. The astronaut and spacecraft are in continuous free fall. The illustration exaggerates altitude and playback speed. It illustrates direction and the orbital idea; it is not a numerical orbital simulation. It does not imply that every sideways speed produces a stable orbit. These production notes stay in the documentation rather than appearing over the story.
-
-## Visual direction
-
-The opening uses heavy rounded lettering with a dark offset shadow, orange outer outline, gold middle outline, pale inner outline, and light letter faces. The complete title is visible from frame zero, holds over the character action, and exits before the explanation. The remainder of the episode uses the characters, force/velocity arrows, orbit trail, and short white captions. There are no brand overlays, episode badges, taglines, timers, progress bars, schematic notes, or caption panels.
-
-See [the reference-study notes](docs/reference-study.md) for the observations behind this revision and the limits of live channel access.
-
-Further reading: NASA, [What Is Microgravity?](https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-5-8/). This page could not be fetched from the current environment's network; no claim is made that it was inspected during production. The explanation uses standard orbital mechanics and introduces no new numerical science claims. This is an original evergreen topic selection, not a claim of verified current social-platform trends.
-
-## Audio and editable sources
-
-The final WAV stems live in `public/assets/audio/`. Keep them with the project; they are ready for repeated renders without generating speech again.
-
-- `narration.wav`: synthetic English voice generated locally with Kokoro-82M, voice `am_michael`. It is a stock model voice, not a clone of a reference narrator.
-- `music.wav`: original deterministic synthesized harmony, bell melody, and soft rhythmic pulse.
-- `sfx.wav`: original synthesized transitions, reveal accents, and bird chirps.
-
-Speech timing is recorded in `src/narration-timing.json`. To optionally regenerate narration, install `kokoro-onnx` and `numpy` in a Python environment, obtain the official Kokoro ONNX model and voice files, and run:
+Once the key and network access are available:
 
 ```sh
-python scripts/generate_narration.py /path/to/model-directory
-python scripts/sound_design.py
+npm run narrate
+npm run render
 ```
 
-The model directory must contain `kokoro-v1.0.onnx` and `voices-v1.0.bin`. The large model weights are not committed. See [ATTRIBUTION.md](ATTRIBUTION.md) for their official distribution and licenses. Normal development and video rendering only require `npm ci`; Python audio tooling is optional.
+The narration script makes an authenticated ElevenLabs request with character timestamps, writes the audio to `public/assets/audio/star-balance/narration.wav`, and updates the caption and story-beat timing in `src/data/star-narration.json`. The animation maps its principal transitions to those returned story beats. A small bounded speed adjustment may fit the read into 20 seconds; a read requiring more than 15% acceleration is rejected.
 
-## File map
+The final narrated output will be `assets/videos/star-balance-20s.mp4`. That file is not generated until ElevenLabs succeeds. The final-render command checks the provider, generated status, and audio file before invoking Remotion. The composition also enforces the requirement when invoked directly.
 
-- `src/Orbit.tsx`: sequence timing, scene layout, typography, orbital graphics, captions, and sound stems.
-- `src/Characters.tsx`: original-character animation and expression alignment.
-- `src/IllustratedTitle.tsx`: rounded title lettering with separately painted outline layers and shadow.
-- `src/Earth.tsx`: rotating orthographic globe with land projection and atmosphere.
-- `src/Root.tsx`: composition dimensions, fps, and duration.
-- `scripts/`: asset preparation and optional sound regeneration.
-- `public/assets/`: original character files, font license, and retained audio.
+The ElevenLabs generation path and live channel inspection remain unverified until access is enabled. Local missing-key handling and the final-export guard have been exercised; neither produces substitute speech.
 
-No reference-video artwork, narration, music, or sound recordings have been reused in this pilot. Final MP4s and posters are retained in Git alongside source assets and the lockfile. Temporary review outputs and dependency caches are ignored.
+## Sound and sources
+
+`public/assets/audio/star-balance/music.wav` and `sfx.wav` are original synthesized stems. They are retained for offline rendering. Optional regeneration needs Python, NumPy, and FFmpeg:
+
+```sh
+npm run sound
+```
+
+There are no large speech-model weights, external audio-service credentials, downloaded reference videos, or dependency caches committed to the project. See [ATTRIBUTION.md](ATTRIBUTION.md) for the local font licenses and source records.
+
+## Main files
+
+- `src/StarBalance.tsx`: landscape scene composition, camera/layout changes, force arrows, core detail, and captions.
+- `src/characters/Ember.tsx`: original star and its animation controls.
+- `src/IllustratedTitle.tsx`: layered title lettering; ordinary diagram labels use plain rounded type.
+- `src/data/star-narration.json`: script, pending/generated state, caption alignment, and story beats.
+- `scripts/elevenlabs_narration.py`: secure ElevenLabs narration generation.
+- `scripts/render_final.cjs`: final export guard and render command.
+- `scripts/export_character.cjs`: original SVG export from the rig.
+- `scripts/star_sound_design.py`: original score and effects.
+
+Final exports and posters are tracked under `assets/videos/` and pushed for GitHub download. Temporary render checks remain under the ignored `out/` directory.

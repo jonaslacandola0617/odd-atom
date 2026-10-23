@@ -6,8 +6,10 @@ type Line = {text: string; size: number; baseline: number};
 export const IllustratedTitle: React.FC<{
   lines: Line[];
   centerY: number;
+  centerX?: number;
+  strokeScale?: number;
   tilt?: number;
-}> = ({lines, centerY, tilt = -3}) => {
+}> = ({lines, centerY, centerX = 540, strokeScale = 1, tilt = -3}) => {
   const layers = [
     {color: '#872B46', width: 38, x: 2, y: 10, face: false},
     {color: '#E48321', width: 31, x: 0, y: 0, face: false},
@@ -16,18 +18,18 @@ export const IllustratedTitle: React.FC<{
     {color: '#FFFFF3', width: 0, x: 0, y: 0, face: true},
   ];
   return (
-    <g transform={`rotate(${tilt} 540 ${centerY})`} fontFamily="Nunito, sans-serif" fontWeight={1000}>
-      {layers.map((layer, index) => <g key={index} transform={`translate(${layer.x} ${layer.y})`}>
+    <g transform={`rotate(${tilt} ${centerX} ${centerY})`} fontFamily="Nunito, sans-serif" fontWeight={1000}>
+      {layers.map((layer, index) => <g key={index} transform={`translate(${layer.x * strokeScale} ${layer.y * strokeScale})`}>
         {lines.map(line => <text
           key={line.text}
-          x="540"
+          x={centerX}
           y={line.baseline}
           textAnchor="middle"
           fontSize={line.size}
           letterSpacing="-2"
           fill={layer.face ? layer.color : 'none'}
           stroke={layer.face ? 'none' : layer.color}
-          strokeWidth={layer.width}
+          strokeWidth={layer.width * strokeScale}
           strokeLinejoin="round"
           strokeLinecap="round"
         >{line.text}</text>)}

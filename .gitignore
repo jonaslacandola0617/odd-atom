@@ -3,3 +3,7 @@ out/
 .remotion/
 .cache/
 *.tsbuildinfo
+__pycache__/
+*.py[cod]
+.env
+.env.local

@@ -1,6 +1,6 @@
 # Video delivery
 
-- Use Remotion for video production and preserve the user's original character SVGs.
+- Use Remotion for video production. The user has retired and requested deletion of the four supplied character SVGs and their old rig; use original characters instead.
 - Save finished MP4s and their posters under `assets/videos/`, which is tracked by Git.
 - For video deliveries, include the finished MP4 with the related source changes and push to this repository, following the user's standing preference. Respect any later instruction to keep work local.
 - Verify that the remote branch contains the delivery commit before sharing GitHub file and download links. Local workspace links alone do not satisfy video delivery.
@@ -13,3 +13,9 @@
 - Opening titles should be readable from the first frame and integrated with the action. Do not fill the rest of the episode with large headings that merely repeat narration.
 - Use short plain narration captions over the artwork with a thin dark edge, without dashboard panels or caption cards.
 - Keep source-access limitations explicit. Do not claim to have researched a live channel when its pages could not be accessed.
+
+# Current production requirements
+
+- Produce landscape 16:9 long-form material. The current test is 20 seconds at 1920 × 1080 and 30 fps.
+- Use ElevenLabs for narration. Never silently substitute another provider. Keep API keys in environment settings and out of files, commands, logs, and Git.
+- Keep visual previews clearly identified by filename and delivery notes if ElevenLabs narration is not yet available; do not claim such a preview is the completed narrated video.
