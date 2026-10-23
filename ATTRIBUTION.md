@@ -10,6 +10,10 @@ Outfit variable font, distributed by Google Fonts under the SIL Open Font Licens
 
 - Font: https://github.com/google/fonts/tree/main/ofl/outfit
 
+Nunito variable font, used for the revised title lettering, is distributed by Google Fonts under the SIL Open Font License 1.1. Its license is retained at `public/assets/fonts/Nunito-OFL.txt`. It is a chosen production font; the exact fonts in the reference videos have not been identified.
+
+- Font: https://github.com/google/fonts/tree/main/ofl/nunito
+
 ## Geographic source
 
 `src/generated/land.geojson.json` is Natural Earth's 1:110m land dataset, distributed as public-domain map data. The globe design, colors, atmosphere, clouds, lighting, and animation are original to this project.

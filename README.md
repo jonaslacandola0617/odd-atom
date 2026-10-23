@@ -58,7 +58,13 @@ The pilot uses the astronaut and bird. Both ordinary characters are available fo
 | 5.95–10.25 s | “But they move sideways so fast, they keep missing Earth.” A tangent velocity arrow and a growing orbit trail demonstrate the motion. |
 | 10.25–12 s | “That's an orbit.” The explanation resolves with the orbit and a happy expression. |
 
-In a simplified circular orbit, gravity points toward Earth's center while velocity is tangent to the orbit. The astronaut and spacecraft are in continuous free fall. The diagram deliberately exaggerates altitude and playback speed, as stated on screen. It illustrates direction and the orbital idea; it is not a numerical orbital simulation. It does not imply that every sideways speed produces a stable orbit.
+In a simplified circular orbit, gravity points toward Earth's center while velocity is tangent to the orbit. The astronaut and spacecraft are in continuous free fall. The illustration exaggerates altitude and playback speed. It illustrates direction and the orbital idea; it is not a numerical orbital simulation. It does not imply that every sideways speed produces a stable orbit. These production notes stay in the documentation rather than appearing over the story.
+
+## Visual direction
+
+The opening uses heavy rounded lettering with a dark offset shadow, orange outer outline, gold middle outline, pale inner outline, and light letter faces. The complete title is visible from frame zero, holds over the character action, and exits before the explanation. The remainder of the episode uses the characters, force/velocity arrows, orbit trail, and short white captions. There are no brand overlays, episode badges, taglines, timers, progress bars, schematic notes, or caption panels.
+
+See [the reference-study notes](docs/reference-study.md) for the observations behind this revision and the limits of live channel access.
 
 Further reading: NASA, [What Is Microgravity?](https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-5-8/). This page could not be fetched from the current environment's network; no claim is made that it was inspected during production. The explanation uses standard orbital mechanics and introduces no new numerical science claims. This is an original evergreen topic selection, not a claim of verified current social-platform trends.
 
@@ -83,6 +89,7 @@ The model directory must contain `kokoro-v1.0.onnx` and `voices-v1.0.bin`. The l
 
 - `src/Orbit.tsx`: sequence timing, scene layout, typography, orbital graphics, captions, and sound stems.
 - `src/Characters.tsx`: original-character animation and expression alignment.
+- `src/IllustratedTitle.tsx`: rounded title lettering with separately painted outline layers and shadow.
 - `src/Earth.tsx`: rotating orthographic globe with land projection and atmosphere.
 - `src/Root.tsx`: composition dimensions, fps, and duration.
 - `scripts/`: asset preparation and optional sound regeneration.
