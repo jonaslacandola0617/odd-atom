@@ -1,0 +1,69 @@
+{
+  "provider": "elevenlabs",
+  "status": "generated",
+  "audioFile": "assets/audio/crowd/narration.wav",
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "modelId": "eleven_multilingual_v2",
+  "script": "You can be surrounded by people and still feel alone. Being nearby isn't the same as feeling connected. Connection grows when someone notices you, listens, and responds. One conversation won't solve loneliness. But it can be a small first step toward feeling seen.",
+  "beatPhrases": {
+    "nearby": "being nearby",
+    "notice": "connection grows",
+    "conversation": "one conversation",
+    "seen": "but it can"
+  },
+  "beats": {
+    "nearby": 4.007,
+    "notice": 7.529,
+    "conversation": 12.624,
+    "seen": 15.372
+  },
+  "captions": [
+    {
+      "start": 0.228,
+      "end": 1.801,
+      "text": "You can be surrounded by people"
+    },
+    {
+      "start": 1.801,
+      "end": 3.392,
+      "text": "and still feel alone."
+    },
+    {
+      "start": 4.007,
+      "end": 5.864,
+      "text": "Being nearby isn't the same as"
+    },
+    {
+      "start": 5.864,
+      "end": 7.12,
+      "text": "feeling connected."
+    },
+    {
+      "start": 7.529,
+      "end": 10.134,
+      "text": "Connection grows when someone notices you,"
+    },
+    {
+      "start": 10.134,
+      "end": 11.893,
+      "text": "listens, and responds."
+    },
+    {
+      "start": 12.624,
+      "end": 15.324,
+      "text": "One conversation won't solve loneliness."
+    },
+    {
+      "start": 15.372,
+      "end": 16.469,
+      "text": "But it can be a small"
+    },
+    {
+      "start": 16.469,
+      "end": 18.679,
+      "text": "first step toward feeling seen."
+    }
+  ],
+  "timingSource": "ElevenLabs character alignment",
+  "speedAdjustment": 0.9
+}

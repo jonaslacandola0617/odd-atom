@@ -10,6 +10,10 @@
     "render:preview": "remotion render src/index.ts StarBalancePreview assets/videos/star-balance-20s-visual-preview.mp4 --browser-executable=/usr/bin/chromium --concurrency=3 --crf=16 --pixel-format=yuv420p",
     "still": "remotion still src/index.ts StarBalancePreview assets/videos/star-balance-20s-poster.png --frame=45 --browser-executable=/usr/bin/chromium",
     "narrate": "node --use-env-proxy --use-system-ca scripts/elevenlabs_narration.mjs",
+    "narrate:crowd": "node --use-env-proxy --use-system-ca scripts/elevenlabs_narration.mjs crowd",
+    "render:crowd": "node scripts/render_final.cjs crowd",
+    "sound:crowd": "python scripts/crowd_sound_design.py",
+    "assets:crowd": "node scripts/export_crowd_assets.cjs",
     "character": "node scripts/export_character.cjs",
     "sound": "python scripts/star_sound_design.py",
     "typecheck": "tsc --noEmit"

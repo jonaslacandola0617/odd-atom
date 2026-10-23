@@ -6,13 +6,19 @@ import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
+const profiles = {star: 'star', crowd: 'crowd'};
 
 async function main() {
   if (!process.env.ELEVENLABS_API_KEY) {
     console.error('ElevenLabs narration is blocked: add ELEVENLABS_API_KEY securely in environment settings. No alternative narrator was used.');
     return 1;
   }
-  const data = JSON.parse(await readFile(path.join(root, 'src/data/star-narration.json'), 'utf8'));
+  const profile = process.argv[2] || 'star';
+  if (!Object.hasOwn(profiles, profile)) {
+    console.error('Choose an existing narration profile: star or crowd.');
+    return 1;
+  }
+  const data = JSON.parse(await readFile(path.join(root, `src/data/${profile}-narration.json`), 'utf8'));
   const voice = process.env.ELEVENLABS_VOICE_ID || data.voiceId;
   if (!/^[a-zA-Z0-9]+$/.test(voice)) {
     console.error('ELEVENLABS_VOICE_ID must be an ElevenLabs voice identifier.');
@@ -61,7 +67,7 @@ async function main() {
         character_end_times_seconds: alignment.characterEndTimesSeconds,
       },
     }), {mode: 0o600});
-    const processed = spawnSync('python', [path.join(root, 'scripts/elevenlabs_narration.py'), responsePath], {
+    const processed = spawnSync('python', [path.join(root, 'scripts/elevenlabs_narration.py'), responsePath, profile], {
       cwd: root,
       stdio: 'inherit',
     });

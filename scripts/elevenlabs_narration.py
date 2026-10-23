@@ -12,13 +12,16 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / 'src/data/star-narration.json'
-DEST = ROOT / 'public/assets/audio/star-balance/narration.wav'
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3 or sys.argv[2] not in ('star', 'crowd'):
         sys.exit('Use npm run narrate to generate speech with the ElevenLabs SDK.')
-    data = json.loads(MANIFEST.read_text())
+    profile = sys.argv[2]
+    manifest = ROOT / f'src/data/{profile}-narration.json'
+    audio_dir = 'star-balance' if profile == 'star' else 'crowd'
+    audio_file = f'assets/audio/{audio_dir}/narration.wav'
+    destination = ROOT / 'public' / audio_file
+    data = json.loads(manifest.read_text())
     voice = os.environ.get('ELEVENLABS_VOICE_ID', data['voiceId'])
     if not voice.isalnum():
         sys.exit('ELEVENLABS_VOICE_ID must be an ElevenLabs voice identifier.')
@@ -30,7 +33,7 @@ def main():
         raw = Path(tmp) / 'speech.mp3'
         raw.write_bytes(base64.b64decode(result['audio_base64'], validate=True))
         duration = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=nw=1:nk=1', str(raw)], text=True))
-        factor = max(1., duration / 19.45)
+        factor = max(.9, duration / 19.0)
         if factor > 1.15:
             sys.exit('Narration is too long for a natural 20-second read. Revise the script or voice speed and generate again; no final file was replaced.')
         fitted = Path(tmp) / 'narration.wav'
@@ -46,23 +49,27 @@ def main():
             text += char
             if char.isspace() and text.strip():
                 words += 1
-            boundary = char in '.!?,;' or (char.isspace() and words >= 6) or i == len(chars) - 1
+            boundary = char in '.!?;' or (char.isspace() and words >= 6) or i == len(chars) - 1
             if boundary and text.strip() and phrase_start is not None:
                 captions.append({'start': round(phrase_start, 3), 'end': round(min(19.95, ends[i] / factor + .27), 3), 'text': text.strip()})
                 text, phrase_start, words = '', None, 0
+        for current, following in zip(captions, captions[1:]):
+            current['end'] = min(current['end'], following['start'])
         aligned_text = ''.join(alignment['characters']).lower()
         beats = {}
-        for name, phrase in [('gravity', 'gravity squeezes'), ('fusion', 'deep inside'), ('energy', 'that energy'), ('balance', 'for most')]:
+        phrases = data.get('beatPhrases', {'gravity': 'gravity squeezes', 'fusion': 'deep inside', 'energy': 'that energy', 'balance': 'for most'})
+        for name, phrase in phrases.items():
             index = aligned_text.find(phrase)
             if index < 0:
                 sys.exit('Narration alignment did not contain an expected story beat; no final file was replaced.')
             beats[name] = round(alignment['character_start_times_seconds'][index] / factor + .15, 4)
-        if not 0 < beats['gravity'] < beats['fusion'] < beats['energy'] < beats['balance'] < 19.9:
+        ordered = list(beats.values())
+        if not ordered or not 0 < ordered[0] or not ordered[-1] < 19.9 or any(a >= b for a, b in zip(ordered, ordered[1:])):
             sys.exit('Story beat alignment was not valid for this segment; no final file was replaced.')
-        DEST.parent.mkdir(parents=True, exist_ok=True)
-        DEST.write_bytes(fitted.read_bytes())
-    data.update({'status': 'generated', 'audioFile': 'assets/audio/star-balance/narration.wav', 'voiceId': voice, 'captions': captions, 'beats': beats, 'timingSource': 'ElevenLabs character alignment', 'speedAdjustment': round(factor, 6)})
-    MANIFEST.write_text(json.dumps(data, indent=2) + '\n')
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_bytes(fitted.read_bytes())
+    data.update({'status': 'generated', 'audioFile': audio_file, 'voiceId': voice, 'captions': captions, 'beats': beats, 'timingSource': 'ElevenLabs character alignment', 'speedAdjustment': round(factor, 6)})
+    manifest.write_text(json.dumps(data, indent=2) + '\n')
     print('Saved ElevenLabs narration and aligned captions. Ready for the narrated composition.')
 
 if __name__ == '__main__':

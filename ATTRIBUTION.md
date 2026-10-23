@@ -4,17 +4,15 @@
 
 Ember, its vector geometry, two-bone arm rig, face controls, stellar cutaway, and scene artwork were created for this project. The neutral SVG is exported from the editable React component. The score and effects are synthesized from deterministic oscillators and noise; they contain no sampled commercial music or effects.
 
+Mira, Sol, their human rig, the crowd variations, street, café, furniture, plants, and cup geometry were also authored for this project. Their editable components and exported neutral/set SVGs are original production artwork. The crowd test's keyboard score and ambience were synthesized for this segment.
+
 The four previously supplied character SVGs and their animation source were removed at the user's request. No paths from those characters are used in Ember. Older review MP4s and Git history remain historical records.
 
 ## Narration
 
-ElevenLabs is the required provider for the current long-form test. Narration is pending because no API key is bound and the service is blocked by the running environment's network policy. No narration-provider substitution has been made. The exported visual preview contains music and effects only.
+ElevenLabs successfully generated the narration for **Alone in a crowd** using the official `@elevenlabs/elevenlabs-js` SDK, George (`JBFqnCBsd6RMkjVDRZzb`), and `eleven_multilingual_v2`. The returned character alignment supplies caption and story timing. A pitch-preserving 0.9 tempo adjustment was applied to the first generation. The script is original; it does not reproduce a reference episode's narration.
 
-The integration follows the official ElevenLabs Python SDK's documented voice/model conventions and the API's character-timestamp response format. The official SDK README was retrieved from:
-
-- https://github.com/elevenlabs/elevenlabs-python
-
-API generation has not been verified against a successful service response. Keys belong only in secure environment settings. Do not publish account credentials or include them in project files.
+The earlier star segment still has pending narration and is supplied as a visual preview. Keys belong only in secure environment settings, outside project files and Git.
 
 ## Fonts
 
@@ -29,7 +27,7 @@ These are selected production fonts. No claim is made that they are the exact ty
 
 The user's previously uploaded eight shorts were studied as visual references. Their footage, frames, soundtracks, and narration are not included in the current production assets.
 
-Live requests for `https://www.youtube.com/@kurzgesagt/videos` and `https://kurzgesagt.org/` failed at the environment's network proxy with HTTP 403. No completed live-channel or long-form reference study is claimed.
+The official website later became accessible. Its downloaded illustrations and case-study images are saved under `references/studies/`, with source URLs and hashes. Those are official Kurzgesagt reference artwork, not generated Odd Atom graphics, and are not included in the crowd film. The [expanded study](references/studies/topic-range-2026-10-23/README.md) records exactly what was inspected. YouTube episode playback remains blocked, so no completed long-form motion/audio study is claimed.
 
 ## Tooling
 

@@ -2,7 +2,7 @@
 
 ## Deliverable status
 
-The visual test is a 1920 × 1080, 30 fps, 600-frame Remotion segment. The original character, layout, cutaway, explanatory motion, provisional captions, score, and effects can be reviewed independently of ElevenLabs. The official ElevenLabs SDK is now connected and CLI authentication succeeds. Narration generation and the narrated export remain pending the live test. The preview filename and README identify this distinction; no production-status labels are burned into the film.
+The visual test is a 1920 × 1080, 30 fps, 600-frame Remotion segment. The original character, layout, cutaway, explanatory motion, provisional captions, score, and effects can be reviewed independently of ElevenLabs. The shared SDK pipeline has since generated successful narration for [Alone in a crowd](crowd-test.md). This star segment's own narration and final export have not been generated. The preview filename and README identify this distinction; no production-status labels are burned into the film.
 
 ## Scope and reference limitations
 
@@ -51,6 +51,6 @@ These are production choices for this test, not measured claims about inaccessib
 
 The user has published the configuration, including the corrected secure `ELEVENLABS_API_KEY` binding. The SDK reads it directly from the environment. `npm run narrate` runs the JavaScript timestamp-generation entry point with Node's environment-proxy and system-CA flags, then invokes the existing Python/FFmpeg audio processor. The SDK is confined to build-time scripts and does not expose a client in the rendered browser code. The existing voice, model, timing alignment, and audio processing remain in place.
 
-Static checks and an offline SDK serialization/response-mapping check pass. CLI authentication succeeds. Live speech generation still requires the onboarding test confirmation; no speech has been generated during installation. YouTube access remains separately blocked despite the published destinations.
+Static checks, an offline SDK serialization/response-mapping check, and CLI authentication passed during installation. The subsequent crowd film successfully exercised live generation and the shared processing pipeline. The default `npm run narrate` still targets this star manifest independently; it has not been run to generate this segment's voice. YouTube access remains separately blocked despite the published destinations.
 
 The narration script uses HTTPS through the environment's configured route. It does not print the key, save it, or send it to any other destination. Missing credentials fail before a generation request. The final-render command and narrated composition reject missing ElevenLabs output. The visual preview is the only render permitted while narration remains pending.
