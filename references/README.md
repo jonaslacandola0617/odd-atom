@@ -12,6 +12,8 @@ Retried on October 23, 2026 after the user published the network configuration. 
 
 The official studio website now responds with HTTP 200. Eight website reference assets were downloaded, including a short silent amoeba animation. See the [actual artwork observations and visual boards](studies/official-site/README.md). These findings are separate from the three unseen YouTube episodes.
 
+The [expanded topic study](studies/topic-range-2026-10-23/README.md) adds six official episode case studies and 12 accompanying images, covering emotion, trust, war, collective action, future generations, and a scale journey. It includes three comparison boards, source records, and an original-production guide. All downloaded illustrations are official reference artwork, not generated Odd Atom assets. YouTube was rechecked and remains blocked; these are case-study/still-image findings, not full-episode reviews.
+
 The installed downloader is yt-dlp 2026.10.21, with Node.js for JavaScript support and FFmpeg for merging. Retries were disabled for the blocked requests. No additional installation is needed to try again after access changes.
 
 ## Download after access changes

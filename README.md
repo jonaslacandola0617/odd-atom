@@ -20,6 +20,8 @@ The official studio website is accessible; the [website artwork study](reference
 
 The user's three newly selected long-form reference links are saved in the [reference library](references/README.md), with per-video download/viewing status in [the catalog](references/catalog.json). All three download attempts are currently blocked by the network proxy.
 
+The [expanded reference study](references/studies/topic-range-2026-10-23/README.md) examines six official episode case studies and 12 images across human emotion, trust, war, collective action, future generations, and exploration. The boards display downloaded official artwork; they are not original graphics generated for this channel. Full-episode motion and audio analysis remains pending YouTube access.
+
 ## Install and preview
 
 Use Node.js 24.5 or newer, Python 3, FFmpeg, and Chromium. The narration command uses Node's environment-proxy routing and system certificate store. Cloud render scripts use `/usr/bin/chromium`; on another system, replace that executable path with the local Chrome/Chromium path.
