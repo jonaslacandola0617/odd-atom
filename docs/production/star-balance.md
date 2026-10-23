@@ -2,13 +2,13 @@
 
 ## Deliverable status
 
-The visual test is a 1920 × 1080, 30 fps, 600-frame Remotion segment. The original character, layout, cutaway, explanatory motion, provisional captions, score, and effects can be reviewed independently of ElevenLabs. The narrated deliverable is pending service access and a secure API key. The preview filename and README identify this distinction; no production-status labels are burned into the film.
+The visual test is a 1920 × 1080, 30 fps, 600-frame Remotion segment. The original character, layout, cutaway, explanatory motion, provisional captions, score, and effects can be reviewed independently of ElevenLabs. The official ElevenLabs SDK is now connected and CLI authentication succeeds. Narration generation and the narrated export remain pending the live test. The preview filename and README identify this distinction; no production-status labels are burned into the film.
 
 ## Scope and reference limitations
 
 The user requested a switch from shorts to long-form, an original character, deletion of the supplied character assets, ElevenLabs narration, and continued study of Kurzgesagt's long-form topics and craft.
 
-At the original preview build, the official channel, studio website, and ElevenLabs endpoint all failed at the network proxy, and no ElevenLabs key was available. On the October 23 recheck after configuration publication, the official website opened and supplied the [website artwork study](../../references/studies/official-site/README.md). YouTube pages and thumbnails still returned proxy HTTP 403. ElevenLabs became reachable and the key was present, but its voices endpoint rejected that key with HTTP 401 and `invalid_api_key`. Narration remains ungenerated.
+At the original preview build, the official channel, studio website, and ElevenLabs endpoint all failed at the network proxy, and no ElevenLabs key was available. On the October 23 recheck after configuration publication, the official website opened and supplied the [website artwork study](../../references/studies/official-site/README.md). YouTube pages and thumbnails still returned proxy HTTP 403. After secure key replacement and correction of its environment-variable name, the ElevenLabs onboarding CLI confirmed that authentication works. Narration remains ungenerated.
 
 The available uploads are eight vertical shorts. Their observations remain in the historical reference-study notes. They do not establish the channel's long-form composition, timing, soundtrack, or typography. The current scene is an original proposal for a long-form segment; closer live reference study remains outstanding.
 
@@ -47,8 +47,10 @@ No user-supplied SVG geometry or old clip-mask rig is used. `npm run character` 
 
 These are production choices for this test, not measured claims about inaccessible long-form reference footage.
 
-## Required access before the narrated deliverable
+## ElevenLabs integration and remaining validation
 
-The user has published the configuration, including the secure `ELEVENLABS_API_KEY` binding and the requested destinations. The key is available to the process, but the service rejects it as invalid. A valid key must be entered through secure environment settings before narration can be generated. YouTube access remains separately blocked despite the published destinations. Recheck the actual operations after either condition changes.
+The user has published the configuration, including the corrected secure `ELEVENLABS_API_KEY` binding. The SDK reads it directly from the environment. `npm run narrate` runs the JavaScript timestamp-generation entry point with Node's environment-proxy and system-CA flags, then invokes the existing Python/FFmpeg audio processor. The SDK is confined to build-time scripts and does not expose a client in the rendered browser code. The existing voice, model, timing alignment, and audio processing remain in place.
+
+Static checks and an offline SDK serialization/response-mapping check pass. CLI authentication succeeds. Live speech generation still requires the onboarding test confirmation; no speech has been generated during installation. YouTube access remains separately blocked despite the published destinations.
 
 The narration script uses HTTPS through the environment's configured route. It does not print the key, save it, or send it to any other destination. Missing credentials fail before a generation request. The final-render command and narrated composition reject missing ElevenLabs output. The visual preview is the only render permitted while narration remains pending.

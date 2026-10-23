@@ -1,7 +1,7 @@
-"""Generate the required ElevenLabs narration through the configured HTTPS route.
+"""Process the timestamped ElevenLabs response supplied by the official JS SDK.
 
-API key: ELEVENLABS_API_KEY in environment settings. Optional ELEVENLABS_VOICE_ID.
-No keys are printed, saved, or passed on a command line. Requires Python 3 and FFmpeg.
+Run npm run narrate, not this internal processor directly. No API key is read here.
+Requires Python 3 and FFmpeg.
 """
 import base64
 import json
@@ -10,38 +10,19 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
-import urllib.error
-import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'src/data/star-narration.json'
 DEST = ROOT / 'public/assets/audio/star-balance/narration.wav'
 
 def main():
-    key = os.environ.get('ELEVENLABS_API_KEY')
-    if not key:
-        sys.exit('ElevenLabs narration is blocked: add ELEVENLABS_API_KEY securely in environment settings. No alternative narrator was used.')
+    if len(sys.argv) != 2:
+        sys.exit('Use npm run narrate to generate speech with the ElevenLabs SDK.')
     data = json.loads(MANIFEST.read_text())
     voice = os.environ.get('ELEVENLABS_VOICE_ID', data['voiceId'])
     if not voice.isalnum():
         sys.exit('ELEVENLABS_VOICE_ID must be an ElevenLabs voice identifier.')
-    payload = {
-        'text': data['script'], 'model_id': data['modelId'],
-        'voice_settings': {'stability': .55, 'similarity_boost': .75, 'style': .08, 'use_speaker_boost': True, 'speed': 1.04},
-    }
-    request = urllib.request.Request(
-        f'https://api.elevenlabs.io/v1/text-to-speech/{voice}/with-timestamps?output_format=mp3_44100_128',
-        data=json.dumps(payload).encode(),
-        headers={'xi-api-key': key, 'Content-Type': 'application/json', 'Accept': 'application/json'},
-        method='POST',
-    )
-    try:
-        with urllib.request.urlopen(request, timeout=90) as response:
-            result = json.load(response)
-    except urllib.error.HTTPError as error:
-        sys.exit(f'ElevenLabs returned HTTP {error.code}. Check API access, the secure key binding, and account permissions. No narration file was replaced.')
-    except urllib.error.URLError:
-        sys.exit('Cannot reach ElevenLabs through the configured network route. No narration file was replaced.')
+    result = json.loads(Path(sys.argv[1]).read_text())
     alignment = result.get('normalized_alignment') or result.get('alignment')
     if not alignment or not result.get('audio_base64'):
         sys.exit('ElevenLabs response did not include audio and alignment. No narration file was replaced.')

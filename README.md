@@ -16,13 +16,13 @@ The four supplied character SVGs and their rig were removed at the user's reques
 
 This is a landscape segment intended to test a longer explanatory-video format. On-screen text is limited to the opening story title, the mechanism/force labels, and short white narration captions. No branding overlays, episode codes, timers, progress bars, taglines, or production notes appear in the video.
 
-Live inspection of Kurzgesagt's long-form channel and official site is still blocked by the environment's network proxy. The uploaded reference files previously studied are vertical shorts. The current treatment is an original production proposal; it is not claimed to be a completed study of the channel's long-form work or equivalent studio quality. See [production notes](docs/production/star-balance.md).
+The official studio website is accessible; the [website artwork study](references/studies/official-site/README.md) records the actual references inspected. YouTube long-form episodes remain blocked by the environment's network proxy. The uploaded video references previously studied are vertical shorts. The current treatment is an original production proposal; it is not claimed to be a completed study of the channel's long-form work or equivalent studio quality. See [production notes](docs/production/star-balance.md).
 
 The user's three newly selected long-form reference links are saved in the [reference library](references/README.md), with per-video download/viewing status in [the catalog](references/catalog.json). All three download attempts are currently blocked by the network proxy.
 
 ## Install and preview
 
-Use Node.js 22 or newer and Chromium. Cloud scripts use `/usr/bin/chromium`; on another system, replace that executable path with the local Chrome/Chromium path.
+Use Node.js 24.5 or newer, Python 3, FFmpeg, and Chromium. The narration command uses Node's environment-proxy routing and system certificate store. Cloud render scripts use `/usr/bin/chromium`; on another system, replace that executable path with the local Chrome/Chromium path.
 
 ```sh
 cd /workspace/odd-atom
@@ -47,22 +47,24 @@ The older `why-astronauts-float` MP4 is an archived review export. Its retired s
 
 ## Enable ElevenLabs narration
 
-The environment draft now declares `ELEVENLABS_API_KEY` as a secure requirement for `api.elevenlabs.io` and adds network destinations needed for ElevenLabs and channel research. Review and save those changes in environment settings, supply the key securely there, then publish the environment. Draft saving alone does not apply the settings to a running machine. Never paste the key in chat or add it to Git.
+The official `@elevenlabs/elevenlabs-js` SDK is installed and connected to the narration pipeline. The current `ELEVENLABS_API_KEY` binding has passed ElevenLabs CLI authentication. Speech generation has not yet been tested, and the preview remains unvoiced.
+
+Keep the key in secure environment settings under the exact name `ELEVENLABS_API_KEY`. The SDK reads it automatically; there is no key literal or environment-file reader in the application. Never paste the key in chat or add it to Git. This build-time client is separate from the Remotion browser bundle.
 
 An optional non-secret `ELEVENLABS_VOICE_ID` selects a different account-accessible voice. Otherwise the script uses ElevenLabs' documented stock voice ID `JBFqnCBsd6RMkjVDRZzb` with `eleven_multilingual_v2`. No voice cloning is performed.
 
-Once the key and network access are available:
+To generate the narration and render the finished segment:
 
 ```sh
 npm run narrate
 npm run render
 ```
 
-The narration script makes an authenticated ElevenLabs request with character timestamps, writes the audio to `public/assets/audio/star-balance/narration.wav`, and updates the caption and story-beat timing in `src/data/star-narration.json`. The animation maps its principal transitions to those returned story beats. A small bounded speed adjustment may fit the read into 20 seconds; a read requiring more than 15% acceleration is rejected.
+The JavaScript entry point uses `ElevenLabsClient.textToSpeech.convertWithTimestamps`. It passes the generated audio and character alignment to the existing Python/FFmpeg processor, which writes `public/assets/audio/star-balance/narration.wav` and updates the caption and story-beat timing in `src/data/star-narration.json`. The animation maps its principal transitions to those returned story beats. A small bounded speed adjustment may fit the read into 20 seconds; a read requiring more than 15% acceleration is rejected. Failed requests do not replace existing narration, and SDK error objects are not logged because they can contain request credentials.
 
 The final narrated output will be `assets/videos/star-balance-20s.mp4`. That file is not generated until ElevenLabs succeeds. The final-render command checks the provider, generated status, and audio file before invoking Remotion. The composition also enforces the requirement when invoked directly.
 
-The ElevenLabs generation path and live channel inspection remain unverified until access is enabled. Local missing-key handling and the final-export guard have been exercised; neither produces substitute speech.
+The SDK request serialization and timestamp response mapping were checked offline with a mocked response. TypeScript and script syntax checks passed. CLI authentication succeeded; live speech generation and the narrated export still need an end-to-end test. YouTube inspection remains separately blocked.
 
 ## Sound and sources
 
@@ -80,7 +82,8 @@ There are no large speech-model weights, external audio-service credentials, dow
 - `src/characters/Ember.tsx`: original star and its animation controls.
 - `src/IllustratedTitle.tsx`: layered title lettering; ordinary diagram labels use plain rounded type.
 - `src/data/star-narration.json`: script, pending/generated state, caption alignment, and story beats.
-- `scripts/elevenlabs_narration.py`: secure ElevenLabs narration generation.
+- `scripts/elevenlabs_narration.mjs`: official ElevenLabs SDK client and timestamped speech generation.
+- `scripts/elevenlabs_narration.py`: internal audio fitting, normalization, captions, and scene timing.
 - `scripts/render_final.cjs`: final export guard and render command.
 - `scripts/export_character.cjs`: original SVG export from the rig.
 - `scripts/star_sound_design.py`: original score and effects.
