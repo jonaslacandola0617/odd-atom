@@ -1,0 +1,569 @@
+{
+  "scope": "Artwork-only raster and authored-geometry audit, not episode playback or style-match scoring.",
+  "tested_film_commit": "fb540ed5f5e714612484b9476d64f814bbd1dd91",
+  "tested_film": {
+    "path": "assets/videos/alone-in-a-crowd-20s.mp4",
+    "sha256": "09104c7aa38c8985adc077fcdb158bc774ba17ec8a201404fe9eb9707b1674cd",
+    "frame_extraction": "FFmpeg -ss TIME -i INPUT -frames:v 1 OUTPUT; times 5.5 and 12.0 seconds (frames 165 and 360 at 30 fps)."
+  },
+  "coordinates": "Native pixels, origin top left. Crops use right/bottom exclusive boxes.",
+  "methods": {
+    "saturation": "HSV S=(max(sRGB)-min(sRGB))/max(sRGB), zero if max=0; encoded RGB/255.",
+    "luminance": "sRGB inverse transfer, then linear Y=0.2126 R+0.7152 G+0.0722 B.",
+    "patches": "Per-channel median over 7x7 pixels, then S and Y of that RGB median.",
+    "limits": "Different scenes, crops, compression and dimensions; no registration, RMSE, SSIM or quality percentage. Full-frame test statistics include captions; top-900-pixel statistics exclude the caption area."
+  },
+  "inputs": {
+    "ref_street": {
+      "path": "references/studies/topic-range-2026-10-23/images/loneliness-01.webp",
+      "sha256": "0c6d8243ccd57d94b9e754eff7789c33f8eef0519885443d36336036761d0d5e",
+      "all_pixels": {
+        "size": [
+          1984,
+          996
+        ],
+        "pixels": 1976064,
+        "saturation_p10_median_p90": [
+          0.99115,
+          1.0,
+          1.0
+        ],
+        "percent_saturation_ge_0_7": 98.242,
+        "linear_luminance_p10_median_p90": [
+          0.012414,
+          0.020615,
+          0.028899
+        ],
+        "percent_linear_luminance_lt_0_05": 96.775,
+        "percent_linear_luminance_gt_0_5": 0.279
+      },
+      "source_page": "https://kurzgesagt.org/projects/loneliness",
+      "original_asset_url": "https://ksite.fra1.cdn.digitaloceanspaces.com/uploads/30bba29ad67ccbde29b8017f874c1872.png",
+      "authorship": "Official Kurzgesagt artwork, downloaded previously; not ours."
+    },
+    "ref_people": {
+      "path": "references/studies/topic-range-2026-10-23/images/loneliness-02.webp",
+      "sha256": "f40297999a5ea0e79a5b26752a1b26f8089b538d4e6a6ce4633d65ece2017e41",
+      "all_pixels": {
+        "size": [
+          1988,
+          1004
+        ],
+        "pixels": 1995952,
+        "saturation_p10_median_p90": [
+          0.697211,
+          0.988571,
+          1.0
+        ],
+        "percent_saturation_ge_0_7": 82.151,
+        "linear_luminance_p10_median_p90": [
+          0.045437,
+          0.074008,
+          0.450432
+        ],
+        "percent_linear_luminance_lt_0_05": 13.645,
+        "percent_linear_luminance_gt_0_5": 9.133
+      },
+      "source_page": "https://kurzgesagt.org/projects/loneliness",
+      "original_asset_url": "https://ksite.fra1.cdn.digitaloceanspaces.com/uploads/458cc33c36f688d15a562869940bf9d6.png",
+      "authorship": "Official Kurzgesagt artwork, downloaded previously; not ours."
+    },
+    "ref_future": {
+      "path": "references/studies/topic-range-2026-10-23/images/the-last-human-01.png",
+      "sha256": "526d571f598eb596601d3a2f45336ba508029d308d56cf20a009a59e00f0c132",
+      "all_pixels": {
+        "size": [
+          1958,
+          1046
+        ],
+        "pixels": 2048068,
+        "saturation_p10_median_p90": [
+          0.201613,
+          0.654618,
+          0.984252
+        ],
+        "percent_saturation_ge_0_7": 45.582,
+        "linear_luminance_p10_median_p90": [
+          0.009134,
+          0.140579,
+          0.794791
+        ],
+        "percent_linear_luminance_lt_0_05": 35.668,
+        "percent_linear_luminance_gt_0_5": 33.874
+      },
+      "source_page": "https://kurzgesagt.org/projects/the-last-human",
+      "original_asset_url": "https://ksite.fra1.cdn.digitaloceanspaces.com/uploads/b1942f8d84b71fa8650a90aa6e04ca14.png",
+      "authorship": "Official Kurzgesagt artwork, downloaded previously; not ours."
+    },
+    "test_street": {
+      "path": "docs/production/artwork-audit/frames/test-street.png",
+      "sha256": "3b54b54aa653dd2af675a0ca753fb8dd24a1dc4f4b221be3355dede983e58950",
+      "all_pixels": {
+        "size": [
+          1920,
+          1080
+        ],
+        "pixels": 2073600,
+        "saturation_p10_median_p90": [
+          0.4,
+          0.532468,
+          0.669903
+        ],
+        "percent_saturation_ge_0_7": 4.396,
+        "linear_luminance_p10_median_p90": [
+          0.024242,
+          0.044259,
+          0.202371
+        ],
+        "percent_linear_luminance_lt_0_05": 58.37,
+        "percent_linear_luminance_gt_0_5": 2.979
+      },
+      "top_900_pixels": {
+        "size": [
+          1920,
+          900
+        ],
+        "pixels": 1728000,
+        "saturation_p10_median_p90": [
+          0.38,
+          0.535714,
+          0.669903
+        ],
+        "percent_saturation_ge_0_7": 5.269,
+        "linear_luminance_p10_median_p90": [
+          0.024242,
+          0.048809,
+          0.264393
+        ],
+        "percent_linear_luminance_lt_0_05": 51.298,
+        "percent_linear_luminance_gt_0_5": 3.302
+      }
+    },
+    "test_cafe": {
+      "path": "docs/production/artwork-audit/frames/test-cafe.png",
+      "sha256": "01cfdb273d06c321d037cee7ac475a74fb4d3671bc2d056b01abfc37c6e52c89",
+      "all_pixels": {
+        "size": [
+          1920,
+          1080
+        ],
+        "pixels": 2073600,
+        "saturation_p10_median_p90": [
+          0.330709,
+          0.432099,
+          0.508065
+        ],
+        "percent_saturation_ge_0_7": 1.324,
+        "linear_luminance_p10_median_p90": [
+          0.052469,
+          0.096689,
+          0.537708
+        ],
+        "percent_linear_luminance_lt_0_05": 4.07,
+        "percent_linear_luminance_gt_0_5": 13.455
+      },
+      "top_900_pixels": {
+        "size": [
+          1920,
+          900
+        ],
+        "pixels": 1728000,
+        "saturation_p10_median_p90": [
+          0.357143,
+          0.437768,
+          0.533333
+        ],
+        "percent_saturation_ge_0_7": 1.589,
+        "linear_luminance_p10_median_p90": [
+          0.052469,
+          0.096689,
+          0.553221
+        ],
+        "percent_linear_luminance_lt_0_05": 3.059,
+        "percent_linear_luminance_gt_0_5": 16.019
+      }
+    }
+  },
+  "crops": [
+    {
+      "board": "01-faces.png",
+      "source": "ref_people",
+      "box_xyxy": [
+        995,
+        205,
+        1165,
+        395
+      ],
+      "integer_zoom": 2,
+      "sampling": "nearest"
+    },
+    {
+      "board": "01-faces.png",
+      "source": "ref_people",
+      "box_xyxy": [
+        1465,
+        35,
+        1635,
+        225
+      ],
+      "integer_zoom": 2,
+      "sampling": "nearest"
+    },
+    {
+      "board": "01-faces.png",
+      "source": "test_cafe",
+      "box_xyxy": [
+        540,
+        430,
+        710,
+        620
+      ],
+      "integer_zoom": 2,
+      "sampling": "nearest"
+    },
+    {
+      "board": "01-faces.png",
+      "source": "test_cafe",
+      "box_xyxy": [
+        1180,
+        430,
+        1350,
+        620
+      ],
+      "integer_zoom": 2,
+      "sampling": "nearest"
+    },
+    {
+      "board": "02-contours.png",
+      "source": "ref_people",
+      "box_xyxy": [
+        925,
+        205,
+        1160,
+        840
+      ],
+      "integer_zoom": 1,
+      "sampling": "nearest"
+    },
+    {
+      "board": "02-contours.png",
+      "source": "test_street",
+      "box_xyxy": [
+        840,
+        250,
+        1110,
+        970
+      ],
+      "integer_zoom": 1,
+      "sampling": "nearest"
+    },
+    {
+      "board": "02-contours.png",
+      "source": "ref_people",
+      "box_xyxy": [
+        985,
+        350,
+        1160,
+        515
+      ],
+      "integer_zoom": 2,
+      "sampling": "nearest"
+    },
+    {
+      "board": "02-contours.png",
+      "source": "test_cafe",
+      "box_xyxy": [
+        530,
+        590,
+        715,
+        755
+      ],
+      "integer_zoom": 2,
+      "sampling": "nearest"
+    },
+    {
+      "board": "02-contours.png",
+      "source": "ref_people",
+      "box_xyxy": [
+        1050,
+        555,
+        1130,
+        645
+      ],
+      "integer_zoom": 3,
+      "sampling": "nearest"
+    },
+    {
+      "board": "02-contours.png",
+      "source": "test_cafe",
+      "box_xyxy": [
+        705,
+        695,
+        805,
+        785
+      ],
+      "integer_zoom": 3,
+      "sampling": "nearest"
+    },
+    {
+      "board": "02-contours.png",
+      "source": "test_street",
+      "box_xyxy": [
+        1015,
+        620,
+        1095,
+        710
+      ],
+      "integer_zoom": 2,
+      "sampling": "nearest"
+    },
+    {
+      "board": "05-native-patches.png",
+      "source": "ref_street",
+      "box_xyxy": [
+        30,
+        15,
+        450,
+        320
+      ],
+      "integer_zoom": 1,
+      "sampling": "nearest"
+    },
+    {
+      "board": "05-native-patches.png",
+      "source": "test_street",
+      "box_xyxy": [
+        30,
+        15,
+        450,
+        320
+      ],
+      "integer_zoom": 1,
+      "sampling": "nearest"
+    }
+  ],
+  "probes": {
+    "reference_street_wall": {
+      "source": "ref_street",
+      "center_xy": [
+        370,
+        130
+      ],
+      "patch_size": [
+        7,
+        7
+      ],
+      "rgb_channel_medians": [
+        46,
+        0,
+        125
+      ],
+      "hex": "#2E007D",
+      "hsv_saturation": 1.0,
+      "linear_luminance": 0.020615
+    },
+    "test_street_wall": {
+      "source": "test_street",
+      "center_xy": [
+        370,
+        130
+      ],
+      "patch_size": [
+        7,
+        7
+      ],
+      "rgb_channel_medians": [
+        63,
+        24,
+        98
+      ],
+      "hex": "#3F1862",
+      "hsv_saturation": 0.755102,
+      "linear_luminance": 0.025919
+    },
+    "test_mira_coat": {
+      "source": "test_cafe",
+      "center_xy": [
+        610,
+        750
+      ],
+      "patch_size": [
+        7,
+        7
+      ],
+      "rgb_channel_medians": [
+        246,
+        182,
+        68
+      ],
+      "hex": "#F6B644",
+      "hsv_saturation": 0.723577,
+      "linear_luminance": 0.534661
+    },
+    "test_window_near_mira": {
+      "source": "test_cafe",
+      "center_xy": [
+        720,
+        610
+      ],
+      "patch_size": [
+        7,
+        7
+      ],
+      "rgb_channel_medians": [
+        223,
+        163,
+        123
+      ],
+      "hex": "#DFA37B",
+      "hsv_saturation": 0.44843,
+      "linear_luminance": 0.433124
+    },
+    "test_mira_face": {
+      "source": "test_cafe",
+      "center_xy": [
+        636,
+        572
+      ],
+      "patch_size": [
+        7,
+        7
+      ],
+      "rgb_channel_medians": [
+        215,
+        138,
+        98
+      ],
+      "hex": "#D78A62",
+      "hsv_saturation": 0.544186,
+      "linear_luminance": 0.335059
+    },
+    "test_window_near_face": {
+      "source": "test_cafe",
+      "center_xy": [
+        720,
+        572
+      ],
+      "patch_size": [
+        7,
+        7
+      ],
+      "rgb_channel_medians": [
+        226,
+        167,
+        125
+      ],
+      "hex": "#E2A77D",
+      "hsv_saturation": 0.446903,
+      "linear_luminance": 0.452869
+    },
+    "reference_adult_hair": {
+      "source": "ref_future",
+      "center_xy": [
+        1800,
+        600
+      ],
+      "patch_size": [
+        7,
+        7
+      ],
+      "rgb_channel_medians": [
+        45,
+        8,
+        44
+      ],
+      "hex": "#2D082C",
+      "hsv_saturation": 0.822222,
+      "linear_luminance": 0.009134
+    },
+    "reference_sky": {
+      "source": "ref_future",
+      "center_xy": [
+        1300,
+        150
+      ],
+      "patch_size": [
+        7,
+        7
+      ],
+      "rgb_channel_medians": [
+        247,
+        207,
+        94
+      ],
+      "hex": "#F7CF5E",
+      "hsv_saturation": 0.619433,
+      "linear_luminance": 0.65208
+    }
+  },
+  "geometry": {
+    "authored_face_x_extent": [
+      -34,
+      35
+    ],
+    "face_width": 69,
+    "eye_white_width": 17,
+    "each_eye_white_percent_face_width": 24.638,
+    "upper_lower_arm_stroke_widths": [
+      28,
+      27
+    ],
+    "leg_stroke_width": 32,
+    "same_face_path_for_both_leads": true,
+    "interpretation": "Source geometry, not a perceptual match score. Stroke widths are constant along each path; shoulder round caps become part of the silhouette."
+  },
+  "background_regions": {
+    "ref_street": {
+      "box_xyxy": [
+        30,
+        15,
+        450,
+        320
+      ],
+      "size": [
+        420,
+        305
+      ],
+      "pixels": 128100,
+      "saturation_p10_median_p90": [
+        0.992,
+        1.0,
+        1.0
+      ],
+      "percent_saturation_ge_0_7": 100.0,
+      "linear_luminance_p10_median_p90": [
+        0.016236,
+        0.018483,
+        0.020615
+      ],
+      "percent_linear_luminance_lt_0_05": 100.0,
+      "percent_linear_luminance_gt_0_5": 0.0
+    },
+    "test_street": {
+      "box_xyxy": [
+        30,
+        15,
+        450,
+        320
+      ],
+      "size": [
+        420,
+        305
+      ],
+      "pixels": 128100,
+      "saturation_p10_median_p90": [
+        0.4,
+        0.598039,
+        0.762887
+      ],
+      "percent_saturation_ge_0_7": 29.762,
+      "linear_luminance_p10_median_p90": [
+        0.023871,
+        0.039617,
+        0.151771
+      ],
+      "percent_linear_luminance_lt_0_05": 84.033,
+      "percent_linear_luminance_gt_0_5": 0.0
+    }
+  }
+}

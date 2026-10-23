@@ -4,6 +4,8 @@ The latest test is **Alone in a crowd**: a 20-second, 1920 × 1080, 30 fps Remot
 
 **[Download the 20-second MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/alone-in-a-crowd-20s.mp4)** · [Poster](assets/videos/alone-in-a-crowd-20s-poster.png) · [Comparison with our study](docs/production/crowd-test.md)
 
+The user rejected this test's artwork. The [detailed artwork audit](docs/production/artwork-audit/README.md) documents the drawing failures with enlarged face, shoulder, and hand crops, composition boards, and pixel measurements. The next study focuses on original still artwork before animation; technical delivery is not evidence of comparable drawing quality.
+
 ## What was built and reviewed
 
 Mira and Sol are new original human characters. The rig supports walking, sitting, eye/head direction, blinks, arm gestures, expressions, and cup handling. The street and café are authored SVG geometry. Opening lettering has layered outline passes; narration captions stay fixed below the action. No branding, episode badges, timers, or production notes appear in the film.

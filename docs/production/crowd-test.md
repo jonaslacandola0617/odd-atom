@@ -1,5 +1,7 @@
 # Alone in a crowd — 20-second test and study comparison
 
+**Artwork review correction:** the user rejected this test's drawings. The broad comparison below understated the gap. The [detailed artwork audit](artwork-audit/README.md) supersedes its assessment of visual quality, with native face/shoulder/hand crops, annotated compositions, and per-pixel color/value measurements. The film remains the original test; the audit does not claim the drawings have been repaired.
+
 [Download the MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/alone-in-a-crowd-20s.mp4) · [Poster](../../assets/videos/alone-in-a-crowd-20s-poster.png) · [Technical verification](crowd-review/validation.json)
 
 This is an original 1920 × 1080, 30 fps Remotion animation with two original human leads, authored city/café artwork, generated ElevenLabs narration, aligned captions, original synthesized music, and quiet ambience. The MP4, audio stems, editable geometry, and neutral character/set SVGs are saved in the repository.
