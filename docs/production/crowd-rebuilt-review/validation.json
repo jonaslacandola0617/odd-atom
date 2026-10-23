@@ -1,0 +1,87 @@
+{
+  "film": "assets/videos/alone-in-a-crowd-rebuilt-20s.mp4",
+  "sha256": "aac988da5a17fa82df56a5aae17666cebc53ae06d53376a593856e7286406dc1",
+  "bytes": 7878520,
+  "container_duration": "20.000000",
+  "video": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "nb_frames": "600",
+    "pix_fmt": "yuvj420p",
+    "duration": "20.000000"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "20.000000"
+  },
+  "full_decode": "passed",
+  "decoded_audio_md5": {
+    "original": "MD5=74a3931106141c03577c05304a77516d",
+    "rebuilt": "MD5=74a3931106141c03577c05304a77516d"
+  },
+  "same_decoded_audio_as_original": true,
+  "narration": "Existing generated ElevenLabs narration reused; no new speech generation or account charge.",
+  "source_authorship": "Official reference crops are Kurzgesagt artwork. Before/rebuilt frames are original project artwork.",
+  "source_reference": {
+    "path": "references/studies/topic-range-2026-10-23/images/loneliness-02.webp",
+    "sha256": "f40297999a5ea0e79a5b26752a1b26f8089b538d4e6a6ce4633d65ece2017e41",
+    "page": "https://kurzgesagt.org/projects/loneliness"
+  },
+  "street_top_900_pixels": {
+    "before": {
+      "median_hsv_saturation": 0.5357,
+      "percent_saturation_ge_0_7": 5.269
+    },
+    "rebuilt": {
+      "median_hsv_saturation": 0.8734,
+      "percent_saturation_ge_0_7": 93.613
+    }
+  },
+  "measurement_limit": "Saturation describes these different scene pixels, not a visual quality or style-match score.",
+  "review_sampling": {
+    "sequence_frames": [
+      0,
+      30,
+      60,
+      90,
+      120,
+      150,
+      180,
+      210,
+      240,
+      270,
+      300,
+      330,
+      360,
+      390,
+      420,
+      450,
+      480,
+      510,
+      540,
+      570
+    ],
+    "cut_frames": [
+      224,
+      225,
+      226,
+      227,
+      228,
+      460,
+      461,
+      462,
+      463,
+      464
+    ],
+    "additional_frames": [
+      165,
+      360,
+      540,
+      599
+    ]
+  }
+}

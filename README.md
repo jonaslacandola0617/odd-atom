@@ -1,16 +1,16 @@
 # Odd Atom — original explanatory animation
 
-The latest test is **Alone in a crowd**: a 20-second, 1920 × 1080, 30 fps Remotion film about the difference between proximity and connection. It contains original human characters and city/café artwork, successfully generated ElevenLabs narration, aligned captions, original synthesized music, and ambience.
+The latest test is the **artwork rebuild of Alone in a crowd**: a 20-second, 1920 × 1080, 30 fps Remotion film about the difference between proximity and connection. It has redrawn characters and environments, three shots, and the existing generated ElevenLabs narration, aligned captions, original music, and ambience.
 
-**[Download the 20-second MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/alone-in-a-crowd-20s.mp4)** · [Poster](assets/videos/alone-in-a-crowd-20s-poster.png) · [Comparison with our study](docs/production/crowd-test.md)
+**[Download the rebuilt 20-second MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/alone-in-a-crowd-rebuilt-20s.mp4)** · [Poster](assets/videos/alone-in-a-crowd-rebuilt-20s-poster.png) · [Before/after artwork review](docs/production/crowd-rebuilt.md)
 
-The user rejected this test's artwork. The [detailed artwork audit](docs/production/artwork-audit/README.md) documents the drawing failures with enlarged face, shoulder, and hand crops, composition boards, and pixel measurements. The next study focuses on original still artwork before animation; technical delivery is not evidence of comparable drawing quality.
+The user rejected the earlier test's artwork. The [detailed audit](docs/production/artwork-audit/README.md) documents its failures; the [rebuild review](docs/production/crowd-rebuilt.md) shows the applied corrections and remaining limitations. Technical delivery is not evidence of comparable drawing quality.
 
 ## What was built and reviewed
 
-Mira and Sol are new original human characters. The rig supports walking, sitting, eye/head direction, blinks, arm gestures, expressions, and cup handling. The street and café are authored SVG geometry. Opening lettering has layered outline passes; narration captions stay fixed below the action. No branding, episode badges, timers, or production notes appear in the film.
+Mira and Sol now have distinct heads and body contours, solid eyes, filled tapered limbs, and separate resting, gesturing, and cup-holding hands. The terrace uses asymmetrical staging and an over-the-shoulder reaction view. The crowd, original artwork, gestures, expressions, and environmental details are animated in Remotion. Opening lettering has layered outline passes; captions stay below the action. No branding, episode badges, timers, or production notes appear in the film.
 
-The [review](docs/production/crowd-test.md) contains side-by-side reference/test frames, sequence and arrival sheets, fixes made during production, and the three highest-value next improvements. It distinguishes the official reference artwork from our original film and keeps motion/audio comparison limits explicit.
+The [review](docs/production/crowd-rebuilt.md) contains actual encoded before/after frames, human-reference face crops, sequence and cut sheets, applied drawing changes, and remaining limits. Downloaded reference art is identified separately from our original artwork.
 
 ## Install and render
 
@@ -22,10 +22,10 @@ npm run typecheck
 npm run dev
 ```
 
-Select `AloneInACrowd` in Remotion Studio. The committed narration and audio stems allow offline re-rendering without a new speech request:
+Select `CrowdRebuilt` in Remotion Studio. The committed narration and audio stems allow offline re-rendering without a new speech request:
 
 ```sh
-npm run render:crowd
+npm run render:crowd-rebuilt
 ```
 
 The final render command checks the narration provider, generated status, and audio file. It renders 600 frames, mixes the original PCM stems into AAC, preserves the H.264 picture, and writes an MP4 with exact 20-second track timing and fast-start metadata.
@@ -33,11 +33,11 @@ The final render command checks the narration provider, generated status, and au
 Optional asset regeneration:
 
 ```sh
-npm run assets:crowd
+npm run assets:crowd-rebuilt
 npm run sound:crowd
 ```
 
-Sound regeneration needs NumPy. The exported original assets are `public/assets/characters/mira.svg`, `sol.svg`, and `public/assets/sets/street.svg`, `cafe.svg`.
+Sound regeneration needs NumPy. The six rebuilt original SVG assets are under `public/assets/artwork/connection-rebuilt/`. The older character/set exports remain historical comparison material.
 
 ## ElevenLabs narration
 
@@ -48,16 +48,18 @@ To generate new narration after editing the crowd script:
 ```sh
 npm run narrate:crowd
 npm run sound:crowd
-npm run render:crowd
+npm run render:crowd-rebuilt
 ```
 
 Narration generation uses account credits. An optional `ELEVENLABS_VOICE_ID` selects another account-accessible voice; otherwise the project uses George with `eleven_multilingual_v2`. The returned character timestamps drive caption and scene timing. Tempo fitting is limited to a 10% slowdown or a 15% speedup; a longer read is rejected. Failed responses preserve existing narration.
 
 ## Source map
 
-- `src/Crowd.tsx`: delivered sequence, camera framing, gestures, and captions.
-- `src/characters/Citizen.tsx`: original human geometry and rig.
-- `src/art/City.tsx`: original street, café, chairs, and table.
+- `src/Connection.tsx`: rebuilt sequence, shot framing, gestures, and captions.
+- `src/art/ConnectionArt.tsx`: rebuilt original character contours, head views, hands, terrace, street, and props.
+- `scripts/export_connection_art.cjs`: standalone original SVG exports.
+- `scripts/review_connection.py`: delivered-frame comparisons and validation.
+- `src/Crowd.tsx`, `src/characters/Citizen.tsx`, `src/art/City.tsx`: previous rejected test retained for comparison.
 - `src/data/crowd-narration.json`: script, generated status, aligned captions, and story cues.
 - `scripts/elevenlabs_narration.mjs`: official SDK speech request; `elevenlabs_narration.py` handles audio and timing.
 - `scripts/crowd_sound_design.py`: original score and ambience.

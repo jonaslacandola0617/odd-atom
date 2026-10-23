@@ -6,6 +6,8 @@ Ember, its vector geometry, two-bone arm rig, face controls, stellar cutaway, an
 
 Mira, Sol, their human rig, the crowd variations, street, café, furniture, plants, and cup geometry were also authored for this project. Their editable components and exported neutral/set SVGs are original production artwork. The crowd test's keyboard score and ambience were synthesized for this segment.
 
+The artwork rebuild uses newly drawn geometry in `src/art/ConnectionArt.tsx`: distinct Mira/Sol heads, standing and seated contours, separate profile/rear views, pose-specific hands, a terrace, street, and props. Six original standalone SVGs are saved in `public/assets/artwork/connection-rebuilt/`. The rebuild reuses the existing generated ElevenLabs narration and original sound stems. Downloaded reference images are used only in explicitly labeled review boards, not in the film.
+
 The four previously supplied character SVGs and their animation source were removed at the user's request. No paths from those characters are used in Ember. Older review MP4s and Git history remain historical records.
 
 ## Narration
