@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 356.08 335.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8cd9ff;
+        stroke: #8cd9ff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        stroke-width: 18.91px;
+      }
+
+      .cls-2 {
+        fill: #63ccff;
+        stroke: #63ccff;
+      }
+
+      .cls-3 {
+        stroke-width: 9.64px;
+      }
+
+      .cls-3, .cls-4, .cls-10, .cls-11 {
+        fill: none;
+      }
+
+      .cls-3, .cls-6 {
+        stroke: #17f0ff;
+      }
+
+      .cls-4 {
+        stroke: #bc40ff;
+      }
+
+      .cls-5, .cls-14 {
+        fill: #3000cc;
+        stroke: #3000cc;
+      }
+
+      .cls-6 {
+        fill: #17f0ff;
+      }
+
+      .cls-7 {
+        fill: #090087;
+        stroke: #090087;
+      }
+
+      .cls-8 {
+        fill: #c4ebff;
+        stroke: #c4ebff;
+      }
+
+      .cls-9 {
+        fill: #00d1e3;
+        stroke: #00d1e3;
+      }
+
+      .cls-10 {
+        stroke: #7c40ff;
+      }
+
+      .cls-11 {
+        stroke: #4674ff;
+      }
+
+      .cls-12 {
+        fill: #46a3ff;
+        stroke: #46a3ff;
+        stroke-width: 4.23px;
+      }
+
+      .cls-13 {
+        fill: #20008a;
+        stroke: #20008a;
+        stroke-width: 20.8px;
+      }
+
+      .cls-15 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-14 {
+        stroke-width: 20.7px;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="-11642.52" cy="-8741.63" fx="-11642.52" fy="-8741.63" r="172.78" gradientTransform="translate(9468.15 10387.2) scale(.8 1.17)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bacef8"/>
+      <stop offset="1" stop-color="#003e6e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Exporte_Home" data-name="Exporte Home">
+    <g>
+      <ellipse class="cls-15" cx="178.04" cy="167.69" rx="137.87" ry="201.99" transform="translate(-65 195.08) rotate(-49.72)"/>
+      <g>
+        <path class="cls-5" d="M73.76,109.7l-25.36-45.12c-1.73-3.07,1.29-6.64,4.6-5.45l48.34,17.38-27.58,33.18Z"/>
+        <path class="cls-7" d="M57.85,60.89l43.48,15.62-23.61,28.41c-2.49-7.65-8.99-25.82-19.87-44.03Z"/>
+      </g>
+      <g>
+        <path class="cls-8" d="M185.83,174.71c19.47-22.97-.95-64.53-39.92-82.69-68.36-31.85-80.36-17.57-80.36-17.57,0,0-12.97,13.14,31.31,75.77,24.82,35.11,68.68,48.44,88.98,24.49Z"/>
+        <path class="cls-1" d="M185.83,174.7c-.88,1.04-1.77,1.97-2.74,2.88-1.24-1.99-2.43-4.14-3.57-6.5-21.1-43.02-64.15-77.57-98.8-100.1,2.56,.14,5.54,.48,8.97,1.11,1.34,.24,2.78,.52,4.29,.86,11.89,2.64,28.59,8.22,51.91,19.06,38.99,18.17,59.4,59.72,39.94,82.69Z"/>
+        <ellipse class="cls-1" cx="169.86" cy="161.32" rx="28.74" ry="21.46" transform="translate(-62.64 189.94) rotate(-50.54)"/>
+      </g>
+      <line class="cls-11" x1="140.59" y1="190.21" x2="139.47" y2="244.24"/>
+      <g>
+        <polygon class="cls-2" points="100.79 156.47 140.59 190.21 139.47 244.24 100.79 156.47"/>
+        <line class="cls-10" x1="140.59" y1="190.21" x2="139.47" y2="244.24"/>
+        <line class="cls-4" x1="140.19" y1="209.63" x2="139.79" y2="229.04"/>
+      </g>
+      <g>
+        <polygon class="cls-2" points="152.46 95.5 192.26 129.24 245.38 119.29 152.46 95.5"/>
+        <line class="cls-10" x1="192.26" y1="129.24" x2="245.38" y2="119.29"/>
+        <line class="cls-4" x1="209.02" y1="126.1" x2="227.2" y2="122.69"/>
+      </g>
+      <g>
+        <ellipse class="cls-14" cx="185.68" cy="174.9" rx="31.52" ry="23.53" transform="translate(-67.36 207.11) rotate(-50.54)"/>
+        <path class="cls-13" d="M205.71,150.55c.78,.66,1.51,1.38,2.16,2.13-23.02-2.5-39.28,14.11-49.23,29.48,.18-7.29,3.17-15.26,8.85-22.2,11.1-13.45,28.2-17.65,38.22-9.41Z"/>
+      </g>
+      <g>
+        <path class="cls-6" d="M93.98,72.95c-2.08,.87-3.98,1.88-5.76,3-10.73,6.63-16.22,16.74-18.66,27.52-9.68-23.38-4.01-29-4.01-29,0,0,3.42-4.17,15.17-3.48,.62,.03,1.32,.08,2,.16,.57,.03,1.16,.09,1.76,.15,.9,.11,1.79,.23,2.8,.39,.79,.12,1.58,.25,2.42,.42,1.34,.24,2.78,.52,4.29,.86Z"/>
+        <path class="cls-9" d="M93.98,72.95c-2.08,.87-3.98,1.88-5.76,3-2.53-1.7-5.03-3.37-7.49-4.96,.62,.03,1.32,.08,2,.16,.57,.03,1.16,.09,1.76,.15,.9,.11,1.79,.23,2.8,.39,.79,.12,1.58,.25,2.42,.42,1.34,.24,2.78,.52,4.29,.86Z"/>
+      </g>
+      <g>
+        <ellipse class="cls-12" cx="107.12" cy="110.83" rx="20.23" ry="18.67" transform="translate(-46.37 124.96) rotate(-51.23)"/>
+        <line class="cls-3" x1="98.72" y1="110.02" x2="93.9" y2="116.01"/>
+        <g>
+          <line class="cls-3" x1="114.8" y1="100.66" x2="109.99" y2="106.66"/>
+          <line class="cls-3" x1="116.54" y1="111.15" x2="111.73" y2="117.14"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

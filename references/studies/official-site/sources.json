@@ -1,0 +1,70 @@
+{
+  "retrievedAt": "2026-10-23T09:23:52.766789+00:00",
+  "scope": "Official website artwork and short silent loop; not a YouTube episode study",
+  "assets": [
+    {
+      "file": "earth.996f2a7a.svg",
+      "url": "https://kurzgesagt.org/_next/static/media/earth.996f2a7a.svg",
+      "sourcePage": "https://kurzgesagt.org/",
+      "bytes": 34366,
+      "sha256": "b00ff43c9ed97fdec859b4cb8cc353c741ae2ab89d584061eadf46d4de441b2a",
+      "inspection": "rasterized or native image viewed"
+    },
+    {
+      "file": "rocket.84c0bd64.svg",
+      "url": "https://kurzgesagt.org/_next/static/media/rocket.84c0bd64.svg",
+      "sourcePage": "https://kurzgesagt.org/",
+      "bytes": 5075,
+      "sha256": "d7839de2e1af89e413015c215c55c562fc72c286cc43716f47e6f2a8c78208a8",
+      "inspection": "rasterized or native image viewed"
+    },
+    {
+      "file": "scientific-1.svg",
+      "url": "https://kurzgesagt.org/_next/static/media/illu-1.778a7ae7.svg",
+      "sourcePage": "https://kurzgesagt.org/what-we-do?visit=videos",
+      "bytes": 44703,
+      "sha256": "6816b6bb6535774589fdfdec09d127687c6248ded7cb750e9f7c036df7063246",
+      "inspection": "rasterized or native image viewed"
+    },
+    {
+      "file": "scientific-2.svg",
+      "url": "https://kurzgesagt.org/_next/static/media/illu-2.0888e029.svg",
+      "sourcePage": "https://kurzgesagt.org/what-we-do?visit=videos",
+      "bytes": 15704,
+      "sha256": "869eac94d9d32b1069918f5998ef287fcc6ca2a12ad060802dc1ea321b318249",
+      "inspection": "rasterized or native image viewed"
+    },
+    {
+      "file": "scientific-3.svg",
+      "url": "https://kurzgesagt.org/_next/static/media/illu-3.29fe886d.svg",
+      "sourcePage": "https://kurzgesagt.org/what-we-do?visit=videos",
+      "bytes": 13219,
+      "sha256": "526cc835f5841cd280e32d9e2d5d8e3e35a3db2deaffab5aed88393564154028",
+      "inspection": "rasterized or native image viewed"
+    },
+    {
+      "file": "mission.png",
+      "url": "https://kurzgesagt.org/_next/image?url=https%3A%2F%2Fksite.fra1.cdn.digitaloceanspaces.com%2Fuploads%2Fbcfd0afb50f70a1cbd300e07072656a5.png&w=1920&q=75",
+      "sourcePage": "https://kurzgesagt.org/who-we-are",
+      "bytes": 42366,
+      "sha256": "9cdb158cbdb3750eae3016fa756788236fd0c684352940333400122ec302b688",
+      "inspection": "rasterized or native image viewed"
+    },
+    {
+      "file": "values.png",
+      "url": "https://kurzgesagt.org/_next/image?url=https%3A%2F%2Fksite.fra1.cdn.digitaloceanspaces.com%2Fuploads%2F46fa44040425e29ed0fa45b9fb67299d.png&w=1920&q=75",
+      "sourcePage": "https://kurzgesagt.org/who-we-are",
+      "bytes": 45714,
+      "sha256": "a2cdf80a8735e4c1311afcf442462c26800750d35405c2b83c66c27400c35d6b",
+      "inspection": "rasterized or native image viewed"
+    },
+    {
+      "file": "amoeba.webm",
+      "url": "https://kurzgesagt.org/amoeba.webm",
+      "sourcePage": "https://kurzgesagt.org/what-we-do?visit=videos",
+      "bytes": 657591,
+      "sha256": "5132f14dd0dff7524f6c230c5d24717c839e3002845663dd00039a4897719571",
+      "inspection": "16 sampled frames at 4 fps"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
       "submittedUrl": "https://youtu.be/_y9JuojAIg0?si=AVw4onloNngpyESh",
       "title": null,
       "status": "blocked_network",
-      "reason": "Environment proxy rejected the YouTube HTTPS tunnel with HTTP 403; neither metadata nor video was retrieved.",
+      "reason": "Environment proxy rejected YouTube access with HTTP 403.",
       "localVideo": null,
       "studyStatus": "not_viewed"
     },
@@ -19,7 +19,7 @@
       "submittedUrl": "https://youtu.be/ujkD4SxPKOI?si=Q4FsT0Rkcih9lS3F",
       "title": null,
       "status": "blocked_network",
-      "reason": "Environment proxy rejected the YouTube HTTPS tunnel with HTTP 403; neither metadata nor video was retrieved.",
+      "reason": "Environment proxy rejected YouTube access with HTTP 403.",
       "localVideo": null,
       "studyStatus": "not_viewed"
     },
@@ -29,7 +29,7 @@
       "submittedUrl": "https://youtu.be/0NY2gAftzJE?si=m-CzR75tK4gDo09K",
       "title": null,
       "status": "blocked_network",
-      "reason": "Environment proxy rejected the YouTube HTTPS tunnel with HTTP 403; neither metadata nor video was retrieved.",
+      "reason": "Environment proxy rejected YouTube access with HTTP 403.",
       "localVideo": null,
       "studyStatus": "not_viewed"
     }

@@ -8,7 +8,7 @@ The visual test is a 1920 × 1080, 30 fps, 600-frame Remotion segment. The origi
 
 The user requested a switch from shorts to long-form, an original character, deletion of the supplied character assets, ElevenLabs narration, and continued study of Kurzgesagt's long-form topics and craft.
 
-The official channel's `/videos` page, the official studio website, and the ElevenLabs voices endpoint were requested for this turn. All three failed at the network proxy with `CONNECT tunnel failed, response 403`. The actual process had none of the standard ElevenLabs API-key variable names set. Environment configuration metadata also contained no existing secret bindings. No missing credential was inferred solely from a CLI login prompt.
+At the original preview build, the official channel, studio website, and ElevenLabs endpoint all failed at the network proxy, and no ElevenLabs key was available. On the October 23 recheck after configuration publication, the official website opened and supplied the [website artwork study](../../references/studies/official-site/README.md). YouTube pages and thumbnails still returned proxy HTTP 403. ElevenLabs became reachable and the key was present, but its voices endpoint rejected that key with HTTP 401 and `invalid_api_key`. Narration remains ungenerated.
 
 The available uploads are eight vertical shorts. Their observations remain in the historical reference-study notes. They do not establish the channel's long-form composition, timing, soundtrack, or typography. The current scene is an original proposal for a long-form segment; closer live reference study remains outstanding.
 
@@ -49,8 +49,6 @@ These are production choices for this test, not measured claims about inaccessib
 
 ## Required access before the narrated deliverable
 
-The saved draft adds the secure `ELEVENLABS_API_KEY` requirement for `api.elevenlabs.io` and custom destinations for ElevenLabs, YouTube pages/media, and the official studio site. Existing package-manager presets were preserved. The save returned `status: saved` and `requires_publish: true`.
-
-The user must review and save the settings, enter the key securely, and publish the environment. The save did not inject a key, alter the running proxy policy, generate narration, or establish live-channel access. After the settings apply, recheck the actual operation before treating it as verified.
+The user has published the configuration, including the secure `ELEVENLABS_API_KEY` binding and the requested destinations. The key is available to the process, but the service rejects it as invalid. A valid key must be entered through secure environment settings before narration can be generated. YouTube access remains separately blocked despite the published destinations. Recheck the actual operations after either condition changes.
 
 The narration script uses HTTPS through the environment's configured route. It does not print the key, save it, or send it to any other destination. Missing credentials fail before a generation request. The final-render command and narrated composition reject missing ElevenLabs output. The visual preview is the only render permitted while narration remains pending.

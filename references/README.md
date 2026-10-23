@@ -8,7 +8,11 @@ These three links are saved as the next priority references for studying illustr
 
 **Current status: none downloaded or viewed.** All three actual download attempts failed when the environment proxy rejected YouTube access with HTTP 403. No video metadata was returned, so titles, durations, and visual findings have not been invented. `catalog.json` records this status individually.
 
-The installed downloader was yt-dlp 2026.10.21, with Node.js for JavaScript support and FFmpeg for merging. Retries were disabled for the blocked requests. The required YouTube page and video-media domains already exist in the saved environment draft; that does not establish access on the running machine. Apply the saved network settings before retrying. Alternatively, the user can attach the video files directly for local study.
+Retried on October 23, 2026 after the user published the network configuration. All three still failed at the proxy, as did independent requests for YouTube pages and thumbnails. The published configuration includes the requested YouTube destinations; the running requests remain blocked. This is not a missing downloader installation.
+
+The official studio website now responds with HTTP 200. Eight website reference assets were downloaded, including a short silent amoeba animation. See the [actual artwork observations and visual boards](studies/official-site/README.md). These findings are separate from the three unseen YouTube episodes.
+
+The installed downloader is yt-dlp 2026.10.21, with Node.js for JavaScript support and FFmpeg for merging. Retries were disabled for the blocked requests. No additional installation is needed to try again after access changes.
 
 ## Download after access changes
 
@@ -27,6 +31,8 @@ Downloaded originals go in `references/videos/`, separate from production assets
 ```
 
 ## Study to perform once files are available
+
+The user has also requested a broader study of additional Kurzgesagt videos. Start with these three, then cover a varied selection of space, biology, technology, and society episodes. Record observed examples and timing for each rather than increasing the catalog with unviewed links. This broader YouTube study remains pending access.
 
 For each video, capture timestamped examples of the opening, representative scenes, cutaways, transitions, and closing. Inspect the actual frames before recording findings about:
 
