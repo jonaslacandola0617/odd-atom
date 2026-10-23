@@ -7,3 +7,5 @@ __pycache__/
 *.py[cod]
 .env
 .env.local
+references/videos/
+references/frames/

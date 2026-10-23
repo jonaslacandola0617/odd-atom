@@ -18,6 +18,8 @@ This is a landscape segment intended to test a longer explanatory-video format. 
 
 Live inspection of Kurzgesagt's long-form channel and official site is still blocked by the environment's network proxy. The uploaded reference files previously studied are vertical shorts. The current treatment is an original production proposal; it is not claimed to be a completed study of the channel's long-form work or equivalent studio quality. See [production notes](docs/production/star-balance.md).
 
+The user's three newly selected long-form reference links are saved in the [reference library](references/README.md), with per-video download/viewing status in [the catalog](references/catalog.json). All three download attempts are currently blocked by the network proxy.
+
 ## Install and preview
 
 Use Node.js 22 or newer and Chromium. Cloud scripts use `/usr/bin/chromium`; on another system, replace that executable path with the local Chrome/Chromium path.

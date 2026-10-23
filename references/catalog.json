@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "purpose": "User-selected long-form visual and artwork references",
+  "downloadDirectory": "references/videos",
+  "references": [
+    {
+      "id": "_y9JuojAIg0",
+      "url": "https://www.youtube.com/watch?v=_y9JuojAIg0",
+      "submittedUrl": "https://youtu.be/_y9JuojAIg0?si=AVw4onloNngpyESh",
+      "title": null,
+      "status": "blocked_network",
+      "reason": "Environment proxy rejected the YouTube HTTPS tunnel with HTTP 403; neither metadata nor video was retrieved.",
+      "localVideo": null,
+      "studyStatus": "not_viewed"
+    },
+    {
+      "id": "ujkD4SxPKOI",
+      "url": "https://www.youtube.com/watch?v=ujkD4SxPKOI",
+      "submittedUrl": "https://youtu.be/ujkD4SxPKOI?si=Q4FsT0Rkcih9lS3F",
+      "title": null,
+      "status": "blocked_network",
+      "reason": "Environment proxy rejected the YouTube HTTPS tunnel with HTTP 403; neither metadata nor video was retrieved.",
+      "localVideo": null,
+      "studyStatus": "not_viewed"
+    },
+    {
+      "id": "0NY2gAftzJE",
+      "url": "https://www.youtube.com/watch?v=0NY2gAftzJE",
+      "submittedUrl": "https://youtu.be/0NY2gAftzJE?si=m-CzR75tK4gDo09K",
+      "title": null,
+      "status": "blocked_network",
+      "reason": "Environment proxy rejected the YouTube HTTPS tunnel with HTTP 403; neither metadata nor video was retrieved.",
+      "localVideo": null,
+      "studyStatus": "not_viewed"
+    }
+  ]
+}
