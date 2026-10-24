@@ -6,7 +6,7 @@ Original long-form script, draft 1. The subject is the cosmological Big Bang sin
 
 **Google Vids scene limit:** [Five-scene transcript table](google-vids-scenes.md) · [CSV table](google-vids-scenes.csv) · [Individual scene TXT files](google-vids-scenes/). The transcript is unchanged; every scene is below the user's 2,500-character limit, including inline tags, spaces and line breaks.
 
-Approximately 1,170 spoken words. Allow roughly **10–12 minutes** at a deliberately slow 110–120 words/minute with pauses; the actual Google Vids performance determines the final duration. Bracketed audio directions belong in the narration field, following the user's demonstrated workflow. They are not spoken dialogue, subtitles or instructions for a separate style field. Their exact timing is not assumed.
+Approximately 1,170 spoken words. The initial estimate was 10–12 minutes at a deliberately slow delivery. The user has now supplied the Google Vids **Knox** recording: its measured narration duration is **8:56.619**, which is the production timing source. [Imported audio, five block boundaries and 52 timed visual beats](audio/README.md). Bracketed audio directions belong in the narration field, following the user's demonstrated workflow. They are not spoken dialogue, subtitles or instructions for a separate style field.
 
 ## Story promise
 
@@ -27,10 +27,10 @@ The script uses curiosity, contrast, concrete imagery and delayed answers. These
 
 ## Audio and production
 
-Generate the narration in Google Vids using the inline tags. Review the actual voice performance for emotion and pacing before locking animation timing. Export the narration or a Vids video containing it, extract the audio if necessary, and build the Remotion timing/captions to that recording. No Google Vids or ElevenLabs voice generation has been performed for this script, and no credits were used.
+The user generated the narration in Google Vids using Knox and uploaded the combined video. Its original AAC is extracted without re-encoding, and acoustic alignment supplies draft captions and visual-cue times. Do not regenerate speech or change the recording's pacing to match the old estimate. No Google Vids or ElevenLabs generation was performed by the assistant for this script, and no credits were used here.
 
 Use reference-matched generated illustrations, clean environment plates and separate transparent character/object/background PNG layers. Animate selected environmental layers as motivated by the explanation. Do not trace every scene to SVG or replace approved drawing quality with rough procedural drawings.
 
 [Animation sequence brief](animation-beats.md) · [Scientific distinctions and source-access notes](science-notes.md)
 
-This delivery is the script and animation brief. A finished video, storyboard artwork and final recorded runtime are not claimed.
+Current delivery includes the script, imported narration, draft captions and a timed animation brief. A finished illustrated video, storyboard artwork, final score and sound effects have not yet been produced.

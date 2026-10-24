@@ -35,7 +35,8 @@
     "review:medicine-vector": "python scripts/review_medicine_vector.py",
     "assets:medicine-layers": "node scripts/export_medicine_layers.cjs",
     "render:medicine-layers": "node scripts/render_medicine_layers.cjs",
-    "still:medicine-layers": "node scripts/render_medicine_layers.cjs --stills"
+    "still:medicine-layers": "node scripts/render_medicine_layers.cjs --stills",
+    "prepare:singularity-audio": "python scripts/prepare_singularity_audio.py"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

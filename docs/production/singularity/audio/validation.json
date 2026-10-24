@@ -1,0 +1,54 @@
+{
+  "source": {
+    "file": "assets/audio/singularity/voiceover-source.mp4",
+    "sha256": "a1b7c8c00e5791052ef357e310e814179c1e19549aac21dd7df0bdb0784e162d",
+    "bytes": 5036930,
+    "audio_duration": 536.618667,
+    "codec": "aac",
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  "extraction": {
+    "method": "AAC stream copy; no new voice, pitch, speed, gain or pause edit",
+    "decoded_pcm_sha256": "530530ceae7d6718119151130a9f7e3e72dbcd20f44fea54a144ac27ec305ccf",
+    "source_and_extracted_decoded_pcm_identical": true,
+    "runtime_and_download_audio_identical": true
+  },
+  "measurements": {
+    "integrated_loudness_lufs": -17.8,
+    "loudness_range_lu": 5.1,
+    "true_peak_dbfs": -0.6,
+    "measurement_source": "FFmpeg ebur128 summary, stored in ignored analysis log",
+    "decoded_sample_peak_dbfs": -0.57,
+    "decoded_16bit_saturated_samples": 0,
+    "pauses_at_least_half_second": 91
+  },
+  "timing": {
+    "aligned_word_tokens": 1177,
+    "caption_cues": 241,
+    "voiceover_blocks": 5,
+    "visual_beats": 52,
+    "fps": 30,
+    "duration_in_frames": 16099,
+    "frames_padding_after_audio_seconds": 0.014666,
+    "scene_flac_cuts_concatenate_to_exact_decoded_source_pcm": true,
+    "caption_times_ordered_and_in_recording": true,
+    "beat_frames_cover_timeline_without_gaps": true,
+    "independent_recognition_similarity": 0.998726,
+    "recognition_review_flags": [
+      {
+        "operation": "replace",
+        "script": "cooled",
+        "recognized": "cool"
+      },
+      {
+        "operation": "delete",
+        "script": "scale",
+        "recognized": ""
+      }
+    ],
+    "manual_audio_and_subtitle_review": "not claimed; acoustic/model checks only"
+  },
+  "credits_used": 0,
+  "finished_film_rendered": false
+}

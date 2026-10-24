@@ -1,6 +1,6 @@
 # Singularity: animation sequence brief
 
-These are narrative sequences, not eleven static shots. Each should contain several compositions, actions and transitions keyed to the approved narration. Timing remains provisional until the actual Google Vids recording is available. No production labels below belong on screen.
+These are narrative sequences, not eleven static shots. Each should contain several compositions, actions and transitions keyed to the narration. The Google Vids Knox recording is now imported at **8:56.619**; use the [52 timed visual beats](audio/timed-visual-beats.md) and [runtime timing manifest](../../../src/data/singularity-narration.json) for actual cue times. No production labels below belong on screen.
 
 | Sequence | Narration cue / purpose | Visual action | Independently animated artwork |
 |---|---|---|---|
@@ -18,4 +18,4 @@ These are narrative sequences, not eleven static shots. Each should contain seve
 
 Design a limited set of high-quality environments that can support wide, medium and close compositions. Reuse the deep-cosmos palette, galaxy field, particle artwork and a consistent visual vocabulary across sequences. Generate new artwork or pose alternatives where a new action needs them; do not stretch a single flattened scene to cover a whole chapter. Use selectively animated backgrounds and clear physical relationships rather than making every object continuously float.
 
-Delivery remains a script/sequence brief at this stage. No artwork generation, narration, complete scene count or locked render duration is implied.
+The narration is now available and timed. This remains an animation brief: no generated storyboard artwork or completed full-length film is implied. The 30 fps timeline needs 16,099 frames to encompass the supplied recording.

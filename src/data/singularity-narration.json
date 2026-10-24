@@ -1,0 +1,2597 @@
+{
+  "status": "recording-imported-and-timed",
+  "provider": "Google Vids",
+  "voiceName": "Knox",
+  "audioFile": "assets/audio/singularity/narration-original.m4a",
+  "durationSeconds": 536.618667,
+  "fps": 30,
+  "durationInFrames": 16099,
+  "videoDurationSeconds": 536.6333333333333,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sourceCodec": "aac",
+  "sourceFile": "assets/audio/singularity/voiceover-source.mp4",
+  "sourceSha256": "a1b7c8c00e5791052ef357e310e814179c1e19549aac21dd7df0bdb0784e162d",
+  "audioSha256": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+  "timingMethod": "Known-script PocketSphinx forced alignment checked against independent Whisper recognition; model estimates pending final listening/subtitle review",
+  "preserveNativeTiming": true,
+  "speedAdjustment": 1,
+  "scenes": [
+    {
+      "scene": 1,
+      "firstWord": 0,
+      "lastWord": 215,
+      "speechStart": 0.25,
+      "speechEnd": 112.66,
+      "firstWords": "Rewind the universe. Watch galaxies draw closer. Stars disappear. Even",
+      "audioFile": "assets/audio/singularity/scenes/scene-01.flac",
+      "start": 0.0,
+      "end": 113.215,
+      "duration": 113.215,
+      "startFrame": 0,
+      "endFrame": 3396,
+      "startTime": "00:00:00.000",
+      "endTime": "00:01:53.215",
+      "sampleStart": 0,
+      "sampleEnd": 2717160
+    },
+    {
+      "scene": 2,
+      "firstWord": 216,
+      "lastWord": 495,
+      "speechStart": 113.77,
+      "speechEnd": 241.74,
+      "firstWords": "Einstein\u2019s theory of gravity describes how matter, energy, space, and",
+      "audioFile": "assets/audio/singularity/scenes/scene-02.flac",
+      "start": 113.215,
+      "end": 241.99,
+      "duration": 128.775,
+      "startFrame": 3396,
+      "endFrame": 7260,
+      "startTime": "00:01:53.215",
+      "endTime": "00:04:01.990",
+      "sampleStart": 2717160,
+      "sampleEnd": 5807760
+    },
+    {
+      "scene": 3,
+      "firstWord": 496,
+      "lastWord": 708,
+      "speechStart": 242.24,
+      "speechEnd": 331.37,
+      "firstWords": "Now for the harder problem. When we investigate atoms and",
+      "audioFile": "assets/audio/singularity/scenes/scene-03.flac",
+      "start": 241.99,
+      "end": 331.605,
+      "duration": 89.615,
+      "startFrame": 7260,
+      "endFrame": 9948,
+      "startTime": "00:04:01.990",
+      "endTime": "00:05:31.605",
+      "sampleStart": 5807760,
+      "sampleEnd": 7958520
+    },
+    {
+      "scene": 4,
+      "firstWord": 709,
+      "lastWord": 898,
+      "speechStart": 331.84,
+      "speechEnd": 414.38,
+      "firstWords": "Another possibility is that our expansion followed an earlier phase.",
+      "audioFile": "assets/audio/singularity/scenes/scene-04.flac",
+      "start": 331.605,
+      "end": 414.495,
+      "duration": 82.89,
+      "startFrame": 9948,
+      "endFrame": 12435,
+      "startTime": "00:05:31.605",
+      "endTime": "00:06:54.495",
+      "sampleStart": 7958520,
+      "sampleEnd": 9947880
+    },
+    {
+      "scene": 5,
+      "firstWord": 899,
+      "lastWord": 1176,
+      "speechStart": 414.61,
+      "speechEnd": 536.35,
+      "firstWords": "And what about the idea that the universe appeared from",
+      "audioFile": "assets/audio/singularity/scenes/scene-05.flac",
+      "start": 414.495,
+      "end": 536.618667,
+      "duration": 122.123667,
+      "startFrame": 12435,
+      "endFrame": 16099,
+      "startTime": "00:06:54.495",
+      "endTime": "00:08:56.619",
+      "sampleStart": 9947880,
+      "sampleEnd": 12878848
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.25,
+      "end": 2.35,
+      "text": "Rewind the universe.",
+      "firstWord": 0,
+      "lastWord": 2
+    },
+    {
+      "start": 3.01,
+      "end": 5.45,
+      "text": "Watch galaxies draw closer.",
+      "firstWord": 3,
+      "lastWord": 6
+    },
+    {
+      "start": 6.09,
+      "end": 7.91,
+      "text": "Stars disappear.",
+      "firstWord": 7,
+      "lastWord": 8
+    },
+    {
+      "start": 8.39,
+      "end": 10.73,
+      "text": "Even atoms come apart.",
+      "firstWord": 9,
+      "lastWord": 12
+    },
+    {
+      "start": 11.44,
+      "end": 12.31,
+      "text": "Keep going\u2026",
+      "firstWord": 13,
+      "lastWord": 14
+    },
+    {
+      "start": 12.81,
+      "end": 16.63,
+      "text": "and our equations predict something\nextraordinary.",
+      "firstWord": 15,
+      "lastWord": 20
+    },
+    {
+      "start": 17.53,
+      "end": 19.09,
+      "text": "Infinite density.",
+      "firstWord": 21,
+      "lastWord": 22
+    },
+    {
+      "start": 19.61,
+      "end": 21.14,
+      "text": "Infinite temperature.",
+      "firstWord": 23,
+      "lastWord": 24
+    },
+    {
+      "start": 22.04,
+      "end": 23.3,
+      "text": "A singularity.",
+      "firstWord": 25,
+      "lastWord": 26
+    },
+    {
+      "start": 24.01,
+      "end": 26.43,
+      "text": "But what if that singularity",
+      "firstWord": 27,
+      "lastWord": 31
+    },
+    {
+      "start": 26.91,
+      "end": 28.09,
+      "text": "was never real?",
+      "firstWord": 32,
+      "lastWord": 34
+    },
+    {
+      "start": 28.7,
+      "end": 32.06,
+      "text": "What if the universe\u2019s most famous\nbeginning\u2026",
+      "firstWord": 35,
+      "lastWord": 41
+    },
+    {
+      "start": 32.8,
+      "end": 35.48,
+      "text": "is where our best theory stops working?",
+      "firstWord": 42,
+      "lastWord": 48
+    },
+    {
+      "start": 36.05,
+      "end": 38.095,
+      "text": "To find out, we need to separate",
+      "firstWord": 49,
+      "lastWord": 55
+    },
+    {
+      "start": 38.11,
+      "end": 40.69,
+      "text": "three things that often get mixed together:",
+      "firstWord": 56,
+      "lastWord": 62
+    },
+    {
+      "start": 41.29,
+      "end": 43.06,
+      "text": "the universe we can observe,",
+      "firstWord": 63,
+      "lastWord": 67
+    },
+    {
+      "start": 43.46,
+      "end": 45.57,
+      "text": "the Big Bang we have evidence for,",
+      "firstWord": 68,
+      "lastWord": 74
+    },
+    {
+      "start": 46.06,
+      "end": 48.485,
+      "text": "and the beginning we are still trying",
+      "firstWord": 75,
+      "lastWord": 81
+    },
+    {
+      "start": 48.5,
+      "end": 49.61,
+      "text": "to understand.",
+      "firstWord": 82,
+      "lastWord": 83
+    },
+    {
+      "start": 50.11,
+      "end": 51.49,
+      "text": "Start with the evidence.",
+      "firstWord": 84,
+      "lastWord": 87
+    },
+    {
+      "start": 52.23,
+      "end": 55.545,
+      "text": "On the largest scales, distant galaxies\ngenerally",
+      "firstWord": 88,
+      "lastWord": 94
+    },
+    {
+      "start": 55.56,
+      "end": 58.5,
+      "text": "grow farther apart as space expands.",
+      "firstWord": 95,
+      "lastWord": 100
+    },
+    {
+      "start": 59.15,
+      "end": 61.975,
+      "text": "Run that expansion backward, and the\nuniverse",
+      "firstWord": 101,
+      "lastWord": 107
+    },
+    {
+      "start": 61.99,
+      "end": 63.83,
+      "text": "was hotter and denser.",
+      "firstWord": 108,
+      "lastWord": 111
+    },
+    {
+      "start": 64.46,
+      "end": 66.995,
+      "text": "We can still detect a faint glow",
+      "firstWord": 112,
+      "lastWord": 118
+    },
+    {
+      "start": 67.01,
+      "end": 69.57,
+      "text": "released when the universe became\ntransparent,",
+      "firstWord": 119,
+      "lastWord": 124
+    },
+    {
+      "start": 69.78,
+      "end": 72.025,
+      "text": "about three hundred and eighty thousand\nyears",
+      "firstWord": 125,
+      "lastWord": 131
+    },
+    {
+      "start": 72.04,
+      "end": 73.26,
+      "text": "into its expansion.",
+      "firstWord": 132,
+      "lastWord": 134
+    },
+    {
+      "start": 73.96,
+      "end": 76.705,
+      "text": "Today, that ancient light reaches us as",
+      "firstWord": 135,
+      "lastWord": 141
+    },
+    {
+      "start": 76.72,
+      "end": 77.73,
+      "text": "microwaves.",
+      "firstWord": 142,
+      "lastWord": 142
+    },
+    {
+      "start": 78.18,
+      "end": 79.5,
+      "text": "It fills the sky.",
+      "firstWord": 143,
+      "lastWord": 146
+    },
+    {
+      "start": 79.96,
+      "end": 82.045,
+      "text": "We are surrounded by a cooled-down",
+      "firstWord": 147,
+      "lastWord": 153
+    },
+    {
+      "start": 82.06,
+      "end": 84.44,
+      "text": "afterglow of the early universe.",
+      "firstWord": 154,
+      "lastWord": 158
+    },
+    {
+      "start": 85.43,
+      "end": 88.58,
+      "text": "The amounts of hydrogen, helium, and\ndeuterium",
+      "firstWord": 159,
+      "lastWord": 165
+    },
+    {
+      "start": 88.69,
+      "end": 91.975,
+      "text": "also match calculations of an early, hot",
+      "firstWord": 166,
+      "lastWord": 172
+    },
+    {
+      "start": 91.99,
+      "end": 93.22,
+      "text": "cosmic furnace.",
+      "firstWord": 173,
+      "lastWord": 174
+    },
+    {
+      "start": 94.03,
+      "end": 95.05,
+      "text": "Different clues.",
+      "firstWord": 175,
+      "lastWord": 176
+    },
+    {
+      "start": 95.28,
+      "end": 96.32,
+      "text": "The same story.",
+      "firstWord": 177,
+      "lastWord": 179
+    },
+    {
+      "start": 97.35,
+      "end": 100.405,
+      "text": "Our observable universe evolved from an\nextremely",
+      "firstWord": 180,
+      "lastWord": 186
+    },
+    {
+      "start": 100.42,
+      "end": 103.365,
+      "text": "hot, dense state roughly thirteen point\neight",
+      "firstWord": 187,
+      "lastWord": 193
+    },
+    {
+      "start": 103.38,
+      "end": 104.76,
+      "text": "billion years ago.",
+      "firstWord": 194,
+      "lastWord": 196
+    },
+    {
+      "start": 105.9,
+      "end": 107.435,
+      "text": "But none of those clues is a",
+      "firstWord": 197,
+      "lastWord": 203
+    },
+    {
+      "start": 107.45,
+      "end": 109.37,
+      "text": "photograph of a singularity.",
+      "firstWord": 204,
+      "lastWord": 207
+    },
+    {
+      "start": 110.16,
+      "end": 112.305,
+      "text": "So where did the famous point come",
+      "firstWord": 208,
+      "lastWord": 214
+    },
+    {
+      "start": 112.32,
+      "end": 112.76,
+      "text": "from?",
+      "firstWord": 215,
+      "lastWord": 215
+    },
+    {
+      "start": 113.77,
+      "end": 117.06,
+      "text": "Einstein\u2019s theory of gravity describes how\nmatter,",
+      "firstWord": 216,
+      "lastWord": 222
+    },
+    {
+      "start": 117.25,
+      "end": 117.97,
+      "text": "energy,",
+      "firstWord": 223,
+      "lastWord": 223
+    },
+    {
+      "start": 118.21,
+      "end": 120.34,
+      "text": "space, and time affect one another.",
+      "firstWord": 224,
+      "lastWord": 229
+    },
+    {
+      "start": 121.07,
+      "end": 123.98,
+      "text": "Apply it to a simple expanding universe,",
+      "firstWord": 230,
+      "lastWord": 236
+    },
+    {
+      "start": 124.46,
+      "end": 126.76,
+      "text": "and then follow the mathematics backward.",
+      "firstWord": 237,
+      "lastWord": 242
+    },
+    {
+      "start": 127.77,
+      "end": 128.88,
+      "text": "Distances shrink.",
+      "firstWord": 243,
+      "lastWord": 244
+    },
+    {
+      "start": 129.38,
+      "end": 130.64,
+      "text": "Density rises.",
+      "firstWord": 245,
+      "lastWord": 246
+    },
+    {
+      "start": 131.42,
+      "end": 133.63,
+      "text": "In the standard classical extrapolation,",
+      "firstWord": 247,
+      "lastWord": 251
+    },
+    {
+      "start": 134.0,
+      "end": 136.565,
+      "text": "the calculation reaches a boundary where\ndensity",
+      "firstWord": 252,
+      "lastWord": 258
+    },
+    {
+      "start": 136.58,
+      "end": 138.35,
+      "text": "and temperature diverge.",
+      "firstWord": 259,
+      "lastWord": 261
+    },
+    {
+      "start": 139.09,
+      "end": 141.24,
+      "text": "The description cannot continue normally.",
+      "firstWord": 262,
+      "lastWord": 266
+    },
+    {
+      "start": 142.12,
+      "end": 144.645,
+      "text": "That boundary is associated with the Big",
+      "firstWord": 267,
+      "lastWord": 273
+    },
+    {
+      "start": 144.66,
+      "end": 145.91,
+      "text": "Bang singularity.",
+      "firstWord": 274,
+      "lastWord": 275
+    },
+    {
+      "start": 146.59,
+      "end": 147.92,
+      "text": "Here is the catch.",
+      "firstWord": 276,
+      "lastWord": 279
+    },
+    {
+      "start": 148.77,
+      "end": 150.835,
+      "text": "Following an equation beyond the conditions",
+      "firstWord": 280,
+      "lastWord": 285
+    },
+    {
+      "start": 150.85,
+      "end": 152.0,
+      "text": "where it has been tested",
+      "firstWord": 286,
+      "lastWord": 290
+    },
+    {
+      "start": 152.38,
+      "end": 154.575,
+      "text": "does not guarantee that nature follows it",
+      "firstWord": 291,
+      "lastWord": 297
+    },
+    {
+      "start": 154.59,
+      "end": 155.05,
+      "text": "there.",
+      "firstWord": 298,
+      "lastWord": 298
+    },
+    {
+      "start": 155.77,
+      "end": 157.4,
+      "text": "An infinity in the calculation",
+      "firstWord": 299,
+      "lastWord": 303
+    },
+    {
+      "start": 157.69,
+      "end": 159.45,
+      "text": "is not a measured object.",
+      "firstWord": 304,
+      "lastWord": 308
+    },
+    {
+      "start": 159.81,
+      "end": 161.235,
+      "text": "It may be a warning that our",
+      "firstWord": 309,
+      "lastWord": 315
+    },
+    {
+      "start": 161.25,
+      "end": 163.03,
+      "text": "description is incomplete.",
+      "firstWord": 316,
+      "lastWord": 318
+    },
+    {
+      "start": 163.65,
+      "end": 166.345,
+      "text": "So did we discover the universe\u2019s first",
+      "firstWord": 319,
+      "lastWord": 325
+    },
+    {
+      "start": 166.36,
+      "end": 166.94,
+      "text": "moment\u2026",
+      "firstWord": 326,
+      "lastWord": 326
+    },
+    {
+      "start": 167.65,
+      "end": 170.145,
+      "text": "or the limit of the theory describing",
+      "firstWord": 327,
+      "lastWord": 333
+    },
+    {
+      "start": 170.16,
+      "end": 170.56,
+      "text": "it?",
+      "firstWord": 334,
+      "lastWord": 334
+    },
+    {
+      "start": 171.24,
+      "end": 172.24,
+      "text": "Before we answer,",
+      "firstWord": 335,
+      "lastWord": 337
+    },
+    {
+      "start": 172.46,
+      "end": 173.645,
+      "text": "we need to fix the picture in",
+      "firstWord": 338,
+      "lastWord": 344
+    },
+    {
+      "start": 173.66,
+      "end": 174.23,
+      "text": "our heads.",
+      "firstWord": 345,
+      "lastWord": 346
+    },
+    {
+      "start": 174.95,
+      "end": 177.265,
+      "text": "Imagine a glowing dot floating in an",
+      "firstWord": 347,
+      "lastWord": 353
+    },
+    {
+      "start": 177.28,
+      "end": 178.69,
+      "text": "enormous black room.",
+      "firstWord": 354,
+      "lastWord": 356
+    },
+    {
+      "start": 179.33,
+      "end": 180.65,
+      "text": "The dot explodes,",
+      "firstWord": 357,
+      "lastWord": 359
+    },
+    {
+      "start": 180.92,
+      "end": 183.1,
+      "text": "and its pieces become galaxies.",
+      "firstWord": 360,
+      "lastWord": 364
+    },
+    {
+      "start": 183.83,
+      "end": 185.47,
+      "text": "It is a memorable image.",
+      "firstWord": 365,
+      "lastWord": 369
+    },
+    {
+      "start": 186.1,
+      "end": 188.475,
+      "text": "It also sneaks an entire room into",
+      "firstWord": 370,
+      "lastWord": 376
+    },
+    {
+      "start": 188.49,
+      "end": 190.85,
+      "text": "existence before the universe begins.",
+      "firstWord": 377,
+      "lastWord": 381
+    },
+    {
+      "start": 191.35,
+      "end": 193.02,
+      "text": "Where did that room come from?",
+      "firstWord": 382,
+      "lastWord": 387
+    },
+    {
+      "start": 193.39,
+      "end": 196.245,
+      "text": "The Big Bang model does not require",
+      "firstWord": 388,
+      "lastWord": 394
+    },
+    {
+      "start": 196.26,
+      "end": 199.77,
+      "text": "an explosion into pre-existing empty space.",
+      "firstWord": 395,
+      "lastWord": 401
+    },
+    {
+      "start": 200.56,
+      "end": 204.085,
+      "text": "It describes an early hot, dense universe",
+      "firstWord": 402,
+      "lastWord": 408
+    },
+    {
+      "start": 204.1,
+      "end": 205.78,
+      "text": "and its subsequent expansion.",
+      "firstWord": 409,
+      "lastWord": 412
+    },
+    {
+      "start": 206.35,
+      "end": 207.17,
+      "text": "There is no",
+      "firstWord": 413,
+      "lastWord": 415
+    },
+    {
+      "start": 207.61,
+      "end": 210.455,
+      "text": "established central launch site that\neverything",
+      "firstWord": 416,
+      "lastWord": 421
+    },
+    {
+      "start": 210.47,
+      "end": 211.77,
+      "text": "is flying away from.",
+      "firstWord": 422,
+      "lastWord": 425
+    },
+    {
+      "start": 212.18,
+      "end": 213.805,
+      "text": "And the universe beyond what we can",
+      "firstWord": 426,
+      "lastWord": 432
+    },
+    {
+      "start": 213.82,
+      "end": 216.105,
+      "text": "observe might be much larger than our",
+      "firstWord": 433,
+      "lastWord": 439
+    },
+    {
+      "start": 216.12,
+      "end": 217.04,
+      "text": "visible region.",
+      "firstWord": 440,
+      "lastWord": 441
+    },
+    {
+      "start": 217.84,
+      "end": 220.29,
+      "text": "It might even be spatially infinite.",
+      "firstWord": 442,
+      "lastWord": 447
+    },
+    {
+      "start": 221.11,
+      "end": 223.945,
+      "text": "An infinite universe can expand while\nremaining",
+      "firstWord": 448,
+      "lastWord": 454
+    },
+    {
+      "start": 223.96,
+      "end": 224.66,
+      "text": "infinite.",
+      "firstWord": 455,
+      "lastWord": 455
+    },
+    {
+      "start": 225.44,
+      "end": 228.195,
+      "text": "Rewinding its expansion does not make all",
+      "firstWord": 456,
+      "lastWord": 462
+    },
+    {
+      "start": 228.21,
+      "end": 230.485,
+      "text": "of it a tiny ball sitting somewhere",
+      "firstWord": 463,
+      "lastWord": 469
+    },
+    {
+      "start": 230.5,
+      "end": 230.9,
+      "text": "else.",
+      "firstWord": 470,
+      "lastWord": 470
+    },
+    {
+      "start": 231.77,
+      "end": 234.145,
+      "text": "Everything we can see was once packed",
+      "firstWord": 471,
+      "lastWord": 477
+    },
+    {
+      "start": 234.16,
+      "end": 236.33,
+      "text": "into a much smaller region.",
+      "firstWord": 478,
+      "lastWord": 482
+    },
+    {
+      "start": 237.06,
+      "end": 238.985,
+      "text": "That does not establish that everything\nthat",
+      "firstWord": 483,
+      "lastWord": 489
+    },
+    {
+      "start": 239.0,
+      "end": 241.84,
+      "text": "exists was once one little dot.",
+      "firstWord": 490,
+      "lastWord": 495
+    },
+    {
+      "start": 242.24,
+      "end": 243.61,
+      "text": "Now for the harder problem.",
+      "firstWord": 496,
+      "lastWord": 500
+    },
+    {
+      "start": 244.28,
+      "end": 246.52,
+      "text": "When we investigate atoms and particles,",
+      "firstWord": 501,
+      "lastWord": 506
+    },
+    {
+      "start": 246.85,
+      "end": 248.35,
+      "text": "we use quantum physics.",
+      "firstWord": 507,
+      "lastWord": 510
+    },
+    {
+      "start": 248.82,
+      "end": 251.345,
+      "text": "When we investigate gravity and the\nlarge-scale",
+      "firstWord": 511,
+      "lastWord": 518
+    },
+    {
+      "start": 251.36,
+      "end": 252.06,
+      "text": "universe,",
+      "firstWord": 519,
+      "lastWord": 519
+    },
+    {
+      "start": 252.3,
+      "end": 254.0,
+      "text": "we use general relativity.",
+      "firstWord": 520,
+      "lastWord": 523
+    },
+    {
+      "start": 254.54,
+      "end": 256.745,
+      "text": "Both are astonishingly successful.",
+      "firstWord": 524,
+      "lastWord": 527
+    },
+    {
+      "start": 256.76,
+      "end": 257.01,
+      "text": "But",
+      "firstWord": 528,
+      "lastWord": 528
+    },
+    {
+      "start": 257.62,
+      "end": 259.425,
+      "text": "the earliest conditions push us toward a",
+      "firstWord": 529,
+      "lastWord": 535
+    },
+    {
+      "start": 259.44,
+      "end": 262.725,
+      "text": "regime where quantum effects and gravity\nmust",
+      "firstWord": 536,
+      "lastWord": 542
+    },
+    {
+      "start": 262.74,
+      "end": 263.73,
+      "text": "both matter.",
+      "firstWord": 543,
+      "lastWord": 544
+    },
+    {
+      "start": 264.14,
+      "end": 266.195,
+      "text": "We do not yet have an experimentally",
+      "firstWord": 545,
+      "lastWord": 551
+    },
+    {
+      "start": 266.21,
+      "end": 268.885,
+      "text": "established theory that fully describes\nthat",
+      "firstWord": 552,
+      "lastWord": 557
+    },
+    {
+      "start": 268.9,
+      "end": 269.53,
+      "text": "regime.",
+      "firstWord": 558,
+      "lastWord": 558
+    },
+    {
+      "start": 270.18,
+      "end": 271.36,
+      "text": "To describe that moment,",
+      "firstWord": 559,
+      "lastWord": 562
+    },
+    {
+      "start": 271.64,
+      "end": 273.075,
+      "text": "we need more than a theory of",
+      "firstWord": 563,
+      "lastWord": 569
+    },
+    {
+      "start": 273.09,
+      "end": 275.265,
+      "text": "tiny particles or a theory of gravity",
+      "firstWord": 570,
+      "lastWord": 576
+    },
+    {
+      "start": 275.28,
+      "end": 276.45,
+      "text": "working separately.",
+      "firstWord": 577,
+      "lastWord": 578
+    },
+    {
+      "start": 276.92,
+      "end": 278.71,
+      "text": "We need them to work together.",
+      "firstWord": 579,
+      "lastWord": 584
+    },
+    {
+      "start": 279.31,
+      "end": 280.25,
+      "text": "The singularity",
+      "firstWord": 585,
+      "lastWord": 586
+    },
+    {
+      "start": 280.66,
+      "end": 282.675,
+      "text": "may be where that missing physics becomes",
+      "firstWord": 587,
+      "lastWord": 593
+    },
+    {
+      "start": 282.69,
+      "end": 283.47,
+      "text": "unavoidable.",
+      "firstWord": 594,
+      "lastWord": 594
+    },
+    {
+      "start": 284.18,
+      "end": 285.55,
+      "text": "Which brings us to the question",
+      "firstWord": 595,
+      "lastWord": 600
+    },
+    {
+      "start": 285.9,
+      "end": 287.49,
+      "text": "everyone wants to ask.",
+      "firstWord": 601,
+      "lastWord": 604
+    },
+    {
+      "start": 288.2,
+      "end": 290.81,
+      "text": "What happened before the Big Bang?",
+      "firstWord": 605,
+      "lastWord": 610
+    },
+    {
+      "start": 291.21,
+      "end": 292.72,
+      "text": "There are several possibilities.",
+      "firstWord": 611,
+      "lastWord": 614
+    },
+    {
+      "start": 293.07,
+      "end": 295.165,
+      "text": "None is an established account of our",
+      "firstWord": 615,
+      "lastWord": 621
+    },
+    {
+      "start": 295.18,
+      "end": 296.17,
+      "text": "ultimate origin.",
+      "firstWord": 622,
+      "lastWord": 623
+    },
+    {
+      "start": 297.01,
+      "end": 298.02,
+      "text": "One possibility",
+      "firstWord": 624,
+      "lastWord": 625
+    },
+    {
+      "start": 298.33,
+      "end": 300.05,
+      "text": "is that time has a beginning.",
+      "firstWord": 626,
+      "lastWord": 631
+    },
+    {
+      "start": 300.68,
+      "end": 302.725,
+      "text": "We usually imagine time as a road",
+      "firstWord": 632,
+      "lastWord": 638
+    },
+    {
+      "start": 302.74,
+      "end": 304.75,
+      "text": "stretching endlessly in both directions.",
+      "firstWord": 639,
+      "lastWord": 643
+    },
+    {
+      "start": 305.13,
+      "end": 307.14,
+      "text": "But that picture is an assumption.",
+      "firstWord": 644,
+      "lastWord": 649
+    },
+    {
+      "start": 307.87,
+      "end": 308.9,
+      "text": "In some proposals,",
+      "firstWord": 650,
+      "lastWord": 652
+    },
+    {
+      "start": 309.13,
+      "end": 311.145,
+      "text": "there is no earlier moment beyond the",
+      "firstWord": 653,
+      "lastWord": 659
+    },
+    {
+      "start": 311.16,
+      "end": 312.77,
+      "text": "universe\u2019s initial boundary.",
+      "firstWord": 660,
+      "lastWord": 662
+    },
+    {
+      "start": 313.49,
+      "end": 315.38,
+      "text": "Asking what happened before it",
+      "firstWord": 663,
+      "lastWord": 667
+    },
+    {
+      "start": 315.64,
+      "end": 317.935,
+      "text": "would be asking for a location outside",
+      "firstWord": 668,
+      "lastWord": 674
+    },
+    {
+      "start": 317.95,
+      "end": 319.05,
+      "text": "the map\u2019s domain.",
+      "firstWord": 675,
+      "lastWord": 677
+    },
+    {
+      "start": 319.82,
+      "end": 321.48,
+      "text": "That does not prove time began.",
+      "firstWord": 678,
+      "lastWord": 683
+    },
+    {
+      "start": 321.94,
+      "end": 324.055,
+      "text": "It shows why the word \u201cbefore\u201d might",
+      "firstWord": 684,
+      "lastWord": 690
+    },
+    {
+      "start": 324.07,
+      "end": 325.29,
+      "text": "stop making sense.",
+      "firstWord": 691,
+      "lastWord": 693
+    },
+    {
+      "start": 325.91,
+      "end": 327.855,
+      "text": "You cannot put an event earlier than",
+      "firstWord": 694,
+      "lastWord": 700
+    },
+    {
+      "start": 327.87,
+      "end": 328.94,
+      "text": "the earliest moment\u2026",
+      "firstWord": 701,
+      "lastWord": 703
+    },
+    {
+      "start": 329.45,
+      "end": 331.47,
+      "text": "if an earliest moment exists.",
+      "firstWord": 704,
+      "lastWord": 708
+    },
+    {
+      "start": 331.84,
+      "end": 334.535,
+      "text": "Another possibility is that our expansion\nfollowed",
+      "firstWord": 709,
+      "lastWord": 715
+    },
+    {
+      "start": 334.55,
+      "end": 335.97,
+      "text": "an earlier phase.",
+      "firstWord": 716,
+      "lastWord": 718
+    },
+    {
+      "start": 336.5,
+      "end": 339.325,
+      "text": "Some speculative models replace a singular\nbeginning",
+      "firstWord": 719,
+      "lastWord": 725
+    },
+    {
+      "start": 339.34,
+      "end": 340.43,
+      "text": "with a bounce.",
+      "firstWord": 726,
+      "lastWord": 728
+    },
+    {
+      "start": 340.94,
+      "end": 343.96,
+      "text": "A contracting universe reaches extreme\nconditions,",
+      "firstWord": 729,
+      "lastWord": 734
+    },
+    {
+      "start": 344.14,
+      "end": 347.21,
+      "text": "and new physics allows expansion to follow.",
+      "firstWord": 735,
+      "lastWord": 741
+    },
+    {
+      "start": 347.73,
+      "end": 349.94,
+      "text": "In that picture, our hot cosmic history",
+      "firstWord": 742,
+      "lastWord": 748
+    },
+    {
+      "start": 350.16,
+      "end": 351.94,
+      "text": "has a previous chapter.",
+      "firstWord": 749,
+      "lastWord": 752
+    },
+    {
+      "start": 352.48,
+      "end": 354.775,
+      "text": "But drawing a beautiful bounce is much",
+      "firstWord": 753,
+      "lastWord": 759
+    },
+    {
+      "start": 354.79,
+      "end": 357.43,
+      "text": "easier than showing that one actually\nhappened.",
+      "firstWord": 760,
+      "lastWord": 766
+    },
+    {
+      "start": 357.82,
+      "end": 359.925,
+      "text": "A convincing model must make physical sense",
+      "firstWord": 767,
+      "lastWord": 773
+    },
+    {
+      "start": 359.94,
+      "end": 362.77,
+      "text": "and survive comparison with observations.",
+      "firstWord": 774,
+      "lastWord": 778
+    },
+    {
+      "start": 363.32,
+      "end": 365.325,
+      "text": "We have not established that our universe",
+      "firstWord": 779,
+      "lastWord": 785
+    },
+    {
+      "start": 365.34,
+      "end": 365.95,
+      "text": "bounced.",
+      "firstWord": 786,
+      "lastWord": 786
+    },
+    {
+      "start": 366.54,
+      "end": 368.3,
+      "text": "Then there is inflation: a",
+      "firstWord": 787,
+      "lastWord": 791
+    },
+    {
+      "start": 368.58,
+      "end": 371.22,
+      "text": "proposed period of extremely rapid\nexpansion",
+      "firstWord": 792,
+      "lastWord": 797
+    },
+    {
+      "start": 371.41,
+      "end": 373.19,
+      "text": "very early in cosmic history.",
+      "firstWord": 798,
+      "lastWord": 802
+    },
+    {
+      "start": 373.6,
+      "end": 376.155,
+      "text": "Inflation can help explain several\nlarge-scale",
+      "firstWord": 803,
+      "lastWord": 809
+    },
+    {
+      "start": 376.17,
+      "end": 377.4,
+      "text": "features we observe.",
+      "firstWord": 810,
+      "lastWord": 812
+    },
+    {
+      "start": 377.74,
+      "end": 380.085,
+      "text": "But what drove it, how it began,",
+      "firstWord": 813,
+      "lastWord": 819
+    },
+    {
+      "start": 380.1,
+      "end": 381.995,
+      "text": "and whether it happened in a particular",
+      "firstWord": 820,
+      "lastWord": 826
+    },
+    {
+      "start": 382.01,
+      "end": 384.22,
+      "text": "form remain open questions.",
+      "firstWord": 827,
+      "lastWord": 830
+    },
+    {
+      "start": 384.66,
+      "end": 387.455,
+      "text": "It does not automatically explain why\nanything",
+      "firstWord": 831,
+      "lastWord": 837
+    },
+    {
+      "start": 387.47,
+      "end": 388.22,
+      "text": "exists.",
+      "firstWord": 838,
+      "lastWord": 838
+    },
+    {
+      "start": 388.77,
+      "end": 391.125,
+      "text": "Some inflationary scenarios suggest that\nregions",
+      "firstWord": 839,
+      "lastWord": 844
+    },
+    {
+      "start": 391.14,
+      "end": 392.82,
+      "text": "beyond our observable universe",
+      "firstWord": 845,
+      "lastWord": 848
+    },
+    {
+      "start": 393.12,
+      "end": 396.075,
+      "text": "could develop different cosmic\nhistories\u2014sometimes",
+      "firstWord": 849,
+      "lastWord": 854
+    },
+    {
+      "start": 396.09,
+      "end": 398.34,
+      "text": "described as other universes.",
+      "firstWord": 855,
+      "lastWord": 858
+    },
+    {
+      "start": 399.07,
+      "end": 400.925,
+      "text": "So did every universe come from the",
+      "firstWord": 859,
+      "lastWord": 865
+    },
+    {
+      "start": 400.94,
+      "end": 402.23,
+      "text": "same singularity?",
+      "firstWord": 866,
+      "lastWord": 867
+    },
+    {
+      "start": 402.9,
+      "end": 404.515,
+      "text": "We do not know that other universes",
+      "firstWord": 868,
+      "lastWord": 874
+    },
+    {
+      "start": 404.53,
+      "end": 405.14,
+      "text": "exist.",
+      "firstWord": 875,
+      "lastWord": 875
+    },
+    {
+      "start": 405.35,
+      "end": 407.565,
+      "text": "We cannot establish a shared birthplace for",
+      "firstWord": 876,
+      "lastWord": 882
+    },
+    {
+      "start": 407.58,
+      "end": 407.89,
+      "text": "them.",
+      "firstWord": 883,
+      "lastWord": 883
+    },
+    {
+      "start": 408.46,
+      "end": 410.455,
+      "text": "The multiverse is a set of speculative",
+      "firstWord": 884,
+      "lastWord": 890
+    },
+    {
+      "start": 410.47,
+      "end": 413.705,
+      "text": "possibilities, not an observed family tree\nof",
+      "firstWord": 891,
+      "lastWord": 897
+    },
+    {
+      "start": 413.72,
+      "end": 414.48,
+      "text": "reality.",
+      "firstWord": 898,
+      "lastWord": 898
+    },
+    {
+      "start": 414.61,
+      "end": 416.255,
+      "text": "And what about the idea that the",
+      "firstWord": 899,
+      "lastWord": 905
+    },
+    {
+      "start": 416.27,
+      "end": 418.2,
+      "text": "universe appeared from nothing?",
+      "firstWord": 906,
+      "lastWord": 909
+    },
+    {
+      "start": 419.16,
+      "end": 420.52,
+      "text": "Be careful with that word.",
+      "firstWord": 910,
+      "lastWord": 914
+    },
+    {
+      "start": 421.46,
+      "end": 422.6,
+      "text": "In quantum physics,",
+      "firstWord": 915,
+      "lastWord": 917
+    },
+    {
+      "start": 422.91,
+      "end": 425.515,
+      "text": "empty space is not necessarily the absence",
+      "firstWord": 918,
+      "lastWord": 924
+    },
+    {
+      "start": 425.53,
+      "end": 426.6,
+      "text": "of everything.",
+      "firstWord": 925,
+      "lastWord": 926
+    },
+    {
+      "start": 427.37,
+      "end": 428.62,
+      "text": "A quantum vacuum",
+      "firstWord": 927,
+      "lastWord": 929
+    },
+    {
+      "start": 428.9,
+      "end": 431.065,
+      "text": "still belongs to a physical framework, with",
+      "firstWord": 930,
+      "lastWord": 936
+    },
+    {
+      "start": 431.08,
+      "end": 433.35,
+      "text": "fields, states, and rules.",
+      "firstWord": 937,
+      "lastWord": 940
+    },
+    {
+      "start": 434.29,
+      "end": 436.745,
+      "text": "Explaining how something can emerge within\nthat",
+      "firstWord": 941,
+      "lastWord": 947
+    },
+    {
+      "start": 436.76,
+      "end": 437.4,
+      "text": "framework",
+      "firstWord": 948,
+      "lastWord": 948
+    },
+    {
+      "start": 437.69,
+      "end": 439.905,
+      "text": "is different from explaining why the\nframework",
+      "firstWord": 949,
+      "lastWord": 955
+    },
+    {
+      "start": 439.92,
+      "end": 440.94,
+      "text": "exists at all.",
+      "firstWord": 956,
+      "lastWord": 958
+    },
+    {
+      "start": 441.82,
+      "end": 444.045,
+      "text": "We should not hide the biggest unanswered",
+      "firstWord": 959,
+      "lastWord": 965
+    },
+    {
+      "start": 444.06,
+      "end": 446.41,
+      "text": "question inside the word \u201cnothing.\u201d",
+      "firstWord": 966,
+      "lastWord": 970
+    },
+    {
+      "start": 447.71,
+      "end": 449.24,
+      "text": "So what can we honestly say?",
+      "firstWord": 971,
+      "lastWord": 976
+    },
+    {
+      "start": 450.04,
+      "end": 451.965,
+      "text": "The hot Big Bang is supported by",
+      "firstWord": 977,
+      "lastWord": 983
+    },
+    {
+      "start": 451.98,
+      "end": 452.66,
+      "text": "evidence.",
+      "firstWord": 984,
+      "lastWord": 984
+    },
+    {
+      "start": 453.44,
+      "end": 455.715,
+      "text": "A physical singularity at the ultimate\nbeginning",
+      "firstWord": 985,
+      "lastWord": 991
+    },
+    {
+      "start": 455.73,
+      "end": 457.21,
+      "text": "has not been established.",
+      "firstWord": 992,
+      "lastWord": 995
+    },
+    {
+      "start": 457.79,
+      "end": 460.71,
+      "text": "What, if anything, preceded our early\nexpansion",
+      "firstWord": 996,
+      "lastWord": 1002
+    },
+    {
+      "start": 460.98,
+      "end": 462.2,
+      "text": "remains unresolved.",
+      "firstWord": 1003,
+      "lastWord": 1004
+    },
+    {
+      "start": 463.0,
+      "end": 464.84,
+      "text": "Those are different levels of knowledge.",
+      "firstWord": 1005,
+      "lastWord": 1010
+    },
+    {
+      "start": 465.41,
+      "end": 466.965,
+      "text": "And the gaps give us something to",
+      "firstWord": 1011,
+      "lastWord": 1017
+    },
+    {
+      "start": 466.98,
+      "end": 467.65,
+      "text": "investigate.",
+      "firstWord": 1018,
+      "lastWord": 1018
+    },
+    {
+      "start": 468.53,
+      "end": 471.31,
+      "text": "Scientists can test early-universe ideas\nthrough",
+      "firstWord": 1019,
+      "lastWord": 1025
+    },
+    {
+      "start": 471.52,
+      "end": 473.975,
+      "text": "increasingly precise measurements of\nancient",
+      "firstWord": 1026,
+      "lastWord": 1030
+    },
+    {
+      "start": 473.99,
+      "end": 474.5,
+      "text": "light,",
+      "firstWord": 1031,
+      "lastWord": 1031
+    },
+    {
+      "start": 474.79,
+      "end": 476.49,
+      "text": "the distribution of galaxies,",
+      "firstWord": 1032,
+      "lastWord": 1035
+    },
+    {
+      "start": 476.78,
+      "end": 479.935,
+      "text": "and possible relic signals such as\nprimordial",
+      "firstWord": 1036,
+      "lastWord": 1042
+    },
+    {
+      "start": 479.95,
+      "end": 481.36,
+      "text": "gravitational waves.",
+      "firstWord": 1043,
+      "lastWord": 1044
+    },
+    {
+      "start": 482.4,
+      "end": 485.38,
+      "text": "A theory earns confidence by explaining\nevidence",
+      "firstWord": 1045,
+      "lastWord": 1051
+    },
+    {
+      "start": 485.59,
+      "end": 487.97,
+      "text": "and making predictions that survive\ntesting.",
+      "firstWord": 1052,
+      "lastWord": 1057
+    },
+    {
+      "start": 488.97,
+      "end": 489.72,
+      "text": "Meanwhile,",
+      "firstWord": 1058,
+      "lastWord": 1058
+    },
+    {
+      "start": 490.03,
+      "end": 491.945,
+      "text": "you are already carrying part of this",
+      "firstWord": 1059,
+      "lastWord": 1065
+    },
+    {
+      "start": 491.96,
+      "end": 492.57,
+      "text": "history.",
+      "firstWord": 1066,
+      "lastWord": 1066
+    },
+    {
+      "start": 493.42,
+      "end": 495.395,
+      "text": "The hydrogen in your body traces back",
+      "firstWord": 1067,
+      "lastWord": 1073
+    },
+    {
+      "start": 495.41,
+      "end": 496.58,
+      "text": "to the early universe.",
+      "firstWord": 1074,
+      "lastWord": 1077
+    },
+    {
+      "start": 497.16,
+      "end": 498.955,
+      "text": "Much of the carbon and oxygen needed",
+      "firstWord": 1078,
+      "lastWord": 1084
+    },
+    {
+      "start": 498.97,
+      "end": 500.62,
+      "text": "for life was forged later,",
+      "firstWord": 1085,
+      "lastWord": 1089
+    },
+    {
+      "start": 500.88,
+      "end": 502.95,
+      "text": "through the lives and deaths of stars.",
+      "firstWord": 1090,
+      "lastWord": 1096
+    },
+    {
+      "start": 503.75,
+      "end": 506.255,
+      "text": "You belong to a cosmic story whose",
+      "firstWord": 1097,
+      "lastWord": 1103
+    },
+    {
+      "start": 506.27,
+      "end": 508.56,
+      "text": "early chapters we can reconstruct\u2026",
+      "firstWord": 1104,
+      "lastWord": 1108
+    },
+    {
+      "start": 509.19,
+      "end": 510.695,
+      "text": "even though we still do not know",
+      "firstWord": 1109,
+      "lastWord": 1115
+    },
+    {
+      "start": 510.71,
+      "end": 512.3,
+      "text": "whether it had a first page.",
+      "firstWord": 1116,
+      "lastWord": 1121
+    },
+    {
+      "start": 512.61,
+      "end": 514.71,
+      "text": "Rewind the universe again.",
+      "firstWord": 1122,
+      "lastWord": 1125
+    },
+    {
+      "start": 515.3,
+      "end": 516.63,
+      "text": "Past the galaxies.",
+      "firstWord": 1126,
+      "lastWord": 1128
+    },
+    {
+      "start": 516.92,
+      "end": 518.34,
+      "text": "Past the stars.",
+      "firstWord": 1129,
+      "lastWord": 1131
+    },
+    {
+      "start": 518.84,
+      "end": 519.93,
+      "text": "Past the atoms.",
+      "firstWord": 1132,
+      "lastWord": 1134
+    },
+    {
+      "start": 520.66,
+      "end": 522.65,
+      "text": "At the edge of what we understand,",
+      "firstWord": 1135,
+      "lastWord": 1141
+    },
+    {
+      "start": 523.15,
+      "end": 525.155,
+      "text": "do not imagine a tiny ball we",
+      "firstWord": 1142,
+      "lastWord": 1148
+    },
+    {
+      "start": 525.17,
+      "end": 526.39,
+      "text": "have proved was there.",
+      "firstWord": 1149,
+      "lastWord": 1152
+    },
+    {
+      "start": 527.07,
+      "end": 529.165,
+      "text": "Imagine a question we have not yet",
+      "firstWord": 1153,
+      "lastWord": 1159
+    },
+    {
+      "start": 529.18,
+      "end": 530.51,
+      "text": "learned how to answer.",
+      "firstWord": 1160,
+      "lastWord": 1163
+    },
+    {
+      "start": 531.01,
+      "end": 532.44,
+      "text": "Did everything begin\u2026",
+      "firstWord": 1164,
+      "lastWord": 1166
+    },
+    {
+      "start": 532.86,
+      "end": 534.845,
+      "text": "or is a beginning simply where our",
+      "firstWord": 1167,
+      "lastWord": 1173
+    },
+    {
+      "start": 534.86,
+      "end": 536.45,
+      "text": "explanation runs out?",
+      "firstWord": 1174,
+      "lastWord": 1176
+    }
+  ],
+  "visualBeats": [
+    {
+      "cue": "Rewind the universe",
+      "action": "Open on the layered cosmos; introduce backward motion immediately. Integrate the episode title with the composition.",
+      "layers": "deep sky, gas, far stars, galaxy groups",
+      "sound": "Soft reverse-air cue; sparse low ambient opening.",
+      "id": 1,
+      "firstWord": 0,
+      "speechStart": 0.25,
+      "start": 0,
+      "end": 3.01,
+      "duration": 3.01,
+      "startFrame": 0,
+      "endFrame": 90,
+      "startTime": "00:00:00.000",
+      "endTime": "00:00:03.010"
+    },
+    {
+      "cue": "Watch galaxies draw closer",
+      "action": "Reverse large-scale separation across the field without implying a central launch site.",
+      "layers": "independent galaxy groups, deep background",
+      "id": 2,
+      "firstWord": 3,
+      "speechStart": 3.01,
+      "start": 3.01,
+      "end": 6.09,
+      "duration": 3.08,
+      "startFrame": 90,
+      "endFrame": 183,
+      "startTime": "00:00:03.010",
+      "endTime": "00:00:06.090"
+    },
+    {
+      "cue": "Stars disappear",
+      "action": "Reverse stellar formation into the surrounding nebula while retaining the galaxy's spatial structure.",
+      "layers": "stellar lights, nebula planes, distant starfield",
+      "id": 3,
+      "firstWord": 7,
+      "speechStart": 6.09,
+      "start": 6.09,
+      "end": 8.39,
+      "duration": 2.3,
+      "startFrame": 183,
+      "endFrame": 252,
+      "startTime": "00:00:06.090",
+      "endTime": "00:00:08.390"
+    },
+    {
+      "cue": "Even atoms come apart",
+      "action": "Transition through a motivated scale change into ionized matter; nuclei and electrons separate.",
+      "layers": "atom parts, plasma wisps, soft far particles",
+      "id": 4,
+      "firstWord": 9,
+      "speechStart": 8.39,
+      "start": 8.39,
+      "end": 11.44,
+      "duration": 3.05,
+      "startFrame": 252,
+      "endFrame": 343,
+      "startTime": "00:00:08.390",
+      "endTime": "00:00:11.440"
+    },
+    {
+      "cue": "Keep going",
+      "action": "Increase density and heat in an abstract model view; infinity is presented as an unresolved mathematical limit.",
+      "layers": "particle planes, density envelope, model boundary",
+      "sound": "Build a restrained rising tone, then leave room for the question.",
+      "id": 5,
+      "firstWord": 13,
+      "speechStart": 11.44,
+      "start": 11.44,
+      "end": 22.04,
+      "duration": 10.6,
+      "startFrame": 343,
+      "endFrame": 661,
+      "startTime": "00:00:11.440",
+      "endTime": "00:00:22.040"
+    },
+    {
+      "cue": "A singularity",
+      "action": "Hold the extrapolation at an unresolved boundary rather than presenting a photographed physical object.",
+      "layers": "model boundary, fading particles",
+      "id": 6,
+      "firstWord": 25,
+      "speechStart": 22.04,
+      "start": 22.04,
+      "end": 24.01,
+      "duration": 1.97,
+      "startFrame": 661,
+      "endFrame": 720,
+      "startTime": "00:00:22.040",
+      "endTime": "00:00:24.010"
+    },
+    {
+      "cue": "But what if that singularity was never real",
+      "action": "Let the apparently definite origin dissolve into an incomplete description; hold the reveal through the question.",
+      "layers": "boundary mask, unresolved spatial field",
+      "sound": "Reduce the bed for the reversal; no loud impact.",
+      "id": 7,
+      "firstWord": 27,
+      "speechStart": 24.01,
+      "start": 24.01,
+      "end": 36.05,
+      "duration": 12.04,
+      "startFrame": 720,
+      "endFrame": 1082,
+      "startTime": "00:00:24.010",
+      "endTime": "00:00:36.050"
+    },
+    {
+      "cue": "To find out",
+      "action": "Establish three visual ideas: the observable region, the hot early history, and an unknown ultimate origin.",
+      "layers": "observation region, history trail, unresolved edge",
+      "id": 8,
+      "firstWord": 49,
+      "speechStart": 36.05,
+      "start": 36.05,
+      "end": 50.11,
+      "duration": 14.06,
+      "startFrame": 1082,
+      "endFrame": 1503,
+      "startTime": "00:00:36.050",
+      "endTime": "00:00:50.110"
+    },
+    {
+      "cue": "Start with the evidence",
+      "action": "Show a repeating galaxy field with increasing distances on large scales; transition backward into a denser state.",
+      "layers": "galaxies, distance markers used only to explain, gas",
+      "sound": "Begin a gentle, clear harmonic pattern under the evidence.",
+      "id": 9,
+      "firstWord": 84,
+      "speechStart": 50.11,
+      "start": 50.11,
+      "end": 64.46,
+      "duration": 14.35,
+      "startFrame": 1503,
+      "endFrame": 1934,
+      "startTime": "00:00:50.110",
+      "endTime": "00:01:04.460"
+    },
+    {
+      "cue": "We can still detect a faint glow",
+      "action": "Show opaque plasma becoming transparent, then ancient light stretching into a microwave afterglow across the sky.",
+      "layers": "plasma, transparency mask, radiation field, viewing position",
+      "id": 10,
+      "firstWord": 112,
+      "speechStart": 64.46,
+      "start": 64.46,
+      "end": 85.43,
+      "duration": 20.97,
+      "startFrame": 1934,
+      "endFrame": 2563,
+      "startTime": "00:01:04.460",
+      "endTime": "00:01:25.430"
+    },
+    {
+      "cue": "The amounts of hydrogen",
+      "action": "Compare simple hydrogen, helium and deuterium populations with predicted proportions.",
+      "layers": "separate nuclei/shells, minimal comparison labels",
+      "id": 11,
+      "firstWord": 159,
+      "speechStart": 85.43,
+      "start": 85.43,
+      "end": 97.35,
+      "duration": 11.92,
+      "startFrame": 2563,
+      "endFrame": 2920,
+      "startTime": "00:01:25.430",
+      "endTime": "00:01:37.350"
+    },
+    {
+      "cue": "Our observable universe evolved",
+      "action": "Connect the three evidence images to one hot cosmic history; approach but do not cross the unobserved origin.",
+      "layers": "evidence motifs, history track, model edge",
+      "id": 12,
+      "firstWord": 180,
+      "speechStart": 97.35,
+      "start": 97.35,
+      "end": 113.77,
+      "duration": 16.42,
+      "startFrame": 2920,
+      "endFrame": 3413,
+      "startTime": "00:01:37.350",
+      "endTime": "00:01:53.770"
+    },
+    {
+      "cue": "Einstein\u2019s theory of gravity",
+      "action": "Introduce a spacetime/matter visual model, then reverse its scale smoothly.",
+      "layers": "spatial geometry, matter objects, scale envelope",
+      "sound": "Introduce a quiet regular pulse with plenty of space for speech.",
+      "id": 13,
+      "firstWord": 216,
+      "speechStart": 113.77,
+      "start": 113.77,
+      "end": 127.77,
+      "duration": 14.0,
+      "startFrame": 3413,
+      "endFrame": 3833,
+      "startTime": "00:01:53.770",
+      "endTime": "00:02:07.770"
+    },
+    {
+      "cue": "Distances shrink",
+      "action": "Compress distances and increase density while the model track approaches its classical boundary.",
+      "layers": "geometry, independent matter field, boundary",
+      "id": 14,
+      "firstWord": 243,
+      "speechStart": 127.77,
+      "start": 127.77,
+      "end": 146.59,
+      "duration": 18.82,
+      "startFrame": 3833,
+      "endFrame": 4398,
+      "startTime": "00:02:07.770",
+      "endTime": "00:02:26.590"
+    },
+    {
+      "cue": "Here is the catch",
+      "action": "Separate the tested region from extrapolation; stop implying that the illustration is direct evidence.",
+      "layers": "tested history, extrapolated region, boundary mask",
+      "id": 15,
+      "firstWord": 276,
+      "speechStart": 146.59,
+      "start": 146.59,
+      "end": 155.77,
+      "duration": 9.18,
+      "startFrame": 4398,
+      "endFrame": 4673,
+      "startTime": "00:02:26.590",
+      "endTime": "00:02:35.770"
+    },
+    {
+      "cue": "An infinity in the calculation",
+      "action": "Use a single mathematical infinity symbol only where the narration explains it; reveal the unresolved theory underneath.",
+      "layers": "simple symbol, model background, incomplete edge",
+      "id": 16,
+      "firstWord": 299,
+      "speechStart": 155.77,
+      "start": 155.77,
+      "end": 171.24,
+      "duration": 15.47,
+      "startFrame": 4673,
+      "endFrame": 5137,
+      "startTime": "00:02:35.770",
+      "endTime": "00:02:51.240"
+    },
+    {
+      "cue": "Before we answer",
+      "action": "Prepare a clearly illustrative thought experiment and shift the viewer into a new composition.",
+      "layers": "thought-experiment setting, transition mask",
+      "sound": "Brief harmonic space before the misconception reveal.",
+      "id": 17,
+      "firstWord": 335,
+      "speechStart": 171.24,
+      "start": 171.24,
+      "end": 174.95,
+      "duration": 3.71,
+      "startFrame": 5137,
+      "endFrame": 5248,
+      "startTime": "00:02:51.240",
+      "endTime": "00:02:54.950"
+    },
+    {
+      "cue": "Imagine a glowing dot",
+      "action": "Show the tempting dot-inside-a-room cartoon as the explicitly introduced incorrect mental image.",
+      "layers": "illustrative dot, invented room walls, diagram galaxy pieces",
+      "id": 18,
+      "firstWord": 347,
+      "speechStart": 174.95,
+      "start": 174.95,
+      "end": 186.1,
+      "duration": 11.15,
+      "startFrame": 5248,
+      "endFrame": 5583,
+      "startTime": "00:02:54.950",
+      "endTime": "00:03:06.100"
+    },
+    {
+      "cue": "It also sneaks an entire room",
+      "action": "Reveal the surrounding room and draw attention to the unjustified external space.",
+      "layers": "room walls, dot, camera framing",
+      "id": 19,
+      "firstWord": 370,
+      "speechStart": 186.1,
+      "start": 186.1,
+      "end": 193.39,
+      "duration": 7.29,
+      "startFrame": 5583,
+      "endFrame": 5802,
+      "startTime": "00:03:06.100",
+      "endTime": "00:03:13.390"
+    },
+    {
+      "cue": "The Big Bang model does not require",
+      "action": "Remove the invented container and replace it with large-scale expansion throughout a spatial field.",
+      "layers": "spatial field, galaxy groups, container removal mask",
+      "id": 20,
+      "firstWord": 388,
+      "speechStart": 193.39,
+      "start": 193.39,
+      "end": 206.35,
+      "duration": 12.96,
+      "startFrame": 5802,
+      "endFrame": 6190,
+      "startTime": "00:03:13.390",
+      "endTime": "00:03:26.350"
+    },
+    {
+      "cue": "There is no established central launch site",
+      "action": "Shift viewpoints within the expanding field so no central origin marker is privileged.",
+      "layers": "galaxy field, viewpoint, near/far depth",
+      "id": 21,
+      "firstWord": 413,
+      "speechStart": 206.35,
+      "start": 206.35,
+      "end": 212.18,
+      "duration": 5.83,
+      "startFrame": 6190,
+      "endFrame": 6365,
+      "startTime": "00:03:26.350",
+      "endTime": "00:03:32.180"
+    },
+    {
+      "cue": "And the universe beyond what we can observe",
+      "action": "Reveal one observational region within a continuing field without drawing a measured edge of all existence.",
+      "layers": "observable-region mask, near galaxies, continuing far field",
+      "id": 22,
+      "firstWord": 426,
+      "speechStart": 212.18,
+      "start": 212.18,
+      "end": 231.77,
+      "duration": 19.59,
+      "startFrame": 6365,
+      "endFrame": 6953,
+      "startTime": "00:03:32.180",
+      "endTime": "00:03:51.770"
+    },
+    {
+      "cue": "Everything we can see",
+      "action": "Rewind only the represented observable region, leaving the total cosmic extent unspecified.",
+      "layers": "observation mask, local contents, unspecified exterior",
+      "id": 23,
+      "firstWord": 471,
+      "speechStart": 231.77,
+      "start": 231.77,
+      "end": 242.24,
+      "duration": 10.47,
+      "startFrame": 6953,
+      "endFrame": 7267,
+      "startTime": "00:03:51.770",
+      "endTime": "00:04:02.240"
+    },
+    {
+      "cue": "Now for the harder problem",
+      "action": "Move from particle-scale quantum imagery to large-scale gravity; establish their separate successes.",
+      "layers": "particles, spatial geometry, two scale environments",
+      "sound": "Thin the rhythmic layer and introduce a quieter low texture.",
+      "id": 24,
+      "firstWord": 496,
+      "speechStart": 242.24,
+      "start": 242.24,
+      "end": 256.76,
+      "duration": 14.52,
+      "startFrame": 7267,
+      "endFrame": 7703,
+      "startTime": "00:04:02.240",
+      "endTime": "00:04:16.760"
+    },
+    {
+      "cue": "But the earliest conditions",
+      "action": "Bring quantum and gravitational effects into the same extreme conceptual regime without pretending to solve it.",
+      "layers": "particles, geometry, density field",
+      "id": 25,
+      "firstWord": 528,
+      "speechStart": 256.76,
+      "start": 256.76,
+      "end": 264.14,
+      "duration": 7.38,
+      "startFrame": 7703,
+      "endFrame": 7924,
+      "startTime": "00:04:16.760",
+      "endTime": "00:04:24.140"
+    },
+    {
+      "cue": "We do not yet have",
+      "action": "Hold at an intentionally unresolved shared description; keep geometry legible rather than adding random distortion.",
+      "layers": "shared model, missing relation mask",
+      "id": 26,
+      "firstWord": 545,
+      "speechStart": 264.14,
+      "start": 264.14,
+      "end": 279.31,
+      "duration": 15.17,
+      "startFrame": 7924,
+      "endFrame": 8379,
+      "startTime": "00:04:24.140",
+      "endTime": "00:04:39.310"
+    },
+    {
+      "cue": "The singularity may be where",
+      "action": "Return to the opening boundary, now understood as a possible need for new physics.",
+      "layers": "reused model boundary, quantum/gravity motifs",
+      "id": 27,
+      "firstWord": 585,
+      "speechStart": 279.31,
+      "start": 279.31,
+      "end": 284.18,
+      "duration": 4.87,
+      "startFrame": 8379,
+      "endFrame": 8525,
+      "startTime": "00:04:39.310",
+      "endTime": "00:04:44.180"
+    },
+    {
+      "cue": "Which brings us to the question",
+      "action": "Make room for the central question and introduce a small set of explicitly hypothetical histories.",
+      "layers": "history branches, unresolved earlier region",
+      "sound": "Leave space around the spoken question; begin a restrained exploratory motif afterward.",
+      "id": 28,
+      "firstWord": 595,
+      "speechStart": 284.18,
+      "start": 284.18,
+      "end": 297.01,
+      "duration": 12.83,
+      "startFrame": 8525,
+      "endFrame": 8910,
+      "startTime": "00:04:44.180",
+      "endTime": "00:04:57.010"
+    },
+    {
+      "cue": "One possibility is that time has a beginning",
+      "action": "Show one possible history with an initial boundary; no earlier event is drawn in this particular model.",
+      "layers": "time/history path, boundary, held spatial background",
+      "id": 29,
+      "firstWord": 624,
+      "speechStart": 297.01,
+      "start": 297.01,
+      "end": 307.87,
+      "duration": 10.86,
+      "startFrame": 8910,
+      "endFrame": 9236,
+      "startTime": "00:04:57.010",
+      "endTime": "00:05:07.870"
+    },
+    {
+      "cue": "In some proposals",
+      "action": "Demonstrate the analogy of seeking a location outside a map's domain, then return to the time model.",
+      "layers": "map domain, pointer, time-history transition",
+      "id": 30,
+      "firstWord": 650,
+      "speechStart": 307.87,
+      "start": 307.87,
+      "end": 325.91,
+      "duration": 18.04,
+      "startFrame": 9236,
+      "endFrame": 9777,
+      "startTime": "00:05:07.870",
+      "endTime": "00:05:25.910"
+    },
+    {
+      "cue": "You cannot put an event earlier",
+      "action": "Hold the conditional nature of the claim: an earliest event only if an earliest moment exists.",
+      "layers": "event markers, initial boundary",
+      "id": 31,
+      "firstWord": 694,
+      "speechStart": 325.91,
+      "start": 325.91,
+      "end": 331.84,
+      "duration": 5.93,
+      "startFrame": 9777,
+      "endFrame": 9955,
+      "startTime": "00:05:25.910",
+      "endTime": "00:05:31.840"
+    },
+    {
+      "cue": "Another possibility is that our expansion",
+      "action": "Introduce a different hypothetical history with a previous contracting phase.",
+      "layers": "alternative history path, matter field",
+      "sound": "Start a gentle rising/descending phrase for the contracting/expanding possibility.",
+      "id": 32,
+      "firstWord": 709,
+      "speechStart": 331.84,
+      "start": 331.84,
+      "end": 336.5,
+      "duration": 4.66,
+      "startFrame": 9955,
+      "endFrame": 10095,
+      "startTime": "00:05:31.840",
+      "endTime": "00:05:36.500"
+    },
+    {
+      "cue": "Some speculative models replace",
+      "action": "Contract a field to a finite minimum, then expand; identify this as a proposed bounce, distinct from the singular model.",
+      "layers": "matter field, minimum-size envelope, hypothetical-history marker",
+      "id": 33,
+      "firstWord": 719,
+      "speechStart": 336.5,
+      "start": 336.5,
+      "end": 352.48,
+      "duration": 15.98,
+      "startFrame": 10095,
+      "endFrame": 10574,
+      "startTime": "00:05:36.500",
+      "endTime": "00:05:52.480"
+    },
+    {
+      "cue": "But drawing a beautiful bounce",
+      "action": "Compare the appealing conceptual image with the need for a workable model and observations.",
+      "layers": "bounce illustration, observational evidence motifs",
+      "id": 34,
+      "firstWord": 753,
+      "speechStart": 352.48,
+      "start": 352.48,
+      "end": 363.32,
+      "duration": 10.84,
+      "startFrame": 10574,
+      "endFrame": 10900,
+      "startTime": "00:05:52.480",
+      "endTime": "00:06:03.320"
+    },
+    {
+      "cue": "We have not established that our universe bounced",
+      "action": "Return the bounce graphic to a visibly hypothetical branch, without erasing the well-supported hot history.",
+      "layers": "hypothesis branch, supported hot-history region",
+      "id": 35,
+      "firstWord": 779,
+      "speechStart": 363.32,
+      "start": 363.32,
+      "end": 366.54,
+      "duration": 3.22,
+      "startFrame": 10900,
+      "endFrame": 10996,
+      "startTime": "00:06:03.320",
+      "endTime": "00:06:06.540"
+    },
+    {
+      "cue": "Then there is inflation",
+      "action": "Introduce a proposed early accelerated-expansion phase using a scale field rather than a blast into external space.",
+      "layers": "expanding scale field, far regions",
+      "sound": "Soft widening swell, not an explosive sound effect.",
+      "id": 36,
+      "firstWord": 787,
+      "speechStart": 366.54,
+      "start": 366.54,
+      "end": 373.6,
+      "duration": 7.06,
+      "startFrame": 10996,
+      "endFrame": 11208,
+      "startTime": "00:06:06.540",
+      "endTime": "00:06:13.600"
+    },
+    {
+      "cue": "Inflation can help explain",
+      "action": "Connect the proposal to large-scale observations, keeping its driving mechanism and specific history unresolved.",
+      "layers": "scale field, observation motifs, unknown mechanism region",
+      "id": 37,
+      "firstWord": 803,
+      "speechStart": 373.6,
+      "start": 373.6,
+      "end": 388.77,
+      "duration": 15.17,
+      "startFrame": 11208,
+      "endFrame": 11663,
+      "startTime": "00:06:13.600",
+      "endTime": "00:06:28.770"
+    },
+    {
+      "cue": "Some inflationary scenarios suggest",
+      "action": "Use an abstract conceptual view of disconnected regions as an explicitly speculative illustration.",
+      "layers": "independent conceptual regions, intervening field",
+      "id": 38,
+      "firstWord": 839,
+      "speechStart": 388.77,
+      "start": 388.77,
+      "end": 399.07,
+      "duration": 10.3,
+      "startFrame": 11663,
+      "endFrame": 11972,
+      "startTime": "00:06:28.770",
+      "endTime": "00:06:39.070"
+    },
+    {
+      "cue": "So did every universe come",
+      "action": "Pause on the shared-origin question without drawing an observed family tree.",
+      "layers": "conceptual regions, unresolved relationship",
+      "id": 39,
+      "firstWord": 859,
+      "speechStart": 399.07,
+      "start": 399.07,
+      "end": 402.9,
+      "duration": 3.83,
+      "startFrame": 11972,
+      "endFrame": 12087,
+      "startTime": "00:06:39.070",
+      "endTime": "00:06:42.900"
+    },
+    {
+      "cue": "We do not know that other universes exist",
+      "action": "Keep the multiverse image hypothetical and bring focus back to the universe we can observe.",
+      "layers": "hypothesis regions, observation-region mask",
+      "id": 40,
+      "firstWord": 868,
+      "speechStart": 402.9,
+      "start": 402.9,
+      "end": 414.61,
+      "duration": 11.71,
+      "startFrame": 12087,
+      "endFrame": 12438,
+      "startTime": "00:06:42.900",
+      "endTime": "00:06:54.610"
+    },
+    {
+      "cue": "And what about the idea",
+      "action": "Introduce an apparently empty physical setting, then prepare to reveal its assumed structure.",
+      "layers": "quiet field, reveal mask",
+      "sound": "Reduce the music toward a sparse ambient texture.",
+      "id": 41,
+      "firstWord": 899,
+      "speechStart": 414.61,
+      "start": 414.61,
+      "end": 421.46,
+      "duration": 6.85,
+      "startFrame": 12438,
+      "endFrame": 12644,
+      "startTime": "00:06:54.610",
+      "endTime": "00:07:01.460"
+    },
+    {
+      "cue": "In quantum physics",
+      "action": "Reveal fields and rules beneath the apparently empty setting; do not depict this as proof of literal creation from nothing.",
+      "layers": "separate field layers, framework reveal",
+      "id": 42,
+      "firstWord": 915,
+      "speechStart": 421.46,
+      "start": 421.46,
+      "end": 434.29,
+      "duration": 12.83,
+      "startFrame": 12644,
+      "endFrame": 13029,
+      "startTime": "00:07:01.460",
+      "endTime": "00:07:14.290"
+    },
+    {
+      "cue": "Explaining how something can emerge",
+      "action": "Separate a process within a framework from the unresolved question of why that framework exists.",
+      "layers": "framework boundary, internal process, unresolved exterior",
+      "id": 43,
+      "firstWord": 941,
+      "speechStart": 434.29,
+      "start": 434.29,
+      "end": 447.71,
+      "duration": 13.42,
+      "startFrame": 13029,
+      "endFrame": 13431,
+      "startTime": "00:07:14.290",
+      "endTime": "00:07:27.710"
+    },
+    {
+      "cue": "So what can we honestly say",
+      "action": "Return to the three levels of knowledge established near the opening.",
+      "layers": "observable region, hot history, unknown ultimate origin",
+      "sound": "Move to a warm, restrained resolution with the narration still clearly above it.",
+      "id": 44,
+      "firstWord": 971,
+      "speechStart": 447.71,
+      "start": 447.71,
+      "end": 450.04,
+      "duration": 2.33,
+      "startFrame": 13431,
+      "endFrame": 13501,
+      "startTime": "00:07:27.710",
+      "endTime": "00:07:30.040"
+    },
+    {
+      "cue": "The hot Big Bang is supported",
+      "action": "Visually distinguish supported cosmic history from unestablished singularity and prior-history hypotheses.",
+      "layers": "evidence motifs, model boundary, earlier-history branch",
+      "id": 45,
+      "firstWord": 977,
+      "speechStart": 450.04,
+      "start": 450.04,
+      "end": 468.53,
+      "duration": 18.49,
+      "startFrame": 13501,
+      "endFrame": 14056,
+      "startTime": "00:07:30.040",
+      "endTime": "00:07:48.530"
+    },
+    {
+      "cue": "Scientists can test early universe ideas",
+      "action": "Show observational measurements of ancient light and galaxy structure; represent primordial gravitational waves as a possible signal, not a detection.",
+      "layers": "sky data motif, galaxy distribution, hypothetical wave overlay",
+      "id": 46,
+      "firstWord": 1019,
+      "speechStart": 468.53,
+      "start": 468.53,
+      "end": 488.97,
+      "duration": 20.44,
+      "startFrame": 14056,
+      "endFrame": 14669,
+      "startTime": "00:07:48.530",
+      "endTime": "00:08:08.970"
+    },
+    {
+      "cue": "Meanwhile you are already carrying",
+      "action": "Transition from the cosmic scale toward an original human character while preserving the approved illustration quality.",
+      "layers": "cosmos, original human pose, transitional matter field",
+      "sound": "Introduce a warmer melodic resolution; keep it gentle.",
+      "id": 47,
+      "firstWord": 1058,
+      "speechStart": 488.97,
+      "start": 488.97,
+      "end": 493.42,
+      "duration": 4.45,
+      "startFrame": 14669,
+      "endFrame": 14803,
+      "startTime": "00:08:08.970",
+      "endTime": "00:08:13.420"
+    },
+    {
+      "cue": "The hydrogen in your body",
+      "action": "Follow primordial hydrogen and later stellar carbon/oxygen production into matter associated with the human.",
+      "layers": "hydrogen motif, stellar environment, carbon/oxygen motifs, human layers",
+      "id": 48,
+      "firstWord": 1067,
+      "speechStart": 493.42,
+      "start": 493.42,
+      "end": 503.75,
+      "duration": 10.33,
+      "startFrame": 14803,
+      "endFrame": 15112,
+      "startTime": "00:08:13.420",
+      "endTime": "00:08:23.750"
+    },
+    {
+      "cue": "You belong to a cosmic story",
+      "action": "Connect the human to the visible cosmic history without claiming that its ultimate first page is known.",
+      "layers": "human, layered cosmic history, unresolved beginning",
+      "id": 49,
+      "firstWord": 1097,
+      "speechStart": 503.75,
+      "start": 503.75,
+      "end": 512.61,
+      "duration": 8.86,
+      "startFrame": 15112,
+      "endFrame": 15378,
+      "startTime": "00:08:23.750",
+      "endTime": "00:08:32.610"
+    },
+    {
+      "cue": "Rewind the universe again",
+      "action": "Revisit the opening visual language through galaxies, stars and atoms with a more informed interpretation.",
+      "layers": "reused galaxies, nebulae, atoms, density field",
+      "sound": "Return to the opening motif with fewer instruments.",
+      "id": 50,
+      "firstWord": 1122,
+      "speechStart": 512.61,
+      "start": 512.61,
+      "end": 520.66,
+      "duration": 8.05,
+      "startFrame": 15378,
+      "endFrame": 15620,
+      "startTime": "00:08:32.610",
+      "endTime": "00:08:40.660"
+    },
+    {
+      "cue": "At the edge of what we understand",
+      "action": "Hold at the unresolved theoretical boundary; resist replacing uncertainty with a literal proved cosmic seed.",
+      "layers": "model boundary, held deep environment",
+      "id": 51,
+      "firstWord": 1135,
+      "speechStart": 520.66,
+      "start": 520.66,
+      "end": 531.01,
+      "duration": 10.35,
+      "startFrame": 15620,
+      "endFrame": 15930,
+      "startTime": "00:08:40.660",
+      "endTime": "00:08:51.010"
+    },
+    {
+      "cue": "Did everything begin",
+      "action": "Deliver the final question on a restrained hold and natural audio tail; no unrequested end card or subscription interruption.",
+      "layers": "unresolved origin field, subtle environmental motion",
+      "sound": "Fade the bed around the final thought; let the original voice tail finish.",
+      "id": 52,
+      "firstWord": 1164,
+      "speechStart": 531.01,
+      "start": 531.01,
+      "end": 536.619,
+      "duration": 5.609,
+      "startFrame": 15930,
+      "endFrame": 16099,
+      "startTime": "00:08:51.010",
+      "endTime": "00:08:56.619"
+    }
+  ]
+}

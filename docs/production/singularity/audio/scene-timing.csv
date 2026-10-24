@@ -1,0 +1,6 @@
+scene,startTime,endTime,duration,speechStart,speechEnd,firstWords,audioFile
+1,00:00:00.000,00:01:53.215,113.215,0.25,112.66,Rewind the universe. Watch galaxies draw closer. Stars disappear. Even,assets/audio/singularity/scenes/scene-01.flac
+2,00:01:53.215,00:04:01.990,128.775,113.77,241.74,"Einstein’s theory of gravity describes how matter, energy, space, and",assets/audio/singularity/scenes/scene-02.flac
+3,00:04:01.990,00:05:31.605,89.615,242.24,331.37,Now for the harder problem. When we investigate atoms and,assets/audio/singularity/scenes/scene-03.flac
+4,00:05:31.605,00:06:54.495,82.89,331.84,414.38,Another possibility is that our expansion followed an earlier phase.,assets/audio/singularity/scenes/scene-04.flac
+5,00:06:54.495,00:08:56.619,122.123667,414.61,536.35,And what about the idea that the universe appeared from,assets/audio/singularity/scenes/scene-05.flac

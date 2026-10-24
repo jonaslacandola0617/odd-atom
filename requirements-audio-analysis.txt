@@ -1,0 +1,4 @@
+# Optional local analysis only; offline rendering needs the committed M4A/JSON.
+numpy==2.3.5
+sherpa-onnx==1.12.40
+pocketsphinx==5.0.4

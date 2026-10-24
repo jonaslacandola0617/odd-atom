@@ -1,0 +1,902 @@
+{
+  "engine": "sherpa-onnx 1.12.40 / Whisper base.en int8 CPU",
+  "method": "Independent speech recognition; native model segment timestamps, not final word alignment",
+  "duration": 536.6186875,
+  "chunks": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 23.731250000000003,
+      "text": "Rewind the universe. Watch galaxies draw closer. Stars disappear. Even atoms come apart. Keep going, and our equations predict something extraordinary. Infinite density. Infinite temperature. A singularity.",
+      "seconds_processing": 2.02
+    },
+    {
+      "index": 1,
+      "start": 23.731250000000003,
+      "end": 45.7507085,
+      "text": "But what if that singularity was never real? What if the universe's most famous beginning is where our best theory stops working? To find out, we need to separate three things that often get mixed together. The universe we can observe, the big bang we have evidence for.",
+      "seconds_processing": 2.27
+    },
+    {
+      "index": 2,
+      "start": 45.7507085,
+      "end": 64.08525,
+      "text": "and the beginning we are still trying to understand. Start with the evidence. On the largest scales, distant galaxies generally grow farther apart as space expands. Run that expansion backward, and the universe was hotter and denser.",
+      "seconds_processing": 1.94
+    },
+    {
+      "index": 3,
+      "start": 64.08525,
+      "end": 84.8926875,
+      "text": "We can still detect a faint glow released when the universe became transparent about 380,000 years into its expansion. Today that ancient light reaches us as microwaves. It fills the sky. We are surrounded by a cool down after glow of the early universe.",
+      "seconds_processing": 2.13
+    },
+    {
+      "index": 4,
+      "start": 84.8926875,
+      "end": 109.6896665,
+      "text": "The amounts of hydrogen, helium, and deuterium also match calculations of an early hot cosmic furnace. Different clues, the same story. Our observable universe evolved from an extremely hot, dense state roughly 13.8 billion years ago. But none of those clues is a photograph of a singularity.",
+      "seconds_processing": 2.31
+    },
+    {
+      "index": 5,
+      "start": 109.6896665,
+      "end": 130.9875835,
+      "text": "So, where did the famous point come from? Einstein's theory of gravity describes how matter, energy, space, and time affect one another. Apply it to a simple, expanding universe, and then follow the mathematics backward.",
+      "seconds_processing": 1.97
+    },
+    {
+      "index": 6,
+      "start": 130.9875835,
+      "end": 155.3433125,
+      "text": "In the standard classical extrapolation, the calculation reaches a boundary where density and temperature diverge. The description cannot continue normally. That boundary is associated with the Big Bang Singularity. Here is the catch. Following an equation beyond the conditions where it has been tested, does not guarantee",
+      "seconds_processing": 2.31
+    },
+    {
+      "index": 7,
+      "start": 155.3433125,
+      "end": 179.00287500000002,
+      "text": "An infinity in the calculation is not a measured object. It may be a warning that our description is incomplete. So did we discover the universe's first moment, or the limit of the theory describing it? Before we answer, we need to fix the picture in our heads.",
+      "seconds_processing": 2.25
+    },
+    {
+      "index": 8,
+      "start": 179.00287500000002,
+      "end": 205.99775,
+      "text": "The dot explodes and its pieces become galaxies. It is a memorable image. It also sneaks an entire room into existence before the universe begins. Where did that room come from? The Big Bang model does not require an explosion into pre-existing empty space.",
+      "seconds_processing": 2.24
+    },
+    {
+      "index": 9,
+      "start": 205.99775,
+      "end": 231.072,
+      "text": "There is no established central launch site that everything is flying away from. And the universe beyond what we can observe might be much larger than our visible region. It might even be spatially infinite. An infinite universe can expand while remaining infinite. Rewinding its expansion does not make all of it a tiny ball sitting somewhere else.",
+      "seconds_processing": 2.61
+    },
+    {
+      "index": 10,
+      "start": 231.072,
+      "end": 254.193646,
+      "text": "Everything we can see was once packed into a much smaller region. That does not establish that everything that exists was once one little dot. Now for the harder problem. When we investigate atoms and particles, we use quantum physics. When we investigate gravity and the large-scale universe, we use general relativity.",
+      "seconds_processing": 2.47
+    },
+    {
+      "index": 11,
+      "start": 254.193646,
+      "end": 278.93791650000003,
+      "text": "Both are astonishingly successful. But the earliest conditions push us toward a regime where quantum effects and gravity must both matter. We do not yet have an experimentally established theory that fully describes that regime. To describe that moment, we need more than a theory of tiny particles or a theory of gravity working separately. We need them to work together.",
+      "seconds_processing": 2.61
+    },
+    {
+      "index": 12,
+      "start": 278.93791650000003,
+      "end": 300.310771,
+      "text": "The singularity may be where that missing physics becomes unavoidable. Which brings us to the question everyone wants to ask. What happened before the Big Bang? There are several possibilities. None is an established account of our ultimate origin. One possibility is that time has a beginning.",
+      "seconds_processing": 2.37
+    },
+    {
+      "index": 13,
+      "start": 300.310771,
+      "end": 325.53958350000005,
+      "text": "We usually imagine time as a road stretching endlessly in both directions, but that picture is an assumption. In some proposals, there is no earlier moment beyond the universe's initial boundary. Asking what happened before it would be asking for a location outside the map's domain. That does not prove time again.",
+      "seconds_processing": 2.46
+    },
+    {
+      "index": 14,
+      "start": 325.53958350000005,
+      "end": 351.98031249999997,
+      "text": "You cannot put an event earlier than the earliest moment if an earliest moment exists. Another possibility is that our expansion followed an earlier phase. Some speculative models replace a singular beginning with a bounce. A contracting universe reaches extreme conditions, and new physics allows expansion to follow.",
+      "seconds_processing": 2.31
+    },
+    {
+      "index": 15,
+      "start": 351.98031249999997,
+      "end": 375.98031249999997,
+      "text": "But drawing a beautiful bounce is much easier than showing that one actually happened. A convincing model must make physical sense and survive comparison with observations. We have not established that our universe bounced. Then there is Inflation, a proposed period of extremely rapid expansion very early in cosmic history.",
+      "seconds_processing": 2.29
+    },
+    {
+      "index": 16,
+      "start": 375.98031249999997,
+      "end": 398.496604,
+      "text": "features we observe. But what drove it, how it began, and whether it happened in a particular form remain open questions. It does not automatically explain why anything exists. Some inflationary scenarios suggest that regions beyond our observable universe could develop different cosmic histories, sometimes described as other universes.",
+      "seconds_processing": 2.52
+    },
+    {
+      "index": 17,
+      "start": 398.496604,
+      "end": 420.640917,
+      "text": "So, did every universe come from the same singularity? We do not know that other universes exist. We cannot establish a shared birthplace for them. The multiverse is a set of speculative possibilities, not an observed family tree of reality. And what about the idea that the universe appeared from nothing? Be careful with that word.",
+      "seconds_processing": 2.77
+    },
+    {
+      "index": 18,
+      "start": 420.640917,
+      "end": 446.666333,
+      "text": "In quantum physics, empty space is not necessarily the absence of everything. A quantum vacuum still belongs to a physical framework with fields, states, and rules. Explaining how something can emerge within that framework is different from explaining why the framework exists at all. We should not hide the biggest unanswered question inside the word \"nothing.\"",
+      "seconds_processing": 2.49
+    },
+    {
+      "index": 19,
+      "start": 446.666333,
+      "end": 467.90049999999997,
+      "text": "So, what can we honestly say? The hot big bang is supported by evidence. A physical singularity at the ultimate beginning has not been established. What if anything preceded our early expansion remains unresolved? Those are different levels of knowledge. And the gaps give us something to investigate.",
+      "seconds_processing": 2.46
+    },
+    {
+      "index": 20,
+      "start": 467.90049999999997,
+      "end": 492.697542,
+      "text": "Scientists can test early universe ideas through increasingly precise measurements of ancient light, the distribution of galaxies, and possible relic signals such as primordial gravitational waves. A theory earns confidence by explaining evidence and making predictions that survive testing. Meanwhile, you are already carrying part of this history.",
+      "seconds_processing": 2.27
+    },
+    {
+      "index": 21,
+      "start": 492.697542,
+      "end": 514.921542,
+      "text": "The hydrogen in your body traces back to the early universe. Much of the carbon and oxygen needed for life was forged later through the lives and deaths of stars. You belong to a cosmic story whose early chapters we can reconstruct, even though we still do not know whether it had a first page. Rewind the universe again.",
+      "seconds_processing": 2.46
+    },
+    {
+      "index": 22,
+      "start": 514.921542,
+      "end": 536.6186875,
+      "text": "past the galaxies, past the stars, past the atoms. At the edge of what we understand, do not imagine a tiny ball we have proved was there. Imagine a question we have not yet learned how to answer. Did everything begin? Or is it beginning simply where our explanation runs out?",
+      "seconds_processing": 2.59
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.6,
+      "text": "Rewind the universe.",
+      "chunk": 0
+    },
+    {
+      "start": 2.6,
+      "end": 5.8,
+      "text": "Watch galaxies draw closer.",
+      "chunk": 0
+    },
+    {
+      "start": 5.8,
+      "end": 8.1,
+      "text": "Stars disappear.",
+      "chunk": 0
+    },
+    {
+      "start": 8.1,
+      "end": 11.1,
+      "text": "Even atoms come apart.",
+      "chunk": 0
+    },
+    {
+      "start": 11.1,
+      "end": 17.1,
+      "text": "Keep going, and our equations predict something extraordinary.",
+      "chunk": 0
+    },
+    {
+      "start": 17.1,
+      "end": 19.3,
+      "text": "Infinite density.",
+      "chunk": 0
+    },
+    {
+      "start": 19.3,
+      "end": 21.7,
+      "text": "Infinite temperature.",
+      "chunk": 0
+    },
+    {
+      "start": 21.7,
+      "end": 23.7,
+      "text": "A singularity.",
+      "chunk": 0
+    },
+    {
+      "start": 23.731,
+      "end": 28.891,
+      "text": "But what if that singularity was never real?",
+      "chunk": 1
+    },
+    {
+      "start": 28.891,
+      "end": 36.091,
+      "text": "What if the universe's most famous beginning is where our best theory stops working?",
+      "chunk": 1
+    },
+    {
+      "start": 36.091,
+      "end": 41.331,
+      "text": "To find out, we need to separate three things that often get mixed together.",
+      "chunk": 1
+    },
+    {
+      "start": 41.331,
+      "end": 45.751,
+      "text": "The universe we can observe, the big bang we have evidence for.",
+      "chunk": 1
+    },
+    {
+      "start": 45.751,
+      "end": 49.751,
+      "text": "and the beginning we are still trying to understand.",
+      "chunk": 2
+    },
+    {
+      "start": 49.751,
+      "end": 51.751,
+      "text": "Start with the evidence.",
+      "chunk": 2
+    },
+    {
+      "start": 51.751,
+      "end": 53.751,
+      "text": "On the largest scales,",
+      "chunk": 2
+    },
+    {
+      "start": 53.751,
+      "end": 58.751,
+      "text": "distant galaxies generally grow farther apart as space expands.",
+      "chunk": 2
+    },
+    {
+      "start": 58.751,
+      "end": 60.751,
+      "text": "Run that expansion backward,",
+      "chunk": 2
+    },
+    {
+      "start": 60.751,
+      "end": 63.751,
+      "text": "and the universe was hotter and denser.",
+      "chunk": 2
+    },
+    {
+      "start": 64.085,
+      "end": 69.965,
+      "text": "We can still detect a faint glow released when the universe became transparent about",
+      "chunk": 3
+    },
+    {
+      "start": 69.965,
+      "end": 74.005,
+      "text": "380,000 years into its expansion.",
+      "chunk": 3
+    },
+    {
+      "start": 74.005,
+      "end": 78.245,
+      "text": "Today that ancient light reaches us as microwaves.",
+      "chunk": 3
+    },
+    {
+      "start": 78.245,
+      "end": 79.965,
+      "text": "It fills the sky.",
+      "chunk": 3
+    },
+    {
+      "start": 79.965,
+      "end": 84.725,
+      "text": "We are surrounded by a cool down after glow of the early universe.",
+      "chunk": 3
+    },
+    {
+      "start": 84.893,
+      "end": 92.893,
+      "text": "The amounts of hydrogen, helium, and deuterium also match calculations of an early hot cosmic furnace.",
+      "chunk": 4
+    },
+    {
+      "start": 92.893,
+      "end": 96.893,
+      "text": "Different clues, the same story.",
+      "chunk": 4
+    },
+    {
+      "start": 96.893,
+      "end": 104.893,
+      "text": "Our observable universe evolved from an extremely hot, dense state roughly 13.8 billion years ago.",
+      "chunk": 4
+    },
+    {
+      "start": 104.893,
+      "end": 108.893,
+      "text": "But none of those clues is a photograph of a singularity.",
+      "chunk": 4
+    },
+    {
+      "start": 109.69,
+      "end": 113.69,
+      "text": "So, where did the famous point come from?",
+      "chunk": 5
+    },
+    {
+      "start": 113.69,
+      "end": 119.81,
+      "text": "Einstein's theory of gravity describes how matter, energy, space, and time affect one",
+      "chunk": 5
+    },
+    {
+      "start": 119.81,
+      "end": 121.37,
+      "text": "another.",
+      "chunk": 5
+    },
+    {
+      "start": 121.37,
+      "end": 128.21,
+      "text": "Apply it to a simple, expanding universe, and then follow the mathematics backward.",
+      "chunk": 5
+    },
+    {
+      "start": 130.988,
+      "end": 136.448,
+      "text": "In the standard classical extrapolation, the calculation reaches a boundary where density",
+      "chunk": 6
+    },
+    {
+      "start": 136.448,
+      "end": 139.148,
+      "text": "and temperature diverge.",
+      "chunk": 6
+    },
+    {
+      "start": 139.148,
+      "end": 142.328,
+      "text": "The description cannot continue normally.",
+      "chunk": 6
+    },
+    {
+      "start": 142.328,
+      "end": 146.868,
+      "text": "That boundary is associated with the Big Bang Singularity.",
+      "chunk": 6
+    },
+    {
+      "start": 146.868,
+      "end": 149.168,
+      "text": "Here is the catch.",
+      "chunk": 6
+    },
+    {
+      "start": 149.168,
+      "end": 153.268,
+      "text": "Following an equation beyond the conditions where it has been tested, does not guarantee",
+      "chunk": 6
+    },
+    {
+      "start": 155.343,
+      "end": 159.943,
+      "text": "An infinity in the calculation is not a measured object.",
+      "chunk": 7
+    },
+    {
+      "start": 159.943,
+      "end": 163.803,
+      "text": "It may be a warning that our description is incomplete.",
+      "chunk": 7
+    },
+    {
+      "start": 163.803,
+      "end": 170.263,
+      "text": "So did we discover the universe's first moment, or the limit of the theory describing",
+      "chunk": 7
+    },
+    {
+      "start": 170.263,
+      "end": 171.263,
+      "text": "it?",
+      "chunk": 7
+    },
+    {
+      "start": 171.263,
+      "end": 174.903,
+      "text": "Before we answer, we need to fix the picture in our heads.",
+      "chunk": 7
+    },
+    {
+      "start": 179.003,
+      "end": 183.963,
+      "text": "The dot explodes and its pieces become galaxies.",
+      "chunk": 8
+    },
+    {
+      "start": 183.963,
+      "end": 186.223,
+      "text": "It is a memorable image.",
+      "chunk": 8
+    },
+    {
+      "start": 186.223,
+      "end": 191.603,
+      "text": "It also sneaks an entire room into existence before the universe begins.",
+      "chunk": 8
+    },
+    {
+      "start": 191.603,
+      "end": 193.463,
+      "text": "Where did that room come from?",
+      "chunk": 8
+    },
+    {
+      "start": 193.463,
+      "end": 200.623,
+      "text": "The Big Bang model does not require an explosion into pre-existing empty space.",
+      "chunk": 8
+    },
+    {
+      "start": 205.998,
+      "end": 212.438,
+      "text": "There is no established central launch site that everything is flying away from.",
+      "chunk": 9
+    },
+    {
+      "start": 212.438,
+      "end": 217.918,
+      "text": "And the universe beyond what we can observe might be much larger than our visible region.",
+      "chunk": 9
+    },
+    {
+      "start": 217.918,
+      "end": 221.198,
+      "text": "It might even be spatially infinite.",
+      "chunk": 9
+    },
+    {
+      "start": 221.198,
+      "end": 225.558,
+      "text": "An infinite universe can expand while remaining infinite.",
+      "chunk": 9
+    },
+    {
+      "start": 225.558,
+      "end": 231.072,
+      "text": "Rewinding its expansion does not make all of it a tiny ball sitting somewhere else.",
+      "chunk": 9
+    },
+    {
+      "start": 231.072,
+      "end": 236.072,
+      "text": "Everything we can see was once packed into a much smaller region.",
+      "chunk": 10
+    },
+    {
+      "start": 236.072,
+      "end": 242.072,
+      "text": "That does not establish that everything that exists was once one little dot.",
+      "chunk": 10
+    },
+    {
+      "start": 242.072,
+      "end": 244.072,
+      "text": "Now for the harder problem.",
+      "chunk": 10
+    },
+    {
+      "start": 244.072,
+      "end": 248.072,
+      "text": "When we investigate atoms and particles, we use quantum physics.",
+      "chunk": 10
+    },
+    {
+      "start": 248.072,
+      "end": 254.072,
+      "text": "When we investigate gravity and the large-scale universe, we use general relativity.",
+      "chunk": 10
+    },
+    {
+      "start": 254.194,
+      "end": 257.194,
+      "text": "Both are astonishingly successful.",
+      "chunk": 11
+    },
+    {
+      "start": 257.194,
+      "end": 263.694,
+      "text": "But the earliest conditions push us toward a regime where quantum effects and gravity must both matter.",
+      "chunk": 11
+    },
+    {
+      "start": 263.694,
+      "end": 269.694,
+      "text": "We do not yet have an experimentally established theory that fully describes that regime.",
+      "chunk": 11
+    },
+    {
+      "start": 269.694,
+      "end": 276.694,
+      "text": "To describe that moment, we need more than a theory of tiny particles or a theory of gravity working separately.",
+      "chunk": 11
+    },
+    {
+      "start": 276.694,
+      "end": 278.694,
+      "text": "We need them to work together.",
+      "chunk": 11
+    },
+    {
+      "start": 278.938,
+      "end": 284.298,
+      "text": "The singularity may be where that missing physics becomes unavoidable.",
+      "chunk": 12
+    },
+    {
+      "start": 284.298,
+      "end": 288.358,
+      "text": "Which brings us to the question everyone wants to ask.",
+      "chunk": 12
+    },
+    {
+      "start": 288.358,
+      "end": 291.298,
+      "text": "What happened before the Big Bang?",
+      "chunk": 12
+    },
+    {
+      "start": 291.298,
+      "end": 293.338,
+      "text": "There are several possibilities.",
+      "chunk": 12
+    },
+    {
+      "start": 293.338,
+      "end": 297.178,
+      "text": "None is an established account of our ultimate origin.",
+      "chunk": 12
+    },
+    {
+      "start": 297.178,
+      "end": 300.138,
+      "text": "One possibility is that time has a beginning.",
+      "chunk": 12
+    },
+    {
+      "start": 300.311,
+      "end": 305.991,
+      "text": "We usually imagine time as a road stretching endlessly in both directions, but that picture",
+      "chunk": 13
+    },
+    {
+      "start": 305.991,
+      "end": 307.931,
+      "text": "is an assumption.",
+      "chunk": 13
+    },
+    {
+      "start": 307.931,
+      "end": 313.831,
+      "text": "In some proposals, there is no earlier moment beyond the universe's initial boundary.",
+      "chunk": 13
+    },
+    {
+      "start": 313.831,
+      "end": 319.951,
+      "text": "Asking what happened before it would be asking for a location outside the map's domain.",
+      "chunk": 13
+    },
+    {
+      "start": 319.951,
+      "end": 322.011,
+      "text": "That does not prove time again.",
+      "chunk": 13
+    },
+    {
+      "start": 325.54,
+      "end": 332.14,
+      "text": "You cannot put an event earlier than the earliest moment if an earliest moment exists.",
+      "chunk": 14
+    },
+    {
+      "start": 332.14,
+      "end": 336.68,
+      "text": "Another possibility is that our expansion followed an earlier phase.",
+      "chunk": 14
+    },
+    {
+      "start": 336.68,
+      "end": 340.88,
+      "text": "Some speculative models replace a singular beginning with a bounce.",
+      "chunk": 14
+    },
+    {
+      "start": 340.88,
+      "end": 346.44,
+      "text": "A contracting universe reaches extreme conditions, and new physics allows expansion",
+      "chunk": 14
+    },
+    {
+      "start": 346.44,
+      "end": 347.8,
+      "text": "to follow.",
+      "chunk": 14
+    },
+    {
+      "start": 351.98,
+      "end": 357.74,
+      "text": "But drawing a beautiful bounce is much easier than showing that one actually happened.",
+      "chunk": 15
+    },
+    {
+      "start": 357.74,
+      "end": 363.46,
+      "text": "A convincing model must make physical sense and survive comparison with observations.",
+      "chunk": 15
+    },
+    {
+      "start": 363.46,
+      "end": 366.78,
+      "text": "We have not established that our universe bounced.",
+      "chunk": 15
+    },
+    {
+      "start": 366.78,
+      "end": 372.14,
+      "text": "Then there is Inflation, a proposed period of extremely rapid expansion very early in",
+      "chunk": 15
+    },
+    {
+      "start": 372.14,
+      "end": 374.06,
+      "text": "cosmic history.",
+      "chunk": 15
+    },
+    {
+      "start": 375.98,
+      "end": 381.98,
+      "text": "features we observe. But what drove it, how it began, and whether it happened in a particular",
+      "chunk": 16
+    },
+    {
+      "start": 381.98,
+      "end": 388.94,
+      "text": "form remain open questions. It does not automatically explain why anything exists.",
+      "chunk": 16
+    },
+    {
+      "start": 388.94,
+      "end": 393.3,
+      "text": "Some inflationary scenarios suggest that regions beyond our observable universe could",
+      "chunk": 16
+    },
+    {
+      "start": 393.3,
+      "end": 398.22,
+      "text": "develop different cosmic histories, sometimes described as other universes.",
+      "chunk": 16
+    },
+    {
+      "start": 398.497,
+      "end": 403.017,
+      "text": "So, did every universe come from the same singularity?",
+      "chunk": 17
+    },
+    {
+      "start": 403.017,
+      "end": 405.517,
+      "text": "We do not know that other universes exist.",
+      "chunk": 17
+    },
+    {
+      "start": 405.517,
+      "end": 408.517,
+      "text": "We cannot establish a shared birthplace for them.",
+      "chunk": 17
+    },
+    {
+      "start": 408.517,
+      "end": 413.357,
+      "text": "The multiverse is a set of speculative possibilities, not an observed family tree",
+      "chunk": 17
+    },
+    {
+      "start": 413.357,
+      "end": 414.857,
+      "text": "of reality.",
+      "chunk": 17
+    },
+    {
+      "start": 414.857,
+      "end": 419.257,
+      "text": "And what about the idea that the universe appeared from nothing?",
+      "chunk": 17
+    },
+    {
+      "start": 419.257,
+      "end": 420.457,
+      "text": "Be careful with that word.",
+      "chunk": 17
+    },
+    {
+      "start": 420.641,
+      "end": 426.641,
+      "text": "In quantum physics, empty space is not necessarily the absence of everything.",
+      "chunk": 18
+    },
+    {
+      "start": 426.641,
+      "end": 433.641,
+      "text": "A quantum vacuum still belongs to a physical framework with fields, states, and rules.",
+      "chunk": 18
+    },
+    {
+      "start": 433.641,
+      "end": 440.641,
+      "text": "Explaining how something can emerge within that framework is different from explaining why the framework exists at all.",
+      "chunk": 18
+    },
+    {
+      "start": 440.641,
+      "end": 446.641,
+      "text": "We should not hide the biggest unanswered question inside the word \"nothing.\"",
+      "chunk": 18
+    },
+    {
+      "start": 446.666,
+      "end": 450.106,
+      "text": "So, what can we honestly say?",
+      "chunk": 19
+    },
+    {
+      "start": 450.106,
+      "end": 453.466,
+      "text": "The hot big bang is supported by evidence.",
+      "chunk": 19
+    },
+    {
+      "start": 453.466,
+      "end": 458.066,
+      "text": "A physical singularity at the ultimate beginning has not been established.",
+      "chunk": 19
+    },
+    {
+      "start": 458.066,
+      "end": 463.166,
+      "text": "What if anything preceded our early expansion remains unresolved?",
+      "chunk": 19
+    },
+    {
+      "start": 463.166,
+      "end": 465.546,
+      "text": "Those are different levels of knowledge.",
+      "chunk": 19
+    },
+    {
+      "start": 465.546,
+      "end": 467.586,
+      "text": "And the gaps give us something to investigate.",
+      "chunk": 19
+    },
+    {
+      "start": 467.9,
+      "end": 473.341,
+      "text": "Scientists can test early universe ideas through increasingly precise measurements",
+      "chunk": 20
+    },
+    {
+      "start": 473.341,
+      "end": 479.9,
+      "text": "of ancient light, the distribution of galaxies, and possible relic signals such as primordial",
+      "chunk": 20
+    },
+    {
+      "start": 479.9,
+      "end": 482.42,
+      "text": "gravitational waves.",
+      "chunk": 20
+    },
+    {
+      "start": 482.42,
+      "end": 487.4,
+      "text": "A theory earns confidence by explaining evidence and making predictions that survive",
+      "chunk": 20
+    },
+    {
+      "start": 487.4,
+      "end": 488.86,
+      "text": "testing.",
+      "chunk": 20
+    },
+    {
+      "start": 488.86,
+      "end": 492.581,
+      "text": "Meanwhile, you are already carrying part of this history.",
+      "chunk": 20
+    },
+    {
+      "start": 492.698,
+      "end": 497.258,
+      "text": "The hydrogen in your body traces back to the early universe.",
+      "chunk": 21
+    },
+    {
+      "start": 497.258,
+      "end": 501.858,
+      "text": "Much of the carbon and oxygen needed for life was forged later through the lives and",
+      "chunk": 21
+    },
+    {
+      "start": 501.858,
+      "end": 503.898,
+      "text": "deaths of stars.",
+      "chunk": 21
+    },
+    {
+      "start": 503.898,
+      "end": 509.658,
+      "text": "You belong to a cosmic story whose early chapters we can reconstruct, even though we",
+      "chunk": 21
+    },
+    {
+      "start": 509.658,
+      "end": 512.778,
+      "text": "still do not know whether it had a first page.",
+      "chunk": 21
+    },
+    {
+      "start": 512.778,
+      "end": 514.498,
+      "text": "Rewind the universe again.",
+      "chunk": 21
+    },
+    {
+      "start": 514.922,
+      "end": 519.922,
+      "text": "past the galaxies, past the stars, past the atoms.",
+      "chunk": 22
+    },
+    {
+      "start": 519.922,
+      "end": 522.922,
+      "text": "At the edge of what we understand,",
+      "chunk": 22
+    },
+    {
+      "start": 522.922,
+      "end": 526.922,
+      "text": "do not imagine a tiny ball we have proved was there.",
+      "chunk": 22
+    },
+    {
+      "start": 526.922,
+      "end": 530.922,
+      "text": "Imagine a question we have not yet learned how to answer.",
+      "chunk": 22
+    },
+    {
+      "start": 530.922,
+      "end": 532.922,
+      "text": "Did everything begin?",
+      "chunk": 22
+    },
+    {
+      "start": 532.922,
+      "end": 536.619,
+      "text": "Or is it beginning simply where our explanation runs out?",
+      "chunk": 22
+    }
+  ]
+}

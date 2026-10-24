@@ -1,0 +1,20 @@
+{
+  "engine": "sherpa-onnx 1.12.40 / Whisper base.en int8 CPU",
+  "method": "Independent unprompted Whisper text compared to script; digit and afterglow normalization only",
+  "reference_tokens": 1178,
+  "recognized_tokens": 1177,
+  "sequence_similarity": 0.998726,
+  "differences": [
+    {
+      "operation": "replace",
+      "script": "cooled",
+      "recognized": "cool"
+    },
+    {
+      "operation": "delete",
+      "script": "scale",
+      "recognized": ""
+    }
+  ],
+  "interpretation": "Machine-recognition differences are review flags, not proven errors in the user recording. No replacement narration or script rewrite was made."
+}
