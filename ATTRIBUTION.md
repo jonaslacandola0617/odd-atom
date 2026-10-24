@@ -1,5 +1,9 @@
 # Current production records
 
+## Static artwork consistency test 02
+
+The medicine and cyber scenes in `assets/scenes/artwork-consistency-02/` are original raster scene illustrations generated with `image_gen.imagegen`. The approved original character sheet and animation poster guide drawing/rendering consistency. Medicine introduces a new older clinician in a laboratory with a magnified immune-defense scene; cyber uses a person-free network-infrastructure metaphor. Prompts, generation source filenames, final dimensions/hashes and comparison notes are recorded under `docs/production/artwork-consistency-02/`. These are static scene artworks; separate vector layers and animation rigs have not been produced.
+
 ## New character motion pass
 
 `approved-characters-motion-20s.mp4` reuses the exact approved illustration files and static sheet. No new character or background drawings were generated. `src/MotionCharacters.tsx` skins the original textures through torso/elbow/wrist controls, then stages pose keys and independent steam. A fresh ElevenLabs generation uses George and `eleven_multilingual_v2`, retains native spoken timing, and adds 1.3 seconds of silence in sentence gaps. The original synthesized music/ambience were regenerated at quieter levels with a cloth cue at the arm gesture. Encoded comparisons, geometry checks, and asset hashes are recorded under `docs/production/characters-motion/`.

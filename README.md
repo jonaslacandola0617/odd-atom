@@ -1,10 +1,12 @@
 # Odd Atom — original explanatory animation
 
-**Artwork passed; current focus is animation and narration.** The [motion study](references/studies/motion-2026-10-24/README.md) contains source-motion loops, dense frame sheets, timing/region measurements, official process evidence, and a [next-pass plan](docs/production/motion-next-pass.md). The approved drawings, background plates and current export were preserved unchanged during the study.
+**Artwork and character animation passed.** The current consistency test explores two new static scenes: [medicine with a new clinician](assets/scenes/artwork-consistency-02/medicine-immune-defense.png) and [cyber with no humans](assets/scenes/artwork-consistency-02/cyber-network-defense.png). [Artwork review and full-size downloads](docs/production/artwork-consistency-02.md). Environment and object animation are deferred for a later discussion.
+
+The [motion study](references/studies/motion-2026-10-24/README.md) contains reference-motion loops, dense frame sheets, timing/region measurements and official process evidence. The approved source illustrations and completed character-animation test remain the baseline.
 
 **Approved character master:** [View/download the static sheet](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/characters/static-test-01.png). The user approved these Mira and Sol designs; the latest film adapts them into animated illustrated cutouts.
 
-The latest test is **Alone in a crowd — new motion pass**: a 20-second, 1920 × 1080, 30 fps Remotion film using the unchanged approved artwork. Torso weight shifts, elbow/wrist articulation, head-led attention, delayed reactions, and readable holds replace continuous idle movement. A fresh ElevenLabs read retains native speech speed, with edited sentence gaps, aligned captions, and quieter original music/ambience.
+The latest animation test is **Alone in a crowd — new motion pass**: a 20-second, 1920 × 1080, 30 fps Remotion film using the unchanged approved artwork. Torso weight shifts, elbow/wrist articulation, head-led attention, delayed reactions, and readable holds replace continuous idle movement. A fresh ElevenLabs read retains native speech speed, with edited sentence gaps, aligned captions, and quieter original music/ambience.
 
 **[Download the new 20-second MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/approved-characters-motion-20s.mp4)** · [Poster](assets/videos/approved-characters-motion-20s-poster.png) · [Motion review and comparison](docs/production/characters-motion.md)
 
