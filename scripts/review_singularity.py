@@ -123,5 +123,11 @@ if keys:
     assert len(keys)==1,'Chapter input fingerprints differ'
     record['picture_input_fingerprint']=next(iter(keys))
 record['review_limitations']='Programmatic decoding/timing/levels and representative encoded-frame inspection; a complete human listening/subtitle audit is not claimed.'
+feedback_path=DOC/'user-review.json'
+if feedback_path.exists():
+    feedback=json.loads(feedback_path.read_text())
+    if feedback.get('film_sha256')==record['sha256']:
+        record['user_quality_approval']=feedback['creative_status']
+        record['user_review']=str(feedback_path.relative_to(ROOT))
 (DOC/'validation.json').write_text(json.dumps(record,indent=2)+'\n')
 print(json.dumps(record,indent=2))

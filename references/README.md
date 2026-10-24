@@ -1,5 +1,7 @@
 # User-selected visual references
 
+The current [motion-led transition study](studies/transitions-2026-10-25/README.md) inspects twelve selected animated handoffs in the supplied footage, with short source loops, five consecutive-frame sequences and a comparison against every major join in the rejected singularity cut. The requested focus is animation that connects scenes through continuing objects/actions, beyond camera cuts or effect presets.
+
 The [motion study](studies/motion-2026-10-24/README.md) now examines selected sequences across all eight uploaded reference clips, with short motion loops, dense frame sheets, a timing trace, background/actor registration checks, and official production-process evidence. It is separate from the three blocked full-episode links below. The current approved artwork is preserved; [the next-pass plan](../docs/production/motion-next-pass.md) focuses on acting, environmental motion, and narration timing.
 
 These three links are saved as the next priority references for studying illustration, graphic design, composition, color, character design, typography, and motion:

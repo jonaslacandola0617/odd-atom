@@ -1,0 +1,4821 @@
+{
+  "review_date_local": "2026-10-25",
+  "timezone": "Asia/Manila",
+  "scope": "Eight uploaded portrait references surveyed; twelve selected animated handoffs, three direct-cut controls and five consecutive-frame intervals. No blocked long-form YouTube episode was viewed.",
+  "sources": [
+    {
+      "id": 1,
+      "filename": "The Deadliest Thing in Your Kitchen.mp4",
+      "sha256": "f392f8bc9f58fc99f6869dce6064f0618f3171a383806c406b767b7d106eeec8",
+      "bytes": 22199068,
+      "duration_seconds": 67.221769,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30950400/1032037",
+            "start_time": "0.000000",
+            "duration": "67.189909"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "67.221769"
+          }
+        ],
+        "format": {
+          "duration": "67.221769"
+        }
+      },
+      "survey": {
+        "file": "survey/01.jpg",
+        "samples": [
+          {
+            "requested_seconds": 0.1,
+            "decoded_pts_seconds": 0.123242,
+            "decoded_frame_index": 3
+          },
+          {
+            "requested_seconds": 1.6,
+            "decoded_pts_seconds": 1.623242,
+            "decoded_frame_index": 48
+          },
+          {
+            "requested_seconds": 3.1,
+            "decoded_pts_seconds": 3.123242,
+            "decoded_frame_index": 93
+          },
+          {
+            "requested_seconds": 4.6,
+            "decoded_pts_seconds": 4.623242,
+            "decoded_frame_index": 138
+          },
+          {
+            "requested_seconds": 6.1,
+            "decoded_pts_seconds": 6.123242,
+            "decoded_frame_index": 183
+          },
+          {
+            "requested_seconds": 7.6,
+            "decoded_pts_seconds": 7.623242,
+            "decoded_frame_index": 228
+          },
+          {
+            "requested_seconds": 9.1,
+            "decoded_pts_seconds": 9.089909,
+            "decoded_frame_index": 273
+          },
+          {
+            "requested_seconds": 10.6,
+            "decoded_pts_seconds": 10.589909,
+            "decoded_frame_index": 318
+          },
+          {
+            "requested_seconds": 12.1,
+            "decoded_pts_seconds": 12.089909,
+            "decoded_frame_index": 363
+          },
+          {
+            "requested_seconds": 13.6,
+            "decoded_pts_seconds": 13.589909,
+            "decoded_frame_index": 408
+          },
+          {
+            "requested_seconds": 15.1,
+            "decoded_pts_seconds": 15.089909,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": 16.6,
+            "decoded_pts_seconds": 16.589909,
+            "decoded_frame_index": 498
+          },
+          {
+            "requested_seconds": 18.1,
+            "decoded_pts_seconds": 18.089909,
+            "decoded_frame_index": 543
+          },
+          {
+            "requested_seconds": 19.6,
+            "decoded_pts_seconds": 19.589909,
+            "decoded_frame_index": 588
+          },
+          {
+            "requested_seconds": 21.1,
+            "decoded_pts_seconds": 21.089909,
+            "decoded_frame_index": 633
+          },
+          {
+            "requested_seconds": 22.6,
+            "decoded_pts_seconds": 22.589909,
+            "decoded_frame_index": 678
+          },
+          {
+            "requested_seconds": 24.1,
+            "decoded_pts_seconds": 24.089909,
+            "decoded_frame_index": 723
+          },
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.623242,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 27.1,
+            "decoded_pts_seconds": 27.123242,
+            "decoded_frame_index": 813
+          },
+          {
+            "requested_seconds": 28.6,
+            "decoded_pts_seconds": 28.623242,
+            "decoded_frame_index": 858
+          },
+          {
+            "requested_seconds": 30.1,
+            "decoded_pts_seconds": 30.123242,
+            "decoded_frame_index": 903
+          },
+          {
+            "requested_seconds": 31.6,
+            "decoded_pts_seconds": 31.623242,
+            "decoded_frame_index": 948
+          },
+          {
+            "requested_seconds": 33.1,
+            "decoded_pts_seconds": 33.123242,
+            "decoded_frame_index": 993
+          },
+          {
+            "requested_seconds": 34.6,
+            "decoded_pts_seconds": 34.623242,
+            "decoded_frame_index": 1038
+          },
+          {
+            "requested_seconds": 36.1,
+            "decoded_pts_seconds": 36.123242,
+            "decoded_frame_index": 1083
+          },
+          {
+            "requested_seconds": 37.6,
+            "decoded_pts_seconds": 37.623242,
+            "decoded_frame_index": 1128
+          },
+          {
+            "requested_seconds": 39.1,
+            "decoded_pts_seconds": 39.123242,
+            "decoded_frame_index": 1173
+          },
+          {
+            "requested_seconds": 40.6,
+            "decoded_pts_seconds": 40.623242,
+            "decoded_frame_index": 1218
+          },
+          {
+            "requested_seconds": 42.1,
+            "decoded_pts_seconds": 42.123242,
+            "decoded_frame_index": 1263
+          },
+          {
+            "requested_seconds": 43.6,
+            "decoded_pts_seconds": 43.623242,
+            "decoded_frame_index": 1308
+          },
+          {
+            "requested_seconds": 45.1,
+            "decoded_pts_seconds": 45.123242,
+            "decoded_frame_index": 1353
+          },
+          {
+            "requested_seconds": 46.6,
+            "decoded_pts_seconds": 46.623242,
+            "decoded_frame_index": 1398
+          },
+          {
+            "requested_seconds": 48.1,
+            "decoded_pts_seconds": 48.123242,
+            "decoded_frame_index": 1443
+          },
+          {
+            "requested_seconds": 49.6,
+            "decoded_pts_seconds": 49.589909,
+            "decoded_frame_index": 1487
+          },
+          {
+            "requested_seconds": 51.1,
+            "decoded_pts_seconds": 51.089909,
+            "decoded_frame_index": 1532
+          },
+          {
+            "requested_seconds": 52.6,
+            "decoded_pts_seconds": 52.589909,
+            "decoded_frame_index": 1577
+          },
+          {
+            "requested_seconds": 54.1,
+            "decoded_pts_seconds": 54.089909,
+            "decoded_frame_index": 1622
+          },
+          {
+            "requested_seconds": 55.6,
+            "decoded_pts_seconds": 55.589909,
+            "decoded_frame_index": 1667
+          },
+          {
+            "requested_seconds": 57.1,
+            "decoded_pts_seconds": 57.089909,
+            "decoded_frame_index": 1712
+          },
+          {
+            "requested_seconds": 58.6,
+            "decoded_pts_seconds": 58.589909,
+            "decoded_frame_index": 1757
+          },
+          {
+            "requested_seconds": 60.1,
+            "decoded_pts_seconds": 60.089909,
+            "decoded_frame_index": 1802
+          },
+          {
+            "requested_seconds": 61.6,
+            "decoded_pts_seconds": 61.589909,
+            "decoded_frame_index": 1847
+          },
+          {
+            "requested_seconds": 63.1,
+            "decoded_pts_seconds": 63.089909,
+            "decoded_frame_index": 1892
+          },
+          {
+            "requested_seconds": 64.6,
+            "decoded_pts_seconds": 64.589909,
+            "decoded_frame_index": 1937
+          },
+          {
+            "requested_seconds": 66.1,
+            "decoded_pts_seconds": 66.089909,
+            "decoded_frame_index": 1982
+          }
+        ],
+        "interval_seconds": 1.5
+      }
+    },
+    {
+      "id": 2,
+      "filename": "Your Brain on Magic Mushrooms.mp4",
+      "sha256": "f2e0dab939857cacd5564d6ff3eb7cf1a5e7b2919fe8125d3bfe489d06cc082a",
+      "bytes": 26528623,
+      "duration_seconds": 70.588662,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "10828800/361079",
+            "start_time": "0.000000",
+            "duration": "70.523242"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "70.588662"
+          }
+        ],
+        "format": {
+          "duration": "70.588662"
+        }
+      },
+      "survey": {
+        "file": "survey/02.jpg",
+        "samples": [
+          {
+            "requested_seconds": 0.1,
+            "decoded_pts_seconds": 0.123242,
+            "decoded_frame_index": 3
+          },
+          {
+            "requested_seconds": 1.6,
+            "decoded_pts_seconds": 1.623242,
+            "decoded_frame_index": 48
+          },
+          {
+            "requested_seconds": 3.1,
+            "decoded_pts_seconds": 3.123242,
+            "decoded_frame_index": 93
+          },
+          {
+            "requested_seconds": 4.6,
+            "decoded_pts_seconds": 4.623242,
+            "decoded_frame_index": 138
+          },
+          {
+            "requested_seconds": 6.1,
+            "decoded_pts_seconds": 6.123242,
+            "decoded_frame_index": 183
+          },
+          {
+            "requested_seconds": 7.6,
+            "decoded_pts_seconds": 7.623242,
+            "decoded_frame_index": 228
+          },
+          {
+            "requested_seconds": 9.1,
+            "decoded_pts_seconds": 9.089909,
+            "decoded_frame_index": 273
+          },
+          {
+            "requested_seconds": 10.6,
+            "decoded_pts_seconds": 10.589909,
+            "decoded_frame_index": 318
+          },
+          {
+            "requested_seconds": 12.1,
+            "decoded_pts_seconds": 12.089909,
+            "decoded_frame_index": 363
+          },
+          {
+            "requested_seconds": 13.6,
+            "decoded_pts_seconds": 13.589909,
+            "decoded_frame_index": 408
+          },
+          {
+            "requested_seconds": 15.1,
+            "decoded_pts_seconds": 15.089909,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": 16.6,
+            "decoded_pts_seconds": 16.589909,
+            "decoded_frame_index": 498
+          },
+          {
+            "requested_seconds": 18.1,
+            "decoded_pts_seconds": 18.089909,
+            "decoded_frame_index": 543
+          },
+          {
+            "requested_seconds": 19.6,
+            "decoded_pts_seconds": 19.589909,
+            "decoded_frame_index": 588
+          },
+          {
+            "requested_seconds": 21.1,
+            "decoded_pts_seconds": 21.089909,
+            "decoded_frame_index": 633
+          },
+          {
+            "requested_seconds": 22.6,
+            "decoded_pts_seconds": 22.589909,
+            "decoded_frame_index": 678
+          },
+          {
+            "requested_seconds": 24.1,
+            "decoded_pts_seconds": 24.089909,
+            "decoded_frame_index": 723
+          },
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.623242,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 27.1,
+            "decoded_pts_seconds": 27.123242,
+            "decoded_frame_index": 813
+          },
+          {
+            "requested_seconds": 28.6,
+            "decoded_pts_seconds": 28.623242,
+            "decoded_frame_index": 858
+          },
+          {
+            "requested_seconds": 30.1,
+            "decoded_pts_seconds": 30.123242,
+            "decoded_frame_index": 903
+          },
+          {
+            "requested_seconds": 31.6,
+            "decoded_pts_seconds": 31.623242,
+            "decoded_frame_index": 948
+          },
+          {
+            "requested_seconds": 33.1,
+            "decoded_pts_seconds": 33.123242,
+            "decoded_frame_index": 993
+          },
+          {
+            "requested_seconds": 34.6,
+            "decoded_pts_seconds": 34.623242,
+            "decoded_frame_index": 1038
+          },
+          {
+            "requested_seconds": 36.1,
+            "decoded_pts_seconds": 36.123242,
+            "decoded_frame_index": 1083
+          },
+          {
+            "requested_seconds": 37.6,
+            "decoded_pts_seconds": 37.623242,
+            "decoded_frame_index": 1128
+          },
+          {
+            "requested_seconds": 39.1,
+            "decoded_pts_seconds": 39.123242,
+            "decoded_frame_index": 1173
+          },
+          {
+            "requested_seconds": 40.6,
+            "decoded_pts_seconds": 40.623242,
+            "decoded_frame_index": 1218
+          },
+          {
+            "requested_seconds": 42.1,
+            "decoded_pts_seconds": 42.123242,
+            "decoded_frame_index": 1263
+          },
+          {
+            "requested_seconds": 43.6,
+            "decoded_pts_seconds": 43.623242,
+            "decoded_frame_index": 1308
+          },
+          {
+            "requested_seconds": 45.1,
+            "decoded_pts_seconds": 45.123242,
+            "decoded_frame_index": 1353
+          },
+          {
+            "requested_seconds": 46.6,
+            "decoded_pts_seconds": 46.623242,
+            "decoded_frame_index": 1398
+          },
+          {
+            "requested_seconds": 48.1,
+            "decoded_pts_seconds": 48.123242,
+            "decoded_frame_index": 1443
+          },
+          {
+            "requested_seconds": 49.6,
+            "decoded_pts_seconds": 49.623242,
+            "decoded_frame_index": 1488
+          },
+          {
+            "requested_seconds": 51.1,
+            "decoded_pts_seconds": 51.089909,
+            "decoded_frame_index": 1532
+          },
+          {
+            "requested_seconds": 52.6,
+            "decoded_pts_seconds": 52.589909,
+            "decoded_frame_index": 1577
+          },
+          {
+            "requested_seconds": 54.1,
+            "decoded_pts_seconds": 54.089909,
+            "decoded_frame_index": 1622
+          },
+          {
+            "requested_seconds": 55.6,
+            "decoded_pts_seconds": 55.589909,
+            "decoded_frame_index": 1667
+          },
+          {
+            "requested_seconds": 57.1,
+            "decoded_pts_seconds": 57.089909,
+            "decoded_frame_index": 1712
+          },
+          {
+            "requested_seconds": 58.6,
+            "decoded_pts_seconds": 58.589909,
+            "decoded_frame_index": 1757
+          },
+          {
+            "requested_seconds": 60.1,
+            "decoded_pts_seconds": 60.089909,
+            "decoded_frame_index": 1802
+          },
+          {
+            "requested_seconds": 61.6,
+            "decoded_pts_seconds": 61.589909,
+            "decoded_frame_index": 1847
+          },
+          {
+            "requested_seconds": 63.1,
+            "decoded_pts_seconds": 63.089909,
+            "decoded_frame_index": 1892
+          },
+          {
+            "requested_seconds": 64.6,
+            "decoded_pts_seconds": 64.589909,
+            "decoded_frame_index": 1937
+          },
+          {
+            "requested_seconds": 66.1,
+            "decoded_pts_seconds": 66.089909,
+            "decoded_frame_index": 1982
+          },
+          {
+            "requested_seconds": 67.6,
+            "decoded_pts_seconds": 67.589909,
+            "decoded_frame_index": 2027
+          },
+          {
+            "requested_seconds": 69.1,
+            "decoded_pts_seconds": 69.089909,
+            "decoded_frame_index": 2072
+          }
+        ],
+        "interval_seconds": 1.5
+      }
+    },
+    {
+      "id": 3,
+      "filename": "The True Cost of War.mp4",
+      "sha256": "d0af8eac9b601f1df69eaa967beaeb80e453b5922b8b4497521cdac2a0ba5cbe",
+      "bytes": 21720813,
+      "duration_seconds": 72.074739,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "11059200/368759",
+            "start_time": "0.000000",
+            "duration": "72.023242"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "72.074739"
+          }
+        ],
+        "format": {
+          "duration": "72.074739"
+        }
+      },
+      "survey": {
+        "file": "survey/03.jpg",
+        "samples": [
+          {
+            "requested_seconds": 0.1,
+            "decoded_pts_seconds": 0.123242,
+            "decoded_frame_index": 3
+          },
+          {
+            "requested_seconds": 1.6,
+            "decoded_pts_seconds": 1.623242,
+            "decoded_frame_index": 48
+          },
+          {
+            "requested_seconds": 3.1,
+            "decoded_pts_seconds": 3.123242,
+            "decoded_frame_index": 93
+          },
+          {
+            "requested_seconds": 4.6,
+            "decoded_pts_seconds": 4.623242,
+            "decoded_frame_index": 138
+          },
+          {
+            "requested_seconds": 6.1,
+            "decoded_pts_seconds": 6.123242,
+            "decoded_frame_index": 183
+          },
+          {
+            "requested_seconds": 7.6,
+            "decoded_pts_seconds": 7.623242,
+            "decoded_frame_index": 228
+          },
+          {
+            "requested_seconds": 9.1,
+            "decoded_pts_seconds": 9.089909,
+            "decoded_frame_index": 273
+          },
+          {
+            "requested_seconds": 10.6,
+            "decoded_pts_seconds": 10.589909,
+            "decoded_frame_index": 318
+          },
+          {
+            "requested_seconds": 12.1,
+            "decoded_pts_seconds": 12.089909,
+            "decoded_frame_index": 363
+          },
+          {
+            "requested_seconds": 13.6,
+            "decoded_pts_seconds": 13.589909,
+            "decoded_frame_index": 408
+          },
+          {
+            "requested_seconds": 15.1,
+            "decoded_pts_seconds": 15.089909,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": 16.6,
+            "decoded_pts_seconds": 16.589909,
+            "decoded_frame_index": 498
+          },
+          {
+            "requested_seconds": 18.1,
+            "decoded_pts_seconds": 18.089909,
+            "decoded_frame_index": 543
+          },
+          {
+            "requested_seconds": 19.6,
+            "decoded_pts_seconds": 19.589909,
+            "decoded_frame_index": 588
+          },
+          {
+            "requested_seconds": 21.1,
+            "decoded_pts_seconds": 21.089909,
+            "decoded_frame_index": 633
+          },
+          {
+            "requested_seconds": 22.6,
+            "decoded_pts_seconds": 22.589909,
+            "decoded_frame_index": 678
+          },
+          {
+            "requested_seconds": 24.1,
+            "decoded_pts_seconds": 24.089909,
+            "decoded_frame_index": 723
+          },
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.623242,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 27.1,
+            "decoded_pts_seconds": 27.123242,
+            "decoded_frame_index": 813
+          },
+          {
+            "requested_seconds": 28.6,
+            "decoded_pts_seconds": 28.623242,
+            "decoded_frame_index": 858
+          },
+          {
+            "requested_seconds": 30.1,
+            "decoded_pts_seconds": 30.123242,
+            "decoded_frame_index": 903
+          },
+          {
+            "requested_seconds": 31.6,
+            "decoded_pts_seconds": 31.623242,
+            "decoded_frame_index": 948
+          },
+          {
+            "requested_seconds": 33.1,
+            "decoded_pts_seconds": 33.123242,
+            "decoded_frame_index": 993
+          },
+          {
+            "requested_seconds": 34.6,
+            "decoded_pts_seconds": 34.623242,
+            "decoded_frame_index": 1038
+          },
+          {
+            "requested_seconds": 36.1,
+            "decoded_pts_seconds": 36.123242,
+            "decoded_frame_index": 1083
+          },
+          {
+            "requested_seconds": 37.6,
+            "decoded_pts_seconds": 37.623242,
+            "decoded_frame_index": 1128
+          },
+          {
+            "requested_seconds": 39.1,
+            "decoded_pts_seconds": 39.123242,
+            "decoded_frame_index": 1173
+          },
+          {
+            "requested_seconds": 40.6,
+            "decoded_pts_seconds": 40.623242,
+            "decoded_frame_index": 1218
+          },
+          {
+            "requested_seconds": 42.1,
+            "decoded_pts_seconds": 42.123242,
+            "decoded_frame_index": 1263
+          },
+          {
+            "requested_seconds": 43.6,
+            "decoded_pts_seconds": 43.623242,
+            "decoded_frame_index": 1308
+          },
+          {
+            "requested_seconds": 45.1,
+            "decoded_pts_seconds": 45.123242,
+            "decoded_frame_index": 1353
+          },
+          {
+            "requested_seconds": 46.6,
+            "decoded_pts_seconds": 46.623242,
+            "decoded_frame_index": 1398
+          },
+          {
+            "requested_seconds": 48.1,
+            "decoded_pts_seconds": 48.123242,
+            "decoded_frame_index": 1443
+          },
+          {
+            "requested_seconds": 49.6,
+            "decoded_pts_seconds": 49.623242,
+            "decoded_frame_index": 1488
+          },
+          {
+            "requested_seconds": 51.1,
+            "decoded_pts_seconds": 51.123242,
+            "decoded_frame_index": 1533
+          },
+          {
+            "requested_seconds": 52.6,
+            "decoded_pts_seconds": 52.589909,
+            "decoded_frame_index": 1577
+          },
+          {
+            "requested_seconds": 54.1,
+            "decoded_pts_seconds": 54.089909,
+            "decoded_frame_index": 1622
+          },
+          {
+            "requested_seconds": 55.6,
+            "decoded_pts_seconds": 55.589909,
+            "decoded_frame_index": 1667
+          },
+          {
+            "requested_seconds": 57.1,
+            "decoded_pts_seconds": 57.089909,
+            "decoded_frame_index": 1712
+          },
+          {
+            "requested_seconds": 58.6,
+            "decoded_pts_seconds": 58.589909,
+            "decoded_frame_index": 1757
+          },
+          {
+            "requested_seconds": 60.1,
+            "decoded_pts_seconds": 60.089909,
+            "decoded_frame_index": 1802
+          },
+          {
+            "requested_seconds": 61.6,
+            "decoded_pts_seconds": 61.589909,
+            "decoded_frame_index": 1847
+          },
+          {
+            "requested_seconds": 63.1,
+            "decoded_pts_seconds": 63.089909,
+            "decoded_frame_index": 1892
+          },
+          {
+            "requested_seconds": 64.6,
+            "decoded_pts_seconds": 64.589909,
+            "decoded_frame_index": 1937
+          },
+          {
+            "requested_seconds": 66.1,
+            "decoded_pts_seconds": 66.089909,
+            "decoded_frame_index": 1982
+          },
+          {
+            "requested_seconds": 67.6,
+            "decoded_pts_seconds": 67.589909,
+            "decoded_frame_index": 2027
+          },
+          {
+            "requested_seconds": 69.1,
+            "decoded_pts_seconds": 69.089909,
+            "decoded_frame_index": 2072
+          },
+          {
+            "requested_seconds": 70.6,
+            "decoded_pts_seconds": 70.589909,
+            "decoded_frame_index": 2117
+          }
+        ],
+        "interval_seconds": 1.5
+      }
+    },
+    {
+      "id": 4,
+      "filename": "Where Did the Antimatter Go_.mp4",
+      "sha256": "7cbef5c3f0e8ffcb6052d7307442dfc547a2580d1e7ebf2c6ef2d059befc8b4e",
+      "bytes": 5619912,
+      "duration_seconds": 75.072,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 360,
+            "height": 640,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "start_time": "0.000000",
+            "duration": "75.033333"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "75.072000"
+          }
+        ],
+        "format": {
+          "duration": "75.072000"
+        }
+      },
+      "survey": {
+        "file": "survey/04.jpg",
+        "samples": [
+          {
+            "requested_seconds": 0.1,
+            "decoded_pts_seconds": 0.1,
+            "decoded_frame_index": 3
+          },
+          {
+            "requested_seconds": 1.6,
+            "decoded_pts_seconds": 1.6,
+            "decoded_frame_index": 48
+          },
+          {
+            "requested_seconds": 3.1,
+            "decoded_pts_seconds": 3.1,
+            "decoded_frame_index": 93
+          },
+          {
+            "requested_seconds": 4.6,
+            "decoded_pts_seconds": 4.6,
+            "decoded_frame_index": 138
+          },
+          {
+            "requested_seconds": 6.1,
+            "decoded_pts_seconds": 6.1,
+            "decoded_frame_index": 183
+          },
+          {
+            "requested_seconds": 7.6,
+            "decoded_pts_seconds": 7.6,
+            "decoded_frame_index": 228
+          },
+          {
+            "requested_seconds": 9.1,
+            "decoded_pts_seconds": 9.1,
+            "decoded_frame_index": 273
+          },
+          {
+            "requested_seconds": 10.6,
+            "decoded_pts_seconds": 10.6,
+            "decoded_frame_index": 318
+          },
+          {
+            "requested_seconds": 12.1,
+            "decoded_pts_seconds": 12.1,
+            "decoded_frame_index": 363
+          },
+          {
+            "requested_seconds": 13.6,
+            "decoded_pts_seconds": 13.6,
+            "decoded_frame_index": 408
+          },
+          {
+            "requested_seconds": 15.1,
+            "decoded_pts_seconds": 15.1,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": 16.6,
+            "decoded_pts_seconds": 16.6,
+            "decoded_frame_index": 498
+          },
+          {
+            "requested_seconds": 18.1,
+            "decoded_pts_seconds": 18.1,
+            "decoded_frame_index": 543
+          },
+          {
+            "requested_seconds": 19.6,
+            "decoded_pts_seconds": 19.6,
+            "decoded_frame_index": 588
+          },
+          {
+            "requested_seconds": 21.1,
+            "decoded_pts_seconds": 21.1,
+            "decoded_frame_index": 633
+          },
+          {
+            "requested_seconds": 22.6,
+            "decoded_pts_seconds": 22.6,
+            "decoded_frame_index": 678
+          },
+          {
+            "requested_seconds": 24.1,
+            "decoded_pts_seconds": 24.1,
+            "decoded_frame_index": 723
+          },
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.6,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 27.1,
+            "decoded_pts_seconds": 27.1,
+            "decoded_frame_index": 813
+          },
+          {
+            "requested_seconds": 28.6,
+            "decoded_pts_seconds": 28.6,
+            "decoded_frame_index": 858
+          },
+          {
+            "requested_seconds": 30.1,
+            "decoded_pts_seconds": 30.1,
+            "decoded_frame_index": 903
+          },
+          {
+            "requested_seconds": 31.6,
+            "decoded_pts_seconds": 31.6,
+            "decoded_frame_index": 948
+          },
+          {
+            "requested_seconds": 33.1,
+            "decoded_pts_seconds": 33.1,
+            "decoded_frame_index": 993
+          },
+          {
+            "requested_seconds": 34.6,
+            "decoded_pts_seconds": 34.6,
+            "decoded_frame_index": 1038
+          },
+          {
+            "requested_seconds": 36.1,
+            "decoded_pts_seconds": 36.1,
+            "decoded_frame_index": 1083
+          },
+          {
+            "requested_seconds": 37.6,
+            "decoded_pts_seconds": 37.6,
+            "decoded_frame_index": 1128
+          },
+          {
+            "requested_seconds": 39.1,
+            "decoded_pts_seconds": 39.1,
+            "decoded_frame_index": 1173
+          },
+          {
+            "requested_seconds": 40.6,
+            "decoded_pts_seconds": 40.6,
+            "decoded_frame_index": 1218
+          },
+          {
+            "requested_seconds": 42.1,
+            "decoded_pts_seconds": 42.1,
+            "decoded_frame_index": 1263
+          },
+          {
+            "requested_seconds": 43.6,
+            "decoded_pts_seconds": 43.6,
+            "decoded_frame_index": 1308
+          },
+          {
+            "requested_seconds": 45.1,
+            "decoded_pts_seconds": 45.1,
+            "decoded_frame_index": 1353
+          },
+          {
+            "requested_seconds": 46.6,
+            "decoded_pts_seconds": 46.6,
+            "decoded_frame_index": 1398
+          },
+          {
+            "requested_seconds": 48.1,
+            "decoded_pts_seconds": 48.1,
+            "decoded_frame_index": 1443
+          },
+          {
+            "requested_seconds": 49.6,
+            "decoded_pts_seconds": 49.6,
+            "decoded_frame_index": 1488
+          },
+          {
+            "requested_seconds": 51.1,
+            "decoded_pts_seconds": 51.1,
+            "decoded_frame_index": 1533
+          },
+          {
+            "requested_seconds": 52.6,
+            "decoded_pts_seconds": 52.6,
+            "decoded_frame_index": 1578
+          },
+          {
+            "requested_seconds": 54.1,
+            "decoded_pts_seconds": 54.1,
+            "decoded_frame_index": 1623
+          },
+          {
+            "requested_seconds": 55.6,
+            "decoded_pts_seconds": 55.6,
+            "decoded_frame_index": 1668
+          },
+          {
+            "requested_seconds": 57.1,
+            "decoded_pts_seconds": 57.1,
+            "decoded_frame_index": 1713
+          },
+          {
+            "requested_seconds": 58.6,
+            "decoded_pts_seconds": 58.6,
+            "decoded_frame_index": 1758
+          },
+          {
+            "requested_seconds": 60.1,
+            "decoded_pts_seconds": 60.1,
+            "decoded_frame_index": 1803
+          },
+          {
+            "requested_seconds": 61.6,
+            "decoded_pts_seconds": 61.6,
+            "decoded_frame_index": 1848
+          },
+          {
+            "requested_seconds": 63.1,
+            "decoded_pts_seconds": 63.1,
+            "decoded_frame_index": 1893
+          },
+          {
+            "requested_seconds": 64.6,
+            "decoded_pts_seconds": 64.6,
+            "decoded_frame_index": 1938
+          },
+          {
+            "requested_seconds": 66.1,
+            "decoded_pts_seconds": 66.1,
+            "decoded_frame_index": 1983
+          },
+          {
+            "requested_seconds": 67.6,
+            "decoded_pts_seconds": 67.6,
+            "decoded_frame_index": 2028
+          },
+          {
+            "requested_seconds": 69.1,
+            "decoded_pts_seconds": 69.1,
+            "decoded_frame_index": 2073
+          },
+          {
+            "requested_seconds": 70.6,
+            "decoded_pts_seconds": 70.6,
+            "decoded_frame_index": 2118
+          },
+          {
+            "requested_seconds": 72.1,
+            "decoded_pts_seconds": 72.1,
+            "decoded_frame_index": 2163
+          },
+          {
+            "requested_seconds": 73.6,
+            "decoded_pts_seconds": 73.6,
+            "decoded_frame_index": 2208
+          }
+        ],
+        "interval_seconds": 1.5
+      }
+    },
+    {
+      "id": 5,
+      "filename": "Could Humans Evolve Flight.mp4",
+      "sha256": "aae933ef8ed52f40ef2a8658e3ea8dbe953e4e288dd51958640631121c5c7dab",
+      "bytes": 4983294,
+      "duration_seconds": 72.515918,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 480,
+            "height": 854,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "start_time": "0.033333",
+            "duration": "72.466667"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "72.515918"
+          }
+        ],
+        "format": {
+          "duration": "72.515918"
+        }
+      },
+      "survey": {
+        "file": "survey/05.jpg",
+        "samples": [
+          {
+            "requested_seconds": 0.1,
+            "decoded_pts_seconds": 0.1,
+            "decoded_frame_index": 3
+          },
+          {
+            "requested_seconds": 1.6,
+            "decoded_pts_seconds": 1.6,
+            "decoded_frame_index": 48
+          },
+          {
+            "requested_seconds": 3.1,
+            "decoded_pts_seconds": 3.1,
+            "decoded_frame_index": 93
+          },
+          {
+            "requested_seconds": 4.6,
+            "decoded_pts_seconds": 4.6,
+            "decoded_frame_index": 138
+          },
+          {
+            "requested_seconds": 6.1,
+            "decoded_pts_seconds": 6.1,
+            "decoded_frame_index": 183
+          },
+          {
+            "requested_seconds": 7.6,
+            "decoded_pts_seconds": 7.6,
+            "decoded_frame_index": 228
+          },
+          {
+            "requested_seconds": 9.1,
+            "decoded_pts_seconds": 9.1,
+            "decoded_frame_index": 273
+          },
+          {
+            "requested_seconds": 10.6,
+            "decoded_pts_seconds": 10.6,
+            "decoded_frame_index": 318
+          },
+          {
+            "requested_seconds": 12.1,
+            "decoded_pts_seconds": 12.1,
+            "decoded_frame_index": 363
+          },
+          {
+            "requested_seconds": 13.6,
+            "decoded_pts_seconds": 13.6,
+            "decoded_frame_index": 408
+          },
+          {
+            "requested_seconds": 15.1,
+            "decoded_pts_seconds": 15.1,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": 16.6,
+            "decoded_pts_seconds": 16.6,
+            "decoded_frame_index": 498
+          },
+          {
+            "requested_seconds": 18.1,
+            "decoded_pts_seconds": 18.1,
+            "decoded_frame_index": 543
+          },
+          {
+            "requested_seconds": 19.6,
+            "decoded_pts_seconds": 19.6,
+            "decoded_frame_index": 588
+          },
+          {
+            "requested_seconds": 21.1,
+            "decoded_pts_seconds": 21.1,
+            "decoded_frame_index": 633
+          },
+          {
+            "requested_seconds": 22.6,
+            "decoded_pts_seconds": 22.6,
+            "decoded_frame_index": 678
+          },
+          {
+            "requested_seconds": 24.1,
+            "decoded_pts_seconds": 24.1,
+            "decoded_frame_index": 723
+          },
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.6,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 27.1,
+            "decoded_pts_seconds": 27.1,
+            "decoded_frame_index": 813
+          },
+          {
+            "requested_seconds": 28.6,
+            "decoded_pts_seconds": 28.6,
+            "decoded_frame_index": 858
+          },
+          {
+            "requested_seconds": 30.1,
+            "decoded_pts_seconds": 30.1,
+            "decoded_frame_index": 903
+          },
+          {
+            "requested_seconds": 31.6,
+            "decoded_pts_seconds": 31.6,
+            "decoded_frame_index": 948
+          },
+          {
+            "requested_seconds": 33.1,
+            "decoded_pts_seconds": 33.1,
+            "decoded_frame_index": 993
+          },
+          {
+            "requested_seconds": 34.6,
+            "decoded_pts_seconds": 34.6,
+            "decoded_frame_index": 1038
+          },
+          {
+            "requested_seconds": 36.1,
+            "decoded_pts_seconds": 36.1,
+            "decoded_frame_index": 1083
+          },
+          {
+            "requested_seconds": 37.6,
+            "decoded_pts_seconds": 37.6,
+            "decoded_frame_index": 1128
+          },
+          {
+            "requested_seconds": 39.1,
+            "decoded_pts_seconds": 39.1,
+            "decoded_frame_index": 1173
+          },
+          {
+            "requested_seconds": 40.6,
+            "decoded_pts_seconds": 40.6,
+            "decoded_frame_index": 1218
+          },
+          {
+            "requested_seconds": 42.1,
+            "decoded_pts_seconds": 42.1,
+            "decoded_frame_index": 1263
+          },
+          {
+            "requested_seconds": 43.6,
+            "decoded_pts_seconds": 43.6,
+            "decoded_frame_index": 1308
+          },
+          {
+            "requested_seconds": 45.1,
+            "decoded_pts_seconds": 45.1,
+            "decoded_frame_index": 1353
+          },
+          {
+            "requested_seconds": 46.6,
+            "decoded_pts_seconds": 46.6,
+            "decoded_frame_index": 1398
+          },
+          {
+            "requested_seconds": 48.1,
+            "decoded_pts_seconds": 48.1,
+            "decoded_frame_index": 1443
+          },
+          {
+            "requested_seconds": 49.6,
+            "decoded_pts_seconds": 49.6,
+            "decoded_frame_index": 1488
+          },
+          {
+            "requested_seconds": 51.1,
+            "decoded_pts_seconds": 51.1,
+            "decoded_frame_index": 1533
+          },
+          {
+            "requested_seconds": 52.6,
+            "decoded_pts_seconds": 52.6,
+            "decoded_frame_index": 1578
+          },
+          {
+            "requested_seconds": 54.1,
+            "decoded_pts_seconds": 54.1,
+            "decoded_frame_index": 1623
+          },
+          {
+            "requested_seconds": 55.6,
+            "decoded_pts_seconds": 55.6,
+            "decoded_frame_index": 1668
+          },
+          {
+            "requested_seconds": 57.1,
+            "decoded_pts_seconds": 57.1,
+            "decoded_frame_index": 1713
+          },
+          {
+            "requested_seconds": 58.6,
+            "decoded_pts_seconds": 58.6,
+            "decoded_frame_index": 1758
+          },
+          {
+            "requested_seconds": 60.1,
+            "decoded_pts_seconds": 60.1,
+            "decoded_frame_index": 1803
+          },
+          {
+            "requested_seconds": 61.6,
+            "decoded_pts_seconds": 61.6,
+            "decoded_frame_index": 1848
+          },
+          {
+            "requested_seconds": 63.1,
+            "decoded_pts_seconds": 63.1,
+            "decoded_frame_index": 1893
+          },
+          {
+            "requested_seconds": 64.6,
+            "decoded_pts_seconds": 64.6,
+            "decoded_frame_index": 1938
+          },
+          {
+            "requested_seconds": 66.1,
+            "decoded_pts_seconds": 66.1,
+            "decoded_frame_index": 1983
+          },
+          {
+            "requested_seconds": 67.6,
+            "decoded_pts_seconds": 67.6,
+            "decoded_frame_index": 2028
+          },
+          {
+            "requested_seconds": 69.1,
+            "decoded_pts_seconds": 69.1,
+            "decoded_frame_index": 2073
+          },
+          {
+            "requested_seconds": 70.6,
+            "decoded_pts_seconds": 70.6,
+            "decoded_frame_index": 2118
+          },
+          {
+            "requested_seconds": 72.1,
+            "decoded_pts_seconds": 72.1,
+            "decoded_frame_index": 2163
+          }
+        ],
+        "interval_seconds": 1.5
+      }
+    },
+    {
+      "id": 6,
+      "filename": "Your Skeleton Is Electric.mp4",
+      "sha256": "9f097af40530be9009301515348797507e135d0c2cd497e959b3afe6d687d95e",
+      "bytes": 21074151,
+      "duration_seconds": 71.93542,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "4730880/157747",
+            "start_time": "0.000000",
+            "duration": "71.889909"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "71.935420"
+          }
+        ],
+        "format": {
+          "duration": "71.935420"
+        }
+      },
+      "survey": {
+        "file": "survey/06.jpg",
+        "samples": [
+          {
+            "requested_seconds": 0.1,
+            "decoded_pts_seconds": 0.123242,
+            "decoded_frame_index": 3
+          },
+          {
+            "requested_seconds": 1.6,
+            "decoded_pts_seconds": 1.623242,
+            "decoded_frame_index": 48
+          },
+          {
+            "requested_seconds": 3.1,
+            "decoded_pts_seconds": 3.123242,
+            "decoded_frame_index": 93
+          },
+          {
+            "requested_seconds": 4.6,
+            "decoded_pts_seconds": 4.623242,
+            "decoded_frame_index": 138
+          },
+          {
+            "requested_seconds": 6.1,
+            "decoded_pts_seconds": 6.123242,
+            "decoded_frame_index": 183
+          },
+          {
+            "requested_seconds": 7.6,
+            "decoded_pts_seconds": 7.623242,
+            "decoded_frame_index": 228
+          },
+          {
+            "requested_seconds": 9.1,
+            "decoded_pts_seconds": 9.089909,
+            "decoded_frame_index": 273
+          },
+          {
+            "requested_seconds": 10.6,
+            "decoded_pts_seconds": 10.589909,
+            "decoded_frame_index": 318
+          },
+          {
+            "requested_seconds": 12.1,
+            "decoded_pts_seconds": 12.089909,
+            "decoded_frame_index": 363
+          },
+          {
+            "requested_seconds": 13.6,
+            "decoded_pts_seconds": 13.589909,
+            "decoded_frame_index": 408
+          },
+          {
+            "requested_seconds": 15.1,
+            "decoded_pts_seconds": 15.089909,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": 16.6,
+            "decoded_pts_seconds": 16.589909,
+            "decoded_frame_index": 498
+          },
+          {
+            "requested_seconds": 18.1,
+            "decoded_pts_seconds": 18.089909,
+            "decoded_frame_index": 543
+          },
+          {
+            "requested_seconds": 19.6,
+            "decoded_pts_seconds": 19.589909,
+            "decoded_frame_index": 588
+          },
+          {
+            "requested_seconds": 21.1,
+            "decoded_pts_seconds": 21.089909,
+            "decoded_frame_index": 633
+          },
+          {
+            "requested_seconds": 22.6,
+            "decoded_pts_seconds": 22.589909,
+            "decoded_frame_index": 678
+          },
+          {
+            "requested_seconds": 24.1,
+            "decoded_pts_seconds": 24.089909,
+            "decoded_frame_index": 723
+          },
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.623242,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 27.1,
+            "decoded_pts_seconds": 27.123242,
+            "decoded_frame_index": 813
+          },
+          {
+            "requested_seconds": 28.6,
+            "decoded_pts_seconds": 28.623242,
+            "decoded_frame_index": 858
+          },
+          {
+            "requested_seconds": 30.1,
+            "decoded_pts_seconds": 30.123242,
+            "decoded_frame_index": 903
+          },
+          {
+            "requested_seconds": 31.6,
+            "decoded_pts_seconds": 31.623242,
+            "decoded_frame_index": 948
+          },
+          {
+            "requested_seconds": 33.1,
+            "decoded_pts_seconds": 33.123242,
+            "decoded_frame_index": 993
+          },
+          {
+            "requested_seconds": 34.6,
+            "decoded_pts_seconds": 34.623242,
+            "decoded_frame_index": 1038
+          },
+          {
+            "requested_seconds": 36.1,
+            "decoded_pts_seconds": 36.123242,
+            "decoded_frame_index": 1083
+          },
+          {
+            "requested_seconds": 37.6,
+            "decoded_pts_seconds": 37.623242,
+            "decoded_frame_index": 1128
+          },
+          {
+            "requested_seconds": 39.1,
+            "decoded_pts_seconds": 39.123242,
+            "decoded_frame_index": 1173
+          },
+          {
+            "requested_seconds": 40.6,
+            "decoded_pts_seconds": 40.623242,
+            "decoded_frame_index": 1218
+          },
+          {
+            "requested_seconds": 42.1,
+            "decoded_pts_seconds": 42.123242,
+            "decoded_frame_index": 1263
+          },
+          {
+            "requested_seconds": 43.6,
+            "decoded_pts_seconds": 43.623242,
+            "decoded_frame_index": 1308
+          },
+          {
+            "requested_seconds": 45.1,
+            "decoded_pts_seconds": 45.123242,
+            "decoded_frame_index": 1353
+          },
+          {
+            "requested_seconds": 46.6,
+            "decoded_pts_seconds": 46.623242,
+            "decoded_frame_index": 1398
+          },
+          {
+            "requested_seconds": 48.1,
+            "decoded_pts_seconds": 48.123242,
+            "decoded_frame_index": 1443
+          },
+          {
+            "requested_seconds": 49.6,
+            "decoded_pts_seconds": 49.623242,
+            "decoded_frame_index": 1488
+          },
+          {
+            "requested_seconds": 51.1,
+            "decoded_pts_seconds": 51.123242,
+            "decoded_frame_index": 1533
+          },
+          {
+            "requested_seconds": 52.6,
+            "decoded_pts_seconds": 52.589909,
+            "decoded_frame_index": 1577
+          },
+          {
+            "requested_seconds": 54.1,
+            "decoded_pts_seconds": 54.089909,
+            "decoded_frame_index": 1622
+          },
+          {
+            "requested_seconds": 55.6,
+            "decoded_pts_seconds": 55.589909,
+            "decoded_frame_index": 1667
+          },
+          {
+            "requested_seconds": 57.1,
+            "decoded_pts_seconds": 57.089909,
+            "decoded_frame_index": 1712
+          },
+          {
+            "requested_seconds": 58.6,
+            "decoded_pts_seconds": 58.589909,
+            "decoded_frame_index": 1757
+          },
+          {
+            "requested_seconds": 60.1,
+            "decoded_pts_seconds": 60.089909,
+            "decoded_frame_index": 1802
+          },
+          {
+            "requested_seconds": 61.6,
+            "decoded_pts_seconds": 61.589909,
+            "decoded_frame_index": 1847
+          },
+          {
+            "requested_seconds": 63.1,
+            "decoded_pts_seconds": 63.089909,
+            "decoded_frame_index": 1892
+          },
+          {
+            "requested_seconds": 64.6,
+            "decoded_pts_seconds": 64.589909,
+            "decoded_frame_index": 1937
+          },
+          {
+            "requested_seconds": 66.1,
+            "decoded_pts_seconds": 66.089909,
+            "decoded_frame_index": 1982
+          },
+          {
+            "requested_seconds": 67.6,
+            "decoded_pts_seconds": 67.589909,
+            "decoded_frame_index": 2027
+          },
+          {
+            "requested_seconds": 69.1,
+            "decoded_pts_seconds": 69.089909,
+            "decoded_frame_index": 2072
+          },
+          {
+            "requested_seconds": 70.6,
+            "decoded_pts_seconds": 70.589909,
+            "decoded_frame_index": 2117
+          }
+        ],
+        "interval_seconds": 1.5
+      }
+    },
+    {
+      "id": 7,
+      "filename": "Your Brain Peaked at Birth.mp4",
+      "sha256": "d59a423622f6c6e4bbc608d04fb15c142495d8763ee3669f020c9187b09a4537",
+      "bytes": 28355767,
+      "duration_seconds": 72.980317,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "11197440/373367",
+            "start_time": "0.000000",
+            "duration": "72.923242"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "72.980317"
+          }
+        ],
+        "format": {
+          "duration": "72.980317"
+        }
+      },
+      "survey": {
+        "file": "survey/07.jpg",
+        "samples": [
+          {
+            "requested_seconds": 0.1,
+            "decoded_pts_seconds": 0.123242,
+            "decoded_frame_index": 3
+          },
+          {
+            "requested_seconds": 1.6,
+            "decoded_pts_seconds": 1.623242,
+            "decoded_frame_index": 48
+          },
+          {
+            "requested_seconds": 3.1,
+            "decoded_pts_seconds": 3.123242,
+            "decoded_frame_index": 93
+          },
+          {
+            "requested_seconds": 4.6,
+            "decoded_pts_seconds": 4.623242,
+            "decoded_frame_index": 138
+          },
+          {
+            "requested_seconds": 6.1,
+            "decoded_pts_seconds": 6.123242,
+            "decoded_frame_index": 183
+          },
+          {
+            "requested_seconds": 7.6,
+            "decoded_pts_seconds": 7.623242,
+            "decoded_frame_index": 228
+          },
+          {
+            "requested_seconds": 9.1,
+            "decoded_pts_seconds": 9.089909,
+            "decoded_frame_index": 273
+          },
+          {
+            "requested_seconds": 10.6,
+            "decoded_pts_seconds": 10.589909,
+            "decoded_frame_index": 318
+          },
+          {
+            "requested_seconds": 12.1,
+            "decoded_pts_seconds": 12.089909,
+            "decoded_frame_index": 363
+          },
+          {
+            "requested_seconds": 13.6,
+            "decoded_pts_seconds": 13.589909,
+            "decoded_frame_index": 408
+          },
+          {
+            "requested_seconds": 15.1,
+            "decoded_pts_seconds": 15.089909,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": 16.6,
+            "decoded_pts_seconds": 16.589909,
+            "decoded_frame_index": 498
+          },
+          {
+            "requested_seconds": 18.1,
+            "decoded_pts_seconds": 18.089909,
+            "decoded_frame_index": 543
+          },
+          {
+            "requested_seconds": 19.6,
+            "decoded_pts_seconds": 19.589909,
+            "decoded_frame_index": 588
+          },
+          {
+            "requested_seconds": 21.1,
+            "decoded_pts_seconds": 21.089909,
+            "decoded_frame_index": 633
+          },
+          {
+            "requested_seconds": 22.6,
+            "decoded_pts_seconds": 22.589909,
+            "decoded_frame_index": 678
+          },
+          {
+            "requested_seconds": 24.1,
+            "decoded_pts_seconds": 24.089909,
+            "decoded_frame_index": 723
+          },
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.623242,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 27.1,
+            "decoded_pts_seconds": 27.123242,
+            "decoded_frame_index": 813
+          },
+          {
+            "requested_seconds": 28.6,
+            "decoded_pts_seconds": 28.623242,
+            "decoded_frame_index": 858
+          },
+          {
+            "requested_seconds": 30.1,
+            "decoded_pts_seconds": 30.123242,
+            "decoded_frame_index": 903
+          },
+          {
+            "requested_seconds": 31.6,
+            "decoded_pts_seconds": 31.623242,
+            "decoded_frame_index": 948
+          },
+          {
+            "requested_seconds": 33.1,
+            "decoded_pts_seconds": 33.123242,
+            "decoded_frame_index": 993
+          },
+          {
+            "requested_seconds": 34.6,
+            "decoded_pts_seconds": 34.623242,
+            "decoded_frame_index": 1038
+          },
+          {
+            "requested_seconds": 36.1,
+            "decoded_pts_seconds": 36.123242,
+            "decoded_frame_index": 1083
+          },
+          {
+            "requested_seconds": 37.6,
+            "decoded_pts_seconds": 37.623242,
+            "decoded_frame_index": 1128
+          },
+          {
+            "requested_seconds": 39.1,
+            "decoded_pts_seconds": 39.123242,
+            "decoded_frame_index": 1173
+          },
+          {
+            "requested_seconds": 40.6,
+            "decoded_pts_seconds": 40.623242,
+            "decoded_frame_index": 1218
+          },
+          {
+            "requested_seconds": 42.1,
+            "decoded_pts_seconds": 42.123242,
+            "decoded_frame_index": 1263
+          },
+          {
+            "requested_seconds": 43.6,
+            "decoded_pts_seconds": 43.623242,
+            "decoded_frame_index": 1308
+          },
+          {
+            "requested_seconds": 45.1,
+            "decoded_pts_seconds": 45.123242,
+            "decoded_frame_index": 1353
+          },
+          {
+            "requested_seconds": 46.6,
+            "decoded_pts_seconds": 46.623242,
+            "decoded_frame_index": 1398
+          },
+          {
+            "requested_seconds": 48.1,
+            "decoded_pts_seconds": 48.123242,
+            "decoded_frame_index": 1443
+          },
+          {
+            "requested_seconds": 49.6,
+            "decoded_pts_seconds": 49.623242,
+            "decoded_frame_index": 1488
+          },
+          {
+            "requested_seconds": 51.1,
+            "decoded_pts_seconds": 51.123242,
+            "decoded_frame_index": 1533
+          },
+          {
+            "requested_seconds": 52.6,
+            "decoded_pts_seconds": 52.589909,
+            "decoded_frame_index": 1577
+          },
+          {
+            "requested_seconds": 54.1,
+            "decoded_pts_seconds": 54.089909,
+            "decoded_frame_index": 1622
+          },
+          {
+            "requested_seconds": 55.6,
+            "decoded_pts_seconds": 55.589909,
+            "decoded_frame_index": 1667
+          },
+          {
+            "requested_seconds": 57.1,
+            "decoded_pts_seconds": 57.089909,
+            "decoded_frame_index": 1712
+          },
+          {
+            "requested_seconds": 58.6,
+            "decoded_pts_seconds": 58.589909,
+            "decoded_frame_index": 1757
+          },
+          {
+            "requested_seconds": 60.1,
+            "decoded_pts_seconds": 60.089909,
+            "decoded_frame_index": 1802
+          },
+          {
+            "requested_seconds": 61.6,
+            "decoded_pts_seconds": 61.589909,
+            "decoded_frame_index": 1847
+          },
+          {
+            "requested_seconds": 63.1,
+            "decoded_pts_seconds": 63.089909,
+            "decoded_frame_index": 1892
+          },
+          {
+            "requested_seconds": 64.6,
+            "decoded_pts_seconds": 64.589909,
+            "decoded_frame_index": 1937
+          },
+          {
+            "requested_seconds": 66.1,
+            "decoded_pts_seconds": 66.089909,
+            "decoded_frame_index": 1982
+          },
+          {
+            "requested_seconds": 67.6,
+            "decoded_pts_seconds": 67.589909,
+            "decoded_frame_index": 2027
+          },
+          {
+            "requested_seconds": 69.1,
+            "decoded_pts_seconds": 69.089909,
+            "decoded_frame_index": 2072
+          },
+          {
+            "requested_seconds": 70.6,
+            "decoded_pts_seconds": 70.589909,
+            "decoded_frame_index": 2117
+          },
+          {
+            "requested_seconds": 72.1,
+            "decoded_pts_seconds": 72.089909,
+            "decoded_frame_index": 2162
+          }
+        ],
+        "interval_seconds": 1.5
+      }
+    },
+    {
+      "id": 8,
+      "filename": "Let\u2019s Steal a New Moon.mp4",
+      "sha256": "80023aa9ad505b20f479c3b71e01023f60c3284638bfc341a6b53df8640ba88d",
+      "bytes": 20160093,
+      "duration_seconds": 70.263583,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "32332800/1078117",
+            "start_time": "0.000000",
+            "duration": "70.189909"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "70.263583"
+          }
+        ],
+        "format": {
+          "duration": "70.263583"
+        }
+      },
+      "survey": {
+        "file": "survey/08.jpg",
+        "samples": [
+          {
+            "requested_seconds": 0.1,
+            "decoded_pts_seconds": 0.123242,
+            "decoded_frame_index": 3
+          },
+          {
+            "requested_seconds": 1.6,
+            "decoded_pts_seconds": 1.623242,
+            "decoded_frame_index": 48
+          },
+          {
+            "requested_seconds": 3.1,
+            "decoded_pts_seconds": 3.123242,
+            "decoded_frame_index": 93
+          },
+          {
+            "requested_seconds": 4.6,
+            "decoded_pts_seconds": 4.623242,
+            "decoded_frame_index": 138
+          },
+          {
+            "requested_seconds": 6.1,
+            "decoded_pts_seconds": 6.123242,
+            "decoded_frame_index": 183
+          },
+          {
+            "requested_seconds": 7.6,
+            "decoded_pts_seconds": 7.623242,
+            "decoded_frame_index": 228
+          },
+          {
+            "requested_seconds": 9.1,
+            "decoded_pts_seconds": 9.089909,
+            "decoded_frame_index": 273
+          },
+          {
+            "requested_seconds": 10.6,
+            "decoded_pts_seconds": 10.589909,
+            "decoded_frame_index": 318
+          },
+          {
+            "requested_seconds": 12.1,
+            "decoded_pts_seconds": 12.089909,
+            "decoded_frame_index": 363
+          },
+          {
+            "requested_seconds": 13.6,
+            "decoded_pts_seconds": 13.589909,
+            "decoded_frame_index": 408
+          },
+          {
+            "requested_seconds": 15.1,
+            "decoded_pts_seconds": 15.089909,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": 16.6,
+            "decoded_pts_seconds": 16.589909,
+            "decoded_frame_index": 498
+          },
+          {
+            "requested_seconds": 18.1,
+            "decoded_pts_seconds": 18.089909,
+            "decoded_frame_index": 543
+          },
+          {
+            "requested_seconds": 19.6,
+            "decoded_pts_seconds": 19.589909,
+            "decoded_frame_index": 588
+          },
+          {
+            "requested_seconds": 21.1,
+            "decoded_pts_seconds": 21.089909,
+            "decoded_frame_index": 633
+          },
+          {
+            "requested_seconds": 22.6,
+            "decoded_pts_seconds": 22.589909,
+            "decoded_frame_index": 678
+          },
+          {
+            "requested_seconds": 24.1,
+            "decoded_pts_seconds": 24.089909,
+            "decoded_frame_index": 723
+          },
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.623242,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 27.1,
+            "decoded_pts_seconds": 27.123242,
+            "decoded_frame_index": 813
+          },
+          {
+            "requested_seconds": 28.6,
+            "decoded_pts_seconds": 28.623242,
+            "decoded_frame_index": 858
+          },
+          {
+            "requested_seconds": 30.1,
+            "decoded_pts_seconds": 30.123242,
+            "decoded_frame_index": 903
+          },
+          {
+            "requested_seconds": 31.6,
+            "decoded_pts_seconds": 31.623242,
+            "decoded_frame_index": 948
+          },
+          {
+            "requested_seconds": 33.1,
+            "decoded_pts_seconds": 33.123242,
+            "decoded_frame_index": 993
+          },
+          {
+            "requested_seconds": 34.6,
+            "decoded_pts_seconds": 34.623242,
+            "decoded_frame_index": 1038
+          },
+          {
+            "requested_seconds": 36.1,
+            "decoded_pts_seconds": 36.123242,
+            "decoded_frame_index": 1083
+          },
+          {
+            "requested_seconds": 37.6,
+            "decoded_pts_seconds": 37.623242,
+            "decoded_frame_index": 1128
+          },
+          {
+            "requested_seconds": 39.1,
+            "decoded_pts_seconds": 39.123242,
+            "decoded_frame_index": 1173
+          },
+          {
+            "requested_seconds": 40.6,
+            "decoded_pts_seconds": 40.623242,
+            "decoded_frame_index": 1218
+          },
+          {
+            "requested_seconds": 42.1,
+            "decoded_pts_seconds": 42.123242,
+            "decoded_frame_index": 1263
+          },
+          {
+            "requested_seconds": 43.6,
+            "decoded_pts_seconds": 43.623242,
+            "decoded_frame_index": 1308
+          },
+          {
+            "requested_seconds": 45.1,
+            "decoded_pts_seconds": 45.123242,
+            "decoded_frame_index": 1353
+          },
+          {
+            "requested_seconds": 46.6,
+            "decoded_pts_seconds": 46.623242,
+            "decoded_frame_index": 1398
+          },
+          {
+            "requested_seconds": 48.1,
+            "decoded_pts_seconds": 48.123242,
+            "decoded_frame_index": 1443
+          },
+          {
+            "requested_seconds": 49.6,
+            "decoded_pts_seconds": 49.623242,
+            "decoded_frame_index": 1488
+          },
+          {
+            "requested_seconds": 51.1,
+            "decoded_pts_seconds": 51.089909,
+            "decoded_frame_index": 1532
+          },
+          {
+            "requested_seconds": 52.6,
+            "decoded_pts_seconds": 52.589909,
+            "decoded_frame_index": 1577
+          },
+          {
+            "requested_seconds": 54.1,
+            "decoded_pts_seconds": 54.089909,
+            "decoded_frame_index": 1622
+          },
+          {
+            "requested_seconds": 55.6,
+            "decoded_pts_seconds": 55.589909,
+            "decoded_frame_index": 1667
+          },
+          {
+            "requested_seconds": 57.1,
+            "decoded_pts_seconds": 57.089909,
+            "decoded_frame_index": 1712
+          },
+          {
+            "requested_seconds": 58.6,
+            "decoded_pts_seconds": 58.589909,
+            "decoded_frame_index": 1757
+          },
+          {
+            "requested_seconds": 60.1,
+            "decoded_pts_seconds": 60.089909,
+            "decoded_frame_index": 1802
+          },
+          {
+            "requested_seconds": 61.6,
+            "decoded_pts_seconds": 61.589909,
+            "decoded_frame_index": 1847
+          },
+          {
+            "requested_seconds": 63.1,
+            "decoded_pts_seconds": 63.089909,
+            "decoded_frame_index": 1892
+          },
+          {
+            "requested_seconds": 64.6,
+            "decoded_pts_seconds": 64.589909,
+            "decoded_frame_index": 1937
+          },
+          {
+            "requested_seconds": 66.1,
+            "decoded_pts_seconds": 66.089909,
+            "decoded_frame_index": 1982
+          },
+          {
+            "requested_seconds": 67.6,
+            "decoded_pts_seconds": 67.589909,
+            "decoded_frame_index": 2027
+          },
+          {
+            "requested_seconds": 69.1,
+            "decoded_pts_seconds": 69.089909,
+            "decoded_frame_index": 2072
+          }
+        ],
+        "interval_seconds": 1.5
+      }
+    }
+  ],
+  "examples": [
+    {
+      "key": "moon-selection",
+      "source": 8,
+      "start": 3.0,
+      "end": 5.7,
+      "title": "Keep the chosen moon; change its surrounding context",
+      "carry": "Amalthea remains visible while the title, building and other options recede; the selected object grows/repositions, then shrinks as Jupiter enters.",
+      "mechanism": "Selective context removal and an animated subject, followed by a scale comparison; not a dissolve between two complete stills.",
+      "category": "cases",
+      "sheet": "sheets/moon-selection.jpg",
+      "samples": [
+        {
+          "requested_seconds": 3.0,
+          "decoded_pts_seconds": 3.023242,
+          "decoded_frame_index": 90
+        },
+        {
+          "requested_seconds": 3.18,
+          "decoded_pts_seconds": 3.189909,
+          "decoded_frame_index": 95
+        },
+        {
+          "requested_seconds": 3.36,
+          "decoded_pts_seconds": 3.389909,
+          "decoded_frame_index": 101
+        },
+        {
+          "requested_seconds": 3.54,
+          "decoded_pts_seconds": 3.556576,
+          "decoded_frame_index": 106
+        },
+        {
+          "requested_seconds": 3.72,
+          "decoded_pts_seconds": 3.756576,
+          "decoded_frame_index": 112
+        },
+        {
+          "requested_seconds": 3.9000000000000004,
+          "decoded_pts_seconds": 3.923242,
+          "decoded_frame_index": 117
+        },
+        {
+          "requested_seconds": 4.08,
+          "decoded_pts_seconds": 4.089909,
+          "decoded_frame_index": 122
+        },
+        {
+          "requested_seconds": 4.26,
+          "decoded_pts_seconds": 4.289909,
+          "decoded_frame_index": 128
+        },
+        {
+          "requested_seconds": 4.44,
+          "decoded_pts_seconds": 4.456576,
+          "decoded_frame_index": 133
+        },
+        {
+          "requested_seconds": 4.62,
+          "decoded_pts_seconds": 4.656576,
+          "decoded_frame_index": 139
+        },
+        {
+          "requested_seconds": 4.800000000000001,
+          "decoded_pts_seconds": 4.823242,
+          "decoded_frame_index": 144
+        },
+        {
+          "requested_seconds": 4.98,
+          "decoded_pts_seconds": 4.989909,
+          "decoded_frame_index": 149
+        },
+        {
+          "requested_seconds": 5.16,
+          "decoded_pts_seconds": 5.189909,
+          "decoded_frame_index": 155
+        },
+        {
+          "requested_seconds": 5.34,
+          "decoded_pts_seconds": 5.356576,
+          "decoded_frame_index": 160
+        },
+        {
+          "requested_seconds": 5.5200000000000005,
+          "decoded_pts_seconds": 5.556576,
+          "decoded_frame_index": 166
+        },
+        {
+          "requested_seconds": 5.7,
+          "decoded_pts_seconds": 5.723242,
+          "decoded_frame_index": 171
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/moon-selection.gif",
+        "sha256": "676fc464714906b030f343b4ae052a2011984e331bea45ff92960458a63c2185",
+        "bytes": 847892,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "saffron-brain",
+      "source": 1,
+      "start": 30.1,
+      "end": 32.1,
+      "title": "The prop makes room for its consequence",
+      "carry": "The saffron bowl lifts and tilts while labels retract; the anatomical head rises below it and falling specks connect bowl to brain.",
+      "mechanism": "Coordinated prop motion, character/diagram entrance and a causal particle path in one shared field.",
+      "category": "cases",
+      "sheet": "sheets/saffron-brain.jpg",
+      "samples": [
+        {
+          "requested_seconds": 30.1,
+          "decoded_pts_seconds": 30.123242,
+          "decoded_frame_index": 903
+        },
+        {
+          "requested_seconds": 30.233333333333334,
+          "decoded_pts_seconds": 30.256576,
+          "decoded_frame_index": 907
+        },
+        {
+          "requested_seconds": 30.366666666666667,
+          "decoded_pts_seconds": 30.389909,
+          "decoded_frame_index": 911
+        },
+        {
+          "requested_seconds": 30.5,
+          "decoded_pts_seconds": 30.523242,
+          "decoded_frame_index": 915
+        },
+        {
+          "requested_seconds": 30.633333333333336,
+          "decoded_pts_seconds": 30.656576,
+          "decoded_frame_index": 919
+        },
+        {
+          "requested_seconds": 30.76666666666667,
+          "decoded_pts_seconds": 30.789909,
+          "decoded_frame_index": 923
+        },
+        {
+          "requested_seconds": 30.900000000000002,
+          "decoded_pts_seconds": 30.923242,
+          "decoded_frame_index": 927
+        },
+        {
+          "requested_seconds": 31.033333333333335,
+          "decoded_pts_seconds": 31.056576,
+          "decoded_frame_index": 931
+        },
+        {
+          "requested_seconds": 31.166666666666668,
+          "decoded_pts_seconds": 31.189909,
+          "decoded_frame_index": 935
+        },
+        {
+          "requested_seconds": 31.3,
+          "decoded_pts_seconds": 31.323242,
+          "decoded_frame_index": 939
+        },
+        {
+          "requested_seconds": 31.433333333333334,
+          "decoded_pts_seconds": 31.456576,
+          "decoded_frame_index": 943
+        },
+        {
+          "requested_seconds": 31.566666666666666,
+          "decoded_pts_seconds": 31.589909,
+          "decoded_frame_index": 947
+        },
+        {
+          "requested_seconds": 31.700000000000003,
+          "decoded_pts_seconds": 31.723242,
+          "decoded_frame_index": 951
+        },
+        {
+          "requested_seconds": 31.833333333333336,
+          "decoded_pts_seconds": 31.856576,
+          "decoded_frame_index": 955
+        },
+        {
+          "requested_seconds": 31.96666666666667,
+          "decoded_pts_seconds": 31.989909,
+          "decoded_frame_index": 959
+        },
+        {
+          "requested_seconds": 32.1,
+          "decoded_pts_seconds": 32.123242,
+          "decoded_frame_index": 963
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/saffron-brain.gif",
+        "sha256": "25e74f8005a5fe38f19f3c34ca1afa557be9d1dcad42654f011451e8892cd7ea",
+        "bytes": 504532,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "wing-bellows-lungs",
+      "source": 5,
+      "start": 20.1,
+      "end": 22.8,
+      "title": "A flapping wing hands its pumping action to bellows",
+      "carry": "Wing movement continues as a bellows drawing appears at the same working hinge; the illustrated bellows pumps, then moves left along its connecting tube as the lungs enter.",
+      "mechanism": "Aligned local overlap/replacement, continued deformation, then connected-object reveal. The wing remains partly translucent; footage does not establish a literal topology morph.",
+      "category": "cases",
+      "sheet": "sheets/wing-bellows-lungs.jpg",
+      "samples": [
+        {
+          "requested_seconds": 20.1,
+          "decoded_pts_seconds": 20.1,
+          "decoded_frame_index": 603
+        },
+        {
+          "requested_seconds": 20.28,
+          "decoded_pts_seconds": 20.266667,
+          "decoded_frame_index": 608
+        },
+        {
+          "requested_seconds": 20.46,
+          "decoded_pts_seconds": 20.466667,
+          "decoded_frame_index": 614
+        },
+        {
+          "requested_seconds": 20.64,
+          "decoded_pts_seconds": 20.633333,
+          "decoded_frame_index": 619
+        },
+        {
+          "requested_seconds": 20.82,
+          "decoded_pts_seconds": 20.833333,
+          "decoded_frame_index": 625
+        },
+        {
+          "requested_seconds": 21.0,
+          "decoded_pts_seconds": 21.0,
+          "decoded_frame_index": 630
+        },
+        {
+          "requested_seconds": 21.18,
+          "decoded_pts_seconds": 21.166667,
+          "decoded_frame_index": 635
+        },
+        {
+          "requested_seconds": 21.36,
+          "decoded_pts_seconds": 21.366667,
+          "decoded_frame_index": 641
+        },
+        {
+          "requested_seconds": 21.540000000000003,
+          "decoded_pts_seconds": 21.533333,
+          "decoded_frame_index": 646
+        },
+        {
+          "requested_seconds": 21.720000000000002,
+          "decoded_pts_seconds": 21.733333,
+          "decoded_frame_index": 652
+        },
+        {
+          "requested_seconds": 21.900000000000002,
+          "decoded_pts_seconds": 21.9,
+          "decoded_frame_index": 657
+        },
+        {
+          "requested_seconds": 22.080000000000002,
+          "decoded_pts_seconds": 22.066667,
+          "decoded_frame_index": 662
+        },
+        {
+          "requested_seconds": 22.26,
+          "decoded_pts_seconds": 22.266667,
+          "decoded_frame_index": 668
+        },
+        {
+          "requested_seconds": 22.44,
+          "decoded_pts_seconds": 22.433333,
+          "decoded_frame_index": 673
+        },
+        {
+          "requested_seconds": 22.62,
+          "decoded_pts_seconds": 22.633333,
+          "decoded_frame_index": 679
+        },
+        {
+          "requested_seconds": 22.8,
+          "decoded_pts_seconds": 22.8,
+          "decoded_frame_index": 684
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/wing-bellows-lungs.gif",
+        "sha256": "f3ddb42d46ecb1029515a58b5a2e83e784ff87439138c904f902ecdb8e8c63de",
+        "bytes": 794854,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "molecule-puppet",
+      "source": 5,
+      "start": 32.3,
+      "end": 34.1,
+      "title": "Reveal the puppet around the molecular control",
+      "carry": "The green stem and bead shrink toward the puppet's lower body while the larger puppet is revealed and starts articulating.",
+      "mechanism": "Persistent visual anchor with a reveal of a larger mechanism. Scale movement supports the animated metaphor.",
+      "category": "cases",
+      "sheet": "sheets/molecule-puppet.jpg",
+      "samples": [
+        {
+          "requested_seconds": 32.3,
+          "decoded_pts_seconds": 32.3,
+          "decoded_frame_index": 969
+        },
+        {
+          "requested_seconds": 32.419999999999995,
+          "decoded_pts_seconds": 32.433333,
+          "decoded_frame_index": 973
+        },
+        {
+          "requested_seconds": 32.54,
+          "decoded_pts_seconds": 32.533333,
+          "decoded_frame_index": 976
+        },
+        {
+          "requested_seconds": 32.66,
+          "decoded_pts_seconds": 32.666667,
+          "decoded_frame_index": 980
+        },
+        {
+          "requested_seconds": 32.78,
+          "decoded_pts_seconds": 32.766667,
+          "decoded_frame_index": 983
+        },
+        {
+          "requested_seconds": 32.9,
+          "decoded_pts_seconds": 32.9,
+          "decoded_frame_index": 987
+        },
+        {
+          "requested_seconds": 33.019999999999996,
+          "decoded_pts_seconds": 33.033333,
+          "decoded_frame_index": 991
+        },
+        {
+          "requested_seconds": 33.14,
+          "decoded_pts_seconds": 33.133333,
+          "decoded_frame_index": 994
+        },
+        {
+          "requested_seconds": 33.26,
+          "decoded_pts_seconds": 33.266667,
+          "decoded_frame_index": 998
+        },
+        {
+          "requested_seconds": 33.38,
+          "decoded_pts_seconds": 33.366667,
+          "decoded_frame_index": 1001
+        },
+        {
+          "requested_seconds": 33.5,
+          "decoded_pts_seconds": 33.5,
+          "decoded_frame_index": 1005
+        },
+        {
+          "requested_seconds": 33.62,
+          "decoded_pts_seconds": 33.633333,
+          "decoded_frame_index": 1009
+        },
+        {
+          "requested_seconds": 33.74,
+          "decoded_pts_seconds": 33.733333,
+          "decoded_frame_index": 1012
+        },
+        {
+          "requested_seconds": 33.86,
+          "decoded_pts_seconds": 33.866667,
+          "decoded_frame_index": 1016
+        },
+        {
+          "requested_seconds": 33.980000000000004,
+          "decoded_pts_seconds": 33.966667,
+          "decoded_frame_index": 1019
+        },
+        {
+          "requested_seconds": 34.1,
+          "decoded_pts_seconds": 34.1,
+          "decoded_frame_index": 1023
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/molecule-puppet.gif",
+        "sha256": "0af3d8bb4128df24cd7bca10d4626401939409aa85e4f0205b9a4d952b51f729",
+        "bytes": 566203,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "collagen-through",
+      "source": 6,
+      "start": 5.65,
+      "end": 7.1,
+      "title": "An enlarging fiber fills the view before the molecule detail",
+      "carry": "The orange/yellow fiber grows, its side fills the frame, then the view changes to elongated molecular strands with moving charge symbols.",
+      "mechanism": "Scale-through occlusion and a detailed replacement drawing. A cut is present at the change of representation; a seamless private 3D scene is not established.",
+      "category": "cases",
+      "sheet": "sheets/collagen-through.jpg",
+      "samples": [
+        {
+          "requested_seconds": 5.65,
+          "decoded_pts_seconds": 5.656576,
+          "decoded_frame_index": 169
+        },
+        {
+          "requested_seconds": 5.746666666666667,
+          "decoded_pts_seconds": 5.756576,
+          "decoded_frame_index": 172
+        },
+        {
+          "requested_seconds": 5.843333333333334,
+          "decoded_pts_seconds": 5.856576,
+          "decoded_frame_index": 175
+        },
+        {
+          "requested_seconds": 5.94,
+          "decoded_pts_seconds": 5.956576,
+          "decoded_frame_index": 178
+        },
+        {
+          "requested_seconds": 6.036666666666667,
+          "decoded_pts_seconds": 6.056576,
+          "decoded_frame_index": 181
+        },
+        {
+          "requested_seconds": 6.133333333333334,
+          "decoded_pts_seconds": 6.156576,
+          "decoded_frame_index": 184
+        },
+        {
+          "requested_seconds": 6.23,
+          "decoded_pts_seconds": 6.256576,
+          "decoded_frame_index": 187
+        },
+        {
+          "requested_seconds": 6.326666666666666,
+          "decoded_pts_seconds": 6.356576,
+          "decoded_frame_index": 190
+        },
+        {
+          "requested_seconds": 6.423333333333334,
+          "decoded_pts_seconds": 6.456576,
+          "decoded_frame_index": 193
+        },
+        {
+          "requested_seconds": 6.52,
+          "decoded_pts_seconds": 6.556576,
+          "decoded_frame_index": 196
+        },
+        {
+          "requested_seconds": 6.616666666666666,
+          "decoded_pts_seconds": 6.623242,
+          "decoded_frame_index": 198
+        },
+        {
+          "requested_seconds": 6.713333333333333,
+          "decoded_pts_seconds": 6.723242,
+          "decoded_frame_index": 201
+        },
+        {
+          "requested_seconds": 6.81,
+          "decoded_pts_seconds": 6.823242,
+          "decoded_frame_index": 204
+        },
+        {
+          "requested_seconds": 6.906666666666666,
+          "decoded_pts_seconds": 6.923242,
+          "decoded_frame_index": 207
+        },
+        {
+          "requested_seconds": 7.003333333333333,
+          "decoded_pts_seconds": 7.023242,
+          "decoded_frame_index": 210
+        },
+        {
+          "requested_seconds": 7.1,
+          "decoded_pts_seconds": 7.123242,
+          "decoded_frame_index": 213
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/collagen-through.gif",
+        "sha256": "ac497b0482b482723d8fee7f3f2da27792054b580fdc861b1cee2c90eaffc8fd",
+        "bytes": 898893,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "osteon-detail",
+      "source": 6,
+      "start": 31.2,
+      "end": 33.3,
+      "title": "An extracted osteon becomes a cell-level explanation",
+      "carry": "The already raised cylinder enlarges and shifts into the close view; the concentric top is replaced/revealed as the blue cell network while the orange cylinder remains.",
+      "mechanism": "Object isolation, enlargement and a local diagram change rather than replacing the entire composition.",
+      "category": "cases",
+      "sheet": "sheets/osteon-detail.jpg",
+      "samples": [
+        {
+          "requested_seconds": 31.2,
+          "decoded_pts_seconds": 31.223242,
+          "decoded_frame_index": 936
+        },
+        {
+          "requested_seconds": 31.34,
+          "decoded_pts_seconds": 31.356576,
+          "decoded_frame_index": 940
+        },
+        {
+          "requested_seconds": 31.48,
+          "decoded_pts_seconds": 31.489909,
+          "decoded_frame_index": 944
+        },
+        {
+          "requested_seconds": 31.619999999999997,
+          "decoded_pts_seconds": 31.623242,
+          "decoded_frame_index": 948
+        },
+        {
+          "requested_seconds": 31.759999999999998,
+          "decoded_pts_seconds": 31.756576,
+          "decoded_frame_index": 952
+        },
+        {
+          "requested_seconds": 31.9,
+          "decoded_pts_seconds": 31.923242,
+          "decoded_frame_index": 957
+        },
+        {
+          "requested_seconds": 32.04,
+          "decoded_pts_seconds": 32.056576,
+          "decoded_frame_index": 961
+        },
+        {
+          "requested_seconds": 32.18,
+          "decoded_pts_seconds": 32.189909,
+          "decoded_frame_index": 965
+        },
+        {
+          "requested_seconds": 32.32,
+          "decoded_pts_seconds": 32.323242,
+          "decoded_frame_index": 969
+        },
+        {
+          "requested_seconds": 32.46,
+          "decoded_pts_seconds": 32.456576,
+          "decoded_frame_index": 973
+        },
+        {
+          "requested_seconds": 32.599999999999994,
+          "decoded_pts_seconds": 32.623242,
+          "decoded_frame_index": 978
+        },
+        {
+          "requested_seconds": 32.739999999999995,
+          "decoded_pts_seconds": 32.756576,
+          "decoded_frame_index": 982
+        },
+        {
+          "requested_seconds": 32.879999999999995,
+          "decoded_pts_seconds": 32.889909,
+          "decoded_frame_index": 986
+        },
+        {
+          "requested_seconds": 33.019999999999996,
+          "decoded_pts_seconds": 33.023242,
+          "decoded_frame_index": 990
+        },
+        {
+          "requested_seconds": 33.16,
+          "decoded_pts_seconds": 33.156576,
+          "decoded_frame_index": 994
+        },
+        {
+          "requested_seconds": 33.3,
+          "decoded_pts_seconds": 33.323242,
+          "decoded_frame_index": 999
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/osteon-detail.gif",
+        "sha256": "27b2ac578d52fd554df855e05204ae3a8693c93bcfc5302e532669ecbe847df6",
+        "bytes": 690959,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "rain-window",
+      "source": 8,
+      "start": 25.95,
+      "end": 27.35,
+      "title": "The moving inset becomes the environment",
+      "carry": "The rainy inset expands past its border; rain continues, water fills the lower view, and a probe enters the same moving environment.",
+      "mechanism": "Animated contents persist while their viewport opens. Enlarging a frozen preview would lose the key feature.",
+      "category": "cases",
+      "sheet": "sheets/rain-window.jpg",
+      "samples": [
+        {
+          "requested_seconds": 25.95,
+          "decoded_pts_seconds": 25.956576,
+          "decoded_frame_index": 778
+        },
+        {
+          "requested_seconds": 26.043333333333333,
+          "decoded_pts_seconds": 26.056576,
+          "decoded_frame_index": 781
+        },
+        {
+          "requested_seconds": 26.136666666666667,
+          "decoded_pts_seconds": 26.156576,
+          "decoded_frame_index": 784
+        },
+        {
+          "requested_seconds": 26.23,
+          "decoded_pts_seconds": 26.256576,
+          "decoded_frame_index": 787
+        },
+        {
+          "requested_seconds": 26.323333333333334,
+          "decoded_pts_seconds": 26.323242,
+          "decoded_frame_index": 789
+        },
+        {
+          "requested_seconds": 26.416666666666668,
+          "decoded_pts_seconds": 26.423242,
+          "decoded_frame_index": 792
+        },
+        {
+          "requested_seconds": 26.51,
+          "decoded_pts_seconds": 26.523242,
+          "decoded_frame_index": 795
+        },
+        {
+          "requested_seconds": 26.603333333333335,
+          "decoded_pts_seconds": 26.623242,
+          "decoded_frame_index": 798
+        },
+        {
+          "requested_seconds": 26.696666666666665,
+          "decoded_pts_seconds": 26.723242,
+          "decoded_frame_index": 801
+        },
+        {
+          "requested_seconds": 26.79,
+          "decoded_pts_seconds": 26.789909,
+          "decoded_frame_index": 803
+        },
+        {
+          "requested_seconds": 26.883333333333333,
+          "decoded_pts_seconds": 26.889909,
+          "decoded_frame_index": 806
+        },
+        {
+          "requested_seconds": 26.976666666666667,
+          "decoded_pts_seconds": 26.989909,
+          "decoded_frame_index": 809
+        },
+        {
+          "requested_seconds": 27.07,
+          "decoded_pts_seconds": 27.089909,
+          "decoded_frame_index": 812
+        },
+        {
+          "requested_seconds": 27.163333333333334,
+          "decoded_pts_seconds": 27.189909,
+          "decoded_frame_index": 815
+        },
+        {
+          "requested_seconds": 27.256666666666668,
+          "decoded_pts_seconds": 27.256576,
+          "decoded_frame_index": 817
+        },
+        {
+          "requested_seconds": 27.35,
+          "decoded_pts_seconds": 27.356576,
+          "decoded_frame_index": 820
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/rain-window.gif",
+        "sha256": "39b72a4d9925e27c1dacaa0a59e44c7ed47f24ab1d206a5e72a2deacf187e679",
+        "bytes": 1166527,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "brain-field",
+      "source": 2,
+      "start": 24.15,
+      "end": 25.65,
+      "title": "A field grows out from the active brain",
+      "carry": "The brain changes scale/expression, a small colored field appears around it, and that field rapidly expands to fill the frame while the brain remains identifiable.",
+      "mechanism": "Subject-led expanding effect with continuing internal band motion, not two whole-frame images crossfading.",
+      "category": "cases",
+      "sheet": "sheets/brain-field.jpg",
+      "samples": [
+        {
+          "requested_seconds": 24.15,
+          "decoded_pts_seconds": 24.123242,
+          "decoded_frame_index": 724
+        },
+        {
+          "requested_seconds": 24.25,
+          "decoded_pts_seconds": 24.223242,
+          "decoded_frame_index": 727
+        },
+        {
+          "requested_seconds": 24.349999999999998,
+          "decoded_pts_seconds": 24.323242,
+          "decoded_frame_index": 730
+        },
+        {
+          "requested_seconds": 24.45,
+          "decoded_pts_seconds": 24.423242,
+          "decoded_frame_index": 733
+        },
+        {
+          "requested_seconds": 24.549999999999997,
+          "decoded_pts_seconds": 24.523242,
+          "decoded_frame_index": 736
+        },
+        {
+          "requested_seconds": 24.65,
+          "decoded_pts_seconds": 24.623242,
+          "decoded_frame_index": 739
+        },
+        {
+          "requested_seconds": 24.75,
+          "decoded_pts_seconds": 24.723242,
+          "decoded_frame_index": 742
+        },
+        {
+          "requested_seconds": 24.849999999999998,
+          "decoded_pts_seconds": 24.823242,
+          "decoded_frame_index": 745
+        },
+        {
+          "requested_seconds": 24.95,
+          "decoded_pts_seconds": 24.923242,
+          "decoded_frame_index": 748
+        },
+        {
+          "requested_seconds": 25.049999999999997,
+          "decoded_pts_seconds": 25.023242,
+          "decoded_frame_index": 751
+        },
+        {
+          "requested_seconds": 25.15,
+          "decoded_pts_seconds": 25.123242,
+          "decoded_frame_index": 754
+        },
+        {
+          "requested_seconds": 25.25,
+          "decoded_pts_seconds": 25.223242,
+          "decoded_frame_index": 757
+        },
+        {
+          "requested_seconds": 25.349999999999998,
+          "decoded_pts_seconds": 25.323242,
+          "decoded_frame_index": 760
+        },
+        {
+          "requested_seconds": 25.45,
+          "decoded_pts_seconds": 25.423242,
+          "decoded_frame_index": 763
+        },
+        {
+          "requested_seconds": 25.549999999999997,
+          "decoded_pts_seconds": 25.523242,
+          "decoded_frame_index": 766
+        },
+        {
+          "requested_seconds": 25.65,
+          "decoded_pts_seconds": 25.656576,
+          "decoded_frame_index": 769
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/brain-field.gif",
+        "sha256": "117b87d75db39ae419edfffdf371dc3615b444a31d213d488b46c35006ce8b11",
+        "bytes": 1170758,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "projector-world",
+      "source": 3,
+      "start": 9.35,
+      "end": 10.6,
+      "title": "The projected rebuilding model becomes the working diagram",
+      "carry": "The same city/construction model enlarges with its turquoise screen field; the frame and presenter move beyond the view and the model continues its building action.",
+      "mechanism": "Nested composition expands into the next explanatory space. Subject action continues through the scale change.",
+      "category": "cases",
+      "sheet": "sheets/projector-world.jpg",
+      "samples": [
+        {
+          "requested_seconds": 9.35,
+          "decoded_pts_seconds": 9.323242,
+          "decoded_frame_index": 280
+        },
+        {
+          "requested_seconds": 9.433333333333334,
+          "decoded_pts_seconds": 9.423242,
+          "decoded_frame_index": 283
+        },
+        {
+          "requested_seconds": 9.516666666666666,
+          "decoded_pts_seconds": 9.489909,
+          "decoded_frame_index": 285
+        },
+        {
+          "requested_seconds": 9.6,
+          "decoded_pts_seconds": 9.589909,
+          "decoded_frame_index": 288
+        },
+        {
+          "requested_seconds": 9.683333333333334,
+          "decoded_pts_seconds": 9.656576,
+          "decoded_frame_index": 290
+        },
+        {
+          "requested_seconds": 9.766666666666666,
+          "decoded_pts_seconds": 9.756576,
+          "decoded_frame_index": 293
+        },
+        {
+          "requested_seconds": 9.85,
+          "decoded_pts_seconds": 9.823242,
+          "decoded_frame_index": 295
+        },
+        {
+          "requested_seconds": 9.933333333333334,
+          "decoded_pts_seconds": 9.923242,
+          "decoded_frame_index": 298
+        },
+        {
+          "requested_seconds": 10.016666666666666,
+          "decoded_pts_seconds": 9.989909,
+          "decoded_frame_index": 300
+        },
+        {
+          "requested_seconds": 10.1,
+          "decoded_pts_seconds": 10.089909,
+          "decoded_frame_index": 303
+        },
+        {
+          "requested_seconds": 10.183333333333334,
+          "decoded_pts_seconds": 10.156576,
+          "decoded_frame_index": 305
+        },
+        {
+          "requested_seconds": 10.266666666666666,
+          "decoded_pts_seconds": 10.256576,
+          "decoded_frame_index": 308
+        },
+        {
+          "requested_seconds": 10.35,
+          "decoded_pts_seconds": 10.323242,
+          "decoded_frame_index": 310
+        },
+        {
+          "requested_seconds": 10.433333333333334,
+          "decoded_pts_seconds": 10.423242,
+          "decoded_frame_index": 313
+        },
+        {
+          "requested_seconds": 10.516666666666666,
+          "decoded_pts_seconds": 10.489909,
+          "decoded_frame_index": 315
+        },
+        {
+          "requested_seconds": 10.6,
+          "decoded_pts_seconds": 10.589909,
+          "decoded_frame_index": 318
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/projector-world.gif",
+        "sha256": "c9138593138418f1ee91d6cd60ca028bc57912a1cdac1dc610938dd92f86bda3",
+        "bytes": 498888,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "paper-diagram",
+      "source": 4,
+      "start": 44.35,
+      "end": 49.2,
+      "title": "One moving paper becomes the particle explanation",
+      "carry": "A paper separates from the falling clutter, remains bright as the room dims, enlarges, then hands its particle figure to the colored diagram while the page recedes.",
+      "mechanism": "Object selection, staged background removal and a local diagram handoff. Selective opacity contributes, but the moving subject connects the views.",
+      "category": "cases",
+      "sheet": "sheets/paper-diagram.jpg",
+      "samples": [
+        {
+          "requested_seconds": 44.35,
+          "decoded_pts_seconds": 44.366667,
+          "decoded_frame_index": 1331
+        },
+        {
+          "requested_seconds": 44.67333333333333,
+          "decoded_pts_seconds": 44.666667,
+          "decoded_frame_index": 1340
+        },
+        {
+          "requested_seconds": 44.99666666666667,
+          "decoded_pts_seconds": 45.0,
+          "decoded_frame_index": 1350
+        },
+        {
+          "requested_seconds": 45.32,
+          "decoded_pts_seconds": 45.333333,
+          "decoded_frame_index": 1360
+        },
+        {
+          "requested_seconds": 45.64333333333334,
+          "decoded_pts_seconds": 45.633333,
+          "decoded_frame_index": 1369
+        },
+        {
+          "requested_seconds": 45.96666666666667,
+          "decoded_pts_seconds": 45.966667,
+          "decoded_frame_index": 1379
+        },
+        {
+          "requested_seconds": 46.29,
+          "decoded_pts_seconds": 46.3,
+          "decoded_frame_index": 1389
+        },
+        {
+          "requested_seconds": 46.61333333333334,
+          "decoded_pts_seconds": 46.6,
+          "decoded_frame_index": 1398
+        },
+        {
+          "requested_seconds": 46.93666666666667,
+          "decoded_pts_seconds": 46.933333,
+          "decoded_frame_index": 1408
+        },
+        {
+          "requested_seconds": 47.260000000000005,
+          "decoded_pts_seconds": 47.266667,
+          "decoded_frame_index": 1418
+        },
+        {
+          "requested_seconds": 47.583333333333336,
+          "decoded_pts_seconds": 47.6,
+          "decoded_frame_index": 1428
+        },
+        {
+          "requested_seconds": 47.906666666666666,
+          "decoded_pts_seconds": 47.9,
+          "decoded_frame_index": 1437
+        },
+        {
+          "requested_seconds": 48.230000000000004,
+          "decoded_pts_seconds": 48.233333,
+          "decoded_frame_index": 1447
+        },
+        {
+          "requested_seconds": 48.553333333333335,
+          "decoded_pts_seconds": 48.566667,
+          "decoded_frame_index": 1457
+        },
+        {
+          "requested_seconds": 48.87666666666667,
+          "decoded_pts_seconds": 48.866667,
+          "decoded_frame_index": 1466
+        },
+        {
+          "requested_seconds": 49.2,
+          "decoded_pts_seconds": 49.2,
+          "decoded_frame_index": 1476
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/paper-diagram.gif",
+        "sha256": "198396615019fe3450959855e0c072398baa25cba184d7103a2a3ed2cabd7da8",
+        "bytes": 1761845,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "diagram-monitor",
+      "source": 4,
+      "start": 57.15,
+      "end": 58.15,
+      "title": "The working diagram becomes content on a monitor",
+      "carry": "The same upper/lower particle groups shrink into a monitor as the desk and scientist are revealed; the scientist settles at the screen.",
+      "mechanism": "Persistent diagram and animated context reveal. The diagram is not removed and replaced by an unrelated room photograph.",
+      "category": "cases",
+      "sheet": "sheets/diagram-monitor.jpg",
+      "samples": [
+        {
+          "requested_seconds": 57.15,
+          "decoded_pts_seconds": 57.166667,
+          "decoded_frame_index": 1715
+        },
+        {
+          "requested_seconds": 57.21666666666667,
+          "decoded_pts_seconds": 57.233333,
+          "decoded_frame_index": 1717
+        },
+        {
+          "requested_seconds": 57.28333333333333,
+          "decoded_pts_seconds": 57.3,
+          "decoded_frame_index": 1719
+        },
+        {
+          "requested_seconds": 57.35,
+          "decoded_pts_seconds": 57.366667,
+          "decoded_frame_index": 1721
+        },
+        {
+          "requested_seconds": 57.416666666666664,
+          "decoded_pts_seconds": 57.433333,
+          "decoded_frame_index": 1723
+        },
+        {
+          "requested_seconds": 57.483333333333334,
+          "decoded_pts_seconds": 57.5,
+          "decoded_frame_index": 1725
+        },
+        {
+          "requested_seconds": 57.55,
+          "decoded_pts_seconds": 57.566667,
+          "decoded_frame_index": 1727
+        },
+        {
+          "requested_seconds": 57.61666666666667,
+          "decoded_pts_seconds": 57.633333,
+          "decoded_frame_index": 1729
+        },
+        {
+          "requested_seconds": 57.68333333333333,
+          "decoded_pts_seconds": 57.7,
+          "decoded_frame_index": 1731
+        },
+        {
+          "requested_seconds": 57.75,
+          "decoded_pts_seconds": 57.766667,
+          "decoded_frame_index": 1733
+        },
+        {
+          "requested_seconds": 57.81666666666666,
+          "decoded_pts_seconds": 57.833333,
+          "decoded_frame_index": 1735
+        },
+        {
+          "requested_seconds": 57.88333333333333,
+          "decoded_pts_seconds": 57.9,
+          "decoded_frame_index": 1737
+        },
+        {
+          "requested_seconds": 57.949999999999996,
+          "decoded_pts_seconds": 57.933333,
+          "decoded_frame_index": 1738
+        },
+        {
+          "requested_seconds": 58.016666666666666,
+          "decoded_pts_seconds": 58.033333,
+          "decoded_frame_index": 1741
+        },
+        {
+          "requested_seconds": 58.08333333333333,
+          "decoded_pts_seconds": 58.066667,
+          "decoded_frame_index": 1742
+        },
+        {
+          "requested_seconds": 58.15,
+          "decoded_pts_seconds": 58.166667,
+          "decoded_frame_index": 1745
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/diagram-monitor.gif",
+        "sha256": "4ae92565abda3d8821ebb3486625b464eb3e6995e3b705a32f9f523bdcf1fbb4",
+        "bytes": 448014,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "energy-cover",
+      "source": 4,
+      "start": 3.9,
+      "end": 5.3,
+      "title": "The energy effect covers the representation change",
+      "carry": "The luminous central burst grows to near/full white coverage; the yellow/purple matter\u2013antimatter field emerges around the same central energy shape.",
+      "mechanism": "Action-caused luminous coverage with a shared center. This does not justify adding unmotivated flashes between other subjects.",
+      "category": "cases",
+      "sheet": "sheets/energy-cover.jpg",
+      "samples": [
+        {
+          "requested_seconds": 3.9,
+          "decoded_pts_seconds": 3.9,
+          "decoded_frame_index": 117
+        },
+        {
+          "requested_seconds": 3.993333333333333,
+          "decoded_pts_seconds": 4.0,
+          "decoded_frame_index": 120
+        },
+        {
+          "requested_seconds": 4.086666666666667,
+          "decoded_pts_seconds": 4.1,
+          "decoded_frame_index": 123
+        },
+        {
+          "requested_seconds": 4.18,
+          "decoded_pts_seconds": 4.166667,
+          "decoded_frame_index": 125
+        },
+        {
+          "requested_seconds": 4.273333333333333,
+          "decoded_pts_seconds": 4.266667,
+          "decoded_frame_index": 128
+        },
+        {
+          "requested_seconds": 4.366666666666666,
+          "decoded_pts_seconds": 4.366667,
+          "decoded_frame_index": 131
+        },
+        {
+          "requested_seconds": 4.46,
+          "decoded_pts_seconds": 4.466667,
+          "decoded_frame_index": 134
+        },
+        {
+          "requested_seconds": 4.553333333333333,
+          "decoded_pts_seconds": 4.566667,
+          "decoded_frame_index": 137
+        },
+        {
+          "requested_seconds": 4.6466666666666665,
+          "decoded_pts_seconds": 4.633333,
+          "decoded_frame_index": 139
+        },
+        {
+          "requested_seconds": 4.74,
+          "decoded_pts_seconds": 4.733333,
+          "decoded_frame_index": 142
+        },
+        {
+          "requested_seconds": 4.833333333333333,
+          "decoded_pts_seconds": 4.833333,
+          "decoded_frame_index": 145
+        },
+        {
+          "requested_seconds": 4.926666666666667,
+          "decoded_pts_seconds": 4.933333,
+          "decoded_frame_index": 148
+        },
+        {
+          "requested_seconds": 5.02,
+          "decoded_pts_seconds": 5.033333,
+          "decoded_frame_index": 151
+        },
+        {
+          "requested_seconds": 5.113333333333333,
+          "decoded_pts_seconds": 5.1,
+          "decoded_frame_index": 153
+        },
+        {
+          "requested_seconds": 5.206666666666667,
+          "decoded_pts_seconds": 5.2,
+          "decoded_frame_index": 156
+        },
+        {
+          "requested_seconds": 5.3,
+          "decoded_pts_seconds": 5.3,
+          "decoded_frame_index": 159
+        }
+      ],
+      "consecutive": false,
+      "preview": {
+        "file": "loops/energy-cover.gif",
+        "sha256": "00eb6a3be454ca8ec586aba29023ec61e5326a74df2c0bee869ce347abbd34b6",
+        "bytes": 1050253,
+        "preview_fps": 25,
+        "silent": true,
+        "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+      }
+    },
+    {
+      "key": "control-baby-neuron",
+      "source": 7,
+      "start": 15.95,
+      "end": 16.35,
+      "title": "Control: baby scene to neuron diagram",
+      "carry": "A direct shot change; no observed object travels through this boundary.",
+      "mechanism": "Ordinary cut. Do not cite this as a continuous zoom or morph.",
+      "category": "controls",
+      "sheet": "sheets/control-baby-neuron.jpg",
+      "samples": [
+        {
+          "requested_seconds": 15.95,
+          "decoded_pts_seconds": 15.923242,
+          "decoded_frame_index": 478
+        },
+        {
+          "requested_seconds": 15.976666666666667,
+          "decoded_pts_seconds": 15.956576,
+          "decoded_frame_index": 479
+        },
+        {
+          "requested_seconds": 16.003333333333334,
+          "decoded_pts_seconds": 15.989909,
+          "decoded_frame_index": 480
+        },
+        {
+          "requested_seconds": 16.03,
+          "decoded_pts_seconds": 16.023242,
+          "decoded_frame_index": 481
+        },
+        {
+          "requested_seconds": 16.056666666666665,
+          "decoded_pts_seconds": 16.056576,
+          "decoded_frame_index": 482
+        },
+        {
+          "requested_seconds": 16.083333333333332,
+          "decoded_pts_seconds": 16.056576,
+          "decoded_frame_index": 482
+        },
+        {
+          "requested_seconds": 16.11,
+          "decoded_pts_seconds": 16.089909,
+          "decoded_frame_index": 483
+        },
+        {
+          "requested_seconds": 16.136666666666667,
+          "decoded_pts_seconds": 16.123242,
+          "decoded_frame_index": 484
+        },
+        {
+          "requested_seconds": 16.163333333333334,
+          "decoded_pts_seconds": 16.156576,
+          "decoded_frame_index": 485
+        },
+        {
+          "requested_seconds": 16.19,
+          "decoded_pts_seconds": 16.189909,
+          "decoded_frame_index": 486
+        },
+        {
+          "requested_seconds": 16.21666666666667,
+          "decoded_pts_seconds": 16.189909,
+          "decoded_frame_index": 486
+        },
+        {
+          "requested_seconds": 16.243333333333336,
+          "decoded_pts_seconds": 16.223242,
+          "decoded_frame_index": 487
+        },
+        {
+          "requested_seconds": 16.27,
+          "decoded_pts_seconds": 16.256576,
+          "decoded_frame_index": 488
+        },
+        {
+          "requested_seconds": 16.296666666666667,
+          "decoded_pts_seconds": 16.289909,
+          "decoded_frame_index": 489
+        },
+        {
+          "requested_seconds": 16.323333333333334,
+          "decoded_pts_seconds": 16.323242,
+          "decoded_frame_index": 490
+        },
+        {
+          "requested_seconds": 16.35,
+          "decoded_pts_seconds": 16.323242,
+          "decoded_frame_index": 490
+        }
+      ],
+      "consecutive": false
+    },
+    {
+      "key": "control-io-volcano",
+      "source": 8,
+      "start": 40.2,
+      "end": 40.6,
+      "title": "Control: whole Io to volcanic surface",
+      "carry": "The surface shares the planet's warm subject/palette but the sampled boundary is a direct change of view.",
+      "mechanism": "Ordinary cut. Similar subject matter is not proof of continuous motion.",
+      "category": "controls",
+      "sheet": "sheets/control-io-volcano.jpg",
+      "samples": [
+        {
+          "requested_seconds": 40.2,
+          "decoded_pts_seconds": 40.223242,
+          "decoded_frame_index": 1206
+        },
+        {
+          "requested_seconds": 40.22666666666667,
+          "decoded_pts_seconds": 40.223242,
+          "decoded_frame_index": 1206
+        },
+        {
+          "requested_seconds": 40.25333333333334,
+          "decoded_pts_seconds": 40.256576,
+          "decoded_frame_index": 1207
+        },
+        {
+          "requested_seconds": 40.28,
+          "decoded_pts_seconds": 40.289909,
+          "decoded_frame_index": 1208
+        },
+        {
+          "requested_seconds": 40.30666666666667,
+          "decoded_pts_seconds": 40.323242,
+          "decoded_frame_index": 1209
+        },
+        {
+          "requested_seconds": 40.333333333333336,
+          "decoded_pts_seconds": 40.356576,
+          "decoded_frame_index": 1210
+        },
+        {
+          "requested_seconds": 40.36,
+          "decoded_pts_seconds": 40.356576,
+          "decoded_frame_index": 1210
+        },
+        {
+          "requested_seconds": 40.38666666666667,
+          "decoded_pts_seconds": 40.389909,
+          "decoded_frame_index": 1211
+        },
+        {
+          "requested_seconds": 40.413333333333334,
+          "decoded_pts_seconds": 40.423242,
+          "decoded_frame_index": 1212
+        },
+        {
+          "requested_seconds": 40.440000000000005,
+          "decoded_pts_seconds": 40.456576,
+          "decoded_frame_index": 1213
+        },
+        {
+          "requested_seconds": 40.46666666666667,
+          "decoded_pts_seconds": 40.489909,
+          "decoded_frame_index": 1214
+        },
+        {
+          "requested_seconds": 40.49333333333333,
+          "decoded_pts_seconds": 40.489909,
+          "decoded_frame_index": 1214
+        },
+        {
+          "requested_seconds": 40.52,
+          "decoded_pts_seconds": 40.523242,
+          "decoded_frame_index": 1215
+        },
+        {
+          "requested_seconds": 40.54666666666667,
+          "decoded_pts_seconds": 40.556576,
+          "decoded_frame_index": 1216
+        },
+        {
+          "requested_seconds": 40.57333333333334,
+          "decoded_pts_seconds": 40.589909,
+          "decoded_frame_index": 1217
+        },
+        {
+          "requested_seconds": 40.6,
+          "decoded_pts_seconds": 40.623242,
+          "decoded_frame_index": 1218
+        }
+      ],
+      "consecutive": false
+    },
+    {
+      "key": "control-explosion-kitchen",
+      "source": 1,
+      "start": 62.0,
+      "end": 62.4,
+      "title": "Control: explosion to kitchen consequence",
+      "carry": "The explosion is followed by a direct return to the kitchen; it does not visibly reveal the room through an organic wipe.",
+      "mechanism": "Ordinary cut. Do not label every animated explosion an object-driven transition.",
+      "category": "controls",
+      "sheet": "sheets/control-explosion-kitchen.jpg",
+      "samples": [
+        {
+          "requested_seconds": 62.0,
+          "decoded_pts_seconds": 61.989909,
+          "decoded_frame_index": 1859
+        },
+        {
+          "requested_seconds": 62.026666666666664,
+          "decoded_pts_seconds": 62.023242,
+          "decoded_frame_index": 1860
+        },
+        {
+          "requested_seconds": 62.053333333333335,
+          "decoded_pts_seconds": 62.056576,
+          "decoded_frame_index": 1861
+        },
+        {
+          "requested_seconds": 62.08,
+          "decoded_pts_seconds": 62.089909,
+          "decoded_frame_index": 1862
+        },
+        {
+          "requested_seconds": 62.10666666666667,
+          "decoded_pts_seconds": 62.123242,
+          "decoded_frame_index": 1863
+        },
+        {
+          "requested_seconds": 62.13333333333333,
+          "decoded_pts_seconds": 62.123242,
+          "decoded_frame_index": 1863
+        },
+        {
+          "requested_seconds": 62.16,
+          "decoded_pts_seconds": 62.156576,
+          "decoded_frame_index": 1864
+        },
+        {
+          "requested_seconds": 62.18666666666667,
+          "decoded_pts_seconds": 62.189909,
+          "decoded_frame_index": 1865
+        },
+        {
+          "requested_seconds": 62.21333333333333,
+          "decoded_pts_seconds": 62.223242,
+          "decoded_frame_index": 1866
+        },
+        {
+          "requested_seconds": 62.24,
+          "decoded_pts_seconds": 62.256576,
+          "decoded_frame_index": 1867
+        },
+        {
+          "requested_seconds": 62.266666666666666,
+          "decoded_pts_seconds": 62.256576,
+          "decoded_frame_index": 1867
+        },
+        {
+          "requested_seconds": 62.29333333333333,
+          "decoded_pts_seconds": 62.289909,
+          "decoded_frame_index": 1868
+        },
+        {
+          "requested_seconds": 62.32,
+          "decoded_pts_seconds": 62.323242,
+          "decoded_frame_index": 1869
+        },
+        {
+          "requested_seconds": 62.346666666666664,
+          "decoded_pts_seconds": 62.356576,
+          "decoded_frame_index": 1870
+        },
+        {
+          "requested_seconds": 62.373333333333335,
+          "decoded_pts_seconds": 62.389909,
+          "decoded_frame_index": 1871
+        },
+        {
+          "requested_seconds": 62.4,
+          "decoded_pts_seconds": 62.389909,
+          "decoded_frame_index": 1871
+        }
+      ],
+      "consecutive": false
+    },
+    {
+      "key": "dense-collagen",
+      "source": 6,
+      "start": 6.0,
+      "count": 24,
+      "title": "24 consecutive decoded frames: fiber fills frame, molecule detail follows",
+      "category": "dense",
+      "sheet": "sheets/dense-collagen.jpg",
+      "samples": [
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.023242,
+          "decoded_frame_index": 180
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.056576,
+          "decoded_frame_index": 181
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.089909,
+          "decoded_frame_index": 182
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.123242,
+          "decoded_frame_index": 183
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.156576,
+          "decoded_frame_index": 184
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.189909,
+          "decoded_frame_index": 185
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.223242,
+          "decoded_frame_index": 186
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.256576,
+          "decoded_frame_index": 187
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.289909,
+          "decoded_frame_index": 188
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.323242,
+          "decoded_frame_index": 189
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.356576,
+          "decoded_frame_index": 190
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.389909,
+          "decoded_frame_index": 191
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.423242,
+          "decoded_frame_index": 192
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.456576,
+          "decoded_frame_index": 193
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.489909,
+          "decoded_frame_index": 194
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.523242,
+          "decoded_frame_index": 195
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.556576,
+          "decoded_frame_index": 196
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.589909,
+          "decoded_frame_index": 197
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.623242,
+          "decoded_frame_index": 198
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.656576,
+          "decoded_frame_index": 199
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.689909,
+          "decoded_frame_index": 200
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.723242,
+          "decoded_frame_index": 201
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.756576,
+          "decoded_frame_index": 202
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 6.789909,
+          "decoded_frame_index": 203
+        }
+      ],
+      "consecutive": true
+    },
+    {
+      "key": "dense-rain",
+      "source": 8,
+      "start": 26.05,
+      "count": 24,
+      "title": "24 consecutive decoded frames: active inset opens into environment",
+      "category": "dense",
+      "sheet": "sheets/dense-rain.jpg",
+      "samples": [
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.056576,
+          "decoded_frame_index": 781
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.089909,
+          "decoded_frame_index": 782
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.123242,
+          "decoded_frame_index": 783
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.156576,
+          "decoded_frame_index": 784
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.189909,
+          "decoded_frame_index": 785
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.223242,
+          "decoded_frame_index": 786
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.256576,
+          "decoded_frame_index": 787
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.289909,
+          "decoded_frame_index": 788
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.323242,
+          "decoded_frame_index": 789
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.356576,
+          "decoded_frame_index": 790
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.389909,
+          "decoded_frame_index": 791
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.423242,
+          "decoded_frame_index": 792
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.456576,
+          "decoded_frame_index": 793
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.489909,
+          "decoded_frame_index": 794
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.523242,
+          "decoded_frame_index": 795
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.556576,
+          "decoded_frame_index": 796
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.589909,
+          "decoded_frame_index": 797
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.623242,
+          "decoded_frame_index": 798
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.656576,
+          "decoded_frame_index": 799
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.689909,
+          "decoded_frame_index": 800
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.723242,
+          "decoded_frame_index": 801
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.756576,
+          "decoded_frame_index": 802
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.789909,
+          "decoded_frame_index": 803
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 26.823242,
+          "decoded_frame_index": 804
+        }
+      ],
+      "consecutive": true
+    },
+    {
+      "key": "dense-bellows",
+      "source": 5,
+      "start": 20.2,
+      "count": 24,
+      "title": "24 consecutive decoded frames: aligned wing and working bellows",
+      "category": "dense",
+      "sheet": "sheets/dense-bellows.jpg",
+      "samples": [
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.2,
+          "decoded_frame_index": 606
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.233333,
+          "decoded_frame_index": 607
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.266667,
+          "decoded_frame_index": 608
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.3,
+          "decoded_frame_index": 609
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.333333,
+          "decoded_frame_index": 610
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.366667,
+          "decoded_frame_index": 611
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.4,
+          "decoded_frame_index": 612
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.433333,
+          "decoded_frame_index": 613
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.466667,
+          "decoded_frame_index": 614
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.5,
+          "decoded_frame_index": 615
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.533333,
+          "decoded_frame_index": 616
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.566667,
+          "decoded_frame_index": 617
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.6,
+          "decoded_frame_index": 618
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.633333,
+          "decoded_frame_index": 619
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.666667,
+          "decoded_frame_index": 620
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.7,
+          "decoded_frame_index": 621
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.733333,
+          "decoded_frame_index": 622
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.766667,
+          "decoded_frame_index": 623
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.8,
+          "decoded_frame_index": 624
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.833333,
+          "decoded_frame_index": 625
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.866667,
+          "decoded_frame_index": 626
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.9,
+          "decoded_frame_index": 627
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.933333,
+          "decoded_frame_index": 628
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 20.966667,
+          "decoded_frame_index": 629
+        }
+      ],
+      "consecutive": true
+    },
+    {
+      "key": "dense-field",
+      "source": 2,
+      "start": 24.3,
+      "count": 24,
+      "title": "24 consecutive decoded frames: effect expands around the continuing brain",
+      "category": "dense",
+      "sheet": "sheets/dense-field.jpg",
+      "samples": [
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.289909,
+          "decoded_frame_index": 729
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.323242,
+          "decoded_frame_index": 730
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.356576,
+          "decoded_frame_index": 731
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.389909,
+          "decoded_frame_index": 732
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.423242,
+          "decoded_frame_index": 733
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.456576,
+          "decoded_frame_index": 734
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.489909,
+          "decoded_frame_index": 735
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.523242,
+          "decoded_frame_index": 736
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.556576,
+          "decoded_frame_index": 737
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.589909,
+          "decoded_frame_index": 738
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.623242,
+          "decoded_frame_index": 739
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.656576,
+          "decoded_frame_index": 740
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.689909,
+          "decoded_frame_index": 741
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.723242,
+          "decoded_frame_index": 742
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.756576,
+          "decoded_frame_index": 743
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.789909,
+          "decoded_frame_index": 744
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.823242,
+          "decoded_frame_index": 745
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.856576,
+          "decoded_frame_index": 746
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.889909,
+          "decoded_frame_index": 747
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.923242,
+          "decoded_frame_index": 748
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.956576,
+          "decoded_frame_index": 749
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 24.989909,
+          "decoded_frame_index": 750
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 25.023242,
+          "decoded_frame_index": 751
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 25.056576,
+          "decoded_frame_index": 752
+        }
+      ],
+      "consecutive": true
+    },
+    {
+      "key": "dense-monitor",
+      "source": 4,
+      "start": 57.15,
+      "count": 24,
+      "title": "24 consecutive decoded frames: particle diagram becomes monitor content",
+      "category": "dense",
+      "sheet": "sheets/dense-monitor.jpg",
+      "samples": [
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.166667,
+          "decoded_frame_index": 1715
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.2,
+          "decoded_frame_index": 1716
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.233333,
+          "decoded_frame_index": 1717
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.266667,
+          "decoded_frame_index": 1718
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.3,
+          "decoded_frame_index": 1719
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.333333,
+          "decoded_frame_index": 1720
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.366667,
+          "decoded_frame_index": 1721
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.4,
+          "decoded_frame_index": 1722
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.433333,
+          "decoded_frame_index": 1723
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.466667,
+          "decoded_frame_index": 1724
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.5,
+          "decoded_frame_index": 1725
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.533333,
+          "decoded_frame_index": 1726
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.566667,
+          "decoded_frame_index": 1727
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.6,
+          "decoded_frame_index": 1728
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.633333,
+          "decoded_frame_index": 1729
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.666667,
+          "decoded_frame_index": 1730
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.7,
+          "decoded_frame_index": 1731
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.733333,
+          "decoded_frame_index": 1732
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.766667,
+          "decoded_frame_index": 1733
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.8,
+          "decoded_frame_index": 1734
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.833333,
+          "decoded_frame_index": 1735
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.866667,
+          "decoded_frame_index": 1736
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.9,
+          "decoded_frame_index": 1737
+        },
+        {
+          "requested_seconds": null,
+          "decoded_pts_seconds": 57.933333,
+          "decoded_frame_index": 1738
+        }
+      ],
+      "consecutive": true
+    }
+  ],
+  "film_audit": {
+    "film": "assets/videos/singularity/singularity-full-8m56.mp4",
+    "film_sha256": "3ec059c5b90350d56c1c2ca8b28efe360a22462b25f7568083ce2fd938198db7",
+    "source_sha256": "2db5026bc9e8d0e011320bbe2deb70fbec2e7063134697948400ed4c92752abc",
+    "source_lines_at_review": [
+      256,
+      264
+    ],
+    "major_section_boundaries": 22,
+    "all_same_dissolve": true,
+    "outgoing_stage_time_frozen_at_all_major_joins": true,
+    "classification": "Implementation audit, not an automatic quality score. Internal beat changes are separate.",
+    "joins": [
+      {
+        "from": "opening",
+        "to": "star",
+        "start_frame": 183,
+        "seconds": 6.1,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 182,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "star",
+        "to": "atom",
+        "start_frame": 252,
+        "seconds": 8.4,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 251,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "atom",
+        "to": "plasma",
+        "start_frame": 343,
+        "seconds": 11.433333,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 342,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "plasma",
+        "to": "limit",
+        "start_frame": 720,
+        "seconds": 24.0,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 719,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "limit",
+        "to": "ideas",
+        "start_frame": 1082,
+        "seconds": 36.066667,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 1081,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "ideas",
+        "to": "galaxies",
+        "start_frame": 1503,
+        "seconds": 50.1,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 1502,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "galaxies",
+        "to": "afterglow",
+        "start_frame": 1934,
+        "seconds": 64.466667,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 1933,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "afterglow",
+        "to": "elements",
+        "start_frame": 2563,
+        "seconds": 85.433333,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 2562,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "elements",
+        "to": "observatory",
+        "start_frame": 2920,
+        "seconds": 97.333333,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 2919,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "observatory",
+        "to": "gravity",
+        "start_frame": 3413,
+        "seconds": 113.766667,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 3412,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "gravity",
+        "to": "room",
+        "start_frame": 5137,
+        "seconds": 171.233333,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 5136,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "room",
+        "to": "extent",
+        "start_frame": 5802,
+        "seconds": 193.4,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 5801,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "extent",
+        "to": "quantum",
+        "start_frame": 7267,
+        "seconds": 242.233333,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 7266,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "quantum",
+        "to": "time",
+        "start_frame": 8525,
+        "seconds": 284.166667,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 8524,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "time",
+        "to": "bounce",
+        "start_frame": 9955,
+        "seconds": 331.833333,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 9954,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "bounce",
+        "to": "inflation",
+        "start_frame": 10996,
+        "seconds": 366.533333,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 10995,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "inflation",
+        "to": "multiverse",
+        "start_frame": 11663,
+        "seconds": 388.766667,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 11662,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "multiverse",
+        "to": "vacuum",
+        "start_frame": 12438,
+        "seconds": 414.6,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 12437,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "vacuum",
+        "to": "evidence",
+        "start_frame": 13431,
+        "seconds": 447.7,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 13430,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "evidence",
+        "to": "human",
+        "start_frame": 14669,
+        "seconds": 488.966667,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 14668,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "human",
+        "to": "rewind",
+        "start_frame": 15378,
+        "seconds": 512.6,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 15377,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      },
+      {
+        "from": "rewind",
+        "to": "ending",
+        "start_frame": 15620,
+        "seconds": 520.666667,
+        "ramp_intervals": 11,
+        "ramp_seconds": 0.366667,
+        "previous_stage_frame": 15619,
+        "outgoing_animation": "frozen",
+        "method": "whole-composition opacity overlap"
+      }
+    ],
+    "examples": [
+      {
+        "key": "our-opening-star",
+        "start": 5.93,
+        "end": 6.58,
+        "title": "Rejected cut: galaxies dissolve over frozen outgoing stage",
+        "source": "our-film",
+        "sheet": "sheets/our-opening-star.jpg",
+        "samples": [
+          {
+            "requested_seconds": 5.93,
+            "decoded_pts_seconds": 5.933333,
+            "decoded_frame_index": 178
+          },
+          {
+            "requested_seconds": 5.989090909090909,
+            "decoded_pts_seconds": 6.0,
+            "decoded_frame_index": 180
+          },
+          {
+            "requested_seconds": 6.048181818181818,
+            "decoded_pts_seconds": 6.033333,
+            "decoded_frame_index": 181
+          },
+          {
+            "requested_seconds": 6.107272727272727,
+            "decoded_pts_seconds": 6.1,
+            "decoded_frame_index": 183
+          },
+          {
+            "requested_seconds": 6.166363636363636,
+            "decoded_pts_seconds": 6.166667,
+            "decoded_frame_index": 185
+          },
+          {
+            "requested_seconds": 6.225454545454546,
+            "decoded_pts_seconds": 6.233333,
+            "decoded_frame_index": 187
+          },
+          {
+            "requested_seconds": 6.284545454545454,
+            "decoded_pts_seconds": 6.3,
+            "decoded_frame_index": 189
+          },
+          {
+            "requested_seconds": 6.343636363636364,
+            "decoded_pts_seconds": 6.333333,
+            "decoded_frame_index": 190
+          },
+          {
+            "requested_seconds": 6.402727272727272,
+            "decoded_pts_seconds": 6.4,
+            "decoded_frame_index": 192
+          },
+          {
+            "requested_seconds": 6.461818181818182,
+            "decoded_pts_seconds": 6.466667,
+            "decoded_frame_index": 194
+          },
+          {
+            "requested_seconds": 6.520909090909091,
+            "decoded_pts_seconds": 6.533333,
+            "decoded_frame_index": 196
+          },
+          {
+            "requested_seconds": 6.58,
+            "decoded_pts_seconds": 6.566667,
+            "decoded_frame_index": 197
+          }
+        ],
+        "preview": {
+          "file": "loops/our-opening-star.gif",
+          "sha256": "ab1e4e232de2101a37d7de650cd04c247f2b6eba2671f6aa343b9e9902975bd7",
+          "bytes": 497363,
+          "preview_fps": 25,
+          "silent": true,
+          "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+        }
+      },
+      {
+        "key": "our-observatory-gravity",
+        "start": 113.6,
+        "end": 114.24,
+        "title": "Rejected cut: room dissolves into unrelated grid composition",
+        "source": "our-film",
+        "sheet": "sheets/our-observatory-gravity.jpg",
+        "samples": [
+          {
+            "requested_seconds": 113.6,
+            "decoded_pts_seconds": 113.6,
+            "decoded_frame_index": 3408
+          },
+          {
+            "requested_seconds": 113.65818181818182,
+            "decoded_pts_seconds": 113.666667,
+            "decoded_frame_index": 3410
+          },
+          {
+            "requested_seconds": 113.71636363636362,
+            "decoded_pts_seconds": 113.7,
+            "decoded_frame_index": 3411
+          },
+          {
+            "requested_seconds": 113.77454545454545,
+            "decoded_pts_seconds": 113.766667,
+            "decoded_frame_index": 3413
+          },
+          {
+            "requested_seconds": 113.83272727272727,
+            "decoded_pts_seconds": 113.833333,
+            "decoded_frame_index": 3415
+          },
+          {
+            "requested_seconds": 113.89090909090909,
+            "decoded_pts_seconds": 113.9,
+            "decoded_frame_index": 3417
+          },
+          {
+            "requested_seconds": 113.9490909090909,
+            "decoded_pts_seconds": 113.933333,
+            "decoded_frame_index": 3418
+          },
+          {
+            "requested_seconds": 114.00727272727272,
+            "decoded_pts_seconds": 114.0,
+            "decoded_frame_index": 3420
+          },
+          {
+            "requested_seconds": 114.06545454545454,
+            "decoded_pts_seconds": 114.066667,
+            "decoded_frame_index": 3422
+          },
+          {
+            "requested_seconds": 114.12363636363636,
+            "decoded_pts_seconds": 114.133333,
+            "decoded_frame_index": 3424
+          },
+          {
+            "requested_seconds": 114.18181818181817,
+            "decoded_pts_seconds": 114.166667,
+            "decoded_frame_index": 3425
+          },
+          {
+            "requested_seconds": 114.24,
+            "decoded_pts_seconds": 114.233333,
+            "decoded_frame_index": 3427
+          }
+        ],
+        "preview": {
+          "file": "loops/our-observatory-gravity.gif",
+          "sha256": "49a38bd7aaad0793591793b409fc7d10d42f6731eb551889c0c1191b542fa31d",
+          "bytes": 670978,
+          "preview_fps": 25,
+          "silent": true,
+          "note": "User-provided reference excerpt. Loop restart is artificial. 25 fps preview; source PTS and dense sheets retain native timing."
+        }
+      }
+    ]
+  },
+  "limits": [
+    "Source footage shows visible action, not the private rig, scene graph or interpolation curves.",
+    "GIFs are silent 25fps study excerpts; artificial loop restarts are not source transitions.",
+    "Only dense sheets are consecutive-frame studies; survey and ordinary sheets are spaced samples.",
+    "Portrait short-form cutting density is not a target for the nine-minute landscape episode.",
+    "No narration/SFX performance is inferred from silent evidence.",
+    "This script produces evidence, not a quality pass or replacement film."
+  ],
+  "tools": {
+    "opencv": "5.0.0",
+    "numpy": "2.3.5"
+  }
+}

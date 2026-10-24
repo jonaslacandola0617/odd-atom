@@ -1,0 +1,23 @@
+from,to,start_frame,seconds,ramp_intervals,ramp_seconds,previous_stage_frame,outgoing_animation,method
+opening,star,183,6.1,11,0.366667,182,frozen,whole-composition opacity overlap
+star,atom,252,8.4,11,0.366667,251,frozen,whole-composition opacity overlap
+atom,plasma,343,11.433333,11,0.366667,342,frozen,whole-composition opacity overlap
+plasma,limit,720,24.0,11,0.366667,719,frozen,whole-composition opacity overlap
+limit,ideas,1082,36.066667,11,0.366667,1081,frozen,whole-composition opacity overlap
+ideas,galaxies,1503,50.1,11,0.366667,1502,frozen,whole-composition opacity overlap
+galaxies,afterglow,1934,64.466667,11,0.366667,1933,frozen,whole-composition opacity overlap
+afterglow,elements,2563,85.433333,11,0.366667,2562,frozen,whole-composition opacity overlap
+elements,observatory,2920,97.333333,11,0.366667,2919,frozen,whole-composition opacity overlap
+observatory,gravity,3413,113.766667,11,0.366667,3412,frozen,whole-composition opacity overlap
+gravity,room,5137,171.233333,11,0.366667,5136,frozen,whole-composition opacity overlap
+room,extent,5802,193.4,11,0.366667,5801,frozen,whole-composition opacity overlap
+extent,quantum,7267,242.233333,11,0.366667,7266,frozen,whole-composition opacity overlap
+quantum,time,8525,284.166667,11,0.366667,8524,frozen,whole-composition opacity overlap
+time,bounce,9955,331.833333,11,0.366667,9954,frozen,whole-composition opacity overlap
+bounce,inflation,10996,366.533333,11,0.366667,10995,frozen,whole-composition opacity overlap
+inflation,multiverse,11663,388.766667,11,0.366667,11662,frozen,whole-composition opacity overlap
+multiverse,vacuum,12438,414.6,11,0.366667,12437,frozen,whole-composition opacity overlap
+vacuum,evidence,13431,447.7,11,0.366667,13430,frozen,whole-composition opacity overlap
+evidence,human,14669,488.966667,11,0.366667,14668,frozen,whole-composition opacity overlap
+human,rewind,15378,512.6,11,0.366667,15377,frozen,whole-composition opacity overlap
+rewind,ending,15620,520.666667,11,0.366667,15619,frozen,whole-composition opacity overlap

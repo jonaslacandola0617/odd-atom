@@ -1,0 +1,16 @@
+{
+  "date_local": "2026-10-25",
+  "timezone": "Asia/Manila",
+  "film": "assets/videos/singularity/singularity-full-8m56.mp4",
+  "film_sha256": "3ec059c5b90350d56c1c2ca8b28efe360a22462b25f7568083ce2fd938198db7",
+  "creative_status": "rejected",
+  "passed_creative_checks": 0,
+  "reported_issues": [
+    "Feels like a presentation with barely any animation",
+    "Transitions rejected",
+    "Repeated universe imagery rejected"
+  ],
+  "active_scope": "Study reference transitions first; motion and animation must create a seamless passage between scenes, beyond camera cuts.",
+  "study": "references/studies/transitions-2026-10-25/README.md",
+  "technical_report": "validation.json records encoding and timing checks only; it does not establish a creative pass."
+}

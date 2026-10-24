@@ -96,11 +96,12 @@
     "bytes": 23931156,
     "sha256": "370e989432c48253f62c630bf04a227db9b5d36f557b5477d85d5fbc6032c27f"
   },
-  "user_quality_approval": "pending",
+  "user_quality_approval": "rejected",
   "review_limitations": "Programmatic decoding/timing/levels and representative encoded-frame inspection; a complete human listening/subtitle audit is not claimed.",
   "png_asset_files": 39,
   "environment_plates": 6,
   "source_sprite_atlases": 5,
   "exported_alpha_sprites": 28,
-  "picture_input_fingerprint": "99981479084401c82cce24137dbdc974446155a174d4fa369a64c8a80e593615"
+  "picture_input_fingerprint": "99981479084401c82cce24137dbdc974446155a174d4fa369a64c8a80e593615",
+  "user_review": "docs/production/singularity/film/user-review.json"
 }

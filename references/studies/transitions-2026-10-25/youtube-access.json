@@ -1,0 +1,9 @@
+{
+  "review_date_local": "2026-10-25",
+  "timezone": "Asia/Manila",
+  "url": "https://www.youtube.com/watch?v=_y9JuojAIg0",
+  "method": "curl -I -L --max-time 20 using the configured environment network route",
+  "exit_code": 56,
+  "response": "CONNECT tunnel failed, response 403; HTTP/1.1 403 Forbidden; server: envoy",
+  "consequence": "No new full-episode playback or YouTube timing findings. Motion observations use the eight supplied local reference videos."
+}
