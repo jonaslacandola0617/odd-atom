@@ -1,5 +1,7 @@
 # Odd Atom — original explanatory animation
 
+**Editable medicine vector reconstruction:** [Download SVG package](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/scenes/medicine-vector/medicine-vector-editable.zip) · [Standalone SVG](assets/scenes/medicine-vector/medicine-scene-editable.svg) · [Preview/comparison and limitations](docs/production/medicine-vector.md). This is an image-derived, layered Bézier reconstruction with no embedded bitmap. `MedicineVectorArtwork` renders the SVG directly in Remotion.
+
 **Artwork, character animation and cross-topic artwork consistency passed.** The two approved static scenes are now animated as separate 20-second, 1080p/30 fps motion studies:
 
 - **[Download medicine animation](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/medicine-artwork-motion-20s.mp4)** — clinician reactions and slide movement, drifting blood cells, immune-cell engulfment, foliage and focus-knob motion.

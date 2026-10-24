@@ -1,0 +1,42 @@
+{
+  "artifact": "assets/scenes/medicine-vector/medicine-scene-editable.svg",
+  "sha256": "efd95236a957e1ea8db659f94ff2059bc06459464c285a9de26efd70d6d0fce1",
+  "bytes": 10784725,
+  "paths": 8752,
+  "layers": 30,
+  "native_ellipses": 4,
+  "gradients": 6,
+  "embedded_or_linked_rasters": 0,
+  "scripts_or_foreign_objects": 0,
+  "all_reference_targets_internal_and_present": true,
+  "unique_ids": true,
+  "inkscape_render": "passed",
+  "edit_demo": {
+    "hidden_groups": [
+      "clinician-eyes"
+    ],
+    "moved_group": "microbe-upper",
+    "recolored_vector_paths": 58,
+    "native_closed_eyelids_added": 2
+  },
+  "source_sha256": "d9f245e4aad1866de4b29f10a4dd45c7e9312cd3450dd07d68e36f750ed3fd5e",
+  "source_size": [
+    1672,
+    941
+  ],
+  "numeric_reconstruction_error": {
+    "mean_absolute_RGB_error_0_to_255": 4.910550637534809,
+    "root_mean_square_RGB_error": 10.94636122809698
+  },
+  "limits": "Image-derived vector reconstruction with many traced color regions and vector clips. Shading/contour simplification differs from the source. Geometry/statistics do not prove equal aesthetic quality. Hidden surfaces are approximate; this is not a complete animation rig.",
+  "remotion_browser_render": {
+    "composition": "MedicineVectorArtwork",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "passed": true,
+    "raster_fallback": false
+  },
+  "runtime_svg_matches_delivery": true
+}

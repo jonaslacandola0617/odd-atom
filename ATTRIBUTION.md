@@ -1,5 +1,9 @@
 # Current production records
 
+## Editable medicine SVG
+
+`assets/scenes/medicine-vector/medicine-scene-editable.svg` is an image-derived vector reconstruction of the approved original medicine PNG and its existing clean-plate context. VTracer supplies Bézier/color-region geometry; Python/Skia PathOps bounds native curves into named object groups with vector clips. Native SVG gradients and eye ellipses complete limited surfaces/features. It contains no embedded/linked raster, and was not drawn manually from scratch. Inkscape and Remotion produce separate raster previews. Layer/build records, structural validation, editing demonstrations and source comparisons are in `docs/production/medicine-vector/`. No new image generation was used for this conversion.
+
 ## Medicine and cyber artwork animations
 
 The two approved scene PNGs remain unchanged. Image generation prepared registered clean plates, a clinician/foliage alpha extraction, a blink variant, and a source-matched cell atlas under `public/assets/artwork/scene-motion/`. `src/ArtworkMotion.tsx` uses source-image pixels through registered vector mattes for the clinician and foliage, source-cropped packet/shard sprites, independent animated layers and continuous texture skinning. The cell atlas adapts the approved cell designs for layering. Clean-plate patches reveal scenery behind moving objects. Full generation prompts and file hashes are retained under `docs/production/artwork-motion/`. Two original synthesized audio beds accompany the deliberately wordless motion studies; no narration generation was made.

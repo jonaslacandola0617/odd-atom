@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "assets/scenes/medicine-vector/medicine-vector-editable.zip",
+      "bytes": 4596582,
+      "sha256": "53e7a8a48ceb4c7a074d9afb9932ff60f4aed9cf4bd7033c442a5ba9d2f1e0a0"
+    },
+    {
+      "path": "assets/scenes/medicine-vector/medicine-scene-editable.svg",
+      "bytes": 10784725,
+      "sha256": "efd95236a957e1ea8db659f94ff2059bc06459464c285a9de26efd70d6d0fce1"
+    },
+    {
+      "path": "assets/scenes/medicine-vector/medicine-scene-preview.png",
+      "bytes": 755685,
+      "sha256": "0c83be4f70eb288f1006d0ad733dba15d7060d825e65bc5fd5235302c9d250eb"
+    },
+    {
+      "path": "assets/scenes/medicine-vector/README.txt",
+      "bytes": 1327,
+      "sha256": "42e61a3cf9244cd53a935fceb72d35d4b6a481ae92baf5cc572ff6247e3b874d"
+    },
+    {
+      "path": "assets/scenes/medicine-vector/medicine-scene-remotion.png",
+      "bytes": 1103216,
+      "sha256": "c0d9639c3223031ffa9d35ad359a69e71416ed9b971a9133b741c71456e95ecb"
+    }
+  ]
+}

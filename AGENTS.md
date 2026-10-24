@@ -8,6 +8,8 @@
 
 # Visual direction
 
+- The user requested an editable SVG reconstruction of the medicine scene. `assets/scenes/medicine-vector/medicine-scene-editable.svg` is an image-derived vector reconstruction with native paths/groups, no embedded bitmap; the original approved PNG stays unchanged. The SVG has not received user quality approval. Be explicit that it is traced/color-region geometry with approximate hidden surfaces, not a hand-drawn-from-scratch minimal vector rig. Its Remotion still is `MedicineVectorArtwork`; do not silently substitute the PNG when discussing this SVG.
+
 - The user explicitly passed both new static scenes and artwork consistency: `assets/scenes/artwork-consistency-02/medicine-immune-defense.png` and `cyber-network-defense.png`. Animate their human, biological, object and environment layers while retaining their drawing quality. These files are approved immutable source references; add versioned animation assets rather than repainting over them. The medicine clinician is an approved new character.
 
 - The user explicitly passed the artwork and drawing quality of `assets/videos/approved-characters-20s.mp4`. Preserve that visual baseline, including its background quality. The user later passed character animation as well; use this artwork as the comparison baseline for new subjects. The motion study and unchanged-art hash record are in `references/studies/motion-2026-10-24/`. Add matching versioned rig parts as needed rather than redesigning or overwriting approved art.
