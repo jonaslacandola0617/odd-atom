@@ -1,18 +1,18 @@
 # Odd Atom — original explanatory animation
 
-**Latest character drawing test:** [View/download the static character sheet](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/characters/static-test-01.png) · [Design notes and generation record](docs/production/character-static-test.md). This is a standalone raster concept test following further feedback on the film's characters.
+**Approved character master:** [View/download the static sheet](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/characters/static-test-01.png). The user approved these Mira and Sol designs; the latest film adapts them into animated illustrated cutouts.
 
-The latest test is the **artwork rebuild of Alone in a crowd**: a 20-second, 1920 × 1080, 30 fps Remotion film about the difference between proximity and connection. It has redrawn characters and environments, three shots, and the existing generated ElevenLabs narration, aligned captions, original music, and ambience.
+The latest test is **Alone in a crowd with the approved characters**: a 20-second, 1920 × 1080, 30 fps Remotion film about proximity and connection. Mira and Sol have separate head, body, and arm layers, matching illustrated environments, and the existing generated ElevenLabs narration, aligned captions, original music, and ambience.
 
-**[Download the rebuilt 20-second MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/alone-in-a-crowd-rebuilt-20s.mp4)** · [Poster](assets/videos/alone-in-a-crowd-rebuilt-20s-poster.png) · [Before/after artwork review](docs/production/crowd-rebuilt.md)
+**[Download the approved-character 20-second MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/approved-characters-20s.mp4)** · [Poster](assets/videos/approved-characters-20s-poster.png) · [Approved-sheet/animation comparison](docs/production/approved-characters.md)
 
-The user rejected the earlier test's artwork. The [detailed audit](docs/production/artwork-audit/README.md) documents its failures; the [rebuild review](docs/production/crowd-rebuilt.md) shows the applied corrections and remaining limitations. Technical delivery is not evidence of comparable drawing quality.
+The [earlier artwork audit](docs/production/artwork-audit/README.md) and [previous rebuild](docs/production/crowd-rebuilt.md) remain as historical comparisons. The current approved master guides the character drawing. Technical delivery is not evidence of comparable visual quality.
 
 ## What was built and reviewed
 
-Mira and Sol now have distinct heads and body contours, solid eyes, filled tapered limbs, and separate resting, gesturing, and cup-holding hands. The terrace uses asymmetrical staging and an over-the-shoulder reaction view. The crowd, original artwork, gestures, expressions, and environmental details are animated in Remotion. Opening lettering has layered outline passes; captions stay below the action. No branding, episode badges, timers, or production notes appear in the film.
+The approved faces, hair, hoodie, sweater, trousers, and hands are retained in adapted transparent illustration layers. The test animates head tilts/nods, breathing, shoulder-pivot gestures, eye-area blinks, an expression change during a blink, and a cup response. Three shots move from a twilight crowd to a garden conversation and closer reaction. The opening title has layered outline passes and captions stay below the action. No production labels or branding appear in the film.
 
-The [review](docs/production/crowd-rebuilt.md) contains actual encoded before/after frames, human-reference face crops, sequence and cut sheets, applied drawing changes, and remaining limits. Downloaded reference art is identified separately from our original artwork.
+The [review](docs/production/approved-characters.md) compares the approved sheet with actual MP4 frames and includes sequence, acting, and blink-detail boards. The source sheet is unchanged. This is a limited cutout rig, with its scope and source-generation records documented.
 
 ## Install and render
 
@@ -24,22 +24,21 @@ npm run typecheck
 npm run dev
 ```
 
-Select `CrowdRebuilt` in Remotion Studio. The committed narration and audio stems allow offline re-rendering without a new speech request:
+Select `ApprovedCharactersTest` in Remotion Studio. The committed artwork, narration and audio stems allow offline re-rendering without new image or speech requests:
 
 ```sh
-npm run render:crowd-rebuilt
+npm run render:approved-characters
 ```
 
 The final render command checks the narration provider, generated status, and audio file. It renders 600 frames, mixes the original PCM stems into AAC, preserves the H.264 picture, and writes an MP4 with exact 20-second track timing and fast-start metadata.
 
-Optional asset regeneration:
+Optional sound regeneration:
 
 ```sh
-npm run assets:crowd-rebuilt
 npm run sound:crowd
 ```
 
-Sound regeneration needs NumPy. The six rebuilt original SVG assets are under `public/assets/artwork/connection-rebuilt/`. The older character/set exports remain historical comparison material.
+Sound regeneration needs NumPy. The current transparent art atlases and background PNGs are under `public/assets/artwork/approved-characters/`; prompts and hashes are in `docs/production/approved-characters/`. Older SVG character/set exports remain historical comparison material.
 
 ## ElevenLabs narration
 
@@ -50,17 +49,17 @@ To generate new narration after editing the crowd script:
 ```sh
 npm run narrate:crowd
 npm run sound:crowd
-npm run render:crowd-rebuilt
+npm run render:approved-characters
 ```
 
 Narration generation uses account credits. An optional `ELEVENLABS_VOICE_ID` selects another account-accessible voice; otherwise the project uses George with `eleven_multilingual_v2`. The returned character timestamps drive caption and scene timing. Tempo fitting is limited to a 10% slowdown or a 15% speedup; a longer read is rejected. Failed responses preserve existing narration.
 
 ## Source map
 
-- `src/Connection.tsx`: rebuilt sequence, shot framing, gestures, and captions.
-- `src/art/ConnectionArt.tsx`: rebuilt original character contours, head views, hands, terrace, street, and props.
-- `scripts/export_connection_art.cjs`: standalone original SVG exports.
-- `scripts/review_connection.py`: delivered-frame comparisons and validation.
+- `src/ApprovedCharacters.tsx`: current illustrated cutout rig, sequence, shot framing, gestures, and captions.
+- `public/assets/artwork/approved-characters/`: current transparent image atlases and background plates.
+- `scripts/review_approved_characters.py`: encoded-frame comparisons and validation.
+- `src/Connection.tsx`, `src/art/ConnectionArt.tsx`: previous vector rebuild retained for comparison.
 - `src/Crowd.tsx`, `src/characters/Citizen.tsx`, `src/art/City.tsx`: previous rejected test retained for comparison.
 - `src/data/crowd-narration.json`: script, generated status, aligned captions, and story cues.
 - `scripts/elevenlabs_narration.mjs`: official SDK speech request; `elevenlabs_narration.py` handles audio and timing.
@@ -74,6 +73,8 @@ The [expanded reference study](references/studies/topic-range-2026-10-23/README.
 All downloaded study illustrations are official Kurzgesagt artwork, not graphics generated for this channel. They are separate from our original production assets. YouTube playback remains blocked; the [reference catalog](references/catalog.json) records the three user-selected videos as not downloaded/viewed. Findings from accessible website text and images do not establish full-episode timing, narration, or sound design.
 
 ## Earlier tests
+
+The previous [vector rebuild](docs/production/crowd-rebuilt.md) uses `CrowdRebuilt` and `npm run render:crowd-rebuilt`; it is separate from the approved-character composition.
 
 The star segment remains an explicitly unvoiced [visual preview](assets/videos/star-balance-20s-visual-preview.mp4); its [production record](docs/production/star-balance.md) describes that status. `npm run narrate` and `npm run render` still target the star profile, independently of the crowd test. `StarBalancePreview` and `StarBalance` remain separate compositions.
 

@@ -13,6 +13,7 @@
     "narrate:crowd": "node --use-env-proxy --use-system-ca scripts/elevenlabs_narration.mjs crowd",
     "render:crowd": "node scripts/render_final.cjs crowd",
     "render:crowd-rebuilt": "node scripts/render_final.cjs crowd-rebuilt",
+    "render:approved-characters": "node scripts/render_final.cjs approved-characters",
     "sound:crowd": "python scripts/crowd_sound_design.py",
     "assets:crowd": "node scripts/export_crowd_assets.cjs",
     "assets:crowd-rebuilt": "node scripts/export_connection_art.cjs",

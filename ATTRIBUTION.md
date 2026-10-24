@@ -1,5 +1,9 @@
 # Current production records
 
+## Approved-character animation test
+
+The user-approved `assets/characters/static-test-01.png` guides the current `approved-characters-20s.mp4`. Image generation adapted that original concept into two transparent illustration atlases and two original background plates in `public/assets/artwork/approved-characters/`. Remotion animates and composites the parts using `src/ApprovedCharacters.tsx`. Prompts, source/output hashes, comparison boards, and validation are recorded in `docs/production/approved-characters/`. The approved source PNG is unchanged. This film reuses the existing genuine ElevenLabs narration and original synthesized sound stems; no new speech request was made.
+
 ## Static character concept test
 
 `assets/characters/static-test-01.png` is an original raster concept sheet produced with `image_gen.imagegen` in two passes. Saved official Loneliness and The Last Human images guided the character-design study; their hashes, the output hash, and the generation prompts are recorded under `docs/production/character-static-test/`. This sheet is not a hand-authored SVG or a completed animation rig.

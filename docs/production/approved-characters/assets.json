@@ -1,0 +1,58 @@
+{
+  "approved_master": {
+    "path": "assets/characters/static-test-01.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "bytes": 1555989,
+    "sha256": "72842deef29e191d0f0699c66684d57b6869a0b4cfb2d50937a268f54b80b73f"
+  },
+  "assets": [
+    {
+      "path": "public/assets/artwork/approved-characters/atlas.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 1471812,
+      "sha256": "81f99ec7cced2dee6b1ad6691b639339e6150c5d89d56950e853d40e57efc89b"
+    },
+    {
+      "path": "public/assets/artwork/approved-characters/blinks.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 1461879,
+      "sha256": "3a7ed4fc4149dddad7e3a271299f44b310ebacc61723a8d2b1a8fd34edb7a706"
+    },
+    {
+      "path": "public/assets/artwork/approved-characters/plaza.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "bytes": 1564631,
+      "sha256": "8acc40871dcfe6befb1baf6bfbd8be037d384f41a0e58da3df3acf1506549501"
+    },
+    {
+      "path": "public/assets/artwork/approved-characters/terrace.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "bytes": 1588706,
+      "sha256": "19c87a556cab7342a587d25357c827901eeb43ee0436fb363a7d36a6221b6475"
+    }
+  ],
+  "artwork_method": "Image generation adapted the user-approved original sheet into transparent registered cutout parts and two original background plates. Animation and compositing use Remotion.",
+  "atlas_layout": "1536x1024, four 384-pixel columns and two 512-pixel rows. Mira row: body, happy head, worried head, cup arm. Sol row: body, attentive head, closed-eye head, gesture arm.",
+  "blink_atlas": "Mira eye variants and a corrected cup-arm shoulder; body and hair placement retained. Eye-area clipping in Remotion avoids swapping entire head silhouettes during blinks.",
+  "source_pixels_note": "Generated cutouts preserve the approved character design but are adapted drawings, not pixel-identical crops of the original sheet. The approved master remains unchanged."
+}

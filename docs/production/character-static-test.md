@@ -1,5 +1,7 @@
 # Static character test 01
 
+The user approved this sheet. Its [20-second animation test](approved-characters.md) now adapts these designs into layered illustrated cutouts; the original PNG remains unchanged.
+
 [Open or download the full-size PNG](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/characters/static-test-01.png)
 
 ![Two redesigned characters and four expression/view studies](../../assets/characters/static-test-01.png)

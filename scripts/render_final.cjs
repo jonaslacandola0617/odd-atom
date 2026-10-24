@@ -3,8 +3,8 @@ const path = require('node:path');
 const {spawnSync} = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const profile = process.argv[2] || 'star';
-const profiles = {star: {composition: 'StarBalance', output: 'star-balance-20s', narration: 'star'}, crowd: {composition: 'AloneInACrowd', output: 'alone-in-a-crowd-20s', narration: 'crowd'}, 'crowd-rebuilt': {composition: 'CrowdRebuilt', output: 'alone-in-a-crowd-rebuilt-20s', narration: 'crowd'}};
-if (!Object.hasOwn(profiles, profile)) {console.error('Choose a known render profile: star, crowd or crowd-rebuilt.'); process.exit(1);}
+const profiles = {star: {composition: 'StarBalance', output: 'star-balance-20s', narration: 'star'}, crowd: {composition: 'AloneInACrowd', output: 'alone-in-a-crowd-20s', narration: 'crowd'}, 'crowd-rebuilt': {composition: 'CrowdRebuilt', output: 'alone-in-a-crowd-rebuilt-20s', narration: 'crowd'}, 'approved-characters': {composition: 'ApprovedCharactersTest', output: 'approved-characters-20s', narration: 'crowd'}};
+if (!Object.hasOwn(profiles, profile)) {console.error('Choose a known render profile: '+Object.keys(profiles).join(', ')+'.'); process.exit(1);}
 const target = profiles[profile];
 const narration = JSON.parse(fs.readFileSync(path.join(root, `src/data/${target.narration}-narration.json`), 'utf8'));
 if (narration.provider !== 'elevenlabs' || narration.status !== 'generated' || !narration.audioFile || !fs.existsSync(path.join(root, 'public', narration.audioFile))) {
