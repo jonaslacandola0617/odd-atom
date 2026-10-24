@@ -1,5 +1,9 @@
 # Current production records
 
+## Motion-study reference excerpts
+
+`references/studies/motion-2026-10-24/` contains short silent GIF excerpts and frame sheets extracted from the eight reference videos uploaded by the user. They are labeled analytical reference material, not original channel animations or production assets. Source filenames, hashes, ranges and decoded timestamps are retained in `measurements.json`. Official production-process statements are separately linked and hashed in `process-sources.json`.
+
 ## Approved-character animation test
 
 The user-approved `assets/characters/static-test-01.png` guides the current `approved-characters-20s.mp4`. Image generation adapted that original concept into two transparent illustration atlases and two original background plates in `public/assets/artwork/approved-characters/`. Remotion animates and composites the parts using `src/ApprovedCharacters.tsx`. Prompts, source/output hashes, comparison boards, and validation are recorded in `docs/production/approved-characters/`. The approved source PNG is unchanged. This film reuses the existing genuine ElevenLabs narration and original synthesized sound stems; no new speech request was made.

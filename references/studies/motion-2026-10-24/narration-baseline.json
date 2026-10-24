@@ -1,0 +1,14 @@
+{
+  "script_words_whitespace_count": 43,
+  "caption_span_seconds": [
+    0.228,
+    18.679
+  ],
+  "approx_words_per_minute_over_caption_span": 139.83,
+  "recorded_tempo_adjustment": 0.9,
+  "provider": "elevenlabs",
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "model_id": "eleven_multilingual_v2",
+  "status": "generated",
+  "notes": "Timing metadata only. Does not establish subjective delivery quality. No new speech generation in this study."
+}

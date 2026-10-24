@@ -1,5 +1,7 @@
 # Approved-character animation — 20-second test
 
+The user passed this film's artwork and drawing quality. Current work focuses on [motion and narration](../../references/studies/motion-2026-10-24/README.md), with the approved art retained as the visual baseline.
+
 [Download the MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/approved-characters-20s.mp4) · [Poster](../../assets/videos/approved-characters-20s-poster.png) · [Export verification](approved-characters/validation.json)
 
 This test animates Mira and Sol from the [user-approved static sheet](../../assets/characters/static-test-01.png). It keeps their fuller faces, flowing plum/indigo hair, mustard hoodie, teal sweater, wide trousers, cup grip, and relaxed conversational hand. The original approved PNG is unchanged; its SHA-256 is recorded in the [asset manifest](approved-characters/assets.json).

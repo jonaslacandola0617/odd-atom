@@ -1,0 +1,2096 @@
+{
+  "scope": "Dense visual study of selected ranges in all eight user-uploaded reference clips; not full long-form episode playback or access to studio project files.",
+  "sources": [
+    {
+      "id": 1,
+      "filename": "The Deadliest Thing in Your Kitchen.mp4",
+      "sha256": "f392f8bc9f58fc99f6869dce6064f0618f3171a383806c406b767b7d106eeec8",
+      "bytes": 22199068,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30950400/1032037",
+            "start_time": "0.000000",
+            "duration": "67.189909"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "67.221769"
+          }
+        ],
+        "format": {
+          "duration": "67.221769"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "filename": "Your Brain on Magic Mushrooms.mp4",
+      "sha256": "f2e0dab939857cacd5564d6ff3eb7cf1a5e7b2919fe8125d3bfe489d06cc082a",
+      "bytes": 26528623,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "10828800/361079",
+            "start_time": "0.000000",
+            "duration": "70.523242"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "70.588662"
+          }
+        ],
+        "format": {
+          "duration": "70.588662"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "filename": "The True Cost of War.mp4",
+      "sha256": "d0af8eac9b601f1df69eaa967beaeb80e453b5922b8b4497521cdac2a0ba5cbe",
+      "bytes": 21720813,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "11059200/368759",
+            "start_time": "0.000000",
+            "duration": "72.023242"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "72.074739"
+          }
+        ],
+        "format": {
+          "duration": "72.074739"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "filename": "Where Did the Antimatter Go_.mp4",
+      "sha256": "7cbef5c3f0e8ffcb6052d7307442dfc547a2580d1e7ebf2c6ef2d059befc8b4e",
+      "bytes": 5619912,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 360,
+            "height": 640,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "start_time": "0.000000",
+            "duration": "75.033333"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "75.072000"
+          }
+        ],
+        "format": {
+          "duration": "75.072000"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "filename": "Could Humans Evolve Flight.mp4",
+      "sha256": "aae933ef8ed52f40ef2a8658e3ea8dbe953e4e288dd51958640631121c5c7dab",
+      "bytes": 4983294,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 480,
+            "height": 854,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "start_time": "0.033333",
+            "duration": "72.466667"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "72.515918"
+          }
+        ],
+        "format": {
+          "duration": "72.515918"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "filename": "Your Skeleton Is Electric.mp4",
+      "sha256": "9f097af40530be9009301515348797507e135d0c2cd497e959b3afe6d687d95e",
+      "bytes": 21074151,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "4730880/157747",
+            "start_time": "0.000000",
+            "duration": "71.889909"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "71.935420"
+          }
+        ],
+        "format": {
+          "duration": "71.935420"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "filename": "Your Brain Peaked at Birth.mp4",
+      "sha256": "d59a423622f6c6e4bbc608d04fb15c142495d8763ee3669f020c9187b09a4537",
+      "bytes": 28355767,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "11197440/373367",
+            "start_time": "0.000000",
+            "duration": "72.923242"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "72.980317"
+          }
+        ],
+        "format": {
+          "duration": "72.980317"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "filename": "Let\u2019s Steal a New Moon.mp4",
+      "sha256": "80023aa9ad505b20f479c3b71e01023f60c3284638bfc341a6b53df8640ba88d",
+      "bytes": 20160093,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "32332800/1078117",
+            "start_time": "0.000000",
+            "duration": "70.189909"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "70.263583"
+          }
+        ],
+        "format": {
+          "duration": "70.263583"
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "key": "lift",
+      "source": 6,
+      "start": 0.5,
+      "end": 2.7,
+      "title": "Whole-body lift: knees, hips, torso, arms, bar",
+      "crop": [
+        35,
+        200,
+        575,
+        790
+      ],
+      "loop": true,
+      "sheet": "sheets/lift.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 0.5,
+          "decoded_pts_seconds": 0.523242,
+          "decoded_frame_index": 15
+        },
+        {
+          "requested_seconds": 0.7,
+          "decoded_pts_seconds": 0.723242,
+          "decoded_frame_index": 21
+        },
+        {
+          "requested_seconds": 0.9,
+          "decoded_pts_seconds": 0.923242,
+          "decoded_frame_index": 27
+        },
+        {
+          "requested_seconds": 1.1,
+          "decoded_pts_seconds": 1.123242,
+          "decoded_frame_index": 33
+        },
+        {
+          "requested_seconds": 1.3,
+          "decoded_pts_seconds": 1.323242,
+          "decoded_frame_index": 39
+        },
+        {
+          "requested_seconds": 1.5,
+          "decoded_pts_seconds": 1.523242,
+          "decoded_frame_index": 45
+        },
+        {
+          "requested_seconds": 1.7,
+          "decoded_pts_seconds": 1.723242,
+          "decoded_frame_index": 51
+        },
+        {
+          "requested_seconds": 1.9,
+          "decoded_pts_seconds": 1.923242,
+          "decoded_frame_index": 57
+        },
+        {
+          "requested_seconds": 2.1,
+          "decoded_pts_seconds": 2.123242,
+          "decoded_frame_index": 63
+        },
+        {
+          "requested_seconds": 2.3,
+          "decoded_pts_seconds": 2.323242,
+          "decoded_frame_index": 69
+        },
+        {
+          "requested_seconds": 2.5,
+          "decoded_pts_seconds": 2.523242,
+          "decoded_frame_index": 75
+        },
+        {
+          "requested_seconds": 2.7,
+          "decoded_pts_seconds": 2.723242,
+          "decoded_frame_index": 81
+        }
+      ],
+      "preview": {
+        "path": "loops/lift.gif",
+        "sha256": "0aeeb667df787ba15439bdfcfabc22348e116a221d539c2ef2be17f4cf3c0276",
+        "bytes": 953800,
+        "nominal_preview_fps": 30,
+        "note": "Existing short silent study excerpt retained. GIF delays quantize time to centiseconds. Not an original project animation."
+      }
+    },
+    {
+      "key": "takeoff",
+      "source": 5,
+      "start": 25.4,
+      "end": 26.8,
+      "title": "Takeoff: crouch, push, flight, wing/leg changes",
+      "loop": true,
+      "sheet": "sheets/takeoff.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 25.4,
+          "decoded_pts_seconds": 25.4,
+          "decoded_frame_index": 762
+        },
+        {
+          "requested_seconds": 25.527273,
+          "decoded_pts_seconds": 25.533333,
+          "decoded_frame_index": 766
+        },
+        {
+          "requested_seconds": 25.654545,
+          "decoded_pts_seconds": 25.666667,
+          "decoded_frame_index": 770
+        },
+        {
+          "requested_seconds": 25.781818,
+          "decoded_pts_seconds": 25.766667,
+          "decoded_frame_index": 773
+        },
+        {
+          "requested_seconds": 25.909091,
+          "decoded_pts_seconds": 25.9,
+          "decoded_frame_index": 777
+        },
+        {
+          "requested_seconds": 26.036364,
+          "decoded_pts_seconds": 26.033333,
+          "decoded_frame_index": 781
+        },
+        {
+          "requested_seconds": 26.163636,
+          "decoded_pts_seconds": 26.166667,
+          "decoded_frame_index": 785
+        },
+        {
+          "requested_seconds": 26.290909,
+          "decoded_pts_seconds": 26.3,
+          "decoded_frame_index": 789
+        },
+        {
+          "requested_seconds": 26.418182,
+          "decoded_pts_seconds": 26.433333,
+          "decoded_frame_index": 793
+        },
+        {
+          "requested_seconds": 26.545455,
+          "decoded_pts_seconds": 26.533333,
+          "decoded_frame_index": 796
+        },
+        {
+          "requested_seconds": 26.672727,
+          "decoded_pts_seconds": 26.666667,
+          "decoded_frame_index": 800
+        },
+        {
+          "requested_seconds": 26.8,
+          "decoded_pts_seconds": 26.8,
+          "decoded_frame_index": 804
+        }
+      ],
+      "preview": {
+        "path": "loops/takeoff.gif",
+        "sha256": "ae39aac333b0aa74063e6643fc4a28106000041f4613a5cb63b7213c9bcd33d9",
+        "bytes": 840840,
+        "nominal_preview_fps": 30,
+        "note": "Existing short silent study excerpt retained. GIF delays quantize time to centiseconds. Not an original project animation."
+      }
+    },
+    {
+      "key": "presenter",
+      "source": 3,
+      "start": 0.4,
+      "end": 2.6,
+      "title": "Presenter: face, head and arm poses against a held screen",
+      "crop": [
+        0,
+        570,
+        608,
+        1080
+      ],
+      "loop": true,
+      "sheet": "sheets/presenter.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 0.4,
+          "decoded_pts_seconds": 0.423242,
+          "decoded_frame_index": 12
+        },
+        {
+          "requested_seconds": 0.6,
+          "decoded_pts_seconds": 0.623242,
+          "decoded_frame_index": 18
+        },
+        {
+          "requested_seconds": 0.8,
+          "decoded_pts_seconds": 0.823242,
+          "decoded_frame_index": 24
+        },
+        {
+          "requested_seconds": 1.0,
+          "decoded_pts_seconds": 1.023242,
+          "decoded_frame_index": 30
+        },
+        {
+          "requested_seconds": 1.2,
+          "decoded_pts_seconds": 1.223242,
+          "decoded_frame_index": 36
+        },
+        {
+          "requested_seconds": 1.4,
+          "decoded_pts_seconds": 1.423242,
+          "decoded_frame_index": 42
+        },
+        {
+          "requested_seconds": 1.6,
+          "decoded_pts_seconds": 1.623242,
+          "decoded_frame_index": 48
+        },
+        {
+          "requested_seconds": 1.8,
+          "decoded_pts_seconds": 1.823242,
+          "decoded_frame_index": 54
+        },
+        {
+          "requested_seconds": 2.0,
+          "decoded_pts_seconds": 2.023242,
+          "decoded_frame_index": 60
+        },
+        {
+          "requested_seconds": 2.2,
+          "decoded_pts_seconds": 2.223242,
+          "decoded_frame_index": 66
+        },
+        {
+          "requested_seconds": 2.4,
+          "decoded_pts_seconds": 2.423242,
+          "decoded_frame_index": 72
+        },
+        {
+          "requested_seconds": 2.6,
+          "decoded_pts_seconds": 2.623242,
+          "decoded_frame_index": 78
+        }
+      ],
+      "preview": {
+        "path": "loops/presenter.gif",
+        "sha256": "135618b16c98eff53ac6d929ad679a6705f618a6406f2e4130590aa181f530a4",
+        "bytes": 1184220,
+        "nominal_preview_fps": 30,
+        "note": "Existing short silent study excerpt retained. GIF delays quantize time to centiseconds. Not an original project animation."
+      }
+    },
+    {
+      "key": "walk",
+      "source": 4,
+      "start": 36.8,
+      "end": 39,
+      "title": "Walk: alternating legs, body travel, gaze and arm pose",
+      "crop": [
+        0,
+        300,
+        360,
+        640
+      ],
+      "loop": true,
+      "sheet": "sheets/walk.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 36.8,
+          "decoded_pts_seconds": 36.8,
+          "decoded_frame_index": 1104
+        },
+        {
+          "requested_seconds": 37.0,
+          "decoded_pts_seconds": 37.0,
+          "decoded_frame_index": 1110
+        },
+        {
+          "requested_seconds": 37.2,
+          "decoded_pts_seconds": 37.2,
+          "decoded_frame_index": 1116
+        },
+        {
+          "requested_seconds": 37.4,
+          "decoded_pts_seconds": 37.4,
+          "decoded_frame_index": 1122
+        },
+        {
+          "requested_seconds": 37.6,
+          "decoded_pts_seconds": 37.6,
+          "decoded_frame_index": 1128
+        },
+        {
+          "requested_seconds": 37.8,
+          "decoded_pts_seconds": 37.8,
+          "decoded_frame_index": 1134
+        },
+        {
+          "requested_seconds": 38.0,
+          "decoded_pts_seconds": 38.0,
+          "decoded_frame_index": 1140
+        },
+        {
+          "requested_seconds": 38.2,
+          "decoded_pts_seconds": 38.2,
+          "decoded_frame_index": 1146
+        },
+        {
+          "requested_seconds": 38.4,
+          "decoded_pts_seconds": 38.4,
+          "decoded_frame_index": 1152
+        },
+        {
+          "requested_seconds": 38.6,
+          "decoded_pts_seconds": 38.6,
+          "decoded_frame_index": 1158
+        },
+        {
+          "requested_seconds": 38.8,
+          "decoded_pts_seconds": 38.8,
+          "decoded_frame_index": 1164
+        },
+        {
+          "requested_seconds": 39.0,
+          "decoded_pts_seconds": 39.0,
+          "decoded_frame_index": 1170
+        }
+      ],
+      "preview": {
+        "path": "loops/walk.gif",
+        "sha256": "c5d851eb82b8e7f1e4f496416bd7134127807118727ec71fad684e8559172cfe",
+        "bytes": 659792,
+        "nominal_preview_fps": 30,
+        "note": "Existing short silent study excerpt retained. GIF delays quantize time to centiseconds. Not an original project animation."
+      }
+    },
+    {
+      "key": "emotion",
+      "source": 3,
+      "start": 56.4,
+      "end": 58.3,
+      "title": "Quiet acting: changes of face, hands and head; still field",
+      "sheet": "sheets/emotion.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 56.4,
+          "decoded_pts_seconds": 56.389909,
+          "decoded_frame_index": 1691
+        },
+        {
+          "requested_seconds": 56.572727,
+          "decoded_pts_seconds": 56.589909,
+          "decoded_frame_index": 1697
+        },
+        {
+          "requested_seconds": 56.745455,
+          "decoded_pts_seconds": 56.756576,
+          "decoded_frame_index": 1702
+        },
+        {
+          "requested_seconds": 56.918182,
+          "decoded_pts_seconds": 56.923242,
+          "decoded_frame_index": 1707
+        },
+        {
+          "requested_seconds": 57.090909,
+          "decoded_pts_seconds": 57.089909,
+          "decoded_frame_index": 1712
+        },
+        {
+          "requested_seconds": 57.263636,
+          "decoded_pts_seconds": 57.256576,
+          "decoded_frame_index": 1717
+        },
+        {
+          "requested_seconds": 57.436364,
+          "decoded_pts_seconds": 57.456576,
+          "decoded_frame_index": 1723
+        },
+        {
+          "requested_seconds": 57.609091,
+          "decoded_pts_seconds": 57.623242,
+          "decoded_frame_index": 1728
+        },
+        {
+          "requested_seconds": 57.781818,
+          "decoded_pts_seconds": 57.789909,
+          "decoded_frame_index": 1733
+        },
+        {
+          "requested_seconds": 57.954545,
+          "decoded_pts_seconds": 57.956576,
+          "decoded_frame_index": 1738
+        },
+        {
+          "requested_seconds": 58.127273,
+          "decoded_pts_seconds": 58.123242,
+          "decoded_frame_index": 1743
+        },
+        {
+          "requested_seconds": 58.3,
+          "decoded_pts_seconds": 58.289909,
+          "decoded_frame_index": 1748
+        }
+      ]
+    },
+    {
+      "key": "surfer",
+      "source": 7,
+      "start": 46.4,
+      "end": 48.6,
+      "title": "Independent motion: water, sky, board, body and face",
+      "loop": true,
+      "sheet": "sheets/surfer.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 46.4,
+          "decoded_pts_seconds": 46.423242,
+          "decoded_frame_index": 1392
+        },
+        {
+          "requested_seconds": 46.6,
+          "decoded_pts_seconds": 46.623242,
+          "decoded_frame_index": 1398
+        },
+        {
+          "requested_seconds": 46.8,
+          "decoded_pts_seconds": 46.823242,
+          "decoded_frame_index": 1404
+        },
+        {
+          "requested_seconds": 47.0,
+          "decoded_pts_seconds": 47.023242,
+          "decoded_frame_index": 1410
+        },
+        {
+          "requested_seconds": 47.2,
+          "decoded_pts_seconds": 47.223242,
+          "decoded_frame_index": 1416
+        },
+        {
+          "requested_seconds": 47.4,
+          "decoded_pts_seconds": 47.423242,
+          "decoded_frame_index": 1422
+        },
+        {
+          "requested_seconds": 47.6,
+          "decoded_pts_seconds": 47.623242,
+          "decoded_frame_index": 1428
+        },
+        {
+          "requested_seconds": 47.8,
+          "decoded_pts_seconds": 47.823242,
+          "decoded_frame_index": 1434
+        },
+        {
+          "requested_seconds": 48.0,
+          "decoded_pts_seconds": 48.023242,
+          "decoded_frame_index": 1440
+        },
+        {
+          "requested_seconds": 48.2,
+          "decoded_pts_seconds": 48.223242,
+          "decoded_frame_index": 1446
+        },
+        {
+          "requested_seconds": 48.4,
+          "decoded_pts_seconds": 48.423242,
+          "decoded_frame_index": 1452
+        },
+        {
+          "requested_seconds": 48.6,
+          "decoded_pts_seconds": 48.623242,
+          "decoded_frame_index": 1458
+        }
+      ],
+      "preview": {
+        "path": "loops/surfer.gif",
+        "sha256": "d93260c2d75a47a6a9c8294fd2876e9d43689739a450d571267b49d5be1a8265",
+        "bytes": 2129866,
+        "nominal_preview_fps": 30,
+        "note": "Existing short silent study excerpt retained. GIF delays quantize time to centiseconds. Not an original project animation."
+      }
+    },
+    {
+      "key": "ocean",
+      "source": 8,
+      "start": 9,
+      "end": 10.8,
+      "title": "Mostly held beach: acting against a stable pier and sky",
+      "loop": true,
+      "sheet": "sheets/ocean.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 9.0,
+          "decoded_pts_seconds": 8.989909,
+          "decoded_frame_index": 270
+        },
+        {
+          "requested_seconds": 9.163636,
+          "decoded_pts_seconds": 9.156576,
+          "decoded_frame_index": 275
+        },
+        {
+          "requested_seconds": 9.327273,
+          "decoded_pts_seconds": 9.323242,
+          "decoded_frame_index": 280
+        },
+        {
+          "requested_seconds": 9.490909,
+          "decoded_pts_seconds": 9.489909,
+          "decoded_frame_index": 285
+        },
+        {
+          "requested_seconds": 9.654545,
+          "decoded_pts_seconds": 9.656576,
+          "decoded_frame_index": 290
+        },
+        {
+          "requested_seconds": 9.818182,
+          "decoded_pts_seconds": 9.789909,
+          "decoded_frame_index": 294
+        },
+        {
+          "requested_seconds": 9.981818,
+          "decoded_pts_seconds": 9.956576,
+          "decoded_frame_index": 299
+        },
+        {
+          "requested_seconds": 10.145455,
+          "decoded_pts_seconds": 10.123242,
+          "decoded_frame_index": 304
+        },
+        {
+          "requested_seconds": 10.309091,
+          "decoded_pts_seconds": 10.289909,
+          "decoded_frame_index": 309
+        },
+        {
+          "requested_seconds": 10.472727,
+          "decoded_pts_seconds": 10.456576,
+          "decoded_frame_index": 314
+        },
+        {
+          "requested_seconds": 10.636364,
+          "decoded_pts_seconds": 10.623242,
+          "decoded_frame_index": 319
+        },
+        {
+          "requested_seconds": 10.8,
+          "decoded_pts_seconds": 10.789909,
+          "decoded_frame_index": 324
+        }
+      ],
+      "preview": {
+        "path": "loops/ocean.gif",
+        "sha256": "77c37fd5fe417ea8274331dd720a24a28277b70f204ebf7a46c088fab75a727e",
+        "bytes": 207868,
+        "nominal_preview_fps": 30,
+        "note": "Existing short silent study excerpt retained. GIF delays quantize time to centiseconds. Not an original project animation."
+      }
+    },
+    {
+      "key": "volcano",
+      "source": 8,
+      "start": 40.4,
+      "end": 42.2,
+      "title": "Scene travel: shared landscape motion; inspect plumes separately",
+      "loop": true,
+      "sheet": "sheets/volcano.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 40.4,
+          "decoded_pts_seconds": 40.423242,
+          "decoded_frame_index": 1212
+        },
+        {
+          "requested_seconds": 40.563636,
+          "decoded_pts_seconds": 40.589909,
+          "decoded_frame_index": 1217
+        },
+        {
+          "requested_seconds": 40.727273,
+          "decoded_pts_seconds": 40.723242,
+          "decoded_frame_index": 1221
+        },
+        {
+          "requested_seconds": 40.890909,
+          "decoded_pts_seconds": 40.889909,
+          "decoded_frame_index": 1226
+        },
+        {
+          "requested_seconds": 41.054545,
+          "decoded_pts_seconds": 41.056576,
+          "decoded_frame_index": 1231
+        },
+        {
+          "requested_seconds": 41.218182,
+          "decoded_pts_seconds": 41.223242,
+          "decoded_frame_index": 1236
+        },
+        {
+          "requested_seconds": 41.381818,
+          "decoded_pts_seconds": 41.389909,
+          "decoded_frame_index": 1241
+        },
+        {
+          "requested_seconds": 41.545455,
+          "decoded_pts_seconds": 41.556576,
+          "decoded_frame_index": 1246
+        },
+        {
+          "requested_seconds": 41.709091,
+          "decoded_pts_seconds": 41.723242,
+          "decoded_frame_index": 1251
+        },
+        {
+          "requested_seconds": 41.872727,
+          "decoded_pts_seconds": 41.889909,
+          "decoded_frame_index": 1256
+        },
+        {
+          "requested_seconds": 42.036364,
+          "decoded_pts_seconds": 42.056576,
+          "decoded_frame_index": 1261
+        },
+        {
+          "requested_seconds": 42.2,
+          "decoded_pts_seconds": 42.223242,
+          "decoded_frame_index": 1266
+        }
+      ],
+      "preview": {
+        "path": "loops/volcano.gif",
+        "sha256": "123bd63e5e0e404dcae7480e524f7a0960f53b04071d4405bc58f529929057a0",
+        "bytes": 4112538,
+        "nominal_preview_fps": 30,
+        "note": "Existing short silent study excerpt retained. GIF delays quantize time to centiseconds. Not an original project animation."
+      }
+    },
+    {
+      "key": "psyche",
+      "source": 2,
+      "start": 24.7,
+      "end": 26.1,
+      "title": "Explanatory effect field: changing bands around the brain",
+      "sheet": "sheets/psyche.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 24.7,
+          "decoded_pts_seconds": 24.689909,
+          "decoded_frame_index": 741
+        },
+        {
+          "requested_seconds": 24.827273,
+          "decoded_pts_seconds": 24.823242,
+          "decoded_frame_index": 745
+        },
+        {
+          "requested_seconds": 24.954545,
+          "decoded_pts_seconds": 24.923242,
+          "decoded_frame_index": 748
+        },
+        {
+          "requested_seconds": 25.081818,
+          "decoded_pts_seconds": 25.056576,
+          "decoded_frame_index": 752
+        },
+        {
+          "requested_seconds": 25.209091,
+          "decoded_pts_seconds": 25.189909,
+          "decoded_frame_index": 756
+        },
+        {
+          "requested_seconds": 25.336364,
+          "decoded_pts_seconds": 25.323242,
+          "decoded_frame_index": 760
+        },
+        {
+          "requested_seconds": 25.463636,
+          "decoded_pts_seconds": 25.456576,
+          "decoded_frame_index": 764
+        },
+        {
+          "requested_seconds": 25.590909,
+          "decoded_pts_seconds": 25.589909,
+          "decoded_frame_index": 767
+        },
+        {
+          "requested_seconds": 25.718182,
+          "decoded_pts_seconds": 25.723242,
+          "decoded_frame_index": 771
+        },
+        {
+          "requested_seconds": 25.845455,
+          "decoded_pts_seconds": 25.856576,
+          "decoded_frame_index": 775
+        },
+        {
+          "requested_seconds": 25.972727,
+          "decoded_pts_seconds": 25.989909,
+          "decoded_frame_index": 779
+        },
+        {
+          "requested_seconds": 26.1,
+          "decoded_pts_seconds": 26.123242,
+          "decoded_frame_index": 783
+        }
+      ]
+    },
+    {
+      "key": "sugar",
+      "source": 1,
+      "start": 2.6,
+      "end": 3.8,
+      "title": "Graphic actor: coordinated eyes, body tilt, arms and legs",
+      "sheet": "sheets/sugar.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 2.6,
+          "decoded_pts_seconds": 2.623242,
+          "decoded_frame_index": 78
+        },
+        {
+          "requested_seconds": 2.709091,
+          "decoded_pts_seconds": 2.723242,
+          "decoded_frame_index": 81
+        },
+        {
+          "requested_seconds": 2.818182,
+          "decoded_pts_seconds": 2.856576,
+          "decoded_frame_index": 85
+        },
+        {
+          "requested_seconds": 2.927273,
+          "decoded_pts_seconds": 2.956576,
+          "decoded_frame_index": 88
+        },
+        {
+          "requested_seconds": 3.036364,
+          "decoded_pts_seconds": 3.056576,
+          "decoded_frame_index": 91
+        },
+        {
+          "requested_seconds": 3.145455,
+          "decoded_pts_seconds": 3.156576,
+          "decoded_frame_index": 94
+        },
+        {
+          "requested_seconds": 3.254545,
+          "decoded_pts_seconds": 3.289909,
+          "decoded_frame_index": 98
+        },
+        {
+          "requested_seconds": 3.363636,
+          "decoded_pts_seconds": 3.389909,
+          "decoded_frame_index": 101
+        },
+        {
+          "requested_seconds": 3.472727,
+          "decoded_pts_seconds": 3.489909,
+          "decoded_frame_index": 104
+        },
+        {
+          "requested_seconds": 3.581818,
+          "decoded_pts_seconds": 3.589909,
+          "decoded_frame_index": 107
+        },
+        {
+          "requested_seconds": 3.690909,
+          "decoded_pts_seconds": 3.723242,
+          "decoded_frame_index": 111
+        },
+        {
+          "requested_seconds": 3.8,
+          "decoded_pts_seconds": 3.823242,
+          "decoded_frame_index": 114
+        }
+      ]
+    },
+    {
+      "key": "orbit",
+      "source": 8,
+      "start": 48,
+      "end": 50.2,
+      "title": "Diagram motion: orbiting body, label and fading ring",
+      "sheet": "sheets/orbit.jpg",
+      "crop_xyxy": null,
+      "samples": [
+        {
+          "requested_seconds": 48.0,
+          "decoded_pts_seconds": 48.023242,
+          "decoded_frame_index": 1440
+        },
+        {
+          "requested_seconds": 48.2,
+          "decoded_pts_seconds": 48.223242,
+          "decoded_frame_index": 1446
+        },
+        {
+          "requested_seconds": 48.4,
+          "decoded_pts_seconds": 48.423242,
+          "decoded_frame_index": 1452
+        },
+        {
+          "requested_seconds": 48.6,
+          "decoded_pts_seconds": 48.623242,
+          "decoded_frame_index": 1458
+        },
+        {
+          "requested_seconds": 48.8,
+          "decoded_pts_seconds": 48.823242,
+          "decoded_frame_index": 1464
+        },
+        {
+          "requested_seconds": 49.0,
+          "decoded_pts_seconds": 49.023242,
+          "decoded_frame_index": 1470
+        },
+        {
+          "requested_seconds": 49.2,
+          "decoded_pts_seconds": 49.223242,
+          "decoded_frame_index": 1476
+        },
+        {
+          "requested_seconds": 49.4,
+          "decoded_pts_seconds": 49.423242,
+          "decoded_frame_index": 1482
+        },
+        {
+          "requested_seconds": 49.6,
+          "decoded_pts_seconds": 49.623242,
+          "decoded_frame_index": 1488
+        },
+        {
+          "requested_seconds": 49.8,
+          "decoded_pts_seconds": 49.823242,
+          "decoded_frame_index": 1494
+        },
+        {
+          "requested_seconds": 50.0,
+          "decoded_pts_seconds": 50.023242,
+          "decoded_frame_index": 1500
+        },
+        {
+          "requested_seconds": 50.2,
+          "decoded_pts_seconds": 50.223242,
+          "decoded_frame_index": 1506
+        }
+      ]
+    }
+  ],
+  "dense_lift": {
+    "sheet": "sheets/lift-dense.jpg",
+    "crop_xyxy": [
+      35,
+      200,
+      575,
+      790
+    ],
+    "samples": [
+      {
+        "requested_seconds": 1.3,
+        "decoded_pts_seconds": 1.323242,
+        "decoded_frame_index": 39
+      },
+      {
+        "requested_seconds": 1.333333,
+        "decoded_pts_seconds": 1.356576,
+        "decoded_frame_index": 40
+      },
+      {
+        "requested_seconds": 1.366667,
+        "decoded_pts_seconds": 1.389909,
+        "decoded_frame_index": 41
+      },
+      {
+        "requested_seconds": 1.4,
+        "decoded_pts_seconds": 1.423242,
+        "decoded_frame_index": 42
+      },
+      {
+        "requested_seconds": 1.433333,
+        "decoded_pts_seconds": 1.456576,
+        "decoded_frame_index": 43
+      },
+      {
+        "requested_seconds": 1.466667,
+        "decoded_pts_seconds": 1.489909,
+        "decoded_frame_index": 44
+      },
+      {
+        "requested_seconds": 1.5,
+        "decoded_pts_seconds": 1.523242,
+        "decoded_frame_index": 45
+      },
+      {
+        "requested_seconds": 1.533333,
+        "decoded_pts_seconds": 1.556576,
+        "decoded_frame_index": 46
+      },
+      {
+        "requested_seconds": 1.566667,
+        "decoded_pts_seconds": 1.589909,
+        "decoded_frame_index": 47
+      },
+      {
+        "requested_seconds": 1.6,
+        "decoded_pts_seconds": 1.623242,
+        "decoded_frame_index": 48
+      },
+      {
+        "requested_seconds": 1.633333,
+        "decoded_pts_seconds": 1.656576,
+        "decoded_frame_index": 49
+      },
+      {
+        "requested_seconds": 1.666667,
+        "decoded_pts_seconds": 1.689909,
+        "decoded_frame_index": 50
+      },
+      {
+        "requested_seconds": 1.7,
+        "decoded_pts_seconds": 1.723242,
+        "decoded_frame_index": 51
+      },
+      {
+        "requested_seconds": 1.733333,
+        "decoded_pts_seconds": 1.756576,
+        "decoded_frame_index": 52
+      },
+      {
+        "requested_seconds": 1.766667,
+        "decoded_pts_seconds": 1.789909,
+        "decoded_frame_index": 53
+      },
+      {
+        "requested_seconds": 1.8,
+        "decoded_pts_seconds": 1.823242,
+        "decoded_frame_index": 54
+      },
+      {
+        "requested_seconds": 1.833333,
+        "decoded_pts_seconds": 1.856576,
+        "decoded_frame_index": 55
+      },
+      {
+        "requested_seconds": 1.866667,
+        "decoded_pts_seconds": 1.889909,
+        "decoded_frame_index": 56
+      },
+      {
+        "requested_seconds": 1.9,
+        "decoded_pts_seconds": 1.923242,
+        "decoded_frame_index": 57
+      },
+      {
+        "requested_seconds": 1.933333,
+        "decoded_pts_seconds": 1.956576,
+        "decoded_frame_index": 58
+      },
+      {
+        "requested_seconds": 1.966667,
+        "decoded_pts_seconds": 1.989909,
+        "decoded_frame_index": 59
+      },
+      {
+        "requested_seconds": 2.0,
+        "decoded_pts_seconds": 2.023242,
+        "decoded_frame_index": 60
+      },
+      {
+        "requested_seconds": 2.033333,
+        "decoded_pts_seconds": 2.056576,
+        "decoded_frame_index": 61
+      },
+      {
+        "requested_seconds": 2.066667,
+        "decoded_pts_seconds": 2.089909,
+        "decoded_frame_index": 62
+      }
+    ]
+  },
+  "measurement_method": "Forward/backward checked Lucas-Kanade feature tracks, RANSAC similarity registration to selected anchor-layer features. Residuals distinguish regional motion from a shared transform, not image quality. An anchor layer need not be a physical camera.",
+  "measurements": [
+    {
+      "key": "presenter-held-background",
+      "times": [
+        {
+          "requested_seconds": 0.5,
+          "decoded_pts_seconds": 0.523242,
+          "decoded_frame_index": 15
+        },
+        {
+          "requested_seconds": 1.1,
+          "decoded_pts_seconds": 1.123242,
+          "decoded_frame_index": 33
+        }
+      ],
+      "anchor_boxes_xyxy": [
+        [
+          25,
+          150,
+          582,
+          590
+        ]
+      ],
+      "anchor_tracks": 298,
+      "regions": {
+        "anchor": {
+          "boxes_xyxy": [
+            [
+              25,
+              150,
+              582,
+              590
+            ]
+          ],
+          "tracks": 298,
+          "median_residual_pixels": 0.0008,
+          "p90_residual_pixels": 0.0029,
+          "median_residual_percent_frame_width": 0.0001
+        },
+        "actor": {
+          "boxes_xyxy": [
+            [
+              0,
+              610,
+              608,
+              1079
+            ]
+          ],
+          "tracks": 29,
+          "median_residual_pixels": 47.4643,
+          "p90_residual_pixels": 68.1839,
+          "median_residual_percent_frame_width": 7.8066
+        }
+      },
+      "status": "estimated shared anchor-layer transform",
+      "matrix": [
+        [
+          1.0000012004685925,
+          1.1948500100068535e-06,
+          -0.0006395009366696169
+        ],
+        [
+          -1.1948500100068535e-06,
+          1.0000012004685925,
+          -5.341949147359122e-05
+        ]
+      ],
+      "anchor_inliers": 296,
+      "anchor_inlier_fraction": 0.9933
+    },
+    {
+      "key": "gym-held-background",
+      "times": [
+        {
+          "requested_seconds": 1.323,
+          "decoded_pts_seconds": 1.356576,
+          "decoded_frame_index": 40
+        },
+        {
+          "requested_seconds": 1.823,
+          "decoded_pts_seconds": 1.856576,
+          "decoded_frame_index": 55
+        }
+      ],
+      "anchor_boxes_xyxy": [
+        [
+          0,
+          430,
+          65,
+          610
+        ],
+        [
+          550,
+          430,
+          608,
+          610
+        ]
+      ],
+      "anchor_tracks": 1,
+      "regions": {},
+      "status": "not enough stable anchor tracks"
+    },
+    {
+      "key": "surfer-sky-water",
+      "times": [
+        {
+          "requested_seconds": 46.4,
+          "decoded_pts_seconds": 46.423242,
+          "decoded_frame_index": 1392
+        },
+        {
+          "requested_seconds": 46.533333,
+          "decoded_pts_seconds": 46.556576,
+          "decoded_frame_index": 1396
+        }
+      ],
+      "anchor_boxes_xyxy": [
+        [
+          0,
+          0,
+          608,
+          250
+        ],
+        [
+          0,
+          250,
+          180,
+          440
+        ],
+        [
+          440,
+          250,
+          608,
+          440
+        ]
+      ],
+      "anchor_tracks": 38,
+      "regions": {
+        "anchor": {
+          "boxes_xyxy": [
+            [
+              0,
+              0,
+              608,
+              250
+            ],
+            [
+              0,
+              250,
+              180,
+              440
+            ],
+            [
+              440,
+              250,
+              608,
+              440
+            ]
+          ],
+          "tracks": 38,
+          "median_residual_pixels": 0.2992,
+          "p90_residual_pixels": 2.9138,
+          "median_residual_percent_frame_width": 0.0492
+        },
+        "water": {
+          "boxes_xyxy": [
+            [
+              0,
+              900,
+              608,
+              1080
+            ]
+          ],
+          "tracks": 56,
+          "median_residual_pixels": 46.8953,
+          "p90_residual_pixels": 63.5358,
+          "median_residual_percent_frame_width": 7.713
+        },
+        "actor_and_board": {
+          "boxes_xyxy": [
+            [
+              130,
+              260,
+              490,
+              790
+            ]
+          ],
+          "tracks": 145,
+          "median_residual_pixels": 3.8139,
+          "p90_residual_pixels": 5.3383,
+          "median_residual_percent_frame_width": 0.6273
+        }
+      },
+      "status": "estimated shared anchor-layer transform",
+      "matrix": [
+        [
+          1.0016498808692942,
+          -0.0014575245011467864,
+          -4.53481598524124
+        ],
+        [
+          0.0014575245011467864,
+          1.0016498808692942,
+          -3.205216077780184
+        ]
+      ],
+      "anchor_inliers": 32,
+      "anchor_inlier_fraction": 0.8421
+    },
+    {
+      "key": "approved-test-background",
+      "times": [
+        {
+          "requested_seconds": 8.3,
+          "decoded_pts_seconds": 8.3,
+          "decoded_frame_index": 249
+        },
+        {
+          "requested_seconds": 8.6,
+          "decoded_pts_seconds": 8.6,
+          "decoded_frame_index": 258
+        }
+      ],
+      "anchor_boxes_xyxy": [
+        [
+          0,
+          100,
+          450,
+          970
+        ],
+        [
+          1680,
+          150,
+          1920,
+          970
+        ]
+      ],
+      "anchor_tracks": 500,
+      "regions": {
+        "anchor": {
+          "boxes_xyxy": [
+            [
+              0,
+              100,
+              450,
+              970
+            ],
+            [
+              1680,
+              150,
+              1920,
+              970
+            ]
+          ],
+          "tracks": 500,
+          "median_residual_pixels": 0.0316,
+          "p90_residual_pixels": 0.0688,
+          "median_residual_percent_frame_width": 0.0016
+        },
+        "gesture_arm": {
+          "boxes_xyxy": [
+            [
+              980,
+              450,
+              1280,
+              720
+            ]
+          ],
+          "tracks": 45,
+          "median_residual_pixels": 28.5263,
+          "p90_residual_pixels": 37.5733,
+          "median_residual_percent_frame_width": 1.4857
+        }
+      },
+      "status": "estimated shared anchor-layer transform",
+      "matrix": [
+        [
+          1.0005904973200257,
+          6.522082919203734e-06,
+          -0.6447958878943599
+        ],
+        [
+          -6.522082919203734e-06,
+          1.0005904973200257,
+          -0.3487288045382006
+        ]
+      ],
+      "anchor_inliers": 500,
+      "anchor_inlier_fraction": 1.0
+    }
+  ],
+  "barbell_trace": {
+    "method": "HSV mask H=120..145, S>=70,V=30..220 within x=65..179,y=200..789; largest component >180 pixels. Visible-component bounding-box midpoint (not mass centroid or physical units); upper ROI includes the whole raised disc and V ceiling excludes bright title fill.",
+    "points": [
+      {
+        "pts_seconds": 0.523242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16594
+      },
+      {
+        "pts_seconds": 0.556576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16590
+      },
+      {
+        "pts_seconds": 0.589909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16580
+      },
+      {
+        "pts_seconds": 0.623242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16567
+      },
+      {
+        "pts_seconds": 0.656576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16569
+      },
+      {
+        "pts_seconds": 0.689909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16567
+      },
+      {
+        "pts_seconds": 0.723242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16569
+      },
+      {
+        "pts_seconds": 0.756576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16566
+      },
+      {
+        "pts_seconds": 0.789909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16572
+      },
+      {
+        "pts_seconds": 0.823242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16573
+      },
+      {
+        "pts_seconds": 0.856576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16577
+      },
+      {
+        "pts_seconds": 0.889909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16581
+      },
+      {
+        "pts_seconds": 0.923242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16582
+      },
+      {
+        "pts_seconds": 0.956576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16584
+      },
+      {
+        "pts_seconds": 0.989909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16579
+      },
+      {
+        "pts_seconds": 1.023242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16579
+      },
+      {
+        "pts_seconds": 1.056576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16579
+      },
+      {
+        "pts_seconds": 1.089909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16579
+      },
+      {
+        "pts_seconds": 1.123242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16579
+      },
+      {
+        "pts_seconds": 1.156576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16575
+      },
+      {
+        "pts_seconds": 1.189909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16570
+      },
+      {
+        "pts_seconds": 1.223242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          640.0
+        ],
+        "mask_area": 16569
+      },
+      {
+        "pts_seconds": 1.256576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          639.0
+        ],
+        "mask_area": 16620
+      },
+      {
+        "pts_seconds": 1.289909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          638.0
+        ],
+        "mask_area": 16556
+      },
+      {
+        "pts_seconds": 1.323242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          636.0
+        ],
+        "mask_area": 16541
+      },
+      {
+        "pts_seconds": 1.356576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          634.0
+        ],
+        "mask_area": 16568
+      },
+      {
+        "pts_seconds": 1.389909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          631.0
+        ],
+        "mask_area": 16621
+      },
+      {
+        "pts_seconds": 1.423242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          627.0
+        ],
+        "mask_area": 16613
+      },
+      {
+        "pts_seconds": 1.456576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          621.0
+        ],
+        "mask_area": 16613
+      },
+      {
+        "pts_seconds": 1.489909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          615.0
+        ],
+        "mask_area": 16650
+      },
+      {
+        "pts_seconds": 1.523242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          606.0
+        ],
+        "mask_area": 16568
+      },
+      {
+        "pts_seconds": 1.556576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          595.0
+        ],
+        "mask_area": 16610
+      },
+      {
+        "pts_seconds": 1.589909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          579.0
+        ],
+        "mask_area": 16563
+      },
+      {
+        "pts_seconds": 1.623242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          559.0
+        ],
+        "mask_area": 16607
+      },
+      {
+        "pts_seconds": 1.656576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          531.0
+        ],
+        "mask_area": 16601
+      },
+      {
+        "pts_seconds": 1.689909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          494.0
+        ],
+        "mask_area": 16498
+      },
+      {
+        "pts_seconds": 1.723242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          457.0
+        ],
+        "mask_area": 16567
+      },
+      {
+        "pts_seconds": 1.756576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          428.0
+        ],
+        "mask_area": 16469
+      },
+      {
+        "pts_seconds": 1.789909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          408.0
+        ],
+        "mask_area": 16479
+      },
+      {
+        "pts_seconds": 1.823242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          393.0
+        ],
+        "mask_area": 16353
+      },
+      {
+        "pts_seconds": 1.856576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          382.0
+        ],
+        "mask_area": 16095
+      },
+      {
+        "pts_seconds": 1.889909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          373.0
+        ],
+        "mask_area": 15844
+      },
+      {
+        "pts_seconds": 1.923242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          366.0
+        ],
+        "mask_area": 15640
+      },
+      {
+        "pts_seconds": 1.956576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          361.0
+        ],
+        "mask_area": 15554
+      },
+      {
+        "pts_seconds": 1.989909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          357.0
+        ],
+        "mask_area": 15384
+      },
+      {
+        "pts_seconds": 2.023242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          353.0
+        ],
+        "mask_area": 15266
+      },
+      {
+        "pts_seconds": 2.056576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          351.0
+        ],
+        "mask_area": 15197
+      },
+      {
+        "pts_seconds": 2.089909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          349.0
+        ],
+        "mask_area": 15214
+      },
+      {
+        "pts_seconds": 2.123242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          348.0
+        ],
+        "mask_area": 15112
+      },
+      {
+        "pts_seconds": 2.156576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          347.0
+        ],
+        "mask_area": 15150
+      },
+      {
+        "pts_seconds": 2.189909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          347.0
+        ],
+        "mask_area": 15155
+      },
+      {
+        "pts_seconds": 2.223242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          347.0
+        ],
+        "mask_area": 15165
+      },
+      {
+        "pts_seconds": 2.256576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          347.0
+        ],
+        "mask_area": 15154
+      },
+      {
+        "pts_seconds": 2.289909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          347.5
+        ],
+        "mask_area": 15137
+      },
+      {
+        "pts_seconds": 2.323242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          347.5
+        ],
+        "mask_area": 15128
+      },
+      {
+        "pts_seconds": 2.356576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          348.0
+        ],
+        "mask_area": 15110
+      },
+      {
+        "pts_seconds": 2.389909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          348.0
+        ],
+        "mask_area": 15109
+      },
+      {
+        "pts_seconds": 2.423242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          348.0
+        ],
+        "mask_area": 15114
+      },
+      {
+        "pts_seconds": 2.456576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          348.0
+        ],
+        "mask_area": 15109
+      },
+      {
+        "pts_seconds": 2.489909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          349.0
+        ],
+        "mask_area": 15159
+      },
+      {
+        "pts_seconds": 2.523242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          349.0
+        ],
+        "mask_area": 15174
+      },
+      {
+        "pts_seconds": 2.556576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          349.0
+        ],
+        "mask_area": 15189
+      },
+      {
+        "pts_seconds": 2.589909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          349.0
+        ],
+        "mask_area": 15221
+      },
+      {
+        "pts_seconds": 2.623242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          349.0
+        ],
+        "mask_area": 15237
+      },
+      {
+        "pts_seconds": 2.656576,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          349.0
+        ],
+        "mask_area": 15248
+      },
+      {
+        "pts_seconds": 2.689909,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          349.0
+        ],
+        "mask_area": 15230
+      },
+      {
+        "pts_seconds": 2.723242,
+        "disc_bbox_midpoint_xy": [
+          128.0,
+          349.0
+        ],
+        "mask_area": 15292
+      }
+    ],
+    "plot": "sheets/lift-timing.png"
+  },
+  "approved_visual_lock": {
+    "status": "User passed the drawings; only motion/narration study authorized here. All listed files unchanged.",
+    "files": {
+      "assets/characters/static-test-01.png": "72842deef29e191d0f0699c66684d57b6869a0b4cfb2d50937a268f54b80b73f",
+      "assets/videos/approved-characters-20s.mp4": "9d6d7352e171a754f987e7f2757fa713fe55374abef58f90a924a25bfe8a3649",
+      "public/assets/artwork/approved-characters/atlas.png": "81f99ec7cced2dee6b1ad6691b639339e6150c5d89d56950e853d40e57efc89b",
+      "public/assets/artwork/approved-characters/blinks.png": "3a7ed4fc4149dddad7e3a271299f44b310ebacc61723a8d2b1a8fd34edb7a706",
+      "public/assets/artwork/approved-characters/plaza.png": "8acc40871dcfe6befb1baf6bfbd8be037d384f41a0e58da3df3acf1506549501",
+      "public/assets/artwork/approved-characters/terrace.png": "19c87a556cab7342a587d25357c827901eeb43ee0436fb363a7d36a6221b6475"
+    }
+  },
+  "limits": [
+    "Native source frames were decoded and selected dense intervals inspected; no claim of having watched blocked full episodes.",
+    "Uploaded sources are compressed, portrait reference files. Their edit rate does not prescribe long-form pacing.",
+    "Source footage does not identify a particular private rig, plugin, 2D/3D scene file, or animation software.",
+    "The silent loops cannot establish narration performance or sound-effects choices."
+  ],
+  "tool_versions": {
+    "opencv": "5.0.0",
+    "numpy": "2.3.5"
+  }
+}

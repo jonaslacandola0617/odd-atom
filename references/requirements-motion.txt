@@ -1,0 +1,4 @@
+# Study tooling only; does not alter the Remotion application's dependencies.
+opencv-python-headless==5.0.0.93
+numpy>=2.0,<3
+Pillow>=11

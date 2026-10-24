@@ -1,5 +1,7 @@
 # Odd Atom — original explanatory animation
 
+**Artwork passed; current focus is animation and narration.** The [motion study](references/studies/motion-2026-10-24/README.md) contains source-motion loops, dense frame sheets, timing/region measurements, official process evidence, and a [next-pass plan](docs/production/motion-next-pass.md). The approved drawings, background plates and current export were preserved unchanged during the study.
+
 **Approved character master:** [View/download the static sheet](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/characters/static-test-01.png). The user approved these Mira and Sol designs; the latest film adapts them into animated illustrated cutouts.
 
 The latest test is **Alone in a crowd with the approved characters**: a 20-second, 1920 × 1080, 30 fps Remotion film about proximity and connection. Mira and Sol have separate head, body, and arm layers, matching illustrated environments, and the existing generated ElevenLabs narration, aligned captions, original music, and ambience.

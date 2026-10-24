@@ -1,0 +1,44 @@
+{
+  "retrieved_utc": "2026-10-24T03:33:36.341218+00:00",
+  "official_process": {
+    "url": "https://kurzgesagt.org/what-we-do?visit=videos",
+    "http_status": 200,
+    "html_sha256": "c2667642fa8fc4a13c6f76647fde0e36d1ea212f1697e19db68a89336e40407c",
+    "section": "Our video process / Voiceover and Animation / Music and Soundeffects",
+    "short_quotes": [
+      "His voiceover provides the timing for the animation team",
+      "We combine classic 2D flat animation with 3D elements"
+    ],
+    "paraphrased_findings": [
+      "Voiceover timing guides the animation team.",
+      "The studio reports combining flat 2D animation with 3D elements.",
+      "Illustration follows scene/visual-metaphor sketching, and includes vector and pixel-based illustration.",
+      "Each video gets a specifically composed soundtrack."
+    ],
+    "limits": "This page does not identify the exact rig/plugin used for the supplied clips."
+  },
+  "network_checks": [
+    {
+      "key": "loneliness-youtube",
+      "url": "https://www.youtube.com/watch?v=n3Xv_g3g-mA",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "key": "selected-youtube",
+      "url": "https://www.youtube.com/watch?v=_y9JuojAIg0",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "key": "official-about",
+      "url": "https://kurzgesagt.org/about",
+      "status": 200,
+      "bytes": 360050,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "key": "process-search",
+      "url": "https://www.google.com/search?q=Kurzgesagt+animation+After+Effects+process",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
