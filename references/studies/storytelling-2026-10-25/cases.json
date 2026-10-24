@@ -1,0 +1,414 @@
+{
+  "caption_mask_normalized_xyxy": [
+    0,
+    0.748,
+    1,
+    0.813
+  ],
+  "mask_notice": "Opaque study redactions remove narration captions and may obscure other pixels within those rectangles. They are not reconstructed artwork. Scientific labels remain except in the four explicitly words-off cases.",
+  "cases": [
+    {
+      "key": "takeoff",
+      "source": 5,
+      "start": 25.32,
+      "end": 26.85,
+      "title": "Preparation makes the takeoff understandable",
+      "function": "Intent, effort, contact and consequence",
+      "key_times": [
+        25.6,
+        25.8667,
+        26.1667
+      ],
+      "words_off": true,
+      "extra_masks": [],
+      "before": "The actor is grounded over a shadow, with bent knees and raised wings.",
+      "action": "Knees extend and the wing stroke changes; feet separate from the ground shadow.",
+      "after": "The actor is visibly airborne, with the legs and wings continuing different phases of movement.",
+      "visible_without_words": "A winged character prepares and takes off; the movement takes effort rather than being a rigid upward slide.",
+      "needs_language": "Which anatomical changes could make human flight possible, and the conditional scientific argument surrounding this imagined character.",
+      "removing_motion_loses": "A floating final pose would omit the push, effort and change of contact that explain how the actor left the ground.",
+      "lesson": "Stage a readable intention, physical action and changed relationship to the environment. Keep a ground/contact reference."
+    },
+    {
+      "key": "receptor-fit",
+      "source": 2,
+      "start": 14.6,
+      "end": 17.2,
+      "title": "A moving particle reaches a specific attachment site",
+      "function": "Mechanism through destination and contact",
+      "key_times": [
+        14.8,
+        15.6667,
+        16.8
+      ],
+      "words_off": true,
+      "extra_masks": [
+        [
+          0.15,
+          0.34,
+          0.39,
+          0.405
+        ],
+        [
+          0.51,
+          0.63,
+          0.81,
+          0.696
+        ]
+      ],
+      "before": "Particle groups are separated from a row of branching receptor shapes.",
+      "action": "Orange particles leave the upper structure, cross the gap and settle at particular receptor tips; turquoise particles continue approaching.",
+      "after": "Some receptor tips retain attached particles instead of every particle merely drifting past.",
+      "visible_without_words": "Small objects travel to and attach at specific sites on another structure.",
+      "needs_language": "The identities psilocin/serotonin, receptor activation and the neurological consequences. Attachment alone does not visibly prove an electrical or biochemical signal.",
+      "removing_motion_loses": "A field of colored dots beside a membrane would omit the origin, direction and binding event.",
+      "lesson": "Give particles a source, destination, contact rule and persistent post-contact state."
+    },
+    {
+      "key": "pruning",
+      "source": 7,
+      "start": 61.15,
+      "end": 64.2,
+      "title": "A comparison makes selective removal legible",
+      "function": "Stable control, intervention and consequence",
+      "key_times": [
+        61.45,
+        62.8,
+        63.6
+      ],
+      "words_off": true,
+      "extra_masks": [
+        [
+          0.24,
+          0.085,
+          0.77,
+          0.225
+        ]
+      ],
+      "before": "Two parallel connections occupy a stable view; the upper one carries repeated bright signal marks.",
+      "action": "Scissors enter and close across the lower connection.",
+      "after": "Its ends retract into a visible gap while the upper connection remains continuous.",
+      "visible_without_words": "One connection is deliberately severed while its neighbor is preserved.",
+      "needs_language": "That these represent synapses, which activity-dependent biological processes select them, and why literal scissors are a metaphor.",
+      "removing_motion_loses": "Two final lines, one broken, would not explain the intervention or its order. Removing the intact upper comparison would weaken the selectivity.",
+      "lesson": "Hold one reference unchanged while the explanatory variable changes. Preserve the resulting gap."
+    },
+    {
+      "key": "balance-fall",
+      "source": 7,
+      "start": 37.05,
+      "end": 42.55,
+      "title": "Acting makes struggling with balance visible",
+      "function": "Attempt, instability and setback",
+      "key_times": [
+        37.35,
+        38.85,
+        42.25
+      ],
+      "words_off": true,
+      "extra_masks": [],
+      "before": "The baby is upright with a small footprint and arms spread for balance.",
+      "action": "The body leans, the limbs counterbalance, and an internal stylized view briefly emphasizes the body/brain relationship.",
+      "after": "The baby ends seated on the ground, with a changed facial expression.",
+      "visible_without_words": "The child attempts to balance or move and loses balance.",
+      "needs_language": "That this illustrates learning and a mental challenge. This selected range does not show a successful retry or prove improvement.",
+      "removing_motion_loses": "An isolated sitting baby would not communicate the failed attempt that led to the seated pose.",
+      "lesson": "Use whole-body poses and balance changes to communicate an attempt and outcome. Show a later successful attempt if the intended proposition is learning."
+    },
+    {
+      "key": "saffron-effect",
+      "source": 1,
+      "start": 30.78,
+      "end": 33.45,
+      "title": "Delivery followed by reaction gives the prop a purpose",
+      "function": "Causal path and emotional consequence",
+      "key_times": [
+        30.8,
+        31.7,
+        32.85
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A bowl is positioned above an anatomical head with an alert-looking brain character.",
+      "action": "The bowl tilts and specks fall toward the brain.",
+      "after": "The brain's expression becomes drowsy and conventional sleep marks appear.",
+      "visible_without_words": "Something delivered from the bowl is associated with a sleepy reaction. The sleep marks contribute an established visual convention.",
+      "needs_language": "The substance, its chemical constituent, dose and medical interpretation. The cartoon is not a complete mechanism or dosing instruction.",
+      "removing_motion_loses": "Floating a bowl beside a head would not establish delivery or a change in the recipient.",
+      "lesson": "Connect source to recipient, then change the recipient's state. Movement should produce a consequence."
+    },
+    {
+      "key": "fluid-loss",
+      "source": 1,
+      "start": 40.2,
+      "end": 44.0,
+      "title": "Anatomical state change communicates danger",
+      "function": "Loss, deformation and escalation",
+      "key_times": [
+        40.3,
+        41.8,
+        43.8
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "The brain/head is shown with visible water-drop symbols nearby.",
+      "action": "Droplets depart and the anatomical head/brain silhouette contracts.",
+      "after": "Expressions and a red descending graphic change the scene's meaning toward harm.",
+      "visible_without_words": "Loss of fluid is associated with a worsening bodily state.",
+      "needs_language": "The prior salt exposure, osmotic mechanism, exact anatomical changes and clinical consequences. Screen-space shrinking alone is not a measurement of biological tissue loss.",
+      "removing_motion_loses": "An intact head with decorative droplets would not communicate loss and deterioration.",
+      "lesson": "Make the changed quantity and consequence visible against stable references; use color escalation after the physical change is established."
+    },
+    {
+      "key": "filter-opens",
+      "source": 2,
+      "start": 22.3,
+      "end": 25.4,
+      "title": "Changing the boundary changes the experience",
+      "function": "Visual metaphor for a hidden process",
+      "key_times": [
+        22.45,
+        23.4,
+        24.85
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A small brain remains inside a circular boundary.",
+      "action": "The boundary shrinks/disappears; the brain remains and a colored field grows outward.",
+      "after": "The environment is filled by changing bands around the same brain.",
+      "visible_without_words": "A contained subject becomes exposed to, or surrounded by, a much larger changing field.",
+      "needs_language": "The specific perceptual-filter claim and its limits. This is an explanatory metaphor, not literal colored anatomy.",
+      "removing_motion_loses": "A psychedelic background alone would communicate mood without the prior containment and its removal.",
+      "lesson": "Give a metaphor a rule, show that rule changing, then let the changed rule affect the scene."
+    },
+    {
+      "key": "landmine-threat",
+      "source": 3,
+      "start": 17.0,
+      "end": 20.4,
+      "title": "The environment introduces a threat to ordinary work",
+      "function": "Stake, interruption and attention hierarchy",
+      "key_times": [
+        17.1,
+        18.5,
+        19.7
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "Farmers work recognizable rows in a cultivated field.",
+      "action": "A large red skull-warning sign enters the foreground and takes visual priority.",
+      "after": "A small land parcel/ground diagram replaces the field to introduce the next explanation.",
+      "visible_without_words": "An ordinary activity takes place in a dangerous setting. The warning icon supplies a familiar threat cue.",
+      "needs_language": "The exact hidden hazard and economic costs. This range does not visibly show the farmers stopping or a mine detonating.",
+      "removing_motion_loses": "A warning already present from the first frame would weaken the reveal of danger; the red foreground entrance changes what the viewer attends to.",
+      "lesson": "Establish normal activity before introducing the threat. Let foreground scale/value redirect attention for a reason."
+    },
+    {
+      "key": "fear-rhyme",
+      "source": 3,
+      "start": 55.1,
+      "end": 61.4,
+      "title": "Matching vulnerable poses connect human consequences",
+      "function": "Empathy, stillness and a visual rhyme",
+      "key_times": [
+        56.3,
+        59.4,
+        60.95
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A soldier sits hunched with clasped hands, a distressed face and a weapon on the ground.",
+      "action": "A cut introduces a child crouched under a desk in a similarly protective pose; later a DNA symbol is overlaid.",
+      "after": "The child remains small and sheltered by the furniture, holding the vulnerable state.",
+      "visible_without_words": "Distress and protective behavior connect two human situations. The quiet staging makes vulnerability readable.",
+      "needs_language": "The statistical claims and any asserted intergenerational mechanism. A DNA symbol alone cannot establish how trauma is transmitted.",
+      "removing_motion_loses": "Removing purposeful pose/expression would weaken empathy. Adding constant idle bouncing would compete with the held emotional state.",
+      "lesson": "A deliberate hold can carry a story. Match meaningful body states across shots, and keep the scientific explanation distinct from the emotional analogy."
+    },
+    {
+      "key": "collision",
+      "source": 4,
+      "start": 25.0,
+      "end": 28.6,
+      "title": "Contact creates the consequence",
+      "function": "Approach, collision and changed state",
+      "key_times": [
+        25.6,
+        26.65,
+        27.8
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "Two differently colored galaxy-like systems occupy separate positions.",
+      "action": "The lower system approaches and overlaps the upper one; the contact becomes increasingly luminous.",
+      "after": "A bright emission/burst representation occupies the collision location.",
+      "visible_without_words": "The two systems meeting is associated with a large energetic consequence.",
+      "needs_language": "Matter versus antimatter and the hypothetical nature of this scenario. Ordinary galaxy collisions must not be implied to annihilate this way.",
+      "removing_motion_loses": "A standalone burst would omit what interacted to produce the illustrated consequence.",
+      "lesson": "Show distinct participants before contact, time the response to the interaction, and preserve where it happened."
+    },
+    {
+      "key": "research-focus",
+      "source": 4,
+      "start": 42.0,
+      "end": 46.2,
+      "title": "A busy gag resolves into one explanation",
+      "function": "Comic interruption followed by focus",
+      "key_times": [
+        42.3,
+        44.4,
+        45.8
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "The researcher and a smaller bird share a room with many papers; the smaller bird has fallen from its perch.",
+      "action": "Papers move through the foreground and obscure the actors; one page separates and stays bright as the room recedes.",
+      "after": "A single model page becomes the next focal subject.",
+      "visible_without_words": "A chaotic interruption is followed by attention narrowing to one document.",
+      "needs_language": "What the scientific problem is and what the selected page's model asserts. The gag is not itself a physics mechanism.",
+      "removing_motion_loses": "A wall of equally prominent paper images would provide neither the interruption nor the selection that guides attention.",
+      "lesson": "Resolve visual busyness into one relevant object. Use humor to support attention and tone, with a readable return to the explanation."
+    },
+    {
+      "key": "food-cost",
+      "source": 5,
+      "start": 48.3,
+      "end": 52.5,
+      "title": "An increasing pile makes quantity tangible",
+      "function": "Concrete accumulation and comparison",
+      "key_times": [
+        48.95,
+        50.9,
+        51.9
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A plate receives food, forming a smaller burger grouping.",
+      "action": "Additional burgers drop into the same plate/stack.",
+      "after": "A larger food pile remains, emphasized by a radial graphic.",
+      "visible_without_words": "More food is required/being accumulated than in the earlier state; the plate is a stable comparison anchor.",
+      "needs_language": "Why food represents flight energy, the comparison with running, time interval and calorie equivalences. A growing pile alone does not specify those units.",
+      "removing_motion_loses": "One final food illustration would omit the smaller baseline and the act of adding more.",
+      "lesson": "Show quantity changing on the same anchor instead of replacing one large number with another."
+    },
+    {
+      "key": "compression",
+      "source": 6,
+      "start": 10.8,
+      "end": 15.7,
+      "title": "Manipulation changes the material before the analogy",
+      "function": "Mechanical action followed by an abstract consequence",
+      "key_times": [
+        11.0,
+        12.5,
+        14.7
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "Hands hold the ends of several long molecular-strand illustrations.",
+      "action": "The strands bow and slide relative to one another as their ends are manipulated.",
+      "after": "A fiber with differentiated sides/charge labels and an electrical mark leads into a battery analogy.",
+      "visible_without_words": "Mechanical manipulation deforms an organized material, and an electrical association follows.",
+      "needs_language": "Collagen, piezoelectricity, charge separation and the limits of the battery analogy. The labeled signs carry essential polarity information.",
+      "removing_motion_loses": "A rotating finished fiber would not demonstrate the material responding to manipulation.",
+      "lesson": "Animate the material response to a specific force; use metaphor after the causal action, not as a replacement for it."
+    },
+    {
+      "key": "repair-worker",
+      "source": 6,
+      "start": 51.7,
+      "end": 54.1,
+      "title": "A builder metaphor gives cellular work an intention",
+      "function": "Agent, destination and localized work",
+      "key_times": [
+        52.25,
+        53.3,
+        53.9
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A helmeted cell character with a bucket approaches the exposed bone surface.",
+      "action": "It moves to a specific surface location and brings its working hand/material toward the edge.",
+      "after": "Work is concentrated at that edge rather than being a decorative orbit around the diagram.",
+      "visible_without_words": "A builder-like agent is working on a particular surface.",
+      "needs_language": "Osteoblast identity, the material being deposited and the signal that recruits this work. An earlier speech bubble explicitly says the signal may involve fluid flow or electrical charge; the mechanism must not be presented as settled.",
+      "removing_motion_loses": "A helmeted cell floating beside bone would retain the costume but omit the destination and work.",
+      "lesson": "Design the character's action around its job. Preserve explicit uncertainty instead of making a smooth animation imply a solved mechanism."
+    },
+    {
+      "key": "orbital-ring",
+      "source": 8,
+      "start": 44.4,
+      "end": 50.6,
+      "title": "An orbit accumulates a visible consequence",
+      "function": "Persistent trace and changing environment",
+      "key_times": [
+        44.8,
+        47.4,
+        49.8
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "An orbiting body travels around Earth with relatively little visible ring material.",
+      "action": "Tracks/material accumulate around the same orbit as the body continues moving.",
+      "after": "A ring becomes visible, changes/fades, and the orbital subject persists.",
+      "visible_without_words": "Repeated travel is associated with an accumulating ring and its later change.",
+      "needs_language": "Io, sulfur, the proposed scenario, ring persistence and physical mechanism. The source's not-to-scale note is important and remains visible.",
+      "removing_motion_loses": "A rotating moon beside an already finished ring would omit accumulation and change over time.",
+      "lesson": "Let an object's action leave an explanatory trace in the environment, with an initial state and persistent result."
+    },
+    {
+      "key": "aurora-reveal",
+      "source": 8,
+      "start": 55.1,
+      "end": 58.9,
+      "title": "An expectation hold prepares an environmental payoff",
+      "function": "Attention, anticipation and shared wonder",
+      "key_times": [
+        55.5,
+        57.25,
+        58.45
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "Observers sit beneath a large quiet sky.",
+      "action": "A few colored fragments appear overhead before wider auroral curtains spread through the sky.",
+      "after": "The sky has become the main event while the observers give it a human scale and point of view.",
+      "visible_without_words": "People are watching a striking sky event develop.",
+      "needs_language": "How particles from the hypothetical moon scenario would produce it. A beautiful aurora does not independently explain the preceding magnetic interaction.",
+      "removing_motion_loses": "A fully lit sky from the outset would omit expectation, arrival and reveal.",
+      "lesson": "Reserve a quiet state so an environmental change can become an event. Keep the observer's attention aligned with it."
+    },
+    {
+      "key": "water-control",
+      "source": 8,
+      "start": 15.0,
+      "end": 18.4,
+      "title": "Control: moving water does not independently explain tides",
+      "function": "Boundary between atmosphere and explanation",
+      "key_times": [
+        15.1,
+        16.6,
+        18.2
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "control": true,
+      "before": "A stylized ocean and night sky occupy the scene.",
+      "action": "Water highlights move and a pier/observer enters the framing.",
+      "after": "The viewer has a situated ocean view, but this selected range does not stage a clear repeated high/low tide comparison.",
+      "visible_without_words": "A person is by an ocean with moving highlights.",
+      "needs_language": "The moon's density and the claim about altered tides. Those facts cannot be recovered from the ambient motion in this range alone.",
+      "removing_motion_loses": "Removing the highlights reduces atmosphere but does not remove a visually demonstrated tide mechanism, because one is not established in this interval.",
+      "lesson": "Atmosphere has a legitimate role, but it cannot substitute for the event or comparison that must teach the intended idea."
+    }
+  ],
+  "source_caption_masks": {
+    "6": [
+      0,
+      0.705,
+      1,
+      0.765
+    ]
+  }
+}

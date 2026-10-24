@@ -56,5 +56,11 @@ report={'file':str(MOVIE.relative_to(ROOT)),'sha256':hashlib.file_digest(MOVIE.o
         'full_decode':'passed','creative_status':'pending user review',
         'artwork':'Simple original authored SVG paths animated in Remotion; no image generation or reused singularity imagery.',
         'review_notes':'Representative encoded frames and transitional sequences inspected. Scene/hand-off sheets are spaced samples, not every source frame. GIF is a silent 20fps proxy with an artificial loop restart. Technical checks do not establish a creative pass.'}
+feedback_path=DOC/'user-review.json'
+if feedback_path.exists():
+    feedback=json.loads(feedback_path.read_text())
+    if feedback.get('sha256')==report['sha256']:
+        report['creative_status']=feedback['status']
+        report['user_review']=str(feedback_path.relative_to(ROOT))
 (DOC/'delivery.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))

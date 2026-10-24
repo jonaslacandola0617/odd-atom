@@ -1,5 +1,7 @@
 # User-selected visual references
 
+The current [visual-storytelling study](studies/storytelling-2026-10-25/README.md) examines sixteen selected storytelling intervals plus an ambient-motion control across all eight supplied samples. Silent, narration-caption-redacted excerpts, four words-off examples, before/action/after strips and five official studio resources distinguish explanatory action from decorative movement. It also records what still needs language and provides a practical shot-planning template. The user approved the preceding six-scene transition test; that baseline stays intact.
+
 The current [motion-led transition study](studies/transitions-2026-10-25/README.md) inspects twelve selected animated handoffs in the supplied footage, with short source loops, five consecutive-frame sequences and a comparison against every major join in the rejected singularity cut. The requested focus is animation that connects scenes through continuing objects/actions, beyond camera cuts or effect presets.
 
 The [motion study](studies/motion-2026-10-24/README.md) now examines selected sequences across all eight uploaded reference clips, with short motion loops, dense frame sheets, a timing trace, background/actor registration checks, and official production-process evidence. It is separate from the three blocked full-episode links below. The current approved artwork is preserved; [the next-pass plan](../docs/production/motion-next-pass.md) focuses on acting, environmental motion, and narration timing.

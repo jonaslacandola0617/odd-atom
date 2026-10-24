@@ -1,0 +1,3044 @@
+{
+  "review_date_local": "2026-10-25",
+  "timezone": "Asia/Manila",
+  "scope": "16 selected storytelling intervals and one ambient-motion control across all eight supplied reference videos, with four words-off examples and four consecutive-frame intervals. Five official studio production/case-study pages and four official stills were inspected. This is not a new full-episode YouTube review.",
+  "sources": [
+    {
+      "id": 1,
+      "filename": "The Deadliest Thing in Your Kitchen.mp4",
+      "sha256": "f392f8bc9f58fc99f6869dce6064f0618f3171a383806c406b767b7d106eeec8",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30950400/1032037",
+            "start_time": "0.000000",
+            "duration": "67.189909"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "67.221769"
+          }
+        ],
+        "format": {
+          "duration": "67.221769"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "filename": "Your Brain on Magic Mushrooms.mp4",
+      "sha256": "f2e0dab939857cacd5564d6ff3eb7cf1a5e7b2919fe8125d3bfe489d06cc082a",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "10828800/361079",
+            "start_time": "0.000000",
+            "duration": "70.523242"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "70.588662"
+          }
+        ],
+        "format": {
+          "duration": "70.588662"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "filename": "The True Cost of War.mp4",
+      "sha256": "d0af8eac9b601f1df69eaa967beaeb80e453b5922b8b4497521cdac2a0ba5cbe",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "11059200/368759",
+            "start_time": "0.000000",
+            "duration": "72.023242"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "72.074739"
+          }
+        ],
+        "format": {
+          "duration": "72.074739"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "filename": "Where Did the Antimatter Go_.mp4",
+      "sha256": "7cbef5c3f0e8ffcb6052d7307442dfc547a2580d1e7ebf2c6ef2d059befc8b4e",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 360,
+            "height": 640,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "start_time": "0.000000",
+            "duration": "75.033333"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "75.072000"
+          }
+        ],
+        "format": {
+          "duration": "75.072000"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "filename": "Could Humans Evolve Flight.mp4",
+      "sha256": "aae933ef8ed52f40ef2a8658e3ea8dbe953e4e288dd51958640631121c5c7dab",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 480,
+            "height": 854,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "start_time": "0.033333",
+            "duration": "72.466667"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "72.515918"
+          }
+        ],
+        "format": {
+          "duration": "72.515918"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "filename": "Your Skeleton Is Electric.mp4",
+      "sha256": "9f097af40530be9009301515348797507e135d0c2cd497e959b3afe6d687d95e",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "4730880/157747",
+            "start_time": "0.000000",
+            "duration": "71.889909"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "71.935420"
+          }
+        ],
+        "format": {
+          "duration": "71.935420"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "filename": "Your Brain Peaked at Birth.mp4",
+      "sha256": "d59a423622f6c6e4bbc608d04fb15c142495d8763ee3669f020c9187b09a4537",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "11197440/373367",
+            "start_time": "0.000000",
+            "duration": "72.923242"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "72.980317"
+          }
+        ],
+        "format": {
+          "duration": "72.980317"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "filename": "Let\u2019s Steal a New Moon.mp4",
+      "sha256": "80023aa9ad505b20f479c3b71e01023f60c3284638bfc341a6b53df8640ba88d",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 608,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "32332800/1078117",
+            "start_time": "0.000000",
+            "duration": "70.189909"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "start_time": "0.000000",
+            "duration": "70.263583"
+          }
+        ],
+        "format": {
+          "duration": "70.263583"
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "key": "takeoff",
+      "source": 5,
+      "start": 25.32,
+      "end": 26.85,
+      "title": "Preparation makes the takeoff understandable",
+      "function": "Intent, effort, contact and consequence",
+      "key_times": [
+        25.6,
+        25.8667,
+        26.1667
+      ],
+      "words_off": true,
+      "extra_masks": [],
+      "before": "The actor is grounded over a shadow, with bent knees and raised wings.",
+      "action": "Knees extend and the wing stroke changes; feet separate from the ground shadow.",
+      "after": "The actor is visibly airborne, with the legs and wings continuing different phases of movement.",
+      "visible_without_words": "A winged character prepares and takes off; the movement takes effort rather than being a rigid upward slide.",
+      "needs_language": "Which anatomical changes could make human flight possible, and the conditional scientific argument surrounding this imagined character.",
+      "removing_motion_loses": "A floating final pose would omit the push, effort and change of contact that explain how the actor left the ground.",
+      "lesson": "Stage a readable intention, physical action and changed relationship to the environment. Keep a ground/contact reference.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/takeoff.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 25.32,
+            "decoded_pts_seconds": 25.333333,
+            "decoded_frame_index": 760
+          },
+          {
+            "requested_seconds": 25.45909090909091,
+            "decoded_pts_seconds": 25.466667,
+            "decoded_frame_index": 764
+          },
+          {
+            "requested_seconds": 25.598181818181818,
+            "decoded_pts_seconds": 25.6,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 25.737272727272728,
+            "decoded_pts_seconds": 25.733333,
+            "decoded_frame_index": 772
+          },
+          {
+            "requested_seconds": 25.87636363636364,
+            "decoded_pts_seconds": 25.866667,
+            "decoded_frame_index": 776
+          },
+          {
+            "requested_seconds": 26.015454545454546,
+            "decoded_pts_seconds": 26.0,
+            "decoded_frame_index": 780
+          },
+          {
+            "requested_seconds": 26.154545454545456,
+            "decoded_pts_seconds": 26.166667,
+            "decoded_frame_index": 785
+          },
+          {
+            "requested_seconds": 26.293636363636363,
+            "decoded_pts_seconds": 26.3,
+            "decoded_frame_index": 789
+          },
+          {
+            "requested_seconds": 26.432727272727274,
+            "decoded_pts_seconds": 26.433333,
+            "decoded_frame_index": 793
+          },
+          {
+            "requested_seconds": 26.571818181818184,
+            "decoded_pts_seconds": 26.566667,
+            "decoded_frame_index": 797
+          },
+          {
+            "requested_seconds": 26.71090909090909,
+            "decoded_pts_seconds": 26.7,
+            "decoded_frame_index": 801
+          },
+          {
+            "requested_seconds": 26.85,
+            "decoded_pts_seconds": 26.866667,
+            "decoded_frame_index": 806
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/takeoff.jpg",
+        "samples": [
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.6,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 25.8667,
+            "decoded_pts_seconds": 25.866667,
+            "decoded_frame_index": 776
+          },
+          {
+            "requested_seconds": 26.1667,
+            "decoded_pts_seconds": 26.166667,
+            "decoded_frame_index": 785
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/takeoff.gif",
+        "sha256": "b0382c79ae42f85cde764b9fc85c92d0a16e7d0759a19f257b24360c9437b759",
+        "bytes": 490605,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      },
+      "dense": {
+        "file": "sheets/takeoff-dense.jpg",
+        "consecutive": true,
+        "samples": [
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.5,
+            "decoded_frame_index": 765
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.533333,
+            "decoded_frame_index": 766
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.566667,
+            "decoded_frame_index": 767
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.6,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.633333,
+            "decoded_frame_index": 769
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.666667,
+            "decoded_frame_index": 770
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.7,
+            "decoded_frame_index": 771
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.733333,
+            "decoded_frame_index": 772
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.766667,
+            "decoded_frame_index": 773
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.8,
+            "decoded_frame_index": 774
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.833333,
+            "decoded_frame_index": 775
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.866667,
+            "decoded_frame_index": 776
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.9,
+            "decoded_frame_index": 777
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.933333,
+            "decoded_frame_index": 778
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 25.966667,
+            "decoded_frame_index": 779
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 26.0,
+            "decoded_frame_index": 780
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 26.033333,
+            "decoded_frame_index": 781
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 26.066667,
+            "decoded_frame_index": 782
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 26.1,
+            "decoded_frame_index": 783
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 26.133333,
+            "decoded_frame_index": 784
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 26.166667,
+            "decoded_frame_index": 785
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 26.2,
+            "decoded_frame_index": 786
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 26.233333,
+            "decoded_frame_index": 787
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 26.266667,
+            "decoded_frame_index": 788
+          }
+        ]
+      }
+    },
+    {
+      "key": "receptor-fit",
+      "source": 2,
+      "start": 14.6,
+      "end": 17.2,
+      "title": "A moving particle reaches a specific attachment site",
+      "function": "Mechanism through destination and contact",
+      "key_times": [
+        14.8,
+        15.6667,
+        16.8
+      ],
+      "words_off": true,
+      "extra_masks": [
+        [
+          0.15,
+          0.34,
+          0.39,
+          0.405
+        ],
+        [
+          0.51,
+          0.63,
+          0.81,
+          0.696
+        ]
+      ],
+      "before": "Particle groups are separated from a row of branching receptor shapes.",
+      "action": "Orange particles leave the upper structure, cross the gap and settle at particular receptor tips; turquoise particles continue approaching.",
+      "after": "Some receptor tips retain attached particles instead of every particle merely drifting past.",
+      "visible_without_words": "Small objects travel to and attach at specific sites on another structure.",
+      "needs_language": "The identities psilocin/serotonin, receptor activation and the neurological consequences. Attachment alone does not visibly prove an electrical or biochemical signal.",
+      "removing_motion_loses": "A field of colored dots beside a membrane would omit the origin, direction and binding event.",
+      "lesson": "Give particles a source, destination, contact rule and persistent post-contact state.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ],
+        [
+          0.15,
+          0.34,
+          0.39,
+          0.405
+        ],
+        [
+          0.51,
+          0.63,
+          0.81,
+          0.696
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/receptor-fit.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 14.6,
+            "decoded_pts_seconds": 14.589909,
+            "decoded_frame_index": 438
+          },
+          {
+            "requested_seconds": 14.836363636363636,
+            "decoded_pts_seconds": 14.823242,
+            "decoded_frame_index": 445
+          },
+          {
+            "requested_seconds": 15.072727272727272,
+            "decoded_pts_seconds": 15.056576,
+            "decoded_frame_index": 452
+          },
+          {
+            "requested_seconds": 15.309090909090909,
+            "decoded_pts_seconds": 15.289909,
+            "decoded_frame_index": 459
+          },
+          {
+            "requested_seconds": 15.545454545454545,
+            "decoded_pts_seconds": 15.523242,
+            "decoded_frame_index": 466
+          },
+          {
+            "requested_seconds": 15.781818181818181,
+            "decoded_pts_seconds": 15.756576,
+            "decoded_frame_index": 473
+          },
+          {
+            "requested_seconds": 16.018181818181816,
+            "decoded_pts_seconds": 15.989909,
+            "decoded_frame_index": 480
+          },
+          {
+            "requested_seconds": 16.254545454545454,
+            "decoded_pts_seconds": 16.223242,
+            "decoded_frame_index": 487
+          },
+          {
+            "requested_seconds": 16.490909090909092,
+            "decoded_pts_seconds": 16.489909,
+            "decoded_frame_index": 495
+          },
+          {
+            "requested_seconds": 16.727272727272727,
+            "decoded_pts_seconds": 16.723242,
+            "decoded_frame_index": 502
+          },
+          {
+            "requested_seconds": 16.96363636363636,
+            "decoded_pts_seconds": 16.956576,
+            "decoded_frame_index": 509
+          },
+          {
+            "requested_seconds": 17.2,
+            "decoded_pts_seconds": 17.189909,
+            "decoded_frame_index": 516
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/receptor-fit.jpg",
+        "samples": [
+          {
+            "requested_seconds": 14.8,
+            "decoded_pts_seconds": 14.789909,
+            "decoded_frame_index": 444
+          },
+          {
+            "requested_seconds": 15.6667,
+            "decoded_pts_seconds": 15.656576,
+            "decoded_frame_index": 470
+          },
+          {
+            "requested_seconds": 16.8,
+            "decoded_pts_seconds": 16.789909,
+            "decoded_frame_index": 504
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/receptor-fit.gif",
+        "sha256": "f87fefcb3a92dce0ca4e65366fa30dfdf6598f88077d62dc97216b21065ae51f",
+        "bytes": 116829,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      },
+      "dense": {
+        "file": "sheets/receptor-fit-dense.jpg",
+        "consecutive": true,
+        "samples": [
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 14.923242,
+            "decoded_frame_index": 448
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 14.956576,
+            "decoded_frame_index": 449
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 14.989909,
+            "decoded_frame_index": 450
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.023242,
+            "decoded_frame_index": 451
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.056576,
+            "decoded_frame_index": 452
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.089909,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.123242,
+            "decoded_frame_index": 454
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.156576,
+            "decoded_frame_index": 455
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.189909,
+            "decoded_frame_index": 456
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.223242,
+            "decoded_frame_index": 457
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.256576,
+            "decoded_frame_index": 458
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.289909,
+            "decoded_frame_index": 459
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.323242,
+            "decoded_frame_index": 460
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.356576,
+            "decoded_frame_index": 461
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.389909,
+            "decoded_frame_index": 462
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.423242,
+            "decoded_frame_index": 463
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.456576,
+            "decoded_frame_index": 464
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.489909,
+            "decoded_frame_index": 465
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.523242,
+            "decoded_frame_index": 466
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.556576,
+            "decoded_frame_index": 467
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.589909,
+            "decoded_frame_index": 468
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.623242,
+            "decoded_frame_index": 469
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.656576,
+            "decoded_frame_index": 470
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 15.689909,
+            "decoded_frame_index": 471
+          }
+        ]
+      }
+    },
+    {
+      "key": "pruning",
+      "source": 7,
+      "start": 61.15,
+      "end": 64.2,
+      "title": "A comparison makes selective removal legible",
+      "function": "Stable control, intervention and consequence",
+      "key_times": [
+        61.45,
+        62.8,
+        63.6
+      ],
+      "words_off": true,
+      "extra_masks": [
+        [
+          0.24,
+          0.085,
+          0.77,
+          0.225
+        ]
+      ],
+      "before": "Two parallel connections occupy a stable view; the upper one carries repeated bright signal marks.",
+      "action": "Scissors enter and close across the lower connection.",
+      "after": "Its ends retract into a visible gap while the upper connection remains continuous.",
+      "visible_without_words": "One connection is deliberately severed while its neighbor is preserved.",
+      "needs_language": "That these represent synapses, which activity-dependent biological processes select them, and why literal scissors are a metaphor.",
+      "removing_motion_loses": "Two final lines, one broken, would not explain the intervention or its order. Removing the intact upper comparison would weaken the selectivity.",
+      "lesson": "Hold one reference unchanged while the explanatory variable changes. Preserve the resulting gap.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ],
+        [
+          0.24,
+          0.085,
+          0.77,
+          0.225
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/pruning.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 61.15,
+            "decoded_pts_seconds": 61.156576,
+            "decoded_frame_index": 1834
+          },
+          {
+            "requested_seconds": 61.42727272727273,
+            "decoded_pts_seconds": 61.423242,
+            "decoded_frame_index": 1842
+          },
+          {
+            "requested_seconds": 61.70454545454545,
+            "decoded_pts_seconds": 61.723242,
+            "decoded_frame_index": 1851
+          },
+          {
+            "requested_seconds": 61.981818181818184,
+            "decoded_pts_seconds": 61.989909,
+            "decoded_frame_index": 1859
+          },
+          {
+            "requested_seconds": 62.25909090909091,
+            "decoded_pts_seconds": 62.256576,
+            "decoded_frame_index": 1867
+          },
+          {
+            "requested_seconds": 62.53636363636364,
+            "decoded_pts_seconds": 62.523242,
+            "decoded_frame_index": 1875
+          },
+          {
+            "requested_seconds": 62.81363636363636,
+            "decoded_pts_seconds": 62.823242,
+            "decoded_frame_index": 1884
+          },
+          {
+            "requested_seconds": 63.09090909090909,
+            "decoded_pts_seconds": 63.089909,
+            "decoded_frame_index": 1892
+          },
+          {
+            "requested_seconds": 63.36818181818182,
+            "decoded_pts_seconds": 63.356576,
+            "decoded_frame_index": 1900
+          },
+          {
+            "requested_seconds": 63.64545454545455,
+            "decoded_pts_seconds": 63.656576,
+            "decoded_frame_index": 1909
+          },
+          {
+            "requested_seconds": 63.92272727272727,
+            "decoded_pts_seconds": 63.923242,
+            "decoded_frame_index": 1917
+          },
+          {
+            "requested_seconds": 64.2,
+            "decoded_pts_seconds": 64.189909,
+            "decoded_frame_index": 1925
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/pruning.jpg",
+        "samples": [
+          {
+            "requested_seconds": 61.45,
+            "decoded_pts_seconds": 61.456576,
+            "decoded_frame_index": 1843
+          },
+          {
+            "requested_seconds": 62.8,
+            "decoded_pts_seconds": 62.789909,
+            "decoded_frame_index": 1883
+          },
+          {
+            "requested_seconds": 63.6,
+            "decoded_pts_seconds": 63.589909,
+            "decoded_frame_index": 1907
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/pruning.gif",
+        "sha256": "c424f41ff34b1d19f8f8e30ac818ef356529f8ea4f146076dde0c37d1ab7529b",
+        "bytes": 678603,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      },
+      "dense": {
+        "file": "sheets/pruning-dense.jpg",
+        "consecutive": true,
+        "samples": [
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.389909,
+            "decoded_frame_index": 1871
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.423242,
+            "decoded_frame_index": 1872
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.456576,
+            "decoded_frame_index": 1873
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.489909,
+            "decoded_frame_index": 1874
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.523242,
+            "decoded_frame_index": 1875
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.556576,
+            "decoded_frame_index": 1876
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.589909,
+            "decoded_frame_index": 1877
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.623242,
+            "decoded_frame_index": 1878
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.656576,
+            "decoded_frame_index": 1879
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.689909,
+            "decoded_frame_index": 1880
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.723242,
+            "decoded_frame_index": 1881
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.756576,
+            "decoded_frame_index": 1882
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.789909,
+            "decoded_frame_index": 1883
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.823242,
+            "decoded_frame_index": 1884
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.856576,
+            "decoded_frame_index": 1885
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.889909,
+            "decoded_frame_index": 1886
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.923242,
+            "decoded_frame_index": 1887
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.956576,
+            "decoded_frame_index": 1888
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 62.989909,
+            "decoded_frame_index": 1889
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 63.023242,
+            "decoded_frame_index": 1890
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 63.056576,
+            "decoded_frame_index": 1891
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 63.089909,
+            "decoded_frame_index": 1892
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 63.123242,
+            "decoded_frame_index": 1893
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 63.156576,
+            "decoded_frame_index": 1894
+          }
+        ]
+      }
+    },
+    {
+      "key": "balance-fall",
+      "source": 7,
+      "start": 37.05,
+      "end": 42.55,
+      "title": "Acting makes struggling with balance visible",
+      "function": "Attempt, instability and setback",
+      "key_times": [
+        37.35,
+        38.85,
+        42.25
+      ],
+      "words_off": true,
+      "extra_masks": [],
+      "before": "The baby is upright with a small footprint and arms spread for balance.",
+      "action": "The body leans, the limbs counterbalance, and an internal stylized view briefly emphasizes the body/brain relationship.",
+      "after": "The baby ends seated on the ground, with a changed facial expression.",
+      "visible_without_words": "The child attempts to balance or move and loses balance.",
+      "needs_language": "That this illustrates learning and a mental challenge. This selected range does not show a successful retry or prove improvement.",
+      "removing_motion_loses": "An isolated sitting baby would not communicate the failed attempt that led to the seated pose.",
+      "lesson": "Use whole-body poses and balance changes to communicate an attempt and outcome. Show a later successful attempt if the intended proposition is learning.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/balance-fall.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 37.05,
+            "decoded_pts_seconds": 37.056576,
+            "decoded_frame_index": 1111
+          },
+          {
+            "requested_seconds": 37.55,
+            "decoded_pts_seconds": 37.556576,
+            "decoded_frame_index": 1126
+          },
+          {
+            "requested_seconds": 38.05,
+            "decoded_pts_seconds": 38.056576,
+            "decoded_frame_index": 1141
+          },
+          {
+            "requested_seconds": 38.55,
+            "decoded_pts_seconds": 38.556576,
+            "decoded_frame_index": 1156
+          },
+          {
+            "requested_seconds": 39.05,
+            "decoded_pts_seconds": 39.056576,
+            "decoded_frame_index": 1171
+          },
+          {
+            "requested_seconds": 39.55,
+            "decoded_pts_seconds": 39.556576,
+            "decoded_frame_index": 1186
+          },
+          {
+            "requested_seconds": 40.05,
+            "decoded_pts_seconds": 40.056576,
+            "decoded_frame_index": 1201
+          },
+          {
+            "requested_seconds": 40.55,
+            "decoded_pts_seconds": 40.556576,
+            "decoded_frame_index": 1216
+          },
+          {
+            "requested_seconds": 41.05,
+            "decoded_pts_seconds": 41.056576,
+            "decoded_frame_index": 1231
+          },
+          {
+            "requested_seconds": 41.55,
+            "decoded_pts_seconds": 41.556576,
+            "decoded_frame_index": 1246
+          },
+          {
+            "requested_seconds": 42.05,
+            "decoded_pts_seconds": 42.056576,
+            "decoded_frame_index": 1261
+          },
+          {
+            "requested_seconds": 42.55,
+            "decoded_pts_seconds": 42.556576,
+            "decoded_frame_index": 1276
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/balance-fall.jpg",
+        "samples": [
+          {
+            "requested_seconds": 37.35,
+            "decoded_pts_seconds": 37.356576,
+            "decoded_frame_index": 1120
+          },
+          {
+            "requested_seconds": 38.85,
+            "decoded_pts_seconds": 38.856576,
+            "decoded_frame_index": 1165
+          },
+          {
+            "requested_seconds": 42.25,
+            "decoded_pts_seconds": 42.256576,
+            "decoded_frame_index": 1267
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/balance-fall.gif",
+        "sha256": "17525285b9835ccfe2df6866566bb68aba7002fb03511398c0abe30c80726ddd",
+        "bytes": 1143615,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "saffron-effect",
+      "source": 1,
+      "start": 30.78,
+      "end": 33.45,
+      "title": "Delivery followed by reaction gives the prop a purpose",
+      "function": "Causal path and emotional consequence",
+      "key_times": [
+        30.8,
+        31.7,
+        32.85
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A bowl is positioned above an anatomical head with an alert-looking brain character.",
+      "action": "The bowl tilts and specks fall toward the brain.",
+      "after": "The brain's expression becomes drowsy and conventional sleep marks appear.",
+      "visible_without_words": "Something delivered from the bowl is associated with a sleepy reaction. The sleep marks contribute an established visual convention.",
+      "needs_language": "The substance, its chemical constituent, dose and medical interpretation. The cartoon is not a complete mechanism or dosing instruction.",
+      "removing_motion_loses": "Floating a bowl beside a head would not establish delivery or a change in the recipient.",
+      "lesson": "Connect source to recipient, then change the recipient's state. Movement should produce a consequence.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/saffron-effect.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 30.78,
+            "decoded_pts_seconds": 30.789909,
+            "decoded_frame_index": 923
+          },
+          {
+            "requested_seconds": 31.022727272727273,
+            "decoded_pts_seconds": 31.023242,
+            "decoded_frame_index": 930
+          },
+          {
+            "requested_seconds": 31.265454545454546,
+            "decoded_pts_seconds": 31.289909,
+            "decoded_frame_index": 938
+          },
+          {
+            "requested_seconds": 31.50818181818182,
+            "decoded_pts_seconds": 31.523242,
+            "decoded_frame_index": 945
+          },
+          {
+            "requested_seconds": 31.750909090909094,
+            "decoded_pts_seconds": 31.756576,
+            "decoded_frame_index": 952
+          },
+          {
+            "requested_seconds": 31.993636363636366,
+            "decoded_pts_seconds": 31.989909,
+            "decoded_frame_index": 959
+          },
+          {
+            "requested_seconds": 32.23636363636364,
+            "decoded_pts_seconds": 32.256576,
+            "decoded_frame_index": 967
+          },
+          {
+            "requested_seconds": 32.479090909090914,
+            "decoded_pts_seconds": 32.489909,
+            "decoded_frame_index": 974
+          },
+          {
+            "requested_seconds": 32.721818181818186,
+            "decoded_pts_seconds": 32.723242,
+            "decoded_frame_index": 981
+          },
+          {
+            "requested_seconds": 32.96454545454546,
+            "decoded_pts_seconds": 32.989909,
+            "decoded_frame_index": 989
+          },
+          {
+            "requested_seconds": 33.20727272727273,
+            "decoded_pts_seconds": 33.223242,
+            "decoded_frame_index": 996
+          },
+          {
+            "requested_seconds": 33.45,
+            "decoded_pts_seconds": 33.456576,
+            "decoded_frame_index": 1003
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/saffron-effect.jpg",
+        "samples": [
+          {
+            "requested_seconds": 30.8,
+            "decoded_pts_seconds": 30.823242,
+            "decoded_frame_index": 924
+          },
+          {
+            "requested_seconds": 31.7,
+            "decoded_pts_seconds": 31.723242,
+            "decoded_frame_index": 951
+          },
+          {
+            "requested_seconds": 32.85,
+            "decoded_pts_seconds": 32.856576,
+            "decoded_frame_index": 985
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/saffron-effect.gif",
+        "sha256": "ef0ad3e578d209186fde4137b1bbeaf02c30bcb55dd9807b6c76e79fea6bccca",
+        "bytes": 541313,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "fluid-loss",
+      "source": 1,
+      "start": 40.2,
+      "end": 44.0,
+      "title": "Anatomical state change communicates danger",
+      "function": "Loss, deformation and escalation",
+      "key_times": [
+        40.3,
+        41.8,
+        43.8
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "The brain/head is shown with visible water-drop symbols nearby.",
+      "action": "Droplets depart and the anatomical head/brain silhouette contracts.",
+      "after": "Expressions and a red descending graphic change the scene's meaning toward harm.",
+      "visible_without_words": "Loss of fluid is associated with a worsening bodily state.",
+      "needs_language": "The prior salt exposure, osmotic mechanism, exact anatomical changes and clinical consequences. Screen-space shrinking alone is not a measurement of biological tissue loss.",
+      "removing_motion_loses": "An intact head with decorative droplets would not communicate loss and deterioration.",
+      "lesson": "Make the changed quantity and consequence visible against stable references; use color escalation after the physical change is established.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/fluid-loss.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 40.2,
+            "decoded_pts_seconds": 40.223242,
+            "decoded_frame_index": 1206
+          },
+          {
+            "requested_seconds": 40.54545454545455,
+            "decoded_pts_seconds": 40.556576,
+            "decoded_frame_index": 1216
+          },
+          {
+            "requested_seconds": 40.89090909090909,
+            "decoded_pts_seconds": 40.889909,
+            "decoded_frame_index": 1226
+          },
+          {
+            "requested_seconds": 41.23636363636364,
+            "decoded_pts_seconds": 41.256576,
+            "decoded_frame_index": 1237
+          },
+          {
+            "requested_seconds": 41.581818181818186,
+            "decoded_pts_seconds": 41.589909,
+            "decoded_frame_index": 1247
+          },
+          {
+            "requested_seconds": 41.92727272727273,
+            "decoded_pts_seconds": 41.923242,
+            "decoded_frame_index": 1257
+          },
+          {
+            "requested_seconds": 42.27272727272727,
+            "decoded_pts_seconds": 42.289909,
+            "decoded_frame_index": 1268
+          },
+          {
+            "requested_seconds": 42.61818181818182,
+            "decoded_pts_seconds": 42.623242,
+            "decoded_frame_index": 1278
+          },
+          {
+            "requested_seconds": 42.96363636363636,
+            "decoded_pts_seconds": 42.956576,
+            "decoded_frame_index": 1288
+          },
+          {
+            "requested_seconds": 43.30909090909091,
+            "decoded_pts_seconds": 43.323242,
+            "decoded_frame_index": 1299
+          },
+          {
+            "requested_seconds": 43.654545454545456,
+            "decoded_pts_seconds": 43.656576,
+            "decoded_frame_index": 1309
+          },
+          {
+            "requested_seconds": 44.0,
+            "decoded_pts_seconds": 44.023242,
+            "decoded_frame_index": 1320
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/fluid-loss.jpg",
+        "samples": [
+          {
+            "requested_seconds": 40.3,
+            "decoded_pts_seconds": 40.323242,
+            "decoded_frame_index": 1209
+          },
+          {
+            "requested_seconds": 41.8,
+            "decoded_pts_seconds": 41.823242,
+            "decoded_frame_index": 1254
+          },
+          {
+            "requested_seconds": 43.8,
+            "decoded_pts_seconds": 43.823242,
+            "decoded_frame_index": 1314
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/fluid-loss.gif",
+        "sha256": "ddc452881a0f2f5dba9541f322275e8ab2a1da8bb0cc664550d712748453097e",
+        "bytes": 1511747,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "filter-opens",
+      "source": 2,
+      "start": 22.3,
+      "end": 25.4,
+      "title": "Changing the boundary changes the experience",
+      "function": "Visual metaphor for a hidden process",
+      "key_times": [
+        22.45,
+        23.4,
+        24.85
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A small brain remains inside a circular boundary.",
+      "action": "The boundary shrinks/disappears; the brain remains and a colored field grows outward.",
+      "after": "The environment is filled by changing bands around the same brain.",
+      "visible_without_words": "A contained subject becomes exposed to, or surrounded by, a much larger changing field.",
+      "needs_language": "The specific perceptual-filter claim and its limits. This is an explanatory metaphor, not literal colored anatomy.",
+      "removing_motion_loses": "A psychedelic background alone would communicate mood without the prior containment and its removal.",
+      "lesson": "Give a metaphor a rule, show that rule changing, then let the changed rule affect the scene.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/filter-opens.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 22.3,
+            "decoded_pts_seconds": 22.289909,
+            "decoded_frame_index": 669
+          },
+          {
+            "requested_seconds": 22.581818181818182,
+            "decoded_pts_seconds": 22.556576,
+            "decoded_frame_index": 677
+          },
+          {
+            "requested_seconds": 22.863636363636363,
+            "decoded_pts_seconds": 22.856576,
+            "decoded_frame_index": 686
+          },
+          {
+            "requested_seconds": 23.145454545454545,
+            "decoded_pts_seconds": 23.123242,
+            "decoded_frame_index": 694
+          },
+          {
+            "requested_seconds": 23.427272727272726,
+            "decoded_pts_seconds": 23.423242,
+            "decoded_frame_index": 703
+          },
+          {
+            "requested_seconds": 23.70909090909091,
+            "decoded_pts_seconds": 23.689909,
+            "decoded_frame_index": 711
+          },
+          {
+            "requested_seconds": 23.990909090909092,
+            "decoded_pts_seconds": 23.956576,
+            "decoded_frame_index": 719
+          },
+          {
+            "requested_seconds": 24.272727272727273,
+            "decoded_pts_seconds": 24.256576,
+            "decoded_frame_index": 728
+          },
+          {
+            "requested_seconds": 24.554545454545455,
+            "decoded_pts_seconds": 24.523242,
+            "decoded_frame_index": 736
+          },
+          {
+            "requested_seconds": 24.836363636363636,
+            "decoded_pts_seconds": 24.823242,
+            "decoded_frame_index": 745
+          },
+          {
+            "requested_seconds": 25.118181818181817,
+            "decoded_pts_seconds": 25.089909,
+            "decoded_frame_index": 753
+          },
+          {
+            "requested_seconds": 25.4,
+            "decoded_pts_seconds": 25.389909,
+            "decoded_frame_index": 762
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/filter-opens.jpg",
+        "samples": [
+          {
+            "requested_seconds": 22.45,
+            "decoded_pts_seconds": 22.423242,
+            "decoded_frame_index": 673
+          },
+          {
+            "requested_seconds": 23.4,
+            "decoded_pts_seconds": 23.389909,
+            "decoded_frame_index": 702
+          },
+          {
+            "requested_seconds": 24.85,
+            "decoded_pts_seconds": 24.823242,
+            "decoded_frame_index": 745
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/filter-opens.gif",
+        "sha256": "6d774ac9f0522deba79fcc50d6e63f2199ebb6b27d8871d77255243d26fc05a5",
+        "bytes": 840195,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "landmine-threat",
+      "source": 3,
+      "start": 17.0,
+      "end": 20.4,
+      "title": "The environment introduces a threat to ordinary work",
+      "function": "Stake, interruption and attention hierarchy",
+      "key_times": [
+        17.1,
+        18.5,
+        19.7
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "Farmers work recognizable rows in a cultivated field.",
+      "action": "A large red skull-warning sign enters the foreground and takes visual priority.",
+      "after": "A small land parcel/ground diagram replaces the field to introduce the next explanation.",
+      "visible_without_words": "An ordinary activity takes place in a dangerous setting. The warning icon supplies a familiar threat cue.",
+      "needs_language": "The exact hidden hazard and economic costs. This range does not visibly show the farmers stopping or a mine detonating.",
+      "removing_motion_loses": "A warning already present from the first frame would weaken the reveal of danger; the red foreground entrance changes what the viewer attends to.",
+      "lesson": "Establish normal activity before introducing the threat. Let foreground scale/value redirect attention for a reason.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/landmine-threat.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 17.0,
+            "decoded_pts_seconds": 16.989909,
+            "decoded_frame_index": 510
+          },
+          {
+            "requested_seconds": 17.30909090909091,
+            "decoded_pts_seconds": 17.289909,
+            "decoded_frame_index": 519
+          },
+          {
+            "requested_seconds": 17.618181818181817,
+            "decoded_pts_seconds": 17.589909,
+            "decoded_frame_index": 528
+          },
+          {
+            "requested_seconds": 17.927272727272726,
+            "decoded_pts_seconds": 17.923242,
+            "decoded_frame_index": 538
+          },
+          {
+            "requested_seconds": 18.236363636363635,
+            "decoded_pts_seconds": 18.223242,
+            "decoded_frame_index": 547
+          },
+          {
+            "requested_seconds": 18.545454545454547,
+            "decoded_pts_seconds": 18.523242,
+            "decoded_frame_index": 556
+          },
+          {
+            "requested_seconds": 18.854545454545455,
+            "decoded_pts_seconds": 18.823242,
+            "decoded_frame_index": 565
+          },
+          {
+            "requested_seconds": 19.163636363636364,
+            "decoded_pts_seconds": 19.156576,
+            "decoded_frame_index": 575
+          },
+          {
+            "requested_seconds": 19.472727272727273,
+            "decoded_pts_seconds": 19.456576,
+            "decoded_frame_index": 584
+          },
+          {
+            "requested_seconds": 19.78181818181818,
+            "decoded_pts_seconds": 19.756576,
+            "decoded_frame_index": 593
+          },
+          {
+            "requested_seconds": 20.09090909090909,
+            "decoded_pts_seconds": 20.089909,
+            "decoded_frame_index": 603
+          },
+          {
+            "requested_seconds": 20.4,
+            "decoded_pts_seconds": 20.389909,
+            "decoded_frame_index": 612
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/landmine-threat.jpg",
+        "samples": [
+          {
+            "requested_seconds": 17.1,
+            "decoded_pts_seconds": 17.089909,
+            "decoded_frame_index": 513
+          },
+          {
+            "requested_seconds": 18.5,
+            "decoded_pts_seconds": 18.489909,
+            "decoded_frame_index": 555
+          },
+          {
+            "requested_seconds": 19.7,
+            "decoded_pts_seconds": 19.689909,
+            "decoded_frame_index": 591
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/landmine-threat.gif",
+        "sha256": "8c214a0ca6a0c27b0a9dfe0062a358a5248703bb5b18abd5b47d0a8e40ab17e2",
+        "bytes": 2035978,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "fear-rhyme",
+      "source": 3,
+      "start": 55.1,
+      "end": 61.4,
+      "title": "Matching vulnerable poses connect human consequences",
+      "function": "Empathy, stillness and a visual rhyme",
+      "key_times": [
+        56.3,
+        59.4,
+        60.95
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A soldier sits hunched with clasped hands, a distressed face and a weapon on the ground.",
+      "action": "A cut introduces a child crouched under a desk in a similarly protective pose; later a DNA symbol is overlaid.",
+      "after": "The child remains small and sheltered by the furniture, holding the vulnerable state.",
+      "visible_without_words": "Distress and protective behavior connect two human situations. The quiet staging makes vulnerability readable.",
+      "needs_language": "The statistical claims and any asserted intergenerational mechanism. A DNA symbol alone cannot establish how trauma is transmitted.",
+      "removing_motion_loses": "Removing purposeful pose/expression would weaken empathy. Adding constant idle bouncing would compete with the held emotional state.",
+      "lesson": "A deliberate hold can carry a story. Match meaningful body states across shots, and keep the scientific explanation distinct from the emotional analogy.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/fear-rhyme.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 55.1,
+            "decoded_pts_seconds": 55.089909,
+            "decoded_frame_index": 1652
+          },
+          {
+            "requested_seconds": 55.67272727272727,
+            "decoded_pts_seconds": 55.689909,
+            "decoded_frame_index": 1670
+          },
+          {
+            "requested_seconds": 56.24545454545455,
+            "decoded_pts_seconds": 56.256576,
+            "decoded_frame_index": 1687
+          },
+          {
+            "requested_seconds": 56.81818181818182,
+            "decoded_pts_seconds": 56.823242,
+            "decoded_frame_index": 1704
+          },
+          {
+            "requested_seconds": 57.39090909090909,
+            "decoded_pts_seconds": 57.389909,
+            "decoded_frame_index": 1721
+          },
+          {
+            "requested_seconds": 57.96363636363636,
+            "decoded_pts_seconds": 57.956576,
+            "decoded_frame_index": 1738
+          },
+          {
+            "requested_seconds": 58.53636363636364,
+            "decoded_pts_seconds": 58.556576,
+            "decoded_frame_index": 1756
+          },
+          {
+            "requested_seconds": 59.10909090909091,
+            "decoded_pts_seconds": 59.123242,
+            "decoded_frame_index": 1773
+          },
+          {
+            "requested_seconds": 59.68181818181818,
+            "decoded_pts_seconds": 59.689909,
+            "decoded_frame_index": 1790
+          },
+          {
+            "requested_seconds": 60.25454545454545,
+            "decoded_pts_seconds": 60.256576,
+            "decoded_frame_index": 1807
+          },
+          {
+            "requested_seconds": 60.82727272727273,
+            "decoded_pts_seconds": 60.823242,
+            "decoded_frame_index": 1824
+          },
+          {
+            "requested_seconds": 61.4,
+            "decoded_pts_seconds": 61.389909,
+            "decoded_frame_index": 1841
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/fear-rhyme.jpg",
+        "samples": [
+          {
+            "requested_seconds": 56.3,
+            "decoded_pts_seconds": 56.289909,
+            "decoded_frame_index": 1688
+          },
+          {
+            "requested_seconds": 59.4,
+            "decoded_pts_seconds": 59.389909,
+            "decoded_frame_index": 1781
+          },
+          {
+            "requested_seconds": 60.95,
+            "decoded_pts_seconds": 60.956576,
+            "decoded_frame_index": 1828
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/fear-rhyme.gif",
+        "sha256": "e90fa168a1723785117928d4c5d68d2f8641d8a0b629419e9ee975392bcc27d5",
+        "bytes": 1307479,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "collision",
+      "source": 4,
+      "start": 25.0,
+      "end": 28.6,
+      "title": "Contact creates the consequence",
+      "function": "Approach, collision and changed state",
+      "key_times": [
+        25.6,
+        26.65,
+        27.8
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "Two differently colored galaxy-like systems occupy separate positions.",
+      "action": "The lower system approaches and overlaps the upper one; the contact becomes increasingly luminous.",
+      "after": "A bright emission/burst representation occupies the collision location.",
+      "visible_without_words": "The two systems meeting is associated with a large energetic consequence.",
+      "needs_language": "Matter versus antimatter and the hypothetical nature of this scenario. Ordinary galaxy collisions must not be implied to annihilate this way.",
+      "removing_motion_loses": "A standalone burst would omit what interacted to produce the illustrated consequence.",
+      "lesson": "Show distinct participants before contact, time the response to the interaction, and preserve where it happened.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/collision.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 25.0,
+            "decoded_pts_seconds": 25.0,
+            "decoded_frame_index": 750
+          },
+          {
+            "requested_seconds": 25.327272727272728,
+            "decoded_pts_seconds": 25.333333,
+            "decoded_frame_index": 760
+          },
+          {
+            "requested_seconds": 25.654545454545456,
+            "decoded_pts_seconds": 25.666667,
+            "decoded_frame_index": 770
+          },
+          {
+            "requested_seconds": 25.98181818181818,
+            "decoded_pts_seconds": 25.966667,
+            "decoded_frame_index": 779
+          },
+          {
+            "requested_seconds": 26.30909090909091,
+            "decoded_pts_seconds": 26.3,
+            "decoded_frame_index": 789
+          },
+          {
+            "requested_seconds": 26.636363636363637,
+            "decoded_pts_seconds": 26.633333,
+            "decoded_frame_index": 799
+          },
+          {
+            "requested_seconds": 26.963636363636365,
+            "decoded_pts_seconds": 26.966667,
+            "decoded_frame_index": 809
+          },
+          {
+            "requested_seconds": 27.290909090909093,
+            "decoded_pts_seconds": 27.3,
+            "decoded_frame_index": 819
+          },
+          {
+            "requested_seconds": 27.618181818181817,
+            "decoded_pts_seconds": 27.633333,
+            "decoded_frame_index": 829
+          },
+          {
+            "requested_seconds": 27.945454545454545,
+            "decoded_pts_seconds": 27.933333,
+            "decoded_frame_index": 838
+          },
+          {
+            "requested_seconds": 28.272727272727273,
+            "decoded_pts_seconds": 28.266667,
+            "decoded_frame_index": 848
+          },
+          {
+            "requested_seconds": 28.6,
+            "decoded_pts_seconds": 28.6,
+            "decoded_frame_index": 858
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/collision.jpg",
+        "samples": [
+          {
+            "requested_seconds": 25.6,
+            "decoded_pts_seconds": 25.6,
+            "decoded_frame_index": 768
+          },
+          {
+            "requested_seconds": 26.65,
+            "decoded_pts_seconds": 26.666667,
+            "decoded_frame_index": 800
+          },
+          {
+            "requested_seconds": 27.8,
+            "decoded_pts_seconds": 27.8,
+            "decoded_frame_index": 834
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/collision.gif",
+        "sha256": "ad39bb6c87438fe7835aac941b8e376e3aa1fa608237c130e7ccea6fc42b9921",
+        "bytes": 1448976,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "research-focus",
+      "source": 4,
+      "start": 42.0,
+      "end": 46.2,
+      "title": "A busy gag resolves into one explanation",
+      "function": "Comic interruption followed by focus",
+      "key_times": [
+        42.3,
+        44.4,
+        45.8
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "The researcher and a smaller bird share a room with many papers; the smaller bird has fallen from its perch.",
+      "action": "Papers move through the foreground and obscure the actors; one page separates and stays bright as the room recedes.",
+      "after": "A single model page becomes the next focal subject.",
+      "visible_without_words": "A chaotic interruption is followed by attention narrowing to one document.",
+      "needs_language": "What the scientific problem is and what the selected page's model asserts. The gag is not itself a physics mechanism.",
+      "removing_motion_loses": "A wall of equally prominent paper images would provide neither the interruption nor the selection that guides attention.",
+      "lesson": "Resolve visual busyness into one relevant object. Use humor to support attention and tone, with a readable return to the explanation.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/research-focus.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 42.0,
+            "decoded_pts_seconds": 42.0,
+            "decoded_frame_index": 1260
+          },
+          {
+            "requested_seconds": 42.38181818181818,
+            "decoded_pts_seconds": 42.366667,
+            "decoded_frame_index": 1271
+          },
+          {
+            "requested_seconds": 42.763636363636365,
+            "decoded_pts_seconds": 42.766667,
+            "decoded_frame_index": 1283
+          },
+          {
+            "requested_seconds": 43.14545454545455,
+            "decoded_pts_seconds": 43.133333,
+            "decoded_frame_index": 1294
+          },
+          {
+            "requested_seconds": 43.52727272727273,
+            "decoded_pts_seconds": 43.533333,
+            "decoded_frame_index": 1306
+          },
+          {
+            "requested_seconds": 43.909090909090914,
+            "decoded_pts_seconds": 43.9,
+            "decoded_frame_index": 1317
+          },
+          {
+            "requested_seconds": 44.29090909090909,
+            "decoded_pts_seconds": 44.3,
+            "decoded_frame_index": 1329
+          },
+          {
+            "requested_seconds": 44.67272727272727,
+            "decoded_pts_seconds": 44.666667,
+            "decoded_frame_index": 1340
+          },
+          {
+            "requested_seconds": 45.054545454545455,
+            "decoded_pts_seconds": 45.066667,
+            "decoded_frame_index": 1352
+          },
+          {
+            "requested_seconds": 45.43636363636364,
+            "decoded_pts_seconds": 45.433333,
+            "decoded_frame_index": 1363
+          },
+          {
+            "requested_seconds": 45.81818181818182,
+            "decoded_pts_seconds": 45.833333,
+            "decoded_frame_index": 1375
+          },
+          {
+            "requested_seconds": 46.2,
+            "decoded_pts_seconds": 46.2,
+            "decoded_frame_index": 1386
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/research-focus.jpg",
+        "samples": [
+          {
+            "requested_seconds": 42.3,
+            "decoded_pts_seconds": 42.3,
+            "decoded_frame_index": 1269
+          },
+          {
+            "requested_seconds": 44.4,
+            "decoded_pts_seconds": 44.4,
+            "decoded_frame_index": 1332
+          },
+          {
+            "requested_seconds": 45.8,
+            "decoded_pts_seconds": 45.8,
+            "decoded_frame_index": 1374
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/research-focus.gif",
+        "sha256": "8cb8f89c78c91bb661d4ed930cd81308069ca513378ebbdcf504e34f2948ee94",
+        "bytes": 2385960,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "food-cost",
+      "source": 5,
+      "start": 48.3,
+      "end": 52.5,
+      "title": "An increasing pile makes quantity tangible",
+      "function": "Concrete accumulation and comparison",
+      "key_times": [
+        48.95,
+        50.9,
+        51.9
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A plate receives food, forming a smaller burger grouping.",
+      "action": "Additional burgers drop into the same plate/stack.",
+      "after": "A larger food pile remains, emphasized by a radial graphic.",
+      "visible_without_words": "More food is required/being accumulated than in the earlier state; the plate is a stable comparison anchor.",
+      "needs_language": "Why food represents flight energy, the comparison with running, time interval and calorie equivalences. A growing pile alone does not specify those units.",
+      "removing_motion_loses": "One final food illustration would omit the smaller baseline and the act of adding more.",
+      "lesson": "Show quantity changing on the same anchor instead of replacing one large number with another.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/food-cost.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 48.3,
+            "decoded_pts_seconds": 48.3,
+            "decoded_frame_index": 1449
+          },
+          {
+            "requested_seconds": 48.68181818181818,
+            "decoded_pts_seconds": 48.666667,
+            "decoded_frame_index": 1460
+          },
+          {
+            "requested_seconds": 49.06363636363636,
+            "decoded_pts_seconds": 49.066667,
+            "decoded_frame_index": 1472
+          },
+          {
+            "requested_seconds": 49.445454545454545,
+            "decoded_pts_seconds": 49.433333,
+            "decoded_frame_index": 1483
+          },
+          {
+            "requested_seconds": 49.82727272727273,
+            "decoded_pts_seconds": 49.833333,
+            "decoded_frame_index": 1495
+          },
+          {
+            "requested_seconds": 50.20909090909091,
+            "decoded_pts_seconds": 50.2,
+            "decoded_frame_index": 1506
+          },
+          {
+            "requested_seconds": 50.590909090909086,
+            "decoded_pts_seconds": 50.6,
+            "decoded_frame_index": 1518
+          },
+          {
+            "requested_seconds": 50.97272727272727,
+            "decoded_pts_seconds": 50.966667,
+            "decoded_frame_index": 1529
+          },
+          {
+            "requested_seconds": 51.35454545454545,
+            "decoded_pts_seconds": 51.366667,
+            "decoded_frame_index": 1541
+          },
+          {
+            "requested_seconds": 51.736363636363635,
+            "decoded_pts_seconds": 51.733333,
+            "decoded_frame_index": 1552
+          },
+          {
+            "requested_seconds": 52.11818181818182,
+            "decoded_pts_seconds": 52.133333,
+            "decoded_frame_index": 1564
+          },
+          {
+            "requested_seconds": 52.5,
+            "decoded_pts_seconds": 52.5,
+            "decoded_frame_index": 1575
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/food-cost.jpg",
+        "samples": [
+          {
+            "requested_seconds": 48.95,
+            "decoded_pts_seconds": 48.966667,
+            "decoded_frame_index": 1469
+          },
+          {
+            "requested_seconds": 50.9,
+            "decoded_pts_seconds": 50.9,
+            "decoded_frame_index": 1527
+          },
+          {
+            "requested_seconds": 51.9,
+            "decoded_pts_seconds": 51.9,
+            "decoded_frame_index": 1557
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/food-cost.gif",
+        "sha256": "0003a4b3962589f5a2cc0b1f62bc37eb2ae19219b1a0a2dc380bbffd40cca458",
+        "bytes": 710582,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "compression",
+      "source": 6,
+      "start": 10.8,
+      "end": 15.7,
+      "title": "Manipulation changes the material before the analogy",
+      "function": "Mechanical action followed by an abstract consequence",
+      "key_times": [
+        11.0,
+        12.5,
+        14.7
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "Hands hold the ends of several long molecular-strand illustrations.",
+      "action": "The strands bow and slide relative to one another as their ends are manipulated.",
+      "after": "A fiber with differentiated sides/charge labels and an electrical mark leads into a battery analogy.",
+      "visible_without_words": "Mechanical manipulation deforms an organized material, and an electrical association follows.",
+      "needs_language": "Collagen, piezoelectricity, charge separation and the limits of the battery analogy. The labeled signs carry essential polarity information.",
+      "removing_motion_loses": "A rotating finished fiber would not demonstrate the material responding to manipulation.",
+      "lesson": "Animate the material response to a specific force; use metaphor after the causal action, not as a replacement for it.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.705,
+          1,
+          0.765
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/compression.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 10.8,
+            "decoded_pts_seconds": 10.789909,
+            "decoded_frame_index": 324
+          },
+          {
+            "requested_seconds": 11.245454545454546,
+            "decoded_pts_seconds": 11.223242,
+            "decoded_frame_index": 337
+          },
+          {
+            "requested_seconds": 11.690909090909091,
+            "decoded_pts_seconds": 11.689909,
+            "decoded_frame_index": 351
+          },
+          {
+            "requested_seconds": 12.136363636363637,
+            "decoded_pts_seconds": 12.123242,
+            "decoded_frame_index": 364
+          },
+          {
+            "requested_seconds": 12.581818181818182,
+            "decoded_pts_seconds": 12.556576,
+            "decoded_frame_index": 377
+          },
+          {
+            "requested_seconds": 13.027272727272727,
+            "decoded_pts_seconds": 13.023242,
+            "decoded_frame_index": 391
+          },
+          {
+            "requested_seconds": 13.472727272727273,
+            "decoded_pts_seconds": 13.456576,
+            "decoded_frame_index": 404
+          },
+          {
+            "requested_seconds": 13.918181818181818,
+            "decoded_pts_seconds": 13.889909,
+            "decoded_frame_index": 417
+          },
+          {
+            "requested_seconds": 14.363636363636363,
+            "decoded_pts_seconds": 14.356576,
+            "decoded_frame_index": 431
+          },
+          {
+            "requested_seconds": 14.809090909090909,
+            "decoded_pts_seconds": 14.789909,
+            "decoded_frame_index": 444
+          },
+          {
+            "requested_seconds": 15.254545454545454,
+            "decoded_pts_seconds": 15.223242,
+            "decoded_frame_index": 457
+          },
+          {
+            "requested_seconds": 15.7,
+            "decoded_pts_seconds": 15.689909,
+            "decoded_frame_index": 471
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/compression.jpg",
+        "samples": [
+          {
+            "requested_seconds": 11.0,
+            "decoded_pts_seconds": 10.989909,
+            "decoded_frame_index": 330
+          },
+          {
+            "requested_seconds": 12.5,
+            "decoded_pts_seconds": 12.489909,
+            "decoded_frame_index": 375
+          },
+          {
+            "requested_seconds": 14.7,
+            "decoded_pts_seconds": 14.689909,
+            "decoded_frame_index": 441
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/compression.gif",
+        "sha256": "61fea73d85d8b82296f63027434cda352e8da4e61c2befc0a29f59fc96176b3d",
+        "bytes": 1477200,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "repair-worker",
+      "source": 6,
+      "start": 51.7,
+      "end": 54.1,
+      "title": "A builder metaphor gives cellular work an intention",
+      "function": "Agent, destination and localized work",
+      "key_times": [
+        52.25,
+        53.3,
+        53.9
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "A helmeted cell character with a bucket approaches the exposed bone surface.",
+      "action": "It moves to a specific surface location and brings its working hand/material toward the edge.",
+      "after": "Work is concentrated at that edge rather than being a decorative orbit around the diagram.",
+      "visible_without_words": "A builder-like agent is working on a particular surface.",
+      "needs_language": "Osteoblast identity, the material being deposited and the signal that recruits this work. An earlier speech bubble explicitly says the signal may involve fluid flow or electrical charge; the mechanism must not be presented as settled.",
+      "removing_motion_loses": "A helmeted cell floating beside bone would retain the costume but omit the destination and work.",
+      "lesson": "Design the character's action around its job. Preserve explicit uncertainty instead of making a smooth animation imply a solved mechanism.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.705,
+          1,
+          0.765
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/repair-worker.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 51.7,
+            "decoded_pts_seconds": 51.689909,
+            "decoded_frame_index": 1550
+          },
+          {
+            "requested_seconds": 51.91818181818182,
+            "decoded_pts_seconds": 51.923242,
+            "decoded_frame_index": 1557
+          },
+          {
+            "requested_seconds": 52.13636363636364,
+            "decoded_pts_seconds": 52.156576,
+            "decoded_frame_index": 1564
+          },
+          {
+            "requested_seconds": 52.35454545454546,
+            "decoded_pts_seconds": 52.356576,
+            "decoded_frame_index": 1570
+          },
+          {
+            "requested_seconds": 52.57272727272728,
+            "decoded_pts_seconds": 52.589909,
+            "decoded_frame_index": 1577
+          },
+          {
+            "requested_seconds": 52.790909090909096,
+            "decoded_pts_seconds": 52.789909,
+            "decoded_frame_index": 1583
+          },
+          {
+            "requested_seconds": 53.00909090909091,
+            "decoded_pts_seconds": 53.023242,
+            "decoded_frame_index": 1590
+          },
+          {
+            "requested_seconds": 53.22727272727273,
+            "decoded_pts_seconds": 53.223242,
+            "decoded_frame_index": 1596
+          },
+          {
+            "requested_seconds": 53.445454545454545,
+            "decoded_pts_seconds": 53.456576,
+            "decoded_frame_index": 1603
+          },
+          {
+            "requested_seconds": 53.663636363636364,
+            "decoded_pts_seconds": 53.656576,
+            "decoded_frame_index": 1609
+          },
+          {
+            "requested_seconds": 53.88181818181818,
+            "decoded_pts_seconds": 53.889909,
+            "decoded_frame_index": 1616
+          },
+          {
+            "requested_seconds": 54.1,
+            "decoded_pts_seconds": 54.089909,
+            "decoded_frame_index": 1622
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/repair-worker.jpg",
+        "samples": [
+          {
+            "requested_seconds": 52.25,
+            "decoded_pts_seconds": 52.256576,
+            "decoded_frame_index": 1567
+          },
+          {
+            "requested_seconds": 53.3,
+            "decoded_pts_seconds": 53.289909,
+            "decoded_frame_index": 1598
+          },
+          {
+            "requested_seconds": 53.9,
+            "decoded_pts_seconds": 53.889909,
+            "decoded_frame_index": 1616
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/repair-worker.gif",
+        "sha256": "a66e049e2e651b8904ef9c66fcb3bbc17f56d6fcbd4bffdcc05942d85ee561ef",
+        "bytes": 319748,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      },
+      "dense": {
+        "file": "sheets/repair-worker-dense.jpg",
+        "consecutive": true,
+        "samples": [
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.089909,
+            "decoded_frame_index": 1592
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.123242,
+            "decoded_frame_index": 1593
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.156576,
+            "decoded_frame_index": 1594
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.189909,
+            "decoded_frame_index": 1595
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.223242,
+            "decoded_frame_index": 1596
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.256576,
+            "decoded_frame_index": 1597
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.289909,
+            "decoded_frame_index": 1598
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.323242,
+            "decoded_frame_index": 1599
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.356576,
+            "decoded_frame_index": 1600
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.389909,
+            "decoded_frame_index": 1601
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.423242,
+            "decoded_frame_index": 1602
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.456576,
+            "decoded_frame_index": 1603
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.489909,
+            "decoded_frame_index": 1604
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.523242,
+            "decoded_frame_index": 1605
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.556576,
+            "decoded_frame_index": 1606
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.589909,
+            "decoded_frame_index": 1607
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.623242,
+            "decoded_frame_index": 1608
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.656576,
+            "decoded_frame_index": 1609
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.689909,
+            "decoded_frame_index": 1610
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.723242,
+            "decoded_frame_index": 1611
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.756576,
+            "decoded_frame_index": 1612
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.789909,
+            "decoded_frame_index": 1613
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.823242,
+            "decoded_frame_index": 1614
+          },
+          {
+            "requested_seconds": null,
+            "decoded_pts_seconds": 53.856576,
+            "decoded_frame_index": 1615
+          }
+        ]
+      }
+    },
+    {
+      "key": "orbital-ring",
+      "source": 8,
+      "start": 44.4,
+      "end": 50.6,
+      "title": "An orbit accumulates a visible consequence",
+      "function": "Persistent trace and changing environment",
+      "key_times": [
+        44.8,
+        47.4,
+        49.8
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "An orbiting body travels around Earth with relatively little visible ring material.",
+      "action": "Tracks/material accumulate around the same orbit as the body continues moving.",
+      "after": "A ring becomes visible, changes/fades, and the orbital subject persists.",
+      "visible_without_words": "Repeated travel is associated with an accumulating ring and its later change.",
+      "needs_language": "Io, sulfur, the proposed scenario, ring persistence and physical mechanism. The source's not-to-scale note is important and remains visible.",
+      "removing_motion_loses": "A rotating moon beside an already finished ring would omit accumulation and change over time.",
+      "lesson": "Let an object's action leave an explanatory trace in the environment, with an initial state and persistent result.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/orbital-ring.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 44.4,
+            "decoded_pts_seconds": 44.423242,
+            "decoded_frame_index": 1332
+          },
+          {
+            "requested_seconds": 44.96363636363636,
+            "decoded_pts_seconds": 44.956576,
+            "decoded_frame_index": 1348
+          },
+          {
+            "requested_seconds": 45.527272727272724,
+            "decoded_pts_seconds": 45.523242,
+            "decoded_frame_index": 1365
+          },
+          {
+            "requested_seconds": 46.09090909090909,
+            "decoded_pts_seconds": 46.089909,
+            "decoded_frame_index": 1382
+          },
+          {
+            "requested_seconds": 46.654545454545456,
+            "decoded_pts_seconds": 46.656576,
+            "decoded_frame_index": 1399
+          },
+          {
+            "requested_seconds": 47.21818181818182,
+            "decoded_pts_seconds": 47.223242,
+            "decoded_frame_index": 1416
+          },
+          {
+            "requested_seconds": 47.78181818181818,
+            "decoded_pts_seconds": 47.789909,
+            "decoded_frame_index": 1433
+          },
+          {
+            "requested_seconds": 48.345454545454544,
+            "decoded_pts_seconds": 48.356576,
+            "decoded_frame_index": 1450
+          },
+          {
+            "requested_seconds": 48.90909090909091,
+            "decoded_pts_seconds": 48.923242,
+            "decoded_frame_index": 1467
+          },
+          {
+            "requested_seconds": 49.472727272727276,
+            "decoded_pts_seconds": 49.489909,
+            "decoded_frame_index": 1484
+          },
+          {
+            "requested_seconds": 50.03636363636364,
+            "decoded_pts_seconds": 50.056576,
+            "decoded_frame_index": 1501
+          },
+          {
+            "requested_seconds": 50.6,
+            "decoded_pts_seconds": 50.589909,
+            "decoded_frame_index": 1517
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/orbital-ring.jpg",
+        "samples": [
+          {
+            "requested_seconds": 44.8,
+            "decoded_pts_seconds": 44.823242,
+            "decoded_frame_index": 1344
+          },
+          {
+            "requested_seconds": 47.4,
+            "decoded_pts_seconds": 47.423242,
+            "decoded_frame_index": 1422
+          },
+          {
+            "requested_seconds": 49.8,
+            "decoded_pts_seconds": 49.823242,
+            "decoded_frame_index": 1494
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/orbital-ring.gif",
+        "sha256": "ac5a2eefb8287066368f6bdb52ddd5a0e2ee114bbe16109159cbb34637a9e054",
+        "bytes": 591934,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "aurora-reveal",
+      "source": 8,
+      "start": 55.1,
+      "end": 58.9,
+      "title": "An expectation hold prepares an environmental payoff",
+      "function": "Attention, anticipation and shared wonder",
+      "key_times": [
+        55.5,
+        57.25,
+        58.45
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "before": "Observers sit beneath a large quiet sky.",
+      "action": "A few colored fragments appear overhead before wider auroral curtains spread through the sky.",
+      "after": "The sky has become the main event while the observers give it a human scale and point of view.",
+      "visible_without_words": "People are watching a striking sky event develop.",
+      "needs_language": "How particles from the hypothetical moon scenario would produce it. A beautiful aurora does not independently explain the preceding magnetic interaction.",
+      "removing_motion_loses": "A fully lit sky from the outset would omit expectation, arrival and reveal.",
+      "lesson": "Reserve a quiet state so an environmental change can become an event. Keep the observer's attention aligned with it.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/aurora-reveal.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 55.1,
+            "decoded_pts_seconds": 55.089909,
+            "decoded_frame_index": 1652
+          },
+          {
+            "requested_seconds": 55.445454545454545,
+            "decoded_pts_seconds": 55.456576,
+            "decoded_frame_index": 1663
+          },
+          {
+            "requested_seconds": 55.79090909090909,
+            "decoded_pts_seconds": 55.789909,
+            "decoded_frame_index": 1673
+          },
+          {
+            "requested_seconds": 56.13636363636364,
+            "decoded_pts_seconds": 56.156576,
+            "decoded_frame_index": 1684
+          },
+          {
+            "requested_seconds": 56.481818181818184,
+            "decoded_pts_seconds": 56.489909,
+            "decoded_frame_index": 1694
+          },
+          {
+            "requested_seconds": 56.82727272727273,
+            "decoded_pts_seconds": 56.823242,
+            "decoded_frame_index": 1704
+          },
+          {
+            "requested_seconds": 57.17272727272727,
+            "decoded_pts_seconds": 57.189909,
+            "decoded_frame_index": 1715
+          },
+          {
+            "requested_seconds": 57.518181818181816,
+            "decoded_pts_seconds": 57.523242,
+            "decoded_frame_index": 1725
+          },
+          {
+            "requested_seconds": 57.86363636363636,
+            "decoded_pts_seconds": 57.856576,
+            "decoded_frame_index": 1735
+          },
+          {
+            "requested_seconds": 58.20909090909091,
+            "decoded_pts_seconds": 58.223242,
+            "decoded_frame_index": 1746
+          },
+          {
+            "requested_seconds": 58.554545454545455,
+            "decoded_pts_seconds": 58.556576,
+            "decoded_frame_index": 1756
+          },
+          {
+            "requested_seconds": 58.9,
+            "decoded_pts_seconds": 58.889909,
+            "decoded_frame_index": 1766
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/aurora-reveal.jpg",
+        "samples": [
+          {
+            "requested_seconds": 55.5,
+            "decoded_pts_seconds": 55.489909,
+            "decoded_frame_index": 1664
+          },
+          {
+            "requested_seconds": 57.25,
+            "decoded_pts_seconds": 57.256576,
+            "decoded_frame_index": 1717
+          },
+          {
+            "requested_seconds": 58.45,
+            "decoded_pts_seconds": 58.456576,
+            "decoded_frame_index": 1753
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/aurora-reveal.gif",
+        "sha256": "198dc2d9b30d3983958a206cd435f7115e7e7e43fbc24eb07d7663c2b3f3dd2f",
+        "bytes": 1655601,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    },
+    {
+      "key": "water-control",
+      "source": 8,
+      "start": 15.0,
+      "end": 18.4,
+      "title": "Control: moving water does not independently explain tides",
+      "function": "Boundary between atmosphere and explanation",
+      "key_times": [
+        15.1,
+        16.6,
+        18.2
+      ],
+      "words_off": false,
+      "extra_masks": [],
+      "control": true,
+      "before": "A stylized ocean and night sky occupy the scene.",
+      "action": "Water highlights move and a pier/observer enters the framing.",
+      "after": "The viewer has a situated ocean view, but this selected range does not stage a clear repeated high/low tide comparison.",
+      "visible_without_words": "A person is by an ocean with moving highlights.",
+      "needs_language": "The moon's density and the claim about altered tides. Those facts cannot be recovered from the ambient motion in this range alone.",
+      "removing_motion_loses": "Removing the highlights reduces atmosphere but does not remove a visually demonstrated tide mechanism, because one is not established in this interval.",
+      "lesson": "Atmosphere has a legitimate role, but it cannot substitute for the event or comparison that must teach the intended idea.",
+      "masks_normalized_xyxy": [
+        [
+          0,
+          0.748,
+          1,
+          0.813
+        ]
+      ],
+      "sheet": {
+        "file": "sheets/water-control.jpg",
+        "consecutive": false,
+        "samples": [
+          {
+            "requested_seconds": 15.0,
+            "decoded_pts_seconds": 14.989909,
+            "decoded_frame_index": 450
+          },
+          {
+            "requested_seconds": 15.309090909090909,
+            "decoded_pts_seconds": 15.289909,
+            "decoded_frame_index": 459
+          },
+          {
+            "requested_seconds": 15.618181818181817,
+            "decoded_pts_seconds": 15.589909,
+            "decoded_frame_index": 468
+          },
+          {
+            "requested_seconds": 15.927272727272728,
+            "decoded_pts_seconds": 15.923242,
+            "decoded_frame_index": 478
+          },
+          {
+            "requested_seconds": 16.236363636363635,
+            "decoded_pts_seconds": 16.223242,
+            "decoded_frame_index": 487
+          },
+          {
+            "requested_seconds": 16.545454545454547,
+            "decoded_pts_seconds": 16.523242,
+            "decoded_frame_index": 496
+          },
+          {
+            "requested_seconds": 16.854545454545455,
+            "decoded_pts_seconds": 16.823242,
+            "decoded_frame_index": 505
+          },
+          {
+            "requested_seconds": 17.163636363636364,
+            "decoded_pts_seconds": 17.156576,
+            "decoded_frame_index": 515
+          },
+          {
+            "requested_seconds": 17.472727272727273,
+            "decoded_pts_seconds": 17.456576,
+            "decoded_frame_index": 524
+          },
+          {
+            "requested_seconds": 17.78181818181818,
+            "decoded_pts_seconds": 17.756576,
+            "decoded_frame_index": 533
+          },
+          {
+            "requested_seconds": 18.09090909090909,
+            "decoded_pts_seconds": 18.089909,
+            "decoded_frame_index": 543
+          },
+          {
+            "requested_seconds": 18.4,
+            "decoded_pts_seconds": 18.389909,
+            "decoded_frame_index": 552
+          }
+        ]
+      },
+      "story_strip": {
+        "file": "story-strips/water-control.jpg",
+        "samples": [
+          {
+            "requested_seconds": 15.1,
+            "decoded_pts_seconds": 15.089909,
+            "decoded_frame_index": 453
+          },
+          {
+            "requested_seconds": 16.6,
+            "decoded_pts_seconds": 16.589909,
+            "decoded_frame_index": 498
+          },
+          {
+            "requested_seconds": 18.2,
+            "decoded_pts_seconds": 18.189909,
+            "decoded_frame_index": 546
+          }
+        ],
+        "note": "Analyst-selected sequence states, not a blinded viewer test."
+      },
+      "preview": {
+        "file": "loops/water-control.gif",
+        "sha256": "069cb9f5e170c22ebd388f35055055ddb82568de0bb75f6ec9a500b8bef79c4c",
+        "bytes": 912390,
+        "silent": true,
+        "fps": 20,
+        "note": "Short source excerpt with visible study redactions. Artificial GIF restart is not a source story event."
+      }
+    }
+  ],
+  "official_text_sources": [
+    {
+      "key": "process",
+      "url": "https://kurzgesagt.org/what-we-do?visit=videos",
+      "kind": "official studio production/case-study text",
+      "retrieved_date_local": "2026-10-25",
+      "timezone": "Asia/Manila",
+      "http_status": 200,
+      "html_sha256": "c2667642fa8fc4a13c6f76647fde0e36d1ea212f1697e19db68a89336e40407c",
+      "supporting_quotes": [
+        "After deliberating over the best visual metaphors and ideas for each scene in the sketching phase",
+        "His voiceover provides the timing for the animation team"
+      ],
+      "paraphrased_relevance": "The stated process selects visual metaphors/scene ideas before finished illustration; researched scripts organize facts into a story, and recorded voice supplies timing. This supports planning explanatory action before polishing drawings.",
+      "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+    },
+    {
+      "key": "loneliness",
+      "url": "https://kurzgesagt.org/projects/loneliness",
+      "kind": "official studio production/case-study text",
+      "retrieved_date_local": "2026-10-25",
+      "timezone": "Asia/Manila",
+      "http_status": 200,
+      "html_sha256": "a367315086f665b58af3a9ef4b0c161b97a7e65ff68b6e6100c295c86df0739f",
+      "supporting_quotes": [
+        "a scientific video should connect to people to have an impact"
+      ],
+      "paraphrased_relevance": "The case study emphasizes handling a personal feeling with an appropriate tone. The reviewed stills communicate withdrawal through posture and separated framing. They do not establish any animation timing.",
+      "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+    },
+    {
+      "key": "behind-the-lies",
+      "url": "https://kurzgesagt.org/projects/behind-the-lies",
+      "kind": "official studio production/case-study text",
+      "retrieved_date_local": "2026-10-25",
+      "timezone": "Asia/Manila",
+      "http_status": 200,
+      "html_sha256": "0ee620d9a96a72e353fb6b5cb4a09a01aca5a8e8b965503f16a5399b812edda2",
+      "supporting_quotes": [
+        "a highly simplified story that serves as a gateway to understand the bigger picture"
+      ],
+      "paraphrased_relevance": "The studio describes deliberate simplification in science communication. A legible metaphor should preserve the relationship being explained and leave its limits clear.",
+      "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+    },
+    {
+      "key": "extreme-place",
+      "url": "https://kurzgesagt.org/projects/most-extreme-place",
+      "kind": "official studio production/case-study text",
+      "retrieved_date_local": "2026-10-25",
+      "timezone": "Asia/Manila",
+      "http_status": 200,
+      "html_sha256": "aabe82718153b34309b3da26c69fd5df1df5a071d0ddc178091123c50f0dd04a",
+      "supporting_quotes": [
+        "puts you in the footsteps of a traveler that gets smaller and smaller"
+      ],
+      "paraphrased_relevance": "The official description makes a scale journey experiential through a traveler. In the inspected still, the small travelers, oversized insect and shared plant surfaces make scale relational rather than only numerical.",
+      "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+    },
+    {
+      "key": "nuke-city",
+      "url": "https://kurzgesagt.org/projects/nuke-a-city",
+      "kind": "official studio production/case-study text",
+      "retrieved_date_local": "2026-10-25",
+      "timezone": "Asia/Manila",
+      "http_status": 200,
+      "html_sha256": "9eff5031079d9eaccf141b359594fec15239fdcef30c2594932c6f35a1027bd6",
+      "supporting_quotes": [
+        "To make this danger tangible",
+        "Showing the unimaginable"
+      ],
+      "paraphrased_relevance": "The official page describes a play-by-play human consequence story and the balance between watchability and conveying harm. The inspected city/blast still uses recognizable buildings as a scale anchor; no full-episode timing is inferred.",
+      "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+    }
+  ],
+  "official_still_sources": [
+    {
+      "file": "references/studies/topic-range-2026-10-23/images/loneliness-01.webp",
+      "sha256": "0c6d8243ccd57d94b9e754eff7789c33f8eef0519885443d36336036761d0d5e",
+      "inspection": "Existing official reference artwork re-inspected; not original project drawing."
+    },
+    {
+      "file": "references/studies/topic-range-2026-10-23/images/loneliness-02.webp",
+      "sha256": "f40297999a5ea0e79a5b26752a1b26f8089b538d4e6a6ce4633d65ece2017e41",
+      "inspection": "Existing official reference artwork re-inspected; not original project drawing."
+    },
+    {
+      "file": "references/studies/topic-range-2026-10-23/images/nuke-a-city-01.webp",
+      "sha256": "8c9492b4960144c0e37b9e9ebc78ae41a87e5c8aad3a66729c3d892739ed6f4b",
+      "inspection": "Existing official reference artwork re-inspected; not original project drawing."
+    },
+    {
+      "file": "references/studies/topic-range-2026-10-23/images/most-extreme-place-01.webp",
+      "sha256": "585b5db0f9b1b76a1822bb31dfcbdda1c6853056bf3d500766b20b10a6eac11d",
+      "inspection": "Existing official reference artwork re-inspected; not original project drawing."
+    }
+  ],
+  "uncertainty_context": {
+    "source": 6,
+    "file": "repair-uncertainty.png",
+    "frame": {
+      "requested_seconds": 50.6,
+      "decoded_pts_seconds": 50.623242,
+      "decoded_frame_index": 1518
+    },
+    "note": "The original speech bubble explicitly preserves uncertainty about the recruitment signal; it is retained as evidence of what language must clarify."
+  },
+  "production_files_unchanged": {
+    "assets/videos/transition-lab/six-scene-transitions-20s.mp4": "d3b6920228ab048dedbd4db5cb733c964afdb553da7f6a3c4653905db6de1b1a",
+    "assets/videos/singularity/singularity-full-8m56.mp4": "3ec059c5b90350d56c1c2ca8b28efe360a22462b25f7568083ce2fd938198db7",
+    "assets/characters/static-test-01.png": "72842deef29e191d0f0699c66684d57b6869a0b4cfb2d50937a268f54b80b73f",
+    "assets/scenes/artwork-consistency-02/medicine-immune-defense.png": "d9f245e4aad1866de4b29f10a4dd45c7e9312cd3450dd07d68e36f750ed3fd5e",
+    "assets/scenes/artwork-consistency-02/cyber-network-defense.png": "e6bece838f7095e1346f255533802e62f8f9b114a73479c9a4396ae8088162fd",
+    "public/assets/audio/singularity/narration-original.m4a": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a"
+  },
+  "method_limits": [
+    "Analyst knows the topics and has inspected original frames; this is not a blind study or audience experiment.",
+    "Caption masks obscure all pixels in their rectangles, including some actors/props. Original files remain unchanged.",
+    "Only four words-off cases remove additional readable labels; scientific labels/icons remain in the others.",
+    "GIFs are silent, scaled to 240px and 20fps, with artificial restarts. Dense sheets retain 24 consecutive decoded source-frame records.",
+    "Before/action/after strips are analyst-selected states; a juxtaposition is not automatically proof of a scientific mechanism.",
+    "Motion inference applies to the uploaded clips; official stills/text support only composition or stated production intentions.",
+    "No new production animation, narration or API-funded assets are generated by this study."
+  ],
+  "tools": {
+    "opencv": "5.0.0",
+    "numpy": "2.3.5"
+  }
+}

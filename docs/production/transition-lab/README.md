@@ -1,5 +1,7 @@
 # Six scenes, five animated handoffs — 20-second motion test
 
+**User-approved transition baseline.** The user reviewed this test and said “Good! Thats perfect.” [Recorded approval and scope](user-review.json). The next requested study concerns animation that communicates the story and explanation; the approved test stays unchanged.
+
 **[Download the 1080p MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/transition-lab/six-scene-transitions-20s.mp4)** · [Poster](../../../assets/videos/transition-lab/six-scene-transitions-poster.png) · [Encoded-file report](delivery.json)
 
 The requested test uses six simple compositions across exactly **20 seconds / 600 frames at 30 fps**, with five overlapping handoffs. It is a wordless visual metaphor made with original authored vector paths in Remotion. The drawing is intentionally simple so the user can judge movement and transitions. No image generation, recycled singularity artwork, narration generation or voice credits were used. There is no on-screen title, branding, numbering or production text.
@@ -33,7 +35,7 @@ There is no whole-composition dissolve between separate scene stills. Sky colors
 
 The frame review prompted concrete corrections: the stalk now grows from the changing fish's tail root; the plant exits the final sky composition; cloudlets travel off-screen before the night view; and the main fish is revealed by the water coverage instead of appearing after a frame threshold. The source drawing, color grouping and timing remain deliberately simple for this exercise.
 
-The exported file is fully decoded and checked for 600 frames, 20-second duration, H.264 1080p/30 fps picture and AAC 48 kHz stereo sound. These are technical delivery checks. **Creative approval is pending the user's review.** The previously rejected singularity film stays unchanged.
+The exported file is fully decoded and checked for 600 frames, 20-second duration, H.264 1080p/30 fps picture and AAC 48 kHz stereo sound. These are technical delivery checks, separate from the user's approval of this transition test. The previously rejected singularity film stays unchanged.
 
 ## Source and reproduction
 

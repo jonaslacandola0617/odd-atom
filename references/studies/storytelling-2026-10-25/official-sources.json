@@ -1,0 +1,74 @@
+[
+  {
+    "key": "process",
+    "url": "https://kurzgesagt.org/what-we-do?visit=videos",
+    "kind": "official studio production/case-study text",
+    "retrieved_date_local": "2026-10-25",
+    "timezone": "Asia/Manila",
+    "http_status": 200,
+    "html_sha256": "c2667642fa8fc4a13c6f76647fde0e36d1ea212f1697e19db68a89336e40407c",
+    "supporting_quotes": [
+      "After deliberating over the best visual metaphors and ideas for each scene in the sketching phase",
+      "His voiceover provides the timing for the animation team"
+    ],
+    "paraphrased_relevance": "The stated process selects visual metaphors/scene ideas before finished illustration; researched scripts organize facts into a story, and recorded voice supplies timing. This supports planning explanatory action before polishing drawings.",
+    "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+  },
+  {
+    "key": "loneliness",
+    "url": "https://kurzgesagt.org/projects/loneliness",
+    "kind": "official studio production/case-study text",
+    "retrieved_date_local": "2026-10-25",
+    "timezone": "Asia/Manila",
+    "http_status": 200,
+    "html_sha256": "a367315086f665b58af3a9ef4b0c161b97a7e65ff68b6e6100c295c86df0739f",
+    "supporting_quotes": [
+      "a scientific video should connect to people to have an impact"
+    ],
+    "paraphrased_relevance": "The case study emphasizes handling a personal feeling with an appropriate tone. The reviewed stills communicate withdrawal through posture and separated framing. They do not establish any animation timing.",
+    "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+  },
+  {
+    "key": "behind-the-lies",
+    "url": "https://kurzgesagt.org/projects/behind-the-lies",
+    "kind": "official studio production/case-study text",
+    "retrieved_date_local": "2026-10-25",
+    "timezone": "Asia/Manila",
+    "http_status": 200,
+    "html_sha256": "0ee620d9a96a72e353fb6b5cb4a09a01aca5a8e8b965503f16a5399b812edda2",
+    "supporting_quotes": [
+      "a highly simplified story that serves as a gateway to understand the bigger picture"
+    ],
+    "paraphrased_relevance": "The studio describes deliberate simplification in science communication. A legible metaphor should preserve the relationship being explained and leave its limits clear.",
+    "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+  },
+  {
+    "key": "extreme-place",
+    "url": "https://kurzgesagt.org/projects/most-extreme-place",
+    "kind": "official studio production/case-study text",
+    "retrieved_date_local": "2026-10-25",
+    "timezone": "Asia/Manila",
+    "http_status": 200,
+    "html_sha256": "aabe82718153b34309b3da26c69fd5df1df5a071d0ddc178091123c50f0dd04a",
+    "supporting_quotes": [
+      "puts you in the footsteps of a traveler that gets smaller and smaller"
+    ],
+    "paraphrased_relevance": "The official description makes a scale journey experiential through a traveler. In the inspected still, the small travelers, oversized insect and shared plant surfaces make scale relational rather than only numerical.",
+    "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+  },
+  {
+    "key": "nuke-city",
+    "url": "https://kurzgesagt.org/projects/nuke-a-city",
+    "kind": "official studio production/case-study text",
+    "retrieved_date_local": "2026-10-25",
+    "timezone": "Asia/Manila",
+    "http_status": 200,
+    "html_sha256": "9eff5031079d9eaccf141b359594fec15239fdcef30c2594932c6f35a1027bd6",
+    "supporting_quotes": [
+      "To make this danger tangible",
+      "Showing the unimaginable"
+    ],
+    "paraphrased_relevance": "The official page describes a play-by-play human consequence story and the balance between watchability and conveying harm. The inspected city/blast still uses recognizable buildings as a scale anchor; no full-episode timing is inferred.",
+    "limits": "Website text and selected official stills; not playback of the linked full YouTube episode."
+  }
+]
