@@ -10,15 +10,16 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
+import wave
 
 ROOT = Path(__file__).resolve().parents[1]
 
 def main():
-    if len(sys.argv) != 3 or sys.argv[2] not in ('star', 'crowd'):
+    if len(sys.argv) != 3 or sys.argv[2] not in ('star', 'crowd', 'crowd-motion'):
         sys.exit('Use npm run narrate to generate speech with the ElevenLabs SDK.')
     profile = sys.argv[2]
     manifest = ROOT / f'src/data/{profile}-narration.json'
-    audio_dir = 'star-balance' if profile == 'star' else 'crowd'
+    audio_dir = 'star-balance' if profile == 'star' else profile
     audio_file = f'assets/audio/{audio_dir}/narration.wav'
     destination = ROOT / 'public' / audio_file
     data = json.loads(manifest.read_text())
@@ -33,7 +34,9 @@ def main():
         raw = Path(tmp) / 'speech.mp3'
         raw.write_bytes(base64.b64decode(result['audio_base64'], validate=True))
         duration = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=nw=1:nk=1', str(raw)], text=True))
-        factor = max(.9, duration / 19.0)
+        factor = 1.0 if data.get('preserveNativeTiming') else max(.9, duration / 19.0)
+        if data.get('preserveNativeTiming') and duration > 19.3:
+            sys.exit('Native narration exceeds the performance window; revise the voice settings. No file replaced.')
         if factor > 1.15:
             sys.exit('Narration is too long for a natural 20-second read. Revise the script or voice speed and generate again; no final file was replaced.')
         fitted = Path(tmp) / 'narration.wav'
@@ -66,6 +69,30 @@ def main():
         ordered = list(beats.values())
         if not ordered or not 0 < ordered[0] or not ordered[-1] < 19.9 or any(a >= b for a, b in zip(ordered, ordered[1:])):
             sys.exit('Story beat alignment was not valid for this segment; no final file was replaced.')
+        # Extend sentence gaps without changing the speed of spoken phonemes.
+        pauses = data.get('performancePauses', [])
+        cuts = sorted((beats[p['beforeBeat']] - .1, p['seconds']) for p in pauses)
+        if cuts:
+            with wave.open(str(fitted)) as file:
+                params = file.getparams()
+                samples = file.readframes(file.getnframes())
+            stride = params.nchannels * params.sampwidth
+            chunks, last = [], 0
+            for cut, seconds in cuts:
+                index = round(cut * params.framerate) * stride
+                chunks.extend([samples[last:index], bytes(round(seconds * params.framerate) * stride)])
+                last = index
+            chunks.append(samples[last:])
+            with wave.open(str(fitted), 'wb') as file:
+                file.setparams(params)
+                file.writeframes(b''.join(chunks)[:20 * params.framerate * stride])
+            def shifted(time):
+                return round(time + sum(seconds for cut, seconds in cuts if time >= cut), 4)
+            for caption in captions:
+                caption.update(start=shifted(caption['start']), end=shifted(caption['end']))
+            beats = {name: shifted(time) for name, time in beats.items()}
+            if captions[-1]['end'] > 19.8:
+                sys.exit('Edited performance exceeds the ending hold; no final file replaced.')
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_bytes(fitted.read_bytes())
     data.update({'status': 'generated', 'audioFile': audio_file, 'voiceId': voice, 'captions': captions, 'beats': beats, 'timingSource': 'ElevenLabs character alignment', 'speedAdjustment': round(factor, 6)})

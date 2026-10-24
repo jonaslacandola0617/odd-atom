@@ -1,0 +1,30 @@
+{
+  "frames": 600,
+  "trianglesChecked": 501600,
+  "noFoldovers": true,
+  "maxFootDisplacementLocalPixels": 0,
+  "maxCupEdgeLengthErrorLocalPixels": 9.947598300641403e-14,
+  "meshes": {
+    "Mira body": {
+      "minAreaRatio": 0.7715263277175701,
+      "maxAreaRatio": 1.1254541982918371,
+      "trianglesChecked": 144000
+    },
+    "Sol body": {
+      "minAreaRatio": 0.9272241818558183,
+      "maxAreaRatio": 1.080047028308868,
+      "trianglesChecked": 144000
+    },
+    "Mira arm": {
+      "minAreaRatio": 0.2647106336059182,
+      "maxAreaRatio": 1.196462197671569,
+      "trianglesChecked": 108000
+    },
+    "Sol arm": {
+      "minAreaRatio": 0.5073687688229088,
+      "maxAreaRatio": 1.458845033170357,
+      "trianglesChecked": 105600
+    }
+  },
+  "limits": "Geometry checks detect foldovers and anchor/prop deformation; they do not score acting, artwork similarity, or subjective voice performance."
+}

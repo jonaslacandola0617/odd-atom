@@ -6,7 +6,7 @@ import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const profiles = {star: 'star', crowd: 'crowd'};
+const profiles = {star: 'star', crowd: 'crowd', 'crowd-motion': 'crowd-motion'};
 
 async function main() {
   if (!process.env.ELEVENLABS_API_KEY) {
@@ -15,7 +15,7 @@ async function main() {
   }
   const profile = process.argv[2] || 'star';
   if (!Object.hasOwn(profiles, profile)) {
-    console.error('Choose an existing narration profile: star or crowd.');
+    console.error('Choose an existing narration profile: star, crowd or crowd-motion.');
     return 1;
   }
   const data = JSON.parse(await readFile(path.join(root, `src/data/${profile}-narration.json`), 'utf8'));
@@ -34,7 +34,7 @@ async function main() {
       text: data.script,
       modelId: data.modelId,
       outputFormat: 'mp3_44100_128',
-      voiceSettings: {
+      voiceSettings: data.voiceSettings || {
         stability: 0.55,
         similarityBoost: 0.75,
         style: 0.08,

@@ -4,17 +4,19 @@
 
 **Approved character master:** [View/download the static sheet](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/characters/static-test-01.png). The user approved these Mira and Sol designs; the latest film adapts them into animated illustrated cutouts.
 
-The latest test is **Alone in a crowd with the approved characters**: a 20-second, 1920 × 1080, 30 fps Remotion film about proximity and connection. Mira and Sol have separate head, body, and arm layers, matching illustrated environments, and the existing generated ElevenLabs narration, aligned captions, original music, and ambience.
+The latest test is **Alone in a crowd — new motion pass**: a 20-second, 1920 × 1080, 30 fps Remotion film using the unchanged approved artwork. Torso weight shifts, elbow/wrist articulation, head-led attention, delayed reactions, and readable holds replace continuous idle movement. A fresh ElevenLabs read retains native speech speed, with edited sentence gaps, aligned captions, and quieter original music/ambience.
 
-**[Download the approved-character 20-second MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/approved-characters-20s.mp4)** · [Poster](assets/videos/approved-characters-20s-poster.png) · [Approved-sheet/animation comparison](docs/production/approved-characters.md)
+**[Download the new 20-second MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/approved-characters-motion-20s.mp4)** · [Poster](assets/videos/approved-characters-motion-20s-poster.png) · [Motion review and comparison](docs/production/characters-motion.md)
+
+[Previous approved-art film](assets/videos/approved-characters-20s.mp4) remains unchanged for comparison. The approved character sheet and all four illustration assets retain their recorded hashes.
 
 The [earlier artwork audit](docs/production/artwork-audit/README.md) and [previous rebuild](docs/production/crowd-rebuilt.md) remain as historical comparisons. The current approved master guides the character drawing. Technical delivery is not evidence of comparable visual quality.
 
 ## What was built and reviewed
 
-The approved faces, hair, hoodie, sweater, trousers, and hands are retained in adapted transparent illustration layers. The test animates head tilts/nods, breathing, shoulder-pivot gestures, eye-area blinks, an expression change during a blink, and a cup response. Three shots move from a twilight crowd to a garden conversation and closer reaction. The opening title has layered outline passes and captions stay below the action. No production labels or branding appear in the film.
+The original illustrated textures are skinned continuously through the torso and arm joints. Lower legs stay anchored, the cup/grip move together, and steam emits from the moving cup then rises independently. Authored pose keys separate anticipation, stroke, hold, and settling. The expression changes during a blink. The painted environments are deliberately held, with camera staging and foreground crowd motion providing depth.
 
-The [review](docs/production/approved-characters.md) compares the approved sheet with actual MP4 frames and includes sequence, acting, and blink-detail boards. The source sheet is unchanged. This is a limited cutout rig, with its scope and source-generation records documented.
+The [new review](docs/production/characters-motion.md) contains actual encoded frames, a previous/new motion loop, close-ups, unchanged-art hashes, and geometry/delivery checks. The rig has limited 2D views and does not implement a walk cycle or lip sync.
 
 ## Install and render
 
@@ -26,10 +28,10 @@ npm run typecheck
 npm run dev
 ```
 
-Select `ApprovedCharactersTest` in Remotion Studio. The committed artwork, narration and audio stems allow offline re-rendering without new image or speech requests:
+Select `MotionCharactersTest` in Remotion Studio. The committed artwork, narration and audio stems allow offline re-rendering without new image or speech requests:
 
 ```sh
-npm run render:approved-characters
+npm run render:characters-motion
 ```
 
 The final render command checks the narration provider, generated status, and audio file. It renders 600 frames, mixes the original PCM stems into AAC, preserves the H.264 picture, and writes an MP4 with exact 20-second track timing and fast-start metadata.
@@ -37,7 +39,7 @@ The final render command checks the narration provider, generated status, and au
 Optional sound regeneration:
 
 ```sh
-npm run sound:crowd
+npm run sound:characters-motion
 ```
 
 Sound regeneration needs NumPy. The current transparent art atlases and background PNGs are under `public/assets/artwork/approved-characters/`; prompts and hashes are in `docs/production/approved-characters/`. Older SVG character/set exports remain historical comparison material.
@@ -49,23 +51,25 @@ The official `@elevenlabs/elevenlabs-js` SDK is connected and live generation ha
 To generate new narration after editing the crowd script:
 
 ```sh
-npm run narrate:crowd
-npm run sound:crowd
-npm run render:approved-characters
+npm run narrate:characters-motion
+npm run sound:characters-motion
+npm run render:characters-motion
 ```
 
-Narration generation uses account credits. An optional `ELEVENLABS_VOICE_ID` selects another account-accessible voice; otherwise the project uses George with `eleven_multilingual_v2`. The returned character timestamps drive caption and scene timing. Tempo fitting is limited to a 10% slowdown or a 15% speedup; a longer read is rejected. Failed responses preserve existing narration.
+Narration generation uses account credits. An optional `ELEVENLABS_VOICE_ID` selects another account-accessible voice; otherwise the project uses George with `eleven_multilingual_v2`. The returned character timestamps drive caption and scene timing. The current motion profile rejects an overlong native read, preserves spoken phoneme speed, and inserts the configured silence in sentence gaps. Older profiles retain their previous tempo fitting. Failed responses preserve existing narration.
 
 ## Source map
 
-- `src/ApprovedCharacters.tsx`: current illustrated cutout rig, sequence, shot framing, gestures, and captions.
+- `src/MotionCharacters.tsx`: current skinned illustration rig, authored pose timing, staging, and captions.
+- `src/ApprovedCharacters.tsx`: previous approved-art cutout composition, retained for comparison.
+- `scripts/review_motion_characters.py`, `scripts/check_motion_geometry.cjs`: current encoded-frame and geometry checks.
 - `public/assets/artwork/approved-characters/`: current transparent image atlases and background plates.
 - `scripts/review_approved_characters.py`: encoded-frame comparisons and validation.
 - `src/Connection.tsx`, `src/art/ConnectionArt.tsx`: previous vector rebuild retained for comparison.
 - `src/Crowd.tsx`, `src/characters/Citizen.tsx`, `src/art/City.tsx`: previous rejected test retained for comparison.
-- `src/data/crowd-narration.json`: script, generated status, aligned captions, and story cues.
+- `src/data/crowd-motion-narration.json`: current ElevenLabs performance settings, edited pauses, captions, and story cues.
 - `scripts/elevenlabs_narration.mjs`: official SDK speech request; `elevenlabs_narration.py` handles audio and timing.
-- `scripts/crowd_sound_design.py`: original score and ambience.
+- `scripts/motion_sound_design.py`: current original score and ambience.
 - `scripts/render_final.cjs`: guarded render and final audio/video assembly.
 
 ## Reference library

@@ -1,0 +1,96 @@
+{
+  "provider": "elevenlabs",
+  "status": "generated",
+  "audioFile": "assets/audio/crowd-motion/narration.wav",
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "modelId": "eleven_multilingual_v2",
+  "script": "You can be surrounded by people and still feel alone. Being nearby isn't the same as feeling connected. Connection grows when someone notices you, listens, and responds. One conversation won't solve loneliness. But it can be a small first step toward feeling seen.",
+  "beatPhrases": {
+    "nearby": "being nearby",
+    "notice": "connection grows",
+    "conversation": "one conversation",
+    "seen": "but it can"
+  },
+  "timingSource": "ElevenLabs character alignment",
+  "voiceSettings": {
+    "stability": 0.48,
+    "similarityBoost": 0.8,
+    "style": 0.19,
+    "useSpeakerBoost": true,
+    "speed": 0.94
+  },
+  "preserveNativeTiming": true,
+  "captions": [
+    {
+      "start": 0.208,
+      "end": 1.648,
+      "text": "You can be surrounded by people"
+    },
+    {
+      "start": 1.648,
+      "end": 3.126,
+      "text": "and still feel alone."
+    },
+    {
+      "start": 3.812,
+      "end": 5.554,
+      "text": "Being nearby isn't the same as"
+    },
+    {
+      "start": 5.554,
+      "end": 6.719,
+      "text": "feeling connected."
+    },
+    {
+      "start": 7.494,
+      "end": 9.805,
+      "text": "Connection grows when someone notices you,"
+    },
+    {
+      "start": 9.805,
+      "end": 11.399,
+      "text": "listens, and responds."
+    },
+    {
+      "start": 12.175,
+      "end": 14.582,
+      "text": "One conversation won't solve loneliness."
+    },
+    {
+      "start": 15.068,
+      "end": 15.997,
+      "text": "But it can be a small"
+    },
+    {
+      "start": 15.997,
+      "end": 18.137,
+      "text": "first step toward feeling seen."
+    }
+  ],
+  "beats": {
+    "nearby": 3.812,
+    "notice": 7.494,
+    "conversation": 12.175,
+    "seen": 15.068
+  },
+  "speedAdjustment": 1.0,
+  "performancePauses": [
+    {
+      "beforeBeat": "nearby",
+      "seconds": 0.4
+    },
+    {
+      "beforeBeat": "notice",
+      "seconds": 0.35
+    },
+    {
+      "beforeBeat": "conversation",
+      "seconds": 0.35
+    },
+    {
+      "beforeBeat": "seen",
+      "seconds": 0.2
+    }
+  ],
+  "pauseEditing": "Silence inserted into sentence gaps; spoken phonemes retain native speed."
+}

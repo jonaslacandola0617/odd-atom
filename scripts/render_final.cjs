@@ -3,12 +3,12 @@ const path = require('node:path');
 const {spawnSync} = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const profile = process.argv[2] || 'star';
-const profiles = {star: {composition: 'StarBalance', output: 'star-balance-20s', narration: 'star'}, crowd: {composition: 'AloneInACrowd', output: 'alone-in-a-crowd-20s', narration: 'crowd'}, 'crowd-rebuilt': {composition: 'CrowdRebuilt', output: 'alone-in-a-crowd-rebuilt-20s', narration: 'crowd'}, 'approved-characters': {composition: 'ApprovedCharactersTest', output: 'approved-characters-20s', narration: 'crowd'}};
+const profiles = {'characters-motion': {composition: 'MotionCharactersTest', output: 'approved-characters-motion-20s', narration: 'crowd-motion'}, star: {composition: 'StarBalance', output: 'star-balance-20s', narration: 'star'}, crowd: {composition: 'AloneInACrowd', output: 'alone-in-a-crowd-20s', narration: 'crowd'}, 'crowd-rebuilt': {composition: 'CrowdRebuilt', output: 'alone-in-a-crowd-rebuilt-20s', narration: 'crowd'}, 'approved-characters': {composition: 'ApprovedCharactersTest', output: 'approved-characters-20s', narration: 'crowd'}};
 if (!Object.hasOwn(profiles, profile)) {console.error('Choose a known render profile: '+Object.keys(profiles).join(', ')+'.'); process.exit(1);}
 const target = profiles[profile];
 const narration = JSON.parse(fs.readFileSync(path.join(root, `src/data/${target.narration}-narration.json`), 'utf8'));
 if (narration.provider !== 'elevenlabs' || narration.status !== 'generated' || !narration.audioFile || !fs.existsSync(path.join(root, 'public', narration.audioFile))) {
-  console.error(`Final render blocked: ElevenLabs narration is missing. Configure the secure API key and network access, then run npm run ${target.narration === 'crowd' ? 'narrate:crowd' : 'narrate'}. Unvoiced preview compositions are for visual review only.`);
+  console.error(`Final render blocked: ElevenLabs narration is missing. Configure the secure API key and network access, then run npm run ${target.narration === 'crowd-motion' ? 'narrate:characters-motion' : target.narration === 'crowd' ? 'narrate:crowd' : 'narrate'}. Unvoiced preview compositions are for visual review only.`);
   process.exit(1);
 }
 const temporary = path.join(root, 'out');
@@ -18,7 +18,7 @@ const candidate = path.join(temporary, `${target.output}.delivery.mp4`);
 const result = spawnSync(path.join(root, 'node_modules/.bin/remotion'), ['render', 'src/index.ts', target.composition, rendered, '--browser-executable=/usr/bin/chromium', '--concurrency=3', '--crf=16', '--pixel-format=yuv420p'], {cwd: root, stdio: 'inherit'});
 if (result.status !== 0) process.exit(result.status ?? 1);
 // Mix original PCM stems once, preserving picture and exact audio/video timing.
-const audio = path.join(root, 'public/assets/audio', target.narration === 'star' ? 'star-balance' : 'crowd');
+const audio = path.join(root, 'public/assets/audio', target.narration === 'star' ? 'star-balance' : target.narration);
 const remuxed = spawnSync('ffmpeg', ['-y', '-v', 'error', '-i', rendered,
   '-i', path.join(audio, 'music.wav'), '-i', path.join(audio, 'sfx.wav'), '-i', path.join(root, 'public', narration.audioFile),
   '-filter_complex', '[1:a][2:a][3:a]amix=inputs=3:normalize=0,atrim=duration=20[a]',

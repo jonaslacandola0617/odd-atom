@@ -1,5 +1,9 @@
 # Current production records
 
+## New character motion pass
+
+`approved-characters-motion-20s.mp4` reuses the exact approved illustration files and static sheet. No new character or background drawings were generated. `src/MotionCharacters.tsx` skins the original textures through torso/elbow/wrist controls, then stages pose keys and independent steam. A fresh ElevenLabs generation uses George and `eleven_multilingual_v2`, retains native spoken timing, and adds 1.3 seconds of silence in sentence gaps. The original synthesized music/ambience were regenerated at quieter levels with a cloth cue at the arm gesture. Encoded comparisons, geometry checks, and asset hashes are recorded under `docs/production/characters-motion/`.
+
 ## Motion-study reference excerpts
 
 `references/studies/motion-2026-10-24/` contains short silent GIF excerpts and frame sheets extracted from the eight reference videos uploaded by the user. They are labeled analytical reference material, not original channel animations or production assets. Source filenames, hashes, ranges and decoded timestamps are retained in `measurements.json`. Official production-process statements are separately linked and hashed in `process-sources.json`.

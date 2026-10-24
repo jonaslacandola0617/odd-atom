@@ -18,6 +18,12 @@
 - Use short plain narration captions over the artwork with a thin dark edge, without dashboard panels or caption cards.
 - Keep source-access limitations explicit. Do not claim to have researched a live channel when its pages could not be accessed.
 
+# Current animation delivery
+
+- The current motion comparison is `assets/videos/approved-characters-motion-20s.mp4`, rendered with `MotionCharactersTest` / `npm run render:characters-motion`. The previous approved-art movie stays unchanged.
+- Use the versioned `crowd-motion` narration/audio profile for this film; `npm run narrate:characters-motion` uses ElevenLabs credits and is unnecessary for offline re-rendering.
+- The new rig skins the original illustrated textures, with anchored lower legs and a rigid cup grip. Do not regress to visible cut seams or continuous unmotivated character idle loops.
+
 # Current production requirements
 
 - Produce landscape 16:9 long-form material. The current test is 20 seconds at 1920 × 1080 and 30 fps.
