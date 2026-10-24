@@ -1,0 +1,407 @@
+[
+  {
+    "file": "calm-background.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "ac1902647a19247a958f8c1d23500c93d23b249043b9646d69820fd89749c199"
+  },
+  {
+    "file": "cosmos-background.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "525fa615fc3d39f798e1bd6dc6082c3fc234eb6f1b997bd3a3c5881aa0d12055"
+  },
+  {
+    "file": "field-ribbons-0.png",
+    "width": 768,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "871e6d8c015feb39e4674e5c27da36d9866d1e0ef30cdcbb9c6a36640b6d0206",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "field-ribbons-1.png",
+    "width": 768,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "d7f262ab2624e6fed31733b8245fdfd16b9ebe6a7ae75c80f661f634936a8d5a",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "field-ribbons-2.png",
+    "width": 768,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "34fdcf0b2cf556ce2ee07f1843fd60124c7fb7ccd626bf72d988716e8e970831",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "field-ribbons-3.png",
+    "width": 768,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "1fecaac712455563a9f61a6bc29ab68b7602cb120b88e75179c3d49d7dd68f3d",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "field-ribbons.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "10d9c89418664389ddb4e20c5b83df1a8a55fd09ebb6f210d9719a64875998a0",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "galaxies-atlas-0.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "1c27b59098d8076d9fe3523bedc44d263e72444abc0781979d5d96826e0e7d20",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "galaxies-atlas-1.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "76e29c2811e39f8dfb05c861d34d5bdcd90b25c0ac4226b0445f34f87da9b749",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "galaxies-atlas-2.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "8ecb73951a7e32f71d4448a6b889344ca231943e83b9eb32676d0fbc22899122",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "galaxies-atlas-3.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "78756a9c6b2617190121b3b620441f44037d3cf812c04905c792a2427a51534c",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "galaxies-atlas-4.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "bf7594bb096e135acd756c5f0695469621c0565b6d98398576cfd9c1809392dd",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "galaxies-atlas-5.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "9ac0eb8d782a0cc56a80dce03e07f0bcf140170b0a1243cfb65348c6dc928046",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "galaxies-atlas.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "5b10fd30b1da7b2568c49b6762812f4508c7e0301c286148acca7e7ff88691f7",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "nuclei-atlas-0.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "a88ad6bb9923d558edb2da4fa2d875eada5589c86a7d4ef03bfce91bd2a4d5ec",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "nuclei-atlas-1.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "1542efa7667a22f99909ce31e3b98fc91d5a42bd185361666da6c3c172f26ba3",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "nuclei-atlas-2.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "76f607ddbe7a602ad7b4062eb5df7cd5a3e3bd9ed9d5a06b2872fad08473982b",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "nuclei-atlas-3.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "a65911be45e307f0bb7687b57ce55c3a9d172775873db235e55c7de8df1b49dd",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "nuclei-atlas-4.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "a9dd4c9849731d4999fa0d8f909e2f726d817a412c1bfa459207b64a26832ad0",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "nuclei-atlas-5.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "676f051784c606a3500f7f686b30860d06738fccf8390a2f6284cda7ae28ece2",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "nuclei-atlas.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "dc8664972899de4f5a24585443dd1ccc53f6c469d52bdc737e70f853ee779aa2",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "observatory-background.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "631fc75f84d598d1ee188cc998f26013c8ad9a3eb9298f59a5847e61742cb16c"
+  },
+  {
+    "file": "plasma-background.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "d3c25ca3b75dee7788ac26c5f3549225b5fc66d00451b8da7417b5e49cf157bc"
+  },
+  {
+    "file": "props-atlas-0.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "bc4365bde14438868613be5e19700b4c4a68515f0ff724806073101505cd743c",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "props-atlas-1.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "4574f62e31161ae682e9d20903d12a2e30fee26301c3aceb3be95f2c9253b475",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "props-atlas-2.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "556e290ae603a7dc3ebbe41a9537b9c96022158d05b7ea2975d059a67ddd2259",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "props-atlas-3.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "4a803f9b248f878935f9d99deb91609848bed6dad14b787cca6ab059d1eac2be",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "props-atlas-4.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "d69eb00bd4d9e8ea3465ee82a6adb964f8d19d5aeace12e7087901c690eae941",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "props-atlas-5.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "06ea1ed0228864796fb5d09e7baa6581d4087deb6bc26bb60decc78ef24c991c",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "props-atlas.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "7203edae27a5a552fd7ba40438ce176e1364e654a7b78deddd21effa264682f2",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "stellar-atlas-0.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "98e4cecbfb04de6629a787ff2ac35aafaa9cd3f1f890fcd8c0058bf2007fbac0",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "stellar-atlas-1.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "80d1cc6705aa4940c9029790b7f55102e3ce891dd066e52b9600fae9d961d6b4",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "stellar-atlas-2.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "7eee88630e49d5cdffcc3261a0c3b257a4ba350b7d010a17b91ac51e8c4d0ffd",
+    "alpha_range": [
+      0,
+      253
+    ]
+  },
+  {
+    "file": "stellar-atlas-3.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "369d024c68c6b7ab711e2059e28a59162a9996c0c57368c44d95874b3039cc25",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "stellar-atlas-4.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "63e9dd843470729431319b79f602b396f2bbefdb90c859074edc4cc3891915df",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "stellar-atlas-5.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "9839c2e569205d1f88025a43c3fe119a3a1e1c82a1df08b9d041b7c8a319981f",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "stellar-atlas.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "57c38d50d180bd9848df36305b8fda4a8e35255c43923fb3a16980b98e3e54a5",
+    "alpha_range": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "thought-room.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "73964ad8b44d79f83826668e3f0ed2e69713c7714e788609c3696bd4acd79cb3"
+  },
+  {
+    "file": "time-landscape.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "4bee2e2ae5de71e6b01fe1fcfd281e3ee01bc5640ea00b012a63c487f3aac870"
+  }
+]

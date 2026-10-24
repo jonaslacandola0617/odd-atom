@@ -63,6 +63,8 @@ The official website later became accessible. Its downloaded illustrations and c
 
 ## Tooling
 
+The full singularity animation uses eleven original image-generation outputs guided by the user's approved project art: six environment plates and five source sprite atlases. Twenty-eight native-size alpha objects were exported in Remotion with a narrow transparent edge fade to remove sprite-cell seams. Exact carbon/oxygen composites use counted individual particle sprites. Human scenes reuse the unchanged approved Sol artwork and motion rig. The original score and effects are deterministic synthesized sound; they contain no commercial soundtrack samples. Source prompts, artwork hashes, mix settings and review records are under `docs/production/singularity/film/`. These are original project illustrations, not assets downloaded from the reference channel.
+
 The medicine PNG layer package uses three image-generation edits based on the approved project illustration: a completed environment, an environment cutout sheet, and a separate clinician pose. Clouds and foliage are exported as alpha PNGs and animated in Remotion. Biological sprites reuse the earlier generated cell atlas. Original foreground-plant colors are isolated through the existing registered mask. The new clinician cutout changes framing and is not substituted into the previously approved-art rig. This delivery does not trace the artwork into SVG color paths. Prompts and scope are recorded in `docs/production/medicine-layers.md`.
 
 Remotion packages are pinned to 4.0.538. Remotion's own license applies to use of that software: https://www.remotion.dev/license.

@@ -1,0 +1,4 @@
+# Offline soundtrack/review helpers; no voice or image API is needed.
+numpy==2.3.5
+scipy==1.17.0
+Pillow==12.3.0

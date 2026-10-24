@@ -1,0 +1,293 @@
+{
+  "method": "Original deterministic oscillator/pluck/pad score and filtered-noise/tonal effects; no sampled commercial music",
+  "sourceVoice": "assets/audio/singularity/narration-original.m4a",
+  "sourceVoiceSha256": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+  "voiceSpeedAdjustment": 1,
+  "voicePitchAdjustment": 0,
+  "voiceMixGain": 0.92,
+  "limiterCeilingDbfs": -1.5,
+  "durationSeconds": 536.6333333333333,
+  "sampleRate": 48000,
+  "channels": 2,
+  "scoreSections": [
+    {
+      "start": 0,
+      "end": 50.11,
+      "notesMidi": [
+        50,
+        57,
+        60,
+        64
+      ]
+    },
+    {
+      "start": 50.11,
+      "end": 113.77,
+      "notesMidi": [
+        53,
+        60,
+        64,
+        67
+      ]
+    },
+    {
+      "start": 113.77,
+      "end": 171.24,
+      "notesMidi": [
+        50,
+        57,
+        60,
+        65
+      ]
+    },
+    {
+      "start": 171.24,
+      "end": 242.24,
+      "notesMidi": [
+        53,
+        57,
+        60,
+        64
+      ]
+    },
+    {
+      "start": 242.24,
+      "end": 284.18,
+      "notesMidi": [
+        47,
+        54,
+        57,
+        62
+      ]
+    },
+    {
+      "start": 284.18,
+      "end": 331.84,
+      "notesMidi": [
+        50,
+        57,
+        60,
+        64
+      ]
+    },
+    {
+      "start": 331.84,
+      "end": 366.54,
+      "notesMidi": [
+        52,
+        59,
+        62,
+        66
+      ]
+    },
+    {
+      "start": 366.54,
+      "end": 414.61,
+      "notesMidi": [
+        55,
+        62,
+        65,
+        69
+      ]
+    },
+    {
+      "start": 414.61,
+      "end": 447.71,
+      "notesMidi": [
+        50,
+        57,
+        64
+      ]
+    },
+    {
+      "start": 447.71,
+      "end": 488.97,
+      "notesMidi": [
+        53,
+        60,
+        64,
+        67
+      ]
+    },
+    {
+      "start": 488.97,
+      "end": 512.61,
+      "notesMidi": [
+        48,
+        55,
+        59,
+        64,
+        67
+      ]
+    },
+    {
+      "start": 512.61,
+      "end": 536.6333333333333,
+      "notesMidi": [
+        50,
+        57,
+        60,
+        64
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "time": 0,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "time": 5.97,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.3
+    },
+    {
+      "time": 8.270000000000001,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "time": 22.14,
+      "kind": "low",
+      "duration": 0.7,
+      "pan": 0
+    },
+    {
+      "time": 23.89,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "time": 50.16,
+      "kind": "chime",
+      "duration": 2.1,
+      "pan": 0.2
+    },
+    {
+      "time": 64.33999999999999,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "time": 85.48,
+      "kind": "chime",
+      "duration": 2.1,
+      "pan": 0.2
+    },
+    {
+      "time": 113.64999999999999,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "time": 155.87,
+      "kind": "low",
+      "duration": 0.7,
+      "pan": 0
+    },
+    {
+      "time": 171.12,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.3
+    },
+    {
+      "time": 193.26999999999998,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.3
+    },
+    {
+      "time": 242.12,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.3
+    },
+    {
+      "time": 284.06,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "time": 297.11,
+      "kind": "low",
+      "duration": 0.7,
+      "pan": 0
+    },
+    {
+      "time": 331.71999999999997,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.3
+    },
+    {
+      "time": 363.42,
+      "kind": "low",
+      "duration": 0.7,
+      "pan": 0
+    },
+    {
+      "time": 366.42,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.3
+    },
+    {
+      "time": 388.65,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.3
+    },
+    {
+      "time": 399.17,
+      "kind": "low",
+      "duration": 0.7,
+      "pan": 0
+    },
+    {
+      "time": 414.49,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.3
+    },
+    {
+      "time": 450.09000000000003,
+      "kind": "chime",
+      "duration": 2.1,
+      "pan": 0.2
+    },
+    {
+      "time": 488.85,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.3
+    },
+    {
+      "time": 493.47,
+      "kind": "chime",
+      "duration": 2.1,
+      "pan": 0.2
+    },
+    {
+      "time": 512.49,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.3
+    },
+    {
+      "time": 531.11,
+      "kind": "low",
+      "duration": 0.7,
+      "pan": 0
+    }
+  ],
+  "finalMix": "assets/audio/singularity/final-mix.m4a"
+}

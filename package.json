@@ -36,7 +36,12 @@
     "assets:medicine-layers": "node scripts/export_medicine_layers.cjs",
     "render:medicine-layers": "node scripts/render_medicine_layers.cjs",
     "still:medicine-layers": "node scripts/render_medicine_layers.cjs --stills",
-    "prepare:singularity-audio": "python scripts/prepare_singularity_audio.py"
+    "prepare:singularity-audio": "python scripts/prepare_singularity_audio.py",
+    "sprites:singularity": "node scripts/export_singularity_sprites.cjs",
+    "sound:singularity": "python scripts/singularity_sound.py",
+    "still:singularity": "node scripts/render_singularity.cjs --stills",
+    "render:singularity": "node scripts/render_singularity.cjs",
+    "review:singularity": "python scripts/review_singularity.py"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",
