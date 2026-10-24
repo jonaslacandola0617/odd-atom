@@ -1,0 +1,18 @@
+{
+  "frames": 600,
+  "meshes": {
+    "clinician": {
+      "trianglesChecked": 441600,
+      "minAreaRatio": 0.5615991271626822,
+      "noFoldovers": true
+    },
+    "immune-cell": {
+      "trianglesChecked": 158400,
+      "minAreaRatio": 0.5194522895613558,
+      "noFoldovers": true
+    }
+  },
+  "maxContactDisplacement": 0,
+  "threatsSettleInsideBasin": true,
+  "limits": "Geometry/contact/containment checks; subjective motion and artwork quality require visual review."
+}

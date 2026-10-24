@@ -25,7 +25,11 @@
     "render:characters-motion": "node scripts/render_final.cjs characters-motion",
     "narrate:characters-motion": "node --use-env-proxy --use-system-ca scripts/elevenlabs_narration.mjs crowd-motion",
     "sound:characters-motion": "python scripts/motion_sound_design.py",
-    "review:characters-motion": "node scripts/check_motion_geometry.cjs && python scripts/review_motion_characters.py"
+    "review:characters-motion": "node scripts/check_motion_geometry.cjs && python scripts/review_motion_characters.py",
+    "render:artwork-motion": "node scripts/render_artwork_motion.cjs",
+    "still:artwork-motion": "node scripts/render_artwork_motion.cjs --stills",
+    "sound:artwork-motion": "python scripts/artwork_motion_sound.py",
+    "review:artwork-motion": "node scripts/check_artwork_motion.cjs && python scripts/review_artwork_motion.py"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

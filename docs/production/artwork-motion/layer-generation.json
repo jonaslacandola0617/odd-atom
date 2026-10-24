@@ -1,0 +1,51 @@
+{
+  "created_date": "2026-10-24",
+  "tool": "image_gen.imagegen",
+  "jobs": [
+    {
+      "name": "medicine-clean",
+      "prompt": "Edit the attached approved illustration into a precisely registered CLEAN BACKGROUND PLATE for animation. Preserve the exact 1672x941 widescreen composition, viewpoint, all existing lines/colors/shapes and object positions. Do not restyle or recompose. Remove ONLY these moving subjects and fill the hidden background naturally: (1) the entire silver-haired clinician including her hair/head/neck/coat/arms/hands/purple trousers and the small specimen slide she is holding; preserve the empty black/gold stool and the stationary microscope including its stage, base and focus knob. Reconstruct only the portions of room, bench, drawers and stool previously hidden behind her. (2) ALL red blood cells, both teal microbes and the entire ivory/lilac immune cell from INSIDE the large round screen on the left. Retain the exact round screen rim and the dark berry blood-vessel background with its broad curved berry planes, so the circular view becomes an empty environment. (3) Remove the leafy foliage of the large lower-left potted plant, but KEEP the terracotta pot exactly; reconstruct the wall/screen/bench hidden behind its leaves. Keep the small hanging plant above the clinician, windows, sunset, microscope, workbench, jars, specimen tray, petri dish, cables, room lighting and all other objects unchanged. These removed subjects will be restored as moving layers. No new objects, no text, no logos, no checkerboard. Opaque finished scene, same framing and exact registration as the reference.",
+      "refs": [
+        "/workspace/odd-atom/assets/scenes/artwork-consistency-02/medicine-immune-defense.png"
+      ],
+      "transparent": false,
+      "generation_file": "/workspace/generated_images/exec-00ec786d-786d-4486-9d62-1404cde5776a.png"
+    },
+    {
+      "name": "medicine-cutouts",
+      "prompt": "Extract exactly TWO foreground subjects from the attached approved artwork onto a TRANSPARENT BACKGROUND, maintaining their original 1672x941 canvas positions, relative sizes, drawing and colors. This is a precisely registered animation cutout pass, NOT a redesign or new scene. Subject one: the entire original silver-curly-haired clinician, including all hair curls, ear/earring, head, neck, ivory coat, jade scrubs, both complete arms and hands, purple trousers, and the glass specimen slide held in her upper hand. Preserve her EXACT face with small oval dark eyes, her EXACT shapes and pose. Keep all the visible painted clinician pixels; remove the microscope/stage/focus knob from around her hands, leaving just the fingers and slide. Subject two: ONLY the leafy green foliage/stems of the large lower-left plant, in its original location, with the terracotta pot removed. Remove everything else completely: the room, window, stool, microscope, screen, cells, bench, jars, backgrounds and all shadows cast onto other objects. Preserve transparent holes between fingers, curls and leaves; no colored halo, glow or new outline. Keep original clipping at the canvas bottom where the clinician is cut off. Preserve the empty transparent space between the two subjects and keep the FULL ORIGINAL WIDE CANVAS, without moving or centering either cutout. Output genuine alpha transparency, not a painted checkerboard.",
+      "refs": [
+        "/workspace/odd-atom/assets/scenes/artwork-consistency-02/medicine-immune-defense.png"
+      ],
+      "transparent": true,
+      "generation_file": "/workspace/generated_images/exec-7cc11024-1920-4b64-8f7c-e724d675c4b8.png"
+    },
+    {
+      "name": "medicine-blink",
+      "prompt": "Make a very small local animation-expression edit to the attached approved medical illustration. Keep the exact full composition, original 1672x941 framing, every background, body, prop and hair shape, colors and lighting unchanged. Change ONLY the clinician's TWO dark oval eyes into naturally CLOSED eyelids for one gentle blink: two small clean dark-purple curved eyelid strokes in precisely the same locations. Her face, eyebrows, smile, cheeks, nose, hair, lab coat, hands and everything else must be identical to the reference. Do not add lashes, whites, extra facial features or head rotation. Do not add text. This is a registered alternate eye frame for a production rig.",
+      "refs": [
+        "/workspace/odd-atom/assets/scenes/artwork-consistency-02/medicine-immune-defense.png"
+      ],
+      "transparent": false,
+      "generation_file": "/workspace/generated_images/exec-6fd303ff-3c80-4c79-a8b9-6555be1a88d5.png"
+    },
+    {
+      "name": "medicine-cell-atlas",
+      "prompt": "Create a clean transparent animation SPRITE ATLAS using ONLY the EXACT cell drawing language and designs in the attached approved medical illustration. Canvas is a 3-column by 2-row grid of six invisible equal 512x512 cells, total 1536x1024, NO visible grid or labels. Genuine transparent background. Every sprite must fit fully INSIDE its own cell with at least 30 pixels transparent padding; sprites never touch each other.\nTOP LEFT cell: the large ivory/lilac immune cell from the source, isolated WITHOUT the two teal microbes. Preserve its beautiful broad soft lobes, cream highlights, lavender/pink shaped shadows, C-shaped right-facing opening and major silhouette. Draw its missing inside surface cleanly. Center it, diameter roughly430 pixels. Make it exactly the same cell design, no eyes or faces, no noisy texture.\nTOP MIDDLE: one large clean red blood cell in three-quarter view, like the source top-left red disc. Red/coral flat shaped planes, indented center, slightly tilted oval. Roughly330x240 pixels.\nTOP RIGHT: one side/edge-on red blood cell, a tilted narrow red oval with a thin dark berry plane, roughly330x150 pixels.\nBOTTOM LEFT: a single small teal microbe matching one of the source microbes: short round-oval capsule with a few rounded protrusions, dark teal/jade shadow planes, no face. Roughly260x220 pixels.\nBOTTOM MIDDLE: a second slightly different teal microbe in the same design, slightly longer oval, roughly270x200 pixels.\nBOTTOM RIGHT: a red blood cell at a different three-quarter tilt, roughly330x250 pixels.\nRetain the approved clean sophisticated 2D illustrated color planes. No granular texture, glossy 3D materials, outlines, atmosphere, backdrop, shadows beyond the object silhouettes, props, human, lab objects, letters or checkerboard. The only image content is these six beautifully drawn separate source-matched sprites.",
+      "refs": [
+        "/workspace/odd-atom/assets/scenes/artwork-consistency-02/medicine-immune-defense.png"
+      ],
+      "transparent": true,
+      "generation_file": "/workspace/generated_images/exec-d2d066b4-ec40-4983-b77c-5b22ad022cc9.png"
+    },
+    {
+      "name": "cyber-clean",
+      "prompt": "Edit the attached approved cyber illustration into a precisely registered CLEAN PLATE for animation. Preserve the EXACT 1672x941 canvas, camera viewpoint, geometry, colors, clean 2D illustration planes and all architecture. Do NOT restyle, rearrange or simplify the scene. Remove ONLY these moving objects: (1) ALL small mint/cream/cyan cuboid DATA BLOCKS sitting on the green data pathways, including near the front, through the amber gateway, the rightward winding elevated route and the circular route around the large upper-right cylindrical server. Reconstruct the continuous empty turquoise/green route surfaces under the blocks, without changing their curved walls or rails. (2) ALL coral/magenta threat SHARDS, both on the curving side chute and in the round lower-right quarantine basin. Reconstruct an empty warm coral-lit basin and empty side chute underneath them. KEEP the amber gateway pylons and translucent gold field unchanged. (3) Remove ONLY the dark fan BLADES inside the three visible large fan openings (two on the left, one on the right), leaving clean dark blue inner cavities inside the original rims. Keep the original housings, wires, gold circuit traces, foreground Ethernet sockets/cables, all bridge arches, server buildings, city lights, shadows, route edges, foreground/background and empty-space composition unchanged. No new objects, text, code, humans, labels, logos or checkerboard. Opaque finished registered plate, same exact wide framing as the approved artwork.",
+      "refs": [
+        "/workspace/odd-atom/assets/scenes/artwork-consistency-02/cyber-network-defense.png"
+      ],
+      "transparent": false,
+      "generation_file": "/workspace/generated_images/exec-5ae8e4ed-07d1-4c93-ba1b-61d37ced02c6.png"
+    }
+  ]
+}

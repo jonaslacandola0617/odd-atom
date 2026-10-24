@@ -1,5 +1,9 @@
 # Current production records
 
+## Medicine and cyber artwork animations
+
+The two approved scene PNGs remain unchanged. Image generation prepared registered clean plates, a clinician/foliage alpha extraction, a blink variant, and a source-matched cell atlas under `public/assets/artwork/scene-motion/`. `src/ArtworkMotion.tsx` uses source-image pixels through registered vector mattes for the clinician and foliage, source-cropped packet/shard sprites, independent animated layers and continuous texture skinning. The cell atlas adapts the approved cell designs for layering. Clean-plate patches reveal scenery behind moving objects. Full generation prompts and file hashes are retained under `docs/production/artwork-motion/`. Two original synthesized audio beds accompany the deliberately wordless motion studies; no narration generation was made.
+
 ## Static artwork consistency test 02
 
 The medicine and cyber scenes in `assets/scenes/artwork-consistency-02/` are original raster scene illustrations generated with `image_gen.imagegen`. The approved original character sheet and animation poster guide drawing/rendering consistency. Medicine introduces a new older clinician in a laboratory with a magnified immune-defense scene; cyber uses a person-free network-infrastructure metaphor. Prompts, generation source filenames, final dimensions/hashes and comparison notes are recorded under `docs/production/artwork-consistency-02/`. These are static scene artworks; separate vector layers and animation rigs have not been produced.

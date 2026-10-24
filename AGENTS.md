@@ -8,7 +8,7 @@
 
 # Visual direction
 
-- The user explicitly passed character animation in `assets/videos/approved-characters-motion-20s.mp4`. Environment and object animation will be discussed later. The current request is two original static artwork consistency scenes: medicine with a different human character, and cyber without humans. New subjects and characters are authorized; retain the approved illustration quality and drawing grammar.
+- The user explicitly passed both new static scenes and artwork consistency: `assets/scenes/artwork-consistency-02/medicine-immune-defense.png` and `cyber-network-defense.png`. Animate their human, biological, object and environment layers while retaining their drawing quality. These files are approved immutable source references; add versioned animation assets rather than repainting over them. The medicine clinician is an approved new character.
 
 - The user explicitly passed the artwork and drawing quality of `assets/videos/approved-characters-20s.mp4`. Preserve that visual baseline, including its background quality. The user later passed character animation as well; use this artwork as the comparison baseline for new subjects. The motion study and unchanged-art hash record are in `references/studies/motion-2026-10-24/`. Add matching versioned rig parts as needed rather than redesigning or overwriting approved art.
 - The user approved `assets/characters/static-test-01.png` as the Mira/Sol character direction. Preserve these faces, hair, proportions, outfits and drawing quality when animating them. The approved-character test uses adapted illustrated cutout layers in `public/assets/artwork/approved-characters/`; do not silently substitute the rejected Citizen/ConnectionArt character designs.
@@ -22,9 +22,12 @@
 
 # Current animation delivery
 
-- The current motion comparison is `assets/videos/approved-characters-motion-20s.mp4`, rendered with `MotionCharactersTest` / `npm run render:characters-motion`. The previous approved-art movie stays unchanged.
+- Current scene studies: `MedicineArtworkMotion` and `CyberArtworkMotion`, `npm run render:artwork-motion`. Each is a 20-second 1080p/30 fps wordless motion study with original sound. No narration was requested or generated for these two visual tests. Save MP4s/posters under `assets/videos/` and push them for download.
+- Artwork/motion sources and registered mattes are under `public/assets/artwork/scene-motion/`, `src/ArtworkMotion.tsx`, and `src/data/artwork-motion-registration.json`. Preserve microscope hand contact, independent cell motion, traffic/building occlusion, and contained shard landings.
+
+- The previous character-motion comparison is `assets/videos/approved-characters-motion-20s.mp4`, rendered with `MotionCharactersTest` / `npm run render:characters-motion`. The previous approved-art movie stays unchanged.
 - Use the versioned `crowd-motion` narration/audio profile for this film; `npm run narrate:characters-motion` uses ElevenLabs credits and is unnecessary for offline re-rendering.
-- The new rig skins the original illustrated textures, with anchored lower legs and a rigid cup grip. Do not regress to visible cut seams or continuous unmotivated character idle loops.
+- The character-comparison rig skins the original illustrated textures, with anchored lower legs and a rigid cup grip. Do not regress to visible cut seams or continuous unmotivated character idle loops.
 
 # Current production requirements
 

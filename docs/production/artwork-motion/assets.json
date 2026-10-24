@@ -1,0 +1,57 @@
+[
+  {
+    "path": "public/assets/artwork/scene-motion/medicine-clean.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "sha256": "344d590ca72ab9dab7957baf0276f6c776e437681ec7ffe1848cbab68cfc803d"
+  },
+  {
+    "path": "public/assets/artwork/scene-motion/medicine-cutouts.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "mode": "RGBA",
+    "sha256": "eec91994d9fab245907a9d146f175fe32e2b71e99913f7d9ce4a963fb7b65872"
+  },
+  {
+    "path": "public/assets/artwork/scene-motion/medicine-blink.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "sha256": "b3b34755be4be059a6994368a2fad5ee771f9f3ecab64409c8e848a8f4115ced"
+  },
+  {
+    "path": "public/assets/artwork/scene-motion/medicine-cell-atlas.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "3129bc7ca3a7a2a8d47500ec4a6603bce6db70d7b2fcdef8c8085cca8c9599af"
+  },
+  {
+    "path": "public/assets/artwork/scene-motion/cyber-clean.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "sha256": "56bb27c5818157ec2d3622ea03db3ac14daffded2c6d38505cd3414a88abacf5"
+  },
+  {
+    "path": "public/assets/artwork/scene-motion/medicine-source.png",
+    "exact_copy_of": "assets/scenes/artwork-consistency-02/medicine-immune-defense.png",
+    "sha256": "d9f245e4aad1866de4b29f10a4dd45c7e9312cd3450dd07d68e36f750ed3fd5e"
+  },
+  {
+    "path": "public/assets/artwork/scene-motion/cyber-source.png",
+    "exact_copy_of": "assets/scenes/artwork-consistency-02/cyber-network-defense.png",
+    "sha256": "e6bece838f7095e1346f255533802e62f8f9b114a73479c9a4396ae8088162fd"
+  }
+]
