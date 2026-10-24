@@ -35,6 +35,8 @@
 
 # Current production requirements
 
+- Google Vids has a user-confirmed 2,500-character limit per scene. Split narration at natural topic breaks, count audio tags, spaces and line breaks toward the limit, and provide a scene/script table plus separate paste-ready scene texts. The singularity transcript is split into five unchanged chunks under `docs/production/singularity/google-vids-scenes/`.
+
 - Produce landscape 16:9 long-form material. Earlier animation tests are 20 seconds at 1920 × 1080 and 30 fps. The new singularity project is at script stage, approximately 10–12 minutes at the intended slow delivery; its final duration is not locked.
 - The user explicitly authorized Google Vids AI voiceover as an alternative to limited ElevenLabs credits and demonstrated inline bracketed audio tags in the spoken-script field: for example `[slow pace]`, `[thoughtful]`, `[excited]`, `[suspenseful]`, `[awe]`, `[positive]`, `[short pause]`, `[medium pause]`. Provide new Google Vids scripts in that format; do not invent a separate style-instruction field or claim access to the user's Vids account. Narration performance should be reviewed before locking Remotion animation timing. ElevenLabs remains the provider for previously delivered narrated tests; do not regenerate speech or spend credits for a script-only request. Keep API keys out of files, commands, logs, and Git.
 - Keep visual previews clearly identified by filename and delivery notes if ElevenLabs narration is not yet available; do not claim such a preview is the completed narrated video.

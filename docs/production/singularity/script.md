@@ -4,6 +4,8 @@ Original long-form script, draft 1. The subject is the cosmological Big Bang sin
 
 **Copy/paste narration:** [Google Vids script](narration-google-vids.txt) · [Direct TXT download](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/docs/production/singularity/narration-google-vids.txt)
 
+**Google Vids scene limit:** [Five-scene transcript table](google-vids-scenes.md) · [CSV table](google-vids-scenes.csv) · [Individual scene TXT files](google-vids-scenes/). The transcript is unchanged; every scene is below the user's 2,500-character limit, including inline tags, spaces and line breaks.
+
 Approximately 1,170 spoken words. Allow roughly **10–12 minutes** at a deliberately slow 110–120 words/minute with pauses; the actual Google Vids performance determines the final duration. Bracketed audio directions belong in the narration field, following the user's demonstrated workflow. They are not spoken dialogue, subtitles or instructions for a separate style field. Their exact timing is not assumed.
 
 ## Story promise

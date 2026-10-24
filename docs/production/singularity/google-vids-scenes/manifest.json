@@ -1,0 +1,37 @@
+{
+  "character_limit": 2500,
+  "count_includes": [
+    "audio tags",
+    "spaces",
+    "LF line breaks"
+  ],
+  "source": "../narration-google-vids.txt",
+  "transcript_changed": false,
+  "scenes": [
+    {
+      "scene": 1,
+      "characters": 1462,
+      "file": "scene-01.txt"
+    },
+    {
+      "scene": 2,
+      "characters": 1797,
+      "file": "scene-02.txt"
+    },
+    {
+      "scene": 3,
+      "characters": 1376,
+      "file": "scene-03.txt"
+    },
+    {
+      "scene": 4,
+      "characters": 1309,
+      "file": "scene-04.txt"
+    },
+    {
+      "scene": 5,
+      "characters": 1827,
+      "file": "scene-05.txt"
+    }
+  ]
+}
