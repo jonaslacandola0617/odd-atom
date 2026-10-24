@@ -1,5 +1,7 @@
 # Odd Atom — original explanatory animation
 
+**Latest character drawing test:** [View/download the static character sheet](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/characters/static-test-01.png) · [Design notes and generation record](docs/production/character-static-test.md). This is a standalone raster concept test following further feedback on the film's characters.
+
 The latest test is the **artwork rebuild of Alone in a crowd**: a 20-second, 1920 × 1080, 30 fps Remotion film about the difference between proximity and connection. It has redrawn characters and environments, three shots, and the existing generated ElevenLabs narration, aligned captions, original music, and ambience.
 
 **[Download the rebuilt 20-second MP4](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/alone-in-a-crowd-rebuilt-20s.mp4)** · [Poster](assets/videos/alone-in-a-crowd-rebuilt-20s-poster.png) · [Before/after artwork review](docs/production/crowd-rebuilt.md)

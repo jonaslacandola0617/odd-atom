@@ -1,5 +1,9 @@
 # Current production records
 
+## Static character concept test
+
+`assets/characters/static-test-01.png` is an original raster concept sheet produced with `image_gen.imagegen` in two passes. Saved official Loneliness and The Last Human images guided the character-design study; their hashes, the output hash, and the generation prompts are recorded under `docs/production/character-static-test/`. This sheet is not a hand-authored SVG or a completed animation rig.
+
 ## Original artwork and sound
 
 Ember, its vector geometry, two-bone arm rig, face controls, stellar cutaway, and scene artwork were created for this project. The neutral SVG is exported from the editable React component. The score and effects are synthesized from deterministic oscillators and noise; they contain no sampled commercial music or effects.
