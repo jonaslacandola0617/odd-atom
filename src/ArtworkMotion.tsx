@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react';
 import {AbsoluteFill,Audio,cancelRender,continueRender,delayRender,staticFile,useCurrentFrame} from 'remotion';
 import {TextureMesh,Point} from './art/TextureMesh';
 import registration from './data/artwork-motion-registration.json';
+import {MedicineEnvironment} from './MedicineEnvironment';
 
 const ROOT='assets/artwork/scene-motion/';
 const W=1672,H=941;
@@ -75,7 +76,7 @@ const MicroWorld:React.FC<{frame:number}>=({frame:f})=>{
     {Array.from({length:10},(_,i)=>{const x=(i*173+f*.26)%920-20,y=(i*103+f*.11)%680-40;return <circle key={i} cx={x} cy={y} r={2+i%3} fill="#FF8297" opacity=".18"/>;})}
   </g>;
 };
-const Medicine:React.FC<{frame:number}>=({frame:f})=>{
+const Medicine:React.FC<{frame:number;environmentLayers?:boolean}>=({frame:f,environmentLayers=false})=>{
   const sway=Math.sin(f/82)*.8+Math.sin(f/37)*.22;
   const cam=keys(f,[[0,1],[200,1.028],[410,1.04],[599,1.012]]);
   return <g transform={`translate(750 450) scale(${cam}) translate(-750 -450)`}>
@@ -96,6 +97,7 @@ const Medicine:React.FC<{frame:number}>=({frame:f})=>{
     </defs>
     <Img name="medicine-source"/>
     <g mask="url(#moving-clean)"><Img name="medicine-clean"/></g>
+    {environmentLayers&&<MedicineEnvironment frame={f}/>}
     <MicroWorld frame={f}/>
     <g clipPath="url(#focus-knob)"><g transform={`rotate(${keys(f,[[0,0],[30,0],[53,22],[68,8],[83,16],[100,11],[599,11]])} 945 633)`}><Img name="medicine-source"/></g></g>
     <TextureMesh id="clinician" xs={range(945,1565,40)} ys={[115,155,195,235,275,315,355,395,425,455,485,510,535,560,585,610,635,660,685,715,755,815,880,941]} deform={p=>clinicianPoint(p,f)}><ClinicianTexture frame={f}/></TextureMesh>
@@ -160,11 +162,13 @@ const Cyber:React.FC<{frame:number}>=({frame:f})=>{
   </g>;
 };
 
-export const ArtworkMotion:React.FC<{topic:'medicine'|'cyber'}>=({topic})=>{
+export const ArtworkMotion:React.FC<{topic:'medicine'|'cyber';environmentLayers?:boolean}>=({topic,environmentLayers=false})=>{
   const f=useCurrentFrame();const [handle]=useState(()=>delayRender('Load approved scene layers'));
   useEffect(()=>{
     const files=topic==='medicine'?['medicine-source','medicine-clean','medicine-cutouts','medicine-blink','medicine-cell-atlas']:['cyber-source','cyber-clean'];
-    Promise.all(files.map(name=>new Promise<void>((resolve,reject)=>{const im=new window.Image();im.onload=()=>resolve();im.onerror=()=>reject(new Error(`Missing ${name}`));im.src=staticFile(ROOT+name+'.png');}))).then(()=>continueRender(handle)).catch(cancelRender);
-  },[handle,topic]);
-  return <AbsoluteFill style={{background:'#211331'}}><svg width="1920" height="1080" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="xMidYMid slice">{topic==='medicine'?<Medicine frame={f}/>:<Cyber frame={f}/>}</svg><Audio src={staticFile(`assets/audio/artwork-motion/${topic}.wav`)}/></AbsoluteFill>;
+    const urls=files.map(name=>ROOT+name+'.png');
+    if(environmentLayers)urls.push(...['environment-clean','window-clouds','hanging-vine','window-plant'].map(name=>'assets/artwork/medicine-layers-v1/'+name+'.png'));
+    Promise.all(urls.map(url=>new Promise<void>((resolve,reject)=>{const im=new window.Image();im.onload=()=>resolve();im.onerror=()=>reject(new Error(`Missing ${url}`));im.src=staticFile(url);}))).then(()=>continueRender(handle)).catch(cancelRender);
+  },[handle,topic,environmentLayers]);
+  return <AbsoluteFill style={{background:'#211331'}}><svg width="1920" height="1080" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="xMidYMid slice">{topic==='medicine'?<Medicine frame={f} environmentLayers={environmentLayers}/>:<Cyber frame={f}/>}</svg><Audio src={staticFile(`assets/audio/artwork-motion/${topic}.wav`)}/></AbsoluteFill>;
 };

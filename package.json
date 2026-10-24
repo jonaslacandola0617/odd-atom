@@ -32,7 +32,10 @@
     "review:artwork-motion": "node scripts/check_artwork_motion.cjs && python scripts/review_artwork_motion.py",
     "build:medicine-vector": "python scripts/build_medicine_vector.py",
     "render:medicine-vector": "remotion still src/index.ts MedicineVectorArtwork assets/scenes/medicine-vector/medicine-scene-remotion.png --browser-executable=/usr/bin/chromium",
-    "review:medicine-vector": "python scripts/review_medicine_vector.py"
+    "review:medicine-vector": "python scripts/review_medicine_vector.py",
+    "assets:medicine-layers": "node scripts/export_medicine_layers.cjs",
+    "render:medicine-layers": "node scripts/render_medicine_layers.cjs",
+    "still:medicine-layers": "node scripts/render_medicine_layers.cjs --stills"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

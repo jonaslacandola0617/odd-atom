@@ -8,6 +8,8 @@
 
 # Visual direction
 
+- The user clarified that SVG itself is not required: the goal is independent animation of raster artwork layers, including selected background/environment elements. Prefer approved image-generation artwork, clean plates, alpha objects/pose sheets and Remotion animation over tracing whole scenes into vector paths. `MedicineLayeredEnvironment` is an eight-second demonstration; its new background layers are under `public/assets/artwork/medicine-layers-v1/`. New layers and motion are pending user approval. `clinician-cutout.png` is a separately generated pose with changed framing, not the existing approved-art rig or an exactly registered replacement. Preserve the source-sampled clinician animation until any replacement is reviewed.
+
 - The user requested an editable SVG reconstruction of the medicine scene. `assets/scenes/medicine-vector/medicine-scene-editable.svg` is an image-derived vector reconstruction with native paths/groups, no embedded bitmap; the original approved PNG stays unchanged. The SVG has not received user quality approval. Be explicit that it is traced/color-region geometry with approximate hidden surfaces, not a hand-drawn-from-scratch minimal vector rig. Its Remotion still is `MedicineVectorArtwork`; do not silently substitute the PNG when discussing this SVG.
 
 - The user explicitly passed both new static scenes and artwork consistency: `assets/scenes/artwork-consistency-02/medicine-immune-defense.png` and `cyber-network-defense.png`. Animate their human, biological, object and environment layers while retaining their drawing quality. These files are approved immutable source references; add versioned animation assets rather than repainting over them. The medicine clinician is an approved new character.

@@ -1,0 +1,28 @@
+{
+  "png_files": 14,
+  "all_alpha_objects_have_transparency": true,
+  "native_canvas": [
+    1672,
+    941
+  ],
+  "approved_medicine_and_cyber_sources_unchanged": true,
+  "media": {
+    "file": "assets/videos/medicine-layered-environment-8s.mp4",
+    "frames": 240,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "duration": "8.000000",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "full_decode": "passed",
+    "sha256": "e54380b273032dc2095334e4a358fa7991063954c173c2120680690e8c7df1ca"
+  },
+  "package": {
+    "file": "assets/scenes/medicine-layers-v1/medicine-png-layers.zip",
+    "bytes": 3150439,
+    "sha256": "f135803c55e1f95f18b0d9b49f1208aefa56097704380520b36d6acf1e4766b7"
+  },
+  "typecheck": "passed",
+  "user_quality_approval": "pending"
+}

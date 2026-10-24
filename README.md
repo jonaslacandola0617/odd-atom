@@ -1,5 +1,7 @@
 # Odd Atom — original explanatory animation
 
+**Separate PNG animation layers:** [Download medicine layer package](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/scenes/medicine-layers-v1/medicine-png-layers.zip) · [8-second environment-motion demonstration](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/medicine-layered-environment-8s.mp4) · [Layer contents and workflow](docs/production/medicine-layers.md). Clouds, hanging foliage and windowsill foliage have separate transparent assets and move behind/in front of the fixed environment in Remotion. SVG is not required for this workflow.
+
 **Editable medicine vector reconstruction:** [Download SVG package](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/scenes/medicine-vector/medicine-vector-editable.zip) · [Standalone SVG](assets/scenes/medicine-vector/medicine-scene-editable.svg) · [Preview/comparison and limitations](docs/production/medicine-vector.md). This is an image-derived, layered Bézier reconstruction with no embedded bitmap. `MedicineVectorArtwork` renders the SVG directly in Remotion.
 
 **Artwork, character animation and cross-topic artwork consistency passed.** The two approved static scenes are now animated as separate 20-second, 1080p/30 fps motion studies:

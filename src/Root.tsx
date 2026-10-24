@@ -1,6 +1,7 @@
 import React from 'react';
 import {Composition} from 'remotion';
 import {MedicineVectorArtwork} from './MedicineVector';
+import {MedicineLayerExport} from './MedicineLayerExport';
 import {ArtworkMotion} from './ArtworkMotion';
 import {StarBalance} from './StarBalance';
 import {Crowd} from './Crowd';
@@ -10,6 +11,8 @@ import {ApprovedCharactersTest} from './ApprovedCharacters';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="MedicineLayerExport" component={MedicineLayerExport} defaultProps={{layer:'window-clouds'}} durationInFrames={1} fps={30} width={1672} height={941}/>
+    <Composition id="MedicineLayeredEnvironment" component={ArtworkMotion} defaultProps={{topic:'medicine' as const,environmentLayers:true}} durationInFrames={240} fps={30} width={1920} height={1080}/>
     <Composition id="MedicineVectorArtwork" component={MedicineVectorArtwork} durationInFrames={1} fps={30} width={1920} height={1080}/>
     <Composition id="MedicineArtworkMotion" component={ArtworkMotion} defaultProps={{topic: 'medicine' as const}} durationInFrames={600} fps={30} width={1920} height={1080}/>
     <Composition id="CyberArtworkMotion" component={ArtworkMotion} defaultProps={{topic: 'cyber' as const}} durationInFrames={600} fps={30} width={1920} height={1080}/>

@@ -1,0 +1,18 @@
+{
+  "created": "2026-10-24",
+  "purpose": "Raster environment layers for independent Remotion animation; source references remain immutable",
+  "jobs": [
+    {
+      "name": "environment-clean",
+      "prompt": "Create an animation environment CLEAN PLATE from this exact attached medicine illustration. This is a local production edit, NOT a redesign. Keep the exact full wide 1672x941 composition, camera, room architecture, large circular blood-vessel screen with its empty dark berry interior, screen rim, microscope, workbench, stool, glass specimen tray and petri dish, drawers, laboratory bottles, plant pots, foreground jars, warm sunset colors and all object positions. Remove ONLY (1) the entire trailing hanging vine plant on the high wall at x970 to1180, y10 to365, including all leaves/stems but KEEP its small planter and shelf, filling the exposed purple wall and shelf naturally; (2) all foliage/leaves of the potted plant on the far-right windowsill at x1475 to1665,y370 to522, keep its terracotta pot; (3) ALL clouds from the sunset sky visible through the right-side window, filling each cloud's location with the same surrounding smooth peach/lavender/gold sky gradient. KEEP the sun, mountains, town, trees and window mullions unchanged. The attached plate is already empty of clinician and microscope cells: do not add a person or cells. Do not move the microscope, bench, window, plants' pots or foreground glassware. Preserve the exact artwork quality and native full-wide framing; flat illustrated shaped color planes, no new texture, no text, logos, new objects or visible production notes. Output opaque RGB landscape image.",
+      "file": "public/assets/artwork/medicine-layers-v1/environment-clean.png",
+      "generation_file": "/workspace/generated_images/exec-43ba2068-90f0-49f3-bf93-7d67460755db.png"
+    },
+    {
+      "name": "environment-cutouts",
+      "prompt": "Produce a transparent ENVIRONMENT ANIMATION CUTOUT PASS from the attached medical illustration. Retain the original full 1672x941 wide canvas and EXACT original positions, scale, silhouettes, colors and drawing. Isolate ONLY the following environment details, with genuine transparent alpha everywhere else: (1) the small hanging plant's green-and-yellow leaves and trailing stems, originally x975..1180 y15..365; do not include its planter or shelf; (2) ONLY the far-right windowsill plant's green-and-yellow foliage and stems originally x1470..1672 y365..520; remove the terracotta pot, window, and all town/background pixels from its gaps; (3) ONLY the peach, pale-coral and gold cloud shapes in the sunset window area on the right at x1270..1672 y25..205, preserving their original individual curving silhouettes. Keep all three disconnected groups at their original full-wide-canvas positions with empty transparent space between them; do not center, enlarge, rearrange or fit them to a sheet. Remove everything else including clinician, large left foreground plant, microscope, room, window frame, sun, hills, town, screen, bench, pots and glassware. Transparent holes between leaves, clean alpha without color halos or checkerboard. Source-matched flat illustrated shapes, no new outlines, gloss, lettering or symbols. Full original canvas size with artwork only in original places.",
+      "file": "public/assets/artwork/medicine-layers-v1/environment-cutouts.png",
+      "generation_file": "/workspace/generated_images/exec-cc6afe64-6c9e-460f-ac0c-a1e9d49074d9.png"
+    }
+  ]
+}

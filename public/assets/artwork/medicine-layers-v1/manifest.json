@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "canvas": [
+    1672,
+    941
+  ],
+  "artwork_reference": "assets/scenes/artwork-consistency-02/medicine-immune-defense.png",
+  "artwork_reference_sha256": "d9f245e4aad1866de4b29f10a4dd45c7e9312cd3450dd07d68e36f750ed3fd5e",
+  "files": [
+    {
+      "file": "clinician-cutout.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        73,
+        40,
+        1622,
+        941
+      ],
+      "sha256": "0c38a961f52aa025c8312031e0af5808c4b8333568857d7905e01902ec4f968e",
+      "bytes": 548535
+    },
+    {
+      "file": "environment-clean.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "alpha_bounds": null,
+      "sha256": "bca69c2235bfb12222ea2c836003e8daf82b10b8114183896db689a401ad7ae5",
+      "bytes": 1542605
+    },
+    {
+      "file": "environment-cutouts.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        33,
+        10,
+        1672,
+        909
+      ],
+      "sha256": "3f8ba333a70f7bdbc95b2b05efbbf24c69410f05b3cbea18211a6e4b89f65a25",
+      "bytes": 234346
+    },
+    {
+      "file": "foreground-foliage.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        419,
+        246,
+        684
+      ],
+      "sha256": "1b0697fcedeae5cad6cd70d0a5ea7c4c6010f74734b346311bbaa2364d5755d2",
+      "bytes": 126469
+    },
+    {
+      "file": "hanging-vine.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        962,
+        10,
+        1188,
+        327
+      ],
+      "sha256": "9a3ae056c8b4dad7e39e8881fa3fcb8f0e3a47b54fd37a9046164883d4722d04",
+      "bytes": 118657
+    },
+    {
+      "file": "immune-cell.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        172,
+        31,
+        691,
+        538
+      ],
+      "sha256": "c809ec1b1dabad243c69f657c7d11bb7b796f6ee932986af36574cfd6714aaa4",
+      "bytes": 296313
+    },
+    {
+      "file": "microbe-lower.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        546,
+        335,
+        652,
+        430
+      ],
+      "sha256": "399239e1d79a0800b6f837828a19ecca0890f8aa7d3faa5f05b13cc1453a9fbf",
+      "bytes": 51115
+    },
+    {
+      "file": "microbe-upper.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        492,
+        246,
+        589,
+        331
+      ],
+      "sha256": "6ac7b7284119af77495e4ec7240a9ecc407b23d54c153315b1b82f86b7d073f7",
+      "bytes": 49189
+    },
+    {
+      "file": "red-cell-a.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        61,
+        31,
+        247,
+        186
+      ],
+      "sha256": "757182c918b59c23d4b6b14aa83de25f88beb33763da3c124a89ca08210c1f91",
+      "bytes": 63765
+    },
+    {
+      "file": "red-cell-b.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        665,
+        165,
+        816,
+        263
+      ],
+      "sha256": "94816618e86c162aa2a20f873d335bfcd0ca604f1038984b81fcfc1536a5d36d",
+      "bytes": 49300
+    },
+    {
+      "file": "red-cell-c.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        340,
+        491,
+        514,
+        657
+      ],
+      "sha256": "e8a95230fbb5046b05cb48acc7cce3e6af9d23af9311630f7e3407b424e77f89",
+      "bytes": 70002
+    },
+    {
+      "file": "window-clouds.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        1225,
+        20,
+        1672,
+        212
+      ],
+      "sha256": "8fa100db53dec18b2c9cd24bba9af9417e0e03321b625f0a9a6898481aa5a3ce",
+      "bytes": 125070
+    },
+    {
+      "file": "window-plant.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        1441,
+        342,
+        1672,
+        511
+      ],
+      "sha256": "1911c92636e770a57fee0681b303cd72bcaae4f4e1be9dc951ad748fb85d67d1",
+      "bytes": 99895
+    },
+    {
+      "file": "window-view.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_bounds": [
+        1281,
+        0,
+        1672,
+        469
+      ],
+      "sha256": "93ae6b6cdb4bcc1cb694ced6ff204b0f594b1faa2efad857ab46e479f27c0549",
+      "bytes": 309075
+    }
+  ],
+  "pivots": {
+    "hanging-vine": [
+      1063,
+      66
+    ],
+    "window-plant": [
+      1572,
+      492
+    ],
+    "foreground-foliage": [
+      100,
+      650
+    ]
+  },
+  "notes": [
+    "PNG artwork, not SVG color paths.",
+    "The room plate retains fixed microscope, bench, glassware, stool and plant pots.",
+    "window-view must stay behind the fixed mullions; clouds must be clipped to the window panes.",
+    "environment-cutouts is the source sheet for cloud/vine/window-plant exports; do not stack both.",
+    "clinician-cutout is a new generated pose, not exactly registered; the demonstration retains the existing source-sampled clinician rig.",
+    "Cell sprites are exported from the existing atlas; new environment cutouts are adapted, not pixel-identical extractions."
+  ]
+}
