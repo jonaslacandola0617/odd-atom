@@ -18,7 +18,10 @@ sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 probe=lambda p:json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]))
 P=probe(movie);video=next(s for s in P['streams'] if s['codec_type']=='video');audio=next(s for s in P['streams'] if s['codec_type']=='audio')
 assert (video['width'],video['height'],video['r_frame_rate'],int(video['nb_frames']))==(1920,1080,'30/1',T['durationInFrames'])
-assert video['codec_name']=='h264' and video['pix_fmt']=='yuv420p'
+# FFmpeg labels full-range 8-bit 4:2:0 as yuvj420p. This is the same
+# explicitly tagged range/matrix used by the project's passed motion exports.
+assert video['codec_name']=='h264' and video['pix_fmt'] in ('yuv420p','yuvj420p')
+if video['pix_fmt']=='yuvj420p':assert video.get('color_range')=='pc'
 assert audio['codec_name']=='aac' and int(audio['sample_rate'])==48000 and int(audio['channels'])==2
 assert abs(float(P['format']['duration'])-T['durationInFrames']/30)<.05
 assert movie.stat().st_size<100*1024*1024
@@ -39,6 +42,8 @@ with log.open('w') as f:
     subprocess.run(['ffmpeg','-hide_banner','-nostats','-i',str(movie),'-vf','blackdetect=d=0.4:pix_th=0.04:pic_th=0.97','-f','null','-'],stderr=f,stdout=subprocess.DEVNULL,check=True)
 text=log.read_text();assert 'black_start:' not in text,'Review an unexpected black segment'
 assert not re.search(r'Error while decoding|Invalid data found|corrupt decoded frame',text,re.I)
+decoded_frames=re.findall(r'frame=\s*(\d+)',text)
+assert decoded_frames and int(decoded_frames[-1])==T['durationInFrames'],'Decoded frame count differs from the timeline'
 
 # Original approved drawings and uploaded narration remain immutable.
 baseline={
@@ -89,6 +94,14 @@ for i,(frame,file) in enumerate(zip(frames,files)):
     im=Image.open(file).convert('RGB');im.thumbnail((400,225));x=i%4*400;y=i//4*250;board.paste(im,(x,y));draw.text((x+8,y+227),f'{frame/30:.2f}s / frame {frame}',font=font,fill='#fff1cf')
 board.save(DOC/'sequence-review.jpg',quality=91)
 Image.open(OUT/'encoded-review-14740.png').save(DOC/'observatory-character.png')
+reference=Image.open(ROOT/'assets/characters/static-test-01.png').convert('RGB')
+actual=Image.open(OUT/'encoded-review-14740.png').convert('RGB')
+comparison=Image.new('RGB',(1280,410),'#11152f');d=ImageDraw.Draw(comparison)
+panels=[('Approved Sol / native pixels',reference.crop((454,32,708,298))),('Film Sol / native pixels',actual.crop((1248,414,1468,632))),('Approved hand / native pixels',reference.crop((367,350,564,510))),('Film hand / native pixels',actual.crop((1160,625,1325,745)))]
+for i,(label,im) in enumerate(panels):
+    comparison.paste(im,(i*320+15,48));d.text((i*320+12,15),label,font=font,fill='#fff1cf')
+d.text((15,350),'Different framing/poses; no resampling. Both film tests use the approved character artwork.',font=font,fill='#fff1cf')
+comparison.save(DOC/'human-native-comparison.png')
 
 # Downloadable editable raster artwork, separate from the film and audio.
 archive=ROOT/'assets/scenes/singularity-layered-artwork.zip'
@@ -97,9 +110,18 @@ with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=
         file=ROOT/'public/assets/artwork/singularity'/layer['file'];z.write(file,layer['file'])
     z.writestr('README.txt','Original layered PNG artwork for Singularity. Six clean background plates, five generation atlases, and 28 independent alpha sprites with softened 5% cell edges. Generated art is composited and animated in Remotion; source sprites and generated sheets remain included. Human character artwork uses the existing approved-characters atlas/blinks in the repository. Exact carbon/oxygen renderings are assembled from individual proton/neutron sprites rather than trusting generated cluster counts. See src/Singularity.tsx and docs/production/singularity/film/README.md.\n')
     z.writestr('manifest.json',json.dumps(layers,indent=2))
+with zipfile.ZipFile(archive) as z:assert z.testzip() is None
 
 # Keep the subtitle download beside the finished film.
 (DELIVERY/'singularity-captions.srt').write_bytes((ROOT/'assets/audio/singularity/singularity-captions-draft.srt').read_bytes())
 record={'status':'rendered-and-validated','file':str(movie.relative_to(ROOT)),'sha256':sha(movie),'bytes':movie.stat().st_size,'duration_seconds':float(P['format']['duration']),'video':{'codec':video['codec_name'],'width':1920,'height':1080,'fps':30,'frames':T['durationInFrames'],'pixel_format':video['pix_fmt']},'audio':{'codec':audio['codec_name'],'sample_rate':48000,'channels':2,'narrator':'Google Vids Knox, original user recording','sync_checks':sync},'full_decode':'passed','unexpected_black_segments':0,'fast_start':True,'layers':len(layers),'approved_baseline_hashes_unchanged':baseline,'original_voice_hash_unchanged':True,'timing_and_voice_pitch_preserved':True,'caption_cues':len(T['captions']),'visual_beats':len(T['visualBeats']),'higher_bitrate_chapters':chapters,'artwork_archive':{'file':str(archive.relative_to(ROOT)),'bytes':archive.stat().st_size,'sha256':sha(archive)},'user_quality_approval':'pending','review_limitations':'Programmatic decoding/timing/levels plus representative rendered-frame inspection; no claim of a full human listening audit or guaranteed audience performance.'}
+record['video'].update(color_range=video.get('color_range'),color_space=video.get('color_space'))
+record['png_asset_files']=record.pop('layers')
+record.update(environment_plates=6,source_sprite_atlases=5,exported_alpha_sprites=28)
+keys={p.read_text().strip() for p in OUT.glob('chapter-*.mp4.source.sha256')}
+if keys:
+    assert len(keys)==1,'Chapter input fingerprints differ'
+    record['picture_input_fingerprint']=next(iter(keys))
+record['review_limitations']='Programmatic decoding/timing/levels and representative encoded-frame inspection; a complete human listening/subtitle audit is not claimed.'
 (DOC/'validation.json').write_text(json.dumps(record,indent=2)+'\n')
 print(json.dumps(record,indent=2))

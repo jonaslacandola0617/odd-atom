@@ -1,0 +1,999 @@
+1
+00:00:00,250 --> 00:00:02,350
+Rewind the universe.
+
+2
+00:00:03,010 --> 00:00:05,450
+Watch galaxies draw closer.
+
+3
+00:00:06,090 --> 00:00:07,910
+Stars disappear.
+
+4
+00:00:08,390 --> 00:00:10,730
+Even atoms come apart.
+
+5
+00:00:11,440 --> 00:00:12,310
+Keep going…
+
+6
+00:00:12,810 --> 00:00:16,630
+and our equations predict something
+extraordinary.
+
+7
+00:00:17,530 --> 00:00:19,090
+Infinite density.
+
+8
+00:00:19,610 --> 00:00:21,140
+Infinite temperature.
+
+9
+00:00:22,040 --> 00:00:23,300
+A singularity.
+
+10
+00:00:24,010 --> 00:00:26,430
+But what if that singularity
+
+11
+00:00:26,910 --> 00:00:28,090
+was never real?
+
+12
+00:00:28,700 --> 00:00:32,060
+What if the universe’s most famous
+beginning…
+
+13
+00:00:32,800 --> 00:00:35,480
+is where our best theory stops working?
+
+14
+00:00:36,050 --> 00:00:38,095
+To find out, we need to separate
+
+15
+00:00:38,110 --> 00:00:40,690
+three things that often get mixed together:
+
+16
+00:00:41,290 --> 00:00:43,060
+the universe we can observe,
+
+17
+00:00:43,460 --> 00:00:45,570
+the Big Bang we have evidence for,
+
+18
+00:00:46,060 --> 00:00:48,485
+and the beginning we are still trying
+
+19
+00:00:48,500 --> 00:00:49,610
+to understand.
+
+20
+00:00:50,110 --> 00:00:51,490
+Start with the evidence.
+
+21
+00:00:52,230 --> 00:00:55,545
+On the largest scales, distant galaxies
+generally
+
+22
+00:00:55,560 --> 00:00:58,500
+grow farther apart as space expands.
+
+23
+00:00:59,150 --> 00:01:01,975
+Run that expansion backward, and the
+universe
+
+24
+00:01:01,990 --> 00:01:03,830
+was hotter and denser.
+
+25
+00:01:04,460 --> 00:01:06,995
+We can still detect a faint glow
+
+26
+00:01:07,010 --> 00:01:09,570
+released when the universe became
+transparent,
+
+27
+00:01:09,780 --> 00:01:12,025
+about three hundred and eighty thousand
+years
+
+28
+00:01:12,040 --> 00:01:13,260
+into its expansion.
+
+29
+00:01:13,960 --> 00:01:16,705
+Today, that ancient light reaches us as
+
+30
+00:01:16,720 --> 00:01:17,730
+microwaves.
+
+31
+00:01:18,180 --> 00:01:19,500
+It fills the sky.
+
+32
+00:01:19,960 --> 00:01:22,045
+We are surrounded by a cooled-down
+
+33
+00:01:22,060 --> 00:01:24,440
+afterglow of the early universe.
+
+34
+00:01:25,430 --> 00:01:28,580
+The amounts of hydrogen, helium, and
+deuterium
+
+35
+00:01:28,690 --> 00:01:31,975
+also match calculations of an early, hot
+
+36
+00:01:31,990 --> 00:01:33,220
+cosmic furnace.
+
+37
+00:01:34,030 --> 00:01:35,050
+Different clues.
+
+38
+00:01:35,280 --> 00:01:36,320
+The same story.
+
+39
+00:01:37,350 --> 00:01:40,405
+Our observable universe evolved from an
+extremely
+
+40
+00:01:40,420 --> 00:01:43,365
+hot, dense state roughly thirteen point
+eight
+
+41
+00:01:43,380 --> 00:01:44,760
+billion years ago.
+
+42
+00:01:45,900 --> 00:01:47,435
+But none of those clues is a
+
+43
+00:01:47,450 --> 00:01:49,370
+photograph of a singularity.
+
+44
+00:01:50,160 --> 00:01:52,305
+So where did the famous point come
+
+45
+00:01:52,320 --> 00:01:52,760
+from?
+
+46
+00:01:53,770 --> 00:01:57,060
+Einstein’s theory of gravity describes how
+matter,
+
+47
+00:01:57,250 --> 00:01:57,970
+energy,
+
+48
+00:01:58,210 --> 00:02:00,340
+space, and time affect one another.
+
+49
+00:02:01,070 --> 00:02:03,980
+Apply it to a simple expanding universe,
+
+50
+00:02:04,460 --> 00:02:06,760
+and then follow the mathematics backward.
+
+51
+00:02:07,770 --> 00:02:08,880
+Distances shrink.
+
+52
+00:02:09,380 --> 00:02:10,640
+Density rises.
+
+53
+00:02:11,420 --> 00:02:13,630
+In the standard classical extrapolation,
+
+54
+00:02:14,000 --> 00:02:16,565
+the calculation reaches a boundary where
+density
+
+55
+00:02:16,580 --> 00:02:18,350
+and temperature diverge.
+
+56
+00:02:19,090 --> 00:02:21,240
+The description cannot continue normally.
+
+57
+00:02:22,120 --> 00:02:24,645
+That boundary is associated with the Big
+
+58
+00:02:24,660 --> 00:02:25,910
+Bang singularity.
+
+59
+00:02:26,590 --> 00:02:27,920
+Here is the catch.
+
+60
+00:02:28,770 --> 00:02:30,835
+Following an equation beyond the conditions
+
+61
+00:02:30,850 --> 00:02:32,000
+where it has been tested
+
+62
+00:02:32,380 --> 00:02:34,575
+does not guarantee that nature follows it
+
+63
+00:02:34,590 --> 00:02:35,050
+there.
+
+64
+00:02:35,770 --> 00:02:37,400
+An infinity in the calculation
+
+65
+00:02:37,690 --> 00:02:39,450
+is not a measured object.
+
+66
+00:02:39,810 --> 00:02:41,235
+It may be a warning that our
+
+67
+00:02:41,250 --> 00:02:43,030
+description is incomplete.
+
+68
+00:02:43,650 --> 00:02:46,345
+So did we discover the universe’s first
+
+69
+00:02:46,360 --> 00:02:46,940
+moment…
+
+70
+00:02:47,650 --> 00:02:50,145
+or the limit of the theory describing
+
+71
+00:02:50,160 --> 00:02:50,560
+it?
+
+72
+00:02:51,240 --> 00:02:52,240
+Before we answer,
+
+73
+00:02:52,460 --> 00:02:53,645
+we need to fix the picture in
+
+74
+00:02:53,660 --> 00:02:54,230
+our heads.
+
+75
+00:02:54,950 --> 00:02:57,265
+Imagine a glowing dot floating in an
+
+76
+00:02:57,280 --> 00:02:58,690
+enormous black room.
+
+77
+00:02:59,330 --> 00:03:00,650
+The dot explodes,
+
+78
+00:03:00,920 --> 00:03:03,100
+and its pieces become galaxies.
+
+79
+00:03:03,830 --> 00:03:05,470
+It is a memorable image.
+
+80
+00:03:06,100 --> 00:03:08,475
+It also sneaks an entire room into
+
+81
+00:03:08,490 --> 00:03:10,850
+existence before the universe begins.
+
+82
+00:03:11,350 --> 00:03:13,020
+Where did that room come from?
+
+83
+00:03:13,390 --> 00:03:16,245
+The Big Bang model does not require
+
+84
+00:03:16,260 --> 00:03:19,770
+an explosion into pre-existing empty space.
+
+85
+00:03:20,560 --> 00:03:24,085
+It describes an early hot, dense universe
+
+86
+00:03:24,100 --> 00:03:25,780
+and its subsequent expansion.
+
+87
+00:03:26,350 --> 00:03:27,170
+There is no
+
+88
+00:03:27,610 --> 00:03:30,455
+established central launch site that
+everything
+
+89
+00:03:30,470 --> 00:03:31,770
+is flying away from.
+
+90
+00:03:32,180 --> 00:03:33,805
+And the universe beyond what we can
+
+91
+00:03:33,820 --> 00:03:36,105
+observe might be much larger than our
+
+92
+00:03:36,120 --> 00:03:37,040
+visible region.
+
+93
+00:03:37,840 --> 00:03:40,290
+It might even be spatially infinite.
+
+94
+00:03:41,110 --> 00:03:43,945
+An infinite universe can expand while
+remaining
+
+95
+00:03:43,960 --> 00:03:44,660
+infinite.
+
+96
+00:03:45,440 --> 00:03:48,195
+Rewinding its expansion does not make all
+
+97
+00:03:48,210 --> 00:03:50,485
+of it a tiny ball sitting somewhere
+
+98
+00:03:50,500 --> 00:03:50,900
+else.
+
+99
+00:03:51,770 --> 00:03:54,145
+Everything we can see was once packed
+
+100
+00:03:54,160 --> 00:03:56,330
+into a much smaller region.
+
+101
+00:03:57,060 --> 00:03:58,985
+That does not establish that everything
+that
+
+102
+00:03:59,000 --> 00:04:01,840
+exists was once one little dot.
+
+103
+00:04:02,240 --> 00:04:03,610
+Now for the harder problem.
+
+104
+00:04:04,280 --> 00:04:06,520
+When we investigate atoms and particles,
+
+105
+00:04:06,850 --> 00:04:08,350
+we use quantum physics.
+
+106
+00:04:08,820 --> 00:04:11,345
+When we investigate gravity and the
+large-scale
+
+107
+00:04:11,360 --> 00:04:12,060
+universe,
+
+108
+00:04:12,300 --> 00:04:14,000
+we use general relativity.
+
+109
+00:04:14,540 --> 00:04:16,745
+Both are astonishingly successful.
+
+110
+00:04:16,760 --> 00:04:17,010
+But
+
+111
+00:04:17,620 --> 00:04:19,425
+the earliest conditions push us toward a
+
+112
+00:04:19,440 --> 00:04:22,725
+regime where quantum effects and gravity
+must
+
+113
+00:04:22,740 --> 00:04:23,730
+both matter.
+
+114
+00:04:24,140 --> 00:04:26,195
+We do not yet have an experimentally
+
+115
+00:04:26,210 --> 00:04:28,885
+established theory that fully describes
+that
+
+116
+00:04:28,900 --> 00:04:29,530
+regime.
+
+117
+00:04:30,180 --> 00:04:31,360
+To describe that moment,
+
+118
+00:04:31,640 --> 00:04:33,075
+we need more than a theory of
+
+119
+00:04:33,090 --> 00:04:35,265
+tiny particles or a theory of gravity
+
+120
+00:04:35,280 --> 00:04:36,450
+working separately.
+
+121
+00:04:36,920 --> 00:04:38,710
+We need them to work together.
+
+122
+00:04:39,310 --> 00:04:40,250
+The singularity
+
+123
+00:04:40,660 --> 00:04:42,675
+may be where that missing physics becomes
+
+124
+00:04:42,690 --> 00:04:43,470
+unavoidable.
+
+125
+00:04:44,180 --> 00:04:45,550
+Which brings us to the question
+
+126
+00:04:45,900 --> 00:04:47,490
+everyone wants to ask.
+
+127
+00:04:48,200 --> 00:04:50,810
+What happened before the Big Bang?
+
+128
+00:04:51,210 --> 00:04:52,720
+There are several possibilities.
+
+129
+00:04:53,070 --> 00:04:55,165
+None is an established account of our
+
+130
+00:04:55,180 --> 00:04:56,170
+ultimate origin.
+
+131
+00:04:57,010 --> 00:04:58,020
+One possibility
+
+132
+00:04:58,330 --> 00:05:00,050
+is that time has a beginning.
+
+133
+00:05:00,680 --> 00:05:02,725
+We usually imagine time as a road
+
+134
+00:05:02,740 --> 00:05:04,750
+stretching endlessly in both directions.
+
+135
+00:05:05,130 --> 00:05:07,140
+But that picture is an assumption.
+
+136
+00:05:07,870 --> 00:05:08,900
+In some proposals,
+
+137
+00:05:09,130 --> 00:05:11,145
+there is no earlier moment beyond the
+
+138
+00:05:11,160 --> 00:05:12,770
+universe’s initial boundary.
+
+139
+00:05:13,490 --> 00:05:15,380
+Asking what happened before it
+
+140
+00:05:15,640 --> 00:05:17,935
+would be asking for a location outside
+
+141
+00:05:17,950 --> 00:05:19,050
+the map’s domain.
+
+142
+00:05:19,820 --> 00:05:21,480
+That does not prove time began.
+
+143
+00:05:21,940 --> 00:05:24,055
+It shows why the word “before” might
+
+144
+00:05:24,070 --> 00:05:25,290
+stop making sense.
+
+145
+00:05:25,910 --> 00:05:27,855
+You cannot put an event earlier than
+
+146
+00:05:27,870 --> 00:05:28,940
+the earliest moment…
+
+147
+00:05:29,450 --> 00:05:31,470
+if an earliest moment exists.
+
+148
+00:05:31,840 --> 00:05:34,535
+Another possibility is that our expansion
+followed
+
+149
+00:05:34,550 --> 00:05:35,970
+an earlier phase.
+
+150
+00:05:36,500 --> 00:05:39,325
+Some speculative models replace a singular
+beginning
+
+151
+00:05:39,340 --> 00:05:40,430
+with a bounce.
+
+152
+00:05:40,940 --> 00:05:43,960
+A contracting universe reaches extreme
+conditions,
+
+153
+00:05:44,140 --> 00:05:47,210
+and new physics allows expansion to follow.
+
+154
+00:05:47,730 --> 00:05:49,940
+In that picture, our hot cosmic history
+
+155
+00:05:50,160 --> 00:05:51,940
+has a previous chapter.
+
+156
+00:05:52,480 --> 00:05:54,775
+But drawing a beautiful bounce is much
+
+157
+00:05:54,790 --> 00:05:57,430
+easier than showing that one actually
+happened.
+
+158
+00:05:57,820 --> 00:05:59,925
+A convincing model must make physical sense
+
+159
+00:05:59,940 --> 00:06:02,770
+and survive comparison with observations.
+
+160
+00:06:03,320 --> 00:06:05,325
+We have not established that our universe
+
+161
+00:06:05,340 --> 00:06:05,950
+bounced.
+
+162
+00:06:06,540 --> 00:06:08,300
+Then there is inflation: a
+
+163
+00:06:08,580 --> 00:06:11,220
+proposed period of extremely rapid
+expansion
+
+164
+00:06:11,410 --> 00:06:13,190
+very early in cosmic history.
+
+165
+00:06:13,600 --> 00:06:16,155
+Inflation can help explain several
+large-scale
+
+166
+00:06:16,170 --> 00:06:17,400
+features we observe.
+
+167
+00:06:17,740 --> 00:06:20,085
+But what drove it, how it began,
+
+168
+00:06:20,100 --> 00:06:21,995
+and whether it happened in a particular
+
+169
+00:06:22,010 --> 00:06:24,220
+form remain open questions.
+
+170
+00:06:24,660 --> 00:06:27,455
+It does not automatically explain why
+anything
+
+171
+00:06:27,470 --> 00:06:28,220
+exists.
+
+172
+00:06:28,770 --> 00:06:31,125
+Some inflationary scenarios suggest that
+regions
+
+173
+00:06:31,140 --> 00:06:32,820
+beyond our observable universe
+
+174
+00:06:33,120 --> 00:06:36,075
+could develop different cosmic
+histories—sometimes
+
+175
+00:06:36,090 --> 00:06:38,340
+described as other universes.
+
+176
+00:06:39,070 --> 00:06:40,925
+So did every universe come from the
+
+177
+00:06:40,940 --> 00:06:42,230
+same singularity?
+
+178
+00:06:42,900 --> 00:06:44,515
+We do not know that other universes
+
+179
+00:06:44,530 --> 00:06:45,140
+exist.
+
+180
+00:06:45,350 --> 00:06:47,565
+We cannot establish a shared birthplace for
+
+181
+00:06:47,580 --> 00:06:47,890
+them.
+
+182
+00:06:48,460 --> 00:06:50,455
+The multiverse is a set of speculative
+
+183
+00:06:50,470 --> 00:06:53,705
+possibilities, not an observed family tree
+of
+
+184
+00:06:53,720 --> 00:06:54,480
+reality.
+
+185
+00:06:54,610 --> 00:06:56,255
+And what about the idea that the
+
+186
+00:06:56,270 --> 00:06:58,200
+universe appeared from nothing?
+
+187
+00:06:59,160 --> 00:07:00,520
+Be careful with that word.
+
+188
+00:07:01,460 --> 00:07:02,600
+In quantum physics,
+
+189
+00:07:02,910 --> 00:07:05,515
+empty space is not necessarily the absence
+
+190
+00:07:05,530 --> 00:07:06,600
+of everything.
+
+191
+00:07:07,370 --> 00:07:08,620
+A quantum vacuum
+
+192
+00:07:08,900 --> 00:07:11,065
+still belongs to a physical framework, with
+
+193
+00:07:11,080 --> 00:07:13,350
+fields, states, and rules.
+
+194
+00:07:14,290 --> 00:07:16,745
+Explaining how something can emerge within
+that
+
+195
+00:07:16,760 --> 00:07:17,400
+framework
+
+196
+00:07:17,690 --> 00:07:19,905
+is different from explaining why the
+framework
+
+197
+00:07:19,920 --> 00:07:20,940
+exists at all.
+
+198
+00:07:21,820 --> 00:07:24,045
+We should not hide the biggest unanswered
+
+199
+00:07:24,060 --> 00:07:26,410
+question inside the word “nothing.”
+
+200
+00:07:27,710 --> 00:07:29,240
+So what can we honestly say?
+
+201
+00:07:30,040 --> 00:07:31,965
+The hot Big Bang is supported by
+
+202
+00:07:31,980 --> 00:07:32,660
+evidence.
+
+203
+00:07:33,440 --> 00:07:35,715
+A physical singularity at the ultimate
+beginning
+
+204
+00:07:35,730 --> 00:07:37,210
+has not been established.
+
+205
+00:07:37,790 --> 00:07:40,710
+What, if anything, preceded our early
+expansion
+
+206
+00:07:40,980 --> 00:07:42,200
+remains unresolved.
+
+207
+00:07:43,000 --> 00:07:44,840
+Those are different levels of knowledge.
+
+208
+00:07:45,410 --> 00:07:46,965
+And the gaps give us something to
+
+209
+00:07:46,980 --> 00:07:47,650
+investigate.
+
+210
+00:07:48,530 --> 00:07:51,310
+Scientists can test early-universe ideas
+through
+
+211
+00:07:51,520 --> 00:07:53,975
+increasingly precise measurements of
+ancient
+
+212
+00:07:53,990 --> 00:07:54,500
+light,
+
+213
+00:07:54,790 --> 00:07:56,490
+the distribution of galaxies,
+
+214
+00:07:56,780 --> 00:07:59,935
+and possible relic signals such as
+primordial
+
+215
+00:07:59,950 --> 00:08:01,360
+gravitational waves.
+
+216
+00:08:02,400 --> 00:08:05,380
+A theory earns confidence by explaining
+evidence
+
+217
+00:08:05,590 --> 00:08:07,970
+and making predictions that survive
+testing.
+
+218
+00:08:08,970 --> 00:08:09,720
+Meanwhile,
+
+219
+00:08:10,030 --> 00:08:11,945
+you are already carrying part of this
+
+220
+00:08:11,960 --> 00:08:12,570
+history.
+
+221
+00:08:13,420 --> 00:08:15,395
+The hydrogen in your body traces back
+
+222
+00:08:15,410 --> 00:08:16,580
+to the early universe.
+
+223
+00:08:17,160 --> 00:08:18,955
+Much of the carbon and oxygen needed
+
+224
+00:08:18,970 --> 00:08:20,620
+for life was forged later,
+
+225
+00:08:20,880 --> 00:08:22,950
+through the lives and deaths of stars.
+
+226
+00:08:23,750 --> 00:08:26,255
+You belong to a cosmic story whose
+
+227
+00:08:26,270 --> 00:08:28,560
+early chapters we can reconstruct…
+
+228
+00:08:29,190 --> 00:08:30,695
+even though we still do not know
+
+229
+00:08:30,710 --> 00:08:32,300
+whether it had a first page.
+
+230
+00:08:32,610 --> 00:08:34,710
+Rewind the universe again.
+
+231
+00:08:35,300 --> 00:08:36,630
+Past the galaxies.
+
+232
+00:08:36,920 --> 00:08:38,340
+Past the stars.
+
+233
+00:08:38,840 --> 00:08:39,930
+Past the atoms.
+
+234
+00:08:40,660 --> 00:08:42,650
+At the edge of what we understand,
+
+235
+00:08:43,150 --> 00:08:45,155
+do not imagine a tiny ball we
+
+236
+00:08:45,170 --> 00:08:46,390
+have proved was there.
+
+237
+00:08:47,070 --> 00:08:49,165
+Imagine a question we have not yet
+
+238
+00:08:49,180 --> 00:08:50,510
+learned how to answer.
+
+239
+00:08:51,010 --> 00:08:52,440
+Did everything begin…
+
+240
+00:08:52,860 --> 00:08:54,845
+or is a beginning simply where our
+
+241
+00:08:54,860 --> 00:08:56,450
+explanation runs out?

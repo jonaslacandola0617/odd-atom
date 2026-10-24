@@ -1,0 +1,106 @@
+{
+  "status": "rendered-and-validated",
+  "file": "assets/videos/singularity/singularity-full-8m56.mp4",
+  "sha256": "3ec059c5b90350d56c1c2ca8b28efe360a22462b25f7568083ce2fd938198db7",
+  "bytes": 93177300,
+  "duration_seconds": 536.633333,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 16099,
+    "pixel_format": "yuvj420p",
+    "color_range": "pc",
+    "color_space": "bt470bg"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "narrator": "Google Vids Knox, original user recording",
+    "sync_checks": [
+      {
+        "start": 0,
+        "lag_seconds": 0.0,
+        "normalized_correlation": 0.999564
+      },
+      {
+        "start": 100,
+        "lag_seconds": 0.0,
+        "normalized_correlation": 0.998646
+      },
+      {
+        "start": 250,
+        "lag_seconds": 0.0,
+        "normalized_correlation": 0.999634
+      },
+      {
+        "start": 400,
+        "lag_seconds": 0.0,
+        "normalized_correlation": 0.999292
+      },
+      {
+        "start": 520,
+        "lag_seconds": 0.0,
+        "normalized_correlation": 0.999702
+      }
+    ]
+  },
+  "full_decode": "passed",
+  "unexpected_black_segments": 0,
+  "fast_start": true,
+  "approved_baseline_hashes_unchanged": {
+    "assets/characters/static-test-01.png": "72842deef29e191d0f0699c66684d57b6869a0b4cfb2d50937a268f54b80b73f",
+    "assets/scenes/artwork-consistency-02/medicine-immune-defense.png": "d9f245e4aad1866de4b29f10a4dd45c7e9312cd3450dd07d68e36f750ed3fd5e",
+    "assets/scenes/artwork-consistency-02/cyber-network-defense.png": "e6bece838f7095e1346f255533802e62f8f9b114a73479c9a4396ae8088162fd"
+  },
+  "original_voice_hash_unchanged": true,
+  "timing_and_voice_pitch_preserved": true,
+  "caption_cues": 241,
+  "visual_beats": 52,
+  "higher_bitrate_chapters": [
+    {
+      "file": "assets/videos/singularity/chapters/singularity-part-01.mp4",
+      "frames": 3396,
+      "bytes": 47953942,
+      "sha256": "66d79fa4686b7ce87b9b7e18755e5176deee0b6db40b8906d5a5cc8ff8fdfc40"
+    },
+    {
+      "file": "assets/videos/singularity/chapters/singularity-part-02.mp4",
+      "frames": 3864,
+      "bytes": 48799679,
+      "sha256": "7369dc1d2db4cfc982145800ada2f9d39107ce32433c1f49158dc8147846d608"
+    },
+    {
+      "file": "assets/videos/singularity/chapters/singularity-part-03.mp4",
+      "frames": 2688,
+      "bytes": 19553605,
+      "sha256": "9094cbcaa58d321a42f3ef3cd69cdfe67c3452349e0a79b35b03aa41f8b70c0e"
+    },
+    {
+      "file": "assets/videos/singularity/chapters/singularity-part-04.mp4",
+      "frames": 2487,
+      "bytes": 36281301,
+      "sha256": "d4cc6f7c1156f882c85e0610ec87e569e8b0efcbf00667c3d0ef61f13b54ba29"
+    },
+    {
+      "file": "assets/videos/singularity/chapters/singularity-part-05.mp4",
+      "frames": 3664,
+      "bytes": 29384566,
+      "sha256": "c0025aa9c46b8a4f1acf4f362d97420e5b1745a4735b7ae6041fbc78650062e8"
+    }
+  ],
+  "artwork_archive": {
+    "file": "assets/scenes/singularity-layered-artwork.zip",
+    "bytes": 23931156,
+    "sha256": "370e989432c48253f62c630bf04a227db9b5d36f557b5477d85d5fbc6032c27f"
+  },
+  "user_quality_approval": "pending",
+  "review_limitations": "Programmatic decoding/timing/levels and representative encoded-frame inspection; a complete human listening/subtitle audit is not claimed.",
+  "png_asset_files": 39,
+  "environment_plates": 6,
+  "source_sprite_atlases": 5,
+  "exported_alpha_sprites": 28,
+  "picture_input_fingerprint": "99981479084401c82cce24137dbdc974446155a174d4fa369a64c8a80e593615"
+}

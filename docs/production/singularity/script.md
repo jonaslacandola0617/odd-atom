@@ -33,4 +33,4 @@ Use reference-matched generated illustrations, clean environment plates and sepa
 
 [Animation sequence brief](animation-beats.md) · [Scientific distinctions and source-access notes](science-notes.md)
 
-Current delivery includes the script, imported narration, draft captions and a timed animation brief. A finished illustrated video, storyboard artwork, final score and sound effects have not yet been produced.
+The [first full-length illustrated cut](film/README.md) is now rendered with the user-supplied Knox narration, captions, original score and effects. The script and original recording remain the timing/content source; the new film's quality is pending user review.

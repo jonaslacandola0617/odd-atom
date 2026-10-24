@@ -5,7 +5,7 @@
   "engines": {
     "node": ">=24.5.0"
   },
-  "description": "Original long-form science animation made with Remotion and ElevenLabs narration",
+  "description": "Original long-form explanatory animation made with Remotion and layered artwork",
   "scripts": {
     "dev": "remotion studio src/index.ts --browser-executable=/usr/bin/chromium",
     "render": "node scripts/render_final.cjs",

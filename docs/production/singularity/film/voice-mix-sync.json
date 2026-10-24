@@ -1,0 +1,30 @@
+{
+  "method": "Cross-correlation against unchanged user narration, 8kHz mono analysis windows; not a subjective performance score",
+  "checks": [
+    {
+      "start": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.999564
+    },
+    {
+      "start": 100,
+      "lag_ms": 0.0,
+      "correlation": 0.998646
+    },
+    {
+      "start": 250,
+      "lag_ms": 0.0,
+      "correlation": 0.999634
+    },
+    {
+      "start": 400,
+      "lag_ms": 0.0,
+      "correlation": 0.999292
+    },
+    {
+      "start": 520,
+      "lag_ms": 0.0,
+      "correlation": 0.999702
+    }
+  ]
+}

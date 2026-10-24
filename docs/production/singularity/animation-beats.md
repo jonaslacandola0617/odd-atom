@@ -18,4 +18,4 @@ These are narrative sequences, not eleven static shots. Each should contain seve
 
 Design a limited set of high-quality environments that can support wide, medium and close compositions. Reuse the deep-cosmos palette, galaxy field, particle artwork and a consistent visual vocabulary across sequences. Generate new artwork or pose alternatives where a new action needs them; do not stretch a single flattened scene to cover a whole chapter. Use selectively animated backgrounds and clear physical relationships rather than making every object continuously float.
 
-The narration is now available and timed. This remains an animation brief: no generated storyboard artwork or completed full-length film is implied. The 30 fps timeline needs 16,099 frames to encompass the supplied recording.
+The [first full-length cut](film/README.md) is now rendered. This table remains the narrative sequence brief; the implementation groups 52 timed beats into 23 visual sequences. The picture contains 16,099 frames at 30 fps and encompasses the supplied recording.

@@ -1,5 +1,7 @@
 # Imported Knox narration and animation timing
 
+This page documents audio ingestion and timing. The [first completed illustrated cut and its validation](../film/README.md) are now available separately.
+
 The user supplied `VoiceOver_Singularity.mp4`, generated in Google Vids using **Knox**. The uploaded media contains **536.618667 seconds of AAC narration**, or **8:56.619**. This recording supersedes the earlier script-only 10–12 minute estimate.
 
 **[Download extracted original narration](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/audio/singularity/narration-original.m4a)** · [Original uploaded voiceover video](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/audio/singularity/voiceover-source.mp4) · [Draft SRT captions](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/audio/singularity/singularity-captions-draft.srt) · [Timed visual/animation cues](timed-visual-beats.md)

@@ -3,13 +3,27 @@ const path=require('node:path');
 const {bundle}=require('@remotion/bundler');
 const {selectComposition,renderStill,renderMedia,openBrowser}=require('@remotion/renderer');
 const {spawnSync}=require('node:child_process');
+const crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..');
 const timing=require('../src/data/singularity-narration.json');
 const folder=path.join(root,'out/singularity');
 const delivery=path.join(root,'assets/videos/singularity');
 fs.mkdirSync(folder,{recursive:true});fs.mkdirSync(delivery,{recursive:true});
 const exec=args=>{const p=spawnSync('ffmpeg',args,{stdio:'inherit'});if(p.status!==0)throw new Error('FFmpeg failed');};
+const assets=require('../src/data/singularity-artwork.json');
+const inputs=['src/Singularity.tsx','src/MotionCharacters.tsx','src/IllustratedTitle.tsx','src/Root.tsx','src/data/singularity-narration.json','src/data/crowd-motion-narration.json','src/data/singularity-artwork.json','public/assets/artwork/approved-characters/atlas.png','public/assets/artwork/approved-characters/blinks.png','public/assets/fonts/Outfit.ttf','public/assets/fonts/Nunito.ttf',...assets.map(a=>'public/assets/artwork/singularity/'+a.file)];
+const digest=crypto.createHash('sha256');
+for(const input of inputs){digest.update(input);digest.update(fs.readFileSync(path.join(root,input)));}
+digest.update(JSON.stringify({fps:30,width:1920,height:1080,crf:19,preset:'fast',pixelFormat:'yuv420p',captions:true}));
+const pictureKey=digest.digest('hex');
+const validPicture=(file,frames)=>{const p=spawnSync('ffprobe',['-v','error','-select_streams','v:0','-show_entries','stream=nb_frames','-of','json',file],{encoding:'utf8'});if(p.status!==0)return false;try{return Number(JSON.parse(p.stdout).streams[0].nb_frames)===frames;}catch{return false;}};
 (async()=>{
+ // This explicit maintenance mode is only for already inspected renders known
+ // to use the current inputs. Normal rendering writes sidecars after success.
+ if(process.argv.includes('--stamp-current-cache')){
+  timing.scenes.forEach((s,i)=>{const end=i+1<timing.scenes.length?timing.scenes[i+1].startFrame:timing.durationInFrames,file=path.join(folder,`chapter-${String(i+1).padStart(2,'0')}.mp4`);if(fs.existsSync(file)&&validPicture(file,end-s.startFrame)){fs.writeFileSync(file+'.source.sha256',pictureKey+'\n');console.log('Stamped inspected chapter',i+1);}});
+  return;
+ }
  const serveUrl=await bundle({entryPoint:path.join(root,'src/index.ts')});
  const inputProps={captions:true,includeAudio:false};
  const composition=await selectComposition({serveUrl,id:'SingularityFullFilm',inputProps,browserExecutable:'/usr/bin/chromium'});
@@ -32,12 +46,12 @@ const exec=args=>{const p=spawnSync('ffmpeg',args,{stdio:'inherit'});if(p.status
  const chapters=timing.scenes.map((s,i)=>({start:s.startFrame,end:i+1<timing.scenes.length?timing.scenes[i+1].startFrame-1:timing.durationInFrames-1}));
  const renderChapter=async i=>{
   const {start,end}=chapters[i],file=path.join(folder,`chapter-${String(i+1).padStart(2,'0')}.mp4`);
-  if(fs.existsSync(file)&&!process.argv.includes('--force')){
-   const p=spawnSync('ffprobe',['-v','error','-show_entries','stream=nb_frames','-of','csv=p=0',file],{encoding:'utf8'});
-   if(p.status===0&&Number(p.stdout.trim())===end-start+1){console.log('Reuse completed chapter',i+1);return;}
+  if(fs.existsSync(file)&&fs.existsSync(file+'.source.sha256')&&!process.argv.includes('--force')){
+   if(fs.readFileSync(file+'.source.sha256','utf8').trim()===pictureKey&&validPicture(file,end-start+1)){console.log('Reuse completed chapter',i+1);return;}
   }
   let step=-1;const started=Date.now();
   await renderMedia({serveUrl,composition,inputProps,browserExecutable:'/usr/bin/chromium',codec:'h264',outputLocation:file,frameRange:[start,end],concurrency:2,crf:19,pixelFormat:'yuv420p',logLevel:'error',x264Preset:'fast',onProgress:p=>{const next=Math.floor(p.renderedFrames/180);if(next!==step){step=next;const elapsed=(Date.now()-started)/1000;console.log('chapter',i+1,p.renderedFrames+'/'+(end-start+1),'elapsed',elapsed.toFixed(1)+'s');}}});
+  fs.writeFileSync(file+'.source.sha256',pictureKey+'\n');
  };
  for(let i=0;i<chapters.length;i+=2)await Promise.all([renderChapter(i),...(i+1<chapters.length?[renderChapter(i+1)]:[])]);
  const list=path.join(folder,'chapters.txt');fs.writeFileSync(list,chapters.map((_,i)=>`file 'chapter-${String(i+1).padStart(2,'0')}.mp4'`).join('\n')+'\n');
