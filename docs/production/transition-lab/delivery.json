@@ -1,0 +1,78 @@
+{
+  "file": "assets/videos/transition-lab/six-scene-transitions-20s.mp4",
+  "sha256": "d3b6920228ab048dedbd4db5cb733c964afdb553da7f6a3c4653905db6de1b1a",
+  "bytes": 5124288,
+  "seconds": 20,
+  "frames": 600,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "content": "Original synthesized effects; no narration"
+  },
+  "scenes": [
+    {
+      "name": "Rain",
+      "review_frame": 50
+    },
+    {
+      "name": "Underwater fish",
+      "review_frame": 145
+    },
+    {
+      "name": "Growing plant",
+      "review_frame": 273
+    },
+    {
+      "name": "Butterfly",
+      "review_frame": 342
+    },
+    {
+      "name": "Paper plane",
+      "review_frame": 438
+    },
+    {
+      "name": "Night sky",
+      "review_frame": 575
+    }
+  ],
+  "handoffs": [
+    {
+      "name": "Splash reveals underwater",
+      "from": 78,
+      "to": 120,
+      "mechanism": "The impacting drop creates a rising wave/splash contour; the fish keeps moving behind the changing water coverage."
+    },
+    {
+      "name": "Fish becomes leaf",
+      "from": 178,
+      "to": 224,
+      "mechanism": "One changing body outline, shrinking fins/eye, emerging veins, and a stalk growing from the former tail root."
+    },
+    {
+      "name": "Petals assemble into butterfly",
+      "from": 275,
+      "to": 318,
+      "mechanism": "The same four petal paths change orientation and flap; the flower center elongates into the butterfly body."
+    },
+    {
+      "name": "Butterfly folds into plane",
+      "from": 375,
+      "to": 417,
+      "mechanism": "The four wing paths flatten into paper facets while the same carrier continues on its authored path."
+    },
+    {
+      "name": "Flight trail becomes orbit",
+      "from": 489,
+      "to": 573,
+      "mechanism": "The plane contracts into a star; its continuing trail reshapes into an ellipse around the rising moon."
+    }
+  ],
+  "full_decode": "passed",
+  "creative_status": "pending user review",
+  "artwork": "Simple original authored SVG paths animated in Remotion; no image generation or reused singularity imagery.",
+  "review_notes": "Representative encoded frames and transitional sequences inspected. Scene/hand-off sheets are spaced samples, not every source frame. GIF is a silent 20fps proxy with an artificial loop restart. Technical checks do not establish a creative pass."
+}

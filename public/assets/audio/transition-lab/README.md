@@ -1,0 +1,1 @@
+Original synthesized motion effects for the wordless 20-second transition test. Oscillators and filtered deterministic noise; no sampled commercial score, generated speech or voice credits. Regenerate with `npm run sound:transitions`.

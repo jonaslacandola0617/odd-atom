@@ -1,4 +1,5 @@
 import React from 'react';
+import {TransitionLab} from './TransitionLab';
 import {SingularityFilm,singularityConfig} from './Singularity';
 import {SingularitySpriteExport} from './SingularitySpriteExport';
 import {Composition} from 'remotion';
@@ -13,6 +14,7 @@ import {ApprovedCharactersTest} from './ApprovedCharacters';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="TransitionLabSixScenes" component={TransitionLab} defaultProps={{includeAudio:true}} durationInFrames={600} fps={30} width={1920} height={1080}/>
     <Composition id="SingularityFullFilm" component={SingularityFilm} defaultProps={{captions:true,includeAudio:true}} {...singularityConfig}/>
     <Composition id="SingularitySpriteExport" component={SingularitySpriteExport} defaultProps={{sheet:'galaxies-atlas',cell:0}} durationInFrames={1} fps={30} width={512} height={512} calculateMetadata={({props})=>({width:props.sheet==='field-ribbons'?768:512,height:512})}/>
     <Composition id="MedicineLayerExport" component={MedicineLayerExport} defaultProps={{layer:'window-clouds'}} durationInFrames={1} fps={30} width={1672} height={941}/>
