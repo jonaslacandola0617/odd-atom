@@ -1,4 +1,5 @@
 import React from 'react';
+import {SingularityRebuild,singularityRebuildConfig} from './SingularityRebuild';
 import {StoryMotionLab} from './StoryMotionLab';
 import {TransitionLab} from './TransitionLab';
 import {SingularityFilm,singularityConfig} from './Singularity';
@@ -15,6 +16,7 @@ import {ApprovedCharactersTest} from './ApprovedCharacters';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="SingularityRebuildFull" component={SingularityRebuild} defaultProps={{includeAudio:true,captions:false}} {...singularityRebuildConfig}/>
     <Composition id="StoryMotionSixScenes" component={StoryMotionLab} defaultProps={{includeAudio:true}} durationInFrames={600} fps={30} width={1920} height={1080}/>
     <Composition id="TransitionLabSixScenes" component={TransitionLab} defaultProps={{includeAudio:true}} durationInFrames={600} fps={30} width={1920} height={1080}/>
     <Composition id="SingularityFullFilm" component={SingularityFilm} defaultProps={{captions:true,includeAudio:true}} {...singularityConfig}/>

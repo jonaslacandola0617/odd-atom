@@ -72,7 +72,7 @@
     }
   ],
   "full_decode": "passed",
-  "creative_status": "pending user review",
+  "creative_status": "approved",
   "artwork": "The approved six-scene SVG drawings and shape handoffs are retained in a separate composition with causal actions and reactive environment motion. No image generation or singularity imagery.",
   "approved_test_unchanged": {
     "file": "assets/videos/transition-lab/six-scene-transitions-20s.mp4",
@@ -80,5 +80,6 @@
   },
   "on_screen_text": false,
   "narration": false,
-  "review_notes": "Representative encoded frames and transitional sequences inspected. Scene/hand-off sheets are spaced samples, not every source frame. GIF is a silent 20fps proxy with an artificial loop restart. Technical checks do not establish a creative pass."
+  "review_notes": "Representative encoded frames and transitional sequences inspected. Scene/hand-off sheets are spaced samples, not every source frame. GIF is a silent 20fps proxy with an artificial loop restart. Technical checks do not establish a creative pass.",
+  "user_review": "user-review.json"
 }

@@ -49,7 +49,11 @@
     "render:story-motion": "node scripts/render_story_motion.cjs",
     "still:story-motion": "node scripts/render_story_motion.cjs --stills",
     "sound:story-motion": "python scripts/story_motion_sound.py",
-    "review:story-motion": "python scripts/review_story_motion.py"
+    "review:story-motion": "python scripts/review_story_motion.py",
+    "still:singularity-v2": "node scripts/render_singularity_v2.cjs --stills",
+    "render:singularity-v2": "node scripts/render_singularity_v2.cjs",
+    "sound:singularity-v2": "python scripts/singularity_v2_sound.py",
+    "review:singularity-v2": "python scripts/review_singularity_v2.py"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

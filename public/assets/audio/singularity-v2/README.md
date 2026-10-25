@@ -1,0 +1,1 @@
+Original action-timed synthesized effects and a new mix of the unchanged Knox take with the existing original score. No voice generation, tempo or pitch change. Reproduce with `npm run sound:singularity-v2`. Source/hash and cue times are in `docs/production/singularity/rebuild/sound-design.json`.

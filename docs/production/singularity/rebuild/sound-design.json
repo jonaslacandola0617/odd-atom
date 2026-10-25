@@ -1,0 +1,294 @@
+{
+  "voice": "assets/audio/singularity/narration-original.m4a",
+  "source_sha256": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+  "speed": 1,
+  "pitch_shift": 0,
+  "voice_mix_gain": 0.92,
+  "score": "assets/audio/singularity/score.m4a",
+  "score_gain": 0.88,
+  "effects": "assets/audio/singularity-v2/effects.m4a",
+  "events": [
+    {
+      "beat": 2,
+      "time": 4.0,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "beat": 4,
+      "time": 8.9,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.36
+    },
+    {
+      "beat": 5,
+      "time": 14.4333,
+      "kind": "settle",
+      "duration": 0.85,
+      "pan": -0.36
+    },
+    {
+      "beat": 7,
+      "time": 26.0,
+      "kind": "fracture",
+      "duration": 0.38,
+      "pan": 0.0
+    },
+    {
+      "beat": 9,
+      "time": 51.1,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.36
+    },
+    {
+      "beat": 10,
+      "time": 69.4667,
+      "kind": "bind",
+      "duration": 0.38,
+      "pan": -0.36
+    },
+    {
+      "beat": 10,
+      "time": 72.4667,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.36
+    },
+    {
+      "beat": 10,
+      "time": 81.4667,
+      "kind": "signal",
+      "duration": 0.85,
+      "pan": -0.36
+    },
+    {
+      "beat": 11,
+      "time": 89.9333,
+      "kind": "bind",
+      "duration": 0.38,
+      "pan": -0.18
+    },
+    {
+      "beat": 11,
+      "time": 92.9333,
+      "kind": "bind",
+      "duration": 0.38,
+      "pan": -0.18
+    },
+    {
+      "beat": 12,
+      "time": 104.3333,
+      "kind": "signal",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "beat": 13,
+      "time": 117.7667,
+      "kind": "settle",
+      "duration": 0.85,
+      "pan": 0.18
+    },
+    {
+      "beat": 14,
+      "time": 138.7667,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.36
+    },
+    {
+      "beat": 15,
+      "time": 152.6,
+      "kind": "fracture",
+      "duration": 0.38,
+      "pan": -0.36
+    },
+    {
+      "beat": 16,
+      "time": 161.7667,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.18
+    },
+    {
+      "beat": 18,
+      "time": 178.9333,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.18
+    },
+    {
+      "beat": 19,
+      "time": 188.1,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.36
+    },
+    {
+      "beat": 20,
+      "time": 194.4,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.36
+    },
+    {
+      "beat": 22,
+      "time": 217.1667,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "beat": 23,
+      "time": 236.7667,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.18
+    },
+    {
+      "beat": 25,
+      "time": 258.7667,
+      "kind": "settle",
+      "duration": 0.85,
+      "pan": -0.36
+    },
+    {
+      "beat": 26,
+      "time": 269.1333,
+      "kind": "fracture",
+      "duration": 0.38,
+      "pan": -0.18
+    },
+    {
+      "beat": 29,
+      "time": 301.0,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.36
+    },
+    {
+      "beat": 30,
+      "time": 310.8667,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.36
+    },
+    {
+      "beat": 30,
+      "time": 316.8667,
+      "kind": "settle",
+      "duration": 0.85,
+      "pan": -0.36
+    },
+    {
+      "beat": 33,
+      "time": 344.5,
+      "kind": "settle",
+      "duration": 0.85,
+      "pan": 0.18
+    },
+    {
+      "beat": 34,
+      "time": 359.4667,
+      "kind": "signal",
+      "duration": 0.85,
+      "pan": 0.36
+    },
+    {
+      "beat": 36,
+      "time": 367.5333,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.18
+    },
+    {
+      "beat": 38,
+      "time": 391.7667,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.18
+    },
+    {
+      "beat": 40,
+      "time": 409.9,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.36
+    },
+    {
+      "beat": 42,
+      "time": 425.4667,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.0
+    },
+    {
+      "beat": 43,
+      "time": 438.3,
+      "kind": "settle",
+      "duration": 0.85,
+      "pan": 0.18
+    },
+    {
+      "beat": 45,
+      "time": 455.0333,
+      "kind": "bind",
+      "duration": 0.38,
+      "pan": -0.36
+    },
+    {
+      "beat": 46,
+      "time": 472.5333,
+      "kind": "signal",
+      "duration": 0.85,
+      "pan": -0.18
+    },
+    {
+      "beat": 46,
+      "time": 475.5333,
+      "kind": "signal",
+      "duration": 0.85,
+      "pan": -0.18
+    },
+    {
+      "beat": 48,
+      "time": 496.4333,
+      "kind": "bind",
+      "duration": 0.38,
+      "pan": 0.18
+    },
+    {
+      "beat": 48,
+      "time": 500.4333,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.18
+    },
+    {
+      "beat": 49,
+      "time": 506.7333,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": 0.36
+    },
+    {
+      "beat": 50,
+      "time": 514.6,
+      "kind": "air",
+      "duration": 0.85,
+      "pan": -0.36
+    },
+    {
+      "beat": 51,
+      "time": 522.6667,
+      "kind": "fracture",
+      "duration": 0.38,
+      "pan": -0.18
+    }
+  ],
+  "duration": 536.6333333333333,
+  "credits_used": 0
+}

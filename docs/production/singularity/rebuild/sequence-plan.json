@@ -1,0 +1,2392 @@
+{
+  "frames": 16099,
+  "seconds": 536.6333333333333,
+  "sections": [
+    {
+      "name": "Rewind through structure",
+      "kind": "rewind",
+      "from": 1,
+      "to": 4,
+      "transition": "spiral",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 0,
+      "startFrame": 0,
+      "endFrame": 343
+    },
+    {
+      "name": "The classical extrapolation",
+      "kind": "plasma",
+      "from": 5,
+      "to": 6,
+      "transition": "spiral",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 1,
+      "startFrame": 343,
+      "endFrame": 720
+    },
+    {
+      "name": "The description breaks",
+      "kind": "boundary",
+      "from": 7,
+      "to": 7,
+      "transition": "tear",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 2,
+      "startFrame": 720,
+      "endFrame": 1082
+    },
+    {
+      "name": "Separate three questions",
+      "kind": "three",
+      "from": 8,
+      "to": 8,
+      "transition": "page",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 3,
+      "startFrame": 1082,
+      "endFrame": 1503
+    },
+    {
+      "name": "Increasing distances and redshift",
+      "kind": "redshift",
+      "from": 9,
+      "to": 9,
+      "transition": "orbit",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 4,
+      "startFrame": 1503,
+      "endFrame": 1934
+    },
+    {
+      "name": "Light is set free",
+      "kind": "recombination",
+      "from": 10,
+      "to": 10,
+      "transition": "wave",
+      "anchor": [
+        940,
+        500
+      ],
+      "index": 5,
+      "startFrame": 1934,
+      "endFrame": 2563
+    },
+    {
+      "name": "Nuclei assemble",
+      "kind": "nuclei",
+      "from": 11,
+      "to": 11,
+      "transition": "spiral",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 6,
+      "startFrame": 2563,
+      "endFrame": 2920
+    },
+    {
+      "name": "Evidence reaches an instrument",
+      "kind": "evidence",
+      "from": 12,
+      "to": 12,
+      "transition": "lens",
+      "anchor": [
+        1450,
+        510
+      ],
+      "index": 7,
+      "startFrame": 2920,
+      "endFrame": 3413
+    },
+    {
+      "name": "Matter bends a geometry",
+      "kind": "gravity",
+      "from": 13,
+      "to": 13,
+      "transition": "grid",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 8,
+      "startFrame": 3413,
+      "endFrame": 3833
+    },
+    {
+      "name": "Reversing the classical model",
+      "kind": "compression",
+      "from": 14,
+      "to": 14,
+      "transition": "grid",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 9,
+      "startFrame": 3833,
+      "endFrame": 4398
+    },
+    {
+      "name": "A model reaches its limits",
+      "kind": "tested",
+      "from": 15,
+      "to": 16,
+      "transition": "tear",
+      "anchor": [
+        1050,
+        500
+      ],
+      "index": 10,
+      "startFrame": 4398,
+      "endFrame": 5137
+    },
+    {
+      "name": "The invented room",
+      "kind": "room",
+      "from": 17,
+      "to": 19,
+      "transition": "fold",
+      "anchor": [
+        960,
+        490
+      ],
+      "index": 11,
+      "startFrame": 5137,
+      "endFrame": 5802
+    },
+    {
+      "name": "Expansion everywhere",
+      "kind": "expansion",
+      "from": 20,
+      "to": 21,
+      "transition": "fold",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 12,
+      "startFrame": 5802,
+      "endFrame": 6365
+    },
+    {
+      "name": "A region is not all existence",
+      "kind": "extent",
+      "from": 22,
+      "to": 23,
+      "transition": "orbit",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 13,
+      "startFrame": 6365,
+      "endFrame": 7267
+    },
+    {
+      "name": "Two descriptions must meet",
+      "kind": "quantum",
+      "from": 24,
+      "to": 27,
+      "transition": "grid",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 14,
+      "startFrame": 7267,
+      "endFrame": 8525
+    },
+    {
+      "name": "The assumed road of time",
+      "kind": "road",
+      "from": 28,
+      "to": 29,
+      "transition": "curtain",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 15,
+      "startFrame": 8525,
+      "endFrame": 9236
+    },
+    {
+      "name": "An event outside a map",
+      "kind": "map",
+      "from": 30,
+      "to": 31,
+      "transition": "page",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 16,
+      "startFrame": 9236,
+      "endFrame": 9955
+    },
+    {
+      "name": "A finite hypothetical bounce",
+      "kind": "bounce",
+      "from": 32,
+      "to": 33,
+      "transition": "wave",
+      "anchor": [
+        960,
+        550
+      ],
+      "index": 17,
+      "startFrame": 9955,
+      "endFrame": 10574
+    },
+    {
+      "name": "A picture must face evidence",
+      "kind": "bounce-test",
+      "from": 34,
+      "to": 35,
+      "transition": "lens",
+      "anchor": [
+        1450,
+        510
+      ],
+      "index": 18,
+      "startFrame": 10574,
+      "endFrame": 10996
+    },
+    {
+      "name": "An expanding field patch",
+      "kind": "inflation",
+      "from": 36,
+      "to": 37,
+      "transition": "grid",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 19,
+      "startFrame": 10996,
+      "endFrame": 11663
+    },
+    {
+      "name": "Disconnected hypothetical histories",
+      "kind": "multiverse",
+      "from": 38,
+      "to": 40,
+      "transition": "orbit",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 20,
+      "startFrame": 11663,
+      "endFrame": 12438
+    },
+    {
+      "name": "Empty is still a framework",
+      "kind": "vacuum",
+      "from": 41,
+      "to": 43,
+      "transition": "curtain",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 21,
+      "startFrame": 12438,
+      "endFrame": 13431
+    },
+    {
+      "name": "Different levels of knowledge",
+      "kind": "synthesis",
+      "from": 44,
+      "to": 45,
+      "transition": "page",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 22,
+      "startFrame": 13431,
+      "endFrame": 14056
+    },
+    {
+      "name": "Measuring, predicting and testing",
+      "kind": "observatory",
+      "from": 46,
+      "to": 46,
+      "transition": "lens",
+      "anchor": [
+        1450,
+        510
+      ],
+      "index": 23,
+      "startFrame": 14056,
+      "endFrame": 14669
+    },
+    {
+      "name": "Cosmic material, human life",
+      "kind": "human",
+      "from": 47,
+      "to": 49,
+      "transition": "orbit",
+      "anchor": [
+        1340,
+        500
+      ],
+      "index": 24,
+      "startFrame": 14669,
+      "endFrame": 15378
+    },
+    {
+      "name": "Rewind with a new interpretation",
+      "kind": "return",
+      "from": 50,
+      "to": 50,
+      "transition": "spiral",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 25,
+      "startFrame": 15378,
+      "endFrame": 15620
+    },
+    {
+      "name": "An unfinished explanation",
+      "kind": "ending",
+      "from": 51,
+      "to": 52,
+      "transition": "tear",
+      "anchor": [
+        960,
+        500
+      ],
+      "index": 26,
+      "startFrame": 15620,
+      "endFrame": 16099
+    }
+  ],
+  "coverage": "exactly one active section for every frame",
+  "joins": [
+    {
+      "name": "The classical extrapolation",
+      "startFrame": 343,
+      "mode": "spiral",
+      "samples": [
+        {
+          "frame": 343,
+          "section": 1,
+          "name": "The classical extrapolation",
+          "beat": 5,
+          "transition": "spiral",
+          "transitionProgress": 0,
+          "outgoingFrame": 343,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 344,
+          "section": 1,
+          "name": "The classical extrapolation",
+          "beat": 5,
+          "transition": "spiral",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 344,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 353,
+          "section": 1,
+          "name": "The classical extrapolation",
+          "beat": 5,
+          "transition": "spiral",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 353,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 363,
+          "section": 1,
+          "name": "The classical extrapolation",
+          "beat": 5,
+          "transition": "spiral",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 363,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 373,
+          "section": 1,
+          "name": "The classical extrapolation",
+          "beat": 5,
+          "transition": "spiral",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 373,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 382,
+          "section": 1,
+          "name": "The classical extrapolation",
+          "beat": 5,
+          "transition": "spiral",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 382,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 383,
+          "section": 1,
+          "name": "The classical extrapolation",
+          "beat": 5,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "The description breaks",
+      "startFrame": 720,
+      "mode": "tear",
+      "samples": [
+        {
+          "frame": 720,
+          "section": 2,
+          "name": "The description breaks",
+          "beat": 7,
+          "transition": "tear",
+          "transitionProgress": 0,
+          "outgoingFrame": 720,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 721,
+          "section": 2,
+          "name": "The description breaks",
+          "beat": 7,
+          "transition": "tear",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 721,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 730,
+          "section": 2,
+          "name": "The description breaks",
+          "beat": 7,
+          "transition": "tear",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 730,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 740,
+          "section": 2,
+          "name": "The description breaks",
+          "beat": 7,
+          "transition": "tear",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 740,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 750,
+          "section": 2,
+          "name": "The description breaks",
+          "beat": 7,
+          "transition": "tear",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 750,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 759,
+          "section": 2,
+          "name": "The description breaks",
+          "beat": 7,
+          "transition": "tear",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 759,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 760,
+          "section": 2,
+          "name": "The description breaks",
+          "beat": 7,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Separate three questions",
+      "startFrame": 1082,
+      "mode": "page",
+      "samples": [
+        {
+          "frame": 1082,
+          "section": 3,
+          "name": "Separate three questions",
+          "beat": 8,
+          "transition": "page",
+          "transitionProgress": 0,
+          "outgoingFrame": 1082,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1083,
+          "section": 3,
+          "name": "Separate three questions",
+          "beat": 8,
+          "transition": "page",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 1083,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1092,
+          "section": 3,
+          "name": "Separate three questions",
+          "beat": 8,
+          "transition": "page",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 1092,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1102,
+          "section": 3,
+          "name": "Separate three questions",
+          "beat": 8,
+          "transition": "page",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 1102,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1112,
+          "section": 3,
+          "name": "Separate three questions",
+          "beat": 8,
+          "transition": "page",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 1112,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1121,
+          "section": 3,
+          "name": "Separate three questions",
+          "beat": 8,
+          "transition": "page",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 1121,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1122,
+          "section": 3,
+          "name": "Separate three questions",
+          "beat": 8,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Increasing distances and redshift",
+      "startFrame": 1503,
+      "mode": "orbit",
+      "samples": [
+        {
+          "frame": 1503,
+          "section": 4,
+          "name": "Increasing distances and redshift",
+          "beat": 9,
+          "transition": "orbit",
+          "transitionProgress": 0,
+          "outgoingFrame": 1503,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1504,
+          "section": 4,
+          "name": "Increasing distances and redshift",
+          "beat": 9,
+          "transition": "orbit",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 1504,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1513,
+          "section": 4,
+          "name": "Increasing distances and redshift",
+          "beat": 9,
+          "transition": "orbit",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 1513,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1523,
+          "section": 4,
+          "name": "Increasing distances and redshift",
+          "beat": 9,
+          "transition": "orbit",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 1523,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1533,
+          "section": 4,
+          "name": "Increasing distances and redshift",
+          "beat": 9,
+          "transition": "orbit",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 1533,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1542,
+          "section": 4,
+          "name": "Increasing distances and redshift",
+          "beat": 9,
+          "transition": "orbit",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 1542,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1543,
+          "section": 4,
+          "name": "Increasing distances and redshift",
+          "beat": 9,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Light is set free",
+      "startFrame": 1934,
+      "mode": "wave",
+      "samples": [
+        {
+          "frame": 1934,
+          "section": 5,
+          "name": "Light is set free",
+          "beat": 10,
+          "transition": "wave",
+          "transitionProgress": 0,
+          "outgoingFrame": 1934,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1935,
+          "section": 5,
+          "name": "Light is set free",
+          "beat": 10,
+          "transition": "wave",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 1935,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1944,
+          "section": 5,
+          "name": "Light is set free",
+          "beat": 10,
+          "transition": "wave",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 1944,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1954,
+          "section": 5,
+          "name": "Light is set free",
+          "beat": 10,
+          "transition": "wave",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 1954,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1964,
+          "section": 5,
+          "name": "Light is set free",
+          "beat": 10,
+          "transition": "wave",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 1964,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1973,
+          "section": 5,
+          "name": "Light is set free",
+          "beat": 10,
+          "transition": "wave",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 1973,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 1974,
+          "section": 5,
+          "name": "Light is set free",
+          "beat": 10,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Nuclei assemble",
+      "startFrame": 2563,
+      "mode": "spiral",
+      "samples": [
+        {
+          "frame": 2563,
+          "section": 6,
+          "name": "Nuclei assemble",
+          "beat": 11,
+          "transition": "spiral",
+          "transitionProgress": 0,
+          "outgoingFrame": 2563,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2564,
+          "section": 6,
+          "name": "Nuclei assemble",
+          "beat": 11,
+          "transition": "spiral",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 2564,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2573,
+          "section": 6,
+          "name": "Nuclei assemble",
+          "beat": 11,
+          "transition": "spiral",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 2573,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2583,
+          "section": 6,
+          "name": "Nuclei assemble",
+          "beat": 11,
+          "transition": "spiral",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 2583,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2593,
+          "section": 6,
+          "name": "Nuclei assemble",
+          "beat": 11,
+          "transition": "spiral",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 2593,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2602,
+          "section": 6,
+          "name": "Nuclei assemble",
+          "beat": 11,
+          "transition": "spiral",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 2602,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2603,
+          "section": 6,
+          "name": "Nuclei assemble",
+          "beat": 11,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Evidence reaches an instrument",
+      "startFrame": 2920,
+      "mode": "lens",
+      "samples": [
+        {
+          "frame": 2920,
+          "section": 7,
+          "name": "Evidence reaches an instrument",
+          "beat": 12,
+          "transition": "lens",
+          "transitionProgress": 0,
+          "outgoingFrame": 2920,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2921,
+          "section": 7,
+          "name": "Evidence reaches an instrument",
+          "beat": 12,
+          "transition": "lens",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 2921,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2930,
+          "section": 7,
+          "name": "Evidence reaches an instrument",
+          "beat": 12,
+          "transition": "lens",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 2930,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2940,
+          "section": 7,
+          "name": "Evidence reaches an instrument",
+          "beat": 12,
+          "transition": "lens",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 2940,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2950,
+          "section": 7,
+          "name": "Evidence reaches an instrument",
+          "beat": 12,
+          "transition": "lens",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 2950,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2959,
+          "section": 7,
+          "name": "Evidence reaches an instrument",
+          "beat": 12,
+          "transition": "lens",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 2959,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 2960,
+          "section": 7,
+          "name": "Evidence reaches an instrument",
+          "beat": 12,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Matter bends a geometry",
+      "startFrame": 3413,
+      "mode": "grid",
+      "samples": [
+        {
+          "frame": 3413,
+          "section": 8,
+          "name": "Matter bends a geometry",
+          "beat": 13,
+          "transition": "grid",
+          "transitionProgress": 0,
+          "outgoingFrame": 3413,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3414,
+          "section": 8,
+          "name": "Matter bends a geometry",
+          "beat": 13,
+          "transition": "grid",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 3414,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3423,
+          "section": 8,
+          "name": "Matter bends a geometry",
+          "beat": 13,
+          "transition": "grid",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 3423,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3433,
+          "section": 8,
+          "name": "Matter bends a geometry",
+          "beat": 13,
+          "transition": "grid",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 3433,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3443,
+          "section": 8,
+          "name": "Matter bends a geometry",
+          "beat": 13,
+          "transition": "grid",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 3443,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3452,
+          "section": 8,
+          "name": "Matter bends a geometry",
+          "beat": 13,
+          "transition": "grid",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 3452,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3453,
+          "section": 8,
+          "name": "Matter bends a geometry",
+          "beat": 13,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Reversing the classical model",
+      "startFrame": 3833,
+      "mode": "grid",
+      "samples": [
+        {
+          "frame": 3833,
+          "section": 9,
+          "name": "Reversing the classical model",
+          "beat": 14,
+          "transition": "grid",
+          "transitionProgress": 0,
+          "outgoingFrame": 3833,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3834,
+          "section": 9,
+          "name": "Reversing the classical model",
+          "beat": 14,
+          "transition": "grid",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 3834,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3843,
+          "section": 9,
+          "name": "Reversing the classical model",
+          "beat": 14,
+          "transition": "grid",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 3843,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3853,
+          "section": 9,
+          "name": "Reversing the classical model",
+          "beat": 14,
+          "transition": "grid",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 3853,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3863,
+          "section": 9,
+          "name": "Reversing the classical model",
+          "beat": 14,
+          "transition": "grid",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 3863,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3872,
+          "section": 9,
+          "name": "Reversing the classical model",
+          "beat": 14,
+          "transition": "grid",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 3872,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 3873,
+          "section": 9,
+          "name": "Reversing the classical model",
+          "beat": 14,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "A model reaches its limits",
+      "startFrame": 4398,
+      "mode": "tear",
+      "samples": [
+        {
+          "frame": 4398,
+          "section": 10,
+          "name": "A model reaches its limits",
+          "beat": 15,
+          "transition": "tear",
+          "transitionProgress": 0,
+          "outgoingFrame": 4398,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 4399,
+          "section": 10,
+          "name": "A model reaches its limits",
+          "beat": 15,
+          "transition": "tear",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 4399,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 4408,
+          "section": 10,
+          "name": "A model reaches its limits",
+          "beat": 15,
+          "transition": "tear",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 4408,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 4418,
+          "section": 10,
+          "name": "A model reaches its limits",
+          "beat": 15,
+          "transition": "tear",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 4418,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 4428,
+          "section": 10,
+          "name": "A model reaches its limits",
+          "beat": 15,
+          "transition": "tear",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 4428,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 4437,
+          "section": 10,
+          "name": "A model reaches its limits",
+          "beat": 15,
+          "transition": "tear",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 4437,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 4438,
+          "section": 10,
+          "name": "A model reaches its limits",
+          "beat": 15,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "The invented room",
+      "startFrame": 5137,
+      "mode": "fold",
+      "samples": [
+        {
+          "frame": 5137,
+          "section": 11,
+          "name": "The invented room",
+          "beat": 17,
+          "transition": "fold",
+          "transitionProgress": 0,
+          "outgoingFrame": 5137,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5138,
+          "section": 11,
+          "name": "The invented room",
+          "beat": 17,
+          "transition": "fold",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 5138,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5147,
+          "section": 11,
+          "name": "The invented room",
+          "beat": 17,
+          "transition": "fold",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 5147,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5157,
+          "section": 11,
+          "name": "The invented room",
+          "beat": 17,
+          "transition": "fold",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 5157,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5167,
+          "section": 11,
+          "name": "The invented room",
+          "beat": 17,
+          "transition": "fold",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 5167,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5176,
+          "section": 11,
+          "name": "The invented room",
+          "beat": 17,
+          "transition": "fold",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 5176,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5177,
+          "section": 11,
+          "name": "The invented room",
+          "beat": 17,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Expansion everywhere",
+      "startFrame": 5802,
+      "mode": "fold",
+      "samples": [
+        {
+          "frame": 5802,
+          "section": 12,
+          "name": "Expansion everywhere",
+          "beat": 20,
+          "transition": "fold",
+          "transitionProgress": 0,
+          "outgoingFrame": 5802,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5803,
+          "section": 12,
+          "name": "Expansion everywhere",
+          "beat": 20,
+          "transition": "fold",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 5803,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5812,
+          "section": 12,
+          "name": "Expansion everywhere",
+          "beat": 20,
+          "transition": "fold",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 5812,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5822,
+          "section": 12,
+          "name": "Expansion everywhere",
+          "beat": 20,
+          "transition": "fold",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 5822,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5832,
+          "section": 12,
+          "name": "Expansion everywhere",
+          "beat": 20,
+          "transition": "fold",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 5832,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5841,
+          "section": 12,
+          "name": "Expansion everywhere",
+          "beat": 20,
+          "transition": "fold",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 5841,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 5842,
+          "section": 12,
+          "name": "Expansion everywhere",
+          "beat": 20,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "A region is not all existence",
+      "startFrame": 6365,
+      "mode": "orbit",
+      "samples": [
+        {
+          "frame": 6365,
+          "section": 13,
+          "name": "A region is not all existence",
+          "beat": 22,
+          "transition": "orbit",
+          "transitionProgress": 0,
+          "outgoingFrame": 6365,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 6366,
+          "section": 13,
+          "name": "A region is not all existence",
+          "beat": 22,
+          "transition": "orbit",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 6366,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 6375,
+          "section": 13,
+          "name": "A region is not all existence",
+          "beat": 22,
+          "transition": "orbit",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 6375,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 6385,
+          "section": 13,
+          "name": "A region is not all existence",
+          "beat": 22,
+          "transition": "orbit",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 6385,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 6395,
+          "section": 13,
+          "name": "A region is not all existence",
+          "beat": 22,
+          "transition": "orbit",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 6395,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 6404,
+          "section": 13,
+          "name": "A region is not all existence",
+          "beat": 22,
+          "transition": "orbit",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 6404,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 6405,
+          "section": 13,
+          "name": "A region is not all existence",
+          "beat": 22,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Two descriptions must meet",
+      "startFrame": 7267,
+      "mode": "grid",
+      "samples": [
+        {
+          "frame": 7267,
+          "section": 14,
+          "name": "Two descriptions must meet",
+          "beat": 24,
+          "transition": "grid",
+          "transitionProgress": 0,
+          "outgoingFrame": 7267,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 7268,
+          "section": 14,
+          "name": "Two descriptions must meet",
+          "beat": 24,
+          "transition": "grid",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 7268,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 7277,
+          "section": 14,
+          "name": "Two descriptions must meet",
+          "beat": 24,
+          "transition": "grid",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 7277,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 7287,
+          "section": 14,
+          "name": "Two descriptions must meet",
+          "beat": 24,
+          "transition": "grid",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 7287,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 7297,
+          "section": 14,
+          "name": "Two descriptions must meet",
+          "beat": 24,
+          "transition": "grid",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 7297,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 7306,
+          "section": 14,
+          "name": "Two descriptions must meet",
+          "beat": 24,
+          "transition": "grid",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 7306,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 7307,
+          "section": 14,
+          "name": "Two descriptions must meet",
+          "beat": 24,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "The assumed road of time",
+      "startFrame": 8525,
+      "mode": "curtain",
+      "samples": [
+        {
+          "frame": 8525,
+          "section": 15,
+          "name": "The assumed road of time",
+          "beat": 28,
+          "transition": "curtain",
+          "transitionProgress": 0,
+          "outgoingFrame": 8525,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 8526,
+          "section": 15,
+          "name": "The assumed road of time",
+          "beat": 28,
+          "transition": "curtain",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 8526,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 8535,
+          "section": 15,
+          "name": "The assumed road of time",
+          "beat": 28,
+          "transition": "curtain",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 8535,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 8545,
+          "section": 15,
+          "name": "The assumed road of time",
+          "beat": 28,
+          "transition": "curtain",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 8545,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 8555,
+          "section": 15,
+          "name": "The assumed road of time",
+          "beat": 28,
+          "transition": "curtain",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 8555,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 8564,
+          "section": 15,
+          "name": "The assumed road of time",
+          "beat": 28,
+          "transition": "curtain",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 8564,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 8565,
+          "section": 15,
+          "name": "The assumed road of time",
+          "beat": 28,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "An event outside a map",
+      "startFrame": 9236,
+      "mode": "page",
+      "samples": [
+        {
+          "frame": 9236,
+          "section": 16,
+          "name": "An event outside a map",
+          "beat": 30,
+          "transition": "page",
+          "transitionProgress": 0,
+          "outgoingFrame": 9236,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9237,
+          "section": 16,
+          "name": "An event outside a map",
+          "beat": 30,
+          "transition": "page",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 9237,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9246,
+          "section": 16,
+          "name": "An event outside a map",
+          "beat": 30,
+          "transition": "page",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 9246,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9256,
+          "section": 16,
+          "name": "An event outside a map",
+          "beat": 30,
+          "transition": "page",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 9256,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9266,
+          "section": 16,
+          "name": "An event outside a map",
+          "beat": 30,
+          "transition": "page",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 9266,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9275,
+          "section": 16,
+          "name": "An event outside a map",
+          "beat": 30,
+          "transition": "page",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 9275,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9276,
+          "section": 16,
+          "name": "An event outside a map",
+          "beat": 30,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "A finite hypothetical bounce",
+      "startFrame": 9955,
+      "mode": "wave",
+      "samples": [
+        {
+          "frame": 9955,
+          "section": 17,
+          "name": "A finite hypothetical bounce",
+          "beat": 32,
+          "transition": "wave",
+          "transitionProgress": 0,
+          "outgoingFrame": 9955,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9956,
+          "section": 17,
+          "name": "A finite hypothetical bounce",
+          "beat": 32,
+          "transition": "wave",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 9956,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9965,
+          "section": 17,
+          "name": "A finite hypothetical bounce",
+          "beat": 32,
+          "transition": "wave",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 9965,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9975,
+          "section": 17,
+          "name": "A finite hypothetical bounce",
+          "beat": 32,
+          "transition": "wave",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 9975,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9985,
+          "section": 17,
+          "name": "A finite hypothetical bounce",
+          "beat": 32,
+          "transition": "wave",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 9985,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9994,
+          "section": 17,
+          "name": "A finite hypothetical bounce",
+          "beat": 32,
+          "transition": "wave",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 9994,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 9995,
+          "section": 17,
+          "name": "A finite hypothetical bounce",
+          "beat": 32,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "A picture must face evidence",
+      "startFrame": 10574,
+      "mode": "lens",
+      "samples": [
+        {
+          "frame": 10574,
+          "section": 18,
+          "name": "A picture must face evidence",
+          "beat": 34,
+          "transition": "lens",
+          "transitionProgress": 0,
+          "outgoingFrame": 10574,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 10575,
+          "section": 18,
+          "name": "A picture must face evidence",
+          "beat": 34,
+          "transition": "lens",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 10575,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 10584,
+          "section": 18,
+          "name": "A picture must face evidence",
+          "beat": 34,
+          "transition": "lens",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 10584,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 10594,
+          "section": 18,
+          "name": "A picture must face evidence",
+          "beat": 34,
+          "transition": "lens",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 10594,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 10604,
+          "section": 18,
+          "name": "A picture must face evidence",
+          "beat": 34,
+          "transition": "lens",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 10604,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 10613,
+          "section": 18,
+          "name": "A picture must face evidence",
+          "beat": 34,
+          "transition": "lens",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 10613,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 10614,
+          "section": 18,
+          "name": "A picture must face evidence",
+          "beat": 34,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "An expanding field patch",
+      "startFrame": 10996,
+      "mode": "grid",
+      "samples": [
+        {
+          "frame": 10996,
+          "section": 19,
+          "name": "An expanding field patch",
+          "beat": 36,
+          "transition": "grid",
+          "transitionProgress": 0,
+          "outgoingFrame": 10996,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 10997,
+          "section": 19,
+          "name": "An expanding field patch",
+          "beat": 36,
+          "transition": "grid",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 10997,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11006,
+          "section": 19,
+          "name": "An expanding field patch",
+          "beat": 36,
+          "transition": "grid",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 11006,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11016,
+          "section": 19,
+          "name": "An expanding field patch",
+          "beat": 36,
+          "transition": "grid",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 11016,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11026,
+          "section": 19,
+          "name": "An expanding field patch",
+          "beat": 36,
+          "transition": "grid",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 11026,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11035,
+          "section": 19,
+          "name": "An expanding field patch",
+          "beat": 36,
+          "transition": "grid",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 11035,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11036,
+          "section": 19,
+          "name": "An expanding field patch",
+          "beat": 36,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Disconnected hypothetical histories",
+      "startFrame": 11663,
+      "mode": "orbit",
+      "samples": [
+        {
+          "frame": 11663,
+          "section": 20,
+          "name": "Disconnected hypothetical histories",
+          "beat": 38,
+          "transition": "orbit",
+          "transitionProgress": 0,
+          "outgoingFrame": 11663,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11664,
+          "section": 20,
+          "name": "Disconnected hypothetical histories",
+          "beat": 38,
+          "transition": "orbit",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 11664,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11673,
+          "section": 20,
+          "name": "Disconnected hypothetical histories",
+          "beat": 38,
+          "transition": "orbit",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 11673,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11683,
+          "section": 20,
+          "name": "Disconnected hypothetical histories",
+          "beat": 38,
+          "transition": "orbit",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 11683,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11693,
+          "section": 20,
+          "name": "Disconnected hypothetical histories",
+          "beat": 38,
+          "transition": "orbit",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 11693,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11702,
+          "section": 20,
+          "name": "Disconnected hypothetical histories",
+          "beat": 38,
+          "transition": "orbit",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 11702,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 11703,
+          "section": 20,
+          "name": "Disconnected hypothetical histories",
+          "beat": 38,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Empty is still a framework",
+      "startFrame": 12438,
+      "mode": "curtain",
+      "samples": [
+        {
+          "frame": 12438,
+          "section": 21,
+          "name": "Empty is still a framework",
+          "beat": 41,
+          "transition": "curtain",
+          "transitionProgress": 0,
+          "outgoingFrame": 12438,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 12439,
+          "section": 21,
+          "name": "Empty is still a framework",
+          "beat": 41,
+          "transition": "curtain",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 12439,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 12448,
+          "section": 21,
+          "name": "Empty is still a framework",
+          "beat": 41,
+          "transition": "curtain",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 12448,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 12458,
+          "section": 21,
+          "name": "Empty is still a framework",
+          "beat": 41,
+          "transition": "curtain",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 12458,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 12468,
+          "section": 21,
+          "name": "Empty is still a framework",
+          "beat": 41,
+          "transition": "curtain",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 12468,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 12477,
+          "section": 21,
+          "name": "Empty is still a framework",
+          "beat": 41,
+          "transition": "curtain",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 12477,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 12478,
+          "section": 21,
+          "name": "Empty is still a framework",
+          "beat": 41,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Different levels of knowledge",
+      "startFrame": 13431,
+      "mode": "page",
+      "samples": [
+        {
+          "frame": 13431,
+          "section": 22,
+          "name": "Different levels of knowledge",
+          "beat": 44,
+          "transition": "page",
+          "transitionProgress": 0,
+          "outgoingFrame": 13431,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 13432,
+          "section": 22,
+          "name": "Different levels of knowledge",
+          "beat": 44,
+          "transition": "page",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 13432,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 13441,
+          "section": 22,
+          "name": "Different levels of knowledge",
+          "beat": 44,
+          "transition": "page",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 13441,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 13451,
+          "section": 22,
+          "name": "Different levels of knowledge",
+          "beat": 44,
+          "transition": "page",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 13451,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 13461,
+          "section": 22,
+          "name": "Different levels of knowledge",
+          "beat": 44,
+          "transition": "page",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 13461,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 13470,
+          "section": 22,
+          "name": "Different levels of knowledge",
+          "beat": 44,
+          "transition": "page",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 13470,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 13471,
+          "section": 22,
+          "name": "Different levels of knowledge",
+          "beat": 44,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Measuring, predicting and testing",
+      "startFrame": 14056,
+      "mode": "lens",
+      "samples": [
+        {
+          "frame": 14056,
+          "section": 23,
+          "name": "Measuring, predicting and testing",
+          "beat": 46,
+          "transition": "lens",
+          "transitionProgress": 0,
+          "outgoingFrame": 14056,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14057,
+          "section": 23,
+          "name": "Measuring, predicting and testing",
+          "beat": 46,
+          "transition": "lens",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 14057,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14066,
+          "section": 23,
+          "name": "Measuring, predicting and testing",
+          "beat": 46,
+          "transition": "lens",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 14066,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14076,
+          "section": 23,
+          "name": "Measuring, predicting and testing",
+          "beat": 46,
+          "transition": "lens",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 14076,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14086,
+          "section": 23,
+          "name": "Measuring, predicting and testing",
+          "beat": 46,
+          "transition": "lens",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 14086,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14095,
+          "section": 23,
+          "name": "Measuring, predicting and testing",
+          "beat": 46,
+          "transition": "lens",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 14095,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14096,
+          "section": 23,
+          "name": "Measuring, predicting and testing",
+          "beat": 46,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Cosmic material, human life",
+      "startFrame": 14669,
+      "mode": "orbit",
+      "samples": [
+        {
+          "frame": 14669,
+          "section": 24,
+          "name": "Cosmic material, human life",
+          "beat": 47,
+          "transition": "orbit",
+          "transitionProgress": 0,
+          "outgoingFrame": 14669,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14670,
+          "section": 24,
+          "name": "Cosmic material, human life",
+          "beat": 47,
+          "transition": "orbit",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 14670,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14679,
+          "section": 24,
+          "name": "Cosmic material, human life",
+          "beat": 47,
+          "transition": "orbit",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 14679,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14689,
+          "section": 24,
+          "name": "Cosmic material, human life",
+          "beat": 47,
+          "transition": "orbit",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 14689,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14699,
+          "section": 24,
+          "name": "Cosmic material, human life",
+          "beat": 47,
+          "transition": "orbit",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 14699,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14708,
+          "section": 24,
+          "name": "Cosmic material, human life",
+          "beat": 47,
+          "transition": "orbit",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 14708,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 14709,
+          "section": 24,
+          "name": "Cosmic material, human life",
+          "beat": 47,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "Rewind with a new interpretation",
+      "startFrame": 15378,
+      "mode": "spiral",
+      "samples": [
+        {
+          "frame": 15378,
+          "section": 25,
+          "name": "Rewind with a new interpretation",
+          "beat": 50,
+          "transition": "spiral",
+          "transitionProgress": 0,
+          "outgoingFrame": 15378,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15379,
+          "section": 25,
+          "name": "Rewind with a new interpretation",
+          "beat": 50,
+          "transition": "spiral",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 15379,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15388,
+          "section": 25,
+          "name": "Rewind with a new interpretation",
+          "beat": 50,
+          "transition": "spiral",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 15388,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15398,
+          "section": 25,
+          "name": "Rewind with a new interpretation",
+          "beat": 50,
+          "transition": "spiral",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 15398,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15408,
+          "section": 25,
+          "name": "Rewind with a new interpretation",
+          "beat": 50,
+          "transition": "spiral",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 15408,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15417,
+          "section": 25,
+          "name": "Rewind with a new interpretation",
+          "beat": 50,
+          "transition": "spiral",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 15417,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15418,
+          "section": 25,
+          "name": "Rewind with a new interpretation",
+          "beat": 50,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    },
+    {
+      "name": "An unfinished explanation",
+      "startFrame": 15620,
+      "mode": "tear",
+      "samples": [
+        {
+          "frame": 15620,
+          "section": 26,
+          "name": "An unfinished explanation",
+          "beat": 51,
+          "transition": "tear",
+          "transitionProgress": 0,
+          "outgoingFrame": 15620,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15621,
+          "section": 26,
+          "name": "An unfinished explanation",
+          "beat": 51,
+          "transition": "tear",
+          "transitionProgress": 0.0018437500000000006,
+          "outgoingFrame": 15621,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15630,
+          "section": 26,
+          "name": "An unfinished explanation",
+          "beat": 51,
+          "transition": "tear",
+          "transitionProgress": 0.15625,
+          "outgoingFrame": 15630,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15640,
+          "section": 26,
+          "name": "An unfinished explanation",
+          "beat": 51,
+          "transition": "tear",
+          "transitionProgress": 0.5,
+          "outgoingFrame": 15640,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15650,
+          "section": 26,
+          "name": "An unfinished explanation",
+          "beat": 51,
+          "transition": "tear",
+          "transitionProgress": 0.84375,
+          "outgoingFrame": 15650,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15659,
+          "section": 26,
+          "name": "An unfinished explanation",
+          "beat": 51,
+          "transition": "tear",
+          "transitionProgress": 0.99815625,
+          "outgoingFrame": 15659,
+          "onScreenTitle": false
+        },
+        {
+          "frame": 15660,
+          "section": 26,
+          "name": "An unfinished explanation",
+          "beat": 51,
+          "transition": null,
+          "transitionProgress": 1,
+          "outgoingFrame": null,
+          "onScreenTitle": false
+        }
+      ]
+    }
+  ],
+  "defaultCaptions": false,
+  "onScreenTitles": false,
+  "previousFilmUntouched": true
+}

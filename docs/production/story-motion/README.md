@@ -43,7 +43,7 @@ These actions use local deformation, attachment, event-triggered movement, lag a
 
 [Comparison with the approved test](approved-comparison.jpg) · [Object-state/contact diagnostics](object-motion.json) · [Encoded-file review](delivery.json) · [Animation source](../../../src/StoryMotionLab.tsx)
 
-The original approved transition MP4 and original animation source remain unchanged. The new render is a separate version with **600 frames / 20 seconds**, H.264 1080p/30 fps picture and AAC 48 kHz stereo sound. Review covers actual encoded frames, full decoding, the contact location and carrier continuity. Those checks do not establish that every viewer will infer the intended story; creative approval of this rebuild remains pending the user's review.
+The original approved transition MP4 and original animation source remain unchanged. The new render is a separate version with **600 frames / 20 seconds**, H.264 1080p/30 fps picture and AAC 48 kHz stereo sound. Review covers actual encoded frames, full decoding, the contact location and carrier continuity. Those checks do not establish that every viewer will infer the intended story; the user approved this rebuild on 2026-10-25 and requested applying its approach to the full singularity film. See [the hash-bound approval](user-review.json).
 
 The previous full singularity film remains rejected and is not replaced by this test. The approved character/medicine/cyber artwork and the original Knox recording are untouched.
 

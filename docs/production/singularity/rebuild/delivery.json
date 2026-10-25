@@ -1,0 +1,112 @@
+{
+  "file": "assets/videos/singularity-v2/singularity-rebuilt-8m56.mp4",
+  "sha256": "5d114ee36aecc8843b68ec60d9c45711e1fdee5330670387614ad860f3c72c6f",
+  "bytes": 93040300,
+  "duration_seconds": 536.633333,
+  "frames": 16099,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "video_codec": "h264",
+  "pixel_format": "yuvj420p",
+  "audio_codec": "aac",
+  "sample_rate": 48000,
+  "channels": 2,
+  "voice": "Original Google Vids Knox user recording",
+  "voice_sync": [
+    {
+      "seconds": 0,
+      "lag_seconds": 0.0,
+      "correlation": 0.999649
+    },
+    {
+      "seconds": 100,
+      "lag_seconds": 0.0,
+      "correlation": 0.998917
+    },
+    {
+      "seconds": 250,
+      "lag_seconds": 0.0,
+      "correlation": 0.999649
+    },
+    {
+      "seconds": 400,
+      "lag_seconds": 0.0,
+      "correlation": 0.999425
+    },
+    {
+      "seconds": 520,
+      "lag_seconds": 0.0,
+      "correlation": 0.999755
+    }
+  ],
+  "source_narration_sha256": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+  "speed": 1,
+  "pitch_shift": 0,
+  "voice_credits_used": 0,
+  "sequences": 27,
+  "speech_timed_beats": 52,
+  "major_handoffs": 26,
+  "transition_families": [
+    "curtain",
+    "fold",
+    "grid",
+    "lens",
+    "orbit",
+    "page",
+    "spiral",
+    "tear",
+    "wave"
+  ],
+  "default_on_screen_text": false,
+  "title": false,
+  "optional_subtitle_cues": 241,
+  "full_decode": "passed",
+  "unexpected_black_segments": 0,
+  "fast_start": true,
+  "preserved_baselines": {
+    "assets/videos/transition-lab/six-scene-transitions-20s.mp4": "d3b6920228ab048dedbd4db5cb733c964afdb553da7f6a3c4653905db6de1b1a",
+    "assets/videos/singularity/singularity-full-8m56.mp4": "3ec059c5b90350d56c1c2ca8b28efe360a22462b25f7568083ce2fd938198db7",
+    "assets/characters/static-test-01.png": "72842deef29e191d0f0699c66684d57b6869a0b4cfb2d50937a268f54b80b73f",
+    "assets/scenes/artwork-consistency-02/medicine-immune-defense.png": "d9f245e4aad1866de4b29f10a4dd45c7e9312cd3450dd07d68e36f750ed3fd5e",
+    "assets/scenes/artwork-consistency-02/cyber-network-defense.png": "e6bece838f7095e1346f255533802e62f8f9b114a73479c9a4396ae8088162fd",
+    "public/assets/audio/singularity/narration-original.m4a": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+    "assets/videos/story-motion/storytelling-motion-20s.mp4": "e514ecfa7889185f1b0ac00ac16ef767af2519567002f645aea70f613ca86334"
+  },
+  "picture_input_fingerprint": "da2a2419eceb6eedf0cf9891356b4d4736c43a746a5c50ed399d1065bbf78890",
+  "higher_bitrate_chapters": [
+    {
+      "file": "assets/videos/singularity-v2/chapters/singularity-rebuilt-part-1.mp4",
+      "frames": 3396,
+      "bytes": 36945537,
+      "sha256": "7b78de9ea78434c6b49885c17cc6305fd696c29c7292256a352cac58d98efed6"
+    },
+    {
+      "file": "assets/videos/singularity-v2/chapters/singularity-rebuilt-part-2.mp4",
+      "frames": 3864,
+      "bytes": 66243886,
+      "sha256": "05eda28373634873848a9f7aded4a1f1da9785d3935c8bc4a1b8c6dac878bb21"
+    },
+    {
+      "file": "assets/videos/singularity-v2/chapters/singularity-rebuilt-part-3.mp4",
+      "frames": 2688,
+      "bytes": 11469537,
+      "sha256": "c7119315f2d140aa86f87b17f573bd00a2dfd76544349ae45e3518a3590a2a46"
+    },
+    {
+      "file": "assets/videos/singularity-v2/chapters/singularity-rebuilt-part-4.mp4",
+      "frames": 2487,
+      "bytes": 37346582,
+      "sha256": "3aa215fdd6ce98f32a6d759bc55eb83a9fdd3bbbf10026a707d36afaf613a52a"
+    },
+    {
+      "file": "assets/videos/singularity-v2/chapters/singularity-rebuilt-part-5.mp4",
+      "frames": 3664,
+      "bytes": 26576569,
+      "sha256": "334f23dc6ab9b57d542283e344798775cc6d48333443803096cfac9b70f5dc29"
+    }
+  ],
+  "creative_status": "pending user review",
+  "review_limits": "Format/decode checks, five audio correlation windows, 52 representative encoded beat frames and four samples at each major handoff; this does not assert a complete human playback/listening audit, photoreal scientific simulation, studio equivalence or predicted view counts.",
+  "audio_peak_dbfs": -1.5
+}
