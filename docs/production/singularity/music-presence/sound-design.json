@@ -1,0 +1,276 @@
+{
+  "frames": 16459,
+  "seconds": 548.6333333333333,
+  "change": "Raise and sustain music presence after user could not hear v4 score",
+  "source_cues_reused": [
+    {
+      "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_curious_78bpm_v1.flac",
+      "sha256": "4bde79027c79a88d630dafb18b77eadefd5e6a5d5d9325568628737124b391ae"
+    },
+    {
+      "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_strain_78bpm_v1.flac",
+      "sha256": "f5366bce39fef9b2953fd7c55d0d11ea68a5ccd08493710f477e5d3b1aca19c7"
+    },
+    {
+      "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_eerie_78bpm_v1.flac",
+      "sha256": "e7fb052b662489566d89c632769a46d49e0cfe586b0283bb783e3a1c9c84db95"
+    },
+    {
+      "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_evidence_78bpm_v1.flac",
+      "sha256": "582274ff000a0ce9c9ad9df45ef6f8db0d530d908b2c8b237540ed88f67cb71a"
+    },
+    {
+      "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_playful_78bpm_v1.flac",
+      "sha256": "f2338b429aeb2247ba4a3a9a4cdb14b17849eb33fb1bcf3919ac2eccc802153e"
+    },
+    {
+      "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_exploratory_78bpm_v1.flac",
+      "sha256": "7fc1e3695c9861d26855e3cff7b6165e9fe06756f9deda1534aff43c81279d4a"
+    },
+    {
+      "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_wonder_78bpm_v1.flac",
+      "sha256": "165827cf91e2a1c155432674babfc42f04f59d8f472a50f5503b6deb9a954e74"
+    },
+    {
+      "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_warm_78bpm_v1.flac",
+      "sha256": "b26ae204f48061c1b5d20f1e65d2a338b8f31c897529553aee2dea77dc80321d"
+    },
+    {
+      "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_question_78bpm_v1.flac",
+      "sha256": "b6017d66583c6e58f0f186560c588be47c0b544f957ac110b66e801541b281fc"
+    }
+  ],
+  "music_moods": [
+    {
+      "sequence": "Rewind through structure",
+      "start": 0.0,
+      "end": 11.433333333333334,
+      "mood": "curious",
+      "purpose": "Sparse felt/plucked questions over an open minor harmony",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "The classical extrapolation",
+      "start": 11.433333333333334,
+      "end": 24.0,
+      "mood": "strain",
+      "purpose": "Low bowed tension and gently narrowing intervals",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "The description breaks",
+      "start": 24.0,
+      "end": 36.06666666666667,
+      "mood": "eerie",
+      "purpose": "Quiet suspended cluster and colored air; no horror jump cue",
+      "base_music_rms_dbfs": -29
+    },
+    {
+      "sequence": "Separate three questions",
+      "start": 36.06666666666667,
+      "end": 50.1,
+      "mood": "curious",
+      "purpose": "Sparse felt/plucked questions over an open minor harmony",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Increasing distances and redshift",
+      "start": 50.1,
+      "end": 64.46666666666667,
+      "mood": "evidence",
+      "purpose": "Measured, clearer pattern for evidence and comparisons",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Light is set free",
+      "start": 64.46666666666667,
+      "end": 85.43333333333334,
+      "mood": "wonder",
+      "purpose": "Broad, open spacing for cosmic scale without a triumphant answer",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Nuclei assemble",
+      "start": 85.43333333333334,
+      "end": 97.33333333333333,
+      "mood": "evidence",
+      "purpose": "Measured, clearer pattern for evidence and comparisons",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Evidence reaches an instrument",
+      "start": 97.33333333333333,
+      "end": 113.76666666666667,
+      "mood": "curious",
+      "purpose": "Sparse felt/plucked questions over an open minor harmony",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Matter bends a geometry",
+      "start": 113.76666666666667,
+      "end": 127.76666666666667,
+      "mood": "evidence",
+      "purpose": "Measured, clearer pattern for evidence and comparisons",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Reversing the classical model",
+      "start": 127.76666666666667,
+      "end": 146.6,
+      "mood": "strain",
+      "purpose": "Low bowed tension and gently narrowing intervals",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "A model reaches its limits",
+      "start": 146.6,
+      "end": 171.23333333333332,
+      "mood": "eerie",
+      "purpose": "Quiet suspended cluster and colored air; no horror jump cue",
+      "base_music_rms_dbfs": -29
+    },
+    {
+      "sequence": "The invented room",
+      "start": 171.23333333333332,
+      "end": 193.4,
+      "mood": "playful",
+      "purpose": "Light inquisitive phrasing for the misleading room/map analogy",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Expansion everywhere",
+      "start": 193.4,
+      "end": 212.16666666666666,
+      "mood": "wonder",
+      "purpose": "Broad, open spacing for cosmic scale without a triumphant answer",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "A region is not all existence",
+      "start": 212.16666666666666,
+      "end": 242.23333333333332,
+      "mood": "wonder",
+      "purpose": "Broad, open spacing for cosmic scale without a triumphant answer",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Two descriptions must meet",
+      "start": 242.23333333333332,
+      "end": 284.1666666666667,
+      "mood": "eerie",
+      "purpose": "Quiet suspended cluster and colored air; no horror jump cue",
+      "base_music_rms_dbfs": -29
+    },
+    {
+      "sequence": "The assumed road of time",
+      "start": 284.1666666666667,
+      "end": 307.8666666666667,
+      "mood": "exploratory",
+      "purpose": "Floating unresolved phrases for alternative histories",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "An event outside a map",
+      "start": 307.8666666666667,
+      "end": 331.8333333333333,
+      "mood": "playful",
+      "purpose": "Light inquisitive phrasing for the misleading room/map analogy",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "A finite hypothetical bounce",
+      "start": 331.8333333333333,
+      "end": 352.46666666666664,
+      "mood": "exploratory",
+      "purpose": "Floating unresolved phrases for alternative histories",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "A picture must face evidence",
+      "start": 352.46666666666664,
+      "end": 366.53333333333336,
+      "mood": "curious",
+      "purpose": "Sparse felt/plucked questions over an open minor harmony",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "An expanding field patch",
+      "start": 366.53333333333336,
+      "end": 388.76666666666665,
+      "mood": "wonder",
+      "purpose": "Broad, open spacing for cosmic scale without a triumphant answer",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Disconnected hypothetical histories",
+      "start": 388.76666666666665,
+      "end": 414.6,
+      "mood": "exploratory",
+      "purpose": "Floating unresolved phrases for alternative histories",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Empty is still a framework",
+      "start": 414.6,
+      "end": 447.7,
+      "mood": "eerie",
+      "purpose": "Quiet suspended cluster and colored air; no horror jump cue",
+      "base_music_rms_dbfs": -29
+    },
+    {
+      "sequence": "Different levels of knowledge",
+      "start": 447.7,
+      "end": 468.53333333333336,
+      "mood": "evidence",
+      "purpose": "Measured, clearer pattern for evidence and comparisons",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Measuring, predicting and testing",
+      "start": 468.53333333333336,
+      "end": 488.96666666666664,
+      "mood": "evidence",
+      "purpose": "Measured, clearer pattern for evidence and comparisons",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Cosmic material, human life",
+      "start": 488.96666666666664,
+      "end": 512.6,
+      "mood": "warm",
+      "purpose": "Warm soft-key melody for material connected to human life",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "Rewind with a new interpretation",
+      "start": 512.6,
+      "end": 520.6666666666666,
+      "mood": "curious",
+      "purpose": "Sparse felt/plucked questions over an open minor harmony",
+      "base_music_rms_dbfs": -27.5
+    },
+    {
+      "sequence": "An unfinished explanation",
+      "start": 520.6666666666666,
+      "end": 548.6333333333333,
+      "mood": "question",
+      "purpose": "Open fifth/add-nine, sparse phrase and no final resolving cadence",
+      "base_music_rms_dbfs": -29
+    }
+  ],
+  "music_mono_anchor": ".65 of source left channel shared into right, .35 original right retained; source files unchanged",
+  "voice_phrase_gap_db": 11,
+  "sfx_duck_only_above_rms_dbfs": -31,
+  "prominent_sfx_music_gap_db": 4,
+  "release_200ms_step": 0.65,
+  "median_music_increase_over_v4_db": 10.595070838928223,
+  "median_music_below_voice_db": 11.433128356933594,
+  "source_voice_sha256": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+  "voice_speed": 1,
+  "voice_pitch_shift": 0,
+  "effects_source": "assets/audio/singularity-v4/effects.m4a",
+  "effects_source_sha256": "660bcc2a7ab2c5d15e611a93a9ad230c5bb90f87e2658069d025ee8145d33992",
+  "atmosphere_source": "assets/audio/singularity-v4/atmosphere.m4a",
+  "new_music_or_voice_generation_requests": 0,
+  "review_limit": "Direct audition is unavailable. Level/presence checks are not a listening pass."
+}

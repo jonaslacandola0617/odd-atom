@@ -17,6 +17,7 @@ import {ApprovedCharactersTest} from './ApprovedCharacters';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="SingularityMusicPresence" component={SingularitySoundEnding} defaultProps={{includeAudio:true,audioFile:'assets/audio/singularity-v5/final-mix.m4a'}} {...singularitySoundEndingConfig}/>
     <Composition id="SingularityFinalMix" component={SingularitySoundEnding} defaultProps={{includeAudio:true,audioFile:'assets/audio/singularity-v4/final-mix.m4a'}} {...singularitySoundEndingConfig}/>
     <Composition id="SingularitySoundEnding" component={SingularitySoundEnding} defaultProps={{includeAudio:true}} {...singularitySoundEndingConfig}/>
     <Composition id="SingularityRebuildFull" component={SingularityRebuild} defaultProps={{includeAudio:true,captions:false}} {...singularityRebuildConfig}/>

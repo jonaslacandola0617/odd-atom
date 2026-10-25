@@ -86,6 +86,7 @@
   ],
   "youtube_copy": "docs/publishing/singularity/README.md",
   "publishing_status": "draft_not_published",
-  "listening_review": "pending user; direct audio audition unavailable",
-  "animation_status": "No new animation pass is claimed; prior user feedback remains recorded."
+  "listening_review": "user reports background music is not audible",
+  "animation_status": "No new animation pass is claimed; prior user feedback remains recorded.",
+  "user_review": "user-review.json"
 }

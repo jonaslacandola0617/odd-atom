@@ -1,0 +1,7 @@
+{
+  "film": "assets/videos/singularity-v4/singularity-final-mix.mp4",
+  "film_sha256": "cf7a0f2c882a639feb9af61f1e80d0cdec469dbf7f56884425d2c718769de3c0",
+  "feedback": "i dont here any bg music...",
+  "status": "music_not_perceptible_to_user",
+  "correction": "Raise and sustain music presence; prior upper-limit-only mix checks did not establish audibility."
+}

@@ -28,6 +28,9 @@
 
 # Current animation delivery
 
+- **Current correction: music must be perceptibly present.** The user could not hear the v4 background score. Its score averaged about 25 dB below active narration and was excessively attenuated by quiet SFX tails. Reuse the nine original music source cues; raise the music bed, make its mono playback more reliable, and duck only around speech/prominent contacts with faster recovery. Preserve the exact v4 picture, existing SFX/atmosphere and original Knox timing. Version the corrected audio/video under `singularity-v5` and record presence as well as upper-level limits; passing only “music is quiet enough” is insufficient. Direct audio audition remains unavailable, so do not claim a listening pass.
+
+
 - **Current final audio request:** turn SFX up further, add purposeful effects in under-supported actions, and add music with scene-specific curious/eerie/tense/warm moods. Music must remain below narration and active focal SFX. Preserve all v3 picture/ending frames and the original Knox take; this is an audio-only revision under `assets/videos/singularity-v4/`. Reuse the imported Curio library and commit every newly composed music cue/stem with provenance. Write paste-ready YouTube upload metadata and Community post drafts under `docs/publishing/singularity/`; “write posts” authorizes drafting, not publishing to an account. No guarantee of view counts. The earlier full-animation review remains not passed; do not manufacture a new animation pass. Direct audio audition is still unavailable here; document level/sync checks accurately.
 
 

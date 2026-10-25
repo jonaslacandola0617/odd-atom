@@ -1,0 +1,85 @@
+{
+  "file": "assets/videos/singularity-v5/singularity-music-forward.mp4",
+  "sha256": "5faf563cf4ad7b26a3a27f9584d3af14916a6e8b2cb62a9cc83c687d52363823",
+  "bytes": 95354002,
+  "frames": 16459,
+  "seconds": 548.633333,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "entire_picture_bitstream_unchanged": true,
+  "effects_source_unchanged": true,
+  "voice_source_sha256": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+  "voice_speed": 1,
+  "voice_pitch_shift": 0,
+  "voice_sync": [
+    {
+      "seconds": 0,
+      "lag_seconds": 0.0,
+      "correlation": 0.9666223891385894
+    },
+    {
+      "seconds": 100,
+      "lag_seconds": 0.0,
+      "correlation": 0.9709697726612472
+    },
+    {
+      "seconds": 250,
+      "lag_seconds": 0.0,
+      "correlation": 0.9746928287839665
+    },
+    {
+      "seconds": 400,
+      "lag_seconds": 0.0,
+      "correlation": 0.9807613356788619
+    },
+    {
+      "seconds": 520,
+      "lag_seconds": 0.0,
+      "correlation": 0.9638327799728117
+    }
+  ],
+  "full_decode": "passed",
+  "audio_peak_dbfs": -1.4,
+  "decoded_median_music_increase_db": 13.0418119430542,
+  "decoded_median_music_below_voice_db": 11.491743087768555,
+  "music_present_in_voiced_windows_percent": 99.21414538310412,
+  "definition_of_presence": "1s windows with active speech; music within 20dB of voice and above -40dBFS, checked after mono playback-band decoding",
+  "voice_above_music_percent": 99.21414538310412,
+  "prominent_sfx_above_music_percent": 95.00998003992017,
+  "median_prominent_sfx_above_music_db": 6.059747695922852,
+  "higher_bitrate_chapters": [
+    {
+      "file": "assets/videos/singularity-v5/chapters/singularity-music-forward-part-1.mp4",
+      "sha256": "c312d73336db64d6195c22318a56e047dd50dd674664c38481209bc1d88761de",
+      "frames": 3396,
+      "picture_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v5/chapters/singularity-music-forward-part-2.mp4",
+      "sha256": "0cd6559a531d78bc9fabb0389db1a086722408ab349b925e5609210e2741e842",
+      "frames": 3864,
+      "picture_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v5/chapters/singularity-music-forward-part-3.mp4",
+      "sha256": "fcb38c55c5b99c4be42cad18bb3066c706e0ecbf1a5fe5a1030a1aa1a8ff8a19",
+      "frames": 2688,
+      "picture_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v5/chapters/singularity-music-forward-part-4.mp4",
+      "sha256": "94c84c45858a9ddc9b89d6f65da8e9df82e2673c1d234b4b12cf16ed900ca178",
+      "frames": 2487,
+      "picture_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v5/chapters/singularity-music-forward-part-5.mp4",
+      "sha256": "e91e8d6dc1b59992a965a0134a2e362c5546adc5f9dbe192fe6df909932ad05f",
+      "frames": 4024,
+      "picture_unchanged": true
+    }
+  ],
+  "user_listening_status": "pending review; direct audio audition unavailable here",
+  "previous_v4_status": "User could not hear background music; quiet-enough checks were insufficient."
+}
