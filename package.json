@@ -45,7 +45,11 @@
     "render:transitions": "node scripts/render_transition_lab.cjs",
     "still:transitions": "node scripts/render_transition_lab.cjs --stills",
     "sound:transitions": "python scripts/transition_lab_sound.py",
-    "review:transitions": "python scripts/review_transition_lab.py"
+    "review:transitions": "python scripts/review_transition_lab.py",
+    "render:story-motion": "node scripts/render_story_motion.cjs",
+    "still:story-motion": "node scripts/render_story_motion.cjs --stills",
+    "sound:story-motion": "python scripts/story_motion_sound.py",
+    "review:story-motion": "python scripts/review_story_motion.py"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

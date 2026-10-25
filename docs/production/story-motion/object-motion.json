@@ -1,0 +1,730 @@
+{
+  "contact_check": {
+    "frame": 145,
+    "nose_to_bubble_edge_gap_pixels": 0,
+    "note": "Screen-space geometry at initial contact, not a physics or animation-quality score."
+  },
+  "maximum_gold_displacement": {
+    "pixels_per_frame": 44.262,
+    "frame": 431,
+    "note": "Calculated across frames 84\u2013599 to look for abrupt carrier discontinuities. Does not establish perceptual quality."
+  },
+  "review_keyframes": [
+    {
+      "frame": 82,
+      "fish": {
+        "x": 460,
+        "y": 585,
+        "angle": 0,
+        "turn": 0
+      },
+      "bubble": [
+        960,
+        731
+      ],
+      "spark": [
+        960,
+        731
+      ],
+      "fishNose": [
+        631,
+        585
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 91,
+      "fish": {
+        "x": 460,
+        "y": 585,
+        "angle": 0,
+        "turn": 0
+      },
+      "bubble": [
+        976.0151468951357,
+        777.572471733138
+      ],
+      "spark": [
+        976.0151468951357,
+        777.572471733138
+      ],
+      "fishNose": [
+        631,
+        585
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 120,
+      "fish": {
+        "x": 720,
+        "y": 547.5,
+        "angle": -6,
+        "turn": 0
+      },
+      "bubble": [
+        1127.4489795918366,
+        538.3381924198251
+      ],
+      "spark": [
+        1127.4489795918366,
+        538.3381924198251
+      ],
+      "fishNose": [
+        891,
+        547.5
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 141,
+      "fish": {
+        "x": 970.54848,
+        "y": 511.3632,
+        "angle": -0.3424233738364581,
+        "turn": 0
+      },
+      "bubble": [
+        1182,
+        510
+      ],
+      "spark": [
+        1182,
+        510
+      ],
+      "fishNose": [
+        1141.54848,
+        511.3632
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 145,
+      "fish": {
+        "x": 980,
+        "y": 510,
+        "angle": -7.347880794884119e-16,
+        "turn": 0
+      },
+      "bubble": [
+        1182,
+        510
+      ],
+      "spark": [
+        1182,
+        510
+      ],
+      "fishNose": [
+        1151,
+        510
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 150,
+      "fish": {
+        "x": 1008.5185185185185,
+        "y": 510,
+        "angle": -7.347880794884119e-16,
+        "turn": 0
+      },
+      "bubble": [
+        1207,
+        500.625
+      ],
+      "spark": [
+        1207,
+        500.625
+      ],
+      "fishNose": [
+        1179.5185185185185,
+        510
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 165,
+      "fish": {
+        "x": 1090,
+        "y": 510,
+        "angle": -7.347880794884119e-16,
+        "turn": 0
+      },
+      "bubble": [
+        1342,
+        450
+      ],
+      "spark": [
+        1342,
+        450
+      ],
+      "fishNose": [
+        1261,
+        510
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 198,
+      "fish": {
+        "x": 1059.5140813395046,
+        "y": 551.9181381581811,
+        "angle": 9.145775598148607,
+        "turn": 0.7621479665123838
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "fishNose": [
+        1230.5140813395046,
+        551.9181381581811
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 213,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -5.317784256559765,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        884.7144674929342,
+        580.3848218662325
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 228,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -31.835641399416915,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        970,
+        1000
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 261,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        1100,
+        320
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 287,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        1100,
+        320
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1100,
+          320
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 0,
+        "angle": -4
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 318,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        1197.67936,
+        286.40128
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1197.67936,
+          286.40128
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 1,
+        "angle": 56.28907074170523
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 350,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        980,
+        170
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 1,
+      "flyer": {
+        "center": [
+          980,
+          170
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 1,
+        "angle": -81.9863598315934
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 376,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        823.5352436363635,
+        293.3600581818182
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0.972,
+      "flyer": {
+        "center": [
+          823.5352436363635,
+          293.3600581818182
+        ],
+        "fold": 0,
+        "spark": 0,
+        "detach": 1,
+        "angle": -221.34190805228263
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 414,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        1439.609771068193,
+        289.2146370187744
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1310.0719191919193,
+          314.5907070707071
+        ],
+        "fold": 1,
+        "spark": 0,
+        "detach": 1,
+        "angle": -281.08370950755454
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 490,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        831.9001069066835,
+        394.2476857567141
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          940,
+          470
+        ],
+        "fold": 1,
+        "spark": 0,
+        "detach": 1,
+        "angle": -54.978682661298706
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 532,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        1122.003100083675,
+        306.7274456539321
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1122.003100083675,
+          306.7274456539321
+        ],
+        "fold": 1,
+        "spark": 1,
+        "detach": 1,
+        "angle": 0
+      },
+      "moonLight": 0
+    },
+    {
+      "frame": 548,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        1370.2173327683427,
+        246.53335135575443
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1370.2173327683427,
+          246.53335135575443
+        ],
+        "fold": 1,
+        "spark": 1,
+        "detach": 1,
+        "angle": 0
+      },
+      "moonLight": 0.09672280382339554
+    },
+    {
+      "frame": 580,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        1490.2397679719347,
+        590.9083671038536
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1490.2397679719347,
+          590.9083671038536
+        ],
+        "fold": 1,
+        "spark": 1,
+        "detach": 1,
+        "angle": 0
+      },
+      "moonLight": 0.9032771961766045
+    },
+    {
+      "frame": 599,
+      "fish": {
+        "x": 1050,
+        "y": 565,
+        "angle": -32,
+        "turn": 1
+      },
+      "bubble": [
+        1251.0477852641795,
+        582.7538359919419
+      ],
+      "spark": [
+        1304.1292666543598,
+        614.8041482403578
+      ],
+      "fishNose": [
+        1221,
+        565
+      ],
+      "bubbleRadius": 31,
+      "gust": 0,
+      "flyer": {
+        "center": [
+          1304.1292666543598,
+          614.8041482403578
+        ],
+        "fold": 1,
+        "spark": 1,
+        "detach": 1,
+        "angle": 0
+      },
+      "moonLight": 1
+    }
+  ],
+  "on_screen_text": false,
+  "scope": "Read-only scene-state diagnostics for the current SVG composition. Representative encoded frames are reviewed separately."
+}

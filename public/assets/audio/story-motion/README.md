@@ -1,0 +1,1 @@
+Original synthesized effects for the wordless 20-second story/motion rebuild. Cues follow drop impact, fish/bubble contact, plant growth, a gust, wing folding and the night payoff. Oscillators and filtered deterministic noise; no sampled commercial score, generated speech or voice credits. Regenerate with `npm run sound:story-motion`.

@@ -1,0 +1,84 @@
+{
+  "file": "assets/videos/story-motion/storytelling-motion-20s.mp4",
+  "sha256": "e514ecfa7889185f1b0ac00ac16ef767af2519567002f645aea70f613ca86334",
+  "bytes": 5225219,
+  "seconds": 20,
+  "frames": 600,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "content": "Original synthesized effects; no narration"
+  },
+  "scenes": [
+    {
+      "name": "Rain",
+      "review_frame": 50
+    },
+    {
+      "name": "Fish nudges the bubble",
+      "review_frame": 145
+    },
+    {
+      "name": "Light wakes the plant",
+      "review_frame": 278
+    },
+    {
+      "name": "Butterfly meets a gust",
+      "review_frame": 350
+    },
+    {
+      "name": "Paper plane",
+      "review_frame": 438
+    },
+    {
+      "name": "The night lights up",
+      "review_frame": 590
+    }
+  ],
+  "handoffs": [
+    {
+      "name": "Splash reveals underwater",
+      "from": 78,
+      "to": 120,
+      "mechanism": "The impacting drop creates a rising wave/splash contour; the fish keeps moving behind the changing water coverage."
+    },
+    {
+      "name": "A nudge sends the light toward the leaf",
+      "from": 140,
+      "to": 224,
+      "mechanism": "The fish contacts and deforms the bubble; it moves onward, merges with the leaf and travels through the emerging plant."
+    },
+    {
+      "name": "Growth leads to wings and release",
+      "from": 255,
+      "to": 325,
+      "mechanism": "The light reaches the bud before petals unfold; those petal paths become flapping wings, and the released stem recoils."
+    },
+    {
+      "name": "A gust makes folding useful",
+      "from": 332,
+      "to": 428,
+      "mechanism": "Foliage, clouds and flyer respond to the gust; wings flap faster and then fold into paper facets before the flyer gains ground."
+    },
+    {
+      "name": "The arriving star lights the night",
+      "from": 505,
+      "to": 599,
+      "mechanism": "The plane contracts into a star; its trail forms an orbit, the moon brightens and nearby stars appear in a spatial wave."
+    }
+  ],
+  "full_decode": "passed",
+  "creative_status": "pending user review",
+  "artwork": "The approved six-scene SVG drawings and shape handoffs are retained in a separate composition with causal actions and reactive environment motion. No image generation or singularity imagery.",
+  "approved_test_unchanged": {
+    "file": "assets/videos/transition-lab/six-scene-transitions-20s.mp4",
+    "sha256": "d3b6920228ab048dedbd4db5cb733c964afdb553da7f6a3c4653905db6de1b1a"
+  },
+  "on_screen_text": false,
+  "narration": false,
+  "review_notes": "Representative encoded frames and transitional sequences inspected. Scene/hand-off sheets are spaced samples, not every source frame. GIF is a silent 20fps proxy with an artificial loop restart. Technical checks do not establish a creative pass."
+}
