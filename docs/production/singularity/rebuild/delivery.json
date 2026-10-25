@@ -106,7 +106,8 @@
       "sha256": "334f23dc6ab9b57d542283e344798775cc6d48333443803096cfac9b70f5dc29"
     }
   ],
-  "creative_status": "pending user review",
+  "creative_status": "not_passed",
   "review_limits": "Format/decode checks, five audio correlation windows, 52 representative encoded beat frames and four samples at each major handoff; this does not assert a complete human playback/listening audit, photoreal scientific simulation, studio equivalence or predicted view counts.",
-  "audio_peak_dbfs": -1.5
+  "audio_peak_dbfs": -1.5,
+  "user_review": "user-review.json"
 }

@@ -1,0 +1,122 @@
+{
+  "file": "assets/videos/singularity-v3/singularity-sound-ending.mp4",
+  "sha256": "ebde570383ac93d6c8f26bc6dd5b5b0b3fb27bae8835b0042b6a16150e56bb62",
+  "bytes": 95317004,
+  "frames": 16459,
+  "duration_seconds": 548.633333,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "full_decode": "passed",
+  "unexpected_black_segments": 0,
+  "audio_peak_dbfs": -1.5,
+  "audio_sample_rate": 48000,
+  "channels": 2,
+  "voice_source_sha256": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+  "voice_speed": 1,
+  "voice_pitch_shift": 0,
+  "voice_sync": [
+    {
+      "start_seconds": 0,
+      "lag_seconds": 0.0,
+      "correlation": 0.982907
+    },
+    {
+      "start_seconds": 100,
+      "lag_seconds": 0.0,
+      "correlation": 0.993622
+    },
+    {
+      "start_seconds": 250,
+      "lag_seconds": 0.0,
+      "correlation": 0.998337
+    },
+    {
+      "start_seconds": 400,
+      "lag_seconds": 0.0,
+      "correlation": 0.998035
+    },
+    {
+      "start_seconds": 520,
+      "lag_seconds": 0.0,
+      "correlation": 0.995088
+    }
+  ],
+  "voice_credits_used": 0,
+  "new_generative_sound_requests": 0,
+  "library_import_audio_files": 58,
+  "distinct_existing_cues_used": 38,
+  "cue_placements_including_ambient_loops": 165,
+  "median_effect_below_simultaneous_voice_db": 12.612727314557635,
+  "added_visual_tail_seconds": 12,
+  "tail_after_source_recording_seconds": 12.014666333333366,
+  "last_100ms_rms": 1.3290107858665579e-07,
+  "previous_tail_window_rms": 0.002640311373397708,
+  "first_four_chapter_picture_checks": [
+    {
+      "chapter": 1,
+      "picture_bitstream_unchanged": true
+    },
+    {
+      "chapter": 2,
+      "picture_bitstream_unchanged": true
+    },
+    {
+      "chapter": 3,
+      "picture_bitstream_unchanged": true
+    },
+    {
+      "chapter": 4,
+      "picture_bitstream_unchanged": true
+    }
+  ],
+  "higher_bitrate_chapters": [
+    {
+      "file": "assets/videos/singularity-v3/chapters/singularity-sound-ending-part-1.mp4",
+      "frames": 3396,
+      "bytes": 36961454,
+      "sha256": "99413de39767476e93300447fbd97c068175fcbf9004ffb3930deb7692e6b561"
+    },
+    {
+      "file": "assets/videos/singularity-v3/chapters/singularity-sound-ending-part-2.mp4",
+      "frames": 3864,
+      "bytes": 66289066,
+      "sha256": "919f543960c2053d0b83d2565b1fa588f6296fd8102e86726cdebb500282183b"
+    },
+    {
+      "file": "assets/videos/singularity-v3/chapters/singularity-sound-ending-part-3.mp4",
+      "frames": 2688,
+      "bytes": 11478694,
+      "sha256": "5f607716a80aea05635a54e9d8f9c8424214d505e6295cb7ec323c34d4031570"
+    },
+    {
+      "file": "assets/videos/singularity-v3/chapters/singularity-sound-ending-part-4.mp4",
+      "frames": 2487,
+      "bytes": 37362854,
+      "sha256": "213e22745232d84eef6ffec943db9e440add9f5b652e505a215d18965b63a4ed"
+    },
+    {
+      "file": "assets/videos/singularity-v3/chapters/singularity-sound-ending-part-5.mp4",
+      "frames": 4024,
+      "bytes": 26916546,
+      "sha256": "f953a5c8ea8e22e2b5c4810cd7ae5ddeb36a194a74b5f5b7d67ecfa231dc4036"
+    }
+  ],
+  "original_v2_file_unchanged": true,
+  "default_on_screen_text": false,
+  "prior_animation_user_status": "not_passed",
+  "revision_creative_status": "pending user review",
+  "review_limits": "Direct audio audition is unavailable. These are source/hash, encoded-format, level, waveform/sync and representative visual checks, not a listening approval or a new animation pass.",
+  "monotonic_decode_timestamps": true,
+  "constant_frame_packet_spacing": true,
+  "chapter_five_prefix_sample_ssim": [
+    {
+      "chapter_local_seconds": 35.5,
+      "ssim": 0.997734
+    },
+    {
+      "chapter_local_seconds": 84.8,
+      "ssim": 0.999198
+    }
+  ]
+}

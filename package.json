@@ -53,7 +53,12 @@
     "still:singularity-v2": "node scripts/render_singularity_v2.cjs --stills",
     "render:singularity-v2": "node scripts/render_singularity_v2.cjs",
     "sound:singularity-v2": "python scripts/singularity_v2_sound.py",
-    "review:singularity-v2": "python scripts/review_singularity_v2.py"
+    "review:singularity-v2": "python scripts/review_singularity_v2.py",
+    "sound:singularity-v3": "python scripts/singularity_v3_sound.py",
+    "still:singularity-v3": "node scripts/render_singularity_v3.cjs --stills",
+    "render:singularity-v3": "node scripts/render_singularity_v3.cjs",
+    "review:singularity-v3": "python scripts/review_singularity_v3.py",
+    "study:sound": "python scripts/study_reference_sound.py"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "original_synthesized": 50,
+  "sample_rate": 48000,
+  "bit_depth": 24,
+  "channels": 2,
+  "categories": {
+    "ambient": 5,
+    "archive": 8,
+    "cinematic": 6,
+    "editorial": 8,
+    "mechanical": 8,
+    "motion": 7,
+    "science": 8
+  },
+  "user_zip_bytes": 29195713,
+  "wav_pack_file": "CURIO_BUREAU_SFX_V1_PCM24_WAV_PACK.zip",
+  "source_truth": "Digital sound design, not an authentic location recording or licensed recording from Drive.",
+  "missing_final_human_QA": "Sound audition and placement in a narrated reference mix require human review."
+}

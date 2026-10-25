@@ -4,7 +4,7 @@
 
 The user approved the [20-second story/object-motion test](../../story-motion/user-review.json) and requested rebuilding the entire singularity film. This is a separate Remotion production: **16,099 frames, 1920 × 1080, 30 fps**, spanning the original **8:56.619 Google Vids Knox recording**. The video has no opening title, on-screen headings, labels, branding, dashboard badges or end card. Subtitles are supplied separately and are disabled in the delivered picture.
 
-The earlier full cut remains [rejected and unchanged](../film/user-review.json). The passed character, medicine and cyber artwork, both approved motion tests and original narration also remain unchanged. This new full-film version is **pending the user's creative review**; approval of the short test is not automatic approval of this film.
+The earlier full cut remains [rejected and unchanged](../film/user-review.json). The passed character, medicine and cyber artwork, both approved motion tests and original narration also remain unchanged. This new full-film version is **not passed** following the user's review; approval of the short test is not approval of this film. See [the user feedback](user-review.json). The user requested stronger SFX and a less abrupt, curiosity-led ending; broader animation study will follow with user-supplied long-form references.
 
 ## What changed
 

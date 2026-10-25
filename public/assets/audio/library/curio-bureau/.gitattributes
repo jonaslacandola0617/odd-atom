@@ -1,0 +1,2 @@
+# Preserve the imported catalog bytes, including its original CRLF endings.
+curio_sfx_v1/CATALOG.csv -text whitespace=cr-at-eol
