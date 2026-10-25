@@ -1,0 +1,92 @@
+[
+  {
+    "name": "curious",
+    "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_curious_78bpm_v1.flac",
+    "sha256": "4bde79027c79a88d630dafb18b77eadefd5e6a5d5d9325568628737124b391ae",
+    "duration": 24.615375,
+    "bpm": 78,
+    "root": "D/A-centered, with F-family warmth in the human cue",
+    "purpose": "Sparse felt/plucked questions over an open minor harmony",
+    "provenance": "Original deterministic additive/noise synthesis and authored note sequence; no third-party music or model/API request"
+  },
+  {
+    "name": "strain",
+    "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_strain_78bpm_v1.flac",
+    "sha256": "f5366bce39fef9b2953fd7c55d0d11ea68a5ccd08493710f477e5d3b1aca19c7",
+    "duration": 24.615375,
+    "bpm": 78,
+    "root": "D/A-centered, with F-family warmth in the human cue",
+    "purpose": "Low bowed tension and gently narrowing intervals",
+    "provenance": "Original deterministic additive/noise synthesis and authored note sequence; no third-party music or model/API request"
+  },
+  {
+    "name": "eerie",
+    "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_eerie_78bpm_v1.flac",
+    "sha256": "e7fb052b662489566d89c632769a46d49e0cfe586b0283bb783e3a1c9c84db95",
+    "duration": 24.615375,
+    "bpm": 78,
+    "root": "D/A-centered, with F-family warmth in the human cue",
+    "purpose": "Quiet suspended cluster and colored air; no horror jump cue",
+    "provenance": "Original deterministic additive/noise synthesis and authored note sequence; no third-party music or model/API request"
+  },
+  {
+    "name": "evidence",
+    "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_evidence_78bpm_v1.flac",
+    "sha256": "582274ff000a0ce9c9ad9df45ef6f8db0d530d908b2c8b237540ed88f67cb71a",
+    "duration": 24.615375,
+    "bpm": 78,
+    "root": "D/A-centered, with F-family warmth in the human cue",
+    "purpose": "Measured, clearer pattern for evidence and comparisons",
+    "provenance": "Original deterministic additive/noise synthesis and authored note sequence; no third-party music or model/API request"
+  },
+  {
+    "name": "playful",
+    "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_playful_78bpm_v1.flac",
+    "sha256": "f2338b429aeb2247ba4a3a9a4cdb14b17849eb33fb1bcf3919ac2eccc802153e",
+    "duration": 24.615375,
+    "bpm": 78,
+    "root": "D/A-centered, with F-family warmth in the human cue",
+    "purpose": "Light inquisitive phrasing for the misleading room/map analogy",
+    "provenance": "Original deterministic additive/noise synthesis and authored note sequence; no third-party music or model/API request"
+  },
+  {
+    "name": "exploratory",
+    "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_exploratory_78bpm_v1.flac",
+    "sha256": "7fc1e3695c9861d26855e3cff7b6165e9fe06756f9deda1534aff43c81279d4a",
+    "duration": 24.615375,
+    "bpm": 78,
+    "root": "D/A-centered, with F-family warmth in the human cue",
+    "purpose": "Floating unresolved phrases for alternative histories",
+    "provenance": "Original deterministic additive/noise synthesis and authored note sequence; no third-party music or model/API request"
+  },
+  {
+    "name": "wonder",
+    "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_wonder_78bpm_v1.flac",
+    "sha256": "165827cf91e2a1c155432674babfc42f04f59d8f472a50f5503b6deb9a954e74",
+    "duration": 24.615375,
+    "bpm": 78,
+    "root": "D/A-centered, with F-family warmth in the human cue",
+    "purpose": "Broad, open spacing for cosmic scale without a triumphant answer",
+    "provenance": "Original deterministic additive/noise synthesis and authored note sequence; no third-party music or model/API request"
+  },
+  {
+    "name": "warm",
+    "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_warm_78bpm_v1.flac",
+    "sha256": "b26ae204f48061c1b5d20f1e65d2a338b8f31c897529553aee2dea77dc80321d",
+    "duration": 24.615375,
+    "bpm": 78,
+    "root": "D/A-centered, with F-family warmth in the human cue",
+    "purpose": "Warm soft-key melody for material connected to human life",
+    "provenance": "Original deterministic additive/noise synthesis and authored note sequence; no third-party music or model/API request"
+  },
+  {
+    "name": "question",
+    "file": "assets/audio/singularity-v4/music-cues/OA_MUSIC_question_78bpm_v1.flac",
+    "sha256": "b6017d66583c6e58f0f186560c588be47c0b544f957ac110b66e801541b281fc",
+    "duration": 24.615375,
+    "bpm": 78,
+    "root": "D/A-centered, with F-family warmth in the human cue",
+    "purpose": "Open fifth/add-nine, sparse phrase and no final resolving cadence",
+    "provenance": "Original deterministic additive/noise synthesis and authored note sequence; no third-party music or model/API request"
+  }
+]

@@ -69,12 +69,12 @@ const EndingMap:React.FC<{frame:number}>=({frame:f})=>{
  </svg>;
 };
 
-export const SingularitySoundEnding:React.FC<{includeAudio?:boolean}>=({includeAudio=true})=>{
+export const SingularitySoundEnding:React.FC<{includeAudio?:boolean;audioFile?:string}>=({includeAudio=true,audioFile='assets/audio/singularity-v3/final-mix.m4a'})=>{
  const frame=useCurrentFrame(),ending=frame>=endingStartFrame,joining=frame<endingStartFrame+45;
  return <AbsoluteFill style={{background:C.ink}}>
   {(!ending||joining)&&<SingularityRebuild includeAudio={false} captions={false}/>}
   {ending&&<EndingMap frame={frame}/>}
-  {includeAudio&&<Audio src={staticFile('assets/audio/singularity-v3/final-mix.m4a')}/>}
+  {includeAudio&&<Audio src={staticFile(audioFile)}/>}
  </AbsoluteFill>;
 };
 export const singularitySoundEndingConfig={durationInFrames:soundEndingDuration,fps:30,width:1920,height:1080};

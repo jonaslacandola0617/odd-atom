@@ -1,0 +1,91 @@
+{
+  "file": "assets/videos/singularity-v4/singularity-final-mix.mp4",
+  "sha256": "cf7a0f2c882a639feb9af61f1e80d0cdec469dbf7f56884425d2c718769de3c0",
+  "bytes": 95367726,
+  "frames": 16459,
+  "seconds": 548.633333,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "full_decode": "passed",
+  "entire_picture_bitstream_unchanged": true,
+  "previous_v3_file_unchanged": true,
+  "original_voice_sha256": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+  "voice_speed": 1,
+  "voice_pitch_shift": 0,
+  "voice_sync": [
+    {
+      "seconds": 0,
+      "lag_seconds": 0.0,
+      "correlation": 0.978844
+    },
+    {
+      "seconds": 100,
+      "lag_seconds": 0.0,
+      "correlation": 0.985254
+    },
+    {
+      "seconds": 250,
+      "lag_seconds": 0.0,
+      "correlation": 0.990681
+    },
+    {
+      "seconds": 400,
+      "lag_seconds": 0.0,
+      "correlation": 0.993824
+    },
+    {
+      "seconds": 520,
+      "lag_seconds": 0.0,
+      "correlation": 0.98006
+    }
+  ],
+  "audio_peak_dbfs": -1.5,
+  "sample_rate": 48000,
+  "channels": 2,
+  "nominal_sfx_boost_db": 6,
+  "measured_median_existing_cue_increase_db": 4.219807680723438,
+  "extra_action_cues": 23,
+  "new_reusable_original_music_cues": 9,
+  "music_at_least_7db_below_active_sfx_percent": 99.19191919191918,
+  "music_at_least_13db_below_active_voice_percent": 98.84726224783861,
+  "median_music_below_active_sfx_db": 15.170595169067383,
+  "median_music_below_active_voice_db": 25.304702758789062,
+  "music_mood_sequences": 27,
+  "higher_bitrate_chapters": [
+    {
+      "file": "assets/videos/singularity-v4/chapters/singularity-final-mix-part-1.mp4",
+      "sha256": "43b2b6f9f297ba812eda5987486819749e32ad5b5abe130b02f0e0a52f79178d",
+      "frames": 3396,
+      "picture_bitstream_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v4/chapters/singularity-final-mix-part-2.mp4",
+      "sha256": "140da160013f83a906456050d7703c4626394a424b243badd27fe19e8185ad25",
+      "frames": 3864,
+      "picture_bitstream_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v4/chapters/singularity-final-mix-part-3.mp4",
+      "sha256": "7b6f435e9dc9434719f2b7a34850bb6de5740f902732cdf797090f99fbd1014e",
+      "frames": 2688,
+      "picture_bitstream_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v4/chapters/singularity-final-mix-part-4.mp4",
+      "sha256": "0a01f39629642de7a70e882492fd171af0b01276d2f80454407fcbd7c81e3e31",
+      "frames": 2487,
+      "picture_bitstream_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v4/chapters/singularity-final-mix-part-5.mp4",
+      "sha256": "b016f892ef422b7160c4469f775750bd859a2aaa9000711e00fa321f987f7467",
+      "frames": 4024,
+      "picture_bitstream_unchanged": true
+    }
+  ],
+  "youtube_copy": "docs/publishing/singularity/README.md",
+  "publishing_status": "draft_not_published",
+  "listening_review": "pending user; direct audio audition unavailable",
+  "animation_status": "No new animation pass is claimed; prior user feedback remains recorded."
+}

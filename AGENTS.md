@@ -28,6 +28,9 @@
 
 # Current animation delivery
 
+- **Current final audio request:** turn SFX up further, add purposeful effects in under-supported actions, and add music with scene-specific curious/eerie/tense/warm moods. Music must remain below narration and active focal SFX. Preserve all v3 picture/ending frames and the original Knox take; this is an audio-only revision under `assets/videos/singularity-v4/`. Reuse the imported Curio library and commit every newly composed music cue/stem with provenance. Write paste-ready YouTube upload metadata and Community post drafts under `docs/publishing/singularity/`; “write posts” authorizes drafting, not publishing to an account. No guarantee of view counts. The earlier full-animation review remains not passed; do not manufacture a new animation pass. Direct audio audition is still unavailable here; document level/sync checks accurately.
+
+
 - **Current correction: stronger SFX and a curiosity-led ending for the full singularity film.** The user said the v2 animation still does not pass; its hash-bound feedback is `docs/production/singularity/rebuild/user-review.json`. A broader animation study is deferred until the user supplies long-form references. Re-analyze the existing eight uploaded clips for audiovisual event timing, with clear limits: this runtime cannot directly audition audio, and stereo/spectral measurements do not isolate SFX from speech/music. Do not claim a listening audit. User explicitly selected **keep Knox; improve visuals and sound**. Preserve the original take and v2 file; version the revision under `assets/videos/singularity-v3/`, with source `src/SingularitySoundEnding.tsx`. Keep the rest of the picture/artwork intact. No titles or end-card labels. Provide room after the last spoken question and a visual payoff that leaves origin unknown rather than asserting a previous universe.
 
 
