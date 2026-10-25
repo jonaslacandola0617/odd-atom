@@ -28,6 +28,8 @@
 
 # Current animation delivery
 
+- **Latest audio correction:** The user still cannot hear v5 music and explicitly requests **80–90% of the SFX**. Target 85% of typical active SFX RMS amplitude, calibrated in simultaneous 200ms mono playback windows (SFX above −31dBFS). Raise the existing music with fixed gain and no additional ducking, retain Knox/SFX/atmosphere/picture, deliver versioned v6 audio and MP4. This ratio is a signal-level definition, not a perceived-loudness percentage. Preserve v5 as rejected audio-balance comparison and record the new feedback. No listening pass is implied by measurement.
+
 - **Current correction: music must be perceptibly present.** The user could not hear the v4 background score. Its score averaged about 25 dB below active narration and was excessively attenuated by quiet SFX tails. Reuse the nine original music source cues; raise the music bed, make its mono playback more reliable, and duck only around speech/prominent contacts with faster recovery. Preserve the exact v4 picture, existing SFX/atmosphere and original Knox timing. Version the corrected audio/video under `singularity-v5` and record presence as well as upper-level limits; passing only “music is quiet enough” is insufficient. Direct audio audition remains unavailable, so do not claim a listening pass.
 
 

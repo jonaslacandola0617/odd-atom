@@ -64,7 +64,10 @@
     "review:singularity-v4": "python scripts/review_singularity_v4.py",
     "sound:singularity-v5": "python scripts/singularity_v5_sound.py",
     "render:singularity-v5": "python scripts/render_singularity_v5.py",
-    "review:singularity-v5": "python scripts/review_singularity_v5.py"
+    "review:singularity-v5": "python scripts/review_singularity_v5.py",
+    "sound:singularity-v6": "python scripts/singularity_v6_sound.py",
+    "render:singularity-v6": "python scripts/render_singularity_v6.py",
+    "review:singularity-v6": "python scripts/review_singularity_v6.py"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

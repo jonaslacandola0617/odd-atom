@@ -1,5 +1,7 @@
 # Background-music presence correction
 
+**Superseded:** The user still could not hear this mix and requested music at 80–90% of SFX. Use the [v6 revision](../music-85-percent/README.md).
+
 [**Download the corrected full MP4**](https://github.com/jonaslacandola0617/odd-atom/raw/refs/heads/main/assets/videos/singularity-v5/singularity-music-forward.mp4) · [60-second mixed preview](../../../../assets/videos/singularity-v5/music-preview-60s.mp4) · [Music stem](../../../../public/assets/audio/singularity-v5/music.m4a)
 
 The user could not hear the background music in v4. The previous mix's upper-level checks did not establish useful music presence: it measured roughly 25 dB below active narration and was repeatedly held down by faint effect tails. That balance was too conservative.

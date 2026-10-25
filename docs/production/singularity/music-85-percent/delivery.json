@@ -1,0 +1,89 @@
+{
+  "file": "assets/videos/singularity-v6/singularity-music-85-percent.mp4",
+  "sha256": "820d2076fc489b23deea92fd83cc268421b82d50bfd65d0bea0af8abbaec85f0",
+  "bytes": 95387377,
+  "frames": 16459,
+  "seconds": 548.633333,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "entire_picture_bitstream_unchanged": true,
+  "effects_source_unchanged": true,
+  "voice_source_sha256": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a",
+  "voice_speed": 1,
+  "voice_pitch_shift": 0,
+  "voice_sync": [
+    {
+      "seconds": 0,
+      "lag_seconds": 0.0,
+      "correlation": 0.9421880230044578
+    },
+    {
+      "seconds": 100,
+      "lag_seconds": 0.0,
+      "correlation": 0.9440775074569171
+    },
+    {
+      "seconds": 250,
+      "lag_seconds": 0.0,
+      "correlation": 0.9448810941699707
+    },
+    {
+      "seconds": 400,
+      "lag_seconds": 0.0,
+      "correlation": 0.9556137695277435
+    },
+    {
+      "seconds": 520,
+      "lag_seconds": 0.0,
+      "correlation": 0.9337262327600897
+    }
+  ],
+  "full_decode": "passed",
+  "audio_peak_dbfs": -1.3,
+  "decoded_median_music_increase_db": 4.640931606292725,
+  "decoded_median_music_below_voice_db": 6.852046012878418,
+  "music_present_in_voiced_windows_percent": 100.0,
+  "definition_of_presence": "1s windows with active speech; music within 20dB of voice and above -40dBFS, checked after mono playback-band decoding",
+  "voice_above_music_percent": 92.14145383104125,
+  "prominent_sfx_above_music_percent": 76.44710578842316,
+  "median_prominent_sfx_above_music_db": 1.4175958633422852,
+  "higher_bitrate_chapters": [
+    {
+      "file": "assets/videos/singularity-v6/chapters/singularity-music-85-percent-part-1.mp4",
+      "sha256": "f3d9f0307fe8b647cc70dd667d54fa56c78ac64b58dbd8ff145b38acc779d7e7",
+      "frames": 3396,
+      "picture_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v6/chapters/singularity-music-85-percent-part-2.mp4",
+      "sha256": "7301fdd47005523f7cd1d40e8f2f57f220a5bce8d4a468f6d62b8e084c92b0f9",
+      "frames": 3864,
+      "picture_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v6/chapters/singularity-music-85-percent-part-3.mp4",
+      "sha256": "9fb485fff16d9855a3a229d4a4faaf03021042239f3685cba2ee022dc533e1b9",
+      "frames": 2688,
+      "picture_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v6/chapters/singularity-music-85-percent-part-4.mp4",
+      "sha256": "43e1a1162a4ce2d336f10cb94d6a786c55e77774c80e432b6f84734e4fe9a7ae",
+      "frames": 2487,
+      "picture_unchanged": true
+    },
+    {
+      "file": "assets/videos/singularity-v6/chapters/singularity-music-85-percent-part-5.mp4",
+      "sha256": "71da101bf8ab6cb2672e6650832caa2071a0ed7cb1cd65e7e8607845cee00ed7",
+      "frames": 4024,
+      "picture_unchanged": true
+    }
+  ],
+  "user_listening_status": "pending review; direct audio audition unavailable here",
+  "previous_v5_status": "User still could not hear music; requested 80\u201390% of SFX.",
+  "music_to_typical_active_sfx_rms_ratio": 0.8494155406951904,
+  "music_fixed_gain_over_v5_db": 4.6481258517706205,
+  "ratio_definition": "Median simultaneous music/SFX RMS amplitude ratio in 200ms mono 8kHz decoded windows with SFX above -31dBFS. Not a perceived-loudness percentage or UI slider value.",
+  "final_audio_bitstream_matches_mix": true
+}

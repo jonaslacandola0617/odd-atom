@@ -80,6 +80,6 @@
       "picture_unchanged": true
     }
   ],
-  "user_listening_status": "pending review; direct audio audition unavailable here",
+  "user_listening_status": "User still cannot hear music; asks for 80\u201390% of SFX. Superseded by v6.",
   "previous_v4_status": "User could not hear background music; quiet-enough checks were insufficient."
 }
