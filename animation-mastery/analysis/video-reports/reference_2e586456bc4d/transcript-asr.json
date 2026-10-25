@@ -1,0 +1,1272 @@
+{
+  "video_id": "reference_2e586456bc4d",
+  "source_sha256": "2e586456bc4d4ca199b2541ad285c51f342110d1d30029e3d2b141b30ff0fa74",
+  "engine": "cached Sherpa-ONNX / Whisper base.en int8 CPU",
+  "model_sha256": {
+    "base.en-encoder.int8.onnx": "ef6b936f4c9b1d90a3b68634b60c4ed8576b26172b33c2535ec0e933c9edb823",
+    "base.en-decoder.int8.onnx": "f7162ad6db2dbef16cfaeaa7f945b9d7dd9c1b8d472f6aca82f2273d185e4d41",
+    "base.en-tokens.txt": "306cd27f03c1a714eca7108e03d66b7dc042abe8c258b44c199a7ed9838dd930"
+  },
+  "duration_seconds": 680.4608125,
+  "chunks": [
+    {
+      "index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 25.0,
+      "text": "Trees are the heaviest and largest living things on Earth, with the most massive tree weighing almost 2,000 tons, as much as 10 blue whales. But instead of floating weightlessly in the ocean, it reaches 25 stories into the sky, held in place by surprisingly shallow roots. You'd think trees grow from the ground, because, well, they're made of stuff and they're stuffed in the ground.",
+      "processing_seconds": 7.827365150000105
+    },
+    {
+      "index": 1,
+      "start_seconds": 25.0,
+      "end_seconds": 50.0,
+      "text": "If something so massive and huge ate something down below, it would have to leave holes. Instead, trees are growing by literally eating thin air. But this is only half of the story, because down in the ground, roots are mining rocks in ways whirder than you can imagine. How does this work? How to eat air to grow huge. Carbon is the most valuable material for living things.",
+      "processing_seconds": 8.073840003000214
+    },
+    {
+      "index": 2,
+      "start_seconds": 50.0,
+      "end_seconds": 75.0,
+      "text": "A chemical multi-tool you can make almost everything from, and a good amount of it just floats around in the air and the oceans. What makes plants so incredibly successful is that over a billion years ago, their ancestors became better than any other living thing at harvesting carbon. They used it to grow and grow and grow. Today, plants make up 80% of the biomass on earth and are the basis of the earth.",
+      "processing_seconds": 8.893258161999938
+    },
+    {
+      "index": 3,
+      "start_seconds": 75.0,
+      "end_seconds": 100.0,
+      "text": "for all complex life. All animals eat either plants or animals that eat plants to get the carbon they need. Trees are an especially ingenious way plants found to harvest massive amounts of carbon. Trees are big and heavy, so they need a lot of material, but the atmosphere is only about 0.04% CO2, 425 CO2 molecules per million.",
+      "processing_seconds": 8.107969596999965
+    },
+    {
+      "index": 4,
+      "start_seconds": 100.0,
+      "end_seconds": 125.0,
+      "text": "and molecules in the air. To get a single ton of carbon, a tree has to process 6,000 tons or 5 million cubic meters of air. This is a lot. So trees developed sophisticated biological industrial megalopiluses. They're crowns. A huge industrial part network made from dozens of branches, sub-branches and hundreds of thousands of",
+      "processing_seconds": 9.42554301400014
+    },
+    {
+      "index": 5,
+      "start_seconds": 125.0,
+      "end_seconds": 150.0,
+      "text": "twigs that consense the sun and shape the tree to grow toward it in slow motion. They're carrying up to a million leaves, the industrial parks where a tree eats and builds, consuming extreme amounts of resources from the air and fed by the roots down below, while vomiting waste and changing the climate around them. Let's zoom into a single leaf. It's made from hundreds of millions of factories.",
+      "processing_seconds": 8.069895201999998
+    },
+    {
+      "index": 6,
+      "start_seconds": 150.0,
+      "end_seconds": 175.0,
+      "text": "cells and optimize to have as much surface area and be as thin as possible to harvest sunlight. While your skin is hundreds of cells thick, a leaf can be just 10 cells top to bottom. On their top leaves have only a single ultra thin layer of protective transparent skin cells that let light through and keep water in. Below the malaise of factory cells, filled to the brink with chloroplasts,",
+      "processing_seconds": 9.217772134999905
+    },
+    {
+      "index": 7,
+      "start_seconds": 175.0,
+      "end_seconds": 200.0,
+      "text": "that do the actual work. Beneath them, a spongy layer of loose cells enables gases to travel around. The whole leaf is traversed by a network of vein-like superhighways that carry sugars back down and bring water and minerals up from the roots. At the bottom is another protective layer of cells, interrupted by hundreds of thousands of stomata, tiny mouths opened and closed by two guard cells that",
+      "processing_seconds": 15.38145687899987
+    },
+    {
+      "index": 8,
+      "start_seconds": 200.0,
+      "end_seconds": 225.0,
+      "text": "a bit like lips. Each day an adult tree pulls up dozens of liters of water all the way from its roots and the ground to these veins, where about 95% of it is sweated out through hundreds of billions of these tiny mouths. This calls the leaf factories which need to stay in direct sunlight as long as possible and the air around the tree, and it surrounds the tree with an invisible mist. The vapor from a forest of billions of",
+      "processing_seconds": 20.796931410999832
+    },
+    {
+      "index": 9,
+      "start_seconds": 225.0,
+      "end_seconds": 250.0,
+      "text": "trees can seed clouds and create rain. Rainforest is literal. Without the trees, the Amazon would be a sad, dry shrubland or desert. The other 5% of the water is used to keep the cells alive and to power the factories where the magic happens, photosynthesis. We're not going to explain the details here, but in a nutshell, with the energy from the sun, water molecules are",
+      "processing_seconds": 15.028927435000014
+    },
+    {
+      "index": 10,
+      "start_seconds": 250.0,
+      "end_seconds": 275.0,
+      "text": "split into hydrogen and oxygen. The oxygen is ejected while the leftover hydrogen and CO2 are forged and reduced into glucose, a simple sugar that's both battery and building block, and the source of most carbon in the world for most animals. Oxygen is not just garbage to the tree though. To actually use the energy stored in the glucose, the tree",
+      "processing_seconds": 15.025752842999964
+    },
+    {
+      "index": 11,
+      "start_seconds": 275.0,
+      "end_seconds": 300.0,
+      "text": "just like we humans do with cellular respiration. So, all living cells in the tree suck in oxygen through the tiny leaf mouths, cracks in the bark, and even root tips tapping into tiny air pockets hidden in the soil. This respiration runs non-stop, and especially at night when the leaf factories stop production. Trees actually reabsorb some of the oxygen they produce and almost all of the rest.",
+      "processing_seconds": 14.994550002999858
+    },
+    {
+      "index": 12,
+      "start_seconds": 300.0,
+      "end_seconds": 325.0,
+      "text": "gets used up by microbes and everything else breathing nearby. Most of the world's free oxygen doesn't come from trees but from algae and cyanobacteria in the oceans. But this is only half of the story because the even more insane parts of trees are the second invisible crown, the underground empire of the roots. Most of the water a tree needs",
+      "processing_seconds": 11.324243516000024
+    },
+    {
+      "index": 13,
+      "start_seconds": 325.0,
+      "end_seconds": 350.0,
+      "text": "into the upper layers of soil. Annoyingly for trees, their crowns are big umbrellas, so their roots need to spread out far and wide towards the side. About 50% of their roots are packed into the top 25cm of soil. They're not a mirror image of the crown, but a dense, tangled mat deeply intermingled with their neighbours. Only if it's very dry, the roots grow straight down to tap hidden water reserves. In extreme cases,",
+      "processing_seconds": 18.18539050199979
+    },
+    {
+      "index": 14,
+      "start_seconds": 350.0,
+      "end_seconds": 375.0,
+      "text": "This is more than 20 storeys deep, but this is a rare exception. Most routes reach down 7m. But routes have a far more complex job than just catching water. Just like you can't build a city from only bricks and steel, trees also need some rare materials, phosphorus to build DNA, nitrogen for proteins and many more. And all of these are stealthily buried underground. Rocks, dry packs, etc.",
+      "processing_seconds": 12.256588518999934
+    },
+    {
+      "index": 15,
+      "start_seconds": 375.0,
+      "end_seconds": 400.0,
+      "text": "which is nutrients and rival roots are all scattered unpredictably and chaotically. To navigate the shifting maze, roots evolved a specialized sensor at their very tip, the root cap. Each cap is filled with gravity sensing cells, in which tiny dense particles sink like pebbles settling in a jar of water. So the root always knows which way is down. As it pushes forward, specialized cells detect the difference.",
+      "processing_seconds": 8.35525415699999
+    },
+    {
+      "index": 16,
+      "start_seconds": 400.0,
+      "end_seconds": 425.0,
+      "text": "protect moisture, temperature, chemical gradients and the smallest vibrations from water. This raw data flows into the roots command center just behind the tip, where cells produce electrical pulses and move transmitter chemicals around. Signals from the soil are processed, interpreted and turned into decisions about where to grow. A single tree has hundreds of thousands of these command centers and they seem to share",
+      "processing_seconds": 9.842737479999869
+    },
+    {
+      "index": 17,
+      "start_seconds": 425.0,
+      "end_seconds": 450.0,
+      "text": "with each other. Once a root has chosen the path, fuzzy little drinking straws called root hairs, loaded with enzymes and transport proteins, begin soaking up water and dissolved minerals. But many essential nutrients are locked away in solid rock, so roots evolved to move into the finest cracks. Once in, they fill with water and swell like tiny hydraulic jacks, creating enough pressure to break.",
+      "processing_seconds": 10.74498056099992
+    },
+    {
+      "index": 18,
+      "start_seconds": 450.0,
+      "end_seconds": 475.0,
+      "text": "even the hardest rock. Next they release a mix of acids that seep into the fractures and dissolve the bonds that hold nutrients in place. Claw-like molecules grab them and pull them in before they can slip away. This sophistication ready is stunning but it gets even wilder, even with all these tools, to really thrive the tree needs allies. And it found them. Fun guy.",
+      "processing_seconds": 11.03735879199985
+    },
+    {
+      "index": 19,
+      "start_seconds": 475.0,
+      "end_seconds": 500.0,
+      "text": "The underground networks of fungi can stretch for kilometers. They're so small that they can go where roots can't, slipping between grains of soil to reach distant pockets of nutrients. But they need food. So hundreds of millions of years ago, roots and fungi formed a trade alliance. The trees provide a cut of the sugars they produce far up in the sky, and fungi collect and give them nutrients and water.",
+      "processing_seconds": 7.074499399999922
+    },
+    {
+      "index": 20,
+      "start_seconds": 500.0,
+      "end_seconds": 525.0,
+      "text": "in return. Some fungi grow directly into the root cells, building tiny trade posts where sugars and minerals change hands. Others wrap themselves around root tips, weaving between their outer layers, insulating delicate tissues and protecting them against microorganisms. Today, there are thousands of fungal tree ally species, each with its own specialities. Some only partner with the other.",
+      "processing_seconds": 7.0332841029999145
+    },
+    {
+      "index": 21,
+      "start_seconds": 525.0,
+      "end_seconds": 550.0,
+      "text": "with specific tree species, while others are happy to work with almost anyone. These connections often knit the roots of many trees together into vast underground networks. Their scale is gigantic. In just one cubic metre of healthy forest floor, fine tree roots can stretch for several kilometres, and for every kilometre of root, there can be hundreds of kilometres of fungal networks. It's one of the largest trees in the world.",
+      "processing_seconds": 11.04409742100006
+    },
+    {
+      "index": 22,
+      "start_seconds": 550.0,
+      "end_seconds": 575.0,
+      "text": "to and most intricate living structures on Earth, and may even connect whole forests. We're only beginning to understand how complex and intricate the relationships between trees, their offspring, relatives and rivals, microbes and fungal networks are. But the more we've learned over the last few decades, the clearer one thing has become. Trees are just so incredibly warm.",
+      "processing_seconds": 9.578255442
+    },
+    {
+      "index": 23,
+      "start_seconds": 575.0,
+      "end_seconds": 600.0,
+      "text": "wild, and we have so much more to learn.",
+      "processing_seconds": 2.9484243320000587
+    },
+    {
+      "index": 24,
+      "start_seconds": 600.0,
+      "end_seconds": 625.0,
+      "text": "for free with Brilliant. Brilliant helps you excel in maths, science and computer science through visual interactive learning that's personalized for you. And as you master new concepts, you'll also become a better thinker and problem solver and start seeing the world in a whole new way. Brilliant is designed to be highly effective. You learn by doing a method shown to be formal power for them passive learning.",
+      "processing_seconds": 8.216682205000097
+    },
+    {
+      "index": 25,
+      "start_seconds": 625.0,
+      "end_seconds": 650.0,
+      "text": "It also tailors your experience, starting you at the right level, customizing your practice sets and reviews and helping you advance at your ideal pace. Whether you're mastering fundamental maths, algebra or calculus, diving into algorithms or exploring everyday physics, Brilliant will help you reach big learning goals, and give you the skills to make breakthroughs of your own. To explore everything Brilliant has to offer for free for a full 30-day experience.",
+      "processing_seconds": 9.017032312000083
+    },
+    {
+      "index": 26,
+      "start_seconds": 650.0,
+      "end_seconds": 675.0,
+      "text": "days, go to brilliant.org/nutshell, scan the QR code on the screen, or click on the link in the description. Brilliant's also given our viewers 20% off an annual premium subscription, which gives you unlimited daily access to everything on Brilliant.",
+      "processing_seconds": 6.610792535000201
+    },
+    {
+      "index": 27,
+      "start_seconds": 675.0,
+      "end_seconds": 680.4608125,
+      "text": "(dramatic music)",
+      "processing_seconds": 1.3945222459999513
+    }
+  ],
+  "segments": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 4.0,
+      "text": "Trees are the heaviest and largest living things on Earth,",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 4.0,
+      "end_seconds": 8.0,
+      "text": "with the most massive tree weighing almost 2,000 tons,",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 8.0,
+      "end_seconds": 10.0,
+      "text": "as much as 10 blue whales.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 10.0,
+      "end_seconds": 13.0,
+      "text": "But instead of floating weightlessly in the ocean,",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 13.0,
+      "end_seconds": 19.0,
+      "text": "it reaches 25 stories into the sky, held in place by surprisingly shallow roots.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 19.0,
+      "end_seconds": 23.0,
+      "text": "You'd think trees grow from the ground, because, well, they're made of stuff",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 23.0,
+      "end_seconds": 25.0,
+      "text": "and they're stuffed in the ground.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 25.0,
+      "end_seconds": 30.0,
+      "text": "If something so massive and huge ate something down below, it would have to leave holes.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 30.0,
+      "end_seconds": 35.0,
+      "text": "Instead, trees are growing by literally eating thin air.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 35.0,
+      "end_seconds": 40.179999351501465,
+      "text": "But this is only half of the story, because down in the ground, roots are mining rocks in ways",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 40.179999351501465,
+      "end_seconds": 42.0,
+      "text": "whirder than you can imagine.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 42.0,
+      "end_seconds": 44.0,
+      "text": "How does this work?",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 44.0,
+      "end_seconds": 47.0,
+      "text": "How to eat air to grow huge.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 47.0,
+      "end_seconds": 50.0,
+      "text": "Carbon is the most valuable material for living things.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 50.0,
+      "end_seconds": 57.0,
+      "text": "A chemical multi-tool you can make almost everything from, and a good amount of it just floats around in the air and the oceans.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 57.0,
+      "end_seconds": 67.0,
+      "text": "What makes plants so incredibly successful is that over a billion years ago, their ancestors became better than any other living thing at harvesting carbon.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 67.0,
+      "end_seconds": 70.0,
+      "text": "They used it to grow and grow and grow.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 70.0,
+      "end_seconds": 75.0,
+      "text": "Today, plants make up 80% of the biomass on earth and are the basis of the earth.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 75.0,
+      "end_seconds": 80.83999967575073,
+      "text": "for all complex life. All animals eat either plants or animals that eat plants to get the",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 80.83999967575073,
+      "end_seconds": 87.19999980926514,
+      "text": "carbon they need. Trees are an especially ingenious way plants found to harvest massive",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 87.19999980926514,
+      "end_seconds": 93.71999931335449,
+      "text": "amounts of carbon. Trees are big and heavy, so they need a lot of material, but the atmosphere",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 93.71999931335449,
+      "end_seconds": 100.0,
+      "text": "is only about 0.04% CO2, 425 CO2 molecules per million.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 100.0,
+      "end_seconds": 102.0,
+      "text": "and molecules in the air.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 102.0,
+      "end_seconds": 108.27999973297119,
+      "text": "To get a single ton of carbon, a tree has to process 6,000 tons or 5 million cubic",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 108.27999973297119,
+      "end_seconds": 110.07999992370605,
+      "text": "meters of air.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 110.07999992370605,
+      "end_seconds": 111.71999931335449,
+      "text": "This is a lot.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 111.71999931335449,
+      "end_seconds": 116.71999931335449,
+      "text": "So trees developed sophisticated biological industrial megalopiluses.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 116.71999931335449,
+      "end_seconds": 118.35999870300293,
+      "text": "They're crowns.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 118.35999870300293,
+      "end_seconds": 124.35999870300293,
+      "text": "A huge industrial part network made from dozens of branches, sub-branches and hundreds",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 124.35999870300293,
+      "end_seconds": 124.35999870300293,
+      "text": "of thousands of",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 125.0,
+      "end_seconds": 130.40000009536743,
+      "text": "twigs that consense the sun and shape the tree to grow toward it in slow motion.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 130.40000009536743,
+      "end_seconds": 135.4399995803833,
+      "text": "They're carrying up to a million leaves, the industrial parks where a tree eats and",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 135.4399995803833,
+      "end_seconds": 141.23999977111816,
+      "text": "builds, consuming extreme amounts of resources from the air and fed by the roots down below,",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 141.23999977111816,
+      "end_seconds": 145.07999992370605,
+      "text": "while vomiting waste and changing the climate around them.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 145.07999992370605,
+      "end_seconds": 147.47999954223633,
+      "text": "Let's zoom into a single leaf.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 147.47999954223633,
+      "end_seconds": 150.0,
+      "text": "It's made from hundreds of millions of factories.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 150.0,
+      "end_seconds": 155.55999994277954,
+      "text": "cells and optimize to have as much surface area and be as thin as possible to harvest",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 155.55999994277954,
+      "end_seconds": 156.55999994277954,
+      "text": "sunlight.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 156.55999994277954,
+      "end_seconds": 162.55999946594238,
+      "text": "While your skin is hundreds of cells thick, a leaf can be just 10 cells top to bottom.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 162.55999946594238,
+      "end_seconds": 167.60000038146973,
+      "text": "On their top leaves have only a single ultra thin layer of protective transparent skin",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 167.60000038146973,
+      "end_seconds": 171.07999992370605,
+      "text": "cells that let light through and keep water in.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 171.07999992370605,
+      "end_seconds": 174.92000007629395,
+      "text": "Below the malaise of factory cells, filled to the brink with chloroplasts,",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 175.0,
+      "end_seconds": 176.91999995708466,
+      "text": "that do the actual work.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 176.91999995708466,
+      "end_seconds": 179.79999959468842,
+      "text": "Beneath them, a spongy layer of loose cells",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 179.7999997138977,
+      "end_seconds": 182.11999988555908,
+      "text": "enables gases to travel around.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 182.11999988555908,
+      "end_seconds": 185.88000011444092,
+      "text": "The whole leaf is traversed by a network of vein-like superhighways",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 185.88000011444092,
+      "end_seconds": 190.83999919891357,
+      "text": "that carry sugars back down and bring water and minerals up from the roots.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 190.83999919891357,
+      "end_seconds": 193.39999961853027,
+      "text": "At the bottom is another protective layer of cells,",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 193.39999961853027,
+      "end_seconds": 196.43999862670898,
+      "text": "interrupted by hundreds of thousands of stomata,",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 196.43999862670898,
+      "end_seconds": 199.8799991607666,
+      "text": "tiny mouths opened and closed by two guard cells that",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 200.0,
+      "end_seconds": 205.67999982833862,
+      "text": "a bit like lips. Each day an adult tree pulls up dozens of liters of water all the way from",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 205.67999982833862,
+      "end_seconds": 210.4399995803833,
+      "text": "its roots and the ground to these veins, where about 95% of it is sweated out through",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 210.4399995803833,
+      "end_seconds": 215.4399995803833,
+      "text": "hundreds of billions of these tiny mouths. This calls the leaf factories which need to",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 215.4399995803833,
+      "end_seconds": 220.60000038146973,
+      "text": "stay in direct sunlight as long as possible and the air around the tree, and it surrounds",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 220.60000038146973,
+      "end_seconds": 224.95999908447266,
+      "text": "the tree with an invisible mist. The vapor from a forest of billions of",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 225.0,
+      "end_seconds": 233.0,
+      "text": "trees can seed clouds and create rain. Rainforest is literal. Without the trees, the Amazon would",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 233.0,
+      "end_seconds": 240.11999988555908,
+      "text": "be a sad, dry shrubland or desert. The other 5% of the water is used to keep the cells alive",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 240.11999988555908,
+      "end_seconds": 245.23999977111816,
+      "text": "and to power the factories where the magic happens, photosynthesis. We're not going to explain",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 245.23999977111816,
+      "end_seconds": 249.8799991607666,
+      "text": "the details here, but in a nutshell, with the energy from the sun, water molecules are",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 250.0,
+      "end_seconds": 255.55999994277954,
+      "text": "split into hydrogen and oxygen. The oxygen is ejected while the leftover hydrogen and",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 255.55999994277954,
+      "end_seconds": 261.92000007629395,
+      "text": "CO2 are forged and reduced into glucose, a simple sugar that's both battery and building",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 261.92000007629395,
+      "end_seconds": 268.92000007629395,
+      "text": "block, and the source of most carbon in the world for most animals. Oxygen is not just",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 268.92000007629395,
+      "end_seconds": 273.6000003814697,
+      "text": "garbage to the tree though. To actually use the energy stored in the glucose, the tree",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 275.0,
+      "end_seconds": 278.19999980926514,
+      "text": "just like we humans do with cellular respiration.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 278.19999980926514,
+      "end_seconds": 284.1199998855591,
+      "text": "So, all living cells in the tree suck in oxygen through the tiny leaf mouths, cracks in the bark,",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 284.1199998855591,
+      "end_seconds": 287.960000038147,
+      "text": "and even root tips tapping into tiny air pockets hidden in the soil.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 288.5999994277954,
+      "end_seconds": 294.6800003051758,
+      "text": "This respiration runs non-stop, and especially at night when the leaf factories stop production.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 295.4799995422363,
+      "end_seconds": 300.0,
+      "text": "Trees actually reabsorb some of the oxygen they produce and almost all of the rest.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 300.0,
+      "end_seconds": 305.35999965667725,
+      "text": "gets used up by microbes and everything else breathing nearby. Most of the world's free",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 305.35999965667725,
+      "end_seconds": 311.3199996948242,
+      "text": "oxygen doesn't come from trees but from algae and cyanobacteria in the oceans. But",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 311.3199996948242,
+      "end_seconds": 316.5599994659424,
+      "text": "this is only half of the story because the even more insane parts of trees are the second",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 316.5599994659424,
+      "end_seconds": 322.8799991607666,
+      "text": "invisible crown, the underground empire of the roots. Most of the water a tree needs",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 325.0,
+      "end_seconds": 330.1199998855591,
+      "text": "into the upper layers of soil. Annoyingly for trees, their crowns are big umbrellas,",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 330.1199998855591,
+      "end_seconds": 335.3999996185303,
+      "text": "so their roots need to spread out far and wide towards the side. About 50% of their roots are",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 335.3999996185303,
+      "end_seconds": 341.07999992370605,
+      "text": "packed into the top 25cm of soil. They're not a mirror image of the crown, but a dense,",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 341.07999992370605,
+      "end_seconds": 346.0399990081787,
+      "text": "tangled mat deeply intermingled with their neighbours. Only if it's very dry,",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 346.0399990081787,
+      "end_seconds": 350.0,
+      "text": "the roots grow straight down to tap hidden water reserves. In extreme cases,",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 350.0,
+      "end_seconds": 354.6799998283386,
+      "text": "This is more than 20 storeys deep, but this is a rare exception.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 354.6799998283386,
+      "end_seconds": 357.35999965667725,
+      "text": "Most routes reach down 7m.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 357.35999965667725,
+      "end_seconds": 361.07999992370605,
+      "text": "But routes have a far more complex job than just catching water.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 361.07999992370605,
+      "end_seconds": 365.2799997329712,
+      "text": "Just like you can't build a city from only bricks and steel, trees also need some rare",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 365.2799997329712,
+      "end_seconds": 370.79999923706055,
+      "text": "materials, phosphorus to build DNA, nitrogen for proteins and many more.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 370.79999923706055,
+      "end_seconds": 373.8799991607666,
+      "text": "And all of these are stealthily buried underground.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 373.8799991607666,
+      "end_seconds": 375.0,
+      "text": "Rocks, dry packs, etc.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 375.0,
+      "end_seconds": 380.07999992370605,
+      "text": "which is nutrients and rival roots are all scattered unpredictably and chaotically.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 380.07999992370605,
+      "end_seconds": 385.5599994659424,
+      "text": "To navigate the shifting maze, roots evolved a specialized sensor at their very tip, the",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 385.5599994659424,
+      "end_seconds": 386.960000038147,
+      "text": "root cap.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 386.960000038147,
+      "end_seconds": 392.63999938964844,
+      "text": "Each cap is filled with gravity sensing cells, in which tiny dense particles sink like pebbles",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 392.63999938964844,
+      "end_seconds": 394.79999923706055,
+      "text": "settling in a jar of water.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 394.79999923706055,
+      "end_seconds": 397.5599994659424,
+      "text": "So the root always knows which way is down.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 397.5599994659424,
+      "end_seconds": 400.0,
+      "text": "As it pushes forward, specialized cells detect the difference.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 400.0,
+      "end_seconds": 405.71999979019165,
+      "text": "protect moisture, temperature, chemical gradients and the smallest vibrations from water.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 405.71999979019165,
+      "end_seconds": 410.4799995422363,
+      "text": "This raw data flows into the roots command center just behind the tip, where cells produce",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 410.4799995422363,
+      "end_seconds": 414.79999923706055,
+      "text": "electrical pulses and move transmitter chemicals around.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 414.79999923706055,
+      "end_seconds": 419.35999870300293,
+      "text": "Signals from the soil are processed, interpreted and turned into decisions about where to",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 419.35999870300293,
+      "end_seconds": 420.35999870300293,
+      "text": "grow.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 420.35999870300293,
+      "end_seconds": 424.7199993133545,
+      "text": "A single tree has hundreds of thousands of these command centers and they seem to share",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 425.0,
+      "end_seconds": 429.7999997138977,
+      "text": "with each other. Once a root has chosen the path, fuzzy little drinking straws",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 429.7999997138977,
+      "end_seconds": 434.67999935150146,
+      "text": "called root hairs, loaded with enzymes and transport proteins, begin soaking up",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 434.67999935150146,
+      "end_seconds": 439.8399991989136,
+      "text": "water and dissolved minerals. But many essential nutrients are locked away in",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 439.8399991989136,
+      "end_seconds": 445.7199993133545,
+      "text": "solid rock, so roots evolved to move into the finest cracks. Once in, they fill with",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 445.7199993133545,
+      "end_seconds": 450.0,
+      "text": "water and swell like tiny hydraulic jacks, creating enough pressure to break.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 450.0,
+      "end_seconds": 451.91999995708466,
+      "text": "even the hardest rock.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 451.91999995708466,
+      "end_seconds": 456.5999997854233,
+      "text": "Next they release a mix of acids that seep into the fractures and dissolve the bonds that",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 456.59999990463257,
+      "end_seconds": 458.7200002670288,
+      "text": "hold nutrients in place.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 458.7200002670288,
+      "end_seconds": 462.960000038147,
+      "text": "Claw-like molecules grab them and pull them in before they can slip away.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 462.960000038147,
+      "end_seconds": 469.07999992370605,
+      "text": "This sophistication ready is stunning but it gets even wilder, even with all these tools,",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 469.07999992370605,
+      "end_seconds": 472.63999938964844,
+      "text": "to really thrive the tree needs allies.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 472.63999938964844,
+      "end_seconds": 474.2799987792969,
+      "text": "And it found them.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 474.2799987792969,
+      "end_seconds": 474.79999923706055,
+      "text": "Fun guy.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 475.0,
+      "end_seconds": 479.0,
+      "text": "The underground networks of fungi can stretch for kilometers.",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 479.0,
+      "end_seconds": 485.0,
+      "text": "They're so small that they can go where roots can't, slipping between grains of soil to reach distant pockets of nutrients.",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 485.0,
+      "end_seconds": 487.0,
+      "text": "But they need food.",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 487.0,
+      "end_seconds": 492.0,
+      "text": "So hundreds of millions of years ago, roots and fungi formed a trade alliance.",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 492.0,
+      "end_seconds": 496.0,
+      "text": "The trees provide a cut of the sugars they produce far up in the sky,",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 496.0,
+      "end_seconds": 500.0,
+      "text": "and fungi collect and give them nutrients and water.",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 500.0,
+      "end_seconds": 506.07999992370605,
+      "text": "in return. Some fungi grow directly into the root cells, building tiny trade posts",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 506.07999992370605,
+      "end_seconds": 511.4399995803833,
+      "text": "where sugars and minerals change hands. Others wrap themselves around root tips, weaving",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 511.4399995803833,
+      "end_seconds": 517.2799987792969,
+      "text": "between their outer layers, insulating delicate tissues and protecting them against microorganisms.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 517.920000076294,
+      "end_seconds": 523.1199989318848,
+      "text": "Today, there are thousands of fungal tree ally species, each with its own specialities.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 523.7600002288818,
+      "end_seconds": 525.0,
+      "text": "Some only partner with the other.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 525.0,
+      "end_seconds": 529.7599997520447,
+      "text": "with specific tree species, while others are happy to work with almost anyone.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 529.7599997520447,
+      "end_seconds": 535.5999994277954,
+      "text": "These connections often knit the roots of many trees together into vast underground networks.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 535.5999994277954,
+      "end_seconds": 537.8400001525879,
+      "text": "Their scale is gigantic.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 537.8400001525879,
+      "end_seconds": 542.3999996185303,
+      "text": "In just one cubic metre of healthy forest floor, fine tree roots can stretch for several",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 542.3999996185303,
+      "end_seconds": 549.0,
+      "text": "kilometres, and for every kilometre of root, there can be hundreds of kilometres of fungal networks.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 549.0,
+      "end_seconds": 550.0,
+      "text": "It's one of the largest trees in the world.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 550.0,
+      "end_seconds": 556.7999997138977,
+      "text": "to and most intricate living structures on Earth, and may even connect whole forests.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 556.7999997138977,
+      "end_seconds": 562.079999923706,
+      "text": "We're only beginning to understand how complex and intricate the relationships between trees,",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 562.079999923706,
+      "end_seconds": 567.079999923706,
+      "text": "their offspring, relatives and rivals, microbes and fungal networks are.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 567.079999923706,
+      "end_seconds": 572.8799991607666,
+      "text": "But the more we've learned over the last few decades, the clearer one thing has become.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 572.8799991607666,
+      "end_seconds": 575.0,
+      "text": "Trees are just so incredibly warm.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 575.0,
+      "end_seconds": 580.0,
+      "text": "wild, and we have so much more to learn.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 600.0,
+      "end_seconds": 602.2799999713898,
+      "text": "for free with Brilliant.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 602.2799999713898,
+      "end_seconds": 607.559999704361,
+      "text": "Brilliant helps you excel in maths, science and computer science through visual interactive",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 607.5599999427795,
+      "end_seconds": 610.3599996566772,
+      "text": "learning that's personalized for you.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 610.3599996566772,
+      "end_seconds": 614.920000076294,
+      "text": "And as you master new concepts, you'll also become a better thinker and problem solver",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 614.920000076294,
+      "end_seconds": 618.3999996185303,
+      "text": "and start seeing the world in a whole new way.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 618.3999996185303,
+      "end_seconds": 620.4799995422363,
+      "text": "Brilliant is designed to be highly effective.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 620.4799995422363,
+      "end_seconds": 624.5599994659424,
+      "text": "You learn by doing a method shown to be formal power for them passive learning.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 625.0,
+      "end_seconds": 629.6799998283386,
+      "text": "It also tailors your experience, starting you at the right level, customizing your practice",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 629.6799998283386,
+      "end_seconds": 633.6799993515015,
+      "text": "sets and reviews and helping you advance at your ideal pace.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 633.6799993515015,
+      "end_seconds": 638.2399997711182,
+      "text": "Whether you're mastering fundamental maths, algebra or calculus, diving into algorithms",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 638.2399997711182,
+      "end_seconds": 643.3599987030029,
+      "text": "or exploring everyday physics, Brilliant will help you reach big learning goals, and",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 643.3599987030029,
+      "end_seconds": 647.0399990081787,
+      "text": "give you the skills to make breakthroughs of your own.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 647.0399990081787,
+      "end_seconds": 650.0,
+      "text": "To explore everything Brilliant has to offer for free for a full 30-day experience.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 650.0,
+      "end_seconds": 655.2799997329712,
+      "text": "days, go to brilliant.org/nutshell, scan the QR code on the screen, or click on the link",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 655.2799997329712,
+      "end_seconds": 656.8399996757507,
+      "text": "in the description.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 656.8399996757507,
+      "end_seconds": 661.3400001525879,
+      "text": "Brilliant's also given our viewers 20% off an annual premium subscription, which gives",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 661.3400001525879,
+      "end_seconds": 664.3400001525879,
+      "text": "you unlimited daily access to everything on Brilliant.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 675.0,
+      "end_seconds": 677.7400000095367,
+      "text": "(dramatic music)",
+      "chunk": 27,
+      "verified": false
+    }
+  ],
+  "status": "complete_unverified",
+  "review_status": "unverified_machine_recognition",
+  "limitations": "ASR can mishear names, invent words or misplace segment timing. Fixed 25s chunk boundaries can split words. Segment times are estimates, not exact word alignment. Direct audition is unavailable; this is not a listening review.",
+  "voice_generation_requests": 0
+}

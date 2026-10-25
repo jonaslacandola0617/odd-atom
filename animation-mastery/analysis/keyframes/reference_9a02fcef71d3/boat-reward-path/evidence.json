@@ -1,0 +1,744 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "name": "boat-reward-path",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 12300,
+  "end_frame": 12420,
+  "end_frame_exclusive": true,
+  "source_start_pts": 205.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 12300,
+      "pts_seconds": 205.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000000.png",
+      "sha256": "9d88f8499e06df08cd8815c85f7f33056f8feb241ecda35cc14cfa220104dfb0"
+    },
+    {
+      "frame_index": 12301,
+      "pts_seconds": 205.01666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000001.png",
+      "sha256": "d4d5f43bc6731c9d3326e015720766e16aef77a04cf9fc00309c880538ebde90"
+    },
+    {
+      "frame_index": 12302,
+      "pts_seconds": 205.03333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000002.png",
+      "sha256": "0fed7606a67947982020f6580f86e2f5310ee89ae56513c910951bf3c61211a8"
+    },
+    {
+      "frame_index": 12303,
+      "pts_seconds": 205.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000003.png",
+      "sha256": "52992b82257a314c44091bcf9c73a1f64872e7532580b812acf7e55c1d6fe02a"
+    },
+    {
+      "frame_index": 12304,
+      "pts_seconds": 205.06666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000004.png",
+      "sha256": "0cadd2c365c5353cf155e8eadbb5cd0fef30e6091bae3e1266f523022720a52e"
+    },
+    {
+      "frame_index": 12305,
+      "pts_seconds": 205.08333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000005.png",
+      "sha256": "de75b731a89e32cccdc9ee2cbae826ab07c89df420dcd853afdf0cfac6d01271"
+    },
+    {
+      "frame_index": 12306,
+      "pts_seconds": 205.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000006.png",
+      "sha256": "298be2356e73a1fb72564b4b3a60484188480886289d761101ac4fe30e15999e"
+    },
+    {
+      "frame_index": 12307,
+      "pts_seconds": 205.11666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000007.png",
+      "sha256": "de230ffdb7ffe798f6571ec6b9fa49a88ad623d3e7145a69bd34b1ed344a1722"
+    },
+    {
+      "frame_index": 12308,
+      "pts_seconds": 205.13333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000008.png",
+      "sha256": "302e64b4a61b63cc06674da7ac945aeec28f1b3251646d54bb48812aeb1f26cf"
+    },
+    {
+      "frame_index": 12309,
+      "pts_seconds": 205.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000009.png",
+      "sha256": "8361d59b815b4fc4fc791748859a545bbfee6a9efe2a5ceeb88ca3032939a9d5"
+    },
+    {
+      "frame_index": 12310,
+      "pts_seconds": 205.16666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000010.png",
+      "sha256": "2e827a98209a805c3811a428784cd5cafeead43cdbdc4b7298435e44a3076bd7"
+    },
+    {
+      "frame_index": 12311,
+      "pts_seconds": 205.18333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000011.png",
+      "sha256": "987e45e57cf7d53ad4ff18c6ab55e7ebc68f31aa0d8b483d6271b26c39512958"
+    },
+    {
+      "frame_index": 12312,
+      "pts_seconds": 205.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000012.png",
+      "sha256": "e47df4e2df9469fa7c366e0a011f69d1df31115c5725e53ef751afec2c452b94"
+    },
+    {
+      "frame_index": 12313,
+      "pts_seconds": 205.21666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000013.png",
+      "sha256": "c5d1a3dfa7e2a1d9f415ce57da3c85a3b868e810c0475c0b8237b6ff4be45d71"
+    },
+    {
+      "frame_index": 12314,
+      "pts_seconds": 205.23333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000014.png",
+      "sha256": "9162b1c78747f856a6fd628777eabeb4684c4d4cf5069162d527dc84aa716092"
+    },
+    {
+      "frame_index": 12315,
+      "pts_seconds": 205.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000015.png",
+      "sha256": "e82bddb4248a8930696af97e2a5eadbe37c4e498ff27e957b5fdebebbb6a79b4"
+    },
+    {
+      "frame_index": 12316,
+      "pts_seconds": 205.26666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000016.png",
+      "sha256": "c6a98d940e81b3223c4fb8b000f2f9057494bbbc3ff247853a1d53fbdf4cc209"
+    },
+    {
+      "frame_index": 12317,
+      "pts_seconds": 205.28333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000017.png",
+      "sha256": "27a74beeeba988b6848266e410ccbde47c289dbe8149ba02da20b4703ec7257c"
+    },
+    {
+      "frame_index": 12318,
+      "pts_seconds": 205.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000018.png",
+      "sha256": "bb6a7e50b36b43f92a9ce734bc9979a4b296ab5703d7c9d731edcc896577d28d"
+    },
+    {
+      "frame_index": 12319,
+      "pts_seconds": 205.31666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000019.png",
+      "sha256": "a7dfdfa5738ade2e3acae357d34872ca1267d6d62e04ca4e32b2eed508677b62"
+    },
+    {
+      "frame_index": 12320,
+      "pts_seconds": 205.33333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000020.png",
+      "sha256": "bf3e3b9b771409690c0faeb7e949b417c1ed9c11a93a7ee5367b103959ab54d9"
+    },
+    {
+      "frame_index": 12321,
+      "pts_seconds": 205.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000021.png",
+      "sha256": "25e878f929899974ec5317f347de1cb64c7d8b79e6929a12fb4ffa98b39d12ba"
+    },
+    {
+      "frame_index": 12322,
+      "pts_seconds": 205.36666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000022.png",
+      "sha256": "b0e004489619d1db387d57b91e6af786bc87e8f8f03eb98b334621004fa24db7"
+    },
+    {
+      "frame_index": 12323,
+      "pts_seconds": 205.38333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000023.png",
+      "sha256": "3aef7f506f6533e0fb8c7b2ef989560a956f7cab3bed9b594861ea72a65ce165"
+    },
+    {
+      "frame_index": 12324,
+      "pts_seconds": 205.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000024.png",
+      "sha256": "5b2d44c015f691fff63e1a0bb70119562dc694350735183fe9c0d441cbbb34c5"
+    },
+    {
+      "frame_index": 12325,
+      "pts_seconds": 205.41666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000025.png",
+      "sha256": "a668607d030f0e5d6575ef932243cdda04d6a3a07d6a96a6d3ba034f82b8563a"
+    },
+    {
+      "frame_index": 12326,
+      "pts_seconds": 205.43333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000026.png",
+      "sha256": "2e6e9628be5599a7100db552679a2a9f7b7d972eca876e9b1c95a7cb72c10e97"
+    },
+    {
+      "frame_index": 12327,
+      "pts_seconds": 205.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000027.png",
+      "sha256": "6e844f9f38298f62bcb6a82673d934dd9feeb53dd71f0ece0dd1637c575deead"
+    },
+    {
+      "frame_index": 12328,
+      "pts_seconds": 205.46666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000028.png",
+      "sha256": "9c080e23cee606c10b6d15a80a47f0c2801bc42384943787f8e1565e7d81ef4e"
+    },
+    {
+      "frame_index": 12329,
+      "pts_seconds": 205.48333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000029.png",
+      "sha256": "67e9d53743b533302c6477a7ffd0c20c435a443bc706541f1b5be353f1dc9fd7"
+    },
+    {
+      "frame_index": 12330,
+      "pts_seconds": 205.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000030.png",
+      "sha256": "034463db3219ea7bc858700110aac8e8a2101177dd4cfd5e6d5139a91368222d"
+    },
+    {
+      "frame_index": 12331,
+      "pts_seconds": 205.51666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000031.png",
+      "sha256": "c8765e70ca86aac913641e524a7cb0bbcf9cfe073400226f421ef6ab45806881"
+    },
+    {
+      "frame_index": 12332,
+      "pts_seconds": 205.53333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000032.png",
+      "sha256": "ae0bc03b208b17222047152661d616226176c3d2785a2c166ce6cb042f0a1173"
+    },
+    {
+      "frame_index": 12333,
+      "pts_seconds": 205.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000033.png",
+      "sha256": "15757b52c01450b5241a05c187dc084b890c7fdcd7d166ddd13630be8195e288"
+    },
+    {
+      "frame_index": 12334,
+      "pts_seconds": 205.56666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000034.png",
+      "sha256": "969dee551a08ad548cbc8ab390bd580127e95a27007e8b4a6b5c8b18b3a8b695"
+    },
+    {
+      "frame_index": 12335,
+      "pts_seconds": 205.58333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000035.png",
+      "sha256": "714f88a3afb6479430c34b77c20da3efaf8c618e30bf7f19f4943d553a52030e"
+    },
+    {
+      "frame_index": 12336,
+      "pts_seconds": 205.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000036.png",
+      "sha256": "0247b1d976e7ac437268ff8cc72b855a905c1157de4bc66a7f56f04776a9f4d3"
+    },
+    {
+      "frame_index": 12337,
+      "pts_seconds": 205.61666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000037.png",
+      "sha256": "900427f867a5e3f81ae1594376baf5d9505a5cde01fc8d3f5ea29529f01dfd8b"
+    },
+    {
+      "frame_index": 12338,
+      "pts_seconds": 205.63333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000038.png",
+      "sha256": "77f16576df75414b778614ff70ac515bab26373f68abb8824008dc27bf2ba667"
+    },
+    {
+      "frame_index": 12339,
+      "pts_seconds": 205.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000039.png",
+      "sha256": "29c7afffb9ead8e302ce7711545c13aad13bc8c0d2e686fec924634c5501fe6b"
+    },
+    {
+      "frame_index": 12340,
+      "pts_seconds": 205.66666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000040.png",
+      "sha256": "a5500f41bea9ea3139e65aa0b8e549336b9377a263035f8d06cacc8a81654667"
+    },
+    {
+      "frame_index": 12341,
+      "pts_seconds": 205.68333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000041.png",
+      "sha256": "f23f273ccd04978452a784ea109a54173d3d91573c0c9cb4e7c4f2f90eff02c2"
+    },
+    {
+      "frame_index": 12342,
+      "pts_seconds": 205.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000042.png",
+      "sha256": "1ac6eda96b29fda8d8219279a0caf19d26edadf3444274171e7dad09aa111281"
+    },
+    {
+      "frame_index": 12343,
+      "pts_seconds": 205.71666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000043.png",
+      "sha256": "9ce28f080d73e182d7e9a3d877913266376fea803bf6a651258899a08c74ab8f"
+    },
+    {
+      "frame_index": 12344,
+      "pts_seconds": 205.73333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000044.png",
+      "sha256": "8fa5fd27782ef370762839a5a237880bf32e658e2f0e4e8e991e22691e7c7d56"
+    },
+    {
+      "frame_index": 12345,
+      "pts_seconds": 205.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000045.png",
+      "sha256": "8e7bd71b3007a9ad105cf8acdc012761f77b2a751999d93ca844cbea705047c8"
+    },
+    {
+      "frame_index": 12346,
+      "pts_seconds": 205.76666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000046.png",
+      "sha256": "66a1c6a92e77df1ed6323dfda07c0278e0874c916999e51e47447ac9f9fb43fc"
+    },
+    {
+      "frame_index": 12347,
+      "pts_seconds": 205.78333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000047.png",
+      "sha256": "672a3e21a5921381953bce7fa7dc7ea104ec30cf87f49941ef4ebf96782423e6"
+    },
+    {
+      "frame_index": 12348,
+      "pts_seconds": 205.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000048.png",
+      "sha256": "c114ca9d4697e1b711a74c2083c003e34e8bb74d177e2828b61af584b58ab07c"
+    },
+    {
+      "frame_index": 12349,
+      "pts_seconds": 205.81666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000049.png",
+      "sha256": "ae31f0fd9e4818c8b35953cb97d626183f29aecc03625ae036ac8deeaf8fb994"
+    },
+    {
+      "frame_index": 12350,
+      "pts_seconds": 205.83333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000050.png",
+      "sha256": "b27e56e24c7828e09fddafa1e984c41a9777786a738cc2e23d3aa1abe45c30d0"
+    },
+    {
+      "frame_index": 12351,
+      "pts_seconds": 205.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000051.png",
+      "sha256": "b9b5abbf1baa351f8e44d325f771c6c38cce2c42330d3524588c8187a5a22e44"
+    },
+    {
+      "frame_index": 12352,
+      "pts_seconds": 205.86666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000052.png",
+      "sha256": "7d830a1bb2aa53fba6cdb869a3715887817c933944ebad0baebeb35f8888ec8a"
+    },
+    {
+      "frame_index": 12353,
+      "pts_seconds": 205.88333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000053.png",
+      "sha256": "075b0d12e3fe56426a1e8eebaeff3c24b95e68bf1e6790d58b4a35cc673a83d5"
+    },
+    {
+      "frame_index": 12354,
+      "pts_seconds": 205.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000054.png",
+      "sha256": "64a8710d32724c308afe8f2299fc09bf1827512dbefea5fa8910b9ddc6699804"
+    },
+    {
+      "frame_index": 12355,
+      "pts_seconds": 205.91666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000055.png",
+      "sha256": "47a10a354642cf2d81fe70487e581f427a7ec69ed852bfb875f01bb568efe20b"
+    },
+    {
+      "frame_index": 12356,
+      "pts_seconds": 205.93333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000056.png",
+      "sha256": "9c458074b557b89ceda93ec6ad60951249d43db19716a1adfec0012c5851e1e8"
+    },
+    {
+      "frame_index": 12357,
+      "pts_seconds": 205.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000057.png",
+      "sha256": "c09d9401c9e1b1c2ee5e7c40c1d171ff5d7a383ba51977f0af2bea64a01dd5a1"
+    },
+    {
+      "frame_index": 12358,
+      "pts_seconds": 205.96666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000058.png",
+      "sha256": "dec1bda0510235133e95c5756eb44f1189b666ba03feb281caed3ef677f87727"
+    },
+    {
+      "frame_index": 12359,
+      "pts_seconds": 205.98333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000059.png",
+      "sha256": "dbd1ebf0e325cb0aeb9feea73800ef1fa2cc5d2cf112827abf26fbdc758b63b8"
+    },
+    {
+      "frame_index": 12360,
+      "pts_seconds": 206.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000060.png",
+      "sha256": "8ef2d9026f2116a202ff378382523c1fa2e9853df4db8af38c5ecae09abc3dca"
+    },
+    {
+      "frame_index": 12361,
+      "pts_seconds": 206.01666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000061.png",
+      "sha256": "4c387d301d2ad9a0e3e4d77c97d6ce2016ea576bc5ee1acbe4da9a572a3d0d7c"
+    },
+    {
+      "frame_index": 12362,
+      "pts_seconds": 206.03333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000062.png",
+      "sha256": "0be56f1bd0654d4c9ac4bc683347356c7f29d9ed25524d9a25363cd5755b1e58"
+    },
+    {
+      "frame_index": 12363,
+      "pts_seconds": 206.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000063.png",
+      "sha256": "9a66f0292dca616849ab52d6247dd2157e4296cb6dd100fc44b94500dea912de"
+    },
+    {
+      "frame_index": 12364,
+      "pts_seconds": 206.06666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000064.png",
+      "sha256": "877a76ac65749520eb2b5f9d98a507f358bd3057dcc58b12759396add4b7e3d4"
+    },
+    {
+      "frame_index": 12365,
+      "pts_seconds": 206.08333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000065.png",
+      "sha256": "a2196d62e44b64f0b592acbe6f6e698077df79825f94c908037a41f437ef0781"
+    },
+    {
+      "frame_index": 12366,
+      "pts_seconds": 206.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000066.png",
+      "sha256": "39987b1e608fd143fc5b789c4a13e4f6850df83d6e42c8544b140a6c4116ebc0"
+    },
+    {
+      "frame_index": 12367,
+      "pts_seconds": 206.11666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000067.png",
+      "sha256": "96ba3beb30b5a80cda65def3fe7c66c69e5e374d703e25103a22bb6b11b7617f"
+    },
+    {
+      "frame_index": 12368,
+      "pts_seconds": 206.13333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000068.png",
+      "sha256": "d0f5deb822edc20cb2cd523a460d8b18868762b246c60a5ae3dcddb178f85ab7"
+    },
+    {
+      "frame_index": 12369,
+      "pts_seconds": 206.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000069.png",
+      "sha256": "a3df34b4f9c15f890c295549bb2d952cf7cf161186d6bc30855535f80361aed5"
+    },
+    {
+      "frame_index": 12370,
+      "pts_seconds": 206.16666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000070.png",
+      "sha256": "2cfbb0b3901914cb879c4b805d073416c8044ce7089dc9a6c02edd651b83fb45"
+    },
+    {
+      "frame_index": 12371,
+      "pts_seconds": 206.18333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000071.png",
+      "sha256": "284cb446ebbf514031692e9b1d9689c08a46b0e814e2a68623af9b49f6de6ab5"
+    },
+    {
+      "frame_index": 12372,
+      "pts_seconds": 206.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000072.png",
+      "sha256": "eff5a1f25b5a2e8c4cfbcdc13aac9cfe910b0eaacbfc92e158a6394646bd674c"
+    },
+    {
+      "frame_index": 12373,
+      "pts_seconds": 206.21666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000073.png",
+      "sha256": "502cb3d43ad4625eec4339cfa8a3ab3b08a235e34bfff8bcd1e7bfdea5134ff9"
+    },
+    {
+      "frame_index": 12374,
+      "pts_seconds": 206.23333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000074.png",
+      "sha256": "4ec6d8d2da0439333b2c1f278d3bec9360b72005b2c07d7f466eb29febc5c5dd"
+    },
+    {
+      "frame_index": 12375,
+      "pts_seconds": 206.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000075.png",
+      "sha256": "bb397f57036ca4466bdf259b762d5ec3353bce4dc922da269e01f6fb7f737bae"
+    },
+    {
+      "frame_index": 12376,
+      "pts_seconds": 206.26666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000076.png",
+      "sha256": "318e8219e8baf28e0b267f18a2c60a860e6f8d88d9298e1b087a89bdb99dfdf2"
+    },
+    {
+      "frame_index": 12377,
+      "pts_seconds": 206.28333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000077.png",
+      "sha256": "fffcb70dc01d590823347b25096956958173bcda66df885b17dd969b4bf952f0"
+    },
+    {
+      "frame_index": 12378,
+      "pts_seconds": 206.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000078.png",
+      "sha256": "45f2699617a3608a18af0d6416ad12d59f824ae360b05dec15427d2bef4441ab"
+    },
+    {
+      "frame_index": 12379,
+      "pts_seconds": 206.31666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000079.png",
+      "sha256": "f4ac0342ae235cfbfea821c7c6c3c87c0007cd7db8f52f74fa32000a8c7848d1"
+    },
+    {
+      "frame_index": 12380,
+      "pts_seconds": 206.33333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000080.png",
+      "sha256": "b0ac01d86852fa7b8e5ce70b796dcdc44a11dee3b69f67529ed1d89b9ea5f5ed"
+    },
+    {
+      "frame_index": 12381,
+      "pts_seconds": 206.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000081.png",
+      "sha256": "32d9b3565a0e183b1fd415b3d3dac1cea9c2b2fa1b9e971d3c0d8cea01bff338"
+    },
+    {
+      "frame_index": 12382,
+      "pts_seconds": 206.36666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000082.png",
+      "sha256": "0a9856b58649fc08963d49e0a6372a2ba8a697eb242c6db19b16825818df13f2"
+    },
+    {
+      "frame_index": 12383,
+      "pts_seconds": 206.38333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000083.png",
+      "sha256": "256f1e918cae197641dba0320b66e5fbcc3b404ffb076aea81c290398514c28c"
+    },
+    {
+      "frame_index": 12384,
+      "pts_seconds": 206.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000084.png",
+      "sha256": "c49fc18515a08f533b02905aef2d9dce32b3e18c929109e2302052d8d9364e67"
+    },
+    {
+      "frame_index": 12385,
+      "pts_seconds": 206.41666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000085.png",
+      "sha256": "81146036bdae243f4467cfc27624fbfececb91148e3ca88a0eccce776523c2af"
+    },
+    {
+      "frame_index": 12386,
+      "pts_seconds": 206.43333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000086.png",
+      "sha256": "3ff52f3e56f5c082738442474aad1f24a8901f2d0cbc22d091000a6c9f4bec03"
+    },
+    {
+      "frame_index": 12387,
+      "pts_seconds": 206.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000087.png",
+      "sha256": "5ae6c31ea0b5e892a7589cee7590663f0b271b4c8fd52a32cbcd366aa6ca3c91"
+    },
+    {
+      "frame_index": 12388,
+      "pts_seconds": 206.46666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000088.png",
+      "sha256": "794b26cfd27b1925554c1620c49b989dfd06e32c6d5e164b164dae927fefef4b"
+    },
+    {
+      "frame_index": 12389,
+      "pts_seconds": 206.48333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000089.png",
+      "sha256": "7e2a03642d495b5d8a1adf9a3697d0ddcf1a0f0995d96aaf0d7e26fb7b53ff22"
+    },
+    {
+      "frame_index": 12390,
+      "pts_seconds": 206.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000090.png",
+      "sha256": "9d902a0ea58184299be8ba849c0b49a28778751cd3bfc147345ca31a086843b0"
+    },
+    {
+      "frame_index": 12391,
+      "pts_seconds": 206.51666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000091.png",
+      "sha256": "266cbaf9ff314d76ebfe71a8cb82979a61f028980ae35afc3da9219d7464563b"
+    },
+    {
+      "frame_index": 12392,
+      "pts_seconds": 206.53333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000092.png",
+      "sha256": "c7203597fa3b947cf4896f4c9a35c881579a3ed22d64d1f621b748fff4020919"
+    },
+    {
+      "frame_index": 12393,
+      "pts_seconds": 206.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000093.png",
+      "sha256": "fc2b98a78b095ef451e419618328ace84adb4e0d725ac62c8080adfdda0dabe0"
+    },
+    {
+      "frame_index": 12394,
+      "pts_seconds": 206.56666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000094.png",
+      "sha256": "8b8631d879252ee52a5027fe87e3e2c15439505aaf29a4f14b3863fdb37e0c23"
+    },
+    {
+      "frame_index": 12395,
+      "pts_seconds": 206.58333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000095.png",
+      "sha256": "5d05319c09098721bbfb3eb50a899a3fbb76c419700067e5c5581cf8aa288f90"
+    },
+    {
+      "frame_index": 12396,
+      "pts_seconds": 206.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000096.png",
+      "sha256": "d1f4ba78ae77d84b1a99c3a80c612c70e8e31f667c4744988230550417fcaa1e"
+    },
+    {
+      "frame_index": 12397,
+      "pts_seconds": 206.61666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000097.png",
+      "sha256": "ef77a63d01dd8f59725fae83e8b6fcf882f7dc413b3ec9599b7cb6d61e5878c7"
+    },
+    {
+      "frame_index": 12398,
+      "pts_seconds": 206.63333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000098.png",
+      "sha256": "256c64e16096b3ff717aa9c0eebb9e6a6ddfe2935ff73f8c4110e75af71c5d6b"
+    },
+    {
+      "frame_index": 12399,
+      "pts_seconds": 206.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000099.png",
+      "sha256": "9cfb3d5e15c18650b7041d7f0ded186b98759a413f9f882609a300a3ee9435ad"
+    },
+    {
+      "frame_index": 12400,
+      "pts_seconds": 206.66666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000100.png",
+      "sha256": "cac02183a2ebc26c06349e209a1d02b6e0c4421e694f05f6cfc0bbb899b018fb"
+    },
+    {
+      "frame_index": 12401,
+      "pts_seconds": 206.68333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000101.png",
+      "sha256": "86361f836610a49bb0f3c633923e5cbee9608be1ed2f8ad455d6fd2f83f3b154"
+    },
+    {
+      "frame_index": 12402,
+      "pts_seconds": 206.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000102.png",
+      "sha256": "6ad1d126a85ac429475af41e2704906ab9b7ab1c92d764e4a8e36ccffdb4a6bb"
+    },
+    {
+      "frame_index": 12403,
+      "pts_seconds": 206.71666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000103.png",
+      "sha256": "22b69532ace97a88c3f355589e2d63ec39386038a457071a001187318bd7d14c"
+    },
+    {
+      "frame_index": 12404,
+      "pts_seconds": 206.73333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000104.png",
+      "sha256": "e42bcd06106fe2e04302360f3117e9434698764572b369118798f2a1c7e02567"
+    },
+    {
+      "frame_index": 12405,
+      "pts_seconds": 206.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000105.png",
+      "sha256": "071aa81c4770692259e7b2144c64fd627238c89d611af011b81a8154b58ad979"
+    },
+    {
+      "frame_index": 12406,
+      "pts_seconds": 206.76666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000106.png",
+      "sha256": "cc3338549d238d2a77bc7dd11dfbba68710e23fa68b65be9627bdc30c780a488"
+    },
+    {
+      "frame_index": 12407,
+      "pts_seconds": 206.78333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000107.png",
+      "sha256": "ea53e43cb12432394682763b2a8c43c9855a46097891354d36b1605ab9ba50d4"
+    },
+    {
+      "frame_index": 12408,
+      "pts_seconds": 206.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000108.png",
+      "sha256": "9f4cef05470749307666ab68bf49f15fc876c26daf33db940caf68ff73da0954"
+    },
+    {
+      "frame_index": 12409,
+      "pts_seconds": 206.81666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000109.png",
+      "sha256": "5f8ba331f71b5f3a4035e4c1609fd923e3137fe41b141dfc5c1e759a68ec2d4d"
+    },
+    {
+      "frame_index": 12410,
+      "pts_seconds": 206.83333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000110.png",
+      "sha256": "a5d192a69ba976a884941c2fb500a3c6c8048012f3e405d4672ed1802c0e697c"
+    },
+    {
+      "frame_index": 12411,
+      "pts_seconds": 206.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000111.png",
+      "sha256": "2ce01efa8f043d6cb337dcb3f93e74aaf7672883cb1e94eeb811f54aeef04f14"
+    },
+    {
+      "frame_index": 12412,
+      "pts_seconds": 206.86666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000112.png",
+      "sha256": "9c0fa29b67291b8d1533993885b870b8bdab8d36a5901ac7f187a54d52d78869"
+    },
+    {
+      "frame_index": 12413,
+      "pts_seconds": 206.88333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000113.png",
+      "sha256": "267569b526cf3760d831b2e8e7d6e9a2b5e4f0ae4e0f4ef3a3ba1b35232de563"
+    },
+    {
+      "frame_index": 12414,
+      "pts_seconds": 206.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000114.png",
+      "sha256": "7ea4e74d5142329d4a7dde7439ef8d67149c314fb934802c4fa1f2ad4bde65ef"
+    },
+    {
+      "frame_index": 12415,
+      "pts_seconds": 206.91666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000115.png",
+      "sha256": "f6a94449c6bac37c43547455f5e49cf09bd79606411c3ee86f100c52ef907982"
+    },
+    {
+      "frame_index": 12416,
+      "pts_seconds": 206.93333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000116.png",
+      "sha256": "bc665eb842ca63815fbcbf441f88b470073aca47b64fe518163a177eb24c0cec"
+    },
+    {
+      "frame_index": 12417,
+      "pts_seconds": 206.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000117.png",
+      "sha256": "df814b9952ef5ae5619f7cfb473d463d538a24ca0435ae6c451a0d29dfbf1934"
+    },
+    {
+      "frame_index": 12418,
+      "pts_seconds": 206.96666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000118.png",
+      "sha256": "3384f8362e06a91c0d8dc9b1501629b134f1dc7a9ce70ab9c5cb71926b4e313d"
+    },
+    {
+      "frame_index": 12419,
+      "pts_seconds": 206.98333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000119.png",
+      "sha256": "5522ef191ec80830ee986b6e444867c41a695349b68a462fe73cdf0614b6845e"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-005.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

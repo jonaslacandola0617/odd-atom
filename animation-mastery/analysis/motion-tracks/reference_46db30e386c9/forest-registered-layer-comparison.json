@@ -1,0 +1,37 @@
+{
+  "video_id": "reference_46db30e386c9",
+  "frames": [
+    90,
+    110
+  ],
+  "source_pts_seconds": [
+    1.5,
+    1.8333333333333333
+  ],
+  "basis": "Measured image-space correspondences; selected purple rear-trunk anchors fit with RANSAC; foreground is tested against that model.",
+  "anchor_filter": "At f90, native HSV H120\u2013175,S>60,V>30,x in .71\u2013.80 frame width, within the reviewed trunk ROI. Initial rectangular ROI mixed depth planes and its raw median was not used as a layer measurement.",
+  "native_frame_size": [
+    2560,
+    1440
+  ],
+  "fit_matrix": [
+    [
+      1.0600759843828886,
+      -0.017049437959982684,
+      -152.77428211627068
+    ],
+    [
+      0.017049437959982684,
+      1.0600759843828886,
+      -53.92834644585652
+    ]
+  ],
+  "anchor_candidates": 10,
+  "anchor_inliers": 6,
+  "anchor_inlier_median_residual_native_pixels": 3.630248586637418,
+  "foreground_surviving_features": 12,
+  "foreground_median_residual_against_trunk_transform_native_pixels": 390.6470550926012,
+  "foreground_p90_residual_native_pixels": 433.42393973438203,
+  "interpretation": "Foreground and rear-trunk image motion are incompatible with this single fitted similarity transform. This supports a layered/parallax-style reconstruction; it does not uniquely recover the original camera or prove a particular rig.",
+  "limits": "Only 20 frame intervals at 60fps. Tracks originate in a 512x288 proxy and are rescaled to native units; fine motion and occlusion remain uncertain. Foreground tracking fails after f110."
+}

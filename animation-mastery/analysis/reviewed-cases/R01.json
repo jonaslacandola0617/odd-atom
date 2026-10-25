@@ -1,0 +1,209 @@
+{
+  "video_id": "reference_2e586456bc4d",
+  "shot_id": "case_R01",
+  "case_id": "R01",
+  "case_name": "root-rock-change",
+  "source_sha256": "2e586456bc4d4ca199b2541ad285c51f342110d1d30029e3d2b141b30ff0fa74",
+  "start_frame": 27120,
+  "end_frame": 27240,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 452.0,
+  "end_pts_seconds": 454.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Root/rock interaction makes underground force and mineral access visible rather than leaving the mechanism to narration.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "orange root tips",
+      "blue rock gap",
+      "warm particles at contact"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "roots.tip-left",
+        "description": "Warm layered root approaching from lower left.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "roots.tip-right",
+        "description": "Warm layered root from upper right.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "roots.rock",
+        "description": "Large blue faceted rock sections with interior marks.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "roots.mineral-particles",
+        "description": "Warm circular particles near root/rock boundaries.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Dark granular underground field; thick cool rock contours frame warm roots.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [],
+  "objects": [
+    {
+      "object_id": "roots.tip-left",
+      "description": "Warm layered root approaching from lower left.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "roots.tip-right",
+      "description": "Warm layered root from upper right.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "roots.rock",
+      "description": "Large blue faceted rock sections with interior marks.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "roots.mineral-particles",
+      "description": "Warm circular particles near root/rock boundaries.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "r01.background",
+      "description": "Dark granular underground field; thick cool rock contours frame warm roots.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "roots.tip-left",
+        "roots.tip-right",
+        "roots.rock",
+        "roots.mineral-particles"
+      ],
+      "start_frame": 27120,
+      "end_frame": 27240,
+      "purpose": "Root/rock interaction makes underground force and mineral access visible rather than leaving the mechanism to narration.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 27120,
+          "end_frame": 27240,
+          "phase": "observed interval",
+          "pose_or_state": "Rock sections are separated around the roots; root widths and framing change during the interval. Warm particles appear and move near the contact areas. Broader 439–467 s overview and unverified ASR describe cracks, swelling/hydraulic force, acid and mineral uptake; a detour alone would tell a different story."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "Camera contribution to the reframing and exact shape morphs remain uncertain; observed particles do not identify chemical species."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        27120,
+        27240
+      ],
+      "limitations": "Camera contribution to the reframing and exact shape morphs remain uncertain; observed particles do not identify chemical species."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        27120,
+        27240
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Rock sections are separated around the roots; root widths and framing change during the interval.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        27120,
+        27240
+      ]
+    },
+    {
+      "statement": "Warm particles appear and move near the contact areas.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        27120,
+        27240
+      ]
+    },
+    {
+      "statement": "Broader 439–467 s overview and unverified ASR describe cracks, swelling/hydraulic force, acid and mineral uptake; a detour alone would tell a different story.",
+      "basis": "inferred",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        27120,
+        27240
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 27120,
+      "pts_seconds": 452.0,
+      "file": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000000.png"
+    },
+    {
+      "frame_index": 27180,
+      "pts_seconds": 453.0,
+      "file": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000060.png"
+    },
+    {
+      "frame_index": 27239,
+      "pts_seconds": 453.98333333333335,
+      "file": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/evidence.json",
+  "source_technique_inference_limitations": "Camera contribution to the reframing and exact shape morphs remain uncertain; observed particles do not identify chemical species.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-001.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-002.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-003.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-004.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

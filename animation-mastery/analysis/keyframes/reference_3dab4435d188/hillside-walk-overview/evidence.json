@@ -1,0 +1,164 @@
+{
+  "video_id": "reference_3dab4435d188",
+  "name": "hillside-walk-overview",
+  "source_sha256": "3dab4435d1882835d9f3798f7c367daa4b1388f9342649b26a3b250f1209acf5",
+  "start_frame": 45960,
+  "end_frame": 46320,
+  "end_frame_exclusive": true,
+  "source_start_pts": 766.0,
+  "sample_stride": 15,
+  "sampled_frames": [
+    {
+      "frame_index": 45960,
+      "pts_seconds": 766.0,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000000.png",
+      "sha256": "e83b5e8e202f1add9f3112d0701b2c2f86721ea7d495fde3d4bd1b3ddf2bae99"
+    },
+    {
+      "frame_index": 45975,
+      "pts_seconds": 766.25,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000001.png",
+      "sha256": "74f42fcdc582f8abeb8e7ee6fd635f00dadf479560aa5c7cfd98b58595ec02cb"
+    },
+    {
+      "frame_index": 45990,
+      "pts_seconds": 766.5,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000002.png",
+      "sha256": "0fd12ca7b486ca1ce413698b97235b7f9a9d795f22384e2cefd484560e25516f"
+    },
+    {
+      "frame_index": 46005,
+      "pts_seconds": 766.75,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000003.png",
+      "sha256": "4da4b8b4e71fea80c6b1d662446e0597eb48542b9f2738951239195f53d9017e"
+    },
+    {
+      "frame_index": 46020,
+      "pts_seconds": 767.0,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000004.png",
+      "sha256": "bb7d0d146c7da87818506f652dedaae651bd7e83358a3333f19ca10e371f92b9"
+    },
+    {
+      "frame_index": 46035,
+      "pts_seconds": 767.25,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000005.png",
+      "sha256": "4fbab22077634d25c48edeeac79178fc66165e150baf8666937f7a61360d8032"
+    },
+    {
+      "frame_index": 46050,
+      "pts_seconds": 767.5,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000006.png",
+      "sha256": "b42bbbcb95bb238ae8adca2198b7fc5b0854df23f999889602d905532b6abb97"
+    },
+    {
+      "frame_index": 46065,
+      "pts_seconds": 767.75,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000007.png",
+      "sha256": "ff74385d22be8e1291b2e6d78ff55b5e1a7740b98152ab4057cfeafb2eec99a9"
+    },
+    {
+      "frame_index": 46080,
+      "pts_seconds": 768.0,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000008.png",
+      "sha256": "8b8b302ed2ca94df0be938b6afea640486eef6b9c5b3e3d44abc8f68a07f15fa"
+    },
+    {
+      "frame_index": 46095,
+      "pts_seconds": 768.25,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000009.png",
+      "sha256": "43c3d8d26ae4814e7cdb11665f20b1365b00e1815798949fe784515c35c68235"
+    },
+    {
+      "frame_index": 46110,
+      "pts_seconds": 768.5,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000010.png",
+      "sha256": "ba7d1239df94163b98adc6884127503d1d3e9f19cf31b6ca2d2747b1bb21ce00"
+    },
+    {
+      "frame_index": 46125,
+      "pts_seconds": 768.75,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000011.png",
+      "sha256": "f18b855203f0d27f1e85821a393254ec97743ddba630d78b0e66c623bdeb1257"
+    },
+    {
+      "frame_index": 46140,
+      "pts_seconds": 769.0,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000012.png",
+      "sha256": "629830263120c55fc8c085f9c2cf68b2fff7fd890706c97101ed1b6e7b21a1cc"
+    },
+    {
+      "frame_index": 46155,
+      "pts_seconds": 769.25,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000013.png",
+      "sha256": "8b7ec26f139c4e3f0594fd0840381e4f6ae8374c4d0e0cd4febbaa9aae7dc3f4"
+    },
+    {
+      "frame_index": 46170,
+      "pts_seconds": 769.5,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000014.png",
+      "sha256": "abced1c9fb6c6215bf94f4bf70bc28d9d0a3df0a3ca5a41cabf11a6a53fa5a46"
+    },
+    {
+      "frame_index": 46185,
+      "pts_seconds": 769.75,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000015.png",
+      "sha256": "18f11da20ca2434887d1fb3b22cd5fe7491a69eaccf8398af1439c11b18c9ad2"
+    },
+    {
+      "frame_index": 46200,
+      "pts_seconds": 770.0,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000016.png",
+      "sha256": "baa25f1814e350174228042bc3e57051edbc922f0a19d8916a46581e687d96ee"
+    },
+    {
+      "frame_index": 46215,
+      "pts_seconds": 770.25,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000017.png",
+      "sha256": "d92ce0338d86d90132c4fd00922855233c0a537ea473b4bdda53d266f7c35f96"
+    },
+    {
+      "frame_index": 46230,
+      "pts_seconds": 770.5,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000018.png",
+      "sha256": "5e7bc11a307ab1fe2abcecdb06e51d6cdc95eca68f063770f45db9cbc1a2a77e"
+    },
+    {
+      "frame_index": 46245,
+      "pts_seconds": 770.75,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000019.png",
+      "sha256": "fc3f9cf21e05406860625c112dc42214de2a92a5657dc07e6d92477c4139af49"
+    },
+    {
+      "frame_index": 46260,
+      "pts_seconds": 771.0,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000020.png",
+      "sha256": "79b861c67e744a0ee9d91c01e1def4ece9dbb8c78d141ef3d7e547d8d56a9795"
+    },
+    {
+      "frame_index": 46275,
+      "pts_seconds": 771.25,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000021.png",
+      "sha256": "c30eab4089cd730bfec53cb0452801c659e96718d86ffbfb5bd4a788faf24598"
+    },
+    {
+      "frame_index": 46290,
+      "pts_seconds": 771.5,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000022.png",
+      "sha256": "774b3106d637484c7b04de98d22b214506a098f55f41cbc227666d0a182da6c4"
+    },
+    {
+      "frame_index": 46305,
+      "pts_seconds": 771.75,
+      "png": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/frame-000023.png",
+      "sha256": "061f7c6e62358fdf191ba03bb8c8da32ed3589cefb921846f706db973f7b6dd5"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/consecutive-001.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_3dab4435d188/hillside-walk-overview/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

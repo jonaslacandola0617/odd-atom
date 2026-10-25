@@ -1,0 +1,744 @@
+{
+  "video_id": "reference_2e586456bc4d",
+  "name": "root-rock-change",
+  "source_sha256": "2e586456bc4d4ca199b2541ad285c51f342110d1d30029e3d2b141b30ff0fa74",
+  "start_frame": 27120,
+  "end_frame": 27240,
+  "end_frame_exclusive": true,
+  "source_start_pts": 452.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 27120,
+      "pts_seconds": 452.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000000.png",
+      "sha256": "c470a93f46b0da12b6e93b7dc818ce603490ca1da3007cd04e681d948ea14cb3"
+    },
+    {
+      "frame_index": 27121,
+      "pts_seconds": 452.01666666666665,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000001.png",
+      "sha256": "e5b9b707ab30ba6595da3fbc7168a49cc555d67e0a7c7dda6489f9f9b7bb7ee0"
+    },
+    {
+      "frame_index": 27122,
+      "pts_seconds": 452.03333333333336,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000002.png",
+      "sha256": "0bccf8166f8412b51ac44427c0d010dca8ea2724071f2a3b104e137d6e51cbcd"
+    },
+    {
+      "frame_index": 27123,
+      "pts_seconds": 452.05,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000003.png",
+      "sha256": "b35d50c1ef8c688ed447d912ebe7fe0cdd125b81f2e88c35dfd8a5680ef5f075"
+    },
+    {
+      "frame_index": 27124,
+      "pts_seconds": 452.06666666666666,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000004.png",
+      "sha256": "09fb4eacd13bcab3e60140757bd811d88a0f2d209bb6b82ce15a934b2530de26"
+    },
+    {
+      "frame_index": 27125,
+      "pts_seconds": 452.0833333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000005.png",
+      "sha256": "3987c7031fea364eab21b64c1ed486657e1c2c7f285affd8c0209f9a597feac9"
+    },
+    {
+      "frame_index": 27126,
+      "pts_seconds": 452.1,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000006.png",
+      "sha256": "5e6e1e18c7892ebc78765859f29bcf186d01df240c309134e01059588d982456"
+    },
+    {
+      "frame_index": 27127,
+      "pts_seconds": 452.1166666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000007.png",
+      "sha256": "fd39da3e2f7e5e1c8634b21ca7355e5c2bf926cfac6ce8a674924f3a7ad7b4f4"
+    },
+    {
+      "frame_index": 27128,
+      "pts_seconds": 452.1333333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000008.png",
+      "sha256": "e6bb50831767b548db04ff4e280ccf3d1aa61223aa9cfbfeb33250bd14c64348"
+    },
+    {
+      "frame_index": 27129,
+      "pts_seconds": 452.15,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000009.png",
+      "sha256": "851e9d2a866de4f29ac570470224829c33b6419480871b7d63c35c87ada9d706"
+    },
+    {
+      "frame_index": 27130,
+      "pts_seconds": 452.1666666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000010.png",
+      "sha256": "a4c5c4466e09fe3e567460aa0c764417b734b3768c9a14aa6e35229082ffc9ad"
+    },
+    {
+      "frame_index": 27131,
+      "pts_seconds": 452.18333333333334,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000011.png",
+      "sha256": "0a0ab3782e921c5b412938b989be3b5d6296ff92ed00ccdf0bf0357474f9b743"
+    },
+    {
+      "frame_index": 27132,
+      "pts_seconds": 452.2,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000012.png",
+      "sha256": "c9ff941745b300d1044e399824bdb797dbd4cbb7890a61945a975a3e5fabc9b3"
+    },
+    {
+      "frame_index": 27133,
+      "pts_seconds": 452.21666666666664,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000013.png",
+      "sha256": "e851514c80062c75a14606d3a7f41c9d622fcaa942918a66d7bcd5d819debe78"
+    },
+    {
+      "frame_index": 27134,
+      "pts_seconds": 452.23333333333335,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000014.png",
+      "sha256": "aff368da50147c1b541aa3d0722a58c672005045c6d4f3f21a0191d3bbe6505d"
+    },
+    {
+      "frame_index": 27135,
+      "pts_seconds": 452.25,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000015.png",
+      "sha256": "f675602bfe14c43b26dff9ace56bd25b724861a9d62d6b317f2c4a6a4153595f"
+    },
+    {
+      "frame_index": 27136,
+      "pts_seconds": 452.26666666666665,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000016.png",
+      "sha256": "aab3a69291e0058130126a5b1190086e083d9847fee6be60a720661438ac28f0"
+    },
+    {
+      "frame_index": 27137,
+      "pts_seconds": 452.28333333333336,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000017.png",
+      "sha256": "774dcbaa7138c4441ea1cae9dd23ea31a1f3c294cda3a87469ea7f915977660f"
+    },
+    {
+      "frame_index": 27138,
+      "pts_seconds": 452.3,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000018.png",
+      "sha256": "a218fc0bade6c0310c3e9bd67f132b5b2d6a423659278bf00b2622050b47316e"
+    },
+    {
+      "frame_index": 27139,
+      "pts_seconds": 452.31666666666666,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000019.png",
+      "sha256": "c8d3de12c84de43016591423480501e0ddd4e42b0f86d01d4a635f9670f9b55f"
+    },
+    {
+      "frame_index": 27140,
+      "pts_seconds": 452.3333333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000020.png",
+      "sha256": "e5b977edc65a3a71ee03205c3a75ed021c065b426cb0c1854eee11b457c1ae24"
+    },
+    {
+      "frame_index": 27141,
+      "pts_seconds": 452.35,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000021.png",
+      "sha256": "e073018208db5c33bdf12c94773624d4c7338bb260a669881f563e8c4ae0ac9f"
+    },
+    {
+      "frame_index": 27142,
+      "pts_seconds": 452.3666666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000022.png",
+      "sha256": "4099ea637d61fd973a047fa85fe9e656f20c6fb29de3ff860f1146d0165040ba"
+    },
+    {
+      "frame_index": 27143,
+      "pts_seconds": 452.3833333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000023.png",
+      "sha256": "afd896a685159b563c5cb0cf7ad09b387a6bf38734188cd34665880d214f7d49"
+    },
+    {
+      "frame_index": 27144,
+      "pts_seconds": 452.4,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000024.png",
+      "sha256": "51cddee76f663ea5bbe40ccfcf38388e7883345706c42c9a8bc3bdfec68e4535"
+    },
+    {
+      "frame_index": 27145,
+      "pts_seconds": 452.4166666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000025.png",
+      "sha256": "af7f98c52b376e322b0d7c92ef550b1eed733ce4ae27528990368dffed1619d7"
+    },
+    {
+      "frame_index": 27146,
+      "pts_seconds": 452.43333333333334,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000026.png",
+      "sha256": "613aeb7dbc72de679990ad48934a0406099e8e1f18282d904d5107e08f4f5de2"
+    },
+    {
+      "frame_index": 27147,
+      "pts_seconds": 452.45,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000027.png",
+      "sha256": "d428d3bc19658aeac3a65b981fdc40949f565dff7a6ef28d58f10660cf311718"
+    },
+    {
+      "frame_index": 27148,
+      "pts_seconds": 452.46666666666664,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000028.png",
+      "sha256": "3b1f7d089f61f777f129217c34a1366bd49f7ae48798f7387867b1d8c1328772"
+    },
+    {
+      "frame_index": 27149,
+      "pts_seconds": 452.48333333333335,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000029.png",
+      "sha256": "ca1822f1cea68abcf741edf206db9602b1c7f62f9a6272f5f81674f39efb5fec"
+    },
+    {
+      "frame_index": 27150,
+      "pts_seconds": 452.5,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000030.png",
+      "sha256": "24f9d151539fe3118e19eca7eb597d7a1f089f8b371f35eccffc8b3938a91d58"
+    },
+    {
+      "frame_index": 27151,
+      "pts_seconds": 452.51666666666665,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000031.png",
+      "sha256": "e413eab072ce6b18fbe13ac4597a1d10d3b1f157aa5a1d21be769f39bb0e706c"
+    },
+    {
+      "frame_index": 27152,
+      "pts_seconds": 452.53333333333336,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000032.png",
+      "sha256": "6bcec5a90232512572cfc348c3f9ec6d6ea297d01daffa39bde6ea1cac540f53"
+    },
+    {
+      "frame_index": 27153,
+      "pts_seconds": 452.55,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000033.png",
+      "sha256": "66998c8dd4f7ebb198e7a1ebb66b2171aef74f37c79eac9f3378742e03808f0a"
+    },
+    {
+      "frame_index": 27154,
+      "pts_seconds": 452.56666666666666,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000034.png",
+      "sha256": "e027579dcd10a86577e73518abfa8d841a7fdea167ce408b2668e74f9a0bf819"
+    },
+    {
+      "frame_index": 27155,
+      "pts_seconds": 452.5833333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000035.png",
+      "sha256": "59694710626cd9fa5ae38f5ba28cfd8daeb366089bd1fd3a6a8a900d74c4a510"
+    },
+    {
+      "frame_index": 27156,
+      "pts_seconds": 452.6,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000036.png",
+      "sha256": "e0d725951788aa0dea4408dedd285f982a2b21e9ac1189e42198993d552f7fa2"
+    },
+    {
+      "frame_index": 27157,
+      "pts_seconds": 452.6166666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000037.png",
+      "sha256": "40319181f066645374e3c13e9e50f8ce2267f982dc1e8679986f2ca9a8fc587b"
+    },
+    {
+      "frame_index": 27158,
+      "pts_seconds": 452.6333333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000038.png",
+      "sha256": "f4675b5f7366114810ca728487984fd7679ec438e0876e3bea8c4f8b5958ecc7"
+    },
+    {
+      "frame_index": 27159,
+      "pts_seconds": 452.65,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000039.png",
+      "sha256": "b00930aa4945875e9562849a239d9ea0a1c42880e0c58b247183c7251f8bb132"
+    },
+    {
+      "frame_index": 27160,
+      "pts_seconds": 452.6666666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000040.png",
+      "sha256": "55b7fcdecc283c917ae6de7c6a2ac01dcd72e1c6fad653978b6cd7235778f101"
+    },
+    {
+      "frame_index": 27161,
+      "pts_seconds": 452.68333333333334,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000041.png",
+      "sha256": "ee3cd0b4641184ca91252edd838d8c26c77028e30131396ef895ea04b4ca6ece"
+    },
+    {
+      "frame_index": 27162,
+      "pts_seconds": 452.7,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000042.png",
+      "sha256": "acd71b58b9ce069a95c0014e73e8ddb43e3e0d2918e360d753a2f8023251d08d"
+    },
+    {
+      "frame_index": 27163,
+      "pts_seconds": 452.71666666666664,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000043.png",
+      "sha256": "123889dfeb9a83f005397319d09b8099b4b7bc2dcabc9539640df1bf7c2bfd7c"
+    },
+    {
+      "frame_index": 27164,
+      "pts_seconds": 452.73333333333335,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000044.png",
+      "sha256": "1c6825a7707239788172d292a37e957fe9e37fed95fad922d7f527a41c75664b"
+    },
+    {
+      "frame_index": 27165,
+      "pts_seconds": 452.75,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000045.png",
+      "sha256": "e180a76522556be5b7fb37871e9bb104d17f21cb2dad66f4cad7e94b1703a37d"
+    },
+    {
+      "frame_index": 27166,
+      "pts_seconds": 452.76666666666665,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000046.png",
+      "sha256": "99356db25883180fc77bf59d884a85bc560da807d7b2f4e56d7afb08eb92aa8e"
+    },
+    {
+      "frame_index": 27167,
+      "pts_seconds": 452.78333333333336,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000047.png",
+      "sha256": "374a3d706c4e01396a88b50d1940167d2944e3c9cfe99c31dafde06fd5d0a281"
+    },
+    {
+      "frame_index": 27168,
+      "pts_seconds": 452.8,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000048.png",
+      "sha256": "1c2bcc272fedfbb79211b4799a1e072a8c13f522139ad88e48e348970d6bfa5c"
+    },
+    {
+      "frame_index": 27169,
+      "pts_seconds": 452.81666666666666,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000049.png",
+      "sha256": "00a7e5ebdea22dcce0d60c472f91a0f7777a6e8690ed76d9ae71472e5e3022ce"
+    },
+    {
+      "frame_index": 27170,
+      "pts_seconds": 452.8333333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000050.png",
+      "sha256": "9ee5f0e9d18e7675180c8b9df02368ec2ebc67a9fc31d77235c5c32db158b981"
+    },
+    {
+      "frame_index": 27171,
+      "pts_seconds": 452.85,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000051.png",
+      "sha256": "c0c322bb37b6ee8670e412285a1ed54567cddbf83c3db7a50ef9887cc326f19b"
+    },
+    {
+      "frame_index": 27172,
+      "pts_seconds": 452.8666666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000052.png",
+      "sha256": "89998323e0926567c34b6f7c5e50b43923985224035118a11bbc4de148e7f1c7"
+    },
+    {
+      "frame_index": 27173,
+      "pts_seconds": 452.8833333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000053.png",
+      "sha256": "0553ec31c3a115d32078a5e493ba13b63fa622a0443c948d987baefcfe8493f1"
+    },
+    {
+      "frame_index": 27174,
+      "pts_seconds": 452.9,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000054.png",
+      "sha256": "f8719b9e80310d14ce683cc5cb1280675802894e2ee45a5406a662e2f33f9404"
+    },
+    {
+      "frame_index": 27175,
+      "pts_seconds": 452.9166666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000055.png",
+      "sha256": "2d64e665b47558eb3b77b8a446702ed44e9bcc3d82df411d4a4dccdfc2f35bd7"
+    },
+    {
+      "frame_index": 27176,
+      "pts_seconds": 452.93333333333334,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000056.png",
+      "sha256": "7443f0f8d4356787c64f228d1354842e2cd3b35dc4b481638b18c90906d2c42a"
+    },
+    {
+      "frame_index": 27177,
+      "pts_seconds": 452.95,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000057.png",
+      "sha256": "d1054aa8e659ebdce6b3ea54a314b829314d98a495149884065f6b4f4b6ed329"
+    },
+    {
+      "frame_index": 27178,
+      "pts_seconds": 452.96666666666664,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000058.png",
+      "sha256": "72e14719b9701761947d996124feaf8f164500359783d7156708f141ef617766"
+    },
+    {
+      "frame_index": 27179,
+      "pts_seconds": 452.98333333333335,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000059.png",
+      "sha256": "2bcc26ca1d0ea30cddd327e7709173037f2d15c798b012f6d825134e082b64e4"
+    },
+    {
+      "frame_index": 27180,
+      "pts_seconds": 453.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000060.png",
+      "sha256": "36ff09fb78e10b0d4997a49d8150d06ff67a24d0378751d7db2b14acce087d0d"
+    },
+    {
+      "frame_index": 27181,
+      "pts_seconds": 453.01666666666665,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000061.png",
+      "sha256": "d31b994725f91f065f3a36172f2a2bf6943dad09bd206d53ed8b4aaefcb67ad1"
+    },
+    {
+      "frame_index": 27182,
+      "pts_seconds": 453.03333333333336,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000062.png",
+      "sha256": "cb4720fac3ae892dbc8daf8bd69a27d8f627e1d9b1e029fa97da9cbbefeaeec6"
+    },
+    {
+      "frame_index": 27183,
+      "pts_seconds": 453.05,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000063.png",
+      "sha256": "8f6c4d2e082c9875b3520cc134552d6fbec6500f9e74c3cc96dfbbaa2dbdc174"
+    },
+    {
+      "frame_index": 27184,
+      "pts_seconds": 453.06666666666666,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000064.png",
+      "sha256": "0e25ca03c61a9db950f3e1549286debab09c195cea194d8c2c542c025f8cced5"
+    },
+    {
+      "frame_index": 27185,
+      "pts_seconds": 453.0833333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000065.png",
+      "sha256": "37264b8ab8dd7a9ef8ba5dce351bf58df6ef72cfde13774355db0122857b95c6"
+    },
+    {
+      "frame_index": 27186,
+      "pts_seconds": 453.1,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000066.png",
+      "sha256": "ea5758698f2e62aa07137f15a9b575ad30c274575ce12e61ec4d4ba3e922a66f"
+    },
+    {
+      "frame_index": 27187,
+      "pts_seconds": 453.1166666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000067.png",
+      "sha256": "35a0ac51dcfdb9b5e271d2f84290010e9872fab08fa7fccf1d97ca696418fa93"
+    },
+    {
+      "frame_index": 27188,
+      "pts_seconds": 453.1333333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000068.png",
+      "sha256": "2e9bda77c1d430f30fa1d02b22353d3b5c09d4be722dea5f6189a9d369a5d1b5"
+    },
+    {
+      "frame_index": 27189,
+      "pts_seconds": 453.15,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000069.png",
+      "sha256": "a60204dff90c570d57b6700fc9057f37d90288171f06f9f9bac5921afc775785"
+    },
+    {
+      "frame_index": 27190,
+      "pts_seconds": 453.1666666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000070.png",
+      "sha256": "d0f01d3b85c40d91cc3c70279c49492cb3c7d4896c7766228376ee556aae51bf"
+    },
+    {
+      "frame_index": 27191,
+      "pts_seconds": 453.18333333333334,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000071.png",
+      "sha256": "106f568b80030efe7bc9fc6234db86e3a041143e526cfd673da4c0186b0b9979"
+    },
+    {
+      "frame_index": 27192,
+      "pts_seconds": 453.2,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000072.png",
+      "sha256": "d4d7f9eed447576a86ed6b0ffbd03a077de2648d8e0298496853a2a5bf625ddc"
+    },
+    {
+      "frame_index": 27193,
+      "pts_seconds": 453.21666666666664,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000073.png",
+      "sha256": "e8810ded1d564a18d7c70a00331a1e1877331d14997d2e557729dc22a187f5b8"
+    },
+    {
+      "frame_index": 27194,
+      "pts_seconds": 453.23333333333335,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000074.png",
+      "sha256": "23737df0bde51bea44919975189b08441cf2c21a96e44a64d510cfbdee8cda7b"
+    },
+    {
+      "frame_index": 27195,
+      "pts_seconds": 453.25,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000075.png",
+      "sha256": "883bd54e6ec91bba810e83ae2eab6123f07d685e843c4a3c325dfb765bdcad60"
+    },
+    {
+      "frame_index": 27196,
+      "pts_seconds": 453.26666666666665,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000076.png",
+      "sha256": "5e45b521ef4eb0d604ba30ffe299ece00b1ae2fd7c405db6b2cb3429442c2007"
+    },
+    {
+      "frame_index": 27197,
+      "pts_seconds": 453.28333333333336,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000077.png",
+      "sha256": "7ca4b7c60c825250491d1743271a1feba5c4e4c16d4e3978bc8a5f2a1dd0fa94"
+    },
+    {
+      "frame_index": 27198,
+      "pts_seconds": 453.3,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000078.png",
+      "sha256": "5187ee92575878ef36be2ee06546726dbc8e9c6186525ace9c6eabeb527161c9"
+    },
+    {
+      "frame_index": 27199,
+      "pts_seconds": 453.31666666666666,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000079.png",
+      "sha256": "88b84ab88dddfb69ed51cbcb04e5eba4b7f83717450ea25cb9741b1a1ffd20b3"
+    },
+    {
+      "frame_index": 27200,
+      "pts_seconds": 453.3333333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000080.png",
+      "sha256": "d283b13b5525c4ba5011ad9d006e7e8468865bc41324b157ec5173f5f267e182"
+    },
+    {
+      "frame_index": 27201,
+      "pts_seconds": 453.35,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000081.png",
+      "sha256": "53a0bbe487a6a37aeeee544a34466f3188301924dad17a7a3e3506511ba50cf0"
+    },
+    {
+      "frame_index": 27202,
+      "pts_seconds": 453.3666666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000082.png",
+      "sha256": "1f09a44eebdadab8c636b9cc588dc8e099065fc82d3d1c9e862ac7ad951f97ee"
+    },
+    {
+      "frame_index": 27203,
+      "pts_seconds": 453.3833333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000083.png",
+      "sha256": "ecaa1904fb52abd2945aab86779be94360f8def88b29eb208de37083cb8ea887"
+    },
+    {
+      "frame_index": 27204,
+      "pts_seconds": 453.4,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000084.png",
+      "sha256": "911ecd6d9fbbfbccac1eddb8bdd6cd591326fb448d647da023f3ec4b97dd1b9b"
+    },
+    {
+      "frame_index": 27205,
+      "pts_seconds": 453.4166666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000085.png",
+      "sha256": "6c7dff17730dabec1fb2c0e16e897d172ec2437c408886fce6e68663dd79ae9b"
+    },
+    {
+      "frame_index": 27206,
+      "pts_seconds": 453.43333333333334,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000086.png",
+      "sha256": "41764f78c225587a7443e1db0750eec14856f05985ef5666af343c662ab6d8e9"
+    },
+    {
+      "frame_index": 27207,
+      "pts_seconds": 453.45,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000087.png",
+      "sha256": "c5b33c9611314333f6ed5b6d4e149aeba9f2b4b4021fb68d2426330f4886470f"
+    },
+    {
+      "frame_index": 27208,
+      "pts_seconds": 453.46666666666664,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000088.png",
+      "sha256": "a2d7b91031de8e4cb99788f61f473082ab2013e30debe673fe92552631b566e0"
+    },
+    {
+      "frame_index": 27209,
+      "pts_seconds": 453.48333333333335,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000089.png",
+      "sha256": "b8e40c4a8811497e380d46423ac3b402e9563a59a5a01c85d1443080be403bcf"
+    },
+    {
+      "frame_index": 27210,
+      "pts_seconds": 453.5,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000090.png",
+      "sha256": "8a449217e7621be5d7255bd71190e765b53c9b184e3174d5891c654d861e7326"
+    },
+    {
+      "frame_index": 27211,
+      "pts_seconds": 453.51666666666665,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000091.png",
+      "sha256": "512f3aa92a821459b4bf0121d4dcd42b7a8de2f9dcbf359f3ef3b10e16ed7e63"
+    },
+    {
+      "frame_index": 27212,
+      "pts_seconds": 453.53333333333336,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000092.png",
+      "sha256": "2a9b6518e77ab22c2c49c9b0b5c2edc7f85718da2529a57b4069bca7f9cf56aa"
+    },
+    {
+      "frame_index": 27213,
+      "pts_seconds": 453.55,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000093.png",
+      "sha256": "424d2231ba12dde2a23e1b9ce78680d43cd17746a3688eaa290d7ddff8490677"
+    },
+    {
+      "frame_index": 27214,
+      "pts_seconds": 453.56666666666666,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000094.png",
+      "sha256": "8614c7e6e1466ce4e3cde0c4fdb63b2b2f7d84cb7ee304b655e8884d5205e5ce"
+    },
+    {
+      "frame_index": 27215,
+      "pts_seconds": 453.5833333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000095.png",
+      "sha256": "b9f469c2dc3be6fa96711c0c250bd5a9b2c0d3d4578224b2086c701f4f7cce45"
+    },
+    {
+      "frame_index": 27216,
+      "pts_seconds": 453.6,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000096.png",
+      "sha256": "68790c615d3bd6c6346784001b428c78ce4a32eb932d8fae63d6e9b841bf6b21"
+    },
+    {
+      "frame_index": 27217,
+      "pts_seconds": 453.6166666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000097.png",
+      "sha256": "cee5964d7e09bd1ee16e147d25a7c0d570e1cde33a813a84f1ee49e3bada5476"
+    },
+    {
+      "frame_index": 27218,
+      "pts_seconds": 453.6333333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000098.png",
+      "sha256": "729f3bfd0641752a2c1b5db54145df603bbaa325cabea514e9f59cacaa5964c6"
+    },
+    {
+      "frame_index": 27219,
+      "pts_seconds": 453.65,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000099.png",
+      "sha256": "c7fd97120f197f1f14a26c89d2379992278204fdd4c735a0713cfbcff7f139a4"
+    },
+    {
+      "frame_index": 27220,
+      "pts_seconds": 453.6666666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000100.png",
+      "sha256": "2d84b00311a21db3d1938e14b5ca3c79e1f747f08a1d0f1cdfbce9f762216ca8"
+    },
+    {
+      "frame_index": 27221,
+      "pts_seconds": 453.68333333333334,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000101.png",
+      "sha256": "d8ba77872beeb0a538da03b1c15c7044ff68ae86ba6685035c6aa3d522d95c28"
+    },
+    {
+      "frame_index": 27222,
+      "pts_seconds": 453.7,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000102.png",
+      "sha256": "8a566ced5e0a82993527f56886185437d3703d2614d8b29e07e3c6a62b7dd47f"
+    },
+    {
+      "frame_index": 27223,
+      "pts_seconds": 453.71666666666664,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000103.png",
+      "sha256": "98f35a8860c1da88efd08200f0444ec9eee89618699bb00befec38fa4758f900"
+    },
+    {
+      "frame_index": 27224,
+      "pts_seconds": 453.73333333333335,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000104.png",
+      "sha256": "a30cf4924907444b5bd9c129915caf9058094577631886f80f5da2d74b429cbe"
+    },
+    {
+      "frame_index": 27225,
+      "pts_seconds": 453.75,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000105.png",
+      "sha256": "af8737e8b50b702d4fa041c33ecd2e6adb15b764087ad1306cfb83ef635f8e49"
+    },
+    {
+      "frame_index": 27226,
+      "pts_seconds": 453.76666666666665,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000106.png",
+      "sha256": "f07c202fa03d03b8b51075d9db36194bf4def990bc8d53de612e186abb4ac006"
+    },
+    {
+      "frame_index": 27227,
+      "pts_seconds": 453.78333333333336,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000107.png",
+      "sha256": "7b5d348b9b48af5b4f5ff88c802279f36f04b14acd0b2c2634ba5ce98932536d"
+    },
+    {
+      "frame_index": 27228,
+      "pts_seconds": 453.8,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000108.png",
+      "sha256": "a8ebb85b043b50309e7f9c44d56adf93bdf01d243db365b7e331b942702dc584"
+    },
+    {
+      "frame_index": 27229,
+      "pts_seconds": 453.81666666666666,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000109.png",
+      "sha256": "a1704e45e1924e6f76067326eace89d55ae988b67f44a85536cf8b2ccbd18065"
+    },
+    {
+      "frame_index": 27230,
+      "pts_seconds": 453.8333333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000110.png",
+      "sha256": "44d6996abd6b56d0013d32fdce063255acdd8e1aa0b0ff7627e1446cab8c204a"
+    },
+    {
+      "frame_index": 27231,
+      "pts_seconds": 453.85,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000111.png",
+      "sha256": "999b4dca560ab2292c8be425689282a302d45afe95a696e100d009fe7df4604c"
+    },
+    {
+      "frame_index": 27232,
+      "pts_seconds": 453.8666666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000112.png",
+      "sha256": "2d24c3aee76d3ee93718ff71dcc9038dac5caf2897a06ff8d66839483fab8eb4"
+    },
+    {
+      "frame_index": 27233,
+      "pts_seconds": 453.8833333333333,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000113.png",
+      "sha256": "10257f2f58389f933ca8e74419a56ff82d9bcbced6c59af418cdca2f1f2dad99"
+    },
+    {
+      "frame_index": 27234,
+      "pts_seconds": 453.9,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000114.png",
+      "sha256": "81ae254fc601dfe474ebab618cace9a106f3cc905e605e76a1c20c8982756907"
+    },
+    {
+      "frame_index": 27235,
+      "pts_seconds": 453.9166666666667,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000115.png",
+      "sha256": "02240220aecf8b01b033dce9906167203ae6d309566b851563d9e0f2c1c440f1"
+    },
+    {
+      "frame_index": 27236,
+      "pts_seconds": 453.93333333333334,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000116.png",
+      "sha256": "fadceffcc9667bf928b709f8ba7090ea1b861e9b711fdf8d03b03cdec86a6875"
+    },
+    {
+      "frame_index": 27237,
+      "pts_seconds": 453.95,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000117.png",
+      "sha256": "27a8c45b0ac5ed5e16674a9c7430f1b210cd7f3bc124247b6dea916ccc598b69"
+    },
+    {
+      "frame_index": 27238,
+      "pts_seconds": 453.96666666666664,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000118.png",
+      "sha256": "2e062b91613cd04a610963c3bde34c054cc2ac9c3350111effdf6f3275ab8278"
+    },
+    {
+      "frame_index": 27239,
+      "pts_seconds": 453.98333333333335,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/frame-000119.png",
+      "sha256": "921654d450adb95077e1a207d8dd6e4722aa98017e7373db26e67bd0d8b5950b"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-001.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-002.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-003.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-004.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/root-rock-change/consecutive-005.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

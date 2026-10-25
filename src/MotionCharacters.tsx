@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react';
 import {AbsoluteFill,Audio,cancelRender,continueRender,delayRender,staticFile,useCurrentFrame} from 'remotion';
 import {IllustratedTitle} from './IllustratedTitle';
 import narration from './data/crowd-motion-narration.json';
+import {bendSector} from '../animation-mastery/engine/animation/bendSkin';
 
 const art='assets/artwork/approved-characters/';
 const clamp=(x:number)=>Math.min(1,Math.max(0,x));
@@ -43,6 +44,11 @@ function solPose(f:number){
     wrist:track(f,[[0,-2],[notice+29,-2],[notice+46,5],[notice+56,2],[notice+75,2],[notice+92,-3],[notice+111,1],[caution+10,1],[caution+31,-1],[599,-1]])
   };
 }
+
+// Optional authored poses let new stories reuse the approved textured artwork.
+// Defaults preserve every earlier composition; no source atlas is repainted.
+export type MiraActingPose=ReturnType<typeof miraPose>;
+export type SolActingPose=ReturnType<typeof solPose>;
 
 type Point=[number,number];
 /** Continuous texture skinning. Adjacent triangles share deformed vertices;
@@ -89,6 +95,11 @@ const miraArmPoint=(point:Point,p:ReturnType<typeof miraPose>):Point=>{
   const q=mixPoint(point,rotate(point,p.wrist,[-25,-354]),wristWeight);
   return mixPoint(q,rotate(q,p.elbow,[-86,-338]),elbowWeight);
 };
+const miraArmPointExtended=(point:Point,p:MiraActingPose):Point=>{
+  const wristWeight=smooth((point[0]+60)/55);
+  const q=mixPoint(point,rotate(point,p.wrist,[-25,-354]),wristWeight);
+  return bendSector(q,[-86,-338],p.elbow);
+};
 const solArmPoint=(point:Point,p:ReturnType<typeof solPose>):Point=>{
   const elbowWeight=smooth((-point[0]-65+(point[1]+380)*.5)/55);
   const wristWeight=smooth((-point[0]-140)/25);
@@ -98,10 +109,13 @@ const solArmPoint=(point:Point,p:ReturnType<typeof solPose>):Point=>{
 /** Geometry-only inspection hook; no production assets or API access. */
 export const motionGeometry=(frame:number)=>{
   const m=miraPose(frame),s=solPose(frame);
+  return motionGeometryForPoses(m,s);
+};
+export const motionGeometryForPoses=(m:MiraActingPose,s:SolActingPose,extended=false)=>{
   return [
     {name:'Mira body',xs:BODY_X,ys:BODY_Y,deform:(p:Point)=>bodyPoint(p,false,m.lean)},
     {name:'Sol body',xs:BODY_X,ys:BODY_Y,deform:(p:Point)=>bodyPoint(p,true,s.lean)},
-    {name:'Mira arm',xs:MIRA_X,ys:MIRA_Y,deform:(p:Point)=>miraArmPoint(p,m)},
+    {name:'Mira arm',xs:MIRA_X,ys:MIRA_Y,deform:(p:Point)=>(extended?miraArmPointExtended:miraArmPoint)(p,m)},
     {name:'Sol arm',xs:SOL_X,ys:SOL_Y,deform:(p:Point)=>solArmPoint(p,s)},
   ];
 };
@@ -111,8 +125,14 @@ const Body:React.FC<{id:string;sol?:boolean;lean:number;rigid?:boolean}>=({id,so
   return <Mesh id={`${id}-body`} xs={BODY_X} ys={BODY_Y} deform={point=>bodyPoint(point,sol,lean)}>{body}</Mesh>;
 };
 
-export const MotionMira:React.FC<{frame:number;id:string;crowd?:boolean}>=({frame:f,id,crowd=false})=>{
-  const p=miraPose(crowd?0:f),closed=blink(f,[69,168,notice+54,response,resolve+24,562]);
+export const miraHandAnchor=(p:MiraActingPose,extended=false):Point=>{
+  let point:Point=(extended?miraArmPointExtended:miraArmPoint)([16,-387],p);
+  point=rotate(point,p.shoulder,[-70,-405]);
+  return rotate(point,p.lean,[0,-310]);
+};
+
+export const MotionMira:React.FC<{frame:number;id:string;crowd?:boolean;poseOverride?:Partial<MiraActingPose>;blinkOverride?:boolean;steam?:boolean;skinMode?:'approved'|'extended'}>=({frame:f,id,crowd=false,poseOverride,blinkOverride,steam=poseOverride===undefined,skinMode='approved'})=>{
+  const p={...miraPose(crowd?0:f),...poseOverride},closed=blinkOverride??blink(f,[69,168,notice+54,response,resolve+24,562]);
   const bodyY=-310;
   const arm=<Part col={3} row={0} x={-145.9} y={-531.5} scale={.55} closed/>;
   const cupPoint=(birth:number)=>{
@@ -127,22 +147,22 @@ export const MotionMira:React.FC<{frame:number;id:string;crowd?:boolean}>=({fram
         <clipPath id={`${id}-eyes`}><ellipse cx="-3" cy="-485" rx="13" ry="15"/><ellipse cx="34" cy="-499" rx="13" ry="15"/></clipPath>
       </defs>
       <g transform={`rotate(${p.shoulder} -70 -405)`}>
-        {crowd?arm:<Mesh id={`${id}-arm`} xs={MIRA_X} ys={MIRA_Y} deform={point=>miraArmPoint(point,p)}>{arm}</Mesh>}
+        {crowd?arm:<Mesh id={`${id}-arm`} xs={MIRA_X} ys={MIRA_Y} deform={point=>(skinMode==='extended'?miraArmPointExtended:miraArmPoint)(point,p)}>{arm}</Mesh>}
       </g>
       <g transform={`rotate(${p.head} 0 -430)`}>
         <Part col={p.happy?1:2} row={0} x={-125.28} y={-655.96} scale={.58}/>
         {closed&&<g clipPath={`url(#${id}-eyes)`}><Part col={p.happy?1:2} row={0} x={-125.28} y={-655.96} scale={.58} closed/></g>}
       </g>
     </g>
-    {!crowd&&Array.from({length:4},(_,i)=>{
+    {!crowd&&steam&&Array.from({length:4},(_,i)=>{
       const age=(f+i*15)%60,birth=f-age,[x,y]=cupPoint(birth),life=age/60;
       return <path key={i} d={`M${x+Math.sin(age/16+i)*3} ${y-life*39}q-5-6 1-12`} fill="none" stroke="#FCE8DB" strokeWidth="1.4" strokeLinecap="round" opacity={Math.sin(Math.PI*life)*.35}/>;
     })}
   </>;
 };
 
-export const MotionSol:React.FC<{frame:number;id:string;crowd?:boolean}>=({frame:f,id,crowd=false})=>{
-  const p=solPose(crowd?0:f),closed=blink(f,[notice+7,notice+84,resolve+37,577]);
+export const MotionSol:React.FC<{frame:number;id:string;crowd?:boolean;poseOverride?:Partial<SolActingPose>;blinkOverride?:boolean}>=({frame:f,id,crowd=false,poseOverride,blinkOverride})=>{
+  const p={...solPose(crowd?0:f),...poseOverride},closed=blinkOverride??blink(f,[notice+7,notice+84,resolve+37,577]);
   const arm=<Part col={3} row={1} x={-219} y={-508.5} scale={.5}/>;
   return <>
     <Body id={id} sol lean={p.lean} rigid={crowd}/>

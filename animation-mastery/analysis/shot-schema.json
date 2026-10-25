@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reviewed animation shot annotation",
+  "type": "object",
+  "required": ["video_id", "shot_id", "source_sha256", "start_frame", "end_frame", "end_frame_exclusive", "boundary_review_status", "narrative_purpose", "composition", "characters", "objects", "background_layers", "motion_events", "camera_animation", "transitions", "visual_style_notes", "evidence_frames"],
+  "properties": {
+    "video_id": {"type": "string"},
+    "shot_id": {"type": "string"},
+    "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "start_frame": {"type": "integer", "minimum": 0},
+    "end_frame": {"type": "integer", "minimum": 1},
+    "end_frame_exclusive": {"const": true},
+    "boundary_review_status": {"enum": ["visually_confirmed", "transition_overlap_boundary_defined", "needs_refinement"]},
+    "start_pts_seconds": {"type": "number"},
+    "end_pts_seconds": {"type": "number"},
+    "narrative_purpose": {"type": "string", "minLength": 1},
+    "composition": {
+      "type": "object",
+      "required": ["attention_order", "subject_layout", "negative_space", "depth_order"],
+      "properties": {
+        "attention_order": {"type": "array", "items": {"type": "string"}},
+        "subject_layout": {"type": "array", "items": {"$ref": "#/$defs/element"}},
+        "negative_space": {"type": "string"},
+        "depth_order": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "characters": {"type": "array", "items": {"$ref": "#/$defs/element"}},
+    "objects": {"type": "array", "items": {"$ref": "#/$defs/element"}},
+    "background_layers": {"type": "array", "items": {"$ref": "#/$defs/element"}},
+    "motion_events": {"type": "array", "items": {"$ref": "#/$defs/motion"}},
+    "camera_animation": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+    "transitions": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+    "visual_style_notes": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+    "evidence_frames": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["frame_index", "pts_seconds", "file"], "properties": {"frame_index": {"type": "integer"}, "pts_seconds": {"type": "number"}, "file": {"type": "string"}}}}
+  },
+  "$defs": {
+    "claim": {
+      "type": "object",
+      "required": ["statement", "basis", "confidence", "evidence_frame_range"],
+      "properties": {
+        "statement": {"type": "string"},
+        "basis": {"enum": ["direct_observation", "measured", "inferred", "implementation_choice"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence_frame_range": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer"}},
+        "method": {"type": ["string", "null"]},
+        "limitations": {"type": ["string", "null"]}
+      }
+    },
+    "element": {
+      "type": "object",
+      "required": ["object_id", "description", "visibility"],
+      "properties": {
+        "object_id": {"type": "string", "description": "Stable semantic ID across relevant shots, assigned by visual review; never an optical-flow corner ID."},
+        "description": {"type": "string"},
+        "visibility": {"enum": ["visible", "partly_occluded", "enters", "exits"]},
+        "bounds_normalized_xyxy": {"type": ["array", "null"], "items": {"type": "number", "minimum": 0, "maximum": 1}},
+        "bounds_at_frame": {"type": ["integer", "null"]},
+        "construction_claims": {"type": "array", "items": {"$ref": "#/$defs/claim"}}
+      }
+    },
+    "motion": {
+      "type": "object",
+      "required": ["object_ids", "start_frame", "end_frame", "purpose", "basis", "confidence", "phases"],
+      "properties": {
+        "object_ids": {"type": "array", "items": {"type": "string"}},
+        "start_frame": {"type": "integer"},
+        "end_frame": {"type": "integer"},
+        "purpose": {"type": "string"},
+        "basis": {"enum": ["direct_observation", "measured", "inferred"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "phases": {"type": "array", "items": {"type": "object", "required": ["phase", "start_frame", "end_frame", "pose_or_state"], "properties": {"phase": {"type": "string"}, "start_frame": {"type": "integer"}, "end_frame": {"type": "integer"}, "pose_or_state": {"type": "string"}}}},
+        "key_poses": {"type": "array", "items": {"type": "object"}},
+        "position_track": {"type": "array", "items": {"type": "object"}},
+        "pivot_estimate": {"type": ["object", "null"]},
+        "rotation_track": {"type": "array", "items": {"type": "object"}},
+        "scale_track": {"type": "array", "items": {"type": "object"}},
+        "deformation_observations": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "interpolation_hypothesis": {"type": ["string", "null"]},
+        "path_hypothesis": {"type": ["string", "null"]},
+        "occlusion_and_depth_changes": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "interaction_partner_ids": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

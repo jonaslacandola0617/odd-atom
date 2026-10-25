@@ -1,0 +1,97 @@
+{
+  "scope": "Actual requested archive",
+  "status": "Investigation targets selected from whole-video navigation; conclusions require consecutive-frame inspection.",
+  "cases": [
+    {
+      "video_id": "reference_fd02030ee890",
+      "start_frame": 7340,
+      "end_frame": 7460,
+      "name": "materials-arrival",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_46db30e386c9",
+      "start_frame": 90,
+      "end_frame": 114,
+      "name": "forest-layer-motion",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_46db30e386c9",
+      "start_frame": 13080,
+      "end_frame": 13200,
+      "name": "tree-conduit-flow",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_46db30e386c9",
+      "start_frame": 24960,
+      "end_frame": 25032,
+      "name": "cell-column-change",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_2e586456bc4d",
+      "start_frame": 27120,
+      "end_frame": 27240,
+      "name": "root-rock-change",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_2e586456bc4d",
+      "start_frame": 10140,
+      "end_frame": 10260,
+      "name": "leaf-section-reveal",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_3dab4435d188",
+      "start_frame": 46200,
+      "end_frame": 46260,
+      "name": "hillside-walk-cycle",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_3dab4435d188",
+      "start_frame": 54540,
+      "end_frame": 54660,
+      "name": "tablet-hand-interaction",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_3dab4435d188",
+      "start_frame": 24960,
+      "end_frame": 25080,
+      "name": "fire-circle-secondary-motion",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "start_frame": 12300,
+      "end_frame": 12420,
+      "name": "boat-reward-path",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "start_frame": 10260,
+      "end_frame": 10380,
+      "name": "room-object-change",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "start_frame": 28320,
+      "end_frame": 28440,
+      "name": "shared-route-reveal",
+      "frame_range_convention": "[start,end)"
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "start_frame": 53940,
+      "end_frame": 54060,
+      "name": "agent-group-staging",
+      "frame_range_convention": "[start,end)"
+    }
+  ]
+}

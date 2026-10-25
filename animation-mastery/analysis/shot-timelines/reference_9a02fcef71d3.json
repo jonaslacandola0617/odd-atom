@@ -1,0 +1,2638 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "frame_range_convention": "[start_frame,end_frame), zero-based decoded display order",
+  "coverage": "All decoded frames; proposed boundaries are not a verified scene count.",
+  "candidate_boundaries": [
+    {
+      "frame_index": 195,
+      "score": 0.5529750985074658
+    },
+    {
+      "frame_index": 1666,
+      "score": 0.40219458336209823
+    },
+    {
+      "frame_index": 3890,
+      "score": 0.6771599834892131
+    },
+    {
+      "frame_index": 5911,
+      "score": 0.5901172287079018
+    },
+    {
+      "frame_index": 6091,
+      "score": 0.4115805990503856
+    },
+    {
+      "frame_index": 10821,
+      "score": 0.9067057164584053
+    },
+    {
+      "frame_index": 11095,
+      "score": 0.5424493674301636
+    },
+    {
+      "frame_index": 11946,
+      "score": 0.7761144622701983
+    },
+    {
+      "frame_index": 12141,
+      "score": 0.8293368686037369
+    },
+    {
+      "frame_index": 12366,
+      "score": 0.8277320598085594
+    },
+    {
+      "frame_index": 13086,
+      "score": 0.7903150344415875
+    },
+    {
+      "frame_index": 13444,
+      "score": 1.1809286394622818
+    },
+    {
+      "frame_index": 18297,
+      "score": 0.6222011208495286
+    },
+    {
+      "frame_index": 23157,
+      "score": 0.658576418289716
+    },
+    {
+      "frame_index": 25167,
+      "score": 0.30583822900118773
+    },
+    {
+      "frame_index": 26507,
+      "score": 0.3948753160834174
+    },
+    {
+      "frame_index": 27032,
+      "score": 0.389159885237225
+    },
+    {
+      "frame_index": 27319,
+      "score": 0.4441049070681724
+    },
+    {
+      "frame_index": 28813,
+      "score": 0.43838174519653383
+    },
+    {
+      "frame_index": 30887,
+      "score": 0.3946133026040989
+    },
+    {
+      "frame_index": 31504,
+      "score": 0.4001869666409057
+    },
+    {
+      "frame_index": 33800,
+      "score": 0.45895838326316124
+    },
+    {
+      "frame_index": 33945,
+      "score": 0.5545131127145937
+    },
+    {
+      "frame_index": 35560,
+      "score": 0.39260903650735574
+    },
+    {
+      "frame_index": 36300,
+      "score": 0.519303482908593
+    },
+    {
+      "frame_index": 37705,
+      "score": 0.47001920072128633
+    },
+    {
+      "frame_index": 38942,
+      "score": 0.5109686668872175
+    },
+    {
+      "frame_index": 39188,
+      "score": 0.39182529043559056
+    },
+    {
+      "frame_index": 42436,
+      "score": 0.5624932881782223
+    },
+    {
+      "frame_index": 43006,
+      "score": 0.5011728392369273
+    },
+    {
+      "frame_index": 55265,
+      "score": 0.5437906889802443
+    },
+    {
+      "frame_index": 58785,
+      "score": 0.6635556292549165
+    },
+    {
+      "frame_index": 59955,
+      "score": 0.4445386156519028
+    },
+    {
+      "frame_index": 60777,
+      "score": 0.8901250978068606
+    },
+    {
+      "frame_index": 61235,
+      "score": 0.7234446447338748
+    },
+    {
+      "frame_index": 62525,
+      "score": 0.5659016399166108
+    },
+    {
+      "frame_index": 64538,
+      "score": 0.5633515306013376
+    },
+    {
+      "frame_index": 64873,
+      "score": 0.5313025166338954
+    },
+    {
+      "frame_index": 65458,
+      "score": 0.630549339195978
+    },
+    {
+      "frame_index": 66773,
+      "score": 0.7497513780249541
+    },
+    {
+      "frame_index": 67283,
+      "score": 0.5067642182983061
+    },
+    {
+      "frame_index": 69323,
+      "score": 0.4902489854228087
+    },
+    {
+      "frame_index": 69582,
+      "score": 0.4487391404695275
+    },
+    {
+      "frame_index": 71898,
+      "score": 0.48507689272127463
+    },
+    {
+      "frame_index": 73936,
+      "score": 0.513488272656779
+    },
+    {
+      "frame_index": 75288,
+      "score": 0.5732911953836981
+    },
+    {
+      "frame_index": 75624,
+      "score": 0.6570404592098602
+    },
+    {
+      "frame_index": 75899,
+      "score": 0.8525625206927829
+    },
+    {
+      "frame_index": 76068,
+      "score": 0.7542720121327497
+    },
+    {
+      "frame_index": 76588,
+      "score": 0.5281407952794664
+    },
+    {
+      "frame_index": 76720,
+      "score": 0.4323858087167042
+    },
+    {
+      "frame_index": 76793,
+      "score": 0.43905913070443237
+    },
+    {
+      "frame_index": 76865,
+      "score": 0.5550601275688003
+    },
+    {
+      "frame_index": 77039,
+      "score": 0.49667869464317627
+    },
+    {
+      "frame_index": 77149,
+      "score": 0.5558883782057185
+    }
+  ],
+  "shots": [
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_001",
+      "start_frame": 0,
+      "end_frame": 195,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 0.0,
+      "end_pts_seconds": 3.25,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 0,
+          "pts_seconds": 0.0,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 97,
+          "pts_seconds": 1.6166666666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 194,
+          "pts_seconds": 3.2333333333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_002",
+      "start_frame": 195,
+      "end_frame": 1666,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 3.25,
+      "end_pts_seconds": 27.766666666666666,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 195,
+          "pts_seconds": 3.25,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 930,
+          "pts_seconds": 15.5,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 1665,
+          "pts_seconds": 27.75,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_003",
+      "start_frame": 1666,
+      "end_frame": 3890,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 27.766666666666666,
+      "end_pts_seconds": 64.83333333333333,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 1666,
+          "pts_seconds": 27.766666666666666,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 2777,
+          "pts_seconds": 46.28333333333333,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 3889,
+          "pts_seconds": 64.81666666666666,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_004",
+      "start_frame": 3890,
+      "end_frame": 5911,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 64.83333333333333,
+      "end_pts_seconds": 98.51666666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 3890,
+          "pts_seconds": 64.83333333333333,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 4900,
+          "pts_seconds": 81.66666666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 5910,
+          "pts_seconds": 98.5,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_005",
+      "start_frame": 5911,
+      "end_frame": 6091,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 98.51666666666667,
+      "end_pts_seconds": 101.51666666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 5911,
+          "pts_seconds": 98.51666666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 6000,
+          "pts_seconds": 100.0,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 6090,
+          "pts_seconds": 101.5,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_006",
+      "start_frame": 6091,
+      "end_frame": 10821,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 101.51666666666667,
+      "end_pts_seconds": 180.35,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 6091,
+          "pts_seconds": 101.51666666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 8455,
+          "pts_seconds": 140.91666666666666,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 10820,
+          "pts_seconds": 180.33333333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_007",
+      "start_frame": 10821,
+      "end_frame": 11095,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 180.35,
+      "end_pts_seconds": 184.91666666666666,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 10821,
+          "pts_seconds": 180.35,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 10957,
+          "pts_seconds": 182.61666666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 11094,
+          "pts_seconds": 184.9,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_008",
+      "start_frame": 11095,
+      "end_frame": 11946,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 184.91666666666666,
+      "end_pts_seconds": 199.1,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 11095,
+          "pts_seconds": 184.91666666666666,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 11520,
+          "pts_seconds": 192.0,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 11945,
+          "pts_seconds": 199.08333333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_009",
+      "start_frame": 11946,
+      "end_frame": 12141,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 199.1,
+      "end_pts_seconds": 202.35,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 11946,
+          "pts_seconds": 199.1,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 12043,
+          "pts_seconds": 200.71666666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 12140,
+          "pts_seconds": 202.33333333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_010",
+      "start_frame": 12141,
+      "end_frame": 12366,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 202.35,
+      "end_pts_seconds": 206.1,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 12141,
+          "pts_seconds": 202.35,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 12253,
+          "pts_seconds": 204.21666666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 12365,
+          "pts_seconds": 206.08333333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_011",
+      "start_frame": 12366,
+      "end_frame": 13086,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 206.1,
+      "end_pts_seconds": 218.1,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 12366,
+          "pts_seconds": 206.1,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 12725,
+          "pts_seconds": 212.08333333333334,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 13085,
+          "pts_seconds": 218.08333333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_012",
+      "start_frame": 13086,
+      "end_frame": 13444,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 218.1,
+      "end_pts_seconds": 224.06666666666666,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 13086,
+          "pts_seconds": 218.1,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 13264,
+          "pts_seconds": 221.06666666666666,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 13443,
+          "pts_seconds": 224.05,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_013",
+      "start_frame": 13444,
+      "end_frame": 18297,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 224.06666666666666,
+      "end_pts_seconds": 304.95,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 13444,
+          "pts_seconds": 224.06666666666666,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 15870,
+          "pts_seconds": 264.5,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 18296,
+          "pts_seconds": 304.93333333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_014",
+      "start_frame": 18297,
+      "end_frame": 23157,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 304.95,
+      "end_pts_seconds": 385.95,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 18297,
+          "pts_seconds": 304.95,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 20726,
+          "pts_seconds": 345.43333333333334,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 23156,
+          "pts_seconds": 385.93333333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_015",
+      "start_frame": 23157,
+      "end_frame": 25167,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 385.95,
+      "end_pts_seconds": 419.45,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 23157,
+          "pts_seconds": 385.95,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 24161,
+          "pts_seconds": 402.68333333333334,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 25166,
+          "pts_seconds": 419.43333333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_016",
+      "start_frame": 25167,
+      "end_frame": 26507,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 419.45,
+      "end_pts_seconds": 441.78333333333336,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 25167,
+          "pts_seconds": 419.45,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 25836,
+          "pts_seconds": 430.6,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 26506,
+          "pts_seconds": 441.76666666666665,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_017",
+      "start_frame": 26507,
+      "end_frame": 27032,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 441.78333333333336,
+      "end_pts_seconds": 450.53333333333336,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 26507,
+          "pts_seconds": 441.78333333333336,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 26769,
+          "pts_seconds": 446.15,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 27031,
+          "pts_seconds": 450.51666666666665,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_018",
+      "start_frame": 27032,
+      "end_frame": 27319,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 450.53333333333336,
+      "end_pts_seconds": 455.31666666666666,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 27032,
+          "pts_seconds": 450.53333333333336,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 27175,
+          "pts_seconds": 452.9166666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 27318,
+          "pts_seconds": 455.3,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_019",
+      "start_frame": 27319,
+      "end_frame": 28813,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 455.31666666666666,
+      "end_pts_seconds": 480.21666666666664,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 27319,
+          "pts_seconds": 455.31666666666666,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 28065,
+          "pts_seconds": 467.75,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 28812,
+          "pts_seconds": 480.2,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_020",
+      "start_frame": 28813,
+      "end_frame": 30887,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 480.21666666666664,
+      "end_pts_seconds": 514.7833333333333,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 28813,
+          "pts_seconds": 480.21666666666664,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 29849,
+          "pts_seconds": 497.48333333333335,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 30886,
+          "pts_seconds": 514.7666666666667,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_021",
+      "start_frame": 30887,
+      "end_frame": 31504,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 514.7833333333333,
+      "end_pts_seconds": 525.0666666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 30887,
+          "pts_seconds": 514.7833333333333,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 31195,
+          "pts_seconds": 519.9166666666666,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 31503,
+          "pts_seconds": 525.05,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_022",
+      "start_frame": 31504,
+      "end_frame": 33800,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 525.0666666666667,
+      "end_pts_seconds": 563.3333333333334,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 31504,
+          "pts_seconds": 525.0666666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 32651,
+          "pts_seconds": 544.1833333333333,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 33799,
+          "pts_seconds": 563.3166666666667,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_023",
+      "start_frame": 33800,
+      "end_frame": 33945,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 563.3333333333334,
+      "end_pts_seconds": 565.75,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 33800,
+          "pts_seconds": 563.3333333333334,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 33872,
+          "pts_seconds": 564.5333333333333,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 33944,
+          "pts_seconds": 565.7333333333333,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_024",
+      "start_frame": 33945,
+      "end_frame": 35560,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 565.75,
+      "end_pts_seconds": 592.6666666666666,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 33945,
+          "pts_seconds": 565.75,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 34752,
+          "pts_seconds": 579.2,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 35559,
+          "pts_seconds": 592.65,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_025",
+      "start_frame": 35560,
+      "end_frame": 36300,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 592.6666666666666,
+      "end_pts_seconds": 605.0,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 35560,
+          "pts_seconds": 592.6666666666666,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 35929,
+          "pts_seconds": 598.8166666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 36299,
+          "pts_seconds": 604.9833333333333,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_026",
+      "start_frame": 36300,
+      "end_frame": 37705,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 605.0,
+      "end_pts_seconds": 628.4166666666666,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 36300,
+          "pts_seconds": 605.0,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 37002,
+          "pts_seconds": 616.7,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 37704,
+          "pts_seconds": 628.4,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_027",
+      "start_frame": 37705,
+      "end_frame": 38942,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 628.4166666666666,
+      "end_pts_seconds": 649.0333333333333,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 37705,
+          "pts_seconds": 628.4166666666666,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 38323,
+          "pts_seconds": 638.7166666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 38941,
+          "pts_seconds": 649.0166666666667,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_028",
+      "start_frame": 38942,
+      "end_frame": 39188,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 649.0333333333333,
+      "end_pts_seconds": 653.1333333333333,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 38942,
+          "pts_seconds": 649.0333333333333,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 39064,
+          "pts_seconds": 651.0666666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 39187,
+          "pts_seconds": 653.1166666666667,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_029",
+      "start_frame": 39188,
+      "end_frame": 42436,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 653.1333333333333,
+      "end_pts_seconds": 707.2666666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 39188,
+          "pts_seconds": 653.1333333333333,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 40811,
+          "pts_seconds": 680.1833333333333,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 42435,
+          "pts_seconds": 707.25,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_030",
+      "start_frame": 42436,
+      "end_frame": 43006,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 707.2666666666667,
+      "end_pts_seconds": 716.7666666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 42436,
+          "pts_seconds": 707.2666666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 42720,
+          "pts_seconds": 712.0,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 43005,
+          "pts_seconds": 716.75,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_031",
+      "start_frame": 43006,
+      "end_frame": 55265,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 716.7666666666667,
+      "end_pts_seconds": 921.0833333333334,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 43006,
+          "pts_seconds": 716.7666666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 49135,
+          "pts_seconds": 818.9166666666666,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 55264,
+          "pts_seconds": 921.0666666666667,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_032",
+      "start_frame": 55265,
+      "end_frame": 58785,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 921.0833333333334,
+      "end_pts_seconds": 979.75,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 55265,
+          "pts_seconds": 921.0833333333334,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 57024,
+          "pts_seconds": 950.4,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 58784,
+          "pts_seconds": 979.7333333333333,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_033",
+      "start_frame": 58785,
+      "end_frame": 59955,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 979.75,
+      "end_pts_seconds": 999.25,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 58785,
+          "pts_seconds": 979.75,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 59369,
+          "pts_seconds": 989.4833333333333,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 59954,
+          "pts_seconds": 999.2333333333333,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_034",
+      "start_frame": 59955,
+      "end_frame": 60777,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 999.25,
+      "end_pts_seconds": 1012.95,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 59955,
+          "pts_seconds": 999.25,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 60365,
+          "pts_seconds": 1006.0833333333334,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 60776,
+          "pts_seconds": 1012.9333333333333,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_035",
+      "start_frame": 60777,
+      "end_frame": 61235,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1012.95,
+      "end_pts_seconds": 1020.5833333333334,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 60777,
+          "pts_seconds": 1012.95,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 61005,
+          "pts_seconds": 1016.75,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 61234,
+          "pts_seconds": 1020.5666666666667,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_036",
+      "start_frame": 61235,
+      "end_frame": 62525,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1020.5833333333334,
+      "end_pts_seconds": 1042.0833333333333,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 61235,
+          "pts_seconds": 1020.5833333333334,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 61879,
+          "pts_seconds": 1031.3166666666666,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 62524,
+          "pts_seconds": 1042.0666666666666,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_037",
+      "start_frame": 62525,
+      "end_frame": 64538,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1042.0833333333333,
+      "end_pts_seconds": 1075.6333333333334,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 62525,
+          "pts_seconds": 1042.0833333333333,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 63531,
+          "pts_seconds": 1058.85,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 64537,
+          "pts_seconds": 1075.6166666666666,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_038",
+      "start_frame": 64538,
+      "end_frame": 64873,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1075.6333333333334,
+      "end_pts_seconds": 1081.2166666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 64538,
+          "pts_seconds": 1075.6333333333334,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 64705,
+          "pts_seconds": 1078.4166666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 64872,
+          "pts_seconds": 1081.2,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_039",
+      "start_frame": 64873,
+      "end_frame": 65458,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1081.2166666666667,
+      "end_pts_seconds": 1090.9666666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 64873,
+          "pts_seconds": 1081.2166666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 65165,
+          "pts_seconds": 1086.0833333333333,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 65457,
+          "pts_seconds": 1090.95,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_040",
+      "start_frame": 65458,
+      "end_frame": 66773,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1090.9666666666667,
+      "end_pts_seconds": 1112.8833333333334,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 65458,
+          "pts_seconds": 1090.9666666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 66115,
+          "pts_seconds": 1101.9166666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 66772,
+          "pts_seconds": 1112.8666666666666,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_041",
+      "start_frame": 66773,
+      "end_frame": 67283,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1112.8833333333334,
+      "end_pts_seconds": 1121.3833333333334,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 66773,
+          "pts_seconds": 1112.8833333333334,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 67027,
+          "pts_seconds": 1117.1166666666666,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 67282,
+          "pts_seconds": 1121.3666666666666,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_042",
+      "start_frame": 67283,
+      "end_frame": 69323,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1121.3833333333334,
+      "end_pts_seconds": 1155.3833333333334,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 67283,
+          "pts_seconds": 1121.3833333333334,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 68302,
+          "pts_seconds": 1138.3666666666666,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 69322,
+          "pts_seconds": 1155.3666666666666,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_043",
+      "start_frame": 69323,
+      "end_frame": 69582,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1155.3833333333334,
+      "end_pts_seconds": 1159.7,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 69323,
+          "pts_seconds": 1155.3833333333334,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 69452,
+          "pts_seconds": 1157.5333333333333,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 69581,
+          "pts_seconds": 1159.6833333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_044",
+      "start_frame": 69582,
+      "end_frame": 71898,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1159.7,
+      "end_pts_seconds": 1198.3,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 69582,
+          "pts_seconds": 1159.7,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 70739,
+          "pts_seconds": 1178.9833333333333,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 71897,
+          "pts_seconds": 1198.2833333333333,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_045",
+      "start_frame": 71898,
+      "end_frame": 73936,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1198.3,
+      "end_pts_seconds": 1232.2666666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 71898,
+          "pts_seconds": 1198.3,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 72916,
+          "pts_seconds": 1215.2666666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 73935,
+          "pts_seconds": 1232.25,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_046",
+      "start_frame": 73936,
+      "end_frame": 75288,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1232.2666666666667,
+      "end_pts_seconds": 1254.8,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 73936,
+          "pts_seconds": 1232.2666666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 74611,
+          "pts_seconds": 1243.5166666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 75287,
+          "pts_seconds": 1254.7833333333333,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_047",
+      "start_frame": 75288,
+      "end_frame": 75624,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1254.8,
+      "end_pts_seconds": 1260.4,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 75288,
+          "pts_seconds": 1254.8,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 75455,
+          "pts_seconds": 1257.5833333333333,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 75623,
+          "pts_seconds": 1260.3833333333334,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_048",
+      "start_frame": 75624,
+      "end_frame": 75899,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1260.4,
+      "end_pts_seconds": 1264.9833333333333,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 75624,
+          "pts_seconds": 1260.4,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 75761,
+          "pts_seconds": 1262.6833333333334,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 75898,
+          "pts_seconds": 1264.9666666666667,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_049",
+      "start_frame": 75899,
+      "end_frame": 76068,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1264.9833333333333,
+      "end_pts_seconds": 1267.8,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 75899,
+          "pts_seconds": 1264.9833333333333,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 75983,
+          "pts_seconds": 1266.3833333333334,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76067,
+          "pts_seconds": 1267.7833333333333,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_050",
+      "start_frame": 76068,
+      "end_frame": 76588,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1267.8,
+      "end_pts_seconds": 1276.4666666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 76068,
+          "pts_seconds": 1267.8,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76327,
+          "pts_seconds": 1272.1166666666666,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76587,
+          "pts_seconds": 1276.45,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_051",
+      "start_frame": 76588,
+      "end_frame": 76720,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1276.4666666666667,
+      "end_pts_seconds": 1278.6666666666667,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 76588,
+          "pts_seconds": 1276.4666666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76653,
+          "pts_seconds": 1277.55,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76719,
+          "pts_seconds": 1278.65,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_052",
+      "start_frame": 76720,
+      "end_frame": 76793,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1278.6666666666667,
+      "end_pts_seconds": 1279.8833333333334,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 76720,
+          "pts_seconds": 1278.6666666666667,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76756,
+          "pts_seconds": 1279.2666666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76792,
+          "pts_seconds": 1279.8666666666666,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_053",
+      "start_frame": 76793,
+      "end_frame": 76865,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1279.8833333333334,
+      "end_pts_seconds": 1281.0833333333333,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 76793,
+          "pts_seconds": 1279.8833333333334,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76828,
+          "pts_seconds": 1280.4666666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76864,
+          "pts_seconds": 1281.0666666666666,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_054",
+      "start_frame": 76865,
+      "end_frame": 77039,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1281.0833333333333,
+      "end_pts_seconds": 1283.9833333333333,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 76865,
+          "pts_seconds": 1281.0833333333333,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 76951,
+          "pts_seconds": 1282.5166666666667,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 77038,
+          "pts_seconds": 1283.9666666666667,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_055",
+      "start_frame": 77039,
+      "end_frame": 77149,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1283.9833333333333,
+      "end_pts_seconds": 1285.8166666666666,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 77039,
+          "pts_seconds": 1283.9833333333333,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 77093,
+          "pts_seconds": 1284.8833333333334,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 77148,
+          "pts_seconds": 1285.8,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    },
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "shot_id": "proposal_056",
+      "start_frame": 77149,
+      "end_frame": 78231,
+      "end_frame_exclusive": true,
+      "start_pts_seconds": 1285.8166666666666,
+      "end_pts_seconds": 1303.85,
+      "nominal_fps": "60/1",
+      "variable_frame_rate_supported": true,
+      "boundary_review_status": "unreviewed_automated_proposal",
+      "narrative_purpose": null,
+      "composition": null,
+      "characters": [],
+      "objects": [],
+      "background_layers": [],
+      "motion_events": [],
+      "camera_animation": [],
+      "transitions": [],
+      "visual_style_notes": [],
+      "semantic_annotation_status": "not_started",
+      "evidence_frames": [
+        {
+          "frame_index": 77149,
+          "pts_seconds": 1285.8166666666666,
+          "role": "first",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 77689,
+          "pts_seconds": 1294.8166666666666,
+          "role": "middle",
+          "review_status": "unreviewed"
+        },
+        {
+          "frame_index": 78230,
+          "pts_seconds": 1303.8333333333333,
+          "role": "last",
+          "review_status": "unreviewed"
+        }
+      ],
+      "automation_limits": "No semantic elements identified. Common image transform is not necessarily camera motion. Cuts/reveals/pans and gradual transitions need visual review."
+    }
+  ]
+}

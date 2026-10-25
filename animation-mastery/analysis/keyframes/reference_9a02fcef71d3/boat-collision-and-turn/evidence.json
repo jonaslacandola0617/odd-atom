@@ -1,0 +1,744 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "name": "boat-collision-and-turn",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 12660,
+  "end_frame": 12780,
+  "end_frame_exclusive": true,
+  "source_start_pts": 211.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 12660,
+      "pts_seconds": 211.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000000.png",
+      "sha256": "277ab8b24107e9ea8284c7139fe310c8aa8f03c3977b44764570d7efcf340034"
+    },
+    {
+      "frame_index": 12661,
+      "pts_seconds": 211.01666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000001.png",
+      "sha256": "e76df3458c8c2893574ede2a1c9cbed9d5703d0cc3ff871b8c253946c1a7ebb2"
+    },
+    {
+      "frame_index": 12662,
+      "pts_seconds": 211.03333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000002.png",
+      "sha256": "dde7eaec075db5fff42678f88b1b3627eb1b28cb51f11ed316156c6335407790"
+    },
+    {
+      "frame_index": 12663,
+      "pts_seconds": 211.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000003.png",
+      "sha256": "3c4f5d9a49c24cbb137d27f8e06c3ff74df7fe71c26c1cf464f583c884e72428"
+    },
+    {
+      "frame_index": 12664,
+      "pts_seconds": 211.06666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000004.png",
+      "sha256": "0f38a37338dde30c487ec91586df28fab2376b5c76921500ab288d85b6a855f8"
+    },
+    {
+      "frame_index": 12665,
+      "pts_seconds": 211.08333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000005.png",
+      "sha256": "c61bfbf5630e54abf7637b99695499045ed918c420fa617bc6f0ef829fe8ec47"
+    },
+    {
+      "frame_index": 12666,
+      "pts_seconds": 211.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000006.png",
+      "sha256": "6ecb436195ae6c4451202367a403595b323049c3e5733b2707482266f228daa7"
+    },
+    {
+      "frame_index": 12667,
+      "pts_seconds": 211.11666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000007.png",
+      "sha256": "287e657d0254b1ad431e5dc53ab9a031109310f3301a06045eccaa27140bb234"
+    },
+    {
+      "frame_index": 12668,
+      "pts_seconds": 211.13333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000008.png",
+      "sha256": "9bc8f806e2c356de40c645ef235e23b5213ef62e0f070d4184367192ec8fd6e0"
+    },
+    {
+      "frame_index": 12669,
+      "pts_seconds": 211.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000009.png",
+      "sha256": "d6e0ce1c684edd2fc3702ac51f3941a975807acadc8f9f2bd113341d40da48db"
+    },
+    {
+      "frame_index": 12670,
+      "pts_seconds": 211.16666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000010.png",
+      "sha256": "5221931ae8bd779cd9675722a961d5f2f210b6b7109814045fcf9f35f07ee2fb"
+    },
+    {
+      "frame_index": 12671,
+      "pts_seconds": 211.18333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000011.png",
+      "sha256": "20e9087e4717a07a29dd5792b2cd7f8624aa75c29dc4e7e5db4b5b88f0d26dfa"
+    },
+    {
+      "frame_index": 12672,
+      "pts_seconds": 211.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000012.png",
+      "sha256": "c08dedf2b706aeddeb5f6be7a0817f28cc08dd381ed0dd44d8583900414fe104"
+    },
+    {
+      "frame_index": 12673,
+      "pts_seconds": 211.21666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000013.png",
+      "sha256": "2ea2eac6bfdf40f46ab88f6ff963701d366dc3545700f1a72942b2fff86be5cc"
+    },
+    {
+      "frame_index": 12674,
+      "pts_seconds": 211.23333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000014.png",
+      "sha256": "730a13c7f020c9f0138c0a8efa3da818123545f3354d0aaa97ec72add959a928"
+    },
+    {
+      "frame_index": 12675,
+      "pts_seconds": 211.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000015.png",
+      "sha256": "743fd84c3d58eb444871c484275d3c0cca151b9eb08b9d292d5fb017c0cae8f5"
+    },
+    {
+      "frame_index": 12676,
+      "pts_seconds": 211.26666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000016.png",
+      "sha256": "1090a7ef7fa5fb4a4865b1b20fa96847b4a87f66de280217c72a0cf60333dc52"
+    },
+    {
+      "frame_index": 12677,
+      "pts_seconds": 211.28333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000017.png",
+      "sha256": "89814f182051292e93d29752644b41b41c98e568f2e23e5888647a927bbb6077"
+    },
+    {
+      "frame_index": 12678,
+      "pts_seconds": 211.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000018.png",
+      "sha256": "decd49169d730d49b86fc20b1356fd8312e96ccfe28d436c50782b0fd48d9444"
+    },
+    {
+      "frame_index": 12679,
+      "pts_seconds": 211.31666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000019.png",
+      "sha256": "ebb43374da3aa50a14a7e403b92b68898ec28d57ad38ff9359488e9ce54c7136"
+    },
+    {
+      "frame_index": 12680,
+      "pts_seconds": 211.33333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000020.png",
+      "sha256": "0a472940cb1f34fe662dae74974f0eaddcef8c317c438eeeabeba101bbc64e0b"
+    },
+    {
+      "frame_index": 12681,
+      "pts_seconds": 211.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000021.png",
+      "sha256": "7e1bd716851c7e2afedf6c01815202be9f4058f7c97a13e12d7ec178c315af6e"
+    },
+    {
+      "frame_index": 12682,
+      "pts_seconds": 211.36666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000022.png",
+      "sha256": "a6be2ce88049305cd7599403ff4eb8d24a6ac6ee4a9d4aaf2fd161510df70dd2"
+    },
+    {
+      "frame_index": 12683,
+      "pts_seconds": 211.38333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000023.png",
+      "sha256": "fe4a0dec34cf01d12070747f7debcbafd545cf167dfada4f330ed5b3151d4ae2"
+    },
+    {
+      "frame_index": 12684,
+      "pts_seconds": 211.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000024.png",
+      "sha256": "7fa3e874c309d3d9080f697b377664cc12e21f20caf7c72568e09ca7014f9d81"
+    },
+    {
+      "frame_index": 12685,
+      "pts_seconds": 211.41666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000025.png",
+      "sha256": "0e296ac0c4dda3eaf4a038fb0900b4656018dac3ccdd20f9a8c5076b72633310"
+    },
+    {
+      "frame_index": 12686,
+      "pts_seconds": 211.43333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000026.png",
+      "sha256": "4b08cb43d8a41c428cd6418fddf9422631d693fe7506bd53e712c3c117813304"
+    },
+    {
+      "frame_index": 12687,
+      "pts_seconds": 211.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000027.png",
+      "sha256": "a603c81706566cb5c8f0fca2affe676af5d2a7aad1f1a0e2516bb9cf0b370e57"
+    },
+    {
+      "frame_index": 12688,
+      "pts_seconds": 211.46666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000028.png",
+      "sha256": "256b829632b0460629ebb175e039f1c3c0fb49107598b67813d59660bcc8fe49"
+    },
+    {
+      "frame_index": 12689,
+      "pts_seconds": 211.48333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000029.png",
+      "sha256": "cf0bcddbc3893e52636a99552864f91ee836adeeb5c2e0fe712bb5cb48f9e869"
+    },
+    {
+      "frame_index": 12690,
+      "pts_seconds": 211.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000030.png",
+      "sha256": "dd7cfec600f1c7df1fb0e91bbd7be89048d10365c591d4eb24d9d1dc1aa654c9"
+    },
+    {
+      "frame_index": 12691,
+      "pts_seconds": 211.51666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000031.png",
+      "sha256": "3ea5b6e15d98ae976a0d5c019a38a4b0eec7d0864ef16991c95681c4b14ed8c7"
+    },
+    {
+      "frame_index": 12692,
+      "pts_seconds": 211.53333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000032.png",
+      "sha256": "506673b20a8924938bc93691abf550ec4ff112621d170512c80e1d49ffeae3e8"
+    },
+    {
+      "frame_index": 12693,
+      "pts_seconds": 211.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000033.png",
+      "sha256": "7a16b4d305cbc932d1d2b47e9fe3fcea3211f9469998d656e3ff550395c0ef7a"
+    },
+    {
+      "frame_index": 12694,
+      "pts_seconds": 211.56666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000034.png",
+      "sha256": "d5380f738bc5430e10792bee7ec65424f4900268931f3f00855d28dc8590ded1"
+    },
+    {
+      "frame_index": 12695,
+      "pts_seconds": 211.58333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000035.png",
+      "sha256": "a837a02b161b117a82ced27f739737a371ac05748b2ab11b24449f7a905411e9"
+    },
+    {
+      "frame_index": 12696,
+      "pts_seconds": 211.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000036.png",
+      "sha256": "ceccb278459086ea0423bae557f064cfb5e3df09f881091af01f28a7b5cd348d"
+    },
+    {
+      "frame_index": 12697,
+      "pts_seconds": 211.61666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000037.png",
+      "sha256": "5ca242b3c4b30499450f03f26a4057a1827a21cf89f4e90b64d834219018e33e"
+    },
+    {
+      "frame_index": 12698,
+      "pts_seconds": 211.63333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000038.png",
+      "sha256": "7a95a88823d49f4f9d941daf87e5baba9dc5f40f5c69b9ca083b7d92f2fe4806"
+    },
+    {
+      "frame_index": 12699,
+      "pts_seconds": 211.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000039.png",
+      "sha256": "e7235e100ef7a9c485f72bb968e7cb85d6a08b16b5653d33df4224a1f2224f41"
+    },
+    {
+      "frame_index": 12700,
+      "pts_seconds": 211.66666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000040.png",
+      "sha256": "75f6d88edfbef1b100de3005f6a867fb956115a9b912b5252d12036181e18282"
+    },
+    {
+      "frame_index": 12701,
+      "pts_seconds": 211.68333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000041.png",
+      "sha256": "07820c57cdf9873790ea3e247de0705db0f401d8b78b8ebcdc1eaf7a78a5f102"
+    },
+    {
+      "frame_index": 12702,
+      "pts_seconds": 211.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000042.png",
+      "sha256": "5b7ad5c7c2d219d4442aa45ec18a9a7303a4199853eac10f6f6cd48c15a932f3"
+    },
+    {
+      "frame_index": 12703,
+      "pts_seconds": 211.71666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000043.png",
+      "sha256": "17d236dbd7f295632e4225ae4e04b995735bacb19c8ba33c0207f11e7a2574ca"
+    },
+    {
+      "frame_index": 12704,
+      "pts_seconds": 211.73333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000044.png",
+      "sha256": "e6ae0c5003ff43ceec2ca30286a509bcd2a6feb41185e2fc2af4c73b6a960c6f"
+    },
+    {
+      "frame_index": 12705,
+      "pts_seconds": 211.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000045.png",
+      "sha256": "b5d0caebb4aa1f1de9e9d0fd06e893ed058f2a52777055bca3068c5d3577b5b4"
+    },
+    {
+      "frame_index": 12706,
+      "pts_seconds": 211.76666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000046.png",
+      "sha256": "b592ce2789a393dd488d4c36b4b1611242beb97b24c5f6c52b2eb3c8d8b4cc7a"
+    },
+    {
+      "frame_index": 12707,
+      "pts_seconds": 211.78333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000047.png",
+      "sha256": "7382b488bfe7319085986c81ed480809e4bc5a17d4429114a2843defbcedbf8c"
+    },
+    {
+      "frame_index": 12708,
+      "pts_seconds": 211.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000048.png",
+      "sha256": "8ac3d94e1098409aebca83486e62600aa40437163eecfe1181c5c882e82cf21d"
+    },
+    {
+      "frame_index": 12709,
+      "pts_seconds": 211.81666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000049.png",
+      "sha256": "8b871bd84d629e6ca9995eca937cd68450f88cfbba070057b9b46daa90642be8"
+    },
+    {
+      "frame_index": 12710,
+      "pts_seconds": 211.83333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000050.png",
+      "sha256": "0a9163bfac49f04400ad69ab16a4ab540581fcf621e7d54ba50e8654a2b9398e"
+    },
+    {
+      "frame_index": 12711,
+      "pts_seconds": 211.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000051.png",
+      "sha256": "c477ff1433adfa64c195ed1a5ef264bd15178624af28545f92a7b7ff1887cc17"
+    },
+    {
+      "frame_index": 12712,
+      "pts_seconds": 211.86666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000052.png",
+      "sha256": "bb94b5385e1b145b8326d6e45162bb55d0a2a69cc0a8261f84ce9bf8607c44e0"
+    },
+    {
+      "frame_index": 12713,
+      "pts_seconds": 211.88333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000053.png",
+      "sha256": "cf25c8523a462df2b33acf34d25bad6eaeb8aff58e7a96541d7fb5cd4d1e16b0"
+    },
+    {
+      "frame_index": 12714,
+      "pts_seconds": 211.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000054.png",
+      "sha256": "5731958f648fceb636a7f094d5aed30f793f8283e033fde5ee90a15363c7b7e7"
+    },
+    {
+      "frame_index": 12715,
+      "pts_seconds": 211.91666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000055.png",
+      "sha256": "60f67882ab3087f688eca1a5034a087f4efd5a317d335a9ea03990faaf9384c7"
+    },
+    {
+      "frame_index": 12716,
+      "pts_seconds": 211.93333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000056.png",
+      "sha256": "22b7dbc4ca2103e7c4d85896cd2f7d8bb97570937f50fbd6c87586cc1cf45f73"
+    },
+    {
+      "frame_index": 12717,
+      "pts_seconds": 211.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000057.png",
+      "sha256": "fcab52d7d76764fe8e841315df3d8346d84d3e6de767093cb2af5dd78d049d13"
+    },
+    {
+      "frame_index": 12718,
+      "pts_seconds": 211.96666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000058.png",
+      "sha256": "7ccab02d4cf85cde636294fc309a466d5c31d2ab08c4995dd11848ef0ff96539"
+    },
+    {
+      "frame_index": 12719,
+      "pts_seconds": 211.98333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000059.png",
+      "sha256": "87864ff38430f479f14d4dc325611a8aa519ac53ca6dd077f0281c36c3b50d07"
+    },
+    {
+      "frame_index": 12720,
+      "pts_seconds": 212.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000060.png",
+      "sha256": "26ee8e014da1d2cb9a70c16da276907abd26226516e5efc1761d4aa94b96c9e9"
+    },
+    {
+      "frame_index": 12721,
+      "pts_seconds": 212.01666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000061.png",
+      "sha256": "4e27b6743ce616c82816e0e40bc66c8f19c02c80412b0c901732acca5e37f7ef"
+    },
+    {
+      "frame_index": 12722,
+      "pts_seconds": 212.03333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000062.png",
+      "sha256": "116d1fca742240b5d64972b014887d30605b3ee6959465a55dbf2f31d77b5aa8"
+    },
+    {
+      "frame_index": 12723,
+      "pts_seconds": 212.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000063.png",
+      "sha256": "0a306ed31c7c4a7d891218c06dee6ff63bbd4bd234c00e79aaa64db445b246ba"
+    },
+    {
+      "frame_index": 12724,
+      "pts_seconds": 212.06666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000064.png",
+      "sha256": "aa661216621c7a8d937cacfdf62d4893bcf2be6b48afb72565f0c902ba96b6b8"
+    },
+    {
+      "frame_index": 12725,
+      "pts_seconds": 212.08333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000065.png",
+      "sha256": "feebc8695db25775d01749be81b96019f61dbb01140deae7c6ddc0b5e3f2c94f"
+    },
+    {
+      "frame_index": 12726,
+      "pts_seconds": 212.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000066.png",
+      "sha256": "2ab545714c6444574eccd09beb80253ae7a7d47f64fd2d743afe5ed8b6adc615"
+    },
+    {
+      "frame_index": 12727,
+      "pts_seconds": 212.11666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000067.png",
+      "sha256": "1aff7e9628e43884eb0e1fc31850d9afe32c808e9ae44206084854a4338c273c"
+    },
+    {
+      "frame_index": 12728,
+      "pts_seconds": 212.13333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000068.png",
+      "sha256": "338873dbb242e7d009c1a8e7593bab3053c5d4ea025a4f37f545d1991f41f950"
+    },
+    {
+      "frame_index": 12729,
+      "pts_seconds": 212.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000069.png",
+      "sha256": "51dac98da9c2ab920164fda1a1a740ac20dbca471543db0733ba6629a3e672fc"
+    },
+    {
+      "frame_index": 12730,
+      "pts_seconds": 212.16666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000070.png",
+      "sha256": "ae4bf312561a9b529d0c496072da55b7f11c4ea298d52195330c8529be8905ff"
+    },
+    {
+      "frame_index": 12731,
+      "pts_seconds": 212.18333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000071.png",
+      "sha256": "5630edb352b3fdfb18d8c708b9bb31fada3f14a8c018401cbdc6612669511d8f"
+    },
+    {
+      "frame_index": 12732,
+      "pts_seconds": 212.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000072.png",
+      "sha256": "9719aacdda88168cb24de856ccb46e71e41a548f5ba551019d7175cf75a328b1"
+    },
+    {
+      "frame_index": 12733,
+      "pts_seconds": 212.21666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000073.png",
+      "sha256": "5cc3b29fcd365b22d5017ac2a984f2300d03b08bac7d1da0d0d8330a79ffea80"
+    },
+    {
+      "frame_index": 12734,
+      "pts_seconds": 212.23333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000074.png",
+      "sha256": "92dad8808885ae1d0a33d04824197f8a3c9ab3f3c8677dd5072042210f0ec518"
+    },
+    {
+      "frame_index": 12735,
+      "pts_seconds": 212.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000075.png",
+      "sha256": "421bb636c4d89c1d962366f7872da46439fd90a81fd86f0e60a56f0bd71f2bc8"
+    },
+    {
+      "frame_index": 12736,
+      "pts_seconds": 212.26666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000076.png",
+      "sha256": "14862b65201628895e1964b61f645628b53df58049b8be15fb5a1597895d9096"
+    },
+    {
+      "frame_index": 12737,
+      "pts_seconds": 212.28333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000077.png",
+      "sha256": "7564a137dcd449e1776d954d05b53f80803cd7a6e656ceed3fe3d0519f2aafa0"
+    },
+    {
+      "frame_index": 12738,
+      "pts_seconds": 212.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000078.png",
+      "sha256": "26af3c94dc39e88032b8450ebe43c8d7b244bc4e4463a64b822b092834fe87b8"
+    },
+    {
+      "frame_index": 12739,
+      "pts_seconds": 212.31666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000079.png",
+      "sha256": "511304800a554fcfe4bc7d85f1c93227fff9c52b81e556f8f50ee04f8ffc2399"
+    },
+    {
+      "frame_index": 12740,
+      "pts_seconds": 212.33333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000080.png",
+      "sha256": "abbaa525ae52825bbab8c68b2bc69df15b1dce939d11db628d33877ce1654c16"
+    },
+    {
+      "frame_index": 12741,
+      "pts_seconds": 212.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000081.png",
+      "sha256": "719a25e69db8fe4a673804c719cf57b241b1ca94a867ea463475ead44f882b99"
+    },
+    {
+      "frame_index": 12742,
+      "pts_seconds": 212.36666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000082.png",
+      "sha256": "dd41a9da285dbe606baa1028dec994c6dc47e8f793b3f1149d87bc3fc3cd176e"
+    },
+    {
+      "frame_index": 12743,
+      "pts_seconds": 212.38333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000083.png",
+      "sha256": "4d3a5d00f30fff2f1551d11da70ada0298a87d1f43170f52bb7e2ea68d5579de"
+    },
+    {
+      "frame_index": 12744,
+      "pts_seconds": 212.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000084.png",
+      "sha256": "20a892ed1f769d0a0a50e0230efdce4b0b04a73f847be30ed5f3872339acf091"
+    },
+    {
+      "frame_index": 12745,
+      "pts_seconds": 212.41666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000085.png",
+      "sha256": "08deb0ac67e7107fdd5a65530bc6f05f004e7999a484c6e2224ddd1903cd5248"
+    },
+    {
+      "frame_index": 12746,
+      "pts_seconds": 212.43333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000086.png",
+      "sha256": "9a3fde041915987e9eda90cbe19c9b4ae8a9c7ad8e47dce523a6db38943e8569"
+    },
+    {
+      "frame_index": 12747,
+      "pts_seconds": 212.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000087.png",
+      "sha256": "a3ef20efdadce848a37697e93fd0b627c8c713e7f506a00932270ac919dd17ba"
+    },
+    {
+      "frame_index": 12748,
+      "pts_seconds": 212.46666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000088.png",
+      "sha256": "a32b448225098d6628c0b9dacaa39c6d0daf6292c4312c00984533d178255b99"
+    },
+    {
+      "frame_index": 12749,
+      "pts_seconds": 212.48333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000089.png",
+      "sha256": "ec122be6f8bfbdb8ef79205506be72f8a3622d0c51e461b78d4acab5e9f9e6e5"
+    },
+    {
+      "frame_index": 12750,
+      "pts_seconds": 212.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000090.png",
+      "sha256": "4015f9aee3316f4c5773488d6826ff04495d54ea52e7b45a74935bf645536e17"
+    },
+    {
+      "frame_index": 12751,
+      "pts_seconds": 212.51666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000091.png",
+      "sha256": "0dc7f1a1880266838231e4f5dc2316641c7dc42e977970b3752581c313e14100"
+    },
+    {
+      "frame_index": 12752,
+      "pts_seconds": 212.53333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000092.png",
+      "sha256": "807d3ac5b3fd3caaa09be03dec41eb59d3981868056968576452fa59971e0819"
+    },
+    {
+      "frame_index": 12753,
+      "pts_seconds": 212.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000093.png",
+      "sha256": "67107070e43039ed83f2f228aeaa8388ce5b92d764ba7e400274c1cf2efa0880"
+    },
+    {
+      "frame_index": 12754,
+      "pts_seconds": 212.56666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000094.png",
+      "sha256": "16315bbb3e1b83defea403b8aa653b83f0b74a26095372716bf82b8e73e0079d"
+    },
+    {
+      "frame_index": 12755,
+      "pts_seconds": 212.58333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000095.png",
+      "sha256": "b51fb017e32b41c8019394c2d0b0177bc85be365ba3e1a52f74dd8a3ba773e61"
+    },
+    {
+      "frame_index": 12756,
+      "pts_seconds": 212.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000096.png",
+      "sha256": "17aafdb82e8e3dfc888c1fa6e91b4bc2238477340a1ca0d74a580a80a551b616"
+    },
+    {
+      "frame_index": 12757,
+      "pts_seconds": 212.61666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000097.png",
+      "sha256": "d789c3d30af9d870a9eaa02dc8aa2a791a5cb4b4ae3a236923b6fefe9b0bbb2d"
+    },
+    {
+      "frame_index": 12758,
+      "pts_seconds": 212.63333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000098.png",
+      "sha256": "70bf6430b55b2269f7b0d0508abb24b78cb5151321c788dfc96c90d37a5188d9"
+    },
+    {
+      "frame_index": 12759,
+      "pts_seconds": 212.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000099.png",
+      "sha256": "afa78fb91a08b5b5dd1c2a7a2b08559da33caa36f7a4ebd7a0ab8f6ee314a1e7"
+    },
+    {
+      "frame_index": 12760,
+      "pts_seconds": 212.66666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000100.png",
+      "sha256": "be5a0e863b9217eb58dd24834a8a4e6e4cabe751715b533fb8253e132e4e4a08"
+    },
+    {
+      "frame_index": 12761,
+      "pts_seconds": 212.68333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000101.png",
+      "sha256": "a9878f0c764cddfa034efb659a7ec067a100e04224dc863eaba94a997d01c148"
+    },
+    {
+      "frame_index": 12762,
+      "pts_seconds": 212.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000102.png",
+      "sha256": "4c546e3fe09e6a887d37524bb2a4a23a11c067399c1231d94043cc4e9e0f0cf0"
+    },
+    {
+      "frame_index": 12763,
+      "pts_seconds": 212.71666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000103.png",
+      "sha256": "a23828b44959e503f81edde74ff008817132ef759bd44d23b9cb65a83f3dfeaa"
+    },
+    {
+      "frame_index": 12764,
+      "pts_seconds": 212.73333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000104.png",
+      "sha256": "9b65db3a7430dc7002ed011308abb44f7a385817a1d3eedc2d3bbb2935df3374"
+    },
+    {
+      "frame_index": 12765,
+      "pts_seconds": 212.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000105.png",
+      "sha256": "f000cee5d4d225bc8f3a695029199ed971452d471f5de4d3aa796084cff7d836"
+    },
+    {
+      "frame_index": 12766,
+      "pts_seconds": 212.76666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000106.png",
+      "sha256": "be47fa7d0c86d10321dd718cae7e3c9b69872307929655de4aecee71d8326694"
+    },
+    {
+      "frame_index": 12767,
+      "pts_seconds": 212.78333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000107.png",
+      "sha256": "48bb5c40d1437310c8a7ed624f756135bd2a29d1c9b86e70792e559d13414cec"
+    },
+    {
+      "frame_index": 12768,
+      "pts_seconds": 212.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000108.png",
+      "sha256": "cc9d4169566974b87c0cf9782055b16db9e7d89b1a8daabded545f120ecb192c"
+    },
+    {
+      "frame_index": 12769,
+      "pts_seconds": 212.81666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000109.png",
+      "sha256": "415bdf807fd19e104cd6f53a0aa38b40d86246eab40eb52a26e2f3662f2ea55e"
+    },
+    {
+      "frame_index": 12770,
+      "pts_seconds": 212.83333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000110.png",
+      "sha256": "f5bb385c2f224052162567d4f46fe65a3ab5004e862c88dfc842d4991a384b33"
+    },
+    {
+      "frame_index": 12771,
+      "pts_seconds": 212.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000111.png",
+      "sha256": "742c80add293981068a71e67bf28a4477380f0369649463868e38560a68f3edd"
+    },
+    {
+      "frame_index": 12772,
+      "pts_seconds": 212.86666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000112.png",
+      "sha256": "2a1c1484175200f3636cc3ac987507c5123e67488b849599c7327e8cab355a44"
+    },
+    {
+      "frame_index": 12773,
+      "pts_seconds": 212.88333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000113.png",
+      "sha256": "57eac09713d62bfe3e841988d174b5fc92211c1296507d8bd1b41638a87b50ff"
+    },
+    {
+      "frame_index": 12774,
+      "pts_seconds": 212.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000114.png",
+      "sha256": "9f97e3f29764e5f2e49158df95c0bdf1417bd06000eee0ba37d33af350bc661a"
+    },
+    {
+      "frame_index": 12775,
+      "pts_seconds": 212.91666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000115.png",
+      "sha256": "2a38331404f8be6bcc2e5ad45d8d2dc632d014d88cd29bb973af3992cc216a83"
+    },
+    {
+      "frame_index": 12776,
+      "pts_seconds": 212.93333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000116.png",
+      "sha256": "41348b391697562cf6107c5c5698cb2d726319e94fa631001cebc0e916f3b5c0"
+    },
+    {
+      "frame_index": 12777,
+      "pts_seconds": 212.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000117.png",
+      "sha256": "417d9b996286eb520d65d75d5c36d0180700d8a9eb9c1bf9b1493ebf855df0ae"
+    },
+    {
+      "frame_index": 12778,
+      "pts_seconds": 212.96666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000118.png",
+      "sha256": "cf99522aec4a48b03c56dbd71f6fe253fa09128120525e8480c09629ff2a32f2"
+    },
+    {
+      "frame_index": 12779,
+      "pts_seconds": 212.98333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000119.png",
+      "sha256": "6d575904e479e1a4c25867ab6b42821a711c82d83771abb66d951e0d5128c367"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-005.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

@@ -1,0 +1,234 @@
+{
+  "video_id": "reference_fd02030ee890",
+  "shot_id": "case_C01",
+  "case_id": "C01",
+  "case_name": "creator-reaction",
+  "source_sha256": "fd02030ee890a97c119a33ba4cc3804c6ba2301f3378c42d613c83536cfbc660",
+  "start_frame": 2040,
+  "end_frame": 2160,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 34.0,
+  "end_pts_seconds": 36.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "A diminishing luminous object is reinforced by the human reaction and loss of surrounding illumination.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "luminous core beside hand",
+      "face",
+      "lowering hand",
+      "surrounding idea panels"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "half.creator",
+        "description": "Pink-faced, violet-haired human in a cyan shirt; chest-up view.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.core",
+        "description": "Small bright core near raised hand.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.idea-panels",
+        "description": "Book/art panels around the actor.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.telescope",
+        "description": "Telescope near the edge of the composition.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Dark blue field, cyan light wash, radial rays and small particles; actor in front of this field.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [
+    {
+      "object_id": "half.creator",
+      "description": "Pink-faced, violet-haired human in a cyan shirt; chest-up view.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "half.core",
+      "description": "Small bright core near raised hand.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "half.idea-panels",
+      "description": "Book/art panels around the actor.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "half.telescope",
+      "description": "Telescope near the edge of the composition.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "c01.background",
+      "description": "Dark blue field, cyan light wash, radial rays and small particles; actor in front of this field.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "half.creator",
+        "half.core",
+        "half.idea-panels",
+        "half.telescope"
+      ],
+      "start_frame": 2040,
+      "end_frame": 2160,
+      "purpose": "A diminishing luminous object is reinforced by the human reaction and loss of surrounding illumination.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 2040,
+          "end_frame": 2071,
+          "phase": "early decrease",
+          "pose_or_state": "Core area falls sharply; hand moves down modestly."
+        },
+        {
+          "start_frame": 2071,
+          "end_frame": 2101,
+          "phase": "slow interval",
+          "pose_or_state": "Hand displacement is smaller while diminished core remains."
+        },
+        {
+          "start_frame": 2101,
+          "end_frame": 2144,
+          "phase": "release",
+          "pose_or_state": "Larger hand descent, blink near2133–2135, core falls below threshold by2143."
+        },
+        {
+          "start_frame": 2144,
+          "end_frame": 2160,
+          "phase": "aftermath",
+          "pose_or_state": "Core absent under threshold, hand exits lower ROI."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "Exact shoulder/elbow pivots, source easing, mesh vs redrawn shapes and camera parenting are not recoverable uniquely."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        2040,
+        2160
+      ],
+      "limitations": "Exact shoulder/elbow pivots, source easing, mesh vs redrawn shapes and camera parenting are not recoverable uniquely."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        2040,
+        2160
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Core visibly shrinks while hand lowers; movement has a slow interval followed by a larger descent.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        2040,
+        2160
+      ]
+    },
+    {
+      "statement": "Blink near f2133–2135 coincides with the later descent; these are strongest-closure samples, not the entire blink.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        2040,
+        2160
+      ]
+    },
+    {
+      "statement": "Face/hair light wash and surrounding ray prominence diminish; no continuous dark outline encloses the face.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        2040,
+        2160
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 2040,
+      "pts_seconds": 34.0,
+      "file": "analysis/keyframes/reference_fd02030ee890/creator-reaction/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_fd02030ee890/creator-reaction/frame-000000.png"
+    },
+    {
+      "frame_index": 2100,
+      "pts_seconds": 35.0,
+      "file": "analysis/keyframes/reference_fd02030ee890/creator-reaction/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_fd02030ee890/creator-reaction/frame-000060.png"
+    },
+    {
+      "frame_index": 2159,
+      "pts_seconds": 35.983333333333334,
+      "file": "analysis/keyframes/reference_fd02030ee890/creator-reaction/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_fd02030ee890/creator-reaction/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_fd02030ee890/creator-reaction/evidence.json",
+  "source_technique_inference_limitations": "Exact shoulder/elbow pivots, source easing, mesh vs redrawn shapes and camera parenting are not recoverable uniquely.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_fd02030ee890/creator-reaction/consecutive-001.jpg",
+    "analysis/keyframes/reference_fd02030ee890/creator-reaction/consecutive-002.jpg",
+    "analysis/keyframes/reference_fd02030ee890/creator-reaction/consecutive-003.jpg",
+    "analysis/keyframes/reference_fd02030ee890/creator-reaction/consecutive-004.jpg",
+    "analysis/keyframes/reference_fd02030ee890/creator-reaction/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing.",
+  "measurement_files": [
+    "analysis/motion-tracks/reference_fd02030ee890/creator-core-and-hand.json",
+    "analysis/motion-tracks/reference_fd02030ee890/creator-eye-mask.json",
+    "analysis/composition-diagrams/creator-face-geometry.json"
+  ]
+}

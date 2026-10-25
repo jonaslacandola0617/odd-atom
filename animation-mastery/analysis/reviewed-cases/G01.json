@@ -1,0 +1,170 @@
+{
+  "video_id": "reference_46db30e386c9",
+  "shot_id": "case_G01",
+  "case_id": "G01",
+  "case_name": "tree-conduit-flow",
+  "source_sha256": "46db30e386c928a1e4251fbe2c72a006f7ff9775edc84e0ba55bee66dd4b9dcd",
+  "start_frame": 13080,
+  "end_frame": 13200,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 218.0,
+  "end_pts_seconds": 220.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "A central tissue diagram and outward arrows explain radial thickening; this interval is not a measured water-flow example.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "central purple column",
+      "green boundary cells",
+      "outward arrows"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "trees.radial-column",
+        "description": "Purple vertical column with thin internal striations and green boundary marks.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "trees.growth-arrows",
+        "description": "Large left/right purple arrows.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Dark violet field with subdued circular texture isolates the central diagram.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [],
+  "objects": [
+    {
+      "object_id": "trees.radial-column",
+      "description": "Purple vertical column with thin internal striations and green boundary marks.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "trees.growth-arrows",
+      "description": "Large left/right purple arrows.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "g01.background",
+      "description": "Dark violet field with subdued circular texture isolates the central diagram.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "trees.radial-column",
+        "trees.growth-arrows"
+      ],
+      "start_frame": 13080,
+      "end_frame": 13200,
+      "purpose": "A central tissue diagram and outward arrows explain radial thickening; this interval is not a measured water-flow example.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 13080,
+          "end_frame": 13200,
+          "phase": "observed interval",
+          "pose_or_state": "Green marks appear along both column edges while arrows point outward. Column width and arrow prominence change; diagram remains centered and readable."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "The source path topology, layer parenting and exact width/ease curves have not been recovered."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        13080,
+        13200
+      ],
+      "limitations": "The source path topology, layer parenting and exact width/ease curves have not been recovered."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        13080,
+        13200
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Green marks appear along both column edges while arrows point outward.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        13080,
+        13200
+      ]
+    },
+    {
+      "statement": "Column width and arrow prominence change; diagram remains centered and readable.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        13080,
+        13200
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 13080,
+      "pts_seconds": 218.0,
+      "file": "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/frame-000000.png"
+    },
+    {
+      "frame_index": 13140,
+      "pts_seconds": 219.0,
+      "file": "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/frame-000060.png"
+    },
+    {
+      "frame_index": 13199,
+      "pts_seconds": 219.98333333333332,
+      "file": "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/evidence.json",
+  "source_technique_inference_limitations": "The source path topology, layer parenting and exact width/ease curves have not been recovered.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/consecutive-001.jpg",
+    "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/consecutive-002.jpg",
+    "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/consecutive-003.jpg",
+    "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/consecutive-004.jpg",
+    "analysis/keyframes/reference_46db30e386c9/tree-conduit-flow/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

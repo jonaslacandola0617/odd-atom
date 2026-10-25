@@ -1,0 +1,9 @@
+{
+  "atlas": "public/assets/artwork/approved-characters/atlas.png",
+  "blink_overlays": "public/assets/artwork/approved-characters/blinks.png",
+  "registration_owner": "src/MotionCharacters.tsx",
+  "implemented_controls": ["registered worried/neutral versus happy alternatives", "blinkOverride", "head pose", "hair/head registration preserved"],
+  "new_timing_owner": "animation-mastery/engine/animation/acting.ts",
+  "limits": ["Not a full facial-action system", "No lip-sync/mouth phoneme library", "No new expression drawings generated", "No validated expression interpolation across new head angles"],
+  "review": "Actual encoded f23–46 sequence and four phase boards inspected; user approval remains pending."
+}

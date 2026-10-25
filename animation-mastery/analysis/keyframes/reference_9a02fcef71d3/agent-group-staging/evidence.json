@@ -1,0 +1,744 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "name": "agent-group-staging",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 53940,
+  "end_frame": 54060,
+  "end_frame_exclusive": true,
+  "source_start_pts": 899.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 53940,
+      "pts_seconds": 899.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000000.png",
+      "sha256": "6c252235fa6e476bc48da2e0c972be58ea853f3657d0099972cef4d30c512b7f"
+    },
+    {
+      "frame_index": 53941,
+      "pts_seconds": 899.0166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000001.png",
+      "sha256": "d933935e8193547016fe1efa88bd4699da4cf30f461d0c45275eadca37c2a4bf"
+    },
+    {
+      "frame_index": 53942,
+      "pts_seconds": 899.0333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000002.png",
+      "sha256": "2febb87222a55c298df70969e41cd95bfa43230842575d31b60672747f98a98c"
+    },
+    {
+      "frame_index": 53943,
+      "pts_seconds": 899.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000003.png",
+      "sha256": "9d53ec2e3b9b3fcea04ea772996310f5ba0efb7958f3fc97f46d9b1d2575add1"
+    },
+    {
+      "frame_index": 53944,
+      "pts_seconds": 899.0666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000004.png",
+      "sha256": "8edfe74bdbb32356170f093c722a4c462e16a4e5712a06f0d2c4370e828d1812"
+    },
+    {
+      "frame_index": 53945,
+      "pts_seconds": 899.0833333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000005.png",
+      "sha256": "4207e460a9d2825ac06a499ded16e02f572a4ee9a4a601cdb7dec5e6681fc47e"
+    },
+    {
+      "frame_index": 53946,
+      "pts_seconds": 899.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000006.png",
+      "sha256": "5d7794408e685d783c2128c81aeda1af37fb59efa13be07170164f5f6399863a"
+    },
+    {
+      "frame_index": 53947,
+      "pts_seconds": 899.1166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000007.png",
+      "sha256": "1ce20971cc7ca47f1f4d2ccfb4b2d92b20a30f6e197c4b9a589312165dee4a13"
+    },
+    {
+      "frame_index": 53948,
+      "pts_seconds": 899.1333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000008.png",
+      "sha256": "5cd90b5579685e54fa6f7dd66b4c32d771b7e1797d78360d6d52ec639f211e0e"
+    },
+    {
+      "frame_index": 53949,
+      "pts_seconds": 899.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000009.png",
+      "sha256": "f8c3db206359f351c0aad8a951e8567d703813a03e04e2135e6eb1115843e37d"
+    },
+    {
+      "frame_index": 53950,
+      "pts_seconds": 899.1666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000010.png",
+      "sha256": "56acb5d5c89ff98f203429d65c760ec162c3cd3b7ed2505bf577a83047b86c6d"
+    },
+    {
+      "frame_index": 53951,
+      "pts_seconds": 899.1833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000011.png",
+      "sha256": "6af117b9b151cf1cc85c28180f1befb209db790c398272adcf35621725f8d1cd"
+    },
+    {
+      "frame_index": 53952,
+      "pts_seconds": 899.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000012.png",
+      "sha256": "3d976c6bc0971d6a1fd16238901ae47ab46a947ce798be9110b66e1c231da27c"
+    },
+    {
+      "frame_index": 53953,
+      "pts_seconds": 899.2166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000013.png",
+      "sha256": "3f8323e8bf264bb3741afeab9710aa7600b77931c736ee28e5d440594078bded"
+    },
+    {
+      "frame_index": 53954,
+      "pts_seconds": 899.2333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000014.png",
+      "sha256": "c8cddf11f80b08bb85fb9fbc45bb784272796b7c982cde74fdf7b1570b00d7c7"
+    },
+    {
+      "frame_index": 53955,
+      "pts_seconds": 899.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000015.png",
+      "sha256": "1b678109a870a23806dc08c7a410e5027b3408aea69877d306484dff5bc2f608"
+    },
+    {
+      "frame_index": 53956,
+      "pts_seconds": 899.2666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000016.png",
+      "sha256": "6f31b38411aa651ffbe1f15a98c474aeafc6dcdca282fcda4c55bdfaae1cc830"
+    },
+    {
+      "frame_index": 53957,
+      "pts_seconds": 899.2833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000017.png",
+      "sha256": "0ab37e2d21abe678589ac56b79d38d84c5cb75070b94f02a38d4c5a6409967f6"
+    },
+    {
+      "frame_index": 53958,
+      "pts_seconds": 899.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000018.png",
+      "sha256": "90ea7da8b5f826ddda9ba145058657df57b08726e9478ab5f36ae863ce5d9edc"
+    },
+    {
+      "frame_index": 53959,
+      "pts_seconds": 899.3166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000019.png",
+      "sha256": "214367395e959024c8c52d05c61f960b0c89af948d13a2a70e8cfbd02011e349"
+    },
+    {
+      "frame_index": 53960,
+      "pts_seconds": 899.3333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000020.png",
+      "sha256": "2623965a74f1d93ccc227aed2f45eed042b658c3eeb2425b815ccb8b8dbfefa7"
+    },
+    {
+      "frame_index": 53961,
+      "pts_seconds": 899.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000021.png",
+      "sha256": "866ae9c0184bb1da384ccd13ff2a35c268318c6c7c22d29c1e5faf3656b1b509"
+    },
+    {
+      "frame_index": 53962,
+      "pts_seconds": 899.3666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000022.png",
+      "sha256": "a7b1d516c6593d3437521abc1c4fe4d05a364fe9f697aa0e5e60bb51c8c923e9"
+    },
+    {
+      "frame_index": 53963,
+      "pts_seconds": 899.3833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000023.png",
+      "sha256": "37cae15b67af284d193dc5474597c384f8e39685041e87f31735215123684c33"
+    },
+    {
+      "frame_index": 53964,
+      "pts_seconds": 899.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000024.png",
+      "sha256": "50f08d228cf6d37e22022fa8c6ef1f0cdf03594ba994657d305d1a82938dbfc3"
+    },
+    {
+      "frame_index": 53965,
+      "pts_seconds": 899.4166666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000025.png",
+      "sha256": "34fffd6a4565a80d6434241816a03fbf15a39ef7ad62158c9ad8abde2d279e46"
+    },
+    {
+      "frame_index": 53966,
+      "pts_seconds": 899.4333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000026.png",
+      "sha256": "b3dda198951f4649a2078971976cb0f77ec4ea98baf11ec1f917b7f513a4c5eb"
+    },
+    {
+      "frame_index": 53967,
+      "pts_seconds": 899.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000027.png",
+      "sha256": "c46749b20bf24c46a94e5dcc3808c0bd8c3edbff067bdbc4f830ea87b4320d30"
+    },
+    {
+      "frame_index": 53968,
+      "pts_seconds": 899.4666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000028.png",
+      "sha256": "a38a9fca08b93f13ef114a924d44e6b8ff122d74f9c6d56395ebd9dd279984f6"
+    },
+    {
+      "frame_index": 53969,
+      "pts_seconds": 899.4833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000029.png",
+      "sha256": "09c941b58b86059d803ce4233637be26b141b85014164ec6ad7694e79a33a9f6"
+    },
+    {
+      "frame_index": 53970,
+      "pts_seconds": 899.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000030.png",
+      "sha256": "cf1de8b85138b9e11b25bd06f9f3a0c2b94416cd6cf42d6864de301453faf49e"
+    },
+    {
+      "frame_index": 53971,
+      "pts_seconds": 899.5166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000031.png",
+      "sha256": "7307064820ebcd9a11661c39be7ca1b04cef3c3952e47c8ee1c902ae7d84e573"
+    },
+    {
+      "frame_index": 53972,
+      "pts_seconds": 899.5333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000032.png",
+      "sha256": "19c1ba641ca755a2d7b348e455e2822858af83e2574d35057f79a3fbffa8e126"
+    },
+    {
+      "frame_index": 53973,
+      "pts_seconds": 899.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000033.png",
+      "sha256": "9dbf21d380cf70fed4d314238bd48bd9e0eb1f82278249b73b555afbfc674cfa"
+    },
+    {
+      "frame_index": 53974,
+      "pts_seconds": 899.5666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000034.png",
+      "sha256": "ac63a37edcc82c4cb0f15e8709828e41c653358e5a0fe5afa365ad7d00f1b87e"
+    },
+    {
+      "frame_index": 53975,
+      "pts_seconds": 899.5833333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000035.png",
+      "sha256": "eb0424bb79d76ff68a24c1a88c883df472cabee4a3571cfd0d8748c3d9043136"
+    },
+    {
+      "frame_index": 53976,
+      "pts_seconds": 899.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000036.png",
+      "sha256": "67b06336fc4511eb7f2cc93cff0e4eada1bdf2cf4c21ee6038f8633abf55f180"
+    },
+    {
+      "frame_index": 53977,
+      "pts_seconds": 899.6166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000037.png",
+      "sha256": "1e2901e690639d0e530641698a3adc8f5b9b81bd28235fb8643e2d77e8b509f9"
+    },
+    {
+      "frame_index": 53978,
+      "pts_seconds": 899.6333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000038.png",
+      "sha256": "30629e63e5c6ea332002a870f6aa698f29aec07329b5f7e8cb844d5b16daa01e"
+    },
+    {
+      "frame_index": 53979,
+      "pts_seconds": 899.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000039.png",
+      "sha256": "e4a24be11681c14894900ffdffa449648bc0d0246981e77cfe89c8aba4692099"
+    },
+    {
+      "frame_index": 53980,
+      "pts_seconds": 899.6666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000040.png",
+      "sha256": "b867235ad928068fa5ff6b3e60f394c209f561094bbd40220da1f1ccaabdeaaf"
+    },
+    {
+      "frame_index": 53981,
+      "pts_seconds": 899.6833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000041.png",
+      "sha256": "0abc2f0efbea1ca4f9d430a2798c01f5a2244a715bf8657d8e2405656603e5f6"
+    },
+    {
+      "frame_index": 53982,
+      "pts_seconds": 899.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000042.png",
+      "sha256": "feed4d0a3f928fd7c34fd747b58e298c7d797231670d3071c2add1d27dad5647"
+    },
+    {
+      "frame_index": 53983,
+      "pts_seconds": 899.7166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000043.png",
+      "sha256": "143371b7cb970e297fdae0405215e49f1d15244c46ac9ca4665d932ce28720a8"
+    },
+    {
+      "frame_index": 53984,
+      "pts_seconds": 899.7333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000044.png",
+      "sha256": "cf4b2d0a68e8fd5f78dd788902bbe89589e400cb70d3617d7512067c7e2a0f75"
+    },
+    {
+      "frame_index": 53985,
+      "pts_seconds": 899.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000045.png",
+      "sha256": "40eb32240cbc433aa06a102590f0a5b654e967b9e0e4ab2263af780ba99426ee"
+    },
+    {
+      "frame_index": 53986,
+      "pts_seconds": 899.7666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000046.png",
+      "sha256": "8f8de40c82d79426ae5485ea909eba214f9d00372dcb4d621784c4fc166ca3af"
+    },
+    {
+      "frame_index": 53987,
+      "pts_seconds": 899.7833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000047.png",
+      "sha256": "c79ca82b0b84e1b3e52e51c8cca6897b3c7259fc1f58f081656e7fcb53ad707c"
+    },
+    {
+      "frame_index": 53988,
+      "pts_seconds": 899.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000048.png",
+      "sha256": "67d1941de1a0c2d0bdd5f1f71226e25c6869619770b7986c62b30a7887c60036"
+    },
+    {
+      "frame_index": 53989,
+      "pts_seconds": 899.8166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000049.png",
+      "sha256": "3c08dd65ee5b5b3b6f94075c4e1c22b3f4cf22aa9fb6567e3b335e4fd35db4b0"
+    },
+    {
+      "frame_index": 53990,
+      "pts_seconds": 899.8333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000050.png",
+      "sha256": "c68263a7c2b5522e780ee700f48b8e0022dc546ecc6f103024de8982f3fb3727"
+    },
+    {
+      "frame_index": 53991,
+      "pts_seconds": 899.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000051.png",
+      "sha256": "182f604b3616dd46db7b5f73d0b1f1db9f15c87964d4844ef9e02497c654da14"
+    },
+    {
+      "frame_index": 53992,
+      "pts_seconds": 899.8666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000052.png",
+      "sha256": "6b24dc350ab7efb4103076e6cae18459d6adc3289d0d83d70104052e3037cb1b"
+    },
+    {
+      "frame_index": 53993,
+      "pts_seconds": 899.8833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000053.png",
+      "sha256": "f0e53cb73ca91a56fd914e689fd786bb3179ce06d5a5a21369162a6f12463c77"
+    },
+    {
+      "frame_index": 53994,
+      "pts_seconds": 899.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000054.png",
+      "sha256": "c14e4af0c9de65be75cee295b7e9d6b7c7df9ec7053f43f1adaa9b761e5c982d"
+    },
+    {
+      "frame_index": 53995,
+      "pts_seconds": 899.9166666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000055.png",
+      "sha256": "9bdaae460c03fad6009b488f177900f2792be0f79b0dc38e3763ce4f98cc92c4"
+    },
+    {
+      "frame_index": 53996,
+      "pts_seconds": 899.9333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000056.png",
+      "sha256": "eb0bb42f13737f42bb12f2ca5d25672107397775207a10e2a95586eaa3fddc35"
+    },
+    {
+      "frame_index": 53997,
+      "pts_seconds": 899.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000057.png",
+      "sha256": "e1c47aeb4d7d90af91340d2df43f984884bea61e43dee16640d48cd690f0e2f7"
+    },
+    {
+      "frame_index": 53998,
+      "pts_seconds": 899.9666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000058.png",
+      "sha256": "f09adcb40d74cf20243ee3e9c864e73e93064184dcffa167888f2b2f9b6c07dd"
+    },
+    {
+      "frame_index": 53999,
+      "pts_seconds": 899.9833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000059.png",
+      "sha256": "1a87ee34e666977026c92eb7f6d5825e8113c83a4175dd47f7cf698e1e0f981b"
+    },
+    {
+      "frame_index": 54000,
+      "pts_seconds": 900.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000060.png",
+      "sha256": "5702bb46a5759fbbf74b5e9644bc28f5fad9571383c22bd1d80ad0b169a5253c"
+    },
+    {
+      "frame_index": 54001,
+      "pts_seconds": 900.0166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000061.png",
+      "sha256": "145addf81509877dfae795bd8d51ce7fb1f3fa4824f4382216eaa795b839fa3f"
+    },
+    {
+      "frame_index": 54002,
+      "pts_seconds": 900.0333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000062.png",
+      "sha256": "0ab96d6ec2551e0b52a9f364bda21e9c045f0a0f6a2e275c42102373049c635e"
+    },
+    {
+      "frame_index": 54003,
+      "pts_seconds": 900.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000063.png",
+      "sha256": "6a8230ba7c224de27fd3b9e31aa3c5586fc872f72f36334b2c91b237f4a2dc1f"
+    },
+    {
+      "frame_index": 54004,
+      "pts_seconds": 900.0666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000064.png",
+      "sha256": "1b054f2dcd63ed1320548d7851004928354b5d43a29405c55e62f54eccb916d7"
+    },
+    {
+      "frame_index": 54005,
+      "pts_seconds": 900.0833333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000065.png",
+      "sha256": "2631c43772cbafe6d7032de6eca05ae797349ef0e49dbd400599fe87d361b072"
+    },
+    {
+      "frame_index": 54006,
+      "pts_seconds": 900.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000066.png",
+      "sha256": "3d93ea422ed4a72a2f72f555e829dda4e94d5f718b6c0dc8c43f3411db390b3c"
+    },
+    {
+      "frame_index": 54007,
+      "pts_seconds": 900.1166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000067.png",
+      "sha256": "6d2b8c696a6ffad9d08d5ed4166cf4f637de2ec86611a346bbd46690d05976fa"
+    },
+    {
+      "frame_index": 54008,
+      "pts_seconds": 900.1333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000068.png",
+      "sha256": "2505f7189029d062f3b19e442e1b9186a41b465a6922127c1e9bffad868434d4"
+    },
+    {
+      "frame_index": 54009,
+      "pts_seconds": 900.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000069.png",
+      "sha256": "a81bfb0927fc825ed81aac71b187c007ef2f766ad1090982fe0aa2b35545e6a1"
+    },
+    {
+      "frame_index": 54010,
+      "pts_seconds": 900.1666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000070.png",
+      "sha256": "5c68704c8d3d5920fd91b93e83a62f34408fde015b45eb1939644531fdde87a9"
+    },
+    {
+      "frame_index": 54011,
+      "pts_seconds": 900.1833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000071.png",
+      "sha256": "434bb59dfe37bb3fec9ddf714349585231ed499536b422dbe96e773e87140ed3"
+    },
+    {
+      "frame_index": 54012,
+      "pts_seconds": 900.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000072.png",
+      "sha256": "1640daf40e6a2ba2ae19fb6b85a859495591a10d0cb236353dd375965f3d75fe"
+    },
+    {
+      "frame_index": 54013,
+      "pts_seconds": 900.2166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000073.png",
+      "sha256": "e28d6ab8af9224f5313c9fd30e16ff5f0c044f47f47a399412a8d9170fcfd606"
+    },
+    {
+      "frame_index": 54014,
+      "pts_seconds": 900.2333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000074.png",
+      "sha256": "26bc4b00b68497af51970d2dc81467c04689e6967f0397a0d69e2d9dbdae82c0"
+    },
+    {
+      "frame_index": 54015,
+      "pts_seconds": 900.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000075.png",
+      "sha256": "90f604badc6c6a7f8ce18aa8a86409e51640ca7fc283ef8103285e37debc2d66"
+    },
+    {
+      "frame_index": 54016,
+      "pts_seconds": 900.2666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000076.png",
+      "sha256": "42518ae5bc93a552d6258ab026ecfa22e361f99c9fe7437b43e711b867761ddb"
+    },
+    {
+      "frame_index": 54017,
+      "pts_seconds": 900.2833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000077.png",
+      "sha256": "bda2cbc34b178851dee81bdf66c0f810f564f3b2cc55c5231b51f30c0430c5e6"
+    },
+    {
+      "frame_index": 54018,
+      "pts_seconds": 900.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000078.png",
+      "sha256": "c119ca19834cd7d58d6bf0c34af83f7274a641c58b8f6c5e26ee65cef21f7d97"
+    },
+    {
+      "frame_index": 54019,
+      "pts_seconds": 900.3166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000079.png",
+      "sha256": "80edc624469f8d750c5213ed2823d8d1532f6627b85cc09803d844dc30d42fba"
+    },
+    {
+      "frame_index": 54020,
+      "pts_seconds": 900.3333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000080.png",
+      "sha256": "57859e3852d4aa3182b9c8aa701ef5f8243e9e5da6c007e9b9f388f436af3d3b"
+    },
+    {
+      "frame_index": 54021,
+      "pts_seconds": 900.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000081.png",
+      "sha256": "c3011b2ff37778173c30e1fce950f5a845ef1fcc59fdbb556ef0574537a152ca"
+    },
+    {
+      "frame_index": 54022,
+      "pts_seconds": 900.3666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000082.png",
+      "sha256": "9875feaa28be2da9397453bb9fbb8e3e0884c7d899b1d76ab7945498f04d2aae"
+    },
+    {
+      "frame_index": 54023,
+      "pts_seconds": 900.3833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000083.png",
+      "sha256": "5947e3dd916b79426d9b0fa4c8a1ff26e1f3c82946f2e84e1fd41ac1d06fadda"
+    },
+    {
+      "frame_index": 54024,
+      "pts_seconds": 900.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000084.png",
+      "sha256": "fb0eb2ee6c06c5e47cd84fc34f6ca34285624662d65a437800c180dd731bdc64"
+    },
+    {
+      "frame_index": 54025,
+      "pts_seconds": 900.4166666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000085.png",
+      "sha256": "982f32e12b8c19c88538559d279123e93bf223af5276a4bc42622f20f4e78819"
+    },
+    {
+      "frame_index": 54026,
+      "pts_seconds": 900.4333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000086.png",
+      "sha256": "495c9ebc3e143d4611d7725fa2a916afcfde31e4f0316122c5776fd79d2f42f9"
+    },
+    {
+      "frame_index": 54027,
+      "pts_seconds": 900.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000087.png",
+      "sha256": "73570b120e37a69a4545e51251e553632595e441a0f8ab17902bb31da2eb190d"
+    },
+    {
+      "frame_index": 54028,
+      "pts_seconds": 900.4666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000088.png",
+      "sha256": "0b2165c06cf9f0216ff3f3ff78720f4e6fabdbaec1f4d9125efe61c9bf79bdfc"
+    },
+    {
+      "frame_index": 54029,
+      "pts_seconds": 900.4833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000089.png",
+      "sha256": "0819cbbe3d250f0917727bfa05d242120212a36bcab4851116b3ea7acf90e191"
+    },
+    {
+      "frame_index": 54030,
+      "pts_seconds": 900.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000090.png",
+      "sha256": "b0eb41204000f488b60ce93ef5162fc3b7560bad6167454b295a91e1a9f27826"
+    },
+    {
+      "frame_index": 54031,
+      "pts_seconds": 900.5166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000091.png",
+      "sha256": "1e73ad615101ccd4206885278f2e6cad2208776b1f8e24e40a75fd77310592fc"
+    },
+    {
+      "frame_index": 54032,
+      "pts_seconds": 900.5333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000092.png",
+      "sha256": "ab9398ba50cd3f1ec70261ce0d399d5e03f954b63ce1291400cd37ad0407d2e9"
+    },
+    {
+      "frame_index": 54033,
+      "pts_seconds": 900.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000093.png",
+      "sha256": "fc0b60cf45817de38ffec31204afdc0a01dac60a4775d4f2dbea7b3fbff1be1e"
+    },
+    {
+      "frame_index": 54034,
+      "pts_seconds": 900.5666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000094.png",
+      "sha256": "fefa96d4162ff073f4cbac70b4a8a04e6877712d443f0d069dcb0b5984c72d64"
+    },
+    {
+      "frame_index": 54035,
+      "pts_seconds": 900.5833333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000095.png",
+      "sha256": "8be29a27042a7ef037791980c192e8496b64c2fc567f09fe9d8c8186e3e9c6bd"
+    },
+    {
+      "frame_index": 54036,
+      "pts_seconds": 900.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000096.png",
+      "sha256": "5b00389d627dee19a8947d101e4f86e0b82356485d9ae1a6d395c345f54fd559"
+    },
+    {
+      "frame_index": 54037,
+      "pts_seconds": 900.6166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000097.png",
+      "sha256": "5845ffb584a03fac6db7befffd4c9253773fd1c8cdbe035d60e4da5984b553a0"
+    },
+    {
+      "frame_index": 54038,
+      "pts_seconds": 900.6333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000098.png",
+      "sha256": "8e6ae3c4f6fa49cf9f67be3119980c190067369f8a1c1b991cc3861a0f04c7da"
+    },
+    {
+      "frame_index": 54039,
+      "pts_seconds": 900.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000099.png",
+      "sha256": "96e39a4aaaf382d73579c6b62f1d8e33bfc9bb24db2ecb1e30e9c9453f2e5f89"
+    },
+    {
+      "frame_index": 54040,
+      "pts_seconds": 900.6666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000100.png",
+      "sha256": "257d6586ed33c0ae4874817e0c8dce8c5b6f3e58884576626f252ff1dc070fcb"
+    },
+    {
+      "frame_index": 54041,
+      "pts_seconds": 900.6833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000101.png",
+      "sha256": "58676545d05075df7c9511d24a183babe2eee923ae18f904ac452d61514a71a4"
+    },
+    {
+      "frame_index": 54042,
+      "pts_seconds": 900.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000102.png",
+      "sha256": "73a426ddcf32d2b927427998fc8147b366f4a2c8c114d9030bbb948d66e894ee"
+    },
+    {
+      "frame_index": 54043,
+      "pts_seconds": 900.7166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000103.png",
+      "sha256": "7c9e32292749785092cbee52c2f4795878f2ebd8fd22f1af61794a5e9159b35e"
+    },
+    {
+      "frame_index": 54044,
+      "pts_seconds": 900.7333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000104.png",
+      "sha256": "64a28b0623210ac53380fc51d3be76199af090f4edefe72378a443826571a2f3"
+    },
+    {
+      "frame_index": 54045,
+      "pts_seconds": 900.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000105.png",
+      "sha256": "e518a2250d303722e7e2d76d51bd05174a41004c852fa23d999e377042d4054f"
+    },
+    {
+      "frame_index": 54046,
+      "pts_seconds": 900.7666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000106.png",
+      "sha256": "fbf24691061e52368ce1d43e33b45fda38f9124ce3f3bb0f23e177c57be5c2c8"
+    },
+    {
+      "frame_index": 54047,
+      "pts_seconds": 900.7833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000107.png",
+      "sha256": "88d9ebec065590bd932f06af4984aab63b24bcaf22f0f621448fae8ea77b4c5c"
+    },
+    {
+      "frame_index": 54048,
+      "pts_seconds": 900.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000108.png",
+      "sha256": "916b14e0bb624e9d1b9d651ee04464bac12f40658a43271966dc37d6d91fd7ae"
+    },
+    {
+      "frame_index": 54049,
+      "pts_seconds": 900.8166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000109.png",
+      "sha256": "b79e133db1cf0a7747e7a8b20ea27b06c573241e3243027462886b303f2c9926"
+    },
+    {
+      "frame_index": 54050,
+      "pts_seconds": 900.8333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000110.png",
+      "sha256": "427a52a5635a43ba6e20dfc7b7879c3cffc16adc772a3a7c6df42d8accf7e9d3"
+    },
+    {
+      "frame_index": 54051,
+      "pts_seconds": 900.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000111.png",
+      "sha256": "b74c0313fe2274c1fe01f318f1cb528048dc6fce599ca63c404eb9aa532d10f7"
+    },
+    {
+      "frame_index": 54052,
+      "pts_seconds": 900.8666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000112.png",
+      "sha256": "93a0e9ef85079092060d7c82a6d63cc1c29fbf22a0b68d78d00d0fd764217bb3"
+    },
+    {
+      "frame_index": 54053,
+      "pts_seconds": 900.8833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000113.png",
+      "sha256": "82718bb5aaad712ba622cfdb47785484987548d090e9eee8e113d017a97320c1"
+    },
+    {
+      "frame_index": 54054,
+      "pts_seconds": 900.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000114.png",
+      "sha256": "636c7c1a673f6ef6456dfbeb0bed35979c8fc6f7ba679eaa99d7ce482e088419"
+    },
+    {
+      "frame_index": 54055,
+      "pts_seconds": 900.9166666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000115.png",
+      "sha256": "11a093bfa695736ba0d32a765bede79f84d5cc325fb0092c0c6cd98fede76c8c"
+    },
+    {
+      "frame_index": 54056,
+      "pts_seconds": 900.9333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000116.png",
+      "sha256": "0c68369d076c977667add9873973b580b2ca077d3da865b7dff61ae2423b5e7a"
+    },
+    {
+      "frame_index": 54057,
+      "pts_seconds": 900.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000117.png",
+      "sha256": "a4cf7b88953e1bb9459de2bcea0e2b52d3fbf7bfbe1f3b513fc9ca834f2f9d8d"
+    },
+    {
+      "frame_index": 54058,
+      "pts_seconds": 900.9666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000118.png",
+      "sha256": "890c05db4e511f60cfac7fd60d4e5f5e6819e345ae9c4db25101d4a0853f82b2"
+    },
+    {
+      "frame_index": 54059,
+      "pts_seconds": 900.9833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000119.png",
+      "sha256": "d821137fbbe54c7932029b2f82cf16dbb11fc9832da31980d7f0f2cd791b044c"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-005.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

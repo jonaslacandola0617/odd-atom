@@ -1,0 +1,162 @@
+{
+  "video_id": "reference_fd02030ee890",
+  "name": "falling-material-contact",
+  "source_sha256": "fd02030ee890a97c119a33ba4cc3804c6ba2301f3378c42d613c83536cfbc660",
+  "start_frame": 7520,
+  "end_frame": 7544,
+  "end_frame_exclusive": true,
+  "source_start_pts": 125.33333333333333,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 7520,
+      "pts_seconds": 125.33333333333333,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000000.png",
+      "sha256": "47ada5b6c0e2d7a27d82ce4add5a9ad424d91870e21ae60a09fd718c2808beeb"
+    },
+    {
+      "frame_index": 7521,
+      "pts_seconds": 125.35,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000001.png",
+      "sha256": "81e2db8bc04048a3ed06bb4699e06e97a4ea7bf1571e8cb5a7ee6cba40209f6b"
+    },
+    {
+      "frame_index": 7522,
+      "pts_seconds": 125.36666666666666,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000002.png",
+      "sha256": "58a14497ecbda1d9db6bf69268faa39c84708dc7bd33e26fffa8f6396e0481cd"
+    },
+    {
+      "frame_index": 7523,
+      "pts_seconds": 125.38333333333334,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000003.png",
+      "sha256": "a1c0f571391cc2741395ec8e1b4f50fab238afe6b2646b8bf4867c401e956795"
+    },
+    {
+      "frame_index": 7524,
+      "pts_seconds": 125.4,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000004.png",
+      "sha256": "41e5fd2ba1047e96e2c8afb8c961e55eb0eee686f49d81f69efb403f41f320c1"
+    },
+    {
+      "frame_index": 7525,
+      "pts_seconds": 125.41666666666667,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000005.png",
+      "sha256": "f891296c6d4333d1171798d7b0f30bc3b9e5ad3d58cc46c7714e93399d2a6219"
+    },
+    {
+      "frame_index": 7526,
+      "pts_seconds": 125.43333333333334,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000006.png",
+      "sha256": "c162e79667911a498b7bccfcf3d3eff3a8bb195b303670e77fbe9d447584f56f"
+    },
+    {
+      "frame_index": 7527,
+      "pts_seconds": 125.45,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000007.png",
+      "sha256": "e419c7d630a12c1c73ec413c254d67ba505a6eb6569f823e3d64bd92cdb0c1de"
+    },
+    {
+      "frame_index": 7528,
+      "pts_seconds": 125.46666666666667,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000008.png",
+      "sha256": "be4d6b111ed59d518e46ecfd495f70d1dfcf9b59beed77875465209bb6612d7f"
+    },
+    {
+      "frame_index": 7529,
+      "pts_seconds": 125.48333333333333,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000009.png",
+      "sha256": "6806258fcb3dceb48d10956c608b80258b06b76febfba70661c5097b710a8344"
+    },
+    {
+      "frame_index": 7530,
+      "pts_seconds": 125.5,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000010.png",
+      "sha256": "728da9f69d55997d54d448b4f522bf42e0c4aab620f872f9645638e41ece3038"
+    },
+    {
+      "frame_index": 7531,
+      "pts_seconds": 125.51666666666667,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000011.png",
+      "sha256": "df6a6b510f04eb363391e22fb4c503fcc33e69207d602398109642e7acf272f6"
+    },
+    {
+      "frame_index": 7532,
+      "pts_seconds": 125.53333333333333,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000012.png",
+      "sha256": "411179cd63f390aee270e39f2a9bbd6d88bd97b77972b9770c7172f22130feca"
+    },
+    {
+      "frame_index": 7533,
+      "pts_seconds": 125.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000013.png",
+      "sha256": "d138726fc6729f8f9d6a665f7ec04ba75270c9ebc20f18a39482f7ceba4ceaf3"
+    },
+    {
+      "frame_index": 7534,
+      "pts_seconds": 125.56666666666666,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000014.png",
+      "sha256": "6f996b36215b1fca114943d05d5d6084b3a7d3ee1778668441ea800951f78297"
+    },
+    {
+      "frame_index": 7535,
+      "pts_seconds": 125.58333333333333,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000015.png",
+      "sha256": "dfd14550b92d1a8118376030851015c85a3644cdb27053f7cfa0eb5e95ff300f"
+    },
+    {
+      "frame_index": 7536,
+      "pts_seconds": 125.6,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000016.png",
+      "sha256": "b2eca912499ed095ef40d19dc6bb109bfe5b1b2e9a0fa0478c10fdacdf42e733"
+    },
+    {
+      "frame_index": 7537,
+      "pts_seconds": 125.61666666666666,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000017.png",
+      "sha256": "09fc5c6578d6cfe60549f1f8770be07a3dc95bc8867f2a6b5ad6bcec4505ceca"
+    },
+    {
+      "frame_index": 7538,
+      "pts_seconds": 125.63333333333334,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000018.png",
+      "sha256": "3e1fef0c016bfc5fb137871aeac1074645c6de882dc58f6865f3ff41916808ff"
+    },
+    {
+      "frame_index": 7539,
+      "pts_seconds": 125.65,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000019.png",
+      "sha256": "fa813c40f2b5de1efee492dd315238baeafccc27d334f197b9523557afa09051"
+    },
+    {
+      "frame_index": 7540,
+      "pts_seconds": 125.66666666666667,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000020.png",
+      "sha256": "9a1dd851acf2c0f8b454c8c68a590d99abc44c4533ec47244b56212dd7844b4d"
+    },
+    {
+      "frame_index": 7541,
+      "pts_seconds": 125.68333333333334,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000021.png",
+      "sha256": "f16b14c7dc9485cc65309c08b121364904581d2d00a15bcc0923d5477e18b94c"
+    },
+    {
+      "frame_index": 7542,
+      "pts_seconds": 125.7,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000022.png",
+      "sha256": "754b3c0cf0c700f883e0b58511e5cad5a33ca60bdf3d0149a19a72cfdda34414"
+    },
+    {
+      "frame_index": 7543,
+      "pts_seconds": 125.71666666666667,
+      "png": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/frame-000023.png",
+      "sha256": "518ae114f8c3f91242533ce3c76500e0679d170f15536d3f763e2a00ad1c311f"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_fd02030ee890/falling-material-contact/consecutive-001.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_fd02030ee890/falling-material-contact/motion-interval.mp4",
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

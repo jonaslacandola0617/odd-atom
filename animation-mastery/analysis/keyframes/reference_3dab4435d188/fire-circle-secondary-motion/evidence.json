@@ -1,0 +1,744 @@
+{
+  "video_id": "reference_3dab4435d188",
+  "name": "fire-circle-secondary-motion",
+  "source_sha256": "3dab4435d1882835d9f3798f7c367daa4b1388f9342649b26a3b250f1209acf5",
+  "start_frame": 24960,
+  "end_frame": 25080,
+  "end_frame_exclusive": true,
+  "source_start_pts": 416.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 24960,
+      "pts_seconds": 416.0,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000000.png",
+      "sha256": "d0f5393759ced734822b48863ac33081ea1aaaa3d78c4e238f6165c86e629fe8"
+    },
+    {
+      "frame_index": 24961,
+      "pts_seconds": 416.01666666666665,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000001.png",
+      "sha256": "7a0ff90a185507491434050e8e99095f8ebb047380b2153498f703565ac951e8"
+    },
+    {
+      "frame_index": 24962,
+      "pts_seconds": 416.03333333333336,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000002.png",
+      "sha256": "2e7ab83afd69fd3c4c334c8e4d9c430f6a405c867bdb0ade6acbad483436a38f"
+    },
+    {
+      "frame_index": 24963,
+      "pts_seconds": 416.05,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000003.png",
+      "sha256": "5dc026b560229ffc9468a33ca187f4b266622328b9ed8f0c56e96f66c5a7ed55"
+    },
+    {
+      "frame_index": 24964,
+      "pts_seconds": 416.06666666666666,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000004.png",
+      "sha256": "7b739e20fd99f9902f190a235e61bc82291d25ded29082600b6d0ee94e306313"
+    },
+    {
+      "frame_index": 24965,
+      "pts_seconds": 416.0833333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000005.png",
+      "sha256": "e12546f43215200638e0c13e7e2179102d4dcddf9090d0a0b97834030cb07bf3"
+    },
+    {
+      "frame_index": 24966,
+      "pts_seconds": 416.1,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000006.png",
+      "sha256": "81cd8f0a93fd6151532bd6b50e29c0f3798e752433931aa83352ecbc2650724b"
+    },
+    {
+      "frame_index": 24967,
+      "pts_seconds": 416.1166666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000007.png",
+      "sha256": "e015438403e780be2aa6b9bf1a80f5b92b7eb99db7bc00da9830ab4e6e5ee72d"
+    },
+    {
+      "frame_index": 24968,
+      "pts_seconds": 416.1333333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000008.png",
+      "sha256": "6c87ce43d5dfd27c188f8642b1a8bdf6b92e0a9319d343f2ebf18155a52f5293"
+    },
+    {
+      "frame_index": 24969,
+      "pts_seconds": 416.15,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000009.png",
+      "sha256": "a744995679c2061574ce011c8ed4c9bc3cadf58a531cbd7aa395e59de34af470"
+    },
+    {
+      "frame_index": 24970,
+      "pts_seconds": 416.1666666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000010.png",
+      "sha256": "3881de065e10d9456e8ee22e1717e067f5e12492de503d63e23e4afe7a9b6248"
+    },
+    {
+      "frame_index": 24971,
+      "pts_seconds": 416.18333333333334,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000011.png",
+      "sha256": "491fa81d9a3d3a82dc573528f8d51fdbd267dee9275248adfabba29c45f35174"
+    },
+    {
+      "frame_index": 24972,
+      "pts_seconds": 416.2,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000012.png",
+      "sha256": "fbcc948a2f7ff97274e852332c38c47d52825779f9aebd8687730c86398dfa32"
+    },
+    {
+      "frame_index": 24973,
+      "pts_seconds": 416.21666666666664,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000013.png",
+      "sha256": "bf98e99f4dfc56e5e48d1a671879d2fd2748a2259dd25d53d83df15a7ba3c351"
+    },
+    {
+      "frame_index": 24974,
+      "pts_seconds": 416.23333333333335,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000014.png",
+      "sha256": "79cdf405f929fa88614cf37bea699d72d447e4b3299904b5f2d83aae40a706e0"
+    },
+    {
+      "frame_index": 24975,
+      "pts_seconds": 416.25,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000015.png",
+      "sha256": "214883cb720c4f82774a9ad41f1cfef1780cccddf1e71565f510ae7122065304"
+    },
+    {
+      "frame_index": 24976,
+      "pts_seconds": 416.26666666666665,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000016.png",
+      "sha256": "b577797d1d54c990eea3805b5b1af945bd2e56ead9445fb48443d073896db729"
+    },
+    {
+      "frame_index": 24977,
+      "pts_seconds": 416.28333333333336,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000017.png",
+      "sha256": "c5168950d9d333e7306c6227001c998fed1cd38b16a50e2e3c37eb42638bca9b"
+    },
+    {
+      "frame_index": 24978,
+      "pts_seconds": 416.3,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000018.png",
+      "sha256": "e343bc89d41b1051534e0ef4194c7fb6214c2c1c513dba1b3b504dd5b964adb5"
+    },
+    {
+      "frame_index": 24979,
+      "pts_seconds": 416.31666666666666,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000019.png",
+      "sha256": "2bdd4b340aa6918c6471cacf4c9e9760347dae75724416899f745f0f7e59e2d8"
+    },
+    {
+      "frame_index": 24980,
+      "pts_seconds": 416.3333333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000020.png",
+      "sha256": "220b61a33c3d62d91dfbfe0b05689a8cc707f50212b522ef5873ae9b5891ef59"
+    },
+    {
+      "frame_index": 24981,
+      "pts_seconds": 416.35,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000021.png",
+      "sha256": "dbe0e03ba34a23d4506b0ed529b2f5a1a3164e7ceb6866960fc43fb99cb834ca"
+    },
+    {
+      "frame_index": 24982,
+      "pts_seconds": 416.3666666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000022.png",
+      "sha256": "8c95da8982b0ccaa2844356c9bb90d659807e42b3f2feb172b9af8264213aaea"
+    },
+    {
+      "frame_index": 24983,
+      "pts_seconds": 416.3833333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000023.png",
+      "sha256": "39ac9d8489143abea98e5e7058f24325f86d6e9e7812f930384ee05336fa30c6"
+    },
+    {
+      "frame_index": 24984,
+      "pts_seconds": 416.4,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000024.png",
+      "sha256": "cfa96143a058e2a4a9e3a54258212590871cb32fd0474b1341289f1c02801986"
+    },
+    {
+      "frame_index": 24985,
+      "pts_seconds": 416.4166666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000025.png",
+      "sha256": "5c5519988922469ad07a58ef82256fb4dc4b62d2a00e69eaadec236e0cb6d5b3"
+    },
+    {
+      "frame_index": 24986,
+      "pts_seconds": 416.43333333333334,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000026.png",
+      "sha256": "254bf412d0fa0d5a376cea1d9f9f72a91c424bad098a92cd2a3faae282046a3a"
+    },
+    {
+      "frame_index": 24987,
+      "pts_seconds": 416.45,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000027.png",
+      "sha256": "27bd8d24229c4504b948488a18d461d3d25f0e747ceb361ac32097a4548168f6"
+    },
+    {
+      "frame_index": 24988,
+      "pts_seconds": 416.46666666666664,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000028.png",
+      "sha256": "217e4f748ab0a7515a64799ab59ead2155c9986ae3001ecbf9d882df25e1c342"
+    },
+    {
+      "frame_index": 24989,
+      "pts_seconds": 416.48333333333335,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000029.png",
+      "sha256": "738cce7daa1ccb56d886ebaca76bdd17560c67ed0792689db90c04d20d0df114"
+    },
+    {
+      "frame_index": 24990,
+      "pts_seconds": 416.5,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000030.png",
+      "sha256": "30ba2b160fba98661c2345beaa60e5c33ecfec059c789d149fc24fb4a65c0a81"
+    },
+    {
+      "frame_index": 24991,
+      "pts_seconds": 416.51666666666665,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000031.png",
+      "sha256": "5df4a4609f8a2ec55780047cb764eacaa7e5aa9c9d7c6dfa24fb7781a9537295"
+    },
+    {
+      "frame_index": 24992,
+      "pts_seconds": 416.53333333333336,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000032.png",
+      "sha256": "d153ca009976462fe60ad9501449e5036d625996ed54dec0ff9d91e2ca4b187b"
+    },
+    {
+      "frame_index": 24993,
+      "pts_seconds": 416.55,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000033.png",
+      "sha256": "99b94fee90f19462745db076a85ad73bcb4ffd59f6b8e7e37813ca96483aeae1"
+    },
+    {
+      "frame_index": 24994,
+      "pts_seconds": 416.56666666666666,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000034.png",
+      "sha256": "50b3778d8a260037159c6f5ad4fa4fc4430840a4b079c65fc727b718e4a1e541"
+    },
+    {
+      "frame_index": 24995,
+      "pts_seconds": 416.5833333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000035.png",
+      "sha256": "4b48e2dec81ed71ec49fae15c8749971a5e15fda98ee60c0eb76bbcdcf85f780"
+    },
+    {
+      "frame_index": 24996,
+      "pts_seconds": 416.6,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000036.png",
+      "sha256": "0c8d85597ebbe05c0b72355eca9effd5afbd758eced02a02e2619279aa1a1620"
+    },
+    {
+      "frame_index": 24997,
+      "pts_seconds": 416.6166666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000037.png",
+      "sha256": "e0b9937528f95f881c65c9c6b34897db927f18904ecff385aafdd80d077012dc"
+    },
+    {
+      "frame_index": 24998,
+      "pts_seconds": 416.6333333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000038.png",
+      "sha256": "017aeb43d3ea5f93310a882913a551049f4bd78867b4dbefd6973965d129853e"
+    },
+    {
+      "frame_index": 24999,
+      "pts_seconds": 416.65,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000039.png",
+      "sha256": "9a7106d24a485834dc97a30343f64455111b4711eff6223b1516cdaf3e2ebb69"
+    },
+    {
+      "frame_index": 25000,
+      "pts_seconds": 416.6666666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000040.png",
+      "sha256": "fd448aeeeb515133b670af2433deeff241b7012153e9221cfe14d89bef0c99a0"
+    },
+    {
+      "frame_index": 25001,
+      "pts_seconds": 416.68333333333334,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000041.png",
+      "sha256": "da22de8e87c2412be8ee995e1131e157e094fbdc99138c91cd4c6d5544339536"
+    },
+    {
+      "frame_index": 25002,
+      "pts_seconds": 416.7,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000042.png",
+      "sha256": "963fc5f270fbf6b59bde2e7457aaea9001b82dee8721e11e40ca75f24128c7ad"
+    },
+    {
+      "frame_index": 25003,
+      "pts_seconds": 416.71666666666664,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000043.png",
+      "sha256": "21b444e20caf1425c8821313fc93d0554a15f67bb1275e5ea72c1fe029cfcc6d"
+    },
+    {
+      "frame_index": 25004,
+      "pts_seconds": 416.73333333333335,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000044.png",
+      "sha256": "81c36d67b1f666d471ba1e19527c0bb5348b00cd2b19602a80916dcebf9481d0"
+    },
+    {
+      "frame_index": 25005,
+      "pts_seconds": 416.75,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000045.png",
+      "sha256": "ccedf466c1561c85703fe356c30e71863e7f3b71f681760d49131a049ae9326b"
+    },
+    {
+      "frame_index": 25006,
+      "pts_seconds": 416.76666666666665,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000046.png",
+      "sha256": "83c9e7fd7e767e85134bd626bccb834b19a3b4d1430ddcde33e02bc131698b99"
+    },
+    {
+      "frame_index": 25007,
+      "pts_seconds": 416.78333333333336,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000047.png",
+      "sha256": "85584f56d44e6329929f7e9ee77d091c267b98e7f8b6f0b8a33f07b21beafc68"
+    },
+    {
+      "frame_index": 25008,
+      "pts_seconds": 416.8,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000048.png",
+      "sha256": "631798378ada8bf82fd45ee5b035568505168fd19f9e4eeba148225b34b9a881"
+    },
+    {
+      "frame_index": 25009,
+      "pts_seconds": 416.81666666666666,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000049.png",
+      "sha256": "82bf3c971af5b4fee2ff4ea2bbc71ff67ed447b88663ac6a29f1145756e50171"
+    },
+    {
+      "frame_index": 25010,
+      "pts_seconds": 416.8333333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000050.png",
+      "sha256": "15ca52317c33802f9e3b6d1ae46fc7cc91f16e5ca6dca764b123a8c33955c6c8"
+    },
+    {
+      "frame_index": 25011,
+      "pts_seconds": 416.85,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000051.png",
+      "sha256": "fe5063ef4c8f527dd89fe9ed5b6ec1f1f737e0b2861a087b851c9c43208d1e3d"
+    },
+    {
+      "frame_index": 25012,
+      "pts_seconds": 416.8666666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000052.png",
+      "sha256": "404a30b53807bcfc78720200923ec46ab69b86052b0f9469a0066d892c9aa82a"
+    },
+    {
+      "frame_index": 25013,
+      "pts_seconds": 416.8833333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000053.png",
+      "sha256": "3429132e83c645a5472fd85235a49254bea81bae446bd9ef7b2c9cb3003abf02"
+    },
+    {
+      "frame_index": 25014,
+      "pts_seconds": 416.9,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000054.png",
+      "sha256": "7d33f9d54ef9f96f39cae63567feff0dd25e4c6fa08c4e53da8d9690ff447e5c"
+    },
+    {
+      "frame_index": 25015,
+      "pts_seconds": 416.9166666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000055.png",
+      "sha256": "5bb7d4b829825e856693cba35b1d0329cb9dbe9c7b0dd73d8198eea62e00233e"
+    },
+    {
+      "frame_index": 25016,
+      "pts_seconds": 416.93333333333334,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000056.png",
+      "sha256": "f0af9b5ad613c65c4bd5a4882692ecb4a4cba2b0a0010052f3a93f18a7942805"
+    },
+    {
+      "frame_index": 25017,
+      "pts_seconds": 416.95,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000057.png",
+      "sha256": "632445443464750db78445956e409ba71cf4b191346cf6a5fae45716a7b3c4df"
+    },
+    {
+      "frame_index": 25018,
+      "pts_seconds": 416.96666666666664,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000058.png",
+      "sha256": "9e380b94bcaf2beb1f7e9482a7d05c004d895fc512a7895c23848c4392ab40d8"
+    },
+    {
+      "frame_index": 25019,
+      "pts_seconds": 416.98333333333335,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000059.png",
+      "sha256": "bdbab3291d0a845aa9b0934a46da6d8c2757778e878b02cddbbed241afe4a879"
+    },
+    {
+      "frame_index": 25020,
+      "pts_seconds": 417.0,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000060.png",
+      "sha256": "b37b538d08ca723ad18d7e093299f26f8d7daaaa72c9fe74f868f9c3446af8c6"
+    },
+    {
+      "frame_index": 25021,
+      "pts_seconds": 417.01666666666665,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000061.png",
+      "sha256": "425d122fa933ea5065208d9db2a39dee5322c15552623783d87e41fb2cc6c221"
+    },
+    {
+      "frame_index": 25022,
+      "pts_seconds": 417.03333333333336,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000062.png",
+      "sha256": "2f21450054239508e6ca64d990e8dc636c06baf8753f1984bba402a0976e87c4"
+    },
+    {
+      "frame_index": 25023,
+      "pts_seconds": 417.05,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000063.png",
+      "sha256": "8d662357849134eb7aadb0ec2b29adaa7d0596f31ffd60d9befa4eb2882e30e8"
+    },
+    {
+      "frame_index": 25024,
+      "pts_seconds": 417.06666666666666,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000064.png",
+      "sha256": "a0050df50c7f83617519a851794c4f978d393b0d7ad4f29fd1ff39a99f386c55"
+    },
+    {
+      "frame_index": 25025,
+      "pts_seconds": 417.0833333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000065.png",
+      "sha256": "1f8fd72fc347d62d26bafe0b4cab57b817a91d7d0d455a7246214f03866fcd3f"
+    },
+    {
+      "frame_index": 25026,
+      "pts_seconds": 417.1,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000066.png",
+      "sha256": "9913d6baf68fd45a701ee8db99d16b33f123e01f4b7c1c118f33a7da7e5269c0"
+    },
+    {
+      "frame_index": 25027,
+      "pts_seconds": 417.1166666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000067.png",
+      "sha256": "68fec56c4354c29040f9780de9c3c3d8ef89a6c4e3c726972424bd69807e0df6"
+    },
+    {
+      "frame_index": 25028,
+      "pts_seconds": 417.1333333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000068.png",
+      "sha256": "5cd5caa618d8bda3be1b51ee33c58e0ad7e3df2bf1e6fb72a9996e7212034c6b"
+    },
+    {
+      "frame_index": 25029,
+      "pts_seconds": 417.15,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000069.png",
+      "sha256": "9d68e0c405fbdc7edc19afc3b847f0e31ae8be54170b01f09b4b95adefc61030"
+    },
+    {
+      "frame_index": 25030,
+      "pts_seconds": 417.1666666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000070.png",
+      "sha256": "b2fb0ba8e2d54c293041c9ebaf43e2005ede7f9c71634c97e4e72f36eb696264"
+    },
+    {
+      "frame_index": 25031,
+      "pts_seconds": 417.18333333333334,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000071.png",
+      "sha256": "fc4b6356069c5598c67bba6b8846b201792ec972e4699222f6b585867bff7463"
+    },
+    {
+      "frame_index": 25032,
+      "pts_seconds": 417.2,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000072.png",
+      "sha256": "641076d5522bfdbc3c1dca96d19a28f2de148fe6ac35b2534de043ab4ed0260d"
+    },
+    {
+      "frame_index": 25033,
+      "pts_seconds": 417.21666666666664,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000073.png",
+      "sha256": "b82683d2694a139403b6a0c99f9b2a5a6f17e5eda1197cb88b125a75e874c3fe"
+    },
+    {
+      "frame_index": 25034,
+      "pts_seconds": 417.23333333333335,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000074.png",
+      "sha256": "3547e4f9ca0459285f7f04318d78b57a3a48d289593021ef92beb12f04923975"
+    },
+    {
+      "frame_index": 25035,
+      "pts_seconds": 417.25,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000075.png",
+      "sha256": "991ccdf65f5b16b338a5ccdc7d0ed41e57fa64f839a823e8b5eba92a79b0f305"
+    },
+    {
+      "frame_index": 25036,
+      "pts_seconds": 417.26666666666665,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000076.png",
+      "sha256": "fbd5e319ee890e7e66373648b641fedb75be803daf5f4de813cd8e871a35c442"
+    },
+    {
+      "frame_index": 25037,
+      "pts_seconds": 417.28333333333336,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000077.png",
+      "sha256": "677f818a7c966b82aa751e2942f32fde05921ce8694b6ce05d8fbb08b841e8aa"
+    },
+    {
+      "frame_index": 25038,
+      "pts_seconds": 417.3,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000078.png",
+      "sha256": "aa7637967a3f9daa3dd5ff691566a1082c86d249e84d7c07560d1baf87415f11"
+    },
+    {
+      "frame_index": 25039,
+      "pts_seconds": 417.31666666666666,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000079.png",
+      "sha256": "dce77c5d0cb9af081de1d32dec6bd11d5c2f0aa8a847dd923cd6d990ddcab6a5"
+    },
+    {
+      "frame_index": 25040,
+      "pts_seconds": 417.3333333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000080.png",
+      "sha256": "8a278e20c5010898e5e0d8b30456d7495d4d5cfa0fb57e80ca92da09ceb725aa"
+    },
+    {
+      "frame_index": 25041,
+      "pts_seconds": 417.35,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000081.png",
+      "sha256": "408e5691b50ca56735c73d5adb2c148a70378c27f774e8f15798874926a1c566"
+    },
+    {
+      "frame_index": 25042,
+      "pts_seconds": 417.3666666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000082.png",
+      "sha256": "bc28b167538b09ef83466efd846cb5b5eae11c70fdf50c28df055d7cff92aed7"
+    },
+    {
+      "frame_index": 25043,
+      "pts_seconds": 417.3833333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000083.png",
+      "sha256": "319f8d1b28cd2b9b6c73396b9fbe7b1c11667242daa5b72c5be7f4214a621f53"
+    },
+    {
+      "frame_index": 25044,
+      "pts_seconds": 417.4,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000084.png",
+      "sha256": "9df2bf3215de2fefa78cd93b6de8b603dfeb7bb2e19e11bdb24ec4d654ef2c78"
+    },
+    {
+      "frame_index": 25045,
+      "pts_seconds": 417.4166666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000085.png",
+      "sha256": "2156f95a2c47cc976b4947e6a7b7fb89d5d85f5b3b2f6acf91702d1396ddc708"
+    },
+    {
+      "frame_index": 25046,
+      "pts_seconds": 417.43333333333334,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000086.png",
+      "sha256": "ae43edbe86b8dc05bdde7260de455e081dd8c958e0819e08a58d91889b88b90d"
+    },
+    {
+      "frame_index": 25047,
+      "pts_seconds": 417.45,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000087.png",
+      "sha256": "8883a9dc1ff44172e41eb1426b6218ce6df9a8f456625481f4ae3ef2adf1176c"
+    },
+    {
+      "frame_index": 25048,
+      "pts_seconds": 417.46666666666664,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000088.png",
+      "sha256": "7f29e3b3c458248100d1fea10abc9e61a128a536b9a9489a65c1e84c6eaa1bdd"
+    },
+    {
+      "frame_index": 25049,
+      "pts_seconds": 417.48333333333335,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000089.png",
+      "sha256": "cd5c2e2a9fa4c5f4dd5af325297f9ead0c25c861a31e51aed90be1ee51f75a7a"
+    },
+    {
+      "frame_index": 25050,
+      "pts_seconds": 417.5,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000090.png",
+      "sha256": "609e7d753f4c4b9b4fc954b8daaee9cd1c40a86d060f64804f3d2ae66e1d0035"
+    },
+    {
+      "frame_index": 25051,
+      "pts_seconds": 417.51666666666665,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000091.png",
+      "sha256": "69c89cf936cb3cea459499c37af2173f65b9e417b74a0a3886f6dd2561b95524"
+    },
+    {
+      "frame_index": 25052,
+      "pts_seconds": 417.53333333333336,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000092.png",
+      "sha256": "d7ad85ddabb2a1e314df88f7658ac22cfaf6117c6ddc1e032d8e8d489e33a6a4"
+    },
+    {
+      "frame_index": 25053,
+      "pts_seconds": 417.55,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000093.png",
+      "sha256": "fd84a5f9373367c326d9fff8bac53a5563131fde49635aa97493ae79e31d08f9"
+    },
+    {
+      "frame_index": 25054,
+      "pts_seconds": 417.56666666666666,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000094.png",
+      "sha256": "f9bc9261eaee3840b08e060f887be79a5553e8365608f01df552d0800ebeb723"
+    },
+    {
+      "frame_index": 25055,
+      "pts_seconds": 417.5833333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000095.png",
+      "sha256": "480987f8970922993ae4892a52b5bc94120dd40feb0bc6457bee33b8381f35c3"
+    },
+    {
+      "frame_index": 25056,
+      "pts_seconds": 417.6,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000096.png",
+      "sha256": "a825a10468658bd3fe7737f15cecbddea3c8011759e6ea7bfb96ddfa130aa03a"
+    },
+    {
+      "frame_index": 25057,
+      "pts_seconds": 417.6166666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000097.png",
+      "sha256": "c33f1b0c5f9855cc398473feeaa29e5ccf1f99c22bce17d2a3f734219d218cc7"
+    },
+    {
+      "frame_index": 25058,
+      "pts_seconds": 417.6333333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000098.png",
+      "sha256": "22ad59083fb503d41930714e3a890c1622dccf4563f12f639d105154b88216fd"
+    },
+    {
+      "frame_index": 25059,
+      "pts_seconds": 417.65,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000099.png",
+      "sha256": "b228c238d05a3ed376f3296bccfe3ccb1076bbde599432f8c56fb6c39f7d2dc3"
+    },
+    {
+      "frame_index": 25060,
+      "pts_seconds": 417.6666666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000100.png",
+      "sha256": "80993efb2750711ff788e8e61aa4b3cf2c83e5281ac56c6eef2ebfa89d87fc5b"
+    },
+    {
+      "frame_index": 25061,
+      "pts_seconds": 417.68333333333334,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000101.png",
+      "sha256": "53add378e862ac2ab07a01a8001b5f91deb401fe30648edbdefbc02514f435a4"
+    },
+    {
+      "frame_index": 25062,
+      "pts_seconds": 417.7,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000102.png",
+      "sha256": "92e9b8af51687d79a7e702e3fd0a707ef765f3c10d94b44a5a6d67690ef70244"
+    },
+    {
+      "frame_index": 25063,
+      "pts_seconds": 417.71666666666664,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000103.png",
+      "sha256": "990e6a49404189983054764efe8a85982123bbbb2ebaa434f321ad633c12d1eb"
+    },
+    {
+      "frame_index": 25064,
+      "pts_seconds": 417.73333333333335,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000104.png",
+      "sha256": "e6b4878fec2ae5817f38fffa3f213aaeacea426dc48be65980c2e6cfa25cf19a"
+    },
+    {
+      "frame_index": 25065,
+      "pts_seconds": 417.75,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000105.png",
+      "sha256": "3ed5c34053ea446184487f3c189e75b0c34757b7744a3905f60e8e82193c7b5e"
+    },
+    {
+      "frame_index": 25066,
+      "pts_seconds": 417.76666666666665,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000106.png",
+      "sha256": "420445c455d2409d024874a09a37ce826ec750be04cd6a746228b4ea69f5b61f"
+    },
+    {
+      "frame_index": 25067,
+      "pts_seconds": 417.78333333333336,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000107.png",
+      "sha256": "57c74c9185c219a63f8078107c510cf71afb20f28a8b9ec681e3a24223dbaa54"
+    },
+    {
+      "frame_index": 25068,
+      "pts_seconds": 417.8,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000108.png",
+      "sha256": "1373beb78084270f9f60c694f032cbde7fc45313a6e139fc972ea2593e899e65"
+    },
+    {
+      "frame_index": 25069,
+      "pts_seconds": 417.81666666666666,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000109.png",
+      "sha256": "47bf0e58fdd3377f92f338d9265429b132cb0f5fb3e3557410e64e8d90ac6e0a"
+    },
+    {
+      "frame_index": 25070,
+      "pts_seconds": 417.8333333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000110.png",
+      "sha256": "ade79c4c9e0e489d1ead0c31479b80580266e8347aa10f1e141ea100d8677565"
+    },
+    {
+      "frame_index": 25071,
+      "pts_seconds": 417.85,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000111.png",
+      "sha256": "5d9de0b9b932920b3f3fe6fd9bb08e9d7f0b39aa6d4310ccef9b207d7abc9782"
+    },
+    {
+      "frame_index": 25072,
+      "pts_seconds": 417.8666666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000112.png",
+      "sha256": "f6271caa3172bd8b4c9921b1e4117e2c2143dc8c765739d50aa25008ab08244d"
+    },
+    {
+      "frame_index": 25073,
+      "pts_seconds": 417.8833333333333,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000113.png",
+      "sha256": "1d68270ae0e8687a8e224140175c42363ab166f6d6e507e9abc19f48047f9930"
+    },
+    {
+      "frame_index": 25074,
+      "pts_seconds": 417.9,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000114.png",
+      "sha256": "17bbc5595b11ac25a12c8c269da9ddcb87d7da665167ebc92e9e8d6e4ed2bc14"
+    },
+    {
+      "frame_index": 25075,
+      "pts_seconds": 417.9166666666667,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000115.png",
+      "sha256": "39dd21da0aff8e864199d035fcef5bc549a7dc5f2021c7e02be15c6232e5ad5c"
+    },
+    {
+      "frame_index": 25076,
+      "pts_seconds": 417.93333333333334,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000116.png",
+      "sha256": "93436643662dc5dcc33449011f917a9e16c755ca700f873a421fb96739e8feaa"
+    },
+    {
+      "frame_index": 25077,
+      "pts_seconds": 417.95,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000117.png",
+      "sha256": "9c61b5c43251bdf6f6fa969452e7b13408a26679a8e23ceb6dfc45c4f45ad092"
+    },
+    {
+      "frame_index": 25078,
+      "pts_seconds": 417.96666666666664,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000118.png",
+      "sha256": "048073521b4af9ccfdad06ff83a0f79567ebf0badf727d3029c00a848c4c6a5e"
+    },
+    {
+      "frame_index": 25079,
+      "pts_seconds": 417.98333333333335,
+      "png": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000119.png",
+      "sha256": "36d9fffdf5bceb2021adde85ea5a20dbf1dd99d8ad09642bc76c8087f94fbdd3"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-001.jpg",
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-002.jpg",
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-003.jpg",
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-004.jpg",
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-005.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

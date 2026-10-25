@@ -1,0 +1,1174 @@
+{
+  "video_id": "reference_fd02030ee890",
+  "source_range": [
+    2040,
+    2160
+  ],
+  "basis": "Measured RGB threshold masks in analyst-defined fixed image regions; not rig or authored keyframe data.",
+  "core_roi_xyxy": [
+    1180,
+    1060,
+    1400,
+    1260
+  ],
+  "core_threshold": "all RGB channels >210",
+  "hand_roi_xyxy": [
+    1300,
+    960,
+    1770,
+    1440
+  ],
+  "hand_threshold": "R>160,G<160,B>120; largest connected component",
+  "limitations": "Thresholds and ROI crop can lose glow/hand before the full object disappears. Hand centroid is not the wrist pivot. Lighting changes affect mask extent. Inspect native evidence and do not interpret mask area as authored opacity.",
+  "measurements": [
+    {
+      "frame_index": 2040,
+      "pts_seconds": 34.0,
+      "white_core_area_pixels_in_fixed_roi": 7210,
+      "hand_mask_area_pixels": 39004,
+      "hand_mask_centroid_native_xy": [
+        1478.314172905343,
+        1117.9826428058661
+      ]
+    },
+    {
+      "frame_index": 2041,
+      "pts_seconds": 34.016666666666666,
+      "white_core_area_pixels_in_fixed_roi": 6746,
+      "hand_mask_area_pixels": 39022,
+      "hand_mask_centroid_native_xy": [
+        1479.4512582645687,
+        1120.8071856901236
+      ]
+    },
+    {
+      "frame_index": 2042,
+      "pts_seconds": 34.03333333333333,
+      "white_core_area_pixels_in_fixed_roi": 6316,
+      "hand_mask_area_pixels": 38994,
+      "hand_mask_centroid_native_xy": [
+        1480.59342462943,
+        1123.5101297635533
+      ]
+    },
+    {
+      "frame_index": 2043,
+      "pts_seconds": 34.05,
+      "white_core_area_pixels_in_fixed_roi": 5995,
+      "hand_mask_area_pixels": 39035,
+      "hand_mask_centroid_native_xy": [
+        1481.6234661201486,
+        1125.7760471371846
+      ]
+    },
+    {
+      "frame_index": 2044,
+      "pts_seconds": 34.06666666666667,
+      "white_core_area_pixels_in_fixed_roi": 5691,
+      "hand_mask_area_pixels": 39029,
+      "hand_mask_centroid_native_xy": [
+        1482.462015424428,
+        1127.909323836122
+      ]
+    },
+    {
+      "frame_index": 2045,
+      "pts_seconds": 34.083333333333336,
+      "white_core_area_pixels_in_fixed_roi": 5417,
+      "hand_mask_area_pixels": 39026,
+      "hand_mask_centroid_native_xy": [
+        1483.4224875723876,
+        1129.971070568339
+      ]
+    },
+    {
+      "frame_index": 2046,
+      "pts_seconds": 34.1,
+      "white_core_area_pixels_in_fixed_roi": 5123,
+      "hand_mask_area_pixels": 39024,
+      "hand_mask_centroid_native_xy": [
+        1483.8916820418203,
+        1131.695520705207
+      ]
+    },
+    {
+      "frame_index": 2047,
+      "pts_seconds": 34.11666666666667,
+      "white_core_area_pixels_in_fixed_roi": 4876,
+      "hand_mask_area_pixels": 38999,
+      "hand_mask_centroid_native_xy": [
+        1484.4000102566733,
+        1133.302366727352
+      ]
+    },
+    {
+      "frame_index": 2048,
+      "pts_seconds": 34.13333333333333,
+      "white_core_area_pixels_in_fixed_roi": 4687,
+      "hand_mask_area_pixels": 39016,
+      "hand_mask_centroid_native_xy": [
+        1484.9361543981956,
+        1134.9389224933361
+      ]
+    },
+    {
+      "frame_index": 2049,
+      "pts_seconds": 34.15,
+      "white_core_area_pixels_in_fixed_roi": 4450,
+      "hand_mask_area_pixels": 39003,
+      "hand_mask_centroid_native_xy": [
+        1485.4123785349846,
+        1136.1206317462759
+      ]
+    },
+    {
+      "frame_index": 2050,
+      "pts_seconds": 34.166666666666664,
+      "white_core_area_pixels_in_fixed_roi": 4280,
+      "hand_mask_area_pixels": 38995,
+      "hand_mask_centroid_native_xy": [
+        1485.8054622387485,
+        1137.4368252340043
+      ]
+    },
+    {
+      "frame_index": 2051,
+      "pts_seconds": 34.18333333333333,
+      "white_core_area_pixels_in_fixed_roi": 4061,
+      "hand_mask_area_pixels": 39054,
+      "hand_mask_centroid_native_xy": [
+        1485.9147846571414,
+        1138.6695344907052
+      ]
+    },
+    {
+      "frame_index": 2052,
+      "pts_seconds": 34.2,
+      "white_core_area_pixels_in_fixed_roi": 3903,
+      "hand_mask_area_pixels": 38989,
+      "hand_mask_centroid_native_xy": [
+        1486.1871553515093,
+        1139.6891174433815
+      ]
+    },
+    {
+      "frame_index": 2053,
+      "pts_seconds": 34.21666666666667,
+      "white_core_area_pixels_in_fixed_roi": 3708,
+      "hand_mask_area_pixels": 39060,
+      "hand_mask_centroid_native_xy": [
+        1486.313389656938,
+        1140.7351766513057
+      ]
+    },
+    {
+      "frame_index": 2054,
+      "pts_seconds": 34.233333333333334,
+      "white_core_area_pixels_in_fixed_roi": 3589,
+      "hand_mask_area_pixels": 38973,
+      "hand_mask_centroid_native_xy": [
+        1486.5309060118543,
+        1141.5383983783645
+      ]
+    },
+    {
+      "frame_index": 2055,
+      "pts_seconds": 34.25,
+      "white_core_area_pixels_in_fixed_roi": 3478,
+      "hand_mask_area_pixels": 39038,
+      "hand_mask_centroid_native_xy": [
+        1486.5692402274706,
+        1142.3871868435883
+      ]
+    },
+    {
+      "frame_index": 2056,
+      "pts_seconds": 34.266666666666666,
+      "white_core_area_pixels_in_fixed_roi": 3346,
+      "hand_mask_area_pixels": 39014,
+      "hand_mask_centroid_native_xy": [
+        1486.6283385451377,
+        1143.2815143281898
+      ]
+    },
+    {
+      "frame_index": 2057,
+      "pts_seconds": 34.28333333333333,
+      "white_core_area_pixels_in_fixed_roi": 3177,
+      "hand_mask_area_pixels": 39017,
+      "hand_mask_centroid_native_xy": [
+        1486.5586026603787,
+        1143.8332009124229
+      ]
+    },
+    {
+      "frame_index": 2058,
+      "pts_seconds": 34.3,
+      "white_core_area_pixels_in_fixed_roi": 3085,
+      "hand_mask_area_pixels": 39041,
+      "hand_mask_centroid_native_xy": [
+        1486.5910196972413,
+        1144.5113086242668
+      ]
+    },
+    {
+      "frame_index": 2059,
+      "pts_seconds": 34.31666666666667,
+      "white_core_area_pixels_in_fixed_roi": 2862,
+      "hand_mask_area_pixels": 39033,
+      "hand_mask_centroid_native_xy": [
+        1486.4763917710654,
+        1145.118284528476
+      ]
+    },
+    {
+      "frame_index": 2060,
+      "pts_seconds": 34.333333333333336,
+      "white_core_area_pixels_in_fixed_roi": 2771,
+      "hand_mask_area_pixels": 39011,
+      "hand_mask_centroid_native_xy": [
+        1486.4156007279998,
+        1145.6515854502577
+      ]
+    },
+    {
+      "frame_index": 2061,
+      "pts_seconds": 34.35,
+      "white_core_area_pixels_in_fixed_roi": 2697,
+      "hand_mask_area_pixels": 38988,
+      "hand_mask_centroid_native_xy": [
+        1486.2211449676824,
+        1146.163306658459
+      ]
+    },
+    {
+      "frame_index": 2062,
+      "pts_seconds": 34.36666666666667,
+      "white_core_area_pixels_in_fixed_roi": 2656,
+      "hand_mask_area_pixels": 39021,
+      "hand_mask_centroid_native_xy": [
+        1486.1135542400245,
+        1146.6509571769047
+      ]
+    },
+    {
+      "frame_index": 2063,
+      "pts_seconds": 34.38333333333333,
+      "white_core_area_pixels_in_fixed_roi": 2586,
+      "hand_mask_area_pixels": 39010,
+      "hand_mask_centroid_native_xy": [
+        1485.9325813893875,
+        1147.0819020763906
+      ]
+    },
+    {
+      "frame_index": 2064,
+      "pts_seconds": 34.4,
+      "white_core_area_pixels_in_fixed_roi": 2541,
+      "hand_mask_area_pixels": 39004,
+      "hand_mask_centroid_native_xy": [
+        1485.8160445082556,
+        1147.4310327145934
+      ]
+    },
+    {
+      "frame_index": 2065,
+      "pts_seconds": 34.416666666666664,
+      "white_core_area_pixels_in_fixed_roi": 2484,
+      "hand_mask_area_pixels": 39020,
+      "hand_mask_centroid_native_xy": [
+        1485.5268323936443,
+        1147.7600461301897
+      ]
+    },
+    {
+      "frame_index": 2066,
+      "pts_seconds": 34.43333333333333,
+      "white_core_area_pixels_in_fixed_roi": 2442,
+      "hand_mask_area_pixels": 39013,
+      "hand_mask_centroid_native_xy": [
+        1485.3504985517648,
+        1148.2218234947325
+      ]
+    },
+    {
+      "frame_index": 2067,
+      "pts_seconds": 34.45,
+      "white_core_area_pixels_in_fixed_roi": 2414,
+      "hand_mask_area_pixels": 38998,
+      "hand_mask_centroid_native_xy": [
+        1485.158751730858,
+        1148.5080004102774
+      ]
+    },
+    {
+      "frame_index": 2068,
+      "pts_seconds": 34.46666666666667,
+      "white_core_area_pixels_in_fixed_roi": 2372,
+      "hand_mask_area_pixels": 38978,
+      "hand_mask_centroid_native_xy": [
+        1484.9728564831444,
+        1148.7944994612346
+      ]
+    },
+    {
+      "frame_index": 2069,
+      "pts_seconds": 34.483333333333334,
+      "white_core_area_pixels_in_fixed_roi": 2333,
+      "hand_mask_area_pixels": 39003,
+      "hand_mask_centroid_native_xy": [
+        1484.8295002948491,
+        1149.202138297054
+      ]
+    },
+    {
+      "frame_index": 2070,
+      "pts_seconds": 34.5,
+      "white_core_area_pixels_in_fixed_roi": 2299,
+      "hand_mask_area_pixels": 39052,
+      "hand_mask_centroid_native_xy": [
+        1484.5598432858753,
+        1149.5476544095052
+      ]
+    },
+    {
+      "frame_index": 2071,
+      "pts_seconds": 34.516666666666666,
+      "white_core_area_pixels_in_fixed_roi": 2269,
+      "hand_mask_area_pixels": 39015,
+      "hand_mask_centroid_native_xy": [
+        1484.4520825323593,
+        1149.7414327822632
+      ]
+    },
+    {
+      "frame_index": 2072,
+      "pts_seconds": 34.53333333333333,
+      "white_core_area_pixels_in_fixed_roi": 2231,
+      "hand_mask_area_pixels": 39033,
+      "hand_mask_centroid_native_xy": [
+        1484.3579022878077,
+        1150.0754745984168
+      ]
+    },
+    {
+      "frame_index": 2073,
+      "pts_seconds": 34.55,
+      "white_core_area_pixels_in_fixed_roi": 2213,
+      "hand_mask_area_pixels": 39055,
+      "hand_mask_centroid_native_xy": [
+        1484.177211624632,
+        1150.3260530021764
+      ]
+    },
+    {
+      "frame_index": 2074,
+      "pts_seconds": 34.56666666666667,
+      "white_core_area_pixels_in_fixed_roi": 2196,
+      "hand_mask_area_pixels": 39060,
+      "hand_mask_centroid_native_xy": [
+        1484.081490015361,
+        1150.5776241679469
+      ]
+    },
+    {
+      "frame_index": 2075,
+      "pts_seconds": 34.583333333333336,
+      "white_core_area_pixels_in_fixed_roi": 2180,
+      "hand_mask_area_pixels": 39007,
+      "hand_mask_centroid_native_xy": [
+        1484.0477606583433,
+        1150.7507370471967
+      ]
+    },
+    {
+      "frame_index": 2076,
+      "pts_seconds": 34.6,
+      "white_core_area_pixels_in_fixed_roi": 2139,
+      "hand_mask_area_pixels": 39029,
+      "hand_mask_centroid_native_xy": [
+        1483.9324092341592,
+        1150.9944656537446
+      ]
+    },
+    {
+      "frame_index": 2077,
+      "pts_seconds": 34.61666666666667,
+      "white_core_area_pixels_in_fixed_roi": 2108,
+      "hand_mask_area_pixels": 38999,
+      "hand_mask_centroid_native_xy": [
+        1483.9439216390165,
+        1151.2002102618017
+      ]
+    },
+    {
+      "frame_index": 2078,
+      "pts_seconds": 34.63333333333333,
+      "white_core_area_pixels_in_fixed_roi": 2093,
+      "hand_mask_area_pixels": 38996,
+      "hand_mask_centroid_native_xy": [
+        1483.8896809929224,
+        1151.424812801313
+      ]
+    },
+    {
+      "frame_index": 2079,
+      "pts_seconds": 34.65,
+      "white_core_area_pixels_in_fixed_roi": 2096,
+      "hand_mask_area_pixels": 39025,
+      "hand_mask_centroid_native_xy": [
+        1483.8222165278667,
+        1151.617937219731
+      ]
+    },
+    {
+      "frame_index": 2080,
+      "pts_seconds": 34.666666666666664,
+      "white_core_area_pixels_in_fixed_roi": 2086,
+      "hand_mask_area_pixels": 38989,
+      "hand_mask_centroid_native_xy": [
+        1483.8635512580472,
+        1151.8341583523559
+      ]
+    },
+    {
+      "frame_index": 2081,
+      "pts_seconds": 34.68333333333333,
+      "white_core_area_pixels_in_fixed_roi": 2071,
+      "hand_mask_area_pixels": 38980,
+      "hand_mask_centroid_native_xy": [
+        1483.8884556182657,
+        1151.9758850692663
+      ]
+    },
+    {
+      "frame_index": 2082,
+      "pts_seconds": 34.7,
+      "white_core_area_pixels_in_fixed_roi": 2063,
+      "hand_mask_area_pixels": 38995,
+      "hand_mask_centroid_native_xy": [
+        1483.8414924990384,
+        1152.208719066547
+      ]
+    },
+    {
+      "frame_index": 2083,
+      "pts_seconds": 34.71666666666667,
+      "white_core_area_pixels_in_fixed_roi": 2059,
+      "hand_mask_area_pixels": 38976,
+      "hand_mask_centroid_native_xy": [
+        1483.8595032840722,
+        1152.392395320197
+      ]
+    },
+    {
+      "frame_index": 2084,
+      "pts_seconds": 34.733333333333334,
+      "white_core_area_pixels_in_fixed_roi": 2044,
+      "hand_mask_area_pixels": 38989,
+      "hand_mask_centroid_native_xy": [
+        1483.875477698838,
+        1152.5150683526122
+      ]
+    },
+    {
+      "frame_index": 2085,
+      "pts_seconds": 34.75,
+      "white_core_area_pixels_in_fixed_roi": 2037,
+      "hand_mask_area_pixels": 38960,
+      "hand_mask_centroid_native_xy": [
+        1483.9513347022587,
+        1152.6574948665298
+      ]
+    },
+    {
+      "frame_index": 2086,
+      "pts_seconds": 34.766666666666666,
+      "white_core_area_pixels_in_fixed_roi": 2018,
+      "hand_mask_area_pixels": 38990,
+      "hand_mask_centroid_native_xy": [
+        1484.0602718645807,
+        1152.8334188253398
+      ]
+    },
+    {
+      "frame_index": 2087,
+      "pts_seconds": 34.78333333333333,
+      "white_core_area_pixels_in_fixed_roi": 2015,
+      "hand_mask_area_pixels": 38972,
+      "hand_mask_centroid_native_xy": [
+        1484.237632146156,
+        1152.9788822744536
+      ]
+    },
+    {
+      "frame_index": 2088,
+      "pts_seconds": 34.8,
+      "white_core_area_pixels_in_fixed_roi": 1992,
+      "hand_mask_area_pixels": 38942,
+      "hand_mask_centroid_native_xy": [
+        1484.4268399157722,
+        1153.2433619228595
+      ]
+    },
+    {
+      "frame_index": 2089,
+      "pts_seconds": 34.81666666666667,
+      "white_core_area_pixels_in_fixed_roi": 1994,
+      "hand_mask_area_pixels": 38991,
+      "hand_mask_centroid_native_xy": [
+        1484.460747351953,
+        1153.6401733733426
+      ]
+    },
+    {
+      "frame_index": 2090,
+      "pts_seconds": 34.833333333333336,
+      "white_core_area_pixels_in_fixed_roi": 1994,
+      "hand_mask_area_pixels": 38945,
+      "hand_mask_centroid_native_xy": [
+        1484.7115675953269,
+        1154.0888945949416
+      ]
+    },
+    {
+      "frame_index": 2091,
+      "pts_seconds": 34.85,
+      "white_core_area_pixels_in_fixed_roi": 1993,
+      "hand_mask_area_pixels": 38967,
+      "hand_mask_centroid_native_xy": [
+        1484.9129263222726,
+        1154.76487797367
+      ]
+    },
+    {
+      "frame_index": 2092,
+      "pts_seconds": 34.86666666666667,
+      "white_core_area_pixels_in_fixed_roi": 1986,
+      "hand_mask_area_pixels": 39028,
+      "hand_mask_centroid_native_xy": [
+        1485.1691862252742,
+        1155.32420313621
+      ]
+    },
+    {
+      "frame_index": 2093,
+      "pts_seconds": 34.88333333333333,
+      "white_core_area_pixels_in_fixed_roi": 1975,
+      "hand_mask_area_pixels": 39001,
+      "hand_mask_centroid_native_xy": [
+        1485.468295684726,
+        1156.0818184149125
+      ]
+    },
+    {
+      "frame_index": 2094,
+      "pts_seconds": 34.9,
+      "white_core_area_pixels_in_fixed_roi": 1975,
+      "hand_mask_area_pixels": 38988,
+      "hand_mask_centroid_native_xy": [
+        1485.8350005129782,
+        1157.0056427618754
+      ]
+    },
+    {
+      "frame_index": 2095,
+      "pts_seconds": 34.916666666666664,
+      "white_core_area_pixels_in_fixed_roi": 1974,
+      "hand_mask_area_pixels": 39059,
+      "hand_mask_centroid_native_xy": [
+        1486.16644051307,
+        1157.8731406334007
+      ]
+    },
+    {
+      "frame_index": 2096,
+      "pts_seconds": 34.93333333333333,
+      "white_core_area_pixels_in_fixed_roi": 1974,
+      "hand_mask_area_pixels": 39033,
+      "hand_mask_centroid_native_xy": [
+        1486.6164783644608,
+        1158.9383086106627
+      ]
+    },
+    {
+      "frame_index": 2097,
+      "pts_seconds": 34.95,
+      "white_core_area_pixels_in_fixed_roi": 1977,
+      "hand_mask_area_pixels": 38961,
+      "hand_mask_centroid_native_xy": [
+        1486.901901901902,
+        1160.1176304509638
+      ]
+    },
+    {
+      "frame_index": 2098,
+      "pts_seconds": 34.96666666666667,
+      "white_core_area_pixels_in_fixed_roi": 1977,
+      "hand_mask_area_pixels": 39006,
+      "hand_mask_centroid_native_xy": [
+        1487.4495974978208,
+        1161.3713018509973
+      ]
+    },
+    {
+      "frame_index": 2099,
+      "pts_seconds": 34.983333333333334,
+      "white_core_area_pixels_in_fixed_roi": 1976,
+      "hand_mask_area_pixels": 38965,
+      "hand_mask_centroid_native_xy": [
+        1487.7611702810214,
+        1162.6999615039138
+      ]
+    },
+    {
+      "frame_index": 2100,
+      "pts_seconds": 35.0,
+      "white_core_area_pixels_in_fixed_roi": 1987,
+      "hand_mask_area_pixels": 39033,
+      "hand_mask_centroid_native_xy": [
+        1488.3842389772756,
+        1164.1006840365844
+      ]
+    },
+    {
+      "frame_index": 2101,
+      "pts_seconds": 35.016666666666666,
+      "white_core_area_pixels_in_fixed_roi": 1982,
+      "hand_mask_area_pixels": 39006,
+      "hand_mask_centroid_native_xy": [
+        1488.8385889350357,
+        1165.699533405117
+      ]
+    },
+    {
+      "frame_index": 2102,
+      "pts_seconds": 35.03333333333333,
+      "white_core_area_pixels_in_fixed_roi": 1976,
+      "hand_mask_area_pixels": 39026,
+      "hand_mask_centroid_native_xy": [
+        1489.388100240865,
+        1167.4307897299236
+      ]
+    },
+    {
+      "frame_index": 2103,
+      "pts_seconds": 35.05,
+      "white_core_area_pixels_in_fixed_roi": 1969,
+      "hand_mask_area_pixels": 39002,
+      "hand_mask_centroid_native_xy": [
+        1490.0094354135686,
+        1169.2516794010564
+      ]
+    },
+    {
+      "frame_index": 2104,
+      "pts_seconds": 35.06666666666667,
+      "white_core_area_pixels_in_fixed_roi": 1962,
+      "hand_mask_area_pixels": 38991,
+      "hand_mask_centroid_native_xy": [
+        1490.4523864481548,
+        1171.1612423379754
+      ]
+    },
+    {
+      "frame_index": 2105,
+      "pts_seconds": 35.083333333333336,
+      "white_core_area_pixels_in_fixed_roi": 1974,
+      "hand_mask_area_pixels": 38978,
+      "hand_mask_centroid_native_xy": [
+        1490.965544666222,
+        1173.2879059982554
+      ]
+    },
+    {
+      "frame_index": 2106,
+      "pts_seconds": 35.1,
+      "white_core_area_pixels_in_fixed_roi": 1963,
+      "hand_mask_area_pixels": 38989,
+      "hand_mask_centroid_native_xy": [
+        1491.5867808869168,
+        1175.473082151376
+      ]
+    },
+    {
+      "frame_index": 2107,
+      "pts_seconds": 35.11666666666667,
+      "white_core_area_pixels_in_fixed_roi": 1976,
+      "hand_mask_area_pixels": 39006,
+      "hand_mask_centroid_native_xy": [
+        1492.160257396298,
+        1177.9836948161822
+      ]
+    },
+    {
+      "frame_index": 2108,
+      "pts_seconds": 35.13333333333333,
+      "white_core_area_pixels_in_fixed_roi": 1973,
+      "hand_mask_area_pixels": 39019,
+      "hand_mask_centroid_native_xy": [
+        1492.770342653579,
+        1180.4740767318485
+      ]
+    },
+    {
+      "frame_index": 2109,
+      "pts_seconds": 35.15,
+      "white_core_area_pixels_in_fixed_roi": 1980,
+      "hand_mask_area_pixels": 38987,
+      "hand_mask_centroid_native_xy": [
+        1493.3720983917717,
+        1183.197476081771
+      ]
+    },
+    {
+      "frame_index": 2110,
+      "pts_seconds": 35.166666666666664,
+      "white_core_area_pixels_in_fixed_roi": 1979,
+      "hand_mask_area_pixels": 39012,
+      "hand_mask_centroid_native_xy": [
+        1494.0771557469498,
+        1185.9703424587306
+      ]
+    },
+    {
+      "frame_index": 2111,
+      "pts_seconds": 35.18333333333333,
+      "white_core_area_pixels_in_fixed_roi": 1976,
+      "hand_mask_area_pixels": 39014,
+      "hand_mask_centroid_native_xy": [
+        1494.6573537704414,
+        1189.1579433024042
+      ]
+    },
+    {
+      "frame_index": 2112,
+      "pts_seconds": 35.2,
+      "white_core_area_pixels_in_fixed_roi": 1976,
+      "hand_mask_area_pixels": 38980,
+      "hand_mask_centroid_native_xy": [
+        1495.3310928681376,
+        1192.4337352488456
+      ]
+    },
+    {
+      "frame_index": 2113,
+      "pts_seconds": 35.21666666666667,
+      "white_core_area_pixels_in_fixed_roi": 1968,
+      "hand_mask_area_pixels": 39014,
+      "hand_mask_centroid_native_xy": [
+        1495.9816219818526,
+        1195.9675757420414
+      ]
+    },
+    {
+      "frame_index": 2114,
+      "pts_seconds": 35.233333333333334,
+      "white_core_area_pixels_in_fixed_roi": 1971,
+      "hand_mask_area_pixels": 39038,
+      "hand_mask_centroid_native_xy": [
+        1496.5866079204877,
+        1199.7655873764024
+      ]
+    },
+    {
+      "frame_index": 2115,
+      "pts_seconds": 35.25,
+      "white_core_area_pixels_in_fixed_roi": 1778,
+      "hand_mask_area_pixels": 39024,
+      "hand_mask_centroid_native_xy": [
+        1497.1291256662566,
+        1203.888581385814
+      ]
+    },
+    {
+      "frame_index": 2116,
+      "pts_seconds": 35.266666666666666,
+      "white_core_area_pixels_in_fixed_roi": 1575,
+      "hand_mask_area_pixels": 39024,
+      "hand_mask_centroid_native_xy": [
+        1497.8635711357115,
+        1208.1622591225912
+      ]
+    },
+    {
+      "frame_index": 2117,
+      "pts_seconds": 35.28333333333333,
+      "white_core_area_pixels_in_fixed_roi": 1409,
+      "hand_mask_area_pixels": 39015,
+      "hand_mask_centroid_native_xy": [
+        1498.412764321415,
+        1212.770806100218
+      ]
+    },
+    {
+      "frame_index": 2118,
+      "pts_seconds": 35.3,
+      "white_core_area_pixels_in_fixed_roi": 1225,
+      "hand_mask_area_pixels": 39022,
+      "hand_mask_centroid_native_xy": [
+        1499.0957921172671,
+        1217.7910409512583
+      ]
+    },
+    {
+      "frame_index": 2119,
+      "pts_seconds": 35.31666666666667,
+      "white_core_area_pixels_in_fixed_roi": 1105,
+      "hand_mask_area_pixels": 38953,
+      "hand_mask_centroid_native_xy": [
+        1499.8034811182706,
+        1223.0963468795728
+      ]
+    },
+    {
+      "frame_index": 2120,
+      "pts_seconds": 35.333333333333336,
+      "white_core_area_pixels_in_fixed_roi": 955,
+      "hand_mask_area_pixels": 39031,
+      "hand_mask_centroid_native_xy": [
+        1500.302708103815,
+        1228.9415848940585
+      ]
+    },
+    {
+      "frame_index": 2121,
+      "pts_seconds": 35.35,
+      "white_core_area_pixels_in_fixed_roi": 829,
+      "hand_mask_area_pixels": 39019,
+      "hand_mask_centroid_native_xy": [
+        1501.0255772828623,
+        1235.3591071016685
+      ]
+    },
+    {
+      "frame_index": 2122,
+      "pts_seconds": 35.36666666666667,
+      "white_core_area_pixels_in_fixed_roi": 703,
+      "hand_mask_area_pixels": 39007,
+      "hand_mask_centroid_native_xy": [
+        1501.5236239649294,
+        1242.153331453329
+      ]
+    },
+    {
+      "frame_index": 2123,
+      "pts_seconds": 35.38333333333333,
+      "white_core_area_pixels_in_fixed_roi": 645,
+      "hand_mask_area_pixels": 39034,
+      "hand_mask_centroid_native_xy": [
+        1502.2467592355383,
+        1249.630399139212
+      ]
+    },
+    {
+      "frame_index": 2124,
+      "pts_seconds": 35.4,
+      "white_core_area_pixels_in_fixed_roi": 531,
+      "hand_mask_area_pixels": 38994,
+      "hand_mask_centroid_native_xy": [
+        1502.7787864799714,
+        1257.9235779863568
+      ]
+    },
+    {
+      "frame_index": 2125,
+      "pts_seconds": 35.416666666666664,
+      "white_core_area_pixels_in_fixed_roi": 460,
+      "hand_mask_area_pixels": 39031,
+      "hand_mask_centroid_native_xy": [
+        1503.3381927186083,
+        1266.877789449412
+      ]
+    },
+    {
+      "frame_index": 2126,
+      "pts_seconds": 35.43333333333333,
+      "white_core_area_pixels_in_fixed_roi": 396,
+      "hand_mask_area_pixels": 38979,
+      "hand_mask_centroid_native_xy": [
+        1504.0767849354781,
+        1276.7371405115575
+      ]
+    },
+    {
+      "frame_index": 2127,
+      "pts_seconds": 35.45,
+      "white_core_area_pixels_in_fixed_roi": 343,
+      "hand_mask_area_pixels": 38984,
+      "hand_mask_centroid_native_xy": [
+        1504.6938744100144,
+        1287.6679919967166
+      ]
+    },
+    {
+      "frame_index": 2128,
+      "pts_seconds": 35.46666666666667,
+      "white_core_area_pixels_in_fixed_roi": 292,
+      "hand_mask_area_pixels": 38953,
+      "hand_mask_centroid_native_xy": [
+        1505.2898364695916,
+        1299.845814186327
+      ]
+    },
+    {
+      "frame_index": 2129,
+      "pts_seconds": 35.483333333333334,
+      "white_core_area_pixels_in_fixed_roi": 254,
+      "hand_mask_area_pixels": 38999,
+      "hand_mask_centroid_native_xy": [
+        1505.819354342419,
+        1313.5502192363906
+      ]
+    },
+    {
+      "frame_index": 2130,
+      "pts_seconds": 35.5,
+      "white_core_area_pixels_in_fixed_roi": 210,
+      "hand_mask_area_pixels": 38939,
+      "hand_mask_centroid_native_xy": [
+        1506.60551118416,
+        1328.8321990806132
+      ]
+    },
+    {
+      "frame_index": 2131,
+      "pts_seconds": 35.516666666666666,
+      "white_core_area_pixels_in_fixed_roi": 182,
+      "hand_mask_area_pixels": 37769,
+      "hand_mask_centroid_native_xy": [
+        1507.2682358548016,
+        1342.5083004580476
+      ]
+    },
+    {
+      "frame_index": 2132,
+      "pts_seconds": 35.53333333333333,
+      "white_core_area_pixels_in_fixed_roi": 166,
+      "hand_mask_area_pixels": 35120,
+      "hand_mask_centroid_native_xy": [
+        1508.6050398633258,
+        1354.4811788154898
+      ]
+    },
+    {
+      "frame_index": 2133,
+      "pts_seconds": 35.55,
+      "white_core_area_pixels_in_fixed_roi": 124,
+      "hand_mask_area_pixels": 32142,
+      "hand_mask_centroid_native_xy": [
+        1509.6688756144608,
+        1367.3207018853836
+      ]
+    },
+    {
+      "frame_index": 2134,
+      "pts_seconds": 35.56666666666667,
+      "white_core_area_pixels_in_fixed_roi": 105,
+      "hand_mask_area_pixels": 27655,
+      "hand_mask_centroid_native_xy": [
+        1513.2897848490327,
+        1377.7743988428856
+      ]
+    },
+    {
+      "frame_index": 2135,
+      "pts_seconds": 35.583333333333336,
+      "white_core_area_pixels_in_fixed_roi": 78,
+      "hand_mask_area_pixels": 22673,
+      "hand_mask_centroid_native_xy": [
+        1516.9965156794424,
+        1387.099633925815
+      ]
+    },
+    {
+      "frame_index": 2136,
+      "pts_seconds": 35.6,
+      "white_core_area_pixels_in_fixed_roi": 52,
+      "hand_mask_area_pixels": 18108,
+      "hand_mask_centroid_native_xy": [
+        1518.6718577424342,
+        1396.2070907886018
+      ]
+    },
+    {
+      "frame_index": 2137,
+      "pts_seconds": 35.61666666666667,
+      "white_core_area_pixels_in_fixed_roi": 40,
+      "hand_mask_area_pixels": 14279,
+      "hand_mask_centroid_native_xy": [
+        1517.0810981161146,
+        1405.1558232369214
+      ]
+    },
+    {
+      "frame_index": 2138,
+      "pts_seconds": 35.63333333333333,
+      "white_core_area_pixels_in_fixed_roi": 27,
+      "hand_mask_area_pixels": 10910,
+      "hand_mask_centroid_native_xy": [
+        1513.8582951420715,
+        1413.919890009166
+      ]
+    },
+    {
+      "frame_index": 2139,
+      "pts_seconds": 35.65,
+      "white_core_area_pixels_in_fixed_roi": 17,
+      "hand_mask_area_pixels": 7615,
+      "hand_mask_centroid_native_xy": [
+        1513.8358502954695,
+        1421.1195009848982
+      ]
+    },
+    {
+      "frame_index": 2140,
+      "pts_seconds": 35.666666666666664,
+      "white_core_area_pixels_in_fixed_roi": 12,
+      "hand_mask_area_pixels": 4656,
+      "hand_mask_centroid_native_xy": [
+        1517.1312285223369,
+        1427.1524914089348
+      ]
+    },
+    {
+      "frame_index": 2141,
+      "pts_seconds": 35.68333333333333,
+      "white_core_area_pixels_in_fixed_roi": 8,
+      "hand_mask_area_pixels": 2189,
+      "hand_mask_centroid_native_xy": [
+        1529.073549566012,
+        1431.965737779808
+      ]
+    },
+    {
+      "frame_index": 2142,
+      "pts_seconds": 35.7,
+      "white_core_area_pixels_in_fixed_roi": 2,
+      "hand_mask_area_pixels": 642,
+      "hand_mask_centroid_native_xy": [
+        1545.0685358255453,
+        1435.3738317757009
+      ]
+    },
+    {
+      "frame_index": 2143,
+      "pts_seconds": 35.71666666666667,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2144,
+      "pts_seconds": 35.733333333333334,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2145,
+      "pts_seconds": 35.75,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2146,
+      "pts_seconds": 35.766666666666666,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2147,
+      "pts_seconds": 35.78333333333333,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2148,
+      "pts_seconds": 35.8,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2149,
+      "pts_seconds": 35.81666666666667,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2150,
+      "pts_seconds": 35.833333333333336,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2151,
+      "pts_seconds": 35.85,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2152,
+      "pts_seconds": 35.86666666666667,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2153,
+      "pts_seconds": 35.88333333333333,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2154,
+      "pts_seconds": 35.9,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2155,
+      "pts_seconds": 35.916666666666664,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2156,
+      "pts_seconds": 35.93333333333333,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2157,
+      "pts_seconds": 35.95,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2158,
+      "pts_seconds": 35.96666666666667,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    },
+    {
+      "frame_index": 2159,
+      "pts_seconds": 35.983333333333334,
+      "white_core_area_pixels_in_fixed_roi": 0,
+      "hand_mask_area_pixels": 0,
+      "hand_mask_centroid_native_xy": null
+    }
+  ]
+}

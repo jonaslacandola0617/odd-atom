@@ -1,0 +1,26 @@
+{
+  "video_id": "reference_3dab4435d188",
+  "name": "farmer-design",
+  "source_sha256": "3dab4435d1882835d9f3798f7c367daa4b1388f9342649b26a3b250f1209acf5",
+  "start_frame": 18600,
+  "end_frame": 18601,
+  "end_frame_exclusive": true,
+  "source_start_pts": 310.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 18600,
+      "pts_seconds": 310.0,
+      "png": "analysis/keyframes/reference_3dab4435d188/farmer-design/frame-000000.png",
+      "sha256": "b490d5ab929b67cdcbad6002388860651f795a30239cf104766ec340e4f74bbd"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_3dab4435d188/farmer-design/consecutive-001.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_3dab4435d188/farmer-design/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

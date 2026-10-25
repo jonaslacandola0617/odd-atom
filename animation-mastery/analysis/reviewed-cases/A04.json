@@ -1,0 +1,240 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "shot_id": "case_A04",
+  "case_id": "A04",
+  "case_name": "boat-collision-and-turn",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 12660,
+  "end_frame": 12780,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 211.0,
+  "end_pts_seconds": 213.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "A green boat pursues rewards away from the useful race route; contact, damage and continued turning make the error visible.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "green boat and coin",
+      "wall near top",
+      "contrasting purple racers",
+      "curved wake"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "ai.green-boat",
+        "description": "Lime/green boat turning toward the upper sea wall.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.purple-racers",
+        "description": "Purple boats on the right route.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.coins",
+        "description": "Gold reward markers.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.wake",
+        "description": "Pale curved water trail behind moving boat.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.damage",
+        "description": "Orange/yellow flames and intermittent low-opacity hull after wall approach.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Top-down teal course framed by stone-colored wall/pier and small decorative sailboats.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [],
+  "objects": [
+    {
+      "object_id": "ai.green-boat",
+      "description": "Lime/green boat turning toward the upper sea wall.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.purple-racers",
+      "description": "Purple boats on the right route.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.coins",
+      "description": "Gold reward markers.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.wake",
+      "description": "Pale curved water trail behind moving boat.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.damage",
+      "description": "Orange/yellow flames and intermittent low-opacity hull after wall approach.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "a04.background",
+      "description": "Top-down teal course framed by stone-colored wall/pier and small decorative sailboats.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "ai.green-boat",
+        "ai.purple-racers",
+        "ai.coins",
+        "ai.wake",
+        "ai.damage"
+      ],
+      "start_frame": 12660,
+      "end_frame": 12780,
+      "purpose": "A green boat pursues rewards away from the useful race route; contact, damage and continued turning make the error visible.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 12660,
+          "end_frame": 12704,
+          "phase": "curved approach",
+          "pose_or_state": "Boat turns toward top wall; pale wake curves behind."
+        },
+        {
+          "start_frame": 12704,
+          "end_frame": 12720,
+          "phase": "contact/damage interval",
+          "pose_or_state": "Hull intermittently loses opacity and visible flames appear by end."
+        },
+        {
+          "start_frame": 12720,
+          "end_frame": 12780,
+          "phase": "consequence",
+          "pose_or_state": "Burning boat turns left/down while purple racers continue on right."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "Hull-mask centroid is not pivot; covariance angle is modulo180. Full loop timing still needs native tracking beyond this two-second window."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        12660,
+        12780
+      ],
+      "limitations": "Hull-mask centroid is not pivot; covariance angle is modulo180. Full loop timing still needs native tracking beyond this two-second window."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        12660,
+        12780
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Green hull rotates and translates along a curved route; wake preserves recent direction.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        12660,
+        12780
+      ]
+    },
+    {
+      "statement": "Near f12716–12720 /211.933–212.0 s warm flames become clearly visible after the wall approach.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        12660,
+        12780
+      ]
+    },
+    {
+      "statement": "Purple racers continue upward on the right while green boat turns left/down; the 206–220 s scout shows the broader loop and return to a winning scoreboard.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        12660,
+        12780
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 12660,
+      "pts_seconds": 211.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000000.png"
+    },
+    {
+      "frame_index": 12720,
+      "pts_seconds": 212.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000060.png"
+    },
+    {
+      "frame_index": 12779,
+      "pts_seconds": 212.98333333333332,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/evidence.json",
+  "source_technique_inference_limitations": "Hull-mask centroid is not pivot; covariance angle is modulo180. Full loop timing still needs native tracking beyond this two-second window.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-collision-and-turn/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing.",
+  "measurement_files": [
+    "analysis/motion-tracks/reference_9a02fcef71d3/boat-lime-hull-mask.json"
+  ]
+}

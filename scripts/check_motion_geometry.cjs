@@ -5,7 +5,15 @@ const vm=require('node:vm');
 const {createRequire}=require('node:module');
 const ts=require('typescript');
 const file=path.resolve(__dirname,'../src/MotionCharacters.tsx');
-const localRequire=createRequire(file);
+const sourceRequire=createRequire(file);
+const localRequire=name=>{
+  if(name.endsWith('/bendSkin')){
+    const helper=path.resolve(path.dirname(file),name+'.ts'),entry={exports:{}};
+    const javascript=ts.transpileModule(fs.readFileSync(helper,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+    vm.runInNewContext(javascript,{module:entry,exports:entry.exports},{filename:helper});return entry.exports;
+  }
+  return sourceRequire(name);
+};
 const source=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true,target:ts.ScriptTarget.ES2022}}).outputText;
 const mod={exports:{}};
 vm.runInNewContext(source,{require:name=>name==='./IllustratedTitle'?{IllustratedTitle:()=>null}:localRequire(name),exports:mod.exports,module:mod},{filename:file});

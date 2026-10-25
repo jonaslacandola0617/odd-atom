@@ -1,0 +1,222 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "shot_id": "case_A06",
+  "case_id": "A06",
+  "case_name": "agent-group-staging",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 53940,
+  "end_frame": 54060,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 899.0,
+  "end_pts_seconds": 901.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Preserve a contrasting minority row while revealing a much larger surrounding population.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "three initial rows of magenta agents",
+      "cyan minority row",
+      "expanding magenta population"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "ai.magenta-agents",
+        "description": "Repeated varied magenta one-eyed agent silhouettes.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.cyan-agents",
+        "description": "Smaller cyan/blue contrasting row.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.corner-bird",
+        "description": "Small bird entering/visible at lower right late in the interval.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.objection-bubble",
+        "description": "Purple bubble with green symbols near the cyan row, removed during expansion.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Dark near-black field with violet top light; repeated icons create the informational structure.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [
+    {
+      "object_id": "ai.magenta-agents",
+      "description": "Repeated varied magenta one-eyed agent silhouettes.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.cyan-agents",
+      "description": "Smaller cyan/blue contrasting row.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.corner-bird",
+      "description": "Small bird entering/visible at lower right late in the interval.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "ai.objection-bubble",
+      "description": "Purple bubble with green symbols near the cyan row, removed during expansion.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "a06.background",
+      "description": "Dark near-black field with violet top light; repeated icons create the informational structure.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "ai.magenta-agents",
+        "ai.cyan-agents",
+        "ai.corner-bird",
+        "ai.objection-bubble"
+      ],
+      "start_frame": 53940,
+      "end_frame": 54060,
+      "purpose": "Preserve a contrasting minority row while revealing a much larger surrounding population.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 53940,
+          "end_frame": 53973,
+          "phase": "readable small group",
+          "pose_or_state": "Three magenta rows and contrasting cyan row with bubble."
+        },
+        {
+          "start_frame": 53973,
+          "end_frame": 54012,
+          "phase": "population reveal",
+          "pose_or_state": "Bubble goes; array expands, new icons enter as original group is rescaled/repositioned."
+        },
+        {
+          "start_frame": 54012,
+          "end_frame": 54060,
+          "phase": "large-group hold",
+          "pose_or_state": "Expanded population retains cyan minority contrast."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "The visible array is illustrative, not a verified exact count of agents or a measured percentage."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        53940,
+        54060
+      ],
+      "limitations": "The visible array is illustrative, not a verified exact count of agents or a measured percentage."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        53940,
+        54060
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Initial compact group is readable before the composition expands.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        53940,
+        54060
+      ]
+    },
+    {
+      "statement": "Around f53973 onward, additional icons enter/spread while original group scales/repositions; by f54012 the larger array fills the frame.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        53940,
+        54060
+      ]
+    },
+    {
+      "statement": "Cyan minority remains a contrasting row within the much larger magenta field; icons retain differing silhouettes.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        53940,
+        54060
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 53940,
+      "pts_seconds": 899.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000000.png"
+    },
+    {
+      "frame_index": 54000,
+      "pts_seconds": 900.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000060.png"
+    },
+    {
+      "frame_index": 54059,
+      "pts_seconds": 900.9833333333333,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/evidence.json",
+  "source_technique_inference_limitations": "The visible array is illustrative, not a verified exact count of agents or a measured percentage.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/agent-group-staging/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

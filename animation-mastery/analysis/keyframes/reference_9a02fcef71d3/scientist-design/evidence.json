@@ -1,0 +1,26 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "name": "scientist-design",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 16800,
+  "end_frame": 16801,
+  "end_frame_exclusive": true,
+  "source_start_pts": 280.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 16800,
+      "pts_seconds": 280.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/scientist-design/frame-000000.png",
+      "sha256": "cdaa692bdb6e2a6cd2e5cf5ecb88b286b50978a42646ccc571914d09945c2144"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/scientist-design/consecutive-001.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_9a02fcef71d3/scientist-design/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

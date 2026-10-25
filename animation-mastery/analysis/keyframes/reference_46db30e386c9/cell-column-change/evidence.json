@@ -1,0 +1,454 @@
+{
+  "video_id": "reference_46db30e386c9",
+  "name": "cell-column-change",
+  "source_sha256": "46db30e386c928a1e4251fbe2c72a006f7ff9775edc84e0ba55bee66dd4b9dcd",
+  "start_frame": 24960,
+  "end_frame": 25032,
+  "end_frame_exclusive": true,
+  "source_start_pts": 416.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 24960,
+      "pts_seconds": 416.0,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000000.png",
+      "sha256": "be9fadae6f7a672da930f07efb4e4bcb311f553b3c8e21d5c2f16a4269b3b29f"
+    },
+    {
+      "frame_index": 24961,
+      "pts_seconds": 416.01666666666665,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000001.png",
+      "sha256": "6c630235d534a2e81c8aed7d9e5c3ae3220fdcbb2353fc9f94db009d0a0a7d83"
+    },
+    {
+      "frame_index": 24962,
+      "pts_seconds": 416.03333333333336,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000002.png",
+      "sha256": "f7648b84cef2f82232a1a8a83bcca12beb63cdf7aa5d0e57fb480c4c9a45793e"
+    },
+    {
+      "frame_index": 24963,
+      "pts_seconds": 416.05,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000003.png",
+      "sha256": "5a986da014933f6027bd6c6bf778d9cff1513917f074a4e7eaee8572ab73005f"
+    },
+    {
+      "frame_index": 24964,
+      "pts_seconds": 416.06666666666666,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000004.png",
+      "sha256": "531a5b2017b05e3785621d4e89fa4f46edafd14bade179706bf85f23b61b700d"
+    },
+    {
+      "frame_index": 24965,
+      "pts_seconds": 416.0833333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000005.png",
+      "sha256": "6d3ceb209be420b072d722dcb70852967bc74aaa0fbf284f2bce724049ccc6d9"
+    },
+    {
+      "frame_index": 24966,
+      "pts_seconds": 416.1,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000006.png",
+      "sha256": "a08a39e0f770bed3c5bdd063687fd4e087c689f8f4971a9c2c5b1923f03e218b"
+    },
+    {
+      "frame_index": 24967,
+      "pts_seconds": 416.1166666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000007.png",
+      "sha256": "136d07c2d293c25d336e9d0f472fcc86e20e8451f95f17ee227a4c52f574878c"
+    },
+    {
+      "frame_index": 24968,
+      "pts_seconds": 416.1333333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000008.png",
+      "sha256": "1f317ba67d0e8199421c9456d016c7d279fe517e9672f655d4aea0b293603a21"
+    },
+    {
+      "frame_index": 24969,
+      "pts_seconds": 416.15,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000009.png",
+      "sha256": "8f3c665ac650dd1c54960ee8431387d1396862d623366a50d2ce4432f6a6b765"
+    },
+    {
+      "frame_index": 24970,
+      "pts_seconds": 416.1666666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000010.png",
+      "sha256": "0d51d9c17aeed4d04e84dd43b5cf7bf8004d9728052772acc50930b99397533d"
+    },
+    {
+      "frame_index": 24971,
+      "pts_seconds": 416.18333333333334,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000011.png",
+      "sha256": "8b058281b0908324da1044c078454bc5fc0918c9f3d31c12d04f5408dad262fe"
+    },
+    {
+      "frame_index": 24972,
+      "pts_seconds": 416.2,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000012.png",
+      "sha256": "76667f48b867d96385c5f65e1d03db800edab16ef85f73fb932cc9f2c6570697"
+    },
+    {
+      "frame_index": 24973,
+      "pts_seconds": 416.21666666666664,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000013.png",
+      "sha256": "5d8fb1924f7948f6e614a1d56a5ab974482f4f6bd4f709a164ae8b6a15217e24"
+    },
+    {
+      "frame_index": 24974,
+      "pts_seconds": 416.23333333333335,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000014.png",
+      "sha256": "d38d7a00cdcca631438aff21174d8cb0074d01e1b11472b5a85c6d091d47298d"
+    },
+    {
+      "frame_index": 24975,
+      "pts_seconds": 416.25,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000015.png",
+      "sha256": "2a3b6b514f7a9192b5e5c7b74fa85e16a15504cc7ceca0e6bc25ddb2b6db7434"
+    },
+    {
+      "frame_index": 24976,
+      "pts_seconds": 416.26666666666665,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000016.png",
+      "sha256": "9042526e6c1fa3605ca259e761c519e9453f654060ae45de70ac9412cc5594b8"
+    },
+    {
+      "frame_index": 24977,
+      "pts_seconds": 416.28333333333336,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000017.png",
+      "sha256": "8ef87849ef62b9b09b8c7e45e5b0c9e34bdd0c41aac502fe1de71493ca06fb75"
+    },
+    {
+      "frame_index": 24978,
+      "pts_seconds": 416.3,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000018.png",
+      "sha256": "97d5933c45a72acc1e1f9ddf35fd87487cf1f05c302266d7b26729459c273af4"
+    },
+    {
+      "frame_index": 24979,
+      "pts_seconds": 416.31666666666666,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000019.png",
+      "sha256": "a829007a1f829c9acac8181452786302a75a69bed8bda73d947ffc63c49786b7"
+    },
+    {
+      "frame_index": 24980,
+      "pts_seconds": 416.3333333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000020.png",
+      "sha256": "117d49f94c4acb6d48498bf34049e2cc955aa3225afaaeb91bf44c2de49e21e6"
+    },
+    {
+      "frame_index": 24981,
+      "pts_seconds": 416.35,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000021.png",
+      "sha256": "01c081c4af1dbbec39db9c6e7cbd61e377c542cb90ffcee4c0bf56c51eb58ac6"
+    },
+    {
+      "frame_index": 24982,
+      "pts_seconds": 416.3666666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000022.png",
+      "sha256": "73054be0a217e5f6e0919b7b1b8cc1366d8f09f6dbf489eff4c89a538b9711c0"
+    },
+    {
+      "frame_index": 24983,
+      "pts_seconds": 416.3833333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000023.png",
+      "sha256": "ad2b71a430bd215607fc41783bbee580fc4558fbcd54686e69c351a5ceb996c4"
+    },
+    {
+      "frame_index": 24984,
+      "pts_seconds": 416.4,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000024.png",
+      "sha256": "d7181a25ed196fbcbc0e646d5e0ad98aea35102b3cb2f07fe8eb9ccc6e37e548"
+    },
+    {
+      "frame_index": 24985,
+      "pts_seconds": 416.4166666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000025.png",
+      "sha256": "eccb0d26cd8a8d4847aeeea20396778bf9459f1694bf415eed1e2c8370b2f979"
+    },
+    {
+      "frame_index": 24986,
+      "pts_seconds": 416.43333333333334,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000026.png",
+      "sha256": "2062139e34989547b9d3863ac359e961fccf73b958cb564ce23a6b413889b350"
+    },
+    {
+      "frame_index": 24987,
+      "pts_seconds": 416.45,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000027.png",
+      "sha256": "fa5bbc7b5650f1c4404139470fb3a0efbcdf217e3728ee1f461cdaa4c9f01381"
+    },
+    {
+      "frame_index": 24988,
+      "pts_seconds": 416.46666666666664,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000028.png",
+      "sha256": "52a8193aa5b159fdb8e463edcc1d4159852474fa415ef6008fd4beb048fddd72"
+    },
+    {
+      "frame_index": 24989,
+      "pts_seconds": 416.48333333333335,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000029.png",
+      "sha256": "77d8184b802b2ae8d5e563d031498787b4a02a6b7e9f933a3a080cb5b82872fb"
+    },
+    {
+      "frame_index": 24990,
+      "pts_seconds": 416.5,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000030.png",
+      "sha256": "f510799e206b11c9613da9cfcf00fbabced2ce9751bf4fff2528c795f74d1837"
+    },
+    {
+      "frame_index": 24991,
+      "pts_seconds": 416.51666666666665,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000031.png",
+      "sha256": "bdb8c6c7648881e35d6ab05f7e095d9231904def24e855c3721fb66d7765d633"
+    },
+    {
+      "frame_index": 24992,
+      "pts_seconds": 416.53333333333336,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000032.png",
+      "sha256": "d043d65486fb7fb8498b2a0afb97482f8e3ec96dd54250b09a0b38e087b57f99"
+    },
+    {
+      "frame_index": 24993,
+      "pts_seconds": 416.55,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000033.png",
+      "sha256": "db34fcd25c38206090226051802f2234807326e7e99f8eed6a492127f9bc4872"
+    },
+    {
+      "frame_index": 24994,
+      "pts_seconds": 416.56666666666666,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000034.png",
+      "sha256": "0915989f2616d4198cf79e9498c0d83cf6ee7f6bda89047c739e78d20ebda794"
+    },
+    {
+      "frame_index": 24995,
+      "pts_seconds": 416.5833333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000035.png",
+      "sha256": "dc36c96837860f9835077cd54fc8cc9b13814403a946b62dbcc36e495ac6e74e"
+    },
+    {
+      "frame_index": 24996,
+      "pts_seconds": 416.6,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000036.png",
+      "sha256": "dafa77b037fc369b1d91cbd4f18e1e368a599d39f7b96b67df1a0f3d0cb7c0a3"
+    },
+    {
+      "frame_index": 24997,
+      "pts_seconds": 416.6166666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000037.png",
+      "sha256": "8c76f7738d4ff3176f2edbc296daaadcd8271abaae629431fa71f169a028c03c"
+    },
+    {
+      "frame_index": 24998,
+      "pts_seconds": 416.6333333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000038.png",
+      "sha256": "b603e20a8875edfbe770a8b5a6aab7401a16445246631683d5f21e3ee0b5148c"
+    },
+    {
+      "frame_index": 24999,
+      "pts_seconds": 416.65,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000039.png",
+      "sha256": "a262e18c72c3939de884c9165fc02b7e74a4880e3d9165fe1c333157fad3a61a"
+    },
+    {
+      "frame_index": 25000,
+      "pts_seconds": 416.6666666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000040.png",
+      "sha256": "c954fa429ea88e4750f9a37b8883dcb387205c7092991b8151dcafaef7d50516"
+    },
+    {
+      "frame_index": 25001,
+      "pts_seconds": 416.68333333333334,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000041.png",
+      "sha256": "4d9bb5f71375207524196bc34997cb4685011acb6357a0424ca7e3b6da3a6c64"
+    },
+    {
+      "frame_index": 25002,
+      "pts_seconds": 416.7,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000042.png",
+      "sha256": "c8938726a329da5f700ebed4fa5c4383f1574e5f208c82afcb748ad9c5d3f741"
+    },
+    {
+      "frame_index": 25003,
+      "pts_seconds": 416.71666666666664,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000043.png",
+      "sha256": "b5632910a3362d9a379ca3d9728084060ddea46b42692b565d5e96d9cfbe9b23"
+    },
+    {
+      "frame_index": 25004,
+      "pts_seconds": 416.73333333333335,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000044.png",
+      "sha256": "52e85e0b2942ac1dbe302890773ddd7ebe1ea680da101c74217ca8da64966fd4"
+    },
+    {
+      "frame_index": 25005,
+      "pts_seconds": 416.75,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000045.png",
+      "sha256": "35e747b1c74b78eab40c4043ab1767b83dd75d1f9c5bb21bc8defa71f4d8fa18"
+    },
+    {
+      "frame_index": 25006,
+      "pts_seconds": 416.76666666666665,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000046.png",
+      "sha256": "ef5a5d6ed18c0d4a9d7b8b7b3b0fd2f835f52c3100e85e09e7ed1b8575d6266a"
+    },
+    {
+      "frame_index": 25007,
+      "pts_seconds": 416.78333333333336,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000047.png",
+      "sha256": "0a3b84eeb636ee011b1692dead57434ea2b168f0d3c7fc3f40da030143f9cfd9"
+    },
+    {
+      "frame_index": 25008,
+      "pts_seconds": 416.8,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000048.png",
+      "sha256": "5bd9e25c62c879d9d890ac6ce0bd84bbf5ae41fa2ef2c6b3ef54ee88722699a4"
+    },
+    {
+      "frame_index": 25009,
+      "pts_seconds": 416.81666666666666,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000049.png",
+      "sha256": "7714e326a6d70ccff49831a532d741ac632a518e869ea5a2b2945a153849ad3f"
+    },
+    {
+      "frame_index": 25010,
+      "pts_seconds": 416.8333333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000050.png",
+      "sha256": "8b5271b4c1d9a75e3be9ee5b9f2e4151d78b6df80e357093d1727e96042a355d"
+    },
+    {
+      "frame_index": 25011,
+      "pts_seconds": 416.85,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000051.png",
+      "sha256": "403ee4fc5a560b3bb236a79a68993386ce8971b365cdb6226cdc9149ce64efcc"
+    },
+    {
+      "frame_index": 25012,
+      "pts_seconds": 416.8666666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000052.png",
+      "sha256": "d539003d797fae9baf8cbf4ff2dd1b7ec4efd8695e0c1d8b5a9aee6c92500524"
+    },
+    {
+      "frame_index": 25013,
+      "pts_seconds": 416.8833333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000053.png",
+      "sha256": "f5a4a789827d8be3ae14de36f5daff6344d9ed4269650bb174990f1cd610aab0"
+    },
+    {
+      "frame_index": 25014,
+      "pts_seconds": 416.9,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000054.png",
+      "sha256": "c6a45f57105252c813843e6dd23e2d6730d25d3db1545f11ccc8c0e1f50061ef"
+    },
+    {
+      "frame_index": 25015,
+      "pts_seconds": 416.9166666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000055.png",
+      "sha256": "0802b0143f07d6f46a02fd8225a1cf10a0249e9b96c39868a12d46edbe62b2ba"
+    },
+    {
+      "frame_index": 25016,
+      "pts_seconds": 416.93333333333334,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000056.png",
+      "sha256": "27f17427df83eb97a3448c39b72ca46416e67d48816a813df28038c5ccd5a50d"
+    },
+    {
+      "frame_index": 25017,
+      "pts_seconds": 416.95,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000057.png",
+      "sha256": "f6079a6fe1586ea22ec1069fae778daa5c854162a92077434d8bcee7e69c50ab"
+    },
+    {
+      "frame_index": 25018,
+      "pts_seconds": 416.96666666666664,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000058.png",
+      "sha256": "a029a0f78921ba143d92d39758d969492bf32b3712ab2918194f345f76bd4746"
+    },
+    {
+      "frame_index": 25019,
+      "pts_seconds": 416.98333333333335,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000059.png",
+      "sha256": "dc0fdd5dc0720b3a8831d942ffa858bfb9aa74ddd34f02d213c6a7cf891f4237"
+    },
+    {
+      "frame_index": 25020,
+      "pts_seconds": 417.0,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000060.png",
+      "sha256": "6300a0178ff8097d53d23f30e3ec586c69d1ed2d64a413e46a3de99ac69a3017"
+    },
+    {
+      "frame_index": 25021,
+      "pts_seconds": 417.01666666666665,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000061.png",
+      "sha256": "5284285802940f8e792d26f0a1d28f2a80e36f8037ef4b54ba72af6caf71c3a6"
+    },
+    {
+      "frame_index": 25022,
+      "pts_seconds": 417.03333333333336,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000062.png",
+      "sha256": "9c9c5a3911a9349754287586064b1b304ab2d7fc66507b64689f1b6722b9784e"
+    },
+    {
+      "frame_index": 25023,
+      "pts_seconds": 417.05,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000063.png",
+      "sha256": "3e9dea5865ac7648ca65d90c577251f5d2ba8a2f1a7823002584b78d908b4d94"
+    },
+    {
+      "frame_index": 25024,
+      "pts_seconds": 417.06666666666666,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000064.png",
+      "sha256": "6a44d5afc4fc223993ca48bd716c262e7997b9b98627d216d267cd0a2a860e75"
+    },
+    {
+      "frame_index": 25025,
+      "pts_seconds": 417.0833333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000065.png",
+      "sha256": "d18c849bb6b0ff65fc0baee66024e4404d8f09d830209ef9646e6587f39ad85b"
+    },
+    {
+      "frame_index": 25026,
+      "pts_seconds": 417.1,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000066.png",
+      "sha256": "08fa5420790045daa962c2d335c37157140d8ff5b3f0fc772259d9c5b7d90db0"
+    },
+    {
+      "frame_index": 25027,
+      "pts_seconds": 417.1166666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000067.png",
+      "sha256": "83d7dd68f566e98086f8e2686d92311f3ec044d6552c17230f6457a931926d92"
+    },
+    {
+      "frame_index": 25028,
+      "pts_seconds": 417.1333333333333,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000068.png",
+      "sha256": "9d3d6739db55818555cffe6d5ad76126d3a17bf3554de62a5dd12d7736d2fc43"
+    },
+    {
+      "frame_index": 25029,
+      "pts_seconds": 417.15,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000069.png",
+      "sha256": "4845aff34a82cd325b8de46a968e50109ab0fb3b1dd5160e8b1d2b1bb307d3c4"
+    },
+    {
+      "frame_index": 25030,
+      "pts_seconds": 417.1666666666667,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000070.png",
+      "sha256": "95acd6c96bf2c44fa03edfa66c8058d09231f5be3c2bed02c19fabd3ab87cb13"
+    },
+    {
+      "frame_index": 25031,
+      "pts_seconds": 417.18333333333334,
+      "png": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000071.png",
+      "sha256": "cda85ea2bc8b89c149a74eb098c1da0defd37cb10eea8067f9df2e22e707533e"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_46db30e386c9/cell-column-change/consecutive-001.jpg",
+    "analysis/keyframes/reference_46db30e386c9/cell-column-change/consecutive-002.jpg",
+    "analysis/keyframes/reference_46db30e386c9/cell-column-change/consecutive-003.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_46db30e386c9/cell-column-change/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

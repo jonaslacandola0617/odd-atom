@@ -1,0 +1,26 @@
+{
+  "video_id": "reference_fd02030ee890",
+  "name": "bird-design",
+  "source_sha256": "fd02030ee890a97c119a33ba4cc3804c6ba2301f3378c42d613c83536cfbc660",
+  "start_frame": 120,
+  "end_frame": 121,
+  "end_frame_exclusive": true,
+  "source_start_pts": 2.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 120,
+      "pts_seconds": 2.0,
+      "png": "analysis/keyframes/reference_fd02030ee890/bird-design/frame-000000.png",
+      "sha256": "fc60752e564c960f815cfc22c35940d8590d4982ddf730c75f3244fa02c1b286"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_fd02030ee890/bird-design/consecutive-001.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_fd02030ee890/bird-design/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

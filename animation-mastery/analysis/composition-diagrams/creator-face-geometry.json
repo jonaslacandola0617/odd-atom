@@ -1,0 +1,50 @@
+{
+  "video_id": "reference_fd02030ee890",
+  "frame_index": 2159,
+  "pts_seconds": 35.983333333333334,
+  "basis": "Thresholded native-pixel face and eye color regions. Not authored path bounds; face mask can include neck/ears and exclude differently lit pixels.",
+  "face_mask_box_xyxy": [
+    1002,
+    347,
+    1589,
+    836
+  ],
+  "eyes": [
+    {
+      "box_xyxy": [
+        1149,
+        519,
+        1223,
+        598
+      ],
+      "centroid_xy": [
+        1185.475402792696,
+        558.3639097744361
+      ],
+      "area": 4655,
+      "width": 74,
+      "height": 79
+    },
+    {
+      "box_xyxy": [
+        1368,
+        515,
+        1441,
+        594
+      ],
+      "centroid_xy": [
+        1403.7099056603774,
+        553.8632075471698
+      ],
+      "area": 4664,
+      "width": 73,
+      "height": 79
+    }
+  ],
+  "eye_center_spacing_divided_by_face_mask_width": 0.3717793915974129,
+  "left_eye_width_divided_by_face_mask_width": 0.1260647359454855,
+  "thresholds": {
+    "skin": "R>190,60<G<180,B>110 within [900,150,1750,1000]",
+    "eye": "R<110,G<110,B>90 within [1120,470,1510,640]"
+  }
+}

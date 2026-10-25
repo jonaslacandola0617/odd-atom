@@ -1,0 +1,222 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "shot_id": "case_A02",
+  "case_id": "A02",
+  "case_name": "room-strip-action",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 10530,
+  "end_frame": 10610,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 175.5,
+  "end_pts_seconds": 176.83333333333334,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Remove everything that makes the room useful to expose the mismatch between instruction and intention.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "furniture disappearing",
+      "remaining person",
+      "empty room",
+      "agent outside"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "ai.room-person",
+        "description": "Same centered human remains while belongings disappear.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.room-agent",
+        "description": "Small glowing agent outside at lower right.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.room-furniture",
+        "description": "Same furniture now shrinking/disappearing in a staggered sequence.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.clean-sparkles",
+        "description": "Small pale sparkle bursts at disappearing items.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Room shell stays orange/yellow and stable against the dark exterior.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [
+    {
+      "object_id": "ai.room-person",
+      "description": "Same centered human remains while belongings disappear.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.room-agent",
+      "description": "Small glowing agent outside at lower right.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "ai.room-furniture",
+      "description": "Same furniture now shrinking/disappearing in a staggered sequence.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.clean-sparkles",
+      "description": "Small pale sparkle bursts at disappearing items.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "a02.background",
+      "description": "Room shell stays orange/yellow and stable against the dark exterior.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "ai.room-person",
+        "ai.room-agent",
+        "ai.room-furniture",
+        "ai.clean-sparkles"
+      ],
+      "start_frame": 10530,
+      "end_frame": 10610,
+      "purpose": "Remove everything that makes the room useful to expose the mismatch between instruction and intention.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 10530,
+          "end_frame": 10548,
+          "phase": "setup hold",
+          "pose_or_state": "Room remains furnished."
+        },
+        {
+          "start_frame": 10548,
+          "end_frame": 10590,
+          "phase": "staggered removal",
+          "pose_or_state": "Small items and large furniture disappear at different times; sparkles mark changes."
+        },
+        {
+          "start_frame": 10590,
+          "end_frame": 10610,
+          "phase": "result hold",
+          "pose_or_state": "Human remains in empty room, residual sparkles subside."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "Precise authored scale curves and the identity of every tiny removed item are not recovered."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        10530,
+        10610
+      ],
+      "limitations": "Precise authored scale curves and the identity of every tiny removed item are not recovered."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        10530,
+        10610
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Furnished state holds initially; items then shrink/disappear in stages with sparkle marks.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        10530,
+        10610
+      ]
+    },
+    {
+      "statement": "By f10590 /176.5 s the room is visibly empty except for the human; small sparkles subside afterward.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        10530,
+        10610
+      ]
+    },
+    {
+      "statement": "Room shell and person remain, preserving the comparison without a scene cut.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        10530,
+        10610
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 10530,
+      "pts_seconds": 175.5,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/frame-000000.png"
+    },
+    {
+      "frame_index": 10570,
+      "pts_seconds": 176.16666666666666,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/consecutive-002.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/frame-000040.png"
+    },
+    {
+      "frame_index": 10609,
+      "pts_seconds": 176.81666666666666,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/consecutive-004.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/frame-000079.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/evidence.json",
+  "source_technique_inference_limitations": "Precise authored scale curves and the identity of every tiny removed item are not recovered.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-strip-action/consecutive-004.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

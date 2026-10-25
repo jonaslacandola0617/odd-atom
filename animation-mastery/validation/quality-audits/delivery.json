@@ -1,0 +1,123 @@
+{
+  "status": "technical_checks_passed_encoded_visual_evidence_inspected_user_approval_pending",
+  "original_studies": [
+    {
+      "kind": "acting",
+      "file": "assets/videos/animation-mastery/v1/A-character-acting-4s.mp4",
+      "sha256": "694cfd8a6f105cfd30f5f2fc9a91d57fadd8030e166a3a3b59f988506319fabc",
+      "bytes": 910561,
+      "frames": 120,
+      "seconds": 4.011,
+      "full_decode": "passed",
+      "audio_peak_dbfs": -6.3,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "encoded_review_frames": [
+        0,
+        24,
+        34,
+        46,
+        69,
+        110
+      ],
+      "on_screen_titles": false,
+      "voice_generation_requests": 0,
+      "narration_present": false,
+      "visual_review": "encoded_phase_board_inspected; acting also consecutive23–46 and native arm/neck crop"
+    },
+    {
+      "kind": "explanation",
+      "file": "assets/videos/animation-mastery/v1/B-root-detour-6s.mp4",
+      "sha256": "f31ac968045e538711401bc9dad83cbb9e4d545419196d333db6c96f63666c12",
+      "bytes": 498752,
+      "frames": 180,
+      "seconds": 6.016,
+      "full_decode": "passed",
+      "audio_peak_dbfs": -5.1,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "encoded_review_frames": [
+        0,
+        30,
+        52,
+        68,
+        107,
+        165
+      ],
+      "on_screen_titles": false,
+      "voice_generation_requests": 0,
+      "narration_present": false,
+      "visual_review": "encoded_phase_board_inspected; acting also consecutive23–46 and native arm/neck crop"
+    },
+    {
+      "kind": "transition",
+      "file": "assets/videos/animation-mastery/v1/C-garden-to-roots-8s.mp4",
+      "sha256": "c883d5ecdf4f425b05b3363f8e33b45e5893c981416e2e6758f2d4f86f2800fe",
+      "bytes": 4598455,
+      "frames": 240,
+      "seconds": 8.0,
+      "full_decode": "passed",
+      "audio_peak_dbfs": -6.2,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "encoded_review_frames": [
+        24,
+        65,
+        80,
+        96,
+        118,
+        225
+      ],
+      "on_screen_titles": false,
+      "voice_generation_requests": 0,
+      "narration_present": false,
+      "visual_review": "encoded_phase_board_inspected; acting also consecutive23–46 and native arm/neck crop"
+    },
+    {
+      "kind": "narrative",
+      "file": "assets/videos/animation-mastery/v1/D-a-little-light-12s.mp4",
+      "sha256": "b16f5413f8b3b7c93e6c81f88ee698e31380b6d36ea9c5ae3c99e1f335ac8abc",
+      "bytes": 4882159,
+      "frames": 360,
+      "seconds": 12.011,
+      "full_decode": "passed",
+      "audio_peak_dbfs": -3.8,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "encoded_review_frames": [
+        0,
+        112,
+        150,
+        197,
+        255,
+        350
+      ],
+      "on_screen_titles": false,
+      "voice_generation_requests": 0,
+      "narration_present": false,
+      "visual_review": "encoded_phase_board_inspected; acting also consecutive23–46 and native arm/neck crop"
+    }
+  ],
+  "approved_source_artwork_unchanged": {
+    "assets/characters/static-test-01.png": "72842deef29e191d0f0699c66684d57b6869a0b4cfb2d50937a268f54b80b73f",
+    "assets/scenes/artwork-consistency-02/medicine-immune-defense.png": "d9f245e4aad1866de4b29f10a4dd45c7e9312cd3450dd07d68e36f750ed3fd5e",
+    "assets/scenes/artwork-consistency-02/cyber-network-defense.png": "e6bece838f7095e1346f255533802e62f8f9b114a73479c9a4396ae8088162fd"
+  },
+  "scope": "Four original technique/narrative tests. Not recreations or approvals of the full singularity film.",
+  "direct_audio_audition": "unavailable; no listening pass claimed",
+  "user_artistic_approval": "pending",
+  "visual_audit": "validation/quality-audits/visual-audit.md",
+  "artistic_equivalence": "not_claimed"
+}

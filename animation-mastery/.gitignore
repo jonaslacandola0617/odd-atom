@@ -1,0 +1,7 @@
+references/original/*
+!references/original/README.md
+references/extracted/*
+!references/extracted/README.md
+analysis/keyframes/**/frame-*.png
+__pycache__/
+*.py[cod]

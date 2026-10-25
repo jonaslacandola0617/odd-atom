@@ -1,0 +1,143 @@
+{
+  "video_id": "reference_46db30e386c9",
+  "shot_id": "case_H01",
+  "case_id": "H01",
+  "case_name": "cell-column-change",
+  "source_sha256": "46db30e386c928a1e4251fbe2c72a006f7ff9775edc84e0ba55bee66dd4b9dcd",
+  "start_frame": 24960,
+  "end_frame": 25032,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 416.0,
+  "end_pts_seconds": 417.2,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Hold the simplified cell arrangement long enough to read the structure during explanation.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "repeating hollow purple cells",
+      "small separators at connections"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "trees.sieve-columns",
+        "description": "Three main chains of narrowed purple cell outlines with small connector marks.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Soft dark purple/blue circular texture; no competing foreground character.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [],
+  "objects": [
+    {
+      "object_id": "trees.sieve-columns",
+      "description": "Three main chains of narrowed purple cell outlines with small connector marks.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "h01.background",
+      "description": "Soft dark purple/blue circular texture; no competing foreground character.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "trees.sieve-columns"
+      ],
+      "start_frame": 24960,
+      "end_frame": 25032,
+      "purpose": "Hold the simplified cell arrangement long enough to read the structure during explanation.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 24960,
+          "end_frame": 25032,
+          "phase": "observed interval",
+          "pose_or_state": "Arrangement is largely held through the sampled 72 frames; small image changes do not establish a separate acting cycle."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "No principal action onset or complete biological transformation is contained in this window."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        24960,
+        25032
+      ],
+      "limitations": "No principal action onset or complete biological transformation is contained in this window."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        24960,
+        25032
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Arrangement is largely held through the sampled 72 frames; small image changes do not establish a separate acting cycle.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        24960,
+        25032
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 24960,
+      "pts_seconds": 416.0,
+      "file": "analysis/keyframes/reference_46db30e386c9/cell-column-change/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000000.png"
+    },
+    {
+      "frame_index": 24996,
+      "pts_seconds": 416.6,
+      "file": "analysis/keyframes/reference_46db30e386c9/cell-column-change/consecutive-002.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000036.png"
+    },
+    {
+      "frame_index": 25031,
+      "pts_seconds": 417.18333333333334,
+      "file": "analysis/keyframes/reference_46db30e386c9/cell-column-change/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_46db30e386c9/cell-column-change/frame-000071.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_46db30e386c9/cell-column-change/evidence.json",
+  "source_technique_inference_limitations": "No principal action onset or complete biological transformation is contained in this window.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_46db30e386c9/cell-column-change/consecutive-001.jpg",
+    "analysis/keyframes/reference_46db30e386c9/cell-column-change/consecutive-002.jpg",
+    "analysis/keyframes/reference_46db30e386c9/cell-column-change/consecutive-003.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

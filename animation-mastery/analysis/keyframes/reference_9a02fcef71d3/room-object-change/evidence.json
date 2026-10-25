@@ -1,0 +1,744 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "name": "room-object-change",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 10260,
+  "end_frame": 10380,
+  "end_frame_exclusive": true,
+  "source_start_pts": 171.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 10260,
+      "pts_seconds": 171.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000000.png",
+      "sha256": "bffa89bfd6a971a11d31d012e0f740fb537f1af1ff258ee251b4499c536dcc94"
+    },
+    {
+      "frame_index": 10261,
+      "pts_seconds": 171.01666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000001.png",
+      "sha256": "fcd91f81f6220819a4d412ba03dd638ae49247d472f736fb5510971afdd789a5"
+    },
+    {
+      "frame_index": 10262,
+      "pts_seconds": 171.03333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000002.png",
+      "sha256": "15cd35c44b90601f801c1e499a97049b1e4bc8d37f0a9f23994880a3ec0d7535"
+    },
+    {
+      "frame_index": 10263,
+      "pts_seconds": 171.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000003.png",
+      "sha256": "423cfe8b4874595bfbebdf166f56c216ba8fcb42d54838a5c9a90c79d9def8ee"
+    },
+    {
+      "frame_index": 10264,
+      "pts_seconds": 171.06666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000004.png",
+      "sha256": "8376f43a0cf67ed182f93d2bb68909f8c1134dfbe1ed1aa7e3d955fcc7c6853c"
+    },
+    {
+      "frame_index": 10265,
+      "pts_seconds": 171.08333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000005.png",
+      "sha256": "f405bb895a2eafe73bace796b0cf9d15a63a313f4bdfbef7dd1e7bb90277b606"
+    },
+    {
+      "frame_index": 10266,
+      "pts_seconds": 171.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000006.png",
+      "sha256": "786bb0c96827bc923e84a691adbfaca94645f83db649eb264814dd178a46fcdc"
+    },
+    {
+      "frame_index": 10267,
+      "pts_seconds": 171.11666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000007.png",
+      "sha256": "800581105413f684ca32a338126463c4ed72eb27206b143fbb02bc7c28c30254"
+    },
+    {
+      "frame_index": 10268,
+      "pts_seconds": 171.13333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000008.png",
+      "sha256": "e662d100534ec78c825733625ab451015dd05e20db7a692d107f658267f33c5a"
+    },
+    {
+      "frame_index": 10269,
+      "pts_seconds": 171.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000009.png",
+      "sha256": "dae1ec51dee7e51f44989f655b0a081cfade575250ffe62c0f54eb27ae0c7fe7"
+    },
+    {
+      "frame_index": 10270,
+      "pts_seconds": 171.16666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000010.png",
+      "sha256": "03f8f87daf9ae2d8e6fd276420b74414fc0eb9f606cb72a1d35f6cea5df51306"
+    },
+    {
+      "frame_index": 10271,
+      "pts_seconds": 171.18333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000011.png",
+      "sha256": "610d9f64878a780c8124bed8bfc5497566dda6cdbc6ccf1b5575955f3e2c3c35"
+    },
+    {
+      "frame_index": 10272,
+      "pts_seconds": 171.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000012.png",
+      "sha256": "31c1d598f8885d94d3611ad25d54c549b04790501972931e666aa35f36daaf61"
+    },
+    {
+      "frame_index": 10273,
+      "pts_seconds": 171.21666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000013.png",
+      "sha256": "257a54f87756432d052e45a9cba6005e67bfef20db92b062f341f5e28bb8a2d5"
+    },
+    {
+      "frame_index": 10274,
+      "pts_seconds": 171.23333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000014.png",
+      "sha256": "410352e8a7d48543c325e8fa371c0907ee77fcfa74a0e5558881f31c13a78a14"
+    },
+    {
+      "frame_index": 10275,
+      "pts_seconds": 171.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000015.png",
+      "sha256": "606e2a70fa4fffe544155ae5cc643c320442f441af2e0ca769783397913fa63a"
+    },
+    {
+      "frame_index": 10276,
+      "pts_seconds": 171.26666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000016.png",
+      "sha256": "6607843423429053016b8c7ed1c7b12919246078f5fc01d408ca9ba1943b348b"
+    },
+    {
+      "frame_index": 10277,
+      "pts_seconds": 171.28333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000017.png",
+      "sha256": "7aeff8d96c875e5235b414beeebd415d2145a6a3b570a0935ea8fd3a311e6cdd"
+    },
+    {
+      "frame_index": 10278,
+      "pts_seconds": 171.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000018.png",
+      "sha256": "fae9d6e46b950906e9c90422846bfa41f67ea333e613f53145be330eaf79d8dd"
+    },
+    {
+      "frame_index": 10279,
+      "pts_seconds": 171.31666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000019.png",
+      "sha256": "158aa6c330757cc0093b880f83bc85e99c9d2bb949aab6dd2af6de1ebe3730bb"
+    },
+    {
+      "frame_index": 10280,
+      "pts_seconds": 171.33333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000020.png",
+      "sha256": "83270bf168fe6609fe5f74797cb6ea0e31c12105b4cf88cc4849306c609b13be"
+    },
+    {
+      "frame_index": 10281,
+      "pts_seconds": 171.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000021.png",
+      "sha256": "f635707f70b26652d3126bd77607734afba319cbbbf293f0cd8ade47b14349c6"
+    },
+    {
+      "frame_index": 10282,
+      "pts_seconds": 171.36666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000022.png",
+      "sha256": "7ebcaaaca12a93f2e4b21a725031798c74687b48f9b1985e9c4194da538dc033"
+    },
+    {
+      "frame_index": 10283,
+      "pts_seconds": 171.38333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000023.png",
+      "sha256": "dcc979480d01c1825aa57946827a4eb5cc8f1fb025f1e12a4df19ecf99b29647"
+    },
+    {
+      "frame_index": 10284,
+      "pts_seconds": 171.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000024.png",
+      "sha256": "c856a7bb64123fd53d2012d18f5c3c0b1b122cdc91b8cdfb84ba388b88b07997"
+    },
+    {
+      "frame_index": 10285,
+      "pts_seconds": 171.41666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000025.png",
+      "sha256": "46e34a92730d8b4bfccfedfc93bf945b96c342b5d8ac088e360a00013f234a9a"
+    },
+    {
+      "frame_index": 10286,
+      "pts_seconds": 171.43333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000026.png",
+      "sha256": "bf09896d334b1de152294cf2e78cf51db5cbf1261aac3385d28144ff05e4c8c7"
+    },
+    {
+      "frame_index": 10287,
+      "pts_seconds": 171.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000027.png",
+      "sha256": "7b265e156384e335d68bec3f6865cc81d33b8fe98fe08001af92013a1855c8de"
+    },
+    {
+      "frame_index": 10288,
+      "pts_seconds": 171.46666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000028.png",
+      "sha256": "f717918c7f2c4fb8859692c22ffe7a0871ef7cb6ea285475485ad989a93be0ce"
+    },
+    {
+      "frame_index": 10289,
+      "pts_seconds": 171.48333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000029.png",
+      "sha256": "e102cbf6c527c8100662469bbb234746fced5320273d3b0fa322a1c40d9c389b"
+    },
+    {
+      "frame_index": 10290,
+      "pts_seconds": 171.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000030.png",
+      "sha256": "c85926dc6f3e7219bf516692dfafddb1ffca3b62d08666d455ef64ab2a3ec012"
+    },
+    {
+      "frame_index": 10291,
+      "pts_seconds": 171.51666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000031.png",
+      "sha256": "30a3b22e1b4141101ac3c95751ecbd3c55c3d3d372e3179378a11a1223c36d97"
+    },
+    {
+      "frame_index": 10292,
+      "pts_seconds": 171.53333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000032.png",
+      "sha256": "17f5efc9fdb1ad36e862443f4d203a198c9b639bf397eb9d09bbaefe6a8d53aa"
+    },
+    {
+      "frame_index": 10293,
+      "pts_seconds": 171.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000033.png",
+      "sha256": "776dccda9e52e66abd586ccb069e82400204a53e462049fa4d26bfb75283f363"
+    },
+    {
+      "frame_index": 10294,
+      "pts_seconds": 171.56666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000034.png",
+      "sha256": "c20a059303c2be3465c1ea392ae025489133cb28d9c2888c637283fbbbf4fd62"
+    },
+    {
+      "frame_index": 10295,
+      "pts_seconds": 171.58333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000035.png",
+      "sha256": "4f4bb5db59171758645899d2fa87ee639f66622bacc5e252e444c3c62682cf5a"
+    },
+    {
+      "frame_index": 10296,
+      "pts_seconds": 171.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000036.png",
+      "sha256": "f409fc4677510799cb448f69bd0120e5420faa065b7d65a0839d43f1a2dea7ee"
+    },
+    {
+      "frame_index": 10297,
+      "pts_seconds": 171.61666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000037.png",
+      "sha256": "30298527557c868244249b8e0b9a7b6a57a0cecc2b2ed4d19b818561bf0fc753"
+    },
+    {
+      "frame_index": 10298,
+      "pts_seconds": 171.63333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000038.png",
+      "sha256": "828e4ac3d7c4d55456335ef24ebb53677500ad7e2f9a16663f0f25221d647316"
+    },
+    {
+      "frame_index": 10299,
+      "pts_seconds": 171.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000039.png",
+      "sha256": "cd9fcd65b980f53cd8cdff0debcba82eb884561b7f310e32762ed314b4810733"
+    },
+    {
+      "frame_index": 10300,
+      "pts_seconds": 171.66666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000040.png",
+      "sha256": "3dfff7e1b6649a43a592cc541039d590713d834b9df78806500fae3edd8da7e9"
+    },
+    {
+      "frame_index": 10301,
+      "pts_seconds": 171.68333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000041.png",
+      "sha256": "d55302c8d748ffc3a61fcb798da4f41bd6e3f54ec926a002824ce49389415abd"
+    },
+    {
+      "frame_index": 10302,
+      "pts_seconds": 171.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000042.png",
+      "sha256": "3d07ecb39043c2823d279bde99ec6d1f3ce5ce171e9975f6613c91ce3002adf3"
+    },
+    {
+      "frame_index": 10303,
+      "pts_seconds": 171.71666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000043.png",
+      "sha256": "1a5e74e741374abf10ddf5cee4580ae41c0ec6360b4cf9d1fe11233d071669dc"
+    },
+    {
+      "frame_index": 10304,
+      "pts_seconds": 171.73333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000044.png",
+      "sha256": "3095025af53f5441f48cc4b4e7be34df660370aa87c4ab38636e4f5cbc9b65f3"
+    },
+    {
+      "frame_index": 10305,
+      "pts_seconds": 171.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000045.png",
+      "sha256": "ef1b69d927ea97e29c3ca0e5037355356ec55a3efbe6b4834ac049bf8bf6f5e9"
+    },
+    {
+      "frame_index": 10306,
+      "pts_seconds": 171.76666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000046.png",
+      "sha256": "8346ee4699daaf6b7d05b339a534805576e88604e6d0361c061c89f7b5100822"
+    },
+    {
+      "frame_index": 10307,
+      "pts_seconds": 171.78333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000047.png",
+      "sha256": "6d375b03cac155d31d51c7325e775fb4fcf95e9e9857f24c244a1edde2d23f5b"
+    },
+    {
+      "frame_index": 10308,
+      "pts_seconds": 171.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000048.png",
+      "sha256": "585d7880f2a66fe3f3dcff075718ebf2efd25314e2fc21e05245a0bac06e5c6e"
+    },
+    {
+      "frame_index": 10309,
+      "pts_seconds": 171.81666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000049.png",
+      "sha256": "95f308c8f98d7ec5b286b99e9d487d7beb4ec6bba00af4f342a7379f34209652"
+    },
+    {
+      "frame_index": 10310,
+      "pts_seconds": 171.83333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000050.png",
+      "sha256": "b28e340e15db1436abe90a5937f2171b5383316dea33bde41f7f4e5c540e0a5e"
+    },
+    {
+      "frame_index": 10311,
+      "pts_seconds": 171.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000051.png",
+      "sha256": "7add3dd055f215fb5aceded4e800e6213ea298e9fa2f3045e343483bbacdf969"
+    },
+    {
+      "frame_index": 10312,
+      "pts_seconds": 171.86666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000052.png",
+      "sha256": "ea46f3661aaaacc01dd7df969a48c7805013b9b3fd4b9eb8d8ae30fdbfb695fc"
+    },
+    {
+      "frame_index": 10313,
+      "pts_seconds": 171.88333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000053.png",
+      "sha256": "85740d91e494d31a321ab2b24a9b8a0ebe63a64c60ef8d4d047dea4010bde3ab"
+    },
+    {
+      "frame_index": 10314,
+      "pts_seconds": 171.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000054.png",
+      "sha256": "62ab908057d99cac6861781ef6bcff621c0492f165d0c7279fa5d4f5dfe6bcfb"
+    },
+    {
+      "frame_index": 10315,
+      "pts_seconds": 171.91666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000055.png",
+      "sha256": "d530b17668feef7e2b3f8c14cddcf28269beebbb46bd1059355ac1e652ca4ad2"
+    },
+    {
+      "frame_index": 10316,
+      "pts_seconds": 171.93333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000056.png",
+      "sha256": "432af95f03bddc60c51f82dc71e74f38d0ba6d9b1d95d1f3965325f421e59875"
+    },
+    {
+      "frame_index": 10317,
+      "pts_seconds": 171.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000057.png",
+      "sha256": "9e64200163c417539053532baeeb821cce21230d7eafd8ee105aa43e6082bd22"
+    },
+    {
+      "frame_index": 10318,
+      "pts_seconds": 171.96666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000058.png",
+      "sha256": "082ddbccd86473e4b9273bd7f2bb6155ada817bafd0096463a98b21d14c76596"
+    },
+    {
+      "frame_index": 10319,
+      "pts_seconds": 171.98333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000059.png",
+      "sha256": "91b8bcf68e87c4eeec8d4771fcefe1e26b75e5e3e1fcca9b4d16b003a792804f"
+    },
+    {
+      "frame_index": 10320,
+      "pts_seconds": 172.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000060.png",
+      "sha256": "84c4d981e5d30f9f7bbeda0f1fe0e692ce2724c360452018eac4a1690e24922b"
+    },
+    {
+      "frame_index": 10321,
+      "pts_seconds": 172.01666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000061.png",
+      "sha256": "900a49919dd3be2fde144fe48eba84e5abb4d39eb98a6f4567380a706ced7e8a"
+    },
+    {
+      "frame_index": 10322,
+      "pts_seconds": 172.03333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000062.png",
+      "sha256": "ababdee17c133effbd034b6a76735db22c29da46555798bd463871c825e6b1fb"
+    },
+    {
+      "frame_index": 10323,
+      "pts_seconds": 172.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000063.png",
+      "sha256": "4ec77a4c6474dfd6fd03500c841a4d6dbca48677bbefa4353aa5731ce7df3d87"
+    },
+    {
+      "frame_index": 10324,
+      "pts_seconds": 172.06666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000064.png",
+      "sha256": "028a1ba7783c7dbaa1694b6a15c3191c4a0854fa4b4b520775ebd7081bc4fb79"
+    },
+    {
+      "frame_index": 10325,
+      "pts_seconds": 172.08333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000065.png",
+      "sha256": "a5239395be516a688e9de08793332d50ca63076c4b92dca924f600d8d8e33d93"
+    },
+    {
+      "frame_index": 10326,
+      "pts_seconds": 172.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000066.png",
+      "sha256": "7f5a6c5529608c686e1f3e440824059d0b76bc5b788cdb3cf0ddd244b102b911"
+    },
+    {
+      "frame_index": 10327,
+      "pts_seconds": 172.11666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000067.png",
+      "sha256": "9f85eb180186a058ff683c40835cfefc390bccd16661d3a7e69a388be409bf41"
+    },
+    {
+      "frame_index": 10328,
+      "pts_seconds": 172.13333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000068.png",
+      "sha256": "b3c5d82fe54a5de8fe6d48ea62080020c506cc375fbd96b1796456417dd7ba6c"
+    },
+    {
+      "frame_index": 10329,
+      "pts_seconds": 172.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000069.png",
+      "sha256": "8b2e8ca7430965cd73f1a4170e353f32b2375c620c7f136ce0104ed63288491e"
+    },
+    {
+      "frame_index": 10330,
+      "pts_seconds": 172.16666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000070.png",
+      "sha256": "3b90de48d33f12dd1af537aa672d694bc609b3070bc8f768801e3ecdde34409b"
+    },
+    {
+      "frame_index": 10331,
+      "pts_seconds": 172.18333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000071.png",
+      "sha256": "689647d9d84a2ff004a3e6bf8a0f29e715bca875fadd7d998c0ca3d6f09a9fd7"
+    },
+    {
+      "frame_index": 10332,
+      "pts_seconds": 172.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000072.png",
+      "sha256": "45fa3e969eef0c31be8086d5d71fbefd5af985fed70c868dbf8c0458de7f323c"
+    },
+    {
+      "frame_index": 10333,
+      "pts_seconds": 172.21666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000073.png",
+      "sha256": "aa8bb8cefd3bd4779783afb6fdbddb36fd1a0d833f4423ddda873ff2fa7069c0"
+    },
+    {
+      "frame_index": 10334,
+      "pts_seconds": 172.23333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000074.png",
+      "sha256": "f655eb4e18e9b84905ef8649b6bec5f0dd0ff5e1ab3e531ea0150289ddad1d0b"
+    },
+    {
+      "frame_index": 10335,
+      "pts_seconds": 172.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000075.png",
+      "sha256": "984273df74a558fb8da2008cd0b3f369cb4be74f863cc87458dc8cc0428be9fb"
+    },
+    {
+      "frame_index": 10336,
+      "pts_seconds": 172.26666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000076.png",
+      "sha256": "651507ffc528a69d9c4a5104a0770ff016797079b236acf2d021441f99161a9b"
+    },
+    {
+      "frame_index": 10337,
+      "pts_seconds": 172.28333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000077.png",
+      "sha256": "f1d47386a840a7e73dfd714290ef037e5e1b0314a3d04bbe50846a2405bf8db0"
+    },
+    {
+      "frame_index": 10338,
+      "pts_seconds": 172.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000078.png",
+      "sha256": "8eee1a7fc4f502202d065c3e07445770c0f4576b34f1dff2aca336f8e9d908d1"
+    },
+    {
+      "frame_index": 10339,
+      "pts_seconds": 172.31666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000079.png",
+      "sha256": "763ae211425bd281bdaec86902e6a1da92c45c25715337c88efab7534e94f33b"
+    },
+    {
+      "frame_index": 10340,
+      "pts_seconds": 172.33333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000080.png",
+      "sha256": "98f29e9a1b19e99a0869c2b9a12a631128518b83d862be4c0b1aa007428828ff"
+    },
+    {
+      "frame_index": 10341,
+      "pts_seconds": 172.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000081.png",
+      "sha256": "0c1a4a5294972cf8094a2a1639bb93e45a4173d05646acb12dde7ad2897fcc95"
+    },
+    {
+      "frame_index": 10342,
+      "pts_seconds": 172.36666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000082.png",
+      "sha256": "5a074f51d6bf89a55ae6248039311f80a140f3d7e6c0766095644f56566adddf"
+    },
+    {
+      "frame_index": 10343,
+      "pts_seconds": 172.38333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000083.png",
+      "sha256": "430249ff4e042f6f9a4e6f73071fb6b66a5c8bad6d121ba613f93c6b15b35be4"
+    },
+    {
+      "frame_index": 10344,
+      "pts_seconds": 172.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000084.png",
+      "sha256": "82b12330f009e6eee1bb66bba4f49dea95767febf121da2a0d023c3893d43626"
+    },
+    {
+      "frame_index": 10345,
+      "pts_seconds": 172.41666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000085.png",
+      "sha256": "dd95639b4708467cfb4019ce985749b067a0f16c4b6392ac89a264a5850da268"
+    },
+    {
+      "frame_index": 10346,
+      "pts_seconds": 172.43333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000086.png",
+      "sha256": "20a2e3d16e7bb7900e440b47b2a20e3a66c8aa2abc4413a0d5ef9725c28ef95d"
+    },
+    {
+      "frame_index": 10347,
+      "pts_seconds": 172.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000087.png",
+      "sha256": "2c308f3e4d0d64857514fc302310cb067512b1132177b00fbaa59e4f860de70c"
+    },
+    {
+      "frame_index": 10348,
+      "pts_seconds": 172.46666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000088.png",
+      "sha256": "e5593aa57f27f602958ce3e5d1cf1e6844f2f04b6c42bb9e5847a48237fe6166"
+    },
+    {
+      "frame_index": 10349,
+      "pts_seconds": 172.48333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000089.png",
+      "sha256": "5aa9a34041b3b52e7d137a04f6276863e7041a20130ba4ede96e80dafc8306ee"
+    },
+    {
+      "frame_index": 10350,
+      "pts_seconds": 172.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000090.png",
+      "sha256": "6a3d4c916d8efb32495d3c0b308d158dd73dbb6a07474778bc439fc30be940be"
+    },
+    {
+      "frame_index": 10351,
+      "pts_seconds": 172.51666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000091.png",
+      "sha256": "5dc68953d994074afcc1396ecebaa90f9aa11f6ea341518cf38882ea28f8ea17"
+    },
+    {
+      "frame_index": 10352,
+      "pts_seconds": 172.53333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000092.png",
+      "sha256": "7acda7cbf749ac33c4fcbb3005c1e7a36d5d4ebbdad286ccb6dc6f4bc19ec84d"
+    },
+    {
+      "frame_index": 10353,
+      "pts_seconds": 172.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000093.png",
+      "sha256": "e3d34c236463fb4101251e4b2628fdf58a12d0060f817328afdd9e3621b0c485"
+    },
+    {
+      "frame_index": 10354,
+      "pts_seconds": 172.56666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000094.png",
+      "sha256": "b79d9e979f15155c70d8e341caa441e403ce15b223b51832e80814a6070a47aa"
+    },
+    {
+      "frame_index": 10355,
+      "pts_seconds": 172.58333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000095.png",
+      "sha256": "a6648f3844d4e764597546e598e43c48697c6daa15d8df4c64ec931f429d551c"
+    },
+    {
+      "frame_index": 10356,
+      "pts_seconds": 172.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000096.png",
+      "sha256": "834bd5f2a1cc5617f847d8a0b9e627301b0e48ec0d8161e62a2fb2dfd1180a82"
+    },
+    {
+      "frame_index": 10357,
+      "pts_seconds": 172.61666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000097.png",
+      "sha256": "0df38b709880439f5d6c0edc94410681811e6b92855df68129bbbc7e77644522"
+    },
+    {
+      "frame_index": 10358,
+      "pts_seconds": 172.63333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000098.png",
+      "sha256": "b2a16ecae7cdd6a41e1f04b4c7d1c6659fdcdab3c0b5304a41ee7911d862591e"
+    },
+    {
+      "frame_index": 10359,
+      "pts_seconds": 172.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000099.png",
+      "sha256": "fdfb68ed5b9667977f3d4e8f9d129f94cd907b4b75732c78c67de1198babc508"
+    },
+    {
+      "frame_index": 10360,
+      "pts_seconds": 172.66666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000100.png",
+      "sha256": "b3378e2fb5603c0db6e2c1b801508b80c0edaf3baeb313d3a05fbcdda1cd07b0"
+    },
+    {
+      "frame_index": 10361,
+      "pts_seconds": 172.68333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000101.png",
+      "sha256": "b7fa684965b88e8634d210e7c8edc95dde8910d660cfe809fafbf94abfe50714"
+    },
+    {
+      "frame_index": 10362,
+      "pts_seconds": 172.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000102.png",
+      "sha256": "ffa9cb8a17e50830b0c3a90ae82fb9a8f81a89e640001680948ccf5bcfd1f6b4"
+    },
+    {
+      "frame_index": 10363,
+      "pts_seconds": 172.71666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000103.png",
+      "sha256": "71677df6cc6d602fe6d1e668e35897688934bc68619fb2f5f10fe09f7fdb6819"
+    },
+    {
+      "frame_index": 10364,
+      "pts_seconds": 172.73333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000104.png",
+      "sha256": "129ab019b21c246b1ad43e08b3df38a49d4b9ca1a84a93fbb83755492e568403"
+    },
+    {
+      "frame_index": 10365,
+      "pts_seconds": 172.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000105.png",
+      "sha256": "67e66f809c5a90db6e36452d77f137f8c61345b6ccca70c14f693851eb046fae"
+    },
+    {
+      "frame_index": 10366,
+      "pts_seconds": 172.76666666666668,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000106.png",
+      "sha256": "a9f759bf1e42f40ad21263736cc0e8b53812d2906105ca768eedf53dde53cddc"
+    },
+    {
+      "frame_index": 10367,
+      "pts_seconds": 172.78333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000107.png",
+      "sha256": "afe927b3d2cffceeecbabc2a315528bcec129e1977bcd8bd31c93eee2c24f275"
+    },
+    {
+      "frame_index": 10368,
+      "pts_seconds": 172.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000108.png",
+      "sha256": "32d3aa73c1dbf249b3e0a0c7b995306cb076136dbd7bb280174b62cde08161b7"
+    },
+    {
+      "frame_index": 10369,
+      "pts_seconds": 172.81666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000109.png",
+      "sha256": "4163537afacec53cf6072c1821b3c391e56ce30b1748ca59d35c9771b05c9542"
+    },
+    {
+      "frame_index": 10370,
+      "pts_seconds": 172.83333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000110.png",
+      "sha256": "e2e7dd4ae8f1c92bedb2929b54c6e1a739a1f03bcaaa78e93ea6191d7e75dc98"
+    },
+    {
+      "frame_index": 10371,
+      "pts_seconds": 172.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000111.png",
+      "sha256": "a760ebac9fcbf3c16a8db67c509201d60213d73e9308be76b301d3d0eba1cc53"
+    },
+    {
+      "frame_index": 10372,
+      "pts_seconds": 172.86666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000112.png",
+      "sha256": "832f4e5c421233a45ba5881f3016acfadd2af7abd5d025ae705c89ee9007301b"
+    },
+    {
+      "frame_index": 10373,
+      "pts_seconds": 172.88333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000113.png",
+      "sha256": "e671e4d53f234b4f016074106ea8821718dd68fc3c6d7aeb00bf2c970e528993"
+    },
+    {
+      "frame_index": 10374,
+      "pts_seconds": 172.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000114.png",
+      "sha256": "4a29d4706cb339aeead309a07dfeab53b5fcb1e04b0282d1cb477026468e91b2"
+    },
+    {
+      "frame_index": 10375,
+      "pts_seconds": 172.91666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000115.png",
+      "sha256": "f164b7a8cd9fa45fc9751bb206849c0509bac1dcde96f4baf803e1b3358597b8"
+    },
+    {
+      "frame_index": 10376,
+      "pts_seconds": 172.93333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000116.png",
+      "sha256": "774ca851d7f89c051b007df82a086b6de992961753ff41385a3d0f6625125b70"
+    },
+    {
+      "frame_index": 10377,
+      "pts_seconds": 172.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000117.png",
+      "sha256": "27f3d764ef72fe3af19f751cf832574fe29048a8f45dcfd39cf949904777858d"
+    },
+    {
+      "frame_index": 10378,
+      "pts_seconds": 172.96666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000118.png",
+      "sha256": "f1cbe537c58fc516c08302552969be51d8eeffb60eb3cf352f7a7149cf99add6"
+    },
+    {
+      "frame_index": 10379,
+      "pts_seconds": 172.98333333333332,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000119.png",
+      "sha256": "bf9c430c04a3c77ba2d217e56a9155acd6ba0b84202f92983067325221589423"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-005.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

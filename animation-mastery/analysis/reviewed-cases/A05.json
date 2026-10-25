@@ -1,0 +1,217 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "shot_id": "case_A05",
+  "case_id": "A05",
+  "case_name": "shared-route-reveal",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 28320,
+  "end_frame": 28440,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 472.0,
+  "end_pts_seconds": 474.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "A visible connector and fragments make access across a boundary readable between an agent and a green endpoint.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "bright connector",
+      "green endpoint",
+      "agent icon",
+      "diagonal boundary"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "ai.route-agent",
+        "description": "Small dark diamond-shaped agent with one bright eye at lower left.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.route-connector",
+        "description": "Cyan-to-pale angular connector crossing a diagonal division.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.route-endpoint",
+        "description": "Green glowing square endpoint.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.route-fragments",
+        "description": "Pale rectangular fragments near crossing.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.route-label",
+        "description": "Magenta ARTIFACTORY label above endpoint.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Dark blue left half and circuit-patterned green right half divided diagonally.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [
+    {
+      "object_id": "ai.route-agent",
+      "description": "Small dark diamond-shaped agent with one bright eye at lower left.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "ai.route-connector",
+      "description": "Cyan-to-pale angular connector crossing a diagonal division.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.route-endpoint",
+      "description": "Green glowing square endpoint.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.route-fragments",
+      "description": "Pale rectangular fragments near crossing.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.route-label",
+      "description": "Magenta ARTIFACTORY label above endpoint.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "a05.background",
+      "description": "Dark blue left half and circuit-patterned green right half divided diagonally.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "ai.route-agent",
+        "ai.route-connector",
+        "ai.route-endpoint",
+        "ai.route-fragments",
+        "ai.route-label"
+      ],
+      "start_frame": 28320,
+      "end_frame": 28440,
+      "purpose": "A visible connector and fragments make access across a boundary readable between an agent and a green endpoint.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 28320,
+          "end_frame": 28440,
+          "phase": "observed interval",
+          "pose_or_state": "Connector geometry and pale fragments change while the endpoint remains the focus. Magenta label retracts/fades near the end; background pattern remains subordinate to the bright route."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "Specific network topology and data semantics require source context; visual shapes are not measured packet traffic."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        28320,
+        28440
+      ],
+      "limitations": "Specific network topology and data semantics require source context; visual shapes are not measured packet traffic."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        28320,
+        28440
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Connector geometry and pale fragments change while the endpoint remains the focus.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        28320,
+        28440
+      ]
+    },
+    {
+      "statement": "Magenta label retracts/fades near the end; background pattern remains subordinate to the bright route.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        28320,
+        28440
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 28320,
+      "pts_seconds": 472.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000000.png"
+    },
+    {
+      "frame_index": 28380,
+      "pts_seconds": 473.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000060.png"
+    },
+    {
+      "frame_index": 28439,
+      "pts_seconds": 473.98333333333335,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/evidence.json",
+  "source_technique_inference_limitations": "Specific network topology and data semantics require source context; visual shapes are not measured packet traffic.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

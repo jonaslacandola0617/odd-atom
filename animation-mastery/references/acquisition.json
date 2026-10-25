@@ -1,0 +1,16 @@
+{
+  "requested_filename": "video-samples.zip",
+  "google_drive_file_id": "1jMjgwkzDE0gnEuhXB4FkXqazeRLRu0O5",
+  "checked_at_utc": "2026-10-25T05:56:06.905160+00:00",
+  "attempts": [
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1jMjgwkzDE0gnEuhXB4FkXqazeRLRu0O5",
+      "status": "downloaded"
+    }
+  ],
+  "status": "acquired",
+  "archive_path": "references/original/video-samples.zip",
+  "archive_sha256": "3859b43e2e796bf3ef362d90727961524edb4e79b013fa865dde5747833804a0",
+  "archive_bytes": 1192598729,
+  "extracted_directory": "references/original/archive-contents"
+}

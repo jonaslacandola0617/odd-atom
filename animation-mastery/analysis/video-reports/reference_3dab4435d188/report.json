@@ -1,0 +1,42 @@
+{
+  "video_id": "reference_3dab4435d188",
+  "source_sha256": "3dab4435d1882835d9f3798f7c367daa4b1388f9342649b26a3b250f1209acf5",
+  "decoded_frame_count": 63020,
+  "decoded_picture_end_seconds": 1050.3333333333333,
+  "candidate_shot_count": 96,
+  "confirmed_shot_count": null,
+  "temporal_analysis_status": "all_frames_measured_semantic_review_pending",
+  "analysis_dimensions": [
+    256,
+    144
+  ],
+  "opencv_version": "5.0.0",
+  "frame_index": "analysis/video-reports/reference_3dab4435d188/frame-index.jsonl.gz",
+  "decoder": "FFmpeg software decoder (libdav1d for AV1), not OpenCV media decoding",
+  "timestamp_verification": "Every decoded showinfo integer PTS agrees with FFprobe packet PTS in display order; frame and packet counts agree.",
+  "navigation_proxy": "references/extracted/reference_3dab4435d188-proxy.mp4",
+  "frame_metrics": "analysis/video-reports/reference_3dab4435d188/frame-metrics.jsonl.gz",
+  "feature_pairs": "analysis/motion-tracks/reference_3dab4435d188-feature-pairs.jsonl.gz",
+  "storyboard_pages": [
+    "analysis/keyframes/reference_3dab4435d188/storyboard-001.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-002.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-003.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-004.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-005.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-006.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-007.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-008.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-009.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-010.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-011.jpg",
+    "analysis/keyframes/reference_3dab4435d188/storyboard-012.jpg"
+  ],
+  "audio_status": "Stream metadata inventoried. No direct audition, source separation or semantic audio timing analysis.",
+  "semantic_status": "Human/visual interpretation not completed. These statistics do not establish drawing or animation mastery.",
+  "motion_estimation": "Consecutive-frame sparse LK tracking with forward/backward check; RANSAC partial affine. Normalized source-image motion, not camera identification.",
+  "duration_stats_seconds": {
+    "median": 0.01666666666665151,
+    "minimum": 0.01666666666665151,
+    "maximum": 0.016666666666878882
+  }
+}

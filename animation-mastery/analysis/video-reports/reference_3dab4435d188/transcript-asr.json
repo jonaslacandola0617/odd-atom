@@ -1,0 +1,2126 @@
+{
+  "video_id": "reference_3dab4435d188",
+  "source_sha256": "3dab4435d1882835d9f3798f7c367daa4b1388f9342649b26a3b250f1209acf5",
+  "engine": "cached Sherpa-ONNX / Whisper base.en int8 CPU",
+  "model_sha256": {
+    "base.en-encoder.int8.onnx": "ef6b936f4c9b1d90a3b68634b60c4ed8576b26172b33c2535ec0e933c9edb823",
+    "base.en-decoder.int8.onnx": "f7162ad6db2dbef16cfaeaa7f945b9d7dd9c1b8d472f6aca82f2273d185e4d41",
+    "base.en-tokens.txt": "306cd27f03c1a714eca7108e03d66b7dc042abe8c258b44c199a7ed9838dd930"
+  },
+  "duration_seconds": 1050.401125,
+  "chunks": [
+    {
+      "index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 25.0,
+      "text": "You probably think you know human history, but you don't. What we know is only a fraction of the story. Much of the rest is invisible to us, like dark matter. We can't see it, only the effects of its presence. Invisible like the wind, silently shaking trees and leaves. Almost every trace of the most important chapter in our history has vanished.",
+      "processing_seconds": 8.990903968000111
+    },
+    {
+      "index": 1,
+      "start_seconds": 25.0,
+      "end_seconds": 50.0,
+      "text": "and will forever stay hidden, we only see the world that emerged from it. The age when our ancestors underwent a fundamental transformation, began cultivating the Earth, built settlements, and created civilization. We have no writing from this period, no words, or eyewitness accounts. We don't know their names, how their world felt, sounded, or tasted.",
+      "processing_seconds": 6.553601611999966
+    },
+    {
+      "index": 2,
+      "start_seconds": 50.0,
+      "end_seconds": 75.0,
+      "text": "traces in stone, bone and clay remain. But recently, with new techniques for DNA sequencing, dating ancient detritus, mathematical models, aerial and lidar archaeology, we're getting a faint idea of what this world might have looked and felt like. Let's use these newest insights, educated speculation, and our imagination to visit the dark matter.",
+      "processing_seconds": 5.937054029999899
+    },
+    {
+      "index": 3,
+      "start_seconds": 75.0,
+      "end_seconds": 100.0,
+      "text": "of our history, the time before a single word was written down. First, we need to change how we think about our past. It's sort of madness that we're all pretending to live in the year 2026. It awkwardly splits our history into a before and after, at a rather random point in the grand scheme of things. 2026 years ago, humanity was very much deep in the middle.",
+      "processing_seconds": 7.688093096999864
+    },
+    {
+      "index": 4,
+      "start_seconds": 100.0,
+      "end_seconds": 125.0,
+      "text": "of things. And this makes it harder to think about our past properly. The year zero should be where civilization began, 12,000 years ago. This is the start of the Holocene, our current geological period, and the end of the last ice age, when Earth's climate turned from cold and erratic to warm and stable. The human era begins here, enabling our ancestors to lay the",
+      "processing_seconds": 7.942759206999881
+    },
+    {
+      "index": 5,
+      "start_seconds": 125.0,
+      "end_seconds": 150.0,
+      "text": "foundation for what it means to be human today. If we just add 10,000 years to our calendar, certainly our perspective feels incredibly different. You, fellow human, are living in the year 12,026. You look back on over 12,000 years of history. And while the people living back then may seem impossibly distant, they were exactly the same.",
+      "processing_seconds": 5.254846123000107
+    },
+    {
+      "index": 6,
+      "start_seconds": 150.0,
+      "end_seconds": 175.0,
+      "text": "as we are today. Modern humans experiencing the same emotions, wants and dreams. This is why every year we create our human-era calendar that celebrates all of humanity. But more on that at the end of the video. Okay, now that the stage is set, let's dive into the dark matter of history to where it all began. The beginning of civilization.",
+      "processing_seconds": 5.354104770000049
+    },
+    {
+      "index": 7,
+      "start_seconds": 175.0,
+      "end_seconds": 200.0,
+      "text": "The Year Zero of Human History In the hills of southern Anatolia and northern Syria, the first truly connected human cultural world emerges. This is Karahan Temi, one of the first villages known to us. Today is the first day of our timeline, day one of the year zero.",
+      "processing_seconds": 4.754472373999988
+    },
+    {
+      "index": 8,
+      "start_seconds": 200.0,
+      "end_seconds": 225.0,
+      "text": "Hundreds of people have come together from tribes around the region for the greatest gathering in history so far, an epic event for everyone involved. They're celebrating the first great construction of humanity, 7,000 years before the pyramids. How would they have felt if they'd known what it would lead to eventually? With tools of stone and wood, they begin to carve shapes in the way of the world.",
+      "processing_seconds": 5.614918194999973
+    },
+    {
+      "index": 9,
+      "start_seconds": 225.0,
+      "end_seconds": 250.0,
+      "text": "to bedrock, T-shaped columns multiple meters high, decorated with strange animals. Make it humans proudly presenting their fertility, figurines, of birds or beasts. We don't know how exactly they did this or why. Is the first religion being born here? What are the names of the long lost forgotten gods they're trying to please? Or are they just following a human?",
+      "processing_seconds": 5.234737179999911
+    },
+    {
+      "index": 10,
+      "start_seconds": 250.0,
+      "end_seconds": 275.0,
+      "text": "desire to express their inner worlds. All we know for sure is that this is a project of epic scale for the Stone Age and the beginning of a new era for the whole planet. Never before did so many humans collaborate on something so hard. A brutal effort like this requires a lot of energy and a new kind of organization and specialization that's never existed before, while some carve back.",
+      "processing_seconds": 5.471955788000059
+    },
+    {
+      "index": 11,
+      "start_seconds": 275.0,
+      "end_seconds": 300.0,
+      "text": "Red Rock all day, others gather grain, bake bread, brew beer or hunt antelopes to feed the builders of the new world. An avalanche of amazing progress is set in motion that will only gain speed from here. Over millennia, humans have learned that if you put the tasty parts in the ground, they come back again next year, larger, richer. Now with the climate finally started.",
+      "processing_seconds": 7.162152779000053
+    },
+    {
+      "index": 12,
+      "start_seconds": 300.0,
+      "end_seconds": 325.0,
+      "text": "stable, communities start to cultivate them in earnest rather than simply gathering from the wild. Opening up the ground, ripping out plants they don't desire, sewing the food of today to have more in a distant tomorrow. The roots of agriculture are here, with permanent settlements, community, ritual, belief all growing around it. At night they come together and what must feel like cathedrals to dream big.",
+      "processing_seconds": 8.775297588000058
+    },
+    {
+      "index": 13,
+      "start_seconds": 325.0,
+      "end_seconds": 350.0,
+      "text": "Here dance and sing, love each other, squabble and charm vows to unknown gods, whose names will never know. This is why we think this is the true first millennium of our history. Among the people of Tash Teppele, a name that we've given them, a completely new way of life has emerged and is slowly spreading. More villages are emerging from which more epic constructions are started like Gerberk",
+      "processing_seconds": 6.847771261000162
+    },
+    {
+      "index": 14,
+      "start_seconds": 350.0,
+      "end_seconds": 375.0,
+      "text": "The largest we've found so far. Slowly but steadily, farming turns from a seasonal activity into a lifestyle. And as it does, more food means more people, new specialists, longer trade networks, the first craftsmen, artists and overseers. From bread to living on dead ancestors. Ten thousand years ago, the third millennium of the human era began.",
+      "processing_seconds": 6.005967595000129
+    },
+    {
+      "index": 15,
+      "start_seconds": 375.0,
+      "end_seconds": 400.0,
+      "text": "perhaps 5 to 10 million of us inhabit our world. Progress was not a straight line. Different communities experimented with different ways of living and some parts succeeded while others disappeared. Exchange networks already old grow busier. Tools, beads, seashells, and above all obsidian, the jet-black volcanic glass that flakes into razor edges.",
+      "processing_seconds": 6.472174969999969
+    },
+    {
+      "index": 16,
+      "start_seconds": 400.0,
+      "end_seconds": 425.0,
+      "text": "travel hundreds of kilometers. You could call it the black gold of the Stone Age. It ties distant villages into a single web of contact. The permanent villages grow larger and more elaborate. We don't know exactly why so many people clustered together, more hands for the harvest, kinships, festivals and prayers to forgotten gods, trade, safety and numbers. But the largest community...",
+      "processing_seconds": 6.097939719000124
+    },
+    {
+      "index": 17,
+      "start_seconds": 425.0,
+      "end_seconds": 450.0,
+      "text": "his humans have ever formed emerge around this time. Let's travel west to Chattel Hejek, a metropolis of hundreds of people, around 8,500 years ago. The village has a unique architecture and way of life. There are no streets or annas, only houses hugging each other closely, accessible only by wooden ladders and bridges and holes in their roofs. Surrounded by farmland and feral goats.",
+      "processing_seconds": 6.5718291629998475
+    },
+    {
+      "index": 18,
+      "start_seconds": 450.0,
+      "end_seconds": 475.0,
+      "text": "and sheep, the first animals raised for food. The insides were beautifully decorated, paintings of animals are dorm rooms, plastered ball skulls are set into walls, painted in striking red ochre. And figurines of animals and of naked females, maybe they were goddesses, maybe our ancestors just admired the female form as many of us do today. We don't know. Life in these houses.",
+      "processing_seconds": 7.811364022999896
+    },
+    {
+      "index": 19,
+      "start_seconds": 475.0,
+      "end_seconds": 500.0,
+      "text": "feels eerily similar to our life today. Families ate meals of bread and nuts, ate cheese and drank beer, complained about a noisy neighbor or admired a strong lad who beat back a leopard, and they honored their dead in a well fascinating way. If a loved one died, they buried them in their homes deep below the floorboards. After a few years, their bodies were",
+      "processing_seconds": 7.40120654999987
+    },
+    {
+      "index": 20,
+      "start_seconds": 500.0,
+      "end_seconds": 525.0,
+      "text": "removed, decorated and painted. Each one did it in their own unique way, some sculpting faces with plaster, others using colorful stones. Why do all of this? Maybe to keep your family and their memory alive, to have them to tell great stories of the mystic world beyond theirs. Whatever the reason was, the living and the dead remained close.",
+      "processing_seconds": 5.046946414999866
+    },
+    {
+      "index": 21,
+      "start_seconds": 525.0,
+      "end_seconds": 550.0,
+      "text": "from gathering grain to war and domination. In the fourth millennium of the human era, farmers began spreading in different directions from South West Asia, carrying plants, animals, technologies and new ways of life with them. Across Europe and Asia, they encountered communities who'd lived by hunting, fishing and gathering for thousands of years. Different groups met, traded materials, shared technologies, and...",
+      "processing_seconds": 6.482555362999847
+    },
+    {
+      "index": 22,
+      "start_seconds": 550.0,
+      "end_seconds": 575.0,
+      "text": "sometimes competed for the same landscapes. In some regions, hunter-gatherers and farmers lived alongside one another for centuries. In others, farming gradually became the dominant way of life. Different farming tribes established themselves, but the relationships between them were not always peaceful. We found skeletons bearing wounds from arrows, clubs and other weapons, and grim mass graves. Bodies",
+      "processing_seconds": 7.734512110999958
+    },
+    {
+      "index": 23,
+      "start_seconds": 575.0,
+      "end_seconds": 600.0,
+      "text": "tipped in together, some with arrowheads still lodged in the bone, some filled with men struck down from behind, others with whole families. We don't know how violent transition to farming was or how common it really was, but violence was part of the dark matter of history. As communities grew larger and more permanent, new challenges emerged. Food had to be stored, resources managed, and social.",
+      "processing_seconds": 5.483005751000064
+    },
+    {
+      "index": 24,
+      "start_seconds": 600.0,
+      "end_seconds": 625.0,
+      "text": "tensions resolved. Vitages and towns had to permanently protect themselves. It's incredible to think how many wild stories we're missing from that time. The first epic siege. One culture attacking another, defenses along the perimeter. Heroic victories, devastating defeat. On a much smaller scale still, but more personal, more intense for the people",
+      "processing_seconds": 5.7724416789999395
+    },
+    {
+      "index": 25,
+      "start_seconds": 625.0,
+      "end_seconds": 650.0,
+      "text": "who lived through it. But there was more to their lives than war. How the people at this time truly felt and what they believed in. Have they argued, made peace, feasted, played with their children and mourned their lovers. Almost none of it survives. Around 8,000 years ago, farming communities had spread across much of South West Asia and into Europe. New forms of life seemed to be flourishing.",
+      "processing_seconds": 11.160102637999898
+    },
+    {
+      "index": 26,
+      "start_seconds": 650.0,
+      "end_seconds": 675.0,
+      "text": "but history rarely moves in a straight line. The Dark Matter Abokolips Around the year 3,800 of the human era, a sudden catastrophe happened in North America. The receding glaciers of the last Ice Age had created one of the largest lakes in Earth's history larger than the Caspian Sea today. It was held back by supermassive ice sheets, which formed a gigantic dam.",
+      "processing_seconds": 9.109547151000015
+    },
+    {
+      "index": 27,
+      "start_seconds": 675.0,
+      "end_seconds": 700.0,
+      "text": "a dam of ice in a warming world. Oh well. Surprising no one, the dam melted and suddenly failed. The whole lake suddenly drained into the ocean. Global sea levels rose by 1 to 2 metres and the great conveyor belt that carried warm water northwards slowed down. Across the North Atlantic and Europe and into the Near East, the climate turned colder and drier.",
+      "processing_seconds": 8.832408936999855
+    },
+    {
+      "index": 28,
+      "start_seconds": 700.0,
+      "end_seconds": 725.0,
+      "text": "in some regions by several degrees. Rain patterns shifted, summers grew longer at harsher and a drought lasting well over a century parched the land. This was bad. Humans had spent the last few thousand years learning to depend on predictable rainfall to grow crops, and suddenly, this was over. For some communities, this turned into an existential crisis.",
+      "processing_seconds": 8.638277076999884
+    },
+    {
+      "index": 29,
+      "start_seconds": 725.0,
+      "end_seconds": 750.0,
+      "text": "But people were resilient and adapted, finding new ways to sustain themselves. Some leaned harder on their animals, some turned to seafood, others shifted their settlements from plains to neighboring mountains. Or they just left, looking for a completely new home. We know that during this time all over the world, migration towards rivers and lakes",
+      "processing_seconds": 7.801225809000016
+    },
+    {
+      "index": 30,
+      "start_seconds": 750.0,
+      "end_seconds": 775.0,
+      "text": "and technology with them. Some of the most consequential journeys led into the Nile Valley, where farming villages took root and slowly laid the ground for the rich civilization that would one day rise there, and in Mesopotamia, something remarkable began. Over the generations, communities started to bend the rivers to their will, digging canals, staring water onto their fields, storing the grain it produced.",
+      "processing_seconds": 11.487433165000084
+    },
+    {
+      "index": 31,
+      "start_seconds": 775.0,
+      "end_seconds": 800.0,
+      "text": "It was one of the great leaps in human organization, and over the long run, it would make them the richest people of their age. Their surpluses feeding a population boom that much later would give rise to the first true city-states. It must have been such a time of drama and suffering, but also hope and persistence. After a century or two, the climate stabilized and the droughts ended.",
+      "processing_seconds": 9.12894127300001
+    },
+    {
+      "index": 32,
+      "start_seconds": 800.0,
+      "end_seconds": 825.0,
+      "text": "it. Humanity found itself once again in a new position. Agricultural societies had mastered their first proper test, and now they would make their next big jump forward. The End of the Dark Matter Era Around the year 5000 of the human era, 7,000 years ago, the speed of progress changes and so does the pace of our story now. A steady food supply allowed to be a part of the world.",
+      "processing_seconds": 5.7235568090000015
+    },
+    {
+      "index": 33,
+      "start_seconds": 825.0,
+      "end_seconds": 850.0,
+      "text": "populations to grow, some vertiges expand to impressive sizes. By around 6,000 years ago, in what's now Ukraine, people of Trapilla culture built true megasatlements, places like Taliyanki, vast concentric rings of houses home to thousands of people, far away, wheat, barley and peas and keeping animals. As these centers of humanity grow and become more and more common, trade between the two",
+      "processing_seconds": 8.023110268999972
+    },
+    {
+      "index": 34,
+      "start_seconds": 850.0,
+      "end_seconds": 875.0,
+      "text": "between them explodes. With materials and goods, ideas are being exchanged, and progress picks up pace again. Copper, the plow, the wheel. We're now traveling to Uruk in the year 6800, one of the first real cities in the history of the world. It houses tens of thousands, has monumental temples, and genuine urban life. A village can live from memory, a city,",
+      "processing_seconds": 6.073303591999775
+    },
+    {
+      "index": 35,
+      "start_seconds": 875.0,
+      "end_seconds": 900.0,
+      "text": "city, can't, so a new social class emerges, administrators. They count the grain, distribute resources, collect taxes that enable the expansion of their cities. To manage all that, they invent the first accounting system. Marks on clay balls and tablets, counting barley or sheep, solely transforming into actual writing. It's here that the dark matter period of history ends.",
+      "processing_seconds": 5.685758434000036
+    },
+    {
+      "index": 36,
+      "start_seconds": 900.0,
+      "end_seconds": 925.0,
+      "text": "With a note scratched into wet clay, the first name in history, Khushim. A signature on a tablet recording Barney for beer handed over a temple. It's not much, we don't know anything else about Khushim, how he was feeling when he received the beer, if he had any of it that day, or what it tasted like. What his life was like in the first city to ever grace our planet.",
+      "processing_seconds": 6.099295868000354
+    },
+    {
+      "index": 37,
+      "start_seconds": 925.0,
+      "end_seconds": 950.0,
+      "text": "We finally have a name which stands for all the forgotten ones in the dark matter of history. All the lives, experiences and accomplishments which paved the way for our civilization today. That's why the Human Era calendar is our most cherished project every year. It starts counting not 2000, but 12,000 years ago.",
+      "processing_seconds": 4.258202243000142
+    },
+    {
+      "index": 38,
+      "start_seconds": 950.0,
+      "end_seconds": 975.0,
+      "text": "at the dawn of human civilization. We want to include all of humanity and remind you that your story is part of the human era as well. Our 12,027 calendar just dropped and this year we honour the dark tales and legends that helped us make sense of the world before science. Each month takes you on a journey through forgotten worlds and human imagination. It's not",
+      "processing_seconds": 5.100436396000077
+    },
+    {
+      "index": 39,
+      "start_seconds": 975.0,
+      "end_seconds": 1000.0,
+      "text": "just a year's worth of Kotsk's art for your home, it's a declaration of human expression and creativity in a time of meaningless AI slop. That's also why our calendar comes with a postcard that features one of six concept sketches from our illustrators. Pair the calendar with our Human-era calendar artbook to collect every calendar illustration we've ever made. Or bundle it with our new space video artbook.",
+      "processing_seconds": 6.707497699000214
+    },
+    {
+      "index": 40,
+      "start_seconds": 1000.0,
+      "end_seconds": 1025.0,
+      "text": "Both our books are jam-packed with behind-the-scenes sketches, stories and fun facts from the Kotskazak team. Your purchase funds our independent science channel. Gives our artists and researchers the time good work requires, helps us release new free educational videos for everyone, and spark curiosity for science. Treat yourself or gift the 12,020!",
+      "processing_seconds": 5.555955341999834
+    },
+    {
+      "index": 41,
+      "start_seconds": 1025.0,
+      "end_seconds": 1050.0,
+      "text": "to someone you want to inspire through the whole year. Support art about humans by humans for humans. You want to listen to the beautiful soundtrack without my annoying voice? Well, it's up to you. Just select the audio track into Lingua down here and watch the video again as a music video.",
+      "processing_seconds": 5.295002590999957
+    },
+    {
+      "index": 42,
+      "start_seconds": 1050.0,
+      "end_seconds": 1050.401125,
+      "text": "[",
+      "processing_seconds": 0.4678000270000666
+    }
+  ],
+  "segments": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 4.639999866485596,
+      "text": "You probably think you know human history, but you don't.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 4.639999866485596,
+      "end_seconds": 7.639999866485596,
+      "text": "What we know is only a fraction of the story.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 7.639999866485596,
+      "end_seconds": 11.800000190734863,
+      "text": "Much of the rest is invisible to us, like dark matter.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 11.800000190734863,
+      "end_seconds": 15.399999618530273,
+      "text": "We can't see it, only the effects of its presence.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 15.399999618530273,
+      "end_seconds": 20.600000381469727,
+      "text": "Invisible like the wind, silently shaking trees and leaves.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 20.600000381469727,
+      "end_seconds": 25.0,
+      "text": "Almost every trace of the most important chapter in our history has vanished.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 25.0,
+      "end_seconds": 29.0,
+      "text": "and will forever stay hidden, we only see the world that emerged from it.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 30.0,
+      "end_seconds": 34.0,
+      "text": "The age when our ancestors underwent a fundamental transformation,",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 34.0,
+      "end_seconds": 39.0,
+      "text": "began cultivating the Earth, built settlements, and created civilization.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 39.0,
+      "end_seconds": 44.0,
+      "text": "We have no writing from this period, no words, or eyewitness accounts.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 44.0,
+      "end_seconds": 49.0,
+      "text": "We don't know their names, how their world felt, sounded, or tasted.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 50.0,
+      "end_seconds": 54.480000019073486,
+      "text": "traces in stone, bone and clay remain.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 54.480000019073486,
+      "end_seconds": 60.39999961853027,
+      "text": "But recently, with new techniques for DNA sequencing, dating ancient detritus, mathematical",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 60.39999961853027,
+      "end_seconds": 66.19999885559082,
+      "text": "models, aerial and lidar archaeology, we're getting a faint idea of what this world might",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 66.19999885559082,
+      "end_seconds": 68.27999877929688,
+      "text": "have looked and felt like.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 68.27999877929688,
+      "end_seconds": 74.11999893188477,
+      "text": "Let's use these newest insights, educated speculation, and our imagination to visit",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 74.11999893188477,
+      "end_seconds": 74.95999908447266,
+      "text": "the dark matter.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 75.0,
+      "end_seconds": 79.96000003814697,
+      "text": "of our history, the time before a single word was written down.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 79.96000003814697,
+      "end_seconds": 83.88000011444092,
+      "text": "First, we need to change how we think about our past.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 83.88000011444092,
+      "end_seconds": 88.59999942779541,
+      "text": "It's sort of madness that we're all pretending to live in the year 2026.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 88.59999942779541,
+      "end_seconds": 92.19999885559082,
+      "text": "It awkwardly splits our history into a before and after,",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 92.19999885559082,
+      "end_seconds": 95.55999946594238,
+      "text": "at a rather random point in the grand scheme of things.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 95.55999946594238,
+      "end_seconds": 100.0,
+      "text": "2026 years ago, humanity was very much deep in the middle.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 100.0,
+      "end_seconds": 106.55999994277954,
+      "text": "of things. And this makes it harder to think about our past properly. The year zero should",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 106.55999994277954,
+      "end_seconds": 113.03999996185303,
+      "text": "be where civilization began, 12,000 years ago. This is the start of the Holocene, our",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 113.03999996185303,
+      "end_seconds": 117.84000015258789,
+      "text": "current geological period, and the end of the last ice age, when Earth's climate turned",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 117.84000015258789,
+      "end_seconds": 124.8799991607666,
+      "text": "from cold and erratic to warm and stable. The human era begins here, enabling our ancestors to lay the",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 125.0,
+      "end_seconds": 130.75999975204468,
+      "text": "foundation for what it means to be human today. If we just add 10,000 years to our",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 130.75999975204468,
+      "end_seconds": 136.5,
+      "text": "calendar, certainly our perspective feels incredibly different. You, fellow human, are",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 136.5,
+      "end_seconds": 145.10000038146973,
+      "text": "living in the year 12,026. You look back on over 12,000 years of history. And while",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 145.10000038146973,
+      "end_seconds": 149.97999954223633,
+      "text": "the people living back then may seem impossibly distant, they were exactly the same.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 150.0,
+      "end_seconds": 152.11999988555908,
+      "text": "as we are today.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 152.11999988555908,
+      "end_seconds": 158.07999992370605,
+      "text": "Modern humans experiencing the same emotions, wants and dreams.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 158.07999992370605,
+      "end_seconds": 163.47999954223633,
+      "text": "This is why every year we create our human-era calendar that celebrates all of humanity.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 163.47999954223633,
+      "end_seconds": 165.79999923706055,
+      "text": "But more on that at the end of the video.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 165.79999923706055,
+      "end_seconds": 171.7199993133545,
+      "text": "Okay, now that the stage is set, let's dive into the dark matter of history to where it",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 171.7199993133545,
+      "end_seconds": 173.0,
+      "text": "all began.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 173.0,
+      "end_seconds": 175.0,
+      "text": "The beginning of civilization.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 175.0,
+      "end_seconds": 181.11999988555908,
+      "text": "The Year Zero of Human History In the hills of southern Anatolia and",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 181.11999988555908,
+      "end_seconds": 186.80000019073486,
+      "text": "northern Syria, the first truly connected human cultural world emerges.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 186.80000019073486,
+      "end_seconds": 191.19999885559082,
+      "text": "This is Karahan Temi, one of the first villages known to us.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 191.19999885559082,
+      "end_seconds": 196.19999885559082,
+      "text": "Today is the first day of our timeline, day one of the year zero.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 200.0,
+      "end_seconds": 210.0,
+      "text": "Hundreds of people have come together from tribes around the region for the greatest gathering in history so far, an epic event for everyone involved.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 210.0,
+      "end_seconds": 217.0,
+      "text": "They're celebrating the first great construction of humanity, 7,000 years before the pyramids.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 217.0,
+      "end_seconds": 221.0,
+      "text": "How would they have felt if they'd known what it would lead to eventually?",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 221.0,
+      "end_seconds": 225.0,
+      "text": "With tools of stone and wood, they begin to carve shapes in the way of the world.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 225.0,
+      "end_seconds": 231.35999965667725,
+      "text": "to bedrock, T-shaped columns multiple meters high, decorated with strange animals.",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 231.35999965667725,
+      "end_seconds": 237.51999950408936,
+      "text": "Make it humans proudly presenting their fertility, figurines, of birds or beasts.",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 237.51999950408936,
+      "end_seconds": 240.35999965667725,
+      "text": "We don't know how exactly they did this or why.",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 240.35999965667725,
+      "end_seconds": 243.95999908447266,
+      "text": "Is the first religion being born here?",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 243.95999908447266,
+      "end_seconds": 248.31999969482422,
+      "text": "What are the names of the long lost forgotten gods they're trying to please?",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 248.31999969482422,
+      "end_seconds": 250.0,
+      "text": "Or are they just following a human?",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 250.0,
+      "end_seconds": 255.19999980926514,
+      "text": "desire to express their inner worlds. All we know for sure is that this is a",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 255.19999980926514,
+      "end_seconds": 259.67999935150146,
+      "text": "project of epic scale for the Stone Age and the beginning of a new era for the",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 259.67999935150146,
+      "end_seconds": 264.7199993133545,
+      "text": "whole planet. Never before did so many humans collaborate on something so hard.",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 264.7199993133545,
+      "end_seconds": 269.5200004577637,
+      "text": "A brutal effort like this requires a lot of energy and a new kind of",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 269.5200004577637,
+      "end_seconds": 274.6800003051758,
+      "text": "organization and specialization that's never existed before, while some carve",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 274.6800003051758,
+      "end_seconds": 275.0,
+      "text": "back.",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 275.0,
+      "end_seconds": 281.4800000190735,
+      "text": "Red Rock all day, others gather grain, bake bread, brew beer or hunt antelopes to feed",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 281.4800000190735,
+      "end_seconds": 283.76000022888184,
+      "text": "the builders of the new world.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 283.76000022888184,
+      "end_seconds": 290.0,
+      "text": "An avalanche of amazing progress is set in motion that will only gain speed from here.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 290.0,
+      "end_seconds": 294.6000003814697,
+      "text": "Over millennia, humans have learned that if you put the tasty parts in the ground,",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 294.6000003814697,
+      "end_seconds": 298.5599994659424,
+      "text": "they come back again next year, larger, richer.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 298.5599994659424,
+      "end_seconds": 300.0,
+      "text": "Now with the climate finally started.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 300.0,
+      "end_seconds": 304.5,
+      "text": "stable, communities start to cultivate them in earnest rather than simply gathering from",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 304.5,
+      "end_seconds": 309.960000038147,
+      "text": "the wild. Opening up the ground, ripping out plants they don't desire, sewing the food",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 309.960000038147,
+      "end_seconds": 314.19999980926514,
+      "text": "of today to have more in a distant tomorrow.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 314.19999980926514,
+      "end_seconds": 319.5200004577637,
+      "text": "The roots of agriculture are here, with permanent settlements, community, ritual, belief",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 319.5200004577637,
+      "end_seconds": 324.3999996185303,
+      "text": "all growing around it. At night they come together and what must feel like cathedrals",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 324.3999996185303,
+      "end_seconds": 325.0,
+      "text": "to dream big.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 325.0,
+      "end_seconds": 331.1599998474121,
+      "text": "Here dance and sing, love each other, squabble and charm vows to unknown gods, whose names",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 331.1599998474121,
+      "end_seconds": 332.9199995994568,
+      "text": "will never know.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 332.9199995994568,
+      "end_seconds": 337.3999996185303,
+      "text": "This is why we think this is the true first millennium of our history.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 337.3999996185303,
+      "end_seconds": 341.7199993133545,
+      "text": "Among the people of Tash Teppele, a name that we've given them, a completely new way",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 341.7199993133545,
+      "end_seconds": 345.3199996948242,
+      "text": "of life has emerged and is slowly spreading.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 345.3199996948242,
+      "end_seconds": 345.3199996948242,
+      "text": "More villages are emerging from which more epic constructions are started like Gerberk",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 350.0,
+      "end_seconds": 352.39999985694885,
+      "text": "The largest we've found so far.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 352.39999985694885,
+      "end_seconds": 358.0000002384186,
+      "text": "Slowly but steadily, farming turns from a seasonal activity into a lifestyle.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 358.0,
+      "end_seconds": 364.0,
+      "text": "And as it does, more food means more people, new specialists, longer trade networks,",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 364.0,
+      "end_seconds": 368.0,
+      "text": "the first craftsmen, artists and overseers.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 368.0,
+      "end_seconds": 371.0,
+      "text": "From bread to living on dead ancestors.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 371.0,
+      "end_seconds": 375.0,
+      "text": "Ten thousand years ago, the third millennium of the human era began.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 375.0,
+      "end_seconds": 379.19999980926514,
+      "text": "perhaps 5 to 10 million of us inhabit our world.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 379.19999980926514,
+      "end_seconds": 381.5,
+      "text": "Progress was not a straight line.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 381.5,
+      "end_seconds": 385.0,
+      "text": "Different communities experimented with different ways of living",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 385.0,
+      "end_seconds": 389.0,
+      "text": "and some parts succeeded while others disappeared.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 389.0,
+      "end_seconds": 392.0,
+      "text": "Exchange networks already old grow busier.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 392.0,
+      "end_seconds": 396.0,
+      "text": "Tools, beads, seashells, and above all obsidian,",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 396.0,
+      "end_seconds": 400.0,
+      "text": "the jet-black volcanic glass that flakes into razor edges.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 400.0,
+      "end_seconds": 402.0,
+      "text": "travel hundreds of kilometers.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 402.0,
+      "end_seconds": 405.0,
+      "text": "You could call it the black gold of the Stone Age.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 405.0,
+      "end_seconds": 409.0,
+      "text": "It ties distant villages into a single web of contact.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 409.0,
+      "end_seconds": 413.0,
+      "text": "The permanent villages grow larger and more elaborate.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 413.0,
+      "end_seconds": 416.0,
+      "text": "We don't know exactly why so many people clustered together,",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 416.0,
+      "end_seconds": 420.0,
+      "text": "more hands for the harvest, kinships, festivals and prayers",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 420.0,
+      "end_seconds": 423.0,
+      "text": "to forgotten gods, trade, safety and numbers.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 423.0,
+      "end_seconds": 425.0,
+      "text": "But the largest community...",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 425.0,
+      "end_seconds": 428.9599997997284,
+      "text": "his humans have ever formed emerge around this time.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 428.9599997997284,
+      "end_seconds": 434.63999915122986,
+      "text": "Let's travel west to Chattel Hejek, a metropolis of hundreds of people, around 8,500 years",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 434.63999938964844,
+      "end_seconds": 435.80000019073486,
+      "text": "ago.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 435.80000019073486,
+      "end_seconds": 439.67999935150146,
+      "text": "The village has a unique architecture and way of life.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 439.67999935150146,
+      "end_seconds": 444.23999977111816,
+      "text": "There are no streets or annas, only houses hugging each other closely, accessible only",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 444.23999977111816,
+      "end_seconds": 448.35999870300293,
+      "text": "by wooden ladders and bridges and holes in their roofs.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 448.35999870300293,
+      "end_seconds": 449.95999908447266,
+      "text": "Surrounded by farmland and feral goats.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 450.0,
+      "end_seconds": 453.72000002861023,
+      "text": "and sheep, the first animals raised for food.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 453.72000002861023,
+      "end_seconds": 458.75999999046326,
+      "text": "The insides were beautifully decorated, paintings of animals are dorm rooms, plastered ball",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 458.76000022888184,
+      "end_seconds": 463.07999992370605,
+      "text": "skulls are set into walls, painted in striking red ochre.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 463.07999992370605,
+      "end_seconds": 468.76000022888184,
+      "text": "And figurines of animals and of naked females, maybe they were goddesses, maybe our ancestors",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 468.76000022888184,
+      "end_seconds": 472.23999977111816,
+      "text": "just admired the female form as many of us do today.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 472.23999977111816,
+      "end_seconds": 473.73999977111816,
+      "text": "We don't know.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 473.73999977111816,
+      "end_seconds": 474.79999923706055,
+      "text": "Life in these houses.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 475.0,
+      "end_seconds": 480.1199998855591,
+      "text": "feels eerily similar to our life today. Families ate meals of bread and nuts,",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 480.1199998855591,
+      "end_seconds": 485.5599994659424,
+      "text": "ate cheese and drank beer, complained about a noisy neighbor or admired a strong lad who",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 485.5599994659424,
+      "end_seconds": 492.4400005340576,
+      "text": "beat back a leopard, and they honored their dead in a well fascinating way. If a loved one died,",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 492.4400005340576,
+      "end_seconds": 498.6800003051758,
+      "text": "they buried them in their homes deep below the floorboards. After a few years, their bodies were",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 500.0,
+      "end_seconds": 506.6199998855591,
+      "text": "removed, decorated and painted. Each one did it in their own unique way, some sculpting",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 506.6199998855591,
+      "end_seconds": 512.7199993133545,
+      "text": "faces with plaster, others using colorful stones. Why do all of this? Maybe to keep",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 512.7199993133545,
+      "end_seconds": 518.0,
+      "text": "your family and their memory alive, to have them to tell great stories of the mystic world",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 518.0,
+      "end_seconds": 523.6800003051758,
+      "text": "beyond theirs. Whatever the reason was, the living and the dead remained close.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 525.0,
+      "end_seconds": 528.0,
+      "text": "from gathering grain to war and domination.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 528.5999999046326,
+      "end_seconds": 534.1999998092651,
+      "text": "In the fourth millennium of the human era, farmers began spreading in different directions from South West Asia,",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 534.1999998092651,
+      "end_seconds": 538.5999994277954,
+      "text": "carrying plants, animals, technologies and new ways of life with them.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 539.0,
+      "end_seconds": 545.7999992370605,
+      "text": "Across Europe and Asia, they encountered communities who'd lived by hunting, fishing and gathering for thousands of years.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 546.0,
+      "end_seconds": 550.0,
+      "text": "Different groups met, traded materials, shared technologies, and...",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 550.0,
+      "end_seconds": 552.960000038147,
+      "text": "sometimes competed for the same landscapes.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 552.960000038147,
+      "end_seconds": 557.960000038147,
+      "text": "In some regions, hunter-gatherers and farmers lived alongside one another for centuries.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 557.960000038147,
+      "end_seconds": 561.7599992752075,
+      "text": "In others, farming gradually became the dominant way of life.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 561.7599992752075,
+      "end_seconds": 566.3599987030029,
+      "text": "Different farming tribes established themselves, but the relationships between them were not",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 566.3599987030029,
+      "end_seconds": 568.079999923706,
+      "text": "always peaceful.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 568.079999923706,
+      "end_seconds": 574.7199993133545,
+      "text": "We found skeletons bearing wounds from arrows, clubs and other weapons, and grim mass graves.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 574.7199993133545,
+      "end_seconds": 574.9599990844727,
+      "text": "Bodies",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 575.0,
+      "end_seconds": 579.3600001335144,
+      "text": "tipped in together, some with arrowheads still lodged in the bone, some filled with",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 579.3600001335144,
+      "end_seconds": 583.0,
+      "text": "men struck down from behind, others with whole families.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 583.0,
+      "end_seconds": 588.5999994277954,
+      "text": "We don't know how violent transition to farming was or how common it really was, but",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 588.5999994277954,
+      "end_seconds": 592.5,
+      "text": "violence was part of the dark matter of history.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 592.5,
+      "end_seconds": 597.1199989318848,
+      "text": "As communities grew larger and more permanent, new challenges emerged.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 597.1199989318848,
+      "end_seconds": 600.0,
+      "text": "Food had to be stored, resources managed, and social.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 600.0,
+      "end_seconds": 601.7799999713898,
+      "text": "tensions resolved.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 601.7799999713898,
+      "end_seconds": 605.7799997329712,
+      "text": "Vitages and towns had to permanently protect themselves.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 605.7799997329712,
+      "end_seconds": 610.3400001525879,
+      "text": "It's incredible to think how many wild stories we're missing from that time.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 610.3400001525879,
+      "end_seconds": 612.8599996566772,
+      "text": "The first epic siege.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 612.8599996566772,
+      "end_seconds": 617.2199993133545,
+      "text": "One culture attacking another, defenses along the perimeter.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 617.2199993133545,
+      "end_seconds": 620.579999923706,
+      "text": "Heroic victories, devastating defeat.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 620.579999923706,
+      "end_seconds": 624.9799995422363,
+      "text": "On a much smaller scale still, but more personal, more intense for the people",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 625.0,
+      "end_seconds": 626.5999999046326,
+      "text": "who lived through it.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 626.5999999046326,
+      "end_seconds": 629.0,
+      "text": "But there was more to their lives than war.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 629.0,
+      "end_seconds": 631.1999998092651,
+      "text": "How the people at this time truly felt",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 631.1999998092651,
+      "end_seconds": 632.5599999427795,
+      "text": "and what they believed in.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 632.5599999427795,
+      "end_seconds": 635.3000001907349,
+      "text": "Have they argued, made peace, feasted,",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 635.3000001907349,
+      "end_seconds": 638.420000076294,
+      "text": "played with their children and mourned their lovers.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 638.420000076294,
+      "end_seconds": 641.079999923706,
+      "text": "Almost none of it survives.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 641.079999923706,
+      "end_seconds": 642.8400001525879,
+      "text": "Around 8,000 years ago,",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 642.8400001525879,
+      "end_seconds": 646.1199989318848,
+      "text": "farming communities had spread across much of South West Asia",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 646.1199989318848,
+      "end_seconds": 647.6199989318848,
+      "text": "and into Europe.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 647.6199989318848,
+      "end_seconds": 649.7799987792969,
+      "text": "New forms of life seemed to be flourishing.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 650.0,
+      "end_seconds": 652.7999999523163,
+      "text": "but history rarely moves in a straight line.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 653.9199998378754,
+      "end_seconds": 655.5199999809265,
+      "text": "The Dark Matter Abokolips",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 656.7199997901917,
+      "end_seconds": 659.5199995040894,
+      "text": "Around the year 3,800 of the human era,",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 659.5199995040894,
+      "end_seconds": 661.920000076294,
+      "text": "a sudden catastrophe happened in North America.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 662.5599994659424,
+      "end_seconds": 665.039999961853,
+      "text": "The receding glaciers of the last Ice Age",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 665.039999961853,
+      "end_seconds": 668.079999923706,
+      "text": "had created one of the largest lakes in Earth's history",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 668.079999923706,
+      "end_seconds": 670.079999923706,
+      "text": "larger than the Caspian Sea today.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 670.7999992370605,
+      "end_seconds": 673.3599987030029,
+      "text": "It was held back by supermassive ice sheets,",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 673.3599987030029,
+      "end_seconds": 675.0,
+      "text": "which formed a gigantic dam.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 675.0,
+      "end_seconds": 679.960000038147,
+      "text": "a dam of ice in a warming world. Oh well.",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 679.960000038147,
+      "end_seconds": 684.4399995803833,
+      "text": "Surprising no one, the dam melted and suddenly failed.",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 684.4399995803833,
+      "end_seconds": 690.0,
+      "text": "The whole lake suddenly drained into the ocean. Global sea levels rose by 1 to 2 metres",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 690.0,
+      "end_seconds": 694.7999992370605,
+      "text": "and the great conveyor belt that carried warm water northwards slowed down.",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 694.7999992370605,
+      "end_seconds": 699.1599998474121,
+      "text": "Across the North Atlantic and Europe and into the Near East, the climate turned colder",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 699.1599998474121,
+      "end_seconds": 699.6800003051758,
+      "text": "and drier.",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 700.0,
+      "end_seconds": 702.7000000476837,
+      "text": "in some regions by several degrees.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 702.7000000476837,
+      "end_seconds": 704.2999997138977,
+      "text": "Rain patterns shifted,",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 704.2999997138977,
+      "end_seconds": 706.1999998092651,
+      "text": "summers grew longer at harsher",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 706.1999998092651,
+      "end_seconds": 708.6399993896484,
+      "text": "and a drought lasting well over a century",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 708.6399993896484,
+      "end_seconds": 710.4399995803833,
+      "text": "parched the land.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 710.4399995803833,
+      "end_seconds": 712.4399995803833,
+      "text": "This was bad.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 712.4399995803833,
+      "end_seconds": 715.079999923706,
+      "text": "Humans had spent the last few thousand years",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 715.079999923706,
+      "end_seconds": 717.3799991607666,
+      "text": "learning to depend on predictable rainfall",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 717.3799991607666,
+      "end_seconds": 720.7799987792969,
+      "text": "to grow crops, and suddenly, this was over.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 720.7799987792969,
+      "end_seconds": 722.3799991607666,
+      "text": "For some communities,",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 722.3799991607666,
+      "end_seconds": 724.8799991607666,
+      "text": "this turned into an existential crisis.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 725.0,
+      "end_seconds": 731.1199998855591,
+      "text": "But people were resilient and adapted, finding new ways to sustain themselves.",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 731.1199998855591,
+      "end_seconds": 736.2799997329712,
+      "text": "Some leaned harder on their animals, some turned to seafood, others shifted their settlements",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 736.2799997329712,
+      "end_seconds": 738.4399995803833,
+      "text": "from plains to neighboring mountains.",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 738.4399995803833,
+      "end_seconds": 743.6800003051758,
+      "text": "Or they just left, looking for a completely new home.",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 743.6800003051758,
+      "end_seconds": 748.1199989318848,
+      "text": "We know that during this time all over the world, migration towards rivers and lakes",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 750.0,
+      "end_seconds": 752.0,
+      "text": "and technology with them.",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 752.0,
+      "end_seconds": 753.7599999904633,
+      "text": "Some of the most consequential journeys",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 753.7599999904633,
+      "end_seconds": 756.960000038147,
+      "text": "led into the Nile Valley, where farming villages took root",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 756.960000038147,
+      "end_seconds": 760.079999923706,
+      "text": "and slowly laid the ground for the rich civilization",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 760.079999923706,
+      "end_seconds": 763.2799997329712,
+      "text": "that would one day rise there, and in Mesopotamia,",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 763.2799997329712,
+      "end_seconds": 765.4399995803833,
+      "text": "something remarkable began.",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 765.4399995803833,
+      "end_seconds": 767.1199989318848,
+      "text": "Over the generations, communities",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 767.1199989318848,
+      "end_seconds": 769.5599994659424,
+      "text": "started to bend the rivers to their will,",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 769.5599994659424,
+      "end_seconds": 772.7999992370605,
+      "text": "digging canals, staring water onto their fields,",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 772.7999992370605,
+      "end_seconds": 774.5599994659424,
+      "text": "storing the grain it produced.",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 775.0,
+      "end_seconds": 779.079999923706,
+      "text": "It was one of the great leaps in human organization, and over the long run,",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 779.079999923706,
+      "end_seconds": 781.920000076294,
+      "text": "it would make them the richest people of their age.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 781.920000076294,
+      "end_seconds": 789.1599998474121,
+      "text": "Their surpluses feeding a population boom that much later would give rise to the first true city-states.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 789.5999994277954,
+      "end_seconds": 795.9599990844727,
+      "text": "It must have been such a time of drama and suffering, but also hope and persistence.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 796.2799987792969,
+      "end_seconds": 800.0,
+      "text": "After a century or two, the climate stabilized and the droughts ended.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 800.0,
+      "end_seconds": 805.960000038147,
+      "text": "it. Humanity found itself once again in a new position. Agricultural societies had mastered",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 805.960000038147,
+      "end_seconds": 810.6799993515015,
+      "text": "their first proper test, and now they would make their next big jump forward.",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 810.6799993515015,
+      "end_seconds": 818.3999996185303,
+      "text": "The End of the Dark Matter Era Around the year 5000 of the human era, 7,000",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 818.3999996185303,
+      "end_seconds": 823.8400001525879,
+      "text": "years ago, the speed of progress changes and so does the pace of our story now. A steady",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 823.8400001525879,
+      "end_seconds": 825.0,
+      "text": "food supply allowed to be a part of the world.",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 825.0,
+      "end_seconds": 829.5999999046326,
+      "text": "populations to grow, some vertiges expand to impressive sizes.",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 829.5999999046326,
+      "end_seconds": 835.039999961853,
+      "text": "By around 6,000 years ago, in what's now Ukraine, people of Trapilla culture built",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 835.039999961853,
+      "end_seconds": 841.3599987030029,
+      "text": "true megasatlements, places like Taliyanki, vast concentric rings of houses home to thousands",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 841.3599987030029,
+      "end_seconds": 845.9599990844727,
+      "text": "of people, far away, wheat, barley and peas and keeping animals.",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 845.9599990844727,
+      "end_seconds": 850.0,
+      "text": "As these centers of humanity grow and become more and more common, trade between the two",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 850.0,
+      "end_seconds": 851.9199999570847,
+      "text": "between them explodes.",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 851.9199999570847,
+      "end_seconds": 855.0799998044968,
+      "text": "With materials and goods, ideas are being exchanged,",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 855.079999923706,
+      "end_seconds": 857.0199999809265,
+      "text": "and progress picks up pace again.",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 857.0199999809265,
+      "end_seconds": 859.960000038147,
+      "text": "Copper, the plow, the wheel.",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 859.960000038147,
+      "end_seconds": 863.8800001144409,
+      "text": "We're now traveling to Uruk in the year 6800,",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 863.8800001144409,
+      "end_seconds": 867.5599994659424,
+      "text": "one of the first real cities in the history of the world.",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 867.5599994659424,
+      "end_seconds": 870.6399993896484,
+      "text": "It houses tens of thousands, has monumental temples,",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 870.6399993896484,
+      "end_seconds": 872.6000003814697,
+      "text": "and genuine urban life.",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 872.6000003814697,
+      "end_seconds": 874.8400001525879,
+      "text": "A village can live from memory,",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 874.8400001525879,
+      "end_seconds": 875.0,
+      "text": "a city,",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 875.0,
+      "end_seconds": 880.3599996566772,
+      "text": "city, can't, so a new social class emerges, administrators.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 880.3599996566772,
+      "end_seconds": 885.1999998092651,
+      "text": "They count the grain, distribute resources, collect taxes that enable the expansion of",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 885.1999998092651,
+      "end_seconds": 886.6399993896484,
+      "text": "their cities.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 886.6399993896484,
+      "end_seconds": 889.7599992752075,
+      "text": "To manage all that, they invent the first accounting system.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 889.7599992752075,
+      "end_seconds": 895.3199996948242,
+      "text": "Marks on clay balls and tablets, counting barley or sheep, solely transforming into",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 895.3199996948242,
+      "end_seconds": 897.079999923706,
+      "text": "actual writing.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 897.079999923706,
+      "end_seconds": 899.9599990844727,
+      "text": "It's here that the dark matter period of history ends.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 900.0,
+      "end_seconds": 906.0,
+      "text": "With a note scratched into wet clay, the first name in history, Khushim.",
+      "chunk": 36,
+      "verified": false
+    },
+    {
+      "start_seconds": 906.0,
+      "end_seconds": 912.0,
+      "text": "A signature on a tablet recording Barney for beer handed over a temple.",
+      "chunk": 36,
+      "verified": false
+    },
+    {
+      "start_seconds": 912.0,
+      "end_seconds": 921.0,
+      "text": "It's not much, we don't know anything else about Khushim, how he was feeling when he received the beer, if he had any of it that day, or what it tasted like.",
+      "chunk": 36,
+      "verified": false
+    },
+    {
+      "start_seconds": 921.0,
+      "end_seconds": 925.0,
+      "text": "What his life was like in the first city to ever grace our planet.",
+      "chunk": 36,
+      "verified": false
+    },
+    {
+      "start_seconds": 925.0,
+      "end_seconds": 931.0,
+      "text": "We finally have a name which stands for all the forgotten ones in the dark matter of history.",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 931.0,
+      "end_seconds": 938.0,
+      "text": "All the lives, experiences and accomplishments which paved the way for our civilization today.",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 941.0,
+      "end_seconds": 946.0,
+      "text": "That's why the Human Era calendar is our most cherished project every year.",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 946.0,
+      "end_seconds": 950.0,
+      "text": "It starts counting not 2000, but 12,000 years ago.",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 950.0,
+      "end_seconds": 955.7199997901917,
+      "text": "at the dawn of human civilization. We want to include all of humanity and remind you that",
+      "chunk": 38,
+      "verified": false
+    },
+    {
+      "start_seconds": 955.7199997901917,
+      "end_seconds": 963.1999998092651,
+      "text": "your story is part of the human era as well. Our 12,027 calendar just dropped and this year",
+      "chunk": 38,
+      "verified": false
+    },
+    {
+      "start_seconds": 963.1999998092651,
+      "end_seconds": 969.1999988555908,
+      "text": "we honour the dark tales and legends that helped us make sense of the world before science.",
+      "chunk": 38,
+      "verified": false
+    },
+    {
+      "start_seconds": 969.1999988555908,
+      "end_seconds": 975.0,
+      "text": "Each month takes you on a journey through forgotten worlds and human imagination. It's not",
+      "chunk": 38,
+      "verified": false
+    },
+    {
+      "start_seconds": 975.0,
+      "end_seconds": 980.3399996757507,
+      "text": "just a year's worth of Kotsk's art for your home, it's a declaration of human expression",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 980.3399996757507,
+      "end_seconds": 984.4399995803833,
+      "text": "and creativity in a time of meaningless AI slop.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 984.4399995803833,
+      "end_seconds": 989.3599996566772,
+      "text": "That's also why our calendar comes with a postcard that features one of six concept",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 989.3599996566772,
+      "end_seconds": 990.9799995422363,
+      "text": "sketches from our illustrators.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 990.9799995422363,
+      "end_seconds": 996.0,
+      "text": "Pair the calendar with our Human-era calendar artbook to collect every calendar illustration",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 996.0,
+      "end_seconds": 997.5599994659424,
+      "text": "we've ever made.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 997.5599994659424,
+      "end_seconds": 1000.0,
+      "text": "Or bundle it with our new space video artbook.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 1000.0,
+      "end_seconds": 1007.0,
+      "text": "Both our books are jam-packed with behind-the-scenes sketches, stories and fun facts from the Kotskazak team.",
+      "chunk": 40,
+      "verified": false
+    },
+    {
+      "start_seconds": 1007.0,
+      "end_seconds": 1010.0,
+      "text": "Your purchase funds our independent science channel.",
+      "chunk": 40,
+      "verified": false
+    },
+    {
+      "start_seconds": 1010.0,
+      "end_seconds": 1014.0,
+      "text": "Gives our artists and researchers the time good work requires,",
+      "chunk": 40,
+      "verified": false
+    },
+    {
+      "start_seconds": 1014.0,
+      "end_seconds": 1021.0,
+      "text": "helps us release new free educational videos for everyone, and spark curiosity for science.",
+      "chunk": 40,
+      "verified": false
+    },
+    {
+      "start_seconds": 1021.0,
+      "end_seconds": 1025.0,
+      "text": "Treat yourself or gift the 12,020!",
+      "chunk": 40,
+      "verified": false
+    },
+    {
+      "start_seconds": 1025.0,
+      "end_seconds": 1029.0,
+      "text": "to someone you want to inspire through the whole year.",
+      "chunk": 41,
+      "verified": false
+    },
+    {
+      "start_seconds": 1029.0,
+      "end_seconds": 1034.0,
+      "text": "Support art about humans by humans for humans.",
+      "chunk": 41,
+      "verified": false
+    },
+    {
+      "start_seconds": 1034.0,
+      "end_seconds": 1040.0,
+      "text": "You want to listen to the beautiful soundtrack without my annoying voice?",
+      "chunk": 41,
+      "verified": false
+    },
+    {
+      "start_seconds": 1040.0,
+      "end_seconds": 1043.0,
+      "text": "Well, it's up to you. Just select the audio track into Lingua down here",
+      "chunk": 41,
+      "verified": false
+    },
+    {
+      "start_seconds": 1043.0,
+      "end_seconds": 1046.0,
+      "text": "and watch the video again as a music video.",
+      "chunk": 41,
+      "verified": false
+    },
+    {
+      "start_seconds": 1050.0,
+      "end_seconds": 1050.0,
+      "text": "[",
+      "chunk": 42,
+      "verified": false
+    }
+  ],
+  "status": "complete_unverified",
+  "review_status": "unverified_machine_recognition",
+  "limitations": "ASR can mishear names, invent words or misplace segment timing. Fixed 25s chunk boundaries can split words. Segment times are estimates, not exact word alignment. Direct audition is unavailable; this is not a listening review.",
+  "voice_generation_requests": 0
+}

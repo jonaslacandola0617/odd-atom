@@ -1,0 +1,157 @@
+{
+  "scope": "19 selected native evidence cases; 16 temporal windows and3 construction stills. No archive-wide semantic completion claimed.",
+  "cases": [
+    {
+      "case_id": "C01",
+      "video_id": "reference_fd02030ee890",
+      "name": "creator-reaction",
+      "start_frame": 2040,
+      "end_frame": 2160,
+      "file": "analysis/reviewed-cases/C01.json"
+    },
+    {
+      "case_id": "F01",
+      "video_id": "reference_46db30e386c9",
+      "name": "forest-layer-motion",
+      "start_frame": 90,
+      "end_frame": 114,
+      "file": "analysis/reviewed-cases/F01.json"
+    },
+    {
+      "case_id": "G01",
+      "video_id": "reference_46db30e386c9",
+      "name": "tree-conduit-flow",
+      "start_frame": 13080,
+      "end_frame": 13200,
+      "file": "analysis/reviewed-cases/G01.json"
+    },
+    {
+      "case_id": "H01",
+      "video_id": "reference_46db30e386c9",
+      "name": "cell-column-change",
+      "start_frame": 24960,
+      "end_frame": 25032,
+      "file": "analysis/reviewed-cases/H01.json"
+    },
+    {
+      "case_id": "R01",
+      "video_id": "reference_2e586456bc4d",
+      "name": "root-rock-change",
+      "start_frame": 27120,
+      "end_frame": 27240,
+      "file": "analysis/reviewed-cases/R01.json"
+    },
+    {
+      "case_id": "L01",
+      "video_id": "reference_2e586456bc4d",
+      "name": "leaf-section-reveal",
+      "start_frame": 10140,
+      "end_frame": 10260,
+      "file": "analysis/reviewed-cases/L01.json"
+    },
+    {
+      "case_id": "W01",
+      "video_id": "reference_3dab4435d188",
+      "name": "hillside-walk-cycle",
+      "start_frame": 46200,
+      "end_frame": 46260,
+      "file": "analysis/reviewed-cases/W01.json"
+    },
+    {
+      "case_id": "T01",
+      "video_id": "reference_3dab4435d188",
+      "name": "tablet-hand-interaction",
+      "start_frame": 54540,
+      "end_frame": 54660,
+      "file": "analysis/reviewed-cases/T01.json"
+    },
+    {
+      "case_id": "E01",
+      "video_id": "reference_3dab4435d188",
+      "name": "fire-circle-secondary-motion",
+      "start_frame": 24960,
+      "end_frame": 25080,
+      "file": "analysis/reviewed-cases/E01.json"
+    },
+    {
+      "case_id": "P01",
+      "video_id": "reference_fd02030ee890",
+      "name": "materials-arrival",
+      "start_frame": 7340,
+      "end_frame": 7460,
+      "file": "analysis/reviewed-cases/P01.json"
+    },
+    {
+      "case_id": "A01",
+      "video_id": "reference_9a02fcef71d3",
+      "name": "room-object-change",
+      "start_frame": 10260,
+      "end_frame": 10380,
+      "file": "analysis/reviewed-cases/A01.json"
+    },
+    {
+      "case_id": "A02",
+      "video_id": "reference_9a02fcef71d3",
+      "name": "room-strip-action",
+      "start_frame": 10530,
+      "end_frame": 10610,
+      "file": "analysis/reviewed-cases/A02.json"
+    },
+    {
+      "case_id": "A03",
+      "video_id": "reference_9a02fcef71d3",
+      "name": "boat-reward-path",
+      "start_frame": 12300,
+      "end_frame": 12420,
+      "file": "analysis/reviewed-cases/A03.json"
+    },
+    {
+      "case_id": "A04",
+      "video_id": "reference_9a02fcef71d3",
+      "name": "boat-collision-and-turn",
+      "start_frame": 12660,
+      "end_frame": 12780,
+      "file": "analysis/reviewed-cases/A04.json"
+    },
+    {
+      "case_id": "A05",
+      "video_id": "reference_9a02fcef71d3",
+      "name": "shared-route-reveal",
+      "start_frame": 28320,
+      "end_frame": 28440,
+      "file": "analysis/reviewed-cases/A05.json"
+    },
+    {
+      "case_id": "A06",
+      "video_id": "reference_9a02fcef71d3",
+      "name": "agent-group-staging",
+      "start_frame": 53940,
+      "end_frame": 54060,
+      "file": "analysis/reviewed-cases/A06.json"
+    },
+    {
+      "case_id": "D01",
+      "video_id": "reference_3dab4435d188",
+      "name": "farmer-design",
+      "start_frame": 18600,
+      "end_frame": 18601,
+      "file": "analysis/reviewed-cases/D01.json"
+    },
+    {
+      "case_id": "D02",
+      "video_id": "reference_9a02fcef71d3",
+      "name": "scientist-design",
+      "start_frame": 16800,
+      "end_frame": 16801,
+      "file": "analysis/reviewed-cases/D02.json"
+    },
+    {
+      "case_id": "D03",
+      "video_id": "reference_fd02030ee890",
+      "name": "bird-design",
+      "start_frame": 120,
+      "end_frame": 121,
+      "file": "analysis/reviewed-cases/D03.json"
+    }
+  ]
+}

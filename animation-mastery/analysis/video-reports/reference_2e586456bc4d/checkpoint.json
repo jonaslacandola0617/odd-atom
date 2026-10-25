@@ -1,0 +1,65 @@
+{
+  "pipeline_version": 3,
+  "source_sha256": "2e586456bc4d4ca199b2541ad285c51f342110d1d30029e3d2b141b30ff0fa74",
+  "manifest_updates": {
+    "decoded_frame_count": 40825,
+    "decoded_picture_end_seconds": 680.4166666666666,
+    "candidate_shot_count": 59,
+    "confirmed_shot_count": null,
+    "temporal_analysis_status": "all_frames_measured_semantic_review_pending"
+  },
+  "artifacts": [
+    {
+      "path": "analysis/video-reports/reference_2e586456bc4d/report.json",
+      "sha256": "3fda6dd933ab52b31f1db253c828af40b95ae955f8d78018173986d91e9b86cb"
+    },
+    {
+      "path": "analysis/video-reports/reference_2e586456bc4d/frame-index.jsonl.gz",
+      "sha256": "f72ada0889a205aa63cbdfd9111a9f72aca40f514f6ad03c55726328a9dc12f0"
+    },
+    {
+      "path": "analysis/video-reports/reference_2e586456bc4d/frame-metrics.jsonl.gz",
+      "sha256": "0cecf149f281c9c73adc9c6fa67834da9047bf060e580a6ca4ffbb1d5c684360"
+    },
+    {
+      "path": "analysis/shot-timelines/reference_2e586456bc4d.json",
+      "sha256": "8390c21070a68bc062430f8edf98b884e1290af3026c446fe2aae1d87604d3b5"
+    },
+    {
+      "path": "analysis/motion-tracks/reference_2e586456bc4d-feature-pairs.jsonl.gz",
+      "sha256": "d9934696691f8a84ca9a6030d9f303735815a05b078e78290427b5c022a0befc"
+    },
+    {
+      "path": "analysis/keyframes/reference_2e586456bc4d/storyboard-001.jpg",
+      "sha256": "264816aefe93bd4d488fd14f40370f53e604f409c6f4ef9ec72ca163190e3025"
+    },
+    {
+      "path": "analysis/keyframes/reference_2e586456bc4d/storyboard-002.jpg",
+      "sha256": "5b3c87bffdd89202983cd1d70d650fb28bc263f6bbb1797b0f2f78e2612731f5"
+    },
+    {
+      "path": "analysis/keyframes/reference_2e586456bc4d/storyboard-003.jpg",
+      "sha256": "fd73cc8e4489b983179101f2781cff338eaf789639c0282ffec45efff8bdc062"
+    },
+    {
+      "path": "analysis/keyframes/reference_2e586456bc4d/storyboard-004.jpg",
+      "sha256": "7bdcb7efad97b677862ef6ca3b3ae958eb8635102f354bdb564675c552917644"
+    },
+    {
+      "path": "analysis/keyframes/reference_2e586456bc4d/storyboard-005.jpg",
+      "sha256": "7d6ea84f2202e2bc9b316c453fe51a5efe85b6552e54d53a846f95e785f489da"
+    },
+    {
+      "path": "analysis/keyframes/reference_2e586456bc4d/storyboard-006.jpg",
+      "sha256": "bee765a4cf85f2b0ee87dbe6162f3b2dedff490b6532839844c64ad29ea85c72"
+    },
+    {
+      "path": "analysis/keyframes/reference_2e586456bc4d/storyboard-007.jpg",
+      "sha256": "74dc39687a71dcf8b21bab782ea411cda463aa0f0ed33f3495810d5d3601b9b2"
+    },
+    {
+      "path": "analysis/keyframes/reference_2e586456bc4d/storyboard-008.jpg",
+      "sha256": "a16ea1bcbc590803614db5c4e588b44646ed58908bb30cfdea6b40ebc46934ba"
+    }
+  ]
+}

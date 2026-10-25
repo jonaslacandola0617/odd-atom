@@ -1,0 +1,194 @@
+{
+  "video_id": "reference_3dab4435d188",
+  "shot_id": "case_T01",
+  "case_id": "T01",
+  "case_name": "tablet-hand-interaction",
+  "source_sha256": "3dab4435d1882835d9f3798f7c367daa4b1388f9342649b26a3b250f1209acf5",
+  "start_frame": 54540,
+  "end_frame": 54660,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 909.0,
+  "end_pts_seconds": 911.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Isolate the inscribed tablet and reaching hands to make an otherwise anonymous historical exchange tangible.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "glowing tablet",
+      "holding hand",
+      "approaching hand"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "history.tablet",
+        "description": "Orange rounded inscribed clay tablet.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "history.holding-hand",
+        "description": "Warm hand entering from lower left and supporting the tablet.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "history.reaching-hand",
+        "description": "Warm hand entering from upper right.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Dark red-to-teal field; glow is concentrated around the orange tablet.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [],
+  "objects": [
+    {
+      "object_id": "history.tablet",
+      "description": "Orange rounded inscribed clay tablet.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "history.holding-hand",
+      "description": "Warm hand entering from lower left and supporting the tablet.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "history.reaching-hand",
+      "description": "Warm hand entering from upper right.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "t01.background",
+      "description": "Dark red-to-teal field; glow is concentrated around the orange tablet.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "history.tablet",
+        "history.holding-hand",
+        "history.reaching-hand"
+      ],
+      "start_frame": 54540,
+      "end_frame": 54660,
+      "purpose": "Isolate the inscribed tablet and reaching hands to make an otherwise anonymous historical exchange tangible.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 54540,
+          "end_frame": 54660,
+          "phase": "observed interval",
+          "pose_or_state": "Upper-right hand approaches and overlaps the tablet edge while lower-left hand remains attached to it. Selected native interval shows approach/contact, not a completed release. 911–917 s proxy scout shows blue cosmic/figure motifs replacing parts of the hands, followed by a seated person; do not label this simply a finished handoff."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "Exact grip pivot, depth ordering of hidden fingers and any final release need additional native evidence."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        54540,
+        54660
+      ],
+      "limitations": "Exact grip pivot, depth ordering of hidden fingers and any final release need additional native evidence."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        54540,
+        54660
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Upper-right hand approaches and overlaps the tablet edge while lower-left hand remains attached to it.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        54540,
+        54660
+      ]
+    },
+    {
+      "statement": "Selected native interval shows approach/contact, not a completed release.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        54540,
+        54660
+      ]
+    },
+    {
+      "statement": "911–917 s proxy scout shows blue cosmic/figure motifs replacing parts of the hands, followed by a seated person; do not label this simply a finished handoff.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        54540,
+        54660
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 54540,
+      "pts_seconds": 909.0,
+      "file": "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/frame-000000.png"
+    },
+    {
+      "frame_index": 54600,
+      "pts_seconds": 910.0,
+      "file": "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/frame-000060.png"
+    },
+    {
+      "frame_index": 54659,
+      "pts_seconds": 910.9833333333333,
+      "file": "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/evidence.json",
+  "source_technique_inference_limitations": "Exact grip pivot, depth ordering of hidden fingers and any final release need additional native evidence.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/consecutive-001.jpg",
+    "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/consecutive-002.jpg",
+    "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/consecutive-003.jpg",
+    "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/consecutive-004.jpg",
+    "analysis/keyframes/reference_3dab4435d188/tablet-hand-interaction/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

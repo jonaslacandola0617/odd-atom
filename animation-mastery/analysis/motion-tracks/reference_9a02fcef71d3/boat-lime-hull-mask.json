@@ -1,0 +1,1334 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "object_id": "ai-race-green-hull",
+  "source_frame_range": [
+    12660,
+    12780
+  ],
+  "basis": "measured",
+  "confidence": 0.78,
+  "method": "Largest connected lime-color component in fixed ROI, native PNGs; covariance major axis modulo180.",
+  "limitations": "Threshold and damage-opacity changes alter the visible mask. Centroid is not pivot. Axis has180-degree ambiguity. Does not recover source spline or steering model.",
+  "samples": [
+    {
+      "frame_index": 12660,
+      "pts_seconds": 211.0,
+      "mask_found": true,
+      "centroid_native_px": [
+        1356.3228725967974,
+        678.851416483693
+      ],
+      "area_native_px": 37346,
+      "major_axis_degrees_mod180": 68.96054178867053
+    },
+    {
+      "frame_index": 12661,
+      "pts_seconds": 211.01666666666668,
+      "mask_found": true,
+      "centroid_native_px": [
+        1352.4152324959914,
+        671.6461785141636
+      ],
+      "area_native_px": 37420,
+      "major_axis_degrees_mod180": 68.08495615615634
+    },
+    {
+      "frame_index": 12662,
+      "pts_seconds": 211.03333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        1348.3937378109053,
+        664.1710079880313
+      ],
+      "area_native_px": 37431,
+      "major_axis_degrees_mod180": 67.10372220275522
+    },
+    {
+      "frame_index": 12663,
+      "pts_seconds": 211.05,
+      "mask_found": true,
+      "centroid_native_px": [
+        1344.2445578140441,
+        656.8320467961217
+      ],
+      "area_native_px": 37439,
+      "major_axis_degrees_mod180": 66.12506167830105
+    },
+    {
+      "frame_index": 12664,
+      "pts_seconds": 211.06666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        1340.0087130829882,
+        649.5796338366965
+      ],
+      "area_native_px": 37415,
+      "major_axis_degrees_mod180": 65.15739631418226
+    },
+    {
+      "frame_index": 12665,
+      "pts_seconds": 211.08333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        1335.6133272770994,
+        642.4665081358378
+      ],
+      "area_native_px": 37427,
+      "major_axis_degrees_mod180": 64.17272493360198
+    },
+    {
+      "frame_index": 12666,
+      "pts_seconds": 211.1,
+      "mask_found": true,
+      "centroid_native_px": [
+        1331.0381922172332,
+        635.193713919179
+      ],
+      "area_native_px": 37416,
+      "major_axis_degrees_mod180": 63.18154259535515
+    },
+    {
+      "frame_index": 12667,
+      "pts_seconds": 211.11666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        1326.4042973969747,
+        628.24490886739
+      ],
+      "area_native_px": 37418,
+      "major_axis_degrees_mod180": 62.21781715476076
+    },
+    {
+      "frame_index": 12668,
+      "pts_seconds": 211.13333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        1321.6143979477313,
+        621.2837101170435
+      ],
+      "area_native_px": 37422,
+      "major_axis_degrees_mod180": 61.23675386217434
+    },
+    {
+      "frame_index": 12669,
+      "pts_seconds": 211.15,
+      "mask_found": true,
+      "centroid_native_px": [
+        1316.696035477666,
+        614.4670869843984
+      ],
+      "area_native_px": 37432,
+      "major_axis_degrees_mod180": 60.27382600875498
+    },
+    {
+      "frame_index": 12670,
+      "pts_seconds": 211.16666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        1311.668064197399,
+        607.6993350602185
+      ],
+      "area_native_px": 37447,
+      "major_axis_degrees_mod180": 59.287745911561565
+    },
+    {
+      "frame_index": 12671,
+      "pts_seconds": 211.18333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        1306.481007244246,
+        600.9936913576947
+      ],
+      "area_native_px": 37409,
+      "major_axis_degrees_mod180": 58.32121005404618
+    },
+    {
+      "frame_index": 12672,
+      "pts_seconds": 211.2,
+      "mask_found": true,
+      "centroid_native_px": [
+        1301.2187608538834,
+        594.3998771006438
+      ],
+      "area_native_px": 37429,
+      "major_axis_degrees_mod180": 57.340952769100696
+    },
+    {
+      "frame_index": 12673,
+      "pts_seconds": 211.21666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        1295.8410530535882,
+        587.9664573032206
+      ],
+      "area_native_px": 37415,
+      "major_axis_degrees_mod180": 56.362793677474926
+    },
+    {
+      "frame_index": 12674,
+      "pts_seconds": 211.23333333333332,
+      "mask_found": true,
+      "centroid_native_px": [
+        1290.304715064685,
+        581.5379290067358
+      ],
+      "area_native_px": 37412,
+      "major_axis_degrees_mod180": 55.38132952007251
+    },
+    {
+      "frame_index": 12675,
+      "pts_seconds": 211.25,
+      "mask_found": true,
+      "centroid_native_px": [
+        1284.6607405427083,
+        575.2518914583612
+      ],
+      "area_native_px": 37405,
+      "major_axis_degrees_mod180": 54.433196937320304
+    },
+    {
+      "frame_index": 12676,
+      "pts_seconds": 211.26666666666668,
+      "mask_found": true,
+      "centroid_native_px": [
+        1278.9212312296265,
+        569.0585154705285
+      ],
+      "area_native_px": 37426,
+      "major_axis_degrees_mod180": 53.44498021932636
+    },
+    {
+      "frame_index": 12677,
+      "pts_seconds": 211.28333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        1273.055338611319,
+        562.9930191505296
+      ],
+      "area_native_px": 37388,
+      "major_axis_degrees_mod180": 52.49333898335
+    },
+    {
+      "frame_index": 12678,
+      "pts_seconds": 211.3,
+      "mask_found": true,
+      "centroid_native_px": [
+        1267.1433801913518,
+        557.0204714308621
+      ],
+      "area_native_px": 37418,
+      "major_axis_degrees_mod180": 51.50802576451873
+    },
+    {
+      "frame_index": 12679,
+      "pts_seconds": 211.31666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        1261.0625233994758,
+        551.2006204203883
+      ],
+      "area_native_px": 37394,
+      "major_axis_degrees_mod180": 50.52935325402373
+    },
+    {
+      "frame_index": 12680,
+      "pts_seconds": 211.33333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        1254.9112400716713,
+        545.4013050570962
+      ],
+      "area_native_px": 37393,
+      "major_axis_degrees_mod180": 49.552947606847795
+    },
+    {
+      "frame_index": 12681,
+      "pts_seconds": 211.35,
+      "mask_found": true,
+      "centroid_native_px": [
+        1248.6029624084274,
+        539.7543179509117
+      ],
+      "area_native_px": 37402,
+      "major_axis_degrees_mod180": 48.57065426159294
+    },
+    {
+      "frame_index": 12682,
+      "pts_seconds": 211.36666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        1242.2280270436386,
+        534.2045642820876
+      ],
+      "area_native_px": 37421,
+      "major_axis_degrees_mod180": 47.59822604056548
+    },
+    {
+      "frame_index": 12683,
+      "pts_seconds": 211.38333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        1235.7406595169962,
+        528.7827284640689
+      ],
+      "area_native_px": 37391,
+      "major_axis_degrees_mod180": 46.63514105921863
+    },
+    {
+      "frame_index": 12684,
+      "pts_seconds": 211.4,
+      "mask_found": true,
+      "centroid_native_px": [
+        1229.1503222528281,
+        523.5161928703233
+      ],
+      "area_native_px": 37393,
+      "major_axis_degrees_mod180": 45.65191191799732
+    },
+    {
+      "frame_index": 12685,
+      "pts_seconds": 211.41666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        1222.5162635306694,
+        518.3952158225311
+      ],
+      "area_native_px": 37415,
+      "major_axis_degrees_mod180": 44.706636989704776
+    },
+    {
+      "frame_index": 12686,
+      "pts_seconds": 211.43333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        1215.7002190521985,
+        513.2071913233958
+      ],
+      "area_native_px": 37434,
+      "major_axis_degrees_mod180": 43.689289007475395
+    },
+    {
+      "frame_index": 12687,
+      "pts_seconds": 211.45,
+      "mask_found": true,
+      "centroid_native_px": [
+        1208.91684942498,
+        508.34741909601496
+      ],
+      "area_native_px": 37390,
+      "major_axis_degrees_mod180": 42.72852593171572
+    },
+    {
+      "frame_index": 12688,
+      "pts_seconds": 211.46666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        1201.9692903915543,
+        503.5080582654016
+      ],
+      "area_native_px": 37415,
+      "major_axis_degrees_mod180": 41.735790237550475
+    },
+    {
+      "frame_index": 12689,
+      "pts_seconds": 211.48333333333332,
+      "mask_found": true,
+      "centroid_native_px": [
+        1194.9134332352155,
+        498.8027562215681
+      ],
+      "area_native_px": 37370,
+      "major_axis_degrees_mod180": 40.760413773865224
+    },
+    {
+      "frame_index": 12690,
+      "pts_seconds": 211.5,
+      "mask_found": true,
+      "centroid_native_px": [
+        1187.8250514554543,
+        494.2189730293229
+      ],
+      "area_native_px": 37411,
+      "major_axis_degrees_mod180": 39.76717224534664
+    },
+    {
+      "frame_index": 12691,
+      "pts_seconds": 211.51666666666668,
+      "mask_found": true,
+      "centroid_native_px": [
+        1180.6289817860868,
+        489.8347107438017
+      ],
+      "area_native_px": 37389,
+      "major_axis_degrees_mod180": 38.796339034613766
+    },
+    {
+      "frame_index": 12692,
+      "pts_seconds": 211.53333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        1173.466447262803,
+        485.5763632471772
+      ],
+      "area_native_px": 37374,
+      "major_axis_degrees_mod180": 37.80941270582187
+    },
+    {
+      "frame_index": 12693,
+      "pts_seconds": 211.55,
+      "mask_found": true,
+      "centroid_native_px": [
+        1166.0877230530511,
+        481.41924610075176
+      ],
+      "area_native_px": 37379,
+      "major_axis_degrees_mod180": 36.83927396382228
+    },
+    {
+      "frame_index": 12694,
+      "pts_seconds": 211.56666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        1158.7327699178948,
+        477.37575887245595
+      ],
+      "area_native_px": 37391,
+      "major_axis_degrees_mod180": 35.84599287043645
+    },
+    {
+      "frame_index": 12695,
+      "pts_seconds": 211.58333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        1151.2290188729755,
+        473.4860928925177
+      ],
+      "area_native_px": 37355,
+      "major_axis_degrees_mod180": 34.850446895529785
+    },
+    {
+      "frame_index": 12696,
+      "pts_seconds": 211.6,
+      "mask_found": true,
+      "centroid_native_px": [
+        1143.68395973873,
+        469.75310525752224
+      ],
+      "area_native_px": 37356,
+      "major_axis_degrees_mod180": 33.86771432314629
+    },
+    {
+      "frame_index": 12697,
+      "pts_seconds": 211.61666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        1136.085806814228,
+        466.13572250622275
+      ],
+      "area_native_px": 37363,
+      "major_axis_degrees_mod180": 32.88307096654913
+    },
+    {
+      "frame_index": 12698,
+      "pts_seconds": 211.63333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        1128.3971312352814,
+        462.6443748661957
+      ],
+      "area_native_px": 37368,
+      "major_axis_degrees_mod180": 31.90676539359501
+    },
+    {
+      "frame_index": 12699,
+      "pts_seconds": 211.65,
+      "mask_found": true,
+      "centroid_native_px": [
+        1120.5858904732604,
+        459.2778030444902
+      ],
+      "area_native_px": 37379,
+      "major_axis_degrees_mod180": 30.916994954201044
+    },
+    {
+      "frame_index": 12700,
+      "pts_seconds": 211.66666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        1112.8250086947216,
+        456.1012065598331
+      ],
+      "area_native_px": 37379,
+      "major_axis_degrees_mod180": 29.92119513016692
+    },
+    {
+      "frame_index": 12701,
+      "pts_seconds": 211.68333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        1105.002918730754,
+        452.8320257062525
+      ],
+      "area_native_px": 37345,
+      "major_axis_degrees_mod180": 28.929988438113128
+    },
+    {
+      "frame_index": 12702,
+      "pts_seconds": 211.7,
+      "mask_found": true,
+      "centroid_native_px": [
+        1097.4329858226356,
+        449.55490043684506
+      ],
+      "area_native_px": 37313,
+      "major_axis_degrees_mod180": 27.932469633385494
+    },
+    {
+      "frame_index": 12703,
+      "pts_seconds": 211.71666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        1089.7662807525326,
+        446.4030390738061
+      ],
+      "area_native_px": 37314,
+      "major_axis_degrees_mod180": 26.94586420715254
+    },
+    {
+      "frame_index": 12704,
+      "pts_seconds": 211.73333333333332,
+      "mask_found": true,
+      "centroid_native_px": [
+        1081.9194656078978,
+        443.7554190363773
+      ],
+      "area_native_px": 37276,
+      "major_axis_degrees_mod180": 25.990478614442054
+    },
+    {
+      "frame_index": 12705,
+      "pts_seconds": 211.75,
+      "mask_found": true,
+      "centroid_native_px": [
+        1074.1275898779788,
+        442.17110255780307
+      ],
+      "area_native_px": 36633,
+      "major_axis_degrees_mod180": 24.987538946328698
+    },
+    {
+      "frame_index": 12706,
+      "pts_seconds": 211.76666666666668,
+      "mask_found": true,
+      "centroid_native_px": [
+        1126.9597717021081,
+        470.2361686458621
+      ],
+      "area_native_px": 21726,
+      "major_axis_degrees_mod180": 20.568898579652483
+    },
+    {
+      "frame_index": 12707,
+      "pts_seconds": 211.78333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        1125.9033652722599,
+        469.17433979901847
+      ],
+      "area_native_px": 17116,
+      "major_axis_degrees_mod180": 23.2772350318059
+    },
+    {
+      "frame_index": 12708,
+      "pts_seconds": 211.8,
+      "mask_found": true,
+      "centroid_native_px": [
+        1078.1124740901832,
+        454.88514730368007
+      ],
+      "area_native_px": 29429,
+      "major_axis_degrees_mod180": 18.93741878231404
+    },
+    {
+      "frame_index": 12709,
+      "pts_seconds": 211.81666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        1048.611916567856,
+        439.69359706801765
+      ],
+      "area_native_px": 37108,
+      "major_axis_degrees_mod180": 21.310672166806683
+    },
+    {
+      "frame_index": 12710,
+      "pts_seconds": 211.83333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        1044.1686052744426,
+        439.24447898799315
+      ],
+      "area_native_px": 37312,
+      "major_axis_degrees_mod180": 20.4117844661842
+    },
+    {
+      "frame_index": 12711,
+      "pts_seconds": 211.85,
+      "mask_found": true,
+      "centroid_native_px": [
+        1040.313625023473,
+        438.13268235104755
+      ],
+      "area_native_px": 37277,
+      "major_axis_degrees_mod180": 19.58347441423635
+    },
+    {
+      "frame_index": 12712,
+      "pts_seconds": 211.86666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        1035.6949635214667,
+        435.3926663231266
+      ],
+      "area_native_px": 36871,
+      "major_axis_degrees_mod180": 18.81228658754108
+    },
+    {
+      "frame_index": 12713,
+      "pts_seconds": 211.88333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        1055.1710977401526,
+        447.0377457496677
+      ],
+      "area_native_px": 28586,
+      "major_axis_degrees_mod180": 14.748404209554224
+    },
+    {
+      "frame_index": 12714,
+      "pts_seconds": 211.9,
+      "mask_found": true,
+      "centroid_native_px": [
+        1155.3141333333333,
+        471.4007111111111
+      ],
+      "area_native_px": 5625,
+      "major_axis_degrees_mod180": 111.1645193839895
+    },
+    {
+      "frame_index": 12715,
+      "pts_seconds": 211.91666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        942.547619047619,
+        362.1904761904762
+      ],
+      "area_native_px": 210,
+      "major_axis_degrees_mod180": 0.6802232940386261
+    },
+    {
+      "frame_index": 12716,
+      "pts_seconds": 211.93333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        1071.9740275650843,
+        443.2638897396631
+      ],
+      "area_native_px": 16325,
+      "major_axis_degrees_mod180": 13.150550934601796
+    },
+    {
+      "frame_index": 12717,
+      "pts_seconds": 211.95,
+      "mask_found": true,
+      "centroid_native_px": [
+        996.7687662551194,
+        422.7829661295626
+      ],
+      "area_native_px": 33451,
+      "major_axis_degrees_mod180": 13.079749329760006
+    },
+    {
+      "frame_index": 12718,
+      "pts_seconds": 211.96666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        984.8374221551236,
+        419.3602881046738
+      ],
+      "area_native_px": 31794,
+      "major_axis_degrees_mod180": 10.95102200929719
+    },
+    {
+      "frame_index": 12719,
+      "pts_seconds": 211.98333333333332,
+      "mask_found": true,
+      "centroid_native_px": [
+        973.4118471550141,
+        417.0021358251293
+      ],
+      "area_native_px": 29965,
+      "major_axis_degrees_mod180": 9.7713461156209
+    },
+    {
+      "frame_index": 12720,
+      "pts_seconds": 212.0,
+      "mask_found": true,
+      "centroid_native_px": [
+        978.5736971271834,
+        427.61123141331024
+      ],
+      "area_native_px": 20781,
+      "major_axis_degrees_mod180": 5.5721216959630055
+    },
+    {
+      "frame_index": 12721,
+      "pts_seconds": 212.01666666666668,
+      "mask_found": true,
+      "centroid_native_px": [
+        1005.6125170998632,
+        432.0127678978568
+      ],
+      "area_native_px": 8772,
+      "major_axis_degrees_mod180": 5.5112324935255685
+    },
+    {
+      "frame_index": 12722,
+      "pts_seconds": 212.03333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        1035.8899082568807,
+        468.30045871559633
+      ],
+      "area_native_px": 872,
+      "major_axis_degrees_mod180": 101.58017272594468
+    },
+    {
+      "frame_index": 12723,
+      "pts_seconds": 212.05,
+      "mask_found": true,
+      "centroid_native_px": [
+        988.4913893291073,
+        426.916323296355
+      ],
+      "area_native_px": 9465,
+      "major_axis_degrees_mod180": 9.589461285410152
+    },
+    {
+      "frame_index": 12724,
+      "pts_seconds": 212.06666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        937.0185251157819,
+        410.7906028579345
+      ],
+      "area_native_px": 25263,
+      "major_axis_degrees_mod180": 5.402137339141092
+    },
+    {
+      "frame_index": 12725,
+      "pts_seconds": 212.08333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        932.3521844660194,
+        410.2114886731392
+      ],
+      "area_native_px": 24720,
+      "major_axis_degrees_mod180": 5.00342162144679
+    },
+    {
+      "frame_index": 12726,
+      "pts_seconds": 212.1,
+      "mask_found": true,
+      "centroid_native_px": [
+        927.682809320098,
+        409.82256925696726
+      ],
+      "area_native_px": 24077,
+      "major_axis_degrees_mod180": 4.4467404422327945
+    },
+    {
+      "frame_index": 12727,
+      "pts_seconds": 212.11666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        922.9048569245139,
+        409.61187059522797
+      ],
+      "area_native_px": 23554,
+      "major_axis_degrees_mod180": 3.9165859806799403
+    },
+    {
+      "frame_index": 12728,
+      "pts_seconds": 212.13333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        918.1329053526503,
+        409.3286197622972
+      ],
+      "area_native_px": 23054,
+      "major_axis_degrees_mod180": 3.3207925946063597
+    },
+    {
+      "frame_index": 12729,
+      "pts_seconds": 212.15,
+      "mask_found": true,
+      "centroid_native_px": [
+        911.9658059708036,
+        408.5097102275218
+      ],
+      "area_native_px": 22811,
+      "major_axis_degrees_mod180": 2.4957696067860127
+    },
+    {
+      "frame_index": 12730,
+      "pts_seconds": 212.16666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        905.2496243923995,
+        408.6314626601856
+      ],
+      "area_native_px": 22630,
+      "major_axis_degrees_mod180": 1.6145793579431427
+    },
+    {
+      "frame_index": 12731,
+      "pts_seconds": 212.18333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        898.5558666666667,
+        409.6563111111111
+      ],
+      "area_native_px": 22500,
+      "major_axis_degrees_mod180": 0.728458727690338
+    },
+    {
+      "frame_index": 12732,
+      "pts_seconds": 212.2,
+      "mask_found": true,
+      "centroid_native_px": [
+        892.77134652488,
+        410.8471754834657
+      ],
+      "area_native_px": 22287,
+      "major_axis_degrees_mod180": 179.83376408634177
+    },
+    {
+      "frame_index": 12733,
+      "pts_seconds": 212.21666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        888.3287998198604,
+        412.43269533888764
+      ],
+      "area_native_px": 22205,
+      "major_axis_degrees_mod180": 178.94109492127916
+    },
+    {
+      "frame_index": 12734,
+      "pts_seconds": 212.23333333333332,
+      "mask_found": true,
+      "centroid_native_px": [
+        883.5950892656383,
+        413.7393983001304
+      ],
+      "area_native_px": 22237,
+      "major_axis_degrees_mod180": 178.1283501990686
+    },
+    {
+      "frame_index": 12735,
+      "pts_seconds": 212.25,
+      "mask_found": true,
+      "centroid_native_px": [
+        878.0283006093433,
+        414.7715188445046
+      ],
+      "area_native_px": 22155,
+      "major_axis_degrees_mod180": 177.4316031280034
+    },
+    {
+      "frame_index": 12736,
+      "pts_seconds": 212.26666666666668,
+      "mask_found": true,
+      "centroid_native_px": [
+        872.3888963630656,
+        415.110901834163
+      ],
+      "area_native_px": 22299,
+      "major_axis_degrees_mod180": 176.56217822520938
+    },
+    {
+      "frame_index": 12737,
+      "pts_seconds": 212.28333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        866.7830462983673,
+        415.36372176246925
+      ],
+      "area_native_px": 22355,
+      "major_axis_degrees_mod180": 175.77474447535246
+    },
+    {
+      "frame_index": 12738,
+      "pts_seconds": 212.3,
+      "mask_found": true,
+      "centroid_native_px": [
+        860.6655255201849,
+        415.3008625288992
+      ],
+      "area_native_px": 22492,
+      "major_axis_degrees_mod180": 175.04616152722434
+    },
+    {
+      "frame_index": 12739,
+      "pts_seconds": 212.31666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        854.4847706746946,
+        415.58008677173723
+      ],
+      "area_native_px": 22588,
+      "major_axis_degrees_mod180": 174.28032025372082
+    },
+    {
+      "frame_index": 12740,
+      "pts_seconds": 212.33333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        848.2848908834917,
+        416.0817493840197
+      ],
+      "area_native_px": 22728,
+      "major_axis_degrees_mod180": 173.51343353813925
+    },
+    {
+      "frame_index": 12741,
+      "pts_seconds": 212.35,
+      "mask_found": true,
+      "centroid_native_px": [
+        841.9706784712482,
+        416.93837657784013
+      ],
+      "area_native_px": 22816,
+      "major_axis_degrees_mod180": 172.73250549387572
+    },
+    {
+      "frame_index": 12742,
+      "pts_seconds": 212.36666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        835.8792449540084,
+        418.059985178081
+      ],
+      "area_native_px": 22939,
+      "major_axis_degrees_mod180": 171.8917397847182
+    },
+    {
+      "frame_index": 12743,
+      "pts_seconds": 212.38333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        829.7632382447875,
+        419.44713425804764
+      ],
+      "area_native_px": 22926,
+      "major_axis_degrees_mod180": 170.99197473833615
+    },
+    {
+      "frame_index": 12744,
+      "pts_seconds": 212.4,
+      "mask_found": true,
+      "centroid_native_px": [
+        823.4563407297616,
+        420.9475565630585
+      ],
+      "area_native_px": 22939,
+      "major_axis_degrees_mod180": 170.06595505121854
+    },
+    {
+      "frame_index": 12745,
+      "pts_seconds": 212.41666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        817.4042135566606,
+        422.4208758614673
+      ],
+      "area_native_px": 22926,
+      "major_axis_degrees_mod180": 169.14222902798463
+    },
+    {
+      "frame_index": 12746,
+      "pts_seconds": 212.43333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        810.9565122663297,
+        424.14680378229986
+      ],
+      "area_native_px": 22949,
+      "major_axis_degrees_mod180": 168.4911987937746
+    },
+    {
+      "frame_index": 12747,
+      "pts_seconds": 212.45,
+      "mask_found": true,
+      "centroid_native_px": [
+        804.629800775971,
+        425.9571908104102
+      ],
+      "area_native_px": 22939,
+      "major_axis_degrees_mod180": 167.81752417709788
+    },
+    {
+      "frame_index": 12748,
+      "pts_seconds": 212.46666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        798.6168712457561,
+        427.77074083746845
+      ],
+      "area_native_px": 22974,
+      "major_axis_degrees_mod180": 167.19008525188107
+    },
+    {
+      "frame_index": 12749,
+      "pts_seconds": 212.48333333333332,
+      "mask_found": true,
+      "centroid_native_px": [
+        792.6854133112785,
+        429.5250076176381
+      ],
+      "area_native_px": 22973,
+      "major_axis_degrees_mod180": 166.5198549692257
+    },
+    {
+      "frame_index": 12750,
+      "pts_seconds": 212.5,
+      "mask_found": true,
+      "centroid_native_px": [
+        786.7419410971419,
+        431.39996519772046
+      ],
+      "area_native_px": 22987,
+      "major_axis_degrees_mod180": 165.83183445732806
+    },
+    {
+      "frame_index": 12751,
+      "pts_seconds": 212.51666666666668,
+      "mask_found": true,
+      "centroid_native_px": [
+        780.6969340136944,
+        433.4328143399189
+      ],
+      "area_native_px": 22929,
+      "major_axis_degrees_mod180": 165.25085066573183
+    },
+    {
+      "frame_index": 12752,
+      "pts_seconds": 212.53333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        774.9307172443863,
+        435.57296708088074
+      ],
+      "area_native_px": 22935,
+      "major_axis_degrees_mod180": 164.66153315899166
+    },
+    {
+      "frame_index": 12753,
+      "pts_seconds": 212.55,
+      "mask_found": true,
+      "centroid_native_px": [
+        768.9705753568613,
+        437.7844820036781
+      ],
+      "area_native_px": 22838,
+      "major_axis_degrees_mod180": 164.06598940515497
+    },
+    {
+      "frame_index": 12754,
+      "pts_seconds": 212.56666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        763.528058756267,
+        439.87545078722843
+      ],
+      "area_native_px": 22738,
+      "major_axis_degrees_mod180": 163.4843037549224
+    },
+    {
+      "frame_index": 12755,
+      "pts_seconds": 212.58333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        758.1214574898786,
+        442.12511001584227
+      ],
+      "area_native_px": 22724,
+      "major_axis_degrees_mod180": 162.92360746890228
+    },
+    {
+      "frame_index": 12756,
+      "pts_seconds": 212.6,
+      "mask_found": true,
+      "centroid_native_px": [
+        752.7186055724284,
+        444.45860293146706
+      ],
+      "area_native_px": 22719,
+      "major_axis_degrees_mod180": 162.36699626091627
+    },
+    {
+      "frame_index": 12757,
+      "pts_seconds": 212.61666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        747.6733025708636,
+        446.674533069655
+      ],
+      "area_native_px": 22755,
+      "major_axis_degrees_mod180": 161.81188465187415
+    },
+    {
+      "frame_index": 12758,
+      "pts_seconds": 212.63333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        742.1687085583806,
+        449.15412989066
+      ],
+      "area_native_px": 22773,
+      "major_axis_degrees_mod180": 161.24380169236957
+    },
+    {
+      "frame_index": 12759,
+      "pts_seconds": 212.65,
+      "mask_found": true,
+      "centroid_native_px": [
+        737.4914846110065,
+        451.40457948426075
+      ],
+      "area_native_px": 22841,
+      "major_axis_degrees_mod180": 160.6698133104794
+    },
+    {
+      "frame_index": 12760,
+      "pts_seconds": 212.66666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        732.3176732803076,
+        453.879118958133
+      ],
+      "area_native_px": 22882,
+      "major_axis_degrees_mod180": 160.0704328019522
+    },
+    {
+      "frame_index": 12761,
+      "pts_seconds": 212.68333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        727.655377614422,
+        456.2655552638488
+      ],
+      "area_native_px": 22854,
+      "major_axis_degrees_mod180": 159.51505245726418
+    },
+    {
+      "frame_index": 12762,
+      "pts_seconds": 212.7,
+      "mask_found": true,
+      "centroid_native_px": [
+        723.1436708583446,
+        458.6101301318845
+      ],
+      "area_native_px": 22823,
+      "major_axis_degrees_mod180": 158.94567153002416
+    },
+    {
+      "frame_index": 12763,
+      "pts_seconds": 212.71666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        718.9751582835033,
+        460.85437917692576
+      ],
+      "area_native_px": 22744,
+      "major_axis_degrees_mod180": 158.35372600936378
+    },
+    {
+      "frame_index": 12764,
+      "pts_seconds": 212.73333333333332,
+      "mask_found": true,
+      "centroid_native_px": [
+        714.5766111258044,
+        463.2416909106938
+      ],
+      "area_native_px": 22686,
+      "major_axis_degrees_mod180": 157.73203058565537
+    },
+    {
+      "frame_index": 12765,
+      "pts_seconds": 212.75,
+      "mask_found": true,
+      "centroid_native_px": [
+        710.2441906609639,
+        465.69068301071474
+      ],
+      "area_native_px": 22679,
+      "major_axis_degrees_mod180": 157.07226357680173
+    },
+    {
+      "frame_index": 12766,
+      "pts_seconds": 212.76666666666668,
+      "mask_found": true,
+      "centroid_native_px": [
+        705.9096124988966,
+        468.1294465530938
+      ],
+      "area_native_px": 22658,
+      "major_axis_degrees_mod180": 156.42918899524253
+    },
+    {
+      "frame_index": 12767,
+      "pts_seconds": 212.78333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        701.2527992918788,
+        470.8089400309803
+      ],
+      "area_native_px": 22595,
+      "major_axis_degrees_mod180": 155.7611078616834
+    },
+    {
+      "frame_index": 12768,
+      "pts_seconds": 212.8,
+      "mask_found": true,
+      "centroid_native_px": [
+        696.488514886474,
+        473.698250728863
+      ],
+      "area_native_px": 22638,
+      "major_axis_degrees_mod180": 155.10670162193637
+    },
+    {
+      "frame_index": 12769,
+      "pts_seconds": 212.81666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        691.7448516117652,
+        476.6758389557702
+      ],
+      "area_native_px": 22677,
+      "major_axis_degrees_mod180": 154.44079605178078
+    },
+    {
+      "frame_index": 12770,
+      "pts_seconds": 212.83333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        686.6248682824025,
+        479.8859325605901
+      ],
+      "area_native_px": 22776,
+      "major_axis_degrees_mod180": 153.7942820298244
+    },
+    {
+      "frame_index": 12771,
+      "pts_seconds": 212.85,
+      "mask_found": true,
+      "centroid_native_px": [
+        681.2285014434433,
+        483.3198320356924
+      ],
+      "area_native_px": 22862,
+      "major_axis_degrees_mod180": 153.1546208646128
+    },
+    {
+      "frame_index": 12772,
+      "pts_seconds": 212.86666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        675.8327880294901,
+        486.7092003664442
+      ],
+      "area_native_px": 22923,
+      "major_axis_degrees_mod180": 152.60071395213987
+    },
+    {
+      "frame_index": 12773,
+      "pts_seconds": 212.88333333333333,
+      "mask_found": true,
+      "centroid_native_px": [
+        671.299646396298,
+        489.75915658968876
+      ],
+      "area_native_px": 22907,
+      "major_axis_degrees_mod180": 152.08273449046263
+    },
+    {
+      "frame_index": 12774,
+      "pts_seconds": 212.9,
+      "mask_found": true,
+      "centroid_native_px": [
+        666.4273864384463,
+        492.9452271231073
+      ],
+      "area_native_px": 22785,
+      "major_axis_degrees_mod180": 151.6694021377249
+    },
+    {
+      "frame_index": 12775,
+      "pts_seconds": 212.91666666666666,
+      "mask_found": true,
+      "centroid_native_px": [
+        662.3063242859677,
+        495.8755987227249
+      ],
+      "area_native_px": 22548,
+      "major_axis_degrees_mod180": 151.31006401390772
+    },
+    {
+      "frame_index": 12776,
+      "pts_seconds": 212.93333333333334,
+      "mask_found": true,
+      "centroid_native_px": [
+        657.1770515352846,
+        499.5807595618603
+      ],
+      "area_native_px": 22276,
+      "major_axis_degrees_mod180": 151.10258341188475
+    },
+    {
+      "frame_index": 12777,
+      "pts_seconds": 212.95,
+      "mask_found": true,
+      "centroid_native_px": [
+        653.7416077343121,
+        502.25351356190134
+      ],
+      "area_native_px": 22342,
+      "major_axis_degrees_mod180": 150.3786076752271
+    },
+    {
+      "frame_index": 12778,
+      "pts_seconds": 212.96666666666667,
+      "mask_found": true,
+      "centroid_native_px": [
+        649.2025889097913,
+        505.569963271522
+      ],
+      "area_native_px": 22326,
+      "major_axis_degrees_mod180": 149.70963608315247
+    },
+    {
+      "frame_index": 12779,
+      "pts_seconds": 212.98333333333332,
+      "mask_found": true,
+      "centroid_native_px": [
+        644.8879190725572,
+        509.0015218656282
+      ],
+      "area_native_px": 22341,
+      "major_axis_degrees_mod180": 148.97300966597155
+    }
+  ]
+}

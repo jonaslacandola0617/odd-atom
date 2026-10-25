@@ -1,0 +1,160 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "shot_id": "case_A03",
+  "case_id": "A03",
+  "case_name": "boat-reward-path",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 12300,
+  "end_frame": 12420,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 205.0,
+  "end_pts_seconds": 207.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Bridge from scoreboard to racecourse; this window is a cut/setup control, not a complete route study.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "ranked boats on scoreboard",
+      "racecourse after cut"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "ai.scoreboard",
+        "description": "Pale scoreboard with ranked boat illustrations and numbers.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.racecourse",
+        "description": "Top-down teal water, sea walls, coins and route markers.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Flat bright scoreboard becomes a cool top-down course.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [],
+  "objects": [
+    {
+      "object_id": "ai.scoreboard",
+      "description": "Pale scoreboard with ranked boat illustrations and numbers.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.racecourse",
+      "description": "Top-down teal water, sea walls, coins and route markers.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "a03.background",
+      "description": "Flat bright scoreboard becomes a cool top-down course.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "ai.scoreboard",
+        "ai.racecourse"
+      ],
+      "start_frame": 12300,
+      "end_frame": 12420,
+      "purpose": "Bridge from scoreboard to racecourse; this window is a cut/setup control, not a complete route study.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 12300,
+          "end_frame": 12420,
+          "phase": "observed interval",
+          "pose_or_state": "Hard cut at f12366 /206.1 s changes scoreboard to the course; boats enter near the end."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "Do not derive a loop path from this initial selection; use A04 and the broader scout."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        12300,
+        12420
+      ],
+      "limitations": "Do not derive a loop path from this initial selection; use A04 and the broader scout."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        12300,
+        12420
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Hard cut at f12366 /206.1 s changes scoreboard to the course; boats enter near the end.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        12300,
+        12420
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 12300,
+      "pts_seconds": 205.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000000.png"
+    },
+    {
+      "frame_index": 12360,
+      "pts_seconds": 206.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000060.png"
+    },
+    {
+      "frame_index": 12419,
+      "pts_seconds": 206.98333333333332,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/evidence.json",
+  "source_technique_inference_limitations": "Do not derive a loop path from this initial selection; use A04 and the broader scout.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/boat-reward-path/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

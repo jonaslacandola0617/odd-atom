@@ -1,0 +1,174 @@
+{
+  "video_id": "reference_fd02030ee890",
+  "shot_id": "case_D03",
+  "case_id": "D03",
+  "case_name": "bird-design",
+  "source_sha256": "fd02030ee890a97c119a33ba4cc3804c6ba2301f3378c42d613c83536cfbc660",
+  "start_frame": 120,
+  "end_frame": 121,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 2.0,
+  "end_pts_seconds": 2.0166666666666666,
+  "fps": 60,
+  "review_scope": "selected_native_still",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "A seated viewer with laptop and phone stages divided attention.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "large magenta bird",
+      "bright laptop screen",
+      "phone and chair arm",
+      "subdued room"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "half.viewer-bird",
+        "description": "Large magenta bird, broad rounded head/body, yellow beak/feet, white expressive facial area, purple wing plane.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.laptop",
+        "description": "Blue layered laptop with rounded corners and simplified keyboard keys.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.phone",
+        "description": "Small teal phone partly hidden by chair.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.chair",
+        "description": "Red/violet rounded chair with broad internal shadow patches.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.mug",
+        "description": "Violet mug on table.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Dark blue interior with low-contrast plant/frame silhouettes; furniture overlaps the bird.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [
+    {
+      "object_id": "half.viewer-bird",
+      "description": "Large magenta bird, broad rounded head/body, yellow beak/feet, white expressive facial area, purple wing plane.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "half.laptop",
+      "description": "Blue layered laptop with rounded corners and simplified keyboard keys.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "half.phone",
+      "description": "Small teal phone partly hidden by chair.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "half.chair",
+      "description": "Red/violet rounded chair with broad internal shadow patches.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "half.mug",
+      "description": "Violet mug on table.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "d03.background",
+      "description": "Dark blue interior with low-contrast plant/frame silhouettes; furniture overlaps the bird.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        120,
+        121
+      ],
+      "limitations": "One native still supports construction/composition only, not motion or mouth timing."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        120,
+        121
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Bird anatomy uses species-specific wing/foot/beak shapes, not the human limb proportions.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        120,
+        121
+      ]
+    },
+    {
+      "statement": "White angled HEY lettering is part of this source communication; it does not authorize titles in our tests.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        120,
+        121
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 120,
+      "pts_seconds": 2.0,
+      "file": "analysis/keyframes/reference_fd02030ee890/bird-design/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_fd02030ee890/bird-design/frame-000000.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_fd02030ee890/bird-design/evidence.json",
+  "source_technique_inference_limitations": "One native still supports construction/composition only, not motion or mouth timing.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_fd02030ee890/bird-design/consecutive-001.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

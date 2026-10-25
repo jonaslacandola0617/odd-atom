@@ -1,0 +1,162 @@
+{
+  "video_id": "prior_9f097af40530",
+  "name": "lift-pipeline-validation",
+  "source_sha256": "9f097af40530be9009301515348797507e135d0c2cd497e959b3afe6d687d95e",
+  "start_frame": 39,
+  "end_frame": 63,
+  "end_frame_exclusive": true,
+  "source_start_pts": 1.323242,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 39,
+      "pts_seconds": 1.323242,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000000.png",
+      "sha256": "719465d1846a4f1963b017b13b0100553aeaa82a5161bfe1e60949ad3c73d8b6"
+    },
+    {
+      "frame_index": 40,
+      "pts_seconds": 1.356576,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000001.png",
+      "sha256": "db8e955ed5e8920a3cc6f8a1d1c21f2486c6b44c0c9d93a5d45de41355d2d049"
+    },
+    {
+      "frame_index": 41,
+      "pts_seconds": 1.389909,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000002.png",
+      "sha256": "fb0efb4e39a1ab8f28f9acb6acf34e1a2742131914c221adb2085bccd08235e6"
+    },
+    {
+      "frame_index": 42,
+      "pts_seconds": 1.423242,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000003.png",
+      "sha256": "f8a51bf71ef4873d5bbaf66e57903104ebb3b8e877896c6146e64916ab1fa2fb"
+    },
+    {
+      "frame_index": 43,
+      "pts_seconds": 1.456576,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000004.png",
+      "sha256": "0188bcd1c6772c9dbe6a20367a433304eb951823a98c3b547a85d32c060d2967"
+    },
+    {
+      "frame_index": 44,
+      "pts_seconds": 1.489909,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000005.png",
+      "sha256": "159f69ce8e916df434f14271ec81f76c2bb774056f97197667785ce562e8cf62"
+    },
+    {
+      "frame_index": 45,
+      "pts_seconds": 1.523242,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000006.png",
+      "sha256": "63044704f422c3fdd28fa6384f9ca5bbf8dde32e4201687960b33ddf572d7e60"
+    },
+    {
+      "frame_index": 46,
+      "pts_seconds": 1.556576,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000007.png",
+      "sha256": "73032d786f65e83c1b7cdc6d62e41e72701868173689596ba64a7493d39c2b2a"
+    },
+    {
+      "frame_index": 47,
+      "pts_seconds": 1.589909,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000008.png",
+      "sha256": "0ac58d14510cb6578c951d9eefc4f0444812e67da82e189a105af3c74812b9a1"
+    },
+    {
+      "frame_index": 48,
+      "pts_seconds": 1.623242,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000009.png",
+      "sha256": "d9085ff89cb59d4e5719ee35e6b0f96caf5bf29b6be149907a35b01d7f48b267"
+    },
+    {
+      "frame_index": 49,
+      "pts_seconds": 1.656576,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000010.png",
+      "sha256": "cca9eb1ce968cd4b7f541354c9dda44096d50e52a7497659c67b1b451f59c9ce"
+    },
+    {
+      "frame_index": 50,
+      "pts_seconds": 1.689909,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000011.png",
+      "sha256": "c9b2ce766fea02e771ba4611ec505194e1f69fe4240291c3a695062f4f722dee"
+    },
+    {
+      "frame_index": 51,
+      "pts_seconds": 1.723242,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000012.png",
+      "sha256": "61850f066caa6b9a32c8e7bf00e8ac73c29ae92475d074ac46f01adabafd8f51"
+    },
+    {
+      "frame_index": 52,
+      "pts_seconds": 1.756576,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000013.png",
+      "sha256": "e5a51c0e3b6f5356df5883101370afe4856be5a28795b457a9e2afb3424f3c99"
+    },
+    {
+      "frame_index": 53,
+      "pts_seconds": 1.789909,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000014.png",
+      "sha256": "22456bfb1a7de26a3b117b6c9dc9a4bf4f1ca629a11f6fa2dbc6c83336ccb94a"
+    },
+    {
+      "frame_index": 54,
+      "pts_seconds": 1.823242,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000015.png",
+      "sha256": "57c510ef20f5983b84787ff1850a7fc18f25f4a8270824eec76583140701d725"
+    },
+    {
+      "frame_index": 55,
+      "pts_seconds": 1.856576,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000016.png",
+      "sha256": "56a4dabf146287aefba7c9c36c217b49cf27ac216e878e8b143b30cbcf560b87"
+    },
+    {
+      "frame_index": 56,
+      "pts_seconds": 1.889909,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000017.png",
+      "sha256": "af1dab58ac88b489d291eb090ec99e38f02e2a8f51bfaee1d01b525f52e8ec06"
+    },
+    {
+      "frame_index": 57,
+      "pts_seconds": 1.923242,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000018.png",
+      "sha256": "9ff0e0e1d108bd7ef40a5b3a0580459e217d7f59ece3c2c1b93204b52872f6ab"
+    },
+    {
+      "frame_index": 58,
+      "pts_seconds": 1.956576,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000019.png",
+      "sha256": "3d1bcad1d01d35cd123c33af3aeb51faf848bcd348349a1717de22d9708158ed"
+    },
+    {
+      "frame_index": 59,
+      "pts_seconds": 1.989909,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000020.png",
+      "sha256": "39b31235d27768884e11d9069369db6e49ee797c0f5e109348e4c682d4c7d91a"
+    },
+    {
+      "frame_index": 60,
+      "pts_seconds": 2.023242,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000021.png",
+      "sha256": "81df1c18e561d1d17dea5da3876d7045ee24dd85fa1b97a7733ede06e3ac42c9"
+    },
+    {
+      "frame_index": 61,
+      "pts_seconds": 2.056576,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000022.png",
+      "sha256": "18251bc1cc466d62603522fa3c3a79158be1697cbdc4140001d0a7f19586e3d0"
+    },
+    {
+      "frame_index": 62,
+      "pts_seconds": 2.089909,
+      "png": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/frame-000023.png",
+      "sha256": "155eeccd0019d30ada2fb4646a1cd514570489153cf9454720cc696db62a24e7"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/consecutive-001.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/prior_9f097af40530/lift-pipeline-validation/motion-interval.mp4",
+  "review_status": "24-frame contact sheet and final native frame visually inspected; source motion excerpt is not an original animation test",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

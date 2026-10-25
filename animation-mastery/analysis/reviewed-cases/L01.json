@@ -1,0 +1,201 @@
+{
+  "video_id": "reference_2e586456bc4d",
+  "shot_id": "case_L01",
+  "case_id": "L01",
+  "case_name": "leaf-section-reveal",
+  "source_sha256": "2e586456bc4d4ca199b2541ad285c51f342110d1d30029e3d2b141b30ff0fa74",
+  "start_frame": 10140,
+  "end_frame": 10260,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 169.0,
+  "end_pts_seconds": 171.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "A transparent surface, ray and droplets explain a leaf surface admitting light while retaining water.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "transparent white-edged plate",
+      "amber ray",
+      "droplets",
+      "layered leaf block"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "leaf.epidermis-plate",
+        "description": "Transparent white-edged quadrilateral above the leaf section.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "leaf.ray",
+        "description": "Amber diagonal light arrow/ray.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "leaf.droplets",
+        "description": "Blue droplets on upper surface.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "leaf.section",
+        "description": "Green upper cells with purple lower structure in an oblique block.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Plain violet field gives the exploded section strong separation.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [],
+  "objects": [
+    {
+      "object_id": "leaf.epidermis-plate",
+      "description": "Transparent white-edged quadrilateral above the leaf section.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "leaf.ray",
+      "description": "Amber diagonal light arrow/ray.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "leaf.droplets",
+      "description": "Blue droplets on upper surface.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "leaf.section",
+      "description": "Green upper cells with purple lower structure in an oblique block.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "l01.background",
+      "description": "Plain violet field gives the exploded section strong separation.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "leaf.epidermis-plate",
+        "leaf.ray",
+        "leaf.droplets",
+        "leaf.section"
+      ],
+      "start_frame": 10140,
+      "end_frame": 10260,
+      "purpose": "A transparent surface, ray and droplets explain a leaf surface admitting light while retaining water.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 10140,
+          "end_frame": 10260,
+          "phase": "observed interval",
+          "pose_or_state": "Exploded leaf is already established at the start; this window does not contain its initial reveal. The amber ray and droplets remain legible through a mostly held composition; ray prominence changes toward the end."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "No source extrusion, projection matrix or exact plate trajectory is known."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        10140,
+        10260
+      ],
+      "limitations": "No source extrusion, projection matrix or exact plate trajectory is known."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        10140,
+        10260
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Exploded leaf is already established at the start; this window does not contain its initial reveal.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        10140,
+        10260
+      ]
+    },
+    {
+      "statement": "The amber ray and droplets remain legible through a mostly held composition; ray prominence changes toward the end.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        10140,
+        10260
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 10140,
+      "pts_seconds": 169.0,
+      "file": "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/frame-000000.png"
+    },
+    {
+      "frame_index": 10200,
+      "pts_seconds": 170.0,
+      "file": "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/frame-000060.png"
+    },
+    {
+      "frame_index": 10259,
+      "pts_seconds": 170.98333333333332,
+      "file": "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/evidence.json",
+  "source_technique_inference_limitations": "No source extrusion, projection matrix or exact plate trajectory is known.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/consecutive-001.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/consecutive-002.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/consecutive-003.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/consecutive-004.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/leaf-section-reveal/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

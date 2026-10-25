@@ -1,0 +1,38 @@
+{
+  "video_id": "reference_2e586456bc4d",
+  "source_sha256": "2e586456bc4d4ca199b2541ad285c51f342110d1d30029e3d2b141b30ff0fa74",
+  "decoded_frame_count": 40825,
+  "decoded_picture_end_seconds": 680.4166666666666,
+  "candidate_shot_count": 59,
+  "confirmed_shot_count": null,
+  "temporal_analysis_status": "all_frames_measured_semantic_review_pending",
+  "analysis_dimensions": [
+    256,
+    144
+  ],
+  "opencv_version": "5.0.0",
+  "frame_index": "analysis/video-reports/reference_2e586456bc4d/frame-index.jsonl.gz",
+  "decoder": "FFmpeg software decoder (libdav1d for AV1), not OpenCV media decoding",
+  "timestamp_verification": "Every decoded showinfo integer PTS agrees with FFprobe packet PTS in display order; frame and packet counts agree.",
+  "navigation_proxy": "references/extracted/reference_2e586456bc4d-proxy.mp4",
+  "frame_metrics": "analysis/video-reports/reference_2e586456bc4d/frame-metrics.jsonl.gz",
+  "feature_pairs": "analysis/motion-tracks/reference_2e586456bc4d-feature-pairs.jsonl.gz",
+  "storyboard_pages": [
+    "analysis/keyframes/reference_2e586456bc4d/storyboard-001.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/storyboard-002.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/storyboard-003.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/storyboard-004.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/storyboard-005.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/storyboard-006.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/storyboard-007.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/storyboard-008.jpg"
+  ],
+  "audio_status": "Stream metadata inventoried. No direct audition, source separation or semantic audio timing analysis.",
+  "semantic_status": "Human/visual interpretation not completed. These statistics do not establish drawing or animation mastery.",
+  "motion_estimation": "Consecutive-frame sparse LK tracking with forward/backward check; RANSAC partial affine. Normalized source-image motion, not camera identification.",
+  "duration_stats_seconds": {
+    "median": 0.01666666666665151,
+    "minimum": 0.01666666666665151,
+    "maximum": 0.016666666666765195
+  }
+}

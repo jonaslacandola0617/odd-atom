@@ -1,0 +1,85 @@
+{
+  "pipeline_version": 3,
+  "source_sha256": "46db30e386c928a1e4251fbe2c72a006f7ff9775edc84e0ba55bee66dd4b9dcd",
+  "manifest_updates": {
+    "decoded_frame_count": 41219,
+    "decoded_picture_end_seconds": 686.9833333333333,
+    "candidate_shot_count": 99,
+    "confirmed_shot_count": null,
+    "temporal_analysis_status": "all_frames_measured_semantic_review_pending"
+  },
+  "artifacts": [
+    {
+      "path": "analysis/video-reports/reference_46db30e386c9/report.json",
+      "sha256": "02e38f2abb9d4a8c6a89f1a87a5565688492ee78d78b3809ceb918a2b6059a1b"
+    },
+    {
+      "path": "analysis/video-reports/reference_46db30e386c9/frame-index.jsonl.gz",
+      "sha256": "e60e3a44b11ff222f21a0d19eddc5a9e01c366234b6c3efbccab57839900e477"
+    },
+    {
+      "path": "analysis/video-reports/reference_46db30e386c9/frame-metrics.jsonl.gz",
+      "sha256": "4f204375eaaf436c7ef1f3e849341bfe39c6665c585aa6d682957af164bcf8a4"
+    },
+    {
+      "path": "analysis/shot-timelines/reference_46db30e386c9.json",
+      "sha256": "2efa4494f605126b6a99c95747a81b685192e8202838aa39644199c4542e6c5b"
+    },
+    {
+      "path": "analysis/motion-tracks/reference_46db30e386c9-feature-pairs.jsonl.gz",
+      "sha256": "71e7921d9351e4ffa00d54c115c00731626be52eec5cbbf5c7d531c1a153ea1a"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-001.jpg",
+      "sha256": "e630df3bd1b60cb5820726d6e603fcfda1cb7a61b04a5eaa1f0c28e596b02870"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-002.jpg",
+      "sha256": "2f85a596b6b56fa8fe2909b6fc0008b5a7844b243e37555df1ef82f5d14fe582"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-003.jpg",
+      "sha256": "1ab05381a598c6c4f230797c69295f8faa7576d135052226b26f5a0de833e23c"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-004.jpg",
+      "sha256": "05ea3200dcb8d4c925b6f422edc525dd7113ea345ab08207f779336235f191a4"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-005.jpg",
+      "sha256": "ea34b8297bf3839732bae54813091da980dd4cb7921edd21abb548d3a9fc8b9b"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-006.jpg",
+      "sha256": "7d9a3aeb6a00806ed182edaee6f638eeaf199bef5fe5c4492d37495a5e8b93d9"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-007.jpg",
+      "sha256": "c55caa8283e5b668608a8fb923f533fd883994a920f1155f928a82730c49737a"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-008.jpg",
+      "sha256": "23935d79cd75bfaf9031fe8ab204e783e4c81898bd4a5073d8f9890491c53717"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-009.jpg",
+      "sha256": "ad45c806efc132e5147e2835f5cd875f91e51fa1228386c8748160ba2c2a90c0"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-010.jpg",
+      "sha256": "249feb81904f6f464cfd7af02c4a4c1fe2975fcc8b7eb6cd1bcdcc998288e5c8"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-011.jpg",
+      "sha256": "c4613d8fb67e88bc4e93b86a6cbcf3ed137790b82b341e9d710a2e8b33f872fc"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-012.jpg",
+      "sha256": "13a90e4acd31a98983c42881596b764cee4671fc44d03dae882f950f3101d6fa"
+    },
+    {
+      "path": "analysis/keyframes/reference_46db30e386c9/storyboard-013.jpg",
+      "sha256": "1fc765e8dbc3c152a7ac219a6ce82629cd51fea871d81fa2a7895bfe76c715ca"
+    }
+  ]
+}

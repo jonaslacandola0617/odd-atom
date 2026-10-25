@@ -1,0 +1,169 @@
+{
+  "video_id": "reference_46db30e386c9",
+  "name": "forest-opening-overview",
+  "source_sha256": "46db30e386c928a1e4251fbe2c72a006f7ff9775edc84e0ba55bee66dd4b9dcd",
+  "start_frame": 0,
+  "end_frame": 361,
+  "end_frame_exclusive": true,
+  "source_start_pts": 0.0,
+  "sample_stride": 15,
+  "sampled_frames": [
+    {
+      "frame_index": 0,
+      "pts_seconds": 0.0,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000000.png",
+      "sha256": "35a7d0f57bede0682aece2b7969674e08552db0b1b9aa2daa68c1d5192540e32"
+    },
+    {
+      "frame_index": 15,
+      "pts_seconds": 0.25,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000001.png",
+      "sha256": "234ff4ef76511a3a86d5d035a9a0c0ba65804dba75cc1d6193f47065695408c6"
+    },
+    {
+      "frame_index": 30,
+      "pts_seconds": 0.5,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000002.png",
+      "sha256": "630c61ed90ca6f6b28fbf13e3ad929ea06bcefc4df3c59dd6ef8428fb815387c"
+    },
+    {
+      "frame_index": 45,
+      "pts_seconds": 0.75,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000003.png",
+      "sha256": "7d9bf59c0426805e026f0bc957c7701029b63923a9c71c720f3f086147d8cdcc"
+    },
+    {
+      "frame_index": 60,
+      "pts_seconds": 1.0,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000004.png",
+      "sha256": "a6ae46db31a7bf5935e6628bb9da4e432ef780a875fef41fe213c6740788d634"
+    },
+    {
+      "frame_index": 75,
+      "pts_seconds": 1.25,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000005.png",
+      "sha256": "2f7e7e53cae6057d4ddc73ee4f039e77a0139dfbec4d8f303f49da680e73a6e9"
+    },
+    {
+      "frame_index": 90,
+      "pts_seconds": 1.5,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000006.png",
+      "sha256": "473eb99443ce49c9beea0db099750108607ba1ee1791ed819f6c964f846d3081"
+    },
+    {
+      "frame_index": 105,
+      "pts_seconds": 1.75,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000007.png",
+      "sha256": "18c8ef66e3723688025e8ab9d219970353ac8f9c8fdd51b7b4b256b435f64000"
+    },
+    {
+      "frame_index": 120,
+      "pts_seconds": 2.0,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000008.png",
+      "sha256": "e7ce5aba2b76554f147556aac3431fd7bfca42759963deb12bd6c852c573576f"
+    },
+    {
+      "frame_index": 135,
+      "pts_seconds": 2.25,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000009.png",
+      "sha256": "dfdcd1273e198b2320f55a018d6eed9ffbf1a9e7615407288b6fed3a200ecca7"
+    },
+    {
+      "frame_index": 150,
+      "pts_seconds": 2.5,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000010.png",
+      "sha256": "2930219bd76ea6681e3c3d520828be2d2191035320772697c63244bbcdc399cf"
+    },
+    {
+      "frame_index": 165,
+      "pts_seconds": 2.75,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000011.png",
+      "sha256": "970bb06b83e0b1013010b83daab4f4cb9649e097cdd0c583df8146b7c50c46b2"
+    },
+    {
+      "frame_index": 180,
+      "pts_seconds": 3.0,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000012.png",
+      "sha256": "03c576c685679e45c2d6105aac1bffa8f379bf3bd809c5df967002168b331fa4"
+    },
+    {
+      "frame_index": 195,
+      "pts_seconds": 3.25,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000013.png",
+      "sha256": "6a91f90daa9df75870ad302ab7fea50bd6dd966190ca8420ed1e5999eeb0e469"
+    },
+    {
+      "frame_index": 210,
+      "pts_seconds": 3.5,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000014.png",
+      "sha256": "b973e80cdda9a25050ea727405271cc40670cab3302d5af533394c9e306e92f0"
+    },
+    {
+      "frame_index": 225,
+      "pts_seconds": 3.75,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000015.png",
+      "sha256": "d384f90506b0bffae2ffd4c152e5558725f0490041bb1616ceb5db7c9073d47c"
+    },
+    {
+      "frame_index": 240,
+      "pts_seconds": 4.0,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000016.png",
+      "sha256": "43764b18b47ce74d15de2fc7aa606f91abad035f20b8cec131f2c8392c1f3bbc"
+    },
+    {
+      "frame_index": 255,
+      "pts_seconds": 4.25,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000017.png",
+      "sha256": "1360c3410b846b7dc2bd41e14f8765bc36a8dac999e5c1834cd5cc72f02985f1"
+    },
+    {
+      "frame_index": 270,
+      "pts_seconds": 4.5,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000018.png",
+      "sha256": "62b1929104730d5c0763c42ff92aff2f2ea3323dfb01030d758a845ec35973bf"
+    },
+    {
+      "frame_index": 285,
+      "pts_seconds": 4.75,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000019.png",
+      "sha256": "02d3cb50d9a8601183c846c5808a4650f45925b2e91dac44b208ac856b5a4d00"
+    },
+    {
+      "frame_index": 300,
+      "pts_seconds": 5.0,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000020.png",
+      "sha256": "d71c8165669337a1f4632c2566de443aacd057bed36f5e44a2233bbc63dacd7a"
+    },
+    {
+      "frame_index": 315,
+      "pts_seconds": 5.25,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000021.png",
+      "sha256": "e920f4ae0521104a2b51325cf1c286ee62373177ea0948c833bdbe5d4f854bb9"
+    },
+    {
+      "frame_index": 330,
+      "pts_seconds": 5.5,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000022.png",
+      "sha256": "8c37b89e9fb6468fa39725b1884d3846ad5b1bf31f5fddc9ee1d186014145c03"
+    },
+    {
+      "frame_index": 345,
+      "pts_seconds": 5.75,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000023.png",
+      "sha256": "0df341c998e2b27bb9baf0ec7e5b5276b3df401adcc7db7dd2d28290808fd0e0"
+    },
+    {
+      "frame_index": 360,
+      "pts_seconds": 6.0,
+      "png": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/frame-000024.png",
+      "sha256": "2b268532591616e6a6e18cbab49a0520df4dbdc01c493f391cdeb03098bcc4f5"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/consecutive-001.jpg",
+    "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/consecutive-002.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_46db30e386c9/forest-opening-overview/motion-interval.mp4",
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

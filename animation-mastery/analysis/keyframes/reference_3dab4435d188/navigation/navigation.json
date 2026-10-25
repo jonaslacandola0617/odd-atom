@@ -1,0 +1,755 @@
+{
+  "video_id": "reference_3dab4435d188",
+  "source_sha256": "3dab4435d1882835d9f3798f7c367daa4b1388f9342649b26a3b250f1209acf5",
+  "purpose": "Whole-duration navigation before detailed per-shot temporal review; not evidence that intermediate motion has been reviewed.",
+  "requested_interval_seconds": 10.0,
+  "pages": [
+    "analysis/keyframes/reference_3dab4435d188/navigation/navigation-001.jpg",
+    "analysis/keyframes/reference_3dab4435d188/navigation/navigation-002.jpg",
+    "analysis/keyframes/reference_3dab4435d188/navigation/navigation-003.jpg"
+  ],
+  "samples": [
+    {
+      "requested_seconds": 0.0,
+      "decoded_frame_index": 0,
+      "opencv_decoded_pts_seconds": 0.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 10.0,
+      "decoded_frame_index": 600,
+      "opencv_decoded_pts_seconds": 10.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 20.0,
+      "decoded_frame_index": 1200,
+      "opencv_decoded_pts_seconds": 20.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 30.0,
+      "decoded_frame_index": 1800,
+      "opencv_decoded_pts_seconds": 30.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 40.0,
+      "decoded_frame_index": 2400,
+      "opencv_decoded_pts_seconds": 40.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 50.0,
+      "decoded_frame_index": 3000,
+      "opencv_decoded_pts_seconds": 50.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 60.0,
+      "decoded_frame_index": 3600,
+      "opencv_decoded_pts_seconds": 60.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 70.0,
+      "decoded_frame_index": 4200,
+      "opencv_decoded_pts_seconds": 70.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 80.0,
+      "decoded_frame_index": 4800,
+      "opencv_decoded_pts_seconds": 80.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 90.0,
+      "decoded_frame_index": 5400,
+      "opencv_decoded_pts_seconds": 90.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 100.0,
+      "decoded_frame_index": 6000,
+      "opencv_decoded_pts_seconds": 100.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 110.0,
+      "decoded_frame_index": 6600,
+      "opencv_decoded_pts_seconds": 110.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 120.0,
+      "decoded_frame_index": 7200,
+      "opencv_decoded_pts_seconds": 120.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 130.0,
+      "decoded_frame_index": 7800,
+      "opencv_decoded_pts_seconds": 130.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 140.0,
+      "decoded_frame_index": 8400,
+      "opencv_decoded_pts_seconds": 140.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 150.0,
+      "decoded_frame_index": 9000,
+      "opencv_decoded_pts_seconds": 150.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 160.0,
+      "decoded_frame_index": 9600,
+      "opencv_decoded_pts_seconds": 160.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 170.0,
+      "decoded_frame_index": 10200,
+      "opencv_decoded_pts_seconds": 170.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 180.0,
+      "decoded_frame_index": 10800,
+      "opencv_decoded_pts_seconds": 180.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 190.0,
+      "decoded_frame_index": 11400,
+      "opencv_decoded_pts_seconds": 190.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 200.0,
+      "decoded_frame_index": 12000,
+      "opencv_decoded_pts_seconds": 200.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 210.0,
+      "decoded_frame_index": 12600,
+      "opencv_decoded_pts_seconds": 210.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 220.0,
+      "decoded_frame_index": 13200,
+      "opencv_decoded_pts_seconds": 220.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 230.0,
+      "decoded_frame_index": 13800,
+      "opencv_decoded_pts_seconds": 230.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 240.0,
+      "decoded_frame_index": 14400,
+      "opencv_decoded_pts_seconds": 240.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 250.0,
+      "decoded_frame_index": 15000,
+      "opencv_decoded_pts_seconds": 250.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 260.0,
+      "decoded_frame_index": 15600,
+      "opencv_decoded_pts_seconds": 260.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 270.0,
+      "decoded_frame_index": 16200,
+      "opencv_decoded_pts_seconds": 270.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 280.0,
+      "decoded_frame_index": 16800,
+      "opencv_decoded_pts_seconds": 280.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 290.0,
+      "decoded_frame_index": 17400,
+      "opencv_decoded_pts_seconds": 290.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 300.0,
+      "decoded_frame_index": 18000,
+      "opencv_decoded_pts_seconds": 300.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 310.0,
+      "decoded_frame_index": 18600,
+      "opencv_decoded_pts_seconds": 310.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 320.0,
+      "decoded_frame_index": 19200,
+      "opencv_decoded_pts_seconds": 320.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 330.0,
+      "decoded_frame_index": 19800,
+      "opencv_decoded_pts_seconds": 330.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 340.0,
+      "decoded_frame_index": 20400,
+      "opencv_decoded_pts_seconds": 340.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 350.0,
+      "decoded_frame_index": 21000,
+      "opencv_decoded_pts_seconds": 350.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 360.0,
+      "decoded_frame_index": 21600,
+      "opencv_decoded_pts_seconds": 360.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 370.0,
+      "decoded_frame_index": 22200,
+      "opencv_decoded_pts_seconds": 370.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 380.0,
+      "decoded_frame_index": 22800,
+      "opencv_decoded_pts_seconds": 380.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 390.0,
+      "decoded_frame_index": 23400,
+      "opencv_decoded_pts_seconds": 390.0,
+      "page": 1,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 400.0,
+      "decoded_frame_index": 24000,
+      "opencv_decoded_pts_seconds": 400.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 410.0,
+      "decoded_frame_index": 24600,
+      "opencv_decoded_pts_seconds": 410.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 420.0,
+      "decoded_frame_index": 25200,
+      "opencv_decoded_pts_seconds": 420.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 430.0,
+      "decoded_frame_index": 25800,
+      "opencv_decoded_pts_seconds": 430.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 440.0,
+      "decoded_frame_index": 26400,
+      "opencv_decoded_pts_seconds": 440.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 450.0,
+      "decoded_frame_index": 27000,
+      "opencv_decoded_pts_seconds": 450.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 460.0,
+      "decoded_frame_index": 27600,
+      "opencv_decoded_pts_seconds": 460.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 470.0,
+      "decoded_frame_index": 28200,
+      "opencv_decoded_pts_seconds": 470.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 480.0,
+      "decoded_frame_index": 28800,
+      "opencv_decoded_pts_seconds": 480.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 490.0,
+      "decoded_frame_index": 29400,
+      "opencv_decoded_pts_seconds": 490.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 500.0,
+      "decoded_frame_index": 30000,
+      "opencv_decoded_pts_seconds": 500.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 510.0,
+      "decoded_frame_index": 30600,
+      "opencv_decoded_pts_seconds": 510.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 520.0,
+      "decoded_frame_index": 31200,
+      "opencv_decoded_pts_seconds": 520.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 530.0,
+      "decoded_frame_index": 31800,
+      "opencv_decoded_pts_seconds": 530.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 540.0,
+      "decoded_frame_index": 32400,
+      "opencv_decoded_pts_seconds": 540.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 550.0,
+      "decoded_frame_index": 33000,
+      "opencv_decoded_pts_seconds": 550.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 560.0,
+      "decoded_frame_index": 33600,
+      "opencv_decoded_pts_seconds": 560.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 570.0,
+      "decoded_frame_index": 34200,
+      "opencv_decoded_pts_seconds": 570.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 580.0,
+      "decoded_frame_index": 34800,
+      "opencv_decoded_pts_seconds": 580.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 590.0,
+      "decoded_frame_index": 35400,
+      "opencv_decoded_pts_seconds": 590.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 600.0,
+      "decoded_frame_index": 36000,
+      "opencv_decoded_pts_seconds": 600.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 610.0,
+      "decoded_frame_index": 36600,
+      "opencv_decoded_pts_seconds": 610.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 620.0,
+      "decoded_frame_index": 37200,
+      "opencv_decoded_pts_seconds": 620.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 630.0,
+      "decoded_frame_index": 37800,
+      "opencv_decoded_pts_seconds": 630.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 640.0,
+      "decoded_frame_index": 38400,
+      "opencv_decoded_pts_seconds": 640.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 650.0,
+      "decoded_frame_index": 39000,
+      "opencv_decoded_pts_seconds": 650.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 660.0,
+      "decoded_frame_index": 39600,
+      "opencv_decoded_pts_seconds": 660.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 670.0,
+      "decoded_frame_index": 40200,
+      "opencv_decoded_pts_seconds": 670.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 680.0,
+      "decoded_frame_index": 40800,
+      "opencv_decoded_pts_seconds": 680.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 690.0,
+      "decoded_frame_index": 41400,
+      "opencv_decoded_pts_seconds": 690.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 700.0,
+      "decoded_frame_index": 42000,
+      "opencv_decoded_pts_seconds": 700.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 710.0,
+      "decoded_frame_index": 42600,
+      "opencv_decoded_pts_seconds": 710.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 720.0,
+      "decoded_frame_index": 43200,
+      "opencv_decoded_pts_seconds": 720.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 730.0,
+      "decoded_frame_index": 43800,
+      "opencv_decoded_pts_seconds": 730.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 740.0,
+      "decoded_frame_index": 44400,
+      "opencv_decoded_pts_seconds": 740.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 750.0,
+      "decoded_frame_index": 45000,
+      "opencv_decoded_pts_seconds": 750.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 760.0,
+      "decoded_frame_index": 45600,
+      "opencv_decoded_pts_seconds": 760.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 770.0,
+      "decoded_frame_index": 46200,
+      "opencv_decoded_pts_seconds": 770.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 780.0,
+      "decoded_frame_index": 46800,
+      "opencv_decoded_pts_seconds": 780.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 790.0,
+      "decoded_frame_index": 47400,
+      "opencv_decoded_pts_seconds": 790.0,
+      "page": 2,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 800.0,
+      "decoded_frame_index": 48000,
+      "opencv_decoded_pts_seconds": 800.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 810.0,
+      "decoded_frame_index": 48600,
+      "opencv_decoded_pts_seconds": 810.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 820.0,
+      "decoded_frame_index": 49200,
+      "opencv_decoded_pts_seconds": 820.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 830.0,
+      "decoded_frame_index": 49800,
+      "opencv_decoded_pts_seconds": 830.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 840.0,
+      "decoded_frame_index": 50400,
+      "opencv_decoded_pts_seconds": 840.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 850.0,
+      "decoded_frame_index": 51000,
+      "opencv_decoded_pts_seconds": 850.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 860.0,
+      "decoded_frame_index": 51600,
+      "opencv_decoded_pts_seconds": 860.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 870.0,
+      "decoded_frame_index": 52200,
+      "opencv_decoded_pts_seconds": 870.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 880.0,
+      "decoded_frame_index": 52800,
+      "opencv_decoded_pts_seconds": 880.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 890.0,
+      "decoded_frame_index": 53400,
+      "opencv_decoded_pts_seconds": 890.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 900.0,
+      "decoded_frame_index": 54000,
+      "opencv_decoded_pts_seconds": 900.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 910.0,
+      "decoded_frame_index": 54600,
+      "opencv_decoded_pts_seconds": 910.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 920.0,
+      "decoded_frame_index": 55200,
+      "opencv_decoded_pts_seconds": 920.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 930.0,
+      "decoded_frame_index": 55800,
+      "opencv_decoded_pts_seconds": 930.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 940.0,
+      "decoded_frame_index": 56400,
+      "opencv_decoded_pts_seconds": 940.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 950.0,
+      "decoded_frame_index": 57000,
+      "opencv_decoded_pts_seconds": 950.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 960.0,
+      "decoded_frame_index": 57600,
+      "opencv_decoded_pts_seconds": 960.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 970.0,
+      "decoded_frame_index": 58200,
+      "opencv_decoded_pts_seconds": 970.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 980.0,
+      "decoded_frame_index": 58800,
+      "opencv_decoded_pts_seconds": 980.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 990.0,
+      "decoded_frame_index": 59400,
+      "opencv_decoded_pts_seconds": 990.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 1000.0,
+      "decoded_frame_index": 60000,
+      "opencv_decoded_pts_seconds": 1000.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 1010.0,
+      "decoded_frame_index": 60600,
+      "opencv_decoded_pts_seconds": 1010.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 1020.0,
+      "decoded_frame_index": 61200,
+      "opencv_decoded_pts_seconds": 1020.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 1030.0,
+      "decoded_frame_index": 61800,
+      "opencv_decoded_pts_seconds": 1030.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 1040.0,
+      "decoded_frame_index": 62400,
+      "opencv_decoded_pts_seconds": 1040.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    },
+    {
+      "requested_seconds": 1050.0,
+      "decoded_frame_index": 63000,
+      "opencv_decoded_pts_seconds": 1050.0,
+      "page": 3,
+      "review_status": "navigation_sample_not_yet_annotated"
+    }
+  ]
+}

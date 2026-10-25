@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "scope": "archive",
+  "videos": [
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "frames_audited": 78231,
+      "candidate_shots": 56,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "reference_46db30e386c9",
+      "frames_audited": 41219,
+      "candidate_shots": 99,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "reference_3dab4435d188",
+      "frames_audited": 63020,
+      "candidate_shots": 96,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "reference_2e586456bc4d",
+      "frames_audited": 40825,
+      "candidate_shots": 59,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "reference_fd02030ee890",
+      "frames_audited": 12802,
+      "candidate_shots": 45,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    }
+  ],
+  "total_decoded_frames_audited": 236097,
+  "semantic_review": "not_completed",
+  "artistic_mastery": "not_claimed",
+  "requested_archive_analysis": "automated_pass_only"
+}

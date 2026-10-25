@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "renderer": "Chromium / Remotion / 1920x1080 / same runtime",
+  "samples": [
+    {
+      "frame": 38,
+      "rgba_sha256": "13d7a03b1c4c04877adf167fa02d94154e4fe8f5bee360a777b287f516f3c404"
+    },
+    {
+      "frame": 7,
+      "rgba_sha256": "8eb6125a969fff40d72dad718f1539e061b6be677386bfe1f8312081eb638bdf"
+    },
+    {
+      "frame": 38,
+      "rgba_sha256": "13d7a03b1c4c04877adf167fa02d94154e4fe8f5bee360a777b287f516f3c404"
+    }
+  ],
+  "scope": "One actual peak pose repeated after another frame. Pure pose/property tests cover other frames; this is not cross-platform bit identity."
+}

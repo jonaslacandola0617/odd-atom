@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "scope": "prior_uploads",
+  "videos": [
+    {
+      "video_id": "prior_f392f8bc9f58",
+      "frames_audited": 2015,
+      "candidate_shots": 14,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "prior_f2e0dab93985",
+      "frames_audited": 2115,
+      "candidate_shots": 9,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "prior_d0af8eac9b60",
+      "frames_audited": 2160,
+      "candidate_shots": 8,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "prior_7cbef5c3f0e8",
+      "frames_audited": 2251,
+      "candidate_shots": 7,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "prior_aae933ef8ed5",
+      "frames_audited": 2174,
+      "candidate_shots": 9,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "prior_9f097af40530",
+      "frames_audited": 2156,
+      "candidate_shots": 6,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "prior_d59a423622f6",
+      "frames_audited": 2187,
+      "candidate_shots": 10,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    },
+    {
+      "video_id": "prior_80023aa9ad50",
+      "frames_audited": 2105,
+      "candidate_shots": 14,
+      "source_hash": "unchanged",
+      "contiguous_full_timeline": true,
+      "review_status": "automated_only"
+    }
+  ],
+  "total_decoded_frames_audited": 17163,
+  "semantic_review": "not_completed",
+  "artistic_mastery": "not_claimed",
+  "requested_archive_analysis": "not_started"
+}

@@ -1,0 +1,184 @@
+{
+  "video_id": "reference_46db30e386c9",
+  "shot_id": "case_F01",
+  "case_id": "F01",
+  "case_name": "forest-layer-motion",
+  "source_sha256": "46db30e386c928a1e4251fbe2c72a006f7ff9775edc84e0ba55bee66dd4b9dcd",
+  "start_frame": 90,
+  "end_frame": 114,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 1.5,
+  "end_pts_seconds": 1.9,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Foreground foliage opens a view toward the path and central tree, making depth part of the reveal.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "opening between dark branches",
+      "bright path",
+      "central broad tree"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "forest.foreground-left",
+        "description": "Large dark evergreen foliage overlapping the left frame.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "forest.rear-trunk",
+        "description": "Purple rear trunk visible through foliage.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "forest.path",
+        "description": "Warm winding path leading toward the tree.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Overlapping dark foreground evergreens, middle foliage/path and smaller rear trees; warm opening against cool greens.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [],
+  "objects": [
+    {
+      "object_id": "forest.foreground-left",
+      "description": "Large dark evergreen foliage overlapping the left frame.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "forest.rear-trunk",
+      "description": "Purple rear trunk visible through foliage.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "forest.path",
+      "description": "Warm winding path leading toward the tree.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "f01.background",
+      "description": "Overlapping dark foreground evergreens, middle foliage/path and smaller rear trees; warm opening against cool greens.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "forest.foreground-left",
+        "forest.rear-trunk",
+        "forest.path"
+      ],
+      "start_frame": 90,
+      "end_frame": 114,
+      "purpose": "Foreground foliage opens a view toward the path and central tree, making depth part of the reveal.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 90,
+          "end_frame": 114,
+          "phase": "observed interval",
+          "pose_or_state": "Foreground foliage and selected rear-trunk features have substantially different image motion. Registered rear-trunk subset cannot account for surviving foreground tracks; source-layer parallax is a plausible interpretation."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "A flattened movie does not distinguish a virtual camera from multiple authored layer transforms. Mixed-depth ROIs gave misleading medians."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        90,
+        114
+      ],
+      "limitations": "A flattened movie does not distinguish a virtual camera from multiple authored layer transforms. Mixed-depth ROIs gave misleading medians."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        90,
+        114
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Foreground foliage and selected rear-trunk features have substantially different image motion.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        90,
+        114
+      ]
+    },
+    {
+      "statement": "Registered rear-trunk subset cannot account for surviving foreground tracks; source-layer parallax is a plausible interpretation.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        90,
+        114
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 90,
+      "pts_seconds": 1.5,
+      "file": "analysis/keyframes/reference_46db30e386c9/forest-layer-motion/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_46db30e386c9/forest-layer-motion/frame-000000.png"
+    },
+    {
+      "frame_index": 102,
+      "pts_seconds": 1.7,
+      "file": "analysis/keyframes/reference_46db30e386c9/forest-layer-motion/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_46db30e386c9/forest-layer-motion/frame-000012.png"
+    },
+    {
+      "frame_index": 113,
+      "pts_seconds": 1.8833333333333333,
+      "file": "analysis/keyframes/reference_46db30e386c9/forest-layer-motion/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_46db30e386c9/forest-layer-motion/frame-000023.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_46db30e386c9/forest-layer-motion/evidence.json",
+  "source_technique_inference_limitations": "A flattened movie does not distinguish a virtual camera from multiple authored layer transforms. Mixed-depth ROIs gave misleading medians.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_46db30e386c9/forest-layer-motion/consecutive-001.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing.",
+  "measurement_files": [
+    "analysis/motion-tracks/reference_46db30e386c9/forest-registered-layer-comparison.json"
+  ]
+}

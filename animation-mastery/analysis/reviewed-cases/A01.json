@@ -1,0 +1,177 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "shot_id": "case_A01",
+  "case_id": "A01",
+  "case_name": "room-object-change",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 10260,
+  "end_frame": 10380,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 171.0,
+  "end_pts_seconds": 173.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Establish the instruction and furnished room before revealing a failure of the intended meaning of “clean.”",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "request bubble",
+      "human in room",
+      "furniture"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "ai.room-person",
+        "description": "Small human centered in an orange isometric room.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.room-furniture",
+        "description": "Bed/sofa, desk, chair, shelving and small scattered items.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.request",
+        "description": "White “Clean my room!” speech bubble.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Bright orange/yellow isometric room floats on a dark blue field; exterior agent at lower right.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [
+    {
+      "object_id": "ai.room-person",
+      "description": "Small human centered in an orange isometric room.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "ai.room-furniture",
+      "description": "Bed/sofa, desk, chair, shelving and small scattered items.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.request",
+      "description": "White “Clean my room!” speech bubble.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "a01.background",
+      "description": "Bright orange/yellow isometric room floats on a dark blue field; exterior agent at lower right.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "ai.room-person",
+        "ai.room-furniture",
+        "ai.request"
+      ],
+      "start_frame": 10260,
+      "end_frame": 10380,
+      "purpose": "Establish the instruction and furnished room before revealing a failure of the intended meaning of “clean.”",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 10260,
+          "end_frame": 10380,
+          "phase": "observed interval",
+          "pose_or_state": "Furniture largely holds during this 171–173 s interval; it is setup, not the main stripping action."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "No furniture-removal timing should be measured from this initial selection."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        10260,
+        10380
+      ],
+      "limitations": "No furniture-removal timing should be measured from this initial selection."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        10260,
+        10380
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Furniture largely holds during this 171–173 s interval; it is setup, not the main stripping action.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        10260,
+        10380
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 10260,
+      "pts_seconds": 171.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000000.png"
+    },
+    {
+      "frame_index": 10320,
+      "pts_seconds": 172.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000060.png"
+    },
+    {
+      "frame_index": 10379,
+      "pts_seconds": 172.98333333333332,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_9a02fcef71d3/room-object-change/evidence.json",
+  "source_technique_inference_limitations": "No furniture-removal timing should be measured from this initial selection.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/room-object-change/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

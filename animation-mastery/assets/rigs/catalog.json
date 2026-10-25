@@ -1,0 +1,21 @@
+{
+  "rigs": [
+    {
+      "id": "original.mira.connected-skin",
+      "source": "src/MotionCharacters.tsx",
+      "default_mode": "approved",
+      "optional_new_mode": "extended",
+      "new_bend": "animation-mastery/engine/animation/bendSkin.ts",
+      "controls": ["lean", "head", "shoulder", "elbow", "wrist", "cup", "happy", "blinkOverride"],
+      "local_hand_anchor": "miraHandAnchor(pose, extended)",
+      "tested_peak_elbow_degrees": -20,
+      "tested_pose_sequences": ["windActing frames0–119", "gardenActing frames0–359"],
+      "geometry_audit": "animation-mastery/validation/quality-audits/engine-geometry.json",
+      "mesh_triangles_checked": 401280,
+      "local_feet_displacement": 0,
+      "limits": "The new bend is not approved for arbitrary angles/poses. Original default math preserved. Geometry pass is not an artistic pass."
+    }
+  ],
+  "available_constraint_helpers": "engine/animation/constraints.ts: hierarchical matrices and two-bone IK; helper tests do not establish a production walk rig.",
+  "missing_assets": ["front/side/three-quarter turnaround", "hand/grip variants", "foot-contact locomotion cycle", "shared-object handoff/release", "full face/phoneme library"]
+}

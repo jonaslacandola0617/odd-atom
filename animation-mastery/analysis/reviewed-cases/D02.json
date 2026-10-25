@@ -1,0 +1,145 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "shot_id": "case_D02",
+  "case_id": "D02",
+  "case_name": "scientist-design",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 16800,
+  "end_frame": 16801,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 280.0,
+  "end_pts_seconds": 280.01666666666665,
+  "fps": 60,
+  "review_scope": "selected_native_still",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Two people and a laptop make technical activity ominous through source-motivated green illumination.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "luminous faces/hands",
+      "laptop",
+      "subdued circuit wall"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "ai.laptop-person-left",
+        "description": "Dark human silhouette with green-edged smile and hand.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.laptop-person-right",
+        "description": "Dark human with round glasses and green face illumination.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "ai.laptop",
+        "description": "Dark laptop with green illumination below/around it.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Very dark blue wall with circuit-like lines; green light is concentrated on nearby forms.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [
+    {
+      "object_id": "ai.laptop-person-left",
+      "description": "Dark human silhouette with green-edged smile and hand.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "ai.laptop-person-right",
+      "description": "Dark human with round glasses and green face illumination.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "ai.laptop",
+      "description": "Dark laptop with green illumination below/around it.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "d02.background",
+      "description": "Very dark blue wall with circuit-like lines; green light is concentrated on nearby forms.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        16800,
+        16801
+      ],
+      "limitations": "Single native frame; light animation and expression changes are not established here."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        16800,
+        16801
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Large flat silhouettes and very selective luminous edges replace the bright pastel facial treatment of C01.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        16800,
+        16801
+      ]
+    },
+    {
+      "statement": "Internal background marks have far less contrast than the faces and device.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        16800,
+        16801
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 16800,
+      "pts_seconds": 280.0,
+      "file": "analysis/keyframes/reference_9a02fcef71d3/scientist-design/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_9a02fcef71d3/scientist-design/frame-000000.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_9a02fcef71d3/scientist-design/evidence.json",
+  "source_technique_inference_limitations": "Single native frame; light animation and expression changes are not established here.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/scientist-design/consecutive-001.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

@@ -1,0 +1,369 @@
+{
+  "method": "Recorded region (or full frame), 640x360 BOX resize then 12-color median-cut. Background area biases full-frame counts; no universal palette claimed. Creator/farmer swatches sample selected local regions; inset retains context.",
+  "samples": [
+    {
+      "label": "creator",
+      "video_id": "reference_fd02030ee890",
+      "frame_index": 2159,
+      "pts_seconds": 35.983333333333334,
+      "native_evidence": "analysis/keyframes/reference_fd02030ee890/creator-reaction/native-design-selected.png",
+      "sha256": "a01a416de3acc03b5db7a12a141d5171bab8395a57a20db632ecb1a23ffa95d5",
+      "sample_region_native_xyxy": [
+        1002,
+        347,
+        1589,
+        836
+      ],
+      "swatches": [
+        {
+          "hex": "#FE78D7",
+          "pixel_fraction": 0.28097222222222223
+        },
+        {
+          "hex": "#7D17D5",
+          "pixel_fraction": 0.2002560763888889
+        },
+        {
+          "hex": "#4240C0",
+          "pixel_fraction": 0.11812065972222222
+        },
+        {
+          "hex": "#510D8A",
+          "pixel_fraction": 0.10427083333333333
+        },
+        {
+          "hex": "#EA51D6",
+          "pixel_fraction": 0.09127604166666667
+        },
+        {
+          "hex": "#BCA8EA",
+          "pixel_fraction": 0.0760373263888889
+        },
+        {
+          "hex": "#FF78D7",
+          "pixel_fraction": 0.07257378472222223
+        },
+        {
+          "hex": "#FF78DB",
+          "pixel_fraction": 0.03229166666666667
+        },
+        {
+          "hex": "#8015CF",
+          "pixel_fraction": 0.01212673611111111
+        },
+        {
+          "hex": "#FE78D5",
+          "pixel_fraction": 0.0047309027777777775
+        },
+        {
+          "hex": "#F077DB",
+          "pixel_fraction": 0.004014756944444444
+        },
+        {
+          "hex": "#E478DD",
+          "pixel_fraction": 0.0033289930555555555
+        }
+      ]
+    },
+    {
+      "label": "farmers",
+      "video_id": "reference_3dab4435d188",
+      "frame_index": 18600,
+      "pts_seconds": 310.0,
+      "native_evidence": "analysis/keyframes/reference_3dab4435d188/farmer-design/native-design-selected.png",
+      "sha256": "b490d5ab929b67cdcbad6002388860651f795a30239cf104766ec340e4f74bbd",
+      "sample_region_native_xyxy": [
+        230,
+        260,
+        760,
+        1280
+      ],
+      "swatches": [
+        {
+          "hex": "#D84126",
+          "pixel_fraction": 0.21658854166666666
+        },
+        {
+          "hex": "#93C33B",
+          "pixel_fraction": 0.20247395833333334
+        },
+        {
+          "hex": "#037093",
+          "pixel_fraction": 0.17421006944444445
+        },
+        {
+          "hex": "#A4D557",
+          "pixel_fraction": 0.09842881944444444
+        },
+        {
+          "hex": "#CADE51",
+          "pixel_fraction": 0.08022135416666666
+        },
+        {
+          "hex": "#5B1D50",
+          "pixel_fraction": 0.07133246527777778
+        },
+        {
+          "hex": "#76B26C",
+          "pixel_fraction": 0.070390625
+        },
+        {
+          "hex": "#C2BA50",
+          "pixel_fraction": 0.03650173611111111
+        },
+        {
+          "hex": "#93C33D",
+          "pixel_fraction": 0.021749131944444444
+        },
+        {
+          "hex": "#93C640",
+          "pixel_fraction": 0.012096354166666667
+        },
+        {
+          "hex": "#8E7F56",
+          "pixel_fraction": 0.011245659722222223
+        },
+        {
+          "hex": "#93C33A",
+          "pixel_fraction": 0.004761284722222222
+        }
+      ]
+    },
+    {
+      "label": "screen-light",
+      "video_id": "reference_9a02fcef71d3",
+      "frame_index": 16800,
+      "pts_seconds": 280.0,
+      "native_evidence": "analysis/keyframes/reference_9a02fcef71d3/scientist-design/native-design-selected.png",
+      "sha256": "cdaa692bdb6e2a6cd2e5cf5ecb88b286b50978a42646ccc571914d09945c2144",
+      "sample_region_native_xyxy": null,
+      "swatches": [
+        {
+          "hex": "#0E1F37",
+          "pixel_fraction": 0.17963975694444445
+        },
+        {
+          "hex": "#001F31",
+          "pixel_fraction": 0.1378125
+        },
+        {
+          "hex": "#0B0022",
+          "pixel_fraction": 0.12987847222222224
+        },
+        {
+          "hex": "#0E122F",
+          "pixel_fraction": 0.12788628472222222
+        },
+        {
+          "hex": "#0F1732",
+          "pixel_fraction": 0.0977126736111111
+        },
+        {
+          "hex": "#073638",
+          "pixel_fraction": 0.07400607638888888
+        },
+        {
+          "hex": "#0D0929",
+          "pixel_fraction": 0.07299913194444445
+        },
+        {
+          "hex": "#0F9447",
+          "pixel_fraction": 0.04450520833333333
+        },
+        {
+          "hex": "#0D2236",
+          "pixel_fraction": 0.04383246527777778
+        },
+        {
+          "hex": "#081229",
+          "pixel_fraction": 0.04322048611111111
+        },
+        {
+          "hex": "#05092B",
+          "pixel_fraction": 0.026480034722222223
+        },
+        {
+          "hex": "#0B1C32",
+          "pixel_fraction": 0.022026909722222224
+        }
+      ]
+    },
+    {
+      "label": "bird",
+      "video_id": "reference_fd02030ee890",
+      "frame_index": 120,
+      "pts_seconds": 2.0,
+      "native_evidence": "analysis/keyframes/reference_fd02030ee890/bird-design/native-design-selected.png",
+      "sha256": "fc60752e564c960f815cfc22c35940d8590d4982ddf730c75f3244fa02c1b286",
+      "sample_region_native_xyxy": null,
+      "swatches": [
+        {
+          "hex": "#9A1041",
+          "pixel_fraction": 0.16249131944444445
+        },
+        {
+          "hex": "#060A46",
+          "pixel_fraction": 0.15097222222222223
+        },
+        {
+          "hex": "#E31CAE",
+          "pixel_fraction": 0.1416623263888889
+        },
+        {
+          "hex": "#07174C",
+          "pixel_fraction": 0.12797743055555555
+        },
+        {
+          "hex": "#6E9BB8",
+          "pixel_fraction": 0.09260416666666667
+        },
+        {
+          "hex": "#6C0C50",
+          "pixel_fraction": 0.08444444444444445
+        },
+        {
+          "hex": "#731698",
+          "pixel_fraction": 0.08098524305555556
+        },
+        {
+          "hex": "#530947",
+          "pixel_fraction": 0.07503038194444445
+        },
+        {
+          "hex": "#4F1D71",
+          "pixel_fraction": 0.036744791666666665
+        },
+        {
+          "hex": "#9F28A5",
+          "pixel_fraction": 0.024691840277777776
+        },
+        {
+          "hex": "#240646",
+          "pixel_fraction": 0.017760416666666667
+        },
+        {
+          "hex": "#8C1055",
+          "pixel_fraction": 0.004635416666666667
+        }
+      ]
+    },
+    {
+      "label": "rock-contact",
+      "video_id": "reference_2e586456bc4d",
+      "frame_index": 27239,
+      "pts_seconds": 453.98333333333335,
+      "native_evidence": "analysis/keyframes/reference_2e586456bc4d/root-rock-change/native-design-selected.png",
+      "sha256": "921654d450adb95077e1a207d8dd6e4722aa98017e7373db26e67bd0d8b5950b",
+      "sample_region_native_xyxy": null,
+      "swatches": [
+        {
+          "hex": "#2B2D27",
+          "pixel_fraction": 0.1903732638888889
+        },
+        {
+          "hex": "#0D3B59",
+          "pixel_fraction": 0.12171440972222222
+        },
+        {
+          "hex": "#012649",
+          "pixel_fraction": 0.08944444444444444
+        },
+        {
+          "hex": "#06171F",
+          "pixel_fraction": 0.08880642361111112
+        },
+        {
+          "hex": "#0D1C2C",
+          "pixel_fraction": 0.08756076388888889
+        },
+        {
+          "hex": "#137398",
+          "pixel_fraction": 0.07907986111111111
+        },
+        {
+          "hex": "#854226",
+          "pixel_fraction": 0.07565972222222223
+        },
+        {
+          "hex": "#E38931",
+          "pixel_fraction": 0.06651041666666667
+        },
+        {
+          "hex": "#2F838F",
+          "pixel_fraction": 0.06473090277777778
+        },
+        {
+          "hex": "#135276",
+          "pixel_fraction": 0.05774739583333333
+        },
+        {
+          "hex": "#20262B",
+          "pixel_fraction": 0.04360243055555556
+        },
+        {
+          "hex": "#77274B",
+          "pixel_fraction": 0.03476996527777778
+        }
+      ]
+    },
+    {
+      "label": "forest",
+      "video_id": "reference_46db30e386c9",
+      "frame_index": 90,
+      "pts_seconds": 1.5,
+      "native_evidence": "analysis/keyframes/reference_46db30e386c9/forest-layer-motion/native-design-selected.png",
+      "sha256": "473eb99443ce49c9beea0db099750108607ba1ee1791ed819f6c964f846d3081",
+      "sample_region_native_xyxy": null,
+      "swatches": [
+        {
+          "hex": "#0E4F3A",
+          "pixel_fraction": 0.18618489583333334
+        },
+        {
+          "hex": "#002F34",
+          "pixel_fraction": 0.16673177083333332
+        },
+        {
+          "hex": "#00403D",
+          "pixel_fraction": 0.11819878472222223
+        },
+        {
+          "hex": "#F7D582",
+          "pixel_fraction": 0.09938368055555556
+        },
+        {
+          "hex": "#003A35",
+          "pixel_fraction": 0.09116319444444444
+        },
+        {
+          "hex": "#6CA84B",
+          "pixel_fraction": 0.08673611111111111
+        },
+        {
+          "hex": "#236D4A",
+          "pixel_fraction": 0.08639322916666667
+        },
+        {
+          "hex": "#0B543A",
+          "pixel_fraction": 0.08135416666666667
+        },
+        {
+          "hex": "#002535",
+          "pixel_fraction": 0.03393663194444444
+        },
+        {
+          "hex": "#273149",
+          "pixel_fraction": 0.023177083333333334
+        },
+        {
+          "hex": "#1C5835",
+          "pixel_fraction": 0.014457465277777777
+        },
+        {
+          "hex": "#0E5439",
+          "pixel_fraction": 0.01228298611111111
+        }
+      ]
+    }
+  ]
+}

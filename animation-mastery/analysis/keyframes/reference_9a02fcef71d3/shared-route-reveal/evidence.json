@@ -1,0 +1,744 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "name": "shared-route-reveal",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "start_frame": 28320,
+  "end_frame": 28440,
+  "end_frame_exclusive": true,
+  "source_start_pts": 472.0,
+  "sample_stride": 1,
+  "sampled_frames": [
+    {
+      "frame_index": 28320,
+      "pts_seconds": 472.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000000.png",
+      "sha256": "043016a8b94e9016bc15e5604c3f98ef25d0dd9443bb75183c66065980616e04"
+    },
+    {
+      "frame_index": 28321,
+      "pts_seconds": 472.01666666666665,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000001.png",
+      "sha256": "e870c441b2d1c72ff03b948d8e11998999581da9cfdecc5deb9e0a539ae15a2a"
+    },
+    {
+      "frame_index": 28322,
+      "pts_seconds": 472.03333333333336,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000002.png",
+      "sha256": "75fcf1d33e0bc1cdb0fa6141986daade3ba7f7cead0f7ffaf24136d8b837a861"
+    },
+    {
+      "frame_index": 28323,
+      "pts_seconds": 472.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000003.png",
+      "sha256": "79e22ad2099972c2f3925ec957574e52fcf00989337fadd5488dcdd673601b77"
+    },
+    {
+      "frame_index": 28324,
+      "pts_seconds": 472.06666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000004.png",
+      "sha256": "b18ab1c5ff9c7caadff5f0c7f4908b3276c683ddcdc7f2f2b2756bf3f810c404"
+    },
+    {
+      "frame_index": 28325,
+      "pts_seconds": 472.0833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000005.png",
+      "sha256": "b8f42eede5feb9b00556b5af0acaba69bb84edec3c15c4546b642d3f195ff35b"
+    },
+    {
+      "frame_index": 28326,
+      "pts_seconds": 472.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000006.png",
+      "sha256": "8e7fc71e7a5bb62f445ad7be1cfc85ad6f2a01d3c9ceb8a660f6e16432594c41"
+    },
+    {
+      "frame_index": 28327,
+      "pts_seconds": 472.1166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000007.png",
+      "sha256": "50b78fbd52960ec2984f13b414a512cdb2d056025140edcb5f8043041f65506f"
+    },
+    {
+      "frame_index": 28328,
+      "pts_seconds": 472.1333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000008.png",
+      "sha256": "c15e590ccab059ed89f08fe17627c1cd7fbd63fd5abfce52dc7fd43bbc3af4a8"
+    },
+    {
+      "frame_index": 28329,
+      "pts_seconds": 472.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000009.png",
+      "sha256": "3775d2e8f306a137ef49ea72e5031967eacd3950d4586251fbfb5c271330a1f9"
+    },
+    {
+      "frame_index": 28330,
+      "pts_seconds": 472.1666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000010.png",
+      "sha256": "e909023a051a6344a1b7df8df9a8178505ebaab9265c18e5363ad270207fa704"
+    },
+    {
+      "frame_index": 28331,
+      "pts_seconds": 472.18333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000011.png",
+      "sha256": "a119494fc18167900cdb3c8958e4b9ab01ba1dfe843e03b7544eb37c965309fb"
+    },
+    {
+      "frame_index": 28332,
+      "pts_seconds": 472.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000012.png",
+      "sha256": "68773f59978d8f7e7d3f4fc7f1fe32896b96dbd189e389104e194854eff5b2a3"
+    },
+    {
+      "frame_index": 28333,
+      "pts_seconds": 472.21666666666664,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000013.png",
+      "sha256": "2fd8416b76794f526093c489b94f4baa14fbd9ced1eaf3929730e4f6869a890e"
+    },
+    {
+      "frame_index": 28334,
+      "pts_seconds": 472.23333333333335,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000014.png",
+      "sha256": "8899018f9650258631d7180bfe0860ceba7b87d4d38c491798c31e0dab9ae1fb"
+    },
+    {
+      "frame_index": 28335,
+      "pts_seconds": 472.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000015.png",
+      "sha256": "81d5d49676df21ab54450f51add9104d91cc39837b94ece8d96984ecc87f6881"
+    },
+    {
+      "frame_index": 28336,
+      "pts_seconds": 472.26666666666665,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000016.png",
+      "sha256": "cbfac88ad97795062810ca27ce0ca55c707617f0bf85c364dbc302951d26223f"
+    },
+    {
+      "frame_index": 28337,
+      "pts_seconds": 472.28333333333336,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000017.png",
+      "sha256": "d5c317d1968f11bd806828ebb08c3e7db202ec5cab22e1529ff9b64b7ab41b05"
+    },
+    {
+      "frame_index": 28338,
+      "pts_seconds": 472.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000018.png",
+      "sha256": "94c3fd6982691975b0dcf82d5beb29ed605d8f24ccc1e38718431174cb8c5d6b"
+    },
+    {
+      "frame_index": 28339,
+      "pts_seconds": 472.31666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000019.png",
+      "sha256": "df72fead49c190335ba891096bb5d8f57f3cb99e346270a5079d9cda591285d4"
+    },
+    {
+      "frame_index": 28340,
+      "pts_seconds": 472.3333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000020.png",
+      "sha256": "f4292eb94b3f874b62902826f4971b67ac95381465a77a97e574b53c852b9ca8"
+    },
+    {
+      "frame_index": 28341,
+      "pts_seconds": 472.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000021.png",
+      "sha256": "a573a31ad69f699681c3c95ea2c41ad4a84f008306b40fd10f61062362a33d39"
+    },
+    {
+      "frame_index": 28342,
+      "pts_seconds": 472.3666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000022.png",
+      "sha256": "3ead6d668188492fcdb112d0d510cc78743c45fb855e9be5e971425dc07b47fd"
+    },
+    {
+      "frame_index": 28343,
+      "pts_seconds": 472.3833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000023.png",
+      "sha256": "af364a656268561568ced3675caf5d2a8f7b729b77a44c1f57cd47b00b12cb0c"
+    },
+    {
+      "frame_index": 28344,
+      "pts_seconds": 472.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000024.png",
+      "sha256": "f8c366782bd4e6df9a62316279bf596e762d1ffb8aed29fc0d54519abfdd3006"
+    },
+    {
+      "frame_index": 28345,
+      "pts_seconds": 472.4166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000025.png",
+      "sha256": "db2ec66692e375014bc5ca3b70bc273e44362b390349aeed2e66a9de117572b5"
+    },
+    {
+      "frame_index": 28346,
+      "pts_seconds": 472.43333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000026.png",
+      "sha256": "b3d1ab0523ff1655c63aaeb7374258f70882c2cb648623a99fddead1de28e4c0"
+    },
+    {
+      "frame_index": 28347,
+      "pts_seconds": 472.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000027.png",
+      "sha256": "9fb29da6a02e54666e52f8272ecba89b18fbf35199118d6e3a7a89c253eb59e7"
+    },
+    {
+      "frame_index": 28348,
+      "pts_seconds": 472.46666666666664,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000028.png",
+      "sha256": "65f31d6002c9c6a38b4cffc2bea476fcb5075f6b6204bc9b124380cc469bbe96"
+    },
+    {
+      "frame_index": 28349,
+      "pts_seconds": 472.48333333333335,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000029.png",
+      "sha256": "1d788911c5f24a6aeb96e36b031e9bc8677212f395120d27256c8afd12471ee5"
+    },
+    {
+      "frame_index": 28350,
+      "pts_seconds": 472.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000030.png",
+      "sha256": "de61a4df21ef89afb47e77240503cdba9c43e04a3bfe25c41b75aab0f5b6f413"
+    },
+    {
+      "frame_index": 28351,
+      "pts_seconds": 472.51666666666665,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000031.png",
+      "sha256": "260ddfc01aecb4922bdd0a6060aadedd4f8a1e12a2857f90c55925ffababee27"
+    },
+    {
+      "frame_index": 28352,
+      "pts_seconds": 472.53333333333336,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000032.png",
+      "sha256": "16ccc5e16484a4b66b37b2f475e150aacb2f4027c09ff01a23eb597e42c4e4e4"
+    },
+    {
+      "frame_index": 28353,
+      "pts_seconds": 472.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000033.png",
+      "sha256": "f3b718281cc74e67c187ca874e19d2358594bfcc9ae0b451d5a75ac4d9f620fe"
+    },
+    {
+      "frame_index": 28354,
+      "pts_seconds": 472.56666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000034.png",
+      "sha256": "3a2674e648c416e4b9366fcff58ea5dff0efa0777a02e6653708882f2e229873"
+    },
+    {
+      "frame_index": 28355,
+      "pts_seconds": 472.5833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000035.png",
+      "sha256": "f07acad6b62182305f835b00b36f8dc6c19f9a25e7549136bfdc52e10e355396"
+    },
+    {
+      "frame_index": 28356,
+      "pts_seconds": 472.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000036.png",
+      "sha256": "0931712ccb632be090d80198647cb718b7190f088dd4f994c13049127f00a549"
+    },
+    {
+      "frame_index": 28357,
+      "pts_seconds": 472.6166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000037.png",
+      "sha256": "8543866b0469fabde2218fe353dbb74fb8a5f1099eb5166c476938365721a72e"
+    },
+    {
+      "frame_index": 28358,
+      "pts_seconds": 472.6333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000038.png",
+      "sha256": "efb0ecc7d808b568eaf206792affd6fa16bb3788a36bdce585bee641acf6aedd"
+    },
+    {
+      "frame_index": 28359,
+      "pts_seconds": 472.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000039.png",
+      "sha256": "0351cc9253d8ec95964760f45f651049eb6d03f8f896df8c465c5876b1a50352"
+    },
+    {
+      "frame_index": 28360,
+      "pts_seconds": 472.6666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000040.png",
+      "sha256": "5577c915b8dbfdfc3542f1d69b3f19e6a26fffcb3a238edf79d739ec6e3804cb"
+    },
+    {
+      "frame_index": 28361,
+      "pts_seconds": 472.68333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000041.png",
+      "sha256": "a402ca30a9fa17c58396c63a9024123be180b72bde25b040d668730fe204c503"
+    },
+    {
+      "frame_index": 28362,
+      "pts_seconds": 472.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000042.png",
+      "sha256": "37abdfc31801b47089dddbc9d90546e67ac0825827699e69326852f2f7d040b5"
+    },
+    {
+      "frame_index": 28363,
+      "pts_seconds": 472.71666666666664,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000043.png",
+      "sha256": "48ad8fa053f020505f772836f3135bc85875cc415f2aa4fa0c19d31cb491d3f2"
+    },
+    {
+      "frame_index": 28364,
+      "pts_seconds": 472.73333333333335,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000044.png",
+      "sha256": "863e2a8961d4dca08f60471930f26471392b8598ceabfdf7740b9c558fcae195"
+    },
+    {
+      "frame_index": 28365,
+      "pts_seconds": 472.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000045.png",
+      "sha256": "683652c7269e0d76408239366b88630e44000ee19eda7732068e68cd87771029"
+    },
+    {
+      "frame_index": 28366,
+      "pts_seconds": 472.76666666666665,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000046.png",
+      "sha256": "633f65a33de98041c03a92b4ca6ff0ef4fe2a249ebd3e31557e7f1eb0db34a9f"
+    },
+    {
+      "frame_index": 28367,
+      "pts_seconds": 472.78333333333336,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000047.png",
+      "sha256": "2cd1738aa21d7d0a9c20340625f86b4980aa866170308a60907fcc131a40d909"
+    },
+    {
+      "frame_index": 28368,
+      "pts_seconds": 472.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000048.png",
+      "sha256": "37766fff3dbb77083ba550b6c86cc6440118a69c0ee7c9a4a83b2820f92346d1"
+    },
+    {
+      "frame_index": 28369,
+      "pts_seconds": 472.81666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000049.png",
+      "sha256": "92ff3e638a923020c7dae667ba32d64a0d0405fa2004a3f290acf55c23979958"
+    },
+    {
+      "frame_index": 28370,
+      "pts_seconds": 472.8333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000050.png",
+      "sha256": "76bb3a3dd5073bc970bd60f4388a8dac703b6347d903ff038f4c770e973c14c9"
+    },
+    {
+      "frame_index": 28371,
+      "pts_seconds": 472.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000051.png",
+      "sha256": "4e012b7556432f4626ef612263172af15ce7821dc127e792808ffc46dacb6a18"
+    },
+    {
+      "frame_index": 28372,
+      "pts_seconds": 472.8666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000052.png",
+      "sha256": "174b11b6850be519bc475c44a77cf09c175aaba72a30dbdbd1bf4c55cf5816c3"
+    },
+    {
+      "frame_index": 28373,
+      "pts_seconds": 472.8833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000053.png",
+      "sha256": "f05c1621f39c795f23d32313c9b87bd0c4d7eada3adf9adf639e7dfbde118e85"
+    },
+    {
+      "frame_index": 28374,
+      "pts_seconds": 472.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000054.png",
+      "sha256": "a0c9b69efe6736a8f1b4df17ce47842aa6cc62d6fdde61234dcf6aff1179a182"
+    },
+    {
+      "frame_index": 28375,
+      "pts_seconds": 472.9166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000055.png",
+      "sha256": "c5d68f4e05297658404f0b621fd99fa0bb2d75cd1e1130af4b6b01ae97c44722"
+    },
+    {
+      "frame_index": 28376,
+      "pts_seconds": 472.93333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000056.png",
+      "sha256": "c04c28d5e5e3bd3705cffba06d683dae732c22745bea05753138851948c1c8e5"
+    },
+    {
+      "frame_index": 28377,
+      "pts_seconds": 472.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000057.png",
+      "sha256": "a5ca4dc2e925275de27e07aa5fbcc36e85e57378643ce7262c0bea8910192434"
+    },
+    {
+      "frame_index": 28378,
+      "pts_seconds": 472.96666666666664,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000058.png",
+      "sha256": "0fb4f77ca2c15fe947b420a16c779345bead822ba196519f113c9fa678ec59d1"
+    },
+    {
+      "frame_index": 28379,
+      "pts_seconds": 472.98333333333335,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000059.png",
+      "sha256": "168432e90874cbd3fa6320d184a0ad7c1a4e6a0077c71389be308dbd866fbf66"
+    },
+    {
+      "frame_index": 28380,
+      "pts_seconds": 473.0,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000060.png",
+      "sha256": "b15549add4caf5952cf65f41148358a3df3de54128ad8d8a24697a996a6b15a7"
+    },
+    {
+      "frame_index": 28381,
+      "pts_seconds": 473.01666666666665,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000061.png",
+      "sha256": "9996d3156c513b5c992e2df2f49007032fb20aecc53bf8de0b0278f0526527d7"
+    },
+    {
+      "frame_index": 28382,
+      "pts_seconds": 473.03333333333336,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000062.png",
+      "sha256": "3510ecf47436999299f7aa161efdba67fe084543366b1aaa1191751e719b4eab"
+    },
+    {
+      "frame_index": 28383,
+      "pts_seconds": 473.05,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000063.png",
+      "sha256": "12627375340712b12a5ee39370e536f01a2aa8218583fef76a4d8595533a9537"
+    },
+    {
+      "frame_index": 28384,
+      "pts_seconds": 473.06666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000064.png",
+      "sha256": "8eecf4476a6d0cd781808adb29272fc073f811797b9ee6c9fe9e4b89578ddc67"
+    },
+    {
+      "frame_index": 28385,
+      "pts_seconds": 473.0833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000065.png",
+      "sha256": "c9912d37ec4d31a63a79617e1210d55cfb084725f70ba089d931ff3e2902a5b0"
+    },
+    {
+      "frame_index": 28386,
+      "pts_seconds": 473.1,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000066.png",
+      "sha256": "ad4fa6b029d73c99b0cfc2e121b620a56129769971418abc1993eea677e9a378"
+    },
+    {
+      "frame_index": 28387,
+      "pts_seconds": 473.1166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000067.png",
+      "sha256": "47ac480ee92034de90bc3716ad6c63507333893b3578ddf4254c365779c45c6f"
+    },
+    {
+      "frame_index": 28388,
+      "pts_seconds": 473.1333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000068.png",
+      "sha256": "aba7dcf9d328517bbbc6d2dfae5ca519e7fe1a3fd721df94c29c170f7278b9da"
+    },
+    {
+      "frame_index": 28389,
+      "pts_seconds": 473.15,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000069.png",
+      "sha256": "15d1ac34430c7e60083bd6af6be5a3495dbf8491f75cdacf45881c9173000a15"
+    },
+    {
+      "frame_index": 28390,
+      "pts_seconds": 473.1666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000070.png",
+      "sha256": "e5ede6d23445ccdf2482aebf553283545ef76ea414413ace7a47f1dda5a8dcb2"
+    },
+    {
+      "frame_index": 28391,
+      "pts_seconds": 473.18333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000071.png",
+      "sha256": "0532cc99055eed21ab5ed44f1578f6452d16b83f19524978b4cfd910752b2848"
+    },
+    {
+      "frame_index": 28392,
+      "pts_seconds": 473.2,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000072.png",
+      "sha256": "c838c3ef3dd93f282d3c1a0e6afaeede3ceb1247f051c337617015f9a5b6e6e8"
+    },
+    {
+      "frame_index": 28393,
+      "pts_seconds": 473.21666666666664,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000073.png",
+      "sha256": "8639c717a53c7f5cdd7b4f08f2cf35cc50ecf4ef3baed8c73de388acebc9a657"
+    },
+    {
+      "frame_index": 28394,
+      "pts_seconds": 473.23333333333335,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000074.png",
+      "sha256": "cdfffec1e8a34a757af4b105d36a7ac2ed3b6a447c8f92349b0757c01f1c1b9d"
+    },
+    {
+      "frame_index": 28395,
+      "pts_seconds": 473.25,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000075.png",
+      "sha256": "94419f6e751ead0f74795e72bb85ba4ab7181a09908df856c2c3d06e2cbf3661"
+    },
+    {
+      "frame_index": 28396,
+      "pts_seconds": 473.26666666666665,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000076.png",
+      "sha256": "251a3b7d9d4fa6da431141326cb64654896ea2836b6cc81a48170bba785e5fcc"
+    },
+    {
+      "frame_index": 28397,
+      "pts_seconds": 473.28333333333336,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000077.png",
+      "sha256": "3fafb19c3ce96edd0405469f64f2d2e13cc083f60c9e4c95f3c9b4f26d6b3d03"
+    },
+    {
+      "frame_index": 28398,
+      "pts_seconds": 473.3,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000078.png",
+      "sha256": "d13da7977592d84fac41c33c4efd8ff0ee56014a17ea0839bf93f2890444e0f5"
+    },
+    {
+      "frame_index": 28399,
+      "pts_seconds": 473.31666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000079.png",
+      "sha256": "b492ad7e70d53db73831b7b41dfcf0837a91edb751a1ea38c830d88e5d027518"
+    },
+    {
+      "frame_index": 28400,
+      "pts_seconds": 473.3333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000080.png",
+      "sha256": "5b83921e531676e6f1cdfcaf95b299d2a22cb43771a28c98e564449e6aa4a98c"
+    },
+    {
+      "frame_index": 28401,
+      "pts_seconds": 473.35,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000081.png",
+      "sha256": "cf74947fd1514fa8eca1e52ecefdc40603990a241cfcb4668dc44d6ae6a7496b"
+    },
+    {
+      "frame_index": 28402,
+      "pts_seconds": 473.3666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000082.png",
+      "sha256": "dbaf26e799a0b2551757d262751738578d8ed66d6326cc7ac6f4d72d1889b465"
+    },
+    {
+      "frame_index": 28403,
+      "pts_seconds": 473.3833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000083.png",
+      "sha256": "ea29e7abd3fa2bb3012e1f7af5f0b4134ec677775e1b3fbe6e6de1a4ce94eae0"
+    },
+    {
+      "frame_index": 28404,
+      "pts_seconds": 473.4,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000084.png",
+      "sha256": "77a802e1514969044eff33117706a3712fa99b8777f70b92e552d1c34cca5b35"
+    },
+    {
+      "frame_index": 28405,
+      "pts_seconds": 473.4166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000085.png",
+      "sha256": "5b13af01531e6d0a50d9d137ab056529bbf9470cb821a0124e5288ab71c2e4bf"
+    },
+    {
+      "frame_index": 28406,
+      "pts_seconds": 473.43333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000086.png",
+      "sha256": "f73c79297af709834e67b730fb3b9d931681be848d4df8141a228a69c72c846f"
+    },
+    {
+      "frame_index": 28407,
+      "pts_seconds": 473.45,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000087.png",
+      "sha256": "4d79a8b38d9894632bbb24e44b813de05915965c9382bd56ae1e57e0d33a0304"
+    },
+    {
+      "frame_index": 28408,
+      "pts_seconds": 473.46666666666664,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000088.png",
+      "sha256": "c3619bc99b8389f630cd1be2c59a0002e33610d62d0a568f2833a662255af338"
+    },
+    {
+      "frame_index": 28409,
+      "pts_seconds": 473.48333333333335,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000089.png",
+      "sha256": "9ee28f64c16e00d8d13710515320da431f83f3f17b00de98725adf5b5a6efbae"
+    },
+    {
+      "frame_index": 28410,
+      "pts_seconds": 473.5,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000090.png",
+      "sha256": "56ef3f457c18c4c62bb62cfc0523d9be4f80ec1b67de0507bf0bc9e5321a99a9"
+    },
+    {
+      "frame_index": 28411,
+      "pts_seconds": 473.51666666666665,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000091.png",
+      "sha256": "5934d2a7991f39545a030e1cc38892d6dc8033ad45e0b93d457cb86df5fb302b"
+    },
+    {
+      "frame_index": 28412,
+      "pts_seconds": 473.53333333333336,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000092.png",
+      "sha256": "b31926f6b62ad8d783768b8467171ac103e4dc88b8a7108160720cb69a903089"
+    },
+    {
+      "frame_index": 28413,
+      "pts_seconds": 473.55,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000093.png",
+      "sha256": "d2ca584486d5f1bbe87cac6ba7446b70f616af08f840c4c8bcba8ab55a109a46"
+    },
+    {
+      "frame_index": 28414,
+      "pts_seconds": 473.56666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000094.png",
+      "sha256": "5a3c712f2a1db5876ddd495ca9feb35bbcdfb16b485bc20e20dd1238a62178dc"
+    },
+    {
+      "frame_index": 28415,
+      "pts_seconds": 473.5833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000095.png",
+      "sha256": "af0e332921d8bf2fabd191630e97fb5bb3c3969190418a274067b890bf8480b1"
+    },
+    {
+      "frame_index": 28416,
+      "pts_seconds": 473.6,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000096.png",
+      "sha256": "58b0f39f3c7a121b88df3466f8d4ed1d9f6e2c1805c3f4372fca00d81cdd9936"
+    },
+    {
+      "frame_index": 28417,
+      "pts_seconds": 473.6166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000097.png",
+      "sha256": "587eacc0c4fee1d12808a4f715101e373ad3ab78a53616d2613c6c2d37e3fd3a"
+    },
+    {
+      "frame_index": 28418,
+      "pts_seconds": 473.6333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000098.png",
+      "sha256": "23f80ba1679b31e9def71ce3fda8f5f83f484a72729b8ef920a58a7dc508ef36"
+    },
+    {
+      "frame_index": 28419,
+      "pts_seconds": 473.65,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000099.png",
+      "sha256": "9ca7c566a79065baab61e852408a840986888c221acc42774f1595bd82ef5791"
+    },
+    {
+      "frame_index": 28420,
+      "pts_seconds": 473.6666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000100.png",
+      "sha256": "e559107a083e632b93b7f9e0eb3665f1656407ef0075bb48a960bde2695ebfc4"
+    },
+    {
+      "frame_index": 28421,
+      "pts_seconds": 473.68333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000101.png",
+      "sha256": "857df47a695570e070956bba7fc79a7d3c6e26507fab97c3edcd4dd0ae5e5564"
+    },
+    {
+      "frame_index": 28422,
+      "pts_seconds": 473.7,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000102.png",
+      "sha256": "08cfa28a55f660a4148f84918dbb4b510c82df442dafd92ecdbbbd6a5afe3c51"
+    },
+    {
+      "frame_index": 28423,
+      "pts_seconds": 473.71666666666664,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000103.png",
+      "sha256": "a6541c5c6045f7a9dd97dba618ab66acc7ff82896b408c48cde4817e9508df78"
+    },
+    {
+      "frame_index": 28424,
+      "pts_seconds": 473.73333333333335,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000104.png",
+      "sha256": "feb342b8ab71b7a5655aaad38ee62cad157af96ff16c941dfdae55542bd0c0c8"
+    },
+    {
+      "frame_index": 28425,
+      "pts_seconds": 473.75,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000105.png",
+      "sha256": "838d528d30617177c1f47737fa4b5a32c6fda72750cdcb9fddf044f97288dbec"
+    },
+    {
+      "frame_index": 28426,
+      "pts_seconds": 473.76666666666665,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000106.png",
+      "sha256": "e848cf40e27ef3ae55dc36a6641e00dbb1eab6f24575dbef2f15edb9dab7303b"
+    },
+    {
+      "frame_index": 28427,
+      "pts_seconds": 473.78333333333336,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000107.png",
+      "sha256": "c772d708f852c3dc2656808ed6812bead9915dcda4f36db16cc43fe06e45a4aa"
+    },
+    {
+      "frame_index": 28428,
+      "pts_seconds": 473.8,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000108.png",
+      "sha256": "e677b4bd547fb0b7f5eef633620842f0bca9f4e1923a1eb66d1231109d7ef9ab"
+    },
+    {
+      "frame_index": 28429,
+      "pts_seconds": 473.81666666666666,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000109.png",
+      "sha256": "13a1ada30911be3b351a090b75f4abdcd1c377f926b6f023be57220cc3625194"
+    },
+    {
+      "frame_index": 28430,
+      "pts_seconds": 473.8333333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000110.png",
+      "sha256": "bec57dea55c63fda3d648294f1fe008fcad3e130e329cbf43678fa0e7edb6b1f"
+    },
+    {
+      "frame_index": 28431,
+      "pts_seconds": 473.85,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000111.png",
+      "sha256": "e60d492735228f1fe673460d8dcbb8b864123b5cdd9718a3588d08dcaac42d87"
+    },
+    {
+      "frame_index": 28432,
+      "pts_seconds": 473.8666666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000112.png",
+      "sha256": "c727f359a79bd3db4565a215b01c999706b875258525427cdc5ed41e9ac6a830"
+    },
+    {
+      "frame_index": 28433,
+      "pts_seconds": 473.8833333333333,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000113.png",
+      "sha256": "d9c6edaaf6988007c4a9c60af0e712f149d4b0c0c921d6c9d4c751b61cb075b0"
+    },
+    {
+      "frame_index": 28434,
+      "pts_seconds": 473.9,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000114.png",
+      "sha256": "9117c86dd4e707beba10b808444f269cb5d071dd94f60653f0f060004724bb4a"
+    },
+    {
+      "frame_index": 28435,
+      "pts_seconds": 473.9166666666667,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000115.png",
+      "sha256": "8c5d8dcecf201b22bb35f498d47f90bfe600d6f9f70e3d628376f064cc224fd4"
+    },
+    {
+      "frame_index": 28436,
+      "pts_seconds": 473.93333333333334,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000116.png",
+      "sha256": "3eb1c22698ef5e38e56ce1703e804bd355d81f534cd123b3310817a099f95a69"
+    },
+    {
+      "frame_index": 28437,
+      "pts_seconds": 473.95,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000117.png",
+      "sha256": "e4981b4b0f3b4ec64018a69c1d998374ecffb916d0a8432e910b2195a225ab7b"
+    },
+    {
+      "frame_index": 28438,
+      "pts_seconds": 473.96666666666664,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000118.png",
+      "sha256": "eacc219e4ab7c38e23fe6a003d011a0f966842ad05cf6d5e85b0cab9ff40b00d"
+    },
+    {
+      "frame_index": 28439,
+      "pts_seconds": 473.98333333333335,
+      "png": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/frame-000119.png",
+      "sha256": "0ddd29e0497ab1058cefe81ced9c0110128a6b7ed6db4b8ad2b1dd3c02f65c9b"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-001.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-002.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-003.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-004.jpg",
+    "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/consecutive-005.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_9a02fcef71d3/shared-route-reveal/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

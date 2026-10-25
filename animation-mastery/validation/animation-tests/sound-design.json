@@ -1,0 +1,286 @@
+{
+  "scope": "Original A/B/C/D wordless studies",
+  "sources": {
+    "parallax_swish": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_parallax_swish_v1.flac",
+      "sha256": "cf811cd552fad696bbc099ab3754add546034f1c892af5516c02b919e54180b0"
+    },
+    "paper_light_turn": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/archive/CB_ARCHIVE_paper_light_turn_v1.flac",
+      "sha256": "1c7af42ac9bf774cdf7d3faa92769fb157f0e16f1808491688a43b5493ef2aee"
+    },
+    "soft_depth_pass": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_soft_depth_pass_v1.flac",
+      "sha256": "0e9b66b3db679e689e2ad980881a2e862f3b82353d9ed0fb348d46078ca13b16"
+    },
+    "map_route_draw": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_map_route_draw_v1.flac",
+      "sha256": "fee15dba6b483a9bd61f57492ba58857ad3acbadf68475fe45bb2850ee495992"
+    },
+    "wood_stress": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    },
+    "causal_reveal": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_causal_reveal_v1.flac",
+      "sha256": "3913dfb99f87c3f662191afe15eae7f35da595d842481cd255c412cb4e0ed538"
+    },
+    "tiny_mask_reveal": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_tiny_mask_reveal_v1.flac",
+      "sha256": "299b44657c88f12d22e126cd1e68b4420dacd229441d86c984be6b0e7024a7c6"
+    },
+    "perspective_whip": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_perspective_whip_v1.flac",
+      "sha256": "cf59cbedffd1617bf3962f9c4f6e151ca84d91a86a3bbbe048d8375ee4eba211"
+    },
+    "quiet_resolution": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_quiet_resolution_v1.flac",
+      "sha256": "722a3e6056cbc743dd18138d2708f796c838278bbb3f0ff1cb1ab79ab79a5a5b"
+    }
+  },
+  "mixes": [
+    {
+      "kind": "acting",
+      "duration_seconds": 4,
+      "placements": [
+        {
+          "event_frame": 35,
+          "event_seconds": 1.1666666666666667,
+          "cue": "parallax_swish",
+          "reason": "Breeze reaches actor/cloth",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -20,
+          "resampled_duration_seconds": null
+        },
+        {
+          "event_frame": 29,
+          "event_seconds": 0.9666666666666667,
+          "cue": "paper_light_turn",
+          "reason": "Sleeve/cloth response",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -25,
+          "resampled_duration_seconds": 0.55
+        },
+        {
+          "event_frame": 69,
+          "event_seconds": 2.3,
+          "cue": "soft_depth_pass",
+          "reason": "Recovery and softened posture",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -26,
+          "resampled_duration_seconds": 0.7
+        }
+      ],
+      "music_cue": "public/assets/audio/singularity-v4/music-cues/OA_MUSIC_curious_78bpm_v1.flac",
+      "music_source_sha256": "4bde79027c79a88d630dafb18b77eadefd5e6a5d5d9325568628737124b391ae",
+      "target_music_to_typical_active_fx_rms_amplitude_ratio": 0.85,
+      "measured_pcm_ratio_after_ending_fade": 0.8499999642372131,
+      "music_mood": "curious",
+      "atmosphere_cue": "cavern_lowwind",
+      "atmosphere_source_sha256": "2eb330b216962740bfb984c0591266d684725808c9fe9478b46a5d3c89121df4",
+      "shared_safety_gain": 1,
+      "pcm_peak_dbfs": -5.642212002452348,
+      "file": "public/assets/audio/animation-mastery/acting.m4a",
+      "sha256": "f6d52351a469ebaecc68b2eadde35b15d8ce3ddda6620bd3ed2bda7b60a35863"
+    },
+    {
+      "kind": "explanation",
+      "duration_seconds": 6,
+      "placements": [
+        {
+          "event_frame": 12,
+          "event_seconds": 0.4,
+          "cue": "map_route_draw",
+          "reason": "Root approach",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -23,
+          "resampled_duration_seconds": 1.2
+        },
+        {
+          "event_frame": 52,
+          "event_seconds": 1.7333333333333334,
+          "cue": "wood_stress",
+          "reason": "Tip meets rock; root briefly compresses",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -20,
+          "resampled_duration_seconds": 0.65
+        },
+        {
+          "event_frame": 87,
+          "event_seconds": 2.9,
+          "cue": "map_route_draw",
+          "reason": "New branch routes around the obstacle",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -21,
+          "resampled_duration_seconds": 2.25
+        },
+        {
+          "event_frame": 145,
+          "event_seconds": 4.833333333333333,
+          "cue": "causal_reveal",
+          "reason": "Root reaches water",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -23,
+          "resampled_duration_seconds": 1.1
+        },
+        {
+          "event_frame": 157,
+          "event_seconds": 5.233333333333333,
+          "cue": "soft_depth_pass",
+          "reason": "Uptake returns along the connected route",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -25,
+          "resampled_duration_seconds": 0.65
+        }
+      ],
+      "music_cue": "public/assets/audio/singularity-v4/music-cues/OA_MUSIC_exploratory_78bpm_v1.flac",
+      "music_source_sha256": "7fc1e3695c9861d26855e3cff7b6165e9fe06756f9deda1534aff43c81279d4a",
+      "target_music_to_typical_active_fx_rms_amplitude_ratio": 0.85,
+      "measured_pcm_ratio_after_ending_fade": 0.8500000238418579,
+      "music_mood": "exploratory",
+      "atmosphere_cue": "archive_room",
+      "atmosphere_source_sha256": "377f254e672aa1b2ac5213899948587f34e3eb9a466be37a06531fa2656e2570",
+      "shared_safety_gain": 1,
+      "pcm_peak_dbfs": -4.958029603009999,
+      "file": "public/assets/audio/animation-mastery/explanation.m4a",
+      "sha256": "ef83d1836c6ea97f7d11f8dbf225dc399b3fa27f2592051c041b1c9342cfe27b"
+    },
+    {
+      "kind": "transition",
+      "duration_seconds": 8,
+      "placements": [
+        {
+          "event_frame": 28,
+          "event_seconds": 0.9333333333333333,
+          "cue": "soft_depth_pass",
+          "reason": "Droplet detaches and falls",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -23,
+          "resampled_duration_seconds": 1.3
+        },
+        {
+          "event_frame": 80,
+          "event_seconds": 2.6666666666666665,
+          "cue": "tiny_mask_reveal",
+          "reason": "Droplet contacts soil",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -20,
+          "resampled_duration_seconds": 0.4
+        },
+        {
+          "event_frame": 102,
+          "event_seconds": 3.4,
+          "cue": "perspective_whip",
+          "reason": "Material-linked move into soil",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -23,
+          "resampled_duration_seconds": 1.1
+        },
+        {
+          "event_frame": 122,
+          "event_seconds": 4.066666666666666,
+          "cue": "wood_stress",
+          "reason": "Incoming root contact",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -21,
+          "resampled_duration_seconds": 0.6
+        },
+        {
+          "event_frame": 157,
+          "event_seconds": 5.233333333333333,
+          "cue": "map_route_draw",
+          "reason": "Detour growth",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -22,
+          "resampled_duration_seconds": 1.9
+        },
+        {
+          "event_frame": 215,
+          "event_seconds": 7.166666666666667,
+          "cue": "causal_reveal",
+          "reason": "Resource reached",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -24,
+          "resampled_duration_seconds": 0.8
+        }
+      ],
+      "music_cue": "public/assets/audio/singularity-v4/music-cues/OA_MUSIC_curious_78bpm_v1.flac",
+      "music_source_sha256": "4bde79027c79a88d630dafb18b77eadefd5e6a5d5d9325568628737124b391ae",
+      "target_music_to_typical_active_fx_rms_amplitude_ratio": 0.85,
+      "measured_pcm_ratio_after_ending_fade": 0.8500000238418579,
+      "music_mood": "curious",
+      "atmosphere_cue": "archive_room",
+      "atmosphere_source_sha256": "377f254e672aa1b2ac5213899948587f34e3eb9a466be37a06531fa2656e2570",
+      "shared_safety_gain": 1,
+      "pcm_peak_dbfs": -6.114858653854785,
+      "file": "public/assets/audio/animation-mastery/transition.m4a",
+      "sha256": "bbacf5c60e88e53c0f192f916ed71835f5896fa5eb9aecd26d7115f3dc37aacd"
+    },
+    {
+      "kind": "narrative",
+      "duration_seconds": 12,
+      "placements": [
+        {
+          "event_frame": 118,
+          "event_seconds": 3.933333333333333,
+          "cue": "parallax_swish",
+          "reason": "The same breeze drives cloth, foliage, steam and acting",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -20,
+          "resampled_duration_seconds": 1.7
+        },
+        {
+          "event_frame": 123,
+          "event_seconds": 4.1,
+          "cue": "paper_light_turn",
+          "reason": "Curtain lifts off window",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -23,
+          "resampled_duration_seconds": 1.25
+        },
+        {
+          "event_frame": 155,
+          "event_seconds": 5.166666666666667,
+          "cue": "soft_depth_pass",
+          "reason": "Light reaches the plant",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -24,
+          "resampled_duration_seconds": 1.0
+        },
+        {
+          "event_frame": 183,
+          "event_seconds": 6.1,
+          "cue": "map_route_draw",
+          "reason": "Leaves lift in a staggered response",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -26,
+          "resampled_duration_seconds": 1.35
+        },
+        {
+          "event_frame": 247,
+          "event_seconds": 8.233333333333333,
+          "cue": "quiet_resolution",
+          "reason": "Bud opens; actor expression resolves",
+          "peak_aligned_to_event": true,
+          "desired_cue_rms_dbfs": -22,
+          "resampled_duration_seconds": 1.9
+        }
+      ],
+      "music_cue": "public/assets/audio/singularity-v4/music-cues/OA_MUSIC_warm_78bpm_v1.flac",
+      "music_source_sha256": "b26ae204f48061c1b5d20f1e65d2a338b8f31c897529553aee2dea77dc80321d",
+      "target_music_to_typical_active_fx_rms_amplitude_ratio": 0.85,
+      "measured_pcm_ratio_after_ending_fade": 0.8500000238418579,
+      "music_mood": "warm",
+      "atmosphere_cue": "cavern_lowwind",
+      "atmosphere_source_sha256": "2eb330b216962740bfb984c0591266d684725808c9fe9478b46a5d3c89121df4",
+      "shared_safety_gain": 1,
+      "pcm_peak_dbfs": -3.2348587958014607,
+      "file": "public/assets/audio/animation-mastery/narrative.m4a",
+      "sha256": "b7cb074420115a502c7f1745e14ab9131f86b3a4eb2915f050804870c518a05e"
+    }
+  ],
+  "new_audio_generation_requests": 0,
+  "narration_generation_requests": 0,
+  "provenance": "Existing original Curio Bureau designed/synthesized cues and original project music. Timing/duration/gain adaptations only; no reference soundtrack copied.",
+  "review_limit": "Direct audio audition unavailable. Level/alignment/decoding checks are not a listening approval."
+}

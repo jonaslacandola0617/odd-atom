@@ -1,0 +1,5 @@
+# Tooling only; does not change the production Remotion dependencies.
+# The existing .cache/motion-study installation is reused when present.
+opencv-python-headless==5.0.0.93
+numpy>=2,<3
+Pillow>=11

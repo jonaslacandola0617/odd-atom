@@ -1,0 +1,14 @@
+{
+  "reviewer": "Codex visual inspection of tool-visible actual encoded frames and temporal sheets",
+  "date_utc": "2026-10-25",
+  "scope": "Four phase boards; acting consecutive23\u201346 and native arm/neck crop; source construction/root comparisons; selected source evidence. No direct playback/audio listening or user approval claimed.",
+  "movie_hashes": {
+    "assets/videos/animation-mastery/v1/A-character-acting-4s.mp4": "694cfd8a6f105cfd30f5f2fc9a91d57fadd8030e166a3a3b59f988506319fabc",
+    "assets/videos/animation-mastery/v1/B-root-detour-6s.mp4": "f31ac968045e538711401bc9dad83cbb9e4d545419196d333db6c96f63666c12",
+    "assets/videos/animation-mastery/v1/C-garden-to-roots-8s.mp4": "c883d5ecdf4f425b05b3363f8e33b45e5893c981416e2e6758f2d4f86f2800fe",
+    "assets/videos/animation-mastery/v1/D-a-little-light-12s.mp4": "b16f5413f8b3b7c93e6c81f88ee698e31380b6d36ea9c5ae3c99e1f335ac8abc"
+  },
+  "audit": "validation/quality-audits/visual-audit.md",
+  "mastery_claimed": false,
+  "user_approval": "pending"
+}

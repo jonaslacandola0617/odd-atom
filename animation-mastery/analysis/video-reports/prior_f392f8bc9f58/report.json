@@ -1,0 +1,29 @@
+{
+  "video_id": "prior_f392f8bc9f58",
+  "source_sha256": "f392f8bc9f58fc99f6869dce6064f0618f3171a383806c406b767b7d106eeec8",
+  "decoded_frame_count": 2015,
+  "decoded_picture_end_seconds": 67.189909,
+  "candidate_shot_count": 14,
+  "confirmed_shot_count": null,
+  "temporal_analysis_status": "all_frames_measured_semantic_review_pending",
+  "analysis_dimensions": [
+    144,
+    256
+  ],
+  "opencv_version": "5.0.0",
+  "frame_index": "analysis/video-reports/prior_f392f8bc9f58/frame-index.jsonl.gz",
+  "frame_metrics": "analysis/video-reports/prior_f392f8bc9f58/frame-metrics.jsonl.gz",
+  "feature_pairs": "analysis/motion-tracks/prior_f392f8bc9f58-feature-pairs.jsonl.gz",
+  "storyboard_pages": [
+    "analysis/keyframes/prior_f392f8bc9f58/storyboard-001.jpg",
+    "analysis/keyframes/prior_f392f8bc9f58/storyboard-002.jpg"
+  ],
+  "audio_status": "Stream metadata inventoried. No direct audition, source separation or semantic audio timing analysis.",
+  "semantic_status": "Human/visual interpretation not completed. These statistics do not establish drawing or animation mastery.",
+  "motion_estimation": "Consecutive-frame sparse LK tracking with forward/backward check; RANSAC partial affine. Normalized source-image motion, not camera identification.",
+  "duration_stats_seconds": {
+    "median": 0.03333300000000072,
+    "minimum": 0.03333299999999895,
+    "maximum": 0.056576
+  }
+}

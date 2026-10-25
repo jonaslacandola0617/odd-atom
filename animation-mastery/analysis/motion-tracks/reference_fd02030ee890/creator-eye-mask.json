@@ -1,0 +1,494 @@
+{
+  "basis": "RGB mask area measured in fixed image ROI; local threshold crossings are not a source rig parameter.",
+  "source_video": "reference_fd02030ee890",
+  "roi_xyxy": [
+    1120,
+    470,
+    1290,
+    640
+  ],
+  "threshold": "R<110,G<110,B>90",
+  "baseline_first_20_frames_median_area": 4930.5,
+  "measurements": [
+    {
+      "frame_index": 2040,
+      "dark_eye_mask_area": 4690
+    },
+    {
+      "frame_index": 2041,
+      "dark_eye_mask_area": 4697
+    },
+    {
+      "frame_index": 2042,
+      "dark_eye_mask_area": 4686
+    },
+    {
+      "frame_index": 2043,
+      "dark_eye_mask_area": 5575
+    },
+    {
+      "frame_index": 2044,
+      "dark_eye_mask_area": 5706
+    },
+    {
+      "frame_index": 2045,
+      "dark_eye_mask_area": 5340
+    },
+    {
+      "frame_index": 2046,
+      "dark_eye_mask_area": 5261
+    },
+    {
+      "frame_index": 2047,
+      "dark_eye_mask_area": 4789
+    },
+    {
+      "frame_index": 2048,
+      "dark_eye_mask_area": 4799
+    },
+    {
+      "frame_index": 2049,
+      "dark_eye_mask_area": 4815
+    },
+    {
+      "frame_index": 2050,
+      "dark_eye_mask_area": 4805
+    },
+    {
+      "frame_index": 2051,
+      "dark_eye_mask_area": 4858
+    },
+    {
+      "frame_index": 2052,
+      "dark_eye_mask_area": 4877
+    },
+    {
+      "frame_index": 2053,
+      "dark_eye_mask_area": 4916
+    },
+    {
+      "frame_index": 2054,
+      "dark_eye_mask_area": 4945
+    },
+    {
+      "frame_index": 2055,
+      "dark_eye_mask_area": 4962
+    },
+    {
+      "frame_index": 2056,
+      "dark_eye_mask_area": 4989
+    },
+    {
+      "frame_index": 2057,
+      "dark_eye_mask_area": 4991
+    },
+    {
+      "frame_index": 2058,
+      "dark_eye_mask_area": 5021
+    },
+    {
+      "frame_index": 2059,
+      "dark_eye_mask_area": 5021
+    },
+    {
+      "frame_index": 2060,
+      "dark_eye_mask_area": 5018
+    },
+    {
+      "frame_index": 2061,
+      "dark_eye_mask_area": 5009
+    },
+    {
+      "frame_index": 2062,
+      "dark_eye_mask_area": 4997
+    },
+    {
+      "frame_index": 2063,
+      "dark_eye_mask_area": 4977
+    },
+    {
+      "frame_index": 2064,
+      "dark_eye_mask_area": 4979
+    },
+    {
+      "frame_index": 2065,
+      "dark_eye_mask_area": 4937
+    },
+    {
+      "frame_index": 2066,
+      "dark_eye_mask_area": 4915
+    },
+    {
+      "frame_index": 2067,
+      "dark_eye_mask_area": 4884
+    },
+    {
+      "frame_index": 2068,
+      "dark_eye_mask_area": 4862
+    },
+    {
+      "frame_index": 2069,
+      "dark_eye_mask_area": 4815
+    },
+    {
+      "frame_index": 2070,
+      "dark_eye_mask_area": 4800
+    },
+    {
+      "frame_index": 2071,
+      "dark_eye_mask_area": 4766
+    },
+    {
+      "frame_index": 2072,
+      "dark_eye_mask_area": 4736
+    },
+    {
+      "frame_index": 2073,
+      "dark_eye_mask_area": 4725
+    },
+    {
+      "frame_index": 2074,
+      "dark_eye_mask_area": 4712
+    },
+    {
+      "frame_index": 2075,
+      "dark_eye_mask_area": 4692
+    },
+    {
+      "frame_index": 2076,
+      "dark_eye_mask_area": 4672
+    },
+    {
+      "frame_index": 2077,
+      "dark_eye_mask_area": 4664
+    },
+    {
+      "frame_index": 2078,
+      "dark_eye_mask_area": 4660
+    },
+    {
+      "frame_index": 2079,
+      "dark_eye_mask_area": 4659
+    },
+    {
+      "frame_index": 2080,
+      "dark_eye_mask_area": 4679
+    },
+    {
+      "frame_index": 2081,
+      "dark_eye_mask_area": 4669
+    },
+    {
+      "frame_index": 2082,
+      "dark_eye_mask_area": 4670
+    },
+    {
+      "frame_index": 2083,
+      "dark_eye_mask_area": 4659
+    },
+    {
+      "frame_index": 2084,
+      "dark_eye_mask_area": 4669
+    },
+    {
+      "frame_index": 2085,
+      "dark_eye_mask_area": 4684
+    },
+    {
+      "frame_index": 2086,
+      "dark_eye_mask_area": 4685
+    },
+    {
+      "frame_index": 2087,
+      "dark_eye_mask_area": 4685
+    },
+    {
+      "frame_index": 2088,
+      "dark_eye_mask_area": 4682
+    },
+    {
+      "frame_index": 2089,
+      "dark_eye_mask_area": 4658
+    },
+    {
+      "frame_index": 2090,
+      "dark_eye_mask_area": 4664
+    },
+    {
+      "frame_index": 2091,
+      "dark_eye_mask_area": 4665
+    },
+    {
+      "frame_index": 2092,
+      "dark_eye_mask_area": 4694
+    },
+    {
+      "frame_index": 2093,
+      "dark_eye_mask_area": 4661
+    },
+    {
+      "frame_index": 2094,
+      "dark_eye_mask_area": 4663
+    },
+    {
+      "frame_index": 2095,
+      "dark_eye_mask_area": 4672
+    },
+    {
+      "frame_index": 2096,
+      "dark_eye_mask_area": 4666
+    },
+    {
+      "frame_index": 2097,
+      "dark_eye_mask_area": 4674
+    },
+    {
+      "frame_index": 2098,
+      "dark_eye_mask_area": 4616
+    },
+    {
+      "frame_index": 2099,
+      "dark_eye_mask_area": 4506
+    },
+    {
+      "frame_index": 2100,
+      "dark_eye_mask_area": 4380
+    },
+    {
+      "frame_index": 2101,
+      "dark_eye_mask_area": 4229
+    },
+    {
+      "frame_index": 2102,
+      "dark_eye_mask_area": 4082
+    },
+    {
+      "frame_index": 2103,
+      "dark_eye_mask_area": 3931
+    },
+    {
+      "frame_index": 2104,
+      "dark_eye_mask_area": 3771
+    },
+    {
+      "frame_index": 2105,
+      "dark_eye_mask_area": 3604
+    },
+    {
+      "frame_index": 2106,
+      "dark_eye_mask_area": 3445
+    },
+    {
+      "frame_index": 2107,
+      "dark_eye_mask_area": 3294
+    },
+    {
+      "frame_index": 2108,
+      "dark_eye_mask_area": 3157
+    },
+    {
+      "frame_index": 2109,
+      "dark_eye_mask_area": 3040
+    },
+    {
+      "frame_index": 2110,
+      "dark_eye_mask_area": 2910
+    },
+    {
+      "frame_index": 2111,
+      "dark_eye_mask_area": 2794
+    },
+    {
+      "frame_index": 2112,
+      "dark_eye_mask_area": 2711
+    },
+    {
+      "frame_index": 2113,
+      "dark_eye_mask_area": 2619
+    },
+    {
+      "frame_index": 2114,
+      "dark_eye_mask_area": 2560
+    },
+    {
+      "frame_index": 2115,
+      "dark_eye_mask_area": 2502
+    },
+    {
+      "frame_index": 2116,
+      "dark_eye_mask_area": 2457
+    },
+    {
+      "frame_index": 2117,
+      "dark_eye_mask_area": 2430
+    },
+    {
+      "frame_index": 2118,
+      "dark_eye_mask_area": 2420
+    },
+    {
+      "frame_index": 2119,
+      "dark_eye_mask_area": 2407
+    },
+    {
+      "frame_index": 2120,
+      "dark_eye_mask_area": 2408
+    },
+    {
+      "frame_index": 2121,
+      "dark_eye_mask_area": 2415
+    },
+    {
+      "frame_index": 2122,
+      "dark_eye_mask_area": 2428
+    },
+    {
+      "frame_index": 2123,
+      "dark_eye_mask_area": 2453
+    },
+    {
+      "frame_index": 2124,
+      "dark_eye_mask_area": 2489
+    },
+    {
+      "frame_index": 2125,
+      "dark_eye_mask_area": 2529
+    },
+    {
+      "frame_index": 2126,
+      "dark_eye_mask_area": 2585
+    },
+    {
+      "frame_index": 2127,
+      "dark_eye_mask_area": 2645
+    },
+    {
+      "frame_index": 2128,
+      "dark_eye_mask_area": 2725
+    },
+    {
+      "frame_index": 2129,
+      "dark_eye_mask_area": 2789
+    },
+    {
+      "frame_index": 2130,
+      "dark_eye_mask_area": 2412
+    },
+    {
+      "frame_index": 2131,
+      "dark_eye_mask_area": 1964
+    },
+    {
+      "frame_index": 2132,
+      "dark_eye_mask_area": 1493
+    },
+    {
+      "frame_index": 2133,
+      "dark_eye_mask_area": 1007
+    },
+    {
+      "frame_index": 2134,
+      "dark_eye_mask_area": 445
+    },
+    {
+      "frame_index": 2135,
+      "dark_eye_mask_area": 1205
+    },
+    {
+      "frame_index": 2136,
+      "dark_eye_mask_area": 2027
+    },
+    {
+      "frame_index": 2137,
+      "dark_eye_mask_area": 2889
+    },
+    {
+      "frame_index": 2138,
+      "dark_eye_mask_area": 3800
+    },
+    {
+      "frame_index": 2139,
+      "dark_eye_mask_area": 3915
+    },
+    {
+      "frame_index": 2140,
+      "dark_eye_mask_area": 4037
+    },
+    {
+      "frame_index": 2141,
+      "dark_eye_mask_area": 4142
+    },
+    {
+      "frame_index": 2142,
+      "dark_eye_mask_area": 4251
+    },
+    {
+      "frame_index": 2143,
+      "dark_eye_mask_area": 4344
+    },
+    {
+      "frame_index": 2144,
+      "dark_eye_mask_area": 4428
+    },
+    {
+      "frame_index": 2145,
+      "dark_eye_mask_area": 4512
+    },
+    {
+      "frame_index": 2146,
+      "dark_eye_mask_area": 4588
+    },
+    {
+      "frame_index": 2147,
+      "dark_eye_mask_area": 4657
+    },
+    {
+      "frame_index": 2148,
+      "dark_eye_mask_area": 4687
+    },
+    {
+      "frame_index": 2149,
+      "dark_eye_mask_area": 4678
+    },
+    {
+      "frame_index": 2150,
+      "dark_eye_mask_area": 4674
+    },
+    {
+      "frame_index": 2151,
+      "dark_eye_mask_area": 4672
+    },
+    {
+      "frame_index": 2152,
+      "dark_eye_mask_area": 4695
+    },
+    {
+      "frame_index": 2153,
+      "dark_eye_mask_area": 4674
+    },
+    {
+      "frame_index": 2154,
+      "dark_eye_mask_area": 4675
+    },
+    {
+      "frame_index": 2155,
+      "dark_eye_mask_area": 4681
+    },
+    {
+      "frame_index": 2156,
+      "dark_eye_mask_area": 4666
+    },
+    {
+      "frame_index": 2157,
+      "dark_eye_mask_area": 4661
+    },
+    {
+      "frame_index": 2158,
+      "dark_eye_mask_area": 4664
+    },
+    {
+      "frame_index": 2159,
+      "dark_eye_mask_area": 4655
+    }
+  ]
+}

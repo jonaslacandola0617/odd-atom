@@ -1,0 +1,411 @@
+{
+  "video_id": "reference_fd02030ee890",
+  "source_sha256": "fd02030ee890a97c119a33ba4cc3804c6ba2301f3378c42d613c83536cfbc660",
+  "engine": "cached Sherpa-ONNX / Whisper base.en int8 CPU",
+  "model_sha256": {
+    "base.en-encoder.int8.onnx": "ef6b936f4c9b1d90a3b68634b60c4ed8576b26172b33c2535ec0e933c9edb823",
+    "base.en-decoder.int8.onnx": "f7162ad6db2dbef16cfaeaa7f945b9d7dd9c1b8d472f6aca82f2273d185e4d41",
+    "base.en-tokens.txt": "306cd27f03c1a714eca7108e03d66b7dc042abe8c258b44c199a7ed9838dd930"
+  },
+  "duration_seconds": 213.414625,
+  "chunks": [
+    {
+      "index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 25.0,
+      "text": "Hey, wake up! AI is rotting your brain. That's not an empty hook, but a real thing called cognitive atrophy. The loss of core skills like problem solving, critical thinking, and even creativity. This is not only bad for you, but catastrophic for progress and innovation for our whole society. When we offload all mental work to these tools and stop questions…",
+      "processing_seconds": 9.388360108000143
+    },
+    {
+      "index": 1,
+      "start_seconds": 25.0,
+      "end_seconds": 50.0,
+      "text": "what they spit out, we stop being curious about the world around us. Human ingenuity gets lost, creativity will decrease, and we may lose what makes us human in our core. Today, the number of AI-written articles online is approaching the number written by humans. Last year, hundreds of AI Slop channels had over 40 billion views. That's 10 times...",
+      "processing_seconds": 6.0650993100000505
+    },
+    {
+      "index": 2,
+      "start_seconds": 50.0,
+      "end_seconds": 75.0,
+      "text": "13 years of Kutzkazat and it's likely even worse today. We can't even measure this anymore since detecting AI content with certainty has become impossible. It's harder and harder to compete with the massive wave of AI slop uploaded every day and human creators across all platforms are struggling tremendously. But that will not stop us. Our mission at Kutzkazat...",
+      "processing_seconds": 11.100830812999902
+    },
+    {
+      "index": 3,
+      "start_seconds": 75.0,
+      "end_seconds": 100.0,
+      "text": "is to spark curiosity and encourage a science-based, humanist and optimistic worldview. That's the reason we don't stop talking about topics important to us, investing the time and effort to research, illustrate and animate them to upload science videos for free and for everyone. We live for that, but it's not easy to stay afloat. Sponsors and ads alone do not fund us.",
+      "processing_seconds": 9.372766976000094
+    },
+    {
+      "index": 4,
+      "start_seconds": 100.0,
+      "end_seconds": 125.0,
+      "text": "Animated videos are very expensive. That's why we could never do all of this without you. For the last 10 years, the Kotska Zark shop became the most important source of income. You can join our cause and get something valuable, science-y and pretty in return. The Schumann-era calendar sales take the biggest part. It pays a huge chunk of our team's salary, allows us to plan...",
+      "processing_seconds": 8.930954904000146
+    },
+    {
+      "index": 5,
+      "start_seconds": 125.0,
+      "end_seconds": 150.0,
+      "text": "for next year and provides training opportunities to improve with every video we make. In a nutshell, every year this calendar saves our ass. But it's also a passion project that celebrates all of humanity. We reframe time itself by starting 12,000 years ago, instead of 2000, at the dawn of civilization. The calendar on your wall pays actual humans who to...",
+      "processing_seconds": 7.234143471000152
+    },
+    {
+      "index": 6,
+      "start_seconds": 150.0,
+      "end_seconds": 175.0,
+      "text": "debate topics, research, find compositions, recolour and pour endless love into every little detail. Full of passion and dedication, AI can't imitate. This time, our calendar explores the dark tales and legends that helped us make sense of the world before science. These are stories about human curiosity and humans who kept asking questions. Each month takes you on a…",
+      "processing_seconds": 9.004430888000115
+    },
+    {
+      "index": 7,
+      "start_seconds": 175.0,
+      "end_seconds": 200.0,
+      "text": "journey through forgotten worlds and human imagination. Dive into 12 magical artworks like the taming of volcanoes. Learn about mythical creatures that stem from early fossil finds and many more legends. AI could literally never. From the entire team at God's Gazette, thank you for your support and for choosing human art and passion.",
+      "processing_seconds": 6.75381371200001
+    },
+    {
+      "index": 8,
+      "start_seconds": 200.0,
+      "end_seconds": 213.414625,
+      "text": "(music)",
+      "processing_seconds": 2.019473330999972
+    }
+  ],
+  "segments": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 4.799999713897705,
+      "text": "Hey, wake up! AI is rotting your brain.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 4.799999713897705,
+      "end_seconds": 9.59999942779541,
+      "text": "That's not an empty hook, but a real thing called cognitive atrophy.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 9.59999942779541,
+      "end_seconds": 15.59999942779541,
+      "text": "The loss of core skills like problem solving, critical thinking, and even creativity.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 15.59999942779541,
+      "end_seconds": 20.600000381469727,
+      "text": "This is not only bad for you, but catastrophic for progress and innovation for our whole",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 20.600000381469727,
+      "end_seconds": 21.8799991607666,
+      "text": "society.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 21.8799991607666,
+      "end_seconds": 25.0,
+      "text": "When we offload all mental work to these tools and stop questions…",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 25.0,
+      "end_seconds": 29.15999984741211,
+      "text": "what they spit out, we stop being curious about the world around us.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 29.15999984741211,
+      "end_seconds": 33.15999984741211,
+      "text": "Human ingenuity gets lost, creativity will decrease,",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 33.15999984741211,
+      "end_seconds": 36.84000015258789,
+      "text": "and we may lose what makes us human in our core.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 36.84000015258789,
+      "end_seconds": 43.15999984741211,
+      "text": "Today, the number of AI-written articles online is approaching the number written by humans.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 43.15999984741211,
+      "end_seconds": 48.51999855041504,
+      "text": "Last year, hundreds of AI Slop channels had over 40 billion views.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 48.51999855041504,
+      "end_seconds": 49.79999923706055,
+      "text": "That's 10 times...",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 50.0,
+      "end_seconds": 54.71999979019165,
+      "text": "13 years of Kutzkazat and it's likely even worse today.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 54.71999979019165,
+      "end_seconds": 60.55999946594238,
+      "text": "We can't even measure this anymore since detecting AI content with certainty has become impossible.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 61.11999988555908,
+      "end_seconds": 65.83999919891357,
+      "text": "It's harder and harder to compete with the massive wave of AI slop uploaded every day",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 65.83999919891357,
+      "end_seconds": 70.15999984741211,
+      "text": "and human creators across all platforms are struggling tremendously.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 70.71999931335449,
+      "end_seconds": 74.8799991607666,
+      "text": "But that will not stop us. Our mission at Kutzkazat...",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 75.0,
+      "end_seconds": 81.59999990463257,
+      "text": "is to spark curiosity and encourage a science-based, humanist and optimistic worldview.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 81.59999990463257,
+      "end_seconds": 85.69999980926514,
+      "text": "That's the reason we don't stop talking about topics important to us,",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 85.69999980926514,
+      "end_seconds": 93.5,
+      "text": "investing the time and effort to research, illustrate and animate them to upload science videos for free and for everyone.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 93.5,
+      "end_seconds": 96.89999961853027,
+      "text": "We live for that, but it's not easy to stay afloat.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 96.89999961853027,
+      "end_seconds": 100.0,
+      "text": "Sponsors and ads alone do not fund us.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 100.0,
+      "end_seconds": 103.0,
+      "text": "Animated videos are very expensive.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 103.0,
+      "end_seconds": 107.0,
+      "text": "That's why we could never do all of this without you.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 107.0,
+      "end_seconds": 112.0,
+      "text": "For the last 10 years, the Kotska Zark shop became the most important source of income.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 112.0,
+      "end_seconds": 115.0,
+      "text": "You can join our cause and get something valuable,",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 115.0,
+      "end_seconds": 118.0,
+      "text": "science-y and pretty in return.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 118.0,
+      "end_seconds": 121.0,
+      "text": "The Schumann-era calendar sales take the biggest part.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 121.0,
+      "end_seconds": 125.0,
+      "text": "It pays a huge chunk of our team's salary, allows us to plan...",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 125.0,
+      "end_seconds": 130.0,
+      "text": "for next year and provides training opportunities to improve with every video we make.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 130.0,
+      "end_seconds": 135.0,
+      "text": "In a nutshell, every year this calendar saves our ass.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 135.0,
+      "end_seconds": 139.0,
+      "text": "But it's also a passion project that celebrates all of humanity.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 139.0,
+      "end_seconds": 146.0,
+      "text": "We reframe time itself by starting 12,000 years ago, instead of 2000, at the dawn of civilization.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 146.0,
+      "end_seconds": 150.0,
+      "text": "The calendar on your wall pays actual humans who to...",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 150.0,
+      "end_seconds": 156.05999994277954,
+      "text": "debate topics, research, find compositions, recolour and pour endless love into every",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 156.05999994277954,
+      "end_seconds": 157.6399998664856,
+      "text": "little detail.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 157.6399998664856,
+      "end_seconds": 162.0,
+      "text": "Full of passion and dedication, AI can't imitate.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 162.0,
+      "end_seconds": 166.92000007629395,
+      "text": "This time, our calendar explores the dark tales and legends that helped us make sense",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 166.92000007629395,
+      "end_seconds": 169.0399990081787,
+      "text": "of the world before science.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 169.0399990081787,
+      "end_seconds": 173.95999908447266,
+      "text": "These are stories about human curiosity and humans who kept asking questions.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 173.95999908447266,
+      "end_seconds": 174.95999908447266,
+      "text": "Each month takes you on a…",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 175.0,
+      "end_seconds": 181.1599998474121,
+      "text": "journey through forgotten worlds and human imagination. Dive into 12 magical artworks",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 181.1599998474121,
+      "end_seconds": 186.0,
+      "text": "like the taming of volcanoes. Learn about mythical creatures that stem from early fossil",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 186.0,
+      "end_seconds": 191.23999977111816,
+      "text": "finds and many more legends. AI could literally never.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 191.23999977111816,
+      "end_seconds": 196.0399990081787,
+      "text": "From the entire team at God's Gazette, thank you for your support and for choosing human",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 196.0399990081787,
+      "end_seconds": 197.23999977111816,
+      "text": "art and passion.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 200.0,
+      "end_seconds": 210.0,
+      "text": "(music)",
+      "chunk": 8,
+      "verified": false
+    }
+  ],
+  "status": "complete_unverified",
+  "review_status": "unverified_machine_recognition",
+  "limitations": "ASR can mishear names, invent words or misplace segment timing. Fixed 25s chunk boundaries can split words. Segment times are estimates, not exact word alignment. Direct audition is unavailable; this is not a listening review.",
+  "voice_generation_requests": 0
+}

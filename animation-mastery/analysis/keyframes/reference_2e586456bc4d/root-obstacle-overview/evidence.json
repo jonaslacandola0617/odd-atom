@@ -1,0 +1,189 @@
+{
+  "video_id": "reference_2e586456bc4d",
+  "name": "root-obstacle-overview",
+  "source_sha256": "2e586456bc4d4ca199b2541ad285c51f342110d1d30029e3d2b141b30ff0fa74",
+  "start_frame": 26340,
+  "end_frame": 28020,
+  "end_frame_exclusive": true,
+  "source_start_pts": 439.0,
+  "sample_stride": 60,
+  "sampled_frames": [
+    {
+      "frame_index": 26340,
+      "pts_seconds": 439.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000000.png",
+      "sha256": "6170ac1a90a1bea81b0e77f39d76426fa406180e72ee28131eeb85d05cbbb2b2"
+    },
+    {
+      "frame_index": 26400,
+      "pts_seconds": 440.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000001.png",
+      "sha256": "5f2e641fb5b2c9958726718052bb335bbc24e6d78e59aa4c5ecf9fc7a6a032c3"
+    },
+    {
+      "frame_index": 26460,
+      "pts_seconds": 441.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000002.png",
+      "sha256": "81c21307ffb0312f27fbb1c7d5c7511dc26f0cf5537fb830a69175217083f90b"
+    },
+    {
+      "frame_index": 26520,
+      "pts_seconds": 442.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000003.png",
+      "sha256": "b43083b57273d4df41f63380492a58deea906d21cad012c88c85265d46e4fd02"
+    },
+    {
+      "frame_index": 26580,
+      "pts_seconds": 443.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000004.png",
+      "sha256": "6d74a9695ccefab42253d66a935aee29e2b4bb0903593d088cb7b3a7219b5e80"
+    },
+    {
+      "frame_index": 26640,
+      "pts_seconds": 444.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000005.png",
+      "sha256": "4a998ca18e57806e8f4ef35c93f96682963dd64760a10b514852467557284479"
+    },
+    {
+      "frame_index": 26700,
+      "pts_seconds": 445.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000006.png",
+      "sha256": "33fd8b5538917499f1d3220c5a27452d85c4d0a9b8445ff0cee6ef2aa51ca8e2"
+    },
+    {
+      "frame_index": 26760,
+      "pts_seconds": 446.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000007.png",
+      "sha256": "93a38d94846c7a3dcf786950312d064b1137395a3a0c5942a0d9b2eca6d08b1f"
+    },
+    {
+      "frame_index": 26820,
+      "pts_seconds": 447.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000008.png",
+      "sha256": "e353f67aa7225ad2d252ad1a3e4d47a44a09f336885da869ef3243ebdcb97bf8"
+    },
+    {
+      "frame_index": 26880,
+      "pts_seconds": 448.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000009.png",
+      "sha256": "14ef0a61c290fb3cc981234db6c2c22b2d220f20dab707974f41ce49477dc59f"
+    },
+    {
+      "frame_index": 26940,
+      "pts_seconds": 449.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000010.png",
+      "sha256": "23e076acfa7800ed0d6a959159cc6ec6ea1e88b7b17fb49a51791dbd0a5d62a8"
+    },
+    {
+      "frame_index": 27000,
+      "pts_seconds": 450.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000011.png",
+      "sha256": "3c57394536ad615d77eb7f37c82aa31f1f57e07fa7e977b1067603650356c54f"
+    },
+    {
+      "frame_index": 27060,
+      "pts_seconds": 451.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000012.png",
+      "sha256": "c6fe188f35f5d58d82bef35e1325ce659cf2195e758e347d913a82ef569c8a11"
+    },
+    {
+      "frame_index": 27120,
+      "pts_seconds": 452.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000013.png",
+      "sha256": "c470a93f46b0da12b6e93b7dc818ce603490ca1da3007cd04e681d948ea14cb3"
+    },
+    {
+      "frame_index": 27180,
+      "pts_seconds": 453.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000014.png",
+      "sha256": "36ff09fb78e10b0d4997a49d8150d06ff67a24d0378751d7db2b14acce087d0d"
+    },
+    {
+      "frame_index": 27240,
+      "pts_seconds": 454.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000015.png",
+      "sha256": "6f647f19996e162c17c4d22b18c3920ac8dbde9b703895d96822b67e80d92907"
+    },
+    {
+      "frame_index": 27300,
+      "pts_seconds": 455.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000016.png",
+      "sha256": "4e2a40b5d979891242968ce854f35c6a53a6173acd11c55fff934e440a0a6a56"
+    },
+    {
+      "frame_index": 27360,
+      "pts_seconds": 456.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000017.png",
+      "sha256": "211fe6c99127fe2d22381798249f9cc18b9a0e95cc080e93cd608c79b5ba065d"
+    },
+    {
+      "frame_index": 27420,
+      "pts_seconds": 457.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000018.png",
+      "sha256": "bbf9fa4ef843bdd1cd44ff574e4e6ab4ecc93b3b30eba351b7b3fb955bd5e808"
+    },
+    {
+      "frame_index": 27480,
+      "pts_seconds": 458.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000019.png",
+      "sha256": "ee0d3e07e1e425d5df4cb65c471f31691e2bad23ce24429c0596704dcd8e7e55"
+    },
+    {
+      "frame_index": 27540,
+      "pts_seconds": 459.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000020.png",
+      "sha256": "49c1eff798a02313178991a07f9fe87d2e4566156e7e2923544e5d60f6a9f746"
+    },
+    {
+      "frame_index": 27600,
+      "pts_seconds": 460.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000021.png",
+      "sha256": "0febb19bed3fcdfffa695ef49cf5d79c7b8e63eece65dfd3debfd21ef768d3f6"
+    },
+    {
+      "frame_index": 27660,
+      "pts_seconds": 461.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000022.png",
+      "sha256": "bec46c7b4a45ad57805e52fcdb588dd7641f3d2f0e65680182f5bea7cc9fabb5"
+    },
+    {
+      "frame_index": 27720,
+      "pts_seconds": 462.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000023.png",
+      "sha256": "8ed4825e9f0b478295cbf3cb9f1d71b199124c17f332b7e9a1d5d7d970bf9589"
+    },
+    {
+      "frame_index": 27780,
+      "pts_seconds": 463.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000024.png",
+      "sha256": "cbb9def831c633b85b483efe7e3221921f76142ec2f1ffb3eb20c42463d8f803"
+    },
+    {
+      "frame_index": 27840,
+      "pts_seconds": 464.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000025.png",
+      "sha256": "407fcdc9f213088c925f6211c98fc7964a315de5dfcc340916b855136082af6e"
+    },
+    {
+      "frame_index": 27900,
+      "pts_seconds": 465.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000026.png",
+      "sha256": "8f2bfafe2debbad65b43a1cb9f6c4b46a1f3ea33a598751fcfbe6a17b22d9e1b"
+    },
+    {
+      "frame_index": 27960,
+      "pts_seconds": 466.0,
+      "png": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/frame-000027.png",
+      "sha256": "5e9fb854756815df124ae7fb5a104660c7bd0cf53136f609463cacb44a00f0ba"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/consecutive-001.jpg",
+    "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/consecutive-002.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_2e586456bc4d/root-obstacle-overview/motion-interval.mp4",
+  "silent_clip_width": 960,
+  "native_pngs_are_full_source_resolution": true,
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

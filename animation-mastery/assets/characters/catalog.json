@@ -1,0 +1,26 @@
+{
+  "identities": [
+    {
+      "id": "original.mira",
+      "master": "assets/characters/static-test-01.png",
+      "master_sha256": "72842deef29e191d0f0699c66684d57b6869a0b4cfb2d50937a268f54b80b73f",
+      "registered_atlas": "public/assets/artwork/approved-characters/atlas.png",
+      "renderer": "src/MotionCharacters.tsx#MotionMira",
+      "identity_anchors": ["asymmetric purple hair", "pink face", "yellow hoodie", "purple trousers", "cream shoes", "cup in registered grip"],
+      "new_tested_actions": ["wind brace and cup protection", "watch garden light/flower response"],
+      "new_tests": ["MasteryCharacterActing", "MasteryShortNarrative"],
+      "provenance": "Previously user-approved original artwork; unchanged in this research session.",
+      "limits": "Planted acting in prepared view; no approved new side view, turnaround, locomotion or arbitrary hand poses. New studies have no user artistic approval yet."
+    },
+    {
+      "id": "original.sol",
+      "master": "assets/characters/static-test-01.png",
+      "registered_atlas": "public/assets/artwork/approved-characters/atlas.png",
+      "renderer": "src/MotionCharacters.tsx#MotionSol",
+      "provenance": "Existing approved character; preserved, not newly tested in A/B/C/D.",
+      "limits": "Do not infer support for new actions from the Mira test."
+    }
+  ],
+  "retired_assets": "Do not restore the user's retired original uploaded character SVGs.",
+  "reference_characters": "C01/D01/D02/D03 are research observations; no source character texture is used in these production rigs."
+}

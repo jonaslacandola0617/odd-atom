@@ -1,0 +1,87 @@
+{
+  "project_status": "research_and_original_engine_checkpoint_v1_not_exhaustive",
+  "mastery_claimed": false,
+  "archive": {
+    "requested_filename": "video-samples.zip",
+    "google_drive_file_id": "1jMjgwkzDE0gnEuhXB4FkXqazeRLRu0O5",
+    "checked_at_utc": "2026-10-25T05:56:06.905160+00:00",
+    "attempts": [
+      {
+        "url": "https://drive.google.com/uc?export=download&id=1jMjgwkzDE0gnEuhXB4FkXqazeRLRu0O5",
+        "status": "downloaded"
+      }
+    ],
+    "status": "acquired",
+    "archive_path": "references/original/video-samples.zip",
+    "archive_sha256": "3859b43e2e796bf3ef362d90727961524edb4e79b013fa865dde5747833804a0",
+    "archive_bytes": 1192598729,
+    "extracted_directory": "references/original/archive-contents",
+    "video_count": 5,
+    "total_duration_seconds": 3935.201813
+  },
+  "prior_upload_pipeline_validation": {
+    "videos": 8,
+    "frames_processed": 17163,
+    "unreviewed_shot_proposals": 77,
+    "is_requested_archive": false,
+    "behavior_tests_passed": 4
+  },
+  "stages": {
+    "1_reference_acquisition_and_inventory": "complete_all_five_sources_preserved",
+    "2_frame_and_shot_analysis": "every_frame_measured_all_navigation_pages_viewed19_native_cases_full_shot_review_incomplete",
+    "3_cross_reference_research": "evidence_backed_selected_case_comparison_complete_for_v1_not_exhaustive",
+    "4_knowledge_extraction": "12_substantive_guides_plus_evidence_index_with_scope_limits",
+    "5_reusable_architecture": "working_hybrid_Remotion_engine_and_registered_assets_limited_pose_library",
+    "6_practical_validation": "four_original_MP4_tests_rendered_inspected_revised_technical_pass_no_mastery_claim",
+    "7_final_documentation": "checkpoint_guides_reports_audit_remaining_intervals_saved"
+  },
+  "archive_automated_passes": [
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "decoded_frames": 78231,
+      "proposed_shots": 56,
+      "semantic_review": "in_progress"
+    },
+    {
+      "video_id": "reference_46db30e386c9",
+      "decoded_frames": 41219,
+      "proposed_shots": 99,
+      "semantic_review": "in_progress"
+    },
+    {
+      "video_id": "reference_3dab4435d188",
+      "decoded_frames": 63020,
+      "proposed_shots": 96,
+      "semantic_review": "in_progress"
+    },
+    {
+      "video_id": "reference_2e586456bc4d",
+      "decoded_frames": 40825,
+      "proposed_shots": 59,
+      "semantic_review": "in_progress"
+    },
+    {
+      "video_id": "reference_fd02030ee890",
+      "decoded_frames": 12802,
+      "proposed_shots": 45,
+      "semantic_review": "in_progress"
+    }
+  ],
+  "total_archive_decoded_frames": 236097,
+  "total_unreviewed_shot_proposals": 355,
+  "reviewed_storyboard_pages": 46,
+  "selected_native_cases": 19,
+  "selected_temporal_cases": 16,
+  "selected_temporal_window_frames": 1676,
+  "verified_complete_shots": 0,
+  "total_provisional_shot_proposals": 355,
+  "original_rendered_tests": [
+    "assets/videos/animation-mastery/v1/A-character-acting-4s.mp4",
+    "assets/videos/animation-mastery/v1/B-root-detour-6s.mp4",
+    "assets/videos/animation-mastery/v1/C-garden-to-roots-8s.mp4",
+    "assets/videos/animation-mastery/v1/D-a-little-light-12s.mp4"
+  ],
+  "technical_validation": "passed; see delivery, engine-geometry, pixel-determinism and pipeline audits",
+  "visual_validation": "encoded evidence inspected; revisions recorded; user artistic approval pending",
+  "audio_validation": "metadata/ASR/source provenance/decode/levels only; no direct audition"
+}

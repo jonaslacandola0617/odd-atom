@@ -1,0 +1,209 @@
+{
+  "video_id": "reference_fd02030ee890",
+  "shot_id": "case_P01",
+  "case_id": "P01",
+  "case_name": "materials-arrival",
+  "source_sha256": "fd02030ee890a97c119a33ba4cc3804c6ba2301f3378c42d613c83536cfbc660",
+  "start_frame": 7340,
+  "end_frame": 7460,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 122.33333333333333,
+  "end_pts_seconds": 124.33333333333333,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "An accumulating pile of screens, paper and objects communicates volume and production effort.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "falling phone and papers",
+      "growing pile",
+      "grounding oval"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "half.material-pile",
+        "description": "Overlapping blue/violet devices and documents.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.falling-phone",
+        "description": "Small portrait-format phone falling toward the pile.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.falling-papers",
+        "description": "White sheets with differing tilt and trajectories.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "half.gold-object",
+        "description": "Small gold vessel/trophy-like object; precise identity uncertain.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Dark blue field and a blue oval ground shadow isolate a dense central pile.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [],
+  "objects": [
+    {
+      "object_id": "half.material-pile",
+      "description": "Overlapping blue/violet devices and documents.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "half.falling-phone",
+      "description": "Small portrait-format phone falling toward the pile.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "half.falling-papers",
+      "description": "White sheets with differing tilt and trajectories.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "half.gold-object",
+      "description": "Small gold vessel/trophy-like object; precise identity uncertain.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "p01.background",
+      "description": "Dark blue field and a blue oval ground shadow isolate a dense central pile.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "half.material-pile",
+        "half.falling-phone",
+        "half.falling-papers",
+        "half.gold-object"
+      ],
+      "start_frame": 7340,
+      "end_frame": 7460,
+      "purpose": "An accumulating pile of screens, paper and objects communicates volume and production effort.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 7340,
+          "end_frame": 7460,
+          "phase": "observed interval",
+          "pose_or_state": "Phone descends and rotates into the pile across the interval; papers enter at separate times and orientations. Later gold object rotates as it descends; not every item shares one rigid group transform. The pile preserves overlap/occlusion rather than leaving every object on an independent visible plane."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "Exact source collision solver, object weights and per-object bounce curves are unknown; do not infer physics simulation."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        7340,
+        7460
+      ],
+      "limitations": "Exact source collision solver, object weights and per-object bounce curves are unknown; do not infer physics simulation."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        7340,
+        7460
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Phone descends and rotates into the pile across the interval; papers enter at separate times and orientations.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        7340,
+        7460
+      ]
+    },
+    {
+      "statement": "Later gold object rotates as it descends; not every item shares one rigid group transform.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        7340,
+        7460
+      ]
+    },
+    {
+      "statement": "The pile preserves overlap/occlusion rather than leaving every object on an independent visible plane.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        7340,
+        7460
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 7340,
+      "pts_seconds": 122.33333333333333,
+      "file": "analysis/keyframes/reference_fd02030ee890/materials-arrival/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_fd02030ee890/materials-arrival/frame-000000.png"
+    },
+    {
+      "frame_index": 7400,
+      "pts_seconds": 123.33333333333333,
+      "file": "analysis/keyframes/reference_fd02030ee890/materials-arrival/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_fd02030ee890/materials-arrival/frame-000060.png"
+    },
+    {
+      "frame_index": 7459,
+      "pts_seconds": 124.31666666666666,
+      "file": "analysis/keyframes/reference_fd02030ee890/materials-arrival/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_fd02030ee890/materials-arrival/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_fd02030ee890/materials-arrival/evidence.json",
+  "source_technique_inference_limitations": "Exact source collision solver, object weights and per-object bounce curves are unknown; do not infer physics simulation.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_fd02030ee890/materials-arrival/consecutive-001.jpg",
+    "analysis/keyframes/reference_fd02030ee890/materials-arrival/consecutive-002.jpg",
+    "analysis/keyframes/reference_fd02030ee890/materials-arrival/consecutive-003.jpg",
+    "analysis/keyframes/reference_fd02030ee890/materials-arrival/consecutive-004.jpg",
+    "analysis/keyframes/reference_fd02030ee890/materials-arrival/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

@@ -1,0 +1,1370 @@
+{
+  "video_id": "reference_46db30e386c9",
+  "source_sha256": "46db30e386c928a1e4251fbe2c72a006f7ff9775edc84e0ba55bee66dd4b9dcd",
+  "engine": "cached Sherpa-ONNX / Whisper base.en int8 CPU",
+  "model_sha256": {
+    "base.en-encoder.int8.onnx": "ef6b936f4c9b1d90a3b68634b60c4ed8576b26172b33c2535ec0e933c9edb823",
+    "base.en-decoder.int8.onnx": "f7162ad6db2dbef16cfaeaa7f945b9d7dd9c1b8d472f6aca82f2273d185e4d41",
+    "base.en-tokens.txt": "306cd27f03c1a714eca7108e03d66b7dc042abe8c258b44c199a7ed9838dd930"
+  },
+  "duration_seconds": 687.032,
+  "chunks": [
+    {
+      "index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 25.0,
+      "text": "Every tree you've ever seen is dead. It turns out the alive part of a tree is just a tiny paper-thin strip of cells trapped between a dead skeleton and dead outside. Trees are some of the most extreme beings on Earth, with one of the most unique strategies in nature. On top of being mostly dead stuff, they forge their body out of thin air, they mercilessly...",
+      "processing_seconds": 10.181799871999829
+    },
+    {
+      "index": 1,
+      "start_seconds": 25.0,
+      "end_seconds": 50.0,
+      "text": "crush rocks with acid and they have an internal negative pressure that would kill you instantly. So how do trees actually work? Let's go back to the beginning. The Ancient Battle for the Sky For over a billion years, the ancestors of plants only inhabited the sun-drenched surfaces of the oceans. Their bodies were thin and delicate and absorbed water straight through their surfaces,",
+      "processing_seconds": 7.860148919000039
+    },
+    {
+      "index": 2,
+      "start_seconds": 50.0,
+      "end_seconds": 75.0,
+      "text": "getting their energy through photosynthesis, forging sunlight, carbon dioxide and water into sugar. But about 470 million years ago, they decided to conquer a hostile alien planet, the land. Like green rugs with ambition, these plant ancestors began clinging to the ground wherever it was wet and damp. But now, with solid ground beneath and no ability",
+      "processing_seconds": 7.326319169999806
+    },
+    {
+      "index": 3,
+      "start_seconds": 75.0,
+      "end_seconds": 100.0,
+      "text": "The mansion became a place of intense warfare. Up, the higher they grew, the more sudden they would get while starving their competition below. Height became a deadly weapon. The battle for the sky had begun. Until now, plants were built mostly from cellulose, which was great for shape, but not for strength, which limited how tall they could grow. Over dozens of millions of years of evolutionary warfare.",
+      "processing_seconds": 7.351958461999857
+    },
+    {
+      "index": 4,
+      "start_seconds": 100.0,
+      "end_seconds": 125.0,
+      "text": "where a group of plants developed one of life's greatest breakthroughs, Lignin. Lignin is a macro molecule made of ring-shaped structures. It's rigid, tough, waterproof, and incredibly hard to break down. Concrete in a world made of jelly. It filled gaps between cellulose threads, stiffening and locking everything into place. Lignin gave plants the strength to grow taller and claimed the sun for themselves. But of course,",
+      "processing_seconds": 10.777547722999998
+    },
+    {
+      "index": 5,
+      "start_seconds": 125.0,
+      "end_seconds": 150.0,
+      "text": "Now they were competing with each other, which must have been really annoying for them. So as more millions of years passed, some plants just went all in on lignin and produced more and more of it, becoming stiffer, harder and stronger. Until one day, around 385 million years ago, they got the biological equivalent to steel reinforced concrete would. More on it later, but with this magic material,",
+      "processing_seconds": 8.763066483000102
+    },
+    {
+      "index": 6,
+      "start_seconds": 150.0,
+      "end_seconds": 175.0,
+      "text": "the first trees emerged. Almost immediately, they became the largest living beings alive, shooting up to 20 metres high into the sky, and they only got bigger from here. But this enormous size created extremely hard problems. How do you get water from the ground up to the green parts that do the actual photosynthesis, and how do you get the sugar they produce down to the cells that keep you up there? On the scale…",
+      "processing_seconds": 10.605132827000034
+    },
+    {
+      "index": 7,
+      "start_seconds": 175.0,
+      "end_seconds": 200.0,
+      "text": "of a cell, a distance of a few meters is like you're working in Britain while your lunchbox is in Egypt and your drink in New York. How do you not die? So trees came up with one of the most amazing ways any organism grows and became nearly immortal by accident. A conveyor belt of death. Let's slice an ancient tree in half and get to the heart running it all.",
+      "processing_seconds": 10.457074337999984
+    },
+    {
+      "index": 8,
+      "start_seconds": 200.0,
+      "end_seconds": 225.0,
+      "text": "The cambium, a razor-thin, circular zone, just a few stem cells wide. These stem cells grow inward and outwards, turning into two groups of specialists. The inward specialists are on a conveyor belt of death, the xylem. With each new division, it's pushing the cambium outwards, making the tree thicker the older it gets. As the xylem cells mature, their lignin production goes into overdrive, and they",
+      "processing_seconds": 10.555901731000176
+    },
+    {
+      "index": 9,
+      "start_seconds": 225.0,
+      "end_seconds": 250.0,
+      "text": "become hard, like a muscle slowly transforming into bone. They begin to hollow themselves out, shedding everything that once made them alive, and then they die. What's left is a corpse, a hard, empty tube. As the tree grows year after year, new corpses are layered on old corpses forming rings of hardened dead tissue, a graveyard of trillions of plant bones.",
+      "processing_seconds": 10.599088067000139
+    },
+    {
+      "index": 10,
+      "start_seconds": 250.0,
+      "end_seconds": 275.0,
+      "text": "is what we call wood. Stacked together, they form a giant network of pipes that stretches the whole length of the tree. This network uses the chemical properties of water and a few other tricks to move it with incredible efficiency. Water molecules are, for lack of a better word, sticky, like tiny magnets, and naturally cling tightly to each other. When one moves, it pulls the next along with it, like pulling on a rope.",
+      "processing_seconds": 8.424502655999959
+    },
+    {
+      "index": 11,
+      "start_seconds": 275.0,
+      "end_seconds": 300.0,
+      "text": "In trees, this rope starts in the roots and ends in the leaves that bathe in the warmth from the sun. Here, the heat from the sun evaporates 95% of the water that got sucked into the roots from billions of tiny pores, releasing a constant invisible mist of water molecules around the crown of the tree. This process, called \"transpiration in plants\", creates tension on the rope of water molecules, stretching and living.",
+      "processing_seconds": 9.285730315000137
+    },
+    {
+      "index": 12,
+      "start_seconds": 300.0,
+      "end_seconds": 325.0,
+      "text": "lifting the entire column upwards all the way from the roots to the leaves. This pull is so insanely strong that it can lift water over 100 meters, which requires sucking forces equivalent to the pressure of dozens of atmospheres, as much as the crushing pressure hundreds of meters deep in the ocean. Nothing humans have ever built comes even close to this power. Even our best machines can't pull water higher than the other.",
+      "processing_seconds": 7.406152740000152
+    },
+    {
+      "index": 13,
+      "start_seconds": 325.0,
+      "end_seconds": 350.0,
+      "text": "about 10 metres because the negative pressure required to pull hard enough makes it boil. But the water pipes of trees are so tiny and narrow, almost perfectly airtight that despite the insane suction pressure inside a tree, water stays liquid and reaches the top. As the tree ages, old zylom cells eventually stop working and fill up with resins and other protective substances. Slowly.",
+      "processing_seconds": 7.130284820999805
+    },
+    {
+      "index": 14,
+      "start_seconds": 350.0,
+      "end_seconds": 375.0,
+      "text": "They turn into hardwood, a dense chemically fortified core that's extremely resistant to decay. The core of a mighty tree. But water is only one half of the story. The sugar produced in the sky needs to be transported to nourish cells down below. And cells from the roots of the leaves need to coordinate and exchange information about damage and growth.",
+      "processing_seconds": 5.076386830000047
+    },
+    {
+      "index": 15,
+      "start_seconds": 375.0,
+      "end_seconds": 400.0,
+      "text": "the cambium stem cells that grow outwards, the flow in. The tiny living part of the tree. As the cells of the flow in grow outwards, they separate into three teams and make a brutal compromise. The first group of sieve cells and their grim face is to become a living transport system, although living is not exactly right.",
+      "processing_seconds": 7.262778089999983
+    },
+    {
+      "index": 16,
+      "start_seconds": 400.0,
+      "end_seconds": 425.0,
+      "text": "destroy themselves, digest their organelles and even their nuclei that houses their genetic code. At the same time, they hollow themselves out, connecting to the sieve cells above and below them. This goes on until they're a sad shadow of living beings, a drooling, living tool without a brain or arms, unable to support themselves. Only the second group, their companion cells, keeps them alive.",
+      "processing_seconds": 10.860691431000078
+    },
+    {
+      "index": 17,
+      "start_seconds": 425.0,
+      "end_seconds": 450.0,
+      "text": "They connect with the crippled sieve cells via tiny channels and start maintaining them, sending over energy, instructions or repairing them if needed. Running along the entire tree, these two teams form a tiny and very thin layer of living sugar pipelines and signal cables that stretch throughout the entire body, providing food and information wherever it's needed in the tree.",
+      "processing_seconds": 8.354004007999947
+    },
+    {
+      "index": 18,
+      "start_seconds": 450.0,
+      "end_seconds": 475.0,
+      "text": "are parenchyma cells, the silent workers of the tree that are carrying out essential labor in the background. Some are like mini pantries that store nutrients, sugars or water that the tree uses to survive the winter when it's unable to produce food. Others are like mini healers that can repair damage, while some go on the offensive and create toxins and antifungal bioweapons to kill intruders. On top of the flow M sits another layer of stan.",
+      "processing_seconds": 10.89488717900008
+    },
+    {
+      "index": 19,
+      "start_seconds": 475.0,
+      "end_seconds": 500.0,
+      "text": "stem cells. They're producing a second conveyor belt of death, moving outside. Special cells grow from this layer, and as they mature, just like the xylem cells in the center, they kill themselves for the team, turning into a hard guard wall. The bark. Just like your skin, it protects the tiny living layer from damage, parasites and invaders. So, what is a tree?",
+      "processing_seconds": 12.852701530999866
+    },
+    {
+      "index": 20,
+      "start_seconds": 500.0,
+      "end_seconds": 525.0,
+      "text": "part of the stem is really just this extremely thin and tiny layer, a few millimetres thick, sitting on a thick mountain of cell corpses, surrounded by another layer of cell corpses. The vast majority of the biomass of a tree is dead. This is also why you really shouldn't damage the bark of trees, because while it seems you're only doing a little damage, you're actually killing the living part of the tree.",
+      "processing_seconds": 12.05048264800007
+    },
+    {
+      "index": 21,
+      "start_seconds": 525.0,
+      "end_seconds": 550.0,
+      "text": "After tree is stopped by droughts, diseases, storms or a human axe, this system of being mostly dead kind of makes trees potentially immortal. They don't age like we do. In principle, they could grow this way nearly forever. Which is why we still have trees around that were born when the Egyptians started building their first pyramid 5,000 years ago. Ready, what kills a tree is the world around it?",
+      "processing_seconds": 12.385602010999946
+    },
+    {
+      "index": 22,
+      "start_seconds": 550.0,
+      "end_seconds": 575.0,
+      "text": "These are not a real biological category, but one of the most successful ideas life has ever had, and many different species developed on their own. These plants won the battle for the sky, solved every challenge that had kept plants small and fragile, and they took over the planet in a few million years, even today three trillion of them cast their majestic shadows. But we've barely covered half of it.",
+      "processing_seconds": 9.374073238999927
+    },
+    {
+      "index": 23,
+      "start_seconds": 575.0,
+      "end_seconds": 600.0,
+      "text": "On top and below, there are the crown and the root system. One building the tree from air, another mining minerals with acid and involved in complex communications with fungi and other trees. There's so much more to talk about, so we're already working on the next part. Stay tuned! Trees are truly incredible, but many of our most beautiful forests are disappearing fast and we're running out of time to protect one.",
+      "processing_seconds": 8.403292964999991
+    },
+    {
+      "index": 24,
+      "start_seconds": 600.0,
+      "end_seconds": 625.0,
+      "text": "That's why we've partnered up with Planet Wild. Planet Wild is a community-based nature protection organization that supports conservation projects around the globe. Every month, their community of over 15,000 members funds a new mission to restore nature. We at Kotskzart really value transparency. That's why we love that Planet Wild documents all their missions in video reports right here on YouTube.",
+      "processing_seconds": 10.210898760000191
+    },
+    {
+      "index": 25,
+      "start_seconds": 625.0,
+      "end_seconds": 650.0,
+      "text": "YouTube so you can see what your contribution helped achieve. Take that underground forest mission in Tanzania. While you think this desert is dead, there's actually life still here. Beneath the surface, underground forests are just waiting to grow. And with an ancient technique, Planet World helped make that happen. If you'd like to help our planet's ecosystems, consider joining Planet Wild. You can give any amount that feels right.",
+      "processing_seconds": 9.897405359000004
+    },
+    {
+      "index": 26,
+      "start_seconds": 650.0,
+      "end_seconds": 675.0,
+      "text": "to you. Every dollar counts. The first 100 people to sign up using our code \"KurzkaZart11\" will get their first month paid for by us. Just scan the QR code or click the link in the description. Make a tree friend and join the Planet Wild community today. If you want to see them in action first, check out their underground forest mission here.",
+      "processing_seconds": 10.160157454
+    },
+    {
+      "index": 27,
+      "start_seconds": 675.0,
+      "end_seconds": 687.032,
+      "text": "(music)",
+      "processing_seconds": 1.250324813999896
+    }
+  ],
+  "segments": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 5.0,
+      "text": "Every tree you've ever seen is dead.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 5.0,
+      "end_seconds": 10.0,
+      "text": "It turns out the alive part of a tree is just a tiny paper-thin strip of cells",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 10.0,
+      "end_seconds": 13.0,
+      "text": "trapped between a dead skeleton and dead outside.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 13.0,
+      "end_seconds": 16.0,
+      "text": "Trees are some of the most extreme beings on Earth,",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 16.0,
+      "end_seconds": 19.0,
+      "text": "with one of the most unique strategies in nature.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 19.0,
+      "end_seconds": 23.0,
+      "text": "On top of being mostly dead stuff, they forge their body out of thin air,",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 23.0,
+      "end_seconds": 25.0,
+      "text": "they mercilessly...",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 25.0,
+      "end_seconds": 30.759999752044678,
+      "text": "crush rocks with acid and they have an internal negative pressure that would kill you instantly.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 30.759999752044678,
+      "end_seconds": 35.47999954223633,
+      "text": "So how do trees actually work? Let's go back to the beginning.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 36.359999656677246,
+      "end_seconds": 38.11999988555908,
+      "text": "The Ancient Battle for the Sky",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 39.0,
+      "end_seconds": 43.47999954223633,
+      "text": "For over a billion years, the ancestors of plants only inhabited the sun-drenched",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 43.47999954223633,
+      "end_seconds": 48.920000076293945,
+      "text": "surfaces of the oceans. Their bodies were thin and delicate and absorbed water straight through",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 48.920000076293945,
+      "end_seconds": 48.920000076293945,
+      "text": "their surfaces,",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 50.0,
+      "end_seconds": 55.480000019073486,
+      "text": "getting their energy through photosynthesis, forging sunlight, carbon dioxide and water",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 55.480000019073486,
+      "end_seconds": 62.84000015258789,
+      "text": "into sugar. But about 470 million years ago, they decided to conquer a hostile alien planet,",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 62.84000015258789,
+      "end_seconds": 68.39999961853027,
+      "text": "the land. Like green rugs with ambition, these plant ancestors began clinging to the",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 68.39999961853027,
+      "end_seconds": 73.43999862670898,
+      "text": "ground wherever it was wet and damp. But now, with solid ground beneath and no ability",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 75.0,
+      "end_seconds": 78.19999980926514,
+      "text": "The mansion became a place of intense warfare.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 78.19999980926514,
+      "end_seconds": 81.92000007629395,
+      "text": "Up, the higher they grew, the more sudden they would get",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 81.92000007629395,
+      "end_seconds": 84.39999961853027,
+      "text": "while starving their competition below.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 84.39999961853027,
+      "end_seconds": 86.55999946594238,
+      "text": "Height became a deadly weapon.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 86.55999946594238,
+      "end_seconds": 89.59999942779541,
+      "text": "The battle for the sky had begun.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 89.59999942779541,
+      "end_seconds": 92.95999908447266,
+      "text": "Until now, plants were built mostly from cellulose,",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 92.95999908447266,
+      "end_seconds": 95.23999977111816,
+      "text": "which was great for shape, but not for strength,",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 95.23999977111816,
+      "end_seconds": 97.43999862670898,
+      "text": "which limited how tall they could grow.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 97.43999862670898,
+      "end_seconds": 100.0,
+      "text": "Over dozens of millions of years of evolutionary warfare.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 100.0,
+      "end_seconds": 104.7999997138977,
+      "text": "where a group of plants developed one of life's greatest breakthroughs, Lignin.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 104.7999997138977,
+      "end_seconds": 108.15999984741211,
+      "text": "Lignin is a macro molecule made of ring-shaped structures.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 108.15999984741211,
+      "end_seconds": 112.23999977111816,
+      "text": "It's rigid, tough, waterproof, and incredibly hard to break down.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 112.23999977111816,
+      "end_seconds": 114.47999954223633,
+      "text": "Concrete in a world made of jelly.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 114.47999954223633,
+      "end_seconds": 116.8799991607666,
+      "text": "It filled gaps between cellulose threads,",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 116.8799991607666,
+      "end_seconds": 119.35999870300293,
+      "text": "stiffening and locking everything into place.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 119.35999870300293,
+      "end_seconds": 121.84000015258789,
+      "text": "Lignin gave plants the strength to grow taller",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 121.84000015258789,
+      "end_seconds": 124.0,
+      "text": "and claimed the sun for themselves.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 124.0,
+      "end_seconds": 124.8799991607666,
+      "text": "But of course,",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 125.0,
+      "end_seconds": 129.5199999809265,
+      "text": "Now they were competing with each other, which must have been really annoying for them.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 129.5199999809265,
+      "end_seconds": 134.47999954223633,
+      "text": "So as more millions of years passed, some plants just went all in on lignin and produced",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 134.47999954223633,
+      "end_seconds": 138.8400001525879,
+      "text": "more and more of it, becoming stiffer, harder and stronger.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 138.8400001525879,
+      "end_seconds": 144.68000030517578,
+      "text": "Until one day, around 385 million years ago, they got the biological equivalent to steel",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 144.68000030517578,
+      "end_seconds": 147.60000038146973,
+      "text": "reinforced concrete would.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 147.60000038146973,
+      "end_seconds": 150.0,
+      "text": "More on it later, but with this magic material,",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 150.0,
+      "end_seconds": 155.59999990463257,
+      "text": "the first trees emerged. Almost immediately, they became the largest living beings alive,",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 155.59999990463257,
+      "end_seconds": 159.8400001525879,
+      "text": "shooting up to 20 metres high into the sky, and they only got bigger from here.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 160.55999946594238,
+      "end_seconds": 166.79999923706055,
+      "text": "But this enormous size created extremely hard problems. How do you get water from the ground up",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 166.79999923706055,
+      "end_seconds": 172.0,
+      "text": "to the green parts that do the actual photosynthesis, and how do you get the sugar they produce down",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 172.0,
+      "end_seconds": 175.0,
+      "text": "to the cells that keep you up there? On the scale…",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 175.0,
+      "end_seconds": 179.55999994277954,
+      "text": "of a cell, a distance of a few meters is like you're working in Britain while your",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 179.55999994277954,
+      "end_seconds": 186.4399995803833,
+      "text": "lunchbox is in Egypt and your drink in New York. How do you not die? So trees came up",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 186.4399995803833,
+      "end_seconds": 192.11999893188477,
+      "text": "with one of the most amazing ways any organism grows and became nearly immortal by accident.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 193.0,
+      "end_seconds": 199.79999923706055,
+      "text": "A conveyor belt of death. Let's slice an ancient tree in half and get to the heart running it all.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 200.0,
+      "end_seconds": 205.87999963760376,
+      "text": "The cambium, a razor-thin, circular zone, just a few stem cells wide.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 205.87999963760376,
+      "end_seconds": 210.80000019073486,
+      "text": "These stem cells grow inward and outwards, turning into two groups of specialists.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 210.80000019073486,
+      "end_seconds": 214.7199993133545,
+      "text": "The inward specialists are on a conveyor belt of death, the xylem.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 214.7199993133545,
+      "end_seconds": 218.73999977111816,
+      "text": "With each new division, it's pushing the cambium outwards, making the tree thicker the",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 218.73999977111816,
+      "end_seconds": 220.29999923706055,
+      "text": "older it gets.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 220.29999923706055,
+      "end_seconds": 220.29999923706055,
+      "text": "As the xylem cells mature, their lignin production goes into overdrive, and they",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 225.0,
+      "end_seconds": 229.31999969482422,
+      "text": "become hard, like a muscle slowly transforming into bone.",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 229.31999969482422,
+      "end_seconds": 233.7200002670288,
+      "text": "They begin to hollow themselves out, shedding everything that once made them alive, and",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 233.7200002670288,
+      "end_seconds": 235.07999992370605,
+      "text": "then they die.",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 235.07999992370605,
+      "end_seconds": 239.03999996185303,
+      "text": "What's left is a corpse, a hard, empty tube.",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 239.03999996185303,
+      "end_seconds": 244.39999961853027,
+      "text": "As the tree grows year after year, new corpses are layered on old corpses forming rings of",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 244.39999961853027,
+      "end_seconds": 249.7199993133545,
+      "text": "hardened dead tissue, a graveyard of trillions of plant bones.",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 250.0,
+      "end_seconds": 255.40000009536743,
+      "text": "is what we call wood. Stacked together, they form a giant network of pipes that stretches",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 255.40000009536743,
+      "end_seconds": 260.4399995803833,
+      "text": "the whole length of the tree. This network uses the chemical properties of water and",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 260.4399995803833,
+      "end_seconds": 265.67999935150146,
+      "text": "a few other tricks to move it with incredible efficiency. Water molecules are, for lack",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 265.67999935150146,
+      "end_seconds": 271.7199993133545,
+      "text": "of a better word, sticky, like tiny magnets, and naturally cling tightly to each other.",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 271.7199993133545,
+      "end_seconds": 275.0,
+      "text": "When one moves, it pulls the next along with it, like pulling on a rope.",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 275.0,
+      "end_seconds": 280.6799998283386,
+      "text": "In trees, this rope starts in the roots and ends in the leaves that bathe in the warmth",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 280.6799998283386,
+      "end_seconds": 281.6799998283386,
+      "text": "from the sun.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 281.6799998283386,
+      "end_seconds": 287.0,
+      "text": "Here, the heat from the sun evaporates 95% of the water that got sucked into the roots",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 287.0,
+      "end_seconds": 291.76000022888184,
+      "text": "from billions of tiny pores, releasing a constant invisible mist of water molecules",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 291.76000022888184,
+      "end_seconds": 293.7799987792969,
+      "text": "around the crown of the tree.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 293.7799987792969,
+      "end_seconds": 299.1599998474121,
+      "text": "This process, called \"transpiration in plants\", creates tension on the rope of water molecules,",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 299.1599998474121,
+      "end_seconds": 299.92000007629395,
+      "text": "stretching and living.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 300.0,
+      "end_seconds": 304.69999980926514,
+      "text": "lifting the entire column upwards all the way from the roots to the leaves.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 304.69999980926514,
+      "end_seconds": 310.3999996185303,
+      "text": "This pull is so insanely strong that it can lift water over 100 meters, which requires",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 310.3999996185303,
+      "end_seconds": 315.2799997329712,
+      "text": "sucking forces equivalent to the pressure of dozens of atmospheres, as much as the",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 315.2799997329712,
+      "end_seconds": 318.7199993133545,
+      "text": "crushing pressure hundreds of meters deep in the ocean.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 318.7199993133545,
+      "end_seconds": 322.63999938964844,
+      "text": "Nothing humans have ever built comes even close to this power.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 322.63999938964844,
+      "end_seconds": 325.0,
+      "text": "Even our best machines can't pull water higher than the other.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 325.0,
+      "end_seconds": 330.039999961853,
+      "text": "about 10 metres because the negative pressure required to pull hard enough makes it boil.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 330.039999961853,
+      "end_seconds": 335.4799995422363,
+      "text": "But the water pipes of trees are so tiny and narrow, almost perfectly airtight that",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 335.4799995422363,
+      "end_seconds": 340.67999935150146,
+      "text": "despite the insane suction pressure inside a tree, water stays liquid and reaches the",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 340.67999935150146,
+      "end_seconds": 342.0,
+      "text": "top.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 342.0,
+      "end_seconds": 347.35999870300293,
+      "text": "As the tree ages, old zylom cells eventually stop working and fill up with resins and",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 347.35999870300293,
+      "end_seconds": 349.3999996185303,
+      "text": "other protective substances.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 349.3999996185303,
+      "end_seconds": 349.95999908447266,
+      "text": "Slowly.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 350.0,
+      "end_seconds": 357.0,
+      "text": "They turn into hardwood, a dense chemically fortified core that's extremely resistant to decay.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 357.0,
+      "end_seconds": 360.0,
+      "text": "The core of a mighty tree.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 360.0,
+      "end_seconds": 363.0,
+      "text": "But water is only one half of the story.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 363.0,
+      "end_seconds": 368.0,
+      "text": "The sugar produced in the sky needs to be transported to nourish cells down below.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 368.0,
+      "end_seconds": 374.0,
+      "text": "And cells from the roots of the leaves need to coordinate and exchange information about damage and growth.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 375.0,
+      "end_seconds": 379.40000009536743,
+      "text": "the cambium stem cells that grow outwards, the flow in.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 379.40000009536743,
+      "end_seconds": 382.3199996948242,
+      "text": "The tiny living part of the tree.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 382.3199996948242,
+      "end_seconds": 387.19999980926514,
+      "text": "As the cells of the flow in grow outwards, they separate into three teams and make a",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 387.19999980926514,
+      "end_seconds": 389.19999980926514,
+      "text": "brutal compromise.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 389.19999980926514,
+      "end_seconds": 395.11999893188477,
+      "text": "The first group of sieve cells and their grim face is to become a living transport system,",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 395.11999893188477,
+      "end_seconds": 398.23999977111816,
+      "text": "although living is not exactly right.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 400.0,
+      "end_seconds": 405.19999980926514,
+      "text": "destroy themselves, digest their organelles and even their nuclei that houses their genetic",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 405.19999980926514,
+      "end_seconds": 406.19999980926514,
+      "text": "code.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 406.19999980926514,
+      "end_seconds": 410.63999938964844,
+      "text": "At the same time, they hollow themselves out, connecting to the sieve cells above and",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 410.63999938964844,
+      "end_seconds": 411.80000019073486,
+      "text": "below them.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 411.80000019073486,
+      "end_seconds": 417.1999988555908,
+      "text": "This goes on until they're a sad shadow of living beings, a drooling, living tool without",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 417.1999988555908,
+      "end_seconds": 421.0,
+      "text": "a brain or arms, unable to support themselves.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 421.0,
+      "end_seconds": 424.8799991607666,
+      "text": "Only the second group, their companion cells, keeps them alive.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 425.0,
+      "end_seconds": 430.6799998283386,
+      "text": "They connect with the crippled sieve cells via tiny channels and start maintaining them,",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 430.6799998283386,
+      "end_seconds": 434.5599994659424,
+      "text": "sending over energy, instructions or repairing them if needed.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 434.5599994659424,
+      "end_seconds": 439.6199998855591,
+      "text": "Running along the entire tree, these two teams form a tiny and very thin layer of living",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 439.6199998855591,
+      "end_seconds": 445.79999923706055,
+      "text": "sugar pipelines and signal cables that stretch throughout the entire body, providing food",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 445.79999923706055,
+      "end_seconds": 449.1999988555908,
+      "text": "and information wherever it's needed in the tree.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 450.0,
+      "end_seconds": 454.19999980926514,
+      "text": "are parenchyma cells, the silent workers of the tree that are carrying out essential",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 454.19999980926514,
+      "end_seconds": 458.960000038147,
+      "text": "labor in the background. Some are like mini pantries that store nutrients, sugars or",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 458.960000038147,
+      "end_seconds": 464.0,
+      "text": "water that the tree uses to survive the winter when it's unable to produce food.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 464.0,
+      "end_seconds": 468.1999988555908,
+      "text": "Others are like mini healers that can repair damage, while some go on the offensive and",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 468.1999988555908,
+      "end_seconds": 474.11999893188477,
+      "text": "create toxins and antifungal bioweapons to kill intruders. On top of the flow M sits",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 474.11999893188477,
+      "end_seconds": 475.0,
+      "text": "another layer of stan.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 475.0,
+      "end_seconds": 481.039999961853,
+      "text": "stem cells. They're producing a second conveyor belt of death, moving outside. Special cells",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 481.039999961853,
+      "end_seconds": 485.2799997329712,
+      "text": "grow from this layer, and as they mature, just like the xylem cells in the center, they",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 485.2799997329712,
+      "end_seconds": 491.23999977111816,
+      "text": "kill themselves for the team, turning into a hard guard wall. The bark. Just like your",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 491.23999977111816,
+      "end_seconds": 498.35999870300293,
+      "text": "skin, it protects the tiny living layer from damage, parasites and invaders. So, what is",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 498.35999870300293,
+      "end_seconds": 499.7199993133545,
+      "text": "a tree?",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 500.0,
+      "end_seconds": 505.71999979019165,
+      "text": "part of the stem is really just this extremely thin and tiny layer, a few millimetres thick,",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 505.71999979019165,
+      "end_seconds": 511.1599998474121,
+      "text": "sitting on a thick mountain of cell corpses, surrounded by another layer of cell corpses.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 511.1599998474121,
+      "end_seconds": 517.0,
+      "text": "The vast majority of the biomass of a tree is dead. This is also why you really shouldn't",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 517.0,
+      "end_seconds": 521.1199989318848,
+      "text": "damage the bark of trees, because while it seems you're only doing a little damage,",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 521.1199989318848,
+      "end_seconds": 524.6000003814697,
+      "text": "you're actually killing the living part of the tree.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 525.0,
+      "end_seconds": 530.2599997520447,
+      "text": "After tree is stopped by droughts, diseases, storms or a human axe, this system of being",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 530.2599997520447,
+      "end_seconds": 533.9399995803833,
+      "text": "mostly dead kind of makes trees potentially immortal.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 533.9399995803833,
+      "end_seconds": 535.7799997329712,
+      "text": "They don't age like we do.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 535.7799997329712,
+      "end_seconds": 539.039999961853,
+      "text": "In principle, they could grow this way nearly forever.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 539.039999961853,
+      "end_seconds": 542.7399997711182,
+      "text": "Which is why we still have trees around that were born when the Egyptians started building",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 542.7399997711182,
+      "end_seconds": 546.0599994659424,
+      "text": "their first pyramid 5,000 years ago.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 546.0599994659424,
+      "end_seconds": 549.9799995422363,
+      "text": "Ready, what kills a tree is the world around it?",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 550.0,
+      "end_seconds": 554.5599999427795,
+      "text": "These are not a real biological category, but one of the most successful ideas life",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 554.5599999427795,
+      "end_seconds": 558.7200002670288,
+      "text": "has ever had, and many different species developed on their own.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 558.7200002670288,
+      "end_seconds": 563.3599996566772,
+      "text": "These plants won the battle for the sky, solved every challenge that had kept plants",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 563.3599996566772,
+      "end_seconds": 569.079999923706,
+      "text": "small and fragile, and they took over the planet in a few million years, even today",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 569.079999923706,
+      "end_seconds": 573.1199989318848,
+      "text": "three trillion of them cast their majestic shadows.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 573.1199989318848,
+      "end_seconds": 575.0,
+      "text": "But we've barely covered half of it.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 575.0,
+      "end_seconds": 578.2799999713898,
+      "text": "On top and below, there are the crown and the root system.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 578.2799999713898,
+      "end_seconds": 583.0000002384186,
+      "text": "One building the tree from air, another mining minerals with acid and involved in complex",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 583.0,
+      "end_seconds": 585.6399993896484,
+      "text": "communications with fungi and other trees.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 585.6399993896484,
+      "end_seconds": 591.3199996948242,
+      "text": "There's so much more to talk about, so we're already working on the next part.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 591.3199996948242,
+      "end_seconds": 593.3199996948242,
+      "text": "Stay tuned!",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 593.3199996948242,
+      "end_seconds": 598.0399990081787,
+      "text": "Trees are truly incredible, but many of our most beautiful forests are disappearing fast",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 598.0399990081787,
+      "end_seconds": 599.9599990844727,
+      "text": "and we're running out of time to protect one.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 600.0,
+      "end_seconds": 604.0,
+      "text": "That's why we've partnered up with Planet Wild.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 604.0,
+      "end_seconds": 608.960000038147,
+      "text": "Planet Wild is a community-based nature protection organization that supports conservation projects",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 608.960000038147,
+      "end_seconds": 610.5999994277954,
+      "text": "around the globe.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 610.5999994277954,
+      "end_seconds": 616.5,
+      "text": "Every month, their community of over 15,000 members funds a new mission to restore nature.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 616.5,
+      "end_seconds": 620.079999923706,
+      "text": "We at Kotskzart really value transparency.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 620.079999923706,
+      "end_seconds": 624.3599987030029,
+      "text": "That's why we love that Planet Wild documents all their missions in video reports right",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 624.3599987030029,
+      "end_seconds": 625.0,
+      "text": "here on YouTube.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 625.0,
+      "end_seconds": 628.7999999523163,
+      "text": "YouTube so you can see what your contribution helped achieve.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 628.7999999523163,
+      "end_seconds": 632.1199998855591,
+      "text": "Take that underground forest mission in Tanzania.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 632.1199998855591,
+      "end_seconds": 636.1599998474121,
+      "text": "While you think this desert is dead, there's actually life still here.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 636.1599998474121,
+      "end_seconds": 640.2599992752075,
+      "text": "Beneath the surface, underground forests are just waiting to grow.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 640.2599992752075,
+      "end_seconds": 644.0399990081787,
+      "text": "And with an ancient technique, Planet World helped make that happen.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 644.0399990081787,
+      "end_seconds": 648.519998550415,
+      "text": "If you'd like to help our planet's ecosystems, consider joining Planet Wild.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 648.519998550415,
+      "end_seconds": 650.0,
+      "text": "You can give any amount that feels right.",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 650.0,
+      "end_seconds": 656.1599998474121,
+      "text": "to you. Every dollar counts. The first 100 people to sign up using our code \"KurzkaZart11\"",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 656.1599998474121,
+      "end_seconds": 661.5599994659424,
+      "text": "will get their first month paid for by us. Just scan the QR code or click the link in",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 661.5599994659424,
+      "end_seconds": 666.8400001525879,
+      "text": "the description. Make a tree friend and join the Planet Wild community today. If you",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 666.8400001525879,
+      "end_seconds": 671.0399990081787,
+      "text": "want to see them in action first, check out their underground forest mission here.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 675.0,
+      "end_seconds": 685.0,
+      "text": "(music)",
+      "chunk": 27,
+      "verified": false
+    }
+  ],
+  "status": "complete_unverified",
+  "review_status": "unverified_machine_recognition",
+  "limitations": "ASR can mishear names, invent words or misplace segment timing. Fixed 25s chunk boundaries can split words. Segment times are estimates, not exact word alignment. Direct audition is unavailable; this is not a listening review.",
+  "voice_generation_requests": 0
+}

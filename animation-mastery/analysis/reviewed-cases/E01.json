@@ -1,0 +1,195 @@
+{
+  "video_id": "reference_3dab4435d188",
+  "shot_id": "case_E01",
+  "case_id": "E01",
+  "case_name": "fire-circle-secondary-motion",
+  "source_sha256": "3dab4435d1882835d9f3798f7c367daa4b1388f9342649b26a3b250f1209acf5",
+  "start_frame": 24960,
+  "end_frame": 25080,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 416.0,
+  "end_pts_seconds": 418.0,
+  "fps": 60,
+  "review_scope": "consecutive_frame_case_window",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "One central fire unifies a social group while additional people become visible around the perimeter.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "bright central fire",
+      "seated inner group",
+      "dimmer outer people"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "history.fire-group",
+        "description": "Several rounded human figures arranged around a fire; inner people have warmer illumination.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "history.fire",
+        "description": "Central yellow/orange fire and rising warm sparks.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "history.vessels",
+        "description": "Small green vessels near seated people.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Dark violet field, warm central ground pool, dim peripheral silhouettes.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [
+    {
+      "object_id": "history.fire-group",
+      "description": "Several rounded human figures arranged around a fire; inner people have warmer illumination.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "history.fire",
+      "description": "Central yellow/orange fire and rising warm sparks.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "history.vessels",
+      "description": "Small green vessels near seated people.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "e01.background",
+      "description": "Dark violet field, warm central ground pool, dim peripheral silhouettes.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [
+    {
+      "object_ids": [
+        "history.fire-group",
+        "history.fire",
+        "history.vessels"
+      ],
+      "start_frame": 24960,
+      "end_frame": 25080,
+      "purpose": "One central fire unifies a social group while additional people become visible around the perimeter.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "phases": [
+        {
+          "start_frame": 24960,
+          "end_frame": 25080,
+          "phase": "observed interval",
+          "pose_or_state": "Flame shape and rising sparks change between consecutive frames. Outer figures grow more visible during the interval while the inner circle remains the primary focus. Small character pose changes do not all occur as one simultaneous uniform sway."
+        }
+      ],
+      "pivot_estimate": null,
+      "interpolation_hypothesis": null,
+      "path_hypothesis": null,
+      "limitations": "Exact crowd count and each person’s rig/action timing have not been individually tracked."
+    }
+  ],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        24960,
+        25080
+      ],
+      "limitations": "Exact crowd count and each person’s rig/action timing have not been individually tracked."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        24960,
+        25080
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Flame shape and rising sparks change between consecutive frames.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        24960,
+        25080
+      ]
+    },
+    {
+      "statement": "Outer figures grow more visible during the interval while the inner circle remains the primary focus.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        24960,
+        25080
+      ]
+    },
+    {
+      "statement": "Small character pose changes do not all occur as one simultaneous uniform sway.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        24960,
+        25080
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 24960,
+      "pts_seconds": 416.0,
+      "file": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000000.png"
+    },
+    {
+      "frame_index": 25020,
+      "pts_seconds": 417.0,
+      "file": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-003.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000060.png"
+    },
+    {
+      "frame_index": 25079,
+      "pts_seconds": 417.98333333333335,
+      "file": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-005.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/frame-000119.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/evidence.json",
+  "source_technique_inference_limitations": "Exact crowd count and each person’s rig/action timing have not been individually tracked.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-001.jpg",
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-002.jpg",
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-003.jpg",
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-004.jpg",
+    "analysis/keyframes/reference_3dab4435d188/fire-circle-secondary-motion/consecutive-005.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

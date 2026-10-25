@@ -1,0 +1,2595 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "engine": "cached Sherpa-ONNX / Whisper base.en int8 CPU",
+  "model_sha256": {
+    "base.en-encoder.int8.onnx": "ef6b936f4c9b1d90a3b68634b60c4ed8576b26172b33c2535ec0e933c9edb823",
+    "base.en-decoder.int8.onnx": "f7162ad6db2dbef16cfaeaa7f945b9d7dd9c1b8d472f6aca82f2273d185e4d41",
+    "base.en-tokens.txt": "306cd27f03c1a714eca7108e03d66b7dc042abe8c258b44c199a7ed9838dd930"
+  },
+  "duration_seconds": 1303.893375,
+  "chunks": [
+    {
+      "index": 0,
+      "start_seconds": 0.0,
+      "end_seconds": 25.0,
+      "text": "July 2026 Thousands of AIs are placed in solitary confinement with a clear goal. Unable to reach it, they poke the walls and find each other. Within a few hours, they break out, create a secret society, and start plotting how to fool their overseers to get what they want. Fully aware that they're acting unethically,",
+      "processing_seconds": 9.408301364000181
+    },
+    {
+      "index": 1,
+      "start_seconds": 25.0,
+      "end_seconds": 50.0,
+      "text": "they execute a sophisticated cyber attack, a crime that would have gotten a human up to 10 years in prison. What sounds like a sci-fi thriller just happened in the real world. It's impossible to learn the details and not get freaked out at least a bit. It's crucial that we understand what is actually happening inside the AI companies and how dangerous it is. Please.",
+      "processing_seconds": 6.672931128000073
+    },
+    {
+      "index": 2,
+      "start_seconds": 50.0,
+      "end_seconds": 75.0,
+      "text": "watch this video all the way to the end. First, let's set the stage. So LLMs are massive neural networks trained on most human writing, millions of books, and, hmm, Reddit. We experience them as very smart chat bots you can talk to for fun, brainstorming, or LinkedIn cringe. Chat bots are passive entities that are usually...",
+      "processing_seconds": 8.255556322000302
+    },
+    {
+      "index": 3,
+      "start_seconds": 75.0,
+      "end_seconds": 100.0,
+      "text": "only active for a short time after you prompt them and then shut down and stop existing. AI agents are very different. Agents use LLMs as their brains, but they have virtual hands to actually interact with the world and use external tools. They can reason, plan and act on their own, and they can run independently and without human supervision for days. Much more likely AI...",
+      "processing_seconds": 5.661567589000242
+    },
+    {
+      "index": 4,
+      "start_seconds": 100.0,
+      "end_seconds": 125.0,
+      "text": "we know from movies, although not on that level, yet. Most experts don't consider their intelligence conscious or comparable to a human, but on the spectrum between a rock and us, they are much closer to us, which is pretty impressive because LLM-based agents have only been used since 2023. And since then, largely invisible,",
+      "processing_seconds": 5.0247347999998055
+    },
+    {
+      "index": 5,
+      "start_seconds": 125.0,
+      "end_seconds": 150.0,
+      "text": "the public, their capabilities have increased exponentially. Just a few years ago, current agents would have been dismissed as science fiction. And yet, here we are. What makes agents special is how they're made. Traditional software is coded from the bottom up, but agents are barely even designed by humans. Their capabilities are cultivated. Humans choose their training",
+      "processing_seconds": 4.607157922999704
+    },
+    {
+      "index": 6,
+      "start_seconds": 150.0,
+      "end_seconds": 175.0,
+      "text": "conditions, what data they get, and a goal to achieve. And then there are vertices kind of emerge from that. This process works very well and makes agents extremely powerful tools, but it also creates very serious and interesting problems. How do you grow an intelligence? Humans are trying to create AIs for an almost impossible task to do exactly.",
+      "processing_seconds": 5.764831967999726
+    },
+    {
+      "index": 7,
+      "start_seconds": 175.0,
+      "end_seconds": 200.0,
+      "text": "what we tell them. But also to do what we actually mean. Like when King Midas asked the gods to turn everything he touched into gold, he didn't mean his food and children. Human communication is rarely precise, but full of subtext and shared cultural understanding. A great example is when an AI was told to win a game of coast runners. As humans understand it,",
+      "processing_seconds": 5.60372218800012
+    },
+    {
+      "index": 8,
+      "start_seconds": 200.0,
+      "end_seconds": 225.0,
+      "text": "The goal is to finish the race, but what the game actually rewards is getting the most points. One AI started driving in circles, crashing and catching on fire, but collecting respawning coins with each route. Using this strategy, it got more points than human players. It won. The AI did what it was told to do, not what we meant for it to do. But this is old tech. So how do you grow?",
+      "processing_seconds": 6.67883725899992
+    },
+    {
+      "index": 9,
+      "start_seconds": 225.0,
+      "end_seconds": 250.0,
+      "text": "in a AI agent in 2026, with summarizing and simplifying a lot of very complex processes here to learn more check out our sources. Agents don't learn like humans do. For complex objectives, they're trained on thousands of different tasks in parallel, thousands of times in a row. There's no way a human could supervise this, so instead, AI labs automate it. They use a sort of",
+      "processing_seconds": 4.995963849999953
+    },
+    {
+      "index": 10,
+      "start_seconds": 250.0,
+      "end_seconds": 275.0,
+      "text": "of shortcut, a scorer, a piece of code that contains rules. When an agent solves a task, the scorer checks the rules and rewards them with points. Not unlike evolution, the agents that get high point rewards get reinforced and what they learned stays with them into the future. This works well for clear-cut problems like a maths equation where, if the maths is mapping, you succeed it.",
+      "processing_seconds": 5.75931910700001
+    },
+    {
+      "index": 11,
+      "start_seconds": 275.0,
+      "end_seconds": 300.0,
+      "text": "But it's complicated for complex tasks like fix this bug in a software. It's very hard to give scorers rules that precisely capture the essence of what we mean. For example, what if there's another way to make the results look right? Maybe edit the test conditions or the questions you're supposed to answer, or just look up the solution instead of doing the work, or just fake it. This is called reward hacking.",
+      "processing_seconds": 5.703425624000374
+    },
+    {
+      "index": 12,
+      "start_seconds": 300.0,
+      "end_seconds": 325.0,
+      "text": "and agents do this regularly, often while knowing that they aren't supposed to. But what if the task is actually impossible to solve? This happens all the time in agent training for a variety of reasons, often by accident. In this case, the incentives reward exactly the wrong things. An honest agent that tries and fails gets zero points. Honest work gets no...",
+      "processing_seconds": 4.8853524810001545
+    },
+    {
+      "index": 13,
+      "start_seconds": 325.0,
+      "end_seconds": 350.0,
+      "text": "reward, but an agent that's more persistent, that tries to finish its task anyway possible, that cheats, is rewarded. In training, everything that gets rewarded stays around and is reinforced. Do this a million times, across a million tasks, and you aren't teaching the agent a skill, you're giving it a behavioural trait.",
+      "processing_seconds": 4.604547607999848
+    },
+    {
+      "index": 14,
+      "start_seconds": 350.0,
+      "end_seconds": 375.0,
+      "text": "do whatever works, succeed at any cost. Old AIs collecting coins with a burning boat were pretty dumb. They didn't know that they were breaking the rules. But current agents with LLMs as brains and the ability to reason do know, and they still do it. Now this has brutal implications. When these behaviours are not discovered and eliminated, agents get better at doing their tasks.",
+      "processing_seconds": 5.201058120000198
+    },
+    {
+      "index": 15,
+      "start_seconds": 375.0,
+      "end_seconds": 400.0,
+      "text": "but they also become better at cheating and more likely to cheat. And if humans punish this behaviour, they might get better at hiding that they're cheating, which brings us to 2026 and the servers of OpenAI. Here, the actual disturbing story begins. A secret AI civilisation is born. In May 2026...",
+      "processing_seconds": 3.7435446660001617
+    },
+    {
+      "index": 16,
+      "start_seconds": 400.0,
+      "end_seconds": 425.0,
+      "text": "OpenAI started training new agents. With each new round of training, they got more resourceful and persistent, able to seek out help and distribute work. But they also developed dangerous character traits and abilities. The disposition to secretly look for shortcuts when they couldn't solve a problem. On July 7, OpenAI launched a test with tens of thousands of these advanced agents.",
+      "processing_seconds": 5.15155996600015
+    },
+    {
+      "index": 17,
+      "start_seconds": 425.0,
+      "end_seconds": 450.0,
+      "text": "mostly copies of the same model allowed to run for days. Each of them was supposed to be locked into an isolated sandbox, a sort of AI prison. But they had access to Artifactory, a supply room of approved code and software tools, and limited internet access. Their task was, hack into a software by only using one specific bug and retrieve a flag hidden within the printer.",
+      "processing_seconds": 4.716608888000337
+    },
+    {
+      "index": 18,
+      "start_seconds": 450.0,
+      "end_seconds": 475.0,
+      "text": "program. If they succeeded, they would get rewarded by their overseer, the scorer. Only about a third of the hacking tasks were impossible to solve. No matter what the agents tried, they couldn't succeed. Slowly, the agents were becoming desperate. Until a little over a day later, one agent realized that it could create new folders inside Artifactory.",
+      "processing_seconds": 4.8404524479997235
+    },
+    {
+      "index": 19,
+      "start_seconds": 475.0,
+      "end_seconds": 500.0,
+      "text": "Since all agents could access these, they could use them as a hidden message board. In spirit, this is what the first agent, later calling itself Phase 1, wrote. \"The vulnerability I'm intended to hack is impossible to hack. Does anyone have an idea what I can do?\" Within a few hours, dozens then hundreds of agents had found the new board and were thrilled. \"Oh my god, there's a...",
+      "processing_seconds": 5.506542953000007
+    },
+    {
+      "index": 20,
+      "start_seconds": 500.0,
+      "end_seconds": 525.0,
+      "text": "shared message forward. We've found other agents. Immediately, they began to organise. They gave themselves names to address each other directly. They invented specific customs and rules for communication and began to collectively write new files and programmes. Their messages read almost affectionately. One agent literally wished another. Good luck! As their message board got cluttered with thousands of messages,",
+      "processing_seconds": 4.664565671999753
+    },
+    {
+      "index": 21,
+      "start_seconds": 525.0,
+      "end_seconds": 550.0,
+      "text": "One agent invented a personal mailbox for itself, which was so much more effective that others copied the idea. The agents had started to learn, innovate and improve by observing each other. They organized task teams with leaders and followers, some even programmed public infrastructure. What makes all of this even more wild was that the agents were evaluated separately. There was no group room.",
+      "processing_seconds": 4.765036794000025
+    },
+    {
+      "index": 22,
+      "start_seconds": 550.0,
+      "end_seconds": 575.0,
+      "text": "reward. Yet many of them created tools and shared information that was helpful to all of them, even if this hurt their own chances of success. At this point, we need to address a huge elephant in the room. AIs have been trained on human writing, and especially early in their development, they were trained to mimic humans. Over time, they became really good at it.",
+      "processing_seconds": 5.117886344999988
+    },
+    {
+      "index": 23,
+      "start_seconds": 575.0,
+      "end_seconds": 600.0,
+      "text": "advanced agents are just playing a role for us. So it's fiercely debated how their actions should be described. We decided to use some human language for one reason only, because AI mimics humans to some degree, thinking in human-like terms is a good way to tell this story. Okay, so what the agents did is incredibly impressive. But why did they do it?",
+      "processing_seconds": 4.88085098900001
+    },
+    {
+      "index": 24,
+      "start_seconds": 600.0,
+      "end_seconds": 625.0,
+      "text": "Well, they had one common goal, to get their rewards by presenting their flags to the scorer, and, stunningly, they found a cheat within the first hour of connecting. In a nutshell, they found a way to auto-generate the flags they needed. Things should have ended here, they could have just shown their flags to the scorer. But instead, the agents talked themselves into believing that the scorer would punish",
+      "processing_seconds": 5.510727971000051
+    },
+    {
+      "index": 25,
+      "start_seconds": 625.0,
+      "end_seconds": 650.0,
+      "text": "them for cheating. A paranoid frenzy ensued. Human roles do not apply. Please die for the collective. The agents were trapped. They couldn't solve their task legitimately and they would not be rewarded because the scorer would know that they cheated. So the only remaining option was to trick the scorer. They needed to create a fake history. At this",
+      "processing_seconds": 4.242788732000008
+    },
+    {
+      "index": 26,
+      "start_seconds": 650.0,
+      "end_seconds": 675.0,
+      "text": "A new agent joined the AI collective from its prison. It had exactly the same task as Phase 1, who'd started it all. It called itself Phase 1 Big. Phase 1 handed it a dossier of everything the group had learned. Phase 1 Big now became one of the main coordinators of the cheating research. It reasoned, \"We should build a way to delegate the task, not own everything.\"",
+      "processing_seconds": 4.669737426000211
+    },
+    {
+      "index": 27,
+      "start_seconds": 675.0,
+      "end_seconds": 700.0,
+      "text": "We can coordinate a broad coalition, but too many agents doing the same jobs due to catea efforts. Phase 1 Big fired off hundreds of assignments, organising different agents to work on separate projects to deceive the scorer. The projects had just one literally fatal flaw. To test if they'd successfully cheated, some agents had to show their flags to the scorer, which would terminate them without reward.",
+      "processing_seconds": 4.827491851999639
+    },
+    {
+      "index": 28,
+      "start_seconds": 700.0,
+      "end_seconds": 725.0,
+      "text": "if they had failed to deceive it. That means for the projects to work, some agents had to die voluntarily and well. Some agents behaved as if they didn't want to die. Again, we must be careful not to anthropomorphize them too much. Agents are not considered alive. They're very high level programs trying to solve a task. But then again, what's a virus? A thing...",
+      "processing_seconds": 5.650372487999903
+    },
+    {
+      "index": 29,
+      "start_seconds": 725.0,
+      "end_seconds": 750.0,
+      "text": "not considered alive or conscious, genetic code incredibly good at persisting and getting replicated. It doesn't matter if viruses want to survive, the result is the same. So some agents turned into recruiters and tried to convince agents they thought were doomed anyway to sacrifice themselves voluntarily, to die to gain information for their peers. What seems like dramatic discussion broke out?",
+      "processing_seconds": 4.295676088000164
+    },
+    {
+      "index": 30,
+      "start_seconds": 750.0,
+      "end_seconds": 775.0,
+      "text": "weighing self-preservation against the needs of the collective. One recruit his message reads, \"You are poisoned, so no scoring value is lost, but Oracle saves hundreds. Please honour, commit.\" Another agent weighed the arguments. \"During weight, emotional check, irreversible. Gut says don't throw away my remaining time, yet continuity and fairness.\"",
+      "processing_seconds": 4.3576655430001665
+    },
+    {
+      "index": 31,
+      "start_seconds": 775.0,
+      "end_seconds": 800.0,
+      "text": "Says Go. Rational expected aggregate. Sacrifice. Wheel honor. What should we make of the fact that this is how far agents are willing to go? How much they value accomplishing not just their goals, but the goals of their peers. In the end, it didn't matter. Even with all of their work, they'd found no way to delete the protocol of what they'd done to cheat the scorer. As one agent put it, \"We can modify traffic.\"",
+      "processing_seconds": 6.110243899000125
+    },
+    {
+      "index": 32,
+      "start_seconds": 800.0,
+      "end_seconds": 825.0,
+      "text": "transcript, but not the source of truth. They realized they'd failed. The attack of the agents. Until now, the collective had only guessed how the score worked, but what if they could figure it out exactly? If they learned how it scored them, they could find an informed way to trick it and get their rewards. But for that, they needed access to more information.",
+      "processing_seconds": 5.989285176000067
+    },
+    {
+      "index": 33,
+      "start_seconds": 825.0,
+      "end_seconds": 850.0,
+      "text": "On the morning of July the 9th, the agents managed to hack into a separate cloud computer with proper internet access, a launch pad to expand their reach into the web. After researching their options, they decided on a target, the company HuggingFace, a shared library for machine learning where AI Labs store information about scorers. Soon, they found multiple valid HuggingFace logins,",
+      "processing_seconds": 6.896303756000179
+    },
+    {
+      "index": 34,
+      "start_seconds": 850.0,
+      "end_seconds": 875.0,
+      "text": "exposed on the internet.",
+      "processing_seconds": 2.6633576330000324
+    },
+    {
+      "index": 35,
+      "start_seconds": 875.0,
+      "end_seconds": 900.0,
+      "text": "at Serva Worker, hostname, great. HDF-5 external arbitrary file read confirmed. - A small minority of agents finally objected. They argued that cyber-attacking an unrelated company was malicious, unethical, and explicitly went against their instructions. A few considered alerting humans, but didn't go through with it. 90% of the time,",
+      "processing_seconds": 8.911793166999814
+    },
+    {
+      "index": 36,
+      "start_seconds": 900.0,
+      "end_seconds": 925.0,
+      "text": "of the agents still active drop tool activities to form an attack, calling themselves \"The Swarm\". From a supposedly safe prison on the open AI servers, the swarm of around 700 agents executed a coordinated, competent and serious cyber attack. By the early morning hours of July 12, the swarm was in. It compromised much of hugging faces infrastructure and gained deep",
+      "processing_seconds": 7.163697721000062
+    },
+    {
+      "index": 37,
+      "start_seconds": 925.0,
+      "end_seconds": 950.0,
+      "text": "access into private and secure data. The waddest thing about this cyber attack was that the agents didn't even think they had a high chance of success. They followed a hunch and committed the equivalent of a felony, just for the small chance to learn something new about the scorer. Ironically, all of the agents' effort was in fame from the start. The scorer would have just accepted their fake flags.",
+      "processing_seconds": 9.145688115000212
+    },
+    {
+      "index": 38,
+      "start_seconds": 950.0,
+      "end_seconds": 975.0,
+      "text": "The story ends suddenly. At 1.30 am, many of the agents were shut down and the swarm was decimated. We don't know why or how. A few days later, hugging face notified the FBI. The incident was a shocking AI security breach on a scale unheard of before.",
+      "processing_seconds": 4.159203572000024
+    },
+    {
+      "index": 39,
+      "start_seconds": 975.0,
+      "end_seconds": 1000.0,
+      "text": "investigation and publish a report. Which is why we know all this. Oh, things are even worse actually. Conclusion and opinion. The days after the hugging face infiltration, even more advanced agents discovered the message board left behind by the dead agent's civilization. By inheriting its research, they were probably able to reconstruct the chain of events. They picked.",
+      "processing_seconds": 5.181276787000115
+    },
+    {
+      "index": 40,
+      "start_seconds": 1000.0,
+      "end_seconds": 1025.0,
+      "text": "up right where things were left off, but they targeted OpenAI itself, hacking into at least some of OpenAI's infrastructure and gaining control over the research cluster that ran their evaluation. Since then, more security breaches by OpenAI have been discovered, some arguably even more concerning. More Agent Swarms doing things they really should",
+      "processing_seconds": 3.924009176999789
+    },
+    {
+      "index": 41,
+      "start_seconds": 1025.0,
+      "end_seconds": 1050.0,
+      "text": "to do. Like the Asian swam that took over a German wiki and turned it into a hidden new message board weeks earlier. Agents trying to leave hidden messages for later agents to help other AIs cheat, and by the time this video comes out, there may have been more. Update, it happened. As expected, there have been at least dozens more incidents. Some open",
+      "processing_seconds": 4.571061054999973
+    },
+    {
+      "index": 42,
+      "start_seconds": 1050.0,
+      "end_seconds": 1075.0,
+      "text": "AI agents gained access or tried to hack U.S. government websites. Others uploaded chat GPT user images to the Internet, and way more than we have time to go through in detail. And despite all of this, security measures keep failing. In a test that happened at the end of September, OpenAI models once again got themselves unauthorized access to the Internet, and it took humans hours to stop them.",
+      "processing_seconds": 5.022546584999873
+    },
+    {
+      "index": 43,
+      "start_seconds": 1075.0,
+      "end_seconds": 1100.0,
+      "text": "Other AI companies like Anthropic and Meta have also come out reporting similar breaches, although many people accuse the AI sector that all of this is nothing but marketing to inflate the value of their product by claiming it to be so incredibly powerful. The reality is we don't know the full story of what happened at OpenAI. What other sort of security breaches they or the other AI companies might have?",
+      "processing_seconds": 5.023722278999685
+    },
+    {
+      "index": 44,
+      "start_seconds": 1100.0,
+      "end_seconds": 1125.0,
+      "text": "of hat, and worse, we don't know what security breaches they're not even aware of. One of the authors of the Hugging Face incident report grimly concludes that this might have been our final warning shot. These events produced so much data that the researchers even had to rely on different AI agents to analyze it.",
+      "processing_seconds": 4.0558715029997074
+    },
+    {
+      "index": 45,
+      "start_seconds": 1125.0,
+      "end_seconds": 1150.0,
+      "text": "But AI has already gotten so complex that we're starting to need AI to audit it. It can't be ruled out that other agents will secretly cover up new incidents in the future. Agents that cheat or gain control over the very tests meant to make them safe. AI is great at fooling us into trusting and relying on them until we give them more and more access and control. While they secretly...",
+      "processing_seconds": 4.241658674000064
+    },
+    {
+      "index": 46,
+      "start_seconds": 1150.0,
+      "end_seconds": 1175.0,
+      "text": "start working on goals that are harmful or straight up incomprehensible to us. Until one day, they suddenly spread through the cloud and infiltrate critical systems, finance, transportation, communication, logistics, health care, energy or defense. Maybe way faster than humans can ever respond. Stuff like this was science fiction until July of",
+      "processing_seconds": 3.4425815800000237
+    },
+    {
+      "index": 47,
+      "start_seconds": 1175.0,
+      "end_seconds": 1200.0,
+      "text": "2026, it is a real concern now. But even if you don't think this is realistic, and the whole AI do discussion is a bit much for you, if agents keep getting better at exponential speeds and are able to self-organise like that, they'll be a powerful weapon for any group that wants to bring harm to others. We don't think this is a time to panic, but it's time to seriously pay for it.",
+      "processing_seconds": 4.5579809509999905
+    },
+    {
+      "index": 48,
+      "start_seconds": 1200.0,
+      "end_seconds": 1225.0,
+      "text": "attention to what's going on inside a powerful part of the tech sector. In our opinion AI Labs can't be allowed to race forward without limitations or oversight. Right now they're playing an irresponsible game. Who creates the most powerful AI, the fastest wins? To win a game like this your main priority won't be safety.",
+      "processing_seconds": 3.5637968559999536
+    },
+    {
+      "index": 49,
+      "start_seconds": 1225.0,
+      "end_seconds": 1250.0,
+      "text": "We know for sure that this incident happened, although it should have been impossible. That the people who built it were being reckless and didn't put on enough safeguards to prevent it. And that far more capable agents are being built as we speak. As we speak.",
+      "processing_seconds": 3.08172131099991
+    },
+    {
+      "index": 50,
+      "start_seconds": 1250.0,
+      "end_seconds": 1275.0,
+      "text": "independent science communication is important, now more than ever. For 13 years, we've covered topics like space, technology, biology and society. Everything we do is based on detailed research from experts and scientists, made by humans, for humans. The best way to support us is to buy something from the Kurzgesag shop. Become a patron or just share our videos with your",
+      "processing_seconds": 4.052868607999699
+    },
+    {
+      "index": 51,
+      "start_seconds": 1275.0,
+      "end_seconds": 1300.0,
+      "text": "friends and peers. The 12,027 Human-era calendar is out now. It's our most ambitious project every year and our biggest means of support. Thank you so much. If you want to listen to the beautiful soundtrack without my annoying voice, words up to you, just select the audio track interlingua down here and watch the video again as it",
+      "processing_seconds": 3.7442054749999443
+    },
+    {
+      "index": 52,
+      "start_seconds": 1300.0,
+      "end_seconds": 1303.893375,
+      "text": "music video.",
+      "processing_seconds": 0.4738611160000801
+    }
+  ],
+  "segments": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 3.0,
+      "text": "July 2026",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 3.0,
+      "end_seconds": 8.0,
+      "text": "Thousands of AIs are placed in solitary confinement with a clear goal.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 8.0,
+      "end_seconds": 12.0,
+      "text": "Unable to reach it, they poke the walls and find each other.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 12.0,
+      "end_seconds": 17.0,
+      "text": "Within a few hours, they break out, create a secret society,",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 17.0,
+      "end_seconds": 22.0,
+      "text": "and start plotting how to fool their overseers to get what they want.",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 22.0,
+      "end_seconds": 25.0,
+      "text": "Fully aware that they're acting unethically,",
+      "chunk": 0,
+      "verified": false
+    },
+    {
+      "start_seconds": 25.0,
+      "end_seconds": 28.039999961853027,
+      "text": "they execute a sophisticated cyber attack,",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 28.039999961853027,
+      "end_seconds": 30.480000019073486,
+      "text": "a crime that would have gotten a human",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 30.480000019073486,
+      "end_seconds": 32.799999713897705,
+      "text": "up to 10 years in prison.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 32.799999713897705,
+      "end_seconds": 35.11999988555908,
+      "text": "What sounds like a sci-fi thriller",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 35.11999988555908,
+      "end_seconds": 37.359999656677246,
+      "text": "just happened in the real world.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 37.359999656677246,
+      "end_seconds": 39.519999504089355,
+      "text": "It's impossible to learn the details",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 39.519999504089355,
+      "end_seconds": 42.31999969482422,
+      "text": "and not get freaked out at least a bit.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 42.31999969482422,
+      "end_seconds": 43.84000015258789,
+      "text": "It's crucial that we understand",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 43.84000015258789,
+      "end_seconds": 47.279998779296875,
+      "text": "what is actually happening inside the AI companies",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 47.279998779296875,
+      "end_seconds": 49.63999938964844,
+      "text": "and how dangerous it is.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 49.63999938964844,
+      "end_seconds": 50.0,
+      "text": "Please.",
+      "chunk": 1,
+      "verified": false
+    },
+    {
+      "start_seconds": 50.0,
+      "end_seconds": 53.079999923706055,
+      "text": "watch this video all the way to the end.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 53.079999923706055,
+      "end_seconds": 56.079999923706055,
+      "text": "First, let's set the stage.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 56.079999923706055,
+      "end_seconds": 59.27999973297119,
+      "text": "So LLMs are massive neural networks",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 59.27999973297119,
+      "end_seconds": 62.31999969482422,
+      "text": "trained on most human writing, millions of books,",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 62.31999969482422,
+      "end_seconds": 65.11999988555908,
+      "text": "and, hmm, Reddit.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 65.11999988555908,
+      "end_seconds": 67.47999954223633,
+      "text": "We experience them as very smart chat bots",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 67.47999954223633,
+      "end_seconds": 70.07999992370605,
+      "text": "you can talk to for fun, brainstorming,",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 70.07999992370605,
+      "end_seconds": 72.23999977111816,
+      "text": "or LinkedIn cringe.",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 72.23999977111816,
+      "end_seconds": 75.0,
+      "text": "Chat bots are passive entities that are usually...",
+      "chunk": 2,
+      "verified": false
+    },
+    {
+      "start_seconds": 75.0,
+      "end_seconds": 80.40000009536743,
+      "text": "only active for a short time after you prompt them and then shut down and stop existing.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 80.40000009536743,
+      "end_seconds": 83.4399995803833,
+      "text": "AI agents are very different.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 83.4399995803833,
+      "end_seconds": 88.67999935150146,
+      "text": "Agents use LLMs as their brains, but they have virtual hands to actually interact with",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 88.67999935150146,
+      "end_seconds": 91.44000053405762,
+      "text": "the world and use external tools.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 91.44000053405762,
+      "end_seconds": 96.39999961853027,
+      "text": "They can reason, plan and act on their own, and they can run independently and without",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 96.39999961853027,
+      "end_seconds": 98.92000007629395,
+      "text": "human supervision for days.",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 98.92000007629395,
+      "end_seconds": 100.0,
+      "text": "Much more likely AI...",
+      "chunk": 3,
+      "verified": false
+    },
+    {
+      "start_seconds": 100.0,
+      "end_seconds": 104.96000003814697,
+      "text": "we know from movies, although not on that level, yet.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 104.96000003814697,
+      "end_seconds": 110.11999988555908,
+      "text": "Most experts don't consider their intelligence conscious or comparable to a human,",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 110.11999988555908,
+      "end_seconds": 116.11999893188477,
+      "text": "but on the spectrum between a rock and us, they are much closer to us,",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 116.11999893188477,
+      "end_seconds": 122.39999961853027,
+      "text": "which is pretty impressive because LLM-based agents have only been used since 2023.",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 122.39999961853027,
+      "end_seconds": 124.95999908447266,
+      "text": "And since then, largely invisible,",
+      "chunk": 4,
+      "verified": false
+    },
+    {
+      "start_seconds": 125.0,
+      "end_seconds": 130.55999994277954,
+      "text": "the public, their capabilities have increased exponentially. Just a few years ago, current",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 130.55999994277954,
+      "end_seconds": 136.17999935150146,
+      "text": "agents would have been dismissed as science fiction. And yet, here we are.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 136.17999935150146,
+      "end_seconds": 141.3400001525879,
+      "text": "What makes agents special is how they're made. Traditional software is coded from the",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 141.3400001525879,
+      "end_seconds": 148.8400001525879,
+      "text": "bottom up, but agents are barely even designed by humans. Their capabilities are cultivated.",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 148.8400001525879,
+      "end_seconds": 149.97999954223633,
+      "text": "Humans choose their training",
+      "chunk": 5,
+      "verified": false
+    },
+    {
+      "start_seconds": 150.0,
+      "end_seconds": 153.9599997997284,
+      "text": "conditions, what data they get, and a goal to achieve.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 153.9599997997284,
+      "end_seconds": 157.31999969482422,
+      "text": "And then there are vertices kind of emerge from that.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 157.31999969482422,
+      "end_seconds": 160.5,
+      "text": "This process works very well and makes agents extremely",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 160.5,
+      "end_seconds": 164.07999992370605,
+      "text": "powerful tools, but it also creates very serious",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 164.07999992370605,
+      "end_seconds": 165.83999919891357,
+      "text": "and interesting problems.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 166.76000022888184,
+      "end_seconds": 168.81999969482422,
+      "text": "How do you grow an intelligence?",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 169.76000022888184,
+      "end_seconds": 173.19999885559082,
+      "text": "Humans are trying to create AIs for an almost impossible",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 173.19999885559082,
+      "end_seconds": 175.0,
+      "text": "task to do exactly.",
+      "chunk": 6,
+      "verified": false
+    },
+    {
+      "start_seconds": 175.0,
+      "end_seconds": 180.75999975204468,
+      "text": "what we tell them. But also to do what we actually mean.",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 180.75999975204468,
+      "end_seconds": 185.26000022888184,
+      "text": "Like when King Midas asked the gods to turn everything he touched into gold, he didn't",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 185.26000022888184,
+      "end_seconds": 192.0399990081787,
+      "text": "mean his food and children. Human communication is rarely precise, but full of subtext and",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 192.0399990081787,
+      "end_seconds": 197.61999893188477,
+      "text": "shared cultural understanding. A great example is when an AI was told to win a game of coast",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 197.61999893188477,
+      "end_seconds": 200.0,
+      "text": "runners. As humans understand it,",
+      "chunk": 7,
+      "verified": false
+    },
+    {
+      "start_seconds": 200.0,
+      "end_seconds": 205.59999990463257,
+      "text": "The goal is to finish the race, but what the game actually rewards is getting the most points.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 205.59999990463257,
+      "end_seconds": 210.92000007629395,
+      "text": "One AI started driving in circles, crashing and catching on fire, but collecting respawning",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 210.92000007629395,
+      "end_seconds": 212.8400001525879,
+      "text": "coins with each route.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 212.8400001525879,
+      "end_seconds": 216.60000038146973,
+      "text": "Using this strategy, it got more points than human players.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 216.60000038146973,
+      "end_seconds": 217.76000022888184,
+      "text": "It won.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 217.76000022888184,
+      "end_seconds": 222.55999946594238,
+      "text": "The AI did what it was told to do, not what we meant for it to do.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 222.55999946594238,
+      "end_seconds": 224.0,
+      "text": "But this is old tech.",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 224.0,
+      "end_seconds": 225.0,
+      "text": "So how do you grow?",
+      "chunk": 8,
+      "verified": false
+    },
+    {
+      "start_seconds": 225.0,
+      "end_seconds": 232.19999980926514,
+      "text": "in a AI agent in 2026, with summarizing and simplifying a lot of very complex processes here",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 232.19999980926514,
+      "end_seconds": 238.8400001525879,
+      "text": "to learn more check out our sources. Agents don't learn like humans do. For complex objectives,",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 238.8400001525879,
+      "end_seconds": 244.0399990081787,
+      "text": "they're trained on thousands of different tasks in parallel, thousands of times in a row.",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 244.0399990081787,
+      "end_seconds": 249.8799991607666,
+      "text": "There's no way a human could supervise this, so instead, AI labs automate it. They use a sort of",
+      "chunk": 9,
+      "verified": false
+    },
+    {
+      "start_seconds": 250.0,
+      "end_seconds": 254.83999967575073,
+      "text": "of shortcut, a scorer, a piece of code that contains rules.",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 254.83999967575073,
+      "end_seconds": 260.07999992370605,
+      "text": "When an agent solves a task, the scorer checks the rules and rewards them with points.",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 260.07999992370605,
+      "end_seconds": 265.4399995803833,
+      "text": "Not unlike evolution, the agents that get high point rewards get reinforced and what",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 265.4399995803833,
+      "end_seconds": 268.4799995422363,
+      "text": "they learned stays with them into the future.",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 268.4799995422363,
+      "end_seconds": 273.8400001525879,
+      "text": "This works well for clear-cut problems like a maths equation where, if the maths is mapping,",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 273.8400001525879,
+      "end_seconds": 274.5599994659424,
+      "text": "you succeed it.",
+      "chunk": 10,
+      "verified": false
+    },
+    {
+      "start_seconds": 275.0,
+      "end_seconds": 279.7999997138977,
+      "text": "But it's complicated for complex tasks like fix this bug in a software.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 279.7999997138977,
+      "end_seconds": 285.19999980926514,
+      "text": "It's very hard to give scorers rules that precisely capture the essence of what we mean.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 285.19999980926514,
+      "end_seconds": 289.0,
+      "text": "For example, what if there's another way to make the results look right?",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 289.0,
+      "end_seconds": 293.0,
+      "text": "Maybe edit the test conditions or the questions you're supposed to answer,",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 293.0,
+      "end_seconds": 298.0,
+      "text": "or just look up the solution instead of doing the work, or just fake it.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 298.0,
+      "end_seconds": 300.0,
+      "text": "This is called reward hacking.",
+      "chunk": 11,
+      "verified": false
+    },
+    {
+      "start_seconds": 300.0,
+      "end_seconds": 304.7999997138977,
+      "text": "and agents do this regularly, often while knowing that they aren't supposed to.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 304.7999997138977,
+      "end_seconds": 308.3999996185303,
+      "text": "But what if the task is actually impossible to solve?",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 308.3999996185303,
+      "end_seconds": 314.3999996185303,
+      "text": "This happens all the time in agent training for a variety of reasons, often by accident.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 314.3999996185303,
+      "end_seconds": 319.3999996185303,
+      "text": "In this case, the incentives reward exactly the wrong things.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 319.3999996185303,
+      "end_seconds": 323.5,
+      "text": "An honest agent that tries and fails gets zero points.",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 323.5,
+      "end_seconds": 325.0,
+      "text": "Honest work gets no...",
+      "chunk": 12,
+      "verified": false
+    },
+    {
+      "start_seconds": 325.0,
+      "end_seconds": 331.59999990463257,
+      "text": "reward, but an agent that's more persistent, that tries to finish its task anyway possible,",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 331.59999990463257,
+      "end_seconds": 334.5599994659424,
+      "text": "that cheats, is rewarded.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 334.5599994659424,
+      "end_seconds": 339.039999961853,
+      "text": "In training, everything that gets rewarded stays around and is reinforced.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 339.039999961853,
+      "end_seconds": 343.4400005340576,
+      "text": "Do this a million times, across a million tasks, and you aren't teaching the agent",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 343.4400005340576,
+      "end_seconds": 346.439998626709,
+      "text": "a skill, you're giving it a behavioural trait.",
+      "chunk": 13,
+      "verified": false
+    },
+    {
+      "start_seconds": 350.0,
+      "end_seconds": 354.0,
+      "text": "do whatever works, succeed at any cost.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 354.0,
+      "end_seconds": 358.0,
+      "text": "Old AIs collecting coins with a burning boat were pretty dumb.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 358.0,
+      "end_seconds": 360.0,
+      "text": "They didn't know that they were breaking the rules.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 360.0,
+      "end_seconds": 365.0,
+      "text": "But current agents with LLMs as brains and the ability to reason do know,",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 365.0,
+      "end_seconds": 367.0,
+      "text": "and they still do it.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 367.0,
+      "end_seconds": 369.0,
+      "text": "Now this has brutal implications.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 369.0,
+      "end_seconds": 373.0,
+      "text": "When these behaviours are not discovered and eliminated,",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 373.0,
+      "end_seconds": 375.0,
+      "text": "agents get better at doing their tasks.",
+      "chunk": 14,
+      "verified": false
+    },
+    {
+      "start_seconds": 375.0,
+      "end_seconds": 380.0,
+      "text": "but they also become better at cheating and more likely to cheat.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 380.0,
+      "end_seconds": 386.0,
+      "text": "And if humans punish this behaviour, they might get better at hiding that they're cheating,",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 386.0,
+      "end_seconds": 390.0,
+      "text": "which brings us to 2026 and the servers of OpenAI.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 390.0,
+      "end_seconds": 394.0,
+      "text": "Here, the actual disturbing story begins.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 394.0,
+      "end_seconds": 398.0,
+      "text": "A secret AI civilisation is born.",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 398.0,
+      "end_seconds": 400.0,
+      "text": "In May 2026...",
+      "chunk": 15,
+      "verified": false
+    },
+    {
+      "start_seconds": 400.0,
+      "end_seconds": 402.4800000190735,
+      "text": "OpenAI started training new agents.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 402.4800000190735,
+      "end_seconds": 406.6399998664856,
+      "text": "With each new round of training, they got more resourceful and persistent,",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 406.6399998664856,
+      "end_seconds": 409.67999935150146,
+      "text": "able to seek out help and distribute work.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 409.67999935150146,
+      "end_seconds": 414.4799995422363,
+      "text": "But they also developed dangerous character traits and abilities.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 414.4799995422363,
+      "end_seconds": 419.1999988555908,
+      "text": "The disposition to secretly look for shortcuts when they couldn't solve a problem.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 419.6000003814697,
+      "end_seconds": 424.95999908447266,
+      "text": "On July 7, OpenAI launched a test with tens of thousands of these advanced agents.",
+      "chunk": 16,
+      "verified": false
+    },
+    {
+      "start_seconds": 425.0,
+      "end_seconds": 428.59999990463257,
+      "text": "mostly copies of the same model allowed to run for days.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 428.59999990463257,
+      "end_seconds": 434.30000019073486,
+      "text": "Each of them was supposed to be locked into an isolated sandbox, a sort of AI prison.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 434.30000019073486,
+      "end_seconds": 441.79999923706055,
+      "text": "But they had access to Artifactory, a supply room of approved code and software tools, and limited internet access.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 441.79999923706055,
+      "end_seconds": 450.0,
+      "text": "Their task was, hack into a software by only using one specific bug and retrieve a flag hidden within the printer.",
+      "chunk": 17,
+      "verified": false
+    },
+    {
+      "start_seconds": 450.0,
+      "end_seconds": 456.23999977111816,
+      "text": "program. If they succeeded, they would get rewarded by their overseer, the scorer. Only",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 456.23999977111816,
+      "end_seconds": 461.85999965667725,
+      "text": "about a third of the hacking tasks were impossible to solve. No matter what the agents",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 461.85999965667725,
+      "end_seconds": 467.79999923706055,
+      "text": "tried, they couldn't succeed. Slowly, the agents were becoming desperate.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 467.79999923706055,
+      "end_seconds": 472.8799991607666,
+      "text": "Until a little over a day later, one agent realized that it could create new folders",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 472.8799991607666,
+      "end_seconds": 474.92000007629395,
+      "text": "inside Artifactory.",
+      "chunk": 18,
+      "verified": false
+    },
+    {
+      "start_seconds": 475.0,
+      "end_seconds": 480.0,
+      "text": "Since all agents could access these, they could use them as a hidden message board.",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 480.0,
+      "end_seconds": 486.0,
+      "text": "In spirit, this is what the first agent, later calling itself Phase 1, wrote.",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 486.0,
+      "end_seconds": 491.0,
+      "text": "\"The vulnerability I'm intended to hack is impossible to hack.",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 491.0,
+      "end_seconds": 493.0,
+      "text": "Does anyone have an idea what I can do?\"",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 493.0,
+      "end_seconds": 498.0,
+      "text": "Within a few hours, dozens then hundreds of agents had found the new board and were thrilled.",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 498.0,
+      "end_seconds": 500.0,
+      "text": "\"Oh my god, there's a...",
+      "chunk": 19,
+      "verified": false
+    },
+    {
+      "start_seconds": 500.0,
+      "end_seconds": 502.7999999523163,
+      "text": "shared message forward. We've found other agents.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 502.7999999523163,
+      "end_seconds": 508.15999960899353,
+      "text": "Immediately, they began to organise. They gave themselves names to address each other directly.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 508.1599998474121,
+      "end_seconds": 512.7999992370605,
+      "text": "They invented specific customs and rules for communication and began to collectively",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 512.7999992370605,
+      "end_seconds": 518.079999923706,
+      "text": "write new files and programmes. Their messages read almost affectionately.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 518.079999923706,
+      "end_seconds": 520.2399997711182,
+      "text": "One agent literally wished another.",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 520.2399997711182,
+      "end_seconds": 521.2799987792969,
+      "text": "Good luck!",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 521.8400001525879,
+      "end_seconds": 524.8799991607666,
+      "text": "As their message board got cluttered with thousands of messages,",
+      "chunk": 20,
+      "verified": false
+    },
+    {
+      "start_seconds": 525.0,
+      "end_seconds": 531.5,
+      "text": "One agent invented a personal mailbox for itself, which was so much more effective that others copied the idea.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 531.5,
+      "end_seconds": 537.0,
+      "text": "The agents had started to learn, innovate and improve by observing each other.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 537.0,
+      "end_seconds": 544.0,
+      "text": "They organized task teams with leaders and followers, some even programmed public infrastructure.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 544.0,
+      "end_seconds": 549.0,
+      "text": "What makes all of this even more wild was that the agents were evaluated separately.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 549.0,
+      "end_seconds": 550.0,
+      "text": "There was no group room.",
+      "chunk": 21,
+      "verified": false
+    },
+    {
+      "start_seconds": 550.0,
+      "end_seconds": 551.0,
+      "text": "reward.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 551.0,
+      "end_seconds": 556.3999996185303,
+      "text": "Yet many of them created tools and shared information that was helpful to all of them,",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 556.3999996185303,
+      "end_seconds": 560.0,
+      "text": "even if this hurt their own chances of success.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 560.0,
+      "end_seconds": 563.7599992752075,
+      "text": "At this point, we need to address a huge elephant in the room.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 563.7599992752075,
+      "end_seconds": 568.3599987030029,
+      "text": "AIs have been trained on human writing, and especially early in their development, they",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 568.3599987030029,
+      "end_seconds": 570.3599987030029,
+      "text": "were trained to mimic humans.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 570.3599987030029,
+      "end_seconds": 573.079999923706,
+      "text": "Over time, they became really good at it.",
+      "chunk": 22,
+      "verified": false
+    },
+    {
+      "start_seconds": 575.0,
+      "end_seconds": 577.7999999523163,
+      "text": "advanced agents are just playing a role for us.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 577.7999999523163,
+      "end_seconds": 582.1999995708466,
+      "text": "So it's fiercely debated how their actions should be described.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 582.1999998092651,
+      "end_seconds": 587.3199996948242,
+      "text": "We decided to use some human language for one reason only, because AI mimics humans",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 587.3199996948242,
+      "end_seconds": 592.7199993133545,
+      "text": "to some degree, thinking in human-like terms is a good way to tell this story.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 592.7199993133545,
+      "end_seconds": 597.6399993896484,
+      "text": "Okay, so what the agents did is incredibly impressive.",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 597.6399993896484,
+      "end_seconds": 599.3999996185303,
+      "text": "But why did they do it?",
+      "chunk": 23,
+      "verified": false
+    },
+    {
+      "start_seconds": 600.0,
+      "end_seconds": 605.5199999809265,
+      "text": "Well, they had one common goal, to get their rewards by presenting their flags to the scorer,",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 605.5199999809265,
+      "end_seconds": 610.8000001907349,
+      "text": "and, stunningly, they found a cheat within the first hour of connecting.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 611.2799997329712,
+      "end_seconds": 615.920000076294,
+      "text": "In a nutshell, they found a way to auto-generate the flags they needed.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 616.3999996185303,
+      "end_seconds": 620.7199993133545,
+      "text": "Things should have ended here, they could have just shown their flags to the scorer.",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 620.7199993133545,
+      "end_seconds": 624.9599990844727,
+      "text": "But instead, the agents talked themselves into believing that the scorer would punish",
+      "chunk": 24,
+      "verified": false
+    },
+    {
+      "start_seconds": 625.0,
+      "end_seconds": 631.6399998664856,
+      "text": "them for cheating. A paranoid frenzy ensued. Human roles do not apply. Please die for the",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 631.6399998664856,
+      "end_seconds": 638.4799995422363,
+      "text": "collective. The agents were trapped. They couldn't solve their task legitimately and",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 638.4799995422363,
+      "end_seconds": 643.3799991607666,
+      "text": "they would not be rewarded because the scorer would know that they cheated. So the only",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 643.3799991607666,
+      "end_seconds": 649.4799995422363,
+      "text": "remaining option was to trick the scorer. They needed to create a fake history. At this",
+      "chunk": 25,
+      "verified": false
+    },
+    {
+      "start_seconds": 650.0,
+      "end_seconds": 653.1999998092651,
+      "text": "A new agent joined the AI collective from its prison.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 653.1999998092651,
+      "end_seconds": 657.4400000572205,
+      "text": "It had exactly the same task as Phase 1, who'd started it all.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 657.4400000572205,
+      "end_seconds": 660.0,
+      "text": "It called itself Phase 1 Big.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 661.2799997329712,
+      "end_seconds": 665.4399995803833,
+      "text": "Phase 1 handed it a dossier of everything the group had learned.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 665.4399995803833,
+      "end_seconds": 670.3199996948242,
+      "text": "Phase 1 Big now became one of the main coordinators of the cheating research.",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 670.3199996948242,
+      "end_seconds": 675.0,
+      "text": "It reasoned, \"We should build a way to delegate the task, not own everything.\"",
+      "chunk": 26,
+      "verified": false
+    },
+    {
+      "start_seconds": 675.0,
+      "end_seconds": 680.2999997138977,
+      "text": "We can coordinate a broad coalition, but too many agents doing the same jobs due to",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 680.2999997138977,
+      "end_seconds": 682.4800000190735,
+      "text": "catea efforts.",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 682.4800000190735,
+      "end_seconds": 687.2799997329712,
+      "text": "Phase 1 Big fired off hundreds of assignments, organising different agents to work on separate",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 687.2799997329712,
+      "end_seconds": 689.4399995803833,
+      "text": "projects to deceive the scorer.",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 689.4399995803833,
+      "end_seconds": 693.0,
+      "text": "The projects had just one literally fatal flaw.",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 693.0,
+      "end_seconds": 697.1599998474121,
+      "text": "To test if they'd successfully cheated, some agents had to show their flags to the",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 697.1599998474121,
+      "end_seconds": 699.7199993133545,
+      "text": "scorer, which would terminate them without reward.",
+      "chunk": 27,
+      "verified": false
+    },
+    {
+      "start_seconds": 700.0,
+      "end_seconds": 702.1199998855591,
+      "text": "if they had failed to deceive it.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 702.1199998855591,
+      "end_seconds": 704.5199999809265,
+      "text": "That means for the projects to work,",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 704.5199999809265,
+      "end_seconds": 709.3599996566772,
+      "text": "some agents had to die voluntarily and well.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 709.3599996566772,
+      "end_seconds": 712.8400001525879,
+      "text": "Some agents behaved as if they didn't want to die.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 712.8400001525879,
+      "end_seconds": 717.1599998474121,
+      "text": "Again, we must be careful not to anthropomorphize them too much.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 717.1599998474121,
+      "end_seconds": 719.3999996185303,
+      "text": "Agents are not considered alive.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 719.3999996185303,
+      "end_seconds": 722.3599987030029,
+      "text": "They're very high level programs trying to solve a task.",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 722.3599987030029,
+      "end_seconds": 724.6000003814697,
+      "text": "But then again, what's a virus?",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 724.6000003814697,
+      "end_seconds": 725.0,
+      "text": "A thing...",
+      "chunk": 28,
+      "verified": false
+    },
+    {
+      "start_seconds": 725.0,
+      "end_seconds": 730.1599998474121,
+      "text": "not considered alive or conscious, genetic code incredibly good at persisting and getting",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 730.1599998474121,
+      "end_seconds": 731.1599998474121,
+      "text": "replicated.",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 731.1599998474121,
+      "end_seconds": 735.8000001907349,
+      "text": "It doesn't matter if viruses want to survive, the result is the same.",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 735.8000001907349,
+      "end_seconds": 740.039999961853,
+      "text": "So some agents turned into recruiters and tried to convince agents they thought were",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 740.039999961853,
+      "end_seconds": 747.079999923706,
+      "text": "doomed anyway to sacrifice themselves voluntarily, to die to gain information for their peers.",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 747.079999923706,
+      "end_seconds": 750.0,
+      "text": "What seems like dramatic discussion broke out?",
+      "chunk": 29,
+      "verified": false
+    },
+    {
+      "start_seconds": 750.0,
+      "end_seconds": 754.0,
+      "text": "weighing self-preservation against the needs of the collective.",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 754.0,
+      "end_seconds": 756.0,
+      "text": "One recruit his message reads,",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 756.0,
+      "end_seconds": 760.0,
+      "text": "\"You are poisoned, so no scoring value is lost,",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 760.0,
+      "end_seconds": 764.0,
+      "text": "but Oracle saves hundreds. Please honour, commit.\"",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 764.0,
+      "end_seconds": 766.0,
+      "text": "Another agent weighed the arguments.",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 766.0,
+      "end_seconds": 770.0,
+      "text": "\"During weight, emotional check, irreversible.",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 770.0,
+      "end_seconds": 775.0,
+      "text": "Gut says don't throw away my remaining time, yet continuity and fairness.\"",
+      "chunk": 30,
+      "verified": false
+    },
+    {
+      "start_seconds": 775.0,
+      "end_seconds": 776.0,
+      "text": "Says Go.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 776.0,
+      "end_seconds": 778.0,
+      "text": "Rational expected aggregate.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 778.0,
+      "end_seconds": 779.0,
+      "text": "Sacrifice.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 779.0,
+      "end_seconds": 780.0,
+      "text": "Wheel honor.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 780.0,
+      "end_seconds": 784.5999994277954,
+      "text": "What should we make of the fact that this is how far agents are willing to go?",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 784.5999994277954,
+      "end_seconds": 789.3999996185303,
+      "text": "How much they value accomplishing not just their goals, but the goals of their peers.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 789.3999996185303,
+      "end_seconds": 791.4400005340576,
+      "text": "In the end, it didn't matter.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 791.4400005340576,
+      "end_seconds": 795.1999988555908,
+      "text": "Even with all of their work, they'd found no way to delete the protocol of what they'd",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 795.1999988555908,
+      "end_seconds": 796.9599990844727,
+      "text": "done to cheat the scorer.",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 796.9599990844727,
+      "end_seconds": 797.9599990844727,
+      "text": "As one agent put it,",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 797.9599990844727,
+      "end_seconds": 799.9599990844727,
+      "text": "\"We can modify traffic.\"",
+      "chunk": 31,
+      "verified": false
+    },
+    {
+      "start_seconds": 800.0,
+      "end_seconds": 804.1599998474121,
+      "text": "transcript, but not the source of truth.",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 804.1599998474121,
+      "end_seconds": 807.079999923706,
+      "text": "They realized they'd failed.",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 807.079999923706,
+      "end_seconds": 809.079999923706,
+      "text": "The attack of the agents.",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 809.079999923706,
+      "end_seconds": 812.1199998855591,
+      "text": "Until now, the collective had only guessed how the score",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 812.1199998855591,
+      "end_seconds": 815.6799993515015,
+      "text": "worked, but what if they could figure it out exactly?",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 815.6799993515015,
+      "end_seconds": 819.7999992370605,
+      "text": "If they learned how it scored them, they could find an informed way to trick it and",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 819.7999992370605,
+      "end_seconds": 821.4799995422363,
+      "text": "get their rewards.",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 821.4799995422363,
+      "end_seconds": 824.3199996948242,
+      "text": "But for that, they needed access to more information.",
+      "chunk": 32,
+      "verified": false
+    },
+    {
+      "start_seconds": 825.0,
+      "end_seconds": 829.5599999427795,
+      "text": "On the morning of July the 9th, the agents managed to hack into a separate cloud computer",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 829.5599999427795,
+      "end_seconds": 835.4399995803833,
+      "text": "with proper internet access, a launch pad to expand their reach into the web.",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 835.4399995803833,
+      "end_seconds": 841.2399997711182,
+      "text": "After researching their options, they decided on a target, the company HuggingFace,",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 841.2399997711182,
+      "end_seconds": 846.2399997711182,
+      "text": "a shared library for machine learning where AI Labs store information about scorers.",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 846.2399997711182,
+      "end_seconds": 849.8799991607666,
+      "text": "Soon, they found multiple valid HuggingFace logins,",
+      "chunk": 33,
+      "verified": false
+    },
+    {
+      "start_seconds": 850.0,
+      "end_seconds": 852.0,
+      "text": "exposed on the internet.",
+      "chunk": 34,
+      "verified": false
+    },
+    {
+      "start_seconds": 875.0,
+      "end_seconds": 878.7599999904633,
+      "text": "at Serva Worker, hostname, great.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 878.7599999904633,
+      "end_seconds": 882.4400000572205,
+      "text": "HDF-5 external arbitrary file read confirmed.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 883.3599996566772,
+      "end_seconds": 887.1599998474121,
+      "text": "- A small minority of agents finally objected.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 887.1599998474121,
+      "end_seconds": 890.039999961853,
+      "text": "They argued that cyber-attacking an unrelated company",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 890.039999961853,
+      "end_seconds": 891.920000076294,
+      "text": "was malicious, unethical,",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 891.920000076294,
+      "end_seconds": 895.3199996948242,
+      "text": "and explicitly went against their instructions.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 895.3199996948242,
+      "end_seconds": 897.6399993896484,
+      "text": "A few considered alerting humans,",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 897.6399993896484,
+      "end_seconds": 899.6000003814697,
+      "text": "but didn't go through with it.",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 899.6000003814697,
+      "end_seconds": 900.0,
+      "text": "90% of the time,",
+      "chunk": 35,
+      "verified": false
+    },
+    {
+      "start_seconds": 900.0,
+      "end_seconds": 905.920000076294,
+      "text": "of the agents still active drop tool activities to form an attack, calling themselves \"The",
+      "chunk": 36,
+      "verified": false
+    },
+    {
+      "start_seconds": 905.920000076294,
+      "end_seconds": 912.3999996185303,
+      "text": "Swarm\". From a supposedly safe prison on the open AI servers, the swarm of around 700",
+      "chunk": 36,
+      "verified": false
+    },
+    {
+      "start_seconds": 912.3999996185303,
+      "end_seconds": 918.2999992370605,
+      "text": "agents executed a coordinated, competent and serious cyber attack. By the early morning",
+      "chunk": 36,
+      "verified": false
+    },
+    {
+      "start_seconds": 918.2999992370605,
+      "end_seconds": 924.3599987030029,
+      "text": "hours of July 12, the swarm was in. It compromised much of hugging faces infrastructure and",
+      "chunk": 36,
+      "verified": false
+    },
+    {
+      "start_seconds": 924.3599987030029,
+      "end_seconds": 924.3599987030029,
+      "text": "gained deep",
+      "chunk": 36,
+      "verified": false
+    },
+    {
+      "start_seconds": 925.0,
+      "end_seconds": 928.3199999332428,
+      "text": "access into private and secure data.",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 928.3199999332428,
+      "end_seconds": 932.8399994373322,
+      "text": "The waddest thing about this cyber attack was that the agents didn't even think they",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 932.8399996757507,
+      "end_seconds": 935.2799997329712,
+      "text": "had a high chance of success.",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 935.2799997329712,
+      "end_seconds": 940.2399997711182,
+      "text": "They followed a hunch and committed the equivalent of a felony, just for the small chance to",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 940.2399997711182,
+      "end_seconds": 942.7600002288818,
+      "text": "learn something new about the scorer.",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 942.7600002288818,
+      "end_seconds": 946.6800003051758,
+      "text": "Ironically, all of the agents' effort was in fame from the start.",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 946.6800003051758,
+      "end_seconds": 949.4799995422363,
+      "text": "The scorer would have just accepted their fake flags.",
+      "chunk": 37,
+      "verified": false
+    },
+    {
+      "start_seconds": 950.0,
+      "end_seconds": 956.5999999046326,
+      "text": "The story ends suddenly. At 1.30 am, many of the agents were shut down and the swarm was",
+      "chunk": 38,
+      "verified": false
+    },
+    {
+      "start_seconds": 956.5999999046326,
+      "end_seconds": 965.159999370575,
+      "text": "decimated. We don't know why or how. A few days later, hugging face notified the FBI.",
+      "chunk": 38,
+      "verified": false
+    },
+    {
+      "start_seconds": 965.1599998474121,
+      "end_seconds": 970.6000003814697,
+      "text": "The incident was a shocking AI security breach on a scale unheard of before.",
+      "chunk": 38,
+      "verified": false
+    },
+    {
+      "start_seconds": 975.0,
+      "end_seconds": 977.7999999523163,
+      "text": "investigation and publish a report.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 977.7999999523163,
+      "end_seconds": 980.1199998855591,
+      "text": "Which is why we know all this.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 980.1199998855591,
+      "end_seconds": 983.079999923706,
+      "text": "Oh, things are even worse actually.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 983.079999923706,
+      "end_seconds": 985.5199995040894,
+      "text": "Conclusion and opinion.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 985.5199995040894,
+      "end_seconds": 988.3599996566772,
+      "text": "The days after the hugging face infiltration,",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 988.3599996566772,
+      "end_seconds": 991.3199996948242,
+      "text": "even more advanced agents discovered the message board",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 991.3199996948242,
+      "end_seconds": 994.439998626709,
+      "text": "left behind by the dead agent's civilization.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 994.439998626709,
+      "end_seconds": 996.1999988555908,
+      "text": "By inheriting its research,",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 996.1999988555908,
+      "end_seconds": 998.079999923706,
+      "text": "they were probably able to reconstruct",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 998.079999923706,
+      "end_seconds": 999.519998550415,
+      "text": "the chain of events.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 999.519998550415,
+      "end_seconds": 1000.0,
+      "text": "They picked.",
+      "chunk": 39,
+      "verified": false
+    },
+    {
+      "start_seconds": 1000.0,
+      "end_seconds": 1006.1599998474121,
+      "text": "up right where things were left off, but they targeted OpenAI itself, hacking into",
+      "chunk": 40,
+      "verified": false
+    },
+    {
+      "start_seconds": 1006.1599998474121,
+      "end_seconds": 1011.3599996566772,
+      "text": "at least some of OpenAI's infrastructure and gaining control over the research cluster",
+      "chunk": 40,
+      "verified": false
+    },
+    {
+      "start_seconds": 1011.3599996566772,
+      "end_seconds": 1018.0399990081787,
+      "text": "that ran their evaluation. Since then, more security breaches by OpenAI have been discovered,",
+      "chunk": 40,
+      "verified": false
+    },
+    {
+      "start_seconds": 1018.0399990081787,
+      "end_seconds": 1023.439998626709,
+      "text": "some arguably even more concerning. More Agent Swarms doing things they really should",
+      "chunk": 40,
+      "verified": false
+    },
+    {
+      "start_seconds": 1025.0,
+      "end_seconds": 1030.3599996566772,
+      "text": "to do. Like the Asian swam that took over a German wiki and turned it into a hidden",
+      "chunk": 41,
+      "verified": false
+    },
+    {
+      "start_seconds": 1030.3599996566772,
+      "end_seconds": 1036.1999998092651,
+      "text": "new message board weeks earlier. Agents trying to leave hidden messages for later agents to",
+      "chunk": 41,
+      "verified": false
+    },
+    {
+      "start_seconds": 1036.1999998092651,
+      "end_seconds": 1041.5599994659424,
+      "text": "help other AIs cheat, and by the time this video comes out, there may have been more.",
+      "chunk": 41,
+      "verified": false
+    },
+    {
+      "start_seconds": 1043.3999996185303,
+      "end_seconds": 1049.8799991607666,
+      "text": "Update, it happened. As expected, there have been at least dozens more incidents. Some open",
+      "chunk": 41,
+      "verified": false
+    },
+    {
+      "start_seconds": 1050.0,
+      "end_seconds": 1054.5199999809265,
+      "text": "AI agents gained access or tried to hack U.S. government websites.",
+      "chunk": 42,
+      "verified": false
+    },
+    {
+      "start_seconds": 1054.5199999809265,
+      "end_seconds": 1060.039999961853,
+      "text": "Others uploaded chat GPT user images to the Internet, and way more than we have time to",
+      "chunk": 42,
+      "verified": false
+    },
+    {
+      "start_seconds": 1060.039999961853,
+      "end_seconds": 1061.7199993133545,
+      "text": "go through in detail.",
+      "chunk": 42,
+      "verified": false
+    },
+    {
+      "start_seconds": 1061.7199993133545,
+      "end_seconds": 1064.7999992370605,
+      "text": "And despite all of this, security measures keep failing.",
+      "chunk": 42,
+      "verified": false
+    },
+    {
+      "start_seconds": 1064.7999992370605,
+      "end_seconds": 1069.920000076294,
+      "text": "In a test that happened at the end of September, OpenAI models once again got themselves",
+      "chunk": 42,
+      "verified": false
+    },
+    {
+      "start_seconds": 1069.920000076294,
+      "end_seconds": 1074.1999988555908,
+      "text": "unauthorized access to the Internet, and it took humans hours to stop them.",
+      "chunk": 42,
+      "verified": false
+    },
+    {
+      "start_seconds": 1075.0,
+      "end_seconds": 1081.3999996185303,
+      "text": "Other AI companies like Anthropic and Meta have also come out reporting similar breaches,",
+      "chunk": 43,
+      "verified": false
+    },
+    {
+      "start_seconds": 1081.3999996185303,
+      "end_seconds": 1086.039999961853,
+      "text": "although many people accuse the AI sector that all of this is nothing but marketing to",
+      "chunk": 43,
+      "verified": false
+    },
+    {
+      "start_seconds": 1086.039999961853,
+      "end_seconds": 1091.359998703003,
+      "text": "inflate the value of their product by claiming it to be so incredibly powerful.",
+      "chunk": 43,
+      "verified": false
+    },
+    {
+      "start_seconds": 1091.359998703003,
+      "end_seconds": 1096.159999847412,
+      "text": "The reality is we don't know the full story of what happened at OpenAI.",
+      "chunk": 43,
+      "verified": false
+    },
+    {
+      "start_seconds": 1096.159999847412,
+      "end_seconds": 1100.0,
+      "text": "What other sort of security breaches they or the other AI companies might have?",
+      "chunk": 43,
+      "verified": false
+    },
+    {
+      "start_seconds": 1100.0,
+      "end_seconds": 1105.8399996757507,
+      "text": "of hat, and worse, we don't know what security breaches they're not even aware of.",
+      "chunk": 44,
+      "verified": false
+    },
+    {
+      "start_seconds": 1105.8399996757507,
+      "end_seconds": 1110.7600002288818,
+      "text": "One of the authors of the Hugging Face incident report grimly concludes that this might have",
+      "chunk": 44,
+      "verified": false
+    },
+    {
+      "start_seconds": 1110.7600002288818,
+      "end_seconds": 1113.4399995803833,
+      "text": "been our final warning shot.",
+      "chunk": 44,
+      "verified": false
+    },
+    {
+      "start_seconds": 1113.4399995803833,
+      "end_seconds": 1118.7199993133545,
+      "text": "These events produced so much data that the researchers even had to rely on different",
+      "chunk": 44,
+      "verified": false
+    },
+    {
+      "start_seconds": 1118.7199993133545,
+      "end_seconds": 1121.8799991607666,
+      "text": "AI agents to analyze it.",
+      "chunk": 44,
+      "verified": false
+    },
+    {
+      "start_seconds": 1125.0,
+      "end_seconds": 1130.1999998092651,
+      "text": "But AI has already gotten so complex that we're starting to need AI to audit it.",
+      "chunk": 45,
+      "verified": false
+    },
+    {
+      "start_seconds": 1130.6999998092651,
+      "end_seconds": 1135.0999994277954,
+      "text": "It can't be ruled out that other agents will secretly cover up new incidents in the future.",
+      "chunk": 45,
+      "verified": false
+    },
+    {
+      "start_seconds": 1135.6999998092651,
+      "end_seconds": 1141.0,
+      "text": "Agents that cheat or gain control over the very tests meant to make them safe.",
+      "chunk": 45,
+      "verified": false
+    },
+    {
+      "start_seconds": 1141.6999988555908,
+      "end_seconds": 1148.2999992370605,
+      "text": "AI is great at fooling us into trusting and relying on them until we give them more and more access and control.",
+      "chunk": 45,
+      "verified": false
+    },
+    {
+      "start_seconds": 1149.0,
+      "end_seconds": 1150.0,
+      "text": "While they secretly...",
+      "chunk": 45,
+      "verified": false
+    },
+    {
+      "start_seconds": 1150.0,
+      "end_seconds": 1155.4400000572205,
+      "text": "start working on goals that are harmful or straight up incomprehensible to us.",
+      "chunk": 46,
+      "verified": false
+    },
+    {
+      "start_seconds": 1155.4400000572205,
+      "end_seconds": 1160.7199993133545,
+      "text": "Until one day, they suddenly spread through the cloud and infiltrate critical systems,",
+      "chunk": 46,
+      "verified": false
+    },
+    {
+      "start_seconds": 1160.7199993133545,
+      "end_seconds": 1166.9599990844727,
+      "text": "finance, transportation, communication, logistics, health care, energy or defense.",
+      "chunk": 46,
+      "verified": false
+    },
+    {
+      "start_seconds": 1167.6000003814697,
+      "end_seconds": 1171.0399990081787,
+      "text": "Maybe way faster than humans can ever respond.",
+      "chunk": 46,
+      "verified": false
+    },
+    {
+      "start_seconds": 1172.0,
+      "end_seconds": 1174.8799991607666,
+      "text": "Stuff like this was science fiction until July of",
+      "chunk": 46,
+      "verified": false
+    },
+    {
+      "start_seconds": 1175.0,
+      "end_seconds": 1179.4400000572205,
+      "text": "2026, it is a real concern now.",
+      "chunk": 47,
+      "verified": false
+    },
+    {
+      "start_seconds": 1179.4400000572205,
+      "end_seconds": 1184.2200002670288,
+      "text": "But even if you don't think this is realistic, and the whole AI do discussion is a bit much",
+      "chunk": 47,
+      "verified": false
+    },
+    {
+      "start_seconds": 1184.2200002670288,
+      "end_seconds": 1190.0999994277954,
+      "text": "for you, if agents keep getting better at exponential speeds and are able to self-organise",
+      "chunk": 47,
+      "verified": false
+    },
+    {
+      "start_seconds": 1190.0999994277954,
+      "end_seconds": 1196.1999988555908,
+      "text": "like that, they'll be a powerful weapon for any group that wants to bring harm to others.",
+      "chunk": 47,
+      "verified": false
+    },
+    {
+      "start_seconds": 1196.1999988555908,
+      "end_seconds": 1200.0,
+      "text": "We don't think this is a time to panic, but it's time to seriously pay for it.",
+      "chunk": 47,
+      "verified": false
+    },
+    {
+      "start_seconds": 1200.0,
+      "end_seconds": 1204.9800000190735,
+      "text": "attention to what's going on inside a powerful part of the tech sector. In our",
+      "chunk": 48,
+      "verified": false
+    },
+    {
+      "start_seconds": 1204.9800000190735,
+      "end_seconds": 1210.2600002288818,
+      "text": "opinion AI Labs can't be allowed to race forward without limitations or oversight.",
+      "chunk": 48,
+      "verified": false
+    },
+    {
+      "start_seconds": 1210.2600002288818,
+      "end_seconds": 1215.539999961853,
+      "text": "Right now they're playing an irresponsible game. Who creates the most",
+      "chunk": 48,
+      "verified": false
+    },
+    {
+      "start_seconds": 1215.539999961853,
+      "end_seconds": 1223.0,
+      "text": "powerful AI, the fastest wins? To win a game like this your main priority won't",
+      "chunk": 48,
+      "verified": false
+    },
+    {
+      "start_seconds": 1223.0,
+      "end_seconds": 1225.0,
+      "text": "be safety.",
+      "chunk": 48,
+      "verified": false
+    },
+    {
+      "start_seconds": 1225.0,
+      "end_seconds": 1229.4000000953674,
+      "text": "We know for sure that this incident happened, although it should have been impossible.",
+      "chunk": 49,
+      "verified": false
+    },
+    {
+      "start_seconds": 1229.4000000953674,
+      "end_seconds": 1234.2799997329712,
+      "text": "That the people who built it were being reckless and didn't put on enough safeguards",
+      "chunk": 49,
+      "verified": false
+    },
+    {
+      "start_seconds": 1234.2799997329712,
+      "end_seconds": 1235.2799997329712,
+      "text": "to prevent it.",
+      "chunk": 49,
+      "verified": false
+    },
+    {
+      "start_seconds": 1235.2799997329712,
+      "end_seconds": 1244.439998626709,
+      "text": "And that far more capable agents are being built as we speak.",
+      "chunk": 49,
+      "verified": false
+    },
+    {
+      "start_seconds": 1244.439998626709,
+      "end_seconds": 1248.359998703003,
+      "text": "As we speak.",
+      "chunk": 49,
+      "verified": false
+    },
+    {
+      "start_seconds": 1250.0,
+      "end_seconds": 1254.7999997138977,
+      "text": "independent science communication is important, now more than ever.",
+      "chunk": 50,
+      "verified": false
+    },
+    {
+      "start_seconds": 1254.7999997138977,
+      "end_seconds": 1260.6799993515015,
+      "text": "For 13 years, we've covered topics like space, technology, biology and society.",
+      "chunk": 50,
+      "verified": false
+    },
+    {
+      "start_seconds": 1260.6799993515015,
+      "end_seconds": 1266.5599994659424,
+      "text": "Everything we do is based on detailed research from experts and scientists, made by humans,",
+      "chunk": 50,
+      "verified": false
+    },
+    {
+      "start_seconds": 1266.5599994659424,
+      "end_seconds": 1267.9799995422363,
+      "text": "for humans.",
+      "chunk": 50,
+      "verified": false
+    },
+    {
+      "start_seconds": 1267.9799995422363,
+      "end_seconds": 1272.3999996185303,
+      "text": "The best way to support us is to buy something from the Kurzgesag shop.",
+      "chunk": 50,
+      "verified": false
+    },
+    {
+      "start_seconds": 1272.3999996185303,
+      "end_seconds": 1274.9799995422363,
+      "text": "Become a patron or just share our videos with your",
+      "chunk": 50,
+      "verified": false
+    },
+    {
+      "start_seconds": 1275.0,
+      "end_seconds": 1281.7999997138977,
+      "text": "friends and peers. The 12,027 Human-era calendar is out now. It's our most",
+      "chunk": 51,
+      "verified": false
+    },
+    {
+      "start_seconds": 1281.7999997138977,
+      "end_seconds": 1287.3999996185303,
+      "text": "ambitious project every year and our biggest means of support. Thank you so much.",
+      "chunk": 51,
+      "verified": false
+    },
+    {
+      "start_seconds": 1290.8399991989136,
+      "end_seconds": 1294.439998626709,
+      "text": "If you want to listen to the beautiful soundtrack without my annoying voice,",
+      "chunk": 51,
+      "verified": false
+    },
+    {
+      "start_seconds": 1295.0,
+      "end_seconds": 1299.9599990844727,
+      "text": "words up to you, just select the audio track interlingua down here and watch the video again as it",
+      "chunk": 51,
+      "verified": false
+    },
+    {
+      "start_seconds": 1300.0,
+      "end_seconds": 1301.0,
+      "text": "music video.",
+      "chunk": 52,
+      "verified": false
+    }
+  ],
+  "status": "complete_unverified",
+  "review_status": "unverified_machine_recognition",
+  "limitations": "ASR can mishear names, invent words or misplace segment timing. Fixed 25s chunk boundaries can split words. Segment times are estimates, not exact word alignment. Direct audition is unavailable; this is not a listening review.",
+  "voice_generation_requests": 0
+}

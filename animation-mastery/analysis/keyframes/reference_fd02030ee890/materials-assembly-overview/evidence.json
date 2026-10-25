@@ -1,0 +1,235 @@
+{
+  "video_id": "reference_fd02030ee890",
+  "name": "materials-assembly-overview",
+  "source_sha256": "fd02030ee890a97c119a33ba4cc3804c6ba2301f3378c42d613c83536cfbc660",
+  "start_frame": 7293,
+  "end_frame": 7819,
+  "end_frame_exclusive": true,
+  "source_start_pts": 121.55,
+  "sample_stride": 15,
+  "sampled_frames": [
+    {
+      "frame_index": 7293,
+      "pts_seconds": 121.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000000.png",
+      "sha256": "5b9da821c173ac5603d89ebd96594a1b3fe7d434743557e1bd732b4df5edb021"
+    },
+    {
+      "frame_index": 7308,
+      "pts_seconds": 121.8,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000001.png",
+      "sha256": "ca9c10a18d589d493d58ae8e596539e06b140378be9524279a16e55095cfc1bf"
+    },
+    {
+      "frame_index": 7323,
+      "pts_seconds": 122.05,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000002.png",
+      "sha256": "06832ed3147557319a9bfa720ba8f8cce0c0b50e81a6bb8b951f522239c97811"
+    },
+    {
+      "frame_index": 7338,
+      "pts_seconds": 122.3,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000003.png",
+      "sha256": "24149bedfae823d2af14cd8e99cad18bbd8315d6091e2426357646e00190c037"
+    },
+    {
+      "frame_index": 7353,
+      "pts_seconds": 122.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000004.png",
+      "sha256": "11d26ab0ef855000b411597bc12828b708d86d40cb1c9c73a435c12472cc43a5"
+    },
+    {
+      "frame_index": 7368,
+      "pts_seconds": 122.8,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000005.png",
+      "sha256": "93f9e886d35f6f5e6eb15f010e6cbd2dfb8ec7cc6c0f71105b613437276a2c14"
+    },
+    {
+      "frame_index": 7383,
+      "pts_seconds": 123.05,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000006.png",
+      "sha256": "646f19f2492b124902232aa7bbab40da12a4b840d09ae139efbe82aa497f8da9"
+    },
+    {
+      "frame_index": 7398,
+      "pts_seconds": 123.3,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000007.png",
+      "sha256": "5623a8ad25fa77c82b4f6890782bd57a6e16f484d58ef4ffa80064ed705abe99"
+    },
+    {
+      "frame_index": 7413,
+      "pts_seconds": 123.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000008.png",
+      "sha256": "bdb519af03172d540fd159a9ca6edf2df89306e66d847dfd8841e65531e3732a"
+    },
+    {
+      "frame_index": 7428,
+      "pts_seconds": 123.8,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000009.png",
+      "sha256": "7a77bded651142cc0a7844dd647e1fe84c85574e1469826bcce12a3546b85c20"
+    },
+    {
+      "frame_index": 7443,
+      "pts_seconds": 124.05,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000010.png",
+      "sha256": "d532f7dbdc9dd44db2b30211e6e3823de9c5fd93b4b733db1f732ae955731e62"
+    },
+    {
+      "frame_index": 7458,
+      "pts_seconds": 124.3,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000011.png",
+      "sha256": "d85c8a9b86a9f2d082d6588f5e2bdc7b9303681edd90ff81ceda144896e7dcf8"
+    },
+    {
+      "frame_index": 7473,
+      "pts_seconds": 124.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000012.png",
+      "sha256": "57ae17e2688eb7e5f6fb76578a3e84ad2f493e51a2660184d718ed58cc34b2f2"
+    },
+    {
+      "frame_index": 7488,
+      "pts_seconds": 124.8,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000013.png",
+      "sha256": "989fdc92c546bf70ad73b4a21d6bb27544b73df753e812774de0bc6fabe936e3"
+    },
+    {
+      "frame_index": 7503,
+      "pts_seconds": 125.05,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000014.png",
+      "sha256": "603ca3dc69b2faf7aa2cc05dda2de89d028b4553ac66edd077d9b8eb1d2fb734"
+    },
+    {
+      "frame_index": 7518,
+      "pts_seconds": 125.3,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000015.png",
+      "sha256": "944f4ca82f1d021c52821a2285054c2874b0add8c96bdbe1634a70cb91c9cd89"
+    },
+    {
+      "frame_index": 7533,
+      "pts_seconds": 125.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000016.png",
+      "sha256": "d138726fc6729f8f9d6a665f7ec04ba75270c9ebc20f18a39482f7ceba4ceaf3"
+    },
+    {
+      "frame_index": 7548,
+      "pts_seconds": 125.8,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000017.png",
+      "sha256": "1827deb6cd1a544c5e7d2182c2a21b439267e27e0b96a078564eba1ec1fd756e"
+    },
+    {
+      "frame_index": 7563,
+      "pts_seconds": 126.05,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000018.png",
+      "sha256": "36d3d5fc197c6251b83aaf221708731b69c0aba878432d0b45ab0fa47042895a"
+    },
+    {
+      "frame_index": 7578,
+      "pts_seconds": 126.3,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000019.png",
+      "sha256": "18504e249b073bafd34862e333022eaeeb5b918e57444a3f94150182ef267194"
+    },
+    {
+      "frame_index": 7593,
+      "pts_seconds": 126.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000020.png",
+      "sha256": "2314b98f89af21e190c6f958f54b7f86e37918018a9f6ffbc3e36caf49e0d36c"
+    },
+    {
+      "frame_index": 7608,
+      "pts_seconds": 126.8,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000021.png",
+      "sha256": "597bfef42e10038c3b82d0c120098f180c194c4dfbc448622815bda414331ca9"
+    },
+    {
+      "frame_index": 7623,
+      "pts_seconds": 127.05,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000022.png",
+      "sha256": "d74f079b75c52904179b57630e82f7bc127927d32b12b8a09305a4fe79abdd2f"
+    },
+    {
+      "frame_index": 7638,
+      "pts_seconds": 127.3,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000023.png",
+      "sha256": "b2b4a108f8d0e8543615c4d0bb6fe1d2bfaf693d085f16431a80f1dc998d9e73"
+    },
+    {
+      "frame_index": 7653,
+      "pts_seconds": 127.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000024.png",
+      "sha256": "7621693638b59584183a8768f4b002c434381e3afb7d1649100408634265e766"
+    },
+    {
+      "frame_index": 7668,
+      "pts_seconds": 127.8,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000025.png",
+      "sha256": "60c8011b1d97ff30799b89cb51222d1638a169442619daca6f8a1e82fb9b897c"
+    },
+    {
+      "frame_index": 7683,
+      "pts_seconds": 128.05,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000026.png",
+      "sha256": "27abdfcebd2e6581b9d64f5eaf879e388fec9a9fd45d7c7bc6cb7bf002020e1b"
+    },
+    {
+      "frame_index": 7698,
+      "pts_seconds": 128.3,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000027.png",
+      "sha256": "4e7632c3c1106b2c986f53d0048777902ab906a76a55903aedae2ba5ae1951c2"
+    },
+    {
+      "frame_index": 7713,
+      "pts_seconds": 128.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000028.png",
+      "sha256": "90acf4710646cb9d6893d1466d25c3f8778d001771aeb933fbb2e170849c3c86"
+    },
+    {
+      "frame_index": 7728,
+      "pts_seconds": 128.8,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000029.png",
+      "sha256": "8b5ff3425bb213ee3daadd630790c8a280710911ade0dfaa68079d295dcb0ae6"
+    },
+    {
+      "frame_index": 7743,
+      "pts_seconds": 129.05,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000030.png",
+      "sha256": "f319d9308c5bdd3b642dcefc6cdcc81e3a4ffe342c38373d86282c418bd44ba9"
+    },
+    {
+      "frame_index": 7758,
+      "pts_seconds": 129.3,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000031.png",
+      "sha256": "1c189dffd94aaaa1b0dcd04021720ee6dc687a3a1085359ff9c89db6508db17a"
+    },
+    {
+      "frame_index": 7773,
+      "pts_seconds": 129.55,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000032.png",
+      "sha256": "77ed5eafc0d44a0a1bc04fdbb692c9b677f1486d676fcf453684d54f079f4e35"
+    },
+    {
+      "frame_index": 7788,
+      "pts_seconds": 129.8,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000033.png",
+      "sha256": "6c8d9ea5e0783a6101aa2a0e79c9d9ed27678b6a1340e62d90455e26141dabe3"
+    },
+    {
+      "frame_index": 7803,
+      "pts_seconds": 130.05,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000034.png",
+      "sha256": "ac4d052880babb294c0395451e57488e228bbbdeaa182599affcaf584e97f5aa"
+    },
+    {
+      "frame_index": 7818,
+      "pts_seconds": 130.3,
+      "png": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/frame-000035.png",
+      "sha256": "ae5dbaece6f1f000f90582ea259adadffc74c8b760bdd411db83684e629a4057"
+    }
+  ],
+  "sheets": [
+    "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/consecutive-001.jpg",
+    "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/consecutive-002.jpg"
+  ],
+  "silent_clip": "analysis/keyframes/reference_fd02030ee890/materials-assembly-overview/motion-interval.mp4",
+  "review_status": "exported_not_yet_visually_reviewed",
+  "source_notice": "Reference excerpt, not an original project animation."
+}

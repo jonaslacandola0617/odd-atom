@@ -1,0 +1,254 @@
+{
+  "status": "checkpoint_v1; original full-scope request remains incomplete",
+  "source_scope": "Only the five actual video-samples.zip members. Earlier eight uploads remain a separate collection.",
+  "mastery_claimed": false,
+  "blocking_source_access": null,
+  "completed": [
+    "Public archive download/hash/safe extraction",
+    "All five inventories and236097 frame/PTS measurements",
+    "46 storyboard pages visually navigated",
+    "19 native evidence cases:16 temporal windows plus3 construction stills",
+    "12 practical evidence-backed guides and five specific video reports",
+    "Hybrid Remotion engine, preserved approved original artwork",
+    "Four rendered original studies, inspected encoded evidence, corrected concrete failures",
+    "Source/audio provenance and technical/geometry/pixel determinism checks"
+  ],
+  "not_completed": [
+    "Exhaustive verified-shot boundaries and semantic interpretation for every source shot",
+    "Complete object/character counts and persistent identities across the archive",
+    "Per-shot source narration/music/SFX listening relationships and exact word alignment",
+    "Full source action library including close-up locomotion, running, turns, jumps, hand/grip/foot variants and shared-object release",
+    "Across-angle new-character construction and consistency",
+    "Rendered proof of every helper/technique class; current morph/IK helpers are tested but not a complete performance library",
+    "Independent animation of every painted background object",
+    "Audience silent-comprehension tests and user artistic approval",
+    "Source-level artistic equivalence or mastery"
+  ],
+  "resume_order": [
+    "Read AGENTS, README, evidence index, progress and this manifest. Do not reacquire/redecode intact checked sources.",
+    "Refine conservative proposals in a separate verified-boundary layer; broad ranges and false blur splits are documented.",
+    "Continue native temporal/semantic review outside the listed selected windows, preserving observation vs inference and actual PTS.",
+    "Prioritize close-up walk/harvest/hand action and additional environment/diagram transitions. Use existing case-plan as evidence locator, not as completed analysis.",
+    "Obtain actual source/final audio audition through an audio-capable review workflow. Do not label ASR/level metrics a listening pass.",
+    "Author missing poses/angles/hand/foot assets; render targeted original tests, inspect and revise before another full production."
+  ],
+  "precise_per_video_coverage": [
+    {
+      "video_id": "reference_9a02fcef71d3",
+      "frames_measured": 78231,
+      "proposal_boundaries_requiring_refinement": 56,
+      "verified_complete_shots": 0,
+      "selected_temporal_windows": [
+        [
+          10260,
+          10380
+        ],
+        [
+          10530,
+          10610
+        ],
+        [
+          12300,
+          12420
+        ],
+        [
+          12660,
+          12780
+        ],
+        [
+          28320,
+          28440
+        ],
+        [
+          53940,
+          54060
+        ]
+      ],
+      "frames_outside_selected_temporal_windows": [
+        [
+          0,
+          10260
+        ],
+        [
+          10380,
+          10530
+        ],
+        [
+          10610,
+          12300
+        ],
+        [
+          12420,
+          12660
+        ],
+        [
+          12780,
+          28320
+        ],
+        [
+          28440,
+          53940
+        ],
+        [
+          54060,
+          78231
+        ]
+      ],
+      "construction_still_frames": [
+        16800
+      ],
+      "next_case_targets": "Refine exceptionally broad proposals013/014/031; track the full206–220s boat loop natively; measure room removals per object; inspect source audio through actual listening."
+    },
+    {
+      "video_id": "reference_46db30e386c9",
+      "frames_measured": 41219,
+      "proposal_boundaries_requiring_refinement": 99,
+      "verified_complete_shots": 0,
+      "selected_temporal_windows": [
+        [
+          90,
+          114
+        ],
+        [
+          13080,
+          13200
+        ],
+        [
+          24960,
+          25032
+        ]
+      ],
+      "frames_outside_selected_temporal_windows": [
+        [
+          0,
+          90
+        ],
+        [
+          114,
+          13080
+        ],
+        [
+          13200,
+          24960
+        ],
+        [
+          25032,
+          41219
+        ]
+      ],
+      "construction_still_frames": [],
+      "next_case_targets": "Split internal concept changes inside long proposals; reject the four-frame blur false split around17987; investigate transport, carving and weather actions in native sequences beyond the current radial/hold/forest cases."
+    },
+    {
+      "video_id": "reference_3dab4435d188",
+      "frames_measured": 63020,
+      "proposal_boundaries_requiring_refinement": 96,
+      "verified_complete_shots": 0,
+      "selected_temporal_windows": [
+        [
+          24960,
+          25080
+        ],
+        [
+          46200,
+          46260
+        ],
+        [
+          54540,
+          54660
+        ]
+      ],
+      "frames_outside_selected_temporal_windows": [
+        [
+          0,
+          24960
+        ],
+        [
+          25080,
+          46200
+        ],
+        [
+          46260,
+          54540
+        ],
+        [
+          54660,
+          63020
+        ]
+      ],
+      "construction_still_frames": [
+        18600
+      ],
+      "next_case_targets": "Refine the81-second opening proposal and later multi-concept ranges; crop native walk/harvest/rope actions; export911–914s hand-surface transformation rather than claiming a completed release; build original close-up locomotion/hand tests."
+    },
+    {
+      "video_id": "reference_2e586456bc4d",
+      "frames_measured": 40825,
+      "proposal_boundaries_requiring_refinement": 59,
+      "verified_complete_shots": 0,
+      "selected_temporal_windows": [
+        [
+          10140,
+          10260
+        ],
+        [
+          27120,
+          27240
+        ]
+      ],
+      "frames_outside_selected_temporal_windows": [
+        [
+          0,
+          10140
+        ],
+        [
+          10260,
+          27120
+        ],
+        [
+          27240,
+          40825
+        ]
+      ],
+      "construction_still_frames": [],
+      "next_case_targets": "Refine broad root-tip/network proposals041–043 and leaf proposal019; distinguish source root fracture/mineral mechanism from our original detour; measure actual object/camera contributions over larger native windows."
+    },
+    {
+      "video_id": "reference_fd02030ee890",
+      "frames_measured": 12802,
+      "proposal_boundaries_requiring_refinement": 45,
+      "verified_complete_shots": 0,
+      "selected_temporal_windows": [
+        [
+          2040,
+          2160
+        ],
+        [
+          7340,
+          7460
+        ]
+      ],
+      "frames_outside_selected_temporal_windows": [
+        [
+          0,
+          2040
+        ],
+        [
+          2160,
+          7340
+        ],
+        [
+          7460,
+          12802
+        ]
+      ],
+      "construction_still_frames": [
+        120
+      ],
+      "next_case_targets": "Refine proposal007 and later mixed animation/live-action ranges; examine phone/wing interaction, balloon and studio transformations in native temporal detail; compare more human expressions/angles before universalizing C01."
+    }
+  ],
+  "coverage_notice": "1776 selected consecutive source frames (29.6s) are detailed temporal case coverage, not a percent-complete semantic-shot claim. All236097 frames have automated measurements; navigation covers entire videos.",
+  "computational_scope": "Persistent checkpoint for a65.6-minute,236097-frame corpus. Exhaustive perceptual interpretation and the expanded action library require further review/render iterations; no completion is inferred from pipeline execution.",
+  "remote_delivery": "See delivery.json and repository commit; push and verify before sharing download links."
+}

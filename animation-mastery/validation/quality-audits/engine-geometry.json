@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "Actual A/D poses: connected mesh has no inverted triangles; lower-leg anchors stay fixed; mug skin remains rigid; pose evaluation is independent of frame order.",
+    "Hierarchy resolves child-before-parent and rejects cycles; two-bone solve retains lengths and reaches a reachable target.",
+    "Holds preserve authored values, timing profiles differ, incompatible morph topology is rejected, and seeded placement spans its intended range."
+  ],
+  "mesh_triangles": 401280,
+  "min_signed_area_ratio": 0.3704560728432599,
+  "max_local_foot_displacement": 0,
+  "max_cup_edge_length_error": 9.947598300641403e-14,
+  "limitations": "Geometry/determinism checks do not establish illustration quality, seamless texture registration at every pose, source-quality equivalence, or viewer comprehension. Native-pixel and temporal visual inspection are separate."
+}

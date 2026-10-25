@@ -1,0 +1,41 @@
+{
+  "pipeline_version": 1,
+  "source_sha256": "f392f8bc9f58fc99f6869dce6064f0618f3171a383806c406b767b7d106eeec8",
+  "manifest_updates": {
+    "decoded_frame_count": 2015,
+    "decoded_picture_end_seconds": 67.189909,
+    "candidate_shot_count": 14,
+    "confirmed_shot_count": null,
+    "temporal_analysis_status": "all_frames_measured_semantic_review_pending"
+  },
+  "artifacts": [
+    {
+      "path": "analysis/video-reports/prior_f392f8bc9f58/report.json",
+      "sha256": "aaf99ccfa4abc50fcbc9bcf72df977c0ddcfec998e38a345e250a859aace5907"
+    },
+    {
+      "path": "analysis/video-reports/prior_f392f8bc9f58/frame-index.jsonl.gz",
+      "sha256": "3f82159f97a50e2637a8b2d4f8a0138e552edff266cd99acf13b98e9470cd0be"
+    },
+    {
+      "path": "analysis/video-reports/prior_f392f8bc9f58/frame-metrics.jsonl.gz",
+      "sha256": "905bd1c6708e5c1fc3950b5db58fe42832360d4e67565bd33d9ad77f7784a0d4"
+    },
+    {
+      "path": "analysis/shot-timelines/prior_f392f8bc9f58.json",
+      "sha256": "ef6de61c2d2816fe24b565a9981d5fb86b0b838c25dd01d1445a236dc3564c59"
+    },
+    {
+      "path": "analysis/motion-tracks/prior_f392f8bc9f58-feature-pairs.jsonl.gz",
+      "sha256": "5ba339a600037c5e2a91ee4f89636c597a0dcfcf9e8c47c5fdb9e0642349f26b"
+    },
+    {
+      "path": "analysis/keyframes/prior_f392f8bc9f58/storyboard-001.jpg",
+      "sha256": "7f6807ebea3f3f932f0c7c3bcd3b269fd71bc1e321f880fe5cdae4400c3241f9"
+    },
+    {
+      "path": "analysis/keyframes/prior_f392f8bc9f58/storyboard-002.jpg",
+      "sha256": "4e82dce8ee3e344d08f57e307a021168305d188a93c1543748f33c9004825339"
+    }
+  ]
+}

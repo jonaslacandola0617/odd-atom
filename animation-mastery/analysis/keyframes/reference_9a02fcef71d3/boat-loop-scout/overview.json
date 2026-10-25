@@ -1,0 +1,127 @@
+{
+  "video_id": "reference_9a02fcef71d3",
+  "method": "Verified display-order proxy, frames selected by recorded source PTS; navigation only.",
+  "samples": [
+    {
+      "frame_index": 12360,
+      "pts_seconds": 206.0,
+      "page": 1
+    },
+    {
+      "frame_index": 12396,
+      "pts_seconds": 206.6,
+      "page": 1
+    },
+    {
+      "frame_index": 12432,
+      "pts_seconds": 207.2,
+      "page": 1
+    },
+    {
+      "frame_index": 12468,
+      "pts_seconds": 207.8,
+      "page": 1
+    },
+    {
+      "frame_index": 12504,
+      "pts_seconds": 208.4,
+      "page": 1
+    },
+    {
+      "frame_index": 12540,
+      "pts_seconds": 209.0,
+      "page": 1
+    },
+    {
+      "frame_index": 12576,
+      "pts_seconds": 209.6,
+      "page": 1
+    },
+    {
+      "frame_index": 12612,
+      "pts_seconds": 210.2,
+      "page": 1
+    },
+    {
+      "frame_index": 12648,
+      "pts_seconds": 210.8,
+      "page": 1
+    },
+    {
+      "frame_index": 12684,
+      "pts_seconds": 211.4,
+      "page": 1
+    },
+    {
+      "frame_index": 12720,
+      "pts_seconds": 212.0,
+      "page": 1
+    },
+    {
+      "frame_index": 12756,
+      "pts_seconds": 212.6,
+      "page": 1
+    },
+    {
+      "frame_index": 12792,
+      "pts_seconds": 213.2,
+      "page": 1
+    },
+    {
+      "frame_index": 12828,
+      "pts_seconds": 213.8,
+      "page": 1
+    },
+    {
+      "frame_index": 12864,
+      "pts_seconds": 214.4,
+      "page": 1
+    },
+    {
+      "frame_index": 12900,
+      "pts_seconds": 215.0,
+      "page": 1
+    },
+    {
+      "frame_index": 12936,
+      "pts_seconds": 215.6,
+      "page": 1
+    },
+    {
+      "frame_index": 12972,
+      "pts_seconds": 216.2,
+      "page": 1
+    },
+    {
+      "frame_index": 13008,
+      "pts_seconds": 216.8,
+      "page": 1
+    },
+    {
+      "frame_index": 13044,
+      "pts_seconds": 217.4,
+      "page": 1
+    },
+    {
+      "frame_index": 13080,
+      "pts_seconds": 218.0,
+      "page": 1
+    },
+    {
+      "frame_index": 13116,
+      "pts_seconds": 218.6,
+      "page": 1
+    },
+    {
+      "frame_index": 13152,
+      "pts_seconds": 219.2,
+      "page": 1
+    },
+    {
+      "frame_index": 13188,
+      "pts_seconds": 219.8,
+      "page": 1
+    }
+  ],
+  "visual_review": "pending"
+}

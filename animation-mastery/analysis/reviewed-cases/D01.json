@@ -1,0 +1,160 @@
+{
+  "video_id": "reference_3dab4435d188",
+  "shot_id": "case_D01",
+  "case_id": "D01",
+  "case_name": "farmer-design",
+  "source_sha256": "3dab4435d1882835d9f3798f7c367daa4b1388f9342649b26a3b250f1209acf5",
+  "start_frame": 18600,
+  "end_frame": 18601,
+  "end_frame_exclusive": true,
+  "start_pts_seconds": 310.0,
+  "end_pts_seconds": 310.01666666666665,
+  "fps": 60,
+  "review_scope": "selected_native_still",
+  "not_a_complete_verified_shot": true,
+  "boundary_review_status": "needs_refinement",
+  "narrative_purpose": "Contrast a person carrying a harvest with a person working in the crop patch; props and pose communicate labor.",
+  "narrative_purpose_basis": "inferred_from_visual_event_and_coarse_unverified_ASR_context",
+  "composition": {
+    "attention_order": [
+      "left carrier and full basket",
+      "right bending worker",
+      "crop patch",
+      "distant hills"
+    ],
+    "subject_layout": [
+      {
+        "object_id": "history.harvest-carrier",
+        "description": "Long-legged human in cyan patterned dress, purple rear/front hair, warm skin and filled simplified facial marks.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "history.harvest-worker",
+        "description": "Bent bearded human in a cyan patterned tunic; hand near basket and crops.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "history.harvest-basket",
+        "description": "Warm orange ribbed basket overlapping both forearms.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      },
+      {
+        "object_id": "history.crops",
+        "description": "Repeated orange mounds/roots and curving green leaves.",
+        "visibility": "visible",
+        "bounds_normalized_xyxy": null,
+        "bounds_at_frame": null
+      }
+    ],
+    "negative_space": "Light green land, darker curving patch, rounded blue/teal hills, layered rock and shrub masses.",
+    "depth_order": [
+      "background field",
+      "scene props / explanatory structure",
+      "actor or focal interaction where present"
+    ],
+    "depth_order_basis": "broad observed overlap; per-object hidden ordering not recovered"
+  },
+  "characters": [
+    {
+      "object_id": "history.harvest-carrier",
+      "description": "Long-legged human in cyan patterned dress, purple rear/front hair, warm skin and filled simplified facial marks.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "history.harvest-worker",
+      "description": "Bent bearded human in a cyan patterned tunic; hand near basket and crops.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "history.harvest-basket",
+      "description": "Warm orange ribbed basket overlapping both forearms.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    },
+    {
+      "object_id": "history.crops",
+      "description": "Repeated orange mounds/roots and curving green leaves.",
+      "visibility": "visible",
+      "bounds_normalized_xyxy": null,
+      "bounds_at_frame": null
+    }
+  ],
+  "background_layers": [
+    {
+      "object_id": "d01.background",
+      "description": "Light green land, darker curving patch, rounded blue/teal hills, layered rock and shrub masses.",
+      "visibility": "visible"
+    }
+  ],
+  "motion_events": [],
+  "camera_animation": [
+    {
+      "statement": "Camera motion is not uniquely separated from artwork/layer motion in this case.",
+      "basis": "inferred",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        18600,
+        18601
+      ],
+      "limitations": "Single-frame drawing study only; no movement, rig or stable across-angle identity inferred."
+    }
+  ],
+  "transitions": [
+    {
+      "statement": "Case window is internal to a larger sequence. Incoming/outgoing complete-shot relationship needs boundary refinement.",
+      "basis": "direct_observation",
+      "confidence": 0.9,
+      "evidence_frame_range": [
+        18600,
+        18601
+      ]
+    }
+  ],
+  "visual_style_notes": [
+    {
+      "statement": "Native still shows continuous arm silhouettes, hidden joints under basket/clothing overlap and selective internal color patches.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        18600,
+        18601
+      ]
+    },
+    {
+      "statement": "Long thin exposed legs differ substantially from creator C01 proportions; a single head/body ratio is not supported.",
+      "basis": "direct_observation",
+      "confidence": 0.85,
+      "evidence_frame_range": [
+        18600,
+        18601
+      ]
+    }
+  ],
+  "evidence_frames": [
+    {
+      "frame_index": 18600,
+      "pts_seconds": 310.0,
+      "file": "analysis/keyframes/reference_3dab4435d188/farmer-design/consecutive-001.jpg",
+      "native_png_regenerable": "analysis/keyframes/reference_3dab4435d188/farmer-design/frame-000000.png"
+    }
+  ],
+  "evidence_manifest": "analysis/keyframes/reference_3dab4435d188/farmer-design/evidence.json",
+  "source_technique_inference_limitations": "Single-frame drawing study only; no movement, rig or stable across-angle identity inferred.",
+  "reviewed_consecutive_sheets": [
+    "analysis/keyframes/reference_3dab4435d188/farmer-design/consecutive-001.jpg"
+  ],
+  "audio_review": "No direct audition. ASR is unverified coarse context, not exact word or isolated-SFX timing."
+}

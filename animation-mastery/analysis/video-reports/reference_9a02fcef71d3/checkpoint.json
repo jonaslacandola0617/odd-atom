@@ -1,0 +1,61 @@
+{
+  "pipeline_version": 3,
+  "source_sha256": "9a02fcef71d3477fc80347b811d1e1a28dbe593aaa99c237bbcf4dd5335493e7",
+  "manifest_updates": {
+    "decoded_frame_count": 78231,
+    "decoded_picture_end_seconds": 1303.85,
+    "candidate_shot_count": 56,
+    "confirmed_shot_count": null,
+    "temporal_analysis_status": "all_frames_measured_semantic_review_pending"
+  },
+  "artifacts": [
+    {
+      "path": "analysis/video-reports/reference_9a02fcef71d3/report.json",
+      "sha256": "251d2e0061acdfc349df702fb2cab0947c0b15566bbd4044a5d41b9385d24c14"
+    },
+    {
+      "path": "analysis/video-reports/reference_9a02fcef71d3/frame-index.jsonl.gz",
+      "sha256": "794aae2610d33c6dd169507503d536e08978d2816fc106cef0d869aa332358bd"
+    },
+    {
+      "path": "analysis/video-reports/reference_9a02fcef71d3/frame-metrics.jsonl.gz",
+      "sha256": "108e961400ee46302fcf9683de2d03efa75e4a581ddb4da70cc8d4f5f53c34c8"
+    },
+    {
+      "path": "analysis/shot-timelines/reference_9a02fcef71d3.json",
+      "sha256": "b87598634a4190d283b01bc9f95ce6491af855d4363124bb06ef80764faaa918"
+    },
+    {
+      "path": "analysis/motion-tracks/reference_9a02fcef71d3-feature-pairs.jsonl.gz",
+      "sha256": "6b6d5ea5be351dad28147e8e617cf660c4f8cd55563e7b861e32317e410bc7b9"
+    },
+    {
+      "path": "analysis/keyframes/reference_9a02fcef71d3/storyboard-001.jpg",
+      "sha256": "8d6d84f54faeef56247447d67cdf35228a9faf9f314c927aa4c5aaed825506f4"
+    },
+    {
+      "path": "analysis/keyframes/reference_9a02fcef71d3/storyboard-002.jpg",
+      "sha256": "86fe43c5a5be62523aa7f9f15f7408e1dabb625e2cf5a3690bcf12e655522309"
+    },
+    {
+      "path": "analysis/keyframes/reference_9a02fcef71d3/storyboard-003.jpg",
+      "sha256": "efa50eece5ff7d049337336b6f277ef03bd65d72e8544934591f7b1c9637513f"
+    },
+    {
+      "path": "analysis/keyframes/reference_9a02fcef71d3/storyboard-004.jpg",
+      "sha256": "f72cad4f3cf1f818a88cb12c946ff8b845dd79145a152a10fa5878c351c730ce"
+    },
+    {
+      "path": "analysis/keyframes/reference_9a02fcef71d3/storyboard-005.jpg",
+      "sha256": "5d41f4e135cc1c0dbbaeb1d6d80bf4cd443f805862951cf7b2eefaefe88012dd"
+    },
+    {
+      "path": "analysis/keyframes/reference_9a02fcef71d3/storyboard-006.jpg",
+      "sha256": "7cadb01ead352b5215fd4fde497c28fa9a93574ad2c4fa610d56b92e76e3584e"
+    },
+    {
+      "path": "analysis/keyframes/reference_9a02fcef71d3/storyboard-007.jpg",
+      "sha256": "075b4e224494e776ffc766fffaf469e1d8f743493a6fc5f7149b1096b28901e4"
+    }
+  ]
+}
