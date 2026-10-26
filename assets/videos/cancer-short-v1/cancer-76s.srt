@@ -1,0 +1,155 @@
+1
+00:00:00,287 --> 00:00:01,507
+Cancer's strangest trick?
+
+2
+00:00:01,540 --> 00:00:03,933
+It starts with your own cells.
+
+3
+00:00:04,100 --> 00:00:06,830
+Healthy cells follow signals:
+
+4
+00:00:06,996 --> 00:00:09,427
+grow, repair damage, stop
+
+5
+00:00:09,442 --> 00:00:11,834
+dividing. If damage is too
+
+6
+00:00:11,849 --> 00:00:13,325
+severe, they can trigger their
+
+7
+00:00:13,340 --> 00:00:14,360
+own destruction.
+
+8
+00:00:14,680 --> 00:00:16,272
+But genetic changes can break
+
+9
+00:00:16,287 --> 00:00:17,400
+these safeguards.
+
+10
+00:00:17,720 --> 00:00:19,605
+A damaged cell keeps copying
+
+11
+00:00:19,620 --> 00:00:21,880
+itself. One becomes two.
+
+12
+00:00:22,230 --> 00:00:23,400
+Two become four.
+
+13
+00:00:23,780 --> 00:00:25,655
+A growing mass can crowd out
+
+14
+00:00:25,670 --> 00:00:26,600
+healthy tissue.
+
+15
+00:00:26,772 --> 00:00:29,245
+Your immune system can recognize
+
+16
+00:00:29,260 --> 00:00:31,160
+and destroy abnormal cells.
+
+17
+00:00:31,360 --> 00:00:33,589
+But some cancer cells escape
+
+18
+00:00:33,604 --> 00:00:36,117
+detection. Others send signals
+
+19
+00:00:36,132 --> 00:00:38,040
+that switch immune attacks off.
+
+20
+00:00:38,360 --> 00:00:40,215
+Now the danger is growing behind
+
+21
+00:00:40,230 --> 00:00:41,570
+a convincing disguise.
+
+22
+00:00:41,850 --> 00:00:44,015
+And some cancer cells can break
+
+23
+00:00:44,030 --> 00:00:45,650
+away and spread elsewhere.
+
+24
+00:00:45,806 --> 00:00:47,490
+That's metastasis.
+
+25
+00:00:47,810 --> 00:00:49,341
+So how do you fight an enemy that
+
+26
+00:00:49,356 --> 00:00:50,282
+looks like you?
+
+27
+00:00:50,423 --> 00:00:53,117
+Immunotherapy can help the immune
+
+28
+00:00:53,132 --> 00:00:55,117
+system recognize or attack
+
+29
+00:00:55,132 --> 00:00:57,628
+cancer. Some treatments release
+
+30
+00:00:57,643 --> 00:00:59,243
+the brakes on immune cells.
+
+31
+00:00:59,436 --> 00:01:01,416
+It can work remarkably well for
+
+32
+00:01:01,431 --> 00:01:03,323
+some people, but not everyone.
+
+33
+00:01:03,486 --> 00:01:06,048
+Cancer is many diseases, with
+
+34
+00:01:06,063 --> 00:01:07,403
+different vulnerabilities.
+
+35
+00:01:07,723 --> 00:01:08,985
+The next breakthrough might
+
+36
+00:01:09,000 --> 00:01:10,679
+depend on a surprisingly simple
+
+37
+00:01:10,694 --> 00:01:11,353
+question:
+
+38
+00:01:11,813 --> 00:01:13,701
+how do we help the body see what
+
+39
+00:01:13,716 --> 00:01:14,643
+it's been missing?

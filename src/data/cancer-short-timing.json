@@ -1,0 +1,1666 @@
+{
+  "title": "Cancer\u2019s Strangest Trick",
+  "duration_seconds": 76,
+  "duration_frames": 2280,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "narration_original_sha256": "0b267bddc446af542280fa8d913855f124cd9ea6f7a26a5eb2dbe776bc18b401",
+  "narration_original_duration": 77.04,
+  "narration_edited_file": "assets/audio/cancer-short-v1/narration.wav",
+  "narration_edit": {
+    "cuts": [
+      {
+        "start_original": 14.370000000000001,
+        "end_original": 15.010000000000002,
+        "removed_seconds": 0.6400000000000006,
+        "between": [
+          "destruction.",
+          "But"
+        ]
+      },
+      {
+        "start_original": 18.05,
+        "end_original": 18.29,
+        "removed_seconds": 0.24000000000000016,
+        "between": [
+          "safeguards.",
+          "A"
+        ]
+      },
+      {
+        "start_original": 38.93,
+        "end_original": 39.24,
+        "removed_seconds": 0.310000000000004,
+        "between": [
+          "off.",
+          "Now"
+        ]
+      },
+      {
+        "start_original": 48.69,
+        "end_original": 49.577,
+        "removed_seconds": 0.8870000000000022,
+        "between": [
+          "metastasis.",
+          "So"
+        ]
+      },
+      {
+        "start_original": 69.49,
+        "end_original": 69.93499999999999,
+        "removed_seconds": 0.4449999999999949,
+        "between": [
+          "vulnerabilities.",
+          "The"
+        ]
+      }
+    ],
+    "speed": 1,
+    "pitch_changed": false,
+    "leading_pad_seconds": 0.1,
+    "speech_end_seconds": 74.543,
+    "ending_tail_seconds": 1.4569999999999936
+  },
+  "captions": [
+    {
+      "start": 0.28700000000000003,
+      "end": 1.5070000000000001,
+      "text": "Cancer's strangest trick?",
+      "lines": [
+        "Cancer's strangest trick?"
+      ]
+    },
+    {
+      "start": 1.54,
+      "end": 3.9330000000000003,
+      "text": "It starts with your own cells.",
+      "lines": [
+        "It starts with your own cells."
+      ]
+    },
+    {
+      "start": 4.1,
+      "end": 6.829999999999999,
+      "text": "Healthy cells follow signals:",
+      "lines": [
+        "Healthy cells follow signals:"
+      ]
+    },
+    {
+      "start": 6.9959999999999996,
+      "end": 9.427,
+      "text": "grow, repair damage, stop",
+      "lines": [
+        "grow, repair damage, stop"
+      ]
+    },
+    {
+      "start": 9.442,
+      "end": 11.834,
+      "text": "dividing. If damage is too",
+      "lines": [
+        "dividing. If damage is too"
+      ]
+    },
+    {
+      "start": 11.849,
+      "end": 13.325,
+      "text": "severe, they can trigger their",
+      "lines": [
+        "severe, they can trigger their"
+      ]
+    },
+    {
+      "start": 13.34,
+      "end": 14.36,
+      "text": "own destruction.",
+      "lines": [
+        "own destruction."
+      ]
+    },
+    {
+      "start": 14.68,
+      "end": 16.272000000000002,
+      "text": "But genetic changes can break",
+      "lines": [
+        "But genetic",
+        "changes can break"
+      ]
+    },
+    {
+      "start": 16.287000000000003,
+      "end": 17.400000000000002,
+      "text": "these safeguards.",
+      "lines": [
+        "these safeguards."
+      ]
+    },
+    {
+      "start": 17.720000000000002,
+      "end": 19.605,
+      "text": "A damaged cell keeps copying",
+      "lines": [
+        "A damaged cell",
+        "keeps copying"
+      ]
+    },
+    {
+      "start": 19.62,
+      "end": 21.880000000000003,
+      "text": "itself. One becomes two.",
+      "lines": [
+        "itself. One becomes two."
+      ]
+    },
+    {
+      "start": 22.230000000000004,
+      "end": 23.400000000000002,
+      "text": "Two become four.",
+      "lines": [
+        "Two become four."
+      ]
+    },
+    {
+      "start": 23.78,
+      "end": 25.655,
+      "text": "A growing mass can crowd out",
+      "lines": [
+        "A growing mass",
+        "can crowd out"
+      ]
+    },
+    {
+      "start": 25.67,
+      "end": 26.600000000000005,
+      "text": "healthy tissue.",
+      "lines": [
+        "healthy tissue."
+      ]
+    },
+    {
+      "start": 26.772000000000002,
+      "end": 29.245,
+      "text": "Your immune system can recognize",
+      "lines": [
+        "Your immune system",
+        "can recognize"
+      ]
+    },
+    {
+      "start": 29.26,
+      "end": 31.160000000000004,
+      "text": "and destroy abnormal cells.",
+      "lines": [
+        "and destroy abnormal cells."
+      ]
+    },
+    {
+      "start": 31.360000000000003,
+      "end": 33.589000000000006,
+      "text": "But some cancer cells escape",
+      "lines": [
+        "But some cancer cells escape"
+      ]
+    },
+    {
+      "start": 33.604000000000006,
+      "end": 36.117,
+      "text": "detection. Others send signals",
+      "lines": [
+        "detection. Others",
+        "send signals"
+      ]
+    },
+    {
+      "start": 36.132,
+      "end": 38.040000000000006,
+      "text": "that switch immune attacks off.",
+      "lines": [
+        "that switch immune",
+        "attacks off."
+      ]
+    },
+    {
+      "start": 38.36000000000001,
+      "end": 40.214999999999996,
+      "text": "Now the danger is growing behind",
+      "lines": [
+        "Now the danger",
+        "is growing behind"
+      ]
+    },
+    {
+      "start": 40.23,
+      "end": 41.57000000000001,
+      "text": "a convincing disguise.",
+      "lines": [
+        "a convincing disguise."
+      ]
+    },
+    {
+      "start": 41.85,
+      "end": 44.01499999999999,
+      "text": "And some cancer cells can break",
+      "lines": [
+        "And some cancer",
+        "cells can break"
+      ]
+    },
+    {
+      "start": 44.029999999999994,
+      "end": 45.650000000000006,
+      "text": "away and spread elsewhere.",
+      "lines": [
+        "away and spread elsewhere."
+      ]
+    },
+    {
+      "start": 45.806000000000004,
+      "end": 47.489999999999995,
+      "text": "That's metastasis.",
+      "lines": [
+        "That's metastasis."
+      ]
+    },
+    {
+      "start": 47.809999999999995,
+      "end": 49.341,
+      "text": "So how do you fight an enemy that",
+      "lines": [
+        "So how do you",
+        "fight an enemy that"
+      ]
+    },
+    {
+      "start": 49.356,
+      "end": 50.282,
+      "text": "looks like you?",
+      "lines": [
+        "looks like you?"
+      ]
+    },
+    {
+      "start": 50.422999999999995,
+      "end": 53.117,
+      "text": "Immunotherapy can help the immune",
+      "lines": [
+        "Immunotherapy can",
+        "help the immune"
+      ]
+    },
+    {
+      "start": 53.132,
+      "end": 55.117,
+      "text": "system recognize or attack",
+      "lines": [
+        "system recognize or attack"
+      ]
+    },
+    {
+      "start": 55.132,
+      "end": 57.62799999999999,
+      "text": "cancer. Some treatments release",
+      "lines": [
+        "cancer. Some",
+        "treatments release"
+      ]
+    },
+    {
+      "start": 57.642999999999994,
+      "end": 59.242999999999995,
+      "text": "the brakes on immune cells.",
+      "lines": [
+        "the brakes on immune cells."
+      ]
+    },
+    {
+      "start": 59.436,
+      "end": 61.416000000000004,
+      "text": "It can work remarkably well for",
+      "lines": [
+        "It can work",
+        "remarkably well for"
+      ]
+    },
+    {
+      "start": 61.431000000000004,
+      "end": 63.32300000000001,
+      "text": "some people, but not everyone.",
+      "lines": [
+        "some people, but",
+        "not everyone."
+      ]
+    },
+    {
+      "start": 63.486,
+      "end": 66.048,
+      "text": "Cancer is many diseases, with",
+      "lines": [
+        "Cancer is many",
+        "diseases, with"
+      ]
+    },
+    {
+      "start": 66.063,
+      "end": 67.40299999999999,
+      "text": "different vulnerabilities.",
+      "lines": [
+        "different vulnerabilities."
+      ]
+    },
+    {
+      "start": 67.723,
+      "end": 68.985,
+      "text": "The next breakthrough might",
+      "lines": [
+        "The next breakthrough might"
+      ]
+    },
+    {
+      "start": 69.0,
+      "end": 70.679,
+      "text": "depend on a surprisingly simple",
+      "lines": [
+        "depend on a",
+        "surprisingly simple"
+      ]
+    },
+    {
+      "start": 70.694,
+      "end": 71.35300000000001,
+      "text": "question:",
+      "lines": [
+        "question:"
+      ]
+    },
+    {
+      "start": 71.813,
+      "end": 73.70100000000001,
+      "text": "how do we help the body see what",
+      "lines": [
+        "how do we help",
+        "the body see what"
+      ]
+    },
+    {
+      "start": 73.71600000000001,
+      "end": 74.643,
+      "text": "it's been missing?",
+      "lines": [
+        "it's been missing?"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "Cancer's",
+      "start_original": 0.187,
+      "end_original": 0.4,
+      "start": 0.28700000000000003,
+      "end": 0.5
+    },
+    {
+      "text": "strangest",
+      "start_original": 0.44,
+      "end_original": 0.933,
+      "start": 0.54,
+      "end": 1.0330000000000001
+    },
+    {
+      "text": "trick?",
+      "start_original": 0.987,
+      "end_original": 1.307,
+      "start": 1.087,
+      "end": 1.407
+    },
+    {
+      "text": "It",
+      "start_original": 1.44,
+      "end_original": 2.027,
+      "start": 1.54,
+      "end": 2.1270000000000002
+    },
+    {
+      "text": "starts",
+      "start_original": 2.173,
+      "end_original": 2.663,
+      "start": 2.273,
+      "end": 2.763
+    },
+    {
+      "text": "with",
+      "start_original": 2.731,
+      "end_original": 2.848,
+      "start": 2.831,
+      "end": 2.948
+    },
+    {
+      "text": "your",
+      "start_original": 2.864,
+      "end_original": 3.024,
+      "start": 2.964,
+      "end": 3.124
+    },
+    {
+      "text": "own",
+      "start_original": 3.072,
+      "end_original": 3.24,
+      "start": 3.172,
+      "end": 3.3400000000000003
+    },
+    {
+      "text": "cells.",
+      "start_original": 3.3,
+      "end_original": 3.733,
+      "start": 3.4,
+      "end": 3.833
+    },
+    {
+      "text": "Healthy",
+      "start_original": 4,
+      "end_original": 5.28,
+      "start": 4.1,
+      "end": 5.38
+    },
+    {
+      "text": "cells",
+      "start_original": 5.36,
+      "end_original": 5.76,
+      "start": 5.46,
+      "end": 5.859999999999999
+    },
+    {
+      "text": "follow",
+      "start_original": 5.806,
+      "end_original": 6.08,
+      "start": 5.906,
+      "end": 6.18
+    },
+    {
+      "text": "signals:",
+      "start_original": 6.15,
+      "end_original": 6.64,
+      "start": 6.25,
+      "end": 6.739999999999999
+    },
+    {
+      "text": "grow,",
+      "start_original": 6.896,
+      "end_original": 7.6,
+      "start": 6.9959999999999996,
+      "end": 7.699999999999999
+    },
+    {
+      "text": "repair",
+      "start_original": 7.817,
+      "end_original": 8.16,
+      "start": 7.917,
+      "end": 8.26
+    },
+    {
+      "text": "damage,",
+      "start_original": 8.229,
+      "end_original": 8.64,
+      "start": 8.328999999999999,
+      "end": 8.74
+    },
+    {
+      "text": "stop",
+      "start_original": 8.832,
+      "end_original": 9.28,
+      "start": 8.932,
+      "end": 9.379999999999999
+    },
+    {
+      "text": "dividing.",
+      "start_original": 9.342,
+      "end_original": 9.84,
+      "start": 9.442,
+      "end": 9.94
+    },
+    {
+      "text": "If",
+      "start_original": 10.24,
+      "end_original": 10.88,
+      "start": 10.34,
+      "end": 10.98
+    },
+    {
+      "text": "damage",
+      "start_original": 10.937,
+      "end_original": 11.28,
+      "start": 11.036999999999999,
+      "end": 11.379999999999999
+    },
+    {
+      "text": "is",
+      "start_original": 11.333,
+      "end_original": 11.44,
+      "start": 11.433,
+      "end": 11.54
+    },
+    {
+      "text": "too",
+      "start_original": 11.5,
+      "end_original": 11.68,
+      "start": 11.6,
+      "end": 11.78
+    },
+    {
+      "text": "severe,",
+      "start_original": 11.749,
+      "end_original": 12.16,
+      "start": 11.849,
+      "end": 12.26
+    },
+    {
+      "text": "they",
+      "start_original": 12.432,
+      "end_original": 12.56,
+      "start": 12.532,
+      "end": 12.66
+    },
+    {
+      "text": "can",
+      "start_original": 12.6,
+      "end_original": 12.72,
+      "start": 12.7,
+      "end": 12.82
+    },
+    {
+      "text": "trigger",
+      "start_original": 12.75,
+      "end_original": 12.96,
+      "start": 12.85,
+      "end": 13.06
+    },
+    {
+      "text": "their",
+      "start_original": 13,
+      "end_original": 13.2,
+      "start": 13.1,
+      "end": 13.299999999999999
+    },
+    {
+      "text": "own",
+      "start_original": 13.24,
+      "end_original": 13.36,
+      "start": 13.34,
+      "end": 13.459999999999999
+    },
+    {
+      "text": "destruction.",
+      "start_original": 13.427,
+      "end_original": 14.16,
+      "start": 13.527,
+      "end": 14.26
+    },
+    {
+      "text": "But",
+      "start_original": 15.22,
+      "end_original": 15.28,
+      "start": 14.68,
+      "end": 14.739999999999998
+    },
+    {
+      "text": "genetic",
+      "start_original": 15.35,
+      "end_original": 15.84,
+      "start": 14.809999999999999,
+      "end": 15.299999999999999
+    },
+    {
+      "text": "changes",
+      "start_original": 15.9,
+      "end_original": 16.32,
+      "start": 15.36,
+      "end": 15.78
+    },
+    {
+      "text": "can",
+      "start_original": 16.36,
+      "end_original": 16.48,
+      "start": 15.819999999999999,
+      "end": 15.94
+    },
+    {
+      "text": "break",
+      "start_original": 16.533,
+      "end_original": 16.8,
+      "start": 15.993,
+      "end": 16.26
+    },
+    {
+      "text": "these",
+      "start_original": 16.827,
+      "end_original": 16.96,
+      "start": 16.287000000000003,
+      "end": 16.42
+    },
+    {
+      "text": "safeguards.",
+      "start_original": 17.04,
+      "end_original": 17.84,
+      "start": 16.5,
+      "end": 17.3
+    },
+    {
+      "text": "A",
+      "start_original": 18.5,
+      "end_original": 18.72,
+      "start": 17.720000000000002,
+      "end": 17.94
+    },
+    {
+      "text": "damaged",
+      "start_original": 18.78,
+      "end_original": 19.2,
+      "start": 18.000000000000004,
+      "end": 18.42
+    },
+    {
+      "text": "cell",
+      "start_original": 19.28,
+      "end_original": 19.6,
+      "start": 18.500000000000004,
+      "end": 18.820000000000004
+    },
+    {
+      "text": "keeps",
+      "start_original": 19.653,
+      "end_original": 19.92,
+      "start": 18.873,
+      "end": 19.140000000000004
+    },
+    {
+      "text": "copying",
+      "start_original": 19.97,
+      "end_original": 20.32,
+      "start": 19.19,
+      "end": 19.540000000000003
+    },
+    {
+      "text": "itself.",
+      "start_original": 20.4,
+      "end_original": 20.88,
+      "start": 19.62,
+      "end": 20.1
+    },
+    {
+      "text": "One",
+      "start_original": 21.14,
+      "end_original": 21.68,
+      "start": 20.360000000000003,
+      "end": 20.900000000000002
+    },
+    {
+      "text": "becomes",
+      "start_original": 21.74,
+      "end_original": 22.16,
+      "start": 20.96,
+      "end": 21.380000000000003
+    },
+    {
+      "text": "two.",
+      "start_original": 22.26,
+      "end_original": 22.56,
+      "start": 21.480000000000004,
+      "end": 21.78
+    },
+    {
+      "text": "Two",
+      "start_original": 23.01,
+      "end_original": 23.28,
+      "start": 22.230000000000004,
+      "end": 22.500000000000004
+    },
+    {
+      "text": "become",
+      "start_original": 23.326,
+      "end_original": 23.6,
+      "start": 22.546000000000003,
+      "end": 22.820000000000004
+    },
+    {
+      "text": "four.",
+      "start_original": 23.696,
+      "end_original": 24.08,
+      "start": 22.916000000000004,
+      "end": 23.3
+    },
+    {
+      "text": "A",
+      "start_original": 24.56,
+      "end_original": 24.96,
+      "start": 23.78,
+      "end": 24.180000000000003
+    },
+    {
+      "text": "growing",
+      "start_original": 25.01,
+      "end_original": 25.36,
+      "start": 24.230000000000004,
+      "end": 24.580000000000002
+    },
+    {
+      "text": "mass",
+      "start_original": 25.424,
+      "end_original": 25.68,
+      "start": 24.644000000000002,
+      "end": 24.900000000000002
+    },
+    {
+      "text": "can",
+      "start_original": 25.72,
+      "end_original": 25.84,
+      "start": 24.94,
+      "end": 25.060000000000002
+    },
+    {
+      "text": "crowd",
+      "start_original": 25.907,
+      "end_original": 26.24,
+      "start": 25.127000000000002,
+      "end": 25.46
+    },
+    {
+      "text": "out",
+      "start_original": 26.28,
+      "end_original": 26.4,
+      "start": 25.500000000000004,
+      "end": 25.62
+    },
+    {
+      "text": "healthy",
+      "start_original": 26.45,
+      "end_original": 26.8,
+      "start": 25.67,
+      "end": 26.020000000000003
+    },
+    {
+      "text": "tissue.",
+      "start_original": 26.869,
+      "end_original": 27.28,
+      "start": 26.089000000000002,
+      "end": 26.500000000000004
+    },
+    {
+      "text": "Your",
+      "start_original": 27.552,
+      "end_original": 28.32,
+      "start": 26.772000000000002,
+      "end": 27.540000000000003
+    },
+    {
+      "text": "immune",
+      "start_original": 28.377,
+      "end_original": 28.72,
+      "start": 27.597,
+      "end": 27.94
+    },
+    {
+      "text": "system",
+      "start_original": 28.777,
+      "end_original": 29.12,
+      "start": 27.997000000000003,
+      "end": 28.340000000000003
+    },
+    {
+      "text": "can",
+      "start_original": 29.18,
+      "end_original": 29.36,
+      "start": 28.400000000000002,
+      "end": 28.580000000000002
+    },
+    {
+      "text": "recognize",
+      "start_original": 29.424,
+      "end_original": 30,
+      "start": 28.644000000000002,
+      "end": 29.220000000000002
+    },
+    {
+      "text": "and",
+      "start_original": 30.04,
+      "end_original": 30.16,
+      "start": 29.26,
+      "end": 29.380000000000003
+    },
+    {
+      "text": "destroy",
+      "start_original": 30.23,
+      "end_original": 30.72,
+      "start": 29.450000000000003,
+      "end": 29.94
+    },
+    {
+      "text": "abnormal",
+      "start_original": 30.782,
+      "end_original": 31.28,
+      "start": 30.002000000000002,
+      "end": 30.500000000000004
+    },
+    {
+      "text": "cells.",
+      "start_original": 31.373,
+      "end_original": 31.84,
+      "start": 30.593000000000004,
+      "end": 31.060000000000002
+    },
+    {
+      "text": "But",
+      "start_original": 32.14,
+      "end_original": 32.8,
+      "start": 31.360000000000003,
+      "end": 32.019999999999996
+    },
+    {
+      "text": "some",
+      "start_original": 32.848,
+      "end_original": 33.04,
+      "start": 32.068,
+      "end": 32.26
+    },
+    {
+      "text": "cancer",
+      "start_original": 33.109,
+      "end_original": 33.52,
+      "start": 32.329,
+      "end": 32.74
+    },
+    {
+      "text": "cells",
+      "start_original": 33.573,
+      "end_original": 33.84,
+      "start": 32.793,
+      "end": 33.06000000000001
+    },
+    {
+      "text": "escape",
+      "start_original": 33.909,
+      "end_original": 34.32,
+      "start": 33.129,
+      "end": 33.54
+    },
+    {
+      "text": "detection.",
+      "start_original": 34.384,
+      "end_original": 34.96,
+      "start": 33.604000000000006,
+      "end": 34.18
+    },
+    {
+      "text": "Others",
+      "start_original": 35.177,
+      "end_original": 36,
+      "start": 34.397,
+      "end": 35.220000000000006
+    },
+    {
+      "text": "send",
+      "start_original": 36.08,
+      "end_original": 36.4,
+      "start": 35.300000000000004,
+      "end": 35.62
+    },
+    {
+      "text": "signals",
+      "start_original": 36.46,
+      "end_original": 36.88,
+      "start": 35.68,
+      "end": 36.1
+    },
+    {
+      "text": "that",
+      "start_original": 36.912,
+      "end_original": 37.04,
+      "start": 36.132,
+      "end": 36.26
+    },
+    {
+      "text": "switch",
+      "start_original": 37.097,
+      "end_original": 37.44,
+      "start": 36.317,
+      "end": 36.660000000000004
+    },
+    {
+      "text": "immune",
+      "start_original": 37.497,
+      "end_original": 37.84,
+      "start": 36.717000000000006,
+      "end": 37.06000000000001
+    },
+    {
+      "text": "attacks",
+      "start_original": 37.9,
+      "end_original": 38.32,
+      "start": 37.12,
+      "end": 37.54
+    },
+    {
+      "text": "off.",
+      "start_original": 38.42,
+      "end_original": 38.72,
+      "start": 37.64000000000001,
+      "end": 37.940000000000005
+    },
+    {
+      "text": "Now",
+      "start_original": 39.45,
+      "end_original": 39.84,
+      "start": 38.36000000000001,
+      "end": 38.75000000000001
+    },
+    {
+      "text": "the",
+      "start_original": 39.88,
+      "end_original": 40,
+      "start": 38.79,
+      "end": 38.910000000000004
+    },
+    {
+      "text": "danger",
+      "start_original": 40.046,
+      "end_original": 40.32,
+      "start": 38.955999999999996,
+      "end": 39.23
+    },
+    {
+      "text": "is",
+      "start_original": 40.373,
+      "end_original": 40.48,
+      "start": 39.282999999999994,
+      "end": 39.38999999999999
+    },
+    {
+      "text": "growing",
+      "start_original": 40.52,
+      "end_original": 40.8,
+      "start": 39.43,
+      "end": 39.71
+    },
+    {
+      "text": "behind",
+      "start_original": 40.869,
+      "end_original": 41.28,
+      "start": 39.779,
+      "end": 40.190000000000005
+    },
+    {
+      "text": "a",
+      "start_original": 41.32,
+      "end_original": 41.36,
+      "start": 40.23,
+      "end": 40.27
+    },
+    {
+      "text": "convincing",
+      "start_original": 41.404,
+      "end_original": 41.84,
+      "start": 40.314,
+      "end": 40.75000000000001
+    },
+    {
+      "text": "disguise.",
+      "start_original": 41.92,
+      "end_original": 42.56,
+      "start": 40.830000000000005,
+      "end": 41.470000000000006
+    },
+    {
+      "text": "And",
+      "start_original": 42.94,
+      "end_original": 43.6,
+      "start": 41.85,
+      "end": 42.51
+    },
+    {
+      "text": "some",
+      "start_original": 43.648,
+      "end_original": 43.84,
+      "start": 42.558,
+      "end": 42.75000000000001
+    },
+    {
+      "text": "cancer",
+      "start_original": 43.909,
+      "end_original": 44.32,
+      "start": 42.818999999999996,
+      "end": 43.23
+    },
+    {
+      "text": "cells",
+      "start_original": 44.373,
+      "end_original": 44.64,
+      "start": 43.282999999999994,
+      "end": 43.550000000000004
+    },
+    {
+      "text": "can",
+      "start_original": 44.68,
+      "end_original": 44.8,
+      "start": 43.589999999999996,
+      "end": 43.71
+    },
+    {
+      "text": "break",
+      "start_original": 44.84,
+      "end_original": 45.04,
+      "start": 43.75000000000001,
+      "end": 43.949999999999996
+    },
+    {
+      "text": "away",
+      "start_original": 45.12,
+      "end_original": 45.44,
+      "start": 44.029999999999994,
+      "end": 44.35
+    },
+    {
+      "text": "and",
+      "start_original": 45.52,
+      "end_original": 45.76,
+      "start": 44.43,
+      "end": 44.669999999999995
+    },
+    {
+      "text": "spread",
+      "start_original": 45.806,
+      "end_original": 46.08,
+      "start": 44.716,
+      "end": 44.99
+    },
+    {
+      "text": "elsewhere.",
+      "start_original": 46.136,
+      "end_original": 46.64,
+      "start": 45.046,
+      "end": 45.550000000000004
+    },
+    {
+      "text": "That's",
+      "start_original": 46.896,
+      "end_original": 47.68,
+      "start": 45.806000000000004,
+      "end": 46.589999999999996
+    },
+    {
+      "text": "metastasis.",
+      "start_original": 47.737,
+      "end_original": 48.48,
+      "start": 46.647,
+      "end": 47.38999999999999
+    },
+    {
+      "text": "So",
+      "start_original": 49.787,
+      "end_original": 49.84,
+      "start": 47.809999999999995,
+      "end": 47.86300000000001
+    },
+    {
+      "text": "how",
+      "start_original": 49.9,
+      "end_original": 50.08,
+      "start": 47.922999999999995,
+      "end": 48.103
+    },
+    {
+      "text": "do",
+      "start_original": 50.107,
+      "end_original": 50.16,
+      "start": 48.13,
+      "end": 48.183
+    },
+    {
+      "text": "you",
+      "start_original": 50.22,
+      "end_original": 50.4,
+      "start": 48.243,
+      "end": 48.422999999999995
+    },
+    {
+      "text": "fight",
+      "start_original": 50.44,
+      "end_original": 50.64,
+      "start": 48.463,
+      "end": 48.663000000000004
+    },
+    {
+      "text": "an",
+      "start_original": 50.667,
+      "end_original": 50.72,
+      "start": 48.690000000000005,
+      "end": 48.743
+    },
+    {
+      "text": "enemy",
+      "start_original": 50.787,
+      "end_original": 51.12,
+      "start": 48.809999999999995,
+      "end": 49.142999999999994
+    },
+    {
+      "text": "that",
+      "start_original": 51.152,
+      "end_original": 51.28,
+      "start": 49.175000000000004,
+      "end": 49.303000000000004
+    },
+    {
+      "text": "looks",
+      "start_original": 51.333,
+      "end_original": 51.6,
+      "start": 49.356,
+      "end": 49.623
+    },
+    {
+      "text": "like",
+      "start_original": 51.648,
+      "end_original": 51.84,
+      "start": 49.671,
+      "end": 49.86300000000001
+    },
+    {
+      "text": "you?",
+      "start_original": 51.92,
+      "end_original": 52.159,
+      "start": 49.943000000000005,
+      "end": 50.181999999999995
+    },
+    {
+      "text": "Immunotherapy",
+      "start_original": 52.4,
+      "end_original": 54.24,
+      "start": 50.422999999999995,
+      "end": 52.263
+    },
+    {
+      "text": "can",
+      "start_original": 54.28,
+      "end_original": 54.4,
+      "start": 52.303000000000004,
+      "end": 52.422999999999995
+    },
+    {
+      "text": "help",
+      "start_original": 54.448,
+      "end_original": 54.64,
+      "start": 52.471,
+      "end": 52.663000000000004
+    },
+    {
+      "text": "the",
+      "start_original": 54.66,
+      "end_original": 54.72,
+      "start": 52.683,
+      "end": 52.743
+    },
+    {
+      "text": "immune",
+      "start_original": 54.766,
+      "end_original": 55.04,
+      "start": 52.788999999999994,
+      "end": 53.062999999999995
+    },
+    {
+      "text": "system",
+      "start_original": 55.109,
+      "end_original": 55.52,
+      "start": 53.132,
+      "end": 53.543
+    },
+    {
+      "text": "recognize",
+      "start_original": 55.616,
+      "end_original": 56.48,
+      "start": 53.639,
+      "end": 54.50299999999999
+    },
+    {
+      "text": "or",
+      "start_original": 56.507,
+      "end_original": 56.56,
+      "start": 54.529999999999994,
+      "end": 54.583000000000006
+    },
+    {
+      "text": "attack",
+      "start_original": 56.629,
+      "end_original": 57.04,
+      "start": 54.651999999999994,
+      "end": 55.062999999999995
+    },
+    {
+      "text": "cancer.",
+      "start_original": 57.109,
+      "end_original": 57.52,
+      "start": 55.132,
+      "end": 55.543
+    },
+    {
+      "text": "Some",
+      "start_original": 57.824,
+      "end_original": 58.72,
+      "start": 55.847,
+      "end": 56.743
+    },
+    {
+      "text": "treatments",
+      "start_original": 58.771,
+      "end_original": 59.28,
+      "start": 56.794000000000004,
+      "end": 57.303000000000004
+    },
+    {
+      "text": "release",
+      "start_original": 59.32,
+      "end_original": 59.6,
+      "start": 57.342999999999996,
+      "end": 57.623
+    },
+    {
+      "text": "the",
+      "start_original": 59.62,
+      "end_original": 59.68,
+      "start": 57.642999999999994,
+      "end": 57.702999999999996
+    },
+    {
+      "text": "brakes",
+      "start_original": 59.737,
+      "end_original": 60.08,
+      "start": 57.76,
+      "end": 58.103
+    },
+    {
+      "text": "on",
+      "start_original": 60.133,
+      "end_original": 60.24,
+      "start": 58.156,
+      "end": 58.263
+    },
+    {
+      "text": "immune",
+      "start_original": 60.286,
+      "end_original": 60.56,
+      "start": 58.309000000000005,
+      "end": 58.583000000000006
+    },
+    {
+      "text": "cells.",
+      "start_original": 60.653,
+      "end_original": 61.12,
+      "start": 58.675999999999995,
+      "end": 59.142999999999994
+    },
+    {
+      "text": "It",
+      "start_original": 61.413,
+      "end_original": 61.84,
+      "start": 59.436,
+      "end": 59.86300000000001
+    },
+    {
+      "text": "can",
+      "start_original": 61.9,
+      "end_original": 62.08,
+      "start": 59.922999999999995,
+      "end": 60.103
+    },
+    {
+      "text": "work",
+      "start_original": 62.128,
+      "end_original": 62.32,
+      "start": 60.151,
+      "end": 60.342999999999996
+    },
+    {
+      "text": "remarkably",
+      "start_original": 62.378,
+      "end_original": 62.96,
+      "start": 60.401,
+      "end": 60.983
+    },
+    {
+      "text": "well",
+      "start_original": 63.008,
+      "end_original": 63.2,
+      "start": 61.031,
+      "end": 61.223000000000006
+    },
+    {
+      "text": "for",
+      "start_original": 63.24,
+      "end_original": 63.36,
+      "start": 61.263,
+      "end": 61.383
+    },
+    {
+      "text": "some",
+      "start_original": 63.408,
+      "end_original": 63.6,
+      "start": 61.431000000000004,
+      "end": 61.623
+    },
+    {
+      "text": "people,",
+      "start_original": 63.657,
+      "end_original": 64,
+      "start": 61.68,
+      "end": 62.023
+    },
+    {
+      "text": "but",
+      "start_original": 64.36,
+      "end_original": 64.48,
+      "start": 62.383,
+      "end": 62.50300000000001
+    },
+    {
+      "text": "not",
+      "start_original": 64.52,
+      "end_original": 64.64,
+      "start": 62.543,
+      "end": 62.663000000000004
+    },
+    {
+      "text": "everyone.",
+      "start_original": 64.702,
+      "end_original": 65.2,
+      "start": 62.725,
+      "end": 63.223000000000006
+    },
+    {
+      "text": "Cancer",
+      "start_original": 65.463,
+      "end_original": 66.56,
+      "start": 63.486,
+      "end": 64.583
+    },
+    {
+      "text": "is",
+      "start_original": 66.64,
+      "end_original": 66.8,
+      "start": 64.663,
+      "end": 64.823
+    },
+    {
+      "text": "many",
+      "start_original": 66.848,
+      "end_original": 67.04,
+      "start": 64.871,
+      "end": 65.063
+    },
+    {
+      "text": "diseases,",
+      "start_original": 67.102,
+      "end_original": 67.6,
+      "start": 65.125,
+      "end": 65.62299999999999
+    },
+    {
+      "text": "with",
+      "start_original": 67.872,
+      "end_original": 68,
+      "start": 65.895,
+      "end": 66.023
+    },
+    {
+      "text": "different",
+      "start_original": 68.04,
+      "end_original": 68.4,
+      "start": 66.063,
+      "end": 66.423
+    },
+    {
+      "text": "vulnerabilities.",
+      "start_original": 68.455,
+      "end_original": 69.28,
+      "start": 66.478,
+      "end": 67.303
+    },
+    {
+      "text": "The",
+      "start_original": 70.145,
+      "end_original": 70.325,
+      "start": 67.723,
+      "end": 67.903
+    },
+    {
+      "text": "next",
+      "start_original": 70.373,
+      "end_original": 70.565,
+      "start": 67.95100000000001,
+      "end": 68.143
+    },
+    {
+      "text": "breakthrough",
+      "start_original": 70.608,
+      "end_original": 71.125,
+      "start": 68.186,
+      "end": 68.703
+    },
+    {
+      "text": "might",
+      "start_original": 71.165,
+      "end_original": 71.365,
+      "start": 68.74300000000001,
+      "end": 68.943
+    },
+    {
+      "text": "depend",
+      "start_original": 71.422,
+      "end_original": 71.765,
+      "start": 69.0,
+      "end": 69.343
+    },
+    {
+      "text": "on",
+      "start_original": 71.818,
+      "end_original": 71.925,
+      "start": 69.396,
+      "end": 69.503
+    },
+    {
+      "text": "a",
+      "start_original": 71.965,
+      "end_original": 72.005,
+      "start": 69.543,
+      "end": 69.583
+    },
+    {
+      "text": "surprisingly",
+      "start_original": 72.054,
+      "end_original": 72.645,
+      "start": 69.632,
+      "end": 70.223
+    },
+    {
+      "text": "simple",
+      "start_original": 72.702,
+      "end_original": 73.045,
+      "start": 70.28,
+      "end": 70.623
+    },
+    {
+      "text": "question:",
+      "start_original": 73.116,
+      "end_original": 73.685,
+      "start": 70.694,
+      "end": 71.263
+    },
+    {
+      "text": "how",
+      "start_original": 74.235,
+      "end_original": 74.565,
+      "start": 71.813,
+      "end": 72.143
+    },
+    {
+      "text": "do",
+      "start_original": 74.618,
+      "end_original": 74.725,
+      "start": 72.196,
+      "end": 72.303
+    },
+    {
+      "text": "we",
+      "start_original": 74.752,
+      "end_original": 74.805,
+      "start": 72.33,
+      "end": 72.38300000000001
+    },
+    {
+      "text": "help",
+      "start_original": 74.869,
+      "end_original": 75.125,
+      "start": 72.447,
+      "end": 72.703
+    },
+    {
+      "text": "the",
+      "start_original": 75.145,
+      "end_original": 75.205,
+      "start": 72.723,
+      "end": 72.783
+    },
+    {
+      "text": "body",
+      "start_original": 75.269,
+      "end_original": 75.525,
+      "start": 72.84700000000001,
+      "end": 73.10300000000001
+    },
+    {
+      "text": "see",
+      "start_original": 75.625,
+      "end_original": 75.925,
+      "start": 73.203,
+      "end": 73.503
+    },
+    {
+      "text": "what",
+      "start_original": 75.957,
+      "end_original": 76.085,
+      "start": 73.535,
+      "end": 73.663
+    },
+    {
+      "text": "it's",
+      "start_original": 76.138,
+      "end_original": 76.365,
+      "start": 73.71600000000001,
+      "end": 73.943
+    },
+    {
+      "text": "been",
+      "start_original": 76.389,
+      "end_original": 76.485,
+      "start": 73.967,
+      "end": 74.063
+    },
+    {
+      "text": "missing?",
+      "start_original": 76.545,
+      "end_original": 76.965,
+      "start": 74.123,
+      "end": 74.543
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "start_frame": 0,
+      "purpose": "Show a self-cell with an abnormal nucleus; an immune scan passes a matching outer identity.",
+      "end_frame": 123
+    },
+    {
+      "id": "healthy",
+      "start_frame": 123,
+      "purpose": "Bind growth signals, repair a DNA gap, stop neighbor growth and remove a severely damaged control cell.",
+      "end_frame": 440
+    },
+    {
+      "id": "mutation",
+      "start_frame": 440,
+      "purpose": "DNA rung changes and growth-control circuit fails; one damaged cell remains active.",
+      "end_frame": 532
+    },
+    {
+      "id": "division",
+      "start_frame": 532,
+      "purpose": "A connected membrane pinches into daughter cells; repeated division displaces healthy neighbors.",
+      "end_frame": 803
+    },
+    {
+      "id": "surveillance",
+      "start_frame": 803,
+      "purpose": "Immune contact recognizes and destroys an abnormal control cell.",
+      "end_frame": 941
+    },
+    {
+      "id": "escape",
+      "start_frame": 941,
+      "purpose": "Surface identity changes; a separate inhibitory contact stops an immune attack.",
+      "end_frame": 1151
+    },
+    {
+      "id": "disguise",
+      "start_frame": 1151,
+      "purpose": "Matched surface patterns obscure an expanding abnormal clone; immune field of attention fails to flag it.",
+      "end_frame": 1256
+    },
+    {
+      "id": "spread",
+      "start_frame": 1256,
+      "purpose": "A cell deforms through a tissue gap, enters a blood vessel, travels with red cells and exits at a second site.",
+      "end_frame": 1434
+    },
+    {
+      "id": "question",
+      "start_frame": 1434,
+      "purpose": "Microscope lens pulls back to the approved clinician concentrating on a sample.",
+      "end_frame": 1513
+    },
+    {
+      "id": "therapy",
+      "start_frame": 1513,
+      "purpose": "An antibody blocks an inhibitory contact; immune cell reconnects, delivers granules and the target fragments.",
+      "end_frame": 1783
+    },
+    {
+      "id": "outcomes",
+      "start_frame": 1783,
+      "purpose": "One lesion responds while a differing lesion persists; camera retains both outcomes.",
+      "end_frame": 2032
+    },
+    {
+      "id": "ending",
+      "start_frame": 2032,
+      "purpose": "Surface markers return at larger scale; a searching immune contact approaches a remaining recognition gap. Hold curiosity rather than declare cure.",
+      "end_frame": 2280
+    }
+  ],
+  "events": {
+    "grow": 210,
+    "repair": 238,
+    "stop": 268,
+    "destroy": 400,
+    "mutation": 444,
+    "two": 611,
+    "four": 667,
+    "crowd": 713,
+    "evade": 994,
+    "inhibit": 1090,
+    "metastasis": 1374,
+    "recognize": 1609,
+    "brakes": 1720,
+    "not_everyone": 1871,
+    "many": 1905,
+    "see": 2196
+  },
+  "timing_source": "ElevenLabs character alignment with recorded pause-removal mapping; captions are provider-timed, not exact human-verified phonetics."
+}

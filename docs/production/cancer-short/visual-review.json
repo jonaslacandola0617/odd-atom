@@ -1,0 +1,36 @@
+{
+  "status": "encoded_frame_sequence_inspection_completed_user_review_pending",
+  "date": "2026-10-26",
+  "movie_sha256": "256dd2270e28f6b336cd31cee7377db3242e0ddb27b6c0c4144426196fb19ee0",
+  "source_sha256": "3e860d8f49c3a78c42c9c711881604949e815341cec73e08d8acc64c0597aaf2",
+  "reviewer": "Codex visual inspection of decoded frame sequences",
+  "audit": "visual-audit.md",
+  "scope": [
+    "27 story phase frames",
+    "Full-duration half-second navigation: 153 frames",
+    "All eleven join boards, eight boundary/action frames each",
+    "Three close action strips; division strip includes consecutive frames",
+    "Native clinician and ending artwork checks",
+    "After the division correction: final consecutive handoff strip, division navigation and outgoing surveillance join reinspected",
+    "All 1989 frames outside the corrected section checked against unchanged choreography via SSIM; AAC packets unchanged"
+  ],
+  "specific_revisions": [
+    "Removed star-like division deformation",
+    "Removed double camouflage edge",
+    "Corrected portrait image edge and retained original clinician body pixels",
+    "Narrowed parent toward daughter height and compensated nucleus scale before daughter-pose handoff"
+  ],
+  "remaining_differences": [
+    "Repeated central pair staging and circular reveals",
+    "Therapy setup hold around 53\u201357 seconds",
+    "Discrete division drawing swap remains visible in consecutive frames",
+    "Restrained local clinician action instead of a new full-body rig",
+    "Pixel-exact microscope/sample match is not claimed"
+  ],
+  "technical_checks": "delivery.json",
+  "repair_integrity": "repair-integrity.json",
+  "audio_review": "Provider alignment, independent overlapping ASR and signal/loudness checks; no direct listening review",
+  "user_artistic_approval": "pending",
+  "mastery_or_source_equivalence": "not_claimed",
+  "social_upload": "not_performed"
+}

@@ -1,0 +1,444 @@
+{
+  "duration_seconds": 76,
+  "new_narration_requests": 1,
+  "new_original_designed_cues": 4,
+  "new_music_generation_requests": 0,
+  "source_effects": {
+    "membrane_divide": {
+      "file": "public/assets/audio/cancer-short-v1/reusable-cues/membrane_divide.flac",
+      "sha256": "00cde1fe575cf577999cff0f040a58b2f6c2cd8c7a680e2e1e9f9c0b39577711",
+      "production": "Original seeded procedural synthesis; not authentic biological Foley",
+      "seed": 870,
+      "duration": 0.95
+    },
+    "cell_contact": {
+      "file": "public/assets/audio/cancer-short-v1/reusable-cues/cell_contact.flac",
+      "sha256": "fb323c6c2f323a70719d531a3eb38a4a4538872254dc2a048684c5ef0effeb7f",
+      "production": "Original seeded procedural synthesis; not authentic biological Foley",
+      "seed": 871,
+      "duration": 0.48
+    },
+    "soft_lysis": {
+      "file": "public/assets/audio/cancer-short-v1/reusable-cues/soft_lysis.flac",
+      "sha256": "1b160aa7ad47d20518acf346aa6f8a20f130a856213abc2afaf3d296ce17205e",
+      "production": "Original seeded procedural synthesis; not authentic biological Foley",
+      "seed": 872,
+      "duration": 1.3
+    },
+    "recognition_warm": {
+      "file": "public/assets/audio/cancer-short-v1/reusable-cues/recognition_warm.flac",
+      "sha256": "9f2266a1f33438c39c04e0b64dff4cd9a4950c5ea2ef40cce05bceee27e2404e",
+      "production": "Original seeded procedural synthesis; not authentic biological Foley",
+      "seed": 873,
+      "duration": 1.7
+    },
+    "radar_sweep": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/science/CB_SCIENCE_radar_sweep_v1.flac",
+      "sha256": "cd6b4b0ea1af465d8216333a920ec94849c73f3a850072e823193a867ef8bb46",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "lost_signal": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/science/CB_SCIENCE_lost_signal_v1.flac",
+      "sha256": "f2d880e3f831814f233c6b8bad9ad2928ef1e5b9bf3e487cfe03358fe0b395d6",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "soft_depth_pass": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_soft_depth_pass_v1.flac",
+      "sha256": "0e9b66b3db679e689e2ad980881a2e862f3b82353d9ed0fb348d46078ca13b16",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "data_pulse": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/science/CB_SCIENCE_data_pulse_v1.flac",
+      "sha256": "78a2fc3465651e248dbc7a432a0736a1d9af50b726ab15e3d71aae84ad809ee7",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "evidence_lock": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_evidence_lock_v1.flac",
+      "sha256": "aead89bf782fdbb66e266828cecd9c7535e49a59476df368e31d9eb05fdd4262",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "heartbeat_breath": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_heartbeat_breath_v1.flac",
+      "sha256": "114a0072e80e4f0a0399865eb76b1fcd036665a61cd936638345d56f21a0fd42",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "parallax_swish": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_parallax_swish_v1.flac",
+      "sha256": "cf811cd552fad696bbc099ab3754add546034f1c892af5516c02b919e54180b0",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "document_focus": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_document_focus_v1.flac",
+      "sha256": "59b641d105683bff434cdfc54592ebee1cff0f33ea0c62927161580687e87846",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "screw_jack_turn": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_screw_jack_turn_v1.flac",
+      "sha256": "2f105580d5ec7592788452b6e27d88ebbfc65d639743ebde680e6aa965f26cb5",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "low_cinematic_hit": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24",
+      "production": "Reused original Curio Bureau designed cue"
+    },
+    "perspective_whip": {
+      "file": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_perspective_whip_v1.flac",
+      "sha256": "cf59cbedffd1617bf3962f9c4f6e151ca84d91a86a3bbbe048d8375ee4eba211",
+      "production": "Reused original Curio Bureau designed cue"
+    }
+  },
+  "placements": [
+    {
+      "frame": 37,
+      "seconds": 1.2333333333333334,
+      "cue": "radar_sweep",
+      "target_rms_dbfs": -29,
+      "adapted_duration": 1.8,
+      "reason": "Immune scan passes apparently familiar cell",
+      "peak_aligned": true
+    },
+    {
+      "frame": 210,
+      "seconds": 7.0,
+      "cue": "cell_contact",
+      "target_rms_dbfs": -24,
+      "adapted_duration": null,
+      "reason": "Growth signal docks at membrane",
+      "peak_aligned": true
+    },
+    {
+      "frame": 246,
+      "seconds": 8.2,
+      "cue": "recognition_warm",
+      "target_rms_dbfs": -27,
+      "adapted_duration": 0.6,
+      "reason": "DNA gap repaired",
+      "peak_aligned": true
+    },
+    {
+      "frame": 270,
+      "seconds": 9.0,
+      "cue": "cell_contact",
+      "target_rms_dbfs": -25,
+      "adapted_duration": null,
+      "reason": "Neighbor contact stops growth",
+      "peak_aligned": true
+    },
+    {
+      "frame": 410,
+      "seconds": 13.666666666666666,
+      "cue": "soft_lysis",
+      "target_rms_dbfs": -23,
+      "adapted_duration": 0.9,
+      "reason": "Damaged control cell fragments",
+      "peak_aligned": true
+    },
+    {
+      "frame": 452,
+      "seconds": 15.066666666666666,
+      "cue": "lost_signal",
+      "target_rms_dbfs": -25,
+      "adapted_duration": 0.8,
+      "reason": "Growth safeguard is disrupted",
+      "peak_aligned": true
+    },
+    {
+      "frame": 651,
+      "seconds": 21.7,
+      "cue": "membrane_divide",
+      "target_rms_dbfs": -23,
+      "adapted_duration": 0.9,
+      "reason": "Connected membrane pinches and daughter cells separate",
+      "peak_aligned": true
+    },
+    {
+      "frame": 703,
+      "seconds": 23.433333333333334,
+      "cue": "membrane_divide",
+      "target_rms_dbfs": -23,
+      "adapted_duration": 0.9,
+      "reason": "Connected membrane pinches and daughter cells separate",
+      "peak_aligned": true
+    },
+    {
+      "frame": 710,
+      "seconds": 23.666666666666668,
+      "cue": "membrane_divide",
+      "target_rms_dbfs": -23,
+      "adapted_duration": 0.9,
+      "reason": "Connected membrane pinches and daughter cells separate",
+      "peak_aligned": true
+    },
+    {
+      "frame": 735,
+      "seconds": 24.5,
+      "cue": "soft_depth_pass",
+      "target_rms_dbfs": -26,
+      "adapted_duration": 1.2,
+      "reason": "Growing clone displaces neighboring cells",
+      "peak_aligned": true
+    },
+    {
+      "frame": 847,
+      "seconds": 28.233333333333334,
+      "cue": "cell_contact",
+      "target_rms_dbfs": -23,
+      "adapted_duration": null,
+      "reason": "Immune recognition contact",
+      "peak_aligned": true
+    },
+    {
+      "frame": 868,
+      "seconds": 28.933333333333334,
+      "cue": "data_pulse",
+      "target_rms_dbfs": -28,
+      "adapted_duration": 0.65,
+      "reason": "Cytotoxic granules cross contact",
+      "peak_aligned": true
+    },
+    {
+      "frame": 891,
+      "seconds": 29.7,
+      "cue": "soft_lysis",
+      "target_rms_dbfs": -24,
+      "adapted_duration": null,
+      "reason": "Recognized control target breaks apart",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1009,
+      "seconds": 33.63333333333333,
+      "cue": "soft_depth_pass",
+      "target_rms_dbfs": -26,
+      "adapted_duration": 1,
+      "reason": "Surface recognition changes",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1095,
+      "seconds": 36.5,
+      "cue": "evidence_lock",
+      "target_rms_dbfs": -24,
+      "adapted_duration": 0.48,
+      "reason": "Inhibitory contact stops the attack; molecular lock is a visual metaphor",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1193,
+      "seconds": 39.766666666666666,
+      "cue": "heartbeat_breath",
+      "target_rms_dbfs": -29,
+      "adapted_duration": 1.6,
+      "reason": "Hidden growth raises narrative tension",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1301,
+      "seconds": 43.36666666666667,
+      "cue": "membrane_divide",
+      "target_rms_dbfs": -24,
+      "adapted_duration": 1.1,
+      "reason": "Migrant cell deforms through tissue gap",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1351,
+      "seconds": 45.03333333333333,
+      "cue": "parallax_swish",
+      "target_rms_dbfs": -25,
+      "adapted_duration": 1.4,
+      "reason": "Blood flow transports migrant and red cells",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1399,
+      "seconds": 46.63333333333333,
+      "cue": "cell_contact",
+      "target_rms_dbfs": -24,
+      "adapted_duration": null,
+      "reason": "Cell reaches a second tissue site",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1449,
+      "seconds": 48.3,
+      "cue": "document_focus",
+      "target_rms_dbfs": -27,
+      "adapted_duration": 0.7,
+      "reason": "Microscope pullback",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1469,
+      "seconds": 48.96666666666667,
+      "cue": "screw_jack_turn",
+      "target_rms_dbfs": -29,
+      "adapted_duration": 0.7,
+      "reason": "Clinician adjusts microscope focus",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1590,
+      "seconds": 53.0,
+      "cue": "cell_contact",
+      "target_rms_dbfs": -24,
+      "adapted_duration": null,
+      "reason": "Antibody arrives at inhibitory interaction",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1726,
+      "seconds": 57.53333333333333,
+      "cue": "recognition_warm",
+      "target_rms_dbfs": -23,
+      "adapted_duration": 1.2,
+      "reason": "Blocked inhibitory contact releases immune action",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1762,
+      "seconds": 58.733333333333334,
+      "cue": "data_pulse",
+      "target_rms_dbfs": -28,
+      "adapted_duration": 0.75,
+      "reason": "Renewed cytotoxic contact",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1787,
+      "seconds": 59.56666666666667,
+      "cue": "soft_lysis",
+      "target_rms_dbfs": -23,
+      "adapted_duration": 1.15,
+      "reason": "Target cell fragments after restored attack",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1823,
+      "seconds": 60.766666666666666,
+      "cue": "soft_lysis",
+      "target_rms_dbfs": -25,
+      "adapted_duration": 0.95,
+      "reason": "One lesion responds",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1886,
+      "seconds": 62.86666666666667,
+      "cue": "low_cinematic_hit",
+      "target_rms_dbfs": -27,
+      "adapted_duration": 1,
+      "reason": "A contrasting lesion persists",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1935,
+      "seconds": 64.5,
+      "cue": "soft_depth_pass",
+      "target_rms_dbfs": -27,
+      "adapted_duration": 1.6,
+      "reason": "Different cancer-cell identities remain visible",
+      "peak_aligned": true
+    },
+    {
+      "frame": 2214,
+      "seconds": 73.8,
+      "cue": "recognition_warm",
+      "target_rms_dbfs": -27,
+      "adapted_duration": 1.6,
+      "reason": "Closing recognition question; not a promised cure",
+      "peak_aligned": true
+    },
+    {
+      "frame": 450,
+      "seconds": 15.0,
+      "cue": "perspective_whip",
+      "target_rms_dbfs": -28,
+      "adapted_duration": 0.8,
+      "reason": "Object/contact/tissue handoff into mutation",
+      "peak_aligned": true
+    },
+    {
+      "frame": 813,
+      "seconds": 27.1,
+      "cue": "soft_depth_pass",
+      "target_rms_dbfs": -28,
+      "adapted_duration": 0.8,
+      "reason": "Object/contact/tissue handoff into surveillance",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1266,
+      "seconds": 42.2,
+      "cue": "soft_depth_pass",
+      "target_rms_dbfs": -27,
+      "adapted_duration": 0.8,
+      "reason": "Object/contact/tissue handoff into spread",
+      "peak_aligned": true
+    },
+    {
+      "frame": 1523,
+      "seconds": 50.766666666666666,
+      "cue": "perspective_whip",
+      "target_rms_dbfs": -28,
+      "adapted_duration": 0.8,
+      "reason": "Object/contact/tissue handoff into therapy",
+      "peak_aligned": true
+    },
+    {
+      "frame": 2042,
+      "seconds": 68.06666666666666,
+      "cue": "soft_depth_pass",
+      "target_rms_dbfs": -29,
+      "adapted_duration": 0.8,
+      "reason": "Object/contact/tissue handoff into ending",
+      "peak_aligned": true
+    }
+  ],
+  "music_moods": [
+    {
+      "start": 0,
+      "end": 14.5,
+      "mood": "curious",
+      "file": "public/assets/audio/singularity-v4/music-cues/OA_MUSIC_curious_78bpm_v1.flac",
+      "sha256": "4bde79027c79a88d630dafb18b77eadefd5e6a5d5d9325568628737124b391ae"
+    },
+    {
+      "start": 14.5,
+      "end": 41.5,
+      "mood": "eerie",
+      "file": "public/assets/audio/singularity-v4/music-cues/OA_MUSIC_eerie_78bpm_v1.flac",
+      "sha256": "e7fb052b662489566d89c632769a46d49e0cfe586b0283bb783e3a1c9c84db95"
+    },
+    {
+      "start": 41.5,
+      "end": 50.4,
+      "mood": "strain",
+      "file": "public/assets/audio/singularity-v4/music-cues/OA_MUSIC_strain_78bpm_v1.flac",
+      "sha256": "f5366bce39fef9b2953fd7c55d0d11ea68a5ccd08493710f477e5d3b1aca19c7"
+    },
+    {
+      "start": 50.4,
+      "end": 67.4,
+      "mood": "warm",
+      "file": "public/assets/audio/singularity-v4/music-cues/OA_MUSIC_warm_78bpm_v1.flac",
+      "sha256": "b26ae204f48061c1b5d20f1e65d2a338b8f31c897529553aee2dea77dc80321d"
+    },
+    {
+      "start": 67.4,
+      "end": 76,
+      "mood": "question",
+      "file": "public/assets/audio/singularity-v4/music-cues/OA_MUSIC_question_78bpm_v1.flac",
+      "sha256": "b6017d66583c6e58f0f186560c588be47c0b544f957ac110b66e801541b281fc"
+    }
+  ],
+  "narration_gain": 1.516906874198838,
+  "shared_peak_gain": 0.8894266196826747,
+  "target_music_to_typical_active_sfx_rms_ratio": 0.85,
+  "measured_ratio_after_speech_ceiling": 0.8984211683273315,
+  "music_to_active_voice_db": -8.289923063026803,
+  "pcm_peak_dbfs": -1.7999994529225174,
+  "audio_scope": "Existing original library/music plus four new original synthetic organic cues. No authentic medical sound or reference soundtrack claimed.",
+  "direct_listening_review": "Not available in this runtime; provider alignment, independent ASR, signal levels and decoding are checked."
+}

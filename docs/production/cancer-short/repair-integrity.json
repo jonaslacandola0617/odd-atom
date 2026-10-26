@@ -1,0 +1,16 @@
+{
+  "method": "Final normalized master compared at every frame to the unchanged original full-range master converted to the same limited BT.709 space. SSIM verifies splice alignment outside the intentional correction; it is not an artistic-quality score.",
+  "base_sha256": "ae8738540b8d36c72bbd928601bedf8e3ea86411b76c2fd0c954d0b31b0262d6",
+  "final_sha256": "256dd2270e28f6b336cd31cee7377db3242e0ddb27b6c0c4144426196fb19ee0",
+  "corrected_frames_inclusive": [
+    532,
+    822
+  ],
+  "corrected_frames": 291,
+  "unchanged_choreography_frames_checked": 1989,
+  "outside_correction_min_ssim": 0.993548,
+  "outside_correction_mean_ssim": 0.997387139768728,
+  "compressed_aac_unchanged": true,
+  "aac_stream_hash": "031aff275d096ab4e64a4a95b09ce819b72bc2f65417c3fb7ef18c20c979b17c",
+  "reproduce": "Default npm run render:cancer renders the current full source. The optional local repair mode validates its exact base hash before replacing this scene and its outgoing reveal."
+}

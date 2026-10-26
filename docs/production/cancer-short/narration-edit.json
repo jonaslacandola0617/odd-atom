@@ -1,0 +1,58 @@
+{
+  "narration_original_sha256": "0b267bddc446af542280fa8d913855f124cd9ea6f7a26a5eb2dbe776bc18b401",
+  "narration_original_duration": 77.04,
+  "narration_edit": {
+    "cuts": [
+      {
+        "start_original": 14.370000000000001,
+        "end_original": 15.010000000000002,
+        "removed_seconds": 0.6400000000000006,
+        "between": [
+          "destruction.",
+          "But"
+        ]
+      },
+      {
+        "start_original": 18.05,
+        "end_original": 18.29,
+        "removed_seconds": 0.24000000000000016,
+        "between": [
+          "safeguards.",
+          "A"
+        ]
+      },
+      {
+        "start_original": 38.93,
+        "end_original": 39.24,
+        "removed_seconds": 0.310000000000004,
+        "between": [
+          "off.",
+          "Now"
+        ]
+      },
+      {
+        "start_original": 48.69,
+        "end_original": 49.577,
+        "removed_seconds": 0.8870000000000022,
+        "between": [
+          "metastasis.",
+          "So"
+        ]
+      },
+      {
+        "start_original": 69.49,
+        "end_original": 69.93499999999999,
+        "removed_seconds": 0.4449999999999949,
+        "between": [
+          "vulnerabilities.",
+          "The"
+        ]
+      }
+    ],
+    "speed": 1,
+    "pitch_changed": false,
+    "leading_pad_seconds": 0.1,
+    "speech_end_seconds": 74.543,
+    "ending_tail_seconds": 1.4569999999999936
+  }
+}

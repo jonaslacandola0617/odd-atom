@@ -83,7 +83,14 @@
     "mastery:render": "node animation-mastery/engine/export/render.cjs",
     "mastery:still": "node animation-mastery/engine/export/render.cjs --stills",
     "mastery:review": "python animation-mastery/scripts/review_studies.py",
-    "mastery:determinism": "node animation-mastery/validation/animation-tests/pixel-determinism.cjs"
+    "mastery:determinism": "node animation-mastery/validation/animation-tests/pixel-determinism.cjs",
+    "narrate:cancer": "node --use-env-proxy --use-system-ca scripts/cancer_narration.mjs",
+    "prepare:cancer": "python scripts/prepare_cancer_short.py",
+    "sound:cancer": "python scripts/cancer_short_sound.py",
+    "check:cancer": "node scripts/check_cancer_geometry.cjs",
+    "still:cancer": "node scripts/render_cancer_short.cjs --stills",
+    "render:cancer": "node scripts/render_cancer_short.cjs",
+    "review:cancer": "python scripts/review_cancer_short.py"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

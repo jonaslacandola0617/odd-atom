@@ -1,0 +1,225 @@
+{
+  "status": "rendered_and_inspected_test_user_review_pending",
+  "file": "assets/videos/cancer-short-v1/cancer-76s.mp4",
+  "sha256": "256dd2270e28f6b336cd31cee7377db3242e0ddb27b6c0c4144426196fb19ee0",
+  "bytes": 30759562,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2280,
+  "seconds": 76,
+  "codec": "H264/yuv420p",
+  "audio": "AAC48kHz stereo",
+  "loudness": {
+    "input_i": "-17.01",
+    "input_tp": "-1.77",
+    "input_lra": "2.50",
+    "input_thresh": "-27.15",
+    "output_i": "-15.86",
+    "output_tp": "-1.20",
+    "output_lra": "2.30",
+    "output_thresh": "-25.96",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.14"
+  },
+  "full_decode": "passed",
+  "black_interval_check": "passed",
+  "source_artwork_and_prior_knox_unchanged": {
+    "assets/scenes/artwork-consistency-02/medicine-immune-defense.png": "d9f245e4aad1866de4b29f10a4dd45c7e9312cd3450dd07d68e36f750ed3fd5e",
+    "assets/characters/static-test-01.png": "72842deef29e191d0f0699c66684d57b6869a0b4cfb2d50937a268f54b80b73f",
+    "public/assets/audio/singularity/narration-original.m4a": "fb4cbe172985e7ce2a4d3d8491f4456607a5dabd39b0fe9de62f00af14f09e4a"
+  },
+  "story_phase_frames": [
+    0,
+    70,
+    220,
+    390,
+    470,
+    620,
+    650,
+    690,
+    720,
+    840,
+    890,
+    1020,
+    1120,
+    1250,
+    1320,
+    1400,
+    1460,
+    1470,
+    1600,
+    1750,
+    1780,
+    1830,
+    1930,
+    2030,
+    2140,
+    2235,
+    2279
+  ],
+  "full_duration_navigation_step_frames": 15,
+  "joins": [
+    {
+      "incoming": "healthy",
+      "frames": [
+        122,
+        123,
+        126,
+        130,
+        135,
+        142,
+        143,
+        153
+      ],
+      "file": "docs/production/cancer-short/review/join-01-healthy.jpg"
+    },
+    {
+      "incoming": "mutation",
+      "frames": [
+        439,
+        440,
+        443,
+        447,
+        452,
+        459,
+        460,
+        470
+      ],
+      "file": "docs/production/cancer-short/review/join-02-mutation.jpg"
+    },
+    {
+      "incoming": "division",
+      "frames": [
+        531,
+        532,
+        535,
+        539,
+        544,
+        551,
+        552,
+        562
+      ],
+      "file": "docs/production/cancer-short/review/join-03-division.jpg"
+    },
+    {
+      "incoming": "surveillance",
+      "frames": [
+        802,
+        803,
+        806,
+        810,
+        815,
+        822,
+        823,
+        833
+      ],
+      "file": "docs/production/cancer-short/review/join-04-surveillance.jpg"
+    },
+    {
+      "incoming": "escape",
+      "frames": [
+        940,
+        941,
+        944,
+        948,
+        953,
+        960,
+        961,
+        971
+      ],
+      "file": "docs/production/cancer-short/review/join-05-escape.jpg"
+    },
+    {
+      "incoming": "disguise",
+      "frames": [
+        1150,
+        1151,
+        1154,
+        1158,
+        1163,
+        1170,
+        1171,
+        1181
+      ],
+      "file": "docs/production/cancer-short/review/join-06-disguise.jpg"
+    },
+    {
+      "incoming": "spread",
+      "frames": [
+        1255,
+        1256,
+        1259,
+        1263,
+        1268,
+        1275,
+        1276,
+        1286
+      ],
+      "file": "docs/production/cancer-short/review/join-07-spread.jpg"
+    },
+    {
+      "incoming": "question",
+      "frames": [
+        1433,
+        1434,
+        1437,
+        1441,
+        1446,
+        1453,
+        1454,
+        1464
+      ],
+      "file": "docs/production/cancer-short/review/join-08-question.jpg"
+    },
+    {
+      "incoming": "therapy",
+      "frames": [
+        1512,
+        1513,
+        1516,
+        1520,
+        1525,
+        1532,
+        1533,
+        1543
+      ],
+      "file": "docs/production/cancer-short/review/join-09-therapy.jpg"
+    },
+    {
+      "incoming": "outcomes",
+      "frames": [
+        1782,
+        1783,
+        1786,
+        1790,
+        1795,
+        1802,
+        1803,
+        1813
+      ],
+      "file": "docs/production/cancer-short/review/join-10-outcomes.jpg"
+    },
+    {
+      "incoming": "ending",
+      "frames": [
+        2031,
+        2032,
+        2035,
+        2039,
+        2044,
+        2051,
+        2052,
+        2062
+      ],
+      "file": "docs/production/cancer-short/review/join-11-ending.jpg"
+    }
+  ],
+  "no_on_screen_title": true,
+  "captions": "Provider-timed, phrase-sized, two-line maximum, max820px at49px font; SRT delivered separately.",
+  "narration": "New ElevenLabs George/v3, one request; original raw audio/alignment retained; only long pauses shortened. Independent overlapping ASR content check completed; no direct audition claimed.",
+  "public_upload": "not_performed",
+  "user_artistic_approval": "pending",
+  "color": "limited-range BT.709, converted from full-range Chromium master",
+  "visual_review": "docs/production/cancer-short/visual-review.json"
+}

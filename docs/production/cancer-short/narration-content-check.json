@@ -1,0 +1,20 @@
+{
+  "method": "Cached offline Whisper base.en via Sherpa; overlapping chunks; unverified recognition, no direct audition",
+  "chunks": [
+    {
+      "start": 0,
+      "end": 28,
+      "text": " Cancer's strangest trick. It starts with your own cells. Healthy cells follow signals. Grow, repair, damage, stop dividing. If damage is too severe, they can trigger their own destruction, but genetic changes can break these safeguards. A damaged cell keeps copying itself. One becomes two. Two become four. A growing mass can crowd out healthy tissue."
+    },
+    {
+      "start": 24,
+      "end": 52,
+      "text": " A growing mass can crowd out healthy tissue. Your immune system can recognize and destroy abnormal cells. But some cancer cells escape detection. Others send signals that switch immune attacks off. Now the danger is growing behind a convincing disguise. And some cancer cells can break away and spread elsewhere. That's metastasis. So how do you fight an enemy that looks like you?"
+    },
+    {
+      "start": 48,
+      "end": 76,
+      "text": " How do you fight an enemy that looks like you? Immunotherapy can help the immune system recognize or attack cancer. Some treatments release the brakes on immune cells. It can work remarkably well for some people, but not everyone. Cancer is many diseases with different vulnerabilities. The next breakthrough might depend on a surprisingly simple question. How do we help the body see what it's been missing?"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "topic": "Cancer: how cells escape the rules",
+  "delivery_seconds": 76,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "voice_name": "George - Warm, Captivating Storyteller",
+  "model_id": "eleven_v3",
+  "script": "Cancer's strangest trick? It starts with your own cells.\n\nHealthy cells follow signals: grow, repair damage, stop dividing. If damage is too severe, they can trigger their own destruction.\n\nBut genetic changes can break these safeguards. A damaged cell keeps copying itself. One becomes two. Two become four. A growing mass can crowd out healthy tissue.\n\nYour immune system can recognize and destroy abnormal cells. But some cancer cells escape detection. Others send signals that switch immune attacks off.\n\nNow the danger is growing behind a convincing disguise.\n\nAnd some cancer cells can break away and spread elsewhere. That's metastasis.\n\nSo how do you fight an enemy that looks like you?\n\nImmunotherapy can help the immune system recognize or attack cancer. Some treatments release the brakes on immune cells.\n\nIt can work remarkably well for some people, but not everyone. Cancer is many diseases, with different vulnerabilities.\n\nThe next breakthrough might depend on a surprisingly simple question: how do we help the body see what it's been missing?",
+  "performance_text": "[curious] Cancer's strangest trick? It starts with your own cells.\n\nHealthy cells follow signals: grow, repair damage, stop dividing. If damage is too severe, they can trigger their own destruction.\n\n[serious] But genetic changes can break these safeguards. A damaged cell keeps copying itself. One becomes two. Two become four. A growing mass can crowd out healthy tissue.\n\nYour immune system can recognize and destroy abnormal cells. But some cancer cells escape detection. Others send signals that switch immune attacks off.\n\nNow the danger is growing behind a convincing disguise.\n\nAnd some cancer cells can break away and spread elsewhere. That's metastasis.\n\n[thoughtful] So how do you fight an enemy that looks like you?\n\nImmunotherapy can help the immune system recognize or attack cancer. Some treatments release the brakes on immune cells.\n\nIt can work remarkably well for some people, but not everyone. Cancer is many diseases, with different vulnerabilities.\n\n[curious] The next breakthrough might depend on a surprisingly simple question: how do we help the body see what it's been missing?",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "use_speaker_boost": true,
+    "speed": 1.0
+  },
+  "spoken_words": 168,
+  "note": "New cancer narration; the earlier Knox recording is unchanged. One primary generation; no routine regeneration."
+}

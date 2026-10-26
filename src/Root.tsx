@@ -15,9 +15,11 @@ import {Connection} from './Connection';
 import {MotionCharactersTest} from './MotionCharacters';
 import {ApprovedCharactersTest} from './ApprovedCharacters';
 import {MasteryStudy,masteryStudies} from './MasteryStudies';
+import {CancerShort,cancerShortConfig} from './CancerShort';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="CancerShort76" component={CancerShort} defaultProps={{includeAudio:true,captions:true}} {...cancerShortConfig}/>
     {(['acting','explanation','transition','narrative'] as const).map(kind=><Composition key={kind} id={masteryStudies[kind].id} component={MasteryStudy} defaultProps={{kind,includeAudio:true}} durationInFrames={masteryStudies[kind].frames} fps={30} width={1920} height={1080}/>)}
     <Composition id="SingularityMusic85Percent" component={SingularitySoundEnding} defaultProps={{includeAudio:true,audioFile:'assets/audio/singularity-v6/final-mix.m4a'}} {...singularitySoundEndingConfig}/>
     <Composition id="SingularityMusicPresence" component={SingularitySoundEnding} defaultProps={{includeAudio:true,audioFile:'assets/audio/singularity-v5/final-mix.m4a'}} {...singularitySoundEndingConfig}/>
