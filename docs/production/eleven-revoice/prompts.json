@@ -1,0 +1,39 @@
+{
+  "model_id": "eleven_v4",
+  "voices": {
+    "true": [
+      "BVPhWQykET1TSvfGzrUr",
+      "Jack – Deep Dark Horror Narrator"
+    ],
+    "fiction": [
+      "tZssYepgGaQmegsMEXjK",
+      "True – Crime & Horror Narrator"
+    ]
+  },
+  "prompts": {
+    "ep01": {
+      "voice": "fiction",
+      "text": "[calmly] [slowly] If you are seeing this, close your curtains. [short pause] Now. [long pause] Tonight, at ten forty two, the Moon will rise. Do not look at it. [long pause] Do not take photographs. Do not watch it on a screen. [long pause] If someone in your home has already looked, do not let them describe what they saw. [long pause] [softly] Do not answer, if they say it is closer. [long pause] [whispers] It is not the Moon. [long pause] [calmly] Stay inside. Keep listening, for further instructions. [long pause] If this message is coming from outside your window, [long pause] [whispers] do not open the curtains to check."
+    },
+    "ep02": {
+      "voice": "true",
+      "text": "[softly] This face cut into your television. [short pause] Twice. [long pause] Chicago, nineteen eighty seven. The Sunday night sports news. [long pause] A man in a rubber mask. No voice. Just a buzz. [long pause] Engineers switch the signal. Twenty five seconds, and he is gone. [long pause] Two hours later, he comes back. On channel eleven. [long pause] [whispers] This time, he speaks. [long pause] [softly] For ninety seconds, nobody can stop him. [long pause] The last thing anyone sees is a hand from off screen, with a flyswatter. [long pause] Investigators searched. No one was ever charged. [long pause] Nearly forty years later, no one knows who was under the mask. [long pause] [whispers] Or how easily he got into yours."
+    },
+    "ep03": {
+      "voice": "true",
+      "text": "[softly] You find footprints in the snow, leading to your door. [long pause] [whispers] None lead away. [long pause] [softly] Bavaria, nineteen twenty two. A lonely farm called /ˈhɪntɐkaɪfɛk/. [long pause] The house keys go missing. A newspaper turns up that nobody bought. [long pause] At night, the farmer hears footsteps in the attic. [long pause] He searches with a lantern. He finds nothing. [long pause] Months earlier, the maid had quit. She said the house was haunted. [long pause] [sad] On the last night of March, all six people on the farm were killed. [long pause] [softly] For days, smoke rose from the chimney. Someone fed the cattle. [long pause] Whoever did it had stayed in the house. [long pause] The case was never solved. [long pause] [whispers] No one knows how long someone had been living above them."
+    },
+    "ep04": {
+      "voice": "fiction",
+      "text": "[calmly] You are alone up here until morning. Follow these rules. [long pause] One. Record the temperature every hour. [long pause] Two. The wind sensor reports wind on calm nights. Do not go up to check. [long pause] Three. If the phone rings, let it ring. There is no phone line. [long pause] Four. If you see footprints to the door, turn off every light. [long pause] Five. Knocking is fine. [long pause] Six. At four a.m., someone will say they are the morning shift. [long pause] [softly] Morning shift. Open the door. [long pause] [calmly] The morning shift arrives at seven. Do not open. [long pause] Especially if you recognise the voice. [long pause] Seven. If you do not remember writing tonight's log, you did not write it. [long pause] [whispers] Do not turn around."
+    },
+    "ep05": {
+      "voice": "true",
+      "text": "[softly] Imagine cutting your own tent open, and running into the snow in your socks. [long pause] February, nineteen fifty nine. Nine experienced hikers camp on a slope in the northern Urals. [long pause] Weeks later, searchers find the tent. Cut open, from the inside. [long pause] Footprints lead down the slope. Socks. Bare feet. [long pause] Some are found by a small fire, under a cedar tree. [long pause] Others lie in a ravine. They are not found until May. [long pause] The file closes with three words: a compelling natural force. [long pause] In twenty twenty one, scientists showed how a delayed slab avalanche could explain the tent. [long pause] Not everyone is convinced. [long pause] [whispers] Whatever happened that night, nine people decided the frozen dark was safer than their tent."
+    },
+    "ep06": {
+      "voice": "fiction",
+      "text": "[softly] Three hundred metres down, something behind you sounds exactly like you. [long pause] Day nine. I am on sonar. A contact. Directly behind us. [long pause] No match. So I compare it to the only thing left. [long pause] [whispers] Us. [long pause] [softly] Same propeller. Same rattle from the loose panel we never fixed. [long pause] The captain orders all stop. [long pause] The contact stops too. [long pause] Then, through the hull, we all hear it. [long pause] Three slow knocks. The way our cook knocks on the galley hatch. [long pause] [trembling voice] [whispers] Our cook is standing right next to me. [long pause] [softly] When we surface, nothing is behind us. Only a long scrape down the stern. [long pause] [whispers] From the outside."
+    }
+  }
+}

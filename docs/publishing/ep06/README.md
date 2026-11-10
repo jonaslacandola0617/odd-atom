@@ -1,6 +1,6 @@
 # Episode 6 publishing kit: "The Sound That Matched Us"
 
-**Upload this file:** `assets/videos/ep06-sonar-v1/ep06-the-sound-that-matched-us.mp4` (55.6 s, 1080×1920; it loops seamlessly).
+**Upload this file:** `assets/videos/ep06-sonar-v2/ep06-the-sound-that-matched-us-eerie-voice.mp4` (55.6 s, 1080×1920; it loops seamlessly). It has the eerie ElevenLabs narration and the horror score; see `docs/production/eleven-revoice/README.md`. Earlier version: `assets/videos/ep06-sonar-v1/ep06-the-sound-that-matched-us.mp4`.
 These are drafts to paste; nothing has been posted. No view counts are guaranteed. This is **original fiction**.
 
 ## What the cut is built for

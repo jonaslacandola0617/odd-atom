@@ -1,0 +1,189 @@
+{
+  "episode": "ep05",
+  "version": "ep05-tent-v3",
+  "based_on_video": "assets/videos/ep05-tent-v2/ep05-nine-hikers-one-cut-tent-horror-score.mp4",
+  "other_stems_from": [
+    "ep05-tent-v1",
+    "ep05-tent-v2"
+  ],
+  "change": "audio only: the MBROLA narration is replaced by an ElevenLabs take placed on the original line start times; picture copied unchanged (-c:v copy)",
+  "reason": "user, 2026-11-10: ElevenLabs connected; change the robotic voiceover into an eerie one for Episodes 1-6",
+  "voice": {
+    "provider": "ElevenLabs (connector, eleven_v4)",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "prompt": "[softly] Imagine cutting your own tent open, and running into the snow in your socks. [long pause] February, nineteen fifty nine. Nine experienced hikers camp on a slope in the northern Urals. [long pause] Weeks later, searchers find the tent. Cut open, from the inside. [long pause] Footprints lead down the slope. Socks. Bare feet. [long pause] Some are found by a small fire, under a cedar tree. [long pause] Others lie in a ravine. They are not found until May. [long pause] The file closes with three words: a compelling natural force. [long pause] In twenty twenty one, scientists showed how a delayed slab avalanche could explain the tent. [long pause] Not everyone is convinced. [long pause] [whispers] Whatever happened that night, nine people decided the frozen dark was safer than their tent.",
+    "take": "public/assets/audio/eleven-takes/ep05-take1.mp3",
+    "take_sha256": "d936cfc1541ddb1de7de55f004f6d24a676416dec3073e7267221d3dcc11fb67",
+    "chain": "narrator"
+  },
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.3,
+      "end": 5.27,
+      "old_end": 5.586,
+      "take_seconds": 4.82,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l02",
+      "start": 6.186,
+      "end": 12.776,
+      "old_end": 13.32,
+      "take_seconds": 6.44,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l03",
+      "start": 13.92,
+      "end": 18.89,
+      "old_end": 19.193,
+      "take_seconds": 4.82,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l04",
+      "start": 19.693,
+      "end": 23.923,
+      "old_end": 24.202,
+      "take_seconds": 4.08,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l05",
+      "start": 25.102,
+      "end": 28.332,
+      "old_end": 29.033,
+      "take_seconds": 3.08,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l06",
+      "start": 29.533,
+      "end": 33.053,
+      "old_end": 33.464,
+      "take_seconds": 3.37,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l07",
+      "start": 34.264,
+      "end": 38.944,
+      "old_end": 38.734,
+      "take_seconds": 4.53,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.3
+    },
+    {
+      "id": "l08",
+      "start": 39.334,
+      "end": 44.564,
+      "old_end": 45.968,
+      "take_seconds": 5.08,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l09",
+      "start": 46.468,
+      "end": 48.018,
+      "old_end": 48.538,
+      "take_seconds": 1.4,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l10",
+      "start": 49.438,
+      "end": 55.128,
+      "old_end": 55.504,
+      "take_seconds": 5.54,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    }
+  ],
+  "stingers_inside_speech": [],
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 9.3,
+      "phone_band_voice_minus_all_db": 10.5
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 5.5,
+      "phone_band_voice_minus_all_db": 6.5
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 5.5,
+      "phone_band_voice_minus_all_db": 11.9
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 11.1
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 6.1,
+      "phone_band_voice_minus_all_db": 10.9
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 7.2,
+      "phone_band_voice_minus_all_db": 12.7
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 6.6
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 12.8
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 5.8,
+      "phone_band_voice_minus_all_db": 11.5
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 4.9,
+      "phone_band_voice_minus_all_db": 8.7
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -10.4,
+    "music_minus_voice_in_gaps_db": -5.4,
+    "music_share_of_gaps_seconds": 12.8
+  },
+  "loop_seam_db_vs_mean": {
+    "first_quarter_second": -2.2,
+    "last_quarter_second": -2.0
+  },
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.39,
+  "video_sha256": "3f55584405ba79eaae261f65ae55167c7a35ebd16e80f288cf62852c122ec4e3",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

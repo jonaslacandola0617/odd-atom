@@ -1,6 +1,6 @@
 # Episode 5 publishing kit: "Nine Hikers, One Cut Tent"
 
-**Upload this file:** `assets/videos/ep05-tent-v1/ep05-nine-hikers-one-cut-tent.mp4` (57.5 s, 1080×1920; it loops seamlessly).
+**Upload this file:** `assets/videos/ep05-tent-v3/ep05-nine-hikers-one-cut-tent-eerie-voice.mp4` (57.5 s, 1080×1920; it loops seamlessly). It has the eerie ElevenLabs narration and the horror score; see `docs/production/eleven-revoice/README.md`. Earlier version: `assets/videos/ep05-tent-v1/ep05-nine-hikers-one-cut-tent.mp4`.
 These are drafts to paste; nothing has been posted. No view counts are guaranteed.
 
 This is a **true case with nine real victims** (the Dyatlov Pass incident, 1959). Keep the tone respectful: no gore, no injury details, no victim photos, and no mocking theories. **Do not name anyone as responsible.** Before posting, re-check the cedar fire, the May ravine discovery and the "compelling natural force" wording in a full source; the production fact check could only use search summaries.

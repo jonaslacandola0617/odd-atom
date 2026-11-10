@@ -1,6 +1,6 @@
 # Episode 3 publishing kit: "Footprints in the Snow"
 
-**Upload this file:** `assets/videos/ep03-snow-v1/ep03-footprints-in-the-snow.mp4` (58.4 s, 1080×1920; it loops seamlessly).
+**Upload this file:** `assets/videos/ep03-snow-v3/ep03-footprints-in-the-snow-eerie-voice.mp4` (58.4 s, 1080×1920; it loops seamlessly). It has the eerie ElevenLabs narration and the horror score; see `docs/production/eleven-revoice/README.md`. Earlier version: `assets/videos/ep03-snow-v1/ep03-footprints-in-the-snow.mp4`.
 These are drafts to paste; nothing has been posted. No view counts are guaranteed.
 
 This is a **true case with six real victims, children among them** (Hinterkaifeck, Bavaria, 1922). Keep the tone quiet and respectful. No gore jokes, no "axe murder" thumbnails, and no victim photos. **Never name or hint at a suspect**, in the post, replies or pinned comment. Before posting, read one full account (for example the Wikipedia article or a German-language source) to confirm the chimney-smoke and cattle details.

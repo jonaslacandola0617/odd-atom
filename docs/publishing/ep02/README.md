@@ -1,6 +1,6 @@
 # Episode 2 publishing kit: "The Mask on Channel 11"
 
-**Upload this file:** `assets/videos/ep02-mask-v1/ep02-the-mask-on-channel-11.mp4` (58.7 s, 1080×1920; it loops seamlessly).
+**Upload this file:** `assets/videos/ep02-mask-v3/ep02-the-mask-on-channel-11-eerie-voice.mp4` (58.7 s, 1080×1920; it loops seamlessly). It has the eerie ElevenLabs narration and the horror score; see `docs/production/eleven-revoice/README.md`. Earlier version: `assets/videos/ep02-mask-v1/ep02-the-mask-on-channel-11.mp4`.
 These are drafts to paste; nothing has been posted. No view counts are guaranteed. Use YouTube Studio and TikTok analytics to decide what to repeat.
 
 This is a **true story** (the 1987 Chicago broadcast signal intrusions). Before posting, re-read one primary article (for example WTTW's own 30th-anniversary piece or the Wikipedia article on the incident) to confirm the soda-can and flyswatter details; the production check could only use search summaries. **Never name or hint at a suspect**, in the post, the replies or the pinned comment.

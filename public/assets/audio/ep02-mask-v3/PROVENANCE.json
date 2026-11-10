@@ -1,0 +1,204 @@
+{
+  "episode": "ep02",
+  "version": "ep02-mask-v3",
+  "based_on_video": "assets/videos/ep02-mask-v2/ep02-the-mask-on-channel-11-horror-score.mp4",
+  "other_stems_from": [
+    "ep02-mask-v1",
+    "ep02-mask-v2"
+  ],
+  "change": "audio only: the MBROLA narration is replaced by an ElevenLabs take placed on the original line start times; picture copied unchanged (-c:v copy)",
+  "reason": "user, 2026-11-10: ElevenLabs connected; change the robotic voiceover into an eerie one for Episodes 1-6",
+  "voice": {
+    "provider": "ElevenLabs (connector, eleven_v4)",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "prompt": "[softly] This face cut into your television. [short pause] Twice. [long pause] Chicago, nineteen eighty seven. The Sunday night sports news. [long pause] A man in a rubber mask. No voice. Just a buzz. [long pause] Engineers switch the signal. Twenty five seconds, and he is gone. [long pause] Two hours later, he comes back. On channel eleven. [long pause] [whispers] This time, he speaks. [long pause] [softly] For ninety seconds, nobody can stop him. [long pause] The last thing anyone sees is a hand from off screen, with a flyswatter. [long pause] Investigators searched. No one was ever charged. [long pause] Nearly forty years later, no one knows who was under the mask. [long pause] [whispers] Or how easily he got into yours.",
+    "take": "public/assets/audio/eleven-takes/ep02-take1.mp3",
+    "take_sha256": "180b0b542fc02447625ec0d9ffecec0331bb953f4a65b96ba8ad92910961126d",
+    "chain": "narrator"
+  },
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.35,
+      "end": 3.99,
+      "old_end": 3.896,
+      "take_seconds": 3.49,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l02",
+      "start": 4.696,
+      "end": 9.196,
+      "old_end": 9.421,
+      "take_seconds": 4.35,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l03",
+      "start": 11.621,
+      "end": 15.801,
+      "old_end": 15.779,
+      "take_seconds": 4.03,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l04",
+      "start": 16.479,
+      "end": 20.849,
+      "old_end": 21.603,
+      "take_seconds": 4.22,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l05",
+      "start": 22.803,
+      "end": 26.173,
+      "old_end": 26.817,
+      "take_seconds": 3.22,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.2
+    },
+    {
+      "id": "l06",
+      "start": 28.517,
+      "end": 30.407,
+      "old_end": 30.643,
+      "take_seconds": 1.74,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 2.1
+    },
+    {
+      "id": "l07",
+      "start": 34.043,
+      "end": 36.863,
+      "old_end": 37.542,
+      "take_seconds": 2.67,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l08",
+      "start": 38.242,
+      "end": 42.772,
+      "old_end": 43.554,
+      "take_seconds": 4.38,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l09",
+      "start": 44.954,
+      "end": 48.254,
+      "old_end": 48.545,
+      "take_seconds": 3.15,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l10",
+      "start": 49.145,
+      "end": 53.055,
+      "old_end": 53.511,
+      "take_seconds": 3.76,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l11",
+      "start": 54.011,
+      "end": 56.281,
+      "old_end": 56.331,
+      "take_seconds": 2.12,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    }
+  ],
+  "stingers_inside_speech": [],
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 7.0,
+      "phone_band_voice_minus_all_db": 8.5
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 8.0
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 4.9,
+      "phone_band_voice_minus_all_db": 10.1
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 4.6,
+      "phone_band_voice_minus_all_db": 8.0
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 5.6
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 4.4
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 5.5,
+      "phone_band_voice_minus_all_db": 4.4
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 5.0,
+      "phone_band_voice_minus_all_db": 9.1
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 6.5,
+      "phone_band_voice_minus_all_db": 9.2
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 6.5,
+      "phone_band_voice_minus_all_db": 9.8
+    },
+    {
+      "id": "l11",
+      "voice_minus_all_db": 7.0,
+      "phone_band_voice_minus_all_db": 12.9
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -13.7,
+    "music_minus_voice_in_gaps_db": -4.5,
+    "music_share_of_gaps_seconds": 20.0
+  },
+  "loop_seam_db_vs_mean": {
+    "first_quarter_second": -2.2,
+    "last_quarter_second": -2.3
+  },
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.46,
+  "video_sha256": "17c7b6611cde7f2024754da2c7b73b189f7ce24c4753db5169687973b16b1a26",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

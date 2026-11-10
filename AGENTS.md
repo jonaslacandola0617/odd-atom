@@ -1,5 +1,14 @@
 # Video delivery
 
+- **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
+  - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
+  - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).
+  - **Method:** `scripts/revoice_eleven.py` splits one whole-episode take per episode into lines (`scripts/eleven_split.py`) and places each line on its original start time, so the captions and picture are unchanged (`-c:v copy`). Each line's level is matched to the old line, and any line under 4.5 dB over everything else is lifted.
+  - **Delivered:** `ep02-mask-v3`, `ep03-snow-v3`, `ep05-tent-v3` and `ep06-sonar-v2` (MP4s named `*-eerie-voice.mp4`).
+  - **Not yet delivered:** Episodes 1 and 4. ElevenLabs said "free generations are busy" and nothing was charged; the account also reported that its free tier was disabled because of the proxy.
+  - **Docs:** prompts, takes, credits and limits are in `docs/production/eleven-revoice/`.
+  - **Status:** no listening pass and no user approval.
+  - **New episodes:** use these two voices.
 - **Horror standard, from the user's note on 2026-11-10:** "there's no eerie or creepy background music … Make the videos more scary and horror and creepy."
   - **Why:** measured in the phone band (200 Hz–4 kHz), the scores of Episodes 1–5 sat 17–28 dB under the voice. Their drones were sub-bass, which phones don't reproduce.
   - **Score rule for every new episode:** build the score with `scripts/horror_score.py`, voiced in about 110 Hz–5 kHz:

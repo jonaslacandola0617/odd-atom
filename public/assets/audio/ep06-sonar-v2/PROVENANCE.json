@@ -1,0 +1,218 @@
+{
+  "episode": "ep06",
+  "version": "ep06-sonar-v2",
+  "based_on_video": "assets/videos/ep06-sonar-v1/ep06-the-sound-that-matched-us.mp4",
+  "other_stems_from": [
+    "ep06-sonar-v1"
+  ],
+  "change": "audio only: the MBROLA narration is replaced by an ElevenLabs take placed on the original line start times; picture copied unchanged (-c:v copy)",
+  "reason": "user, 2026-11-10: ElevenLabs connected; change the robotic voiceover into an eerie one for Episodes 1-6",
+  "voice": {
+    "provider": "ElevenLabs (connector, eleven_v4)",
+    "voice_id": "tZssYepgGaQmegsMEXjK",
+    "voice_name": "True – Crime & Horror Narrator",
+    "prompt": "[softly] Three hundred metres down, something behind you sounds exactly like you. [long pause] Day nine. I am on sonar. A contact. Directly behind us. [long pause] No match. So I compare it to the only thing left. [long pause] [whispers] Us. [long pause] [softly] Same propeller. Same rattle from the loose panel we never fixed. [long pause] The captain orders all stop. [long pause] The contact stops too. [long pause] Then, through the hull, we all hear it. [long pause] Three slow knocks. The way our cook knocks on the galley hatch. [long pause] [trembling voice] [whispers] Our cook is standing right next to me. [long pause] [softly] When we surface, nothing is behind us. Only a long scrape down the stern. [long pause] [whispers] From the outside.",
+    "take": "public/assets/audio/eleven-takes/ep06-take1.mp3",
+    "take_sha256": "955a29c601e30fcea7e2a80b4b32f4d678eddd7c2d0419a147f197d048360dc9",
+    "chain": "narrator"
+  },
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.3,
+      "end": 5.45,
+      "old_end": 5.304,
+      "take_seconds": 5.0,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l02",
+      "start": 6.004,
+      "end": 11.314,
+      "old_end": 11.117,
+      "take_seconds": 5.16,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l03",
+      "start": 11.617,
+      "end": 15.327,
+      "old_end": 15.475,
+      "take_seconds": 3.56,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l04",
+      "start": 15.975,
+      "end": 16.665,
+      "old_end": 17.064,
+      "take_seconds": 0.54,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l05",
+      "start": 17.964,
+      "end": 22.304,
+      "old_end": 22.436,
+      "take_seconds": 4.19,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l06",
+      "start": 23.236,
+      "end": 25.206,
+      "old_end": 25.385,
+      "take_seconds": 1.82,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.6
+    },
+    {
+      "id": "l07",
+      "start": 26.085,
+      "end": 27.645,
+      "old_end": 28.164,
+      "take_seconds": 1.41,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l08",
+      "start": 29.264,
+      "end": 32.414,
+      "old_end": 32.104,
+      "take_seconds": 3.0,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l09",
+      "start": 34.704,
+      "end": 39.234,
+      "old_end": 38.956,
+      "take_seconds": 4.38,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.1
+    },
+    {
+      "id": "l10",
+      "start": 41.056,
+      "end": 43.406,
+      "old_end": 43.837,
+      "take_seconds": 2.2,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.9
+    },
+    {
+      "id": "l11",
+      "start": 45.337,
+      "end": 50.767,
+      "old_end": 50.856,
+      "take_seconds": 5.28,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l12",
+      "start": 51.456,
+      "end": 52.666,
+      "old_end": 53.589,
+      "take_seconds": 1.06,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    }
+  ],
+  "stingers_inside_speech": [],
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 9.0,
+      "phone_band_voice_minus_all_db": 10.3
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 5.4,
+      "phone_band_voice_minus_all_db": 4.2
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 10.0,
+      "phone_band_voice_minus_all_db": 11.6
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 8.2,
+      "phone_band_voice_minus_all_db": 7.1
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 6.5,
+      "phone_band_voice_minus_all_db": 8.3
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 5.9
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 9.0,
+      "phone_band_voice_minus_all_db": 14.3
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 5.7,
+      "phone_band_voice_minus_all_db": 6.9
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 5.5
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 7.3
+    },
+    {
+      "id": "l11",
+      "voice_minus_all_db": 6.3,
+      "phone_band_voice_minus_all_db": 3.2
+    },
+    {
+      "id": "l12",
+      "voice_minus_all_db": 9.0,
+      "phone_band_voice_minus_all_db": 9.9
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -7.3,
+    "music_minus_voice_in_gaps_db": -2.6,
+    "music_share_of_gaps_seconds": 16.2
+  },
+  "loop_seam_db_vs_mean": {
+    "first_quarter_second": -2.4,
+    "last_quarter_second": -2.2
+  },
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.22,
+  "video_sha256": "704df7a9cc4a346574061fc409d613823cb283f211336046365e4d881f0ab3a2",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

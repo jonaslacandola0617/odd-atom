@@ -1,0 +1,219 @@
+{
+  "episode": "ep03",
+  "version": "ep03-snow-v3",
+  "based_on_video": "assets/videos/ep03-snow-v2/ep03-footprints-in-the-snow-horror-score.mp4",
+  "other_stems_from": [
+    "ep03-snow-v1",
+    "ep03-snow-v2"
+  ],
+  "change": "audio only: the MBROLA narration is replaced by an ElevenLabs take placed on the original line start times; picture copied unchanged (-c:v copy)",
+  "reason": "user, 2026-11-10: ElevenLabs connected; change the robotic voiceover into an eerie one for Episodes 1-6",
+  "voice": {
+    "provider": "ElevenLabs (connector, eleven_v4)",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "prompt": "[softly] You find footprints in the snow, leading to your door. [long pause] [whispers] None lead away. [long pause] [softly] Bavaria, nineteen twenty two. A lonely farm called /ˈhɪntɐkaɪfɛk/. [long pause] The house keys go missing. A newspaper turns up that nobody bought. [long pause] At night, the farmer hears footsteps in the attic. [long pause] He searches with a lantern. He finds nothing. [long pause] Months earlier, the maid had quit. She said the house was haunted. [long pause] [sad] On the last night of March, all six people on the farm were killed. [long pause] [softly] For days, smoke rose from the chimney. Someone fed the cattle. [long pause] Whoever did it had stayed in the house. [long pause] The case was never solved. [long pause] [whispers] No one knows how long someone had been living above them.",
+    "take": "public/assets/audio/eleven-takes/ep03-take1.mp3",
+    "take_sha256": "cd53a7adc72c9faf5bcac941ab2fdf09c460e02900d417cefc3d959b358de186",
+    "chain": "narrator"
+  },
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.3,
+      "end": 4.12,
+      "old_end": 4.279,
+      "take_seconds": 3.69,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l02",
+      "start": 4.779,
+      "end": 6.882,
+      "old_end": 6.116,
+      "take_seconds": 2.04,
+      "tempo": 1.049,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l03",
+      "start": 7.016,
+      "end": 12.757,
+      "old_end": 12.402,
+      "take_seconds": 6.08,
+      "tempo": 1.086,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l04",
+      "start": 12.902,
+      "end": 17.512,
+      "old_end": 17.788,
+      "take_seconds": 4.46,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l05",
+      "start": 18.588,
+      "end": 21.788,
+      "old_end": 22.105,
+      "take_seconds": 3.05,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l06",
+      "start": 23.705,
+      "end": 26.715,
+      "old_end": 27.29,
+      "take_seconds": 2.86,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l07",
+      "start": 28.09,
+      "end": 32.31,
+      "old_end": 33.046,
+      "take_seconds": 4.07,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.1
+    },
+    {
+      "id": "l08",
+      "start": 34.046,
+      "end": 38.356,
+      "old_end": 38.563,
+      "take_seconds": 4.16,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.5
+    },
+    {
+      "id": "l09",
+      "start": 40.163,
+      "end": 44.463,
+      "old_end": 44.949,
+      "take_seconds": 4.15,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l10",
+      "start": 45.749,
+      "end": 48.269,
+      "old_end": 48.316,
+      "take_seconds": 2.37,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l11",
+      "start": 49.316,
+      "end": 51.076,
+      "old_end": 51.385,
+      "take_seconds": 1.61,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l12",
+      "start": 52.285,
+      "end": 55.415,
+      "old_end": 56.131,
+      "take_seconds": 2.98,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    }
+  ],
+  "stingers_inside_speech": [],
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 8.1,
+      "phone_band_voice_minus_all_db": 7.2
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 8.1,
+      "phone_band_voice_minus_all_db": 13.6
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 6.8,
+      "phone_band_voice_minus_all_db": 7.4
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 8.2,
+      "phone_band_voice_minus_all_db": 13.0
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 6.1,
+      "phone_band_voice_minus_all_db": 14.2
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 9.1
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 5.9
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 7.6
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 5.2,
+      "phone_band_voice_minus_all_db": 10.0
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 5.1,
+      "phone_band_voice_minus_all_db": 9.4
+    },
+    {
+      "id": "l11",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 6.7
+    },
+    {
+      "id": "l12",
+      "voice_minus_all_db": 5.2,
+      "phone_band_voice_minus_all_db": 10.6
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.6,
+    "music_minus_voice_in_gaps_db": -5.8,
+    "music_share_of_gaps_seconds": 15.7
+  },
+  "loop_seam_db_vs_mean": {
+    "first_quarter_second": -1.7,
+    "last_quarter_second": -2.1
+  },
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.22,
+  "video_sha256": "eb695961dc8a2ec007b7df7dd74a4dcad10b1b254dabe9cfa3e94899a83dfdb9",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
