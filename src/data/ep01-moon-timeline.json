@@ -1,0 +1,92 @@
+{
+  "fps": 30,
+  "duration_seconds": 81.197,
+  "duration_frames": 2436,
+  "voice": "espeak-ng + MBROLA us2, rate 150, pitch 38, word gap 3",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "This is an emergency broadcast. This is not a test.",
+      "start": 3.6,
+      "end": 7.554,
+      "beat_before": "cold open: late show, signal break, attention tone"
+    },
+    {
+      "id": "l02",
+      "text": "Tonight, at ten forty two, P.M., the Moon will rise as normal.",
+      "start": 8.354,
+      "end": 13.037,
+      "beat_before": "mother frozen in TV glow"
+    },
+    {
+      "id": "l03",
+      "text": "Do not look at it.",
+      "start": 13.837,
+      "end": 15.292,
+      "beat_before": "establishing street, east glow"
+    },
+    {
+      "id": "l04",
+      "text": "Close your curtains now. Cover any windows facing east. If you are outside, keep your eyes on the ground, and go indoors.",
+      "start": 16.192,
+      "end": 24.969,
+      "beat_before": "mother looks at open curtains"
+    },
+    {
+      "id": "l05",
+      "text": "Do not take photographs. Do not use binoculars, or telescopes. Do not watch it on a screen.",
+      "start": 25.969,
+      "end": 33.27,
+      "beat_before": "neighbours closing curtains"
+    },
+    {
+      "id": "l06",
+      "text": "If someone in your home has already looked, do not let them describe what they saw.",
+      "start": 34.67,
+      "end": 40.359,
+      "beat_before": "phone face down; back door"
+    },
+    {
+      "id": "l07",
+      "text": "Do not answer, if they say it looks different.",
+      "start": 41.759,
+      "end": 45.167,
+      "beat_before": "father in the yard, staring east"
+    },
+    {
+      "id": "l08",
+      "text": "Do not answer, if they say it is closer.",
+      "start": 46.767,
+      "end": 49.836,
+      "beat_before": "door handle turns"
+    },
+    {
+      "id": "l09",
+      "text": "It is not the Moon.",
+      "start": 51.836,
+      "end": 53.395,
+      "beat_before": "father silhouette in the doorway"
+    },
+    {
+      "id": "l10",
+      "text": "The real Moon will rise, in approximately four hours. Until then, stay inside. Stay quiet. And keep listening to this channel, for further instructions.",
+      "start": 55.595,
+      "end": 67.171,
+      "beat_before": "the light over the rooftops"
+    },
+    {
+      "id": "l11",
+      "text": "If this message is coming from outside your window,",
+      "start": 70.171,
+      "end": 73.537,
+      "beat_before": "father now behind the couch; TV dies"
+    },
+    {
+      "id": "l12",
+      "text": "do not open the curtains to check.",
+      "start": 74.237,
+      "end": 76.697,
+      "beat_before": "curtains glowing"
+    }
+  ]
+}

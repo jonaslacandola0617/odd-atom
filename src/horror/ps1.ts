@@ -8,12 +8,13 @@ export const LOW_W = 270;
 export const LOW_H = 480;
 const SNAP = 'vec2(110.0, 196.0)';
 
-export const ps1 = <M extends THREE.Material>(m: M, levels = 24): M => {
+/** snap: screen grid for vertex wobble as a GLSL vec2 literal (coarser = more wobble). */
+export const ps1 = <M extends THREE.Material>(m: M, levels = 24, snap = SNAP): M => {
 	m.onBeforeCompile = (shader) => {
 		shader.vertexShader = shader.vertexShader.replace(
 			'#include <project_vertex>',
 			`#include <project_vertex>
-			vec4 sp = gl_Position; sp.xyz /= sp.w; sp.xy = floor(sp.xy * ${SNAP}) / ${SNAP}; sp.xyz *= sp.w; gl_Position = sp;`,
+			vec4 sp = gl_Position; sp.xyz /= sp.w; sp.xy = floor(sp.xy * ${snap}) / ${snap}; sp.xyz *= sp.w; gl_Position = sp;`,
 		);
 		shader.fragmentShader = shader.fragmentShader.replace(
 			'#include <dithering_fragment>',

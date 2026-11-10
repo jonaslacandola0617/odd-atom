@@ -18,10 +18,12 @@ import {MasteryStudy,masteryStudies} from './MasteryStudies';
 import {CancerShort,cancerShortConfig} from './CancerShort';
 import {OddAtomJupiter,oddAtomJupiterConfig} from './OddAtomJupiter';
 import {GalileoTape,galileoTapeConfig} from './horror/GalileoTape';
+import {Episode01,ep01Config} from './horror/ep01/Episode01';
 import {OddAtomJupiterV3,oddAtomJupiterV3Config} from './OddAtomJupiterV3';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="Ep01DoNotLookAtTheMoon" component={Episode01} defaultProps={{includeAudio:true,captions:true}} {...ep01Config}/>
     <Composition id="HorrorGalileoTape" component={GalileoTape} defaultProps={{includeAudio:true}} {...galileoTapeConfig}/>
     <Composition id="OddAtomJupiterV3Opening" component={OddAtomJupiterV3} defaultProps={{includeAudio:true,captions:true}} {...oddAtomJupiterV3Config}/>
     <Composition id="OddAtomJupiterV2Opening" component={OddAtomJupiter} defaultProps={{includeAudio:true,captions:true}} {...oddAtomJupiterConfig}/>

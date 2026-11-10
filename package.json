@@ -97,7 +97,11 @@
     "render:oddatom-jupiter-v3": "node scripts/render_oddatom_jupiter.cjs --v3",
     "sound:horror-galileo": "python3 scripts/horror_galileo_sound.py",
     "still:horror-galileo": "node scripts/render_horror_galileo.cjs --stills",
-    "render:horror-galileo": "node scripts/render_horror_galileo.cjs"
+    "render:horror-galileo": "node scripts/render_horror_galileo.cjs",
+    "voice:ep01": "python3 scripts/ep01_voice.py",
+    "sound:ep01": "python3 scripts/ep01_sound.py",
+    "still:ep01": "node scripts/render_ep01.cjs --stills",
+    "render:ep01": "node scripts/render_ep01.cjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",
