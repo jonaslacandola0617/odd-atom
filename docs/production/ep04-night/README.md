@@ -1,6 +1,6 @@
 # Episode 4: "Rules for the Night Shift" (v1)
 
-**Delivery:** `assets/videos/ep04-night-v1/ep04-rules-for-the-night-shift.mp4` with its poster `ep04-rules-for-the-night-shift-poster.png` (the filled log, frame 1330). Encoded-file figures and the sha256 are in the review section below. It has **no user approval** yet.
+**Delivery:** `assets/videos/ep04-night-v1/ep04-rules-for-the-night-shift.mp4` (1080×1920, 30 fps, 1,673 frames, 55.79 s container, H.264 two-pass 6.2 Mbit/s tuned for grain, AAC 192k; 44.4 MB; sha256 `65661ba2f9b2fb3742a7859639f3ad36dc4726b79b99905e56bf45c4f620b24e`) with its poster `ep04-rules-for-the-night-shift-poster.png` (the filled log, frame 1330). It has **no user approval** yet.
 
 **Source:** `Ep04RulesForTheNightShift` in `src/horror/ep04/` (`world.tsx`: the station room, the hut, the anemometer, the cable car, the ridge, the footprints and the snow; `Episode04.tsx`: the shot list, the rule sheet, monitor, log and clock textures, the peephole, captions and the tape layer). The worker reuses `Human` from `src/horror/ep01/world.tsx`. The story is the **original** script #7 in `docs/stories/season-1-shorts.md`, the next in the season's release order (8 → 1 → 6 → **7**), cut to 11 rules lines and one line at the door.
 
@@ -98,7 +98,16 @@ This needs `espeak-ng mbrola mbrola-us2` and software WebGL (`gl: 'swangle'`).
    - The face and final framings were too tight to read the monitor and clock.
 2. **Second pass:** the hook window was half covered by an exterior wall block, now cut back. The prints were made darker and larger. The peephole was aimed down to the step. The east-window shot was aimed along the line of prints so they visibly advance on the door.
 
+## Review of the encoded file
+
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,673 frames at 30 fps, with audio.
+- **Loop:** the mean absolute luma difference between the last frame and frame 0 is 3.7/255; between frames 0 and 1–4 of the opening it is 2.3–3.1. The seam reads as the push-in continuing, plus tape noise and snow.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot.
+- **Captions:** `scripts/caption_check.py` extracted all 13 caption pages (rule two pages across two screens) from the encoded file. Each was read against the script word for word: all are complete.
+
 ## Known limits
+
+- From 0.35 s the first caption covers the bottom rows of the rule sheet, so hidden rule 7 is clearest in the first ten frames and in the loop shot.
 
 - The anemometer reads small in its shot; the calm is carried by the straight-falling snow and the sound.
 - The hand inserts (pen, bolt) are blocky PS1 hands.
