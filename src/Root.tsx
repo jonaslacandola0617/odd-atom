@@ -17,9 +17,11 @@ import {ApprovedCharactersTest} from './ApprovedCharacters';
 import {MasteryStudy,masteryStudies} from './MasteryStudies';
 import {CancerShort,cancerShortConfig} from './CancerShort';
 import {OddAtomJupiter,oddAtomJupiterConfig} from './OddAtomJupiter';
+import {OddAtomJupiterV3,oddAtomJupiterV3Config} from './OddAtomJupiterV3';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="OddAtomJupiterV3Opening" component={OddAtomJupiterV3} defaultProps={{includeAudio:true,captions:true}} {...oddAtomJupiterV3Config}/>
     <Composition id="OddAtomJupiterV2Opening" component={OddAtomJupiter} defaultProps={{includeAudio:true,captions:true}} {...oddAtomJupiterConfig}/>
     <Composition id="CancerShort76" component={CancerShort} defaultProps={{includeAudio:true,captions:true}} {...cancerShortConfig}/>
     {(['acting','explanation','transition','narrative'] as const).map(kind=><Composition key={kind} id={masteryStudies[kind].id} component={MasteryStudy} defaultProps={{kind,includeAudio:true}} durationInFrames={masteryStudies[kind].frames} fps={30} width={1920} height={1080}/>)}

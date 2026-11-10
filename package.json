@@ -92,7 +92,9 @@
     "render:cancer": "node scripts/render_cancer_short.cjs",
     "review:cancer": "python scripts/review_cancer_short.py",
     "still:oddatom-jupiter": "node scripts/render_oddatom_jupiter.cjs --stills",
-    "render:oddatom-jupiter": "node scripts/render_oddatom_jupiter.cjs"
+    "render:oddatom-jupiter": "node scripts/render_oddatom_jupiter.cjs",
+    "still:oddatom-jupiter-v3": "node scripts/render_oddatom_jupiter.cjs --v3 --stills",
+    "render:oddatom-jupiter-v3": "node scripts/render_oddatom_jupiter.cjs --v3"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",
