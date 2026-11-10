@@ -31,7 +31,7 @@ MAX_TEMPO = 1.12
 
 EPS = {
     'ep01': dict(tl='ep01-moon-v2', stems='ep01-moon-v2', score='ep01-moon-v3', video='assets/videos/ep01-moon-v3/ep01-viral-cut-horror-score.mp4',
-                 out='ep01-moon-v4', name='ep01-viral-cut-eerie-voice', chain='broadcast', stingers=[28.62, 31.85, 39.45]),
+                 out='ep01-moon-v4', name='ep01-viral-cut-eerie-voice', chain='broadcast', fit_caption=True, stingers=[28.62, 31.85, 39.45]),
     'ep02': dict(tl='ep02-mask-v1', stems='ep02-mask-v1', score='ep02-mask-v2', video='assets/videos/ep02-mask-v2/ep02-the-mask-on-channel-11-horror-score.mp4',
                  out='ep02-mask-v3', name='ep02-the-mask-on-channel-11-eerie-voice', chain='narrator', stingers=[10.92, 30.7]),
     'ep03': dict(tl='ep03-snow-v1', stems='ep03-snow-v1', score='ep03-snow-v2', video='assets/videos/ep03-snow-v2/ep03-footprints-in-the-snow-horror-score.mp4',
@@ -91,6 +91,8 @@ def run(key):
     for i, (l, (a, b)) in enumerate(zip(lines, segs)):
         nxt = lines[i + 1]['start'] if i + 1 < len(lines) else dur - 0.1
         slot = nxt - l['start'] - 0.15
+        if c.get('fit_caption'):  # also end the speech inside the caption's 0.35 s hold
+            slot = min(slot, l['end'] + 0.30 - l['start'])
         seg = take[max(0, int((a - 0.03) * SR)):int((b + 0.12) * SR)].copy()
         f = max(1.0, min(MAX_TEMPO, len(seg) / SR / slot))
         seg = tempo(seg, f)

@@ -4,8 +4,7 @@
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).
   - **Method:** `scripts/revoice_eleven.py` splits one whole-episode take per episode into lines (`scripts/eleven_split.py`) and places each line on its original start time, so the captions and picture are unchanged (`-c:v copy`). Each line's level is matched to the old line, and any line under 4.5 dB over everything else is lifted.
-  - **Delivered:** `ep02-mask-v3`, `ep03-snow-v3`, `ep04-night-v3`, `ep05-tent-v3` and `ep06-sonar-v2` (MP4s named `*-eerie-voice.mp4`). Episode 4 was generated after the user reconnected ElevenLabs.
-  - **Not yet delivered:** Episode 1. ElevenLabs said "free generations are busy" twice and nothing was charged; it is handed to the next session.
+  - **Delivered:** `ep01-moon-v4`, `ep02-mask-v3`, `ep03-snow-v3`, `ep04-night-v3`, `ep05-tent-v3` and `ep06-sonar-v2` (MP4s named `*-eerie-voice.mp4`). Episodes 4 and 1 were generated after the user reconnected ElevenLabs; for Episode 1 one of two takes generated (the other hit the account's free-tier warning).
   - **Docs:** prompts, takes, credits and limits are in `docs/production/eleven-revoice/`.
   - **Status:** no listening pass and no user approval.
   - **New episodes:** use these two voices.

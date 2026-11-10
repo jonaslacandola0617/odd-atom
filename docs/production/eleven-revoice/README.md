@@ -42,7 +42,7 @@ The two diegetic episodes keep their framing:
 | 3 | `assets/videos/ep03-snow-v3/ep03-footprints-in-the-snow-eerie-voice.mp4` | 1,753 | −11.6 / −5.8 | 4.5 / 5.9 | −14.0 | −1.22 |
 | 5 | `assets/videos/ep05-tent-v3/ep05-nine-hikers-one-cut-tent-eerie-voice.mp4` | 1,725 | −10.4 / −5.4 | 4.5 / 6.5 | −14.0 | −1.39 |
 | 6 | `assets/videos/ep06-sonar-v2/ep06-the-sound-that-matched-us-eerie-voice.mp4` | 1,668 | −7.3 / −2.6 | 4.5 / 3.2 | −14.0 | −1.22 |
-| 1 | not yet: after the user reconnected ElevenLabs, the generation again did not start ("free generations are busy"; nothing charged). It is handed to the next session | | | | | |
+| 1 | `assets/videos/ep01-moon-v4/ep01-viral-cut-eerie-voice.mp4` (TV-broadcast chain; take 1, the only one of 2 that generated) | 1,473 | −13.3 / −4.5 | 4.5 / 3.7 | −14.0 | −1.06 |
 | 4 | `assets/videos/ep04-night-v3/ep04-rules-for-the-night-shift-eerie-voice.mp4` (take 2 of 2; the door line is the same voice through a door) | 1,673 | −16.8 / −6.7 | 4.5 / 6.5 | −14.0 | −1.73 |
 
 Per-line placement, tempo, lifts, margins, presence, loop-seam levels and hashes are in `public/assets/audio/<version>/PROVENANCE.json`. The new voice stem is `stem-voice.flac`.
@@ -53,9 +53,10 @@ Per-line placement, tempo, lifts, margins, presence, loop-seam levels and hashes
   - In Episode 3, l02's whispered "None lead away." runs 0.77 s past the old end, so its caption clears about 0.4 s before the last word ends.
   - Every other new line ends within the caption's hold.
 - **Episode 6:** the new lines are shorter, so the gaps are longer and the music in them now reads 2.6 dB under the voice, slightly hotter than the −3 to −6 dB aim. Its tightest phone-band line is 3.2 dB.
-- **Loop seams:** in every episode, the first and last quarter-seconds of the mix are within 0.5 dB of each other.
+- **Episode 1:** generated in the next session (one take, 632 credits; the second take of the run failed with the account warning below). l01 and l02 were tightened to 1.12× (`fit_caption`) so the speech ends inside the caption hold (0.23 s and 0.19 s past the old ends). Its tightest phone-band line, l01, is 3.7 dB because the frame-0 alert tone plays under it, as in the original. A syllable-peak count over-counts every line by a similar 1.15–1.6×, with no line short and its neighbour long, so the split assigns each line correctly.
+- **Loop seams:** apart from Episode 1's designed jump back into the alert tone (first quarter-second +9.8 dB, last −3.1 dB against the mean), in every episode the first and last quarter-seconds of the mix are within 0.5 dB of each other.
 - **Account warning:** ElevenLabs reported for one take: "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN … Please upgrade to a paid subscription to continue." This environment reaches ElevenLabs through a proxy. Episodes 1 and 4 may need a paid plan, or generation from the ElevenLabs site.
-- **Credits:** 755 + 733 + 823 + 803 = 3,114 credits for the four takes used. A second Episode 5 take, priced at 803 credits, failed with the account warning above; whether it was charged is not reported.
+- **Credits:** 755 + 733 + 823 + 803 = 3,114 credits for the first four takes used; Episode 4 used 2 × 778 and Episode 1 632 (its failed second take was priced at 632; whether it was charged is not reported). A second Episode 5 take, priced at 803 credits, failed with the account warning above; whether it was charged is not reported.
 - **No listening pass** was possible in this runtime. The split, levels and margins are measured, not auditioned. **No user approval.**
 
 ## Reproduce
@@ -64,4 +65,4 @@ Per-line placement, tempo, lifts, margins, presence, loop-seam levels and hashes
 python3 scripts/revoice_eleven.py ep02 ep03 ep04 ep05 ep06
 ```
 
-Episode 4 was generated after the user reconnected ElevenLabs (2 takes, 778 credits each). Take 2 is used: its line lengths and syllable counts fit the slots slightly better. Its l01, l02 and l06 run 0.29–0.36 s past the old line ends, which is within the captions' 0.35 s hold (l02 by 0.01 s more). Episode 1 runs once `public/assets/audio/eleven-takes/ep01-take1.mp3` exists, generated with the prompt in `prompts.json`.
+Episode 4 was generated after the user reconnected ElevenLabs (2 takes, 778 credits each). Take 2 is used: its line lengths and syllable counts fit the slots slightly better. Its l01, l02 and l06 run 0.29–0.36 s past the old line ends, which is within the captions' 0.35 s hold (l02 by 0.01 s more). Episode 1: `python3 scripts/revoice_eleven.py ep01` with `public/assets/audio/eleven-takes/ep01-take1.mp3`.

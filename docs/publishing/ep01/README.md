@@ -1,6 +1,6 @@
 # Episode 1 publishing kit: "Do Not Look at the Moon" (viral cut)
 
-**Upload this file:** `assets/videos/ep01-moon-v2/ep01-viral-cut.mp4` (49 s, 1080×1920; it loops seamlessly).
+**Upload this file:** `assets/videos/ep01-moon-v4/ep01-viral-cut-eerie-voice.mp4` (49 s, 1080×1920; it loops seamlessly). It has the horror score and the eerie ElevenLabs voice through a TV-broadcast chain. Earlier versions: `ep01-moon-v2/ep01-viral-cut.mp4` (robotic voice, quiet score) and `ep01-moon-v3/ep01-viral-cut-horror-score.mp4` (robotic voice).
 These are drafts to paste; nothing has been posted. No view counts are guaranteed. Use the numbers in YouTube Studio and TikTok analytics to decide what to repeat.
 
 ## What the cut is built for
