@@ -1,0 +1,122 @@
+{
+  "episode": "Ep06TheSoundThatMatchedUs",
+  "duration_seconds": 55.589,
+  "voice": "espeak-ng + MBROLA us2, rate 158, pitch 32, word gap 3 (\"Us.\" and the last line: rate 110, pitch 26); light band-limit, soft saturation, small room (archive narrator, not a TV speaker)",
+  "original_synthesis": [
+    "score (scripts/horror_score.py): A2/E3 mid-band drone; tremolo string clusters (A3-Bb3-E4, later +F4); a detuned music-box theme (A C B D# E . A G#) that returns slower and a quarter-tone flat; reversed swells into each scare; stingers on \"Us.\", the reveal and \"From the outside.\"; a heartbeat from 58 to 132 bpm; a riser into the knocks; bowed metal in the silence",
+    "boat: engine hum (on until ALL STOP, back on the surface), sonar pings, the rattling panel, the telegraph bell, three heavy knocks with hull resonance, condensation drips, the sea and wind at dawn",
+    "silence: after ALL STOP the engine and most music drop away; only the heartbeat and bowed metal remain until the knocks",
+    "loop: drone, strings and engine hum end at their frame-0 levels; continuous tones snapped to whole cycles"
+  ],
+  "library_cues": {
+    "steel_latch": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_steel_latch_v1.flac",
+      "sha256": "88fa8039b4d1955a73d35980c8cb95840ee799874ad090442035a59ab911182b"
+    },
+    "cable_tension": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_cable_tension_v1.flac",
+      "sha256": "b934def84c475853e000d9e81e51f74f353e872e32d3bc628f87bdcedd1dd72b"
+    },
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "heartbeat_breath": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_heartbeat_breath_v1.flac",
+      "sha256": "114a0072e80e4f0a0399865eb76b1fcd036665a61cd936638345d56f21a0fd42"
+    },
+    "restrained_boom": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_restrained_boom_v1.flac",
+      "sha256": "0f8ed588c6c31aa27d3634ef7b39acb5709831b959bc4366aaa2b9aa282b11fa"
+    }
+  },
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.4,
+  "encoded_sample_peak_dbfs": -1.33,
+  "limiter": "tanh soft limiter, ceiling -1.2 dBFS",
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "phone_band_voice_minus_all_db": 13.9,
+      "voice_minus_score_db": 10.0,
+      "voice_minus_all_other_stems_db": 9.3
+    },
+    {
+      "id": "l02",
+      "phone_band_voice_minus_all_db": 6.5,
+      "voice_minus_score_db": 5.8,
+      "voice_minus_all_other_stems_db": 5.5
+    },
+    {
+      "id": "l03",
+      "phone_band_voice_minus_all_db": 14.9,
+      "voice_minus_score_db": 10.6,
+      "voice_minus_all_other_stems_db": 10.1
+    },
+    {
+      "id": "l04",
+      "phone_band_voice_minus_all_db": 9.7,
+      "voice_minus_score_db": 6.6,
+      "voice_minus_all_other_stems_db": 6.1
+    },
+    {
+      "id": "l05",
+      "phone_band_voice_minus_all_db": 12.3,
+      "voice_minus_score_db": 7.1,
+      "voice_minus_all_other_stems_db": 6.7
+    },
+    {
+      "id": "l06",
+      "phone_band_voice_minus_all_db": 8.1,
+      "voice_minus_score_db": 5.7,
+      "voice_minus_all_other_stems_db": 4.2
+    },
+    {
+      "id": "l07",
+      "phone_band_voice_minus_all_db": 16.0,
+      "voice_minus_score_db": 10.0,
+      "voice_minus_all_other_stems_db": 7.7
+    },
+    {
+      "id": "l08",
+      "phone_band_voice_minus_all_db": 16.9,
+      "voice_minus_score_db": 11.6,
+      "voice_minus_all_other_stems_db": 11.0
+    },
+    {
+      "id": "l09",
+      "phone_band_voice_minus_all_db": 9.3,
+      "voice_minus_score_db": 4.6,
+      "voice_minus_all_other_stems_db": 4.6
+    },
+    {
+      "id": "l10",
+      "phone_band_voice_minus_all_db": 10.6,
+      "voice_minus_score_db": 4.3,
+      "voice_minus_all_other_stems_db": 4.1
+    },
+    {
+      "id": "l11",
+      "phone_band_voice_minus_all_db": 7.5,
+      "voice_minus_score_db": 6.9,
+      "voice_minus_all_other_stems_db": 6.4
+    },
+    {
+      "id": "l12",
+      "phone_band_voice_minus_all_db": 13.6,
+      "voice_minus_score_db": 10.0,
+      "voice_minus_all_other_stems_db": 9.5
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -10.9,
+    "music_minus_voice_in_gaps_db": -5.2,
+    "music_share_of_gaps_seconds": 14.3
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

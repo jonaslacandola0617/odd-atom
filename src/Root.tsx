@@ -24,10 +24,12 @@ import {Episode02,ep02Config} from './horror/ep02/Episode02';
 import {Episode03,ep03Config} from './horror/ep03/Episode03';
 import {Episode04,ep04Config} from './horror/ep04/Episode04';
 import {Episode05,ep05Config} from './horror/ep05/Episode05';
+import {Episode06,ep06Config} from './horror/ep06/Episode06';
 import {OddAtomJupiterV3,oddAtomJupiterV3Config} from './OddAtomJupiterV3';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="Ep06TheSoundThatMatchedUs" component={Episode06} defaultProps={{includeAudio:true,captions:true}} {...ep06Config}/>
     <Composition id="Ep05NineHikersOneCutTent" component={Episode05} defaultProps={{includeAudio:true,captions:true}} {...ep05Config}/>
     <Composition id="Ep04RulesForTheNightShift" component={Episode04} defaultProps={{includeAudio:true,captions:true}} {...ep04Config}/>
     <Composition id="Ep03FootprintsInTheSnow" component={Episode03} defaultProps={{includeAudio:true,captions:true}} {...ep03Config}/>

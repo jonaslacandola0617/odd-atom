@@ -1,0 +1,104 @@
+{
+  "fps": 30,
+  "duration_seconds": 55.589,
+  "duration_frames": 1668,
+  "voice": "espeak-ng + MBROLA us2, rate 158, pitch 32, word gap 3 (\"Us.\" and the last line: rate 110, pitch 26)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Three hundred metres down, something behind you sounds exactly like you.",
+      "start": 0.3,
+      "end": 5.304,
+      "kind": "rules",
+      "beat_before": "hook: the waterfall display, a second trace astern"
+    },
+    {
+      "id": "l02",
+      "text": "Day nine. I am on sonar. A contact. Directly behind us.",
+      "start": 6.004,
+      "end": 11.117,
+      "kind": "rules",
+      "beat_before": "the submarine in black water; the red sonar room"
+    },
+    {
+      "id": "l03",
+      "text": "No match. So I compare it to the only thing left.",
+      "start": 11.617,
+      "end": 15.475,
+      "kind": "rules",
+      "beat_before": "headphones; the library search"
+    },
+    {
+      "id": "l04",
+      "text": "Us.",
+      "start": 15.975,
+      "end": 17.064,
+      "kind": "slow",
+      "beat_before": "the two signatures, side by side"
+    },
+    {
+      "id": "l05",
+      "text": "Same propeller. Same rattle from the loose panel we never fixed.",
+      "start": 17.964,
+      "end": 22.436,
+      "kind": "rules",
+      "beat_before": "the signatures match; the panel rattles"
+    },
+    {
+      "id": "l06",
+      "text": "The captain orders all stop.",
+      "start": 23.236,
+      "end": 25.385,
+      "kind": "rules",
+      "beat_before": "the telegraph to ALL STOP; the crew frozen"
+    },
+    {
+      "id": "l07",
+      "text": "The contact stops too.",
+      "start": 26.085,
+      "end": 28.164,
+      "kind": "rules",
+      "beat_before": "the trace on the display stops"
+    },
+    {
+      "id": "l08",
+      "text": "Then, through the hull, we all hear it.",
+      "start": 29.264,
+      "end": 32.104,
+      "kind": "rules",
+      "beat_before": "condensation; everyone looks up"
+    },
+    {
+      "id": "l09",
+      "text": "Three slow knocks. The way our cook knocks on the galley hatch.",
+      "start": 34.704,
+      "end": 38.956,
+      "kind": "rules",
+      "beat_before": "knock, knock, knock"
+    },
+    {
+      "id": "l10",
+      "text": "Our cook is standing right next to me.",
+      "start": 41.056,
+      "end": 43.837,
+      "kind": "rules",
+      "beat_before": "the operator turns: the cook, right there"
+    },
+    {
+      "id": "l11",
+      "text": "When we surface, nothing is behind us. Only a long scrape down the stern.",
+      "start": 45.337,
+      "end": 50.856,
+      "kind": "rules",
+      "beat_before": "dawn; walking aft along the hull"
+    },
+    {
+      "id": "l12",
+      "text": "From the outside.",
+      "start": 51.456,
+      "end": 53.589,
+      "kind": "slow",
+      "beat_before": "the end of the scrape"
+    }
+  ]
+}

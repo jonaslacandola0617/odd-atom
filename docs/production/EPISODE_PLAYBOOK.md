@@ -13,6 +13,10 @@ How Episode 1 was made. New episodes should match its quality. The reference imp
   - a seamless loop (the last frame flows into frame 0);
   - 3–4 hidden rewatch details;
   - one open question for the pinned comment.
+- **Horror score (from Episode 6; the user said the earlier episodes had no audible eerie music):**
+  - Build the score with `scripts/horror_score.py`, in the band phones play: a mid drone, tremolo strings, a detuned music-box theme, reversed swells, stingers, a heartbeat, a riser and bowed metal. Sub-bass alone is inaudible on phones.
+  - Measure the music with `presence()`. Aim for about −8 to −12 dB against the voice during speech and −3 to −6 dB in the gaps. Duck about 7 dB under speech.
+  - Put stingers in silence, never on a word. Open the voice timeline around big reveals. Add jolts, tape tears, point-of-view reveals and subliminal frames.
 - **Sound sells it:** an original score (drone, dissonant pad, a motif that returns detuned), purposeful foley, and environmental storytelling in sound (the crickets that stop). Use Curio library cues where they fit, with provenance and FLAC stems committed.
 - **Complete captions:** pager logic as in `Episode01Viral.tsx` (rows of at most 26 characters, at most 3 rows per page, timed proportionally). White with a full 8-direction dark edge, above the Shorts interface zone.
 

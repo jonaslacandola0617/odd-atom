@@ -1,5 +1,21 @@
 # Video delivery
 
+- **Horror standard, from the user's note on 2026-11-10:** "there's no eerie or creepy background music … Make the videos more scary and horror and creepy."
+  - **Why:** measured in the phone band (200 Hz–4 kHz), the scores of Episodes 1–5 sat 17–28 dB under the voice. Their drones were sub-bass, which phones don't reproduce.
+  - **Score rule for every new episode:** build the score with `scripts/horror_score.py`, voiced in about 110 Hz–5 kHz:
+    - a mid-band drone, tremolo string clusters and a detuned music-box theme;
+    - reversed swells, stingers, a heartbeat, a riser and bowed metal.
+  - **Presence check:** report `presence()`. Aim for about −8 to −12 dB against the voice during speech and about −3 to −6 dB in the gaps. Duck about 7 dB under speech, and keep every line at least 4 dB above everything else.
+  - **Scares:** put each stinger in silence (just after or before a line, never on a word). Use silence deliberately before big moments. Add camera jolts and tape tears on scares, a point-of-view reveal where it fits, subliminal frames and red/dark grading.
+
+- **Episode 6 "The Sound That Matched Us" (2026-11-10):** the first episode to the new standard. It is the original story #10, next in the season order. `Ep06TheSoundThatMatchedUs` / `src/horror/ep06/` is 55.6 s.
+  - **Story and picture:** a sonar waterfall hook; a match with own ship; ALL STOP silence; three knocks; a point-of-view reveal of the cook beside the operator.
+  - **Loop and details:** the loop runs on a loop-continuous waterfall. There are five hidden details, including the cook already present in the wide before the reveal and a two-frame figure in the galley hatchway.
+  - **Sound:** the fiction voice (us2). Music presence is −10.9 dB during speech and −5.2 dB in the gaps.
+  - **Delivery:** `assets/videos/ep06-sonar-v1/`. Notes are in `docs/production/ep06-sonar/README.md`; the publishing kit is `docs/publishing/ep06/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** #2 "This Is the Voice of Vrillon" (true).
+
 - **Episode 5 "Nine Hikers, One Cut Tent" (2026-11-10):** the user asked for the "next ep". It is the true story #4: the Dyatlov Pass incident, 1959, with nine real victims. `Ep05NineHikersOneCutTent` / `src/horror/ep05/` is 57.5 s, built on one scaled slope with the tent, nine trails of prints, the cedar, the ravine and the slab.
   - **Viral standard:**
     - a second-person hook from inside the tent, with a blade through the canvas;
