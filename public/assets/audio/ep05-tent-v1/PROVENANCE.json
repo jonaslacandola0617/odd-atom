@@ -1,0 +1,95 @@
+{
+  "episode": "Ep05NineHikersOneCutTent",
+  "duration_seconds": 57.504,
+  "voice": "espeak-ng + MBROLA us1, rate 150, pitch 28, word gap 3; light band-limit, soft saturation, small room (archive narrator, not a TV speaker)",
+  "original_synthesis": [
+    "ambience: mountain wind with gusts on the open slope; canvas flapping and wind on the tent from inside; a quieter forest; a thawing stream in the ravine; a room for the file",
+    "foley: the blade tearing the canvas, timed to the cut on one continuous timebase so the loop seam is mid-tear; torches; a branch creak at the cedar; the crack and rumble of the slab",
+    "score: A1/E2 beating drone; an A-C-Eb pad; a slow descending motif on a glassy bowed tone that returns slower and a quarter-tone flat over the last line",
+    "loop: wind, canvas, drone and pad end at their frame-0 levels; continuous tones snapped to whole cycles",
+    "nothing of the deaths is depicted in sound"
+  ],
+  "library_cues": {
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    },
+    "typewriter_cluster": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/archive/CB_ARCHIVE_typewriter_cluster_v1.flac",
+      "sha256": "6fb3e317a250f41e5c2fc67eba94e76e8b20a1621e2764308adae9c04ebae860"
+    },
+    "document_stamp": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/archive/CB_ARCHIVE_document_stamp_v1.flac",
+      "sha256": "b216e05aa2d93241f43d9ccab1719428f88b223dc09dadd75ddbb8299246ad76"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "restrained_boom": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_restrained_boom_v1.flac",
+      "sha256": "0f8ed588c6c31aa27d3634ef7b39acb5709831b959bc4366aaa2b9aa282b11fa"
+    },
+    "suspense_riser": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_suspense_riser_v1.flac",
+      "sha256": "36f58ac6922190c293303434a089bc81b5d0823542595e4d6e8015de1cd203ba"
+    }
+  },
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -2.48,
+  "limiter": "tanh soft limiter, ceiling -1.2 dBFS",
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_score_db": 14.2,
+      "voice_minus_all_other_stems_db": 12.4
+    },
+    {
+      "id": "l02",
+      "voice_minus_score_db": 9.9,
+      "voice_minus_all_other_stems_db": 9.8
+    },
+    {
+      "id": "l03",
+      "voice_minus_score_db": 9.2,
+      "voice_minus_all_other_stems_db": 9.0
+    },
+    {
+      "id": "l04",
+      "voice_minus_score_db": 9.0,
+      "voice_minus_all_other_stems_db": 8.8
+    },
+    {
+      "id": "l05",
+      "voice_minus_score_db": 9.4,
+      "voice_minus_all_other_stems_db": 9.1
+    },
+    {
+      "id": "l06",
+      "voice_minus_score_db": 12.3,
+      "voice_minus_all_other_stems_db": 12.2
+    },
+    {
+      "id": "l07",
+      "voice_minus_score_db": 10.6,
+      "voice_minus_all_other_stems_db": 9.0
+    },
+    {
+      "id": "l08",
+      "voice_minus_score_db": 6.9,
+      "voice_minus_all_other_stems_db": 5.9
+    },
+    {
+      "id": "l09",
+      "voice_minus_score_db": 11.8,
+      "voice_minus_all_other_stems_db": 11.4
+    },
+    {
+      "id": "l10",
+      "voice_minus_score_db": 10.6,
+      "voice_minus_all_other_stems_db": 10.6
+    }
+  ],
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

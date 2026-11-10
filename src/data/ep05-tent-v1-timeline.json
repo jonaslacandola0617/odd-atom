@@ -1,0 +1,78 @@
+{
+  "fps": 30,
+  "duration_seconds": 57.504,
+  "duration_frames": 1725,
+  "voice": "espeak-ng + MBROLA us1, rate 150, pitch 28, word gap 3",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Imagine cutting your own tent open, and running into the snow in your socks.",
+      "start": 0.3,
+      "end": 5.586,
+      "beat_before": "hook: inside the tent, a blade through the canvas, frame 0"
+    },
+    {
+      "id": "l02",
+      "text": "February, nineteen fifty nine. Nine experienced hikers camp on a slope in the northern Urals.",
+      "start": 6.186,
+      "end": 13.32,
+      "beat_before": "the slope at dusk, nine torches, the tent"
+    },
+    {
+      "id": "l03",
+      "text": "Weeks later, searchers find the tent. Cut open, from the inside.",
+      "start": 13.92,
+      "end": 19.193,
+      "beat_before": "the tent half buried, slashed canvas"
+    },
+    {
+      "id": "l04",
+      "text": "Footprints lead down the slope. Socks. Bare feet.",
+      "start": 19.693,
+      "end": 24.202,
+      "beat_before": "prints going downhill, toward the trees"
+    },
+    {
+      "id": "l05",
+      "text": "Some are found by a small fire, under a cedar tree.",
+      "start": 25.102,
+      "end": 29.033,
+      "beat_before": "the cedar, the dead fire, branches broken high up"
+    },
+    {
+      "id": "l06",
+      "text": "Others lie in a ravine. They are not found until May.",
+      "start": 29.533,
+      "end": 33.464,
+      "beat_before": "the ravine, thawing"
+    },
+    {
+      "id": "l07",
+      "text": "The file closes with three words: a compelling natural force.",
+      "start": 34.264,
+      "end": 38.734,
+      "beat_before": "the case file"
+    },
+    {
+      "id": "l08",
+      "text": "In twenty twenty one, scientists showed how a delayed slab avalanche could explain the tent.",
+      "start": 39.334,
+      "end": 45.968,
+      "beat_before": "a slab breaks above the tent"
+    },
+    {
+      "id": "l09",
+      "text": "Not everyone is convinced.",
+      "start": 46.468,
+      "end": 48.538,
+      "beat_before": "the tent alone in the wind"
+    },
+    {
+      "id": "l10",
+      "text": "Whatever happened that night, nine people decided the frozen dark was safer than their tent.",
+      "start": 49.438,
+      "end": 55.504,
+      "beat_before": "back inside the tent"
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 # Video delivery
 
+- **Episode 5 "Nine Hikers, One Cut Tent" (2026-11-10):** the user asked for the "next ep". It is the true story #4: the Dyatlov Pass incident, 1959, with nine real victims. `Ep05NineHikersOneCutTent` / `src/horror/ep05/` is 57.5 s, built on one scaled slope with the tent, nine trails of prints, the cedar, the ravine and the slab.
+  - **Viral standard:**
+    - a second-person hook from inside the tent, with a blade through the canvas;
+    - a loop whose last 1.6 s replay the hook mid-cut, with one continuous tear sound across the seam;
+    - four hidden details: the boots left inside, nine lines of prints, branches broken high on the cedar, and a faint light in the sky (dramatisation);
+    - an open question.
+  - **Victim care:** no deaths, bodies or injuries are shown or described, and no one is accused. The narrator is the us1 true-case voice.
+  - **Delivery:** `assets/videos/ep05-tent-v1/`. Notes, shot list, fact-check limits and margins are in `docs/production/ep05-tent/README.md`; the publishing kit is `docs/publishing/ep05/README.md`.
+  - **Before posting:** re-check the cedar fire, the May ravine discovery and the "compelling natural force" wording in a full source.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** #10 "The Sound That Matched Us" (original).
+
 - **Episode 4 "Rules for the Night Shift" (2026-11-10):** the user asked for the "next ep". It is the original story #7, the next in the season order (8 → 1 → 6 → 7 → 4). `Ep04RulesForTheNightShift` / `src/horror/ep04/` is 55.8 s, set at a mountain weather station where the picture tests each rule.
   - **Viral standard:**
     - a second-person hook on the rule sheet;
