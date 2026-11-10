@@ -70,7 +70,7 @@ The broadcast voice gives the instructions. The picture shows what happens to on
 
 The user asked to build the episode as viral content. This is a separate composition, `Ep01ViralCut` (`src/horror/ep01/Episode01Viral.tsx`), on the same world; v1 is unchanged.
 
-**Delivery:** `assets/videos/ep01-moon-v2/ep01-viral-cut.mp4`: 1080×1920, 30 fps, 1,473 frames, 49.1 s, sha256 `d24b361ee87377542a6f2dc3cc2c4712f777f6822e9ea934a2303022536a61fe`. Poster: `ep01-viral-cut-poster.png` (Mark behind her). Publishing drafts are in `docs/publishing/ep01/README.md`. It has no user approval yet.
+**Delivery:** `assets/videos/ep01-moon-v2/ep01-viral-cut.mp4`: 1080×1920, 30 fps, 1,473 frames, 49.1 s, sha256 `1bcf80886d1df7ea0d113b28f0ed8398a7e46b1d2ea7dd70ea657b2a0420ab6c`. Poster: `ep01-viral-cut-poster.png` (Mark behind her). Publishing drafts are in `docs/publishing/ep01/README.md`. It has no user approval yet.
 
 - **Hook:** the attention tone and the "DO NOT LOOK AT THE MOON" card on frame 0. The first spoken line addresses the viewer: "If you are seeing this, close your curtains. Now."
 - **Length:** 49 s instead of 81. Nine tighter lines (`scripts/ep01v2_voice.py`). The street establishing shot and the neighbour were cut; every story beat is kept.
@@ -78,3 +78,9 @@ The user asked to build the episode as viral content. This is a separate composi
 - **Hidden rewatch details:** a stranger under the street lamp already staring east with his head tilted; a figure inside Mark's white photo; the clock jumping from 10:39 to 10:42 (lost time), then back to 10:39 at the loop; the curtain shadow tilting its head like Mark.
 - **Sound** (`scripts/ep01v2_sound.py`): the same synthesis tools as v1, re-mapped to the new cut. Loudness-targeted to −14.0 LUFS with a soft limiter (peak −1.9 dBFS). The voice sits 6–12 dB above the score on every line. No listening pass.
 - **Known limits:** the hand turning the phone over is a crude block for about half a second. The rooftop reveal is mostly a hold.
+
+## Caption fix (2026-11-10)
+
+The user asked to make sure the captions are complete. The overlay used to keep only the **last three wrapped rows** of a line, so the opening words of long lines were dropped: one line in the viral cut (`l04`) and four in v1 (`l04`, `l05`, `l06`, `l10`). Long lines are now split into balanced pages of at most three rows, each timed across the spoken line in proportion to its characters. The two "outside" lines also changed from pale green to white with a full eight-direction dark edge, because the final line washed out on the glowing curtains.
+
+Verification: one frame per caption page was extracted from the **encoded** viral cut, at each page's midpoint, and checked word for word against the script. All 10 pages are complete. The check script is session-local: it extracts frames at page midpoints and tiles them.

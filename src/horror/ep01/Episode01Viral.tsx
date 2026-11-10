@@ -327,17 +327,32 @@ const Overlay: React.FC<{t: number; damage: number; captions: boolean}> = ({t, d
 				} else cur += ' ' + w;
 			}
 			rows.push(cur.trim());
-			const show = rows.slice(-3);
+			// Every word is shown: long lines become balanced pages of at most 3 rows,
+			// each page timed across the spoken line in proportion to its characters.
+			const nPages = Math.ceil(rows.length / 3);
+			const per = Math.ceil(rows.length / nPages);
+			const pages: string[][] = [];
+			for (let i = 0; i < rows.length; i += per) pages.push(rows.slice(i, i + per));
+			const total = pages.reduce((n, pg) => n + pg.join(' ').length, 0);
+			let acc = 0;
+			let show = pages[pages.length - 1];
+			for (const pg of pages) {
+				const pageEnd = line.start + ((acc + pg.join(' ').length) / total) * (line.end - line.start);
+				acc += pg.join(' ').length;
+				if (t < pageEnd) {
+					show = pg;
+					break;
+				}
+			}
 			g.font = 'bold 15px "DejaVu Sans Mono", monospace';
 			g.textAlign = 'center';
-			const outside = line.id === 'l08' || line.id === 'l09';
-			show.forEach((r, i) => {
+						show.forEach((r, i) => {
 				const y = 470 + i * 19 - (show.length - 1) * 19;
-				for (const [dx, dy] of [[-1, 0], [1, 0], [0, -1], [0, 1], [1, 1]]) {
+				for (const [dx, dy] of [[-1, 0], [1, 0], [0, -1], [0, 1], [-1, -1], [1, -1], [-1, 1], [1, 1], [2, 2]]) {
 					g.fillStyle = '#000';
 					g.fillText(r, W / 2 + dx, y + dy);
 				}
-				g.fillStyle = outside ? '#cfe6cc' : '#ffffff';
+				g.fillStyle = '#ffffff';
 				g.fillText(r, W / 2, y);
 			});
 			const img = g.getImageData(0, 0, W, H);
