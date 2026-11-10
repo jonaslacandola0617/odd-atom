@@ -130,7 +130,12 @@ python3 scripts/caption_check.py src/data/ep08-room-v1-timeline.json assets/vide
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 46.1 MB; sha256 `53d5ae6217f4cd3236f6ee121ea8eaddb473de8c838261b55484be4a4495f8dd`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,735 frames at 30 fps (57.83 s), with audio.
+- **Loudness:** −14.1 LUFS measured on the encoded file; decoded sample peak −1.87 dBFS.
+- **Loop:** the last frame differs from frame 0 by 1.4/255 in mean absolute luma, within the hook's own frame-to-frame motion (0.4–1.3).
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. The evening exterior is dark (the lit windows carry it).
+- **Captions:** `scripts/caption_check.py` extracted all 17 caption pages from the encoded file. Each was read against the script word for word: all are complete. The page over the white clipboard is the lowest-contrast, held by its dark edge.
 
 ## Known limits
 
