@@ -1,0 +1,110 @@
+{
+  "episode": "Ep04RulesForTheNightShift",
+  "duration_seconds": 55.758,
+  "voice": "espeak-ng + MBROLA us2, rate 160, pitch 40, word gap 3 (door line: rate 132, pitch 34; last line: rate 118, pitch 30); light band-limit, soft saturation, small room (archive narrator, not a TV speaker)",
+  "original_synthesis": [
+    "voice treatment: us2 rules as a recorded orientation tape (band-limit, light saturation, small room); the door line through a steel door (low-pass, outdoor wind); the last line close and dry",
+    "structure: a two-note announcement chime before each numbered rule; before rule seven it is detuned a quarter-tone",
+    "ambience: blizzard wind with gusts outside and muffled inside; dead calm in the anemometer shot (only the cups squeak); fluorescent hum until the lights go off; CRT whine; heater ticks",
+    "foley: pen on paper, electromechanical phone bell, light switch, heavy knocks on a steel door, footsteps on linoleum, cable-car hum",
+    "score: B0/F#1 beating drone, a high sine cluster that thickens through the night, silence under the knocks",
+    "loop: wind, drone and room tone end at their frame-0 levels; continuous tones snapped to whole cycles"
+  ],
+  "library_cues": {
+    "telemetry_ping": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/science/CB_SCIENCE_telemetry_ping_v1.flac",
+      "sha256": "a93d755094ece0ca9452e4249c129297ae0b80c90fa8d0940627ed485cc48c65"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "steel_latch": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_steel_latch_v1.flac",
+      "sha256": "88fa8039b4d1955a73d35980c8cb95840ee799874ad090442035a59ab911182b"
+    },
+    "heartbeat_breath": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_heartbeat_breath_v1.flac",
+      "sha256": "114a0072e80e4f0a0399865eb76b1fcd036665a61cd936638345d56f21a0fd42"
+    },
+    "suspense_riser": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_suspense_riser_v1.flac",
+      "sha256": "36f58ac6922190c293303434a089bc81b5d0823542595e4d6e8015de1cd203ba"
+    },
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    },
+    "gear_ratchet": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_gear_ratchet_v1.flac",
+      "sha256": "7db1bc06130fb64208641df464e7decf64d44d4fd61756f50eaeb92b06f3c20f"
+    }
+  },
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.45,
+  "limiter": "tanh soft limiter, ceiling -1.2 dBFS",
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_score_db": 12.7,
+      "voice_minus_all_other_stems_db": 12.6
+    },
+    {
+      "id": "l02",
+      "voice_minus_score_db": 9.3,
+      "voice_minus_all_other_stems_db": 8.0
+    },
+    {
+      "id": "l03",
+      "voice_minus_score_db": 7.6,
+      "voice_minus_all_other_stems_db": 7.2
+    },
+    {
+      "id": "l04",
+      "voice_minus_score_db": 7.3,
+      "voice_minus_all_other_stems_db": 5.7
+    },
+    {
+      "id": "l05",
+      "voice_minus_score_db": 8.1,
+      "voice_minus_all_other_stems_db": 8.1
+    },
+    {
+      "id": "l06",
+      "voice_minus_score_db": 9.2,
+      "voice_minus_all_other_stems_db": 5.8
+    },
+    {
+      "id": "l07",
+      "voice_minus_score_db": 9.6,
+      "voice_minus_all_other_stems_db": 7.4
+    },
+    {
+      "id": "door",
+      "voice_minus_score_db": 8.0,
+      "voice_minus_all_other_stems_db": 8.0
+    },
+    {
+      "id": "l08",
+      "voice_minus_score_db": 6.8,
+      "voice_minus_all_other_stems_db": 6.7
+    },
+    {
+      "id": "l09",
+      "voice_minus_score_db": 11.2,
+      "voice_minus_all_other_stems_db": 10.5
+    },
+    {
+      "id": "l10",
+      "voice_minus_score_db": 5.1,
+      "voice_minus_all_other_stems_db": 5.0
+    },
+    {
+      "id": "l11",
+      "voice_minus_score_db": 5.6,
+      "voice_minus_all_other_stems_db": 5.5
+    }
+  ],
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

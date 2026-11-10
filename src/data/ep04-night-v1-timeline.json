@@ -1,0 +1,104 @@
+{
+  "fps": 30,
+  "duration_seconds": 55.758,
+  "duration_frames": 1673,
+  "voice": "espeak-ng + MBROLA us2, rate 160, pitch 40, word gap 3 (door line: rate 132, pitch 34; last line: rate 118, pitch 30)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "You are alone up here until morning. Follow these rules.",
+      "start": 0.35,
+      "end": 3.991,
+      "kind": "rules",
+      "beat_before": "hook: the rule sheet by the monitor, snow on the window"
+    },
+    {
+      "id": "l02",
+      "text": "One. Record the temperature every hour.",
+      "start": 4.591,
+      "end": 7.432,
+      "kind": "rules",
+      "beat_before": "the cable car leaves; the station alone on the ridge"
+    },
+    {
+      "id": "l03",
+      "text": "Two. The wind sensor reports wind on calm nights. Do not go up to check.",
+      "start": 7.932,
+      "end": 13.671,
+      "kind": "rules",
+      "beat_before": "pen on the log; the cups spinning on a still night"
+    },
+    {
+      "id": "l04",
+      "text": "Three. If the phone rings, let it ring. There is no phone line.",
+      "start": 14.471,
+      "end": 19.399,
+      "kind": "rules",
+      "beat_before": "the phone, its cord cut, rings"
+    },
+    {
+      "id": "l05",
+      "text": "Four. If you see footprints to the door, turn off every light.",
+      "start": 20.399,
+      "end": 25.036,
+      "kind": "rules",
+      "beat_before": "through the east window: smooth snow, then prints"
+    },
+    {
+      "id": "l06",
+      "text": "Five. Knocking is fine.",
+      "start": 26.436,
+      "end": 28.516,
+      "kind": "rules",
+      "beat_before": "dark room; knocking"
+    },
+    {
+      "id": "l07",
+      "text": "Six. At four a.m., someone will say they are the morning shift.",
+      "start": 29.416,
+      "end": 33.761,
+      "kind": "rules",
+      "beat_before": "the clock: 04:00; knocking"
+    },
+    {
+      "id": "door",
+      "text": "\"Morning shift. Open the door.\"",
+      "start": 34.361,
+      "end": 37.445,
+      "kind": "door",
+      "beat_before": "the same voice, outside the door"
+    },
+    {
+      "id": "l08",
+      "text": "The morning shift arrives at seven. Do not open.",
+      "start": 37.945,
+      "end": 41.451,
+      "kind": "rules",
+      "beat_before": "the peephole: only snow"
+    },
+    {
+      "id": "l09",
+      "text": "Especially if you recognise the voice.",
+      "start": 41.851,
+      "end": 44.256,
+      "kind": "rules",
+      "beat_before": "the hand off the bolt"
+    },
+    {
+      "id": "l10",
+      "text": "Seven. If you do not remember writing tonight's log, you did not write it.",
+      "start": 45.356,
+      "end": 50.386,
+      "kind": "rules",
+      "beat_before": "the log, every row filled"
+    },
+    {
+      "id": "l11",
+      "text": "Do not turn around.",
+      "start": 51.386,
+      "end": 53.758,
+      "kind": "rules",
+      "beat_before": "behind the worker: the dark"
+    }
+  ]
+}

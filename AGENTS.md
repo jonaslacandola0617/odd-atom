@@ -1,5 +1,16 @@
 # Video delivery
 
+- **Episode 4 "Rules for the Night Shift" (2026-11-10):** the user asked for the "next ep". It is the original story #7, the next in the season order (8 → 1 → 6 → 7 → 4). `Ep04RulesForTheNightShift` / `src/horror/ep04/` is 55.8 s, set at a mountain weather station where the picture tests each rule.
+  - **Viral standard:**
+    - a second-person hook on the rule sheet;
+    - a loop whose last 1.45 s replay the hook's push-in;
+    - four hidden details: rule 7 on the sheet from frame 0, a log row reading +37.0, a figure in the dark monitor for four frames, and the clock reading 03:59 in the last shot;
+    - an open question: who wrote the log?
+  - **Voice:** fiction uses MBROLA **us2** (Episode 1's voice); true cases use us1. The voice outside the door at 4 a.m. is the same us2 voice, muffled.
+  - **Delivery:** `assets/videos/ep04-night-v1/`. Notes, shot list and margins are in `docs/production/ep04-night/README.md`; the publishing kit is `docs/publishing/ep04/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** #4 "Nine Hikers, One Cut Tent" (true: Dyatlov Pass), which needs the same victim care as Episode 3.
+
 - **Episode 3 "Footprints in the Snow" (2026-11-10):** the user asked for the "next ep". It is story #6 in the season release order (8 → 1 → 6 → 7): the Hinterkaifeck case, Bavaria 1922, which has six real victims including children. `Ep03FootprintsInTheSnow` / `src/horror/ep03/` is 58.4 s to the viral standard:
   - a second-person hook over the tracks to the lit door;
   - a loop whose last 1.8 s replay the hook's own camera move on negative time, with the snowfall and a crunching-step cadence continuous;
