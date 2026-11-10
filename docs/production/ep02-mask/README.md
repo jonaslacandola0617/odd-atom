@@ -1,6 +1,6 @@
 # Episode 2: "The Mask on Channel 11" (v1)
 
-**Delivery:** `assets/videos/ep02-mask-v1/ep02-the-mask-on-channel-11.mp4` (1080×1920, 30 fps, 1,762 frames, 58.7 s, H.264 CRF 22 tuned for grain, AAC) with its poster `ep02-the-mask-on-channel-11-poster.png` (the mask on the CRT, second intrusion). Encoded-file figures and the sha256 are in the review section below. It has **no user approval** yet.
+**Delivery:** `assets/videos/ep02-mask-v1/ep02-the-mask-on-channel-11.mp4` (1080×1920, 30 fps, 1,762 frames, 58.75 s container, H.264 two-pass 6.2 Mbit/s tuned for grain, AAC 192k; 46.3 MB; sha256 `3989ebd2159c804619288f5358d82dc1260480dbcfd856967d8b9c64f0e032d1`) with its poster `ep02-the-mask-on-channel-11-poster.png` (the mask holding up the can, frame 990). It has **no user approval** yet.
 
 **Source:** `Ep02MaskOnChannel11` in `src/horror/ep02/` (`world.tsx` holds the sets; `Episode02.tsx` holds the shot list, the TV feeds, lighting cues, captions and the tape layer). The people reuse `Human` from `src/horror/ep01/world.tsx`. The story is the true script #1 in `docs/stories/season-1-shorts.md`, rewritten as 11 shorter present-tense lines for the viral standard.
 
@@ -108,6 +108,14 @@ Rendering uses software WebGL (`gl: 'swangle'`, set in the script).
 2. The viewer and engineer were in place but lost in silhouette. A debug render with a red shirt and a top-down camera confirmed the viewer was seated correctly. The wide (C/Q) was reframed so his head sits beside the glowing screen. A cool back fill was added. The over-the-shoulder shot D became a push past the chair, because his head filled the frame at that distance. The master-control camera moved behind the engineer's shoulder.
 3. City shot B was raised so the tower reads against the sky, with larger beacons and a glow. The tower top (H) was lit. The blinds (P) hid the city behind a glow plane, and the camera saw wall above the window: the glow plane is now hidden for that shot, the slats are thinner, and the camera sits low and close, looking up at the beacon.
 4. The clock insert was widened and the listing raised so **11:00 · 11 · DR.WHO** reads in full. The flyswatter shot was pulled back so the whole screen is in frame.
+
+## Review of the encoded file
+
+- **Decode and frames:** the full MP4 decodes with `ffmpeg -f null` without errors; 1,762 video frames at 30 fps, with audio.
+- **Size:** the first encode at CRF 22 with `-tune grain` came out at **148 MB**, because the full-screen static and tape noise are expensive and that is over GitHub's 100 MB file limit. The delivery is a two-pass 6.2 Mbit/s encode of the same render (46.3 MB). The render script now does this.
+- **Loop:** frames 1758–1761 and 0–2 were tiled and inspected; the mask, framing and VCR display flow into frame 0 without a jump. The mean absolute luma difference between the last frame and frame 0 is 5.6/255, the same as between frames 0 and 4 of the opening (5.6), so the seam reads as normal motion plus tape noise.
+- **Contact sheet:** one frame every 2 s from the encoded file was inspected shot by shot.
+- **Captions:** `scripts/caption_check.py` extracted one frame per caption page (11 pages) from the encoded file. Every page was read against the script word for word: all are complete. Page 9 ("Investigators searched...") sits on a bright blind slat but keeps its dark edge.
 
 ## Known limits
 

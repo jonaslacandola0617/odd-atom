@@ -40,7 +40,11 @@ const pick = () => {
 		const dest = path.join(root, 'assets/videos/ep02-mask-v1');
 		fs.mkdirSync(dest, {recursive: true});
 		const normalize = 'scale=in_range=pc:out_range=tv:in_color_matrix=bt601:out_color_matrix=bt709,format=yuv420p';
-		execFileSync('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-i', tmp, '-vf', normalize, '-c:v', 'libx264', '-preset', 'slow', '-crf', '22', '-tune', 'grain', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv', '-c:a', 'copy', '-movflags', '+faststart', path.join(dest, 'ep02-the-mask-on-channel-11.mp4')], {stdio: 'inherit'});
+		// Two-pass 6.2 Mbit/s: the full-screen static and tape noise made CRF 22 come out at 148 MB
+		// (over GitHub's 100 MB file limit); two-pass lands around 46 MB.
+		const enc = ['-vf', normalize, '-c:v', 'libx264', '-preset', 'slow', '-b:v', '6200k', '-maxrate', '9000k', '-bufsize', '12000k', '-tune', 'grain', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv', '-passlogfile', path.join(outDir, 'p2')];
+		execFileSync('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-i', tmp, ...enc, '-pass', '1', '-an', '-f', 'mp4', '/dev/null'], {stdio: 'inherit'});
+		execFileSync('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-i', tmp, ...enc, '-pass', '2', '-c:a', 'copy', '-movflags', '+faststart', path.join(dest, 'ep02-the-mask-on-channel-11.mp4')], {stdio: 'inherit'});
 		await renderStill({serveUrl, composition, inputProps: {includeAudio: false, captions: false}, frame: 990, output: path.join(dest, 'ep02-the-mask-on-channel-11-poster.png'), puppeteerInstance: browser, logLevel: 'error'});
 		console.log('saved', dest);
 	} finally {
