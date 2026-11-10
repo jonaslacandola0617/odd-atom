@@ -1,6 +1,6 @@
 # Episode 1: "Do Not Look at the Moon" (test v1)
 
-**Delivery:** `assets/videos/ep01-moon-v1/ep01-do-not-look-at-the-moon.mp4` (1080×1920, 30 fps, 2,436 frames, 81.2 s, H.264 CRF 22 tuned for grain, AAC; sha256 `0181eb8fcc3105a252f57f76032b7b641340c14fb4f0bcc37cb0319698639dfd`) with its poster. It is the first test of the new channel format and has **no user approval** yet.
+**Delivery:** `assets/videos/ep01-moon-v1/ep01-do-not-look-at-the-moon.mp4` (1080×1920, 30 fps, 2,436 frames, 81.2 s, H.264 CRF 22 tuned for grain, AAC; sha256 `bc5cc022de5457a5d7e62d062cc6e3a0a6463af00a9c97fe22ce3f397cfabc45`) with its poster. It is the first test of the new channel format and has **no user approval** yet.
 
 **Source:** `Ep01DoNotLookAtTheMoon` in `src/horror/ep01/` (`world.tsx` holds the set, people and props; `Episode01.tsx` holds the shots, lighting cues, screens and overlay). The story is the original script #8 in `docs/stories/season-1-shorts.md`, cut into broadcast lines.
 
@@ -84,3 +84,5 @@ The user asked to build the episode as viral content. This is a separate composi
 The user asked to make sure the captions are complete. The overlay used to keep only the **last three wrapped rows** of a line, so the opening words of long lines were dropped: one line in the viral cut (`l04`) and four in v1 (`l04`, `l05`, `l06`, `l10`). Long lines are now split into balanced pages of at most three rows, each timed across the spoken line in proportion to its characters. The two "outside" lines also changed from pale green to white with a full eight-direction dark edge, because the final line washed out on the glowing curtains.
 
 Verification: one frame per caption page was extracted from the **encoded** viral cut, at each page's midpoint, and checked word for word against the script. All 10 pages are complete. The check script is session-local: it extracts frames at page midpoints and tiles them.
+
+v1 (81 s) was fully re-rendered with the same caption fix; the clock fix is now in the source, so no splice was needed. All 17 caption pages were checked in the encoded file and are complete.
