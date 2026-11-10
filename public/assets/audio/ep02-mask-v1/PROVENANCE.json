@@ -1,0 +1,117 @@
+{
+  "episode": "Ep02MaskOnChannel11",
+  "duration_seconds": 58.731,
+  "voice": "espeak-ng + MBROLA us1, rate 150, pitch 28, word gap 3; light band-limit, soft saturation, small room (archive narrator, not a TV speaker)",
+  "original_synthesis": [
+    "TV: intruder carrier buzz (59.94 Hz square harmonics + noise) on at frame 0 and again at the loop point; generic sports-anchor murmur (espeak-ng us2, invented words); sci-fi show wind/sea and theremin-like tone; static; flyback whine",
+    "intruder's sounds: espeak-ng formant moans/laughter warped by modulated varispeed, bit-crushed and band-limited; an ORIGINAL hummed melody (not the cartoon theme heard in 1987); a ring-pull hiss; three flyswatter thwacks heard through the TV",
+    "score: E1/B1 beating drone; E3-F3-B3 cluster pad joined by C4 after the intrusion; a six-note chime \"station ident\" motif, which returns slower and a quarter-tone flat",
+    "foley: apartment room tone, wall clock, city traffic and a far siren, fluorescent tube buzz, three backward footsteps",
+    "no audio from the real 1987 broadcasts is used",
+    "loop: drone/pad/hum/buzz end at their frame-0 levels; the static rolls into the frame-0 buzz"
+  ],
+  "library_cues": {
+    "cavern_lowwind": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/ambient/CB_AMBIENT_cavern_lowwind_v1.flac",
+      "sha256": "2eb330b216962740bfb984c0591266d684725808c9fe9478b46a5d3c89121df4"
+    },
+    "mission_control": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/ambient/CB_AMBIENT_mission_control_v1.flac",
+      "sha256": "1f8b80f5204b5c2b5778b99d45c48d63883586f5318b0c18ae5c4fb1fba69c42"
+    },
+    "steel_latch": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_steel_latch_v1.flac",
+      "sha256": "88fa8039b4d1955a73d35980c8cb95840ee799874ad090442035a59ab911182b"
+    },
+    "radio_noise_bed": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/ambient/CB_AMBIENT_radio_noise_bed_v1.flac",
+      "sha256": "91afa9e42cf7c7c9db6b659fb96d7e216d4c55f83e5ad1adddd130ca87b2d35a"
+    },
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    },
+    "heartbeat_breath": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_heartbeat_breath_v1.flac",
+      "sha256": "114a0072e80e4f0a0399865eb76b1fcd036665a61cd936638345d56f21a0fd42"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "suspense_riser": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_suspense_riser_v1.flac",
+      "sha256": "36f58ac6922190c293303434a089bc81b5d0823542595e4d6e8015de1cd203ba"
+    },
+    "restrained_boom": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_restrained_boom_v1.flac",
+      "sha256": "0f8ed588c6c31aa27d3634ef7b39acb5709831b959bc4366aaa2b9aa282b11fa"
+    },
+    "lost_signal": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/science/CB_SCIENCE_lost_signal_v1.flac",
+      "sha256": "f2d880e3f831814f233c6b8bad9ad2928ef1e5b9bf3e487cfe03358fe0b395d6"
+    }
+  },
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.52,
+  "limiter": "tanh soft limiter, ceiling -1.2 dBFS",
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_score_db": 12.8,
+      "voice_minus_all_other_stems_db": 10.8
+    },
+    {
+      "id": "l02",
+      "voice_minus_score_db": 8.5,
+      "voice_minus_all_other_stems_db": 8.2
+    },
+    {
+      "id": "l03",
+      "voice_minus_score_db": 6.7,
+      "voice_minus_all_other_stems_db": 5.9
+    },
+    {
+      "id": "l04",
+      "voice_minus_score_db": 8.4,
+      "voice_minus_all_other_stems_db": 7.0
+    },
+    {
+      "id": "l05",
+      "voice_minus_score_db": 8.3,
+      "voice_minus_all_other_stems_db": 5.3
+    },
+    {
+      "id": "l06",
+      "voice_minus_score_db": 5.7,
+      "voice_minus_all_other_stems_db": 3.2
+    },
+    {
+      "id": "l07",
+      "voice_minus_score_db": 9.6,
+      "voice_minus_all_other_stems_db": 6.4
+    },
+    {
+      "id": "l08",
+      "voice_minus_score_db": 11.5,
+      "voice_minus_all_other_stems_db": 9.9
+    },
+    {
+      "id": "l09",
+      "voice_minus_score_db": 12.4,
+      "voice_minus_all_other_stems_db": 8.5
+    },
+    {
+      "id": "l10",
+      "voice_minus_score_db": 10.3,
+      "voice_minus_all_other_stems_db": 8.7
+    },
+    {
+      "id": "l11",
+      "voice_minus_score_db": 10.5,
+      "voice_minus_all_other_stems_db": 9.0
+    }
+  ],
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

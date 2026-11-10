@@ -1,0 +1,85 @@
+{
+  "fps": 30,
+  "duration_seconds": 58.731,
+  "duration_frames": 1762,
+  "voice": "espeak-ng + MBROLA us1, rate 150, pitch 28, word gap 3",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "This face cut into your television. Twice.",
+      "start": 0.35,
+      "end": 3.896,
+      "beat_before": "hook: the mask on the CRT from frame 0"
+    },
+    {
+      "id": "l02",
+      "text": "Chicago, nineteen eighty seven. The Sunday night sports news.",
+      "start": 4.696,
+      "end": 9.421,
+      "beat_before": "skyline and tower beacon; living room, clock 9:14"
+    },
+    {
+      "id": "l03",
+      "text": "A man in a rubber mask. No voice. Just a buzz.",
+      "start": 11.621,
+      "end": 15.779,
+      "beat_before": "screen goes black; the mask appears"
+    },
+    {
+      "id": "l04",
+      "text": "Engineers switch the signal. Twenty five seconds, and he is gone.",
+      "start": 16.479,
+      "end": 21.603,
+      "beat_before": "viewer leans in; the anchor returns"
+    },
+    {
+      "id": "l05",
+      "text": "Two hours later, he comes back. On channel eleven.",
+      "start": 22.803,
+      "end": 26.817,
+      "beat_before": "the tower at night; clock 11:15; listings"
+    },
+    {
+      "id": "l06",
+      "text": "This time, he speaks.",
+      "start": 28.517,
+      "end": 30.643,
+      "beat_before": "sci-fi show; it goes black; the mask"
+    },
+    {
+      "id": "l07",
+      "text": "For ninety seconds, nobody can stop him.",
+      "start": 34.043,
+      "end": 37.542,
+      "beat_before": "warped laugh, the hum, the soda can; viewer stands"
+    },
+    {
+      "id": "l08",
+      "text": "The last thing anyone sees is a hand from off screen, with a flyswatter.",
+      "start": 38.242,
+      "end": 43.554,
+      "beat_before": "empty transmitter room; the swatting shadow"
+    },
+    {
+      "id": "l09",
+      "text": "Investigators searched. No one was ever charged.",
+      "start": 44.954,
+      "end": 48.545,
+      "beat_before": "static; the tower in the dark"
+    },
+    {
+      "id": "l10",
+      "text": "Nearly forty years later, no one knows who was under the mask.",
+      "start": 49.145,
+      "end": 53.511,
+      "beat_before": "the empty living room"
+    },
+    {
+      "id": "l11",
+      "text": "Or how easily he got into yours.",
+      "start": 54.011,
+      "end": 56.331,
+      "beat_before": "push into the static"
+    }
+  ]
+}
