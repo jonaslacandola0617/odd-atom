@@ -1,6 +1,6 @@
 # Episode 5: "Nine Hikers, One Cut Tent" (v1)
 
-**Delivery:** `assets/videos/ep05-tent-v1/ep05-nine-hikers-one-cut-tent.mp4` with its poster `ep05-nine-hikers-one-cut-tent-poster.png` (the blade through the canvas, frame 120). Encoded-file figures and the sha256 are in the review section below. It has **no user approval** yet.
+**Delivery:** `assets/videos/ep05-tent-v1/ep05-nine-hikers-one-cut-tent.mp4` (1080×1920, 30 fps, 1,725 frames, 57.52 s container, H.264 two-pass 6.2 Mbit/s tuned for grain, AAC 192k; 46.1 MB; sha256 `d32de210bf72257234ff0f6cca982cf40c810c4cc1d37643fbde6259de32b07c`) with its poster `ep05-nine-hikers-one-cut-tent-poster.png` (the blade through the canvas, frame 120). It has **no user approval** yet.
 
 **Source:** `Ep05NineHikersOneCutTent` in `src/horror/ep05/` (`world.tsx`: the slope, the tent, the nine trails of prints, the forest, the cedar, the ravine, the slab, the knife hand, the file; `Episode05.tsx`: the shot list, lighting modes, the file texture, captions and the tape layer). The hikers reuse `Human` from `src/horror/ep01/world.tsx`; the snowfall reuses `Snowfall` from `src/horror/ep03/world.tsx`. The story is the true script #4 in `docs/stories/season-1-shorts.md`, next in the season order (8 → 1 → 6 → 7 → **4**), cut to 10 lines.
 
@@ -95,6 +95,13 @@ python3 scripts/caption_check.py src/data/ep05-tent-v1-timeline.json assets/vide
    - The prints were darkened, enlarged and seen from higher up.
    - Trees were cleared around the gully, and the ravine is now shot along it.
    - The slab became one longer shot from upslope.
+
+## Review of the encoded file
+
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,725 frames at 30 fps, with audio.
+- **Loop:** the hook moves fast: frame 4 differs from frame 0 by 9.1/255 in mean absolute luma. The last frame differs from frame 0 by 5.9, which is within that normal motion; the cut keeps opening across the seam.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot.
+- **Captions:** `scripts/caption_check.py` extracted all 14 caption pages from the encoded file. Each was read against the script word for word: all are complete.
 
 ## Known limits
 
