@@ -1,0 +1,219 @@
+{
+  "episode": "ep04",
+  "version": "ep04-night-v3",
+  "based_on_video": "assets/videos/ep04-night-v2/ep04-rules-for-the-night-shift-horror-score.mp4",
+  "other_stems_from": [
+    "ep04-night-v1",
+    "ep04-night-v2"
+  ],
+  "change": "audio only: the MBROLA narration is replaced by an ElevenLabs take placed on the original line start times; picture copied unchanged (-c:v copy)",
+  "reason": "user, 2026-11-10: ElevenLabs connected; change the robotic voiceover into an eerie one for Episodes 1-6",
+  "voice": {
+    "provider": "ElevenLabs (connector, eleven_v4)",
+    "voice_id": "tZssYepgGaQmegsMEXjK",
+    "voice_name": "True – Crime & Horror Narrator",
+    "prompt": "[calmly] You are alone up here until morning. Follow these rules. [long pause] One. Record the temperature every hour. [long pause] Two. The wind sensor reports wind on calm nights. Do not go up to check. [long pause] Three. If the phone rings, let it ring. There is no phone line. [long pause] Four. If you see footprints to the door, turn off every light. [long pause] Five. Knocking is fine. [long pause] Six. At four a.m., someone will say they are the morning shift. [long pause] [softly] Morning shift. Open the door. [long pause] [calmly] The morning shift arrives at seven. Do not open. [long pause] Especially if you recognise the voice. [long pause] Seven. If you do not remember writing tonight's log, you did not write it. [long pause] [whispers] Do not turn around.",
+    "take": "public/assets/audio/eleven-takes/ep04-take2.mp3",
+    "take_sha256": "0dd3d1c1f95df6d5ebab4d18628e009239a002a570935afe1c2d156f392ca4a3",
+    "chain": "tape"
+  },
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.35,
+      "end": 4.28,
+      "old_end": 3.991,
+      "take_seconds": 3.78,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l02",
+      "start": 4.591,
+      "end": 7.796,
+      "old_end": 7.432,
+      "take_seconds": 3.15,
+      "tempo": 1.034,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l03",
+      "start": 7.932,
+      "end": 13.652,
+      "old_end": 13.671,
+      "take_seconds": 5.57,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l04",
+      "start": 14.471,
+      "end": 19.421,
+      "old_end": 19.399,
+      "take_seconds": 4.8,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l05",
+      "start": 20.399,
+      "end": 25.059,
+      "old_end": 25.036,
+      "take_seconds": 4.51,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l06",
+      "start": 26.436,
+      "end": 28.816,
+      "old_end": 28.516,
+      "take_seconds": 2.23,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.6
+    },
+    {
+      "id": "l07",
+      "start": 29.416,
+      "end": 33.836,
+      "old_end": 33.761,
+      "take_seconds": 4.27,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.2
+    },
+    {
+      "id": "door",
+      "start": 34.361,
+      "end": 36.671,
+      "old_end": 37.445,
+      "take_seconds": 2.16,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l08",
+      "start": 37.945,
+      "end": 41.415,
+      "old_end": 41.451,
+      "take_seconds": 3.32,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l09",
+      "start": 41.851,
+      "end": 44.411,
+      "old_end": 44.256,
+      "take_seconds": 2.41,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l10",
+      "start": 45.356,
+      "end": 50.286,
+      "old_end": 50.386,
+      "take_seconds": 4.78,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 0.0
+    },
+    {
+      "id": "l11",
+      "start": 51.386,
+      "end": 52.886,
+      "old_end": 53.758,
+      "take_seconds": 1.35,
+      "tempo": 1.0,
+      "overruns_slot": false,
+      "lift_db": 1.4
+    }
+  ],
+  "stingers_inside_speech": [],
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 7.6,
+      "phone_band_voice_minus_all_db": 8.9
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 5.4,
+      "phone_band_voice_minus_all_db": 6.5
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 5.4,
+      "phone_band_voice_minus_all_db": 9.7
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 5.2,
+      "phone_band_voice_minus_all_db": 6.7
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 6.8,
+      "phone_band_voice_minus_all_db": 13.2
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 8.3
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 9.3
+    },
+    {
+      "id": "door",
+      "voice_minus_all_db": 6.6,
+      "phone_band_voice_minus_all_db": 20.4
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 6.4,
+      "phone_band_voice_minus_all_db": 20.8
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 7.9,
+      "phone_band_voice_minus_all_db": 14.1
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 12.8
+    },
+    {
+      "id": "l11",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 17.3
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -16.8,
+    "music_minus_voice_in_gaps_db": -6.7,
+    "music_share_of_gaps_seconds": 11.7
+  },
+  "loop_seam_db_vs_mean": {
+    "first_quarter_second": -3.7,
+    "last_quarter_second": -3.7
+  },
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.73,
+  "video_sha256": "7d47439d285f3711affd83c9f86026ae7ea188b3507c6b0ba407eb1103362f1c",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

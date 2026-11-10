@@ -42,8 +42,8 @@ The two diegetic episodes keep their framing:
 | 3 | `assets/videos/ep03-snow-v3/ep03-footprints-in-the-snow-eerie-voice.mp4` | 1,753 | −11.6 / −5.8 | 4.5 / 5.9 | −14.0 | −1.22 |
 | 5 | `assets/videos/ep05-tent-v3/ep05-nine-hikers-one-cut-tent-eerie-voice.mp4` | 1,725 | −10.4 / −5.4 | 4.5 / 6.5 | −14.0 | −1.39 |
 | 6 | `assets/videos/ep06-sonar-v2/ep06-the-sound-that-matched-us-eerie-voice.mp4` | 1,668 | −7.3 / −2.6 | 4.5 / 3.2 | −14.0 | −1.22 |
-| 1 | not yet: the generation did not start (ElevenLabs "free generations are busy"; nothing charged) | | | | | |
-| 4 | not yet: same | | | | | |
+| 1 | not yet: after the user reconnected ElevenLabs, the generation again did not start ("free generations are busy"; nothing charged). It is handed to the next session | | | | | |
+| 4 | `assets/videos/ep04-night-v3/ep04-rules-for-the-night-shift-eerie-voice.mp4` (take 2 of 2; the door line is the same voice through a door) | 1,673 | −16.8 / −6.7 | 4.5 / 6.5 | −14.0 | −1.73 |
 
 Per-line placement, tempo, lifts, margins, presence, loop-seam levels and hashes are in `public/assets/audio/<version>/PROVENANCE.json`. The new voice stem is `stem-voice.flac`.
 
@@ -61,7 +61,7 @@ Per-line placement, tempo, lifts, margins, presence, loop-seam levels and hashes
 ## Reproduce
 
 ```
-python3 scripts/revoice_eleven.py ep02 ep03 ep05 ep06
+python3 scripts/revoice_eleven.py ep02 ep03 ep04 ep05 ep06
 ```
 
-Episodes 1 and 4 are configured in the script. They run once `public/assets/audio/eleven-takes/ep01-take1.mp3` and `ep04-take1.mp3` exist, generated with the prompts in `prompts.json`.
+Episode 4 was generated after the user reconnected ElevenLabs (2 takes, 778 credits each). Take 2 is used: its line lengths and syllable counts fit the slots slightly better. Its l01, l02 and l06 run 0.29–0.36 s past the old line ends, which is within the captions' 0.35 s hold (l02 by 0.01 s more). Episode 1 runs once `public/assets/audio/eleven-takes/ep01-take1.mp3` exists, generated with the prompt in `prompts.json`.

@@ -37,7 +37,7 @@ EPS = {
     'ep03': dict(tl='ep03-snow-v1', stems='ep03-snow-v1', score='ep03-snow-v2', video='assets/videos/ep03-snow-v2/ep03-footprints-in-the-snow-horror-score.mp4',
                  out='ep03-snow-v3', name='ep03-footprints-in-the-snow-eerie-voice', chain='narrator', stingers=[23.45, 38.58, 45.62, 52.12]),
     'ep04': dict(tl='ep04-night-v1', stems='ep04-night-v1', score='ep04-night-v2', video='assets/videos/ep04-night-v2/ep04-rules-for-the-night-shift-horror-score.mp4',
-                 out='ep04-night-v3', name='ep04-rules-for-the-night-shift-eerie-voice', chain='tape', stingers=[25.85, 45.0, 51.0]),
+                 out='ep04-night-v3', name='ep04-rules-for-the-night-shift-eerie-voice', chain='tape', take='ep04-take2.mp3', stingers=[25.85, 45.0, 51.0]),
     'ep05': dict(tl='ep05-tent-v1', stems='ep05-tent-v1', score='ep05-tent-v2', video='assets/videos/ep05-tent-v2/ep05-nine-hikers-one-cut-tent-horror-score.mp4',
                  out='ep05-tent-v3', name='ep05-nine-hikers-one-cut-tent-eerie-voice', chain='narrator', stingers=[24.85, 33.5, 49.3]),
     'ep06': dict(tl='ep06-sonar-v1', stems='ep06-sonar-v1', score=None, video='assets/videos/ep06-sonar-v1/ep06-the-sound-that-matched-us.mp4',
@@ -75,7 +75,7 @@ def run(key):
     c = EPS[key]
     tl = json.loads((ROOT / f"src/data/{c['tl']}-timeline.json").read_text())
     lines, dur = tl['lines'], tl['duration_seconds']
-    take_path = TAKES / f'{key}-take1.mp3'
+    take_path = TAKES / c.get('take', f'{key}-take1.mp3')
     take = es.load(take_path)
     segs = es.segments(take, [l['text'] for l in lines])
     src = ROOT / 'public/assets/audio' / c['stems']

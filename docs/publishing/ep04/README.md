@@ -1,6 +1,6 @@
 # Episode 4 publishing kit: "Rules for the Night Shift"
 
-**Upload this file:** `assets/videos/ep04-night-v1/ep04-rules-for-the-night-shift.mp4` (55.8 s, 1080×1920; it loops seamlessly).
+**Upload this file:** `assets/videos/ep04-night-v3/ep04-rules-for-the-night-shift-eerie-voice.mp4` (55.8 s, 1080×1920; it loops seamlessly). It has the eerie ElevenLabs narration (on tape) and the horror score; see `docs/production/eleven-revoice/README.md`. Earlier version: `assets/videos/ep04-night-v1/ep04-rules-for-the-night-shift.mp4`.
 These are drafts to paste; nothing has been posted. No view counts are guaranteed. This is **original fiction**; say so if asked.
 
 ## What the cut is built for
