@@ -1,0 +1,104 @@
+{
+  "fps": 30,
+  "duration_seconds": 57.833,
+  "duration_frames": 1735,
+  "voice": "ElevenLabs eleven_v4, True - Crime & Horror Narrator (tZssYepgGaQmegsMEXjK), one take split into lines, inner pauses cut to 0.35 s, atempo 1.03",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "If a wall in your house looks like this on a thermal camera, don't knock.",
+      "start": 0.15,
+      "end": 4.446,
+      "kind": "narrator",
+      "beat_before": "hook: the thermal camera on the blank wall, a warm rectangle"
+    },
+    {
+      "id": "l02",
+      "text": "I inspect houses. The camera shows me what walls are hiding. Leaks. Wiring. Mice.",
+      "start": 5.046,
+      "end": 11.263,
+      "kind": "narrator",
+      "beat_before": "the van at the empty house; the camera in a gloved hand"
+    },
+    {
+      "id": "l03",
+      "text": "Last month, a house that had been empty for a year. Power off. Heating off. Cold as a fridge.",
+      "start": 11.763,
+      "end": 18.478,
+      "kind": "narrator",
+      "beat_before": "frosted rooms, breath"
+    },
+    {
+      "id": "l04",
+      "text": "Upstairs, the hallway ends in a blank wall. On the plans, there's nothing behind it.",
+      "start": 19.078,
+      "end": 24.318,
+      "kind": "narrator",
+      "beat_before": "the stairs; the hallway; the blank wall"
+    },
+    {
+      "id": "l05",
+      "text": "On my camera, there's a warm rectangle. Room sized. Thirty seven degrees.",
+      "start": 25.018,
+      "end": 30.157,
+      "kind": "narrator",
+      "beat_before": "the camera comes up: thermal"
+    },
+    {
+      "id": "l06",
+      "text": "Outside, I measure. Two metres of house you can't reach from inside.",
+      "start": 30.957,
+      "end": 35.527,
+      "kind": "narrator",
+      "beat_before": "outside: the tape measure along the side wall"
+    },
+    {
+      "id": "l07",
+      "text": "I knock on the wall.",
+      "start": 36.127,
+      "end": 37.161,
+      "kind": "narrator",
+      "beat_before": "back at the wall, the hand raised"
+    },
+    {
+      "id": "l08",
+      "text": "Something knocks back. Twice.",
+      "start": 38.861,
+      "end": 41.253,
+      "kind": "narrator",
+      "beat_before": "three knocks; silence; two knocks answer through the wall"
+    },
+    {
+      "id": "l09",
+      "text": "I write it up as possible water damage. I don't tell the buyers.",
+      "start": 42.853,
+      "end": 46.539,
+      "kind": "narrator",
+      "beat_before": "stinger in silence; the van pulling away"
+    },
+    {
+      "id": "l10",
+      "text": "They moved in on Friday. This morning, they sent me a photo.",
+      "start": 47.139,
+      "end": 50.422,
+      "kind": "narrator",
+      "beat_before": "the report screen"
+    },
+    {
+      "id": "l11",
+      "text": "They want to know why the wall is warm to the touch.",
+      "start": 51.022,
+      "end": 53.892,
+      "kind": "narrator",
+      "beat_before": "the phone: the photo"
+    },
+    {
+      "id": "l12",
+      "text": "And why there's a door in it now.",
+      "start": 54.392,
+      "end": 56.233,
+      "kind": "narrator",
+      "beat_before": "the photo: a door in the wall"
+    }
+  ]
+}

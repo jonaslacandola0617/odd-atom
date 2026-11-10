@@ -1,0 +1,12 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "tZssYepgGaQmegsMEXjK",
+    "voice_name": "True – Crime & Horror Narrator",
+    "text": "[softly] If a wall in your house looks like this on a thermal camera, [short pause] don't knock. [long pause] I inspect houses. The camera shows me what walls are hiding. Leaks. Wiring. Mice. [long pause] Last month, a house that had been empty for a year. Power off. Heating off. Cold as a fridge. [long pause] Upstairs, the hallway ends in a blank wall. On the plans, there's nothing behind it. [long pause] [softly] On my camera, there's a warm rectangle. Room sized. Thirty seven degrees. [long pause] Outside, I measure. Two metres of house you can't reach from inside. [long pause] I knock on the wall. [long pause] [whispers] Something knocks back. [short pause] Twice. [long pause] [softly] I write it up as possible water damage. I don't tell the buyers. [long pause] They moved in on Friday. This morning, they sent me a photo. [long pause] They want to know why the wall is warm to the touch. [long pause] [whispers] And why there's a door in it now.",
+    "estimate_credits_for_2_takes": 1922,
+    "take_1": "generated, 961 credits, 63.92 s; file public/assets/audio/eleven-takes/ep08-take1.mp3",
+    "take_2": "failed: 'Unusual activity has been detected on your account, so Free Tier access has been disabled ...' (whether it was charged is not reported)"
+  },
+  "script_source": "docs/stories/season-1-shorts.md #9 Room Zero (original), rewritten with a second-person hook and cut to 12 lines"
+}
