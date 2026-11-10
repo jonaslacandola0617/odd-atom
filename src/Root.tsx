@@ -19,10 +19,12 @@ import {CancerShort,cancerShortConfig} from './CancerShort';
 import {OddAtomJupiter,oddAtomJupiterConfig} from './OddAtomJupiter';
 import {GalileoTape,galileoTapeConfig} from './horror/GalileoTape';
 import {Episode01,ep01Config} from './horror/ep01/Episode01';
+import {Episode01Viral,ep01ViralConfig} from './horror/ep01/Episode01Viral';
 import {OddAtomJupiterV3,oddAtomJupiterV3Config} from './OddAtomJupiterV3';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="Ep01ViralCut" component={Episode01Viral} defaultProps={{includeAudio:true,captions:true}} {...ep01ViralConfig}/>
     <Composition id="Ep01DoNotLookAtTheMoon" component={Episode01} defaultProps={{includeAudio:true,captions:true}} {...ep01Config}/>
     <Composition id="HorrorGalileoTape" component={GalileoTape} defaultProps={{includeAudio:true}} {...galileoTapeConfig}/>
     <Composition id="OddAtomJupiterV3Opening" component={OddAtomJupiterV3} defaultProps={{includeAudio:true,captions:true}} {...oddAtomJupiterV3Config}/>

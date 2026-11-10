@@ -101,7 +101,11 @@
     "voice:ep01": "python3 scripts/ep01_voice.py",
     "sound:ep01": "python3 scripts/ep01_sound.py",
     "still:ep01": "node scripts/render_ep01.cjs --stills",
-    "render:ep01": "node scripts/render_ep01.cjs"
+    "render:ep01": "node scripts/render_ep01.cjs",
+    "voice:ep01-viral": "python3 scripts/ep01v2_voice.py",
+    "sound:ep01-viral": "python3 scripts/ep01v2_sound.py",
+    "still:ep01-viral": "node scripts/render_ep01_viral.cjs --stills",
+    "render:ep01-viral": "node scripts/render_ep01_viral.cjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

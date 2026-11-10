@@ -1,0 +1,71 @@
+{
+  "fps": 30,
+  "duration_seconds": 49.104,
+  "duration_frames": 1473,
+  "voice": "espeak-ng + MBROLA us2, rate 158, pitch 36, word gap 2",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "If you are seeing this, close your curtains. Now.",
+      "start": 0.45,
+      "end": 3.983,
+      "beat_before": "hook: alert card + tone from frame 0"
+    },
+    {
+      "id": "l02",
+      "text": "Tonight, at ten forty two, the Moon will rise. Do not look at it.",
+      "start": 4.883,
+      "end": 9.621,
+      "beat_before": "neighbours close curtains; she closes ours"
+    },
+    {
+      "id": "l03",
+      "text": "Do not take photographs. Do not watch it on a screen.",
+      "start": 10.321,
+      "end": 14.164,
+      "beat_before": "clock 10:39; she glances at the curtains"
+    },
+    {
+      "id": "l04",
+      "text": "If someone in your home has already looked, do not let them describe what they saw.",
+      "start": 15.064,
+      "end": 20.251,
+      "beat_before": "phone: MARK look at this"
+    },
+    {
+      "id": "l05",
+      "text": "Do not answer, if they say it is closer.",
+      "start": 23.451,
+      "end": 26.23,
+      "beat_before": "kitchen dolly: Mark in the yard"
+    },
+    {
+      "id": "l06",
+      "text": "It is not the Moon.",
+      "start": 28.83,
+      "end": 30.231,
+      "beat_before": "handle turns; Mark in the doorway"
+    },
+    {
+      "id": "l07",
+      "text": "Stay inside. Keep listening, for further instructions.",
+      "start": 32.831,
+      "end": 36.902,
+      "beat_before": "the light over the rooftops; Mark behind her"
+    },
+    {
+      "id": "l08",
+      "text": "If this message is coming from outside your window,",
+      "start": 39.902,
+      "end": 42.963,
+      "beat_before": "TV dies"
+    },
+    {
+      "id": "l09",
+      "text": "do not open the curtains to check.",
+      "start": 43.463,
+      "end": 45.704,
+      "beat_before": "shadow on the curtains"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "episode": "Ep01ViralCut",
+  "duration_seconds": 49.104,
+  "voice": "espeak-ng + MBROLA us2, rate 158, pitch 36, word gap 2; TV-speaker band-pass + saturation + small room (l01-l07); muffled glass + large outdoor space (l08-l09)",
+  "original_synthesis": [
+    "hook: 853+960 Hz attention tone on frame 0; SAME-style FSK burst before the TV turns itself back on",
+    "score: D1/A1 beating drone, D3-Eb3-A3(+G#3) cluster pad, inharmonic music-box motif (normal, then slower and flatter)",
+    "reversed swell, tinnitus tone, TV hum/hiss/roll static/CRT power-off and power-on",
+    "foley: curtain rings and fabric, phone buzz, wall clock, crickets (absent in the yard), glass tap",
+    "loop: drone/pad/room tone/clock run at the same level at the end as at the start"
+  ],
+  "library_cues": {
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    },
+    "heartbeat_breath": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_heartbeat_breath_v1.flac",
+      "sha256": "114a0072e80e4f0a0399865eb76b1fcd036665a61cd936638345d56f21a0fd42"
+    },
+    "cavern_lowwind": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/ambient/CB_AMBIENT_cavern_lowwind_v1.flac",
+      "sha256": "2eb330b216962740bfb984c0591266d684725808c9fe9478b46a5d3c89121df4"
+    },
+    "steel_latch": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_steel_latch_v1.flac",
+      "sha256": "88fa8039b4d1955a73d35980c8cb95840ee799874ad090442035a59ab911182b"
+    },
+    "heavy_hinge": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_heavy_hinge_v1.flac",
+      "sha256": "04780f5ee97c4fe51d84fd110a06b28eda24222bc4cc5a29e72cc6fe234d863e"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "restrained_boom": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_restrained_boom_v1.flac",
+      "sha256": "0f8ed588c6c31aa27d3634ef7b39acb5709831b959bc4366aaa2b9aa282b11fa"
+    }
+  },
+  "loudness_target_lufs": -14.0,
+  "limiter": "tanh soft limiter, ceiling -1.2 dBFS",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

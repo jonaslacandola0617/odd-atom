@@ -65,3 +65,16 @@ The broadcast voice gives the instructions. The picture shows what happens to on
 - A contact sheet sampled every 45 frames was inspected shot by shot, after three still-review passes. Those passes fixed exposure, TV framing, the upside-down phone text, the hair at the back of Mark's head, the handle insert, the doorway composition and the curtain gap.
 - Continuity fix: the VCR clock now reads 10:40 when the TV dies. Frames 2010–2085 were re-rendered and spliced in; rendering is deterministic, so the joins match.
 - Known limits: the street establishing shot (8.6–12 s) is dark and the least readable shot. The rooftop reveal is a near-static hold. Faces are deliberately minimal (PS1 style), which reads as uncanny. There is still no listening pass.
+
+# Viral cut (v2), 2026-11-10
+
+The user asked to build the episode as viral content. This is a separate composition, `Ep01ViralCut` (`src/horror/ep01/Episode01Viral.tsx`), on the same world; v1 is unchanged.
+
+**Delivery:** `assets/videos/ep01-moon-v2/ep01-viral-cut.mp4`: 1080×1920, 30 fps, 1,473 frames, 49.1 s, sha256 `d24b361ee87377542a6f2dc3cc2c4712f777f6822e9ea934a2303022536a61fe`. Poster: `ep01-viral-cut-poster.png` (Mark behind her). Publishing drafts are in `docs/publishing/ep01/README.md`. It has no user approval yet.
+
+- **Hook:** the attention tone and the "DO NOT LOOK AT THE MOON" card on frame 0. The first spoken line addresses the viewer: "If you are seeing this, close your curtains. Now."
+- **Length:** 49 s instead of 81. Nine tighter lines (`scripts/ep01v2_voice.py`). The street establishing shot and the neighbour were cut; every story beat is kept.
+- **Seamless loop:** black, then the curtain rings in the dark, then a data burst, then the TV turns itself back on. The final frames use frame 0's camera and the TV card running on "negative" time, so the last frame flows into the first. Drone, pad, clock and room tone end at their opening level. Verified by comparing frames 1466–1472 with frames 0–4 of the encoded file.
+- **Hidden rewatch details:** a stranger under the street lamp already staring east with his head tilted; a figure inside Mark's white photo; the clock jumping from 10:39 to 10:42 (lost time), then back to 10:39 at the loop; the curtain shadow tilting its head like Mark.
+- **Sound** (`scripts/ep01v2_sound.py`): the same synthesis tools as v1, re-mapped to the new cut. Loudness-targeted to −14.0 LUFS with a soft limiter (peak −1.9 dBFS). The voice sits 6–12 dB above the score on every line. No listening pass.
+- **Known limits:** the hand turning the phone over is a crude block for about half a second. The rooftop reveal is mostly a hold.
