@@ -148,7 +148,12 @@ python3 scripts/caption_check.py src/data/ep07-vrillon-v1-timeline.json assets/v
 
 ## Review of the encoded file
 
-(Filled in after the render; see below.)
+- **File:** 47.6 MB; sha256 `d584196339fb2d94c3c089fd97b66126c11788a51eb0c61ca0d27a9a18995460`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,793 frames at 30 fps (59.78 s), with audio.
+- **Loudness:** −14.1 LUFS measured on the encoded file; decoded sample peak −1.57 dBFS.
+- **Loop:** the last frame differs from frame 0 by 3.7/255 in mean absolute luma, within the shot's own frame-to-frame motion (2.3–4.6).
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. The first full render's speaker-grille push (20–23 s) was nearly black just as the intruding voice began. It was replaced by a push from behind the settee, past the family, to the TV, and the empty room was brightened; then the episode was re-rendered.
+- **Captions:** `scripts/caption_check.py` extracted all 16 caption pages from the encoded file. Each was read against the script word for word: all are complete. The intruder's two pages are pale red. One page break leaves "The" at the end of a page ("…never changes. The / newsreader's lips keep moving."), the pager's normal behaviour.
 
 ## Known limits
 
