@@ -1,6 +1,6 @@
 # Episode 3: "Footprints in the Snow" (v1)
 
-**Delivery:** `assets/videos/ep03-snow-v1/ep03-footprints-in-the-snow.mp4` with its poster `ep03-footprints-in-the-snow-poster.png` (the hollow in the attic hay). Encoded-file figures and the sha256 are in the review section below. It has **no user approval** yet.
+**Delivery:** `assets/videos/ep03-snow-v1/ep03-footprints-in-the-snow.mp4` (1080×1920, 30 fps, 1,753 frames, 58.45 s container, H.264 two-pass 6.2 Mbit/s tuned for grain, AAC 192k; 46.5 MB; sha256 `693258222e3f3eb626ab5b744a9f6b20cb2442547a0ed1214b741b67b91cb849`) with its poster `ep03-footprints-in-the-snow-poster.png` (the hollow in the attic hay, frame 1640). It has **no user approval** yet.
 
 **Source:** `Ep03FootprintsInTheSnow` in `src/horror/ep03/` (`world.tsx` holds the farm, the interiors, the forest, the footprints and the snowfall; `Episode03.tsx` holds the shot list, lighting modes, captions and the tape layer). People reuse `Human` from `src/horror/ep01/world.tsx`. The story is the true script #6 in `docs/stories/season-1-shorts.md` (the next episode in the season's release order 8 → 1 → 6 → 7), rewritten as 12 shorter lines for the viral standard.
 
@@ -106,6 +106,13 @@ python3 scripts/caption_check.py src/data/ep03-snow-v1-timeline.json assets/vide
 2. **Second pass.** A "trodden trail" under the prints, added so the line reads from far away, looked like paving and was removed. The lantern was shrunk and moved into the farmer's raised hand. The breath puff, placed 30 cm from the lens, filled the frame and was shrunk.
 3. **Third pass.** The hatch shot stayed black at night. A daylight debug render showed the geometry was correct, but the hall had no motivated light. It became a grey-daylight shot ("days later"), framed straight up the ladder into the black opening.
 4. **Fourth pass.** The barn moved to a high wide behind the cattle; the hollow was raised above the hay surface, lit, and reframed.
+
+## Review of the encoded file
+
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,753 frames at 30 fps, with audio.
+- **Loop:** frames 1749–1752 and 0–2 were tiled and inspected; the camera move, snowfall and lit windows continue into frame 0. The mean absolute luma difference between the last frame and frame 0 is 3.0/255, the same as between frames 0 and 3 of the opening (3.1).
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot.
+- **Captions:** `scripts/caption_check.py` extracted all 12 caption pages from the encoded file; each was read against the script word for word and is complete.
 
 ## Known limits
 
