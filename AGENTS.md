@@ -8,6 +8,8 @@
   - **Presence check:** report `presence()`. Aim for about −8 to −12 dB against the voice during speech and about −3 to −6 dB in the gaps. Duck about 7 dB under speech, and keep every line at least 4 dB above everything else.
   - **Scares:** put each stinger in silence (just after or before a line, never on a word). Use silence deliberately before big moments. Add camera jolts and tape tears on scares, a point-of-view reveal where it fits, subliminal frames and red/dark grading.
 
+- **Horror re-score of Episodes 1–5 (2026-11-10, same user note):** `scripts/rescore_horror.py` adds the new score over each episode's unchanged stems and muxes it onto the unchanged picture (`-c:v copy`). The new versions are `ep01-moon-v3`, `ep02-mask-v2`, `ep03-snow-v2`, `ep04-night-v2` and `ep05-tent-v2` (MP4s named `*-horror-score.mp4`); earlier versions are kept. In the gaps, the music now sits 5.5–7.9 dB under the voice, against 21–28 dB before. Figures, the tightest lines and loop seams are in `docs/production/horror-rescore/README.md`. None has user approval or a listening pass.
+
 - **Episode 6 "The Sound That Matched Us" (2026-11-10):** the first episode to the new standard. It is the original story #10, next in the season order. `Ep06TheSoundThatMatchedUs` / `src/horror/ep06/` is 55.6 s.
   - **Story and picture:** a sonar waterfall hook; a match with own ship; ALL STOP silence; three knocks; a point-of-view reveal of the cook beside the operator.
   - **Loop and details:** the loop runs on a loop-continuous waterfall. There are five hidden details, including the cook already present in the wide before the reveal and a two-frame figure in the galley hatchway.

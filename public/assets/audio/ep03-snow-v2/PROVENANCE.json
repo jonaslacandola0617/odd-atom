@@ -1,0 +1,150 @@
+{
+  "episode": "ep03",
+  "version": "ep03-snow-v2",
+  "based_on_audio": "ep03-snow-v1",
+  "based_on_video": "assets/videos/ep03-snow-v1/ep03-footprints-in-the-snow.mp4",
+  "change": "audio only: a new horror score (scripts/horror_score.py) added over the unchanged stems of ep03-snow-v1; picture copied unchanged",
+  "reason": "user note 2026-11-10: no audible eerie music; make the videos scarier",
+  "cues": {
+    "stingers": [
+      [
+        23.45,
+        0.6
+      ],
+      [
+        38.58,
+        1.2
+      ],
+      [
+        45.62,
+        0.9
+      ],
+      [
+        52.12,
+        0.8
+      ]
+    ],
+    "swells": [
+      38.58,
+      45.62,
+      52.12
+    ],
+    "risers": [
+      [
+        42.6,
+        45.6
+      ]
+    ],
+    "hearts": [
+      [
+        18.4,
+        23.3,
+        66,
+        86
+      ],
+      [
+        40.2,
+        45.5,
+        72,
+        104
+      ]
+    ],
+    "themes": [
+      [
+        28.2,
+        0.55,
+        0.985
+      ]
+    ],
+    "mutes": [
+      [
+        38.7,
+        40.0
+      ]
+    ],
+    "cluster": [
+      146.83,
+      155.56,
+      220.0
+    ]
+  },
+  "new_score_gain_db": 0.6,
+  "music_presence_new_score": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -14.1,
+    "music_minus_voice_in_gaps_db": -7.6,
+    "music_share_of_gaps_seconds": 13.0
+  },
+  "music_presence_old_score": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -27.8,
+    "music_minus_voice_in_gaps_db": -27.6,
+    "music_share_of_gaps_seconds": 13.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 8.2,
+      "phone_band_voice_minus_all_db": 10.9
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 8.6,
+      "phone_band_voice_minus_all_db": 16.4
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 7.0,
+      "phone_band_voice_minus_all_db": 10.2
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 8.2,
+      "phone_band_voice_minus_all_db": 15.5
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 5.9,
+      "phone_band_voice_minus_all_db": 16.6
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 11.4
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.6,
+      "phone_band_voice_minus_all_db": 7.8
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.2,
+      "phone_band_voice_minus_all_db": 10.5
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 12.6
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 5.4,
+      "phone_band_voice_minus_all_db": 11.5
+    },
+    {
+      "id": "l11",
+      "voice_minus_all_db": 5.0,
+      "phone_band_voice_minus_all_db": 9.5
+    },
+    {
+      "id": "l12",
+      "voice_minus_all_db": 5.9,
+      "phone_band_voice_minus_all_db": 13.3
+    }
+  ],
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.43,
+  "video_sha256": "a53abb31ebf1ed067d1d376df96065258533ab24504e0c7c9f9ae9d9baee5baf",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

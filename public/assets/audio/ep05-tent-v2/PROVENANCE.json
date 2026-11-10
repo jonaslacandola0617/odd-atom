@@ -1,0 +1,135 @@
+{
+  "episode": "ep05",
+  "version": "ep05-tent-v2",
+  "based_on_audio": "ep05-tent-v1",
+  "based_on_video": "assets/videos/ep05-tent-v1/ep05-nine-hikers-one-cut-tent.mp4",
+  "change": "audio only: a new horror score (scripts/horror_score.py) added over the unchanged stems of ep05-tent-v1; picture copied unchanged",
+  "reason": "user note 2026-11-10: no audible eerie music; make the videos scarier",
+  "cues": {
+    "stingers": [
+      [
+        24.85,
+        0.6
+      ],
+      [
+        33.5,
+        0.7
+      ],
+      [
+        49.3,
+        0.8
+      ]
+    ],
+    "swells": [
+      33.5,
+      49.3
+    ],
+    "risers": [
+      [
+        37.6,
+        40.6
+      ]
+    ],
+    "hearts": [
+      [
+        13.6,
+        24.1,
+        64,
+        86
+      ],
+      [
+        46.3,
+        55.4,
+        80,
+        108
+      ]
+    ],
+    "themes": [
+      [
+        6.3,
+        0.6,
+        1.0
+      ],
+      [
+        34.3,
+        0.6,
+        0.971
+      ]
+    ],
+    "mutes": [],
+    "cluster": [
+      220.0,
+      233.08,
+      311.13
+    ]
+  },
+  "new_score_gain_db": 1.2,
+  "music_presence_new_score": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.6,
+    "music_minus_voice_in_gaps_db": -5.8,
+    "music_share_of_gaps_seconds": 8.2
+  },
+  "music_presence_old_score": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -21.7,
+    "music_minus_voice_in_gaps_db": -26.3,
+    "music_share_of_gaps_seconds": 8.2
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 9.4,
+      "phone_band_voice_minus_all_db": 14.3
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 5.8,
+      "phone_band_voice_minus_all_db": 8.0
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 5.6,
+      "phone_band_voice_minus_all_db": 13.4
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 5.0,
+      "phone_band_voice_minus_all_db": 12.8
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 6.4,
+      "phone_band_voice_minus_all_db": 13.5
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 6.9,
+      "phone_band_voice_minus_all_db": 12.8
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.5,
+      "phone_band_voice_minus_all_db": 7.8
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 5.6,
+      "phone_band_voice_minus_all_db": 15.0
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 6.5,
+      "phone_band_voice_minus_all_db": 13.7
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 5.1,
+      "phone_band_voice_minus_all_db": 12.1
+    }
+  ],
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.12,
+  "video_sha256": "9aaaf851f6f1c32bd06e606e18e1047c057057d33877c0cd9e891d313145a4c6",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

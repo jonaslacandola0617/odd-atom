@@ -1,6 +1,6 @@
 # Episode 6: "The Sound That Matched Us" (v1)
 
-**Delivery:** `assets/videos/ep06-sonar-v1/ep06-the-sound-that-matched-us.mp4` with its poster `ep06-the-sound-that-matched-us-poster.png` (the cook's face in the reveal, frame 1220). Encoded-file figures and the sha256 are in the review section below. It has **no user approval** yet.
+**Delivery:** `assets/videos/ep06-sonar-v1/ep06-the-sound-that-matched-us.mp4` (1080×1920, 30 fps, 1,668 frames, 55.62 s container, H.264 two-pass 6.2 Mbit/s tuned for grain, AAC 192k; 44.5 MB; sha256 `e8465016a9eaf286c872c9050f9278242d775b94532ec3c500db5cd29525f517`) with its poster `ep06-the-sound-that-matched-us-poster.png` (the cook's face in the reveal, frame 1220). It has **no user approval** yet.
 
 **Source:** `Ep06TheSoundThatMatchedUs` in `src/horror/ep06/` (`world.tsx`: the compartment, the submarine, the sea; `Episode06.tsx`: the shot list, the waterfall and comparison displays, scare timing, captions, the tape layer). The people reuse `Human` from `src/horror/ep01/world.tsx`. The story is the **original** script #10 in `docs/stories/season-1-shorts.md`, next in the season order (8 → 1 → 6 → 7 → 4 → **10**), cut to 12 lines.
 
@@ -111,6 +111,13 @@ python3 scripts/caption_check.py src/data/ep06-sonar-v1-timeline.json assets/vid
    - The dents were buried inside the hull radius.
 2. **Second pass:** the figure was moved in front of the hatch and lit red. The gouges and dents were rebuilt on the hull's actual surface.
 3. **Third pass:** the exterior shots stayed dark because their directional lights were placed relative to the submarine, while a directional light always aims at the world origin; their direction was nearly horizontal. They were re-aimed, and the hull and water were lightened.
+
+## Review of the encoded file
+
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,668 frames at 30 fps, with audio.
+- **Loop:** the waterfall scrolls fast, so frames 0–4 differ by up to 7.3/255 in mean absolute luma. The last frame differs from frame 0 by 6.9, which is within that motion.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot.
+- **Captions:** `scripts/caption_check.py` extracted all 12 caption pages from the encoded file. Each was read against the script word for word: all are complete.
 
 ## Known limits
 

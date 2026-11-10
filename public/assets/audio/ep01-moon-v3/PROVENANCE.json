@@ -1,0 +1,130 @@
+{
+  "episode": "ep01",
+  "version": "ep01-moon-v3",
+  "based_on_audio": "ep01-moon-v2",
+  "based_on_video": "assets/videos/ep01-moon-v2/ep01-viral-cut.mp4",
+  "change": "audio only: a new horror score (scripts/horror_score.py) added over the unchanged stems of ep01-moon-v2; picture copied unchanged",
+  "reason": "user note 2026-11-10: no audible eerie music; make the videos scarier",
+  "cues": {
+    "stingers": [
+      [
+        28.62,
+        1.2
+      ],
+      [
+        31.85,
+        0.7
+      ],
+      [
+        39.45,
+        0.9
+      ]
+    ],
+    "swells": [
+      28.62,
+      39.45
+    ],
+    "risers": [
+      [
+        25.6,
+        28.6
+      ]
+    ],
+    "hearts": [
+      [
+        22.6,
+        28.5,
+        70,
+        112
+      ],
+      [
+        35.6,
+        39.3,
+        92,
+        124
+      ]
+    ],
+    "themes": [
+      [
+        17.2,
+        0.55,
+        0.985
+      ]
+    ],
+    "mutes": [
+      [
+        46.4,
+        48.2
+      ]
+    ],
+    "cluster": [
+      220.0,
+      233.08,
+      329.63
+    ]
+  },
+  "new_score_gain_db": 0.4,
+  "music_presence_new_score": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -14.2,
+    "music_minus_voice_in_gaps_db": -5.5,
+    "music_share_of_gaps_seconds": 18.2
+  },
+  "music_presence_old_score": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -19.4,
+    "music_minus_voice_in_gaps_db": -21.0,
+    "music_share_of_gaps_seconds": 18.2
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 1.7,
+      "phone_band_voice_minus_all_db": 2.2
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 3.1,
+      "phone_band_voice_minus_all_db": 6.3
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 6.3,
+      "phone_band_voice_minus_all_db": 14.2
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 4.2,
+      "phone_band_voice_minus_all_db": 8.9
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 5.0,
+      "phone_band_voice_minus_all_db": 12.6
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 5.7,
+      "phone_band_voice_minus_all_db": 17.8
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.3,
+      "phone_band_voice_minus_all_db": 12.5
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 5.3,
+      "phone_band_voice_minus_all_db": 11.3
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 5.9,
+      "phone_band_voice_minus_all_db": 13.6
+    }
+  ],
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.03,
+  "video_sha256": "4fd8614328e17ae94d17fcf7b36e7e5bbdbe8318536dd751e1665f39ef4433fb",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
