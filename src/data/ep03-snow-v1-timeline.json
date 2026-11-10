@@ -1,0 +1,92 @@
+{
+  "fps": 30,
+  "duration_seconds": 58.431,
+  "duration_frames": 1753,
+  "voice": "espeak-ng + MBROLA us1, rate 150, pitch 28, word gap 3",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "You find footprints in the snow, leading to your door.",
+      "start": 0.3,
+      "end": 4.279,
+      "beat_before": "hook: the tracks from the forest to the door, frame 0"
+    },
+    {
+      "id": "l02",
+      "text": "None lead away.",
+      "start": 4.779,
+      "end": 6.116,
+      "beat_before": "the door: the tracks end at it"
+    },
+    {
+      "id": "l03",
+      "text": "Bavaria, nineteen twenty two. A lonely farm called Hinterkaifeck.",
+      "start": 7.016,
+      "end": 12.402,
+      "beat_before": "the farm in its clearing at dusk"
+    },
+    {
+      "id": "l04",
+      "text": "The house keys go missing. A newspaper turns up that nobody bought.",
+      "start": 12.902,
+      "end": 17.788,
+      "beat_before": "key board, an empty hook; a paper on the table"
+    },
+    {
+      "id": "l05",
+      "text": "At night, the farmer hears footsteps in the attic.",
+      "start": 18.588,
+      "end": 22.105,
+      "beat_before": "the lamp-lit room, dust from the ceiling boards"
+    },
+    {
+      "id": "l06",
+      "text": "He searches with a lantern. He finds nothing.",
+      "start": 23.705,
+      "end": 27.29,
+      "beat_before": "from the dark attic: the lantern rises through the hatch"
+    },
+    {
+      "id": "l07",
+      "text": "Months earlier, the maid had quit. She said the house was haunted.",
+      "start": 28.09,
+      "end": 33.046,
+      "beat_before": "the maid's chamber, bed stripped"
+    },
+    {
+      "id": "l08",
+      "text": "On the last night of March, all six people on the farm were killed.",
+      "start": 34.046,
+      "end": 38.563,
+      "beat_before": "one lit window at night; it goes dark"
+    },
+    {
+      "id": "l09",
+      "text": "For days, smoke rose from the chimney. Someone fed the cattle.",
+      "start": 40.163,
+      "end": 44.949,
+      "beat_before": "silence; the silent farm, smoke; the barn"
+    },
+    {
+      "id": "l10",
+      "text": "Whoever did it had stayed in the house.",
+      "start": 45.749,
+      "end": 48.316,
+      "beat_before": "the attic hatch, open"
+    },
+    {
+      "id": "l11",
+      "text": "The case was never solved.",
+      "start": 49.316,
+      "end": 51.385,
+      "beat_before": "the farm in falling snow"
+    },
+    {
+      "id": "l12",
+      "text": "No one knows how long someone had been living above them.",
+      "start": 52.285,
+      "end": 56.131,
+      "beat_before": "a hollow in the attic hay"
+    }
+  ]
+}

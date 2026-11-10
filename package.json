@@ -109,7 +109,11 @@
     "voice:ep02": "python3 scripts/ep02_voice.py",
     "sound:ep02": "python3 scripts/ep02_sound.py",
     "still:ep02": "node scripts/render_ep02.cjs --stills",
-    "render:ep02": "node scripts/render_ep02.cjs"
+    "render:ep02": "node scripts/render_ep02.cjs",
+    "voice:ep03": "python3 scripts/ep03_voice.py",
+    "sound:ep03": "python3 scripts/ep03_sound.py",
+    "still:ep03": "node scripts/render_ep03.cjs --stills",
+    "render:ep03": "node scripts/render_ep03.cjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

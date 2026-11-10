@@ -1,0 +1,121 @@
+{
+  "episode": "Ep03FootprintsInTheSnow",
+  "duration_seconds": 58.431,
+  "voice": "espeak-ng + MBROLA us1, rate 150, pitch 28, word gap 3; light band-limit, soft saturation, small room (archive narrator, not a TV speaker)",
+  "original_synthesis": [
+    "ambience: winter wind (filtered noise with gusts) and snow hush in every exterior; room tone and a stove inside; wind on the roof in the attic",
+    "foley: slow steps crunching in snow on the hook and again into the loop (same cadence, so the seam is a step); creaking ceiling boards and footfalls overhead; dust sifting; a lantern rattle; ladder creaks; cattle breathing and chewing; hay rustle; a chain",
+    "score: D1/A1 beating drone; a D-F-Ab pad (diminished); a plucked zither-like (Karplus-Strong) lullaby in D minor that returns slower and a quarter-tone flat over the hollow in the hay",
+    "silence: everything cuts out for the black hold after the last window goes dark",
+    "loop: drone, pad and wind run at their frame-0 levels at the end; drone partials snapped to whole cycles over the episode"
+  ],
+  "library_cues": {
+    "cavern_lowwind": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/ambient/CB_AMBIENT_cavern_lowwind_v1.flac",
+      "sha256": "2eb330b216962740bfb984c0591266d684725808c9fe9478b46a5d3c89121df4"
+    },
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    },
+    "heartbeat_breath": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_heartbeat_breath_v1.flac",
+      "sha256": "114a0072e80e4f0a0399865eb76b1fcd036665a61cd936638345d56f21a0fd42"
+    },
+    "heavy_hinge": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_heavy_hinge_v1.flac",
+      "sha256": "04780f5ee97c4fe51d84fd110a06b28eda24222bc4cc5a29e72cc6fe234d863e"
+    },
+    "paper_light_turn": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/archive/CB_ARCHIVE_paper_light_turn_v1.flac",
+      "sha256": "1c7af42ac9bf774cdf7d3faa92769fb157f0e16f1808491688a43b5493ef2aee"
+    },
+    "metallic_rivet": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_metallic_rivet_v1.flac",
+      "sha256": "aff97703c7669a1c5ce3bce21c5d4760d6671c5f4c07a7de8915263ce0e22d45"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "cable_tension": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_cable_tension_v1.flac",
+      "sha256": "b934def84c475853e000d9e81e51f74f353e872e32d3bc628f87bdcedd1dd72b"
+    },
+    "restrained_boom": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_restrained_boom_v1.flac",
+      "sha256": "0f8ed588c6c31aa27d3634ef7b39acb5709831b959bc4366aaa2b9aa282b11fa"
+    },
+    "suspense_riser": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_suspense_riser_v1.flac",
+      "sha256": "36f58ac6922190c293303434a089bc81b5d0823542595e4d6e8015de1cd203ba"
+    }
+  },
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -2.41,
+  "limiter": "tanh soft limiter, ceiling -1.2 dBFS",
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_score_db": 14.2,
+      "voice_minus_all_other_stems_db": 9.8
+    },
+    {
+      "id": "l02",
+      "voice_minus_score_db": 12.4,
+      "voice_minus_all_other_stems_db": 12.3
+    },
+    {
+      "id": "l03",
+      "voice_minus_score_db": 13.0,
+      "voice_minus_all_other_stems_db": 8.9
+    },
+    {
+      "id": "l04",
+      "voice_minus_score_db": 12.1,
+      "voice_minus_all_other_stems_db": 11.5
+    },
+    {
+      "id": "l05",
+      "voice_minus_score_db": 9.8,
+      "voice_minus_all_other_stems_db": 6.5
+    },
+    {
+      "id": "l06",
+      "voice_minus_score_db": 8.9,
+      "voice_minus_all_other_stems_db": 7.7
+    },
+    {
+      "id": "l07",
+      "voice_minus_score_db": 8.8,
+      "voice_minus_all_other_stems_db": 8.5
+    },
+    {
+      "id": "l08",
+      "voice_minus_score_db": 6.6,
+      "voice_minus_all_other_stems_db": 4.4
+    },
+    {
+      "id": "l09",
+      "voice_minus_score_db": 9.6,
+      "voice_minus_all_other_stems_db": 9.3
+    },
+    {
+      "id": "l10",
+      "voice_minus_score_db": 11.4,
+      "voice_minus_all_other_stems_db": 9.6
+    },
+    {
+      "id": "l11",
+      "voice_minus_score_db": 9.5,
+      "voice_minus_all_other_stems_db": 7.1
+    },
+    {
+      "id": "l12",
+      "voice_minus_score_db": 9.2,
+      "voice_minus_all_other_stems_db": 9.2
+    }
+  ],
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
