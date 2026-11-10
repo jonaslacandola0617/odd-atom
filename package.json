@@ -94,14 +94,21 @@
     "still:oddatom-jupiter": "node scripts/render_oddatom_jupiter.cjs --stills",
     "render:oddatom-jupiter": "node scripts/render_oddatom_jupiter.cjs",
     "still:oddatom-jupiter-v3": "node scripts/render_oddatom_jupiter.cjs --v3 --stills",
-    "render:oddatom-jupiter-v3": "node scripts/render_oddatom_jupiter.cjs --v3"
+    "render:oddatom-jupiter-v3": "node scripts/render_oddatom_jupiter.cjs --v3",
+    "sound:horror-galileo": "python3 scripts/horror_galileo_sound.py",
+    "still:horror-galileo": "node scripts/render_horror_galileo.cjs --stills",
+    "render:horror-galileo": "node scripts/render_horror_galileo.cjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",
+    "@react-three/fiber": "^9.1.2",
     "@remotion/cli": "4.0.538",
+    "@remotion/three": "^4.0.538",
+    "@types/three": "^0.169.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "remotion": "4.0.538"
+    "remotion": "4.0.538",
+    "three": "^0.169.0"
   },
   "devDependencies": {
     "@types/react": "19.2.2",
