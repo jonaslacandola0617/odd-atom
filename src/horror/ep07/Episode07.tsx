@@ -65,7 +65,7 @@ const SHOTS: Shot[] = [
 	{id: 'C_clock', t: 13.2, mode: 'room', from: {p: [-1.5, 1.42, -1.22], l: [CLOCK[0], CLOCK[1], CLOCK[2]]}, to: {p: [-1.5, 1.42, -1.3], l: [CLOCK[0], CLOCK[1], CLOCK[2]]}, fov: 40},
 	{id: 'D_tv', t: L.l04.start - 0.7, mode: 'room', from: {p: [0.55, 1.12, -0.3], l: [S[0], 0.88, S[2]]}, to: {p: [0.45, 1.08, 0.0], l: [S[0], 0.88, S[2]]}, fov: 50},
 	{id: 'E_faces', t: L.l05.start - 0.5, mode: 'room', from: {p: [0.8, 1.2, 1.45], l: [-0.5, 0.82, -0.6]}, to: {p: [0.75, 1.18, 1.38], l: [-0.5, 0.82, -0.6]}, fov: 60},
-	{id: 'F_grille', t: L.v01.start - 0.7, mode: 'room', from: {p: [0.27, 0.86, 1.18], l: [0.27, 0.86, 1.6]}, to: {p: [0.27, 0.86, 1.36], l: [0.27, 0.86, 1.6]}, fov: 46},
+	{id: 'F_push', t: L.v01.start - 0.7, mode: 'room', from: {p: [0.75, 1.45, -1.0], l: [S[0], 0.9, S[2]]}, to: {p: [0.35, 1.2, 0.3], l: [S[0], 0.92, S[2]]}, fov: 50},
 	{id: 'F_mouth', t: 24.0, mode: 'room', from: {p: [S[0], 0.955, 1.18], l: [S[0], 0.945, S[2]]}, to: {p: [S[0], 0.952, 1.26], l: [S[0], 0.945, S[2]]}, fov: 40},
 	{id: 'G_pov', t: K.pov, mode: 'room', from: {p: [0.3, 1.22, 1.45], l: [-0.55, 0.8, -0.7]}, to: {p: [0.28, 1.21, 1.38], l: [-0.55, 0.81, -0.7]}, fov: 70, roll: 0.05},
 	{id: 'H_frozen', t: L.l06.start + 1.8, mode: 'room', from: {p: [2.05, 0.75, 1.55], l: [-1.0, 0.85, -0.6]}, to: {p: [1.95, 0.78, 1.45], l: [-1.0, 0.85, -0.6]}, fov: 58},
@@ -401,13 +401,13 @@ const World: React.FC<{t: number; screen: THREE.Texture; clock: THREE.Texture; m
 			)}
 			{(mode === 'room' || mode === 'empty') && (
 				<>
-					<ambientLight intensity={mode === 'room' ? 0.62 : 0.95} color={mode === 'room' ? '#6a5442' : '#4a5a70'} />
+					<ambientLight intensity={mode === 'room' ? 0.62 : 1.25} color={mode === 'room' ? '#6a5442' : '#4a5a70'} />
 					{/* the TV is the key light: cold, flickering with the picture */}
 					{tvOn > 0 && <pointLight position={[S[0], 0.95, 1.2]} intensity={4.2 * flick} distance={7} decay={1.0} color="#8aa8ff" />}
 					{s.id === 'G_pov' && <pointLight position={[0.1, 1.05, 1.1]} intensity={3.5} distance={4} decay={1.0} color="#a0b8ff" />}
 					{mode === 'room' && <pointLight position={[2.0, 1.5, -1.55]} intensity={1.1} distance={3.2} decay={1.3} color="#ffc070" />}
 					{mode === 'room' && <pointLight position={[-1.5, 0.45, -1.5]} intensity={0.7} distance={2.2} decay={1.3} color="#ff7a30" />}
-					{mode === 'empty' && <pointLight position={[-2.1, 1.7, 0]} intensity={2.4} distance={5.5} decay={1.0} color="#7a8ab0" />}
+					{mode === 'empty' && <pointLight position={[-2.1, 1.7, 0]} intensity={3.2} distance={6} decay={1.0} color="#7a8ab0" />}
 				</>
 			)}
 			{mode === 'hut' && (

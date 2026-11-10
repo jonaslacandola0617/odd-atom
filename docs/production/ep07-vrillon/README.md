@@ -39,7 +39,7 @@ A Wikipedia talk-page summary notes that contemporaneous 1977 reports may not su
 | C2 | 13.2 | ECU: the mantel clock at **5:10** | Hidden detail 1 begins |
 | D | 14.64 | Past the child's head to the TV; the picture holds | "…the sound dissolves into a low hum." |
 | E | 17.96 | From beside the TV: faces lifting | "And another voice comes through." |
-| F | 20.06 | Push into the speaker grille | The quoted line begins (pale-red caption) |
+| F | 20.06 | A slow push from behind the settee, past the family, to the glowing TV | The quoted line begins (pale-red caption) |
 | F2 | 24.0 | ECU: the newsreader's mouth, still moving, out of time with the voice | The picture never changes |
 | G | 27.6 | **Stinger in silence. Point of view from inside the TV:** the child stares into the lens; the mother behind | "Speaking directly to them" |
 | H | 30.55 | Low wide: the family frozen; **the child is looking at the back window** | Hidden detail 2 |
