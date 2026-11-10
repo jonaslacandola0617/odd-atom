@@ -18,6 +18,17 @@
 
 - **Horror re-score of Episodes 1–5 (2026-11-10, same user note):** `scripts/rescore_horror.py` adds the new score over each episode's unchanged stems and muxes it onto the unchanged picture (`-c:v copy`). The new versions are `ep01-moon-v3`, `ep02-mask-v2`, `ep03-snow-v2`, `ep04-night-v2` and `ep05-tent-v2` (MP4s named `*-horror-score.mp4`); earlier versions are kept. In the gaps, the music now sits 5.5–7.9 dB under the voice, against 21–28 dB before. Figures, the tightest lines and loop seams are in `docs/production/horror-rescore/README.md`. None has user approval or a listening pass.
 
+- **Episode 7 "This Is the Voice of Vrillon" (2026-11-10):** the user asked for the "next episode in a new session". It is the true story #2: the Southern Television broadcast interruption, 26 November 1977. `Ep07TheVoiceOfVrillon` / `src/horror/ep07/` is 59.8 s.
+  - **World:** a terraced-house through-lounge with a 1970s TV on legs, the terrace and the town, the hill with the lattice mast (seen over the rooftops and through the back window), and the transmitter building's meters.
+  - **Story and picture:** a hook on the newsreader's moving lips; the sound dissolves into a hum; a point of view from inside the TV; the mast; the sound snaps back; years later, the empty room; the TV switches itself on into the loop.
+  - **Hidden details:** five, including the clock moving 5:10 → 5:16, the child looking at the back window, SOUND pinned while VISION reads normal, a red light on a far hill, and three people reflected in the dark screen of the empty room.
+  - **Voice:** the first episode generated to the new ElevenLabs standard. Jack (true case) is one take, split, with the timeline built from the real line durations. The intruding line is MBROLA us2 through a TV-speaker chain, because the ElevenLabs fiction-voice generation failed (free-tier warning).
+  - **Sound:** presence −12.2 / −4.0 dB, every line ≥4.8 dB, −14.0 LUFS, decoded peak −1.59 dBFS.
+  - **Facts:** from search summaries only (Wikipedia is blocked here). Only the short opening line is quoted; no one is named or implied; it is treated as an unsolved hoax.
+  - **Delivery:** `assets/videos/ep07-vrillon-v1/`. Notes, facts and margins are in `docs/production/ep07-vrillon/README.md`; the publishing kit is `docs/publishing/ep07/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** #9 "Room Zero" (original).
+
 - **Episode 6 "The Sound That Matched Us" (2026-11-10):** the first episode to the new standard. It is the original story #10, next in the season order. `Ep06TheSoundThatMatchedUs` / `src/horror/ep06/` is 55.6 s.
   - **Story and picture:** a sonar waterfall hook; a match with own ship; ALL STOP silence; three knocks; a point-of-view reveal of the cook beside the operator.
   - **Loop and details:** the loop runs on a loop-continuous waterfall. There are five hidden details, including the cook already present in the wide before the reveal and a two-frame figure in the galley hatchway.

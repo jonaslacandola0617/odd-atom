@@ -1,0 +1,22 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "text": "[softly] The man on your television is still talking. [short pause] But that is not his voice. [long pause] Southern England. A Saturday in November, nineteen seventy seven. [long pause] Ten past five. Families sit down to the early evening news. [long pause] Then the sound dissolves into a low hum. [long pause] [whispers] And another voice comes through. [long pause] [softly] For six minutes, the picture never changes. The newsreader's lips keep moving. [long pause] The voice tells everyone to give up their weapons. That there is only a short time left. [long pause] On a hill in Hampshire, one transmitter is passing it on to the homes below. [long pause] Then the news comes back, as if nothing had happened. [long pause] The station apologises. The broadcasting authority calls it a hoax. [long pause] No one was ever identified. [long pause] Nearly fifty years later, no one knows whose voice it was. [long pause] [whispers] Or where it was really coming from.",
+    "estimate_credits_for_2_takes": 1942,
+    "takes_started": 1,
+    "second_take": "did not start: 'Free generations are busy right now' (not charged)",
+    "credits_charged": 971,
+    "duration_seconds": 56.16,
+    "file": "public/assets/audio/eleven-takes/ep07-take1.mp3"
+  },
+  "intruder_line": {
+    "voice_id": "tZssYepgGaQmegsMEXjK",
+    "voice_name": "True – Crime & Horror Narrator",
+    "text": "[slowly] [calmly] This is the voice of /ˈvrɪlɒn/, a representative of the Ashtar Galactic Command, speaking to you.",
+    "estimate_credits_for_2_takes": 230,
+    "result": "take 1 failed: 'Unusual activity has been detected on your account, so Free Tier access has been disabled ...' (whether it was charged is not reported); take 2 did not start ('busy'). Replaced by espeak-ng + MBROLA us2 (scripts/ep07_voice.py)."
+  },
+  "cut_for_length": "'No one was ever identified.' is in the take but not used; 'no one knows whose voice it was' carries the fact."
+}

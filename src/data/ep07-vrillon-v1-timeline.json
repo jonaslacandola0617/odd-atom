@@ -1,0 +1,112 @@
+{
+  "fps": 30,
+  "duration_seconds": 59.78,
+  "duration_frames": 1793,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), one take split into lines, atempo 1.06; the intruder line: espeak-ng + MBROLA us2, rate 150, pitch 24 (the ElevenLabs fiction-voice generation failed)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "The man on your television is still talking. But that is not his voice.",
+      "start": 0.15,
+      "end": 4.751,
+      "kind": "narrator",
+      "beat_before": "hook: the newsreader on the CRT, lips moving, the hum"
+    },
+    {
+      "id": "l02",
+      "text": "Southern England. A Saturday in November, nineteen seventy seven.",
+      "start": 5.451,
+      "end": 10.05,
+      "kind": "narrator",
+      "beat_before": "the terraced street at dusk, the mast on the hill"
+    },
+    {
+      "id": "l03",
+      "text": "Ten past five. Families sit down to the early evening news.",
+      "start": 10.55,
+      "end": 14.636,
+      "kind": "narrator",
+      "beat_before": "the living room: the family, the clock at 5:10"
+    },
+    {
+      "id": "l04",
+      "text": "Then the sound dissolves into a low hum.",
+      "start": 15.336,
+      "end": 17.956,
+      "kind": "narrator",
+      "beat_before": "the TV: the picture holds, the sound starts to go"
+    },
+    {
+      "id": "l05",
+      "text": "And another voice comes through.",
+      "start": 18.456,
+      "end": 20.055,
+      "kind": "narrator",
+      "beat_before": "the family look up"
+    },
+    {
+      "id": "v01",
+      "text": "This is the voice of Vrillon, a representative of the Ashtar Galactic Command, speaking to you.",
+      "start": 20.755,
+      "end": 27.35,
+      "kind": "vrillon",
+      "beat_before": "push into the speaker grille"
+    },
+    {
+      "id": "l06",
+      "text": "For six minutes, the picture never changes. The newsreader's lips keep moving.",
+      "start": 28.75,
+      "end": 33.47,
+      "kind": "narrator",
+      "beat_before": "stinger in silence; subliminal: the room seen from inside the TV"
+    },
+    {
+      "id": "l07",
+      "text": "The voice tells everyone to give up their weapons. That there is only a short time left.",
+      "start": 33.97,
+      "end": 38.709,
+      "kind": "narrator",
+      "beat_before": "the frozen family; the lips out of sync"
+    },
+    {
+      "id": "l08",
+      "text": "On a hill in Hampshire, one transmitter is passing it on to the homes below.",
+      "start": 39.309,
+      "end": 43.262,
+      "kind": "narrator",
+      "beat_before": "the mast on the hill; the transmitter hut, the sound meter pinned"
+    },
+    {
+      "id": "l09",
+      "text": "Then the news comes back, as if nothing had happened.",
+      "start": 44.162,
+      "end": 46.885,
+      "kind": "narrator",
+      "beat_before": "the sound snaps back: stinger, jolt"
+    },
+    {
+      "id": "l10",
+      "text": "The station apologises. The broadcasting authority calls it a hoax.",
+      "start": 47.385,
+      "end": 51.355,
+      "kind": "narrator",
+      "beat_before": "the clock at 5:16; the apology"
+    },
+    {
+      "id": "l12",
+      "text": "Nearly fifty years later, no one knows whose voice it was.",
+      "start": 52.255,
+      "end": 55.948,
+      "kind": "narrator",
+      "beat_before": "stinger in silence: the TV glass, the room reflected"
+    },
+    {
+      "id": "l13",
+      "text": "Or where it was really coming from.",
+      "start": 56.448,
+      "end": 58.08,
+      "kind": "narrator",
+      "beat_before": "the window, the mast light"
+    }
+  ]
+}

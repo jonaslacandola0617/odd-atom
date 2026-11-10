@@ -1,0 +1,165 @@
+{
+  "episode": "Ep07TheVoiceOfVrillon",
+  "duration_seconds": 59.78,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), one take split into lines, atempo 1.06; the intruder line: espeak-ng + MBROLA us2, rate 150, pitch 24 (the ElevenLabs fiction-voice generation failed)",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep07-take1.mp3",
+    "sha256": "6f4fd73ead1ac6aa3dc0c2ea2a90861299d2ce797eedf498d23669bd310703d8",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator",
+    "credits": 971,
+    "prompt": "docs/production/ep07-vrillon/prompt.json"
+  },
+  "intruder_line": "espeak-ng + MBROLA us2 (the ElevenLabs fiction-voice generation failed with the account free-tier warning); TV-speaker chain with warble, 50 Hz ring and a short slap",
+  "tv": "muffled newsreader murmur (espeak-ng en-gb-x-rp reading generic invented words, low-passed under 1.1 kHz, not intelligible); mains hum 50 Hz with odd harmonics; a reversed smear of the intruder line under the six minutes; apology-card tone; switch-on click, whine and static",
+  "original_synthesis": [
+    "score (scripts/horror_score.py): A2/E3 mid-band drone; tremolo string clusters (A3-Bb3-E4, +F4/Bb4 on the scares); music-box theme (A C B D# E . A G#) clean, detuned, slow and flat; reversed swells into the three stingers; heartbeat 64-96 and 70-112 bpm; a riser into the snap-back; bowed metal",
+    "foley: room tone and gas-fire hiss, the mantel clock ticking (louder on the clock inserts), a tea cup, wind at the mast, hut transformer hum and tube buzz",
+    "silence: after the snap-back the music drops to -18 dB for about 2 s and only the news murmur returns",
+    "loop: drone, strings, mains hum and wind snapped to whole cycles; the news murmur plays at both ends"
+  ],
+  "real_broadcast_audio_used": false,
+  "library_cues": {
+    "steel_latch": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_steel_latch_v1.flac",
+      "sha256": "88fa8039b4d1955a73d35980c8cb95840ee799874ad090442035a59ab911182b"
+    },
+    "cable_tension": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_cable_tension_v1.flac",
+      "sha256": "b934def84c475853e000d9e81e51f74f353e872e32d3bc628f87bdcedd1dd72b"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "restrained_boom": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_restrained_boom_v1.flac",
+      "sha256": "0f8ed588c6c31aa27d3634ef7b39acb5709831b959bc4366aaa2b9aa282b11fa"
+    },
+    "heartbeat_breath": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/editorial/CB_EDITORIAL_heartbeat_breath_v1.flac",
+      "sha256": "114a0072e80e4f0a0399865eb76b1fcd036665a61cd936638345d56f21a0fd42"
+    },
+    "radio_noise_bed": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/ambient/CB_AMBIENT_radio_noise_bed_v1.flac",
+      "sha256": "91afa9e42cf7c7c9db6b659fb96d7e216d4c55f83e5ad1adddd130ca87b2d35a"
+    }
+  },
+  "stingers": [
+    27.6,
+    43.4,
+    51.6
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.59,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -21.0,
+    "last_quarter_second": -20.7
+  },
+  "limiter": "tanh soft limiter, ceiling -1.61 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "v01": 0.0,
+    "l06": 0.7,
+    "l07": 1.4,
+    "l08": 2.3,
+    "l09": 0.0,
+    "l10": 0.0,
+    "l12": 0.0,
+    "l13": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 10.9,
+      "phone_band_voice_minus_all_db": 10.6,
+      "voice_minus_score_db": 11.4
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 7.1,
+      "phone_band_voice_minus_all_db": 5.8,
+      "voice_minus_score_db": 7.5
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 9.1,
+      "phone_band_voice_minus_all_db": 10.7,
+      "voice_minus_score_db": 9.6
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 7.7,
+      "phone_band_voice_minus_all_db": 8.4,
+      "voice_minus_score_db": 9.2
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 5.1,
+      "phone_band_voice_minus_all_db": 8.6,
+      "voice_minus_score_db": 6.2
+    },
+    {
+      "id": "v01",
+      "voice_minus_all_db": 10.5,
+      "phone_band_voice_minus_all_db": 16.5,
+      "voice_minus_score_db": 11.4
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 5.4,
+      "voice_minus_score_db": 6.0
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 7.1,
+      "voice_minus_score_db": 5.9
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.9,
+      "phone_band_voice_minus_all_db": 6.5,
+      "voice_minus_score_db": 6.5
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 17.1,
+      "phone_band_voice_minus_all_db": 16.0,
+      "voice_minus_score_db": 20.5
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 8.6,
+      "phone_band_voice_minus_all_db": 11.7,
+      "voice_minus_score_db": 9.0
+    },
+    {
+      "id": "l12",
+      "voice_minus_all_db": 7.0,
+      "phone_band_voice_minus_all_db": 5.8,
+      "voice_minus_score_db": 7.0
+    },
+    {
+      "id": "l13",
+      "voice_minus_all_db": 6.8,
+      "phone_band_voice_minus_all_db": 8.6,
+      "voice_minus_score_db": 7.7
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.2,
+    "music_minus_voice_in_gaps_db": -4.0,
+    "music_share_of_gaps_seconds": 10.2
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
