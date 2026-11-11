@@ -1,0 +1,89 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 55.602,
+  "duration_frames": 1668,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Gabi-gabi, sa Malaca\u00f1ang, may isang ilaw na kusang bumubukas.",
+      "start": 0.15,
+      "end": 5.456,
+      "kind": "narrator",
+      "beat_before": "hook: the palace at night, every window dark; one switches on"
+    },
+    {
+      "id": "l02",
+      "text": "Mula pa noong panahon ng Kastila, dito na nakaupo ang kapangyarihan.",
+      "start": 6.156,
+      "end": 10.861,
+      "kind": "narrator",
+      "beat_before": "the palace by the river at night, capiz windows"
+    },
+    {
+      "id": "l03",
+      "text": "At sa loob ng maraming henerasyon, iisa ang kuwento ng mga nagtatrabaho rito.",
+      "start": 11.461,
+      "end": 16.843,
+      "kind": "narrator",
+      "beat_before": "a guard's round: a long hall with wooden floors and portraits, a flashlight"
+    },
+    {
+      "id": "l04",
+      "text": "Isang lampara sa mesa, nakabukas sa hatinggabi, sa kuwartong walang pumasok.",
+      "start": 17.543,
+      "end": 23.368,
+      "kind": "narrator",
+      "beat_before": "a strip of light under a door; inside, a desk lamp lit, the chair turned to the window"
+    },
+    {
+      "id": "l05",
+      "text": "Mga yabag sa itaas, pabalik-balik, parang isang lalaking hindi mapakali.",
+      "start": 24.068,
+      "end": 29.584,
+      "kind": "narrator",
+      "beat_before": "footsteps pacing above; the guard looks up at the ceiling"
+    },
+    {
+      "id": "l06",
+      "text": "Usok ng sigarilyo, sa kuwartong walang tao.",
+      "start": 30.184,
+      "end": 33.576,
+      "kind": "narrator",
+      "beat_before": "the next room: smoke curling in the light, from no one"
+    },
+    {
+      "id": "l07",
+      "text": "Tawa ng bata sa pasilyo.",
+      "start": 34.176,
+      "end": 35.963,
+      "kind": "narrator",
+      "beat_before": "a child's laugh down the hall; a ball rolls out of a doorway"
+    },
+    {
+      "id": "l08",
+      "text": "At minsan, sabi ng isang empleyado, isang paring naglalakad sa pasilyo, walang ulo.",
+      "start": 38.963,
+      "end": 45.746,
+      "kind": "narrator",
+      "beat_before": "silence; the guard turns; at the far end of the hall, a cassock with nothing above the collar walks away (stinger in silence)"
+    },
+    {
+      "id": "l09",
+      "text": "Hindi ito ipinapaliwanag ng mga guwardiya. Pinapatay na lang nila ang ilaw.",
+      "start": 46.446,
+      "end": 50.959,
+      "kind": "narrator",
+      "beat_before": "the guard switches off the lamp"
+    },
+    {
+      "id": "l10",
+      "text": "Bukas na naman ito kinabukasan ng gabi.",
+      "start": 51.659,
+      "end": 54.002,
+      "kind": "narrator",
+      "beat_before": "outside: the window dark; then it lights again"
+    }
+  ]
+}

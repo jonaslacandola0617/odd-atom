@@ -88,6 +88,17 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 18 "The Light in the Quezon Room" (reported legend, Malacañang).
 
+- **Episode 18 "The Light in the Quezon Room" (2026-11-11):** the user asked for the "next ep". It is a reported legend: Malacañang staff recollections reported in the press. `Ep18TheLightInTheQuezonRoom` / `src/horror/ep18/` is 55.6 s, in Taglish.
+  - **World:** a composite historic palace by a river (capiz windows, one that lights by itself), a long hall with narra boards and portraits that are only dark landscapes, the office (green desk lamp, a chair turned to the window, a clock at 3:15, a strip of light under the door), a sitting room with an ashtray, a ball and a small shoe, a generic guard.
+  - **Entity kit:** `Headless` gained a `sotana` habit (a white cassock) and swinging sleeves when walking.
+  - **Story and picture:** the window lights (the hook); the river; the guard's round; light under a door; the empty office; dust falling as pacing sounds above; smoke from no one; a ball rolls out; silence; the guard turns and a headless white sotana walks away; the guard switches the lamp off (the chair now faces the desk); the dark window, which lights again just after the loop seam.
+  - **Care:** no living official, no past president named or shown, no faces in portraits, nothing political; told as staff stories.
+  - **Voice:** Juanito, both takes at once (1,590 credits; take 1 used).
+  - **Sound:** presence −13.7 / −3.5 dB, lines ≥5.2 dB with no lifts, −14.0 LUFS, decoded peak −1.31 dBFS, bed seam −24.3 / −24.3 dBFS (3 dB tail pre-duck).
+  - **Delivery:** `assets/videos/ep18-palace-v1/`. Notes (with English subtitles) are in `docs/production/ep18-palace/README.md`; the publishing kit is `docs/publishing/ep18/README.md` and `docs/publishing/POSTS-ep11-20.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 19 "Santelmo" (folklore and science).
+
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).

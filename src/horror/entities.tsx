@@ -566,10 +566,10 @@ export const Villager: React.FC<{pose: 'sit' | 'stand'; look?: number; position?
  * cassock, hands folded, and nothing above the collar: a clean, closed collar, never a wound.
  * pose 'seated' (at a table) or 'walking' (stride phase from t).
  */
-export const Headless: React.FC<{t: number; habit: 'nun' | 'priest'; pose: 'seated' | 'walking'; position?: [number, number, number]; rotation?: [number, number, number]; scale?: number}> = ({t, habit, pose, position = [0, 0, 0], rotation = [0, 0, 0], scale = 1}) => {
+export const Headless: React.FC<{t: number; habit: 'nun' | 'priest' | 'sotana'; pose: 'seated' | 'walking'; position?: [number, number, number]; rotation?: [number, number, number]; scale?: number}> = ({t, habit, pose, position = [0, 0, 0], rotation = [0, 0, 0], scale = 1}) => {
 	const m = useMemo(
 		() => ({
-			robe: lam(habit === 'nun' ? '#d8d4c8' : '#16161a'),
+			robe: lam(habit === 'priest' ? '#16161a' : '#d8d4c8'),
 			trim: lam(habit === 'nun' ? '#2a2a30' : '#2a2a30'),
 			collar: lam(habit === 'nun' ? '#f0eee8' : '#e8e6e0'),
 			hand: lam('#a8a294'),
@@ -640,9 +640,15 @@ export const Headless: React.FC<{t: number; habit: 'nun' | 'priest'; pose: 'seat
 						</mesh>
 					</group>
 				) : (
-					<mesh key={sd} position={[sd * 0.13, 0.98, 0.12]} rotation={[-1.1, 0, -sd * 0.3]} material={m.robe}>
-						<boxGeometry args={[0.09, 0.32, 0.09]} />
-					</mesh>
+					<group key={sd}>
+						<mesh position={[sd * 0.13, 0.98, 0.12]} rotation={[-1.1, 0, -sd * 0.3]} material={m.robe}>
+							<boxGeometry args={[0.09, 0.32, 0.09]} />
+						</mesh>
+						{/* the upper arms in wide sleeves, swinging a little with the stride */}
+						<mesh position={[sd * 0.25, 1.12, 0.02]} rotation={[sd * stride * 0.8, 0, sd * 0.12]} material={m.robe}>
+							<boxGeometry args={[0.12, 0.42, 0.13]} />
+						</mesh>
+					</group>
 				),
 			)}
 			<mesh position={[0, seated ? 0.68 : 0.88, 0.22]} material={m.hand}>

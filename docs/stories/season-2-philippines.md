@@ -554,6 +554,18 @@ Taglish: "Gabi-gabi, sa Malacañang, may isang ilaw na kusang bumubukas."
 8. **Reveal:** the guard turns. At the far end of the hall, a **figure in a cassock, with nothing above the collar**, walks away into the dark. Stinger in silence.
 9. The window from outside: the light switches off. Loop.
 
+**Narration (Taglish, for Juanito):**
+1. Gabi-gabi, sa Malacañang, may isang ilaw na kusang bumubukas.
+2. Mula pa noong panahon ng Kastila, dito na nakaupo ang kapangyarihan.
+3. At sa loob ng maraming henerasyon, iisa ang kuwento ng mga nagtatrabaho rito.
+4. Isang lampara sa mesa, nakabukas sa hatinggabi, sa kuwartong walang pumasok.
+5. Mga yabag sa itaas, pabalik-balik, parang isang lalaking hindi mapakali.
+6. Usok ng sigarilyo, sa kuwartong walang tao.
+7. Tawa ng bata sa pasilyo.
+8. At minsan, sabi ng isang empleyado, isang paring naglalakad sa pasilyo, walang ulo.
+9. Hindi ito ipinapaliwanag ng mga guwardiya. Pinapatay na lang nila ang ilaw.
+10. Bukas na naman ito kinabukasan ng gabi.
+
 **Narration (English draft):**
 1. At night, in the palace, one office light turns on by itself.
 2. Malacañang has been the seat of power since Spanish times.

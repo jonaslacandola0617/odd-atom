@@ -18,6 +18,7 @@ Season 2 is Philippine ghost stories with Taglish narration (Juanito) and Taglis
 | 15 | Don't Pick Up the Baby | folklore (tiyanak) | `assets/videos/ep15-baby-v1/ep15-dont-pick-up-the-baby.mp4` | 54.2 s |
 | 16 | Ward Three | reported legend | `assets/videos/ep16-ward-v1/ep16-ward-three.mp4` | 58.8 s |
 | 17 | The Road That Wouldn't End | folklore (tikbalang) | `assets/videos/ep17-road-v1/ep17-the-road-that-wouldnt-end.mp4` | 57.7 s |
+| 18 | The Light in the Quezon Room | reported legend | `assets/videos/ep18-palace-v1/ep18-the-light-in-the-quezon-room.mp4` | 55.6 s |
 
 ---
 
@@ -200,3 +201,29 @@ kung tatlong beses mo nang nadaanan ang parehong tindahan… huminto ka 🐴 #ti
 - **Cover text:** `TATLONG BESES NA` (the store at frame 0).
 - **Pinned comment:** `Sino ang nakatayo sa likod ng tindahan sa 0:03?`
 - **Care:** folklore told with respect; no comic tikbalang; the store is invented; no real barangay named. Full kit: `docs/publishing/ep17/README.md`.
+
+---
+
+## Broadcast 18: The Light in the Quezon Room (reported legend)
+
+**YouTube title:** `Gabi-gabi, may ilaw sa Malacañang na kusang bumubukas`
+Alternative: `The light in the palace that turns on by itself`
+
+**YouTube description**
+```
+Malacañang. Sa loob ng maraming henerasyon, iisa ang kuwento ng mga nagtatrabaho roon: isang ilaw na kusang bumubukas, mga yabag sa itaas, usok sa kuwartong walang tao, tawa ng bata sa pasilyo.
+
+Tingnan mo ang upuan sa opisina. Dalawang beses. 🕯️
+
+Broadcast 18 · After Sign-Off. Mga kuwento at alaala ng mga nagtrabaho sa palasyo, iniulat sa mga pahayagan, ginawa sa low-poly 3D. Walang taong pinangalanan.
+#Malacanang #kwentongkatatakutan #pinoyhorror #ghoststory #urbanlegend #shorts
+```
+**YouTube pinned comment:** `Ano kaya ang ipinag-aalala niya hanggang ngayon? 🕯️ May kakilala ka bang nagtrabaho sa palasyo? Ano ang kuwento nila?`
+
+**TikTok caption**
+```
+gabi-gabi, may isang ilaw sa malacañang na kusang bumubukas 🕯️ #malacanang #kwentongkatatakutan #pinoyhorror #ghoststory #fyp #fypシ
+```
+- **Cover text:** `KUSANG BUMUBUKAS` (the lit window, about 0:02).
+- **Pinned comment:** `Tingnan mo ang upuan sa 0:21 at sa 0:47.`
+- **Care:** staff recollections told as stories; no living official or past president named or shown; no politics in the post or replies. Full kit: `docs/publishing/ep18/README.md`.
