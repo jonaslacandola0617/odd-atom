@@ -104,3 +104,10 @@ The user asked for Season 2 to be "more scary and spooky" than Season 1. The sto
 - The "moves when you look away" pair checked, frame for frame, for matching framing.
 - A contact sheet that is mostly dark, with points of practical light. If it looks like Season 1, it fails.
 - No listening pass is possible in this runtime. Report the measurements, not "it sounds scary".
+
+### Voice for Season 2
+
+- **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`), in Taglish, chosen and approved by the user.
+- **Account:** since Episode 13 it is a paid ElevenLabs **Starter** account. Start a new flow per session: old-account flows return "no access to this template".
+- **Fitting 60 s:** Taglish takes run long (Episode 13: 64 s). Fit them with an atempo of at most 1.04–1.06 and tighter gaps, never by cutting words.
+- **Line placement:** keep every shot inside the line timeline; Episode 13's "safe at dawn" shot was first placed after the loop point and never appeared.

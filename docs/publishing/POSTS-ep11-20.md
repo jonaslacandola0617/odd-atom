@@ -13,6 +13,7 @@ Season 2 is Philippine ghost stories with Taglish narration (Juanito) and Taglis
 |---|---|---|---|---|
 | 11 | The Passenger on Balete Drive | reported legend | `assets/videos/ep11-balete-v1/ep11-the-passenger-on-balete-drive.mp4` | 54.6 s |
 | 12 | Tik-Tik | original (on folklore) | `assets/videos/ep12-tiktik-v1/ep12-tik-tik.mp4` | 51.2 s |
+| 13 | Half of Her | folklore (manananggal) | `assets/videos/ep13-half-v1/ep13-half-of-her.mp4` | 59.9 s |
 
 ---
 
@@ -65,3 +66,29 @@ kapag humihina ang tunog ng tiktik… hindi siya lumalayo 👂 (gamitin ang head
 - **Cover text:** `MAHINA = MALAPIT` (the garlic at the window, about 0:15).
 - **Pinned comment:** `Pakinggan sa headphones ang 0:31. Sa kaliwa.`
 - **Care:** label it as an original story; no real town, family or person is an aswang; Lola is the hero. Full kit: `docs/publishing/ep12/README.md`.
+
+---
+
+## Broadcast 13: Half of Her (folklore)
+
+**YouTube title:** `Kapag may nakita kang kalahating babae… hanapin mo ang asin`
+Alternative: `The manananggal leaves half of herself behind`
+
+**YouTube description**
+```
+Sa Visayas, sabi nila, may mga babaeng dalawa ang buhay. Sa araw, kapitbahay. Sa gabi, iniiwan niya ang kalahati ng sarili niya. Kapag nakita mo ang kalahating iyon… alam mo na ang gagawin.
+
+Tingnan mo ang palda ng kapitbahay. 👀
+
+Broadcast 13 · After Sign-Off. Kuwentong-bayan (folklore) ng manananggal, ginawa sa low-poly 3D.
+#manananggal #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #shorts
+```
+**YouTube pinned comment:** `Sinong kapitbahay ang hindi nagsimba noong Linggo? 👀 Sa inyo ba, asin, abo o bawang ang sabi ng lola niyo?`
+
+**TikTok caption**
+```
+kapag may nakita kang kalahating babae na nakatayo sa sagingan… huwag kang sisigaw 🦇 #manananggal #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #fyp #fypシ
+```
+- **Cover text:** `HANAPIN MO ANG ASIN` (her silhouette against the moon, about 0:20).
+- **Pinned comment:** `Tingnan mo ulit ang palda sa 0:15.`
+- **Care:** folklore told with respect; no real town (no Capiz jokes) or person called aswang; no jokes about pregnant women. Full kit: `docs/publishing/ep13/README.md`.

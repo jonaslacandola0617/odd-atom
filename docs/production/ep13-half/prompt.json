@@ -5,9 +5,15 @@
     "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
     "text": "[whispers] Kapag may nakita kang kalahating babae na nakatayo sa sagingan, huwag kang sisigaw. Hanapin mo ang asin. [long pause] [softly] Sa Visayas, sabi nila, may mga babaeng dalawa ang buhay. [long pause] Sa araw, kapitbahay. Mabait. Tahimik. [long pause] Sa gabi, iniiwan niya ang kalahati ng sarili niya. [long pause] Ang kalahati, nagkakapakpak, at naghahanap ng mga natutulog. Lalo na ng mga inang naghihintay ng anak. [long pause] Mauuna mong maririnig ang mga pakpak. Tapos, hihilig ang apoy ng gasera papunta sa bubong. [long pause] [whispers] Huwag kang titingala. [long pause] [softly] Lumabas ka. Hanapin mo ang kalahating iniwan niya. Takpan mo ng asin, o abo, o bawang. [long pause] Kapag hindi siya nakabalik bago sumikat ang araw, [long pause] [whispers] hindi na siya makakabalik kailanman.",
     "attempts": [
-      "2026-11-11 12:40 UTC: refused as busy, nothing charged; retry series scheduled (every 30 min, at most 4, the user's rule)"
+      "2026-11-11 12:40 UTC: refused as busy, nothing charged; retry series scheduled (every 30 min, at most 4, the user's rule)",
+      "12:52 UTC (the user: \"Try now\"): refused as busy, nothing charged",
+      "13:0x UTC (the user: \"try again\"): the old flow returned \"You do not have access to this template\" (nothing generated); one call on a fresh flow (LN1ZxwA0JjLa0LNzlErH) generated both takes (808 credits each, 1616 total); the scheduled retry was cancelled"
     ],
-    "takes": []
+    "takes": [
+      "public/assets/audio/eleven-takes/ep13-take1.mp3: 64.24 s, 808 credits (used)",
+      "public/assets/audio/eleven-takes/ep13-take2.mp3: 63.92 s, 808 credits (kept, unused)"
+    ],
+    "processing": "split into 10 lines, pauses inside a line capped at 0.45 s, atempo 1.04 and three gaps tightened so the episode fits under 60 s (59.9 s); the timeline was built from the real line lengths"
   },
   "script_source": "docs/stories/season-2-philippines.md #13 (folklore: the manananggal), Taglish version for Juanito"
 }

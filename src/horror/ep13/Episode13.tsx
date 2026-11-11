@@ -78,7 +78,7 @@ const SHOTS: Shot[] = [
 	{id: 'I_pour', t: K.pour, mode: 'night', from: {p: [-5.6, 1.75, 8.2], l: LG(0.55)}, to: {p: [-5.7, 1.7, 8.0], l: LG(0.55)}, fov: 58, hand: 0.6},
 	{id: 'J_wait', t: L.l09.start - 0.2, mode: 'predawn', from: {p: [-3.0, 1.2, 11.5], l: [-6.5, 2.5, 4.0]}, to: {p: [-3.2, 1.2, 11.2], l: [-6.5, 2.8, 4.0]}, fov: 58},
 	{id: 'K_dawn', t: K.dawn, mode: 'dawn', from: {p: [-4.3, 0.7, 7.8], l: LG(0.15)}, to: {p: [-4.5, 0.65, 7.7], l: LG(0.15)}, fov: 56},
-	{id: 'K_wife', t: L.l10.end + 0.1, mode: 'inside', from: {p: [1.6, FLOOR + 1.3, 1.1], l: [WIFE[0] - 0.3, FLOOR + 0.15, WIFE[2]]}, fov: 58},
+	{id: 'K_wife', t: L.l10.start + 1.4, mode: 'inside', from: {p: [1.6, FLOOR + 1.3, 1.1], l: [WIFE[0] - 0.3, FLOOR + 0.15, WIFE[2]]}, fov: 58},
 	{id: 'A_loop', t: K.loopOn, mode: 'night', ...A, fov: 52},
 ];
 const DAWN_INSIDE = (id: string) => id === 'K_wife';

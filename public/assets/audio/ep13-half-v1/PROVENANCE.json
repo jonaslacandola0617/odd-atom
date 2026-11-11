@@ -1,0 +1,128 @@
+{
+  "episode": "Ep13HalfOfHer",
+  "duration_seconds": 59.864,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.04",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep13-take1.mp3",
+    "sha256": "8eaf7f059b3c21ea5d3e8cfa8a5ee08e0ed25acfb2df5c1f7c65caf143e38ae3",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep13-take1.mp3: 64.24 s, 808 credits (used)",
+      "public/assets/audio/eleven-takes/ep13-take2.mp3: 63.92 s, 808 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep13-half/prompt.json"
+  },
+  "original_synthesis": [
+    "score (scripts/horror_score.py): F#2/C#3 mid-band drone; tremolo string clusters; the music-box theme detuned; a heartbeat 66-118 bpm from the wings to the silence; a riser; one stinger in silence (her face in the capiz); bowed metal at dawn",
+    "wings: leathery beats (low thumps with a membrane flutter and a whoosh) as she unfolds, crosses the moon, passes outside the capiz, and flies back at predawn",
+    "the barrio: kuliglig, frogs, banana leaves in the wind, a tuko, dogs far off; the insects and frogs stop dead as the wings pass the hut; inside: the gasera hiss and the wife breathing slowly",
+    "foley: a deep breath and cloth as she separates (no gore); wet clicks as the tongue lowers; the bamboo ladder, grass and breath as he runs; salt poured; a far shriek in the gap before the last line, then nothing; a rooster and birds at dawn",
+    "silence: from just after \"Huwag kang titingala\" everything drops out for 1.35 s before the stinger"
+  ],
+  "real_recordings_used": false,
+  "library_cues": {
+    "perspective_whip": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_perspective_whip_v1.flac",
+      "sha256": "cf59cbedffd1617bf3962f9c4f6e151ca84d91a86a3bbbe048d8375ee4eba211"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    }
+  },
+  "stingers": [
+    42.482
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.25,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -20.9,
+    "last_quarter_second": -22.9
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 1.6,
+    "l08": 0.0,
+    "l09": 0.0,
+    "l10": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 11.9,
+      "phone_band_voice_minus_all_db": 15.5,
+      "voice_minus_score_db": 12.4
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 10.9,
+      "phone_band_voice_minus_all_db": 9.9,
+      "voice_minus_score_db": 11.2
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 11.8,
+      "phone_band_voice_minus_all_db": 9.8,
+      "voice_minus_score_db": 11.9
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 8.8,
+      "phone_band_voice_minus_all_db": 11.2,
+      "voice_minus_score_db": 9.8
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 8.8,
+      "phone_band_voice_minus_all_db": 12.5,
+      "voice_minus_score_db": 9.5
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 6.1,
+      "phone_band_voice_minus_all_db": 9.6,
+      "voice_minus_score_db": 6.5
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 5.0,
+      "phone_band_voice_minus_all_db": 9.0,
+      "voice_minus_score_db": 6.5
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 6.0,
+      "phone_band_voice_minus_all_db": 9.4,
+      "voice_minus_score_db": 6.1
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 5.5,
+      "phone_band_voice_minus_all_db": 9.9,
+      "voice_minus_score_db": 5.9
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 8.6,
+      "phone_band_voice_minus_all_db": 8.8,
+      "voice_minus_score_db": 9.8
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.0,
+    "music_minus_voice_in_gaps_db": -4.4,
+    "music_share_of_gaps_seconds": 11.1
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

@@ -22,7 +22,7 @@ OUT = ROOT / 'public/assets/audio/ep13-half-v1/voice'
 OUT.mkdir(parents=True, exist_ok=True)
 TAKE = ROOT / 'public/assets/audio/eleven-takes/ep13-take1.mp3'
 SR = es.SR
-TEMPO = 1.0
+TEMPO = 1.04
 SYL_PER_S = 4.2
 
 # every line of the take, in order (the split needs all of them)
@@ -45,12 +45,12 @@ PLAN = [
     ('l02', 1, 0.7, 'a Visayan barrio at night: nipa huts on stilts, coconut trees, the moon'),
     ('l03', 2, 0.6, 'by day: a neighbour woman at her gate, waving (the same skirt)'),
     ('l04', 3, 0.8, 'night, the grove: the upper half lifts away from the lower, wings unfolding, against the moon'),
-    ('l05', 4, 0.8, 'a winged shape crosses the moon towards a hut; inside, a pregnant woman asleep, her husband awake with a bolo'),
-    ('l06', 5, 1.0, 'wings outside; a shadow across the capiz window; the gasera flame leans towards the roof'),
+    ('l05', 4, 0.7, 'a winged shape crosses the moon towards a hut; inside, a pregnant woman asleep, her husband awake with a bolo'),
+    ('l06', 5, 0.8, 'wings outside; a shadow across the capiz window; the gasera flame leans towards the roof'),
     ('l07', 6, 0.9, 'the husband keeps his eyes down; a long tongue lowers between the nipa thatch'),
-    ('l08', 7, 3.0, 'held silence; he looks at the window: her face in the broken capiz pane, wings spread outside, lit by the lamp (stinger in silence)'),
+    ('l08', 7, 2.8, 'held silence; he looks at the window: her face in the broken capiz pane, wings spread outside, lit by the lamp (stinger in silence)'),
     ('l09', 8, 1.0, 'he runs down the ladder into the grove with a jar of salt; the legs are still standing; he pours'),
-    ('l10', 9, 1.2, 'wings beat behind him; a scream far off; silence; dawn: the legs fallen in the grass'),
+    ('l10', 9, 1.0, 'wings beat behind him; a scream far off; silence; dawn: the legs fallen in the grass'),
 ]
 TAIL = 1.6
 

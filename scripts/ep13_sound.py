@@ -123,7 +123,7 @@ SUB = L['l06']['end'] + 0.35
 LOOP_ON = DUR - 1.6
 STINGERS = [REVEAL]
 DAY = (L['l03']['start'] - 0.3, L['l04']['start'] - 0.4)
-INSIDE = [(mid(L['l05']) + 0.4, RUN), (L['l10']['end'] + 0.1, LOOP_ON)]
+INSIDE = [(mid(L['l05']) + 0.4, RUN), (L['l10']['start'] + 1.4, LOOP_ON)]
 WINGS_PASS = L['l06']['start'] + 0.2  # the wings pass outside the capiz: the insects stop here
 
 

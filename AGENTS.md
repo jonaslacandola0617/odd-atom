@@ -2,7 +2,7 @@
 
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
-  - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. The free tier is often "busy": the user chose retries every 30 min, at most 4, one attempt per check-in.
+  - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. **From 2026-11-11 (Episode 13) the user has a paid ElevenLabs Starter account (a new account):** flows from the old account (for example `L6hejcAiUNKAfyBLB3C3`) return "no access to this template", so start a new flow. Free-tier "busy" refusals should be rare now. If one happens, the user's earlier rule still applies: retry every 30 min, at most 4 times, one attempt per check-in.
   - **Horror standard:** the new "Season 2 horror standard" in `docs/production/EPISODE_PLAYBOOK.md`. Key points: a dark key (≤45/255 per shot) with motivated light, one clear lit reveal, the entity kit `src/horror/entities.tsx` (WhiteLady, `flicker`, `handheld`), Filipino settings and ambience, and long silences before stingers.
   - **Status:** none has user approval of the episode or a listening pass.
 
@@ -27,6 +27,17 @@
   - **Delivery:** `assets/videos/ep12-tiktik-v1/`. Notes (with English subtitles) are in `docs/production/ep12-tiktik/README.md`; the publishing kit is `docs/publishing/ep12/README.md` and `docs/publishing/POSTS-ep11-20.md`.
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 13 "Half of Her" (manananggal, folklore).
+
+- **Episode 13 "Half of Her" (2026-11-11):** the user asked for the "next ep" ("Even i get scared with these"). It is folklore: the manananggal. `Ep13HalfOfHer` / `src/horror/ep13/` is 59.9 s, in Taglish.
+  - **World:** a nipa hut on stilts with a broken capiz window, a gasera, the wife asleep, the husband with a bolo, a banana grove and a big moon.
+  - **Entity kit:** `Manananggal` (whole / lower / winged upper; the waist is a clean black void) and `Villager` were added to `src/horror/entities.tsx`.
+  - **Story and picture:** the legs standing alone in the grove (the hook); the kind neighbour by day in the same patadyong; her upper half rising against the moon; the wings; the flame leaning; "Huwag kang titingala"; 1.35 s of silence and a tongue that stops above the sleeping wife; one lit reveal of her face in the broken capiz, lit from below; the run and the salt; a far shriek; the legs fallen at dawn; the wife safe; the loop.
+  - **Care:** no named town (no Capiz); the pregnant woman is never harmed.
+  - **Voice:** Juanito; the first take on the user's new Starter account, both takes (1,616 credits), with atempo 1.04 to fit 60 s.
+  - **Sound:** presence −12.0 / −4.4 dB, lines 5.0–11.9 dB (l07 lifted 1.6 dB), −14.0 LUFS, decoded peak −1.25 dBFS, bed seam −25.9 / −25.0 dBFS.
+  - **Delivery:** `assets/videos/ep13-half-v1/`. Notes (with English subtitles) are in `docs/production/ep13-half/README.md`; the publishing kit is `docs/publishing/ep13/README.md` and `docs/publishing/POSTS-ep11-20.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 14 "The Guests of Dominican Hill" (Diplomat Hotel, Baguio; reported legend).
 
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
