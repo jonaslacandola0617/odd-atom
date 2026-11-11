@@ -1,0 +1,139 @@
+{
+  "episode": "Ep16WardThree",
+  "duration_seconds": 58.792,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep16-take1.mp3",
+    "sha256": "c813bb754f5b42e371e16b921d7e2f1fb4d54ecc1307ff4ee670b596fa12f3db",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (library voice, Filipino)",
+    "credits": [],
+    "prompt": "docs/production/ep16-ward/prompt.json"
+  },
+  "original_synthesis": [
+    "score (scripts/horror_score.py): D#2/A#2 mid-band drone; tremolo string clusters; the music-box theme detuned; a heartbeat 64-120 bpm through the viewfinder; a riser into \"Huwag mong aalisin\"; one stinger in silence (she lifts her head); bowed metal for the back seat",
+    "the hospital: draught moan, drips, whispers on empty floors, a far scream; outside: crickets, the city hum, far dogs",
+    "the legend: wheelchair squeaks (across the loop seam), seven pebble clicks with bounces, the camcorder motor, breathing, the camcorder overloading, a tape warble; running in grass, engine and road, brakes, a breath from the back seat"
+  ],
+  "real_recordings_used": false,
+  "library_cues": {
+    "wheel_roll": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wheel_roll_v1.flac",
+      "sha256": "c610336c541af218fb3170640b927b561332f0767fd1a152a4c80693b7b905ea"
+    },
+    "perspective_whip": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_perspective_whip_v1.flac",
+      "sha256": "cf59cbedffd1617bf3962f9c4f6e151ca84d91a86a3bbbe048d8375ee4eba211"
+    },
+    "tape_reel_start": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/archive/CB_ARCHIVE_tape_reel_start_v1.flac",
+      "sha256": "223eb3f4390eb7b812fbf54043ec422eb5d446e040a5ff883026b995818dc33f"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "lost_signal": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/science/CB_SCIENCE_lost_signal_v1.flac",
+      "sha256": "f2d880e3f831814f233c6b8bad9ad2928ef1e5b9bf3e487cfe03358fe0b395d6"
+    },
+    "steel_latch": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_steel_latch_v1.flac",
+      "sha256": "88fa8039b4d1955a73d35980c8cb95840ee799874ad090442035a59ab911182b"
+    }
+  },
+  "stingers": [
+    46.354
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.5,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -18.7,
+    "last_quarter_second": -17.8
+  },
+  "limiter": "tanh soft limiter, ceiling -5.54 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.9,
+    "l09": 0.0,
+    "l10": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 10.8,
+      "phone_band_voice_minus_all_db": 17.8,
+      "voice_minus_score_db": 11.1
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 10.7,
+      "phone_band_voice_minus_all_db": 15.6,
+      "voice_minus_score_db": 10.8
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 7.8,
+      "phone_band_voice_minus_all_db": 7.5,
+      "voice_minus_score_db": 7.8
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 9.2,
+      "phone_band_voice_minus_all_db": 14.3,
+      "voice_minus_score_db": 9.2
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 8.6,
+      "phone_band_voice_minus_all_db": 11.8,
+      "voice_minus_score_db": 9.0
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 6.9,
+      "phone_band_voice_minus_all_db": 8.9,
+      "voice_minus_score_db": 8.0
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 5.8,
+      "phone_band_voice_minus_all_db": 11.4,
+      "voice_minus_score_db": 5.9
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 5.0,
+      "phone_band_voice_minus_all_db": 10.3,
+      "voice_minus_score_db": 5.3
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 8.2,
+      "phone_band_voice_minus_all_db": 9.3,
+      "voice_minus_score_db": 9.1
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 5.8,
+      "phone_band_voice_minus_all_db": 7.2,
+      "voice_minus_score_db": 5.9
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.9,
+    "music_minus_voice_in_gaps_db": -3.6,
+    "music_share_of_gaps_seconds": 10.1
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

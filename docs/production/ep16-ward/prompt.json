@@ -1,0 +1,18 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Abandonado na raw ang ospital na 'to. Pero hindi raw ito kailanman naging bakante. [long pause] [softly] Clark, Pampanga. Halos isang siglo, base militar ng mga dayuhan. [long pause] Nang magsara ang base, naiwan ang ospital. [long pause] Tapos, nagsimula ang mga kuwento. Mga boses sa mga palapag na walang tao. Mga sigaw sa damuhan. [long pause] Sabi ng mga bumibisita, may bumabato sa kanila. Mula sa dilim. Pero walang tao. [long pause] Dumating ang mga ghost hunter, may dalang camera. Pati mga taga-TV. [long pause] Marami raw ang nakakita ng nurse na nakaputi, sa pagitan ng mga kama. [long pause] [whispers] Huwag mong aalisin ang tingin mo sa kanya. [long pause] [softly] Sa kalsada sa labas, sabi ng mga driver, may babaeng nakaputi na tumatawid sa harap ng sasakyan nila... [long pause] [whispers] ...o nakaupo sa likod nila.",
+    "flow_id": "nqLt9VBJgacgT4BdIK7p",
+    "attempts": [
+      "2026-11-11, Starter account: both takes started at once (847 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep16-take1.mp3: 59.76 s, 847 credits (used)",
+      "public/assets/audio/eleven-takes/ep16-take2.mp3: 63.04 s, 847 credits (kept, unused)"
+    ],
+    "processing": "split into 10 lines, pauses inside a line capped at 0.45 s, no tempo change; the timeline (58.8 s) was built from the real line lengths"
+  },
+  "script_source": "docs/stories/season-2-philippines.md #16 (reported legend: the abandoned hospital at the former Clark Air Base), Taglish version for Juanito"
+}

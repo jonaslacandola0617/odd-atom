@@ -16,6 +16,7 @@ Season 2 is Philippine ghost stories with Taglish narration (Juanito) and Taglis
 | 13 | Half of Her | folklore (manananggal) | `assets/videos/ep13-half-v1/ep13-half-of-her.mp4` | 59.9 s |
 | 14 | The Guests of Dominican Hill | reported legend | `assets/videos/ep14-hill-v1/ep14-the-guests-of-dominican-hill.mp4` | 55.3 s |
 | 15 | Don't Pick Up the Baby | folklore (tiyanak) | `assets/videos/ep15-baby-v1/ep15-dont-pick-up-the-baby.mp4` | 54.2 s |
+| 16 | Ward Three | reported legend | `assets/videos/ep16-ward-v1/ep16-ward-three.mp4` | 58.8 s |
 
 ---
 
@@ -146,3 +147,29 @@ kapag may narinig kang umiiyak na sanggol sa damuhan sa gabi… huwag kang hihin
 - **Cover text:** `HUWAG KANG HIHINTO` (the bundle at frame 0).
 - **Pinned comment:** `Tingnan mo ang windshield sa 0:50. At sa likod ng jeep.`
 - **Care:** folklore told with respect; the creature is not a baby; no jokes about real infants, pregnancy loss or abortion; never blame mothers; drivers are decent. Full kit: `docs/publishing/ep15/README.md`.
+
+---
+
+## Broadcast 16: Ward Three (reported legend)
+
+**YouTube title:** `Huwag mong aalisin ang tingin mo sa nurse sa Ward 3`
+Alternative: `Every time the camera looked away, she was three beds closer`
+
+**YouTube description**
+```
+Clark, Pampanga. Nang magsara ang base, naiwan ang ospital. Sabi ng mga bumibisita: mga boses, mga bato mula sa dilim, at isang nurse na nakaputi sa pagitan ng mga kama. Huwag mong aalisin ang tingin mo sa kanya.
+
+Bilangin mo ang mga bato. 👀
+
+Broadcast 16 · After Sign-Off. Kilalang kuwento ng multo, ginawa sa low-poly 3D. Mga ulat at alamat lamang ang mga kababalaghan. Huwag pumasok nang walang pahintulot.
+#Clark #Pampanga #kwentongkatatakutan #pinoyhorror #ghoststory #shorts
+```
+**YouTube pinned comment:** `Ano kaya ang narinig nila sa tape? 📼 Taga-Pampanga ka ba? Ano ang kuwento ng ospital sa inyo?`
+
+**TikTok caption**
+```
+sa abandonadong ospital sa clark… huwag mong aalisin ang tingin mo sa nurse 👀 #clark #pampanga #kwentongkatatakutan #pinoyhorror #ghoststory #fyp #fypシ
+```
+- **Cover text:** `HUWAG KANG TITINGIN SA IBA` (the night-vision nurse, about 0:38).
+- **Pinned comment:** `Ilan ang bato sa sahig sa 0:38? Ilan ang ibinato?`
+- **Care:** a reported legend; the nurse is not a real person; no trespass dares; no US-bases politics. Full kit: `docs/publishing/ep16/README.md`.

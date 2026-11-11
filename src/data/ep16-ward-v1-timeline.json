@@ -1,0 +1,89 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 58.792,
+  "duration_frames": 1764,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Abandonado na raw ang ospital na 'to. Pero hindi raw ito kailanman naging bakante.",
+      "start": 0.15,
+      "end": 5.445,
+      "kind": "narrator",
+      "beat_before": "hook: a flashlight down a black corridor; a wheelchair at the end turning to face us"
+    },
+    {
+      "id": "l02",
+      "text": "Clark, Pampanga. Halos isang siglo, base militar ng mga dayuhan.",
+      "start": 6.145,
+      "end": 11.804,
+      "kind": "narrator",
+      "beat_before": "the long low hospital in tall grass at night, the sky orange from the city"
+    },
+    {
+      "id": "l03",
+      "text": "Nang magsara ang base, naiwan ang ospital.",
+      "start": 12.404,
+      "end": 15.382,
+      "kind": "narrator",
+      "beat_before": "closer: broken windows, the overgrown entrance"
+    },
+    {
+      "id": "l04",
+      "text": "Tapos, nagsimula ang mga kuwento. Mga boses sa mga palapag na walang tao. Mga sigaw sa damuhan.",
+      "start": 16.082,
+      "end": 23.703,
+      "kind": "narrator",
+      "beat_before": "inside: peeling paint, the WARD 3 sign, beds without mattresses"
+    },
+    {
+      "id": "l05",
+      "text": "Sabi ng mga bumibisita, may bumabato sa kanila. Mula sa dilim. Pero walang tao.",
+      "start": 24.503,
+      "end": 30.857,
+      "kind": "narrator",
+      "beat_before": "pebbles click on the floor behind them"
+    },
+    {
+      "id": "l06",
+      "text": "Dumating ang mga ghost hunter, may dalang camera. Pati mga taga-TV.",
+      "start": 31.457,
+      "end": 36.102,
+      "kind": "narrator",
+      "beat_before": "the ghost hunters at the entrance with a camcorder"
+    },
+    {
+      "id": "l07",
+      "text": "Marami raw ang nakakita ng nurse na nakaputi, sa pagitan ng mga kama.",
+      "start": 36.802,
+      "end": 41.548,
+      "kind": "narrator",
+      "beat_before": "night-vision viewfinder: a nurse in white between the beds at the far end, head bowed"
+    },
+    {
+      "id": "l08",
+      "text": "Huwag mong aalisin ang tingin mo sa kanya.",
+      "start": 42.348,
+      "end": 44.804,
+      "kind": "narrator",
+      "beat_before": "look away, look back: three beds closer; again"
+    },
+    {
+      "id": "l09",
+      "text": "Sa kalsada sa labas, sabi ng mga driver, may babaeng nakaputi na tumatawid sa harap ng sasakyan nila...",
+      "start": 47.704,
+      "end": 54.958,
+      "kind": "narrator",
+      "beat_before": "held silence; she lifts her head in the viewfinder (stinger in silence); the tape tears; running to the car"
+    },
+    {
+      "id": "l10",
+      "text": "...o nakaupo sa likod nila.",
+      "start": 55.458,
+      "end": 57.192,
+      "kind": "narrator",
+      "beat_before": "in the car: the back seat, a white sleeve"
+    }
+  ]
+}

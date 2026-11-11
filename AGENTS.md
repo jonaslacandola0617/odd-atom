@@ -64,6 +64,18 @@
   - **Status:** no user approval and no listening pass (the synthesized cry is unheard).
   - **Next in the season order:** Episode 16 "Ward Three" (reported legend, Clark).
 
+- **Episode 16 "Ward Three" (2026-11-11):** the user asked for the "next ep". It is a reported legend: the abandoned hospital of the former Clark Air Base, Angeles, Pampanga. `Ep16WardThree` / `src/horror/ep16/` is 58.8 s, in Taglish.
+  - **World:** a long low hospital in tall weeds (front corridor with a wheelchair; Ward 3 with bare bed frames, peeling two-tone paint and a clock stopped at 3:07), three faceless ghost hunters, their car; the road and land are Episode 15's, with an orange city glow (`Land city`).
+  - **Entity kit:** `Nurse` was added to `src/horror/entities.tsx` (an old white uniform and cap; head bowed under black hair, or lifted with the face full and eyes all white).
+  - **Picture:** a camcorder night-vision viewfinder (an infrared light at the camera, an SVG green matrix, REC/NIGHT/timecode UI); the nurse is three beds closer each time the camera looks back.
+  - **Lesson:** the PS1 shader lights per vertex, so a large floor box under a flashlight stays black; subdivide big surfaces that a spotlight must light. Exterior cameras must stand above or outside the 1.8 m cogon.
+  - **Care:** a reported legend; the nurse is not a real person; no era is given (sources differ); no trespass call; no US–PH politics.
+  - **Voice:** Juanito, both takes at once (1,694 credits; take 1 used).
+  - **Sound:** presence −12.9 / −3.6 dB, lines ≥5.0 dB (l08 +0.9), −14.0 LUFS, decoded peak −1.5 dBFS, bed seam −18.7 / −17.8 dBFS.
+  - **Delivery:** `assets/videos/ep16-ward-v1/`. Notes (with English subtitles) are in `docs/production/ep16-ward/README.md`; the publishing kit is `docs/publishing/ep16/README.md` and `docs/publishing/POSTS-ep11-20.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 17 "The Road That Wouldn't End" (tikbalang, folklore).
+
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).

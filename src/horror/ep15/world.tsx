@@ -109,6 +109,7 @@ const useMats = () =>
 			house: bas('#ffb860'),
 			skyNight: sky('#010204', '#06080c', '#121822'),
 			skyDawn: sky('#6a707c', '#9a9ca0', '#b4b0a8'),
+			skyCity: sky('#020306', '#140c0a', '#4a2414'),
 			body: lam('#9aa0a6'),
 			chrome: lam('#c8ccd0'),
 			red: lam('#8a1e1e'),
@@ -218,7 +219,7 @@ const Grass: React.FC<{t: number; wind: number}> = ({t, wind}) => {
 	return <mesh geometry={geo} material={m.grass} />;
 };
 
-export const Land: React.FC<{t: number; dawn: boolean; wind?: number}> = ({t, dawn, wind = 1}) => {
+export const Land: React.FC<{t: number; dawn: boolean; wind?: number; city?: boolean}> = ({t, dawn, wind = 1, city = false}) => {
 	const m = useM();
 	const palms = useMemo(() => {
 		const r = rng(808);
@@ -235,7 +236,7 @@ export const Land: React.FC<{t: number; dawn: boolean; wind?: number}> = ({t, da
 	}, []);
 	return (
 		<group>
-			<mesh material={dawn ? m.skyDawn : m.skyNight}>
+			<mesh material={dawn ? m.skyDawn : city ? m.skyCity : m.skyNight}>
 				<sphereGeometry args={[420, 16, 10]} />
 			</mesh>
 			<Box p={[0, -0.05, 0]} s={[6.4, 0.1, 400]} m={m.road} />

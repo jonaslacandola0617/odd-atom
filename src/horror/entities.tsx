@@ -816,3 +816,130 @@ export const Tiyanak: React.FC<{t: number; open?: number; cry?: number; grin?: n
 		</group>
 	);
 };
+
+/**
+ * A nurse in an old white uniform (the Clark hospital legend): yellowed knee-length dress, short
+ * sleeves, a folded cap, pale stockings; arms hang a little too long. Head bowed (bow 1), black hair
+ * falls over the face; head up (bow 0), the face is full: grey-white, sunken cheeks, eyes all white.
+ * No wound, no gore.
+ */
+export const Nurse: React.FC<{t: number; bow?: number; position?: [number, number, number]; rotation?: [number, number, number]; scale?: number}> = ({t, bow = 1, position = [0, 0, 0], rotation = [0, 0, 0], scale = 1}) => {
+	const m = useMemo(
+		() => ({
+			dress: lam('#d4d0c2'),
+			stain: lam('#a8a290'),
+			skin: lam('#b8b4a8'),
+			shade: lam('#7a766c'),
+			hair: lam('#0e0e12'),
+			eye: bas('#f4f4ee'),
+			rim: bas('#1a1414'),
+			mouth: bas('#080404'),
+			shoe: lam('#e0ded6'),
+			button: lam('#4a4640'),
+		}),
+		[],
+	);
+	const strands = useMemo(() => {
+		const r = rng(1616);
+		return Array.from({length: 30}, (_, i) => {
+			const side = i % 2 ? 1 : -1;
+			const front = i < 12;
+			return {x: front ? (r() - 0.5) * 0.12 : side * (0.06 + r() * 0.04), z: front ? 0.09 + r() * 0.02 : -0.02 - r() * 0.07, len: 0.3 + r() * 0.25, ph: r() * 6, front};
+		});
+	}, []);
+	const sway = Math.sin(t * 0.9) * 0.01;
+	return (
+		<group position={position} rotation={rotation} scale={scale}>
+			{[-0.07, 0.07].map((x) => (
+				<group key={x}>
+					<mesh position={[x, 0.24, 0]} material={m.skin}>
+						<boxGeometry args={[0.085, 0.46, 0.09]} />
+					</mesh>
+					<mesh position={[x, 0.03, 0.03]} material={m.shoe}>
+						<boxGeometry args={[0.09, 0.06, 0.2]} />
+					</mesh>
+				</group>
+			))}
+			<mesh position={[0, 0.74, 0]} material={m.dress}>
+				<cylinderGeometry args={[0.17, 0.26, 0.6, 10]} />
+			</mesh>
+			<mesh position={[0.05, 0.62, 0.2]} rotation={[0.2, 0, 0]} material={m.stain}>
+				<boxGeometry args={[0.1, 0.16, 0.02]} />
+			</mesh>
+			<mesh position={[0, 1.21 + sway, 0]} material={m.dress}>
+				<boxGeometry args={[0.34, 0.5, 0.2]} />
+			</mesh>
+			{[1.36, 1.26, 1.16].map((y) => (
+				<mesh key={y} position={[0, y, 0.102]} material={m.button}>
+					<boxGeometry args={[0.018, 0.018, 0.006]} />
+				</mesh>
+			))}
+			<mesh position={[0, 1.02, 0.102]} material={m.stain}>
+				<boxGeometry args={[0.34, 0.035, 0.006]} />
+			</mesh>
+			{[-1, 1].map((sd) => (
+				<group key={sd} position={[sd * 0.21, 1.4, 0]} rotation={[0, 0, sd * 0.05]}>
+					<mesh position={[0, -0.1, 0]} material={m.dress}>
+						<boxGeometry args={[0.1, 0.22, 0.11]} />
+					</mesh>
+					<mesh position={[0, -0.47, 0]} material={m.skin}>
+						<boxGeometry args={[0.065, 0.56, 0.065]} />
+					</mesh>
+					{[-0.016, 0, 0.016].map((x) => (
+						<mesh key={x} position={[x, -0.8, 0.01]} material={m.shade}>
+							<boxGeometry args={[0.01, 0.11, 0.01]} />
+						</mesh>
+					))}
+				</group>
+			))}
+			<mesh position={[0, 1.5, 0]} material={m.skin}>
+				<boxGeometry args={[0.07, 0.09, 0.07]} />
+			</mesh>
+			{/* the head: bowed forward under its hair, or lifted with the face full */}
+			<group position={[0, 1.53, 0]} rotation={[bow * 0.85, 0, 0]}>
+				<group position={[0, 0.12, 0.01]}>
+					<mesh scale={[0.85, 1.12, 0.92]} material={m.skin}>
+						<icosahedronGeometry args={[0.1, 1]} />
+					</mesh>
+					{/* sunken cheeks, white eyes with dark rims, a dark open mouth */}
+					{[-1, 1].map((sd) => (
+						<group key={sd}>
+							<mesh position={[sd * 0.034, 0.018, 0.084]} material={m.rim}>
+								<boxGeometry args={[0.042, 0.026, 0.01]} />
+							</mesh>
+							<mesh position={[sd * 0.034, 0.018, 0.09]} material={m.eye}>
+								<boxGeometry args={[0.03, 0.016, 0.006]} />
+							</mesh>
+							<mesh position={[sd * 0.05, -0.035, 0.07]} material={m.shade}>
+								<boxGeometry args={[0.02, 0.04, 0.02]} />
+							</mesh>
+						</group>
+					))}
+					<mesh position={[0, -0.01, 0.094]} material={m.shade}>
+						<boxGeometry args={[0.016, 0.03, 0.012]} />
+					</mesh>
+					<mesh position={[0, -0.06, 0.086]} material={m.mouth}>
+						<boxGeometry args={[0.036, 0.022, 0.012]} />
+					</mesh>
+					{/* the folded cap */}
+					<group position={[0, 0.1, -0.01]} rotation={[-0.35, 0, 0]}>
+						<mesh material={m.dress}>
+							<boxGeometry args={[0.16, 0.05, 0.09]} />
+						</mesh>
+						<mesh position={[0, 0.03, -0.03]} rotation={[0.5, 0, 0]} material={m.dress}>
+							<boxGeometry args={[0.15, 0.03, 0.06]} />
+						</mesh>
+					</group>
+					{/* black hair: down the back and sides; over the face while the head is bowed */}
+					{strands.map((s, i) =>
+						s.front && bow < 0.5 ? null : (
+							<mesh key={i} position={[s.front ? s.x : s.x, 0.06 - s.len / 2, s.z]} rotation={[s.front ? -bow * 0.6 : 0.05, 0, Math.sin(t * 0.7 + s.ph) * 0.04]} material={m.hair}>
+								<boxGeometry args={[0.02, s.len, 0.01]} />
+							</mesh>
+						),
+					)}
+				</group>
+			</group>
+		</group>
+	);
+};

@@ -423,6 +423,18 @@ Taglish: "Abandonado na raw ang ospital na 'to… pero hindi raw ito kailanman n
 8. Exterior: the group running to the car. In the car, the back seat. **A white sleeve.**
 9. Loop: the corridor, the wheelchair.
 
+**Narration (Taglish, for Juanito):**
+1. Abandonado na raw ang ospital na 'to. Pero hindi raw ito kailanman naging bakante.
+2. Clark, Pampanga. Halos isang siglo, base militar ng mga dayuhan.
+3. Nang magsara ang base, naiwan ang ospital.
+4. Tapos, nagsimula ang mga kuwento. Mga boses sa mga palapag na walang tao. Mga sigaw sa damuhan.
+5. Sabi ng mga bumibisita, may bumabato sa kanila. Mula sa dilim. Pero walang tao.
+6. Dumating ang mga ghost hunter, may dalang camera. Pati mga taga-TV.
+7. Marami raw ang nakakita ng nurse na nakaputi, sa pagitan ng mga kama.
+8. Huwag mong aalisin ang tingin mo sa kanya.
+9. Sa kalsada sa labas, sabi ng mga driver, may babaeng nakaputi na tumatawid sa harap ng sasakyan nila...
+10. ...o nakaupo sa likod nila.
+
 **Narration (English draft):**
 1. People say this hospital was abandoned. They say it was never empty.
 2. Clark, Pampanga. For almost a century, a foreign air base.
