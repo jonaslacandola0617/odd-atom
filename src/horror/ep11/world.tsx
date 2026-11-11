@@ -55,7 +55,7 @@ const useMats = () =>
 			bead: lam('#8a2a2a'),
 			cross: lam('#c8b878'),
 			petal: bas('#f4f2e8'),
-			wet: bas('#0a0a0c', {transparent: true, opacity: 0.55, depthWrite: false}),
+			wet: bas('#0a0a0c', {transparent: true, opacity: 0.32, depthWrite: false}),
 			driverSkin: lam('#7a5a44'),
 			driverShirt: lam('#4e6680'),
 			driverHair: lam('#0e0c0c'),
@@ -291,7 +291,7 @@ export const Taxi: React.FC<{rosary: number; pull: number; meter: string; meterO
 				<Box key={i} p={[p.x, 0.535, p.z]} s={[0.03, 0.006, 0.02]} m={m.petal} r={[0, p.ry, 0]} />
 			))}
 			{wet > 0 && (
-				<mesh position={[-0.05, 0.534, -0.72]} rotation={[-Math.PI / 2, 0, 0]} material={m.wet} scale={0.6 + wet * 0.4}>
+				<mesh position={[-0.05, 0.534, -0.72]} rotation={[-Math.PI / 2, 0, 0]} material={m.wet} scale={0.45 + wet * 0.2}>
 					<circleGeometry args={[0.2, 12]} />
 				</mesh>
 			)}

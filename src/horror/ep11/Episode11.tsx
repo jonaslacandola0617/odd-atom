@@ -81,7 +81,7 @@ const SHOTS: Shot[] = [
 	{id: 'F_road', t: L.l06.end + 0.12, mode: 'cab', from: {p: [-0.38, 1.12, 0.15], l: [-0.2, 0.9, 30]}, fov: 54, hand: 0.4},
 	{id: 'F_mirror2', t: L.l07.start, mode: 'mirror', from: MIRROR_B, fov: 46},
 	{id: 'G_push', t: K.silence, mode: 'mirror', from: MIRROR_B, to: MIRROR_FACE, fov: 40},
-	{id: 'H_turn', t: K.turn, mode: 'cab', from: {p: [0.32, 1.1, 0.2], l: [0.5, 1.0, 3]}, to: {p: [0.3, 1.08, 0.15], l: [-0.35, 0.6, -0.75]}, fov: 56, hand: 1.0},
+	{id: 'H_turn', t: K.turn, mode: 'cab', from: {p: [0.0, 1.22, 0.3], l: [0.1, 1.0, 3]}, to: {p: [0.0, 1.3, 0.2], l: [-0.05, 0.5, -0.8]}, fov: 62, hand: 1.0},
 	{id: 'I_high', t: L.l08.start + 3.6, mode: 'street', from: {p: [-9, 16, -26], l: [0, 0, 10]}, to: {p: [-8, 15, -20], l: [0, 0, 14]}, fov: 50},
 	{id: 'J_ahead', t: L.l09.end + 0.3, mode: 'cab', from: {p: [0.05, 1.14, -0.3], l: [0.4, 1.4, 40]}, to: {p: [0.05, 1.14, -0.2], l: [0.9, 1.6, 40]}, fov: 50, hand: 0.4},
 	{id: 'A_loop', t: K.loopOn, mode: 'mirror', from: MIRROR_A, to: MIRROR_B, fov: 46},
