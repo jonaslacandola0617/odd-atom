@@ -178,7 +178,28 @@ python3 scripts/caption_check.py src/data/ep13-half-v1-timeline.json assets/vide
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 48.2 MB; sha256 `7b1f4d5a31efb6536d4ad7bab3e3b22bf83f18cf1e8ed556251de893e1dc3502`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,796 frames at 30 fps (59.9 s), 1080×1920, with audio.
+- **Loudness:** −14.0 LUFS measured on the encoded file; decoded sample peak −1.1 dBFS.
+- **Loop:** the last frame differs from frame 0 by 0.71/255 in mean absolute luma (the hook's own frame-to-frame motion is 0.18: a slow move in a dark frame). That is under one luma level on average, mostly tape noise.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. All of these read:
+  - the legs in the grove;
+  - the barrio;
+  - the neighbour by day;
+  - the silhouette against the moon;
+  - the flight;
+  - the room with the wife and husband;
+  - the capiz;
+  - the flame;
+  - "Huwag kang titingala";
+  - the face in the capiz;
+  - the run;
+  - the salt;
+  - predawn;
+  - the fallen legs;
+  - the loop.
+- **Weakest images:** the pour still reads more like a dark drum than a skirt; the barrio wide is very dark; the flight across the moon is small.
+- **Captions:** `scripts/caption_check.py` extracted all 14 caption pages from the encoded file. Each was read against the Taglish script word for word: all are complete.
 
 ## Known limits
 
