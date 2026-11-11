@@ -149,7 +149,27 @@ python3 scripts/caption_check.py src/data/ep15-baby-v1-timeline.json assets/vide
 6. **The last shot** lost the jeepney (the look target swept behind the camera); it is now a fixed framing of the front, with the second bundle placed behind the jeepney.
 7. **The cry** first measured about 17 dB under the score in the gaps (inaudible); it was raised about 15 dB.
 
-ENCODED_REVIEW
+## Review of the encoded file
+
+- **File:** 43.0 MB; sha256 `ba66933e02198711f0406094176fdebf53e80381b0f8ff62290507e90727ae36`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,625 frames at 30 fps (54.2 s), 1080×1920, with audio.
+- **Loudness:** −14.1 LUFS measured on the encoded file; decoded sample peak −1.8 dBFS.
+- **Loop:** the last frame differs from frame 0 by 0.38/255 in mean absolute luma, under one luma level.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. All of these read:
+  - the bundle at the roadside;
+  - the jeepney coming with its headlights;
+  - the cab view over the grass;
+  - the close bundle with its band and hand;
+  - the driver's silhouette in the glare;
+  - him on the bench with it in his arms;
+  - the reveal (the face under the tube);
+  - the dark jeepney;
+  - morning behind the jeepney with the tsinelas;
+  - the shirt;
+  - LAST TRIP and the windshield;
+  - the loop.
+- **Weakest images:** the dark jeepney and the nest are very dark at phone size (the eyeshine and the old cloths are small); the inside-out shirt reads as a green cloth more than as a shirt; the handprints are faint.
+- **Captions:** `scripts/caption_check.py` extracted all 14 caption pages from the encoded file. Each was read against the Taglish script: all are complete.
 
 ## Known limits
 
