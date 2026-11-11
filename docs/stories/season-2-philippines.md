@@ -159,7 +159,21 @@ Taglish: "Pag humihina ang tunog… hindi siya lumalayo. Lumalapit siya."
 8. The bulb flickers. In the flicker, **the face in the gap between roof and wall**: pale, eyes reflecting, a too-wide smile. Stinger in silence.
 9. Black. A rooster crows far too early. The salt line is broken. Loop: the faint "tik… tik…" again.
 
-**Narration (English draft, fiction voice):**
+**Narration (Taglish, for Juanito):**
+1. Pag humihina ang tunog, hindi siya lumalayo. Lumalapit siya.
+2. Sabi ng lola ko, nangangaso raw siya tuwing pista, habang malakas ang videoke at walang nakakarinig sa mga aso.
+3. Nagtali siya ng bawang sa bintana. Nagbuhos siya ng asin sa pasimano.
+4. Tapos narinig namin. Tik-tik. Malakas. "Malayo pa," sabi niya.
+5. Tik… tik. Mahina na.
+6. tik.
+7. Tumigil ang videoke, sa gitna ng kanta.
+8. Hindi gumalaw si Lola. Nakatingin siya sa bubong.
+9. Kinaumagahan, nakakalat ang asin sa pasimano.
+10. Mula sa loob.
+
+The reveal moves to after line 8 (Lola looking at the roof, then what she sees). The child stays asleep and safe at dawn: the scattered salt says something was inside, not that anyone was harmed.
+
+**Narration (English draft, the source of the Taglish):**
 1. If it's getting quieter, it isn't leaving. It's getting closer.
 2. My lola said it hunts on fiesta nights, when the music is loud and nobody hears the dogs.
 3. She tied garlic to the window. She poured salt on the sill.

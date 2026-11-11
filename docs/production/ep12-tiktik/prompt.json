@@ -1,0 +1,14 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Pag humihina ang tunog, hindi siya lumalayo. Lumalapit siya. [long pause] [softly] Sabi ng lola ko, nangangaso raw siya tuwing pista, habang malakas ang videoke at walang nakakarinig sa mga aso. [long pause] Nagtali siya ng bawang sa bintana. Nagbuhos siya ng asin sa pasimano. [long pause] Tapos narinig namin. Tik-tik. Malakas. \"Malayo pa,\" sabi niya. [long pause] [whispers] Tik... tik. Mahina na. [long pause] [whispers] tik. [long pause] [softly] Tumigil ang videoke, sa gitna ng kanta. [long pause] Hindi gumalaw si Lola. Nakatingin siya sa bubong. [long pause] Kinaumagahan, nakakalat ang asin sa pasimano. [long pause] [whispers] Mula sa loob.",
+    "estimate_credits_for_2_takes": 1324,
+    "attempts": [
+      "2026-11-11 11:20 UTC: refused as busy, nothing charged; retry series scheduled (every 30 min, at most 4, the user's rule)"
+    ],
+    "takes": []
+  },
+  "script_source": "docs/stories/season-2-philippines.md #12 (original, built on the tiktik belief), Taglish version for Juanito"
+}
