@@ -1,0 +1,125 @@
+{
+  "episode": "Ep10TheNightTheLakeBreathedOut",
+  "duration_seconds": 59.876,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), one take (the second of the run did not start: busy), split into lines, inner pauses capped at 0.45 s, atempo 1.03",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep10-take1.mp3",
+    "sha256": "19b17f51f5b4b377ff7cda1c7f648e03e4525aa2a2c0808a093e7b4c76ab2c2b",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator",
+    "credits": "945 for the one take that generated (the second of the two did not start)",
+    "prompt": "docs/production/ep10-lake/prompt.json"
+  },
+  "original_synthesis": [
+    "score (scripts/horror_score.py): A2/E3 mid-band drone; tremolo string clusters (A3-Bb3-E4, +F4/Bb4 on the scares); music-box theme clean, detuned and slow-and-flat; reversed swells into the two stingers; heartbeats 66-104 and 70-112 bpm; a riser into the eruption; bowed metal; all of it cut for the held black before dawn",
+    "crater: gusting wind; the lake lapping; four synthesized crickets that stop dead when the lamp goes out; a muffled underwater pressure; the degassing pipe fountain by day",
+    "foley: the rumble, the lake lifting, the plume and the mist pouring over the rim, the lamp dying, bubbles rising through the water, the deep layer letting go, one bubble on the other lake",
+    "loop: drone, strings, wind, lake lap and crickets snapped to whole cycles; the hook and the end are the same night lake"
+  ],
+  "real_recordings_used": false,
+  "library_cues": {
+    "restrained_boom": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_restrained_boom_v1.flac",
+      "sha256": "0f8ed588c6c31aa27d3634ef7b39acb5709831b959bc4366aaa2b9aa282b11fa"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    }
+  },
+  "stingers": [
+    19.222,
+    49.389
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.26,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -22.7,
+    "last_quarter_second": -23.4
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0,
+    "l09": 0.0,
+    "l10": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 12.1,
+      "phone_band_voice_minus_all_db": 12.0,
+      "voice_minus_score_db": 12.8
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 10.1,
+      "phone_band_voice_minus_all_db": 10.2,
+      "voice_minus_score_db": 10.4
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 7.5,
+      "phone_band_voice_minus_all_db": 9.5,
+      "voice_minus_score_db": 11.2
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 5.9,
+      "phone_band_voice_minus_all_db": 7.7,
+      "voice_minus_score_db": 6.8
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 16.8,
+      "phone_band_voice_minus_all_db": 18.5,
+      "voice_minus_score_db": 17.5
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 9.6,
+      "phone_band_voice_minus_all_db": 6.3,
+      "voice_minus_score_db": 9.9
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 9.8,
+      "phone_band_voice_minus_all_db": 11.6,
+      "voice_minus_score_db": 10.7
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 6.9,
+      "phone_band_voice_minus_all_db": 9.6,
+      "voice_minus_score_db": 7.3
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 8.6,
+      "phone_band_voice_minus_all_db": 8.6,
+      "voice_minus_score_db": 10.4
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 11.0,
+      "phone_band_voice_minus_all_db": 12.4,
+      "voice_minus_score_db": 11.6
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.4,
+    "music_minus_voice_in_gaps_db": -3.3,
+    "music_share_of_gaps_seconds": 11.4
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
