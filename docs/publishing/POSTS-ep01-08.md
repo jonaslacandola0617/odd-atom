@@ -1,4 +1,4 @@
-# After Sign-Off: posts for Episodes 1–9 (YouTube Shorts and TikTok)
+# After Sign-Off: posts for Episodes 1–10 (YouTube Shorts and TikTok)
 
 Paste-ready drafts, written 2026-11-11 for the channel identity in `docs/publishing/channel/README.md`. Nothing has been posted. No view counts are guaranteed.
 
@@ -26,6 +26,7 @@ The hidden details, fact notes and moderation rules for each episode are in its 
 | 7 | This Is the Voice of Vrillon | true (1977) | `assets/videos/ep07-vrillon-v1/ep07-the-voice-of-vrillon.mp4` | 59.8 s |
 | 8 | Room Zero | original | `assets/videos/ep08-room-v1/ep08-room-zero.mp4` | 57.8 s |
 | 9 | The Lighthouse That Went Dark | true (1900) | `assets/videos/ep09-lighthouse-v1/ep09-the-lighthouse-that-went-dark.mp4` | 54.3 s |
+| 10 | The Night the Lake Breathed Out | true (1986) | `assets/videos/ep10-lake-v1/ep10-the-night-the-lake-breathed-out.mp4` | 59.9 s |
 
 ---
 
@@ -259,6 +260,32 @@ Broadcast 09 · After Sign-Off. True story (the Flannan Isles lighthouse), recre
 
 ---
 
+## Broadcast 10: The Night the Lake Breathed Out (true)
+
+**YouTube title:** `In one night, this lake breathed out`
+Alternative: `Some lakes are still holding their breath`
+
+**YouTube description**
+```
+21 August 1986, Cameroon. Late at night, Lake Nyos released a huge cloud of carbon dioxide. Heavier than air, it flowed down the valleys below. 1,746 people died that night. Today, pipes draw the gas up from the bottom of the lake.
+
+Watch the lamp in the window. Then listen. 🌫️
+
+Broadcast 10 · After Sign-Off. True story (the Lake Nyos disaster), recreated in low-poly 3D. No people are shown.
+#lakenyos #truestory #science #analoghorror #cameroon #shorts
+```
+**YouTube pinned comment:** `The gas had been building at the bottom for years. Scientists still debate what set it off that night. Which lake do you think is being watched today? 🌫️`
+
+**TikTok caption**
+```
+in 1986 a calm lake released a cloud that flowed down the valley like water 🌫️ #lakenyos #truestory #science #analoghorror #cameroon #fyp
+```
+- **Cover text:** `THE LAKE BREATHED OUT` (the mist pouring down the valley, about 0:23).
+- **Pinned comment:** `Listen to the crickets at 0:27.`
+- **Care:** 1,746 people died, and survivors are living. No curse or monster framing, no jokes, no shock thumbnails; keep the trigger described as debated. Full kit: `docs/publishing/ep10/README.md`.
+
+---
+
 ## Before posting the true cases
 
 The facts were checked from search summaries only; Wikipedia was blocked in this environment. Re-read one full source for each:
@@ -267,3 +294,4 @@ The facts were checked from search summaries only; Wikipedia was blocked in this
 - **Episode 5:** the cedar fire, the May ravine discovery and the "compelling natural force" wording.
 - **Episode 7:** the apology wording and the six-minute figure.
 - **Episode 9:** the oilskins, the west-landing damage and the stopped clock, in the superintendent's report.
+- **Episode 10:** the death toll, the pipe dates and the red water after the eruption.

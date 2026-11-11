@@ -18,6 +18,18 @@
 
 - **Horror re-score of Episodes 1–5 (2026-11-10, same user note):** `scripts/rescore_horror.py` adds the new score over each episode's unchanged stems and muxes it onto the unchanged picture (`-c:v copy`). The new versions are `ep01-moon-v3`, `ep02-mask-v2`, `ep03-snow-v2`, `ep04-night-v2` and `ep05-tent-v2` (MP4s named `*-horror-score.mp4`); earlier versions are kept. In the gaps, the music now sits 5.5–7.9 dB under the voice, against 21–28 dB before. Figures, the tightest lines and loop seams are in `docs/production/horror-rescore/README.md`. None has user approval or a listening pass.
 
+- **Episode 10 "The Night the Lake Breathed Out" (2026-11-11):** the user asked for the "next ep". It is the true story #5 and the season finale: the Lake Nyos limnic eruption, Cameroon, 21 August 1986, with 1,746 deaths and living survivors. `Ep10TheNightTheLakeBreathedOut` / `src/horror/ep10/` is 59.9 s.
+  - **World:** a crater lake (a heightfield with a rim and a notch into the north valley), the village in the valley, the mist, the lake seen from underwater with its deep layer, the degassing pipe and a second lake.
+  - **Story and picture:** the hook on the still night lake; the lamps in the valley; the rumble and the lake lifting; the plume; the mist pouring down the valley; one lamp going out; a held black; the same view at dawn, empty; the red lake; underwater, the deep layer letting go; the pipe today; another lake with one bubble; the loop.
+  - **Care:** no people or animals are shown. The deaths are carried by the lamp, the crickets stopping and the black. The trigger is said to be still debated.
+  - **Hidden details:** five (the lamp, the crickets stopping at the same moment, cold ash, the red lake, a ring on the water across the loop).
+  - **Facts:** from search summaries only.
+  - **Voice:** Jack. The first call was busy (not charged); on the scheduled retry one take of two generated (945 credits).
+  - **Sound:** presence −11.4 / −3.3 dB, every line ≥5.9 dB with no lifts, −14.0 LUFS, decoded peak −1.26 dBFS, seam −22.7 / −23.4 dBFS.
+  - **Delivery:** `assets/videos/ep10-lake-v1/`. Notes are in `docs/production/ep10-lake/README.md`; the publishing kit is `docs/publishing/ep10/README.md` (also added to `docs/publishing/POSTS-ep01-08.md`).
+  - **Status:** no user approval and no listening pass.
+  - **Next:** all ten season-1 stories are now produced. What comes next (a season 2 slate, long-form versions, or posting first) is the user's call.
+
 - **Episode 9 "The Lighthouse That Went Dark" (2026-11-11):** the user asked for the "next ep". It is the true story #3: the Flannan Isles lighthouse, December 1900, with three real men never found. `Ep09TheLighthouseThatWentDark` / `src/horror/ep09/` is 54.3 s.
   - **World:** one island with an animated sea: the tower and the quarters, with the kitchen inside (its west door opens on the real island); the east landing with the bare flagstaff; the west landing with torn railings on the cliff face; a night steamer, the tender and a rowing boat.
   - **Story and picture:** the hook from the rowing boat at the dark tower; the stopped clock (one tick, then nothing); one set of oilskins; the railings; the storm reconstruction; the wave filling the frame, then the empty morning; the doorway at night.

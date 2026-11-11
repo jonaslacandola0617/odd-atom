@@ -1,0 +1,18 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "text": "[softly] Look at this lake. Calm. Blue. [short pause] In one night, it breathed out. [long pause] Cameroon, August, nineteen eighty six. Villages sleep in the valleys below Lake Nyos. [long pause] Late at night, people hear a deep rumble. Some see a white mist rise from the water. [long pause] The mist is carbon dioxide, heavier than air. It pours over the rim and down the valleys, like water. [long pause] [whispers] By morning, the valleys are silent. [long pause] [softly] One thousand, seven hundred and forty six people died that night. Many in their homes. [long pause] For years, gas from deep below had gathered at the bottom of the lake, held down by the weight of the water. [long pause] That night, something disturbed it. Scientists still debate what. [long pause] Today, pipes draw the gas up from the bottom, so it cannot build up like that again. [long pause] [whispers] But other lakes on Earth are still holding their breath.",
+    "estimate_credits_for_2_takes": 1890,
+    "attempts": [
+      "first generation call: refused as busy, nothing charged; a check-in was scheduled instead of retrying in the same turn",
+      "scheduled retry: one of the two takes generated (945 credits); the second did not start"
+    ],
+    "takes": [
+      "ep10-take1.mp3: 58.32 s, 945 credits (used)"
+    ],
+    "processing": "split into 10 lines (scripts/eleven_split.py), pauses inside a line capped at 0.45 s, atempo 1.03 so the episode fits under 60 s"
+  },
+  "script_source": "docs/stories/season-1-shorts.md #5 (true), rewritten with a hook on frame 0 and cut to 10 lines; no people or animals are shown harmed, and the trigger is described as still debated"
+}
