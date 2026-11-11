@@ -1,0 +1,20 @@
+{
+  "model_id": "eleven_v4",
+  "voice_test": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, fil-standard)",
+    "purpose": "Taglish test line for the user to check pronunciation and delivery before any full Season 2 narration is generated",
+    "text": "[softly] Kung dadaan ka sa Balete Drive pagkalipas ng hatinggabi... [short pause] huwag kang titingin sa salamin. [long pause] Sabi ng lola ko, kapag dadaan sa malaking puno ng balete, sabihin mo: tabi tabi po. [long pause] [whispers] Kasi may nakaupo na sa likod mo.",
+    "estimate_credits_for_2_takes": 534,
+    "attempts": [
+      "2026-11-11 06:36 UTC: refused as busy, nothing charged",
+      "06:48 UTC (scheduled): refused as busy, nothing charged",
+      "07:13 UTC (scheduled): refused as busy, nothing charged",
+      "08:47 UTC (user-approved retry series, 1 of 4): refused as busy, nothing charged",
+      "09:18 UTC (series, 2 of 4): one of two takes generated (267 credits); the second did not start (busy)"
+    ],
+    "takes": ["public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3: 18.05 s, 267 credits"],
+    "measured": "line 1 (the hook) runs 0.0-6.1 s, close to the provisional estimate of 6.9 s; pauses 0.9-1.8 s between sentences",
+    "status": "awaiting the user's pronunciation check; no listening pass is possible in this runtime"
+  }
+}
