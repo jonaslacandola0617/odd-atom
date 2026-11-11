@@ -145,7 +145,28 @@ python3 scripts/caption_check.py src/data/ep17-road-v1-timeline.json assets/vide
 4. **The reveal** was small; the creature moved 2.3 m closer and the lens narrowed.
 5. **The engine and the radio** first measured about 17 dB under the score (inaudible); they were raised about 15 dB, and two lines were lifted 0.5 dB to keep their margin.
 
-ENCODED_REVIEW
+## Review of the encoded file
+
+- **File:** 46.0 MB; sha256 `ad305ab26c9afb13ea516b5370d7946221b6f3276192a5f27fdd36c88865335e`.
+- **Audio track:** Remotion's re-encode of the mix peaked at −0.95 dBFS (over the −1 dBFS ceiling), so the delivered MP4 carries `public/assets/audio/ep17-road-v1/mix.m4a` itself, muxed with `ffmpeg -map 0:v -map 1:a -c copy` (the picture is untouched).
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,730 frames at 30 fps (57.7 s), 1080×1920, with audio.
+- **Loudness:** −14.0 LUFS measured on the encoded file; decoded sample peak −1.06 dBFS.
+- **Loop:** the last frame differs from frame 0 by 2.0/255 in mean absolute luma; the hook's own frame-to-frame motion is 1.6 (the camera rides a moving tricycle past the store), so the seam reads as one more frame of the ride.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. All of these read:
+  - over the rider's shoulder, the store in the headlight;
+  - the high wide of the road;
+  - the figure in the bamboo (a dark silhouette);
+  - the tricycle passing the shed;
+  - the store again;
+  - rain under the moon;
+  - the balete;
+  - the stop;
+  - the squatting creature in the beam;
+  - the shirt turned inside out;
+  - dawn with the tricycle by the store;
+  - the loop.
+- **Weakest images:** the figure in the bamboo is deliberately faint; the wide and the balete are very dark; the hoofprints are small at phone size.
+- **Captions:** `scripts/caption_check.py` extracted all 13 caption pages from the encoded file. Each was read against the Taglish script: all are complete.
 
 ## Known limits
 
