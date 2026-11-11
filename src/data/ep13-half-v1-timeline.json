@@ -1,0 +1,89 @@
+{
+  "provisional": true,
+  "fps": 30,
+  "duration_seconds": 61.512,
+  "duration_frames": 1845,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Kapag may nakita kang kalahating babae na nakatayo sa sagingan, huwag kang sisigaw. Hanapin mo ang asin.",
+      "start": 0.15,
+      "end": 8.245,
+      "kind": "narrator",
+      "beat_before": "hook: moonlight in a banana grove, a pair of legs standing, nothing above the waist"
+    },
+    {
+      "id": "l02",
+      "text": "Sa Visayas, sabi nila, may mga babaeng dalawa ang buhay.",
+      "start": 8.945,
+      "end": 12.993,
+      "kind": "narrator",
+      "beat_before": "a Visayan barrio at night: nipa huts on stilts, coconut trees, the moon"
+    },
+    {
+      "id": "l03",
+      "text": "Sa araw, kapitbahay. Mabait. Tahimik.",
+      "start": 13.593,
+      "end": 16.45,
+      "kind": "narrator",
+      "beat_before": "by day: a neighbour woman at her gate, waving (the same skirt)"
+    },
+    {
+      "id": "l04",
+      "text": "Sa gabi, iniiwan niya ang kalahati ng sarili niya.",
+      "start": 17.25,
+      "end": 21.298,
+      "kind": "narrator",
+      "beat_before": "night, the grove: the upper half lifts away from the lower, wings unfolding, against the moon"
+    },
+    {
+      "id": "l05",
+      "text": "Ang kalahati, nagkakapakpak, at naghahanap ng mga natutulog. Lalo na ng mga inang naghihintay ng anak.",
+      "start": 22.098,
+      "end": 30.431,
+      "kind": "narrator",
+      "beat_before": "a winged shape crosses the moon towards a hut; inside, a pregnant woman asleep, her husband awake with a bolo"
+    },
+    {
+      "id": "l06",
+      "text": "Mauuna mong maririnig ang mga pakpak. Tapos, hihilig ang apoy ng gasera papunta sa bubong.",
+      "start": 31.431,
+      "end": 38.336,
+      "kind": "narrator",
+      "beat_before": "wings outside; a shadow across the capiz window; the gasera flame leans towards the roof"
+    },
+    {
+      "id": "l07",
+      "text": "Huwag kang titingala.",
+      "start": 39.236,
+      "end": 40.902,
+      "kind": "narrator",
+      "beat_before": "the husband keeps his eyes down; a long tongue lowers between the nipa thatch"
+    },
+    {
+      "id": "l08",
+      "text": "Lumabas ka. Hanapin mo ang kalahating iniwan niya. Takpan mo ng asin, o abo, o bawang.",
+      "start": 43.902,
+      "end": 50.807,
+      "kind": "narrator",
+      "beat_before": "held silence; he looks at the window: her face in the broken capiz pane, wings spread outside, lit by the lamp (stinger in silence)"
+    },
+    {
+      "id": "l09",
+      "text": "Kapag hindi siya nakabalik bago sumikat ang araw,",
+      "start": 51.807,
+      "end": 55.855,
+      "kind": "narrator",
+      "beat_before": "he runs down the ladder into the grove with a jar of salt; the legs are still standing; he pours"
+    },
+    {
+      "id": "l10",
+      "text": "hindi na siya makakabalik kailanman.",
+      "start": 57.055,
+      "end": 59.912,
+      "kind": "narrator",
+      "beat_before": "wings beat behind him; a scream far off; silence; dawn: the legs fallen in the grass"
+    }
+  ]
+}

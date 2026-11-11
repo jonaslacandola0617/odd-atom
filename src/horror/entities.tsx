@@ -303,7 +303,7 @@ export const Aswang: React.FC<{t: number; smile?: number; eyes?: number; lean?: 
 
 /** A long, thin, wet tongue hanging from `from` (in local space), `len` metres, swaying; segments curl at the tip. */
 export const Tongue: React.FC<{t: number; len: number; position?: [number, number, number]}> = ({t, len, position = [0, 0, 0]}) => {
-	const m = useMemo(() => ({flesh: lam('#4a1e1c'), wet: lam('#6e3430')}), []);
+	const m = useMemo(() => ({flesh: lam('#5a2422'), wet: lam('#a0504a')}), []);
 	const n = 14;
 	const seg = len / n;
 	let x = 0, y = 0, z = 0;
@@ -322,4 +322,241 @@ export const Tongue: React.FC<{t: number; len: number; position?: [number, numbe
 		z = nz;
 	}
 	return <group position={position}>{parts}</group>;
+};
+
+/** A membrane wing: bones radiating from the shoulder, skin stretched between them. flap: -1..1. side: -1 left, 1 right. */
+const Wing: React.FC<{side: number; flap: number; span: number; skin: THREE.Material; bone: THREE.Material}> = ({side, flap, span, skin, bone}) => {
+	const geo = useMemo(() => {
+		// four bone tips (in the wing's local plane, x outward, y up), plus the root at the shoulder
+		const tips = [
+			[0.55, 0.55],
+			[0.95, 0.25],
+			[1.0, -0.15],
+			[0.75, -0.5],
+		].map(([x, y]) => [x * span, y * span]);
+		const pos: number[] = [];
+		for (let i = 0; i < tips.length - 1; i++) {
+			const a = tips[i], b = tips[i + 1];
+			// the membrane between two bones, scalloped inward a little
+			const mid = [(a[0] + b[0]) / 2 * 0.82, (a[1] + b[1]) / 2 * 0.82];
+			pos.push(0, 0, 0, a[0], a[1], 0, mid[0], mid[1], 0);
+			pos.push(0, 0, 0, mid[0], mid[1], 0, b[0], b[1], 0);
+		}
+		// the trailing skin back to the body
+		pos.push(0, 0, 0, tips[3][0], tips[3][1], 0, 0.1 * span, -0.65 * span, 0);
+		const g = new THREE.BufferGeometry();
+		g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+		g.computeVertexNormals();
+		return {g, tips};
+	}, [span]);
+	return (
+		<group scale={[side, 1, 1]} rotation={[0, flap * 0.9, 0]}>
+			<mesh geometry={geo.g} material={skin} />
+			{geo.tips.map(([x, y], i) => {
+				const len = Math.hypot(x, y);
+				return (
+					<mesh key={i} position={[x / 2, y / 2, 0.005]} rotation={[0, 0, Math.atan2(y, x) - Math.PI / 2]} material={bone}>
+						<boxGeometry args={[0.025, len, 0.025]} />
+					</mesh>
+				);
+			})}
+		</group>
+	);
+};
+
+/**
+ * The manananggal. mode:
+ * - 'whole': a neighbour woman by day (blouse, a patterned patadyong skirt, hair in a bun), arm raised in greeting
+ * - 'lower': only the lower half, standing (or fallen at dawn): skirt and legs, the waist a clean black void (no gore)
+ * - 'upper': the upper half in flight: a pale torso ending in a black void at the waist, long hair, the aswang face,
+ *   long arms, and two great membrane wings
+ */
+export const Manananggal: React.FC<{t: number; mode: 'whole' | 'lower' | 'upper'; flap?: number; fallen?: number; smile?: number; wave?: number; position?: [number, number, number]; rotation?: [number, number, number]; scale?: number}> = ({t, mode, flap = 0, fallen = 0, smile = 0.8, wave = 0, position = [0, 0, 0], rotation = [0, 0, 0], scale = 1}) => {
+	const m = useMemo(
+		() => ({
+			skirt: lam('#7a2e3a'),
+			skirt2: lam('#3a2a5a'),
+			blouse: lam('#d8cfc0'),
+			skin: lam('#9e9888'),
+			skinDay: lam('#9a7458'),
+			hair: lam('#0e0e10'),
+			void: bas('#000000'),
+			wing: lam('#2e2622', {side: THREE.DoubleSide}),
+			bone: lam('#4a3e34'),
+			nail: lam('#3a3028'),
+		}),
+		[],
+	);
+	const Skirt = (
+		<group>
+			<mesh position={[0, 0.62, 0]} material={m.skirt}>
+				<cylinderGeometry args={[0.17, 0.27, 0.62, 10]} />
+			</mesh>
+			{/* the patadyong's woven bands */}
+			{[0.45, 0.62, 0.79].map((y) => (
+				<mesh key={y} position={[0, y, 0]} material={m.skirt2}>
+					<cylinderGeometry args={[0.17 + (0.93 - y) * 0.155 + 0.004, 0.17 + (0.93 - y) * 0.155 + 0.004, 0.04, 10]} />
+				</mesh>
+			))}
+			{[-0.08, 0.08].map((x) => (
+				<mesh key={x} position={[x, 0.16, 0]} material={mode === 'whole' ? m.skinDay : m.skin}>
+					<boxGeometry args={[0.07, 0.32, 0.07]} />
+				</mesh>
+			))}
+		</group>
+	);
+	if (mode === 'lower')
+		return (
+			<group position={position} rotation={rotation} scale={scale}>
+				<group rotation={[-fallen * 1.45, 0, 0]}>
+					{Skirt}
+					{/* the waist: a clean black void, nothing else */}
+					<mesh position={[0, 0.935, 0]} rotation={[-Math.PI / 2, 0, 0]} material={m.void}>
+						<circleGeometry args={[0.165, 10]} />
+					</mesh>
+				</group>
+			</group>
+		);
+	if (mode === 'whole')
+		return (
+			<group position={position} rotation={rotation} scale={scale}>
+				{Skirt}
+				<mesh position={[0, 1.1, 0]} scale={[1, 1, 0.7]} material={m.blouse}>
+					<cylinderGeometry args={[0.12, 0.17, 0.36, 9]} />
+				</mesh>
+				<mesh position={[0, 1.36, 0]} material={m.skinDay}>
+					<cylinderGeometry args={[0.04, 0.045, 0.1, 6]} />
+				</mesh>
+				<mesh position={[0, 1.48, 0]} scale={[0.85, 1.05, 0.9]} material={m.skinDay}>
+					<icosahedronGeometry args={[0.1, 1]} />
+				</mesh>
+				<mesh position={[0, 1.52, -0.03]} scale={[0.9, 0.9, 0.95]} material={m.hair}>
+					<icosahedronGeometry args={[0.1, 1]} />
+				</mesh>
+				<mesh position={[0, 1.55, -0.11]} material={m.hair}>
+					<sphereGeometry args={[0.05, 6, 5]} />
+				</mesh>
+				<group position={[0.16, 1.25, 0]} rotation={[0, 0, 0.2 + wave * 2.4 + Math.sin(t * 6) * 0.2 * wave]}>
+					<mesh position={[0, -0.25, 0]} material={m.blouse}>
+						<boxGeometry args={[0.06, 0.5, 0.06]} />
+					</mesh>
+				</group>
+				<group position={[-0.16, 1.25, 0]} rotation={[0, 0, -0.1]}>
+					<mesh position={[0, -0.25, 0]} material={m.blouse}>
+						<boxGeometry args={[0.06, 0.5, 0.06]} />
+					</mesh>
+				</group>
+			</group>
+		);
+	// upper: in flight
+	const bob = Math.sin(t * 5.5) * 0.04;
+	return (
+		<group position={[position[0], position[1] + bob, position[2]]} rotation={rotation} scale={scale}>
+			{/* the torso, ending in the void at the waist */}
+			<mesh position={[0, 0.2, 0]} scale={[1, 1, 0.65]} material={m.skin}>
+				<cylinderGeometry args={[0.15, 0.13, 0.42, 9]} />
+			</mesh>
+			<mesh position={[0, -0.01, 0]} rotation={[Math.PI / 2, 0, 0]} scale={[1, 0.65, 1]} material={m.void}>
+				<circleGeometry args={[0.13, 10]} />
+			</mesh>
+			{/* ribs showing */}
+			{[0.12, 0.2, 0.28].map((y) => (
+				<mesh key={y} position={[0, y, 0.09]} material={m.bone}>
+					<boxGeometry args={[0.2, 0.01, 0.015]} />
+				</mesh>
+			))}
+			{/* head and hair: the aswang face, hair streaming back */}
+			<group position={[0, -0.5, -0.12]}>
+				<Aswang t={t} faceOnly smile={smile} eyes={1} position={[0, 0.98, 0.1]} rotation={[-0.2, 0, 0]} scale={1.1} />
+			</group>
+			{Array.from({length: 18}, (_, i) => (
+				<mesh key={i} position={[(i / 17 - 0.5) * 0.22, 0.42, -0.14 - (i % 3) * 0.04]} rotation={[1.2 + Math.sin(t * 3 + i) * 0.15, 0, (i / 17 - 0.5) * 0.4]} material={m.hair}>
+					<boxGeometry args={[0.02, 0.6 + (i % 4) * 0.1, 0.008]} />
+				</mesh>
+			))}
+			{/* long arms reaching forward, clawed */}
+			{[-1, 1].map((sd) => (
+				<group key={sd} position={[sd * 0.17, 0.36, 0.02]} rotation={[-0.9, 0, sd * 0.25]}>
+					<mesh position={[0, -0.32, 0]} material={m.skin}>
+						<boxGeometry args={[0.045, 0.64, 0.045]} />
+					</mesh>
+					{[-1, 0, 1].map((f) => (
+						<mesh key={f} position={[f * 0.02, -0.7, 0.01]} rotation={[0.3, 0, f * 0.15]} material={m.nail}>
+							<boxGeometry args={[0.01, 0.13, 0.01]} />
+						</mesh>
+					))}
+				</group>
+			))}
+			{/* the wings, from the shoulder blades */}
+			{[-1, 1].map((sd) => (
+				<group key={sd} position={[sd * 0.1, 0.35, -0.08]}>
+					<Wing side={sd} flap={flap} span={1.4} skin={m.wing} bone={m.bone} />
+				</group>
+			))}
+		</group>
+	);
+};
+
+/** A villager (the husband): sando, shorts, slippers. pose 'sit' (back to the wall, bolo across the knees), 'stand'. look: head up (0..1). */
+export const Villager: React.FC<{pose: 'sit' | 'stand'; look?: number; position?: [number, number, number]; rotation?: [number, number, number]; bolo?: boolean; jar?: boolean}> = ({pose, look = 0, position = [0, 0, 0], rotation = [0, 0, 0], bolo = false, jar = false}) => {
+	const m = useMemo(() => ({skin: lam('#7a5640'), sando: lam('#c8c4b8'), shorts: lam('#2e3a4a'), hair: lam('#0e0c0c'), steel: lam('#9a9a9a'), handle: lam('#3a2a1a'), jar: lam('#c8b89a'), salt: bas('#f0f0ea')}), []);
+	const sit = pose === 'sit';
+	return (
+		<group position={position} rotation={rotation}>
+			{/* legs */}
+			{[-0.09, 0.09].map((x) => (
+				<group key={x}>
+					<mesh position={[x, sit ? 0.12 : 0.42, sit ? 0.22 : 0]} rotation={[sit ? -1.2 : 0, 0, 0]} material={m.shorts}>
+						<boxGeometry args={[0.13, 0.42, 0.14]} />
+					</mesh>
+					<mesh position={[x, sit ? 0.18 : 0.12, sit ? 0.48 : 0]} rotation={[sit ? 0.5 : 0, 0, 0]} material={m.skin}>
+						<boxGeometry args={[0.1, sit ? 0.36 : 0.3, 0.1]} />
+					</mesh>
+				</group>
+			))}
+			<group position={[0, sit ? 0.0 : 0.62, 0]}>
+				<mesh position={[0, 0.32, 0]} material={m.sando}>
+					<boxGeometry args={[0.38, 0.5, 0.22]} />
+				</mesh>
+				{[-1, 1].map((sd) => (
+					<mesh key={sd} position={[sd * 0.23, 0.28, sit ? 0.15 : 0.04]} rotation={[sit ? -0.9 : -0.3, 0, 0]} material={m.skin}>
+						<boxGeometry args={[0.08, 0.42, 0.08]} />
+					</mesh>
+				))}
+				<group position={[0, 0.66, 0]} rotation={[-look * 0.8, 0, 0]}>
+					<mesh material={m.skin}>
+						<boxGeometry args={[0.19, 0.23, 0.2]} />
+					</mesh>
+					<mesh position={[0, 0.1, -0.02]} material={m.hair}>
+						<boxGeometry args={[0.2, 0.07, 0.22]} />
+					</mesh>
+					{[-0.045, 0.045].map((x) => (
+						<mesh key={x} position={[x, 0.01, 0.101]} material={m.hair}>
+							<boxGeometry args={[0.03, 0.018, 0.004]} />
+						</mesh>
+					))}
+				</group>
+				{bolo && (
+					<group position={[0, 0.06, 0.42]} rotation={[0, 0, Math.PI / 2]}>
+						<mesh material={m.steel}>
+							<boxGeometry args={[0.05, 0.45, 0.01]} />
+						</mesh>
+						<mesh position={[0, -0.3, 0]} material={m.handle}>
+							<boxGeometry args={[0.035, 0.15, 0.035]} />
+						</mesh>
+					</group>
+				)}
+				{jar && (
+					<group position={[0.22, 0.1, 0.25]}>
+						<mesh material={m.jar}>
+							<cylinderGeometry args={[0.07, 0.06, 0.16, 8]} />
+						</mesh>
+						<mesh position={[0, 0.085, 0]} material={m.salt}>
+							<cylinderGeometry args={[0.06, 0.06, 0.01, 8]} />
+						</mesh>
+					</group>
+				)}
+			</group>
+		</group>
+	);
 };

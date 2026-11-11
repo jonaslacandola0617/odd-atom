@@ -1,0 +1,13 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Kapag may nakita kang kalahating babae na nakatayo sa sagingan, huwag kang sisigaw. Hanapin mo ang asin. [long pause] [softly] Sa Visayas, sabi nila, may mga babaeng dalawa ang buhay. [long pause] Sa araw, kapitbahay. Mabait. Tahimik. [long pause] Sa gabi, iniiwan niya ang kalahati ng sarili niya. [long pause] Ang kalahati, nagkakapakpak, at naghahanap ng mga natutulog. Lalo na ng mga inang naghihintay ng anak. [long pause] Mauuna mong maririnig ang mga pakpak. Tapos, hihilig ang apoy ng gasera papunta sa bubong. [long pause] [whispers] Huwag kang titingala. [long pause] [softly] Lumabas ka. Hanapin mo ang kalahating iniwan niya. Takpan mo ng asin, o abo, o bawang. [long pause] Kapag hindi siya nakabalik bago sumikat ang araw, [long pause] [whispers] hindi na siya makakabalik kailanman.",
+    "attempts": [
+      "2026-11-11 12:40 UTC: refused as busy, nothing charged; retry series scheduled (every 30 min, at most 4, the user's rule)"
+    ],
+    "takes": []
+  },
+  "script_source": "docs/stories/season-2-philippines.md #13 (folklore: the manananggal), Taglish version for Juanito"
+}

@@ -224,6 +224,18 @@ Taglish: "Kapag may nakita kang kalahating babae na nakatayo sa saging… huwag 
 8. He pours. Behind him, a wing-beat, a scream in the dark, then silence.
 9. Dawn: the legs fallen in the grass. The wife asleep, safe. Loop to the grove at night.
 
+**Narration (Taglish, for Juanito):**
+1. Kapag may nakita kang kalahating babae na nakatayo sa sagingan, huwag kang sisigaw. Hanapin mo ang asin.
+2. Sa Visayas, sabi nila, may mga babaeng dalawa ang buhay.
+3. Sa araw, kapitbahay. Mabait. Tahimik.
+4. Sa gabi, iniiwan niya ang kalahati ng sarili niya.
+5. Ang kalahati, nagkakapakpak, at naghahanap ng mga natutulog. Lalo na ng mga inang naghihintay ng anak.
+6. Mauuna mong maririnig ang mga pakpak. Tapos, hihilig ang apoy ng gasera papunta sa bubong.
+7. Huwag kang titingala.
+8. Lumabas ka. Hanapin mo ang kalahating iniwan niya. Takpan mo ng asin, o abo, o bawang.
+9. Kapag hindi siya nakabalik bago sumikat ang araw,
+10. hindi na siya makakabalik kailanman.
+
 **Narration (English draft):**
 1. If you find half a woman standing in the banana trees, don't scream. Find the salt.
 2. In the Visayas, they say some women live two lives.
