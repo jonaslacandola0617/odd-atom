@@ -72,7 +72,7 @@ const MIRROR_B: Pose = {p: [0.0, 1.29, 0.69], l: [-0.05, 1.11, -1.2]};
 const MIRROR_FACE: Pose = {p: [-0.04, 1.27, 0.42], l: [-0.06, 1.17, -0.8]};
 const SHOTS: Shot[] = [
 	{id: 'A_hook', t: 0, mode: 'mirror', from: MIRROR_A, to: MIRROR_B, fov: 46},
-	{id: 'B_back', t: L.l01.end + 0.3, mode: 'cab', from: {p: [0.28, 1.12, -0.95], l: [-0.3, 0.95, 6]}, to: {p: [0.22, 1.13, -0.85], l: [-0.25, 0.95, 6]}, fov: 58, hand: 0.8},
+	{id: 'B_back', t: L.l01.end + 0.3, mode: 'cab', from: {p: [0.12, 1.3, -0.85], l: [-0.05, 1.0, 8]}, to: {p: [0.1, 1.3, -0.7], l: [-0.05, 1.0, 8]}, fov: 62, hand: 0.8},
 	{id: 'C_balete', t: L.l03.start, mode: 'cab', from: {p: [-0.38, 1.12, 0.15], l: [1.6, 2.6, 30]}, to: {p: [-0.38, 1.12, 0.2], l: [2.4, 2.4, 20]}, fov: 54, hand: 0.5},
 	{id: 'C_lady', t: L.l04.start, mode: 'street', world: true, from: {p: [-0.6, 0.95, ZB - 9.5], l: [LADY_X, 1.55, ZB - 1.5]}, to: {p: [-0.3, 0.95, ZB - 8], l: [LADY_X, 1.45, ZB - 1.5]}, fov: 54},
 	{id: 'D_pass', t: L.l05.start, mode: 'cab', from: {p: [-0.35, 1.08, -0.6], l: [6, 1.4, 2.5]}, to: {p: [-0.3, 1.08, -0.6], l: [6, 1.2, -0.4]}, fov: 58, hand: 0.9},
