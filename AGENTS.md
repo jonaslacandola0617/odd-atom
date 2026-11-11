@@ -76,6 +76,18 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 17 "The Road That Wouldn't End" (tikbalang, folklore).
 
+- **Episode 17 "The Road That Wouldn't End" (2026-11-11):** the user asked for the "next ep". It is folklore: the tikbalang. `Ep17TheRoadThatWouldntEnd` / `src/horror/ep17/` is 57.7 s, in Taglish.
+  - **World:** a barrio dirt road between towering bamboo (merged meshes), the sari-sari store TINDAHAN NI ALING NENA (invented; its price board changes every pass), Episode 11's balete mirrored to the left with the kapre's ember, a chapel, a waiting shed, a tricycle with its rider, a big moon, rain.
+  - **Entity kit:** `Tikbalang` was added to `src/horror/entities.tsx` (about 3.2 m; a horse's head on a gaunt body, hooves, mane; stand or squat with knees above the head; `lower` brings the face into the light).
+  - **Story and picture:** the third pass of the store (the hook, with the figure already behind it); the long road; a figure taller than the bamboo; the chapel and shed; the store again, its bulb flickering; rain under a clear moon; the balete and its ember; he stops and cuts the engine; silence and a breath; he turns the handlebar and the beam finds it squatting; he turns his shirt inside out; dawn with hoofprints circling the tricycle; the loop.
+  - **Lesson:** subdivide every large surface (the `Box` helper in `ep17/world.tsx` does it by size); single-segment bamboo culms and road planes stay black under a headlight.
+  - **Care:** the beliefs save the rider; no comic tikbalang; the store's name is invented.
+  - **Voice:** Juanito, both takes at once (1,650 credits; take 1 used).
+  - **Sound:** presence −12.9 / −4.9 dB, lines ≥4.8 dB (l06, l07 +0.5), −14.0 LUFS, decoded peak −1.06 dBFS, bed seam −19.0 / −18.0 dBFS.
+  - **Delivery:** `assets/videos/ep17-road-v1/`. Notes (with English subtitles) are in `docs/production/ep17-road/README.md`; the publishing kit is `docs/publishing/ep17/README.md` and `docs/publishing/POSTS-ep11-20.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 18 "The Light in the Quezon Room" (reported legend, Malacañang).
+
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).

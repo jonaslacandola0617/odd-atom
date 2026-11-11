@@ -943,3 +943,135 @@ export const Nurse: React.FC<{t: number; bow?: number; position?: [number, numbe
 		</group>
 	);
 };
+
+/**
+ * The tikbalang (folklore): very tall (about 3.2 m standing), a long horse's head on a gaunt man's
+ * body, limbs too long, hooves for feet, a black mane. pose 'stand' or 'squat' (haunches on the
+ * heels, knees rising above the head, long arms hanging to the ground). lower 0..1 lowers the face
+ * toward the viewer. Pinpoint eyeshine. No gore.
+ */
+export const Tikbalang: React.FC<{t: number; pose: 'stand' | 'squat'; lower?: number; position?: [number, number, number]; rotation?: [number, number, number]; scale?: number}> = ({t, pose, lower = 0, position = [0, 0, 0], rotation = [0, 0, 0], scale = 1}) => {
+	const m = useMemo(
+		() => ({
+			skin: lam('#5a5248'),
+			dark: lam('#2e2a26'),
+			mane: lam('#0c0b0a'),
+			hoof: lam('#1a1714'),
+			eye: bas('#f0e0a0'),
+			teeth: lam('#c8bc9a'),
+			mouth: bas('#060404'),
+		}),
+		[],
+	);
+	const breathe = Math.sin(t * 1.3) * 0.02;
+	const squat = pose === 'squat';
+	// limb helper: a box between two points
+	const limb = (a: [number, number, number], b: [number, number, number], w: number, mat: THREE.Material, key: string) => {
+		const va = new THREE.Vector3(...a), vb = new THREE.Vector3(...b);
+		const d = vb.clone().sub(va);
+		const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), d.clone().normalize());
+		return (
+			<mesh key={key} position={va.add(vb).multiplyScalar(0.5)} quaternion={q} material={mat}>
+				<boxGeometry args={[w, d.length(), w]} />
+			</mesh>
+		);
+	};
+	// joints (local, facing +z)
+	const hip: number = squat ? 0.55 : 1.7;
+	const knee: [number, number, number] = squat ? [0, 2.15, 0.55] : [0, 0.9, 0.08];
+	const torsoTop = squat ? hip + 1.35 : hip + 1.15;
+	const lean = squat ? 0.25 : 0.05;
+	const shoulderZ = squat ? 0.32 : 0.06;
+	return (
+		<group position={position} rotation={rotation} scale={scale}>
+			{/* legs: thigh up to a knee above the head when squatting; shin down to a hoof */}
+			{[-1, 1].map((sd) => (
+				<group key={sd}>
+					{limb([sd * 0.18, hip, -0.05], [sd * 0.3, knee[1], knee[2]], 0.15, m.skin, `t${sd}`)}
+					{limb([sd * 0.3, knee[1], knee[2]], [sd * 0.24, 0.12, squat ? 0.25 : 0.0], 0.12, m.skin, `s${sd}`)}
+					<mesh position={[sd * 0.24, 0.06, squat ? 0.3 : 0.05]} material={m.hoof}>
+						<boxGeometry args={[0.13, 0.12, 0.18]} />
+					</mesh>
+				</group>
+			))}
+			{/* a gaunt torso, ribs showing, leaning forward between the knees */}
+			<group position={[0, hip, 0]} rotation={[lean, 0, 0]}>
+				<mesh position={[0, (torsoTop - hip) / 2, 0]} scale={[1, 1 + breathe, 1]} material={m.skin}>
+					<boxGeometry args={[0.42, torsoTop - hip, 0.26]} />
+				</mesh>
+				{[0.35, 0.5, 0.65, 0.8].map((y) => (
+					<mesh key={y} position={[0, y, 0.135]} material={m.dark}>
+						<boxGeometry args={[0.32, 0.02, 0.01]} />
+					</mesh>
+				))}
+				{/* long arms hanging to the ground, long fingers */}
+				{[-1, 1].map((sd) => (
+					<group key={`a${sd}`}>
+						{limb([sd * 0.27, torsoTop - hip - 0.08, shoulderZ * 0.2], [sd * 0.45, (torsoTop - hip) * 0.35, 0.45], 0.1, m.skin, `u${sd}`)}
+						{limb([sd * 0.45, (torsoTop - hip) * 0.35, 0.45], [sd * 0.42, -hip + 0.25, 0.75], 0.085, m.skin, `f${sd}`)}
+						{[-0.03, 0, 0.03].map((x) => (
+							<mesh key={x} position={[sd * 0.42 + x, -hip + 0.1, 0.8]} rotation={[0.4, 0, 0]} material={m.dark}>
+								<boxGeometry args={[0.018, 0.22, 0.018]} />
+							</mesh>
+						))}
+					</group>
+				))}
+				{/* the neck and the long horse's head, lowering toward you */}
+				<group position={[0, torsoTop - hip - 0.02, 0.05]} rotation={[0.35 + lower * 0.9, 0, 0]}>
+					<mesh position={[0, 0.22, 0.04]} rotation={[0.25, 0, 0]} material={m.skin}>
+						<boxGeometry args={[0.16, 0.5, 0.2]} />
+					</mesh>
+					<group position={[0, 0.48, 0.12]} rotation={[1.0, 0, 0]}>
+						{/* skull, then the long face tapering to the muzzle */}
+						<mesh position={[0, 0.05, 0]} material={m.skin}>
+							<boxGeometry args={[0.24, 0.22, 0.24]} />
+						</mesh>
+						<mesh position={[0, 0.34, 0.02]} material={m.skin}>
+							<boxGeometry args={[0.19, 0.46, 0.18]} />
+						</mesh>
+						<mesh position={[0, 0.6, 0.0]} material={m.dark}>
+							<boxGeometry args={[0.17, 0.12, 0.16]} />
+						</mesh>
+						{/* nostrils, a lipless mouth with flat teeth */}
+						{[-0.04, 0.04].map((x) => (
+							<mesh key={x} position={[x, 0.64, 0.085]} material={m.mouth}>
+								<boxGeometry args={[0.03, 0.03, 0.01]} />
+							</mesh>
+						))}
+						<mesh position={[0, 0.56, -0.08]} material={m.mouth}>
+							<boxGeometry args={[0.15, 0.1, 0.02]} />
+						</mesh>
+						{[-0.05, -0.017, 0.017, 0.05].map((x) => (
+							<mesh key={x} position={[x, 0.57, -0.092]} material={m.teeth}>
+								<boxGeometry args={[0.028, 0.05, 0.008]} />
+							</mesh>
+						))}
+						{/* eyes on the sides of the skull, with a pinpoint of shine */}
+						{[-1, 1].map((sd) => (
+							<group key={`e${sd}`} position={[sd * 0.122, 0.1, 0.06]}>
+								<mesh material={m.mouth}>
+									<boxGeometry args={[0.012, 0.06, 0.07]} />
+								</mesh>
+								<mesh position={[sd * 0.004, 0.0, 0.01]} material={m.eye}>
+									<boxGeometry args={[0.008, 0.014, 0.014]} />
+								</mesh>
+							</group>
+						))}
+						{/* ears */}
+						{[-1, 1].map((sd) => (
+							<mesh key={`r${sd}`} position={[sd * 0.08, -0.08, -0.06]} rotation={[-0.4, 0, sd * 0.3]} material={m.skin}>
+								<boxGeometry args={[0.05, 0.14, 0.03]} />
+							</mesh>
+						))}
+						{/* the mane, down the back of the head and neck */}
+						{Array.from({length: 9}, (_, i) => (
+							<mesh key={`m${i}`} position={[((i % 3) - 1) * 0.05, -0.1 - (i % 3) * 0.04, -0.13 - Math.floor(i / 3) * 0.02]} rotation={[0.3 + Math.sin(t * 0.8 + i) * 0.05, 0, 0]} material={m.mane}>
+								<boxGeometry args={[0.04, 0.5, 0.03]} />
+							</mesh>
+						))}
+					</group>
+				</group>
+			</group>
+		</group>
+	);
+};

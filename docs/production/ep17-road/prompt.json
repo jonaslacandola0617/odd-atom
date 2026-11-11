@@ -1,0 +1,18 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Kapag tatlong beses mo nang nadaanan ang parehong tindahan, huminto ka. Baligtarin mo ang damit mo. [long pause] [softly] Sa mga lumang daan, may mahilig daw makipaglaro sa mga manlalakbay. [long pause] Matangkad. Mas matangkad pa sa kawayan. Ulo ng kabayo, katawan ng tao. [long pause] Hindi ka niya sinasaktan. Itinatago ka niya. [long pause] Tuloy ka sa pagmamaneho. Tuloy. At bumabalik ang parehong tindahan. [long pause] Sabi ng mga lola: kapag dumaan ka sa malalaking puno, magsabi ka ng \"tabi tabi po.\" [long pause] Karamihan, sinasabi na lang nang hindi iniisip. [long pause] [whispers] Ngayong gabi, nakalimutan niya. [long pause] [softly] Nang baligtarin niya sa wakas ang damit niya, pinakawalan siya ng daan. [long pause] Natagpuan ang tricycle niya kinaumagahan, dalawandaang metro mula sa bahay niya.",
+    "flow_id": "nqLt9VBJgacgT4BdIK7p",
+    "attempts": [
+      "2026-11-11, Starter account: both takes started at once (825 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep17-take1.mp3: 60.96 s, 825 credits (used)",
+      "public/assets/audio/eleven-takes/ep17-take2.mp3: 61.20 s, 825 credits (kept, unused)"
+    ],
+    "processing": "split into 10 lines, pauses inside a line capped at 0.45 s, no tempo change; the timeline (57.7 s) was built from the real line lengths, with the long gap after line 8 for the reveal"
+  },
+  "script_source": "docs/stories/season-2-philippines.md #17 (folklore: the tikbalang), Taglish version for Juanito"
+}

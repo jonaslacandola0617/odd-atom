@@ -1,0 +1,127 @@
+{
+  "episode": "Ep17TheRoadThatWouldntEnd",
+  "duration_seconds": 57.653,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep17-take1.mp3",
+    "sha256": "3b6c607054fdde452f58ab8bdf3091a1dbeed9d9f05620e0a18061068a41d412",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (library voice, Filipino)",
+    "credits": [],
+    "prompt": "docs/production/ep17-road/prompt.json"
+  },
+  "original_synthesis": [
+    "score (scripts/horror_score.py): C#2/G#2 mid-band drone; tremolo string clusters; the music-box theme detuned; a heartbeat 62-116 bpm from the rain to the stop; a riser into the stop; one stinger in silence (the beam finds it); bowed metal at dawn",
+    "the road: a two-stroke tricycle engine on whole cycles (continuous across the loop seam), idling and cut; the store radio (the music-box theme through a tinny band-pass) on every pass; leaves, bamboo creaks, crickets, frogs, rain; a rooster and birds at dawn",
+    "the creature: a deep breathy snort and a low, pulsed laugh (filtered noise and low partials); cloth rustles for the shirt"
+  ],
+  "real_recordings_used": false,
+  "library_cues": {
+    "perspective_whip": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_perspective_whip_v1.flac",
+      "sha256": "cf59cbedffd1617bf3962f9c4f6e151ca84d91a86a3bbbe048d8375ee4eba211"
+    },
+    "gear_ratchet": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_gear_ratchet_v1.flac",
+      "sha256": "7db1bc06130fb64208641df464e7decf64d44d4fd61756f50eaeb92b06f3c20f"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    }
+  },
+  "stingers": [
+    44.706
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.06,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -19.0,
+    "last_quarter_second": -18.0
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.5,
+    "l07": 0.5,
+    "l08": 0.0,
+    "l09": 0.0,
+    "l10": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 6.9,
+      "phone_band_voice_minus_all_db": 11.2,
+      "voice_minus_score_db": 10.9
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 6.6,
+      "phone_band_voice_minus_all_db": 10.4,
+      "voice_minus_score_db": 10.0
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 5.7,
+      "phone_band_voice_minus_all_db": 8.9,
+      "voice_minus_score_db": 8.2
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 6.6,
+      "phone_band_voice_minus_all_db": 11.0,
+      "voice_minus_score_db": 9.9
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 5.3,
+      "phone_band_voice_minus_all_db": 7.8,
+      "voice_minus_score_db": 9.1
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 12.2,
+      "voice_minus_score_db": 6.5
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 11.0,
+      "voice_minus_score_db": 6.3
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 6.2,
+      "phone_band_voice_minus_all_db": 16.0,
+      "voice_minus_score_db": 6.7
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 7.5,
+      "phone_band_voice_minus_all_db": 11.7,
+      "voice_minus_score_db": 8.3
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 8.9,
+      "phone_band_voice_minus_all_db": 8.5,
+      "voice_minus_score_db": 9.2
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.9,
+    "music_minus_voice_in_gaps_db": -4.9,
+    "music_share_of_gaps_seconds": 10.3
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

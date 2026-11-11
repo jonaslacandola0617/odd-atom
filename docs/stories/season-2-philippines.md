@@ -487,6 +487,18 @@ Taglish: "Kung tatlong beses mo nang nadaanan ang parehong tindahan… huminto k
 8. He pulls his shirt off, turns it inside out and whispers "tabi tabi po". Black.
 9. Dawn: the road, the store, the tricycle parked. On the mud road, **hoofprints** circling the tricycle. Loop: the store at night.
 
+**Narration (Taglish, for Juanito):**
+1. Kapag tatlong beses mo nang nadaanan ang parehong tindahan, huminto ka. Baligtarin mo ang damit mo.
+2. Sa mga lumang daan, may mahilig daw makipaglaro sa mga manlalakbay.
+3. Matangkad. Mas matangkad pa sa kawayan. Ulo ng kabayo, katawan ng tao.
+4. Hindi ka niya sinasaktan. Itinatago ka niya.
+5. Tuloy ka sa pagmamaneho. Tuloy. At bumabalik ang parehong tindahan.
+6. Sabi ng mga lola: kapag dumaan ka sa malalaking puno, magsabi ka ng "tabi tabi po."
+7. Karamihan, sinasabi na lang nang hindi iniisip.
+8. Ngayong gabi, nakalimutan niya.
+9. Nang baligtarin niya sa wakas ang damit niya, pinakawalan siya ng daan.
+10. Natagpuan ang tricycle niya kinaumagahan, dalawandaang metro mula sa bahay niya.
+
 **Narration (English draft):**
 1. If you pass the same store three times, stop. Turn your shirt inside out.
 2. On the old roads, they say something likes to play with travellers.

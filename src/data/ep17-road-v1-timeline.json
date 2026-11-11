@@ -1,0 +1,89 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 57.653,
+  "duration_frames": 1730,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Kapag tatlong beses mo nang nadaanan ang parehong tindahan, huminto ka. Baligtarin mo ang damit mo.",
+      "start": 0.15,
+      "end": 6.993,
+      "kind": "narrator",
+      "beat_before": "hook: the tricycle headlight passing the sari-sari store, third time"
+    },
+    {
+      "id": "l02",
+      "text": "Sa mga lumang daan, may mahilig daw makipaglaro sa mga manlalakbay.",
+      "start": 7.693,
+      "end": 12.507,
+      "kind": "narrator",
+      "beat_before": "wide: one headlight on a long dark barrio road, a balete at the bend with an ember in it"
+    },
+    {
+      "id": "l03",
+      "text": "Matangkad. Mas matangkad pa sa kawayan. Ulo ng kabayo, katawan ng tao.",
+      "start": 13.107,
+      "end": 19.415,
+      "kind": "narrator",
+      "beat_before": "bamboo towering over the road; something tall in it, unlit"
+    },
+    {
+      "id": "l04",
+      "text": "Hindi ka niya sinasaktan. Itinatago ka niya.",
+      "start": 20.115,
+      "end": 23.301,
+      "kind": "narrator",
+      "beat_before": "the balete, the chapel, the waiting shed go by"
+    },
+    {
+      "id": "l05",
+      "text": "Tuloy ka sa pagmamaneho. Tuloy. At bumabalik ang parehong tindahan.",
+      "start": 24.101,
+      "end": 29.327,
+      "kind": "narrator",
+      "beat_before": "the store again; he speeds up; the store again, its bulb flickering"
+    },
+    {
+      "id": "l06",
+      "text": "Sabi ng mga lola: kapag dumaan ka sa malalaking puno, magsabi ka ng \"tabi tabi po.\"",
+      "start": 30.027,
+      "end": 35.944,
+      "kind": "narrator",
+      "beat_before": "rain starts while the moon is out"
+    },
+    {
+      "id": "l07",
+      "text": "Karamihan, sinasabi na lang nang hindi iniisip.",
+      "start": 36.544,
+      "end": 39.981,
+      "kind": "narrator",
+      "beat_before": "the balete again, the ember"
+    },
+    {
+      "id": "l08",
+      "text": "Ngayong gabi, nakalimutan niya.",
+      "start": 40.781,
+      "end": 43.206,
+      "kind": "narrator",
+      "beat_before": "the tricycle slows and stops at the balete"
+    },
+    {
+      "id": "l09",
+      "text": "Nang baligtarin niya sa wakas ang damit niya, pinakawalan siya ng daan.",
+      "start": 46.206,
+      "end": 50.441,
+      "kind": "narrator",
+      "beat_before": "silence; a deep horse breath; in the headlight a figure squatting, knees above its head, a long horse face lowering (stinger in silence); he turns his shirt inside out; black"
+    },
+    {
+      "id": "l10",
+      "text": "Natagpuan ang tricycle niya kinaumagahan, dalawandaang metro mula sa bahay niya.",
+      "start": 51.141,
+      "end": 56.053,
+      "kind": "narrator",
+      "beat_before": "dawn: the tricycle parked by the store, hoofprints circling it in the mud"
+    }
+  ]
+}

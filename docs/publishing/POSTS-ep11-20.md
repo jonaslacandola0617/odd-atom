@@ -17,6 +17,7 @@ Season 2 is Philippine ghost stories with Taglish narration (Juanito) and Taglis
 | 14 | The Guests of Dominican Hill | reported legend | `assets/videos/ep14-hill-v1/ep14-the-guests-of-dominican-hill.mp4` | 55.3 s |
 | 15 | Don't Pick Up the Baby | folklore (tiyanak) | `assets/videos/ep15-baby-v1/ep15-dont-pick-up-the-baby.mp4` | 54.2 s |
 | 16 | Ward Three | reported legend | `assets/videos/ep16-ward-v1/ep16-ward-three.mp4` | 58.8 s |
+| 17 | The Road That Wouldn't End | folklore (tikbalang) | `assets/videos/ep17-road-v1/ep17-the-road-that-wouldnt-end.mp4` | 57.7 s |
 
 ---
 
@@ -173,3 +174,29 @@ sa abandonadong ospital sa clark… huwag mong aalisin ang tingin mo sa nurse �
 - **Cover text:** `HUWAG KANG TITINGIN SA IBA` (the night-vision nurse, about 0:38).
 - **Pinned comment:** `Ilan ang bato sa sahig sa 0:38? Ilan ang ibinato?`
 - **Care:** a reported legend; the nurse is not a real person; no trespass dares; no US-bases politics. Full kit: `docs/publishing/ep16/README.md`.
+
+---
+
+## Broadcast 17: The Road That Wouldn't End (folklore)
+
+**YouTube title:** `Kapag tatlong beses mo nang nadaanan ang parehong tindahan… huminto ka`
+Alternative: `If you pass the same store three times, stop`
+
+**YouTube description**
+```
+Gabi. Isang tricycle. Isang daang napapalibutan ng kawayan. Nadaanan niya ang tindahan ni Aling Nena. Tapos, nadaanan niya ulit. At ulit. Sabi ng mga lola, kapag ganito… huminto ka at baligtarin mo ang damit mo.
+
+Tingnan mo ang presyuhan sa bawat daan. 👀
+
+Broadcast 17 · After Sign-Off. Kuwentong-bayan (folklore) ng tikbalang, ginawa sa low-poly 3D. Kathang-isip ang tindahan at ang rider.
+#tikbalang #tabitabipo #kwentongkatatakutan #pinoyhorror #pinoyfolklore #shorts
+```
+**YouTube pinned comment:** `Nagsabi ka ba ng "tabi tabi po" pauwi kanina? 🐴 Ano ang sabi ng lola niyo kapag naliligaw?`
+
+**TikTok caption**
+```
+kung tatlong beses mo nang nadaanan ang parehong tindahan… huminto ka 🐴 #tikbalang #tabitabipo #kwentongkatatakutan #pinoyhorror #pinoyfolklore #fyp #fypシ
+```
+- **Cover text:** `TATLONG BESES NA` (the store at frame 0).
+- **Pinned comment:** `Sino ang nakatayo sa likod ng tindahan sa 0:03?`
+- **Care:** folklore told with respect; no comic tikbalang; the store is invented; no real barangay named. Full kit: `docs/publishing/ep17/README.md`.
