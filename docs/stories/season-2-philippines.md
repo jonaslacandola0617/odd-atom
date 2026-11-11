@@ -36,7 +36,9 @@ Nine of the ten are not ours: five are **widely reported Philippine hauntings** 
 | "Hukay" tunnel legends | No source turned up in search. Excluded until there is something to check |
 | Duwende | Often told for laughs, and a reserve. The kapre appears as a hidden detail in Ep 17 |
 
-## Voice and language (a decision for you)
+## Voice and language
+
+**Decided by the user (2026-11-11): Taglish narration and Taglish captions, read by the ElevenLabs library voice Juanito (`u1CVBnSUn9JiL8ssgd2v`), `eleven_v4`.** Before any full episode, a short test line goes to the user so they can check pronunciation. The first attempt (534 credits for two takes) was refused as "busy", and nothing was charged. The options as they were offered are below.
 
 | Option | What it sounds like | For | Against |
 |---|---|---|---|
@@ -95,7 +97,19 @@ Taglish: "Kung dadaan ka sa Balete Drive pagkalipas ng hatinggabi… huwag kang 
 8. The driver turns: the back seat is empty. A ring of wet on the vinyl; **sampaguita petals**.
 9. Through the windshield, far ahead: the balete again, the woman standing under it. Loop into the mirror.
 
-**Narration (English draft, 10 lines):**
+**Narration (Taglish, for Juanito):**
+1. Kung dadaan ka sa Balete Drive pagkalipas ng hatinggabi… huwag kang titingin sa salamin.
+2. Ipinangalan ang kalyeng ito sa isang puno ng balete na dating nakatayo sa gitna ng daan.
+3. Mula pa noong dekada singkwenta, iisa ang kuwento ng mga driver.
+4. Isang babaeng nakaputi, sa tabi ng puno… pumapara.
+5. May mga humihinto. Karamihan, hindi.
+6. Hindi na mahalaga. Pagtingin nila sa salamin…
+7. …may nakaupo na sa likod.
+8. Sabi ng iba, dito siya namatay. Sabi ng iba, nandito na siya mula pa noong giyera. Walang nakaalam kung sino talaga siya.
+9. Wala na ang puno. Bago na ang mga bahay.
+10. Pero hanggang ngayon… umiikot pa rin ang mga driver.
+
+**Narration (English draft, 10 lines; the source of the Taglish):**
 1. If you drive Balete Drive after midnight, don't look at the mirror.
 2. The street is named after a balete tree that once stood in the middle of the road.
 3. Since at least the nineteen fifties, drivers have told the same story.

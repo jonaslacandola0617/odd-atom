@@ -1,0 +1,89 @@
+{
+  "provisional": true,
+  "fps": 30,
+  "duration_seconds": 57.031,
+  "duration_frames": 1711,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Kung dadaan ka sa Balete Drive pagkalipas ng hatinggabi, huwag kang titingin sa salamin.",
+      "start": 0.15,
+      "end": 7.055,
+      "kind": "narrator",
+      "beat_before": "hook: the rear-view mirror, an empty back seat, the rosary swinging"
+    },
+    {
+      "id": "l02",
+      "text": "Ipinangalan ang kalyeng ito sa isang puno ng balete na dating nakatayo sa gitna ng daan.",
+      "start": 7.655,
+      "end": 14.798,
+      "kind": "narrator",
+      "beat_before": "from the back seat: the driver, the windshield, Balete Drive at night"
+    },
+    {
+      "id": "l03",
+      "text": "Mula pa noong dekada singkwenta, iisa ang kuwento ng mga driver.",
+      "start": 15.298,
+      "end": 20.06,
+      "kind": "narrator",
+      "beat_before": "headlights find the balete: aerial roots wider than the road"
+    },
+    {
+      "id": "l04",
+      "text": "Isang babaeng nakaputi, sa tabi ng puno, pumapara.",
+      "start": 20.56,
+      "end": 24.845,
+      "kind": "narrator",
+      "beat_before": "a woman in white at its foot, hand raised, face hidden by hair"
+    },
+    {
+      "id": "l05",
+      "text": "May mga humihinto. Karamihan, hindi.",
+      "start": 25.245,
+      "end": 28.102,
+      "kind": "narrator",
+      "beat_before": "the taxi does not stop; side window: she is beside the glass"
+    },
+    {
+      "id": "l06",
+      "text": "Hindi na mahalaga. Pagtingin nila sa salamin,",
+      "start": 29.702,
+      "end": 33.512,
+      "kind": "narrator",
+      "beat_before": "the meter starts by itself; the rosary stops swinging, pulled back"
+    },
+    {
+      "id": "l07",
+      "text": "may nakaupo na sa likod.",
+      "start": 34.012,
+      "end": 35.917,
+      "kind": "narrator",
+      "beat_before": "mirror empty; a glance at the road; mirror again: hair over the headrest"
+    },
+    {
+      "id": "l08",
+      "text": "Sabi ng iba, dito siya namatay. Sabi ng iba, nandito na siya mula pa noong giyera. Walang nakaalam kung sino talaga siya.",
+      "start": 38.517,
+      "end": 47.802,
+      "kind": "narrator",
+      "beat_before": "held silence; push into the mirror; half a face lit by the dash; stinger; the driver turns: empty seat, wet ring, sampaguita"
+    },
+    {
+      "id": "l09",
+      "text": "Wala na ang puno. Bago na ang mga bahay.",
+      "start": 48.402,
+      "end": 51.498,
+      "kind": "narrator",
+      "beat_before": "high over Balete Drive: new houses and condos, one taxi"
+    },
+    {
+      "id": "l10",
+      "text": "Pero hanggang ngayon, umiikot pa rin ang mga driver.",
+      "start": 52.098,
+      "end": 55.431,
+      "kind": "narrator",
+      "beat_before": "through the windshield: the balete again ahead, the woman under it"
+    }
+  ]
+}
