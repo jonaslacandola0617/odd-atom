@@ -63,7 +63,7 @@ Second option: `Listen to the crickets at 0:27.`
 
 1. **The lamp goes out** as the mist reaches the window (about 0:27; dramatisation).
 2. **The crickets stop** at the same moment and are not heard again until the other lake (sound; dramatisation).
-3. **Cold ash** where the cooking fire was at dawn (about 0:33; dramatisation).
+3. **Cold ash** where the cooking fire was at dawn (about 0:33; dramatisation; very small at phone size).
 4. **The lake is red** at dawn (about 0:37): the water was reported to have turned a reddish brown.
 5. **A ring on the water** in the first and last seconds.
 

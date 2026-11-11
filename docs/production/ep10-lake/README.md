@@ -129,7 +129,13 @@ python3 scripts/caption_check.py src/data/ep10-lake-v1-timeline.json assets/vide
 
 ## Review of the encoded file
 
-(filled in after the render)
+- **File:** 48.3 MB; sha256 `79ec0a5d95580220ef0d70f99ece7d63cdb0013cfa2ee99801ceda81fa3c8a71`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,796 frames at 30 fps (59.9 s), 1080×1920, with audio.
+- **Loudness:** −14.0 LUFS measured on the encoded file; decoded sample peak −1.30 dBFS.
+- **Loop:** the last frame differs from frame 0 by 0.8/255 in mean absolute luma; the hook's own frame-to-frame motion is 0.2–0.3, and the ring on the water continues across the seam.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. The hook, the lamps in the valley, the plume, the lamp in the window, the empty dawn, underwater, the pipe and the other lake all read.
+  - **Weakest images:** the red lake at dawn is a short (1.1 s), very dark maroon shot: a rewatch detail, not a clear image. Underwater reads warm and brown rather than cold. The cold ash at dawn is too small to read at phone size.
+- **Captions:** `scripts/caption_check.py` extracted all 16 caption pages from the encoded file. Each was read against the script word for word: all are complete.
 
 ## Known limits
 
