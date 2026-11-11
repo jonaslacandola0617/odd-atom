@@ -18,6 +18,17 @@
 
 - **Horror re-score of Episodes 1–5 (2026-11-10, same user note):** `scripts/rescore_horror.py` adds the new score over each episode's unchanged stems and muxes it onto the unchanged picture (`-c:v copy`). The new versions are `ep01-moon-v3`, `ep02-mask-v2`, `ep03-snow-v2`, `ep04-night-v2` and `ep05-tent-v2` (MP4s named `*-horror-score.mp4`); earlier versions are kept. In the gaps, the music now sits 5.5–7.9 dB under the voice, against 21–28 dB before. Figures, the tightest lines and loop seams are in `docs/production/horror-rescore/README.md`. None has user approval or a listening pass.
 
+- **Episode 9 "The Lighthouse That Went Dark" (2026-11-11):** the user asked for the "next ep". It is the true story #3: the Flannan Isles lighthouse, December 1900, with three real men never found. `Ep09TheLighthouseThatWentDark` / `src/horror/ep09/` is 54.3 s.
+  - **World:** one island with an animated sea: the tower and the quarters, with the kitchen inside (its west door opens on the real island); the east landing with the bare flagstaff; the west landing with torn railings on the cliff face; a night steamer, the tender and a rowing boat.
+  - **Story and picture:** the hook from the rowing boat at the dark tower; the stopped clock (one tick, then nothing); one set of oilskins; the railings; the storm reconstruction; the wave filling the frame, then the empty morning; the doorway at night.
+  - **Hidden details:** five (the cold range, three hooks, the calendar crossed off to the 15th, three mugs and chairs pushed in, a two-frame lantern).
+  - **Facts:** the disputed logbook entries, the overturned chair and the half-eaten meal are not used, and the keepers are not named. Facts come from search summaries only.
+  - **Voice:** Jack; both takes generated this time, and take 1 is used.
+  - **Sound:** presence −12.2 / −3.1 dB, every line ≥4.6 dB, −14.0 LUFS, decoded peak −1.36 dBFS; loop seam −24.4 / −24.9 dBFS after a 2.6 dB tail pre-duck.
+  - **Delivery:** `assets/videos/ep09-lighthouse-v1/`. Notes are in `docs/production/ep09-lighthouse/README.md`; the publishing kit is `docs/publishing/ep09/README.md` (also added to `docs/publishing/POSTS-ep01-08.md`).
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** #5 "The Night the Lake Breathed Out" (true: Lake Nyos, 1986, about 1,700 deaths), the heaviest case and the one that needs the most care.
+
 - **Channel identity (2026-11-11):** the user asked for the channel's name, description, profile picture and cover image, and for viral posts for Episodes 1–8 (YouTube and TikTok).
   - **Name:** the recommended name is **After Sign-Off** (`@aftersignoff`; handle availability unchecked): broadcasts that come on after the station signs off. Alternatives and the Odd Atom question (a fresh channel is recommended; it's the user's call) are in `docs/publishing/channel/README.md`, with the YouTube description, the TikTok bio, keywords, playlists and posting rhythm.
   - **Art:** rendered in the channel's own pixel-3D style (`src/horror/channel/ChannelArt.tsx`, `npm run render:channel`). The profile picture is `assets/channel/after-sign-off-avatar-800.png` (a CRT with a figure in the static). The banner is `assets/channel/after-sign-off-banner-2560x1440.png` (the Episode 7 town and mast, with the title inside the 1546×423 safe area). No image generator was available, and no third-party art is used.

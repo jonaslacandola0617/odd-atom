@@ -1,4 +1,4 @@
-# After Sign-Off: posts for Episodes 1–8 (YouTube Shorts and TikTok)
+# After Sign-Off: posts for Episodes 1–9 (YouTube Shorts and TikTok)
 
 Paste-ready drafts, written 2026-11-11 for the channel identity in `docs/publishing/channel/README.md`. Nothing has been posted. No view counts are guaranteed.
 
@@ -25,6 +25,7 @@ The hidden details, fact notes and moderation rules for each episode are in its 
 | 6 | The Sound That Matched Us | original | `assets/videos/ep06-sonar-v2/ep06-the-sound-that-matched-us-eerie-voice.mp4` | 55.6 s |
 | 7 | This Is the Voice of Vrillon | true (1977) | `assets/videos/ep07-vrillon-v1/ep07-the-voice-of-vrillon.mp4` | 59.8 s |
 | 8 | Room Zero | original | `assets/videos/ep08-room-v1/ep08-room-zero.mp4` | 57.8 s |
+| 9 | The Lighthouse That Went Dark | true (1900) | `assets/videos/ep09-lighthouse-v1/ep09-the-lighthouse-that-went-dark.mp4` | 54.3 s |
 
 ---
 
@@ -232,6 +233,32 @@ the wall was 37°C in a house with no power 🌡️ #analoghorror #thermalcamera
 
 ---
 
+## Broadcast 09: The Lighthouse That Went Dark (true)
+
+**YouTube title:** `Three lighthouse keepers vanished. One left his coat.`
+Alternative: `The lighthouse went dark for eleven days`
+
+**YouTube description**
+```
+December 1900. A lighthouse in the Flannan Isles, off the west of Scotland, went dark. Storms kept the relief boat away for eleven days. When it landed, all three keepers were gone. One set of oilskins was still on its hook.
+
+Look at the kitchen. Then look down the path in the last shot. 🕯️
+
+Broadcast 09 · After Sign-Off. True story (the Flannan Isles lighthouse), recreated in low-poly 3D. Nothing violent is shown.
+#unsolvedmysteries #lighthouse #truestory #analoghorror #scotland #shorts
+```
+**YouTube pinned comment:** `Two men went down to the landing in a storm. The third ran out without his coat. What did he see from the doorway? 🕯️`
+
+**TikTok caption**
+```
+3 lighthouse keepers vanished in 1900. one left his coat behind 🕯️ #unsolvedmysteries #lighthouse #truestory #analoghorror #scotland #fyp
+```
+- **Cover text:** `ONE LEFT HIS COAT` (the oilskins on the hook, about 0:24).
+- **Pinned comment:** `Pause on the doorway at 0:51.`
+- **Care:** three real men, never found. Don't post the famous "logbook entries", the overturned chair or the half-eaten meal as fact; they are disputed or later inventions.
+
+---
+
 ## Before posting the true cases
 
 The facts were checked from search summaries only; Wikipedia was blocked in this environment. Re-read one full source for each:
@@ -239,3 +266,4 @@ The facts were checked from search summaries only; Wikipedia was blocked in this
 - **Episode 3:** the chimney smoke and the fed cattle.
 - **Episode 5:** the cedar fire, the May ravine discovery and the "compelling natural force" wording.
 - **Episode 7:** the apology wording and the six-minute figure.
+- **Episode 9:** the oilskins, the west-landing damage and the stopped clock, in the superintendent's report.
