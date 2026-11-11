@@ -133,7 +133,8 @@
     "voice:ep08": "python3 scripts/ep08_voice.py",
     "sound:ep08": "python3 scripts/ep08_sound.py",
     "still:ep08": "node scripts/render_ep08.cjs --stills",
-    "render:ep08": "node scripts/render_ep08.cjs"
+    "render:ep08": "node scripts/render_ep08.cjs",
+    "render:channel": "node scripts/render_channel.cjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",
