@@ -1,87 +1,87 @@
 {
-  "provisional": true,
+  "provisional": false,
   "fps": 30,
-  "duration_seconds": 65.434,
-  "duration_frames": 1963,
-  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), take 1 of 2, one take split into lines, inner pauses capped at 0.6 s, atempo 1.0",
+  "duration_seconds": 59.876,
+  "duration_frames": 1796,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), one take (the second of the run did not start: busy), split into lines, inner pauses capped at 0.45 s, atempo 1.03",
   "lines": [
     {
       "id": "l01",
       "text": "Look at this lake. Calm. Blue. In one night, it breathed out.",
       "start": 0.15,
-      "end": 4.097,
+      "end": 5.693,
       "kind": "narrator",
       "beat_before": "hook: the crater lake at night, still, stars on the water"
     },
     {
       "id": "l02",
       "text": "Cameroon, August, nineteen eighty six. Villages sleep in the valleys below Lake Nyos.",
-      "start": 4.797,
-      "end": 11.113,
+      "start": 6.393,
+      "end": 12.627,
       "kind": "narrator",
       "beat_before": "the valley at night: huts, lamps in windows, crickets"
     },
     {
       "id": "l03",
       "text": "Late at night, people hear a deep rumble. Some see a white mist rise from the water.",
-      "start": 11.713,
-      "end": 18.029,
+      "start": 13.227,
+      "end": 18.872,
       "kind": "narrator",
       "beat_before": "the rumble; the lake surface lifts"
     },
     {
       "id": "l04",
       "text": "The mist is carbon dioxide, heavier than air. It pours over the rim and down the valleys, like water.",
-      "start": 19.629,
-      "end": 26.734,
+      "start": 20.472,
+      "end": 27.217,
       "kind": "narrator",
       "beat_before": "stinger in silence: the white plume rises"
     },
     {
       "id": "l05",
       "text": "By morning, the valleys are silent.",
-      "start": 28.334,
-      "end": 30.966,
+      "start": 28.617,
+      "end": 31.035,
       "kind": "narrator",
       "beat_before": "the mist reaches the village; a lamp goes out; the crickets stop; black"
     },
     {
       "id": "l06",
       "text": "One thousand, seven hundred and forty six people died that night. Many in their homes.",
-      "start": 32.166,
-      "end": 38.218,
+      "start": 32.235,
+      "end": 37.282,
       "kind": "narrator",
       "beat_before": "dawn: empty paths, doors open, cold ash"
     },
     {
       "id": "l07",
       "text": "For years, gas from deep below had gathered at the bottom of the lake, held down by the weight of the water.",
-      "start": 39.418,
-      "end": 46.787,
+      "start": 38.482,
+      "end": 44.315,
       "kind": "narrator",
       "beat_before": "down through the water"
     },
     {
       "id": "l08",
       "text": "That night, something disturbed it. Scientists still debate what.",
-      "start": 47.387,
-      "end": 51.597,
+      "start": 44.915,
+      "end": 48.939,
       "kind": "narrator",
       "beat_before": "the deep layer"
     },
     {
       "id": "l09",
       "text": "Today, pipes draw the gas up from the bottom, so it cannot build up like that again.",
-      "start": 53.197,
-      "end": 59.25,
+      "start": 50.339,
+      "end": 54.706,
       "kind": "narrator",
       "beat_before": "stinger in silence: the deep layer lets go; then today, the degassing raft"
     },
     {
       "id": "l10",
       "text": "But other lakes on Earth are still holding their breath.",
-      "start": 60.15,
-      "end": 63.834,
+      "start": 55.606,
+      "end": 58.276,
       "kind": "narrator",
       "beat_before": "another lake at night, calm; one bubble"
     }

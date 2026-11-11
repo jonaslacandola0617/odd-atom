@@ -143,12 +143,30 @@ const HUTS: {p: [number, number]; r: number; kind: 'round' | 'tin'; lamp: boolea
 	}
 	return out;
 })();
-export const LAMP_HUT = HUTS.findIndex((h) => h.lamp);
+/** The world-space point in front of a hut's window, `d` metres out, and the window itself. */
+export const hutWindow = (i: number, d: number): [[number, number, number], [number, number, number]] => {
+	const [x, y, z] = hutPos(i);
+	const h = HUTS[i];
+	const wz = h.kind === 'round' ? 1.95 : 1.82;
+	const c = Math.cos(h.r), sn = Math.sin(h.r);
+	const wx = x + 1.2 * c + wz * sn, wzz = z - 1.2 * sn + wz * c;
+	return [[wx + sn * d, y + 1.5, wzz + c * d], [wx, y + 1.5, wzz]];
+};
 export const hutPos = (i: number): [number, number, number] => {
 	const [x, z] = HUTS[i].p;
 	const y = Math.min(...[[-2.5, -2.5], [2.5, -2.5], [-2.5, 2.5], [2.5, 2.5], [0, 0]].map(([dx, dz]) => terrainH(x + dx, z + dz)));
 	return [x, y - 0.3, z];
 };
+/** The lit hut the camera watches: the lamp hut whose window looks downhill, with the most open ground in front of it. */
+export const LAMP_HUT = HUTS.map((h, i) => i)
+	.filter((i) => HUTS[i].lamp)
+	.sort((a, b) => {
+		const clear = (i: number) => {
+			const [e] = hutWindow(i, 10);
+			return e[1] - terrainH(e[0], e[2]);
+		};
+		return clear(b) - clear(a);
+	})[0];
 
 export const Village: React.FC<{lamps: number; lampOut: number; dawn: boolean}> = ({lamps, lampOut, dawn}) => {
 	const mm = useM();

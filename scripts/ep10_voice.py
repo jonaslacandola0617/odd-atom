@@ -4,7 +4,7 @@ durations of one ElevenLabs take, before the picture is made.
 Narrator: ElevenLabs "Jack - Deep Dark Horror Narrator" (BVPhWQykET1TSvfGzrUr, eleven_v4), the
 channel's true-case voice, one performance with [long pause] between lines (prompt in
 docs/production/ep10-lake/prompt.json). The take is split with scripts/eleven_split.py; pauses
-inside a line are capped at 0.6 s; no atempo.
+inside a line are capped at 0.45 s; atempo 1.03 so the episode fits under 60 s.
 Without the take (ElevenLabs busy), `--provisional` writes a timeline from estimated line
 lengths (syllables / 3.8 per second) so the picture can be blocked; it is marked provisional
 and is replaced as soon as the take exists.
@@ -23,7 +23,7 @@ OUT = ROOT / 'public/assets/audio/ep10-lake-v1/voice'
 OUT.mkdir(parents=True, exist_ok=True)
 TAKE = ROOT / 'public/assets/audio/eleven-takes/ep10-take1.mp3'
 SR = es.SR
-TEMPO = 1.0
+TEMPO = 1.03
 
 # every line of the take, in order (the split needs all of them)
 TAKE_LINES = [
@@ -45,11 +45,11 @@ PLAN = [
     ('l02', 1, 0.7, 'the valley at night: huts, lamps in windows, crickets'),
     ('l03', 2, 0.6, 'the rumble; the lake surface lifts'),
     ('l04', 3, 1.6, 'stinger in silence: the white plume rises'),
-    ('l05', 4, 1.6, 'the mist reaches the village; a lamp goes out; the crickets stop; black'),
+    ('l05', 4, 1.4, 'the mist reaches the village; a lamp goes out; the crickets stop; black'),
     ('l06', 5, 1.2, 'dawn: empty paths, doors open, cold ash'),
     ('l07', 6, 1.2, 'down through the water'),
     ('l08', 7, 0.6, 'the deep layer'),
-    ('l09', 8, 1.6, 'stinger in silence: the deep layer lets go; then today, the degassing raft'),
+    ('l09', 8, 1.4, 'stinger in silence: the deep layer lets go; then today, the degassing raft'),
     ('l10', 9, 0.9, 'another lake at night, calm; one bubble'),
 ]
 TAIL = 1.6
@@ -61,7 +61,7 @@ def tempo(x, f):
     return np.frombuffer(p, np.float64).copy()
 
 
-def tighten(x, keep=0.6, floor_db=40):
+def tighten(x, keep=0.45, floor_db=40):
     """Shorten silent runs inside a line to `keep` seconds (cross-faded), leaving the words untouched."""
     hop = int(0.01 * SR)
     fr = np.sqrt(np.convolve(x ** 2, np.ones(hop) / hop, 'same')[::hop])
@@ -130,7 +130,7 @@ for lid, src, gap, beat in PLAN:
     t += dur
 total = round(t + TAIL, 3)
 doc = {'provisional': PROVISIONAL, 'fps': 30, 'duration_seconds': total, 'duration_frames': int(round(total * 30)),
-       'voice': f'ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), take 1 of 2, one take split into lines, inner pauses capped at 0.6 s, atempo {TEMPO}',
+       'voice': f'ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), one take (the second of the run did not start: busy), split into lines, inner pauses capped at 0.45 s, atempo {TEMPO}',
        'lines': timeline}
 (ROOT / 'src/data/ep10-lake-v1-timeline.json').write_text(json.dumps(doc, indent=2) + '\n')
 for l in timeline:

@@ -16,7 +16,7 @@ import {useThree} from '@react-three/fiber';
 import * as THREE from 'three';
 import timeline from '../../data/ep10-lake-v1-timeline.json';
 import {rng} from '../ps1';
-import {Deep, Degasser, hutPos, Lake, LAMP_HUT, MatsProvider, Mist, OTHER_X, OtherLake, Terrain, terrainH, Village, VILLAGE} from './world';
+import {Deep, Degasser, hutPos, hutWindow, Lake, LAMP_HUT, MatsProvider, Mist, OTHER_X, OtherLake, Terrain, terrainH, Village, VILLAGE} from './world';
 
 export const LW = 180;
 export const LH = 320;
@@ -49,7 +49,10 @@ type Mode = 'night' | 'dawn' | 'day' | 'under' | 'black';
 type Shot = {id: string; t: number; from: {p: V3; l: V3}; to?: {p: V3; l: V3}; fov?: number; mode: Mode};
 const rim = (x: number, z: number, up = 3): V3 => [x, terrainH(x, z) + up, z];
 const HUT = hutPos(LAMP_HUT);
+const [WIN_EYE, WIN] = hutWindow(LAMP_HUT, 7.5);
+const [WIN_EYE2] = hutWindow(LAMP_HUT, 6.4);
 const gnd = (x: number, z: number, up = 1.7): V3 => [x, terrainH(x, z) + up, z];
+const over = (x: number, z: number, h: number): V3 => [x, Math.max(terrainH(x, z) + 3, HUT[1] + h), z];
 const A = {from: {p: rim(-14, -66, 3), l: [0, -2, 14] as V3}, to: {p: rim(-12, -62, 3), l: [0, -2, 14] as V3}};
 const SHOTS: Shot[] = [
 	{id: 'A_hook', t: 0, mode: 'night', ...A, fov: 50},
@@ -57,9 +60,9 @@ const SHOTS: Shot[] = [
 	{id: 'C_rumble', t: L.l02.end, mode: 'night', from: {p: [-36, 3.5, -34], l: [0, 1.5, 0]}, to: {p: [-34, 3.5, -32], l: [0, 2.5, 0]}, fov: 50},
 	{id: 'C_plume', t: K.plume, mode: 'night', from: {p: rim(48, -50, 3), l: [0, 18, 6]}, to: {p: rim(46, -48, 3), l: [0, 26, 10]}, fov: 58},
 	{id: 'D_flow', t: L.l04.start + 2.6, mode: 'night', from: {p: [52, terrainH(52, 90) + 14, 90], l: [10, terrainH(10, 140) + 2, 140]}, to: {p: [50, terrainH(50, 100) + 13, 100], l: [12, terrainH(12, 170) + 2, 170]}, fov: 56},
-	{id: 'E_village', t: L.l04.end + 0.2, mode: 'night', from: {p: gnd(HUT[0] + 4, HUT[2] + 11), l: [HUT[0], HUT[1] + 1.6, HUT[2]]}, to: {p: gnd(HUT[0] + 3.6, HUT[2] + 10), l: [HUT[0], HUT[1] + 1.6, HUT[2]]}, fov: 54},
+	{id: 'E_village', t: L.l04.end - 1.2, mode: 'night', from: {p: [WIN_EYE[0] - 1.2, Math.max(WIN_EYE[1] + 1.2, terrainH(WIN_EYE[0] - 1.2, WIN_EYE[2]) + 1.6), WIN_EYE[2]], l: WIN}, to: {p: [WIN_EYE2[0] - 1.0, Math.max(WIN_EYE2[1] + 1.0, terrainH(WIN_EYE2[0] - 1.0, WIN_EYE2[2]) + 1.6), WIN_EYE2[2]], l: WIN}, fov: 50},
 	{id: 'E_black', t: K.black, mode: 'black', from: {p: [0, 0, 0], l: [0, 0, 1]}, fov: 50},
-	{id: 'F_dawn', t: L.l05.start, mode: 'dawn', from: {p: gnd(HUT[0] + 4, HUT[2] + 11), l: [HUT[0], HUT[1] + 1.6, HUT[2]]}, to: {p: gnd(HUT[0] + 3.8, HUT[2] + 10.5), l: [HUT[0], HUT[1] + 1.6, HUT[2]]}, fov: 54},
+	{id: 'F_dawn', t: L.l05.start, mode: 'dawn', from: {p: [VILLAGE[0] - 34, VILLAGE[1] + 26, VILLAGE[2] - 46], l: [VILLAGE[0], VILLAGE[1] + 2, VILLAGE[2]]}, to: {p: [VILLAGE[0] - 32, VILLAGE[1] + 25, VILLAGE[2] - 44], l: [VILLAGE[0], VILLAGE[1] + 2, VILLAGE[2]]}, fov: 54},
 	{id: 'F_path', t: L.l06.start, mode: 'dawn', from: {p: gnd(VILLAGE[0] - 3, VILLAGE[2] - 34, 2.2), l: [VILLAGE[0], VILLAGE[1] + 1.0, VILLAGE[2]]}, to: {p: gnd(VILLAGE[0] - 2, VILLAGE[2] - 24, 2.0), l: [VILLAGE[0], VILLAGE[1] + 1.2, VILLAGE[2] + 10]}, fov: 54},
 	{id: 'G_red', t: L.l06.end + 0.1, mode: 'dawn', from: {p: rim(-14, -66, 3), l: [0, -2, 14]}, to: {p: rim(-13, -64, 3), l: [0, -2, 14]}, fov: 50},
 	{id: 'G_down', t: L.l07.start, mode: 'under', from: {p: [0, -1.0, -6], l: [0, -8, 4]}, to: {p: [0, -4.8, -3], l: [0, -8.5, 4]}, fov: 56},
@@ -163,8 +166,8 @@ const World: React.FC<{t: number}> = ({t}) => {
 			)}
 			{mode === 'dawn' && (
 				<>
-					<ambientLight intensity={0.95} color="#8a7c7c" />
-					<directionalLight position={[300, 80, -200]} intensity={0.55} color="#e0b090" />
+					<ambientLight intensity={1.5} color="#9a8c88" />
+					<directionalLight position={[300, 80, -200]} intensity={0.9} color="#e0b090" />
 				</>
 			)}
 			{mode === 'day' && (
