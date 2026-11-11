@@ -1,0 +1,18 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Sa madilim na daan, kapag may narinig kang umiiyak na sanggol sa damuhan, huwag kang hihinto. [long pause] [softly] Sa probinsya, tiyanak ang tawag dito. [long pause] Parang bagong silang. Mag-isa. Nilalamig. Umiiyak, naghihintay na may bumuhat. [long pause] Humihinto ang mga driver. Siyempre. [long pause] Magaan pa sa una. Tapos, bumibigat. [long pause] [whispers] At tumitigil ang iyak. [long pause] [softly] Sabi ng iba, sila raw ang mga kaluluwa ng mga batang hindi nabinyagan. Sabi naman ng iba, mas matanda pa sila roon. [long pause] Sabi ng matatanda: kapag naligaw ka at narinig mo ito, baligtarin mo ang damit mo. [long pause] Nalilito raw sila. [long pause] [whispers] May mga driver na nakaalala sa tamang oras.",
+    "flow_id": "nqLt9VBJgacgT4BdIK7p",
+    "attempts": [
+      "2026-11-11, Starter account, new flow: both takes started at once (735 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep15-take1.mp3: 60.56 s, 735 credits (used)",
+      "public/assets/audio/eleven-takes/ep15-take2.mp3: 60.88 s, 735 credits (kept, unused)"
+    ],
+    "processing": "split into 10 lines, pauses inside a line capped at 0.45 s, no tempo change; the timeline (54.2 s) was built from the real line lengths"
+  },
+  "script_source": "docs/stories/season-2-philippines.md #15 (folklore: the tiyanak), Taglish version for Juanito"
+}

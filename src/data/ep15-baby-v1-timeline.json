@@ -1,0 +1,89 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 54.178,
+  "duration_frames": 1625,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Sa madilim na daan, kapag may narinig kang umiiyak na sanggol sa damuhan, huwag kang hihinto.",
+      "start": 0.15,
+      "end": 6.891,
+      "kind": "narrator",
+      "beat_before": "hook: a jeepney's headlights on cogon grass, a white bundle in it, crying"
+    },
+    {
+      "id": "l02",
+      "text": "Sa probinsya, tiyanak ang tawag dito.",
+      "start": 7.591,
+      "end": 10.774,
+      "kind": "narrator",
+      "beat_before": "the empty provincial road at night: one jeepney, LAST TRIP on its signboard"
+    },
+    {
+      "id": "l03",
+      "text": "Parang bagong silang. Mag-isa. Nilalamig. Umiiyak, naghihintay na may bumuhat.",
+      "start": 11.374,
+      "end": 18.741,
+      "kind": "narrator",
+      "beat_before": "close: the bundle in the grass, a lampin, moving as it cries"
+    },
+    {
+      "id": "l04",
+      "text": "Humihinto ang mga driver. Siyempre.",
+      "start": 19.441,
+      "end": 22.033,
+      "kind": "narrator",
+      "beat_before": "the jeepney stops; the driver steps down into the grass"
+    },
+    {
+      "id": "l05",
+      "text": "Magaan pa sa una. Tapos, bumibigat.",
+      "start": 22.833,
+      "end": 26.277,
+      "kind": "narrator",
+      "beat_before": "inside under the fluorescent tube: he holds the bundle; his arms sag with its weight"
+    },
+    {
+      "id": "l06",
+      "text": "At tumitigil ang iyak.",
+      "start": 26.977,
+      "end": 28.859,
+      "kind": "narrator",
+      "beat_before": "the crying stops; the tube flickers"
+    },
+    {
+      "id": "l07",
+      "text": "Sabi ng iba, sila raw ang mga kaluluwa ng mga batang hindi nabinyagan. Sabi naman ng iba, mas matanda pa sila roon.",
+      "start": 31.859,
+      "end": 40.206,
+      "kind": "narrator",
+      "beat_before": "held silence; the lampin falls open: an ancient face on a baby body (stinger in silence); the tube goes out"
+    },
+    {
+      "id": "l08",
+      "text": "Sabi ng matatanda: kapag naligaw ka at narinig mo ito, baligtarin mo ang damit mo.",
+      "start": 41.006,
+      "end": 46.912,
+      "kind": "narrator",
+      "beat_before": "morning: the jeepney off the road, its back open, a pair of tsinelas on the step"
+    },
+    {
+      "id": "l09",
+      "text": "Nalilito raw sila.",
+      "start": 47.512,
+      "end": 48.664,
+      "kind": "narrator",
+      "beat_before": "close: the driver's shirt on the seat, turned inside out"
+    },
+    {
+      "id": "l10",
+      "text": "May mga driver na nakaalala sa tamang oras.",
+      "start": 49.464,
+      "end": 52.578,
+      "kind": "narrator",
+      "beat_before": "the road by day; tiny handprints on the windshield; then night again and the cry in the grass"
+    }
+  ]
+}

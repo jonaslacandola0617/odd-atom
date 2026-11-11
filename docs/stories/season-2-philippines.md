@@ -355,6 +355,18 @@ Taglish: "Kapag may narinig kang umiiyak na sanggol sa damuhan… huwag kang hih
 8. Morning: the jeep parked off the road, its door open, the driver's tsinelas on the step, his shirt on the seat **turned inside out**.
 9. Night again, the same road: the cry in the grass. Loop.
 
+**Narration (Taglish, for Juanito):**
+1. Sa madilim na daan, kapag may narinig kang umiiyak na sanggol sa damuhan, huwag kang hihinto.
+2. Sa probinsya, tiyanak ang tawag dito.
+3. Parang bagong silang. Mag-isa. Nilalamig. Umiiyak, naghihintay na may bumuhat.
+4. Humihinto ang mga driver. Siyempre.
+5. Magaan pa sa una. Tapos, bumibigat.
+6. At tumitigil ang iyak.
+7. Sabi ng iba, sila raw ang mga kaluluwa ng mga batang hindi nabinyagan. Sabi naman ng iba, mas matanda pa sila roon.
+8. Sabi ng matatanda: kapag naligaw ka at narinig mo ito, baligtarin mo ang damit mo.
+9. Nalilito raw sila.
+10. May mga driver na nakaalala sa tamang oras.
+
 **Narration (English draft):**
 1. On a dark road, if you hear a baby crying in the grass, keep driving.
 2. In the provinces they call it the tiyanak.

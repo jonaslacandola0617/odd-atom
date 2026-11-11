@@ -53,6 +53,17 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 15 "Don't Pick Up the Baby" (tiyanak, folklore).
 
+- **Episode 15 "Don't Pick Up the Baby" (2026-11-11):** the user asked for the "next ep". It is folklore: the tiyanak. `Ep15DontPickUpTheBaby` / `src/horror/ep15/` is 54.2 s, in Taglish.
+  - **World:** an empty provincial road at night between walls of cogon grass (one triangle per blade, swaying tips), coconut palms, electric poles; a jeepney on its LAST TRIP (GOD BLESS OUR TRIP, a rosary, a fluorescent tube, facing benches); the driver; morning.
+  - **Entity kit:** `Tiyanak` was added to `src/horror/entities.tsx` (a lampin bundle that cries and wriggles; opened, an old wrinkled face on a newborn's body, black eyes, a mouth crowded with small teeth; no gore).
+  - **Story and picture:** the crying bundle in the grass (the hook); the jeepney slowing; its point of view on the driver walking to it; his arms sagging under the weight; the crying stops, the engine stalls, 1.5 s of silence; one lit reveal of the face under the tube; black and a giggle; eyeshine inside the dark jeepney; old rotted lampins; morning with his tsinelas on the step and his shirt inside out; handprints on the windshield and a second bundle; the loop.
+  - **Care:** the creature is not a real infant; no abortion framing and no mother blamed; the driver is decent and his fate is never shown; the cry is synthesized, not a real infant recording.
+  - **Voice:** Juanito, both takes at once on the Starter account (1,470 credits; take 1 used).
+  - **Sound:** presence −12.4 / −3.7 dB, lines ≥5.1 dB (l05 +0.8, l06 +0.3), −14.0 LUFS, decoded peak −1.69 dBFS, bed seam −19.9 / −19.3 dBFS.
+  - **Delivery:** `assets/videos/ep15-baby-v1/`. Notes (with English subtitles) are in `docs/production/ep15-baby/README.md`; the publishing kit is `docs/publishing/ep15/README.md` and `docs/publishing/POSTS-ep11-20.md`.
+  - **Status:** no user approval and no listening pass (the synthesized cry is unheard).
+  - **Next in the season order:** Episode 16 "Ward Three" (reported legend, Clark).
+
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).

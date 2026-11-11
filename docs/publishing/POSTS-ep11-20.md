@@ -15,6 +15,7 @@ Season 2 is Philippine ghost stories with Taglish narration (Juanito) and Taglis
 | 12 | Tik-Tik | original (on folklore) | `assets/videos/ep12-tiktik-v1/ep12-tik-tik.mp4` | 51.2 s |
 | 13 | Half of Her | folklore (manananggal) | `assets/videos/ep13-half-v1/ep13-half-of-her.mp4` | 59.9 s |
 | 14 | The Guests of Dominican Hill | reported legend | `assets/videos/ep14-hill-v1/ep14-the-guests-of-dominican-hill.mp4` | 55.3 s |
+| 15 | Don't Pick Up the Baby | folklore (tiyanak) | `assets/videos/ep15-baby-v1/ep15-dont-pick-up-the-baby.mp4` | 54.2 s |
 
 ---
 
@@ -119,3 +120,29 @@ sa baguio, may hotel na bumababa pa rin ang mga bisita para maghapunan 🕯️ #
 - **Cover text:** `HUWAG KA NANG MAGHAPUNAN DOON` (the table at frame 0).
 - **Pinned comment:** `Tingnan mo ang dulo ng mesa sa 0:44.`
 - **Care:** a legend about a heritage site; the beheadings are undocumented; respect the wartime history; no night-visit dares. Full kit: `docs/publishing/ep14/README.md`.
+
+---
+
+## Broadcast 15: Don't Pick Up the Baby (folklore)
+
+**YouTube title:** `Kapag may umiiyak na sanggol sa damuhan… huwag kang hihinto`
+Alternative: `Don't pick up the baby crying by the road`
+
+**YouTube description**
+```
+Huling biyahe. Madilim na daan sa probinsya. May umiiyak na sanggol sa damuhan, nakabalot sa lampin. Siyempre, huminto ang driver. Magaan pa sa una…
+
+Panoorin ulit ang windshield sa dulo. 👶
+
+Broadcast 15 · After Sign-Off. Kuwentong-bayan (folklore) ng tiyanak, ginawa sa low-poly 3D. Kathang-isip ang driver at ang jeep.
+#tiyanak #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #shorts
+```
+**YouTube pinned comment:** `Nakaalala kaya siya sa tamang oras? 👕 Ano pa ang ibang panlaban sa tiyanak na sabi ng lola niyo?`
+
+**TikTok caption**
+```
+kapag may narinig kang umiiyak na sanggol sa damuhan sa gabi… huwag kang hihinto 👶 #tiyanak #kwentongkatatakutan #pinoyhorror #pinoyfolklore #jeepney #fyp #fypシ
+```
+- **Cover text:** `HUWAG KANG HIHINTO` (the bundle at frame 0).
+- **Pinned comment:** `Tingnan mo ang windshield sa 0:50. At sa likod ng jeep.`
+- **Care:** folklore told with respect; the creature is not a baby; no jokes about real infants, pregnancy loss or abortion; never blame mothers; drivers are decent. Full kit: `docs/publishing/ep15/README.md`.

@@ -656,3 +656,163 @@ export const Headless: React.FC<{t: number; habit: 'nun' | 'priest'; pose: 'seat
 		</group>
 	);
 };
+
+/**
+ * The tiyanak (folklore): a newborn-sized bundle in a white lampin. Wrapped, it is only cloth that
+ * cries and wriggles. Open, the hood flap has fallen back on a face that is old: ashen, deeply
+ * wrinkled, eyes all black with a pinpoint of shine, and a mouth with too many small teeth; one
+ * tiny hand with long fingers grips the cloth. Lies on its back: the face looks up (+y), the head
+ * is at -z. No gore: it is wrong, not hurt.
+ * open 0..1 (the hood flap falls back), cry 0..1 (wriggle), grin 0..1 (the mouth opens).
+ */
+export const Tiyanak: React.FC<{t: number; open?: number; cry?: number; grin?: number; eyes?: number; hand?: boolean; position?: [number, number, number]; rotation?: [number, number, number]; scale?: number}> = ({t, open = 0, cry = 0, grin = 0.5, eyes = 1, hand = false, position = [0, 0, 0], rotation = [0, 0, 0], scale = 1}) => {
+	const m = useMemo(
+		() => ({
+			cloth: lam('#d6d0c2'),
+			fold: lam('#a8a294'),
+			skin: lam('#8a7c68'),
+			wrinkle: lam('#3a3024'),
+			lip: lam('#5a4a3e'),
+			mouth: bas('#040202'),
+			teeth: lam('#e0d6b8'),
+			socket: bas('#000000'),
+			eye: bas('#e8d080'),
+			hair: lam('#cfcac0'),
+			nail: lam('#1a1410'),
+		}),
+		[],
+	);
+	const wr = Math.sin(t * 7.3) * 0.07 * cry;
+	const flap = -3.05 * Math.min(1, Math.max(0, open)) + Math.sin(t * 9) * 0.05 * cry;
+	const up = [0.008, 0.011, 0.014, 0.017, 0.02, 0.017, 0.014, 0.011, 0.008];
+	const Face = (
+		// built facing +z with +y up, then turned to face up (+y) with the forehead toward -z
+		<group position={[0, 0.1, -0.24]} rotation={[-Math.PI / 2, 0, 0]}>
+			<mesh scale={[1.05, 1.0, 0.85]} material={m.skin}>
+				<icosahedronGeometry args={[0.085, 1]} />
+			</mesh>
+			{/* a heavy brow, sunken temples */}
+			<mesh position={[0, 0.03, 0.064]} material={m.wrinkle}>
+				<boxGeometry args={[0.11, 0.012, 0.016]} />
+			</mesh>
+			{/* forehead lines */}
+			{[0.045, 0.054, 0.063].map((y, i) => (
+				<mesh key={y} position={[0, y, 0.06 - i * 0.006]} rotation={[-0.4 - i * 0.15, 0, (i - 1) * 0.08]} material={m.wrinkle}>
+					<boxGeometry args={[0.07 - i * 0.008, 0.004, 0.006]} />
+				</mesh>
+			))}
+			{/* eyes: all black, too big for a baby, a pinpoint of shine; bags beneath, crow's feet */}
+			{[-1, 1].map((sd) => (
+				<group key={sd} position={[sd * 0.032, 0.008, 0.069]}>
+					<mesh material={m.socket}>
+						<boxGeometry args={[0.038, 0.03, 0.02]} />
+					</mesh>
+					{eyes > 0 && (
+						<mesh position={[-sd * 0.006, 0.005, 0.011]} material={m.eye}>
+							<boxGeometry args={[0.008, 0.008, 0.003]} />
+						</mesh>
+					)}
+					<mesh position={[0, -0.02, -0.002]} material={m.wrinkle}>
+						<boxGeometry args={[0.03, 0.006, 0.012]} />
+					</mesh>
+					{[0, 1].map((k) => (
+						<mesh key={k} position={[sd * 0.022, -0.004 + k * 0.008, -0.008]} rotation={[0, 0, sd * (0.4 - k * 0.8)]} material={m.wrinkle}>
+							<boxGeometry args={[0.014, 0.003, 0.008]} />
+						</mesh>
+					))}
+				</group>
+			))}
+			<mesh position={[0, -0.012, 0.08]} material={m.skin}>
+				<boxGeometry args={[0.022, 0.02, 0.016]} />
+			</mesh>
+			{/* folds from the nose to the corners of the mouth */}
+			{[-1, 1].map((sd) => (
+				<mesh key={sd} position={[sd * 0.03, -0.03, 0.07]} rotation={[0, 0, sd * 0.5]} material={m.wrinkle}>
+					<boxGeometry args={[0.004, 0.03, 0.008]} />
+				</mesh>
+			))}
+			{/* the mouth: wide, black, crowded with small teeth top and bottom */}
+			<mesh position={[0, -0.046, 0.066]} material={m.lip}>
+				<boxGeometry args={[0.084, 0.016 + grin * 0.034, 0.018]} />
+			</mesh>
+			<mesh position={[0, -0.046, 0.074]} material={m.mouth}>
+				<boxGeometry args={[0.078, 0.012 + grin * 0.032, 0.02]} />
+			</mesh>
+			{up.map((h, i) => (
+				<mesh key={`u${i}`} position={[-0.034 + i * 0.0085, -0.046 + (0.006 + grin * 0.016) - h / 2, 0.085]} material={m.teeth}>
+					<boxGeometry args={[0.004, h, 0.004]} />
+				</mesh>
+			))}
+			{up.slice(1).map((h, i) => (
+				<mesh key={`d${i}`} position={[-0.03 + i * 0.0085, -0.046 - (0.006 + grin * 0.016) + h / 2, 0.085]} material={m.teeth}>
+					<boxGeometry args={[0.004, h * 0.9, 0.004]} />
+				</mesh>
+			))}
+			{/* a few white wisps of hair */}
+			{[-0.04, -0.015, 0.01, 0.035].map((x, i) => (
+				<mesh key={x} position={[x, 0.085, 0.02 - i * 0.01]} rotation={[0.6, 0, (i - 1.5) * 0.4]} material={m.hair}>
+					<boxGeometry args={[0.004, 0.05, 0.004]} />
+				</mesh>
+			))}
+			{[-1, 1].map((sd) => (
+				<mesh key={`e${sd}`} position={[sd * 0.088, 0.0, 0.0]} material={m.skin}>
+					<boxGeometry args={[0.014, 0.034, 0.026]} />
+				</mesh>
+			))}
+		</group>
+	);
+	return (
+		<group position={position} rotation={rotation} scale={scale}>
+			<group rotation={[0, 0, wr]}>
+				{/* the wrapped body: soft, rounded cloth, tied with a band */}
+				<mesh position={[0, 0.075, 0.08]} scale={[0.145, 0.088, 0.035]} material={m.fold}>
+					<icosahedronGeometry args={[1, 1]} />
+				</mesh>
+				<mesh position={[0, 0.075, 0.04]} scale={[0.14, 0.085, 0.24]} material={m.cloth}>
+					<icosahedronGeometry args={[1, 1]} />
+				</mesh>
+				{[-0.06, 0.05, 0.15].map((z, i) => (
+					<mesh key={z} position={[0, 0.152 - Math.abs(z - 0.04) * 0.25, z]} rotation={[0, (i - 1) * 0.6, 0]} material={m.fold}>
+						<boxGeometry args={[0.2, 0.006, 0.012]} />
+					</mesh>
+				))}
+				{/* the hood: under and around the head; its flap over the face falls back as it opens */}
+				<mesh position={[0, 0.07, -0.25]} scale={[0.125, 0.07, 0.12]} material={m.cloth}>
+					<icosahedronGeometry args={[1, 1]} />
+				</mesh>
+				{[-1, 1].map((sd) => (
+					<mesh key={sd} position={[sd * 0.1, 0.11, -0.24]} rotation={[0, 0, sd * 0.35]} scale={[0.03, 0.08, 0.11]} material={m.fold}>
+						<icosahedronGeometry args={[1, 1]} />
+					</mesh>
+				))}
+				{open < 0.97 && <group position={[0, 0.19, -0.35]} rotation={[flap, 0, 0]}>
+					<mesh position={[0, -0.02, 0.11]} scale={[0.1, 0.025, 0.11]} material={m.cloth}>
+						<icosahedronGeometry args={[1, 1]} />
+					</mesh>
+					<mesh position={[0, 0.013, 0.2]} material={m.fold}>
+						<boxGeometry args={[0.2, 0.004, 0.01]} />
+					</mesh>
+				</group>}
+				{Face}
+				{/* one tiny hand with long fingers, gripping the edge of the cloth */}
+				{(open > 0.4 || hand) && (
+					<group position={[0.07, 0.165, -0.11]} rotation={[0, -0.4, 0]}>
+						<mesh material={m.skin}>
+							<boxGeometry args={[0.034, 0.014, 0.032]} />
+						</mesh>
+						{[-0.012, -0.004, 0.004, 0.012].map((x, i) => (
+							<group key={x} position={[x, 0, 0.016]} rotation={[0.5 + i * 0.1, 0, 0]}>
+								<mesh position={[0, 0, 0.022]} material={m.skin}>
+									<boxGeometry args={[0.0055, 0.0055, 0.044]} />
+								</mesh>
+								<mesh position={[0, -0.004, 0.046]} material={m.nail}>
+									<boxGeometry args={[0.006, 0.006, 0.01]} />
+								</mesh>
+							</group>
+						))}
+					</group>
+				)}
+			</group>
+		</group>
+	);
+};
