@@ -120,7 +120,12 @@ python3 scripts/caption_check.py src/data/ep09-lighthouse-v1-timeline.json asset
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 43.5 MB; sha256 `c3208744a22f273ea1573bbe0928c1aa57ca14caa4cad5c5360684925cfd40b2`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,629 frames at 30 fps (54.3 s), with audio.
+- **Loudness:** −14.1 LUFS measured on the encoded file; decoded sample peak −1.38 dBFS.
+- **Loop:** the last frame differs from frame 0 by 2.1/255 in mean absolute luma, within the hook's own frame-to-frame motion (1.2–2.2).
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. The weakest image is the railings, where the concrete platform dominates; the twisted rails read in the first second of the shot.
+- **Captions:** `scripts/caption_check.py` extracted all 14 caption pages from the encoded file. Each was read against the script word for word: all are complete.
 
 ## Known limits
 
