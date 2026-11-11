@@ -247,9 +247,9 @@ const Overlay: React.FC<{t: number; damage: number; captions: boolean}> = ({t, d
 	const {s} = camPose(t);
 	useLayoutEffect(() => {
 		// ---- the mirror: everything outside the glass is the dark cab; the rosary hangs in front
-		const f = frame.current!.getContext('2d')!;
-		f.clearRect(0, 0, LW, LH);
-		if (s.mode === 'mirror') {
+		const f = frame.current?.getContext('2d');
+		if (f) f.clearRect(0, 0, LW, LH);
+		if (f && s.mode === 'mirror') {
 			const [x0, y0, x1, y1] = mirrorRect(t, s.id);
 			f.fillStyle = '#030305';
 			f.fillRect(0, 0, LW, LH);
@@ -373,7 +373,8 @@ const Overlay: React.FC<{t: number; damage: number; captions: boolean}> = ({t, d
 	}, [t, damage, captions, s.id, s.mode]);
 	return (
 		<>
-			<canvas ref={frame} width={LW} height={LH} style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, imageRendering: 'pixelated'}} />
+			{/* mounted only in mirror shots, fresh per shot: a reused canvas left the mirror on screen in the full render */}
+			{s.mode === 'mirror' && <canvas key={s.id} ref={frame} width={LW} height={LH} style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, imageRendering: 'pixelated'}} />}
 			<canvas ref={noise} width={LW} height={LH} style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, mixBlendMode: 'overlay', imageRendering: 'pixelated'}} />
 			<canvas ref={cap} width={360} height={640} style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, imageRendering: 'pixelated'}} />
 		</>
