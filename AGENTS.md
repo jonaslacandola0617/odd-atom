@@ -1,5 +1,11 @@
 # Video delivery
 
+- **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
+  - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
+  - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). A short test line goes to the user first so they can check pronunciation; the first attempt was refused as busy, and nothing was charged.
+  - **Horror standard:** the new "Season 2 horror standard" in `docs/production/EPISODE_PLAYBOOK.md`. Key points: a dark key (≤45/255 per shot) with motivated light, one clear lit reveal, the entity kit `src/horror/entities.tsx` (WhiteLady, `flicker`, `handheld`), Filipino settings and ambience, and long silences before stingers.
+  - **Status:** Episode 11 (`src/horror/ep11/`) is in progress on a provisional timeline until the Juanito take exists. None has user approval or a listening pass.
+
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).
