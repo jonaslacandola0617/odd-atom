@@ -49,5 +49,7 @@ const pick = () => {
 		console.log('saved', dest);
 	} finally {
 		await browser.close({silent: true});
+		// remove this run's bundle (a full copy of public/, ~550 MB) so repeated renders don't fill the disk
+		fs.rmSync(serveUrl, {recursive: true, force: true});
 	}
 })().catch((e) => { console.error(e); process.exit(1); });
