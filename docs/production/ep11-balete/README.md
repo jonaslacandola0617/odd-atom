@@ -158,12 +158,33 @@ python3 scripts/caption_check.py src/data/ep11-balete-v1-timeline.json assets/vi
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 43.8 MB; sha256 `c1a288da9614b68e804d34b32eff8541cb355d081f217cbe0f2ca7a6270927dc`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,639 frames at 30 fps (54.6 s), 1080×1920, with audio.
+- **Loudness:** −14.1 LUFS measured on the encoded file; decoded sample peak −1.1 dBFS.
+- **Loop:** the last frame differs from frame 0 by 0.59/255 in mean absolute luma; the hook's own frame-to-frame motion is 0.57.
+- **The first full render was rejected:** the mirror's 2D rosary and rim stayed on screen after the mirror shots, over the high wide and the empty back seat. Single stills had not shown it. The mirror overlay is now mounted only in mirror shots, fresh per shot, and the second render is clean.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. All of these read:
+  - the mirror hook;
+  - the back-seat view and the road;
+  - the woman at the balete;
+  - the side window;
+  - the meter;
+  - the empty mirror, then hair over the seat;
+  - the reveal;
+  - the empty seat with petals;
+  - the high wide;
+  - the balete ahead.
+- **Weakest images:**
+  - the windshield approach (12–17 s) is dark, and the balete is small in it;
+  - in the last shot, the rosary's cross hangs over the caption "umiikot pa rin", which stays readable;
+  - the reveal face is simple geometry up close.
+- **Captions:** `scripts/caption_check.py` extracted all 13 caption pages from the encoded file. Each was read against the Taglish script word for word: all are complete.
 
 ## Known limits
 
 - The street is a generic New Manila composite (walls, gates, trees, condos), not a survey of Balete Drive.
 - The White Lady is low-poly by design. At phone size the reveal reads as a pale half-face with an unlit eye and an open mouth under black hair, but up close the face is simple geometry.
 - The taxi interior is simplified (no doors modelled from inside, no seat belts).
+- The rosary's cross overlaps the last caption page slightly.
 - The TTS Taglish was checked by the user on the test line only; the full take has not been listened to here.
 - No listening pass; no user approval of the episode.
