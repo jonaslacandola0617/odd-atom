@@ -154,7 +154,25 @@ python3 scripts/caption_check.py src/data/ep14-hill-v1-timeline.json assets/vide
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 44.6 MB; sha256 `5d862a23e07adb8d3a86bb49fe7612f8782937a7927bc73bc265ca81597e421c`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,658 frames at 30 fps (55.3 s), 1080×1920, with audio.
+- **Loudness:** −14.1 LUFS measured on the encoded file; decoded sample peak −1.8 dBFS.
+- **Loop:** the last frame differs from frame 0 by 0.75/255 in mean absolute luma (the hook's own frame-to-frame motion is 0.36, a slow handheld push in a dark frame). That is under one luma level.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. All of these read:
+  - the set table;
+  - the ruin on the hill;
+  - the sheltering silhouettes;
+  - the fog wide;
+  - the corridor;
+  - the swing into the empty hall;
+  - the corridor with the priest's shape;
+  - the black;
+  - the seated habit with nothing above the collar, in the flashlight;
+  - the chairs pulled out;
+  - dawn;
+  - the loop.
+- **Weakest images:** the corridor shots are very dark, and the priest is a small silhouette; the war shot is suggestion only.
+- **Captions:** `scripts/caption_check.py` extracted all 11 caption pages from the encoded file. Each was read against the Taglish script word for word: all are complete.
 
 ## Known limits
 
