@@ -17,6 +17,17 @@
   - **Status:** no user approval of the episode and no listening pass.
   - **Next in the season order:** Episode 12 "Tik-Tik" (original, on folklore).
 
+- **Episode 12 "Tik-Tik" (2026-11-11):** the user asked for the "next ep". It is an original built on the tiktik belief (faint means near). `Ep12TikTik` / `src/horror/ep12/` is 51.2 s, in Taglish.
+  - **World:** a wooden barrio house on stilts with an open gap under the yero roof (bulb, jalousie with garlic and salt, banig, Lola, an altar), and a fiesta street (banderitas, sari-sari store, videoke tent).
+  - **Entity kit:** `Aswang` (face-only or crouched: a narrow pale face, black hair, pinpoint eyeshine, a dropped jaw) and `Tongue` were added to `src/horror/entities.tsx`.
+  - **Story and picture:** the dark-room hook; the tik-tik loud and far, then softer and drier, then at the ear; the videoke stopping mid-song; Lola looking up; 1.45 s of silence; the tongue in a moonlight shaft; one lit reveal of the face in the gap; a rooster; dawn with the salt scattered inward and the child safe; the loop.
+  - **Care:** fiction; no town named; Lola is the hero.
+  - **Voice:** Juanito; both takes generated when the user asked to try again (1,324 credits; take 1 used).
+  - **Sound:** presence −10.7 / −3.2 dB, lines 5.2–11.6 dB, no lifts, −14.0 LUFS, decoded peak −1.05 dBFS, bed seam −25.8 / −25.4 dBFS.
+  - **Delivery:** `assets/videos/ep12-tiktik-v1/`. Notes (with English subtitles) are in `docs/production/ep12-tiktik/README.md`; the publishing kit is `docs/publishing/ep12/README.md` and `docs/publishing/POSTS-ep11-20.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 13 "Half of Her" (manananggal, folklore).
+
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).

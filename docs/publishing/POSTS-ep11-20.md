@@ -12,6 +12,7 @@ Season 2 is Philippine ghost stories with Taglish narration (Juanito) and Taglis
 | # | Story | Kind | Upload this file | Length |
 |---|---|---|---|---|
 | 11 | The Passenger on Balete Drive | reported legend | `assets/videos/ep11-balete-v1/ep11-the-passenger-on-balete-drive.mp4` | 54.6 s |
+| 12 | Tik-Tik | original (on folklore) | `assets/videos/ep12-tiktik-v1/ep12-tik-tik.mp4` | 51.2 s |
 
 ---
 
@@ -38,3 +39,29 @@ kung dadaan ka sa balete drive pagkalipas ng hatinggabi… huwag kang titingin s
 - **Cover text:** `HUWAG KANG TITINGIN SA SALAMIN` (the woman under the balete, about 0:19).
 - **Pinned comment:** `Tingnan mo ang metro sa 0:26.`
 - **Care:** a legend with no identified victim; taxi drivers are not villains; a residential street, so no night-visit challenges. Full kit: `docs/publishing/ep11/README.md`.
+
+---
+
+## Broadcast 12: Tik-Tik (original, on folklore)
+
+**YouTube title:** `Pag humihina ang tunog… lumalapit siya`
+Alternative: `The Filipino rule: if the sound gets quieter, it's getting closer`
+
+**YouTube description**
+```
+Sabi ng matatanda: kapag malakas ang "tik-tik," malayo pa. Kapag mahina na… nasa bubong mo na. Isang gabi ng pista, nagbuhos si Lola ng asin sa bintana. Kinaumagahan, nakakalat ang asin. Mula sa loob.
+
+Gamitin ang headphones. 🎧 Pakinggan kung saan galing ang huling "tik."
+
+Broadcast 12 · After Sign-Off. Original na kuwento (fiction), batay sa paniniwala tungkol sa tiktik.
+#tiktik #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #shorts
+```
+**YouTube pinned comment:** `Sino ang nagbukas ng bintana? 👀 At sa inyo ba, asin, bawang o ilaw ang panlaban? Kuwento niyo ang sabi ng lola niyo.`
+
+**TikTok caption**
+```
+kapag humihina ang tunog ng tiktik… hindi siya lumalayo 👂 (gamitin ang headphones) #tiktik #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #fyp #fypシ
+```
+- **Cover text:** `MAHINA = MALAPIT` (the garlic at the window, about 0:15).
+- **Pinned comment:** `Pakinggan sa headphones ang 0:31. Sa kaliwa.`
+- **Care:** label it as an original story; no real town, family or person is an aswang; Lola is the hero. Full kit: `docs/publishing/ep12/README.md`.

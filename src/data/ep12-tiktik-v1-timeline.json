@@ -1,87 +1,87 @@
 {
-  "provisional": true,
+  "provisional": false,
   "fps": 30,
-  "duration_seconds": 49.517,
-  "duration_frames": 1486,
+  "duration_seconds": 51.202,
+  "duration_frames": 1536,
   "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
   "lines": [
     {
       "id": "l01",
       "text": "Pag humihina ang tunog, hindi siya lumalayo. Lumalapit siya.",
       "start": 0.15,
-      "end": 4.674,
+      "end": 5.196,
       "kind": "narrator",
       "beat_before": "hook: one dim bulb in a wooden barrio house, the child asleep on a banig, the dark gap under the roof"
     },
     {
       "id": "l02",
       "text": "Sabi ng lola ko, nangangaso raw siya tuwing pista, habang malakas ang videoke at walang nakakarinig sa mga aso.",
-      "start": 5.374,
-      "end": 14.183,
+      "start": 5.896,
+      "end": 13.973,
       "kind": "narrator",
       "beat_before": "the barrio street during the fiesta: banderitas, the videoke glow far off, a sari-sari store"
     },
     {
       "id": "l03",
       "text": "Nagtali siya ng bawang sa bintana. Nagbuhos siya ng asin sa pasimano.",
-      "start": 14.783,
-      "end": 20.26,
+      "start": 14.573,
+      "end": 19.481,
       "kind": "narrator",
       "beat_before": "Lola's hands tie garlic at the jalousie window; salt poured along the sill"
     },
     {
       "id": "l04",
       "text": "Tapos narinig namin. Tik-tik. Malakas. \"Malayo pa,\" sabi niya.",
-      "start": 21.06,
-      "end": 25.345,
+      "start": 20.281,
+      "end": 26.636,
       "kind": "narrator",
       "beat_before": "the roofs from the street, the moon, coconut trees; the TIK-TIK far away"
     },
     {
       "id": "l05",
       "text": "Tik... tik. Mahina na.",
-      "start": 26.345,
-      "end": 27.774,
+      "start": 27.636,
+      "end": 29.027,
       "kind": "narrator",
       "beat_before": "inside: the bulb sways; Lola looks up"
     },
     {
       "id": "l06",
       "text": "tik.",
-      "start": 29.174,
-      "end": 29.412,
+      "start": 30.427,
+      "end": 31.264,
       "kind": "narrator",
       "beat_before": "the camera tilts up to the gap between the wall and the roof"
     },
     {
       "id": "l07",
       "text": "Tumigil ang videoke, sa gitna ng kanta.",
-      "start": 31.012,
-      "end": 34.107,
+      "start": 32.864,
+      "end": 36.73,
       "kind": "narrator",
       "beat_before": "outside: the videoke screen goes dark mid-song; the dogs stop"
     },
     {
       "id": "l08",
       "text": "Hindi gumalaw si Lola. Nakatingin siya sa bubong.",
-      "start": 35.007,
-      "end": 38.817,
+      "start": 37.63,
+      "end": 40.936,
       "kind": "narrator",
       "beat_before": "inside, behind Lola: she stares at the roof"
     },
     {
       "id": "l09",
       "text": "Kinaumagahan, nakakalat ang asin sa pasimano.",
-      "start": 42.217,
-      "end": 46.264,
+      "start": 44.336,
+      "end": 47.884,
       "kind": "narrator",
       "beat_before": "held silence; a long tongue lowers from the roof gap; the bulb flickers; the face in the gap (stinger in silence); black; a rooster"
     },
     {
       "id": "l10",
       "text": "Mula sa loob.",
-      "start": 46.964,
-      "end": 47.917,
+      "start": 48.584,
+      "end": 49.602,
       "kind": "narrator",
       "beat_before": "dawn: the sill; the salt scattered inward, across the floor"
     }
