@@ -160,7 +160,26 @@ python3 scripts/caption_check.py src/data/ep12-tiktik-v1-timeline.json assets/vi
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 40.8 MB; sha256 `83b28b59c25c94a2a59d4cfabaf9363b1eaa0036349156b2666b149f37c4912b`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,536 frames at 30 fps (51.2 s), 1080×1920, with audio.
+- **Loudness:** −14.1 LUFS measured on the encoded file; decoded sample peak −1.0 dBFS.
+- **Loop:** the last frame differs from frame 0 by 1.72/255 in mean absolute luma (the hook's own frame-to-frame motion is 0.88).
+  - The difference sits on the banig's fine woven pattern at the bottom of the frame, where PS1 vertex snapping shifts it by a pixel, plus about one luma level of tape noise.
+  - Side by side, the two frames show the same framing, the same bulb and the same child.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. All of these read:
+  - the hook;
+  - the fiesta street;
+  - the garlic and the salt;
+  - the roofs;
+  - the room with Lola;
+  - the tilt to the gap;
+  - the videoke going dark;
+  - Lola looking up;
+  - the face in the gap;
+  - the dawn sill and the scattered salt;
+  - the loop.
+- **Weakest images:** the videoke shot after the screen goes dark is very dark; the shape on the far roof is tiny; Lola is a silhouette.
+- **Captions:** `scripts/caption_check.py` extracted all 11 caption pages from the encoded file. Each was read against the Taglish script word for word: all are complete.
 
 ## Known limits
 
