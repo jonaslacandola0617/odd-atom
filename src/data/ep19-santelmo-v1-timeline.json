@@ -1,0 +1,89 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 51.943,
+  "duration_frames": 1558,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Kapag may liwanag na sumusunod sa'yo sa palayan, huwag mo itong sundan.",
+      "start": 0.15,
+      "end": 4.852,
+      "kind": "narrator",
+      "beat_before": "hook: dark rice paddies; a ball of fire above the palay keeping pace with the camera"
+    },
+    {
+      "id": "l02",
+      "text": "Santelmo ang tawag dito ng mga magsasaka.",
+      "start": 5.552,
+      "end": 8.417,
+      "kind": "narrator",
+      "beat_before": "the pilapil, a farmer and his flashlight; the light keeping pace"
+    },
+    {
+      "id": "l03",
+      "text": "Isang bola ng apoy, lumulutang sa palayan. Sa ilog. Sa dagat.",
+      "start": 9.017,
+      "end": 15.29,
+      "kind": "narrator",
+      "beat_before": "a wide: paddies under clouds, a nipa hut, the canal, the pump; the light far over the field"
+    },
+    {
+      "id": "l04",
+      "text": "May totoong liwanag na kilala ng siyensya, ang St. Elmo's fire. Kumakapit ito sa palo ng barko kapag may bagyo.",
+      "start": 15.99,
+      "end": 23.906,
+      "kind": "narrator",
+      "beat_before": "a ship in a storm, a glow clinging to its mast (St. Elmo's fire)"
+    },
+    {
+      "id": "l05",
+      "text": "Pero hindi ito sumusunod sa'yo pauwi.",
+      "start": 24.506,
+      "end": 27.524,
+      "kind": "narrator",
+      "beat_before": "back on the pilapil: he stops, it stops; he walks, it walks"
+    },
+    {
+      "id": "l06",
+      "text": "Sabi ng matatanda, kaluluwa raw ang santelmo. Isang nalunod, na hindi na natagpuan.",
+      "start": 28.224,
+      "end": 34.74,
+      "kind": "narrator",
+      "beat_before": "it drifts over the canal; its reflection, and a second glow under the water"
+    },
+    {
+      "id": "l07",
+      "text": "Dinadala ka nito sa tubig.",
+      "start": 35.34,
+      "end": 37.148,
+      "kind": "narrator",
+      "beat_before": "the frogs stop; it splits into three"
+    },
+    {
+      "id": "l08",
+      "text": "Dahil gusto nito ng kasama.",
+      "start": 40.148,
+      "end": 42.025,
+      "kind": "narrator",
+      "beat_before": "silence; it comes close at face height; inside the fire, four frames of a drowned face (stinger in silence)"
+    },
+    {
+      "id": "l09",
+      "text": "Baligtarin mo ang damit mo, sabi nila. Nawawala ka sa paningin nito.",
+      "start": 43.125,
+      "end": 47.751,
+      "kind": "narrator",
+      "beat_before": "he turns his shirt inside out; the light shrinks, drifts back and sinks into the canal"
+    },
+    {
+      "id": "l10",
+      "text": "Kadalasan.",
+      "start": 49.451,
+      "end": 50.343,
+      "kind": "narrator",
+      "beat_before": "dawn: a scorched circle in the palay; far off, a fourth light"
+    }
+  ]
+}

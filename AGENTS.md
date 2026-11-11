@@ -99,6 +99,18 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 19 "Santelmo" (folklore and science).
 
+- **Episode 19 "Santelmo" (2026-11-11):** the user asked for the "next ep". It is folklore and science: the santelmo, and the real St. Elmo's fire. `Ep19Santelmo` / `src/horror/ep19/` is 51.9 s, in Taglish.
+  - **World:** flooded rice paddies at night (merged palay tufts, the pilapil grid, a canal with a pump, a nipa hut, palms), the farmer with a salakot and flashlight, the santelmo (core, glow, halo, flame tongues), and a sailing ship in a storm with St. Elmo's fire on its masts.
+  - **Entity kit:** `DrownedFace` was added to `src/horror/entities.tsx` (pale blue-grey, clouded eyes, mouth open, hair floating as if under water).
+  - **Story and picture:** the light pacing him (the hook); across the paddy; the wide with a glow under the canal; the ship (science); he stops, it stops; over the canal; the frogs stop and it splits into three; silence as it comes to his face; one lit reveal of a drowned face in the fire; he turns his shirt inside out and it sinks into the canal; dawn with a scorched circle and a fourth light; the loop.
+  - **Lesson:** a portrait frame is only about ±15° wide; keep what matters within that cone (the light and the farmer were out of frame at first).
+  - **Care:** no drowning depicted; the face is a legend image; the science is stated plainly.
+  - **Voice:** Juanito, both takes at once (1,424 credits; take 1 used).
+  - **Sound:** presence −12.9 / −4.5 dB, lines ≥4.7 dB (l06 +1.4, l07 +1.9, l08 +1.1), −14.0 LUFS, decoded peak −1.31 dBFS, bed seam −18.9 / −18.5 dBFS.
+  - **Delivery:** `assets/videos/ep19-santelmo-v1/`. Notes (with English subtitles) are in `docs/production/ep19-santelmo/README.md`; the publishing kit is `docs/publishing/ep19/README.md` and `docs/publishing/POSTS-ep11-20.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 20 "The Theatre by the Bay" (the season finale; a reported legend over a real accident).
+
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).

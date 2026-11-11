@@ -1081,3 +1081,61 @@ export const Tikbalang: React.FC<{t: number; pose: 'stand' | 'squat'; lower?: nu
 		</group>
 	);
 };
+
+/**
+ * A drowned face (the santelmo legend): seen only inside the fire, for a moment. Pale blue-grey,
+ * eyes open and clouded, mouth open, black hair floating up and around the head as if under water.
+ * A legend image, not a person; no wounds.
+ */
+export const DrownedFace: React.FC<{t: number; position?: [number, number, number]; rotation?: [number, number, number]; scale?: number}> = ({t, position = [0, 0, 0], rotation = [0, 0, 0], scale = 1}) => {
+	const m = useMemo(
+		() => ({
+			skin: lam('#8a98a0'),
+			shade: lam('#4a5660'),
+			eye: bas('#c8d0c8'),
+			rim: bas('#101418'),
+			mouth: bas('#06080a'),
+			hair: lam('#0a0c0e'),
+		}),
+		[],
+	);
+	const strands = useMemo(() => {
+		const r = rng(1919);
+		return Array.from({length: 26}, () => ({a: r() * Math.PI * 2, len: 0.18 + r() * 0.22, ph: r() * 6, tilt: 0.6 + r() * 0.9}));
+	}, []);
+	return (
+		<group position={position} rotation={rotation} scale={scale}>
+			<mesh scale={[0.86, 1.1, 0.9]} material={m.skin}>
+				<icosahedronGeometry args={[0.1, 1]} />
+			</mesh>
+			{[-1, 1].map((sd) => (
+				<group key={sd}>
+					<mesh position={[sd * 0.034, 0.02, 0.085]} material={m.rim}>
+						<boxGeometry args={[0.04, 0.028, 0.01]} />
+					</mesh>
+					<mesh position={[sd * 0.034, 0.02, 0.091]} material={m.eye}>
+						<boxGeometry args={[0.026, 0.016, 0.004]} />
+					</mesh>
+					<mesh position={[sd * 0.05, -0.035, 0.072]} material={m.shade}>
+						<boxGeometry args={[0.022, 0.04, 0.02]} />
+					</mesh>
+				</group>
+			))}
+			<mesh position={[0, -0.01, 0.095]} material={m.shade}>
+				<boxGeometry args={[0.016, 0.03, 0.012]} />
+			</mesh>
+			{/* the mouth open, as if calling out under water */}
+			<mesh position={[0, -0.065, 0.085]} scale={[1, 1 + Math.sin(t * 2) * 0.1, 1]} material={m.mouth}>
+				<boxGeometry args={[0.034, 0.04, 0.014]} />
+			</mesh>
+			{/* hair floating up and outward, slowly, as if in water */}
+			{strands.map((s, i) => (
+				<group key={i} position={[Math.cos(s.a) * 0.07, 0.05 + Math.sin(s.a) * 0.06, -0.03]} rotation={[0, 0, s.a - Math.PI / 2 + Math.sin(t * 0.8 + s.ph) * 0.25]}>
+					<mesh position={[0, s.len / 2, -0.02 * s.tilt]} material={m.hair}>
+						<boxGeometry args={[0.012, s.len, 0.006]} />
+					</mesh>
+				</group>
+			))}
+		</group>
+	);
+};

@@ -620,6 +620,18 @@ Taglish: "Kapag may liwanag na sumusunod sa'yo sa palayan… huwag mo itong sund
 8. He turns his shirt inside out; the light shrinks, drifts back over the canal and sinks into the water.
 9. Dawn: a mark of scorched palay in a circle. Loop to the night paddies.
 
+**Narration (Taglish, for Juanito):**
+1. Kapag may liwanag na sumusunod sa'yo sa palayan, huwag mo itong sundan.
+2. Santelmo ang tawag dito ng mga magsasaka.
+3. Isang bola ng apoy, lumulutang sa palayan. Sa ilog. Sa dagat.
+4. May totoong liwanag na kilala ng siyensya, ang St. Elmo's fire. Kumakapit ito sa palo ng barko kapag may bagyo.
+5. Pero hindi ito sumusunod sa'yo pauwi.
+6. Sabi ng matatanda, kaluluwa raw ang santelmo. Isang nalunod, na hindi na natagpuan.
+7. Dinadala ka nito sa tubig.
+8. Dahil gusto nito ng kasama.
+9. Baligtarin mo ang damit mo, sabi nila. Nawawala ka sa paningin nito.
+10. Kadalasan.
+
 **Narration (English draft):**
 1. If a light follows you across the rice fields, don't follow it back.
 2. Farmers call it santelmo.

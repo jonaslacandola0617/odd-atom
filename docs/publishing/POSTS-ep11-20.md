@@ -19,6 +19,7 @@ Season 2 is Philippine ghost stories with Taglish narration (Juanito) and Taglis
 | 16 | Ward Three | reported legend | `assets/videos/ep16-ward-v1/ep16-ward-three.mp4` | 58.8 s |
 | 17 | The Road That Wouldn't End | folklore (tikbalang) | `assets/videos/ep17-road-v1/ep17-the-road-that-wouldnt-end.mp4` | 57.7 s |
 | 18 | The Light in the Quezon Room | reported legend | `assets/videos/ep18-palace-v1/ep18-the-light-in-the-quezon-room.mp4` | 55.6 s |
+| 19 | Santelmo | folklore and science | `assets/videos/ep19-santelmo-v1/ep19-santelmo.mp4` | 51.9 s |
 
 ---
 
@@ -227,3 +228,29 @@ gabi-gabi, may isang ilaw sa malacañang na kusang bumubukas 🕯️ #malacanang
 - **Cover text:** `KUSANG BUMUBUKAS` (the lit window, about 0:02).
 - **Pinned comment:** `Tingnan mo ang upuan sa 0:21 at sa 0:47.`
 - **Care:** staff recollections told as stories; no living official or past president named or shown; no politics in the post or replies. Full kit: `docs/publishing/ep18/README.md`.
+
+---
+
+## Broadcast 19: Santelmo (folklore and science)
+
+**YouTube title:** `Kapag may liwanag na sumusunod sa'yo sa palayan… huwag mo itong sundan`
+Alternative: `If a light follows you across the rice fields, don't follow it back`
+
+**YouTube description**
+```
+Gabi. Palayan. Isang bola ng apoy na sumasabay sa bawat hakbang mo. Kapag huminto ka, humihinto rin ito. Sabi ng matatanda, kaluluwa raw ito ng nalunod… at dinadala ka nito sa tubig.
+
+Panoorin ang kanal sa unang malawak na kuha. 👀
+
+Broadcast 19 · After Sign-Off. Kuwentong-bayan (folklore) ng santelmo, at ang totoong St. Elmo's fire, ginawa sa low-poly 3D.
+#santelmo #kwentongkatatakutan #pinoyhorror #pinoyfolklore #stelmosfire #shorts
+```
+**YouTube pinned comment:** `Sino kaya ang hindi na nakauwi galing sa ilog? 🔥 May nakakita na ba sa inyo ng santelmo? Saan?`
+
+**TikTok caption**
+```
+kapag may liwanag na sumusunod sa'yo sa palayan… huwag mo itong sundan 🔥 #santelmo #kwentongkatatakutan #pinoyhorror #pinoyfolklore #fyp #fypシ
+```
+- **Cover text:** `HUWAG MO ITONG SUNDAN` (the light at frame 0).
+- **Pinned comment:** `Tingnan mo ang kanal sa 0:10. May isa pang ilaw.`
+- **Care:** folklore told with respect and the science plainly; no jokes about real drownings. Full kit: `docs/publishing/ep19/README.md`.
