@@ -151,7 +151,28 @@ python3 scripts/caption_check.py src/data/ep18-palace-v1-timeline.json assets/vi
 4. **The office walls** were built on the wrong side of the hall (the cross-wall helper rotated the wrong way); fixed. The open office door swung into the hall and now swings into the office.
 5. **The loop seam** first measured 4 dB louder at the end (a music-box phrase cut by the seam); the phrase was dropped, and a 3 dB tail pre-duck matches the drone's level at the seam.
 
-ENCODED_REVIEW
+## Review of the encoded file
+
+- **File:** 44.8 MB; sha256 `fffdb954f8331a765f874ce043a0b41b0c3cc6c3dc3d1a23c50d84f5747b0f7a`.
+- **Audio track:** as in Episode 17, Remotion's re-encode of the mix peaked at −0.96 dBFS, so the delivered MP4 carries `public/assets/audio/ep18-palace-v1/mix.m4a` itself, muxed with `ffmpeg -map 0:v -map 1:a -c copy` (the picture is untouched).
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,668 frames at 30 fps (55.6 s), 1080×1920, with audio.
+- **Loudness:** −14.0 LUFS measured on the encoded file; decoded sample peak −1.31 dBFS.
+- **Loop:** the last frame differs from frame 0 by 0.21/255 in mean absolute luma.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. All of these read:
+  - the dark palace, then the lit capiz window;
+  - the river shot with the lit window and the lamp posts;
+  - the hall;
+  - the strip of light under the door;
+  - the office with the lamp and the chair turned to the window;
+  - the guard looking up, dust falling;
+  - the smoke in the moonlit sitting room;
+  - the red ball in the beam;
+  - the white sotana with nothing above the collar walking away;
+  - the guard at the lamp, the lamp out;
+  - the dark palace;
+  - the loop.
+- **Weakest images:** the guard in the ceiling shot fills the bottom of the frame; the smoke is planar in stills; the river shot is mostly dark.
+- **Captions:** `scripts/caption_check.py` extracted all 15 caption pages from the encoded file. Each was read against the Taglish script: all are complete.
 
 ## Known limits
 
