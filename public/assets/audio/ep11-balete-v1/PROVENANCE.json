@@ -1,0 +1,133 @@
+{
+  "episode": "Ep11ThePassengerOnBaleteDrive",
+  "duration_seconds": 54.617,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep11-take1.mp3",
+    "sha256": "7a1647f5dc53f7d7171aac204e922e9e9ff47cb4bbaa92d2221e2b56da674596",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (library voice, Filipino)",
+    "credits": "774 for the one take that generated (the second of the two did not start: busy)",
+    "prompt": "docs/production/ep11-balete/prompt.json"
+  },
+  "original_synthesis": [
+    "score (scripts/horror_score.py): G#2/D#3 mid-band drone; tremolo string clusters (G#3-A3-D#4, +E4/A#4 on the reveal); the music-box theme detuned from the start and slower at the end; a reversed swell into one stinger in silence (the reveal); a heartbeat 70-112 bpm that stops for the held silence; a riser; bowed metal",
+    "Balete Drive: the taxi engine and road inside the cab; kuliglig (crickets) behind the walls; a far karaoke that stops mid-song when the meter starts by itself; a tuko calling twice; distant dogs",
+    "foley: the taxi passing the balete; a swell and whip as she is at the side window; the meter flag-down clack and ticks; the rosary beads; the dash light crackling as it flickers; a breath at the reveal; the driver turning",
+    "silence: from just after \"may nakaupo na sa likod\" the score, crickets and foley drop out and the engine sinks for 1.3 s before the stinger",
+    "loop: drone, strings, engine and crickets snapped to whole cycles; the hook and the end are the same mirror move"
+  ],
+  "real_recordings_used": false,
+  "library_cues": {
+    "perspective_whip": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_perspective_whip_v1.flac",
+      "sha256": "cf59cbedffd1617bf3962f9c4f6e151ca84d91a86a3bbbe048d8375ee4eba211"
+    },
+    "steel_latch": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_steel_latch_v1.flac",
+      "sha256": "88fa8039b4d1955a73d35980c8cb95840ee799874ad090442035a59ab911182b"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    }
+  },
+  "stingers": [
+    34.51
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.41,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -19.2,
+    "last_quarter_second": -22.6
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.4,
+    "l08": 0.0,
+    "l09": 0.0,
+    "l10": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 9.4,
+      "phone_band_voice_minus_all_db": 11.5,
+      "voice_minus_score_db": 11.8
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 7.4,
+      "phone_band_voice_minus_all_db": 8.0,
+      "voice_minus_score_db": 9.6
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 7.2,
+      "phone_band_voice_minus_all_db": 7.4,
+      "voice_minus_score_db": 8.5
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 8.6,
+      "phone_band_voice_minus_all_db": 8.0,
+      "voice_minus_score_db": 10.4
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 7.5,
+      "phone_band_voice_minus_all_db": 8.4,
+      "voice_minus_score_db": 9.2
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 6.1,
+      "phone_band_voice_minus_all_db": 9.2,
+      "voice_minus_score_db": 6.8
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.9,
+      "phone_band_voice_minus_all_db": 10.6,
+      "voice_minus_score_db": 5.5
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 7.4,
+      "phone_band_voice_minus_all_db": 6.8,
+      "voice_minus_score_db": 10.3
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 7.8,
+      "phone_band_voice_minus_all_db": 7.9,
+      "voice_minus_score_db": 8.6
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 8.0,
+      "phone_band_voice_minus_all_db": 11.5,
+      "voice_minus_score_db": 9.9
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.1,
+    "music_minus_voice_in_gaps_db": -3.8,
+    "music_share_of_gaps_seconds": 9.7
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

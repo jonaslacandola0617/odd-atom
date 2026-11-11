@@ -271,7 +271,7 @@ export const Taxi: React.FC<{rosary: number; pull: number; meter: string; meterO
 			<Box p={[-0.38, 0.94, 0.86]} s={[0.3, 0.025, 0.02]} m={m.dashGlow} />
 			<Box p={[0.12, 0.93, 0.86]} s={[0.12, 0.02, 0.02]} m={m.dashGlow} />
 			<mesh position={[0.32, 0.99, 0.82]} rotation={[-0.25, 0, 0]} material={meterMat}>
-				<boxGeometry args={[0.2, 0.06, 0.04]} />
+				<boxGeometry args={[0.2, 0.06, 0.004]} />
 			</mesh>
 			<mesh position={[-0.38, 0.95, 0.68]} rotation={[-1.1, 0, 0]} material={m.trim}>
 				<torusGeometry args={[0.17, 0.02, 4, 12]} />

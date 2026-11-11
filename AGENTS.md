@@ -2,9 +2,20 @@
 
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
-  - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). A short test line goes to the user first so they can check pronunciation; the first attempt was refused as busy, and nothing was charged.
+  - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. The free tier is often "busy": the user chose retries every 30 min, at most 4, one attempt per check-in.
   - **Horror standard:** the new "Season 2 horror standard" in `docs/production/EPISODE_PLAYBOOK.md`. Key points: a dark key (≤45/255 per shot) with motivated light, one clear lit reveal, the entity kit `src/horror/entities.tsx` (WhiteLady, `flicker`, `handheld`), Filipino settings and ambience, and long silences before stingers.
-  - **Status:** Episode 11 (`src/horror/ep11/`) is in progress on a provisional timeline until the Juanito take exists. None has user approval or a listening pass.
+  - **Status:** none has user approval of the episode or a listening pass.
+
+- **Episode 11 "The Passenger on Balete Drive" (2026-11-11):** the first Season 2 episode (reported urban legend: the White Lady of Balete Drive, New Manila, Quezon City). `Ep11ThePassengerOnBaleteDrive` / `src/horror/ep11/` is 54.6 s, in Taglish.
+  - **World:** a Manila taxi interior and Balete Drive at night (compound walls, sodium lamps, condominiums, the balete with root curtains).
+  - **Picture:** the mirror shots are a reverse camera with the scene mirrored by a negative-scale group, framed by a 2D mirror and rosary. The new entity kit is `src/horror/entities.tsx`.
+  - **Story and picture:** the mirror hook; the woman at the balete; at the side window after being passed; the meter starting by itself as a karaoke far off stops; the empty mirror, then the same framing with hair over the seat; 1.3 s of held silence; one lit reveal of half a face; the empty back seat with petals; the balete ahead again; the loop.
+  - **Care:** a legend with no identified victim; the taxi-driver-killer version is dropped; no night-visit framing.
+  - **Voice:** Juanito, one take of two (774 credits).
+  - **Sound:** presence −11.1 / −3.8 dB, lines 4.9–9.4 dB full band, −14.0 LUFS, decoded peak −1.41 dBFS.
+  - **Delivery:** `assets/videos/ep11-balete-v1/`. Notes (with English subtitles) are in `docs/production/ep11-balete/README.md`; the publishing kit is `docs/publishing/ep11/README.md` and `docs/publishing/POSTS-ep11-20.md` (PH posting times, Taglish captions).
+  - **Status:** no user approval of the episode and no listening pass.
+  - **Next in the season order:** Episode 12 "Tik-Tik" (original, on folklore).
 
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.

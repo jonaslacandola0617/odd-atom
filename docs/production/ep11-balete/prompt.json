@@ -13,8 +13,24 @@
       "08:47 UTC (user-approved retry series, 1 of 4): refused as busy, nothing charged",
       "09:18 UTC (series, 2 of 4): one of two takes generated (267 credits); the second did not start (busy)"
     ],
-    "takes": ["public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3: 18.05 s, 267 credits"],
+    "takes": [
+      "public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3: 18.05 s, 267 credits"
+    ],
     "measured": "line 1 (the hook) runs 0.0-6.1 s, close to the provisional estimate of 6.9 s; pauses 0.9-1.8 s between sentences",
-    "status": "awaiting the user's pronunciation check; no listening pass is possible in this runtime"
-  }
+    "status": "the user listened and approved it on 2026-11-11 (\"Good, generate Ep 11\")"
+  },
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[softly] Kung dadaan ka sa Balete Drive pagkalipas ng hatinggabi, huwag kang titingin sa salamin. [long pause] Ipinangalan ang kalyeng ito sa isang puno ng balete na dating nakatayo sa gitna ng daan. [long pause] Mula pa noong dekada singkwenta, iisa ang kuwento ng mga driver. [long pause] Isang babaeng nakaputi, sa tabi ng puno, pumapara. [long pause] May mga humihinto. Karamihan, hindi. [long pause] Hindi na mahalaga. Pagtingin nila sa salamin, [long pause] [whispers] may nakaupo na sa likod. [long pause] [softly] Sabi ng iba, dito siya namatay. Sabi ng iba, nandito na siya mula pa noong giyera. Walang nakaalam kung sino talaga siya. [long pause] Wala na ang puno. Bago na ang mga bahay. [long pause] [whispers] Pero hanggang ngayon, umiikot pa rin ang mga driver.",
+    "estimate_credits_for_2_takes": 1548,
+    "attempts": [
+      "2026-11-11 09:4x UTC, right after the user approved the test line: one of the two takes generated (774 credits); the second did not start (busy)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep11-take1.mp3: 57.55 s, 774 credits (used)"
+    ],
+    "processing": "split into 10 lines (scripts/eleven_split.py), pauses inside a line capped at 0.45 s, no tempo change; the timeline (54.6 s) was built from the real line lengths"
+  },
+  "script_source": "docs/stories/season-2-philippines.md #11 (reported urban legend), Taglish version for Juanito"
 }
