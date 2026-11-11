@@ -60,7 +60,7 @@ export const STINGERS = [K.reveal];
 export const SOFT_HITS = [K.window, K.turn];
 const ZB = taxiZ(K.beside) + 1.5; // the balete, in street space
 const ZB2 = taxiZ(L.l10.start) + 42; // the balete again, ahead, in the last shot
-const LADY_X = 4.3;
+const LADY_X = 3.75; // at the curb, in front of the curtain of roots
 
 // ------------------------------------------------------------------ shot list
 type Mode = 'cab' | 'mirror' | 'street';
@@ -74,8 +74,8 @@ const SHOTS: Shot[] = [
 	{id: 'A_hook', t: 0, mode: 'mirror', from: MIRROR_A, to: MIRROR_B, fov: 46},
 	{id: 'B_back', t: L.l01.end + 0.3, mode: 'cab', from: {p: [0.28, 1.12, -0.95], l: [-0.3, 0.95, 6]}, to: {p: [0.22, 1.13, -0.85], l: [-0.25, 0.95, 6]}, fov: 58, hand: 0.8},
 	{id: 'C_balete', t: L.l03.start, mode: 'cab', from: {p: [-0.38, 1.12, 0.15], l: [1.6, 2.6, 30]}, to: {p: [-0.38, 1.12, 0.2], l: [2.4, 2.4, 20]}, fov: 54, hand: 0.5},
-	{id: 'C_lady', t: L.l04.start, mode: 'street', world: true, from: {p: [-2.2, 0.9, ZB - 14], l: [LADY_X, 2.6, ZB - 1.5]}, to: {p: [-1.9, 0.9, ZB - 12], l: [LADY_X, 2.3, ZB - 1.5]}, fov: 56},
-	{id: 'D_pass', t: L.l05.start, mode: 'cab', from: {p: [-0.35, 1.08, -0.6], l: [6, 1.1, -0.2]}, to: {p: [-0.3, 1.08, -0.6], l: [6, 1.05, -0.6]}, fov: 54, hand: 0.9},
+	{id: 'C_lady', t: L.l04.start, mode: 'street', world: true, from: {p: [-0.6, 0.95, ZB - 9.5], l: [LADY_X, 1.55, ZB - 1.5]}, to: {p: [-0.3, 0.95, ZB - 8], l: [LADY_X, 1.45, ZB - 1.5]}, fov: 54},
+	{id: 'D_pass', t: L.l05.start, mode: 'cab', from: {p: [-0.35, 1.08, -0.6], l: [6, 1.4, 2.5]}, to: {p: [-0.3, 1.08, -0.6], l: [6, 1.2, -0.4]}, fov: 58, hand: 0.9},
 	{id: 'E_meter', t: L.l05.end + 0.42, mode: 'cab', from: {p: [0.05, 1.12, 0.42], l: [0.3, 0.98, 0.84]}, to: {p: [0.08, 1.1, 0.48], l: [0.3, 0.99, 0.84]}, fov: 44},
 	{id: 'F_mirror1', t: L.l06.start, mode: 'mirror', from: MIRROR_B, fov: 46},
 	{id: 'F_road', t: L.l06.end + 0.12, mode: 'cab', from: {p: [-0.38, 1.12, 0.15], l: [-0.2, 0.9, 30]}, fov: 54, hand: 0.4},
@@ -221,7 +221,7 @@ const World: React.FC<{t: number}> = ({t}) => {
 				{showLady && <WhiteLady t={t} arm={sm(t, L.l04.start + 0.6, L.l04.start + 1.6)} position={[LADY_X, 0.16, ZB - 1.5 - z]} rotationY={-Math.PI / 2 - 0.25} glow={0.4} />}
 				{s.id === 'J_ahead' && <WhiteLady t={t} position={[LADY_X, 0.16, ZB2 - 1.5 - z]} rotationY={-Math.PI / 2 - 0.3} glow={0.5} />}
 				{atWindow && <WhiteLady t={t} position={[1.0, -0.3, -0.62]} rotationY={-Math.PI / 2} glow={0.8} />}
-				{seated && <WhiteLady t={t} seated part={part} glow={revealI ? 1.2 : 0.5} position={[-0.05, -0.03, -0.82]} scale={0.85} />}
+				{seated && <WhiteLady t={t} seated part={part} headTurn={s.id === 'G_push' ? 0.5 * (1 - sm(t, K.reveal - 0.1, K.reveal + 0.7)) : 0.5} glow={revealI ? 1.2 : 0.5} position={[-0.05, -0.03, -0.82]} scale={0.85} />}
 				<Taxi rosary={swing} pull={pull} meter={fare} meterOn={meterOn} wet={t >= K.turn ? 1 : 0} exterior={s.mode === 'street'} driverTurn={s.id === 'H_turn' ? sm(t, K.turn, K.turn + 0.3, 0, 2.4) : 0} />
 			</MatsProvider>
 			</group>

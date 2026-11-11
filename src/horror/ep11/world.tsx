@@ -31,7 +31,7 @@ const useMats = () =>
 			gate: lam('#1c1e1c'),
 			leaf: lam('#2a4430'),
 			leafDark: lam('#1c3020'),
-			bark: lam('#6a5e4c'),
+			bark: lam('#564a3a'),
 			root: lam('#7a6c56'),
 			pole: lam('#2a2a2a'),
 			sodium: bas('#ffb35a'),
@@ -174,19 +174,19 @@ export const Balete: React.FC<{z: number; x?: number}> = ({z, x = 6.2}) => {
 	const m = useM();
 	const parts = useMemo(() => {
 		const r = rng(5150);
-		const trunks = Array.from({length: 14}, () => {
+		const trunks = Array.from({length: 10}, () => {
 			const a = r() * Math.PI * 2, d = 0.4 + r() * 1.0;
-			return {x: Math.cos(a) * d, z: Math.sin(a) * d, rad: 0.18 + r() * 0.25, h: 6 + r() * 3, lean: (r() - 0.5) * 0.15};
+			return {x: Math.cos(a) * d * 0.8, z: Math.sin(a) * d * 0.8, rad: 0.3 + r() * 0.3, h: 5 + r() * 1.5, lean: (r() - 0.5) * 0.3};
 		});
 		// aerial roots hang in curtains: clusters of strands from the low canopy, many reaching the ground
 		const roots: {x: number; z: number; top: number; len: number; rad: number}[] = [];
 		for (let c = 0; c < 26; c++) {
 			const a = r() * Math.PI * 2, d = 1.6 + r() * 7;
-			const cx = Math.cos(a) * d * 1.2 - 1.8, cz = Math.sin(a) * d;
+			const cx = Math.max(-1.9, Math.cos(a) * d * 1.2 - 1.0), cz = Math.sin(a) * d; // roots stay off the road
 			const top = 5.2 + r() * 2;
-			for (let k = 0; k < 6; k++) {
+			for (let k = 0; k < 9; k++) {
 				const len = r() < 0.6 ? top - 0.05 : 1.5 + r() * 3.5;
-				roots.push({x: cx + (r() - 0.5) * 0.7, z: cz + (r() - 0.5) * 0.7, top, len, rad: 0.04 + r() * 0.07});
+				roots.push({x: cx + (r() - 0.5) * 0.7, z: cz + (r() - 0.5) * 0.7, top, len, rad: 0.025 + r() * 0.045});
 			}
 		}
 		const leaves = Array.from({length: 14}, () => ({x: (r() - 0.6) * 15, y: 6.6 + r() * 2.6, z: (r() - 0.5) * 14, s: 2.6 + r() * 2.4}));
@@ -196,7 +196,7 @@ export const Balete: React.FC<{z: number; x?: number}> = ({z, x = 6.2}) => {
 		<group position={[x, 0, z]}>
 			{parts.trunks.map((t, i) => (
 				<mesh key={i} position={[t.x, t.h / 2, t.z]} rotation={[t.lean, 0, -t.lean]} material={m.bark}>
-					<cylinderGeometry args={[t.rad * 0.7, t.rad * 1.4, t.h, 6]} />
+					<cylinderGeometry args={[t.rad * 0.45, t.rad * 1.6, t.h, 7]} />
 				</mesh>
 			))}
 			{parts.roots.map((t, i) => (

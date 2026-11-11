@@ -19,8 +19,9 @@ type Strip = {x: number; y: number; z: number; len: number; w: number; ry: numbe
  * - arm: 0..1 raises her right arm, palm out (flagging a ride)
  * - seated: hides the dress below the hips (she sits on a seat; the seat hides the rest)
  * - glow: 0..1 how much the eye catches the light
+ * - headTurn: radians the head is turned away (0 = facing forward); turning it to 0 is a reveal
  */
-export const WhiteLady: React.FC<{t: number; part?: number; arm?: number; seated?: boolean; glow?: number; position?: [number, number, number]; rotationY?: number; scale?: number}> = ({t, part = 0, arm = 0, seated = false, glow = 0.6, position = [0, 0, 0], rotationY = 0, scale = 1}) => {
+export const WhiteLady: React.FC<{t: number; part?: number; arm?: number; seated?: boolean; glow?: number; headTurn?: number; position?: [number, number, number]; rotationY?: number; scale?: number}> = ({t, part = 0, arm = 0, seated = false, glow = 0.6, headTurn = 0, position = [0, 0, 0], rotationY = 0, scale = 1}) => {
 	const m = useMemo(
 		() => ({
 			dress: lam('#c4beb0'),
@@ -83,7 +84,7 @@ export const WhiteLady: React.FC<{t: number; part?: number; arm?: number; seated
 				<cylinderGeometry args={[0.045, 0.05, 0.16, 6]} />
 			</mesh>
 			{/* head: pale mask, unlit sockets, a point of light in one eye, a mouth slightly open */}
-			<group position={[0, headY, 0.02]} rotation={[0.32, 0, 0.16]}>
+			<group position={[0, headY, 0.02]} rotation={[0.32 - Math.abs(headTurn) * 0.2, headTurn, 0.16 + headTurn * 0.3]}>
 				<mesh scale={[0.86, 1.12, 0.92]} material={m.skin}>
 					<icosahedronGeometry args={[0.105, 1]} />
 				</mesh>
