@@ -65,7 +65,7 @@ Checked from web-search summaries only: Philstar (2005, 2006, 2013), Inquirer Bu
 
 ## Season 2 horror standard
 
-- **Dark key:** interiors by flashlight at 7–12/255 (the floor shot 12; the swing onto a near wall 33); exteriors 6–13 under the orange glow; the viewfinder 16–33, as night vision is meant to be bright; the car 5–11.
+- **Dark key:** interiors by flashlight at 7–12/255, except where the beam lands close: the pebble floor (a bright disc of tile in black) and the swing onto a near wall (33); exteriors 6–13 under the orange glow; the viewfinder 16–33, as night vision is meant to be bright; the car 5–11.
 - **Withhold, then reveal:**
   - a wheelchair turning;
   - pebbles from no one;
@@ -151,7 +151,26 @@ python3 scripts/caption_check.py src/data/ep16-ward-v1-timeline.json assets/vide
 6. **The reveal** was too far; the camera now pushes to about 0.9 m from her face.
 7. **The loop seam** was 3.2 dB quieter at the end than at frame 0 (a tail pre-duck inherited from earlier episodes); it was replaced with a small lift.
 
-ENCODED_REVIEW
+## Review of the encoded file
+
+- **File:** 47.0 MB; sha256 `0a741a1eaab6ef16e2acc384113c02db4d0c9f428ae6bf5916bda03aaa3c9029`.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,764 frames at 30 fps (58.8 s), 1080×1920, with audio.
+- **Loudness:** −14.1 LUFS measured on the encoded file; decoded sample peak −2.0 dBFS.
+- **Loop:** the last frame differs from frame 0 by 0.92/255 in mean absolute luma, under one luma level.
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. All of these read:
+  - the corridor with the wheelchair;
+  - the hospital under the orange sky;
+  - the entrance;
+  - the ward through the door with its bed frames;
+  - the pebbles on the tile in the flashlight;
+  - the hunters at the entrance;
+  - the night-vision ward with the nurse far off;
+  - the friend, then the nurse closer;
+  - her face lifted, eyes white;
+  - the run, the woman in white on the road, the back seat;
+  - the loop.
+- **Weakest images:** the hunters running are small in the weeds; the woman crossing is small; the corridor hook is dark, with the wheelchair a small silhouette.
+- **Captions:** `scripts/caption_check.py` extracted all 14 caption pages from the encoded file. Each was read against the Taglish script: all are complete.
 
 ## Known limits
 
