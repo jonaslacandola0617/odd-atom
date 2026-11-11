@@ -28,6 +28,7 @@ import {Episode06,ep06Config} from './horror/ep06/Episode06';
 import {Episode07,ep07Config} from './horror/ep07/Episode07';
 import {Episode08,ep08Config} from './horror/ep08/Episode08';
 import {ChannelAvatar,ChannelBanner} from './horror/channel/ChannelArt';
+import {Episode09,ep09Config} from './horror/ep09/Episode09';
 import {OddAtomJupiterV3,oddAtomJupiterV3Config} from './OddAtomJupiterV3';
 
 export const RemotionRoot: React.FC = () => (
@@ -35,6 +36,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep06TheSoundThatMatchedUs" component={Episode06} defaultProps={{includeAudio:true,captions:true}} {...ep06Config}/>
     <Composition id="Ep07TheVoiceOfVrillon" component={Episode07} defaultProps={{includeAudio:true,captions:true}} {...ep07Config}/>
     <Composition id="Ep08RoomZero" component={Episode08} defaultProps={{includeAudio:true,captions:true}} {...ep08Config}/>
+    <Composition id="Ep09TheLighthouseThatWentDark" component={Episode09} defaultProps={{includeAudio:true,captions:true}} {...ep09Config}/>
     <Composition id="ChannelAvatar" component={ChannelAvatar} durationInFrames={1} fps={30} width={800} height={800}/>
     <Composition id="ChannelBanner" component={ChannelBanner} durationInFrames={1} fps={30} width={2560} height={1440}/>
     <Composition id="Ep05NineHikersOneCutTent" component={Episode05} defaultProps={{includeAudio:true,captions:true}} {...ep05Config}/>

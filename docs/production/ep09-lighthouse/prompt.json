@@ -1,0 +1,15 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "text": "[softly] You row toward a lighthouse that should be lit. [short pause] It has been dark for eleven days. [long pause] December, nineteen hundred. A steamer passing the Flannan Isles sees that the lamp is out. [long pause] Storms keep the relief boat away until the day after Christmas. [long pause] No flag. No one comes down to meet it. [long pause] [whispers] Inside, the clock has stopped. [long pause] [softly] One set of oilskins still hangs on its hook. [long pause] Three keepers lived here. All three are gone. [long pause] On the west landing, iron railings are torn and bent, high above the sea. [long pause] The official report suggested two men went down to secure the landing in the storm, and the third ran out without his coat. [long pause] A huge wave took them. They were never found. [long pause] [whispers] But no one knows what he saw from the doorway, that made him run.",
+    "estimate_credits_for_2_takes": 1782,
+    "takes": [
+      "ep09-take1.mp3: 53.12 s, 891 credits (used)",
+      "ep09-take2.mp3: 54.32 s, 891 credits"
+    ],
+    "choice": "take 1: line lengths and syllable rates within 0.2 s of take 2; its hook line is the shorter"
+  },
+  "script_source": "docs/stories/season-1-shorts.md #3 (true), rewritten with a second-person hook and cut to 11 lines; the dramatic logbook entries, the overturned chair and the uneaten meal of later retellings are not used"
+}

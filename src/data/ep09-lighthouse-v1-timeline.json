@@ -1,0 +1,96 @@
+{
+  "fps": 30,
+  "duration_seconds": 54.309,
+  "duration_frames": 1629,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), take 1 of 2, one take split into lines, inner pauses capped at 0.6 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "You row toward a lighthouse that should be lit. It has been dark for eleven days.",
+      "start": 0.15,
+      "end": 5.485,
+      "kind": "narrator",
+      "beat_before": "hook: from the relief boat, the dark tower on the island"
+    },
+    {
+      "id": "l02",
+      "text": "December, nineteen hundred. A steamer passing the Flannan Isles sees that the lamp is out.",
+      "start": 6.185,
+      "end": 12.072,
+      "kind": "narrator",
+      "beat_before": "night: a steamer passes; the tower is dark"
+    },
+    {
+      "id": "l03",
+      "text": "Storms keep the relief boat away until the day after Christmas.",
+      "start": 12.672,
+      "end": 16.294,
+      "kind": "narrator",
+      "beat_before": "storm: the relief boat pitching"
+    },
+    {
+      "id": "l04",
+      "text": "No flag. No one comes down to meet it.",
+      "start": 16.894,
+      "end": 19.681,
+      "kind": "narrator",
+      "beat_before": "the east landing: the empty flagstaff, no one on the steps"
+    },
+    {
+      "id": "l05",
+      "text": "Inside, the clock has stopped.",
+      "start": 20.681,
+      "end": 22.911,
+      "kind": "narrator",
+      "beat_before": "the walk up; the door; inside"
+    },
+    {
+      "id": "l06",
+      "text": "One set of oilskins still hangs on its hook.",
+      "start": 23.711,
+      "end": 26.522,
+      "kind": "narrator",
+      "beat_before": "the coat hooks"
+    },
+    {
+      "id": "l07",
+      "text": "Three keepers lived here. All three are gone.",
+      "start": 27.322,
+      "end": 30.417,
+      "kind": "narrator",
+      "beat_before": "three cups; three bunks"
+    },
+    {
+      "id": "l08",
+      "text": "On the west landing, iron railings are torn and bent, high above the sea.",
+      "start": 32.017,
+      "end": 36.571,
+      "kind": "narrator",
+      "beat_before": "stinger in silence; the west landing"
+    },
+    {
+      "id": "l09",
+      "text": "The official report suggested two men went down to secure the landing in the storm, and the third ran out without his coat.",
+      "start": 37.271,
+      "end": 43.596,
+      "kind": "narrator",
+      "beat_before": "the storm: lanterns going down; a man at the door"
+    },
+    {
+      "id": "l10",
+      "text": "A huge wave took them. They were never found.",
+      "start": 44.396,
+      "end": 47.401,
+      "kind": "narrator",
+      "beat_before": "the wave"
+    },
+    {
+      "id": "l11",
+      "text": "But no one knows what he saw from the doorway, that made him run.",
+      "start": 49.001,
+      "end": 52.709,
+      "kind": "narrator",
+      "beat_before": "stinger in silence; the doorway"
+    }
+  ]
+}
