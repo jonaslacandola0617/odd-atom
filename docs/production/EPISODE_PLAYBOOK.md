@@ -39,3 +39,68 @@ Rendering uses the pre-installed headless shell (`/opt/pw-browsers/chromium_head
 6. **Render:** x264 CRF 22 `-tune grain` keeps files under 50 MB for about 50 s. Check that the encoded file decodes and has the right frame count. Check the loop by comparing the last frames with frame 0.
 7. **Captions:** `python3 scripts/caption_check.py <timeline> <mp4> <out>`, then read every page word for word against the script.
 8. **Deliver:** MP4 and poster under `assets/videos/<ep>/`, production README, a publishing kit in `docs/publishing/<ep>/` (titles to A/B test, captions per platform, pinned comment, hashtags, hidden-detail list, posting notes), and an `AGENTS.md` entry. Commit, push, verify the remote, then share links. No listening pass is possible in this runtime; say so.
+
+## Season 2 horror standard (from 2026-11-11)
+
+The user asked for Season 2 to be "more scary and spooky" than Season 1. The stories are in `docs/stories/season-2-philippines.md`.
+
+**What the Season 1 contact sheets show:** contact sheets of Episodes 5, 8 and 10 (one frame every 4 s) give a fair read of the season. The rules below answer each problem.
+- **Too bright and flat:** whole shots of white snow, grey walls and plain sky; average exposure is high and the blacks are lifted.
+- **No entity, ever:** the dread is all implied (a handprint, an empty tent, a lamp going out). That is good, but nothing ever looks back at the viewer.
+- **Figures are toy-like:** blocky people read as Minecraft, not menace.
+- **The camera is locked off or on smooth dollies:** nothing feels like someone is holding it.
+- **Captions cover the centre of the frame:** they sit where the scare should be.
+
+### Picture
+
+1. **Darker key, motivated light.**
+   - Except for the reveal and deliberate day shots, the average luma of every shot should be **≤ 45/255** (Season 1 often ran at 90–140). Measure it from the review stills, per shot.
+   - Every light has a source in frame or just off it: a dashboard, a gasera (oil lamp), a single bulb, a flashlight, a karaoke screen, a jeepney's fluorescent tube, the moon through capiz (translucent shell) windows. Pools of light separated by true black.
+   - Grade: cold blue-green in the shadows, warm tungsten in the practicals, red only for danger.
+2. **Withhold, then reveal once, clearly.**
+   - Until the reveal, show the entity only at the edges: hair over a headrest, a shadow on capiz, legs in the banana trees, an ember in a tree, a figure one shot early in a wide.
+   - Then give **at least one clear, well-lit, held reveal (0.8–1.5 s)** per episode: lit from a practical, framed close, with a stinger in the silence just before or after it.
+   - A face is half-seen at most, apart from that one reveal.
+3. **Entity design inside the PS1 look (`src/horror/entities.tsx`, to be built with Episode 11):**
+   - **Proportions are wrong by a little:** necks too long, arms past the knees, a head tilted further than a neck allows. Human-ish silhouettes beat monsters.
+   - **Hair:** long black hair is 40–80 thin, vertex-snapped strips with a slow sway, covering most of the face. It is the white lady's main shape at 180×320.
+   - **Faces:** a pale, low-poly mask with **dark, unlit eye sockets** and a tiny point of reflected light. Mouths are slightly open, a little too wide. Shading is flat; unlit black does the work.
+   - **Signature shapes:**
+     - the white lady: hair, a white dress with a ragged hem;
+     - the manananggal: a torso with membrane wings (thin planes with visible "finger" bones) and an empty waist that stays a clean black void, never gore;
+     - the tiyanak: a baby's body with an old face;
+     - the tikbalang: knees above its head, a long horse face;
+     - headless figures: a clean collar with nothing above it.
+   - **No gore anywhere.** Fear comes from shape, stillness and wrongness.
+4. **Camera that someone is holding.** Add a `handheld(t, amount)` offset (layered noise, about 0.3–0.8° rotation and 1–3 cm drift) on POV and investigation shots. Keep locked-off frames for dread and for empty doorways. Keep push-ins slow (2–5 s) on empty doors, windows, gaps between roof slats and mirrors.
+5. **Things that move when you look away.** At least once an episode, a figure changes position between two cuts of the same framing: three beds closer, a chair turned, every seat down. The second shot must match the first framing exactly, so the change is the only difference.
+6. **Reflections.** Use rear-view mirrors, windows, capiz panes, black water and dark screens as second frames. Render a reflection as a second camera into a render target (or a mirrored copy of the scene), so the figure can be in the reflection and not in the room.
+7. **Light failure.** Flicker means a bulb or lamp dropping out at irregular intervals (a seeded random sequence, never a sine). Dead bulbs and a lamp flame that leans towards the danger. The reveal often lands on the flicker's return.
+8. **Subliminal frames.** One or two 2–4-frame inserts per episode (the face, the figure in a doorway). Never on a word, and never more than two, or they become a pattern.
+9. **Filipino settings, rendered with care.** Jeepney and taxi interiors (rosary on the mirror, signboard, fluorescent tube), sari-sari store (hand-painted sign, grille, bottles), nipa hut on stilts with a bamboo ladder, a balete with hanging aerial roots, Spanish-era houses with capiz windows and ventanillas, provincial roads with bamboo, waiting sheds and a chapel, fiesta banderitas, palay paddies with pilapil (raised paddy edges). These have real proportions and real materials, not generic boxes. Signs are in Filipino, with invented names.
+10. **Captions stay out of the scare.** In the reveal shot and the shot before it, put caption pages in the lower third (above the Shorts interface zone), or drop them for silent beats. Never put a caption over the entity's face.
+
+### Sound
+
+1. **Silence before every reveal: 0.8–1.5 s** of near silence (the room tone drops out). Then the stinger, in silence. Stingers never sit on a word (the Season 1 rule, now with a longer hold).
+2. **Filipino night ambience (synthesized; Curio cues where they fit):**
+   - *kuliglig* (cicadas and crickets) as a bed;
+   - a *tuko* (tokay gecko) calling "to-kay" in slow, uneven repeats;
+   - distant dogs;
+   - frogs in the paddies;
+   - bamboo creaking;
+   - rain on a yero (corrugated iron) roof;
+   - a far-off karaoke or fiesta loudspeaker.
+
+   **The ambience is a scare instrument:** the karaoke stops mid-song, the dogs stop, the kuliglig stop, and the silence is the warning (Season 1's Episode 10 rule).
+3. **Whispers:** a whispered layer under the score in danger beats (reversed narration fragments or breath noise shaped by formants), mixed at least 12 dB under the voice so they never compete with a line.
+4. **Score:** `scripts/horror_score.py`, as before (mid-band drone, tremolo clusters, detuned music box, swells, stingers, heartbeat, riser, bowed metal). The Season 1 presence targets hold: about −8 to −12 dB during speech and −3 to −6 dB in the gaps, a 7 dB duck, and every line at least 4.5 dB over everything else. Measure them with `presence()`.
+5. **Diegetic sounds that tell the story:** the taxi meter's tick, a gasera's hiss, wings, a tongue's wet click, the "tik… tik" placed by distance (louder = farther), pebbles, a trowel on concrete.
+
+### Review gate for each episode (added to the still passes)
+
+- A per-shot luma table: every non-reveal, non-day shot at 45/255 or below.
+- The reveal frame inspected at phone size. Is it frightening, clear and unmistakable? Write down one sentence on what a viewer sees.
+- The "moves when you look away" pair checked, frame for frame, for matching framing.
+- A contact sheet that is mostly dark, with points of practical light. If it looks like Season 1, it fails.
+- No listening pass is possible in this runtime. Report the measurements, not "it sounds scary".
