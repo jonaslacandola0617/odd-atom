@@ -291,6 +291,18 @@ Taglish: "Sa Baguio, may hotel na bumababa pa rin ang mga bisita para maghapunan
 8. A cut away and back: the chair is empty; **every chair is now pulled out**.
 9. Exterior dawn: fog, the ruin. Loop to the table.
 
+**Narration (Taglish, for Juanito):**
+1. Sa Baguio, may hotel na bumababa pa rin ang mga bisita para maghapunan.
+2. Itinayo ito ng mga Dominikano sa burol, mahigit isang daang taon na ang nakalipas.
+3. Noong giyera, dito nagtago ang mga tao.
+4. Kalaunan, naging hotel. Tapos, iniwan na lang sa hamog.
+5. Sabi ng mga tagapagbantay, nagsisimula ang katok pagkalipas ng hatinggabi.
+6. Tapos, tunog ng mga plato. At mga boses, sa silid-kainan.
+7. May mga nakakita raw ng mga pigura sa pasilyo. Mga pari. Mga madre.
+8. Wala ni isa sa kanila ang may ulo.
+9. Walang tala ang mga historyador na nangyari talaga iyon.
+10. Pero tanungin mo ang kahit sinong taga-Baguio. Huwag ka nang maghapunan doon.
+
 **Narration (English draft):**
 1. In Baguio, there is a hotel where the guests still come down to dinner.
 2. It was built on Dominican Hill more than a century ago, as a rest house for priests.

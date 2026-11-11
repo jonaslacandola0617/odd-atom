@@ -1,0 +1,18 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[softly] Sa Baguio, may hotel na bumababa pa rin ang mga bisita para maghapunan. [long pause] Itinayo ito ng mga Dominikano sa burol, mahigit isang daang taon na ang nakalipas. [long pause] Noong giyera, dito nagtago ang mga tao. [long pause] Kalaunan, naging hotel. Tapos, iniwan na lang sa hamog. [long pause] Sabi ng mga tagapagbantay, nagsisimula ang katok pagkalipas ng hatinggabi. [long pause] Tapos, tunog ng mga plato. At mga boses, sa silid-kainan. [long pause] May mga nakakita raw ng mga pigura sa pasilyo. Mga pari. Mga madre. [long pause] [whispers] Wala ni isa sa kanila ang may ulo. [long pause] [softly] Walang tala ang mga historyador na nangyari talaga iyon. [long pause] [whispers] Pero tanungin mo ang kahit sinong taga-Baguio. Huwag ka nang maghapunan doon.",
+    "flow_id": "435WVSRNfj4LoyEt58sm",
+    "attempts": [
+      "2026-11-11, Starter account, new flow: both takes started at once (778 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep14-take1.mp3: 52.48 s, 778 credits (used)",
+      "public/assets/audio/eleven-takes/ep14-take2.mp3: 53.76 s, 778 credits (kept, unused)"
+    ],
+    "processing": "split into 10 lines, pauses inside a line capped at 0.45 s, no tempo change; the timeline (55.3 s) was built from the real line lengths"
+  },
+  "script_source": "docs/stories/season-2-philippines.md #14 (reported legend: the Diplomat Hotel, Dominican Hill, Baguio), Taglish version for Juanito"
+}

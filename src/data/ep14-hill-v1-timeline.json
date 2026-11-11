@@ -1,0 +1,89 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 55.274,
+  "duration_frames": 1658,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Sa Baguio, may hotel na bumababa pa rin ang mga bisita para maghapunan.",
+      "start": 0.15,
+      "end": 5.164,
+      "kind": "narrator",
+      "beat_before": "hook: a flashlight in a ruined dining hall at 3 a.m., a long table set for dinner, candles"
+    },
+    {
+      "id": "l02",
+      "text": "Itinayo ito ng mga Dominikano sa burol, mahigit isang daang taon na ang nakalipas.",
+      "start": 5.864,
+      "end": 11.349,
+      "kind": "narrator",
+      "beat_before": "Baguio fog, pine trees, the white roofless building on Dominican Hill"
+    },
+    {
+      "id": "l03",
+      "text": "Noong giyera, dito nagtago ang mga tao.",
+      "start": 12.049,
+      "end": 15.213,
+      "kind": "narrator",
+      "beat_before": "in the war: candlelit silhouettes sheltering in a corridor (no harm shown)"
+    },
+    {
+      "id": "l04",
+      "text": "Kalaunan, naging hotel. Tapos, iniwan na lang sa hamog.",
+      "start": 15.913,
+      "end": 20.518,
+      "kind": "narrator",
+      "beat_before": "the building empty, fog through the empty windows"
+    },
+    {
+      "id": "l05",
+      "text": "Sabi ng mga tagapagbantay, nagsisimula ang katok pagkalipas ng hatinggabi.",
+      "start": 21.318,
+      "end": 26.315,
+      "kind": "narrator",
+      "beat_before": "a caretaker's flashlight down the corridor; knocking behind a door"
+    },
+    {
+      "id": "l06",
+      "text": "Tapos, tunog ng mga plato. At mga boses, sa silid-kainan.",
+      "start": 27.115,
+      "end": 32.1,
+      "kind": "narrator",
+      "beat_before": "plates and voices from the dining hall; the flashlight swings in: empty"
+    },
+    {
+      "id": "l07",
+      "text": "May mga nakakita raw ng mga pigura sa pasilyo. Mga pari. Mga madre.",
+      "start": 33.0,
+      "end": 38.334,
+      "kind": "narrator",
+      "beat_before": "a figure in a habit far down the corridor, walking away"
+    },
+    {
+      "id": "l08",
+      "text": "Wala ni isa sa kanila ang may ulo.",
+      "start": 40.934,
+      "end": 43.782,
+      "kind": "narrator",
+      "beat_before": "the flashlight dies; chairs scrape; it comes back on the figure seated at the end of the table, nothing above the collar (stinger in silence)"
+    },
+    {
+      "id": "l09",
+      "text": "Walang tala ang mga historyador na nangyari talaga iyon.",
+      "start": 44.782,
+      "end": 48.031,
+      "kind": "narrator",
+      "beat_before": "cut away and back: every chair pulled out"
+    },
+    {
+      "id": "l10",
+      "text": "Pero tanungin mo ang kahit sinong taga-Baguio. Huwag ka nang maghapunan doon.",
+      "start": 48.831,
+      "end": 53.674,
+      "kind": "narrator",
+      "beat_before": "dawn: fog on the hill; a candle lit in an upper window"
+    }
+  ]
+}

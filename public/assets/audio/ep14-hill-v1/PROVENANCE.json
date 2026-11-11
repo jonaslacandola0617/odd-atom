@@ -1,0 +1,131 @@
+{
+  "episode": "Ep14GuestsOfDominicanHill",
+  "duration_seconds": 55.274,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep14-take1.mp3",
+    "sha256": "fd663172f0ef6543b738f135ff420e5d7d5a9b5b993bdb056e3691eefd113efc",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep14-take1.mp3: 52.48 s, 778 credits (used)",
+      "public/assets/audio/eleven-takes/ep14-take2.mp3: 53.76 s, 778 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep14-hill/prompt.json"
+  },
+  "original_synthesis": [
+    "score (scripts/horror_score.py): E2/B2 mid-band drone; tremolo string clusters; the music-box theme detuned; a heartbeat 64-112 bpm from the corridor to the dark; a riser; one stinger in silence (the light returns on the figure); bowed metal at dawn",
+    "the hill: pine wind and fog through the empty windows; a stone-room reverb inside; sparse cold crickets; far, low booms under the war shot (kept respectful)",
+    "the legend: three knocks behind a door; plates, cutlery and murmured voices from the dining hall that cut dead when the flashlight swings in; footsteps receding down the corridor",
+    "the dark: the flashlight sputtering and its switch; chairs scraping on tile in the black; a single chair creak with the stinger; dawn birds"
+  ],
+  "real_recordings_used": false,
+  "library_cues": {
+    "perspective_whip": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/motion/CB_MOTION_perspective_whip_v1.flac",
+      "sha256": "cf59cbedffd1617bf3962f9c4f6e151ca84d91a86a3bbbe048d8375ee4eba211"
+    },
+    "low_cinematic_hit": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24"
+    },
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    }
+  },
+  "stingers": [
+    40.084
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.84,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -18.1,
+    "last_quarter_second": -21.8
+  },
+  "limiter": "tanh soft limiter, ceiling -3.35 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0,
+    "l09": 0.0,
+    "l10": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 12.2,
+      "phone_band_voice_minus_all_db": 16.2,
+      "voice_minus_score_db": 12.3
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 10.8,
+      "phone_band_voice_minus_all_db": 10.5,
+      "voice_minus_score_db": 10.9
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 9.7,
+      "phone_band_voice_minus_all_db": 9.8,
+      "voice_minus_score_db": 9.8
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 9.9,
+      "phone_band_voice_minus_all_db": 13.4,
+      "voice_minus_score_db": 10.1
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 6.8,
+      "phone_band_voice_minus_all_db": 13.2,
+      "voice_minus_score_db": 6.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 5.4,
+      "phone_band_voice_minus_all_db": 7.5,
+      "voice_minus_score_db": 6.1
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 5.2,
+      "phone_band_voice_minus_all_db": 10.9,
+      "voice_minus_score_db": 5.2
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 5.7,
+      "phone_band_voice_minus_all_db": 10.3,
+      "voice_minus_score_db": 6.0
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 11.1,
+      "phone_band_voice_minus_all_db": 14.9,
+      "voice_minus_score_db": 11.2
+    },
+    {
+      "id": "l10",
+      "voice_minus_all_db": 9.1,
+      "phone_band_voice_minus_all_db": 10.4,
+      "voice_minus_score_db": 9.2
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.8,
+    "music_minus_voice_in_gaps_db": -3.1,
+    "music_share_of_gaps_seconds": 10.7
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

@@ -560,3 +560,99 @@ export const Villager: React.FC<{pose: 'sit' | 'stand'; look?: number; position?
 		</group>
 	);
 };
+
+/**
+ * A headless figure (the legend of the Diplomat Hotel): a nun's white habit or a priest's black
+ * cassock, hands folded, and nothing above the collar: a clean, closed collar, never a wound.
+ * pose 'seated' (at a table) or 'walking' (stride phase from t).
+ */
+export const Headless: React.FC<{t: number; habit: 'nun' | 'priest'; pose: 'seated' | 'walking'; position?: [number, number, number]; rotation?: [number, number, number]; scale?: number}> = ({t, habit, pose, position = [0, 0, 0], rotation = [0, 0, 0], scale = 1}) => {
+	const m = useMemo(
+		() => ({
+			robe: lam(habit === 'nun' ? '#d8d4c8' : '#16161a'),
+			trim: lam(habit === 'nun' ? '#2a2a30' : '#2a2a30'),
+			collar: lam(habit === 'nun' ? '#f0eee8' : '#e8e6e0'),
+			hand: lam('#a8a294'),
+			beads: lam('#3a2a20'),
+			empty: bas('#050404'),
+		}),
+		[habit],
+	);
+	const seated = pose === 'seated';
+	const stride = seated ? 0 : Math.sin(t * 3.2) * 0.12;
+	return (
+		<group position={position} rotation={rotation} scale={scale}>
+			{/* the robe: to the floor when walking; over the lap and down the chair when seated */}
+			{seated ? (
+				<>
+					<mesh position={[0, 0.72, 0]} scale={[1, 1, 0.7]} material={m.robe}>
+						<cylinderGeometry args={[0.15, 0.2, 0.5, 9]} />
+					</mesh>
+					<mesh position={[0, 0.5, 0.2]} material={m.robe}>
+						<boxGeometry args={[0.38, 0.14, 0.42]} />
+					</mesh>
+					<mesh position={[0, 0.24, 0.4]} material={m.robe}>
+						<boxGeometry args={[0.36, 0.5, 0.1]} />
+					</mesh>
+				</>
+			) : (
+				<>
+					<mesh position={[0, 0.72, 0]} scale={[1, 1, 0.75]} material={m.robe}>
+						<cylinderGeometry args={[0.15, 0.3, 1.45, 10]} />
+					</mesh>
+					<mesh position={[0, 0.06, stride]} material={m.robe}>
+						<boxGeometry args={[0.26, 0.1, 0.18]} />
+					</mesh>
+				</>
+			)}
+			{/* shoulders and the collar; above it, nothing */}
+			<mesh position={[0, 1.08 - (seated ? 0.1 : 0) + (seated ? 0 : 0.2), 0]} scale={[1, 1, 0.7]} material={m.robe}>
+				<cylinderGeometry args={[0.1, 0.19, 0.3, 9]} />
+			</mesh>
+			<mesh position={[0, 1.24 - (seated ? 0.1 : 0) + (seated ? 0 : 0.2), 0]} material={m.collar}>
+				<cylinderGeometry args={[0.065, 0.075, 0.05, 9]} />
+			</mesh>
+			{/* the inside of the empty collar: dark, like clothing with no one in it (an absence, not a wound) */}
+			<mesh position={[0, 1.266 - (seated ? 0.1 : 0) + (seated ? 0 : 0.2), 0]} rotation={[-Math.PI / 2, 0, 0]} material={m.empty}>
+				<circleGeometry args={[0.058, 9]} />
+			</mesh>
+			{/* squared shoulders, so the absence above them reads */}
+			<mesh position={[0, 1.14 - (seated ? 0.1 : 0) + (seated ? 0 : 0.2), 0]} material={m.robe}>
+				<boxGeometry args={[0.44, 0.1, 0.22]} />
+			</mesh>
+			{habit === 'nun' && (
+				<mesh position={[0, 1.15 - (seated ? 0.1 : 0) + (seated ? 0 : 0.2), -0.06]} scale={[1, 1, 0.5]} material={m.trim}>
+					<cylinderGeometry args={[0.13, 0.2, 0.32, 9, 1, true]} />
+				</mesh>
+			)}
+			{/* sleeves and folded hands, a rosary hanging */}
+			{[-1, 1].map((sd) =>
+				seated ? (
+					<group key={sd}>
+						<mesh position={[sd * 0.21, 0.88, 0.04]} rotation={[0.2, 0, sd * 0.1]} material={m.robe}>
+							<boxGeometry args={[0.09, 0.3, 0.09]} />
+						</mesh>
+						<mesh position={[sd * 0.17, 0.79, 0.26]} rotation={[Math.PI / 2, 0, 0]} material={m.robe}>
+							<boxGeometry args={[0.085, 0.34, 0.08]} />
+						</mesh>
+						<mesh position={[sd * 0.15, 0.8, 0.46]} material={m.hand}>
+							<boxGeometry args={[0.07, 0.03, 0.1]} />
+						</mesh>
+					</group>
+				) : (
+					<mesh key={sd} position={[sd * 0.13, 0.98, 0.12]} rotation={[-1.1, 0, -sd * 0.3]} material={m.robe}>
+						<boxGeometry args={[0.09, 0.32, 0.09]} />
+					</mesh>
+				),
+			)}
+			<mesh position={[0, seated ? 0.68 : 0.88, 0.22]} material={m.hand}>
+				<boxGeometry args={[0.1, 0.06, 0.06]} />
+			</mesh>
+			{Array.from({length: 8}, (_, i) => (
+				<mesh key={i} position={[Math.sin(i * 0.8) * 0.02, (seated ? 0.62 : 0.82) - i * 0.03, 0.24]} material={m.beads}>
+					<boxGeometry args={[0.014, 0.014, 0.014]} />
+				</mesh>
+			))}
+		</group>
+	);
+};

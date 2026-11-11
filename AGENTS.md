@@ -39,6 +39,20 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 14 "The Guests of Dominican Hill" (Diplomat Hotel, Baguio; reported legend).
 
+- **Episode 14 "The Guests of Dominican Hill" (2026-11-11):** the user asked for the "next ep". It is a reported legend: the old Diplomat Hotel, Dominican Hill, Baguio. `Ep14GuestsOfDominicanHill` / `src/horror/ep14/` is 55.3 s, in Taglish.
+  - **World:** the white roofless ruin among Benguet pines in fog; the dining hall with a table set for dinner; the corridor.
+  - **Entity kit:** `Headless` was added (a nun's habit or priest's cassock, seated or walking, an empty dark collar: an absence, never a wound).
+  - **Picture:** a flashlight (a spotlight that follows the camera).
+  - **Story and picture:** the set-table hook; the hill; people sheltering in the war (no harm); fog; three knocks; plates and voices that stop when the light swings in; a priest walking away; the flashlight dies; chairs scrape in the black; one lit reveal of a nun seated at the head of the table with nothing above the collar; every chair pulled out; dawn with a candle in an upper window; the loop.
+  - **Care:** the beheadings are legend, and the narration says historians have no record of them; no night-visit framing.
+  - **Facts:** from search summaries only.
+  - **Voice:** Juanito, both takes at once on the Starter account (1,556 credits).
+  - **Sound:** presence −11.8 / −3.1 dB, lines ≥5.2 dB with no lifts, −14.0 LUFS, decoded peak −1.84 dBFS, bed seam −24.7 / −24.3 dBFS.
+  - **Delivery:** `assets/videos/ep14-hill-v1/`. Notes (with English subtitles) are in `docs/production/ep14-hill/README.md`; the publishing kit is `docs/publishing/ep14/README.md` and `docs/publishing/POSTS-ep11-20.md`.
+  - **Disk:** the container's disk filled with 40 leftover Remotion bundles; the user approved deleting them, and the render scripts for Episodes 11–14 now remove their own bundle.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 15 "Don't Pick Up the Baby" (tiyanak, folklore).
+
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).

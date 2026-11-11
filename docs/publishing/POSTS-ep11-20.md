@@ -14,6 +14,7 @@ Season 2 is Philippine ghost stories with Taglish narration (Juanito) and Taglis
 | 11 | The Passenger on Balete Drive | reported legend | `assets/videos/ep11-balete-v1/ep11-the-passenger-on-balete-drive.mp4` | 54.6 s |
 | 12 | Tik-Tik | original (on folklore) | `assets/videos/ep12-tiktik-v1/ep12-tik-tik.mp4` | 51.2 s |
 | 13 | Half of Her | folklore (manananggal) | `assets/videos/ep13-half-v1/ep13-half-of-her.mp4` | 59.9 s |
+| 14 | The Guests of Dominican Hill | reported legend | `assets/videos/ep14-hill-v1/ep14-the-guests-of-dominican-hill.mp4` | 55.3 s |
 
 ---
 
@@ -92,3 +93,29 @@ kapag may nakita kang kalahating babae na nakatayo sa sagingan… huwag kang sis
 - **Cover text:** `HANAPIN MO ANG ASIN` (her silhouette against the moon, about 0:20).
 - **Pinned comment:** `Tingnan mo ulit ang palda sa 0:15.`
 - **Care:** folklore told with respect; no real town (no Capiz jokes) or person called aswang; no jokes about pregnant women. Full kit: `docs/publishing/ep13/README.md`.
+
+---
+
+## Broadcast 14: The Guests of Dominican Hill (reported legend)
+
+**YouTube title:** `Sa Baguio, may hotel na kumakain pa rin ang mga bisita`
+Alternative: `The guests of Baguio's Diplomat Hotel still come down for dinner`
+
+**YouTube description**
+```
+Dominican Hill, Baguio. Ang lumang Diplomat Hotel: itinayo ng mga Dominikano, pinagtaguan noong giyera, naging hotel, at iniwan sa hamog. Sabi ng mga tagapagbantay, pagkalipas ng hatinggabi, may kumakatok. Tapos, tunog ng mga plato.
+
+Bilangin mo ang mga upuan bago at pagkatapos mamatay ang flashlight. 🕯️
+
+Broadcast 14 · After Sign-Off. Kilalang kuwento ng multo, ginawa sa low-poly 3D. Walang tala ang mga historyador na nangyari ang mga pugot na kuwento. Heritage site ito; igalang ang lugar.
+#DiplomatHotel #Baguio #kwentongkatatakutan #pinoyhorror #ghoststory #shorts
+```
+**YouTube pinned comment:** `Sino ang naghanda ng mesa? 🕯️ Nakapunta ka na ba sa Dominican Hill? Ano ang naramdaman mo?`
+
+**TikTok caption**
+```
+sa baguio, may hotel na bumababa pa rin ang mga bisita para maghapunan 🕯️ #diplomathotel #baguio #kwentongkatatakutan #pinoyhorror #ghoststory #fyp #fypシ
+```
+- **Cover text:** `HUWAG KA NANG MAGHAPUNAN DOON` (the table at frame 0).
+- **Pinned comment:** `Tingnan mo ang dulo ng mesa sa 0:44.`
+- **Care:** a legend about a heritage site; the beheadings are undocumented; respect the wartime history; no night-visit dares. Full kit: `docs/publishing/ep14/README.md`.
