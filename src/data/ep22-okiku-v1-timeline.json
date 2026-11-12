@@ -1,0 +1,81 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 55.58,
+  "duration_frames": 1667,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Her hair was short. Once.",
+      "start": 0.1,
+      "end": 2.77,
+      "kind": "narrator",
+      "beat_before": "hook: the doll in her glass case on the altar, 1938, short bobbed hair, turned away towards the wall"
+    },
+    {
+      "id": "l02",
+      "text": "Hokkaido, Japan. Nineteen thirty-eight. A family moving away left a doll at a temple. They called her Okiku.",
+      "start": 4.57,
+      "end": 12.76,
+      "kind": "narrator",
+      "beat_before": "the bell; the years begin to run; candles and offerings change each year"
+    },
+    {
+      "id": "l03",
+      "text": "The story is that she belonged to a little girl who died young.",
+      "start": 14.56,
+      "end": 18.0,
+      "kind": "narrator",
+      "beat_before": "the bell; 1950s"
+    },
+    {
+      "id": "l04",
+      "text": "Then the priests noticed her hair. It was growing.",
+      "start": 20.0,
+      "end": 23.21,
+      "kind": "narrator",
+      "beat_before": "the bell; her hair is past her chin"
+    },
+    {
+      "id": "l05",
+      "text": "The temple says it has grown about twenty-five centimetres. When it is trimmed, it grows back.",
+      "start": 25.21,
+      "end": 30.57,
+      "kind": "narrator",
+      "beat_before": "the bell; a trim: scissors and cut hair on the altar for one year; then it is long again"
+    },
+    {
+      "id": "l06",
+      "text": "Some say it is a child's hair. That has never been shown.",
+      "start": 32.57,
+      "end": 36.09,
+      "kind": "narrator",
+      "beat_before": "the bell; a photograph pinned to the pillar (in it, she faces the camera)"
+    },
+    {
+      "id": "l07",
+      "text": "Skeptics say old hair can relax and stretch. Or that someone is doing it.",
+      "start": 38.09,
+      "end": 43.04,
+      "kind": "narrator",
+      "beat_before": "the bell; 2000s; her head has turned most of the way"
+    },
+    {
+      "id": "l08",
+      "text": "Eighty-eight years. Look where she was facing, at the start.",
+      "start": 45.44,
+      "end": 49.27,
+      "kind": "narrator",
+      "beat_before": "the bell; 2020s; she looks over her shoulder at the lens"
+    },
+    {
+      "id": "l09",
+      "text": "Look where she's facing now.",
+      "start": 51.47,
+      "end": 52.98,
+      "kind": "narrator",
+      "beat_before": "no bell: the counter stops at the present; silence"
+    }
+  ]
+}

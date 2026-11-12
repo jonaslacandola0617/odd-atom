@@ -19,6 +19,17 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 22 "Eighty-Eight Years" (the Okiku doll; a time-lapse with no jump scare).
 
+- **Episode 22 "Eighty-Eight Years" (2026-11-12):** the user asked for the "next ep". The Okiku doll (Mannenji temple, Iwamizawa, Hokkaido), a real reported case. `Ep22EightyEightYears` / `src/horror/ep22/` is 55.6 s, in English.
+  - **Form:** a time-lapse from one fixed position, one "photograph" a year from 1938 to now (a year stamp, per-year candles, offerings, exposure and a few millimetres of tripod jitter). No jump scare: her hair grows (trimmed once in 1980) and her head turns, a little a year, from the wall to the lens; the narration only says "look" at the end; breath fogs the inside of the glass.
+  - **Sound:** one instrument: a synthesized temple bell struck seven times in the gaps, and silence; one breath at the end.
+  - **Lessons:** black hair is invisible against a dark case: line the case with pale silk so the hair reads in silhouette; a hanging scroll behind a doll's head with two dark blocks reads as a second face.
+  - **Care:** the girl is never shown; the head turning is our dramatisation and is never claimed; an original doll design.
+  - **Voice:** Jack, both takes at once (1,402 credits; take 1 used), no tempo change.
+  - **Sound figures:** bell presence −13.6 / −3.2 dB, lines ≥9.6 dB, −14.0 LUFS, decoded peak −3.95 dBFS, seam −42.9 / −55.8 dBFS (both near silence).
+  - **Delivery:** `assets/videos/ep22-okiku-v1/`. Notes are in `docs/production/ep22-okiku/README.md`; the publishing kit is `docs/publishing/ep22/README.md` and `docs/publishing/POSTS-ep21-30.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 23 "Backwards" (the Bell Witch; told backwards from the funeral).
+
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
   - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. **From 2026-11-11 (Episode 13) the user has a paid ElevenLabs Starter account (a new account):** flows from the old account (for example `L6hejcAiUNKAfyBLB3C3`) return "no access to this template", so start a new flow. Free-tier "busy" refusals should be rare now. If one happens, the user's earlier rule still applies: retry every 30 min, at most 4 times, one attempt per check-in.

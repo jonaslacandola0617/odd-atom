@@ -13,6 +13,7 @@ Season 3 is famous, **real, documented** ghost cases from around the world, in E
 | # | Case | Where | Upload this file | Length |
 |---|---|---|---|---|
 | 21 | Watch the Chair (the Enfield poltergeist, 1977) | London, England | `assets/videos/ep21-chair-v1/ep21-watch-the-chair.mp4` | 59.0 s |
+| 22 | Eighty-Eight Years (the Okiku doll) | Iwamizawa, Hokkaido, Japan | `assets/videos/ep22-okiku-v1/ep22-eighty-eight-years.mp4` | 55.6 s |
 
 ---
 
@@ -41,3 +42,31 @@ watch the chair. not the bed. 🪑 #enfieldpoltergeist #poltergeist #truehorror 
 **TikTok pinned comment:** `count how many times the chair moves. now count how many times you SAW it move.`
 
 **When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); a UK post at 8–10 p.m. UK time also fits.
+
+---
+
+## Broadcast 22: Eighty-Eight Years (the Okiku doll)
+
+**YouTube title:** `Her hair was short. Once.`
+Alternative: `The Okiku doll: 88 years in one shot`
+
+**YouTube description**
+```
+Hokkaido, Japan. In 1938 a family moving away left a doll at a temple. They called her Okiku. The temple says her hair, short at first, has grown about 25 centimetres, and grows back when it is trimmed. Skeptics say old hair can relax and stretch, or that someone is doing it.
+
+Watch her face. Then go back to the first second. 🎎
+
+Broadcast 22 · After Sign-Off · Season 3: real cases from around the world. A reconstruction in pixel 3D with an original doll; the head turning is our dramatisation.
+#Okiku #hauntedoll #japan #ghoststory #truehorror #shorts
+```
+
+**Pinned comment:** `What year did she start turning? 🎎`
+
+**TikTok caption**
+```
+her hair was short. once. 🎎 #okikudoll #hauntedoll #japanesehorror #truehorror #scarystories #fyp
+```
+**Cover text:** `88 YEARS`
+**TikTok pinned comment:** `look at the photo on the pillar. then look at the year.`
+
+**When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); a Japan post at 9–11 p.m. Japan time also fits.

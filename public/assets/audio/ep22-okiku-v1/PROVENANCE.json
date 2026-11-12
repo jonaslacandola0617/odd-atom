@@ -1,0 +1,109 @@
+{
+  "episode": "Ep22EightyEightYears",
+  "duration_seconds": 55.58,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep22-take1.mp3",
+    "sha256": "c17abb168fb3e0922286cf05d4e6a080ba4f6d0e0c05bc9073d0ed96603efab6",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (library voice)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep22-take1.mp3: 43.81 s, 701 credits (used)",
+      "public/assets/audio/eleven-takes/ep22-take2.mp3: 45.64 s, 701 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep22-okiku/prompt.json"
+  },
+  "original_synthesis": [
+    "ONE INSTRUMENT: a temple bell (bonsho) synthesized from inharmonic partial pairs with slow beating and a wooden striker thump, struck seven times in the gaps between lines; ducked 7 dB under speech",
+    "a near-silent hall tone (filtered noise)",
+    "one soft breath at the very end, as the glass fogs from inside (filtered noise)"
+  ],
+  "music_presence_note": "the only music is the bell; music_presence measures the whole non-voice bed (bell, hall, breath) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -3.95,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -42.9,
+    "last_quarter_second": -55.8
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0,
+    "l09": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 39.3,
+      "phone_band_voice_minus_all_db": 39.0,
+      "voice_minus_bed_db": 39.3
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 17.1,
+      "phone_band_voice_minus_all_db": 15.4,
+      "voice_minus_bed_db": 17.1
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 9.6,
+      "phone_band_voice_minus_all_db": 8.0,
+      "voice_minus_bed_db": 9.6
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 12.9,
+      "phone_band_voice_minus_all_db": 13.6,
+      "voice_minus_bed_db": 12.9
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 15.5,
+      "phone_band_voice_minus_all_db": 17.2,
+      "voice_minus_bed_db": 15.5
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 11.5,
+      "phone_band_voice_minus_all_db": 11.1,
+      "voice_minus_bed_db": 11.5
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 13.7,
+      "phone_band_voice_minus_all_db": 15.5,
+      "voice_minus_bed_db": 13.7
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 13.0,
+      "phone_band_voice_minus_all_db": 11.7,
+      "voice_minus_bed_db": 13.0
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 24.6,
+      "phone_band_voice_minus_all_db": 25.7,
+      "voice_minus_bed_db": 24.6
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -13.6,
+    "music_minus_voice_in_gaps_db": -3.2,
+    "music_share_of_gaps_seconds": 18.9
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
