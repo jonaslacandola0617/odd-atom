@@ -112,7 +112,12 @@ python3 scripts/caption_check.py src/data/ep23-bell-v1-timeline.json assets/vide
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 45,276,233 bytes; SHA-256 `8ceeb22610d86702b170e8809ead7e1c4b55d3139a4c10f9642d978511ce9d10`.
+- **Streams:** H.264 1080×1920, 1,730 frames, 57.67 s; AAC 57.66 s (the checked `mix.m4a` muxed with `-c copy`). It decodes with no errors.
+- **Loudness:** −14.1 LUFS integrated; peak −1.1 dBFS (ffmpeg ebur128).
+- **Dark key:** mean luma sampled twice a second runs 5–55/255, median 16; the brightest frames are the snowy funeral before the gust and the rewind bars.
+- **Captions:** all 13 caption cards were found on screen at their timeline times (`out/oddatom/ep23-captions`, not tracked).
+- **Muted contact sheet** (every 2 s): the mourners with lanterns, then dark and turned; the rewind bars; the vial on the sill; the orbit round the supper table; the quilt on the bed, then gone; the scratches on the logs; the corn; the bedpost scratch. The beats read without sound.
 
 ## Known limits
 
