@@ -4,6 +4,7 @@
 - **Picture:** each scene runs **forward** to a **hard cut** into the next (earlier) scene; the cameras keep moving up to the cut; the date cards carry the backwards order. No "REWIND" card, no tearing bars, no reversed motion.
 - **Sound:** no rewind whir, no film clicks, no reversed swells; each cut lands straight in the next scene's own sound. Audio is in `public/assets/audio/ep23-bell-v2/` (the split narration is reused from v1).
 - **v2 mix:** −14.0 LUFS, decoded peak −1.1 dBFS, score presence −12.6 / −3.2 dB, lines ≥4.7 dB (l06 +4.3, l07 +2.6, l02 +0.4), seam −18.2 / −19.1 dBFS.
+- **v2 encoded file:** 45,428,094 bytes; SHA-256 `a5a6f5d89a20965be313eeb29a7fe2c436d412ba62bf5c444e0555a8d8664b09`; 1,730 frames, 57.67 s; AAC muxed `-c copy`; decodes with no errors; −14.1 LUFS, peak −1.1 dBFS; all 13 caption cards found. Frame-by-frame strips across the four cut points show each scene running forward to a single hard cut, with no rewind bars or reversed motion.
 - **v1** (`assets/videos/ep23-bell-v1/`) is kept as the **rejected** version. The rest of this README describes v1's build; everything except the rewinds applies to v2.
 
 ---
