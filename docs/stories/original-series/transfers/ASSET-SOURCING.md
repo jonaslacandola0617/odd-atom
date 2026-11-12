@@ -80,6 +80,7 @@ were not starting from scratch".
     outfits.
   - So even with a CC-BY label on Sketchfab, building a monetized channel's lead
     character on it is a risk.
+- **Decision (user):** "ill just find something else". The model will not be used.
 - **Status:**
   - Not used, and not committed: the repo is public, and the licence is unclear.
   - The Sketchfab page URL was requested from the user to read the stated
