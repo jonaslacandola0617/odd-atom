@@ -44,6 +44,9 @@
     - **Toon kit:** `src/horror/toon.ts`: a three-band `MeshToonMaterial` with palette snapping, and inverted-hull outlines that follow skinning and morphs.
     - **Style frames:** `NicoLook` `style: 'toon'`, `node scripts/render_nico_look.cjs --toon`, written to `assets3d/characters/nico/toon-test-v1/`.
     - **Finding:** the outlines and bands read as "art", but realistic face micro-forms break into blotchy toon bands, and point lights make ring bands on the walls. Simple stylized shapes, painted 2D faces and directional key lights are needed.
+  - **User on the test's sound:** "what i hate the most in your test is the sound effects, in horror films those are one of the most important".
+    - **Diagnosis:** synthesized and borrowed sounds; no purpose-made foley; no horror layer; a quiet −16 LUFS mix.
+    - **New sound standard:** `docs/stories/original-series/transfers/SOUND.md` covers purpose-made ElevenLabs foley for every visible action, three layers (ambience, foley, horror), silence shaping, an entity signature and tape-true audio.
   - **Status:** nothing approved; no ElevenLabs credits spent; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".

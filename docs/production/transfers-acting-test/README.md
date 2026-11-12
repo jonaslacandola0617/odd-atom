@@ -89,3 +89,18 @@ Not approved by the user. This is a capability test, not an episode.
 - **Look:** v1 is rejected as ugly. The realistic MakeHuman look is not the series look.
 - **Pipeline:** v1 is kept as proof that it works (rig, IK, face keys, render speed).
 - **Next direction:** stylized characters, toon shading, a pixel-art look.
+
+## User verdict on the sound (2026-11-12)
+
+> "Btw what i hate the most in your test is the sound effects, in horror films those are one of the most important"
+
+- **Why it failed (diagnosis; I cannot listen in this runtime):**
+  - Most effects were synthesized: clicks, thuds, motor, hiss, hum, whine.
+  - The rest were borrowed sounds made for other contexts: Curio's documentary
+    or editorial cues, Episode 29's storm and breaths.
+  - Nothing was recorded or generated for these actions: a cassette sliding into
+    a VCR, a plastic case, a cheap office chair, cloth, a nervous breath.
+  - There was no designed horror layer: no tension drone, sub-bass or silence
+    shaping.
+  - The mix was quiet (−16 LUFS).
+- **Standard from now on:** see `docs/stories/original-series/transfers/SOUND.md`.
