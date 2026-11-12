@@ -1,5 +1,13 @@
 # Video delivery
 
+- **Facebook scheduler (2026-11-12):** the user asked for a separate scheduler for a new Facebook Page, with the Philippine stories first and then Season 1.
+  - **Tool:** `publishing/facebook-scheduler/` (download `publishing/after-sign-off-facebook-scheduler.zip`). It drives the same Chrome profile through Meta Business Suite's Reels composer (`business.facebook.com/latest/reels_composer`): upload, caption (a pasted `paste` event), Meta's AI label (the voice is AI), Next to the sharing step, Schedule, date (mm/dd/yyyy, then "Nov 16, 2026") and time (hour/minute/meridiem spinbuttons or one "8:00 PM" box).
+  - **Recording:** a Reel is recorded only after a "scheduled" message or a return to the content/planner page; otherwise the tool asks the user. The scheduling window is assumed to be about 28 days (`--max-days`).
+  - **Shared code:** `chrome.mjs` and `util.mjs` are copied from `publishing/scheduler/src` by `publishing/tools/build_zips.py`, which builds both ZIPs; run it after any change.
+  - **Schedule:** captions are built by `publishing/tools/build_facebook_schedule.py`: the YouTube title, a blank line, then the description with `#shorts` → `#reels`. The order is 11–20 then 1–10, at 20:00 PH time, with 1–2 random days off a week (never Monday), from 2026-11-16: 11–20 run 16–29 Nov and 1–10 run 30 Nov–13 Dec. Episode 20 falls on 29 Nov. The user may re-plan once the Page exists.
+  - **Tested:** only against a fake Business Suite page (`npm test` in that folder). It has not been run on the real site, so expect selector fixes from screenshots, as happened with YouTube and TikTok.
+  - **Status:** nothing has been posted or scheduled by Claude.
+
 - **Publishing automation (2026-11-12):** the user wants scheduling automated, free, on Windows, for YouTube and TikTok, with Seasons 1 and 2 mixed.
   - **Tool:** `publishing/scheduler/` (download `publishing/after-sign-off-scheduler.zip`). It is Node + `playwright-core`, and drives the user's real Chrome (a separate profile, `%USERPROFILE%\AfterSignOff-Chrome-Profile`, attached over a local debugging port, with no automation flags) through YouTube Studio and TikTok Studio's own schedulers. It uses no APIs, keys or third-party schedulers. The user signs in by hand (`2-LOGIN.bat`).
   - **Schedule:** `schedule.json` is built from the posting kits by `publishing/tools/build_schedule.py <video sha>`. Videos are downloaded from raw GitHub at commit `05e90ba`. It alternates S1/S2 (1, 11, 2, 12 …), YouTube 20:30 and TikTok 21:30 PH time; Episode 20 is kept off 17 Nov (`notOn`).
