@@ -1,0 +1,22 @@
+{
+  "library": "TRANSFERS sound library v3 (Episode 1 gaps)",
+  "generated": "2026-11-12",
+  "provider": "ElevenLabs connector (user's second account, free tier, 444 credits at start), eleven_text_to_sound_v2, duration_seconds set, prompt influence 0.3",
+  "flow_id": "17Um1AqHubVxEcs9iz7N",
+  "user_request": "\"I connected an account with 444 credits left use it to fix sfx or generate new ones we need.\"",
+  "pricing": "this free account charges 10 credits per second (50 for 5 s, 80 for 8 s), about 3x the old account",
+  "pending": "typing, light switch, gate, cloth lift, VCR frame-step, tape eject (5 s each): 'free generations busy', not charged; retrying every 30 min, at most 4 times (the user's standing rule). Hospital phone bed, barangay night bed and VHS dropout were dropped for cost: build them in the mix or generate them on a larger account.",
+  "listening": "not yet heard by the user",
+  "files": {
+    "film-camera-flash-1.mp3": {
+      "prompt": "Old film camera shutter click and flash pop, then the rising whine of the flash recharging, in a small room",
+      "seconds": 5.04,
+      "sha256": "2d364c916003c6be9d158baca066d0bdb15b08f6ef1e1d4a6e8b3cc6a78d8c49"
+    },
+    "tsinelas-steps-1.mp3": {
+      "prompt": "Slow careful footsteps in rubber flip-flops on a concrete floor, soft slaps, quiet room, close-mic",
+      "seconds": 8.05,
+      "sha256": "24bd91d6e4b7ab32c0f19ba954d6996aff4323b45601ee04e8be0d0ecf517701"
+    }
+  }
+}
