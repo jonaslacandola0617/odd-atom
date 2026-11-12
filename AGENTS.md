@@ -97,6 +97,8 @@
       - **Output:** `nico-v5-clay.glb` and `clay/` renders, with `compare-sheet-vs-v5-clay.png`.
       - **Lesson:** a marching-cubes grid with a sample plane exactly on the mirror plane (x = 0) left a crease line down the shirt after decimation; offset the grid.
       - Not yet reviewed.
+  - **Modelling paused (user, 2026-11-12):** "ill work on the characters later". The last state is the Nico v5 clay second pass; its open issues (messy hair, curled hands, crisper sneakers, a squarer jaw) are in the chat.
+    - The next task went to a new session, `session_01Wcffamqj9sugSTngy8cr6J`: the TRANSFERS series bible plus the Episode 1 screenplay and an Episode 1–3 beat sheet, on branch `claude/transfers-bible`.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
