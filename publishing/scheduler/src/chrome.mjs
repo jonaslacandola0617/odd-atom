@@ -60,7 +60,7 @@ export async function openChrome(urls = []) {
     }
     urls = [];
   }
-  const browser = await chromium.connectOverCDP(`http://127.0.0.1:${PORT}`);
+  const browser = await chromium.connectOverCDP(`http://127.0.0.1:${PORT}`, { isLocal: true });
   const context = browser.contexts()[0] ?? (await browser.newContext());
   for (const u of urls) {
     const p = await context.newPage();

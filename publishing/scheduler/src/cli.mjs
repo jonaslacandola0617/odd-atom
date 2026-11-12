@@ -166,6 +166,15 @@ async function schedule() {
   const { scheduleYouTube } = await import('./youtube.mjs');
   const { scheduleTikTok } = await import('./tiktok.mjs');
   const { context } = await openChrome();
+  let failsInARow = 0;
+  const failed = (where, err) => {
+    console.log(`   ✗ ${where} failed: ${err.message.split('\n')[0]}`);
+    if (/signed in/.test(err.message) || ++failsInARow >= 2) {
+      console.log('\nStopping here so the same problem doesn\'t repeat for every episode. Nothing after this was touched.');
+      return true;
+    }
+    return false;
+  };
 
   for (const e of todo) {
     const file = videoPath(e);
@@ -177,8 +186,9 @@ async function schedule() {
         try {
           const r = await scheduleYouTube(context, e, file, { auto });
           if (r.status === 'scheduled') markState(e.ep, 'youtube', r);
+          failsInARow = 0;
           console.log(`   → ${r.status}${r.url ? ' ' + r.url : ''}`);
-        } catch (err) { console.log(`   ✗ YouTube failed: ${err.message.split('\n')[0]}`); if (/signed in/.test(err.message)) break; }
+        } catch (err) { if (failed('YouTube', err)) break; }
         await humanPause(3000, 6000);
       }
     }
@@ -191,8 +201,9 @@ async function schedule() {
         try {
           const r = await scheduleTikTok(context, e, file, { auto });
           if (r.status === 'scheduled') markState(e.ep, 'tiktok', r);
+          failsInARow = 0;
           console.log(`   → ${r.status}`);
-        } catch (err) { console.log(`   ✗ TikTok failed: ${err.message.split('\n')[0]}`); if (/signed in/.test(err.message)) break; }
+        } catch (err) { if (failed('TikTok', err)) break; }
         await humanPause(3000, 6000);
       }
     }
