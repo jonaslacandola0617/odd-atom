@@ -1,6 +1,47 @@
 # NICO (TRANSFERS lead): 3D character
 
-## v1 (current, 2026-11-12): MakeHuman CC0 base mesh
+## v3 (in review, 2026-11-12): Quaternius CC0 base reshaped to the approved sheet
+
+- **Source:** Quaternius "Universal Base Characters [Standard]" (`Superhero_Male_FullBody.gltf`, the
+  65-bone UE-style rig), shared by the user via Drive. Licence (`License_Standard.txt` in the pack):
+  **CC0 1.0 Universal**, "Models by @Quaternius" (credit not required; given here anyway). The pack itself
+  stays out of Git; only our reshaped derivative is committed.
+- **What was changed, all measured from `design/nico-sheet-chatgpt-v1.png`:**
+  - `fit/fit_nico_q.py`:
+    - welds the base's split seams;
+    - poses the arms down and applies that as the rest pose;
+    - remaps heights so the knee, crotch, shoulder joint, chin and skull top land on the sheet's;
+    - scales arm length to the sheet's fingertips;
+    - fits width (front view) and depth (side view) per height and per region (legs, torso, arms, head)
+      to the sheet's clothed silhouette, over four passes.
+    - Silhouette overlap with the sheet went from 77.7% to 90.0% (front) and from 69.7% to 82.1% (side);
+      the mean per-row width/depth error went from 23.7% to 5.4%.
+  - `fit/sheet_parts.py` measures the sheet's hair, skin, shirt, jeans and shoe regions per view.
+  - `fit/make_faces.py` turns the sheet's six drawn expression heads into 96×112 pixel-art face textures
+    (`faces-v3/`), plus a blink:
+    - aligned on the glasses by template match;
+    - the drawn frames painted out (the glasses are 3D), skin flattened for toon light;
+    - one shared 16-colour palette.
+  - `build_nico_q.py`:
+    - **hair:** a volume carved from the sheet's hair outlines (front, side, back), with the scalp covered
+      above the sheet's hairline;
+    - **clothes:** cut on the sheet's collar, sleeve, hem (lower at the belly) and shoe lines;
+    - **face:** decals on a smoothed face;
+    - **glasses:** thick frames on the sheet's lens rectangles, wrapped to the head;
+    - **watch:** on his left wrist;
+    - 1.70 m tall, bone `Head` renamed `head`.
+- **Output:** `public/assets/3d/nico/nico-v3.glb`. Stills: `NicoV3Sheet` /
+  `node scripts/render_nico_look.cjs --v3` write `sheet-v3/`; `sheet-v3/compare-sheet-vs-v3.png` puts the
+  sheet over our lineup.
+- **Rebuild:** run `fit/sheet_parts.py`, then `fit/make_faces.py`, then `fit/fit_nico_q.py` (needs the pack's
+  gltf and the sheet as raw RGB), then `build_nico_q.py` (bpy 5.3 plus scikit-image and scipy).
+- **Known gaps:**
+  - The hair is a smooth volume without the sheet's separate spiky clumps or the cowlick.
+  - The sneakers are flat, and the shirt has no loose sleeve ends or folds.
+  - The hands hang open with the fingers spread.
+  - The base's ears are lost under the smoothing.
+
+## v1 (superseded, 2026-11-12): MakeHuman CC0 base mesh
 
 - **Build.** `build_nico_mh.py` runs in headless Blender (`bpy` 5.3, in a
   scratchpad venv):

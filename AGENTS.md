@@ -68,6 +68,13 @@
     - **Look:** `src/horror/toon.ts` has three-band toon shading and screen-space outlines (constant px). Depth-proportional outlines blew up to about 6 px with narrow lenses and blacked out the mouth.
     - **Sheet:** `NicoToonSheet`, `node scripts/render_nico_look.cjs --v2`, written to `assets3d/characters/nico/sheet-v2-toon/`. Not yet approved as a model.
   - **Nico design sheet:** from the user's ChatGPT, saved at `assets3d/characters/nico/design/nico-sheet-chatgpt-v1.png`, with notes in its README. It is the reference for the stylized toon model: about 6.5 heads, spiky messy hair, a dark teal-green tee, six expressions.
+  - **Nico v3 on the Quaternius CC0 base (2026-11-12):** the user asked to "restructure the entire face … match the character model to our reference sheet detail by detail" using Quaternius Universal Base Characters, and shared the Standard pack (CC0, `License_Standard.txt`) via Drive; the pack stays out of Git.
+    - **Build:** `assets3d/characters/nico/fit/` (sheet_parts, make_faces, fit_nico_q) and `build_nico_q.py` produce `public/assets/3d/nico/nico-v3.glb`. Body fitted by silhouette: overlap 90.0% front and 82.1% side; hair carved from the sheet's hair outlines; clothes cut on the sheet's lines; 3D glasses; a watch.
+    - **Faces:** the seven expressions come from the sheet's drawn heads (`faces-v3/`), with the frames painted out; each is a decal mesh `nico_face_<expr>` that `setFace` shows.
+    - **Stills:** `NicoV3Sheet`, `node scripts/render_nico_look.cjs --v3`, into `assets3d/characters/nico/sheet-v3/`, including `compare-sheet-vs-v3.png`.
+    - **Known gaps:** no spiky hair clumps or cowlick, flat sneakers, no sleeve or fold detail, spread fingers, lost ears.
+    - **Lessons:** weld the base's seams before per-region scaling (the jaw opened); a front view cannot see hair behind the forehead, so cover the scalp above a hairline; anchor wrap-around frames at the inner edge.
+    - Not yet reviewed by the user.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".

@@ -30,6 +30,7 @@ import {Episode08,ep08Config} from './horror/ep08/Episode08';
 import {ChannelAvatar,ChannelBanner} from './horror/channel/ChannelArt';
 import {NicoLook} from './horror/transfers/NicoLook';
 import {NicoToonSheet} from './horror/transfers/NicoToonSheet';
+import {NicoV3Sheet} from './horror/transfers/NicoV3Sheet';
 import {TransfersActingTest, ACT_FRAMES, ACT_FPS} from './horror/transfers/ActingTest';
 import {Episode09,ep09Config} from './horror/ep09/Episode09';
 import {Episode10,ep10Config} from './horror/ep10/Episode10';
@@ -84,6 +85,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep30WhatTheyTellYou" component={Episode30} defaultProps={{includeAudio:true,captions:true}} {...ep30Config}/>
     <Composition id="TransfersActingTest" component={TransfersActingTest} durationInFrames={ACT_FRAMES} fps={ACT_FPS} width={1920} height={1080} defaultProps={{withAudio:false}}/>
     <Composition id="NicoToonSheet" component={NicoToonSheet} durationInFrames={1} fps={30} width={1920} height={1080} defaultProps={{shot:'lineup' as const,lw:640}}/>
+    <Composition id="NicoV3Sheet" component={NicoV3Sheet} durationInFrames={1} fps={30} width={1920} height={1080} defaultProps={{shot:'lineup' as const,lw:640}}/>
     <Composition id="NicoLook" component={NicoLook} durationInFrames={1} fps={30} width={1920} height={1080} defaultProps={{shot:'lineup' as const,lw:480,expression:'neutral'}}/>
     <Composition id="ChannelAvatar" component={ChannelAvatar} durationInFrames={1} fps={30} width={800} height={800}/>
     <Composition id="ChannelBanner" component={ChannelBanner} durationInFrames={1} fps={30} width={2560} height={1440}/>

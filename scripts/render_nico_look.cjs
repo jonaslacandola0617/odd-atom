@@ -13,22 +13,23 @@ const pick = () => {
 };
 const STYLE = process.argv.includes('--toon') ? 'toon' : 'ps1';
 const V2 = process.argv.includes('--v2');
-const SHOTS = V2 ? [['lineup', 640, ''], ['faces', 640, ''], ['lineup', 480, ''], ['faces', 480, '']] : process.argv.includes('--toon') ? [['lineup', 480, 'neutral'], ['closeup', 480, 'neutral'], ['closeup', 480, 'fear'], ['closeup', 480, 'focused']] : [
+const V3 = process.argv.includes('--v3');
+const SHOTS = V3 ? [['lineup', 640, ''], ['closeup', 640, ''], ['faces', 640, ''], ['mood', 640, '']] : V2 ? [['lineup', 640, ''], ['faces', 640, ''], ['lineup', 480, ''], ['faces', 480, '']] : process.argv.includes('--toon') ? [['lineup', 480, 'neutral'], ['closeup', 480, 'neutral'], ['closeup', 480, 'fear'], ['closeup', 480, 'focused']] : [
 	['lineup', 480, 'neutral'], ['lineup', 640, 'neutral'],
 	['closeup', 480, 'neutral'], ['closeup', 480, 'fear'], ['closeup', 640, 'fear'], ['closeup', 480, 'focused'],
 ];
 (async () => {
 	const serveUrl = await bundle({entryPoint: path.join(root, 'src/index.ts'), rootDir: root});
 	const browser = await openBrowser('chrome', {browserExecutable: pick(), chromiumOptions: {gl: 'swangle'}});
-	const dest = path.join(root, V2 ? 'assets3d/characters/nico/sheet-v2-toon' : STYLE === 'toon' ? 'assets3d/characters/nico/toon-test-v1' : 'assets3d/characters/nico/look-v1');
+	const dest = path.join(root, V3 ? 'assets3d/characters/nico/sheet-v3' : V2 ? 'assets3d/characters/nico/sheet-v2-toon' : STYLE === 'toon' ? 'assets3d/characters/nico/toon-test-v1' : 'assets3d/characters/nico/look-v1');
 	fs.mkdirSync(dest, {recursive: true});
 	try {
 		// warm-up: the first WebGL still in a fresh browser can come out black, so render one and discard it
 		for (const [shot, lw, expression] of [SHOTS[0], ...SHOTS]) {
-			const inputProps = V2 ? {shot, lw} : {shot, lw, expression, style: STYLE};
-			const composition = await selectComposition({serveUrl, id: V2 ? 'NicoToonSheet' : 'NicoLook', inputProps, puppeteerInstance: browser});
+			const inputProps = V2 || V3 ? {shot, lw} : {shot, lw, expression, style: STYLE};
+			const composition = await selectComposition({serveUrl, id: V3 ? 'NicoV3Sheet' : V2 ? 'NicoToonSheet' : 'NicoLook', inputProps, puppeteerInstance: browser});
 			const t = Date.now();
-			const file = V2 ? `nico-v2-toon-${shot}-${lw}x${Math.round(lw * 9 / 16)}.png` : `nico-${STYLE === 'toon' ? 'toon-' : ''}${shot}-${expression}-${lw}x${Math.round(lw * 9 / 16)}.png`;
+			const file = V3 ? `nico-v3-${shot}-${lw}x${Math.round(lw * 9 / 16)}.png` : V2 ? `nico-v2-toon-${shot}-${lw}x${Math.round(lw * 9 / 16)}.png` : `nico-${STYLE === 'toon' ? 'toon-' : ''}${shot}-${expression}-${lw}x${Math.round(lw * 9 / 16)}.png`;
 			await renderStill({serveUrl, composition, inputProps, frame: 0, output: path.join(dest, file), puppeteerInstance: browser, chromiumOptions: {gl: 'swangle'}, logLevel: 'error', timeoutInMilliseconds: 120000});
 			if (!fs.existsSync(path.join(dest, '.warm'))) { fs.writeFileSync(path.join(dest, '.warm'), ''); continue; }
 			console.log('saved', file, ((Date.now() - t) / 1000).toFixed(1) + 's');
