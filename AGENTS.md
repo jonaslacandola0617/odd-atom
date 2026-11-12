@@ -65,6 +65,28 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 26 "Post Three" (the Castle of Good Hope, Cape Town; a night guard's radio log).
 
+- **Episode 26 "Post Three" (2026-11-12):** the user asked for the "next ep". It is the Castle of Good Hope (Cape Town), a real place with reported hauntings. `Ep26PostThree` / `src/horror/ep26/` is 59.76 s, in English.
+  - **Form:** a night guard's radio log, first person (a composite guard, voiced by Jack), with the torch POV and his radio always in hand. The radio's LCD (a 5×7 pixel font on a canvas texture, in its own small `ThreeCanvas`) shows his post, the time and TX/RX.
+  - **The scares, small and escalating, one per place:**
+    - a grey woman runs out of a side door (the hook);
+    - from above, a window lights;
+    - two more footsteps after he stops, and a door closing behind him;
+    - in the governor's room, a page turns and the chair slides back;
+    - on the ramparts, a tall man straightens and turns his head;
+    - in the corridor, she runs at him and the torch dies;
+    - in the dungeon, the door slams, the torch dies, control's message reads "WHO IS WITH YOU?", and grey fingers curl over the radio. Black.
+  - **Sound:** diegetic, no score: radio squelch, boots, a woman running and the dungeon slam (ElevenLabs SFX, 272 credits), library door, page and chair sounds, the wind off the bay (it drops dead when the tall man straightens).
+  - **Lessons:**
+    - a `cylinderGeometry` vault along z needs `rotation [π/2, 0, 0]` with `thetaStart π/2` (`[π/2, 0, π/2]` laid it across the corridor as a wall);
+    - near-lens props get their own canvas, with readable text drawn as a bitmap font at about 1:1 texels;
+    - a hand that close must be shown in part (fingertips), not whole.
+  - **Care:** the soldiers and the governor are never shown; the curse is told as legend and the heart as history; the remains are not linked to the Lady in Grey; most sources are tourism pages.
+  - **Voice:** Jack, both takes at once (1,776 credits). Take 2 was used, as it was shorter. The line "I walk it alone" was cut, inner pauses were capped at 0.32 s, and atempo is 1.05 to fit 60 s.
+  - **Sound figures:** bed presence −12.2 / −6.8 dB, lines ≥7.3 dB with no lifts, −14.0 LUFS, decoded peak −1.28 dBFS, the loop restarts from black and silence.
+  - **Delivery:** `assets/videos/ep26-castle-v1/`. Notes are in `docs/production/ep26-castle/README.md`; the publishing kit is `docs/publishing/ep26/README.md` and `docs/publishing/POSTS-ep21-30.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 27 "The Ball" (Waverly Hills Sanatorium; a night-vision walk following a ball that rolls away).
+
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
   - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. **From 2026-11-11 (Episode 13) the user has a paid ElevenLabs Starter account (a new account):** flows from the old account (for example `L6hejcAiUNKAfyBLB3C3`) return "no access to this template", so start a new flow. Free-tier "busy" refusals should be rare now. If one happens, the user's earlier rule still applies: retry every 30 min, at most 4 times, one attempt per check-in.

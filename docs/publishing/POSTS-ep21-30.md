@@ -17,6 +17,7 @@ Season 3 is famous, **real, documented** ghost cases from around the world, in E
 | 23 | Backwards (the Bell Witch, 1817–1821) | Adams, Tennessee, USA | `assets/videos/ep23-bell-v2/ep23-backwards.mp4` | 57.7 s |
 | 24 | They Turn Their Heads (the Island of the Dolls) | Xochimilco, Mexico City | `assets/videos/ep24-dolls-v1/ep24-they-turn-their-heads.mp4` | 53.0 s |
 | 25 | Camera Three (Hampton Court Palace CCTV, 2003) | Hampton Court, England | `assets/videos/ep25-hampton-v1/ep25-camera-three.mp4` | 49.4 s |
+| 26 | Post Three (the Castle of Good Hope) | Cape Town, South Africa | `assets/videos/ep26-castle-v1/ep26-post-three.mp4` | 59.8 s |
 
 ---
 
@@ -157,3 +158,31 @@ this fire door is locked. watch it 📹 #hamptoncourt #cctv #truehorror #scaryst
 **TikTok pinned comment:** `look at camera 3 the FIRST time you see the camera wall.`
 
 **When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); a UK post at 8–10 p.m. UK time also fits.
+
+---
+
+## Broadcast 26: Post Three (the Castle of Good Hope)
+
+**YouTube title:** `Control, this is Post Three. Someone is running in the corridor.`
+Alternative: `The night guard's last radio message`
+
+**YouTube description**
+```
+The Castle of Good Hope, Cape Town: South Africa's oldest colonial building. Guards and staff report footsteps in the corridors, a tall man leaning over the battlements, and a woman in grey running through the passages. In 1729, the story goes, Governor van Noodt sentenced seven soldiers to hang, and was found dead in his chair the same day. History says it was his heart.
+
+Watch the radio. 📻
+
+Broadcast 26 · After Sign-Off · Season 3: real cases from around the world. A reconstruction in pixel 3D; the guard is a composite. The hauntings are reported, not proven.
+#CastleOfGoodHope #CapeTown #ghoststory #truehorror #haunted #shorts
+```
+
+**Pinned comment:** `Who answered the radio? 📻`
+
+**TikTok caption**
+```
+control, this is post three. someone is running in the corridor 📻 #castleofgoodhope #capetown #truehorror #scarystories #haunted #fyp
+```
+**Cover text:** `WHO IS WITH YOU?`
+**TikTok pinned comment:** `watch the RX light on his radio. it comes on every time she's near.`
+
+**When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); a South Africa post at 7–9 p.m. SAST also fits.

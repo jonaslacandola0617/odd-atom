@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "text": "[whispers] Control, this is Post Three. Someone is running in the corridor. [long pause] [softly] The Castle of Good Hope. Cape Town. The oldest colonial building in South Africa. [long pause] I walk it alone. Two till dawn. [long pause] The guards before me said, you'll hear footsteps. And when you stop... they take two more. [long pause] Seventeen twenty-nine. Governor van Noodt sentenced seven soldiers to hang. One of them, the story goes, cursed him from the gallows. [long pause] The same day, the governor was found dead, in his chair. History says it was his heart. [long pause] Guards have reported a tall man, leaning over the battlements. [long pause] And a woman in grey, running through the corridors. [long pause] When they dug here, they found the remains of a woman. No one knows who she was. [long pause] [whispers] Control, Post Three. Dungeon's clear. I'm coming up.",
+    "flow_id": "zpapeHc6ecmvVW0Ey4SU (new flow on the Starter account)",
+    "attempts": ["2026-11-12: one call, both takes started at once (888 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep26-take1.mp3: 55.52 s, 888 credits (kept, unused)",
+      "public/assets/audio/eleven-takes/ep26-take2.mp3: 54.00 s, 888 credits (used: 1.1 s shorter, and the episode had to fit 60 s)"
+    ],
+    "processing": "split into 10 lines; the line 'I walk it alone. Two till dawn.' is cut to fit 60 s; pauses inside a line capped at 0.32 s; atempo 1.05; timeline 59.76 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "zpapeHc6ecmvVW0Ey4SU",
+    "prompts": {
+      "radio": "A handheld two-way security radio at night: a squelch burst, a short crackle of static, a click as the transmit button is released, then a squelch tail, close up, no voices, no music",
+      "boots": "Heavy boots walking slowly on old stone flagstones in a vaulted castle corridor at night, each step echoing off thick stone walls, then stopping, no music",
+      "run": "A woman in old leather shoes and a long heavy skirt running fast down a stone castle corridor and past the listener, skirt rustling, quick footsteps echoing then fading away, no voices, no music",
+      "slam": "A heavy old iron-bound wooden dungeon door slamming shut in a small stone cell, a deep boom, the iron bolt rattling, a short dead echo, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: 272 credits",
+    "files": "public/assets/audio/eleven-sfx/ep26-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: each boots variation is one 1 s step, so three (boots-1, -4, -2; the lowest centroids, 435-604 Hz) are alternated; radio-2, -3 and -4 for the squelches (radio-1 is steady static); run-1, -2, -3 (run-4 is near silent, peak -40 dBFS); slam-3 (the deepest and longest, centroid 408 Hz) for the dungeon door and slam-1 (filtered) for the courtyard door"
+  },
+  "script_source": "docs/stories/season-3-world.md #26 (a real reported case: the Castle of Good Hope, Cape Town)"
+}

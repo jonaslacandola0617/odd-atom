@@ -1,0 +1,81 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 59.762,
+  "duration_frames": 1793,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.05",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Control, this is Post Three. Someone is running in the corridor.",
+      "start": 0.1,
+      "end": 4.001,
+      "kind": "narrator",
+      "beat_before": "hook: torch POV down a vaulted corridor; a grey figure runs across the far end"
+    },
+    {
+      "id": "l02",
+      "text": "The Castle of Good Hope. Cape Town. The oldest colonial building in South Africa.",
+      "start": 5.301,
+      "end": 10.188,
+      "kind": "narrator",
+      "beat_before": "she is gone; cut to the castle from above at night, the pentagon of bastions, the mountain"
+    },
+    {
+      "id": "l03",
+      "text": "The guards before me said, you'll hear footsteps. And when you stop... they take two more.",
+      "start": 11.488,
+      "end": 16.468,
+      "kind": "narrator",
+      "beat_before": "a window lights by itself; cut to the courtyard, walking"
+    },
+    {
+      "id": "l04",
+      "text": "Seventeen twenty-nine. Governor van Noodt sentenced seven soldiers to hang. One of them, the story goes, cursed him from the gallows.",
+      "start": 19.668,
+      "end": 27.347,
+      "kind": "narrator",
+      "beat_before": "he stops; two more steps behind him; the torch swings round: a door across the yard closing"
+    },
+    {
+      "id": "l05",
+      "text": "The same day, the governor was found dead, in his chair. History says it was his heart.",
+      "start": 27.947,
+      "end": 33.108,
+      "kind": "narrator",
+      "beat_before": "the governor's room: the desk, the ledger, the chair pushed in"
+    },
+    {
+      "id": "l06",
+      "text": "Guards have reported a tall man, leaning over the battlements.",
+      "start": 35.208,
+      "end": 38.606,
+      "kind": "narrator",
+      "beat_before": "the chair slides back from the desk by itself; cut to the ramparts in the wind"
+    },
+    {
+      "id": "l07",
+      "text": "And a woman in grey, running through the corridors.",
+      "start": 40.806,
+      "end": 43.521,
+      "kind": "narrator",
+      "beat_before": "a tall figure leaning over the battlements ahead; the torch flickers; gone; cut to the corridor"
+    },
+    {
+      "id": "l08",
+      "text": "When they dug here, they found the remains of a woman. No one knows who she was.",
+      "start": 44.021,
+      "end": 48.196,
+      "kind": "narrator",
+      "beat_before": "the long corridor; far end"
+    },
+    {
+      "id": "l09",
+      "text": "Control, Post Three. Dungeon's clear. I'm coming up.",
+      "start": 51.196,
+      "end": 54.562,
+      "kind": "narrator",
+      "beat_before": "she runs at him from the end; the torch dies; she passes; cut to the dungeon steps"
+    }
+  ]
+}
