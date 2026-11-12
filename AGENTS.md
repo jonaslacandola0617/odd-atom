@@ -75,6 +75,15 @@
     - **Known gaps:** no spiky hair clumps or cowlick, flat sneakers, no sleeve or fold detail, spread fingers, lost ears.
     - **Lessons:** weld the base's seams before per-region scaling (the jaw opened); a front view cannot see hair behind the forehead, so cover the scalp above a hairline; anchor wrap-around frames at the inner edge.
     - Not yet reviewed by the user.
+  - **User verdict on Nico v3:** "Its still ugly...".
+  - **Model study (2026-11-12):** the user shared reference models (Drive folder `1mmoSnV8zamydOPrBrKnP1xuo-3RKJTbJ`) and their PRIVATE repo `jonaslacandola0617/wildsignal-art` ("the kind of 3D model style … the quality of pixel art that i want").
+    - **Findings:** `docs/stories/original-series/transfers/MODEL-STUDY.md`. The good look comes from:
+      - designed shapes rather than anatomy;
+      - light and shadow painted into nearest-sampled textures;
+      - a native 640×360 render with no AA.
+    - One reference is AI image-to-3D output (Hi3D), which is the proposed route for Nico.
+    - **Privacy:** nothing from those references is committed. Never copy wildsignal-art assets into this public repo.
+    - Adding the engine repo `wildsignal` was refused by the sandbox; it needs the user's permission.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
