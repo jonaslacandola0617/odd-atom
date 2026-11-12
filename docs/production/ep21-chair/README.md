@@ -108,7 +108,12 @@ python3 scripts/caption_check.py src/data/ep21-chair-v1-timeline.json assets/vid
 
 ## Review of the encoded file
 
-(Filled in after the render; see below.)
+- **File:** 46,321,544 bytes; SHA-256 `5c8acea73cbf3808faafe2fa9d6c1fcb8c20914b2c4e2ca7122b306e40a6994b`.
+- **Streams:** H.264 1080×1920, 1,768 frames, 58.93 s; AAC 58.92 s (the checked `mix.m4a` muxed with `-c copy` over Remotion's picture). It decodes with no errors.
+- **Loudness:** −14.1 LUFS integrated; peak −1.7 dBFS (ffmpeg ebur128).
+- **Loop seam:** by design the last six frames are the fourth tape dropout (mean luma 97/255) and frame 0 is the clean, dark room (5.8/255): the loop cuts through a dropout, the same device that hides every move of the chair. The audio seam is −16.2 / −15.7 dBFS.
+- **Captions:** all 13 caption cards were found on screen at their timeline times (`out/oddatom/ep21-captions`, not tracked).
+- **Contact sheet** (every 2.5 s): the chair by the window, the headlights on the ceiling at 0:04, the chair in its four positions, the dark key throughout, and the figure in the chair in the last sheet frame all read as planned.
 
 ## Known limits
 
