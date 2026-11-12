@@ -15,7 +15,7 @@ export const RAMP3 = ramp([70, 165, 255]);
 /** Toon material; `levels` snaps the final colour to a coarse palette (no dither: clean pixel-art flats). */
 export const toon = (color: THREE.ColorRepresentation, opts: {vertexColors?: boolean; levels?: number} = {}) => {
 	const m = new THREE.MeshToonMaterial({color, gradientMap: RAMP3, vertexColors: !!opts.vertexColors});
-	const lv = (opts.levels ?? 10).toFixed(1);
+	const lv = (opts.levels ?? 40).toFixed(1);
 	m.onBeforeCompile = (s) => {
 		s.fragmentShader = s.fragmentShader.replace('#include <dithering_fragment>', `#include <dithering_fragment>
 			gl_FragColor.rgb = floor(gl_FragColor.rgb * ${lv} + 0.5) / ${lv};`);
@@ -23,22 +23,24 @@ export const toon = (color: THREE.ColorRepresentation, opts: {vertexColors?: boo
 	return m;
 };
 
-const outlineMat = (width: number, color: THREE.ColorRepresentation) => {
+const outlineMat = (px: number, lh: number, color: THREE.ColorRepresentation) => {
 	const m = new THREE.MeshBasicMaterial({color, side: THREE.BackSide});
+	const ndc = ((px * 2) / lh).toFixed(5);
 	m.onBeforeCompile = (s) => {
-		// push the (skinned, morphed) surface out along its normal, in view space so the line is even
+		// screen-space extrusion of the (skinned, morphed) back faces: a constant line width in pixels at any lens
 		s.vertexShader = s.vertexShader.replace('#include <project_vertex>', `#include <project_vertex>
-			vec3 nv = normalize(normalMatrix * objectNormal);
-			gl_Position = projectionMatrix * (mvPosition + vec4(nv * ${width.toFixed(4)} * -mvPosition.z, 0.0));`);
+			vec4 cn = projectionMatrix * vec4(normalize(normalMatrix * objectNormal), 0.0);
+			vec2 dir = length(cn.xy) > 1e-5 ? normalize(cn.xy) : vec2(0.0);
+			gl_Position.xy += dir * ${ndc} * gl_Position.w * vec2(${(9 / 16).toFixed(5)}, 1.0);`);
 	};
 	return m;
 };
 
-/** Adds an outline twin to every mesh under root. width is a fraction of view depth (0.004 ~ 1-2 px at 480 wide). */
-export const addOutlines = (root: THREE.Object3D, width = 0.004, color: THREE.ColorRepresentation = '#0b0a0c', skip?: (m: THREE.Mesh) => boolean) => {
+/** Adds an outline twin to every mesh under root: px is the line width in render pixels, lh the render height (16:9 frame). */
+export const addOutlines = (root: THREE.Object3D, px = 1.5, color: THREE.ColorRepresentation = '#0b0a0c', skip?: (m: THREE.Mesh) => boolean, lh = 360) => {
 	const meshes: THREE.Mesh[] = [];
 	root.traverse((o) => { const m = o as THREE.Mesh; if (m.isMesh && !m.userData.isOutline && !(skip && skip(m))) meshes.push(m); });
-	const mat = outlineMat(width, color);
+	const mat = outlineMat(px, lh, color);
 	for (const m of meshes) {
 		let o: THREE.Mesh;
 		if ((m as THREE.SkinnedMesh).isSkinnedMesh) {

@@ -31,6 +31,13 @@ important"). Sound is a first-class department for this series, not an afterthou
    user hears the key ones. Until the user listens, nothing is "approved".
    This runtime cannot audition audio.
 
+## Variation rule (user, 2026-11-12)
+
+The user listened to all 60 takes of sound library v1 and approved them all ("excellent").
+- Every generated sound keeps its 4 takes as variations; nothing is discarded.
+- Repeated actions rotate takes deterministically: take = 1 + (cue index mod 4), offset per sound, so one cue never repeats the same take twice in a row.
+- New sounds are generated as 4-take sets for the same reason.
+
 ## Status
 
-Draft. Spending SFX credits for the next test needs the user's go-ahead.
+Credits are approved by the user for reusable sound. Library v1 has been heard and approved by the user.

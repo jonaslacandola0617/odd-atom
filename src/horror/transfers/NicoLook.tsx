@@ -68,7 +68,7 @@ const prepare = (src: THREE.Group, expression: string, turn: number, style: 'ps1
 	rotateWorld(b('head'), X, 0.08);
 	if (style === 'toon') {
 		b('head').scale.setScalar(1.18);              // first hint of stylized proportions
-		addOutlines(g, 0.0045, '#0b0a0c', (m) => m.name.includes('glasses'));
+		addOutlines(g, 1.5, '#0b0a0c', (m) => m.name.includes('glasses'));
 	}
 	g.rotation.y = turn;
 	return g;

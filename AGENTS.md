@@ -51,6 +51,15 @@
     - **Sound library v1:** `public/assets/audio/transfers/sfx-v1/`, 15 prompts × 4 variations from flow `3ofVikjGr9Beq7qU4EXI`, about 1,000 credits, with `PROVENANCE.json`. Most clips are 1–2 s (the model default), so the beds need longer regenerations.
     - **Prompt pack:** `docs/stories/original-series/transfers/CHATGPT-PROMPTS.md` holds the shared style block, the sheet layout, six characters (Nico, Liza, Bea, Mang Erning, Tito Boy, the entity) and two style frames (the shop, a tape). The user runs them and shares picks via Drive.
   - **User feedback on the flow:** the ElevenLabs flow showed "no nodes" in the user's app. The 60 SFX are on a private listening page instead, the Artifact "TRANSFERS Sound Picker" (https://claude.ai/artifact/HTj3vJsdYARSFubs1aNQBT), where the user picks takes and pastes the list back.
+  - **User verdict on sound library v1 (the first real listening pass, by the user):** "The sfx are actually excellent … None of it really sounded bad to me so its okay to use".
+    - Use **all four takes as variations**, rotating through them so repeated actions never sound identical ("a squeaking floor will not always have the same squeak").
+    - Pick a different take on each repeat, deterministically per cue.
+  - **Nico design approved (user):** "nico is approved". The user is making the other characters' sheets in ChatGPT; proceed with the stylized toon Nico.
+  - **Nico v2 TOON (2026-11-12):** `assets3d/characters/nico/build_nico_toon.py` builds `public/assets/3d/nico/nico-v2-toon.glb`.
+    - **Model:** the CC0 MakeHuman body and rig; the head scaled 13%; the inner mouth and eye-socket lining removed and the face smoothed; spiky hair; thick glasses; the sheet's palette.
+    - **Face:** a painted pixel-face decal with seven expressions, drawn by `src/horror/transfers/nicoFace.ts` (`setFace(expr)`), instead of shape keys.
+    - **Look:** `src/horror/toon.ts` has three-band toon shading and screen-space outlines (constant px). Depth-proportional outlines blew up to about 6 px with narrow lenses and blacked out the mouth.
+    - **Sheet:** `NicoToonSheet`, `node scripts/render_nico_look.cjs --v2`, written to `assets3d/characters/nico/sheet-v2-toon/`. Not yet approved as a model.
   - **Nico design sheet:** from the user's ChatGPT, saved at `assets3d/characters/nico/design/nico-sheet-chatgpt-v1.png`, with notes in its README. It is the reference for the stylized toon model: about 6.5 heads, spiky messy hair, a dark teal-green tee, six expressions.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 

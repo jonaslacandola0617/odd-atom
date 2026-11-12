@@ -52,3 +52,37 @@
 
 `build_nico.py` and `blockout-v0/` are kept as a comparison. They are
 mannequin-level and well below the reference.
+
+## v2 TOON (current, 2026-11-12): stylized to the approved design sheet
+
+- **Approval:** the user approved Nico's design ("nico is approved"); the
+  reference is `design/nico-sheet-chatgpt-v1.png`.
+- **Build:** `build_nico_toon.py` (same CC0 MakeHuman data and rig as v1, read
+  only). It writes `public/assets/3d/nico/nico-v2-toon.glb` (about 1.5 MB).
+- **Changes from v1:**
+  - **Head:** scaled about 13% about the top of the neck, to the sheet's
+    proportions. Height is 1.70 m.
+  - **Face:** the inner mouth and eye-socket lining is removed and the gaps are
+    filled. The face is smoothed (22 passes), so toon bands stay clean and the
+    outline shell cannot poke through creases.
+  - **Painted face decal:** the front of the head, lifted 1.2 mm, with planar
+    UVs. Its eye and mouth positions go into the GLB extras; the mouth is placed
+    from the face's own proportions, because the rig's mouth joint sits too high.
+  - **No facial shape keys:** expressions are swapped pixel textures, drawn in
+    `src/horror/transfers/nicoFace.ts`. The seven faces are tired, focused,
+    forcedSmile, worried, fear, terror and blink, taken from the sheet.
+  - **Hair:** a low scalp shell plus 90 four-sided spike clumps. The fringe
+    falls forward and down, the sides fall down, the top sweeps back, plus a
+    cowlick.
+  - **Glasses:** thicker frames, from the sheet.
+  - **Palette:** from the sheet. Skin #a8724e, T-shirt #2d4a42, jeans #24262c,
+    grey sneakers, black watch.
+- **Look:** `src/horror/toon.ts` provides three-band toon shading with a light
+  palette snap (40 levels; at 10 levels dark colours shifted hue), plus
+  **screen-space** inverted-hull outlines with a constant pixel width.
+  - The first outline version pushed by a fraction of view depth. With a
+    narrow lens that became about 6 px and filled the mouth area black.
+- **Sheet:** `sheet-v2-toon/` at 640×360 and 480×270, made with
+  `node scripts/render_nico_look.cjs --v2` (composition `NicoToonSheet`).
+  It shows the turnaround and the seven expressions.
+- **Status:** not yet approved as a model, though the design is approved.
