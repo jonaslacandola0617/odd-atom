@@ -19,7 +19,14 @@
     - "TRANSFERS": a video-transfer technician and a box of home-video tapes, each ending with a still figure; recommended.
     - "THE CRYING SEASON": a river-town legend whose crying is a warning.
     - "THE VISITING HOURS": prison interviews with a confessed "worn" man, ending in a typhoon siege.
-  - **Status:** nothing chosen or approved. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
+  - **TRANSFERS chosen (user, 2026-11-12):** "I do like transfers".
+    - **Format the user asked for:** a Philippine setting, Taglish voice, English captions, "a series real film not similar to our shorts", about 4 min per episode.
+    - **Format proposed (unconfirmed):** 16:9 at 1920×1080 (internally 480×270 or 640×360), real scenes letterboxed to 2.39:1 and tapes at 4:3, 4–6 min episodes with vertical teasers, dialogue with designed voices and no narrator.
+    - **Format doc and Nico's design:** `docs/stories/original-series/transfers/README.md`.
+    - **Nico blockout v0:** built by `assets3d/characters/nico/build_nico.py` (headless Blender; rigged, 51 bones; GLB and turnaround in `assets3d/characters/nico/blockout-v0/`). It proves the pipeline but is mannequin-level and well below the reference.
+    - **Proposed route to quality:** MakeHuman/MPFB, CC0 base meshes. The hosts are blocked here, so the user would allow them or share the add-on and assets via Drive.
+    - Cycles CPU works (about 5–9 s per 540×960 still); EEVEE and Workbench do not.
+  - **Status:** nothing approved; no ElevenLabs credits spent. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".
