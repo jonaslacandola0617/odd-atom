@@ -6,6 +6,7 @@
   - **Shared code:** `chrome.mjs` and `util.mjs` are copied from `publishing/scheduler/src` by `publishing/tools/build_zips.py`, which builds both ZIPs; run it after any change.
   - **Schedule:** captions are built by `publishing/tools/build_facebook_schedule.py`: the YouTube title, a blank line, then the description with `#shorts` → `#reels`. The order is 11–20 then 1–10, at 20:00 PH time, with 1–2 random days off a week (never Monday), from 2026-11-16: 11–20 run 16–29 Nov and 1–10 run 30 Nov–13 Dec. Episode 20 falls on 29 Nov. The user may re-plan once the Page exists.
   - **Tested:** only against a fake Business Suite page (`npm test` in that folder). It has not been run on the real site, so expect selector fixes from screenshots, as happened with YouTube and TikTok.
+  - **First real run (2026-11-12):** it timed out after 90 s waiting for `input[type=file]` on the composer, with no screenshot. Fix: `attachVideo` looks for a file input in every frame, else clicks an "Add video" or upload button and feeds the `filechooser`. Any failure now saves `debug/facebook-epN-failed.png` and prints the page URL. The fake page only creates its input on clicking Add video.
   - **Status:** nothing has been posted or scheduled by Claude.
 
 - **Publishing automation (2026-11-12):** the user wants scheduling automated, free, on Windows, for YouTube and TikTok, with Seasons 1 and 2 mixed.

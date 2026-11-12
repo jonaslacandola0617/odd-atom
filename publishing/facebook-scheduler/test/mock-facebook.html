@@ -1,6 +1,6 @@
 <!doctype html><html><body>
 <div id="tip" style="position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:10"><div style="background:#fff;padding:10px;width:200px">New: Reels in Business Suite<button onclick="tip.remove()">Got it</button></div></div>
-<input type="file" accept="video/mp4" id="f">
+<div role="button" id="add" style="padding:8px;border:1px solid #888;display:inline-block">Add video</div>
 <div id="step1" hidden>
   <div contenteditable="true" role="textbox" aria-label="Describe your reel" style="min-height:40px;border:1px solid #ccc"></div>
   <div><span>Add AI label</span><div role="switch" aria-checked="false" style="display:inline-block;width:30px;height:16px;background:#ccc" onclick="this.setAttribute('aria-checked','true')"></div></div>
@@ -25,5 +25,6 @@ ed.addEventListener('paste',e=>{e.preventDefault();document.execCommand('insertT
 // Spinbuttons take typed digits like Meta's date/time pickers.
 for (const el of [hh,mi]) { let buf=''; el.addEventListener('focus',()=>buf=''); el.addEventListener('keydown',e=>{ if(/\d/.test(e.key)){buf=(buf+e.key).slice(-2); el.textContent=buf.padStart(2,'0');} }); }
 ap.addEventListener('keydown',e=>{ if(/^[ap]$/i.test(e.key)) ap.textContent=e.key.toUpperCase()+'M'; });
-f.onchange=()=>{step1.hidden=false;setTimeout(()=>go.disabled=false,1500)};
+add.onclick=()=>{const f=document.createElement('input');f.type='file';f.accept='video/*';f.style.display='none';document.body.appendChild(f);
+  f.onchange=()=>{step1.hidden=false;setTimeout(()=>go.disabled=false,1500)};f.click();};
 </script></body></html>

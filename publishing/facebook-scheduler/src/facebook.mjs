@@ -112,10 +112,69 @@ async function setTime(page, t) {
   if (!v.includes(`${h12}:${t.mm}`)) throw new Error(`the time field shows "${v}"`);
 }
 
-export async function scheduleFacebook(context, ep, file, { auto }) {
+/**
+ * Give the video to the composer. Business Suite often has no upload box on the
+ * page until you click "Add video" (and it may sit inside a frame), so: look
+ * for one in every frame first; otherwise click an add/upload button and hand
+ * the file to the file dialog it opens.
+ */
+async function attachVideo(page, file) {
+  for (let i = 0; i < 8; i++) {
+    for (const fr of page.frames()) {
+      const inp = fr.locator('input[type="file"]').first();
+      if (await inp.count().catch(() => 0)) { await inp.setInputFiles(file); return; }
+    }
+    await page.waitForTimeout(1000);
+  }
+  const names = /^(add video|add a video|upload video|upload|add reel|create reel|select video|select file|add media|browse|add)$/i;
+  const candidates = [
+    page.getByRole('button', { name: names }),
+    page.getByText(names),
+    page.getByRole('button', { name: /add video|upload|select video|add media/i }),
+  ];
+  for (const c of candidates) {
+    const btn = c.filter({ visible: true }).first();
+    if (!(await btn.count())) continue;
+    const chooser = page.waitForEvent('filechooser', { timeout: 15_000 });
+    await btn.click({ timeout: 10_000 }).catch(() => {});
+    const fc = await chooser.catch(() => null);
+    if (fc) { await fc.setFiles(file); return; }
+    // The button may have revealed an upload box instead of a dialog.
+    for (const fr of page.frames()) {
+      const inp = fr.locator('input[type="file"]').first();
+      if (await inp.count().catch(() => 0)) { await inp.setInputFiles(file); return; }
+    }
+  }
+  throw new Error(`couldn't find where to add the video on ${page.url()}`);
+}
+
+async function saveShot(page, ep, what) {
+  try {
+    const fs = await import('node:fs');
+    const path = await import('node:path');
+    const { DEBUG_DIR } = await import('./util.mjs');
+    fs.mkdirSync(DEBUG_DIR, { recursive: true });
+    const shot = path.join(DEBUG_DIR, `facebook-ep${ep}-${what}.png`);
+    await page.screenshot({ path: shot });
+    console.log(`     screenshot: ${shot}`);
+  } catch { /* optional */ }
+}
+
+export async function scheduleFacebook(context, ep, file, opts) {
+  const page = await context.newPage();
+  try {
+    return await scheduleOn(page, ep, file, opts);
+  } catch (err) {
+    console.log(`   ✗ ${String(err.message).split('\n')[0].slice(0, 200)}`);
+    console.log(`     page: ${page.url()}`);
+    await saveShot(page, ep.ep, 'failed');
+    throw err;
+  }
+}
+
+async function scheduleOn(page, ep, file, { auto }) {
   const f = ep.facebook;
   const t = localTime(f.publishAt);
-  const page = await context.newPage();
   await page.bringToFront();
   const { step, manual } = stepper('Facebook', page, ep.ep);
 
@@ -126,9 +185,9 @@ export async function scheduleFacebook(context, ep, file, { auto }) {
   }
   await dismissPopups(page);
 
-  const input = page.locator('input[type="file"][accept*="video"]').or(page.locator('input[type="file"]')).first();
-  await input.waitFor({ state: 'attached', timeout: 90_000 });
-  await input.setInputFiles(file);
+  await page.waitForTimeout(3000);
+  await dismissPopups(page);
+  await attachVideo(page, file);
   console.log('   ✓ uploading the video');
   await page.waitForTimeout(2000);
   await dismissPopups(page);
