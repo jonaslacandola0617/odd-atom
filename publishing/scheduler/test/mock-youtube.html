@@ -14,7 +14,7 @@
     <ytcp-date-picker id="dp" hidden><input onkeydown="if(event.key==='Enter'){document.getElementById('datepicker-trigger').textContent=this.value;dp.hidden=true}"></ytcp-date-picker>
     <div id="time-of-day-container"><input value="12:00 AM"></div></div></div>
   <ytcp-video-upload-progress>Uploading 40%</ytcp-video-upload-progress>
-  <button id="done-button" aria-disabled="true" onclick="if(this.getAttribute('aria-disabled')!=='true')share.hidden=false">Schedule</button>
+  <button id="done-button" onclick="share.hidden=false">Schedule</button>
 </div>
 <ytcp-video-share-dialog id="share" hidden><a href="https://youtu.be/MOCK123">link</a><button id="close-button" onclick="share.hidden=true">Close</button></ytcp-video-share-dialog>
 <script>f.onchange=()=>{dlg.hidden=false;setTimeout(()=>document.querySelector('ytcp-video-upload-progress').textContent='Upload complete ... Checking',1500);setTimeout(()=>{document.querySelector('ytcp-video-upload-progress').textContent='Checks complete. No issues found.';document.getElementById('done-button').setAttribute('aria-disabled','false')},4000)}</script>

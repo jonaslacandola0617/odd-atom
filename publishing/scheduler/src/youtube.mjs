@@ -114,17 +114,12 @@ export async function scheduleYouTube(context, ep, file, { auto }) {
     }
   });
 
-  // Wait until the upload AND YouTube's checks are done and the Schedule button
-  // is active. Clicking it earlier can leave the video as an unscheduled draft.
-  console.log('   … waiting for the upload and YouTube\'s checks to finish (this can take a few minutes)');
+  console.log('   … waiting for the upload to finish');
   const done = page.locator('#done-button');
-  await step('wait for the upload and checks to finish', async () => {
+  await step('wait for the upload to finish', async () => {
     await page.waitForFunction(() => {
       const el = document.querySelector('ytcp-video-upload-progress');
-      const txt = el ? el.innerText : '';
-      const btn = document.querySelector('#done-button');
-      const disabled = !btn || btn.hasAttribute('disabled') || btn.getAttribute('aria-disabled') === 'true';
-      return !/Uploading|Checking|%/i.test(txt) && !disabled;
+      return !/Uploading|%/i.test(el ? el.innerText : '');
     }, null, { timeout: 30 * 60_000, polling: 3000 });
   });
 
@@ -132,40 +127,24 @@ export async function scheduleYouTube(context, ep, file, { auto }) {
   if (manual.length) console.log(`   Do these by hand first: ${manual.join('; ')}.`);
   let answer = '';
   if (!auto || manual.length) {
-    answer = (await ask('   Check the YouTube tab. Press Enter to click Schedule, type "d" if you clicked it yourself, or "s" to skip: ')).toLowerCase();
+    answer = (await ask('   Wait until YouTube\'s checks are done, then press Enter to click Schedule (type "d" if you clicked it yourself, or "s" to skip): ')).toLowerCase();
     if (answer === 's') { await page.close().catch(() => {}); return { status: 'skipped' }; }
   }
+  if (answer !== 'd') await done.click({ timeout: 15_000 }).catch(() => {});
 
-  // YouTube confirms with a "Video scheduled" dialog. Only count it as scheduled
-  // once that appears; never close the upload window without it (closing it
-  // turns the upload into a draft).
-  const confirmed = page.locator('ytcp-video-share-dialog, ytcp-uploads-still-processing-dialog')
-    .or(page.getByText(/^Video scheduled$/i)).first();
-  const waitConfirm = (ms) => confirmed.waitFor({ state: 'visible', timeout: ms }).then(() => true, () => false);
-  let ok = false;
-  for (let attempt = 0; attempt < 3 && !ok; attempt++) {
-    if (answer !== 'd' || attempt > 0) {
-      if (await done.isEnabled().catch(() => false)) await done.click({ timeout: 15_000 }).catch(() => {});
-    }
-    ok = await waitConfirm(45_000);
-    if (!ok) {
-      console.log('   YouTube has not confirmed "Video scheduled" yet.');
-      const a = (await ask('   Look at the YouTube tab: finish scheduling it there if needed, then press Enter once you see "Video scheduled" (or type "s" if it is not scheduled): ')).toLowerCase();
-      if (a === 's') return { status: 'skipped' };   // leave the tab open so nothing is lost
-      ok = await waitConfirm(5_000);
-      if (!ok) { console.log('   Still no "Video scheduled" message: trying the Schedule button again.'); answer = ''; }
-    }
+  // You oversee the result yourself. Tidy up only if YouTube's "Video
+  // scheduled" window is showing; otherwise leave the tab open so nothing is
+  // lost (closing an unfinished upload window turns it into a draft).
+  await page.waitForTimeout(5000);
+  const share = page.locator('ytcp-video-share-dialog').first();
+  if (await share.isVisible().catch(() => false)) {
+    const url = await share.locator('a[href*="youtu.be"], a[href*="/shorts/"], a[href*="watch?v="]').first()
+      .getAttribute('href', { timeout: 3_000 }).catch(() => null);
+    await page.locator('#close-button').first().click({ timeout: 5_000 }).catch(() => {});
+    await page.waitForTimeout(1000);
+    await page.close().catch(() => {});
+    return { status: 'scheduled', url, for: y.publishAt };
   }
-  if (!ok) {
-    console.log('   Not confirmed, so it is NOT marked as scheduled. Check YouTube Studio → Content; the tab is left open.');
-    return { status: 'unconfirmed' };
-  }
-
-  let url = null;
-  url = await page.locator('a[href*="youtu.be"], a[href*="/shorts/"], a[href*="watch?v="]').first()
-    .getAttribute('href', { timeout: 10_000 }).catch(() => null);
-  await page.locator('#close-button').first().click({ timeout: 5_000 }).catch(() => page.keyboard.press('Escape'));
-  await page.waitForTimeout(1500);
-  await page.close().catch(() => {});
-  return { status: 'scheduled', url, for: y.publishAt };
+  console.log('   (Tab left open: check it shows as scheduled, then close it yourself.)');
+  return { status: 'scheduled', url: null, for: y.publishAt };
 }
