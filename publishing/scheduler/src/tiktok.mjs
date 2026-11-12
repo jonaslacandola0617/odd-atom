@@ -14,6 +14,38 @@ async function findInput(page, re) {
   throw new Error('field not found');
 }
 
+/**
+ * TikTok's caption box pre-fills the file name and pops up suggestions while
+ * you type a hashtag. Clear it, type the words, and type each hashtag slowly,
+ * closing its suggestion list with a space.
+ */
+async function typeCaption(page, editor, caption) {
+  await editor.click();
+  await page.waitForTimeout(300);
+  for (let i = 0; i < 3; i++) {
+    await page.keyboard.press('ControlOrMeta+A');
+    await page.keyboard.press('Delete');
+    await page.waitForTimeout(300);
+    if (!norm(await editor.innerText())) break;
+  }
+  const left = norm(await editor.innerText()).length;
+  for (let i = 0; i < left + 5 && norm(await editor.innerText()); i++) await page.keyboard.press('Backspace');
+  const parts = caption.split(/(\s+)/);
+  for (const part of parts) {
+    if (!part) continue;
+    if (/^\s+$/.test(part)) { await page.keyboard.press('Space'); continue; }
+    if (part.startsWith('#')) {
+      await page.keyboard.type(part, { delay: 60 });
+      await page.waitForTimeout(900);
+    } else {
+      await page.keyboard.insertText(part);
+    }
+  }
+  await page.keyboard.press('Space');       // closes the last hashtag's suggestion list
+  await page.waitForTimeout(600);
+  await page.keyboard.press('Escape').catch(() => {});
+}
+
 async function clickOption(page, text, which) {
   const opts = page.getByText(text, { exact: true }).filter({ visible: true });
   const n = await opts.count();
@@ -26,7 +58,7 @@ export async function scheduleTikTok(context, ep, file, { auto }) {
   const t = localTime(tk.publishAt);
   const page = await context.newPage();
   await page.bringToFront();
-  const { step, manual } = stepper('TikTok');
+  const { step, manual } = stepper('TikTok', page, ep.ep);
 
   await page.goto('https://www.tiktok.com/tiktokstudio/upload?from=webapp', { waitUntil: 'domcontentloaded', timeout: 90_000 });
   await page.waitForLoadState('load', { timeout: 30_000 }).catch(() => {});
@@ -37,15 +69,19 @@ export async function scheduleTikTok(context, ep, file, { auto }) {
   await input.setInputFiles(file);
   console.log('   ✓ uploading the video');
 
-  const editor = page.locator('.public-DraftEditor-content[contenteditable="true"], div[contenteditable="true"]').first();
-  await editor.waitFor({ timeout: 180_000 });
+  // The caption box appears once the upload starts. Prefer TikTok's own editor;
+  // fall back to any editable box on the page.
+  let editor = page.locator('.public-DraftEditor-content[contenteditable="true"]').first();
+  try { await editor.waitFor({ timeout: 180_000 }); }
+  catch { editor = page.locator('[contenteditable="true"]').first(); await editor.waitFor({ timeout: 10_000 }); }
 
   await step('set the caption', async () => {
-    await replaceText(page, editor, tk.caption);
-    await page.waitForTimeout(800);
-    await page.keyboard.press('Escape').catch(() => {}); // closes the hashtag suggestion list
-    const shown = norm(await editor.innerText());
-    if (!shown.startsWith(norm(tk.caption).slice(0, 30))) throw new Error('caption did not match');
+    await typeCaption(page, editor, tk.caption);
+    const flat = (x) => String(x).replace(/\s+/g, '').toLowerCase();
+    const shown = await editor.innerText();
+    if (!flat(shown).startsWith(flat(tk.caption).slice(0, 25))) {
+      throw new Error(`the caption box shows "${norm(shown).slice(0, 80)}"`);
+    }
   });
 
   if (tk.aiGenerated) {

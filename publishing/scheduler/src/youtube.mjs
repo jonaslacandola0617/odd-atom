@@ -9,7 +9,7 @@ export async function scheduleYouTube(context, ep, file, { auto }) {
   const t = localTime(y.publishAt);
   const page = await context.newPage();
   await page.bringToFront();
-  const { step, manual } = stepper('YouTube');
+  const { step, manual } = stepper('YouTube', page, ep.ep);
 
   await page.goto('https://www.youtube.com/upload', { waitUntil: 'domcontentloaded', timeout: 90_000 });
   await page.waitForLoadState('load', { timeout: 30_000 }).catch(() => {});
@@ -38,18 +38,25 @@ export async function scheduleYouTube(context, ep, file, { auto }) {
 
   if (y.playlist) {
     await step(`add it to the playlist "${y.playlist}"`, async () => {
-      await page.locator('ytcp-video-metadata-playlists ytcp-dropdown-trigger, ytcp-video-metadata-playlists .dropdown').first().click({ timeout: 10_000 });
-      const dialog = page.locator('ytcp-playlist-dialog');
-      await dialog.waitFor({ timeout: 10_000 });
-      const item = dialog.locator('label, ytcp-ve, li', { hasText: y.playlist }).first();
-      if (!(await item.count())) {
-        await dialog.getByRole('button', { name: /done|close/i }).first().click().catch(() => page.keyboard.press('Escape'));
-        throw new Error('no playlist with that name yet (create it once in YouTube Studio)');
+      const section = page.locator('ytcp-video-metadata-playlists').first();
+      await section.scrollIntoViewIfNeeded({ timeout: 10_000 });
+      const trigger = section.locator('ytcp-text-dropdown-trigger, ytcp-dropdown-trigger, #dropdown-trigger, .dropdown')
+        .or(section.getByText('Select', { exact: true })).first();
+      await trigger.click({ timeout: 10_000 });
+      const dialog = page.locator('ytcp-playlist-dialog').last();
+      const name = dialog.getByText(y.playlist, { exact: true }).first();
+      try {
+        await name.waitFor({ state: 'visible', timeout: 8_000 });
+      } catch {
+        await page.keyboard.press('Escape');
+        throw new Error(`no playlist called "${y.playlist}" in the list. Create it once in YouTube Studio (exact name), or delete "playlist" from schedule.json`);
       }
-      const box = item.locator('[role="checkbox"], #checkbox').first();
-      const checked = (await box.getAttribute('aria-checked').catch(() => null)) === 'true';
-      if (!checked) await item.click();
-      await dialog.getByRole('button', { name: /done/i }).first().click();
+      await name.click();
+      await page.waitForTimeout(600);
+      await dialog.getByRole('button', { name: /^done$/i }).or(dialog.getByText('Done', { exact: true })).first().click({ timeout: 10_000 });
+      await page.waitForTimeout(800);
+      const shown = norm(await section.innerText());
+      if (!shown.includes(y.playlist)) throw new Error(`the playlist box shows "${shown.slice(0, 80)}"`);
     });
   }
 

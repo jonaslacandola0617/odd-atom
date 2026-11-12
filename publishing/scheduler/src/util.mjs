@@ -64,7 +64,9 @@ export function phDate(iso) {
  * Runs one form step. If it fails (the site changed, a pop-up got in the way),
  * it records the step so you can do it by hand instead of crashing.
  */
-export function stepper(platform) {
+export const DEBUG_DIR = path.join(TOOL_DIR, 'debug');
+
+export function stepper(platform, page, epNo) {
   const manual = [];
   const step = async (what, fn) => {
     try {
@@ -73,8 +75,16 @@ export function stepper(platform) {
       await humanPause();
       return true;
     } catch (e) {
-      const why = String(e?.message || e).split('\n')[0].slice(0, 160);
+      const why = String(e?.message || e).split('\n')[0].slice(0, 300);
       console.log(`   ✗ couldn't ${what} automatically (${why})`);
+      if (page) {
+        try {
+          fs.mkdirSync(DEBUG_DIR, { recursive: true });
+          const shot = path.join(DEBUG_DIR, `${platform}-ep${epNo}-${what.replace(/[^a-z0-9]+/gi, '-').slice(0, 40)}.png`.toLowerCase());
+          await page.screenshot({ path: shot });
+          console.log(`     screenshot: ${shot}`);
+        } catch { /* screenshots are optional */ }
+      }
       console.log(`     → please do this yourself in the ${platform} tab.`);
       manual.push(what);
       return false;

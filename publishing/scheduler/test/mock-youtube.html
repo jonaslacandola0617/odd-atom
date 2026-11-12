@@ -4,7 +4,7 @@
   <div id="title-textarea"><div id="textbox" contenteditable="true">filename</div></div>
   <div id="description-textarea"><div id="textbox" contenteditable="true"></div></div>
   <ytcp-video-metadata-playlists><ytcp-dropdown-trigger onclick="pl.hidden=false">Select</ytcp-dropdown-trigger></ytcp-video-metadata-playlists>
-  <ytcp-playlist-dialog id="pl" hidden><label onclick="cb.setAttribute('aria-checked','true')"><span id="cb" role="checkbox" aria-checked="false"></span>Season 1: After Sign-Off</label><button onclick="pl.hidden=true">Done</button></ytcp-playlist-dialog>
+  <ytcp-playlist-dialog id="pl" hidden><label onclick="cb.setAttribute('aria-checked','true')"><span id="cb" role="checkbox" aria-checked="false"></span>Season 1: After Sign-Off</label><button onclick="pl.hidden=true;document.querySelector('ytcp-dropdown-trigger').textContent=cb.getAttribute('aria-checked')==='true'?'Season 1: After Sign-Off':'Select'">Done</button></ytcp-playlist-dialog>
   <tp-yt-paper-radio-button name="VIDEO_MADE_FOR_KIDS_NOT_MFK" onclick="window.kids='no'">No</tp-yt-paper-radio-button>
   <button id="toggle-button" onclick="adv.hidden=false">Show more</button>
   <div id="adv" hidden><tp-yt-paper-radio-button name="VIDEO_HAS_ALTERED_CONTENT_NO" onclick="window.alt='no'">No</tp-yt-paper-radio-button><div id="tags-container"><input></div></div>
