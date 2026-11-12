@@ -1,0 +1,58 @@
+{
+  "piece": "TransfersActingTest (20 s, no dialogue)",
+  "duration_seconds": 20.0,
+  "sources": {
+    "CB_AMBIENT_archive_room_v1.flac": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/ambient/CB_AMBIENT_archive_room_v1.flac",
+      "sha256": "377f254e672aa1b2ac5213899948587f34e3eb9a466be37a06531fa2656e2570"
+    },
+    "ep29-storm-1.mp3": {
+      "path": "public/assets/audio/eleven-sfx/ep29-storm-1.mp3",
+      "sha256": "8b8d8b9e968386a28d7a7652c1815c67d1a9f3d18a9c35c7e8cfa6a19894a46b"
+    },
+    "CB_ARCHIVE_paper_light_turn_v1.flac": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/archive/CB_ARCHIVE_paper_light_turn_v1.flac",
+      "sha256": "1c7af42ac9bf774cdf7d3faa92769fb157f0e16f1808491688a43b5493ef2aee"
+    },
+    "CB_MECHANICAL_steel_latch_v1.flac": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_steel_latch_v1.flac",
+      "sha256": "88fa8039b4d1955a73d35980c8cb95840ee799874ad090442035a59ab911182b"
+    },
+    "CB_ARCHIVE_tape_reel_start_v1.flac": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/archive/CB_ARCHIVE_tape_reel_start_v1.flac",
+      "sha256": "223eb3f4390eb7b812fbf54043ec422eb5d446e040a5ff883026b995818dc33f"
+    },
+    "CB_MECHANICAL_wood_stress_v1.flac": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    },
+    "ep29-breath-1.mp3": {
+      "path": "public/assets/audio/eleven-sfx/ep29-breath-1.mp3",
+      "sha256": "d5134e62bf271fc27d4f47460470ac3dc3833c63b2e54ba70d45911f0f874a17"
+    },
+    "ep29-breath-2.mp3": {
+      "path": "public/assets/audio/eleven-sfx/ep29-breath-2.mp3",
+      "sha256": "ae74e156f325401ebe2b8df4330ed736bd0230da7886a88e3ebddbc153fc56e7"
+    },
+    "CB_CINEMATIC_restrained_boom_v1.flac": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/cinematic/CB_CINEMATIC_restrained_boom_v1.flac",
+      "sha256": "0f8ed588c6c31aa27d3634ef7b39acb5709831b959bc4366aaa2b9aa282b11fa"
+    }
+  },
+  "new_generation": "none (no ElevenLabs credits spent; reused Season 3 SFX and the Curio library)",
+  "synthesized": [
+    "CRT hum and whine",
+    "tape case clicks",
+    "VCR motor",
+    "PLAY relay",
+    "tape hiss and head-switch bursts",
+    "camera handling and set-down thuds",
+    "doorway near-silence",
+    "head-tilt creak"
+  ],
+  "loudness_target_lufs": -16.0,
+  "measured_integrated_lufs": -16.0,
+  "encoded_sample_peak_dbfs": -2.04,
+  "limiter": "tanh soft limiter, ceiling -5.63 dBFS",
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
