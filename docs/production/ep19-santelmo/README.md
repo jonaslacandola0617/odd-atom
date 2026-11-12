@@ -140,7 +140,27 @@ python3 scripts/caption_check.py src/data/ep19-santelmo-v1-timeline.json assets/
 4. **The night and dawn were too dark**; the moon, ambient and dawn light were raised, and the dawn shot now includes the horizon.
 5. **The fire's crackle and the frogs** first measured 20–30 dB under the score; both were raised, with small lifts on three lines.
 
-ENCODED_REVIEW
+## Review of the encoded file
+
+- **File:** 41.7 MB; sha256 `f9d0c451613730a2a36d3db6e986666eabe4485d34b42f8778a14c7a7fa0dfb7`.
+- **Audio track:** as in Episodes 17 and 18, the delivered MP4 carries `public/assets/audio/ep19-santelmo-v1/mix.m4a` itself, muxed with `ffmpeg -map 0:v -map 1:a -c copy` (the picture is untouched). Remotion's own re-encode peaked at −1.2 dBFS here.
+- **Decode and frames:** decodes with `ffmpeg -f null` without errors; 1,558 frames at 30 fps (51.9 s), 1080×1920, with audio.
+- **Loudness:** −14.1 LUFS measured on the encoded file; decoded sample peak −1.31 dBFS.
+- **Loop:** the last frame differs from frame 0 by 1.07/255 in mean absolute luma (the hook's own frame-to-frame motion is 0.51, a walk with a flickering fire).
+- **Contact sheet:** one frame every 2 s from the encoded file, inspected shot by shot. All of these read:
+  - the light pacing him over the palay;
+  - the farmer in his salakot with the light beside him;
+  - the dark wide with the light small;
+  - the ship with blue glows on its masts in the rain;
+  - behind him, the light at his side;
+  - the light over the canal;
+  - the three lights;
+  - the drowned face in the fire;
+  - the shirt and the light shrinking toward the canal;
+  - dawn over the paddies;
+  - the loop.
+- **Weakest images:** the high wide is very dark (the glow under the canal is small); the light over the canal fills less of the frame than planned; the storm reads more by its glows and rain than by the ship.
+- **Captions:** `scripts/caption_check.py` extracted all 13 caption pages from the encoded file. Each was read against the Taglish script: all are complete.
 
 ## Known limits
 
