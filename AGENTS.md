@@ -1,13 +1,17 @@
 # Video delivery
 
 - **Original series discussion (2026-11-12):** before making another ten videos, the user wants an original serialized horror series with "a real planned story with great plots", "generational", at the craft level of films like *The Grudge* and *Evil Dead Rise*. They supplied a reference video for the animation quality they want, and suggested a library of 3D models (characters, sets, props) with SFX and VFX.
-  - **Reference video:** Drive `15GGUpCQyLE-EL4ED0TYwfUH9c24s_kIE` (`Screen_Recording_20261112_195518_Facebook.mp4`, 268 MB). It has **not been studied**: it is private on its owner's Drive (a direct download returns the sign-in page), and the connector refuses files over 10 MB. The user was asked to share it as "Anyone with the link" or as clips of 10 MB or less. Do not describe its content until it has been opened.
+  - **Reference video:** Drive `15GGUpCQyLE-EL4ED0TYwfUH9c24s_kIE`, re-shared by the user as viewable and studied the same day; the footage stays out of Git. It is a 104 s phone screen recording of a Facebook Reels feed: about six cute 3D animal comedy reels by one creator (not horror).
+    - The frame renders at full resolution with smooth geometry, and only the textures are pixel art (nearest-filtered), unlike our whole frame at 180×320.
+    - Rigged, expressive characters with 2D-painted faces whose expressions swap; prop handling.
+    - Warm soft-shadowed light, depth of field, bloom, god rays, reflections, particles, moving cameras with fast cuts, and sparse outlined captions.
+    - Copy techniques only, never their characters.
   - **Capability note:** `docs/stories/original-series/CAPABILITY.md`. The biggest gap is characters that act: nothing yet has a skeleton, a walk cycle or a face. The proposal is a headless Blender (`bpy` 5.3 on PyPI, not yet installed or tested) asset library: Python-built models, armatures and shape keys, exported as GLB and driven by an `AnimationMixer` set from the Remotion frame. Outside assets only with their terms checked.
   - **Concepts:** `docs/stories/original-series/CONCEPTS.md`:
     - A. "Sign-Off": a dead station's broadcast films your house, and the camera moves only while watched. It is the recommended pipeline fit.
     - B. "Ninth Night": an extra mourner at every wake, a family curse since 1974.
     - C. "The Extension": a house that makes its sleepers build it. It needs the most rigging.
-  - **Status:** nothing chosen or approved. The proposed next step is a 15–20 s test with one rigged original character, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
+  - **Status:** nothing chosen or approved. The proposed next step is a 15–20 s test with one rigged original character, rendered in both our PS1 look and a reference-style look (pixel textures at half or full resolution, soft shadows, depth of field, bloom), with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".

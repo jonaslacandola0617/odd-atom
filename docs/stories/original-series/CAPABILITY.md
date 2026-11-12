@@ -5,16 +5,61 @@ reference video (Drive file `15GGUpCQyLE-EL4ED0TYwfUH9c24s_kIE`,
 `Screen_Recording_20261112_195518_Facebook.mp4`, 268 MB), and suggested a 3D
 model library for characters, sets, props, SFX and VFX.
 
-## The reference video has NOT been studied
+## The reference video (studied 2026-11-12, after the user re-shared it)
 
-- The file is private on its owner's Drive (visibility `PRIVATE`). A direct
-  download returns Google's sign-in page.
-- The Drive connector refuses files over 10 MB, and returns no transcript.
-- So nothing below describes the reference. Its resolution, pixelation,
-  lighting, rigging, acting, VFX, editing and sound are unknown here. To study it,
-  the user can do either of these:
-  1. set the file to "Anyone with the link: Viewer" (then it downloads directly), or
-  2. upload several clips of 10 MB or less each, or a few screenshots.
+**What it is.** A 104 s phone screen recording (1080×2280, variable frame rate,
+AAC stereo) of a Facebook Reels feed. It shows about six consecutive reels by
+one creator, plus an ad.
+
+**The content is cute character comedy, not horror:**
+- a chameleon and a mouse at a party ("you're ruining the party!");
+- a ghost given a Halloween treat bucket by a human hand ("happy halloween, ghost!");
+- a hedgehog-like creature going home through a dark cave to a lamp-lit burrow
+  ("found my way home");
+- a penguin in a cowboy hat with snowmen ("rhythm heaven");
+- a cat at a sushi counter ("sushi with lady brown").
+
+The footage stays in the scratchpad and is not in Git. We copy techniques only,
+never the creator's characters or designs.
+
+What we saw, from contact sheets at 1 fps and full-resolution crops:
+
+- **Resolution and "pixel" look.** The frame is rendered at full phone
+  resolution, and edges and geometry are smooth. The pixel feel comes only from
+  low-resolution, nearest-filtered textures: the feathers, the painted faces,
+  the pumpkin bucket, and the leaves. That is the opposite of our approach,
+  where the whole frame is 180×320 upscaled 6×.
+- **Models.** Rounded, smooth-shaded, stylized animals with simple 2D-painted
+  faces on 3D heads. The faces swap expressions (content, crying, squinting,
+  grinning). The sets are dense: autumn trees, benches, a kitchen, a cave
+  burrow with posters, a TV, string lights.
+- **Lighting and rendering.**
+  - Warm golden-hour key light with cast soft shadows, and dappled leaf shadows
+    on the ground.
+  - Bloom on lamps, god rays, and strong depth of field (blurred backgrounds).
+  - Wet-ground reflections, a translucent plastic bucket, and coloured club
+    lights (disco ball, spotlights).
+  - The cave reel is near-black with rim light and floating dust: proof that the
+    look survives darkness.
+- **Animation.** The characters are fully rigged and act: squash and stretch,
+  arms grabbing and holding props (a snack bag, a pumpkin bucket), head turns,
+  dancing, a chopping knife, a sliding fish. The timing is snappy and cartoony,
+  with held poses for comic beats.
+- **Camera and editing.**
+  - Moving cameras: low-angle push-ins, close-ups on faces and props, and a top
+    shot looking straight down.
+  - A human hand POV.
+  - Fast cuts on action. Each reel runs about 10–20 s.
+- **Text.** Big white rounded captions with a dark outline, used sparingly as
+  dialogue punchlines ("stop eating them!", "AHHH", "lost").
+- **Sound.** Present, but not auditioned: this container cannot listen.
+- **Engine (inferred, not confirmed).** Probably Blender (EEVEE) or a game
+  engine with post-processing, rendered on a GPU.
+
+**What this means for us.** The gap is not just characters. It is a different
+rendering approach: full resolution with pixel-art textures, real soft shadows,
+depth of field, bloom and reflections. Rigged, expressive characters are the
+biggest missing piece. Our horror tone can stay; the reference's tone is cute.
 
 ## What the current pipeline does well
 
@@ -45,9 +90,16 @@ helpers (`src/horror/ps1.ts`), 180×320 upscaled 6×, and software WebGL
 - **Simulation.** There is no cloth, hair, fluid or soft-body simulation. Smoke,
   fog, dust and rain are particle or shader fakes. At our resolution that is
   usually enough.
-- **Speed.** Rendering uses software WebGL on 4 CPU cores. Skinned characters
-  and denser sets will render slower than Seasons 1–3. We have not measured how
-  much slower; the test below will.
+- **Speed.** Rendering uses software WebGL on 4 CPU cores, with no GPU.
+  - The reference look needs full or half resolution, shadow maps, depth of
+    field, bloom and reflections, and every one of those is far more expensive
+    in software than our 180×320 frames. three.js can do all of them
+    (postprocessing, `Reflector`, soft shadows), but we have not measured how
+    slowly.
+  - Blender Cycles runs on CPU headless, but it would likely take many seconds
+    to minutes per frame. EEVEE needs a GPU or a slow software OpenGL.
+  - The test below must measure render time. A likely compromise is rendering at
+    540×960 and upscaling 2×.
 
 ## What it would take: a reusable 3D asset library
 
@@ -85,6 +137,10 @@ helpers (`src/horror/ps1.ts`), 180×320 upscaled 6×, and software WebGL
 
 ## Proposed proof-of-quality test (before any season)
 
+- Two looks would be tested side by side on the same shot:
+  (a) our current 180×320 PS1 look, and
+  (b) a reference-style look: half or full resolution, smooth geometry,
+  nearest-filtered pixel textures, soft shadows, depth of field and bloom.
 - One original rigged character from the chosen series, in one set, 15–20 s,
   portrait.
 - In one shot it walks in (a real walk cycle), stops, turns its head towards a
@@ -95,4 +151,5 @@ helpers (`src/horror/ps1.ts`), 180×320 upscaled 6×, and software WebGL
 - Delivered with a model sheet still, the GLB and a measured render time.
 - No ElevenLabs credits until the user approves the test. The sound would be
   synthesized or reused from library effects already generated.
-- If the reference becomes viewable, compare the test with it shot for shot.
+- Compare the test against the reference on rendering, lighting and acting, with
+  measured seconds per frame for each look.
