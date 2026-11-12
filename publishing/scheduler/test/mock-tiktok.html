@@ -12,7 +12,7 @@
     <input id="date" readonly value="2026-11-12" onclick="cal.hidden=false">
   </div>
   <div id="tp" hidden></div><div id="cal" hidden></div>
-  <button data-e2e="post_video_button" disabled onclick="location.href='/tiktokstudio/content'">Schedule</button>
+  <button data-e2e="post_video_button" disabled onclick="console.log('PICKED:'+window.picked.join(','));setTimeout(()=>location.href='/tiktokstudio/content',100)">Schedule</button>
 </div>
 <script>
 let H='10',M='00';
@@ -20,5 +20,13 @@ for(let h=0;h<24;h++){const s=document.createElement('span');s.textContent=Strin
 for(let m=0;m<60;m+=5){const s=document.createElement('span');s.textContent=String(m).padStart(2,'0');s.onclick=()=>{M=s.textContent;time.value=H+':'+M};tp.appendChild(s)}
 for(let d=1;d<=30;d++){const s=document.createElement('span');s.textContent=String(d);s.onclick=()=>{date.value='2026-11-'+String(d).padStart(2,'0');cal.hidden=true};cal.appendChild(s)}
 document.querySelector('.public-DraftEditor-content').addEventListener('paste',e=>{e.preventDefault();const t=e.clipboardData.getData('text/plain');document.execCommand('insertText',false,t)});
+window.picked=[];
+const ed=document.querySelector('.public-DraftEditor-content');
+const pop=document.createElement('div');pop.id='pop';pop.hidden=true;document.body.appendChild(pop);
+ed.addEventListener('input',()=>{const m=ed.textContent.match(/#([^\s#]+)$/);if(!m){pop.hidden=true;return}
+  setTimeout(()=>{const m2=ed.textContent.match(/#([^\s#]+)$/);if(!m2)return;const w='#'+m2[1];
+  pop.innerHTML='<div class="item"><span class="t">'+w+'</span><span>1.2M views</span></div><div class="item"><span class="t">'+w+'s</span></div>';pop.hidden=false;
+  pop.querySelector('.t').onclick=()=>{window.picked.push(w);ed.textContent=ed.textContent.replace(/#[^\s#]+$/,w+'\u00a0');pop.hidden=true;
+    ed.focus();const r=document.createRange();r.selectNodeContents(ed);r.collapse(false);const sel=getSelection();sel.removeAllRanges();sel.addRange(r);}},300)});
 f.onchange=()=>{form.hidden=false;mask.hidden=false;setTimeout(()=>document.querySelector('button[data-e2e]').disabled=false,1500)}
 </script></body></html>

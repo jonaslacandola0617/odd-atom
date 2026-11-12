@@ -26,9 +26,14 @@ let pass = true;
 const watch = (name, p) => p.then((r) => { console.log(`${name}:`, r); return r; });
 
 const yt = await watch('youtube', scheduleYouTube(context, ep, fake, { auto: true }));
+let pickedTags = '';
+context.on('console', (m) => { if (m.text().startsWith('PICKED:')) pickedTags = m.text().slice(7); });
 const tk = await watch('tiktok', scheduleTikTok(context, ep, fake, { auto: true }));
 if (yt.status !== 'scheduled' || yt.url !== 'https://youtu.be/MOCK123') pass = false;
 if (tk.status !== 'scheduled') pass = false;
+const wantTags = ep.tiktok.caption.match(/#[^\s#]+/g).join(',');
+console.log('hashtags picked from the list:', pickedTags);
+if (pickedTags !== wantTags) pass = false;
 for (const p of context.pages()) if (p.url().startsWith('http')) await p.close().catch(() => {});
 fs.rmSync(fake);
 await context.unrouteAll().catch(() => {});

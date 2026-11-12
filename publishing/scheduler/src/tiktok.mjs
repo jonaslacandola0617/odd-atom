@@ -44,33 +44,80 @@ async function clearEditor(page, editor) {
   for (let i = 0; i < left + 5 && norm(await editor.innerText()); i++) await page.keyboard.press('Backspace');
 }
 
+/** Click the suggestion for `#tag` in TikTok's hashtag list. Returns false if none showed. */
+async function pickHashtag(page, tag) {
+  const want = tag.toLowerCase();
+  for (let t = 0; t < 12; t++) {           // up to about 6 s for the list to load
+    const handle = await page.evaluateHandle((w) => {
+      const els = [...document.querySelectorAll('body *')].filter((el) => {
+        if (el.closest('[contenteditable="true"]')) return false;     // not the text we typed
+        if (el.children.length && [...el.children].some((c) => c.textContent.trim().toLowerCase() === w)) return false;
+        if (el.textContent.trim().toLowerCase() !== w) return false;
+        const r = el.getBoundingClientRect();
+        return r.width > 0 && r.height > 0;
+      });
+      return els[0] || null;
+    }, want);
+    const el = handle.asElement();
+    if (el) {
+      // The list can redraw while it loads; if the item was replaced, look again.
+      const ok = await el.click({ timeout: 2_000 }).then(() => true, () => false);
+      if (ok) { await page.waitForTimeout(500); return true; }
+    }
+    await page.waitForTimeout(500);
+  }
+  return false;
+}
+
 async function typeCaption(page, editor, caption) {
   const flat = (x) => String(x).replace(/\s+/g, '').toLowerCase();
-  const ok = async () => {
-    const shown = flat(await editor.innerText());
-    return shown.startsWith(flat(caption).slice(0, 25)) && shown.includes(flat(caption).slice(-12));
-  };
+  const first = caption.indexOf('#');
+  const body = (first < 0 ? caption : caption.slice(0, first)).trim();
+  const tags = first < 0 ? [] : caption.slice(first).match(/#[^\s#]+/g) || [];
+
   await dismissPopups(page);
   // Click if possible; if something still covers the box, focus it directly.
   await editor.click({ timeout: 5_000 }).catch(async () => { await editor.focus(); });
   await page.waitForTimeout(300);
   await clearEditor(page, editor);
 
-  // 1) Paste the whole caption.
-  await editor.evaluate((el, text) => {
-    el.focus();
-    const dt = new DataTransfer();
-    dt.setData('text/plain', text);
-    el.dispatchEvent(new ClipboardEvent('paste', { clipboardData: dt, bubbles: true, cancelable: true }));
-  }, caption);
-  await page.waitForTimeout(1200);
-  if (await ok()) { await page.keyboard.press('Escape').catch(() => {}); return; }
+  // 1) The sentence: paste it in one go (like Ctrl+V); if that doesn't take, type it slowly.
+  if (body) {
+    await editor.evaluate((el, text) => {
+      el.focus();
+      const dt = new DataTransfer();
+      dt.setData('text/plain', text);
+      el.dispatchEvent(new ClipboardEvent('paste', { clipboardData: dt, bubbles: true, cancelable: true }));
+    }, body);
+    await page.waitForTimeout(1000);
+    if (!flat(await editor.innerText()).startsWith(flat(body).slice(0, 25))) {
+      await clearEditor(page, editor);
+      await page.keyboard.type(body, { delay: 35 });
+      await page.waitForTimeout(500);
+    }
+    await page.keyboard.press('ControlOrMeta+End');
+    await page.keyboard.press('Space');
+  }
 
-  // 2) Type it slowly, character by character, like a person.
-  await clearEditor(page, editor);
-  await page.keyboard.type(caption, { delay: 35 });
-  await page.waitForTimeout(800);
+  // 2) Each hashtag: type it slowly, then pick it from TikTok's suggestion list
+  //    so it becomes a real hashtag (not just text).
+  const plain = [];
+  for (const tag of tags) {
+    await page.keyboard.type(tag, { delay: 90 });
+    const picked = await pickHashtag(page, tag);
+    if (!picked) plain.push(tag);
+    const raw = await editor.innerText();
+    if (!picked || !/[\s ]$/.test(raw)) await page.keyboard.press('Space');
+    await page.waitForTimeout(300);
+  }
   await page.keyboard.press('Escape').catch(() => {});
+  const shown = await editor.innerText();
+  if (!flat(shown).startsWith(flat(caption).slice(0, 25)) || !flat(shown).includes(flat(tags.at(-1) || caption).slice(-8))) {
+    throw new Error(`the caption box shows "${norm(shown).slice(0, 80)}"`);
+  }
+  if (plain.length) {
+    throw new Error(`no suggestion appeared for ${plain.join(' ')}; pick those from TikTok's hashtag list by hand (delete and retype them)`);
+  }
 }
 
 async function clickOption(page, text, which) {
@@ -103,13 +150,8 @@ export async function scheduleTikTok(context, ep, file, { auto }) {
   catch { editor = page.locator('[contenteditable="true"]').first(); await editor.waitFor({ timeout: 10_000 }); }
 
   await dismissPopups(page);
-  await step('set the caption', async () => {
+  await step('set the caption and pick each hashtag', async () => {
     await typeCaption(page, editor, tk.caption);
-    const flat = (x) => String(x).replace(/\s+/g, '').toLowerCase();
-    const shown = await editor.innerText();
-    if (!flat(shown).startsWith(flat(tk.caption).slice(0, 25))) {
-      throw new Error(`the caption box shows "${norm(shown).slice(0, 80)}"`);
-    }
   });
 
   await dismissPopups(page);
