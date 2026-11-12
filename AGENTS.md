@@ -1,5 +1,14 @@
 # Video delivery
 
+- **Original series discussion (2026-11-12):** before making another ten videos, the user wants an original serialized horror series with "a real planned story with great plots", "generational", at the craft level of films like *The Grudge* and *Evil Dead Rise*. They supplied a reference video for the animation quality they want, and suggested a library of 3D models (characters, sets, props) with SFX and VFX.
+  - **Reference video:** Drive `15GGUpCQyLE-EL4ED0TYwfUH9c24s_kIE` (`Screen_Recording_20261112_195518_Facebook.mp4`, 268 MB). It has **not been studied**: it is private on its owner's Drive (a direct download returns the sign-in page), and the connector refuses files over 10 MB. The user was asked to share it as "Anyone with the link" or as clips of 10 MB or less. Do not describe its content until it has been opened.
+  - **Capability note:** `docs/stories/original-series/CAPABILITY.md`. The biggest gap is characters that act: nothing yet has a skeleton, a walk cycle or a face. The proposal is a headless Blender (`bpy` 5.3 on PyPI, not yet installed or tested) asset library: Python-built models, armatures and shape keys, exported as GLB and driven by an `AnimationMixer` set from the Remotion frame. Outside assets only with their terms checked.
+  - **Concepts:** `docs/stories/original-series/CONCEPTS.md`:
+    - A. "Sign-Off": a dead station's broadcast films your house, and the camera moves only while watched. It is the recommended pipeline fit.
+    - B. "Ninth Night": an extra mourner at every wake, a family curse since 1974.
+    - C. "The Extension": a house that makes its sleepers build it. It needs the most rigging.
+  - **Status:** nothing chosen or approved. The proposed next step is a 15–20 s test with one rigged original character, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
+
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".
   - **Slate:** `docs/stories/season-3-world.md`: ten real, documented cases on six continents, each with its own form, scare placement, sound language and visual language. Order: Enfield → Okiku doll → Bell Witch → Island of the Dolls → Hampton Court CCTV → Castle of Good Hope → Waverly Hills → Brown Lady → Monte Cristo Homestead → Poveglia. Folklore-only tales are out.
