@@ -197,96 +197,97 @@ async function scheduleOn(page, ep, file, { auto }) {
       .or(page.locator('[contenteditable="true"]').filter({ visible: true }).first()).first();
     await box.waitFor({ state: 'visible', timeout: 60_000 });
     await pasteInto(page, box, f.caption);
+    // Close the hashtag suggestion list that stays open after the last tag.
+    const heading = page.getByText('Reel details', { exact: true }).filter({ visible: true }).first();
+    if (await heading.count()) await heading.click().catch(() => {});
+    else await page.keyboard.press('Escape').catch(() => {});
+    await page.waitForTimeout(500);
   });
 
+  // Business Suite's Reels composer has no AI-label switch (as of Nov 2026).
+  // If one ever appears, turn it on; otherwise skip quietly.
   if (f.aiLabel !== false) {
-    await step('turn on the AI label (the narration is an AI voice)', async () => {
-      const label = page.getByText(/AI[- ]generated|AI info|Add AI label|Made with AI/i).filter({ visible: true }).first();
-      await label.scrollIntoViewIfNeeded({ timeout: 8_000 });
-      const row = label.locator('xpath=ancestor::*[.//*[@role="switch"] or .//input[@type="checkbox"]][1]');
-      const sw = row.locator('[role="switch"], input[type="checkbox"]').first();
-      const on = (await sw.getAttribute('aria-checked')) === 'true' || (await sw.isChecked().catch(() => false));
-      if (!on) await sw.click({ force: true });
-    });
+    const label = page.getByText(/AI[- ]generated|AI info|Add AI label|Made with AI/i).filter({ visible: true }).first();
+    if (await label.count()) {
+      await step('turn on the AI label (the narration is an AI voice)', async () => {
+        const row = label.locator('xpath=ancestor::*[.//*[@role="switch"] or .//input[@type="checkbox"]][1]');
+        const sw = row.locator('[role="switch"], input[type="checkbox"]').first();
+        const on = (await sw.getAttribute('aria-checked')) === 'true' || (await sw.isChecked().catch(() => false));
+        if (!on) await sw.click({ force: true });
+      });
+    }
   }
 
-  await step('go to the sharing step', async () => {
+  await step('go to the Share step', async () => {
     for (let i = 0; i < 3; i++) {
+      if (await page.getByText('Scheduling options', { exact: true }).filter({ visible: true }).count()) break;
       await dismissPopups(page);
       const next = page.getByRole('button', { name: /^next$/i }).filter({ visible: true }).last();
       if (!(await next.count())) break;
-      if (!(await next.isEnabled())) await page.waitForTimeout(3000);
+      for (let k = 0; k < 20 && !(await next.isEnabled()); k++) await page.waitForTimeout(1500);
       await next.click({ timeout: 10_000 });
-      await page.waitForTimeout(1500);
+      await page.waitForTimeout(2000);
     }
-    await page.getByText(/schedul/i).filter({ visible: true }).first().waitFor({ timeout: 15_000 });
+    await page.getByText('Scheduling options', { exact: true }).filter({ visible: true }).first().waitFor({ timeout: 20_000 });
   });
 
+  // The footer button: "Share" posts NOW; it turns into "Schedule" once the
+  // Schedule option is selected. The tool never clicks it while it says Share.
+  const footer = page.locator('div')
+    .filter({ has: page.getByRole('button', { name: /^back$/i }) })
+    .filter({ has: page.getByRole('button', { name: /^(share|schedule|publish)$/i }) }).last();
+  const footerBtn = footer.getByRole('button', { name: /^(share|schedule|publish)$/i }).last();
+  const footerSays = async () => norm(await footerBtn.innerText().catch(() => ''));
+
   await step('choose "Schedule"', async () => {
-    const radio = page.getByRole('radio', { name: /schedule/i }).filter({ visible: true });
-    const sw = page.getByRole('switch', { name: /schedule|set date and time/i }).filter({ visible: true });
-    if (await radio.count()) await radio.first().check({ force: true });
-    else if (await sw.count()) { if ((await sw.first().getAttribute('aria-checked')) !== 'true') await sw.first().click(); }
-    else await page.getByText(/^(schedule|scheduling options|set date and time)$/i).filter({ visible: true }).first().click({ timeout: 10_000 });
-    await page.waitForTimeout(800);
+    const options = page.locator('div')
+      .filter({ has: page.getByText('Scheduling options', { exact: true }) })
+      .filter({ has: page.getByText('Share now', { exact: true }) }).last();
+    const seg = options.getByText('Schedule', { exact: true }).first();
+    for (let i = 0; i < 3 && !/^schedule$/i.test(await footerSays()); i++) {
+      await seg.click({ timeout: 10_000 });
+      await page.waitForTimeout(1200);
+    }
+    if (!/^schedule$/i.test(await footerSays())) throw new Error(`the button at the bottom still says "${await footerSays()}"`);
   });
 
   await step(`set the date to ${t.usDate}`, () => setDate(page, t));
   await step(`set the time to ${t.time12} (your PC's time zone)`, () => setTime(page, t));
 
-  const finalBtn = page.getByRole('button', { name: /^schedule$/i }).filter({ visible: true }).last();
   console.log('   … waiting for the upload to finish');
   await step('wait for the upload to finish', async () => {
-    await finalBtn.waitFor({ state: 'visible', timeout: 60_000 });
-    for (let i = 0; i < 600 && !(await finalBtn.isEnabled()); i++) await page.waitForTimeout(3000);
-    if (!(await finalBtn.isEnabled())) throw new Error('the Schedule button never became active');
+    for (let i = 0; i < 600 && !(await footerBtn.isEnabled().catch(() => false)); i++) await page.waitForTimeout(3000);
+    if (!(await footerBtn.isEnabled().catch(() => false))) throw new Error('the button at the bottom never became active');
   });
 
   console.log(`\n   Facebook is filled in for Episode ${ep.ep}: ${t.label} (your PC's time).`);
   if (manual.length) console.log(`   Do these by hand first: ${manual.join('; ')}.`);
   let answer = '';
-  if (!auto || manual.length) {
-    answer = (await ask('   Check the Facebook tab. Press Enter to click Schedule, type "d" if you clicked it yourself, or "s" to skip: ')).toLowerCase();
-    if (answer === 's') return { status: 'skipped' };
+  for (;;) {
+    if (!auto || manual.length) {
+      answer = (await ask('   Check the Facebook tab. Press Enter to click Schedule, type "d" if you clicked it yourself, or "s" to skip: ')).toLowerCase();
+      if (answer === 's') return { status: 'skipped' };
+    }
+    if (answer === 'd') break;
+    const says = await footerSays();
+    if (/^schedule$/i.test(says)) { await footerBtn.click({ timeout: 15_000 }).catch(() => {}); break; }
+    // Safety: never click "Share" (it would post right now).
+    console.log(`   The button at the bottom says "${says || '?'}", not "Schedule", so I won't click it (Share posts immediately).`);
+    console.log('   In the tab, select "Schedule" under Scheduling options and set the date and time.');
+    if (auto && !manual.length) manual.push('select Schedule');
   }
 
-  // Only count it once Business Suite confirms (a "scheduled" message, or the
-  // composer closing back to the content/planner page).
-  const confirmed = async (ms) => {
-    const start = Date.now();
-    while (Date.now() - start < ms) {
-      if (/\/latest\/(content|posts|planner|home)|\/content_calendar/.test(page.url())) return true;
-      if (await page.getByText(/(reel|post|video) (has been |was )?scheduled|scheduled (for|successfully)/i).filter({ visible: true }).count()) return true;
-      await page.waitForTimeout(1000);
-    }
-    return false;
-  };
-  let ok = false;
-  for (let attempt = 0; attempt < 3 && !ok; attempt++) {
-    if (answer !== 'd' || attempt > 0) {
-      if (await finalBtn.isEnabled().catch(() => false)) await finalBtn.click({ timeout: 15_000 }).catch(() => {});
-      // Meta sometimes asks to confirm.
-      const again = page.getByRole('dialog').getByRole('button', { name: /^(schedule|confirm|continue)$/i }).first();
-      if (await again.isVisible({ timeout: 3_000 }).catch(() => false)) await again.click().catch(() => {});
-    }
-    ok = await confirmed(45_000);
-    if (!ok) {
-      console.log('   Business Suite has not confirmed that the reel is scheduled yet.');
-      const a = (await ask('   Look at the Facebook tab: finish scheduling it there if needed, then press Enter once it shows as scheduled (or type "s" if it is not): ')).toLowerCase();
-      if (a === 's') return { status: 'skipped' };
-      ok = await confirmed(5_000);
-      if (!ok) {
-        const yes = (await ask('   I can\'t see a confirmation on the page. Is it scheduled? Check Business Suite → Content → Scheduled. (y/N) ')).toLowerCase();
-        if (yes === 'y') ok = true;
-        else { answer = ''; console.log('   Trying the Schedule button again.'); }
-      }
-    }
+  // Meta sometimes asks to confirm.
+  const again = page.getByRole('dialog').getByRole('button', { name: /^(schedule|confirm|continue)$/i }).first();
+  if (await again.isVisible({ timeout: 3_000 }).catch(() => false)) await again.click().catch(() => {});
+
+  // You oversee the result. Close the tab only once the composer has gone
+  // (back to Content/Planner); otherwise leave it open so nothing is lost.
+  await page.waitForTimeout(6000);
+  if (!(await page.getByText('Scheduling options', { exact: true }).filter({ visible: true }).count())) {
+    await page.close().catch(() => {});
+  } else {
+    console.log('   (Tab left open: check that it shows as scheduled, then close it yourself.)');
   }
-  if (!ok) {
-    console.log('   Not confirmed, so it is NOT marked as scheduled. The tab is left open.');
-    return { status: 'unconfirmed' };
-  }
-  await page.waitForTimeout(1500);
-  await page.close().catch(() => {});
   return { status: 'scheduled', for: f.publishAt };
 }

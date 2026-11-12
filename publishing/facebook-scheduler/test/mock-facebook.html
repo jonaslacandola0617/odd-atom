@@ -1,30 +1,49 @@
 <!doctype html><html><body>
+<!-- Fake Meta Business Suite "Create reel" page, shaped like the user's screenshots (Nov 2026). -->
+<h2>Create reel</h2>
 <div id="tip" style="position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:10"><div style="background:#fff;padding:10px;width:200px">New: Reels in Business Suite<button onclick="tip.remove()">Got it</button></div></div>
-<div role="button" id="add" style="padding:8px;border:1px solid #888;display:inline-block">Add video</div>
-<div id="step1" hidden>
-  <div contenteditable="true" role="textbox" aria-label="Describe your reel" style="min-height:40px;border:1px solid #ccc"></div>
-  <div><span>Add AI label</span><div role="switch" aria-checked="false" style="display:inline-block;width:30px;height:16px;background:#ccc" onclick="this.setAttribute('aria-checked','true')"></div></div>
-  <button onclick="step1.hidden=true;step2.hidden=false">Next</button>
-</div>
-<div id="step2" hidden><p>Edit</p><button onclick="step2.hidden=true;step3.hidden=false">Next</button></div>
-<div id="step3" hidden>
-  <p>Scheduling options</p>
-  <label><input type="radio" name="w" checked>Publish now</label>
-  <label><input type="radio" name="w" onclick="document.getElementById('when').hidden=false">Schedule</label>
-  <div id="when" hidden>
-    <input placeholder="mm/dd/yyyy" id="d">
-    <span role="spinbutton" aria-label="hours" tabindex="0" id="hh">12</span>:
-    <span role="spinbutton" aria-label="minutes" tabindex="0" id="mi">00</span>
-    <span role="spinbutton" aria-label="meridiem" tabindex="0" id="ap">AM</span>
+<div id="create">
+  <div role="button" id="add" style="padding:8px;border:1px solid #888;display:inline-block">Add Video</div>
+  <div id="details" hidden>
+    <h3>Reel details</h3><div>Description · optional</div>
+    <div contenteditable="true" role="textbox" style="min-height:40px;border:1px solid #ccc"></div>
+    <div id="tags" hidden style="position:absolute;right:0;top:120px;background:#fff;border:1px solid #ccc"><div>#reelsviral</div><div>#reelsvideo</div></div>
   </div>
-  <button id="go" disabled onclick="console.log('FB:'+JSON.stringify({cap:document.querySelector('[role=textbox]').innerText,ai:document.querySelector('[role=switch]').getAttribute('aria-checked'),d:d.value,t:hh.textContent+':'+mi.textContent+' '+ap.textContent}));setTimeout(()=>location.href='/latest/content_calendar',100)">Schedule</button>
 </div>
+<div id="edit" hidden><p>Edit</p></div>
+<div id="share" hidden>
+  <div><div>Scheduling options</div>
+    <div><div role="button" id="segNow" aria-pressed="true">Share now</div><div role="button" id="segSch" aria-pressed="false">Schedule</div><div role="button">Save as draft</div></div>
+    <div id="when" hidden>
+      <input placeholder="mm/dd/yyyy" id="d">
+      <span role="spinbutton" aria-label="hours" tabindex="0" id="hh">12</span>:
+      <span role="spinbutton" aria-label="minutes" tabindex="0" id="mi">00</span>
+      <span role="spinbutton" aria-label="meridiem" tabindex="0" id="ap">AM</span>
+    </div>
+  </div>
+  <div>Add to playlist · optional</div>
+</div>
+<div id="footer"><div role="button" id="back">Back</div> <div role="button" id="cancel">Cancel</div> <div role="button" id="main" aria-disabled="false">Next</div></div>
 <script>
+let stage='create', uploaded=false;
 const ed=document.querySelector('[role=textbox]');
-ed.addEventListener('paste',e=>{e.preventDefault();document.execCommand('insertText',false,e.clipboardData.getData('text/plain'))});
-// Spinbuttons take typed digits like Meta's date/time pickers.
+ed.addEventListener('paste',e=>{e.preventDefault();document.execCommand('insertText',false,e.clipboardData.getData('text/plain'));tags.hidden=false});
+document.querySelector('h3').onclick=()=>tags.hidden=true;
+add.onclick=()=>{const f=document.createElement('input');f.type='file';f.accept='video/*';f.style.display='none';document.body.appendChild(f);
+  f.onchange=()=>{details.hidden=false;setTimeout(()=>uploaded=true,1500)};f.click();};
+back.hidden=true;
+function render(){ create.hidden=stage!=='create'; edit.hidden=stage!=='edit'; share.hidden=stage!=='share';
+  back.hidden=stage==='create'; cancel.hidden=stage!=='create';
+  main.textContent = stage==='share' ? (segSch.getAttribute('aria-pressed')==='true'?'Schedule':'Share') : 'Next'; }
+segSch.onclick=()=>{segSch.setAttribute('aria-pressed','true');segNow.setAttribute('aria-pressed','false');document.getElementById('when').hidden=false;render()};
+main.onclick=()=>{
+  if(stage==='create'){stage='edit';return render()}
+  if(stage==='edit'){stage='share';return render()}
+  if(main.textContent==='Share'){console.log('FB:SHARED-NOW');return}
+  console.log('FB:'+JSON.stringify({cap:ed.innerText,d:d.value,t:hh.textContent+':'+mi.textContent+' '+ap.textContent}));
+  setTimeout(()=>location.href='/latest/content_calendar',100);
+};
 for (const el of [hh,mi]) { let buf=''; el.addEventListener('focus',()=>buf=''); el.addEventListener('keydown',e=>{ if(/\d/.test(e.key)){buf=(buf+e.key).slice(-2); el.textContent=buf.padStart(2,'0');} }); }
 ap.addEventListener('keydown',e=>{ if(/^[ap]$/i.test(e.key)) ap.textContent=e.key.toUpperCase()+'M'; });
-add.onclick=()=>{const f=document.createElement('input');f.type='file';f.accept='video/*';f.style.display='none';document.body.appendChild(f);
-  f.onchange=()=>{step1.hidden=false;setTimeout(()=>go.disabled=false,1500)};f.click();};
+render();
 </script></body></html>

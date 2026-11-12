@@ -16,7 +16,8 @@ await context.route(/facebook\.com/, (route) => {
 const fake = path.join(TOOL_DIR, 'test', 'fake.mp4');
 fs.writeFileSync(fake, Buffer.alloc(49 * 1024 * 1024));
 let seen = null;
-context.on('console', (m) => { if (m.text().startsWith('FB:')) seen = JSON.parse(m.text().slice(3)); });
+let sharedNow = false;
+context.on('console', (m) => { const x = m.text(); if (x === 'FB:SHARED-NOW') sharedNow = true; else if (x.startsWith('FB:')) seen = JSON.parse(x.slice(3)); });
 
 const ep = structuredClone(loadSchedule().episodes.find((e) => e.ep === 11));
 ep.facebook.publishAt = '2026-11-16T20:00:00+08:00';
@@ -24,7 +25,7 @@ const r = await scheduleFacebook(context, ep, fake, { auto: true });
 console.log('facebook:', r, seen);
 const t = localTime(ep.facebook.publishAt);
 const flat = (x) => String(x).replace(/\s+/g, '');
-const pass = r.status === 'scheduled' && seen && flat(seen.cap) === flat(ep.facebook.caption) && seen.ai === 'true'
+const pass = !sharedNow && r.status === 'scheduled' && seen && flat(seen.cap) === flat(ep.facebook.caption)
   && seen.d === `${String(t.month + 1).padStart(2, '0')}/${String(t.day).padStart(2, '0')}/${t.year}`
   && seen.t === `${String(((t.date.getHours() + 11) % 12) + 1).padStart(2, '0')}:${t.mm} ${t.date.getHours() < 12 ? 'AM' : 'PM'}`;
 fs.rmSync(fake);
