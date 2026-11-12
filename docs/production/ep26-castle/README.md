@@ -121,7 +121,25 @@ python3 scripts/caption_check.py src/data/ep26-castle-v1-timeline.json assets/vi
 
 ## Review of the encoded file
 
-(filled after the render)
+- **File:** 47,921,085 bytes; SHA-256 `5a81328296dfb067f1a493927cba2adf32958a7c39442054df81d477a2770f9f`.
+- **Streams:**
+  - H.264 1080×1920, 1,789 frames, 59.63 s. That is 4 frames short of the 1,793-frame timeline; they fall in the closing black, so nothing visible is lost.
+  - AAC 59.76 s: the checked `mix.m4a`, muxed with `-c copy`.
+  - It decodes with no errors.
+- **Loudness:** −14.0 LUFS integrated; peak −1.3 dBFS (ffmpeg ebur128).
+- **Dark key:** mean luma, sampled twice a second, runs 15–76/255 with a median of 23. The brightest frames are the torch on the lime-washed walls at arm's length.
+- **Captions:** all 13 caption cards were found on screen at their timeline times (`out/oddatom/ep26-captions`, not tracked).
+- **Muted contact sheet** (every 2 s), in order:
+  - the corridor and the figure in the far opening;
+  - the castle's five bastions from above;
+  - the courtyard and the door under its lamp;
+  - the governor's room, its window, the desk and the chair;
+  - the ramparts against the sky;
+  - the corridor with her at the far end;
+  - the dungeon steps and the tallies;
+  - the radio's message, and the grey fingers.
+
+  It reads without sound.
 
 ## Known limits
 
