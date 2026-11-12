@@ -198,8 +198,8 @@ Wala. Work lang.
 Bea looks past him, out at the street.
 
 **BEA**
-Pa, may box po sa labas. Nababasa na po.
-*EN: Pa, there's a box outside. It's getting wet.*
+Pa, may box po sa labas. Nauulanan na po.
+*EN: Pa, there's a box outside. It's getting rained on.*
 
 Nico ducks out to the step and comes back with a soaked cardboard box. A waybill in
 a plastic sleeve is beaded with rain. CLOSE on the waybill:

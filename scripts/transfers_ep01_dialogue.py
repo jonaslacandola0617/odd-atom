@@ -41,7 +41,7 @@ SCRIPT = [
     ('bea', "Opo, Ma.", "Yes, Ma."),
     ('bea', "Pa, ano po 'yung \"Lumang Tape\"?", "Pa, what's \"Old Tape\"?"),
     ('nico', "Wala. Work lang.", "Nothing. Work."),
-    ('bea', "Pa, may box po sa labas. Nababasa na po.", "Pa, there's a box outside. It's getting wet."),
+    ('bea', "Pa, may box po sa labas. Nauulanan na po.", "Pa, there's a box outside. It's getting rained on."),
     ('nico', "Walang sender.", "No sender."),
     ('bea', "Pa, iba po 'yung itsura ng pera.", "Pa, the money looks different."),
     ('nico', "Luma lang 'yan. Tatanggapin pa 'yan ng bank.", "It's just old. The bank will still take it."),
@@ -77,6 +77,10 @@ SPANS = {
     'rudy': {3: (0.0, 2.08), 5: (3.067, 6.36), 7: (7.493, 10.00)},
     'guest': {8: (0.22, 1.64), 25: (3.04, 5.28)},
 }
+
+# Lines replaced by a retake (already shifted and trimmed). l19: the user picked "Nauulanan" (B1)
+# because the model stressed "nababasa" as "being read" instead of "getting wet".
+RETAKES = {19: 'retakes/l19-ulan-1.wav'}
 
 CHILD = {  # (formant ratio via asetrate, extra pitch ratio with preserved formants)
     'bea': (1.08, 1.1683),   # user's pick: Cielle B
@@ -155,6 +159,8 @@ def main():
             segs = [x]
             report[who] = {'lines': 1}
         for i, s in zip(idxs, segs):
+            if i + 1 in RETAKES:
+                s = load(ROOT / RETAKES[i + 1])
             peak = np.abs(s).max()
             if peak > 0:
                 s = s * (10 ** (-3 / 20) / peak)  # peak-normalise each line to -3 dBFS; the mix sets levels
