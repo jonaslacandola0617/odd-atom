@@ -15,6 +15,7 @@ Season 3 is famous, **real, documented** ghost cases from around the world, in E
 | 21 | Watch the Chair (the Enfield poltergeist, 1977) | London, England | `assets/videos/ep21-chair-v1/ep21-watch-the-chair.mp4` | 59.0 s |
 | 22 | Eighty-Eight Years (the Okiku doll) | Iwamizawa, Hokkaido, Japan | `assets/videos/ep22-okiku-v1/ep22-eighty-eight-years.mp4` | 55.6 s |
 | 23 | Backwards (the Bell Witch, 1817–1821) | Adams, Tennessee, USA | `assets/videos/ep23-bell-v2/ep23-backwards.mp4` | 57.7 s |
+| 24 | They Turn Their Heads (the Island of the Dolls) | Xochimilco, Mexico City | `assets/videos/ep24-dolls-v1/ep24-they-turn-their-heads.mp4` | 53.0 s |
 
 ---
 
@@ -97,5 +98,33 @@ they were burying him when something laughed 🕯️ #bellwitch #tennessee #true
 ```
 **Cover text:** `TOLD BACKWARDS`
 **TikTok pinned comment:** `watch the empty chair at supper. nobody sits in it.`
+
+**When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok).
+
+---
+
+## Broadcast 24: They Turn Their Heads (the Island of the Dolls)
+
+**YouTube title:** `Don't look at the dolls. They're already looking at you.`
+Alternative: `On the way back, every doll was facing us`
+
+**YouTube description**
+```
+Xochimilco, Mexico City. For about fifty years, Don Julián Santana Barrera lived alone on a tiny island in the canals and hung hundreds of dolls in the trees, for a girl he said drowned nearby. No record of her has been found. He died in 2001, in the same canal, his family says.
+
+Watch the dolls on the way out. Then on the way back. 🪆
+
+Broadcast 24 · After Sign-Off · Season 3: real cases from around the world. A reconstruction in pixel 3D. The island is a family-run site; please be respectful.
+#IslandOfTheDolls #IslaDeLasMuñecas #Xochimilco #ghoststory #truehorror #shorts
+```
+
+**Pinned comment:** `Was it there the whole way? 🪆`
+
+**TikTok caption**
+```
+don't look at the dolls. they're already looking at you 🪆 #islandofthedolls #xochimilco #truehorror #scarystories #haunted #fyp
+```
+**Cover text:** `DON'T LOOK UP`
+**TikTok pinned comment:** `count the dolls facing the water on the way out. now on the way back.`
 
 **When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok).

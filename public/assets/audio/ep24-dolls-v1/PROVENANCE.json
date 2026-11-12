@@ -1,0 +1,158 @@
+{
+  "episode": "Ep24TheyTurnTheirHeads",
+  "duration_seconds": 53.03,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep24-take1.mp3",
+    "sha256": "8cea4616c5e2e2ddd90f5b94bbd5d482c0b14e48e1357bb987ada4914641cc56",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (library voice)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep24-take1.mp3: 50.88 s, 774 credits (used)",
+      "public/assets/audio/eleven-takes/ep24-take2.mp3: 49.36 s, 774 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep24-dolls/prompt.json"
+  },
+  "original_synthesis": [
+    "NO SCORE: diegetic only (Season 3 sound language for Episode 24)",
+    "water lapping, wind, the water swirling at the turn, the floating doll tapping the hull, one low hit at the look up (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "lFu01SsOZpgI3DYJFDbP",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "pole-1": {
+        "path": "public/assets/audio/eleven-sfx/ep24-pole-1.mp3",
+        "sha256": "465e637680aff06841e944078902aaae5431c58ae028a0fae31dc5da7fe73c88"
+      },
+      "pole-4": {
+        "path": "public/assets/audio/eleven-sfx/ep24-pole-4.mp3",
+        "sha256": "75170560b8c0543d4a0341c703cce9895e14777137f6aabc6ed2f6dafc9858fb"
+      },
+      "band-2": {
+        "path": "public/assets/audio/eleven-sfx/ep24-band-2.mp3",
+        "sha256": "65e1dfcc2780bfe108d93f923bb1b1211c291761ba4f157095f8740f765b12fd"
+      },
+      "band-4": {
+        "path": "public/assets/audio/eleven-sfx/ep24-band-4.mp3",
+        "sha256": "d1046fd95b06c6b93f735a2445f547b37b2aa06dae7caf9201d0db50f913a31c"
+      },
+      "band-1": {
+        "path": "public/assets/audio/eleven-sfx/ep24-band-1.mp3",
+        "sha256": "9ffcfa86594785147225b5b1b840b031f8a551238be17979d77106d7199fc606"
+      },
+      "dolls-1": {
+        "path": "public/assets/audio/eleven-sfx/ep24-dolls-1.mp3",
+        "sha256": "e5d6742220bb41e85df7437564c933b2f9ce8bcec2b0d07dd68fc69df9c05af2"
+      },
+      "dolls-2": {
+        "path": "public/assets/audio/eleven-sfx/ep24-dolls-2.mp3",
+        "sha256": "d827d98f83206feaeeed1244a3125de10ccfc472c4675a2c919397621dcca027"
+      },
+      "whisper-4": {
+        "path": "public/assets/audio/eleven-sfx/ep24-whisper-4.mp3",
+        "sha256": "40cf47bfaf53a97ded42c230f7d77f70e0be034dd0e7e3de9c05dc596a3d8c87"
+      },
+      "pole-3": {
+        "path": "public/assets/audio/eleven-sfx/ep24-pole-3.mp3",
+        "sha256": "61604a3c181e83a65ccbdf0a0741d056dbc74546b428ad514be19b1f51ff5f70"
+      }
+    },
+    "note": "four prompts x four variations (68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "there is no music; music_presence measures the whole non-voice bed against the voice",
+  "real_recordings_used": false,
+  "library_cues": {
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    }
+  },
+  "stingers": [
+    50.98
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.2,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -15.8,
+    "last_quarter_second": -240.0
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0,
+    "l09": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 12.6,
+      "phone_band_voice_minus_all_db": 11.4,
+      "voice_minus_bed_db": 12.6
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 13.3,
+      "phone_band_voice_minus_all_db": 10.5,
+      "voice_minus_bed_db": 13.3
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 12.3,
+      "phone_band_voice_minus_all_db": 11.1,
+      "voice_minus_bed_db": 12.3
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 11.6,
+      "phone_band_voice_minus_all_db": 10.1,
+      "voice_minus_bed_db": 11.6
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 11.7,
+      "phone_band_voice_minus_all_db": 10.6,
+      "voice_minus_bed_db": 11.7
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 11.0,
+      "phone_band_voice_minus_all_db": 11.0,
+      "voice_minus_bed_db": 11.0
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 6.5,
+      "phone_band_voice_minus_all_db": 7.1,
+      "voice_minus_bed_db": 6.5
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 8.3,
+      "phone_band_voice_minus_all_db": 8.7,
+      "voice_minus_bed_db": 8.3
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 45.0,
+      "phone_band_voice_minus_all_db": 43.5,
+      "voice_minus_bed_db": 45.0
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -10.1,
+    "music_minus_voice_in_gaps_db": -9.0,
+    "music_share_of_gaps_seconds": 11.9
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

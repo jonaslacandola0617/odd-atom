@@ -1,0 +1,81 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 53.03,
+  "duration_frames": 1591,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Don't look at the dolls. They're already looking at you.",
+      "start": 0.1,
+      "end": 3.45,
+      "kind": "narrator",
+      "beat_before": "hook: gliding into the canal at dusk; the first dolls hang from the trees, facing the water"
+    },
+    {
+      "id": "l02",
+      "text": "Xochimilco, Mexico City. For about fifty years, one man lived alone on this little island in the canals.",
+      "start": 4.45,
+      "end": 12.04,
+      "kind": "narrator",
+      "beat_before": "more dolls; the reeds; the fence of sticks hung with heads"
+    },
+    {
+      "id": "l03",
+      "text": "Don Juli\u00e1n Santana Barrera said a girl had drowned nearby. He hung dolls in the trees, for her.",
+      "start": 12.94,
+      "end": 19.09,
+      "kind": "narrator",
+      "beat_before": "a tree full of dolls passes close; they swing"
+    },
+    {
+      "id": "l04",
+      "text": "Hundreds of them. He pulled them out of the canals, and out of the trash.",
+      "start": 19.89,
+      "end": 24.15,
+      "kind": "narrator",
+      "beat_before": "the hut with dolls nailed to its walls"
+    },
+    {
+      "id": "l05",
+      "text": "Visitors say the dolls whisper. That their heads turn when a boat goes by.",
+      "start": 25.45,
+      "end": 29.91,
+      "kind": "narrator",
+      "beat_before": "one doll near the boat turns its head, slowly, in plain sight"
+    },
+    {
+      "id": "l06",
+      "text": "Some say the girl was real. Others say he only dreamed her. No record of her has been found.",
+      "start": 30.91,
+      "end": 36.64,
+      "kind": "narrator",
+      "beat_before": "the end of the island; the boat starts to turn"
+    },
+    {
+      "id": "l07",
+      "text": "In two thousand one, he was found drowned. In the same canal, his family says.",
+      "start": 38.04,
+      "end": 42.96,
+      "kind": "narrator",
+      "beat_before": "the boat turns all the way round; black water"
+    },
+    {
+      "id": "l08",
+      "text": "Now, on the way back. Look at the same dolls.",
+      "start": 43.96,
+      "end": 47.68,
+      "kind": "narrator",
+      "beat_before": "the way back, closer to the bank: the same dolls, all facing the boat; one floats beside us"
+    },
+    {
+      "id": "l09",
+      "text": "Don't look up.",
+      "start": 49.48,
+      "end": 50.43,
+      "kind": "narrator",
+      "beat_before": "the camera tilts down to the black water: in the reflection, a doll hangs right above us, looking down"
+    }
+  ]
+}
