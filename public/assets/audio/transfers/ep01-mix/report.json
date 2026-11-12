@@ -1,0 +1,234 @@
+{
+ "seconds": 357.0,
+ "integrated_lufs": -14.6,
+ "decoded_peak_dbfs": -1.29,
+ "dialogue_margins_db": [
+  {
+   "cue": "l01 titoboy",
+   "t": 2.0,
+   "margin_db": 7.6
+  },
+  {
+   "cue": "l02 lola",
+   "t": 6.4,
+   "margin_db": 9.1
+  },
+  {
+   "cue": "l03 rudy",
+   "t": 11.0,
+   "margin_db": 6.7
+  },
+  {
+   "cue": "l04 titoboy",
+   "t": 14.4,
+   "margin_db": 4.1
+  },
+  {
+   "cue": "l05 rudy",
+   "t": 18.4,
+   "margin_db": 5.8
+  },
+  {
+   "cue": "l06 titoboy",
+   "t": 22.6,
+   "margin_db": 7.1
+  },
+  {
+   "cue": "l07 rudy",
+   "t": 29.0,
+   "margin_db": 7.5
+  },
+  {
+   "cue": "l08 guest",
+   "t": 34.4,
+   "margin_db": 5.3
+  },
+  {
+   "cue": "l09 liza",
+   "t": 48.5,
+   "margin_db": 9.1
+  },
+  {
+   "cue": "l10 nico",
+   "t": 54.5,
+   "margin_db": 9.5
+  },
+  {
+   "cue": "l11 liza",
+   "t": 59.0,
+   "margin_db": 8.2
+  },
+  {
+   "cue": "l12 nico",
+   "t": 62.5,
+   "margin_db": 10.1
+  },
+  {
+   "cue": "l13 liza",
+   "t": 66.0,
+   "margin_db": 9.1
+  },
+  {
+   "cue": "l14 nico",
+   "t": 75.5,
+   "margin_db": 10.3
+  },
+  {
+   "cue": "l15 liza",
+   "t": 78.0,
+   "margin_db": 8.4
+  },
+  {
+   "cue": "l16 bea",
+   "t": 84.0,
+   "margin_db": 5.5
+  },
+  {
+   "cue": "l17 bea",
+   "t": 88.0,
+   "margin_db": 9.4
+  },
+  {
+   "cue": "l18 nico",
+   "t": 91.0,
+   "margin_db": 8.7
+  },
+  {
+   "cue": "l19 bea",
+   "t": 94.0,
+   "margin_db": 10.3
+  },
+  {
+   "cue": "l20 nico",
+   "t": 103.6,
+   "margin_db": 9.9
+  },
+  {
+   "cue": "l21 bea",
+   "t": 111.6,
+   "margin_db": 9.7
+  },
+  {
+   "cue": "l22 nico",
+   "t": 115.0,
+   "margin_db": 9.6
+  },
+  {
+   "cue": "l23 nico",
+   "t": 119.0,
+   "margin_db": 10.4
+  },
+  {
+   "cue": "l24 bea",
+   "t": 124.6,
+   "margin_db": 9.2
+  },
+  {
+   "cue": "l25 guest",
+   "t": 146.0,
+   "margin_db": 5.2
+  },
+  {
+   "cue": "l26 bea",
+   "t": 163.0,
+   "margin_db": 4.1
+  },
+  {
+   "cue": "l27 nico",
+   "t": 164.4,
+   "margin_db": 3.7
+  },
+  {
+   "cue": "l28 bea",
+   "t": 166.2,
+   "margin_db": 10.3
+  },
+  {
+   "cue": "l29 nico",
+   "t": 175.0,
+   "margin_db": 9.0
+  },
+  {
+   "cue": "l30 bea",
+   "t": 177.4,
+   "margin_db": 10.8
+  },
+  {
+   "cue": "l31 nico",
+   "t": 179.8,
+   "margin_db": 10.1
+  },
+  {
+   "cue": "l08 guest",
+   "t": 190.0,
+   "margin_db": 8.4
+  },
+  {
+   "cue": "l32 jojo",
+   "t": 207.8,
+   "margin_db": 6.1
+  },
+  {
+   "cue": "l33 bea",
+   "t": 230.0,
+   "margin_db": 8.5
+  },
+  {
+   "cue": "l34 nico",
+   "t": 233.4,
+   "margin_db": 10.8
+  },
+  {
+   "cue": "l35 bea",
+   "t": 237.6,
+   "margin_db": 10.8
+  },
+  {
+   "cue": "l36 nico",
+   "t": 242.0,
+   "margin_db": 9.7
+  },
+  {
+   "cue": "l37 nico",
+   "t": 259.4,
+   "margin_db": 7.9
+  },
+  {
+   "cue": "l38 nico",
+   "t": 334.4,
+   "margin_db": 12.7
+  }
+ ],
+ "tightest": [
+  {
+   "cue": "l27 nico",
+   "t": 164.4,
+   "margin_db": 3.7
+  },
+  {
+   "cue": "l04 titoboy",
+   "t": 14.4,
+   "margin_db": 4.1
+  },
+  {
+   "cue": "l26 bea",
+   "t": 163.0,
+   "margin_db": 4.1
+  },
+  {
+   "cue": "l25 guest",
+   "t": 146.0,
+   "margin_db": 5.2
+  },
+  {
+   "cue": "l08 guest",
+   "t": 34.4,
+   "margin_db": 5.3
+  },
+  {
+   "cue": "l16 bea",
+   "t": 84.0,
+   "margin_db": 5.5
+  }
+ ]
+}
