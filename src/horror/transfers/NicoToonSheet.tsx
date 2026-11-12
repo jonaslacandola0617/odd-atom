@@ -6,7 +6,7 @@ import {useThree} from '@react-three/fiber';
 import * as THREE from 'three';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 import {clone as skClone} from 'three/examples/jsm/utils/SkeletonUtils.js';
-import {toon, addOutlines} from '../toon';
+import {toon} from '../toon';
 import {drawNicoFace, makeFaceTexture, NicoExpr} from './nicoFace';
 
 export type NicoToonSheetProps = {shot: 'lineup' | 'faces'; lw: number};
@@ -49,7 +49,7 @@ export const makeToonNico = (src: THREE.Group) => {
 		}
 		m.material = toon(old.color);
 	});
-	if (!(globalThis as any).__noOutline) addOutlines(g, 1.6, '#0b0a0c', (m) => m.name.includes('face') || m.name.includes('glasses'));
+	// no outlines: the user wants toon colour bands only (2026-11-12)
 	const b = (n: string) => g.getObjectByName(n)!;
 	const rest = new Map<THREE.Object3D, THREE.Quaternion>();
 	g.traverse((o) => { if ((o as THREE.Bone).isBone) rest.set(o, o.quaternion.clone()); });
@@ -94,8 +94,7 @@ const Scene: React.FC<{src: THREE.Group; shot: 'lineup' | 'faces'}> = ({src, sho
 	);
 };
 
-export const NicoToonSheet: React.FC<NicoToonSheetProps & {noOutline?: boolean}> = ({shot, lw, noOutline}) => {
-	(globalThis as any).__noOutline = !!noOutline;
+export const NicoToonSheet: React.FC<NicoToonSheetProps> = ({shot, lw}) => {
 	const src = useNicoToon();
 	const lh = Math.round((lw * 9) / 16);
 	return (

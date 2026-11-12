@@ -13,7 +13,7 @@ const pick = () => {
 };
 const STYLE = process.argv.includes('--toon') ? 'toon' : 'ps1';
 const V2 = process.argv.includes('--v2');
-const SHOTS = V2 ? (process.argv.includes('--nooutline') ? [['faces', 640, '']] : [['lineup', 640, ''], ['faces', 640, ''], ['lineup', 480, ''], ['faces', 480, '']]) : process.argv.includes('--toon') ? [['lineup', 480, 'neutral'], ['closeup', 480, 'neutral'], ['closeup', 480, 'fear'], ['closeup', 480, 'focused']] : [
+const SHOTS = V2 ? [['lineup', 640, ''], ['faces', 640, ''], ['lineup', 480, ''], ['faces', 480, '']] : process.argv.includes('--toon') ? [['lineup', 480, 'neutral'], ['closeup', 480, 'neutral'], ['closeup', 480, 'fear'], ['closeup', 480, 'focused']] : [
 	['lineup', 480, 'neutral'], ['lineup', 640, 'neutral'],
 	['closeup', 480, 'neutral'], ['closeup', 480, 'fear'], ['closeup', 640, 'fear'], ['closeup', 480, 'focused'],
 ];
@@ -25,7 +25,7 @@ const SHOTS = V2 ? (process.argv.includes('--nooutline') ? [['faces', 640, '']] 
 	try {
 		// warm-up: the first WebGL still in a fresh browser can come out black, so render one and discard it
 		for (const [shot, lw, expression] of [SHOTS[0], ...SHOTS]) {
-			const inputProps = V2 ? {shot, lw, noOutline: process.argv.includes('--nooutline')} : {shot, lw, expression, style: STYLE};
+			const inputProps = V2 ? {shot, lw} : {shot, lw, expression, style: STYLE};
 			const composition = await selectComposition({serveUrl, id: V2 ? 'NicoToonSheet' : 'NicoLook', inputProps, puppeteerInstance: browser});
 			const t = Date.now();
 			const file = V2 ? `nico-v2-toon-${shot}-${lw}x${Math.round(lw * 9 / 16)}.png` : `nico-${STYLE === 'toon' ? 'toon-' : ''}${shot}-${expression}-${lw}x${Math.round(lw * 9 / 16)}.png`;

@@ -58,6 +58,7 @@
   - **Nico v2 TOON (2026-11-12):** `assets3d/characters/nico/build_nico_toon.py` builds `public/assets/3d/nico/nico-v2-toon.glb`.
     - **Model:** the CC0 MakeHuman body and rig; the head scaled 13%; the inner mouth and eye-socket lining removed and the face smoothed; spiky hair; thick glasses; the sheet's palette.
     - **Face:** a painted pixel-face decal with seven expressions, drawn by `src/horror/transfers/nicoFace.ts` (`setFace(expr)`), instead of shape keys.
+    - **No outlines (user, 2026-11-12):** "Dont add an outline in our toon shading just the colors no outline". TRANSFERS uses toon colour bands only; `addOutlines` stays in `toon.ts` but is not used.
     - **Look:** `src/horror/toon.ts` has three-band toon shading and screen-space outlines (constant px). Depth-proportional outlines blew up to about 6 px with narrow lenses and blacked out the mouth.
     - **Sheet:** `NicoToonSheet`, `node scripts/render_nico_look.cjs --v2`, written to `assets3d/characters/nico/sheet-v2-toon/`. Not yet approved as a model.
   - **Nico design sheet:** from the user's ChatGPT, saved at `assets3d/characters/nico/design/nico-sheet-chatgpt-v1.png`, with notes in its README. It is the reference for the stylized toon model: about 6.5 heads, spiky messy hair, a dark teal-green tee, six expressions.

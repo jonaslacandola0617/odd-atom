@@ -36,7 +36,8 @@ const outlineMat = (px: number, lh: number, color: THREE.ColorRepresentation) =>
 	return m;
 };
 
-/** Adds an outline twin to every mesh under root: px is the line width in render pixels, lh the render height (16:9 frame). */
+/** NOT USED for TRANSFERS: the user wants toon colour bands with no outlines (2026-11-12). Kept for other work.
+ * Adds an outline twin to every mesh under root: px is the line width in render pixels, lh the render height (16:9 frame). */
 export const addOutlines = (root: THREE.Object3D, px = 1.5, color: THREE.ColorRepresentation = '#0b0a0c', skip?: (m: THREE.Mesh) => boolean, lh = 360) => {
 	const meshes: THREE.Mesh[] = [];
 	root.traverse((o) => { const m = o as THREE.Mesh; if (m.isMesh && !m.userData.isOutline && !(skip && skip(m))) meshes.push(m); });
