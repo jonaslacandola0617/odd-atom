@@ -2,21 +2,93 @@
   "library": "TRANSFERS sound library v3 (Episode 1 gaps)",
   "generated": "2026-11-12",
   "provider": "ElevenLabs connector (user's second account, free tier, 444 credits at start), eleven_text_to_sound_v2, duration_seconds set, prompt influence 0.3",
-  "flow_id": "17Um1AqHubVxEcs9iz7N",
-  "user_request": "\"I connected an account with 444 credits left use it to fix sfx or generate new ones we need.\"",
+  "flow_id": "17Um1AqHubVxEcs9iz7N (flash, steps) and yJpLZFjVDXtWV9F71b0G (the rest)",
+  "user_request": "\"I connected an account with 444 credits left use it to fix sfx or generate new ones we need.\"; then \"i reconnect the previous account with 325 credits left use it for those fix\"",
   "pricing": "this free account charges 10 credits per second (50 for 5 s, 80 for 8 s), about 3x the old account",
-  "pending": "typing, light switch, gate, cloth lift, VCR frame-step, tape eject (5 s each): 'free generations busy', not charged; retrying every 30 min, at most 4 times (the user's standing rule). Hospital phone bed, barangay night bed and VHS dropout were dropped for cost: build them in the mix or generate them on a larger account.",
+  "pending": "none: the ten queued sounds were generated on the user's reconnected original account (325 credits; 286 spent, about 3.3 credits per second)",
   "listening": "not yet heard by the user",
   "files": {
     "film-camera-flash-1.mp3": {
       "prompt": "Old film camera shutter click and flash pop, then the rising whine of the flash recharging, in a small room",
       "seconds": 5.04,
-      "sha256": "2d364c916003c6be9d158baca066d0bdb15b08f6ef1e1d4a6e8b3cc6a78d8c49"
+      "sha256": "2d364c916003c6be9d158baca066d0bdb15b08f6ef1e1d4a6e8b3cc6a78d8c49",
+      "account": "second (free) account, flow 17Um1AqHubVxEcs9iz7N"
     },
     "tsinelas-steps-1.mp3": {
       "prompt": "Slow careful footsteps in rubber flip-flops on a concrete floor, soft slaps, quiet room, close-mic",
       "seconds": 8.05,
-      "sha256": "24bd91d6e4b7ab32c0f19ba954d6996aff4323b45601ee04e8be0d0ecf517701"
+      "sha256": "24bd91d6e4b7ab32c0f19ba954d6996aff4323b45601ee04e8be0d0ecf517701",
+      "account": "second (free) account, flow 17Um1AqHubVxEcs9iz7N"
+    },
+    "keyboard-mouse-1.mp3": {
+      "prompt": "Typing slowly on an old computer keyboard with a few mouse clicks, quiet room at night, close-mic",
+      "seconds": 6.03,
+      "loop": false,
+      "sha256": "dbe7aa690f0251fc7b8e2e9de5b3181594c31dfe7fc933ad60129f08cbbc2aa1",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
+    },
+    "light-switch-off-1.mp3": {
+      "prompt": "Plastic wall light switch clicked off, fluorescent tube buzz stops, quiet room heard through an old camcorder microphone",
+      "seconds": 5.04,
+      "loop": false,
+      "sha256": "09725adca32bed73ab3e415247c904640bf1018fedd78dc5bc5e184701197683",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
+    },
+    "gate-goodbyes-1.mp3": {
+      "prompt": "Metal house gate creaks and clangs shut at night, distant indistinct goodbyes outside, heard through an old camcorder microphone",
+      "seconds": 6.03,
+      "loop": false,
+      "sha256": "f7fbc0fda53cc0e5042e43fb1fc8498531f2cc3e76b00ac91a70dbff34d37681",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
+    },
+    "cloth-lift-1.mp3": {
+      "prompt": "Cloth jacket rustling as someone gently lifts a sleeping child off a wooden bench, soft creak of the bench, close-mic",
+      "seconds": 5.04,
+      "loop": false,
+      "sha256": "b96d1796c1c048e4190b9a8f1c0bf75a887ebbafe0894fd88cf22f0d4ba0a753",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
+    },
+    "vcr-frame-step-1.mp3": {
+      "prompt": "Old VCR pause button clicked, then several small mechanical clicks as the tape is stepped frame by frame, close-mic",
+      "seconds": 5.04,
+      "loop": false,
+      "sha256": "8e6905cdaffb3bde2efafdeaade341950cc56bc68c223056d581d64ddf407f08",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
+    },
+    "vhs-eject-1.mp3": {
+      "prompt": "VHS tape ejected from an old VCR, motor whir, clunk, cassette pushed out through the plastic flap, close-mic",
+      "seconds": 5.04,
+      "loop": false,
+      "sha256": "cb5f4d425786b3e0d4bfa5296526ab4d75bdf4e8a5a0ef89f702f753495b50ad",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
+    },
+    "crt-off-1.mp3": {
+      "prompt": "Old CRT television switched off, soft electrical pop, whine fading down, faint crackle of static discharge",
+      "seconds": 5.04,
+      "loop": false,
+      "sha256": "da2811d55a362e725cbd21b0f4eeba03c710cb9519749110424d1b585f50a367",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
+    },
+    "vhs-dropout-1.mp3": {
+      "prompt": "Damaged VHS tape playback, sudden audio dropouts, tracking noise crackle and hiss bursts, warbling",
+      "seconds": 8.05,
+      "loop": false,
+      "sha256": "d76c5a3a0c12f493aeb7280e2399eec8768e120f26fa0f3c855605fa35b7464a",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
+    },
+    "hospital-phone-loop20.mp3": {
+      "prompt": "Hospital staff locker room at night heard through a phone call, distant muffled PA announcement, a door, faint footsteps, low fluorescent hum",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "a97061f1bcb78d233b40ceeeb96ae6fc3f7f3db3aad26adeb09983d3d9dd173e",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
+    },
+    "barangay-night-loop20.mp3": {
+      "prompt": "Quiet provincial neighborhood at night, crickets and geckos, a distant dog barking, a far-off tricycle, faint karaoke very far away",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "41777a671c9432ab4f3d416aec6e96168dc80a35466eb9331206c9da85eee9f4",
+      "account": "original account, flow yJpLZFjVDXtWV9F71b0G"
     }
   }
 }

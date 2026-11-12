@@ -123,6 +123,11 @@
     - **Longer actions:** `tape-breath-long8`, `phone-focus-long6`, `breath-nervous-long8`, `vcr-rewind-long6`, `marker-acetate-long6`, `crt-on-long5`, `padlock-gate-long5`.
     - **20 s loops:** `compressor`, `drum-fire-rain` and `dawn-village`.
     - **Old account:** it had more credits than estimated; about 2,250 were spent on 2026-11-12. The balance is unknown.
+  - **Library v3, Episode 1 gaps (2026-11-12):** `public/assets/audio/transfers/sfx-v3/`, 12 sounds, one take each.
+    - **Contents:** the film-camera flash, tsinelas steps, typing, a light switch, the gate with goodbyes, the cloth lift, VCR frame-step, tape eject, CRT off, VHS dropout, a 20 s hospital-phone loop and a 20 s barangay-night loop.
+    - **Accounts:** the flash and the steps came from the user's second (free) account, which charges 10 credits per second and returned "busy" errors. The rest came from the reconnected original account (286 of its 325 credits).
+    - **Levels:** barangay-night, the cloth lift and the steps are quiet and need gain in the mix.
+    - The Sound Picker includes them. The user has not heard them.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
