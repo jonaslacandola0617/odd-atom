@@ -63,3 +63,26 @@ were not starting from scratch".
   on Superhive is listed as Creative Commons (unverified).
 - **Sketchfab search tip:** filter by "Downloadable" and a Creative Commons
   licence (CC0 or CC-BY).
+
+## Reviewed uploads
+
+### "peter-a-stylized-character.zip" (user upload, 2026-11-12): ON HOLD, licence risk
+
+- **What it is:** a Sketchfab download with no licence file in the zip.
+  - Inside is `source/peter.glb`: a **Ready Player Me** avatar. The meshes are
+    named `Wolf3D_*` (Wolf3D is Ready Player Me's maker).
+  - It has a Mixamo-style 67-bone rig and visemes, blink and smile morphs.
+- **Licence concern:** Ready Player Me's docs describe avatars made in its web
+  Avatar Creator as **CC BY-NC-SA 4.0 (non-commercial)**. Its end-user terms say
+  "for your own personal, non-commercial use". Commercial use needs Ready Player
+  Me's developer or partner arrangement.
+  - A Sketchfab uploader cannot relicense Ready Player Me's head, hair and
+    outfits.
+  - So even with a CC-BY label on Sketchfab, building a monetized channel's lead
+    character on it is a risk.
+- **Status:**
+  - Not used, and not committed: the repo is public, and the licence is unclear.
+  - The Sketchfab page URL was requested from the user to read the stated
+    licence.
+  - The recommendation is a CC0 base (for example Quaternius) for anything that
+    goes in the videos.
