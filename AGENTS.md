@@ -40,7 +40,11 @@
     - **Sound:** `scripts/transfers_test_sound.py`. Reused SFX and library sounds plus synthesis, no new credits, −16 LUFS (a judgement for the user; there is no dialogue), decoded peak −2.0 dBFS.
     - **Render:** 148 s for 600 frames.
     - **Notes:** `docs/production/transfers-acting-test/README.md`.
-  - **Status:** nothing approved; no ElevenLabs credits spent; the acting test awaits the user's verdict. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
+  - **User verdict on the test:** "so ugly … i hope our final series dont look like that", though "it shows that theres a possibility". The user wants **stylized (not realistic) models, toon shading, and a pixel-art animation look** ("with toon shading we can make it looks like an art").
+    - **Toon kit:** `src/horror/toon.ts`: a three-band `MeshToonMaterial` with palette snapping, and inverted-hull outlines that follow skinning and morphs.
+    - **Style frames:** `NicoLook` `style: 'toon'`, `node scripts/render_nico_look.cjs --toon`, written to `assets3d/characters/nico/toon-test-v1/`.
+    - **Finding:** the outlines and bands read as "art", but realistic face micro-forms break into blotchy toon bands, and point lights make ring bands on the walls. Simple stylized shapes, painted 2D faces and directional key lights are needed.
+  - **Status:** nothing approved; no ElevenLabs credits spent; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".

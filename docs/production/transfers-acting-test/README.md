@@ -81,3 +81,11 @@ The user's go-ahead: "I think its good enough to run on 20s test".
 ## Status
 
 Not approved by the user. This is a capability test, not an episode.
+
+## User verdict (2026-11-12)
+
+> "Well its so ugly and i hope our final series dont look like that although ig it shows that theres a possibility that we can do it. Also for the look what if we made a stylized models instead of it being realistic … i kinda want it to be in toon texture/shader … i want it to look like a pixel art animation, with toon shading we can make it looks like an art."
+
+- **Look:** v1 is rejected as ugly. The realistic MakeHuman look is not the series look.
+- **Pipeline:** v1 is kept as proof that it works (rig, IK, face keys, render speed).
+- **Next direction:** stylized characters, toon shading, a pixel-art look.

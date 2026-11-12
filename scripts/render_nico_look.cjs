@@ -11,22 +11,23 @@ const pick = () => {
 	}) : [])].filter(Boolean);
 	return c.find((p) => fs.existsSync(p));
 };
-const SHOTS = [
+const STYLE = process.argv.includes('--toon') ? 'toon' : 'ps1';
+const SHOTS = process.argv.includes('--toon') ? [['lineup', 480, 'neutral'], ['closeup', 480, 'neutral'], ['closeup', 480, 'fear'], ['closeup', 480, 'focused']] : [
 	['lineup', 480, 'neutral'], ['lineup', 640, 'neutral'],
 	['closeup', 480, 'neutral'], ['closeup', 480, 'fear'], ['closeup', 640, 'fear'], ['closeup', 480, 'focused'],
 ];
 (async () => {
 	const serveUrl = await bundle({entryPoint: path.join(root, 'src/index.ts'), rootDir: root});
 	const browser = await openBrowser('chrome', {browserExecutable: pick(), chromiumOptions: {gl: 'swangle'}});
-	const dest = path.join(root, 'assets3d/characters/nico/look-v1');
+	const dest = path.join(root, STYLE === 'toon' ? 'assets3d/characters/nico/toon-test-v1' : 'assets3d/characters/nico/look-v1');
 	fs.mkdirSync(dest, {recursive: true});
 	try {
 		// warm-up: the first WebGL still in a fresh browser can come out black, so render one and discard it
 		for (const [shot, lw, expression] of [SHOTS[0], ...SHOTS]) {
-			const inputProps = {shot, lw, expression};
+			const inputProps = {shot, lw, expression, style: STYLE};
 			const composition = await selectComposition({serveUrl, id: 'NicoLook', inputProps, puppeteerInstance: browser});
 			const t = Date.now();
-			const file = `nico-${shot}-${expression}-${lw}x${Math.round(lw * 9 / 16)}.png`;
+			const file = `nico-${STYLE === 'toon' ? 'toon-' : ''}${shot}-${expression}-${lw}x${Math.round(lw * 9 / 16)}.png`;
 			await renderStill({serveUrl, composition, inputProps, frame: 0, output: path.join(dest, file), puppeteerInstance: browser, chromiumOptions: {gl: 'swangle'}, logLevel: 'error', timeoutInMilliseconds: 120000});
 			if (!fs.existsSync(path.join(dest, '.warm'))) { fs.writeFileSync(path.join(dest, '.warm'), ''); continue; }
 			console.log('saved', file, ((Date.now() - t) / 1000).toFixed(1) + 's');

@@ -8,9 +8,10 @@ import * as THREE from 'three';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 import {clone as skClone} from 'three/examples/jsm/utils/SkeletonUtils.js';
 import {ps1} from '../ps1';
+import {toon, addOutlines} from '../toon';
 
 type Shot = 'lineup' | 'closeup';
-export type NicoLookProps = {shot: Shot; lw: number; expression: string};
+export type NicoLookProps = {shot: Shot; lw: number; expression: string; style?: 'ps1' | 'toon'};
 
 const EXPR: Record<string, Record<string, number>> = {
 	neutral: {},
@@ -41,14 +42,14 @@ const rotateWorld = (bone: THREE.Object3D, axis: THREE.Vector3, angle: number) =
 	bone.updateMatrixWorld(true);
 };
 
-const prepare = (src: THREE.Group, expression: string, turn: number) => {
+const prepare = (src: THREE.Group, expression: string, turn: number, style: 'ps1' | 'toon' = 'ps1') => {
 	const g = skClone(src) as THREE.Group;
 	g.traverse((o) => {
 		const m = o as THREE.Mesh;
 		if (!m.isMesh) return;
 		const old = m.material as THREE.MeshStandardMaterial;
 		const hasCol = old.name === 'skin' && !!m.geometry.getAttribute('color');
-		const mat = ps1(new THREE.MeshLambertMaterial({color: hasCol ? 0xffffff : old.color, vertexColors: hasCol, side: THREE.FrontSide}), 22, 'vec2(150.0, 84.0)');
+		const mat = style === 'toon' ? toon(hasCol ? 0xffffff : old.color, {vertexColors: hasCol}) : ps1(new THREE.MeshLambertMaterial({color: hasCol ? 0xffffff : old.color, vertexColors: hasCol, side: THREE.FrontSide}), 22, 'vec2(150.0, 84.0)');
 		m.material = mat;
 		const dict = m.morphTargetDictionary;
 		if (dict && m.morphTargetInfluences) {
@@ -65,19 +66,25 @@ const prepare = (src: THREE.Group, expression: string, turn: number) => {
 	rotateWorld(b('lowerarm_l'), X, -0.04); rotateWorld(b('lowerarm_r'), X, -0.04);
 	rotateWorld(b('spine_03'), X, 0.06);            // tired, slightly rounded shoulders
 	rotateWorld(b('head'), X, 0.08);
+	if (style === 'toon') {
+		b('head').scale.setScalar(1.18);              // first hint of stylized proportions
+		addOutlines(g, 0.0045, '#0b0a0c', (m) => m.name.includes('glasses'));
+	}
 	g.rotation.y = turn;
 	return g;
 };
 
 const floorMat = ps1(new THREE.MeshLambertMaterial({color: '#2a2622'}), 22);
 const wallMat = ps1(new THREE.MeshLambertMaterial({color: '#26282a'}), 22);
+const floorToon = toon('#3a3029');
+const wallToon = toon('#2f3236');
 
-const Scene: React.FC<{nico: THREE.Group; shot: Shot; expression: string}> = ({nico, shot, expression}) => {
+const Scene: React.FC<{nico: THREE.Group; shot: Shot; expression: string; style: 'ps1' | 'toon'}> = ({nico, shot, expression, style}) => {
 	const {camera} = useThree();
 	const people = React.useMemo(() => {
-		if (shot === 'closeup') return [prepare(nico, expression, -0.45)];
-		return [0, 0.62, Math.PI / 2, Math.PI].map((t) => prepare(nico, expression, t));
-	}, [nico, shot, expression]);
+		if (shot === 'closeup') return [prepare(nico, expression, -0.45, style)];
+		return [0, 0.62, Math.PI / 2, Math.PI].map((t) => prepare(nico, expression, t, style));
+	}, [nico, shot, expression, style]);
 	// set the camera during render: a still render does not wait for effects
 	const cam = camera as THREE.PerspectiveCamera;
 	if (shot === 'lineup') { cam.position.set(0, 0.95, 4.6); cam.fov = 34; cam.lookAt(0, 0.86, 0); }
@@ -94,11 +101,11 @@ const Scene: React.FC<{nico: THREE.Group; shot: Shot; expression: string}> = ({n
 			<pointLight position={[0, 2.2, -1.6]} intensity={5} distance={5} decay={1.6} color="#8a90a8" />
 			<mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]}>
 				<planeGeometry args={[12, 8, 24, 16]} />
-				<primitive attach="material" object={floorMat} />
+				<primitive attach="material" object={style === 'toon' ? floorToon : floorMat} />
 			</mesh>
 			<mesh position={[0, 2, -1.2]}>
 				<planeGeometry args={[12, 4, 24, 8]} />
-				<primitive attach="material" object={wallMat} />
+				<primitive attach="material" object={style === 'toon' ? wallToon : wallMat} />
 			</mesh>
 			{people.map((p, i) => (
 				<primitive key={i} object={p} position={shot === 'lineup' ? [(i - 1.5) * 0.82, 0, 0] : [0, 0, 0]} />
@@ -107,7 +114,7 @@ const Scene: React.FC<{nico: THREE.Group; shot: Shot; expression: string}> = ({n
 	);
 };
 
-export const NicoLook: React.FC<NicoLookProps> = ({shot, lw, expression}) => {
+export const NicoLook: React.FC<NicoLookProps> = ({shot, lw, expression, style = 'ps1'}) => {
 	const nico = useNico();
 	const lh = Math.round((lw * 9) / 16);
 	const scale = 1920 / lw;
@@ -115,7 +122,7 @@ export const NicoLook: React.FC<NicoLookProps> = ({shot, lw, expression}) => {
 		<AbsoluteFill style={{background: '#000'}}>
 			<div style={{position: 'absolute', left: 0, top: 0, width: lw, height: lh, transform: `scale(${scale})`, transformOrigin: '0 0'}}>
 				<ThreeCanvas width={lw} height={lh} gl={{antialias: false, preserveDrawingBuffer: true}} camera={{fov: 34, near: 0.03, far: 60}} style={{imageRendering: 'pixelated'}}>
-					{nico && <Scene nico={nico} shot={shot} expression={expression} />}
+					{nico && <Scene nico={nico} shot={shot} expression={expression} style={style} />}
 				</ThreeCanvas>
 			</div>
 		</AbsoluteFill>
