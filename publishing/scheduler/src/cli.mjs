@@ -2,9 +2,9 @@
 // After Sign-Off scheduler. Commands:
 //   login                      open Chrome so you can sign in to YouTube and TikTok (once)
 //   download [--all]           download the videos for the next 7 days (or all 20)
-//   plan --start YYYY-MM-DD [--order mixed|1-20|11-20,1-10] [--yt 20:30] [--tt 21:30] [--every 1]
+//   plan --start YYYY-MM-DD [--order mixed|1-20|11-20,1-10] [--skip 1-2] [--seed text] [--yt 20:30] [--tt 21:30]
 //   check                      check the schedule for mistakes
-//   schedule [--days 7] [--only youtube|tiktok] [--ep N] [--auto]
+//   schedule [--days 7] [--only youtube|tiktok] [--ep N] [--auto] [--tiktok-days 10]
 //   status                     show what is scheduled, and what to do by hand
 //   watched N [N ...]          mark episodes as watched/approved by you
 import fs from 'node:fs';
@@ -25,7 +25,7 @@ for (let i = 0; i < rest.length; i++) {
   } else positional.push(rest[i]);
 }
 
-const TIKTOK_MAX_DAYS = 10;
+const TIKTOK_MAX_DAYS = Number(flags['tiktok-days'] || 10);
 const DAY = 86400e3;
 
 function upcoming(schedule, days) {
@@ -90,32 +90,83 @@ function parseOrder(spec) {
   });
 }
 
+// Small seeded random generator, so the same --seed always gives the same plan.
+function rng(seedText) {
+  let h = 2166136261;
+  for (const c of String(seedText)) h = Math.imul(h ^ c.charCodeAt(0), 16777619);
+  return () => {
+    h += 0x6d2b79f5;
+    let t = h;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+/**
+ * One episode per posting day, from --start, in the chosen order. Each week
+ * (Monday–Sunday) leaves out a few random days (--skip, default 1-2), never a
+ * Monday, so the channel doesn't post like a machine. Episodes already
+ * scheduled, or dated before --start, keep their dates.
+ */
 function plan() {
   const schedule = loadSchedule();
   const start = flags.start;
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(start || '')) throw new Error('Give a start date: --start 2026-11-16');
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(start || '')) throw new Error('Give a start date: --start 2026-11-19');
   const order = parseOrder(flags.order);
-  const every = Number(flags.every || 1);
-  const off = schedule.defaults.utcOffset;
   const yt = flags.yt || schedule.defaults.youtubeTime;
   const tt = flags.tt || schedule.defaults.tiktokTime;
+  const [skipMin, skipMax] = String(flags.skip ?? '1-2').split('-').map(Number);
+  const random = rng(flags.seed ?? start);
   const state = loadState();
   const byEp = new Map(schedule.episodes.map((e) => [e.ep, e]));
+  const fixed = (e) => state[e.ep]?.youtube || state[e.ep]?.tiktok || (e.youtube.publishAt && phDate(e.youtube.publishAt) < start);
+  const queue = order.filter((n) => byEp.has(n) && !fixed(byEp.get(n)));
+  const kept = schedule.episodes.filter(fixed);
+  for (const e of kept.sort((x, y) => Date.parse(x.youtube.publishAt) - Date.parse(y.youtube.publishAt))) {
+    console.log(`${phDate(e.youtube.publishAt)}  Episode ${String(e.ep).padStart(2)}  ${e.story}   (kept)`);
+  }
+
+  // Days off for the week starting on Monday `monday` (UTC date at 00:00).
+  const offDays = new Map();
+  const daysOff = (monday) => {
+    const key = monday.toISOString().slice(0, 10);
+    if (!offDays.has(key)) {
+      const n = skipMin + Math.floor(random() * (Math.max(skipMax ?? skipMin, skipMin) - skipMin + 1));
+      const pool = [1, 2, 3, 4, 5, 6];            // Tue..Sun (0 = Monday is never skipped)
+      const chosen = new Set();
+      while (chosen.size < Math.min(n, pool.length)) chosen.add(pool[Math.floor(random() * pool.length)]);
+      offDays.set(key, chosen);
+    }
+    return offDays.get(key);
+  };
+
   let day = new Date(`${start}T00:00:00Z`);
-  const queue = order.filter((n) => byEp.has(n) && !state[n]?.youtube && !state[n]?.tiktok);
+  const names = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+  let lastWeek = '';
   while (queue.length) {
     const ymd = day.toISOString().slice(0, 10);
-    const idx = queue.findIndex((n) => !(byEp.get(n).notOn || []).includes(ymd.slice(5)));
-    if (idx >= 0) {
-      const e = byEp.get(queue.splice(idx, 1)[0]);
-      e.youtube.publishAt = `${ymd}T${yt}:00${off}`;
-      e.tiktok.publishAt = `${ymd}T${tt}:00${off}`;
-      console.log(`${ymd}  Episode ${String(e.ep).padStart(2)}  ${e.story}`);
+    const dow = (day.getUTCDay() + 6) % 7;        // 0 = Monday
+    const monday = new Date(day.getTime() - dow * DAY);
+    const off = daysOff(monday);
+    const wk = monday.toISOString().slice(0, 10);
+    if (wk !== lastWeek) {
+      console.log(`\nWeek of ${wk}: days off ${[...off].sort().map((d) => names[d]).join(' and ')}`);
+      lastWeek = wk;
     }
-    day = new Date(day.getTime() + every * DAY);
+    if (!off.has(dow)) {
+      const idx = queue.findIndex((n) => !(byEp.get(n).notOn || []).includes(ymd.slice(5)));
+      if (idx >= 0) {
+        const e = byEp.get(queue.splice(idx, 1)[0]);
+        e.youtube.publishAt = `${ymd}T${yt}:00${schedule.defaults.utcOffset}`;
+        e.tiktok.publishAt = `${ymd}T${tt}:00${schedule.defaults.utcOffset}`;
+        console.log(`${ymd} ${names[dow]}  Episode ${String(e.ep).padStart(2)}  ${e.story}`);
+      }
+    }
+    day = new Date(day.getTime() + DAY);
   }
   saveSchedule(schedule);
-  console.log('\nSaved schedule.json (Philippine time). Episodes already scheduled were left alone.');
+  console.log('\nSaved schedule.json (Philippine time). Run "npm run check" to double-check it.');
 }
 
 // ---------- status ----------

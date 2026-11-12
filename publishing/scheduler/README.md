@@ -19,9 +19,12 @@ It costs nothing and needs no API keys or developer accounts. It never sees your
    - In YouTube Studio, create two playlists once: **Season 1: After Sign-Off** and **Season 2: Kwentong Kababalaghan**. If they don't exist, the tool skips that step.
    - Close the Chrome window. You stay signed in for next time.
 
-## Every week
+## Scheduling
 
-Double-click **`3-SCHEDULE-NEXT-7-DAYS.bat`**.
+- **`4-SCHEDULE-EVERYTHING.bat`** schedules every episode that isn't scheduled yet: all of them on YouTube (YouTube lets you schedule as far ahead as you like), and on TikTok every episode within TikTok's limit of about 10 days ahead. Run it again around once a week to add the next TikToks; anything already scheduled is skipped.
+- **`3-SCHEDULE-NEXT-7-DAYS.bat`** does only the next 7 days.
+
+If TikTok's calendar lets you pick dates further ahead than 10 days on your account, you can try `npm run schedule -- --days 60 --tiktok-days 30`.
 
 - It lists the episodes due in the next 7 days and downloads their videos (about 40–50 MB each).
 - For each episode it opens a YouTube tab, fills everything in, and **stops before clicking Schedule** so you can look. Press **Enter** in the black window to schedule it. Type **s** to skip it, or **d** if you clicked Schedule yourself.
@@ -37,18 +40,19 @@ Double-click **`STATUS.bat`** to see what is scheduled. Once videos are live, it
 
 `schedule.json` holds all 20 episodes: the video file, YouTube title, description, tags and playlist, and the TikTok caption, all from the posting kits. Edit it with Notepad if you want to change any text.
 
-It is set to **one episode a day, alternating Season 1 and Season 2**, from **Monday 16 November 2026**: YouTube at **8:30 pm** and TikTok at **9:30 pm**, Philippine time. Episode 20 (the Manila Film Center) is never put on 17 November.
+It alternates Season 1 and Season 2 (1, 11, 2, 12 …), with YouTube at **8:30 pm** and TikTok at **9:30 pm**, Philippine time. Episodes 1, 11 and 2 are on 16, 17 and 18 November. The rest run from **Thursday 19 November to Wednesday 9 December**. Each week **1 or 2 random days are left out (never a Monday)**, so the channel doesn't post like a machine every single day. Episode 20 (the Manila Film Center) is never put on 17 November.
 
 To re-plan, open a Command Prompt in the folder and run, for example:
 
 ```
 npm run plan -- --start 2026-11-23
-npm run plan -- --start 2026-11-23 --every 2          (every other day)
+npm run plan -- --start 2026-11-23 --skip 2           (always 2 days off a week)
+npm run plan -- --start 2026-11-23 --seed hello       (a different random set of days off)
 npm run plan -- --start 2026-11-23 --yt 19:00 --tt 21:00
 npm run plan -- --start 2026-11-23 --order 11-20,1-10  (Season 2 first)
 ```
 
-Episodes that are already scheduled keep their dates. Then run `npm run check`.
+Episodes that are already scheduled, or dated before the start date, keep their dates. Then run `npm run check`.
 
 **Watched episodes:** each episode has `"watched": false`. Before scheduling, the tool asks whether to go ahead with episodes you haven't watched. Once you've watched them, mark them, for example `npm run watched -- 1 11 2 12`.
 
