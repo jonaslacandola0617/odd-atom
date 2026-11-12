@@ -121,7 +121,26 @@ python3 scripts/caption_check.py src/data/ep28-brown-v1-timeline.json assets/vid
 
 ## Review of the encoded file
 
-(filled after the render)
+- **File:** 44,679,327 bytes; SHA-256 `991d83840a2b96dd37a8605144a751198aa10e6518510672ae0df84c1253545e`.
+- **Streams:**
+  - H.264 1080×1920, 1,715 frames, 57.17 s. That is 2 frames short of the 1,717-frame timeline; they fall in the closing black.
+  - AAC 57.22 s: the checked `mix.m4a`, muxed with `-c copy`.
+  - It decodes with no errors.
+- **Loudness:** −14.1 LUFS integrated; peak −2.0 dBFS (ffmpeg ebur128).
+- **Dark key:** mean luma, sampled twice a second, runs 15–79/255 with a median of 26. The brightest frames are the red darkroom and the flashes.
+- **Captions:** all 12 caption cards were found on screen at their timeline times (`out/oddatom/ep28-captions`, not tracked).
+- **Muted contact sheet** (every 2 s), in order:
+  - the print in the red tray, the staircase and the pale figure;
+  - the house front in the headlights;
+  - the hall;
+  - the ground glass, upside down, with the vapour becoming a woman;
+  - the hall after the flash, empty;
+  - the print coming up, and to the stop bath;
+  - the moonlit landing with the figure, then without;
+  - the print with her closer, then larger;
+  - the hall in the dark.
+
+  The two flashes and the face at the lens fall between the 2-second samples; they were checked in the stills (frames 548, 850 and 1,662). It reads without sound.
 
 ## Known limits
 
