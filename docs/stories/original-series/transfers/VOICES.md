@@ -7,8 +7,10 @@
 - **Voices:** "yes for voices design each for characters". Each main character
   gets a designed voice.
 - **Language:** "most filipinos speak almost in english so a good mix of english
-  and tagalog well be good". The dialogue now leans English. The series' key
-  phrases stay in Tagalog.
+  and tagalog well be good", then (after reading the script): "make it a good balance
+  of english and tagalog not english dominated … if were doing a throwback on 90s
+  use tagalog dominated". Present-day scenes are a balanced mix; the 1990s tapes are
+  Tagalog-dominated. The key phrases stay in Tagalog.
 - **Credits:** about 2,000 for now, more later. The user's words: "use the
   remaining 2K to generate every beats, sfx, and music we need for the film."
 
@@ -52,36 +54,37 @@ with English mixed in.
 - **Description:** Filipino man in his mid-thirties, provincial, soft-spoken and
   tired, slightly hoarse, low-medium pitch. Natural Taglish, switching easily
   between English and Tagalog. Quiet, worried, never theatrical.
-- **Preview line (Episode 1 lines):** "I know. May papasok na pera, promise. It's
-  actually earning na, Liz. One more month. Shh. Huwag mo munang sasabihin kay
-  Mama, ha? …Is that a person?"
+- **Preview line (Episode 1 lines):** "Alam ko. May papasok na pera, promise. Kumikita
+  na siya, Liz. Legit. One more month lang, Liz. Shh. Huwag mo munang sasabihin kay
+  Mama, ha? …Tao ba 'yan?"
 
 ### BEA (9)
 - **Description:** a nine-year-old Filipino girl, quiet and serious, soft and
   clear, not cute or bubbly. She speaks politely with "po", in natural Taglish.
   Observant, slightly sleepy, a little scared.
-- **Preview line:** "Pa, may box po sa labas. It's getting wet. Pa, the money
-  looks different po. Pa… sino po 'yung nakatayo sa kitchen? Kanina pa po siya
+- **Preview line:** "Pa, may box po sa labas. Nababasa na po. Pa, iba po 'yung
+  itsura ng pera. Pa… sino po 'yung nakatayo sa may kusina? Kanina pa po siya
   diyan."
 
 ### LIZA (33)
 - **Description:** Filipino woman in her early thirties, a night-shift nurse,
   practical and sharp, tired but warm underneath, medium pitch. Natural Taglish,
-  mostly English. Firm without shouting.
-- **Preview line:** "Nico, the bank called again. Three months na tayong late.
-  Eighteen hundred. In one month. Nico… let's just sell the shop. Please."
+  a balanced mix of English and Tagalog. Firm without shouting.
+- **Preview line:** "Nico, tumawag ulit 'yung bangko. Three months na tayong late.
+  Eighteen hundred. Sa isang buwan. Nico… ibenta na lang natin 'yung shop. Please."
 
 ### TITO BOY (about 40, heard on 1990s tapes)
 - **Description:** Filipino man around forty, a cheerful wedding and party
   videographer, a friendly salesman's voice, upbeat and a little too warm.
-  Natural Taglish, slightly old-fashioned.
-- **Preview line:** "O, wave kayo! For Tatay Rudy 'to! Pare, ikaw naman. Nothing.
-  Basta huwag mo lang patayin. Smile, everybody, smile!"
+  Mostly Tagalog, the way a 1990s Filipino party videographer talks.
+- **Preview line:** "O, kaway kayo! Para kay Tatay Rudy 'to! Pare, ikaw naman. Wala.
+  Basta huwag mo lang papatayin. Ngiti naman diyan, lahat!"
 
 ## Status (2026-11-12)
 
-- **Voice texts approved:** "Voices ok". The descriptions and preview lines above are approved
-  as written.
+- **Voice texts approved:** "Voices ok". The preview lines were then updated to the new
+  language rule (the same lines as the revised script); Tito Boy's description now says
+  mostly Tagalog.
 - **Voices postponed:** "lets do sfx for now". Voices will be designed on the user's other
   ElevenLabs account (more credits) once it is reconnected here. Nothing has been generated.
 - **SFX done:** library v2 (`public/assets/audio/transfers/sfx-v2/`), 20 sounds × 4 takes. It

@@ -106,7 +106,7 @@
     - Ten episodes of 4–6 min, each with its own form and scare placement; the care section is in the bible. No models, renders or credits were used.
   - **User on the bible (2026-11-12):** "the ending is perfect"; it sets up Season 2.
     - **Voices:** a designed voice for each character.
-    - **Language:** an English-leaning Taglish mix ("most filipinos speak almost in english"). The Episode 1 dialogue was revised; the key phrases stay in Tagalog.
+    - **Language (corrected by the user after reading the script):** "a good balance of english and tagalog not english dominated", and "if were doing a throwback on 90s use tagalog dominated". Present-day scenes are a balanced mix; the 1990s tapes and flashbacks are Tagalog-dominated. The key phrases stay in Tagalog. The Episode 1 script and the `VOICES.md` preview lines were revised to match.
     - **Credits:** about 2,000 for now.
     - **Prices (estimates):** speech is about 2 credits per character for two takes; an SFX set of 4 takes is 200; music is not available on this connector.
     - **Plan and voice drafts:** `docs/stories/original-series/transfers/VOICES.md`. The voice design tool needs the description and the preview line from the user, so the drafts wait for the user's confirmation.
