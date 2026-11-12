@@ -61,6 +61,49 @@ rendering approach: full resolution with pixel-art textures, real soft shadows,
 depth of field, bloom and reflections. Rigged, expressive characters are the
 biggest missing piece. Our horror tone can stay; the reference's tone is cute.
 
+## The target the user set (2026-11-12): the reference's model and animation quality, in our dark analog look
+
+**What the user said.** "Not cute … horror, scary, spooky." Only the quality
+of the reference's 3D models and animation counts, not its lighting or mood.
+"Not squishy animation", and "our darker analog look with better characters".
+
+### Model quality in the reference (what to match)
+- Clean, readable silhouettes with real volumes: rounded heads and bodies, no
+  boxes or visible primitives.
+- Separate, shaped parts that move on their own: arms, hands, ears, tails,
+  beaks.
+- Props with real thickness that hands actually hold: a snack bag, a pumpkin
+  bucket, a knife.
+- One consistent design per character across shots, close-up and wide.
+- Hand-painted textures, including faces painted onto the model; expressions
+  are swapped textures.
+
+### Animation quality in the reference (what to match, and what not)
+- Match:
+  - clear key poses with eased timing;
+  - head and eyes leading a turn;
+  - follow-through on loose parts;
+  - contacts that hold, with feet planted and hands gripping without sliding;
+  - deliberate holds.
+- Don't match: the cartoon squash and stretch and the bouncy, rubbery timing.
+
+### Our target
+- **Human proportions.** Realistic, weighty, restrained movement.
+  The horror comes from timing: too still, too slow, a joint held a beat too
+  long, a head turning when the body doesn't.
+- **Characters.** Proper modelled humans with fingers, hair and clothing shapes,
+  built in headless Blender.
+  - **Skeleton:** spine, neck, head, jaw, eyelids, arms, fingers, legs.
+  - **Faces:** painted pixel faces with swappable expressions, plus jaw and
+    blink bones.
+  - **Movement library:** walk, sneak, turn, sit, stand, reach, grip, crouch,
+    crawl, and "wrong" variants for the possessed or the entity.
+- **The look stays ours:** the PS1 shader, darkness, motivated light, analog
+  damage.
+- **Resolution.** At 180×320 a face is a few pixels, so better characters would
+  barely read. The test should compare 180×320 with 270×480 (the Galileo
+  baseline) and 360×640, all still nearest-upscaled.
+
 ## What the current pipeline does well
 
 Remotion + @remotion/three (three 0.169, react-three-fiber 9), the PS1 shader
@@ -137,10 +180,8 @@ helpers (`src/horror/ps1.ts`), 180×320 upscaled 6×, and software WebGL
 
 ## Proposed proof-of-quality test (before any season)
 
-- Two looks would be tested side by side on the same shot:
-  (a) our current 180×320 PS1 look, and
-  (b) a reference-style look: half or full resolution, smooth geometry,
-  nearest-filtered pixel textures, soft shadows, depth of field and bloom.
+- The same shot in our dark PS1 analog look, rendered at 180×320, 270×480 and
+  360×640. (The user ruled out the reference's warm, cute lighting.)
 - One original rigged character from the chosen series, in one set, 15–20 s,
   portrait.
 - In one shot it walks in (a real walk cycle), stops, turns its head towards a

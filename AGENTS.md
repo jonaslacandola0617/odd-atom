@@ -7,11 +7,19 @@
     - Warm soft-shadowed light, depth of field, bloom, god rays, reflections, particles, moving cameras with fast cuts, and sparse outlined captions.
     - Copy techniques only, never their characters.
   - **Capability note:** `docs/stories/original-series/CAPABILITY.md`. The biggest gap is characters that act: nothing yet has a skeleton, a walk cycle or a face. The proposal is a headless Blender (`bpy` 5.3 on PyPI, not yet installed or tested) asset library: Python-built models, armatures and shape keys, exported as GLB and driven by an `AnimationMixer` set from the Remotion frame. Outside assets only with their terms checked.
-  - **Concepts:** `docs/stories/original-series/CONCEPTS.md`:
+  - **Concepts v1 (rejected, "i dont like any of your original stories"):** `docs/stories/original-series/CONCEPTS-v1-rejected.md`:
     - A. "Sign-Off": a dead station's broadcast films your house, and the camera moves only while watched. It is the recommended pipeline fit.
     - B. "Ninth Night": an extra mourner at every wake, a family curse since 1974.
     - C. "The Extension": a house that makes its sleepers build it. It needs the most rigging.
-  - **Status:** nothing chosen or approved. The proposed next step is a 15–20 s test with one rigged original character, rendered in both our PS1 look and a reference-style look (pixel textures at half or full resolution, soft shadows, depth of field, bloom), with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
+  - **The user's direction after v1:**
+    - **Writing:** the quality of *The Wailing*, *La Llorona*, *The Silence of the Lambs*, *The Cabin in the Woods*, *Evil Dead*, *Evil Dead Rise* and *Evil Dead Burn*, "ESPECIALLY SINISTER". Learn their writing engines; never copy their characters, creatures, artefacts or plots.
+    - **Look:** horror only, nothing cute, "our darker analog look with better characters".
+    - **From the reference:** only its model and animation quality, "not squishy animation".
+  - **Concepts v2:** `docs/stories/original-series/CONCEPTS-v2.md`. Each film's engine is studied, then three concepts:
+    - "TRANSFERS": a video-transfer technician and a box of home-video tapes, each ending with a still figure; recommended.
+    - "THE CRYING SEASON": a river-town legend whose crying is a warning.
+    - "THE VISITING HOURS": prison interviews with a confessed "worn" man, ending in a typhoon siege.
+  - **Status:** nothing chosen or approved. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".

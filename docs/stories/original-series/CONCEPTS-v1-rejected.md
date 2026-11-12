@@ -1,5 +1,7 @@
 # Original horror series: three concepts for discussion (2026-11-12)
 
+> **Rejected by the user (2026-11-12):** "i dont like any of your original stories". See `CONCEPTS-v2.md`.
+
 The user wants an original, serialized horror series with a real planned story:
 "something generational", something people wait for, and the craft of films like
 *The Grudge*, *Evil Dead Rise* and *Evil Dead Burn*.
