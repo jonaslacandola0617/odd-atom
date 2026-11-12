@@ -102,3 +102,25 @@ There is no image generator here, so the model itself is the sheet.
     the MakeHuman system assets and shares them on Drive. Drive downloads work.
 - **Status.** Not approved and not proposed for approval: v0 only proves the
   pipeline (build, rig, weight, export, render).
+
+## Nico v1 (2026-11-12): MakeHuman CC0 base, rigged, with facial shape keys
+
+- **Approved access.** The user said "okay go". The environment then allowed the
+  MPFB and MakeHuman hosts (GitHub and the MakeHuman file server still returned
+  403 at the time).
+- **Source.** MPFB 2.0.18 came from extensions.blender.org, checksum verified.
+  The sandbox refused to install and run the add-on's code, so only its CC0 data
+  files are read by our own script (`assets3d/characters/nico/build_nico_mh.py`).
+- **The model.**
+  - Real human anatomy at 1.68 m: hands, face and proportions.
+  - A 53-bone game-engine skeleton with CC0 weights.
+  - 34 facial expression shape keys (neutral, focused, fear and forced-smile
+    sheets).
+  - Our own clothes, hair, glasses and sneakers.
+- **Dark-look stills.** Rendered through the PS1 pipeline at 480×270 and 640×360.
+  The face and expressions read at both. 640×360 holds the glasses and hands
+  better.
+- **Lesson.** MakeHuman's `helper-hair` is a long, face-covering curtain. It is
+  wrong for Nico, but it is a ready base for a long-haired entity.
+- **Status.** Not approved. Waiting for the user's verdict on the sheet before
+  the 15–20 s acting test.
