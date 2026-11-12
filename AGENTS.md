@@ -104,6 +104,12 @@
     - **Proposed canon:** the entity is "Ang Kumuha" (*kumuha* means both "to film" and "to take"). It travels by being copied; the copier carries it; it takes whoever accepts a handed camera ("*Ikaw naman*") and sets it down. Tito Boy is the red herring and a victim. Nico's own father was taken on Tape 06. Bea's refusal and Nico holding the camera end Season 1, and the upload of Tape 10 is the cliffhanger.
     - **Grammar:** the figure is never in the 2.39:1 frame, only in recordings; the entity's sound signature is the autofocus "focus hunt".
     - Ten episodes of 4–6 min, each with its own form and scare placement; the care section is in the bible. No models, renders or credits were used.
+  - **User on the bible (2026-11-12):** "the ending is perfect"; it sets up Season 2.
+    - **Voices:** a designed voice for each character.
+    - **Language:** an English-leaning Taglish mix ("most filipinos speak almost in english"). The Episode 1 dialogue was revised; the key phrases stay in Tagalog.
+    - **Credits:** about 2,000 for now.
+    - **Prices (estimates):** speech is about 2 credits per character for two takes; an SFX set of 4 takes is 200; music is not available on this connector.
+    - **Plan and voice drafts:** `docs/stories/original-series/transfers/VOICES.md`. The voice design tool needs the description and the preview line from the user, so the drafts wait for the user's confirmation.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".

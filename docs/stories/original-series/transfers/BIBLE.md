@@ -1,6 +1,8 @@
 # TRANSFERS: series bible (draft v1, 2026-11-12)
 
-> **Status: a draft for the user.** Nothing here is approved. Every decision the
+> **Status: a draft for the user.** The Season 1 ending is approved by the user
+> ("the ending is perfect", 2026-11-12). Nothing else here is approved yet. The dialogue
+> is an English-leaning Taglish mix; the key phrases stay in Tagalog. Every decision the
 > user has already made (see `AGENTS.md`, "Original series discussion") is kept.
 > Anything the user has not decided is marked **PROPOSAL**.
 

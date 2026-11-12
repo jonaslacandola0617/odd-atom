@@ -10,6 +10,9 @@
   - `[4:3 TAPE]` marks VHS playback, full height, with a date stamp and VHS damage.
   - `[16:9 PHONE]` marks a phone recording at full frame, with no bars.
 - **Dialogue:** each line is in Taglish, followed by its English caption (*EN:*).
+  The mix leans English, the way people talk today (user, 2026-11-12). The
+  series' key phrases stay in Tagalog: *Ikaw naman*, *Huwag mo munang sasabihin
+  kay Mama*, *Kanina pa po siya diyan*, *Ayoko po*, *Hawak ko*.
   Tape dialogue is mono and hissy; its captions are in italics and brackets.
 - **Sound cues** are tagged by layer: **AMB** (ambience), **FOL** (foley) and
   **HOR** (horror). A file name such as `vhs-insert` is a sound already in
@@ -54,7 +57,7 @@ polo shirt with the price tag still on the sleeve.
 > **FOL:** camcorder handling (`camcorder-room`).
 
 **TITO BOY** (O.S., behind the camera, a salesman's warmth)
-O, kaway kayo! Para kay Tatay Rudy 'to!
+O, wave kayo! For Tatay Rudy 'to!
 *EN: [Come on, wave! This one's for Tatay Rudy!]*
 
 Guests wave. Rudy covers his face, laughing.
@@ -63,7 +66,7 @@ LOLA (70s) comes into frame and presses a **blue airmail envelope with a
 red-and-blue border** into Rudy's hand.
 
 **LOLA**
-Pambaon mo, anak. Huwag mong gastusin agad.
+Pambaon mo, anak. Don't spend it all at once, ha.
 *EN: [Something for your trip, son. Don't spend it all at once.]*
 
 **RUDY**
@@ -82,18 +85,18 @@ camera is now held lower and less steadily, close to a laughing mouth.
 > **FOL:** a hard handling bump, and a hand rubbing the mic.
 
 **RUDY** (now behind the camera, close to the mic)
-Paano 'to? Ano'ng pipindutin ko?
+Paano 'to? What do I press?
 *EN: [How does this work? What do I press?]*
 
 **TITO BOY** (O.S., farther away)
-Wala. Huwag mo lang patayin.
+Nothing. Basta huwag mo lang patayin.
 *EN: [Nothing. Just don't turn it off.]*
 
 Rudy films his family clumsily: a long, loving hold on Lola, then on his son JOJO
 (8), who holds a paper plate of spaghetti and grins into the lens.
 
 **RUDY**
-Dito na lang. Picture tayo, lahat!
+Dito na lang. Picture tayo, everybody!
 *EN: [I'll leave it here. Photo, everybody!]*
 
 The frame tilts and drops. **The camera is set down** on the TV cabinet, low and
@@ -143,37 +146,36 @@ Nico's phone lies on the counter, on speaker.
 
 **LIZA** (V.O., on the phone, in a hospital locker room, a PA announcement faint
 behind her)
-Nico, tumawag ulit 'yung bangko. Tatlong buwan na tayong late.
+Nico, the bank called again. Three months na tayong late.
 *EN: Nico, the bank called again. We're three months behind.*
 
 **NICO**
-Alam ko. May papasok na pera. Promise.
+I know. May papasok na pera, promise.
 *EN: I know. Money's coming in. I promise.*
 
 **LIZA** (V.O.)
-Galing saan? Diyan sa channel mo?
+From where? 'Yung channel mo?
 *EN: From where? That channel of yours?*
 
 Nico glances at the capture PC. A browser tab shows a plain channel dashboard,
 **LUMANG TAPE**, with **Kita ngayong buwan: ₱1,840** ("Earnings this month").
 
 **NICO**
-Kumikita na siya, Liz.
+It's actually earning na, Liz.
 *EN: It's making money now, Liz.*
 
 **LIZA** (V.O.)
-Isang libo't walong daan. Sa isang buwan. Nico… ibenta na natin 'yung shop.
-Please.
+Eighteen hundred. In one month. Nico… let's just sell the shop. Please.
 *EN: Eighteen hundred. In a month. Nico… let's sell the shop. Please.*
 
 A beat. Nico rubs his eyes under his glasses.
 
 **NICO**
-Isang buwan pa.
+One more month.
 *EN: One more month.*
 
 **LIZA** (V.O., tired, letting it go)
-Pakainin mo si Bea. Bea, huwag mong hayaang magpuyat si Papa, ha?
+Pakainin mo si Bea. Bea, don't let Papa stay up late, okay?
 *EN: Feed Bea. Bea, don't let Papa stay up late, okay?*
 
 **BEA** (not looking up)
@@ -188,13 +190,13 @@ Pa, ano po 'yung "Lumang Tape"?
 *EN: Pa, what's "Old Tape"?*
 
 **NICO**
-Wala. Trabaho.
+Wala. Work stuff.
 *EN: Nothing. Work.*
 
 Bea looks past him, out at the street.
 
 **BEA**
-Pa, may box po sa labas. Nababasa na.
+Pa, may box po sa labas. It's getting wet.
 *EN: Pa, there's a box outside. It's getting wet.*
 
 Nico ducks out to the step and comes back with a soaked cardboard box. A waybill in
@@ -205,7 +207,7 @@ a plastic sleeve is beaded with rain. CLOSE on the waybill:
 > **FROM:** *(blank)*
 
 **NICO**
-Walang sender.
+No sender.
 *EN: No sender.*
 
 > **FOL:** tape tearing off cardboard, and a wet box set down on the counter (NEW).
@@ -221,11 +223,11 @@ He counts quickly and professionally: ₱9,000. He breathes out. It is the first
 he has looked relieved.
 
 **BEA** (at his elbow, looking at the notes)
-Pa, iba po 'yung itsura ng pera.
+Pa, the money looks different po.
 *EN: Pa, the money looks different.*
 
 **NICO** (barely looking)
-Luma lang. Tatanggapin pa 'yan sa bangko.
+Luma lang. The bank will still take it.
 *EN: It's just old. The bank will still take it.*
 
 He pockets it. Then, softly, a finger to his lips:
@@ -272,7 +274,7 @@ then he lets it play.
 Date stamp: **JUN.14 1991 8:31PM**
 
 **GUEST** (O.S.)
-Sa labas tayo! Kasama 'yung jeep!
+Sa labas tayo! With the jeep!
 *EN: [Outside, everyone! With the jeep!]*
 
 The family files out through the front door, laughing. Then the room is empty: the
@@ -301,7 +303,7 @@ Hm?
 *EN: Hm?*
 
 **BEA**
-Sino po 'yung nakatayo sa may kusina?
+Sino po 'yung nakatayo sa kitchen?
 *EN: Who's that standing by the kitchen?*
 
 Nico looks at her, then back at the screen. His expression goes from neutral to
@@ -317,7 +319,7 @@ is so still that the noise moves while it doesn't.
 > remain.
 
 **NICO** (quiet)
-…Tao ba 'yan?
+…Is that a person?
 *EN: …Is that a person?*
 
 **BEA**
@@ -373,7 +375,7 @@ Pa… ipo-post mo po ba 'yan?
 *EN: Pa… are you going to post that?*
 
 **NICO**
-Hindi. …Ewan ko.
+No. …I don't know.
 *EN: No. …I don't know.*
 
 **BEA**
@@ -383,7 +385,7 @@ Huwag na po.
 A long beat.
 
 **NICO**
-Matulog ka na, anak.
+Sleep ka na, anak.
 *EN: Go to sleep, sweetheart.*
 
 Bea turns on the bench, pulls his jacket up to her chin and lies **facing the dark
@@ -409,7 +411,7 @@ doorway) and the counter. He taps record and leans close to whisper, putting on
 his channel voice:
 
 **NICO**
-Tape one. Walang label. Walang pangalan.
+Tape one. No label. Walang pangalan.
 *EN: Tape one. No label. No name.*
 
 **He sets the phone down, still recording,** and turns to the PC.
