@@ -111,7 +111,24 @@ python3 scripts/caption_check.py src/data/ep29-monte-v1-timeline.json assets/vid
 
 ## Review of the encoded file
 
-(filled after the render)
+- **File:** 42,172,630 bytes; SHA-256 `f4d09f5c8b8e0cd6dfcd2c4c5b75fcde5989ccb5ca3d4a3a264b2638f6993df6`.
+- **Streams:**
+  - H.264 1080×1920, 1,598 frames, 53.27 s. That is 3 frames short of the 1,601-frame timeline; they fall in the closing black.
+  - AAC 53.36 s: the checked `mix.m4a`, muxed with `-c copy`.
+  - It decodes with no errors.
+- **Loudness:** −14.0 LUFS integrated; peak −2.0 dBFS (ffmpeg ebur128).
+- **Dark key:** mean luma, sampled twice a second, runs 15–43/255 with a median of 22.
+- **Captions:** all 12 caption cards were found on screen at their timeline times (`out/oddatom/ep29-captions`, not tracked).
+- **Muted contact sheet** (every 2 s), in order:
+  - the French doors in the storm, then the rain hanging;
+  - the house with your window lit;
+  - the hall and its candle line going out;
+  - the room, the mirror and the wardrobe opening;
+  - the doors, with the woman in black behind the lace;
+  - the hand on your shoulder;
+  - the front camera, with your face and hers.
+
+  The phone's clock runs 2:58 → 3:01. It reads without sound.
 
 ## Known limits
 
