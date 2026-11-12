@@ -84,6 +84,10 @@
     - One reference is AI image-to-3D output (Hi3D), which is the proposed route for Nico.
     - **Privacy:** nothing from those references is committed. Never copy wildsignal-art assets into this public repo.
     - Adding the engine repo `wildsignal` was refused by the sandbox; it needs the user's permission.
+  - **Build, don't generate (user, 2026-11-12):** "I did not generate any image i was hoping youd learn to build the characters using those models i provided". There is no image-to-3D route.
+    - **Lessons:** in MODEL-STUDY.md.
+    - **Nico v4 head test:** `assets3d/characters/nico/build_nico_head_v4.py` builds `public/assets/3d/nico/nico-v4-head.glb`; stills are in `assets3d/characters/nico/head-v4/` (`render_nico_look.cjs --v4head`).
+    - Not yet reviewed.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".

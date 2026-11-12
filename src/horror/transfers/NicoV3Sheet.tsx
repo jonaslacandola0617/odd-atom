@@ -12,13 +12,13 @@ import {toon} from '../toon';
 
 export type NicoExprV3 = 'tired' | 'focused' | 'forcedSmile' | 'worried' | 'fear' | 'terror' | 'blink';
 export const EXPRS_V3: NicoExprV3[] = ['tired', 'focused', 'forcedSmile', 'worried', 'fear', 'terror', 'blink'];
-export type NicoV3SheetProps = {shot: 'lineup' | 'faces' | 'mood' | 'closeup'; lw: number};
+export type NicoV3SheetProps = {shot: 'lineup' | 'faces' | 'mood' | 'closeup' | 'head' | 'headfaces'; lw: number; glb?: string};
 
-export const useNicoV3 = () => {
+export const useNicoV3 = (glb = 'assets/3d/nico/nico-v3.glb') => {
 	const [g, setG] = useState<THREE.Group | null>(null);
 	const [handle] = useState(() => delayRender('nico v3 glb'));
 	useEffect(() => {
-		new GLTFLoader().load(staticFile('assets/3d/nico/nico-v3.glb'), (x) => { setG(x.scene); continueRender(handle); }, undefined, (e) => { console.error(e); continueRender(handle); });
+		new GLTFLoader().load(staticFile(glb), (x) => { setG(x.scene); continueRender(handle); }, undefined, (e) => { console.error(e); continueRender(handle); });
 	}, [handle]);
 	return g;
 };
@@ -53,6 +53,12 @@ export const makeNicoV3 = (src: THREE.Group) => {
 const Scene: React.FC<{src: THREE.Group; shot: NicoV3SheetProps['shot']}> = ({src, shot}) => {
 	const {camera} = useThree();
 	const people = useMemo(() => {
+		if (shot === 'head') return [0, -0.62, -Math.PI / 2, Math.PI * 0.8].map((t, i) => {
+			const n = makeNicoV3(src); n.root.rotation.y = t; n.root.position.x = (i - 1.5) * 0.3; return n;
+		});
+		if (shot === 'headfaces') return EXPRS_V3.map((e, i) => {
+			const n = makeNicoV3(src); n.setFace(e); n.root.rotation.y = -0.25; n.root.position.x = (i - 3) * 0.22; return n;
+		});
 		if (shot === 'closeup') return [0, -0.62, -Math.PI / 2].map((t, i) => {
 			const n = makeNicoV3(src); n.root.rotation.y = t; n.root.position.x = (i - 1) * 0.42; return n;
 		});
@@ -64,7 +70,9 @@ const Scene: React.FC<{src: THREE.Group; shot: NicoV3SheetProps['shot']}> = ({sr
 		});
 	}, [src, shot]);
 	const cam = camera as THREE.PerspectiveCamera;
-	if (shot === 'closeup') { cam.position.set(0, 1.5, 16); cam.fov = 3.3; cam.lookAt(0, 1.5, 0); }
+	if (shot === 'head') { cam.position.set(0, 1.52, 16); cam.fov = 2.4; cam.lookAt(0, 1.5, 0); }
+	else if (shot === 'headfaces') { cam.position.set(0, 1.52, 16); cam.fov = 2.9; cam.lookAt(0, 1.52, 0); }
+	else if (shot === 'closeup') { cam.position.set(0, 1.5, 16); cam.fov = 3.3; cam.lookAt(0, 1.5, 0); }
 	else if (shot === 'faces') { cam.position.set(0, 1.5, 16); cam.fov = 5.2; cam.lookAt(0, 1.5, 0); }
 	else { cam.position.set(0, 0.86, 22); cam.fov = 5.6; cam.lookAt(0, 0.86, 0); }
 	cam.updateProjectionMatrix();
@@ -80,8 +88,8 @@ const Scene: React.FC<{src: THREE.Group; shot: NicoV3SheetProps['shot']}> = ({sr
 	);
 };
 
-export const NicoV3Sheet: React.FC<NicoV3SheetProps> = ({shot, lw}) => {
-	const src = useNicoV3();
+export const NicoV3Sheet: React.FC<NicoV3SheetProps> = ({shot, lw, glb}) => {
+	const src = useNicoV3(glb);
 	const lh = Math.round((lw * 9) / 16);
 	return (
 		<AbsoluteFill style={{background: '#000'}}>

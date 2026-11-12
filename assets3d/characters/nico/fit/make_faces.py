@@ -36,6 +36,7 @@ def frame_mask(lenses, shape, oy=0, ox=0, t=None, keep_top=False):
         if keep_top: m[y0 - 2:y0 + t, x0 + 4:x1 - 3] = False
     (ax0, ay0, ax1, ay1), (bx0, by0, bx1, by1) = [(l[0] + ox, l[1] + oy, l[2] + ox, l[3] + oy) for l in lenses]
     m[ay0 - 2:ay0 + 13, ax1 - 4:bx0 + 5] = True                            # bridge
+    m[ay0 - 2:ay1 + 3, ax1 - 11:bx0 + 12] = True                           # the lenses' inner edges either side of the bridge
     m[ay0:ay0 + 9, ax0 - 16:ax0] = True; m[by0:by0 + 9, bx1:bx1 + 16] = True   # hinges toward the temples
     return m
 

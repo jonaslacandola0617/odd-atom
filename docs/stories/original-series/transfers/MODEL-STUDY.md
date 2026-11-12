@@ -34,3 +34,24 @@ ASSET-SOURCING.md) were not opened for this study.
 3. Render natively at 640×360 (or 480×270) with no anti-aliasing, nearest textures, one warm key and coloured
    shadows, darkened for horror. No outlines (the user's rule).
 4. Check the tool's terms on output ownership before committing anything to this public repo.
+
+## Follow-up: building, not generating (user, 2026-11-12)
+
+The user did not generate the Hi3D model and does not want image-to-3D; the request is that Claude learns from the
+references and builds the characters. The construction lessons, from clay and wire renders of the references:
+
+- **Head:** the cheerleader and the anime model both have an egg-shaped skull, a nearly flat face, a tiny nose, and
+  eyes, brows and mouth painted on (no modelled lips or sockets).
+- **Hair:** many separate pieces rooted on the scalp. The anime model has a few big pointed shell locks (5,580 vertices,
+  177 pieces); the cheerleader has hundreds of sculpted clumps (545).
+- **Body and clothes:** the body is simple (about 10k vertices on the cheerleader); each garment is its own shell.
+
+**Nico v4 head test:** `assets3d/characters/nico/build_nico_head_v4.py` writes `public/assets/3d/nico/nico-v4-head.glb`.
+- It has a designed skull and face laid out in the sheet's own pixels, about 70 separate pointed locks plus a scalp
+  cap, thick 3D frames on the sheet's lens rectangles, and the sheet's seven painted faces.
+- Stills are in `assets3d/characters/nico/head-v4/` (`node scripts/render_nico_look.cjs --v4head`), with
+  `compare-sheet-vs-v4-head.png`.
+- Not yet reviewed. The known differences from the sheet:
+  - the sheet's head is rounder, and its hair wraps the sides with the ears showing;
+  - the sheet's frames are thinner;
+  - its side profile has a defined brow, nose and chin.
