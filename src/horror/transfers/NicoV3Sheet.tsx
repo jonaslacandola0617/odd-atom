@@ -27,12 +27,23 @@ export const useNicoV3 = (glb = 'assets/3d/nico/nico-v3.glb') => {
 export const makeNicoV3 = (src: THREE.Group) => {
 	const g = skClone(src) as THREE.Group;
 	const decals = new Map<string, THREE.Object3D>();
+	let paintedModel = false;
 	g.traverse((o) => {
 		const m = o as THREE.Mesh;
 		if (!m.isMesh) return;
 		m.frustumCulled = false;
 		const old = m.material as THREE.MeshStandardMaterial;
 		const fm = /nico_face_(\w+)/.exec(m.name) || /nico_face_(\w+)/.exec(m.parent?.name ?? '');
+		const painted = !!m.geometry.getAttribute('color');
+		if (fm && painted) {
+			// WildSignal look: the painted bands are in the vertex colours; the renderer adds only a little light
+			const mat = new THREE.MeshBasicMaterial({vertexColors: true, map: old.map ?? null});
+			if (old.map) { old.map.magFilter = THREE.NearestFilter; old.map.minFilter = THREE.NearestFilter; old.map.generateMipmaps = false; }
+			mat.polygonOffset = true; mat.polygonOffsetFactor = -2; mat.polygonOffsetUnits = -2;
+			m.material = mat; m.renderOrder = 2; decals.set(fm[1], m); paintedModel = true;
+			return;
+		}
+		if (painted) { m.material = new THREE.MeshBasicMaterial({vertexColors: true}); paintedModel = true; return; }
 		if (fm) {
 			const mat = toon(0xffffff);
 			if (old.map) { old.map.magFilter = THREE.NearestFilter; old.map.minFilter = THREE.NearestFilter; old.map.generateMipmaps = false; mat.map = old.map; }
@@ -47,7 +58,7 @@ export const makeNicoV3 = (src: THREE.Group) => {
 	setFace('tired');
 	const rest = new Map<THREE.Object3D, THREE.Quaternion>();
 	g.traverse((o) => { if ((o as THREE.Bone).isBone) rest.set(o, o.quaternion.clone()); });
-	return {root: g, bone: (n: string) => g.getObjectByName(n)!, rest, setFace};
+	return {root: g, bone: (n: string) => g.getObjectByName(n)!, rest, setFace, painted: paintedModel};
 };
 
 const Scene: React.FC<{src: THREE.Group; shot: NicoV3SheetProps['shot']}> = ({src, shot}) => {
@@ -77,6 +88,15 @@ const Scene: React.FC<{src: THREE.Group; shot: NicoV3SheetProps['shot']}> = ({sr
 	else { cam.position.set(0, 0.86, 22); cam.fov = 5.6; cam.lookAt(0, 0.86, 0); }
 	cam.updateProjectionMatrix();
 	const mood = shot === 'mood';
+	if (people[0]?.painted) return (
+		<>
+			{/* WildSignal-style light: a lavender ambient carries the painted colours; a weak warm sun adds a little form */}
+			<color attach="background" args={['#9c9aae']} />
+			<ambientLight intensity={0.92} color="#ffffff" />
+			<directionalLight position={[-3, 3.2, 6]} intensity={0.32} color="#fff0dc" />
+			{people.map((p, i) => <primitive key={i} object={p.root} />)}
+		</>
+	);
 	return (
 		<>
 			<color attach="background" args={[mood ? '#14191a' : '#bebebf']} />

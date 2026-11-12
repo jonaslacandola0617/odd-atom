@@ -44,17 +44,17 @@ def piece(z, pts):                   # piecewise-linear profile, pts sorted by z
     return pts[0][1] if z > pts[0][0] else pts[-1][1]
 
 # ---------------------------------------------------------------- the skull + face (one smooth designed form)
-TOP, CHIN = 40.0, -43.5             # skull top and chin, px from the eye line (the sheet: chin at eye + 43.7 px)
+TOP, CHIN = 42.0, -43.5             # skull top and chin, px from the eye line (the sheet: chin at eye + 43.7 px)
 CY = 4.0                            # skull centre sits 4 px behind the face's middle depth
-HALF_W = [(0, 31.0), (-14, 30.5), (-26, 27.5), (-35, 22.0), (-41, 15.0), (-43.5, 10.0)]   # half-width below the eyes
-FRONT = [(40, 30), (14, 34.5), (0, 35.0), (-20, 34.0), (-34, 31.0), (-43.5, 28.0)]       # front depth (y-) from centre
+HALF_W = [(0, 32.5), (-14, 31.5), (-26, 28.5), (-35, 23.0), (-41, 16.0), (-43.5, 11.0)]   # half-width below the eyes
+FRONT = [(40, 30), (20, 34.0), (13, 36.2), (7, 35.0), (0, 34.6), (-20, 34.2), (-30, 32.0), (-38, 32.4), (-43.5, 29.5)]   # brow ridge and chin       # front depth (y-) from centre
 BACK = [(40, 34), (0, 37.0), (-18, 33.0), (-30, 24.0), (-43.5, 14.0)]                      # back depth (y+)
 def head_point(dx, dy, dz):
     """unit-sphere direction -> designed head surface (px)"""
     z = dz * (TOP if dz >= 0 else -CHIN)
     r = math.sqrt(max(0.0, 1 - dz * dz))
     c, s = (dx / r, dy / r) if r > 1e-6 else (0.0, 0.0)
-    if dz >= 0: w = 31.0 * math.sqrt(max(0.0, 1 - (z / TOP) ** 2)) ** 0.9
+    if dz >= 0: w = 32.5 * math.sqrt(max(0.0, 1 - (z / TOP) ** 2)) ** 0.9
     else: w = piece(z, HALF_W)
     if dz >= 0:
         k = math.sqrt(max(0.0, 1 - (z / TOP) ** 2)) ** 0.9
@@ -76,13 +76,13 @@ head = obj('nico_head', bm, SKIN)
 # tiny wedge nose (the sheet: a small simple nose about 15 px below the eye line)
 bm = bmesh.new()
 NZ, NY = -16.0, CY - 35.0
-nv = [bm.verts.new(p) for p in [(0, NY - 4.0, NZ - 1), (-3.5, NY + 0.5, NZ - 3), (3.5, NY + 0.5, NZ - 3), (0, NY + 0.5, NZ + 8), (0, NY + 1.5, NZ - 4)]]
+nv = [bm.verts.new(p) for p in [(0, NY - 6.0, NZ - 1.5), (-4.0, NY + 0.8, NZ - 3.5), (4.0, NY + 0.8, NZ - 3.5), (0, NY + 1.0, NZ + 10), (0, NY + 1.5, NZ - 4.5)]]
 for f in ((0, 1, 3), (0, 3, 2), (0, 2, 4), (0, 4, 1), (1, 4, 2, 3)): bm.faces.new([nv[i] for i in f])
 nose = obj('nico_nose', bm, SKIN)
 # ears: flattened half-discs on the sides, from the eye line down to the nose line
 for sgn in (-1, 1):
     bm = bmesh.new(); bmesh.ops.create_uvsphere(bm, u_segments=16, v_segments=10, radius=1.0)
-    for v in bm.verts: v.co = Vector((sgn * (28.5 + max(0.0, v.co.x * sgn) * 6.0), CY + 5 + v.co.y * 5.5, -5 + v.co.z * 10.5))
+    for v in bm.verts: v.co = Vector((sgn * (30.0 + max(0.0, v.co.x * sgn) * 6.5), CY + 5 + v.co.y * 6.0, -4 + v.co.z * 11.0))
     obj('nico_ear_' + ('l' if sgn > 0 else 'r'), bm, SKIN)
 # neck and a collar ring of the shirt
 bm = bmesh.new(); bmesh.ops.create_cone(bm, cap_ends=True, segments=20, radius1=16, radius2=15, depth=30)
@@ -95,8 +95,8 @@ obj('nico_shoulders', bm, SHIRT)
 # ---------------------------------------------------------------- hair: a scalp cap + many pointed locks
 def hairline(th_deg):
     a = abs(th_deg)                      # 0 = front, 180 = back: the hairline height in px
-    return piece(-a, [(0, 21.0), (-40, 19.0), (-62, 8.0), (-80, 2.0), (-100, -4.0), (-125, -22.0), (-180, -30.0)])
-def scalp(th, ph, lift=2.2):
+    return piece(-a, [(0, 21.0), (-40, 19.0), (-62, 11.0), (-82, 8.5), (-100, 7.0), (-118, -8.0), (-145, -24.0), (-180, -28.0)])
+def scalp(th, ph, lift=3.4):
     """a point on the skull at azimuth th (deg, 0 = front, + to the character's left) and elevation ph, lifted off it"""
     t, p = math.radians(th), math.radians(ph)
     dx, dy, dz = math.sin(t) * math.cos(p), -math.cos(t) * math.cos(p), math.sin(p)
@@ -117,8 +117,8 @@ for v in bm.verts:
     d = v.co.normalized()
     p = head_point(d.x, d.y, d.z)
     th = math.degrees(math.atan2(d.x, -d.y))
-    if p.z < hairline(th) - 1.0: kill.append(v)
-    else: v.co = p + (p - Vector((0, CY, 4))).normalized() * 2.4
+    if p.z < hairline(th) - 1.0 + (5.0 * math.sin(th * 0.21) * math.sin(th * 0.083 + 1.0) if abs(th) < 70 else 0.0): kill.append(v)   # a ragged front hairline
+    else: v.co = p + (p - Vector((0, CY, 4))).normalized() * 1.8
 bmesh.ops.delete(bm, geom=kill, context='VERTS')
 cap = obj('nico_hair_cap', bm, HAIR)
 
@@ -130,7 +130,7 @@ def add_lock(root, n, flow, L, W, th_k=0.42, curl=0.0, twist=0.0):
     side.normalize()
     rings = []
     steps = 6
-    pos = root - n * 2.0
+    pos = root - n * 1.0
     d = d0.copy()
     for i in range(steps + 1):
         t = i / steps
@@ -155,11 +155,11 @@ def flow_at(th, ph, root, n):
     down = Vector((0, 0, -1)); back = Vector((0, 1, 0)); out = Vector((math.sin(math.radians(th)), 0, 0))
     if ph > 62: return (back * 1.0 + Vector((0, 0, 0.1)) + n * 0.25)             # crown: back, a little up
     if a < 55: return (down * 0.9 + Vector((-math.sin(math.radians(th)) * 0.25, -0.35, 0)))   # fringe: forward and down
-    if a < 120: return (down * 0.8 + back * 0.35 + out * 0.2)                   # sides: down and back over the ears' tops
+    if a < 120: return (down * 0.75 + back * 0.4 + out * 0.45)                  # sides: down, back and out (volume above the ears)
     return (down * 0.9 + back * 0.3)                                            # back: down to the nape
 
 count = 0
-for ring_ph, n_az, Lr, Wr in ((82, 5, (12, 16), (17, 21)), (68, 10, (13, 17), (17, 21)), (54, 13, (13, 18), (16, 20)),
+for ring_ph, n_az, Lr, Wr in ((82, 5, (10, 13), (17, 21)), (68, 10, (11, 15), (17, 21)), (54, 13, (13, 18), (16, 20)),
                               (40, 15, (12, 17), (15, 19)), (26, 15, (11, 15), (14, 18)), (12, 14, (10, 14), (13, 17)), (-2, 10, (10, 14), (13, 16))):
     for k in range(n_az):
         th = -180 + (k + random.uniform(0.2, 0.8)) * 360 / n_az
@@ -169,7 +169,7 @@ for ring_ph, n_az, Lr, Wr in ((82, 5, (12, 16), (17, 21)), (68, 10, (13, 17), (1
         f = flow_at(th, ph, root, n)
         L = random.uniform(*Lr); W = random.uniform(*Wr)
         if abs(th) < 55 and ph < 62:                    # fringe: tips stop above the brows (brow line at eye + 14 px)
-            L = min(L, max(5.0, root.z - 21.0) * 1.1); W *= 0.85
+            L = max(L, 18.0); L = min(L, max(7.0, root.z - 15.0) * 1.3); W *= 0.8
         add_lock(root, n, f, L, W, th_k=0.55, curl=random.uniform(-0.02, 0.06), twist=random.uniform(-0.15, 0.15)); count += 1
 # the cowlick: one lock that rises from the crown and flicks back
 root, n = scalp(10, 80)
@@ -185,13 +185,13 @@ def bar(a, b, w, depth, up):
         [b + u * s1 * w / 2 + nn * s2 * depth / 2 for s1, s2 in ((-1, -1), (1, -1), (1, 1), (-1, 1))]
     vs = [gbm.verts.new(p) for p in P]
     for f in ((0, 1, 2, 3), (7, 6, 5, 4), (0, 4, 5, 1), (1, 5, 6, 2), (2, 6, 7, 3), (3, 7, 4, 0)): gbm.faces.new([vs[i] for i in f])
-LW = FJ['frame_line_front_px'] * 0.85
+LW = FJ['frame_line_front_px'] * 0.62
 FY = CY - 35.0 - 2.5                    # frames stand 2.5 px in front of the face
 hinge = []
 for (x0, y0, x1, y1) in FJ['lens_rects_front_px']:
     zt, zb = -y0, -y1
     xin, xout = (x0, x1) if abs(x0) < abs(x1) else (x1, x0)
-    yin, yout = FY, FY + 4.0             # a slight wrap toward the temples
+    yin, yout = FY, FY + 1.5             # a slight wrap toward the temples
     P = lambda x, z: Vector((x, yin + (yout - yin) * (x - xin) / (xout - xin), z))
     a, b, c, d = P(x0, zt), P(x1, zt), P(x1, zb), P(x0, zb)
     bar(a - Vector((LW / 2, 0, 0)), b + Vector((LW / 2, 0, 0)), LW, 3.0, (0, 0, 1)); bar(d - Vector((LW / 2, 0, 0)), c + Vector((LW / 2, 0, 0)), LW, 3.0, (0, 0, 1))
@@ -227,10 +227,79 @@ for e in EXPR:
     decals.append(o)
 src.free()
 
+# ---------------------------------------------------------------- WildSignal-style painted form
+# Light and shadow are PAINTED into the colours (as on the WildSignal creatures and trees): a fixed painted key from the
+# viewer's upper left, recess shadow from occlusion, and irregular hand-cut band edges, posterised to four tones per
+# material: light (the base colour), mid, a cool shadow and a deep recess shadow. The renderer adds only a little light.
+from mathutils.bvhtree import BVHTree
+KEY = Vector((-0.45, -0.55, 0.70)).normalized()
+PAL = {'nico_skin': [(172, 124, 88), (148, 102, 74), (112, 74, 66), (78, 50, 52)],
+       'nico_hair': [(58, 54, 64), (34, 31, 35), (22, 20, 25), (13, 11, 16)],
+       'nico_shirt': [(70, 92, 86), (55, 72, 68), (40, 50, 54), (28, 34, 40)]}
+def lin(c): return tuple(srgb2lin(float(x)) for x in c) + (1.0,)
+occluders = [o for o in bpy.data.objects if o.type == 'MESH' and not o.name.startswith(('nico_face_', 'nico_glasses'))]
+allbm = bmesh.new()
+for o in occluders: allbm.from_mesh(o.data)
+bvh = BVHTree.FromBMesh(allbm); allbm.free()
+rng = random.Random(3)
+DIRS = []
+while len(DIRS) < 40:
+    v = Vector((rng.uniform(-1, 1), rng.uniform(-1, 1), rng.uniform(-1, 1)))
+    if 0.1 < v.length <= 1: DIRS.append(v.normalized())
+def wobble(c):                      # low-frequency "brush" noise so band edges look painted, not computed
+    return 0.07 * math.sin(0.17 * c.x + 1.3) * math.sin(0.15 * c.z + 0.4) + 0.05 * math.sin(0.21 * c.y + 0.19 * c.z + 2.0)
+def ao_at(c, n):
+    hits = m = 0
+    for d in DIRS:
+        if d.dot(n) <= 0.05: continue
+        m += 1
+        if bvh.ray_cast(c + n * 0.6, d, 20.0)[0] is not None: hits += 1
+    return hits / max(1, m)
+def shade_values(me):
+    """smoothed per-vertex light and occlusion, so the bands become large painted shapes rather than per-face noise"""
+    nv = len(me.vertices)
+    L = [max(0.0, v.normal.dot(KEY)) for v in me.vertices]
+    A = [ao_at(v.co, v.normal) for v in me.vertices]
+    nb = [[] for _ in range(nv)]
+    for e in me.edges: a_, b_ = e.vertices; nb[a_].append(b_); nb[b_].append(a_)
+    for _ in range(4):
+        A = [(A[i] * 2 + sum(A[j] for j in nb[i])) / (2 + len(nb[i])) for i in range(nv)]
+    return L, A
+def band_of(l, a, c, extra=0.0):
+    v = l * (1 - 0.45 * a) + 0.22 * (1 - a) + wobble(c) + extra
+    return 0 if v > 0.50 else 1 if v > 0.26 else 2 if v > 0.11 else 3
+def paint(o, palette_name, per_part_jitter=False):
+    me = o.data; pal = PAL[palette_name]
+    L, A = shade_values(me)
+    attr = me.color_attributes.new('Col', 'FLOAT_COLOR', 'CORNER')
+    jit = {}
+    for p in me.polygons:
+        l = sum(L[i] for i in p.vertices) / len(p.vertices); a_ = sum(A[i] for i in p.vertices) / len(p.vertices)
+        extra = jit.setdefault(p.index // 30, rng.uniform(-0.16, 0.06)) if per_part_jitter else (-0.32 if palette_name == 'nico_hair' else 0.0)
+        col = lin(pal[band_of(l, a_, p.center, extra)])
+        for li in p.loop_indices: attr.data[li].color = col
+    me.color_attributes.active_color = attr
+for o in bpy.data.objects:
+    if o.type != 'MESH' or o.name.startswith(('nico_face_', 'nico_glasses')): continue
+    mname = o.data.materials[0].name
+    paint(o, mname, per_part_jitter=(o.name == 'nico_hair_locks'))
+# the face decals: their texture is the light skin tone, so they carry a multiplier for the same painted bands
+base = PAL['nico_skin'][0]
+for o in bpy.data.objects:
+    if not o.name.startswith('nico_face_'): continue
+    me = o.data; attr = me.color_attributes.new('Col', 'FLOAT_COLOR', 'CORNER')
+    L, A = shade_values(me)
+    for p in me.polygons:
+        l = sum(L[i] for i in p.vertices) / len(p.vertices); a_ = sum(A[i] for i in p.vertices) / len(p.vertices)
+        b_ = band_of(l, a_, p.center)
+        col = tuple(srgb2lin(PAL['nico_skin'][b_][i]) / srgb2lin(base[i]) for i in range(3)) + (1.0,)
+        for li in p.loop_indices: attr.data[li].color = col
+    me.color_attributes.active_color = attr
+
 # ---------------------------------------------------------------- to metres, standing height; export
 for o in [o for o in bpy.data.objects if o.type == 'MESH']:
     for v in o.data.vertices: v.co = Vector((v.co.x * PX, v.co.y * PX, v.co.z * PX + EYE_Z))
     o.data.update()
 print('tris', {o.name: len(o.data.polygons) for o in bpy.data.objects if o.type == 'MESH' and not o.name.startswith('nico_face_')})
-bpy.ops.export_scene.gltf(filepath=out_glb, export_format='GLB', export_extras=True, use_visible=False)
+bpy.ops.export_scene.gltf(filepath=out_glb, export_format='GLB', export_extras=True, use_visible=False, export_vertex_color='ACTIVE')
 print('wrote', out_glb, os.path.getsize(out_glb))

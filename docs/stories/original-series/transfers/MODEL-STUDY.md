@@ -55,3 +55,19 @@ references and builds the characters. The construction lessons, from clay and wi
   - the sheet's head is rounder, and its hair wraps the sides with the ears showing;
   - the sheet's frames are thinner;
   - its side profile has a defined brow, nose and chin.
+
+## WildSignal look on the v4 head (user: "Use the style of my wildsignal 3D creatures while the downloaded 3D models for modelling")
+
+- **Modelling:** from the downloaded models: a designed skull and flat painted face, hair as separate locks.
+- **Look:** from WildSignal, the "painted form":
+  - light and shadow are painted into the vertex colours as four tones per material (light = the base colour, mid,
+    a cool shadow, a deep recess shadow);
+  - the tones come from a fixed painted key (viewer's upper left) and ray-cast occlusion, smoothed so the bands form
+    large shapes;
+  - the band edges are bent by low-frequency noise so they look hand-cut;
+  - the face decals carry the same bands as a multiplier.
+- **Render:** unlit (`MeshBasicMaterial`, the painted colours exactly), on a lavender ground, at 640×360 with no
+  anti-aliasing. Cast shadows and the dark horror grade come with the scene work.
+- **Lessons:**
+  - per-face occlusion makes a camouflage mosaic, so smooth it per vertex;
+  - the hair locks must sit above the scalp cap, or they vanish inside it and the cap reads as a headband.
