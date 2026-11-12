@@ -1,0 +1,415 @@
+{
+  "library": "TRANSFERS sound library v2 (reusable across the series)",
+  "generated": "2026-11-12",
+  "provider": "ElevenLabs connector, eleven_text_to_sound_v2, prompt influence 0.3, loop off",
+  "flow_id": "yJpLZFjVDXtWV9F71b0G",
+  "user_approval": "user: \"lets do sfx for now ... Push the sfx in our github\" (2026-11-12)",
+  "credits": "80 takes at about 16.7 credits each: about 1,333 credits (the tool's estimate said 50 a take; the charge was 16.7)",
+  "rotation_rule": "use all four takes as variations, rotating deterministically per cue (SOUND.md)",
+  "listening": "not yet heard by the user; this runtime cannot audition audio",
+  "prompts": {
+    "focus-hunt": {
+      "prompt": "Old camcorder autofocus motor hunting, tiny servo whirring back and forth, heard through the camera's own microphone, close-mic",
+      "use": "Ep1+ entity signature (tapes)"
+    },
+    "phone-focus": {
+      "prompt": "Smartphone camera autofocus lens motor clicking and hunting, very faint tiny mechanical ticks, close-mic",
+      "use": "Ep1+ entity signature (phone recordings)"
+    },
+    "party-camcorder": {
+      "prompt": "Family party in a small room, laughter and indistinct chatter, heard through an old camcorder microphone, muffled, tape hiss",
+      "use": "Ep1 tape bed"
+    },
+    "market-rain": {
+      "prompt": "Small town market street at dusk in light rain, a tricycle motorbike putters past, distant voices",
+      "use": "Ep1 shop exterior"
+    },
+    "vcr-rewind": {
+      "prompt": "Old VCR rewinding a tape, motor whine rising, tape spooling fast, close-mic",
+      "use": "Ep1+"
+    },
+    "vcr-end": {
+      "prompt": "VCR reaching the end of a tape, mechanical clunk, then the motor starts rewinding, close-mic",
+      "use": "Ep1+"
+    },
+    "box-open": {
+      "prompt": "Packing tape ripped off a damp cardboard box, then the box set down on a wooden counter, close-mic",
+      "use": "Ep1"
+    },
+    "tape-marker": {
+      "prompt": "Strip of masking tape torn off a roll, then a felt marker squeaking as it writes, close-mic",
+      "use": "Ep1+ tape labels"
+    },
+    "phone-down": {
+      "prompt": "Smartphone set down against a stack of plastic VHS cases, light plastic clack, close-mic",
+      "use": "Ep1"
+    },
+    "shutter": {
+      "prompt": "Steel roll-up shop shutter rattling as someone brushes past it, metallic shudder",
+      "use": "Ep1+"
+    },
+    "acetate-crt": {
+      "prompt": "Clear plastic sheet pressed flat onto a glass TV screen, soft crinkle, then strips of tape smoothed down, close-mic",
+      "use": "Ep2"
+    },
+    "marker-acetate": {
+      "prompt": "Felt marker drawing slowly on a plastic sheet over glass, slow squeaky strokes, close-mic",
+      "use": "Ep2"
+    },
+    "videoke-score": {
+      "prompt": "Old karaoke machine score fanfare, short cheesy electronic jingle, heard through a camcorder microphone",
+      "use": "Ep2 tape"
+    },
+    "rooster": {
+      "prompt": "Rooster crowing at dawn in a quiet village, distant dogs, light breeze",
+      "use": "Ep2, Ep10 dawn"
+    },
+    "compressor": {
+      "prompt": "Tire repair shop air compressor running, rattling motor, hiss of an air hose, outdoors in daytime",
+      "use": "Ep3"
+    },
+    "headphone-jack": {
+      "prompt": "Headphones plugged into an audio jack, small plastic click and cable rustle, close-mic",
+      "use": "Ep4"
+    },
+    "watch-beep": {
+      "prompt": "Cheap digital wristwatch hourly double beep, tiny and high pitched, quiet room",
+      "use": "series motif"
+    },
+    "padlock-gate": {
+      "prompt": "Rusty padlock unlocked with a key, then an old iron gate creaking open, close-mic",
+      "use": "Ep5"
+    },
+    "fluorescent": {
+      "prompt": "Old fluorescent tube light flickering on, buzzing hum, ticking starter",
+      "use": "series"
+    },
+    "drum-fire-rain": {
+      "prompt": "Fire burning in a steel drum in light rain, crackling flames and hissing raindrops",
+      "use": "Ep7"
+    }
+  },
+  "naming": "<prompt key>-<variation 1..4>.mp3",
+  "files": {
+    "acetate-crt-1.mp3": {
+      "sha256": "1a2aa6c552a4e67123583c9e8c6eeb227608eca7031ff04646f58c9928cfdd34",
+      "seconds": 1.04
+    },
+    "acetate-crt-2.mp3": {
+      "sha256": "54276dfad6befb7c3fc386d0eae8b007d30060999f87800504ae0a01adb0a8ee",
+      "seconds": 3.03
+    },
+    "acetate-crt-3.mp3": {
+      "sha256": "65fb516a434f5380efc3336b794fd304da6f4cba03c80afc4fffe0d2fdd3e8b5",
+      "seconds": 3.03
+    },
+    "acetate-crt-4.mp3": {
+      "sha256": "ce3f00d509bd8a7679b1c76b9a0ed15a51a634922ca31639fc6281faf305095b",
+      "seconds": 5.04
+    },
+    "box-open-1.mp3": {
+      "sha256": "e1b0ee06825cf4069d4a63e69c54ccb4cfb4e5840941fc28d63612218e2d9d12",
+      "seconds": 1.04
+    },
+    "box-open-2.mp3": {
+      "sha256": "fa756b0ee9a062fa37daf29cb80315fb29674947f816faba2d8f3ce7fe572232",
+      "seconds": 1.04
+    },
+    "box-open-3.mp3": {
+      "sha256": "0d38c56cdc2d7eb49c5f5c950201153186a1146ea2ff78ec2aca8432f48403b9",
+      "seconds": 1.04
+    },
+    "box-open-4.mp3": {
+      "sha256": "86c086bbe3cbfc89fe18e4887a40dbe7cadbd7ab3a7b322d3a6e980fdcdda1b7",
+      "seconds": 2.04
+    },
+    "compressor-1.mp3": {
+      "sha256": "1b5bd00d9deb730851fbbdd068705b10d01632f6024950820c9204653809d1aa",
+      "seconds": 1.04
+    },
+    "compressor-2.mp3": {
+      "sha256": "c2d3083f178a0374cdb102eab1829bd7770116c254e7bc0c3279bb8538b777ae",
+      "seconds": 3.03
+    },
+    "compressor-3.mp3": {
+      "sha256": "b5d96a04ac071be936acd6ab1cb50dc4ee939baf3fd15755279074b40ae27c38",
+      "seconds": 2.04
+    },
+    "compressor-4.mp3": {
+      "sha256": "40ac58fb3a8aaf84067797fdee56093689d96dbd5069b6d8591b692ffa5b050c",
+      "seconds": 1.04
+    },
+    "drum-fire-rain-1.mp3": {
+      "sha256": "dab1cd21a1a75b1686d5f6c56e6586a40848fecd0256c29f9e1e990a15a503d0",
+      "seconds": 1.04
+    },
+    "drum-fire-rain-2.mp3": {
+      "sha256": "f80ddb1c7ca89a7ec73d5f83b4155738799d382c8f3ad1c6c7e4992dce6472a7",
+      "seconds": 2.04
+    },
+    "drum-fire-rain-3.mp3": {
+      "sha256": "b6e725043e7d408e6d271c1b49667d385b8c3478b75995bc4f59b99ba46eee83",
+      "seconds": 2.04
+    },
+    "drum-fire-rain-4.mp3": {
+      "sha256": "e1826b66f488bd47f419879b0133d07d9b9f0b64842f18d34ac234d22fa5f889",
+      "seconds": 1.04
+    },
+    "fluorescent-1.mp3": {
+      "sha256": "475d6c1afdd2fee2494386c3b9ab6c29a5f6716d4230a1e45287e2f6a4c11b79",
+      "seconds": 1.04
+    },
+    "fluorescent-2.mp3": {
+      "sha256": "34c3611a7e31ccc5e2f24ed5e7cf8954c374a200028798868f5fcb82cff78143",
+      "seconds": 1.04
+    },
+    "fluorescent-3.mp3": {
+      "sha256": "b7d4b1bd6eaadb45f642f389c736685293686861796c1063b3dd4e3d9dc5d5d7",
+      "seconds": 1.04
+    },
+    "fluorescent-4.mp3": {
+      "sha256": "1971206d204ae5aa4ea1eef0be2593520c697eaf4eb4ae4451a22266663c16f2",
+      "seconds": 2.04
+    },
+    "focus-hunt-1.mp3": {
+      "sha256": "c6448127ec6f27b9adfe2e99cfdd9d5955d0639e07e458c646eed683a42168e7",
+      "seconds": 1.04
+    },
+    "focus-hunt-2.mp3": {
+      "sha256": "643750a528756b7f5b144f6d5a5affd0560f6542f7b77258837fb04f4e8020ba",
+      "seconds": 2.04
+    },
+    "focus-hunt-3.mp3": {
+      "sha256": "910a582615faf82cf18bd33efc33d4aeb898469adeb2454e782b68ab42c9183b",
+      "seconds": 1.04
+    },
+    "focus-hunt-4.mp3": {
+      "sha256": "b42484b20929a8a1e06c5ff332c3c11e0e1ab57a4ce1774bc0c8a6c49ca3317c",
+      "seconds": 1.04
+    },
+    "headphone-jack-1.mp3": {
+      "sha256": "805d48f9b056b51e17f1e1119c83647fb92c56875f45e193dd8f5f6c8b0d8727",
+      "seconds": 1.04
+    },
+    "headphone-jack-2.mp3": {
+      "sha256": "f938e77b1535b74ff02a1355b8edd81576617184b8806237822bbd10275a68dd",
+      "seconds": 2.04
+    },
+    "headphone-jack-3.mp3": {
+      "sha256": "7514acf54dcaba6d248d416dcfbd4edd88853064896698fdf784dce2cac8caf7",
+      "seconds": 1.04
+    },
+    "headphone-jack-4.mp3": {
+      "sha256": "e39f8fd8b53878224af6bad8ef16e8e873217e0ef9cf01d6ebd63424d1117557",
+      "seconds": 1.04
+    },
+    "marker-acetate-1.mp3": {
+      "sha256": "e6fa72d1407a4ed2ad1dfe6cc54aa91a5155352cea6c02f48d664c3c09053ffc",
+      "seconds": 14.03
+    },
+    "marker-acetate-2.mp3": {
+      "sha256": "504766b4cce20f940ff4e422a7c93e568858bd39bad4378ad1fa248d8de72f44",
+      "seconds": 2.04
+    },
+    "marker-acetate-3.mp3": {
+      "sha256": "f613bb0dedcf70540029b31dee070e14a94cbbcde31733ee9164885659180c18",
+      "seconds": 1.04
+    },
+    "marker-acetate-4.mp3": {
+      "sha256": "1e0e09a03d8de1e7a616e8c70e0c42465478b1b2f4e3672d3834f4906f27ec3f",
+      "seconds": 1.04
+    },
+    "market-rain-1.mp3": {
+      "sha256": "6c83bb222f7d9555e15432deaefdbca06d742116e4c75e9742ad3a785a016727",
+      "seconds": 2.04
+    },
+    "market-rain-2.mp3": {
+      "sha256": "ca40bdff2a5b5162b6560e6e7553ae562c68ebeec9f3f0b95aef008ce6756f18",
+      "seconds": 1.04
+    },
+    "market-rain-3.mp3": {
+      "sha256": "213c996e4bb56cbf542a53e87f11e2ccac3a2127b1b3c0b5c5153deeee1e1175",
+      "seconds": 1.04
+    },
+    "market-rain-4.mp3": {
+      "sha256": "abc0f0858615b4524be1c90284f341de6c40d60cc517153180f8060c020f7809",
+      "seconds": 2.04
+    },
+    "padlock-gate-1.mp3": {
+      "sha256": "70b0d416716aa8560b45df50575cf00ea4c83886e422a6cdc23bc6684ab0717e",
+      "seconds": 2.04
+    },
+    "padlock-gate-2.mp3": {
+      "sha256": "9c748fa0518589b2ab72d9f97a6e6f8fb25547df3d69b303c0c21e25df0df64d",
+      "seconds": 1.04
+    },
+    "padlock-gate-3.mp3": {
+      "sha256": "e07150e4c8086190d9a8d90384e3cc08d540221225fe529408a1f4a99e862de2",
+      "seconds": 1.04
+    },
+    "padlock-gate-4.mp3": {
+      "sha256": "2952e64cb96f4891f4e2395be8ebdb8b0cb43f31750c0102e76cb0856cc219a0",
+      "seconds": 1.04
+    },
+    "party-camcorder-1.mp3": {
+      "sha256": "64d8988ac6219a82348cf48eaa1bfdf46243aa751158414d5ef0b53d081367fb",
+      "seconds": 1.04
+    },
+    "party-camcorder-2.mp3": {
+      "sha256": "24bbb2f9c87617254fbf114218d488c2db25a4c6c37d483595609ecf2899c337",
+      "seconds": 2.04
+    },
+    "party-camcorder-3.mp3": {
+      "sha256": "663c1c0f20f04c20a58661256cba0737e8ac8407e53e105c6913ab257b2f3c18",
+      "seconds": 1.04
+    },
+    "party-camcorder-4.mp3": {
+      "sha256": "3bab29b3a6757b61c0ba62598410bfdb265e54934f5cbab099baf4803e29654e",
+      "seconds": 1.04
+    },
+    "phone-down-1.mp3": {
+      "sha256": "fbb6bb36cbe2dc9b407cc6cfd1ac527e104c758b745fe62e344192d7cb7ad055",
+      "seconds": 1.04
+    },
+    "phone-down-2.mp3": {
+      "sha256": "ae4230daf127461e69809e2420561ee3648f7533d4f6f36c8656a896beb2f4f7",
+      "seconds": 2.04
+    },
+    "phone-down-3.mp3": {
+      "sha256": "0271d7238711adc9cd2006f2a0e63e0a1f9a6a3b192dc9d9a866e77ac768e024",
+      "seconds": 1.04
+    },
+    "phone-down-4.mp3": {
+      "sha256": "c43fe49122bbef25979775748fdbee7a10db23e641d89b06ff5da8e359d269d5",
+      "seconds": 2.04
+    },
+    "phone-focus-1.mp3": {
+      "sha256": "f7293df39fa3b9aef19db7a633b25e0d6a68e2227ea31085b8cf0b4bc0b5dadc",
+      "seconds": 4.05
+    },
+    "phone-focus-2.mp3": {
+      "sha256": "e3386c8b5fd4ffa493c3fd2753faf260b1fd623e0f68b195a15b0db216e760a8",
+      "seconds": 1.04
+    },
+    "phone-focus-3.mp3": {
+      "sha256": "b05f664f70cb09c743f2a54322c57e9a968db3f50e2d06d953b9265172e01265",
+      "seconds": 1.04
+    },
+    "phone-focus-4.mp3": {
+      "sha256": "9ace7e75760a469bd169f5b77007bee2f11caa76f87919982ec0c63d2fd0c2cd",
+      "seconds": 1.04
+    },
+    "rooster-1.mp3": {
+      "sha256": "7060270427cd8abf6f568743842e919b481729650244e9d0d56df7192898b0bf",
+      "seconds": 1.04
+    },
+    "rooster-2.mp3": {
+      "sha256": "977549fad2a57b40145fd308c85eb9a0061fead1c447b2d02232ba1fb97bfae8",
+      "seconds": 1.04
+    },
+    "rooster-3.mp3": {
+      "sha256": "ec558547892bbc761e999f1f11629eb181d7b26fc9927150be41bd1d7d89c0a9",
+      "seconds": 1.04
+    },
+    "rooster-4.mp3": {
+      "sha256": "b03da7d97a095ae4b7f20f189c7605f75d487f2dc6093c909f1f3631faf6e7ef",
+      "seconds": 1.04
+    },
+    "shutter-1.mp3": {
+      "sha256": "03f79e50998ab7e9a875386a57fa95b6db7a007c9ae1df964c2cefda59f73e1d",
+      "seconds": 2.04
+    },
+    "shutter-2.mp3": {
+      "sha256": "b3200d3170850bef21f6d6aaf7cdbfeb0c5bb2080122a8c5f499e44cd51d2280",
+      "seconds": 2.04
+    },
+    "shutter-3.mp3": {
+      "sha256": "d9c7004e4621cfdbe34f3abf62526b14ded769c486e365ac7b6f05c8c46e9e42",
+      "seconds": 1.04
+    },
+    "shutter-4.mp3": {
+      "sha256": "7703038048080037244935b0a997a7288e05c000e75796da71bf9e20b107cc2e",
+      "seconds": 2.04
+    },
+    "tape-marker-1.mp3": {
+      "sha256": "3f3f291f27612d669c6a41b12cb879e2c57dd402498bd8aece994fb2d07a1a3e",
+      "seconds": 2.04
+    },
+    "tape-marker-2.mp3": {
+      "sha256": "83626cb131d130350be4f7f761e224a3d3015e9cee3211d097914412f1f82ebf",
+      "seconds": 2.04
+    },
+    "tape-marker-3.mp3": {
+      "sha256": "22f4572001c3130d12391aa5b2bce0eb9d1047cee7621982af891084ea779d9f",
+      "seconds": 2.04
+    },
+    "tape-marker-4.mp3": {
+      "sha256": "67dcefd5b780e2c6286a3f10e587ea1ef7da307ce298ddd295c8fc99968d49bc",
+      "seconds": 5.04
+    },
+    "vcr-end-1.mp3": {
+      "sha256": "3786a167dcf1f265725770592ac3476cb9e2b5980fdff5b1ec8ab8ee1a0f3879",
+      "seconds": 1.04
+    },
+    "vcr-end-2.mp3": {
+      "sha256": "dc09ab96225b8654cee4eac00d39aa4be4476cb88fb9f835d1396337973fcdd0",
+      "seconds": 2.04
+    },
+    "vcr-end-3.mp3": {
+      "sha256": "565049b461055294c63b084c5d7607e87682ae3003ce732394552d3d925aa295",
+      "seconds": 2.04
+    },
+    "vcr-end-4.mp3": {
+      "sha256": "9f18f46795dcb2b795663aba5b21d453de7d2d69c4221db90544ef8923a71000",
+      "seconds": 14.03
+    },
+    "vcr-rewind-1.mp3": {
+      "sha256": "66dbf04bb12391ab0776d2dc591a09b1285c20bb6951008a68846fd30a840312",
+      "seconds": 2.04
+    },
+    "vcr-rewind-2.mp3": {
+      "sha256": "9a9dfa3b480a1a8e415fe061d1c120a65cd82b383450aefff6ea479bfe46bb19",
+      "seconds": 2.04
+    },
+    "vcr-rewind-3.mp3": {
+      "sha256": "35caeb81167e00b36dd12e563a3cec8d8453693a6cfe0c4184563599626771ff",
+      "seconds": 1.04
+    },
+    "vcr-rewind-4.mp3": {
+      "sha256": "51d6d8b56d373006b91f1db4e4dc83a7f216d6157f0b47aa1218467aaffd25cb",
+      "seconds": 1.04
+    },
+    "videoke-score-1.mp3": {
+      "sha256": "49afb80be7328bf995e2f8062792ab34bfdbcb9e61407721d2c3b0d5adc8aa43",
+      "seconds": 2.04
+    },
+    "videoke-score-2.mp3": {
+      "sha256": "413140ddb3c7658ceeca23fea4e239e51080fbb6e386f0021153283465f4453d",
+      "seconds": 2.04
+    },
+    "videoke-score-3.mp3": {
+      "sha256": "66f1a5d9cc6142edeaf58575ff7c2fb4c71e8f90ce7d8f27a7a2a4c105c95997",
+      "seconds": 4.05
+    },
+    "videoke-score-4.mp3": {
+      "sha256": "bb305ab330440b1c5f55264b7b258061e9636b2e33e1972b2a50a53e62a3d030",
+      "seconds": 1.04
+    },
+    "watch-beep-1.mp3": {
+      "sha256": "c6fcab53bb283d1e739d4b2949535b108b5fcb0fc028b54ef4a9b5ff1fff05f8",
+      "seconds": 2.04
+    },
+    "watch-beep-2.mp3": {
+      "sha256": "4309bdbae8c7488b6c714a2c4cce84c55963e1aaa068772f1cadb83ff9beccc3",
+      "seconds": 3.03
+    },
+    "watch-beep-3.mp3": {
+      "sha256": "3ee280891f57e7a8b0faad7c17dd911336cb8c6d04691ce35f2c031802408884",
+      "seconds": 2.04
+    },
+    "watch-beep-4.mp3": {
+      "sha256": "f7e349d6a11cd44e2ef7e2b3d724af96cdc4b234c719a80bcd8109ea10fb3c96",
+      "seconds": 2.04
+    }
+  }
+}

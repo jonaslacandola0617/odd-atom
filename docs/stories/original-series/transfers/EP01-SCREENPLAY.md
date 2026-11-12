@@ -549,7 +549,12 @@ About 1:55 of it is tape (4:3), and about 0:30 is the phone clip (16:9).
 9. JoJo's 2019 comment, which sets up his interview in Episode 3.
 10. Bea sleeps facing the doorway.
 
-## New sounds needed (four takes each, per `SOUND.md`; not generated)
+## New sounds (generated 2026-11-12 as library v2, `public/assets/audio/transfers/sfx-v2/`, 4 takes each)
+
+File keys, in list order: `focus-hunt`, `phone-focus`, `party-camcorder`, `market-rain`,
+`vcr-rewind`, `vcr-end`, `box-open`, `tape-marker`, `phone-down`, `shutter`. Most takes are
+1–2 s, so the beds (party, street) are looped and layered in the mix.
+
 
 1. A camcorder autofocus motor hunting: the entity signature.
 2. A smartphone autofocus hunting.

@@ -38,6 +38,10 @@ The user listened to all 60 takes of sound library v1 and approved them all ("ex
 - Repeated actions rotate takes deterministically: take = 1 + (cue index mod 4), offset per sound, so one cue never repeats the same take twice in a row.
 - New sounds are generated as 4-take sets for the same reason.
 
+## Library v2 (2026-11-12)
+
+`public/assets/audio/transfers/sfx-v2/`: 20 prompts × 4 takes (80 files, about 160 s). It holds the entity signature (`focus-hunt` for tapes, `phone-focus` for phones), the rest of Episode 1's foley and beds, and sounds for Episodes 2–7. Prompts, hashes and durations are in `PROVENANCE.json`. The user has not heard it yet.
+
 ## Status
 
 Credits are approved by the user for reusable sound. Library v1 has been heard and approved by the user.

@@ -110,6 +110,11 @@
     - **Credits:** about 2,000 for now.
     - **Prices (estimates):** speech is about 2 credits per character for two takes; an SFX set of 4 takes is 200; music is not available on this connector.
     - **Plan and voice drafts:** `docs/stories/original-series/transfers/VOICES.md`. The voice design tool needs the description and the preview line from the user, so the drafts wait for the user's confirmation.
+  - **Voices and sound library v2 (user, 2026-11-12):** "Voices ok, lets do sfx for now".
+    - **Voices:** the voice texts in `VOICES.md` are approved, but generation waits for the user's other ElevenLabs account ("to earn 30K credits"), which will be reconnected here.
+    - **Library v2:** `public/assets/audio/transfers/sfx-v2/` from flow `yJpLZFjVDXtWV9F71b0G`, 20 sounds × 4 takes. It covers all ten new Episode 1 sounds (including the `focus-hunt` entity signature) and ten for Episodes 2–7, with `PROVENANCE.json`.
+    - **Cost:** about 1,333 credits. The estimate tool says 50 a take; the actual charge is 16.7.
+    - **Gaps:** most takes are 1–2 s; music cannot be made with this connector. The user has not heard the library.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".

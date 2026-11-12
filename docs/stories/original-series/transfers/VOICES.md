@@ -78,7 +78,12 @@ with English mixed in.
 - **Preview line:** "O, wave kayo! For Tatay Rudy 'to! Pare, ikaw naman. Nothing.
   Basta huwag mo lang patayin. Smile, everybody, smile!"
 
-## Status
+## Status (2026-11-12)
 
-Nothing has been generated. Waiting for the user to confirm the voice texts and
-the credit plan.
+- **Voice texts approved:** "Voices ok". The descriptions and preview lines above are approved
+  as written.
+- **Voices postponed:** "lets do sfx for now". Voices will be designed on the user's other
+  ElevenLabs account (more credits) once it is reconnected here. Nothing has been generated.
+- **SFX done:** library v2 (`public/assets/audio/transfers/sfx-v2/`), 20 sounds × 4 takes. It
+  covers the ten new Episode 1 sounds plus ten for Episodes 2–7. The charge was about 1,333
+  credits, at 16.7 per take (the estimate tool had said 50).
