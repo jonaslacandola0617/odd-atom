@@ -105,6 +105,24 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 28 "Developing" (the Brown Lady of Raynham Hall, 1936; flash after flash on the staircase).
 
+- **Episode 28 "Developing" (2026-11-12):** the user asked for the "next ep". The Brown Lady of Raynham Hall (Norfolk, 19 September 1936), a real documented photograph. `Ep28Developing` / `src/horror/ep28/` is 57.2 s, in English.
+  - **Form:** the 1936 staircase hall (black and white, gate weave, lamp and magnesium flash) cut hard against the darkroom (red safelight, the print developing in the tray, drawn live onto a canvas texture).
+    - The view camera's ground glass is shown upside down (camera roll π) under the focusing cloth with its grid.
+    - Only the two flashes of the real account happen: the first flash shows nothing; on the ground glass a vapour comes down and becomes a veiled woman; the second flash lights her on the stairs; then the lamp shows the stairs empty.
+    - The print comes up; a figure stands on the moonlit landing, then is gone.
+    - The stop bath keeps developing, and she comes down the stairs in the print to the lens; a last flash at the lens. Black.
+  - **Sound:** no score: the hall clock, the shutter and dark slide, the magnesium flash, creaking stairs, the darkroom tray (ElevenLabs SFX, 272 credits); synthesized car, owl, hum, drips.
+  - **Lessons:**
+    - point lights cast no shadows, but a staircase's treads face away from a lamp below them, so light the stair from above (a sconce);
+    - a near-lens face must not be overexposed by a flash at full strength;
+    - a ground glass reads only with a visible frame and grid.
+  - **Care:** the photographers are seen from behind and not named on screen; the skeptics' view (double exposure, the lens) is in the narration; a private home, no dares; the continued developing and the face at the lens are our dramatisation.
+  - **Voice:** Jack, both takes at once (1,632 credits; take 1 used), no tempo change.
+  - **Sound figures:** bed presence −15.4 / −9.5 dB (quiet by design), lines ≥10.4 dB with no lifts, −14.0 LUFS, decoded peak −2.0 dBFS, the loop restarts from black and silence.
+  - **Delivery:** `assets/videos/ep28-brown-v1/`. Notes are in `docs/production/ep28-brown/README.md`; the publishing kit is `docs/publishing/ep28/README.md` and `docs/publishing/POSTS-ep21-30.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 29 "Checkout Is at Ten" (Monte Cristo Homestead, Junee, New South Wales; the overnight guest, in real time).
+
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
   - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. **From 2026-11-11 (Episode 13) the user has a paid ElevenLabs Starter account (a new account):** flows from the old account (for example `L6hejcAiUNKAfyBLB3C3`) return "no access to this template", so start a new flow. Free-tier "busy" refusals should be rare now. If one happens, the user's earlier rule still applies: retry every 30 min, at most 4 times, one attempt per check-in.

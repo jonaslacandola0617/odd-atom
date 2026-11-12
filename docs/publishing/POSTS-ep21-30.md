@@ -19,6 +19,7 @@ Season 3 is famous, **real, documented** ghost cases from around the world, in E
 | 25 | Camera Three (Hampton Court Palace CCTV, 2003) | Hampton Court, England | `assets/videos/ep25-hampton-v1/ep25-camera-three.mp4` | 49.4 s |
 | 26 | Post Three (the Castle of Good Hope) | Cape Town, South Africa | `assets/videos/ep26-castle-v1/ep26-post-three.mp4` | 59.8 s |
 | 27 | The Ball (Waverly Hills Sanatorium) | Louisville, Kentucky, USA | `assets/videos/ep27-ball-v1/ep27-the-ball.mp4` | 55.0 s |
+| 28 | Developing (the Brown Lady of Raynham Hall, 1936) | Norfolk, England | `assets/videos/ep28-brown-v1/ep28-developing.mp4` | 57.2 s |
 
 ---
 
@@ -215,3 +216,31 @@ we set the ball down. nobody touched it ⚽ #waverlyhills #sanatorium #truehorro
 **TikTok pinned comment:** `look at the height of the eyes.`
 
 **When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok).
+
+---
+
+## Broadcast 28: Developing (the Brown Lady of Raynham Hall, 1936)
+
+**YouTube title:** `The most famous ghost photograph ever taken`
+Alternative: `The print is still developing`
+
+**YouTube description**
+```
+Raynham Hall, Norfolk, 19 September 1936. Two Country Life photographers were photographing the great staircase. The assistant said he saw a shape like vapour coming down the stairs, slowly becoming a woman. He shouted to take it. The photographer saw nothing. The print shows a veiled figure on the stairs. Experts said the negative had not been touched. Skeptics say double exposure.
+
+Watch it develop. 📷
+
+Broadcast 28 · After Sign-Off · Season 3: real cases from around the world. A reconstruction in pixel 3D, not the 1936 photograph.
+#BrownLady #RaynhamHall #ghostphoto #ghoststory #truehorror #shorts
+```
+
+**Pinned comment:** `What was on the stairs? 📷`
+
+**TikTok caption**
+```
+the most famous ghost photograph ever taken. watch it develop 📷 #brownlady #raynhamhall #ghostphoto #truehorror #scarystories #fyp
+```
+**Cover text:** `WATCH IT DEVELOP`
+**TikTok pinned comment:** `look at the print in the very first second.`
+
+**When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); a UK post at 8–10 p.m. UK time also fits.

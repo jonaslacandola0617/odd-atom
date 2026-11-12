@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "text": "[whispers] The most famous ghost photograph ever taken. Watch it develop. [long pause] [softly] Raynham Hall, Norfolk. September, nineteen thirty-six. Two photographers from Country Life magazine. [long pause] They had taken one picture of the great staircase. They were setting up a second. [long pause] Then the assistant saw something on the stairs. A shape, like vapour, coming down towards them. Slowly becoming a woman. [long pause] He shouted, take it. The flash went off. The other man saw nothing. [long pause] Country Life printed it that December. Experts said the negative had not been touched. [long pause] Skeptics say double exposure. Or something on the lens. [long pause] People had reported a lady in brown on these stairs for a hundred years. [long pause] [whispers] The print is still developing.",
+    "flow_id": "vdRKYHhrYJvRj99nO6gD (new flow on the Starter account)",
+    "attempts": ["2026-11-12: one call, both takes started at once (816 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep28-take1.mp3: 50.80 s, 816 credits (used)",
+      "public/assets/audio/eleven-takes/ep28-take2.mp3: 50.96 s, 816 credits (kept, unused)"
+    ],
+    "processing": "split into 9 lines, pauses inside a line capped at 0.32 s, no tempo change; timeline 57.22 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "vdRKYHhrYJvRj99nO6gD",
+    "prompts": {
+      "flash": "1930s magnesium flash powder igniting: a sharp whoosh and pop with a short fizzing crackle, in a large wood-panelled country house hall, short echo, no music",
+      "shutter": "An old large-format wooden view camera: the dark slide pulled out of the plate holder, the mechanical shutter cocked and clicking open and shut, wooden and brass clicks, close up, no music",
+      "tray": "A photographic darkroom: liquid sloshing gently in a shallow tray as it is rocked back and forth, a few drops falling, a tap dripping into a sink, quiet small room, close up, no music",
+      "stairs": "Slow light footsteps coming down an old oak staircase in a large quiet country house at night, each tread creaking, the rustle of a long silk dress, no voices, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: 272 credits (some variations were queued by a concurrency limit and generated automatically; no repeat calls)",
+    "files": "public/assets/audio/eleven-sfx/ep28-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: flash-2 (the strongest, a 2 s whoosh and tail) for the second photograph and the last frame, flash-4 (the sharpest pop) for the first; shutter-1 (three click groups) and shutter-4 (clicks inside 0.5 s); tray-2 and tray-4 (rocking slosh); stairs-2 (6 s of spaced creaks; quiet, normalised)"
+  },
+  "script_source": "docs/stories/season-3-world.md #28 (a real documented photograph: the Brown Lady of Raynham Hall, 1936)"
+}

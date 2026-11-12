@@ -1,0 +1,81 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 57.22,
+  "duration_frames": 1717,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "The most famous ghost photograph ever taken. Watch it develop.",
+      "start": 0.1,
+      "end": 4.8,
+      "kind": "narrator",
+      "beat_before": "hook: the darkroom, red light; a print in the tray; the image surfacing: a staircase, a pale shape"
+    },
+    {
+      "id": "l02",
+      "text": "Raynham Hall, Norfolk. September, nineteen thirty-six. Two photographers from Country Life magazine.",
+      "start": 6.0,
+      "end": 12.71,
+      "kind": "narrator",
+      "beat_before": "cut to the house at night; a motor car comes up the drive, its headlights across the front"
+    },
+    {
+      "id": "l03",
+      "text": "They had taken one picture of the great staircase. They were setting up a second.",
+      "start": 13.71,
+      "end": 17.91,
+      "kind": "narrator",
+      "beat_before": "cut to the hall: the view camera on its tripod; the first flash goes off; nothing on the stairs"
+    },
+    {
+      "id": "l04",
+      "text": "Then the assistant saw something on the stairs. A shape, like vapour, coming down towards them. Slowly becoming a woman.",
+      "start": 19.31,
+      "end": 27.21,
+      "kind": "narrator",
+      "beat_before": "cut to the ground glass under the focusing cloth: the stairs, upside down; a pale shape at the top"
+    },
+    {
+      "id": "l05",
+      "text": "He shouted, take it. The flash went off. The other man saw nothing.",
+      "start": 28.81,
+      "end": 32.82,
+      "kind": "narrator",
+      "beat_before": "on the ground glass the shape comes down; cut to the hall in the dark"
+    },
+    {
+      "id": "l06",
+      "text": "Country Life printed it that December. Experts said the negative had not been touched.",
+      "start": 35.02,
+      "end": 39.53,
+      "kind": "narrator",
+      "beat_before": "the flash: she is on the stairs; then the lamp: the stairs are empty; the darkroom"
+    },
+    {
+      "id": "l07",
+      "text": "Skeptics say double exposure. Or something on the lens.",
+      "start": 40.33,
+      "end": 43.84,
+      "kind": "narrator",
+      "beat_before": "the print developing: she comes up out of the paper"
+    },
+    {
+      "id": "l08",
+      "text": "People had reported a lady in brown on these stairs for a hundred years.",
+      "start": 45.44,
+      "end": 49.38,
+      "kind": "narrator",
+      "beat_before": "the staircase by moonlight, climbing; a figure on the landing against the window, then not"
+    },
+    {
+      "id": "l09",
+      "text": "The print is still developing.",
+      "start": 51.38,
+      "end": 53.02,
+      "kind": "narrator",
+      "beat_before": "the darkroom: the print in the stop bath"
+    }
+  ]
+}

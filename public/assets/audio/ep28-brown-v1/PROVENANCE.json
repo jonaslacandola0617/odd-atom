@@ -1,0 +1,147 @@
+{
+  "episode": "Ep28Developing",
+  "duration_seconds": 57.22,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep28-take1.mp3",
+    "sha256": "5f643a05be575a09f3c9f8da34de7fa1b4589a461f7cda476bbae073259c212b",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (library voice)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep28-take1.mp3: 50.80 s, 816 credits (used)",
+      "public/assets/audio/eleven-takes/ep28-take2.mp3: 50.96 s, 816 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep28-brown/prompt.json"
+  },
+  "original_synthesis": [
+    "NO SCORE: shutters, the flash, footsteps on old stairs, the darkroom drip (Season 3 sound language for Episode 28)",
+    "the hall clock, room tone, the muffled sound under the focusing cloth, the safelight hum, drips, the wind, an owl, the motor car, cloth, a low hit (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "vdRKYHhrYJvRj99nO6gD",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "tray-2": {
+        "path": "public/assets/audio/eleven-sfx/ep28-tray-2.mp3",
+        "sha256": "dec2ec4d275581be2deddb82bea883ed6d66adcdb234d64fc4a36c21d7f95d14"
+      },
+      "tray-4": {
+        "path": "public/assets/audio/eleven-sfx/ep28-tray-4.mp3",
+        "sha256": "0b4e4a7de3be00fa8e4ac3050cc950bab023eaa963b1ed0bfc53804ba35c57fa"
+      },
+      "shutter-1": {
+        "path": "public/assets/audio/eleven-sfx/ep28-shutter-1.mp3",
+        "sha256": "d58644e80b39509c898ca0e74654ea038ee60bc6b47d64ec9d9b0d05c622ed6c"
+      },
+      "shutter-4": {
+        "path": "public/assets/audio/eleven-sfx/ep28-shutter-4.mp3",
+        "sha256": "54d4e9b797193a977f92357cfc1c0b6d9f594bd8ff11b27031116498f840d24e"
+      },
+      "flash-4": {
+        "path": "public/assets/audio/eleven-sfx/ep28-flash-4.mp3",
+        "sha256": "e4d2a7b1dc0500cc362da7976f2229739704226e2ca0041503a07dd45799e692"
+      },
+      "stairs-2": {
+        "path": "public/assets/audio/eleven-sfx/ep28-stairs-2.mp3",
+        "sha256": "ca5dbb5a674f77e225b6b284ae1cece850d54b0e8b6932e8902b9635e93feb2e"
+      },
+      "flash-2": {
+        "path": "public/assets/audio/eleven-sfx/ep28-flash-2.mp3",
+        "sha256": "fc60f8ed1478aa59bcd7be46b91ede6d1512e8960aee92e37595c1c8f9e2836e"
+      }
+    },
+    "note": "four prompts x four variations (68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "there is no music; music_presence measures the whole non-voice bed against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    18.26,
+    28.209999999999997,
+    55.220000000000006
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -2.0,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -20.5,
+    "last_quarter_second": -138.2
+  },
+  "limiter": "tanh soft limiter, ceiling -2.61 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0,
+    "l09": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 19.2,
+      "phone_band_voice_minus_all_db": 20.5,
+      "voice_minus_bed_db": 19.2
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 10.4,
+      "phone_band_voice_minus_all_db": 13.3,
+      "voice_minus_bed_db": 10.4
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 16.2,
+      "phone_band_voice_minus_all_db": 14.9,
+      "voice_minus_bed_db": 16.2
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 20.5,
+      "phone_band_voice_minus_all_db": 17.7,
+      "voice_minus_bed_db": 20.5
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 16.8,
+      "phone_band_voice_minus_all_db": 16.0,
+      "voice_minus_bed_db": 16.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 19.6,
+      "phone_band_voice_minus_all_db": 19.8,
+      "voice_minus_bed_db": 19.6
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 19.8,
+      "phone_band_voice_minus_all_db": 20.6,
+      "voice_minus_bed_db": 19.8
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 12.1,
+      "phone_band_voice_minus_all_db": 10.0,
+      "voice_minus_bed_db": 12.1
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 19.8,
+      "phone_band_voice_minus_all_db": 19.2,
+      "voice_minus_bed_db": 19.8
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -15.4,
+    "music_minus_voice_in_gaps_db": -9.5,
+    "music_share_of_gaps_seconds": 16.1
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
