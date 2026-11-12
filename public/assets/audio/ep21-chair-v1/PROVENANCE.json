@@ -1,0 +1,112 @@
+{
+  "episode": "Ep21WatchTheChair",
+  "duration_seconds": 58.95,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep21-take1.mp3",
+    "sha256": "4750e4b5de4d17098167db51bbbfc3a3be77f94c7660ac5799d11b15983b035e",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (library voice)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep21-take1.mp3: 48.35 s, 750 credits (used)",
+      "public/assets/audio/eleven-takes/ep21-take2.mp3: 50.68 s, 750 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep21-chair/prompt.json"
+  },
+  "original_synthesis": [
+    "NO SCORE: the episode is diegetic only (Season 3 sound language for Episode 21)",
+    "the room: room tone, 50 Hz mains hum, tape hiss, the recorder motor, the landing bulb hum, a wall clock (it stops in the silence)",
+    "the children breathing under blankets (filtered noise); a far dog; a passing car",
+    "knocks inside the wall and knocks that answer (synthesized thumps through a wall filter)",
+    "four tape dropouts with a chair leg scraping under each; the bulb fizzing out and back; a low settle",
+    "the rasp: a 72 Hz pulse train through vowel formants with breath noise, two phrases, no words; not a recording of the real case"
+  ],
+  "music_presence_note": "there is no music; music_presence measures the whole non-voice bed (ambience + foley) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    }
+  },
+  "stingers": [
+    57.6
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -2.2,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -16.2,
+    "last_quarter_second": -15.7
+  },
+  "limiter": "tanh soft limiter, ceiling -2.35 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 19.5,
+      "phone_band_voice_minus_all_db": 22.7,
+      "voice_minus_bed_db": 19.5
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 19.0,
+      "phone_band_voice_minus_all_db": 18.6,
+      "voice_minus_bed_db": 19.0
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 19.8,
+      "phone_band_voice_minus_all_db": 21.1,
+      "voice_minus_bed_db": 19.8
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 20.2,
+      "phone_band_voice_minus_all_db": 22.6,
+      "voice_minus_bed_db": 20.2
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 20.3,
+      "phone_band_voice_minus_all_db": 22.5,
+      "voice_minus_bed_db": 20.3
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 19.7,
+      "phone_band_voice_minus_all_db": 21.2,
+      "voice_minus_bed_db": 19.7
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 20.1,
+      "phone_band_voice_minus_all_db": 23.0,
+      "voice_minus_bed_db": 20.1
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 20.0,
+      "phone_band_voice_minus_all_db": 23.3,
+      "voice_minus_bed_db": 20.0
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -21.6,
+    "music_minus_voice_in_gaps_db": -9.3,
+    "music_share_of_gaps_seconds": 17.7
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

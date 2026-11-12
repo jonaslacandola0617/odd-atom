@@ -1,0 +1,19 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "voices_confirmed": "creative_list_voices on 2026-11-12 (Starter account) listed both Jack (BVPhWQykET1TSvfGzrUr) and True – Crime & Horror Narrator (tZssYepgGaQmegsMEXjK); Season 3 uses Jack because every case is a reported one",
+    "text": "[whispers] Watch the chair. Not the bed. The chair. [long pause] [softly] Enfield, north London. August, nineteen seventy-seven. A council house. A mother, and four children. [long pause] It started with knocking. Inside the walls. [long pause] A police officer came, at about one in the morning. She said she watched a chair slide across the floor. By itself. [long pause] Investigators taped this house for over a year. On the tapes, knocks seem to answer questions. [long pause] And there is a voice. A deep, old man's voice. It came from one of the girls. [long pause] Skeptics said the children faked it. Years later, one of the girls said they had faked a little. Once or twice. [long pause] [whispers] You were watching the chair. Weren't you?",
+    "flow_id": "26b0ws5KUUylJK30Q4PP (new flow on the Starter account)",
+    "attempts": [
+      "2026-11-12: one call, both takes started at once (750 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep21-take1.mp3: 48.35 s, 750 credits (used)",
+      "public/assets/audio/eleven-takes/ep21-take2.mp3: 50.68 s, 750 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines (scripts/eleven_split.py), pauses inside a line capped at 0.45 s, no tempo change; the timeline (58.95 s) was built from the real line lengths, with long gaps for the knocks, the dropouts, the rasp and the silence"
+  },
+  "script_source": "docs/stories/season-3-world.md #21 (a real reported case: the Enfield poltergeist, 1977)"
+}

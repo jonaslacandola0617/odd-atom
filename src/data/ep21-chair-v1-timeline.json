@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 58.95,
+  "duration_frames": 1768,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Watch the chair. Not the bed. The chair.",
+      "start": 0.1,
+      "end": 3.33,
+      "kind": "narrator",
+      "beat_before": "hook: the dark back bedroom from a tripod; the chair by the window; two beds; the landing light through the door"
+    },
+    {
+      "id": "l02",
+      "text": "Enfield, north London. August, nineteen seventy-seven. A council house. A mother, and four children.",
+      "start": 4.33,
+      "end": 12.32,
+      "kind": "narrator",
+      "beat_before": "a car passes outside: its headlights sweep the ceiling through the curtains"
+    },
+    {
+      "id": "l03",
+      "text": "It started with knocking. Inside the walls.",
+      "start": 13.12,
+      "end": 15.97,
+      "kind": "narrator",
+      "beat_before": "the clock on the wall; breathing under a blanket"
+    },
+    {
+      "id": "l04",
+      "text": "A police officer came, at about one in the morning. She said she watched a chair slide across the floor. By itself.",
+      "start": 18.57,
+      "end": 25.52,
+      "kind": "narrator",
+      "beat_before": "three knocks inside the wall above the far bed; the picture frame jumps; then the first tape dropout: the chair is nearer the bed"
+    },
+    {
+      "id": "l05",
+      "text": "Investigators taped this house for over a year. On the tapes, knocks seem to answer questions.",
+      "start": 27.12,
+      "end": 33.11,
+      "kind": "narrator",
+      "beat_before": "the clock now reads one o clock"
+    },
+    {
+      "id": "l06",
+      "text": "And there is a voice. A deep, old man's voice. It came from one of the girls.",
+      "start": 36.11,
+      "end": 41.51,
+      "kind": "narrator",
+      "beat_before": "knocks answer: one, then a pause, then two; a shadow crosses the landing light; second dropout: the chair nearer, turning"
+    },
+    {
+      "id": "l07",
+      "text": "Skeptics said the children faked it. Years later, one of the girls said they had faked a little. Once or twice.",
+      "start": 44.51,
+      "end": 50.98,
+      "kind": "narrator",
+      "beat_before": "a low rasp from the far bed, too low to make out; the blanket there does not rise; third dropout: the chair at the foot of the bed, facing it"
+    },
+    {
+      "id": "l08",
+      "text": "You were watching the chair. Weren't you?",
+      "start": 54.58,
+      "end": 56.95,
+      "kind": "narrator",
+      "beat_before": "silence: even the room tone drops; nothing moves for too long"
+    }
+  ]
+}

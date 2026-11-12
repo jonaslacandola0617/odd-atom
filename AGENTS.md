@@ -1,5 +1,24 @@
 # Video delivery
 
+- **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
+  - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".
+  - **Slate:** `docs/stories/season-3-world.md`: ten real, documented cases on six continents, each with its own form, scare placement, sound language and visual language. Order: Enfield → Okiku doll → Bell Witch → Island of the Dolls → Hampton Court CCTV → Castle of Good Hope → Waverly Hills → Brown Lady → Monte Cristo Homestead → Poveglia. Folklore-only tales are out.
+  - **Rules:** real cases only, told true to life (ordinary rooms, real times, witness details, restraint); facts as reported and disputed, from search summaries; no shared template (shared helpers are fine); no film or game designs; no naming of living private people; no dares.
+  - **Voice:** English, **Jack** (`BVPhWQykET1TSvfGzrUr`, `eleven_v4`) for every episode (all are reported cases), on the user's Starter account; a new flow per session; both takes generate by default.
+  - **Standards that stay:** hook under 1 s, 45–60 s, hidden details, dark key, presence and margin checks (with no score, measure the whole bed), −14 LUFS, decoded peak ≤ −1 dBFS, the checked `mix.m4a` muxed over the picture; render scripts delete their bundle.
+  - **Status:** no user approval of the slate or any episode; no listening pass.
+
+- **Episode 21 "Watch the Chair" (2026-11-12):** the Season 3 opener: the Enfield poltergeist (north London, 1977), a real, documented, disputed case. `Ep21WatchTheChair` / `src/horror/ep21/` is 58.95 s, in English.
+  - **Form:** one unbroken, locked-off take in real time (a camera left running in the back bedroom). Misdirection: the hook says "Watch the chair"; the chair never moves while visible, only in three tape dropouts, nearer the far bed each time; at the end someone is sitting in it (a silhouette from behind against the curtains), then a dropout loops to frame 0.
+  - **Sound:** diegetic only, **no score**: room tone, hum, tape hiss, a clock that stops, breathing, knocks that answer, a floorboard, a synthesized wordless rasp, a 3.2 s silence, a chair taking weight.
+  - **Lessons:** with no score the narration carries the loudness, so compress the voice (the first compressor had its attack scaled per block, about 240 ms, and did nothing) or the limiter ceiling drops to −6 dBFS; hard square-modulated noise bursts overshoot after AAC encoding. In a single locked-off frame, put the hero prop's last position where its silhouette reads against a lit surface.
+  - **Care:** the children are never named or shown; the skeptics' case is in the narration; no real recording; no address.
+  - **Voice:** Jack, both takes at once (1,500 credits; take 1 used), no tempo change.
+  - **Sound figures:** bed presence −21.6 / −9.3 dB (no score, on purpose), lines about 20 dB over everything, −14.0 LUFS, decoded peak −2.2 dBFS, seam −16.2 / −15.7 dBFS.
+  - **Delivery:** `assets/videos/ep21-chair-v1/`. Notes are in `docs/production/ep21-chair/README.md`; the publishing kit is `docs/publishing/ep21/README.md` and `docs/publishing/POSTS-ep21-30.md` (US/global posting times).
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 22 "Eighty-Eight Years" (the Okiku doll; a time-lapse with no jump scare).
+
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
   - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. **From 2026-11-11 (Episode 13) the user has a paid ElevenLabs Starter account (a new account):** flows from the old account (for example `L6hejcAiUNKAfyBLB3C3`) return "no access to this template", so start a new flow. Free-tier "busy" refusals should be rare now. If one happens, the user's earlier rule still applies: retry every 30 min, at most 4 times, one attempt per check-in.

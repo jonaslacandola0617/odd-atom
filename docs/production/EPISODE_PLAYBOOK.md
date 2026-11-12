@@ -111,3 +111,12 @@ The user asked for Season 2 to be "more scary and spooky" than Season 1. The sto
 - **Account:** since Episode 13 it is a paid ElevenLabs **Starter** account. Start a new flow per session: old-account flows return "no access to this template".
 - **Fitting 60 s:** Taglish takes run long (Episode 13: 64 s). Fit them with an atempo of at most 1.04–1.06 and tighter gaps, never by cutting words.
 - **Line placement:** keep every shot inside the line timeline; Episode 13's "safe at dawn" shot was first placed after the loop point and never appeared.
+
+## Season 3 standard (from 2026-11-12)
+
+The stories are in `docs/stories/season-3-world.md`: real, documented cases from around the world, in English, narrated by Jack.
+
+- **No shared template.** The user said Season 2 was "too predictable … each video should be unique". Before building, write down the episode's form, scare placement, sound language and visual language, and check that no earlier Season 3 episode used the same combination. The Season 2 "one lit reveal" rule and the fixed loop recipe are optional now.
+- **True to life:** real times, ordinary rooms at real scale, witness details, practical light, restraint. No monster designs; a figure, if any, is a silhouette or barely seen.
+- **Honest facts:** say "reported", give the skeptics' view, name no living private people, and keep a claim-versus-documented table in the production README.
+- **Diegetic-only sound** (Episode 21): with no score, the narration carries the loudness. Compress it (attack in milliseconds, per sample or with the block size accounted for) and soft-clip plosives about 12 dB over the line RMS, or the limiter ceiling collapses. Report presence with the whole non-voice bed in place of the score, and the event levels in the gaps.
