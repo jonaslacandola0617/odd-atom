@@ -1,0 +1,81 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 57.67,
+  "duration_frames": 1730,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "December, eighteen twenty. Tennessee. They are burying John Bell.",
+      "start": 0.1,
+      "end": 5.44,
+      "kind": "narrator",
+      "beat_before": "hook: the funeral at dusk in snow; the camera tracks behind mourners with lanterns; the coffin is lowered on ropes"
+    },
+    {
+      "id": "l02",
+      "text": "Witnesses said a voice laughed over the grave. And sang. Until the last mourner left.",
+      "start": 8.04,
+      "end": 14.09,
+      "kind": "narrator",
+      "beat_before": "a laugh from nowhere; a gust rips across the graveyard; the lanterns go out one after another down the line; every mourner turns to look past the camera"
+    },
+    {
+      "id": "l03",
+      "text": "The morning he died, the family found a small vial no one recognised.",
+      "start": 15.39,
+      "end": 19.83,
+      "kind": "narrator",
+      "beat_before": "REWIND (the tape runs backwards); December 1820, the sickroom: the camera creeps from the door towards the bed"
+    },
+    {
+      "id": "l04",
+      "text": "The voice said it had given him a dose.",
+      "start": 21.43,
+      "end": 23.76,
+      "kind": "narrator",
+      "beat_before": "on the windowsill a small vial rolls by itself towards the bed; the hand on the quilt twitches; the candle leans away"
+    },
+    {
+      "id": "l05",
+      "text": "For three years, it had talked. Visitors said it repeated sermons, word for word.",
+      "start": 25.06,
+      "end": 30.51,
+      "kind": "narrator",
+      "beat_before": "REWIND; 1819, the main room: the family at supper, the camera circling the table"
+    },
+    {
+      "id": "l06",
+      "text": "It pulled the covers off the children's beds. Every night.",
+      "start": 32.41,
+      "end": 35.75,
+      "kind": "narrator",
+      "beat_before": "every candle flame leans towards the empty chair; it scrapes back; on the wall, the shadow of someone sitting in it; REWIND"
+    },
+    {
+      "id": "l07",
+      "text": "It began in eighteen seventeen. With scratching. On the outside of the walls.",
+      "start": 38.15,
+      "end": 43.0,
+      "kind": "narrator",
+      "beat_before": "1818, the children's room: from the doorway, a quilt slides off a bed, then is yanked to the floor; REWIND"
+    },
+    {
+      "id": "l08",
+      "text": "Almost all of this comes from one book, written seventy years later. The family's own account has never been found.",
+      "start": 44.6,
+      "end": 51.19,
+      "kind": "narrator",
+      "beat_before": "1817, outside at night: tracking along the log wall, scratches appear on the logs ahead of the camera; something moves through the corn towards the house"
+    },
+    {
+      "id": "l09",
+      "text": "This is the first night. You know how it ends.",
+      "start": 52.79,
+      "end": 55.87,
+      "kind": "narrator",
+      "beat_before": "the first night inside: candlelight on a bedpost; one scratch draws itself into the wood"
+    }
+  ]
+}

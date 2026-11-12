@@ -15,18 +15,30 @@
 - **Care:** no gore; no bodies of real victims; no naming or accusing living private people (children in these cases are never named); deaths, murders and suicides handled with care (no method, no glamour); no trespass or "go there at night" dares; no copyrighted film or game designs (nothing from *The Conjuring* films or any other adaptation).
 - **Look:** the channel's pixel-3D analog style (180×320, PS1 shaders), pushed towards realism: recording feel, realistic scale and lighting, believable framing.
 
+## The motion rule (the user, after Episodes 21 and 22)
+
+"The sequence is different for each now but there's a lack of motion … a static video like this, only the narrator is telling the story. The video itself should be scary, the video itself should tell the story … not like the first two episodes."
+
+From Episode 23 on, every episode must:
+- **move:** every shot has camera motion (tracking, creeping, orbiting, handheld pushes, point-of-view walks); no locked-off or time-lapse episode;
+- **show the story:** each scene has at least one visible event (something moves, opens, falls, turns, is pulled, appears) that tells the beat with the sound off;
+- **pass the mute test:** with narration removed, a viewer can follow what happens and is frightened by the picture;
+- **use real-sounding effects:** ElevenLabs sound effects (`eleven_text_to_sound_v2`) are available on the Starter account at about 17 credits a variation, for the sounds the picture depends on.
+
+Episodes 21 and 22 are kept as delivered; the user has not asked for them to be redone.
+
 ## Season order and continents
 
 | Ep | Case | Where | Continent | Form | Scare placement | Sound language | Visual language |
 |---|---|---|---|---|---|---|---|
 | 21 | The Enfield poltergeist (1977) | London, England | Europe | One unbroken locked-off take in real time, with misdirection | Many small, and the last frame | Diegetic only (no score) | A camera left running on a tripod; tape dropouts |
 | 22 | The Okiku doll | Iwamizawa, Hokkaido, Japan | Asia | Time-lapse over 88 years from one fixed position | None: the horror is what you realise | One instrument: a temple bell | A fixed temple shrine, years counting up |
-| 23 | The Bell Witch (1817–1821) | Adams, Tennessee, USA | North America | Told backwards, from the funeral to the first night | The front (the first five seconds) | A lone hymn, one voice, then nothing | A damaged old film print, sepia |
+| 23 | The Bell Witch (1817–1821) | Adams, Tennessee, USA | North America | Told backwards, scene by scene, joined by rewinds; every shot moves | The front (a laugh and a gust at about 5.7 s), then several small ones | Real-sounding effects (laugh, gust, quilt, scratching) with reversed swells | A damaged old film print, sepia |
 | 24 | The Island of the Dolls | Xochimilco, Mexico City | Latin America | First person, one gliding take, "you" | Several small (heads that have turned) | Water, wind and creaking only | First-person boat POV at dusk in fog |
-| 25 | The Hampton Court CCTV (October 2003) | Hampton Court Palace, England | Europe | A four-camera security grid in real time | The middle (the doors), then a figure almost missed | Near silence; the only loud sound is the doors | CCTV: four tiles, timestamps, no sound on camera |
+| 25 | The Hampton Court CCTV (October 2003) | Hampton Court Palace, England | Europe | A guard's night patrol, handheld, cut against the CCTV tiles he is watching | The middle (the doors burst open in front of him), then a figure almost missed | Near silence; the only loud sound is the doors | Handheld torch POV and CCTV tiles |
 | 26 | The Castle of Good Hope | Cape Town, South Africa | Africa | A night guard's radio log, first person | Several small, escalating | Radio squelch and footsteps; diegetic | A guard's torch POV; radio text on screen |
-| 27 | Waverly Hills Sanatorium | Louisville, Kentucky, USA | North America | One night-vision shot of the ball experiment | The scare never comes | Silence-heavy | Infrared night vision on a fixed tripod |
-| 28 | The Brown Lady of Raynham Hall (1936 photograph) | Norfolk, England | Europe | One slow push into a print developing in a darkroom | The last frame | The darkroom only: a drip, a safelight hum | Black-and-white print under a red safelight |
+| 27 | Waverly Hills Sanatorium | Louisville, Kentucky, USA | North America | A night-vision walk down the ward corridor, following a ball that rolls away into the dark | The scare never comes | Silence-heavy | Handheld infrared night vision |
+| 28 | The Brown Lady of Raynham Hall (1936 photograph) | Norfolk, England | Europe | The photographers on the staircase in 1936: moving camera, flash after flash, each flash showing the figure further down the stairs | The last frame | Camera shutters and flash whine, then silence | Black and white, flash-lit stop motion |
 | 29 | Monte Cristo Homestead | Junee, New South Wales, Australia | Oceania | Second person, "you are the overnight guest", in real time | Front and back (bookends) | A wall of noise that cuts to nothing | A guest's phone torch; a fixed bedroom frame |
 | 30 | Poveglia (finale) | Venetian Lagoon, Italy | Europe | An unreliable narrator: the legend, corrected by the record | The last frame | Bells and water building to a wall | An old travel film, then the real ruin |
 
@@ -58,9 +70,9 @@
 - **The story:** a Tennessee farm family reported scratching, knocking and a voice that spoke, sang and tormented John Bell, who died in December 1820.
 - **Claim versus documented:** most details come from M. V. Ingram's 1894 book, which quotes Richard Williams Bell's account ("Our Family Trouble"); that manuscript has never been found. Accounts agree on a vial found by John Bell and the cat that died after tasting it, but an 1880 sketch differs and Skeptoid argues Ingram may have invented the death story. The death date is given as 19 or 20 December 1820.
 - **Care:** John Bell's death is never shown; no poisoning method is described beyond "a vial no one recognised".
-- **Structure:** told backwards: the funeral first (the voice reported singing at the grave), then the sickbed, then the voice, then the knocking, ending on the first night: a scratch on a bedpost.
-- **Scare mechanism:** at the front: the laughter at the funeral in the first five seconds. The rest is dread that runs down to the quietest moment.
-- **Sound:** a lone hymn hummed by one voice, which is gone by the end.
+- **Structure:** told backwards, scene by scene, each joined by a film rewind: the funeral, the sickroom and the vial, supper when the voice talked, the children's room, outside in 1817, the first night. Every shot moves; every scene has a visible event.
+- **Scare mechanism:** at the front: a laugh and a gust that snuffs the lanterns at about 5.7 s; then several small ones (a vial rolling, an empty chair's shadow, a quilt yanked, scratches appearing).
+- **Sound:** ElevenLabs sound effects (laugh, gust, quilt, scratching), synthesized foley, a drone with reversed swells into each rewind.
 
 ### 24. "They Turn Their Heads": the Island of the Dolls (Xochimilco, Mexico City)
 
@@ -76,8 +88,8 @@
 - **The story:** on several days in October 2003, guards were called to a fire door near Clock Court that kept opening. On the CCTV, the doors flew open with no visible cause; on another day a robed figure appeared and closed them.
 - **Claim versus documented:** documented: the palace released the footage; Historic Royal Palaces has said there is no explanation. Disputed: a costumed visitor or a staff prank (the palace did not call it a hoax). Not used: the "Skeletor" nickname, and blog details (kitchens, bony hands) that conflict with the palace's account.
 - **Care:** no living staff named; no historical figure claimed.
-- **Structure:** a four-tile CCTV grid in real time.
-- **Scare mechanism:** the middle: the doors burst open; while you watch them, a figure stands in a different tile, almost missed.
+- **Structure:** a guard's night patrol, handheld torch POV, cut against the CCTV tiles in the control room (revised for the motion rule).
+- **Scare mechanism:** the middle: the doors burst open in front of him; on the CCTV tile behind him, a figure stands where he just walked, almost missed.
 - **Sound:** near silence: the hum of a monitor room; the doors are the only loud sound.
 
 ### 26. "Post Three": the Castle of Good Hope (Cape Town)
@@ -94,8 +106,8 @@
 - **The story:** a tuberculosis hospital (from 1910, the big building from 1926), later abandoned, where ghost investigators report voices, shadow figures and a child who plays with a ball.
 - **Claim versus documented:** documented: the sanatorium and its tunnel (about 500 ft, used to move supplies and the dead out of sight). Disputed: the death toll (claims of 63,000+ are not supported; a former medical director's memoir is cited for a far lower figure). Room 502's suicides are local legend, not documented, and are **not used**.
 - **Care:** no patients shown; TB deaths stated with respect; no suicide material.
-- **Structure:** one fixed night-vision shot of a corridor where investigators leave a ball.
-- **Scare mechanism:** the scare never comes. The ball rolls back, slowly. Nothing else happens. The horror is the size of the hand that would have rolled it.
+- **Structure:** a handheld night-vision walk down the ward corridor (revised for the motion rule); the investigators' ball rolls away from the camera, the camera follows it room by room.
+- **Scare mechanism:** the scare never comes. The ball stops, then rolls back to the camera. Nothing else happens. The horror is the size of the hand that would have rolled it.
 - **Sound:** silence-heavy: the camera's fan, a building settling, the ball on concrete.
 
 ### 28. "Developing": the Brown Lady of Raynham Hall (Norfolk, 1936)
@@ -103,9 +115,9 @@
 - **The story:** on 19 September 1936, Country Life photographers Hubert Provand and Indre Shira photographed the staircase at Raynham Hall; the print shows a veiled figure descending. Published in Country Life (26 December 1936) and Life (4 January 1937).
 - **Claim versus documented:** documented: the photograph and its publication; experts for Country Life said the negative was not tampered with. Disputed: double exposure (Joe Nickell; a pale line above each tread), grease on the lens, or a superimposed statue.
 - **Care:** no named living person; the house is a private home, no visiting framing.
-- **Structure:** one slow push-in over a print developing in a darkroom tray.
-- **Scare mechanism:** the last frame: the print keeps developing after it should have stopped, and the figure is lower on the stairs, nearer the lens.
-- **Sound:** the darkroom only: a drip, the safelight's hum, the tray rocking.
+- **Structure:** a reconstruction of the photographers on the staircase in 1936 (revised for the motion rule): a moving camera climbs the stairs; each flash shows the figure a few steps lower; then the darkroom, where the print develops.
+- **Scare mechanism:** the last frame: the print keeps developing after it should have stopped, and the figure is at the bottom of the stairs, at the lens.
+- **Sound:** shutters, the flash's whine, footsteps on old stairs, then the darkroom drip.
 
 ### 29. "Checkout Is at Ten": Monte Cristo Homestead (Junee, NSW)
 

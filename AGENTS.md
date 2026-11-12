@@ -6,6 +6,7 @@
   - **Rules:** real cases only, told true to life (ordinary rooms, real times, witness details, restraint); facts as reported and disputed, from search summaries; no shared template (shared helpers are fine); no film or game designs; no naming of living private people; no dares.
   - **Voice:** English, **Jack** (`BVPhWQykET1TSvfGzrUr`, `eleven_v4`) for every episode (all are reported cases), on the user's Starter account; a new flow per session; both takes generate by default.
   - **Standards that stay:** hook under 1 s, 45–60 s, hidden details, dark key, presence and margin checks (with no score, measure the whole bed), −14 LUFS, decoded peak ≤ −1 dBFS, the checked `mix.m4a` muxed over the picture; render scripts delete their bundle.
+  - **The motion rule (user, after Episode 22, 2026-11-12):** "there's a lack of motion … a static video like this, only the narrator is telling the story. The video itself should be scary, the video itself should tell the story … not like the first two episodes." From Episode 23 on: every shot moves; every scene has a visible event; the picture must tell and frighten with the sound off; use ElevenLabs sound effects (`eleven_text_to_sound_v2`, about 17 credits a variation) for the sounds the picture depends on. The slate's static formats (25, 27, 28) were revised. Episodes 21 and 22 are kept; the user has not asked for them to be redone.
   - **Status:** no user approval of the slate or any episode; no listening pass.
 
 - **Episode 21 "Watch the Chair" (2026-11-12):** the Season 3 opener: the Enfield poltergeist (north London, 1977), a real, documented, disputed case. `Ep21WatchTheChair` / `src/horror/ep21/` is 58.95 s, in English.
@@ -29,6 +30,17 @@
   - **Delivery:** `assets/videos/ep22-okiku-v1/`. Notes are in `docs/production/ep22-okiku/README.md`; the publishing kit is `docs/publishing/ep22/README.md` and `docs/publishing/POSTS-ep21-30.md`.
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 23 "Backwards" (the Bell Witch; told backwards from the funeral).
+
+- **Episode 23 "Backwards" (2026-11-12):** the user asked for the "next ep" and, before it, gave the motion note above. The Bell Witch (Adams, Tennessee, 1817–1821), a real reported case. `Ep23Backwards` / `src/horror/ep23/` is 57.7 s, in English. The first episode built to the motion rule.
+  - **Form:** told backwards, scene by scene, each joined by a film rewind in which the previous scene runs backwards at 7×: the funeral (a laugh, a gust snuffs the lanterns, the mourners turn) → the sickroom (a vial rolls by itself) → supper (flames lean to an empty chair; its sitter's shadow on the wall) → the children's room (a quilt yanked off a bed) → outside in 1817 (scratches appear on the logs; something moves through the corn) → the first night (a scratch draws itself into a bedpost). Every shot moves. An old-film-print look (sepia, dust, scratches, gate weave).
+  - **Sound:** ElevenLabs sound effects for the first time (laugh, gust, scratching, quilt; 272 credits, picked by measurement), synthesized foley, a drone with reversed swells into each rewind.
+  - **Lessons:** see the playbook (directional lights aim at the origin; `hemisphereLight` with `args` lit nothing; point lights need 5–10 at 2 m; portrait frames are about 29° wide; `interpolate` ranges must increase).
+  - **Care:** faces in shadow or turned away; no one shown harmed; the narration says the story comes from one book written 70 years later and the family's account is lost.
+  - **Voice:** Jack, both takes at once (1,574 credits; take 1 used), no tempo change.
+  - **Sound figures:** score presence −12.5 / −2.9 dB, lines ≥4.7 dB (l06 +4.3, l07 +2.6, l02 +0.5), −14.0 LUFS, decoded peak −1.1 dBFS, seam −18.2 / −19.1 dBFS.
+  - **Delivery:** `assets/videos/ep23-bell-v1/`. Notes are in `docs/production/ep23-bell/README.md`; the publishing kit is `docs/publishing/ep23/README.md` and `docs/publishing/POSTS-ep21-30.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 24 "They Turn Their Heads" (the Island of the Dolls; first person in a boat).
 
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.

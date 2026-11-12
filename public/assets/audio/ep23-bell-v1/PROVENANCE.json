@@ -1,0 +1,164 @@
+{
+  "episode": "Ep23Backwards",
+  "duration_seconds": 57.67,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep23-take1.mp3",
+    "sha256": "502d108b88bde17d9e00a55fd4bdf45f1d10ee5ed04200ac7fb94ea6c2546923",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (library voice)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep23-take1.mp3: 51.41 s, 787 credits (used)",
+      "public/assets/audio/eleven-takes/ep23-take2.mp3: 48.27 s, 787 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep23-bell/prompt.json"
+  },
+  "original_synthesis": [
+    "score (scripts/horror_score.py): a D2 mid-band drone, tremolo strings, reversed swells into each rewind, one stinger at the laugh, a riser into the yank",
+    "places: wind and snow, rooms, hearth and candle crackle, crickets (synthesized)",
+    "foley: laboured breathing, a vial rolling, cutlery, a chair scraping, corn rustling, the four film rewinds (synthesized); a whisper made from the reversed, filtered narration line 5"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "dxoXiHRrtfx5ejv6Y8UC",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "laugh-1": {
+        "path": "public/assets/audio/eleven-sfx/ep23-laugh-1.mp3",
+        "sha256": "b512b082695fb17dc6f738b0d5db5e2756348325f68c72892b51034d97a69d8c"
+      },
+      "gust-2": {
+        "path": "public/assets/audio/eleven-sfx/ep23-gust-2.mp3",
+        "sha256": "6552b090c6bf06c1b27b1b29a1f7c5826cf965ba0ee22b528be4cbe3a481e021"
+      },
+      "laugh-3": {
+        "path": "public/assets/audio/eleven-sfx/ep23-laugh-3.mp3",
+        "sha256": "e4092508d459acdce6c6bd48e5c4018d980019ef4b2cba4a525667ae65d19175"
+      },
+      "quilt-4": {
+        "path": "public/assets/audio/eleven-sfx/ep23-quilt-4.mp3",
+        "sha256": "aa375a199c0c7b36c74af28e66732029c2220e10147655e56c0bd979e088175d"
+      },
+      "quilt-1": {
+        "path": "public/assets/audio/eleven-sfx/ep23-quilt-1.mp3",
+        "sha256": "b8af525bf972b018e12989b5e3f6052af3a9dc5bb9ef04cbe31993e308771c8d"
+      },
+      "scratch-4": {
+        "path": "public/assets/audio/eleven-sfx/ep23-scratch-4.mp3",
+        "sha256": "08a20924660acc1baf11d23c1303784da861df4cbc761755e124339f44a3bf90"
+      },
+      "scratch-1": {
+        "path": "public/assets/audio/eleven-sfx/ep23-scratch-1.mp3",
+        "sha256": "098d736ac22b08f62790166ecb325d459fcbec87ff8ff19a62f453421d76c936"
+      },
+      "scratch-2": {
+        "path": "public/assets/audio/eleven-sfx/ep23-scratch-2.mp3",
+        "sha256": "bd9c3176b49a9bddc615b3df32aa28ceeb791442c70560e742a086d78294a5d3"
+      },
+      "scratch-3": {
+        "path": "public/assets/audio/eleven-sfx/ep23-scratch-3.mp3",
+        "sha256": "2b473ac361aef9216a7c1d7165b46ba7ce99fe19d733a57470286ea611f41568"
+      }
+    },
+    "note": "four prompts x four variations (68 credits per prompt); variations picked by measured envelope and spectrum, not by listening"
+  },
+  "music_presence_note": "music_presence measures the score only; voice margins are against everything",
+  "real_recordings_used": false,
+  "library_cues": {
+    "wood_stress": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_wood_stress_v1.flac",
+      "sha256": "0fffdba6537e9e9dbc0915b1d7d3c582cc306bd9b305c695ce9561088d6de04a"
+    },
+    "cable_tension": {
+      "path": "public/assets/audio/library/curio-bureau/curio_sfx_v1/mechanical/CB_MECHANICAL_cable_tension_v1.flac",
+      "sha256": "b934def84c475853e000d9e81e51f74f353e872e32d3bc628f87bdcedd1dd72b"
+    }
+  },
+  "stingers": [
+    5.69,
+    36.0
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.1,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -18.2,
+    "last_quarter_second": -19.1
+  },
+  "limiter": "tanh soft limiter, ceiling -1.89 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.5,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 4.3,
+    "l07": 2.6,
+    "l08": 0.0,
+    "l09": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 8.5,
+      "phone_band_voice_minus_all_db": 12.5,
+      "voice_minus_score_db": 8.9
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 10.3,
+      "voice_minus_score_db": 4.9
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 7.0,
+      "phone_band_voice_minus_all_db": 12.5,
+      "voice_minus_score_db": 7.1
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 5.7,
+      "phone_band_voice_minus_all_db": 11.8,
+      "voice_minus_score_db": 5.7
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 5.0,
+      "phone_band_voice_minus_all_db": 10.6,
+      "voice_minus_score_db": 5.0
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 7.7,
+      "voice_minus_score_db": 8.0
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 6.7,
+      "voice_minus_score_db": 6.9
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 5.3,
+      "phone_band_voice_minus_all_db": 10.3,
+      "voice_minus_score_db": 5.6
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 6.9,
+      "phone_band_voice_minus_all_db": 10.2,
+      "voice_minus_score_db": 8.2
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.5,
+    "music_minus_voice_in_gaps_db": -2.9,
+    "music_share_of_gaps_seconds": 16.2
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

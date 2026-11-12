@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "text": "[softly] December, eighteen twenty. Tennessee. They are burying John Bell. [long pause] Witnesses said a voice laughed over the grave. And sang. Until the last mourner left. [long pause] The morning he died, the family found a small vial no one recognised. [long pause] [whispers] The voice said it had given him a dose. [long pause] [softly] For three years, it had talked. Visitors said it repeated sermons, word for word. [long pause] It pulled the covers off the children's beds. Every night. [long pause] It began in eighteen seventeen. With scratching. On the outside of the walls. [long pause] Almost all of this comes from one book, written seventy years later. The family's own account has never been found. [long pause] [whispers] This is the first night. You know how it ends.",
+    "flow_id": "dxoXiHRrtfx5ejv6Y8UC (new flow on the Starter account)",
+    "attempts": ["2026-11-12: one call, both takes started at once (787 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep23-take1.mp3: 51.41 s, 787 credits (used)",
+      "public/assets/audio/eleven-takes/ep23-take2.mp3: 48.27 s, 787 credits (kept, unused)"
+    ],
+    "processing": "split into 9 lines, pauses inside a line capped at 0.45 s, no tempo change; timeline 57.67 s with gaps for the events and the rewinds"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "dxoXiHRrtfx5ejv6Y8UC",
+    "prompts": {
+      "laugh": "A disembodied woman's laugh, distant and echoing across a frozen open field at dusk, cold wind, no music",
+      "gust": "A sudden violent gust of winter wind sweeping across an open field, lantern flames sputtering out, snow hissing, then near silence",
+      "scratch": "Slow claw-like scratching dragged along the outside of a rough wooden log cabin wall at night, heard from inside, crickets faint, no music",
+      "quilt": "A heavy quilt slowly sliding off a bed and then yanked across old wooden floorboards in a quiet room, cloth rustle and drag, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: 272 credits in all (an estimate call showed 200 per prompt; the charge was 68)",
+    "files": "public/assets/audio/eleven-sfx/ep23-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: the laugh with the strongest 3-8 Hz envelope pulsing (laugh-1), the 3 s gust (gust-2), the lower-centroid scratches (scratch-1, scratch-4) and a brighter one for the bedpost (scratch-2), the 5 s quilt slide (quilt-4) and a 1 s drag for the yank (quilt-1)"
+  },
+  "script_source": "docs/stories/season-3-world.md #23 (a real reported case: the Bell Witch)"
+}
