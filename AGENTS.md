@@ -7,7 +7,7 @@
   - **Voice:** English, **Jack** (`BVPhWQykET1TSvfGzrUr`, `eleven_v4`) for every episode (all are reported cases), on the user's Starter account; a new flow per session; both takes generate by default.
   - **Standards that stay:** hook under 1 s, 45–60 s, hidden details, dark key, presence and margin checks (with no score, measure the whole bed), −14 LUFS, decoded peak ≤ −1 dBFS, the checked `mix.m4a` muxed over the picture; render scripts delete their bundle.
   - **The motion rule (user, after Episode 22, 2026-11-12):** "there's a lack of motion … a static video like this, only the narrator is telling the story. The video itself should be scary, the video itself should tell the story … not like the first two episodes." From Episode 23 on: every shot moves; every scene has a visible event; the picture must tell and frighten with the sound off; use ElevenLabs sound effects (`eleven_text_to_sound_v2`, about 17 credits a variation) for the sounds the picture depends on. The slate's static formats (25, 27, 28) were revised. Episodes 21 and 22 are kept; the user has not asked for them to be redone.
-  - **Status:** no user approval of the slate or any episode; no listening pass.
+  - **Status:** all ten episodes are delivered (Season 3 complete with Episode 30); no user approval of the slate or any episode; no listening pass.
 
 - **Episode 21 "Watch the Chair" (2026-11-12):** the Season 3 opener: the Enfield poltergeist (north London, 1977), a real, documented, disputed case. `Ep21WatchTheChair` / `src/horror/ep21/` is 58.95 s, in English.
   - **Form:** one unbroken, locked-off take in real time (a camera left running in the back bedroom). Misdirection: the hook says "Watch the chair"; the chair never moves while visible, only in three tape dropouts, nearer the far bed each time; at the end someone is sitting in it (a silhouette from behind against the curtains), then a dropout loops to frame 0.
@@ -138,6 +138,18 @@
   - **Delivery:** `assets/videos/ep29-monte-v1/`. Notes are in `docs/production/ep29-monte/README.md`; the publishing kit is `docs/publishing/ep29/README.md` and `docs/publishing/POSTS-ep21-30.md`.
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 30 "What They Tell You" (Poveglia, the Venetian Lagoon; the season finale: the legend, corrected by the record).
+
+- **Episode 30 "What They Tell You" (2026-11-12):** the user asked for the "next ep". The Season 3 finale: Poveglia (the Venetian Lagoon), a real island with a famous legend and a quiet record. `Ep30WhatTheyTellYou` / `src/horror/ep30/` is 52.5 s, in English.
+  - **Form:** an unreliable narrator. Jack tells the legend as tourists repeat it ("They say…") over an old travel film (warm, faded, gate weave, projector flicker), and each claim is struck by a stamped "RECORD:" card. At "That's what they tell you" the sound cuts dead and the picture is today (grey).
+  - **The events:** the birds lift off the tower (the hook); the grass parts in a line coming towards us; a hospital shutter swings and knocks; the bell swings by itself; then today, the ruined corridor to the end window; the boat we came in leaves without us, someone standing in its stern facing us; one bell; black.
+  - **Sound:** no score: bells across the lagoon, water and the boat (ElevenLabs SFX, 272 credits) build to a wall that cuts dead; then near silence, the boat leaving and one bell.
+  - **Lessons:** keep trees off a façade shot's line of sight (scattered trees blacked out the hospital); a field event needs the camera looking down into it and its own light; a distant figure on water needs light-grey water and a narrowing lens.
+  - **Care:** no patient shown; the doctor and his fall are named only as legend and never depicted (only the bell); the 160,000 and the ash soil are corrected on screen; the island is closed to visitors, and the first card says so.
+  - **Voice:** Jack, both takes at once (1,368 credits; take 1 used), no tempo change; gaps widened for the cards.
+  - **Sound figures:** bed presence −8.9 / −0.9 dB (the legend's wall is loud on purpose; the record is near silence), lines ≥4.8 dB with no lifts, −14.0 LUFS, decoded peak −1.62 dBFS, the loop restarts from black and silence into the bells.
+  - **Delivery:** `assets/videos/ep30-poveglia-v1/`. Notes are in `docs/production/ep30-poveglia/README.md`; the publishing kit is `docs/publishing/ep30/README.md` and `docs/publishing/POSTS-ep21-30.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next:** **Season 3 is complete** (Episodes 21–30, English, Jack). What comes next is the user's call.
 
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.

@@ -1,0 +1,31 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "text": "[whispers] They say no one who goes to Poveglia comes back. [long pause] They say a hundred and sixty thousand plague victims were burned here. That half the soil is human ash. [long pause] They say a doctor did terrible things to the patients in the asylum. [long pause] And that he climbed the bell tower, and fell. [long pause] [softly] That's what they tell you. [long pause] The record is quieter. A quarantine station for ships, from seventeen ninety-three. Later, a hospital, until nineteen sixty-eight. Then nothing. [long pause] Historians can't find the doctor. Or the hundred and sixty thousand. [long pause] [whispers] The island has been empty since nineteen sixty-eight.",
+    "flow_id": "m6CaQL2c4T1w0O5SY93o (new flow on the Starter account)",
+    "attempts": [
+      "2026-11-12: one call, both takes started at once (684 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep30-take1.mp3: 42.16 s, 684 credits (used)",
+      "public/assets/audio/eleven-takes/ep30-take2.mp3: 41.44 s, 684 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, gaps widened for the RECORD cards, no tempo change; timeline 52.52 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "m6CaQL2c4T1w0O5SY93o",
+    "prompts": {
+      "bells": "Heavy bronze church bells ringing from an old bell tower across open lagoon water at dusk, several bells overlapping, distant and echoing over the water, no music",
+      "boat": "A small wooden motorboat on a calm lagoon, the outboard engine puttering and slowly moving away into the distance, water lapping against the hull, no music",
+      "water": "Calm lagoon water lapping gently against old stone walls and rotten wooden posts on an abandoned island, very quiet, a faint wind through dry grass, no music",
+      "bell": "A single large bronze bell struck once in an empty abandoned bell tower, deep tone with a long slow decay in total silence, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: 272 credits",
+    "files": "public/assets/audio/eleven-sfx/ep30-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: bells-4 (the densest, 2 s at -7 dB RMS) and bells-1 for the wall; boat-3 (2 s, -14 dB) under the approach and boat-4 (6 s steady, -24 dB) for the boat leaving; water-1 (6 s, very quiet, normalised) for the lagoon; bell-3 (the longest decay, centroid 1,072 Hz) for the single strike, bell-1 for the bell swinging in the tower"
+  },
+  "script_source": "docs/stories/season-3-world.md #30 (a real place: Poveglia, the Venetian Lagoon)"
+}

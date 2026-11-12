@@ -1,0 +1,146 @@
+{
+  "episode": "Ep30WhatTheyTellYou",
+  "duration_seconds": 52.52,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep30-take1.mp3",
+    "sha256": "678bca49929f3dc0d6fb2fd23fc977f436eb4e63147a640b22ea8d69773d760e",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (library voice)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep30-take1.mp3: 42.16 s, 684 credits (used)",
+      "public/assets/audio/eleven-takes/ep30-take2.mp3: 41.44 s, 684 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep30-poveglia/prompt.json"
+  },
+  "original_synthesis": [
+    "NO SCORE: the bells and the lagoon build to a wall under the legend and cut dead at the record (Season 3 sound language for Episode 30)",
+    "the film projector, wind in the grass, the grass parting, the shutter, the RECORD stamps, room tone, drips, low hits (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "m6CaQL2c4T1w0O5SY93o",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "bells-4": {
+        "path": "public/assets/audio/eleven-sfx/ep30-bells-4.mp3",
+        "sha256": "cf43033cec8d1ccd3236b47a8cd584a794c523911935b3d9dbd37c31b5e0a18c"
+      },
+      "bells-1": {
+        "path": "public/assets/audio/eleven-sfx/ep30-bells-1.mp3",
+        "sha256": "3fcc4ca40f0fae1deb06ab05e71252391555232155279138eadff4d6d6846aed"
+      },
+      "water-1": {
+        "path": "public/assets/audio/eleven-sfx/ep30-water-1.mp3",
+        "sha256": "6820a9489c66c28eba00b6ecb644bde3640681833edbe76f681500ad0ac78211"
+      },
+      "boat-3": {
+        "path": "public/assets/audio/eleven-sfx/ep30-boat-3.mp3",
+        "sha256": "783fb92fe37d255cdfab3ed144faabc8c7fa4ec5b5db7e02f7ad6ce9df1edd9a"
+      },
+      "bell-1": {
+        "path": "public/assets/audio/eleven-sfx/ep30-bell-1.mp3",
+        "sha256": "08aa719dc77b32ddb5bacf762a375bb2c32c2d9b7a50473b8736460b9d1aaad5"
+      },
+      "boat-4": {
+        "path": "public/assets/audio/eleven-sfx/ep30-boat-4.mp3",
+        "sha256": "bc4130a4f359a135033bc1e6f2a24bfbc1c29e002816761b69a6ff31f5e8fba1"
+      },
+      "bell-3": {
+        "path": "public/assets/audio/eleven-sfx/ep30-bell-3.mp3",
+        "sha256": "4438c8500d0b46a624bf2c9271a915193da1c8699109c2ba3eb56a402d9cf383"
+      }
+    },
+    "note": "four prompts x four variations (68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "there is no music; music_presence measures the whole non-voice bed against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    25.32,
+    50.120000000000005,
+    3.5300000000000002,
+    12.01,
+    17.669999999999998,
+    21.81,
+    46.22,
+    22.259999999999998,
+    23.310000000000002
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.62,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -18.7,
+    "last_quarter_second": -61.7
+  },
+  "limiter": "tanh soft limiter, ceiling -1.84 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 4.7
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 7.4,
+      "phone_band_voice_minus_all_db": 7.7,
+      "voice_minus_bed_db": 7.4
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 10.6,
+      "phone_band_voice_minus_all_db": 9.4,
+      "voice_minus_bed_db": 10.6
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 10.7,
+      "phone_band_voice_minus_all_db": 9.7,
+      "voice_minus_bed_db": 10.7
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 9.9,
+      "phone_band_voice_minus_all_db": 7.7,
+      "voice_minus_bed_db": 9.9
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 7.2,
+      "phone_band_voice_minus_all_db": 5.9,
+      "voice_minus_bed_db": 7.2
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 16.8,
+      "phone_band_voice_minus_all_db": 16.8,
+      "voice_minus_bed_db": 16.8
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 16.1,
+      "phone_band_voice_minus_all_db": 16.8,
+      "voice_minus_bed_db": 16.1
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 6.0,
+      "voice_minus_bed_db": 4.8
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -8.9,
+    "music_minus_voice_in_gaps_db": -0.9,
+    "music_share_of_gaps_seconds": 19.5
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

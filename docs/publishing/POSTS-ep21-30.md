@@ -21,6 +21,7 @@ Season 3 is famous, **real, documented** ghost cases from around the world, in E
 | 27 | The Ball (Waverly Hills Sanatorium) | Louisville, Kentucky, USA | `assets/videos/ep27-ball-v1/ep27-the-ball.mp4` | 55.0 s |
 | 28 | Developing (the Brown Lady of Raynham Hall, 1936) | Norfolk, England | `assets/videos/ep28-brown-v1/ep28-developing.mp4` | 57.2 s |
 | 29 | Checkout Is at Ten (Monte Cristo Homestead) | Junee, New South Wales, Australia | `assets/videos/ep29-monte-v1/ep29-checkout-is-at-ten.mp4` | 53.4 s |
+| 30 | What They Tell You (Poveglia; the finale) | Venetian Lagoon, Italy | `assets/videos/ep30-poveglia-v1/ep30-what-they-tell-you.mp4` | 52.5 s |
 
 ---
 
@@ -273,3 +274,31 @@ you're the overnight guest. it's 2:58. turn the camera around 📱 #montecristoh
 **TikTok pinned comment:** `watch the clock in the top corner.`
 
 **When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); an Australia post at 7–9 p.m. Sydney time also fits.
+
+---
+
+## Broadcast 30: What They Tell You (Poveglia; the Season 3 finale)
+
+**YouTube title:** `They say no one comes back from Poveglia.`
+Alternative: `The most haunted island, fact-checked.`
+
+**YouTube description**
+```
+Poveglia, the Venetian Lagoon. The legend says 160,000 plague victims, soil made of ash, a doctor who fell from the bell tower. The record says: a quarantine station for ships from 1793, a hospital until 1968, then nothing. Historians can't find the doctor, or the 160,000.
+
+So who's in the boat? 🛶
+
+Broadcast 30 · After Sign-Off · Season 3 finale: real cases from around the world. A reconstruction in pixel 3D. The island is closed to visitors; please don't try.
+#Poveglia #Venice #haunted #ghoststory #truehorror #shorts
+```
+
+**Pinned comment:** `If the island is empty, who's in the boat? 🛶`
+
+**TikTok caption**
+```
+the most haunted island in the world, fact-checked. so who's in the boat? 🛶 #poveglia #venice #truehorror #scarystories #haunted #fyp
+```
+**Cover text:** `THAT'S WHAT THEY TELL YOU`
+**TikTok pinned comment:** `read the last card. then look under it.`
+
+**When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); a Europe post at 8–10 p.m. CET also fits.
