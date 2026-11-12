@@ -42,6 +42,10 @@ The user listened to all 60 takes of sound library v1 and approved them all ("ex
 
 `public/assets/audio/transfers/sfx-v2/`: 20 prompts × 4 takes (80 files, about 160 s). It holds the entity signature (`focus-hunt` for tapes, `phone-focus` for phones), the rest of Episode 1's foley and beds, and sounds for Episodes 2–7. Prompts, hashes and durations are in `PROVENANCE.json`. The user has not heard it yet.
 
+## Long beds (2026-11-12)
+
+`public/assets/audio/transfers/sfx-v2-long/`: eight 20 s seamless-loop beds (rain on tin, fan, party through a camcorder mic, market street in rain, camcorder room tone, drone, CRT idle, fluorescent hum) and an 8 s focus-hunt signature. One take each. The SFX model takes `duration_seconds` (0.5–30) and `loop` through the flow node's parameters; the earlier 1–2 s clips were the default length. Cost: about 3.3 credits per second. Provenance is in `PROVENANCE.json`.
+
 ## Status
 
 Credits are approved by the user for reusable sound. Library v1 has been heard and approved by the user.

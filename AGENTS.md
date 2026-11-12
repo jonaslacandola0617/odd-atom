@@ -115,6 +115,10 @@
     - **Library v2:** `public/assets/audio/transfers/sfx-v2/` from flow `yJpLZFjVDXtWV9F71b0G`, 20 sounds × 4 takes. It covers all ten new Episode 1 sounds (including the `focus-hunt` entity signature) and ten for Episodes 2–7, with `PROVENANCE.json`.
     - **Cost:** about 1,333 credits. The estimate tool says 50 a take; the actual charge is 16.7.
     - **Gaps:** most takes are 1–2 s; music cannot be made with this connector. The user has not heard the library.
+  - **Long beds (user: "Use the remaining credits cant the sfx be longer?"):** `public/assets/audio/transfers/sfx-v2-long/` holds eight 20 s looping beds plus an 8 s focus-hunt, one take each.
+    - **Length control:** use a flow node with `duration_seconds` (up to 30) and `loop` (`creative_add_flow_node` + `creative_run_flow_nodes`); `generate_in_flow` alone gives the 1–2 s default.
+    - **Cost:** 563 credits, about 3.3 per second; the estimate tool quotes about 3× the real charge. About 1,900 credits were spent on 2026-11-12, so the old account is nearly empty.
+    - **Levels:** `crt-idle` and `camcorder-room` are very quiet. The beds are on the Sound Picker; the user has not heard them.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".

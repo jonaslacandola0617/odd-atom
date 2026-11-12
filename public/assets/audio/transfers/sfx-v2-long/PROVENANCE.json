@@ -1,0 +1,67 @@
+{
+  "library": "TRANSFERS sound library v2 long beds",
+  "generated": "2026-11-12",
+  "provider": "ElevenLabs connector, eleven_text_to_sound_v2, duration_seconds 20 (signature 8), loop on for beds, prompt influence 0.3",
+  "flow_id": "yJpLZFjVDXtWV9F71b0G",
+  "user_request": "\"Use the remaining credits cant the sfx be longer?\" (2026-11-12)",
+  "takes": "one take each: looping beds play continuously, so the 4-take rotation rule is for repeated actions, not for beds",
+  "credits": "8 x 67 + 27 = 563 (about 3.3 credits per second; the estimate tool quoted 10 per second)",
+  "levels": "crt-idle (mean -62 dB) and camcorder-room (mean -54 dB) are very quiet and need gain in the mix",
+  "listening": "not yet heard by the user; loop seams not checked by ear",
+  "files": {
+    "camcorder-room-loop20.mp3": {
+      "prompt": "Old camcorder microphone recording a quiet empty room, VHS tape hiss, faint motor whine",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "042f2bf8fa0bcee91fae8dffab8110b31aff7b5a99df0f5186168d2cc70f0099"
+    },
+    "crt-idle-loop20.mp3": {
+      "prompt": "Old CRT television idling in a quiet room, thin high-pitched whine and soft electrical hum",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "4c2f2c54ca0ce79fd7e7af56c94e577c0f46b732e7685d6d453ef00c3154b4dd"
+    },
+    "drone-loop20.mp3": {
+      "prompt": "Low dark ambient drone, deep sustained tone with slow unsettling swells and a faint metallic shimmer, no melody",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "2bea3482297ad6f3183d8d39f86b2c063315506c3c0cb997aeeac3e64aa93391"
+    },
+    "fan-loop20.mp3": {
+      "prompt": "Old electric stand fan running on low in a quiet room, soft motor hum and gentle blade whoosh",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "3731f6fe7f095402271dd5454675e4d2083d3dc39450c38b2bbfa10ceabb910f"
+    },
+    "fluorescent-hum-loop20.mp3": {
+      "prompt": "Fluorescent tube light buzzing steadily in a quiet room, electrical hum",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "cd4612305f89af2742799e78f88cd1c1af366e022e27cf80530277476bca237b"
+    },
+    "focus-hunt-long8.mp3": {
+      "prompt": "Old camcorder autofocus motor hunting, tiny servo whirring back and forth, heard through the camera's own microphone, close-mic",
+      "seconds": 8.05,
+      "loop": false,
+      "sha256": "936092eb130998b487fb6aba39531c43c725715ba16d5c88a399210ece12b6c0"
+    },
+    "market-rain-loop20.mp3": {
+      "prompt": "Small town market street at dusk in light rain, occasional tricycle motorbike passing, distant voices",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "79ce511b48cf3ce533d43bc8193913e516c666cd275b9d124445a5b9f3590dee"
+    },
+    "party-camcorder-loop20.mp3": {
+      "prompt": "Family party in a small room, laughter and indistinct chatter, heard through an old camcorder microphone, muffled, tape hiss",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "e97e89eb68ba638bdfceaa27deda51f717c975f0de3ddbdea6b7ed1c036d3d60"
+    },
+    "rain-tin-loop20.mp3": {
+      "prompt": "Steady light rain on a corrugated tin roof at night, heard from inside a small room, no thunder",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "9da7cc92bba259162498213f7e1c0cf3e1ff82a365b616ef61be0118e04b7cc4"
+    }
+  }
+}
