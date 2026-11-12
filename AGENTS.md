@@ -88,6 +88,15 @@
     - **Lessons:** in MODEL-STUDY.md.
     - **Nico v4 head test:** `assets3d/characters/nico/build_nico_head_v4.py` builds `public/assets/3d/nico/nico-v4-head.glb`; stills are in `assets3d/characters/nico/head-v4/` (`render_nico_look.cjs --v4head`).
     - Not yet reviewed.
+  - **WildSignal look plus reference modelling (user):** "Use the style of my wildsignal 3D creatures while the downloaded 3D models for modelling".
+    - **v4 head:** painted-form colours (MODEL-STUDY.md).
+    - **Modelling first (user, 2026-11-12):** "Focus on 3D modelling first". Shape is judged on clay renders, like the reference study.
+    - **Nico v5:** `assets3d/characters/nico/v5/` (`sdf.py`, `build_nico_v5.py`).
+      - Every part is a sculpt-like implicit surface: blended shapes meshed with marching cubes and decimated, sized from the sheet's front and side views.
+      - **Parts:** head, hair (cap plus about 75 clumps), shirt, arms, hands, jeans, shoes and soles.
+      - **Output:** `nico-v5-clay.glb` and `clay/` renders, with `compare-sheet-vs-v5-clay.png`.
+      - **Lesson:** a marching-cubes grid with a sample plane exactly on the mirror plane (x = 0) left a crease line down the shirt after decimation; offset the grid.
+      - Not yet reviewed.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
