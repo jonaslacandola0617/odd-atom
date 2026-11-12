@@ -2,11 +2,22 @@
   "what": "TRANSFERS voice design previews (eleven_ttv_v3, language fil), from the user's approved texts in docs/stories/original-series/transfers/VOICES.md",
   "generated": "2026-11-12",
   "account": "the user's 30K-credit ElevenLabs account (workspace f859...)",
-  "status": "waiting for the user to pick one per character; the pick is then saved with creative_save_designed_voice",
+  "status": "user picked nico-3, liza-2, titoboy-3 (2026-11-12); saved to the account as voices",
   "previews": {
-    "nico-1.mp3": "PXhrjiwsItpks9jon1Qr", "nico-2.mp3": "fCgm0OKTyjuVTYV0AYn4", "nico-3.mp3": "b9MLbvMviFdcnG5slWrY",
-    "liza-1.mp3": "uX2XWmnMdWLt9GYgpsAH", "liza-2.mp3": "lX52sMmdCaLkml6skoI2", "liza-3.mp3": "UV1QbjTOkMyGu6lF4EQD",
-    "titoboy-1.mp3": "975A8tXdujLFxb6Av8Z5", "titoboy-2.mp3": "vv9Lolrn6Fh5cxn0o8H5", "titoboy-3.mp3": "9KpW2mNgONHOSALtTbuF"
+    "nico-1.mp3": "PXhrjiwsItpks9jon1Qr",
+    "nico-2.mp3": "fCgm0OKTyjuVTYV0AYn4",
+    "nico-3.mp3": "b9MLbvMviFdcnG5slWrY",
+    "liza-1.mp3": "uX2XWmnMdWLt9GYgpsAH",
+    "liza-2.mp3": "lX52sMmdCaLkml6skoI2",
+    "liza-3.mp3": "UV1QbjTOkMyGu6lF4EQD",
+    "titoboy-1.mp3": "975A8tXdujLFxb6Av8Z5",
+    "titoboy-2.mp3": "vv9Lolrn6Fh5cxn0o8H5",
+    "titoboy-3.mp3": "9KpW2mNgONHOSALtTbuF"
   },
-  "bea": "blocked by the ElevenLabs voice design safety filter (a nine-year-old girl's voice); nothing generated"
+  "bea": "voice design blocked by the safety filter; the user rejected the unshifted library voices ('didnt sound like a child'); testing adult library voices pitch/formant-shifted into a child's range (ffmpeg asetrate + rubberband), on the private picker only",
+  "saved_voices": {
+    "Nico": "b9MLbvMviFdcnG5slWrY",
+    "Liza": "lX52sMmdCaLkml6skoI2",
+    "Tito Boy": "9KpW2mNgONHOSALtTbuF"
+  }
 }

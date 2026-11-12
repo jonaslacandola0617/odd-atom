@@ -90,3 +90,12 @@ with English mixed in.
 - **SFX done:** library v2 (`public/assets/audio/transfers/sfx-v2/`), 20 sounds × 4 takes. It
   covers the ten new Episode 1 sounds plus ten for Episodes 2–7. The charge was about 1,333
   credits, at 16.7 per take (the estimate tool had said 50).
+
+## Picks (user, 2026-11-12)
+
+- Nico: preview 3, saved as `b9MLbvMviFdcnG5slWrY` ("TRANSFERS – Nico").
+- Liza: preview 2, saved as `lX52sMmdCaLkml6skoI2` ("TRANSFERS – Liza").
+- Tito Boy: preview 3, saved as `9KpW2mNgONHOSALtTbuF` ("TRANSFERS – Tito Boy").
+- Bea: the voice design was blocked by ElevenLabs' safety filter (a child's voice). The user
+  rejected the plain library voices. Next test: an adult library voice shifted to a child's pitch
+  in post.
