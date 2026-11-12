@@ -1,0 +1,21 @@
+{
+ "episode": 1,
+ "script": "docs/stories/original-series/transfers/EP01-SCREENPLAY.md",
+ "generated": "2026-11-12",
+ "service": "ElevenLabs (user's 30K-credit account), model eleven_v4, one take per character in script order",
+ "flow_id": "XtJPkSIjDPCJz6d0shg0",
+ "credits_approx": 2045,
+ "voices": {
+  "nico": {"voice_id": "b9MLbvMviFdcnG5slWrY", "source": "designed voice (eleven_ttv_v3), user pick nico-3"},
+  "liza": {"voice_id": "lX52sMmdCaLkml6skoI2", "source": "designed voice, user pick liza-2"},
+  "titoboy": {"voice_id": "9KpW2mNgONHOSALtTbuF", "source": "designed voice, user pick titoboy-3"},
+  "bea": {"voice_id": "6LXO12QQcaZd6xGp9UIZ", "source": "library voice Cielle, shifted to a child's range in post (user pick 'Cielle B': formants x1.08, pitch x1.1683, median f0 about 258 Hz); child voice designs were blocked by the safety filter twice"},
+  "rudy": {"voice_id": "5Q7Prc4RWUSqufejYCQ5", "source": "library voice Rezz"},
+  "lola": {"voice_id": "S0erf8BY5pzZPCxzCfku", "source": "library voice Lola Sela Tanda"},
+  "guest": {"voice_id": "3BDtQgJQtkDnbDR0xPpK", "source": "library voice Ro Raza"},
+  "jojo": {"voice_id": "PU0XItgzyyu0BQV8GHRX", "source": "library voice Rey Mark, shifted (formants x1.12, pitch x1.1236)"}
+ },
+ "takes": "takes/<speaker>.mp3 as generated; takes/bea.wav and jojo.wav are the shifted versions of *-raw.mp3",
+ "lines": "lines/lNN-<speaker>.wav, 48 kHz mono, each peak-normalised to -3 dBFS (the mix sets levels); cut by scripts/transfers_ep01_dialogue.py from word timestamps (eleven_scribe_v1 transcripts of the takes, free)",
+ "status": "not yet heard or approved by the user"
+}

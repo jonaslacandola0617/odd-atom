@@ -96,6 +96,18 @@ with English mixed in.
 - Nico: preview 3, saved as `b9MLbvMviFdcnG5slWrY` ("TRANSFERS – Nico").
 - Liza: preview 2, saved as `lX52sMmdCaLkml6skoI2` ("TRANSFERS – Liza").
 - Tito Boy: preview 3, saved as `9KpW2mNgONHOSALtTbuF` ("TRANSFERS – Tito Boy").
-- Bea: the voice design was blocked by ElevenLabs' safety filter (a child's voice). The user
-  rejected the plain library voices. Next test: an adult library voice shifted to a child's pitch
-  in post.
+- Bea: the voice design was blocked by ElevenLabs' safety filter (a child's voice), and again
+  with a safer prompt. The user rejected the plain library voices and picked "Cielle B": library
+  voice Cielle (`6LXO12QQcaZd6xGp9UIZ`) shifted in post (formants ×1.08, pitch ×1.1683, about
+  258 Hz median).
+- One-scene voices (library, no design cost): Rudy = Rezz `5Q7Prc4RWUSqufejYCQ5`; Lola = Lola
+  Sela Tanda `S0erf8BY5pzZPCxzCfku`; party guest = Ro Raza `3BDtQgJQtkDnbDR0xPpK`; JoJo = Rey
+  Mark `PU0XItgzyyu0BQV8GHRX` with a smaller child shift (formants ×1.12, pitch ×1.1236).
+
+## Episode 1 dialogue (2026-11-12)
+
+All 38 lines, one take per character on flow `XtJPkSIjDPCJz6d0shg0`, about 2,045 credits.
+`public/assets/audio/transfers/ep01-dialogue/`: the raw takes, one WAV per line (`lines/`),
+`lines.json` (order, text, English caption) and `PROVENANCE.json`. Lines are cut by
+`scripts/transfers_ep01_dialogue.py` from word timestamps (free scribe transcripts). Not yet heard
+by the user.

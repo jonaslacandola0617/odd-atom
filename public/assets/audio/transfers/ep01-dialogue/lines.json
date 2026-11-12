@@ -1,0 +1,309 @@
+{
+ "episode": 1,
+ "lines": [
+  {
+   "n": 1,
+   "speaker": "titoboy",
+   "file": "lines/l01-titoboy.wav",
+   "text": "O, kaway kayo! Para kay Tatay Rudy 'to!",
+   "caption": "Come on, wave! This one's for Tatay Rudy!",
+   "seconds": 2.98
+  },
+  {
+   "n": 2,
+   "speaker": "lola",
+   "file": "lines/l02-lola.wav",
+   "text": "Pambaon mo, anak. Huwag mong gagastusin agad, ha.",
+   "caption": "Something for your trip, son. Don't spend it all at once.",
+   "seconds": 3.6
+  },
+  {
+   "n": 3,
+   "speaker": "rudy",
+   "file": "lines/l03-rudy.wav",
+   "text": "'Nay naman.",
+   "caption": "Oh, Ma.",
+   "seconds": 2.23
+  },
+  {
+   "n": 4,
+   "speaker": "titoboy",
+   "file": "lines/l04-titoboy.wav",
+   "text": "Pare, ikaw naman.",
+   "caption": "Your turn, pare.",
+   "seconds": 3.13
+  },
+  {
+   "n": 5,
+   "speaker": "rudy",
+   "file": "lines/l05-rudy.wav",
+   "text": "Paano 'to? Ano'ng pipindutin ko?",
+   "caption": "How does this work? What do I press?",
+   "seconds": 3.59
+  },
+  {
+   "n": 6,
+   "speaker": "titoboy",
+   "file": "lines/l06-titoboy.wav",
+   "text": "Wala. Basta huwag mo lang papatayin.",
+   "caption": "Nothing. Just don't turn it off.",
+   "seconds": 2.15
+  },
+  {
+   "n": 7,
+   "speaker": "rudy",
+   "file": "lines/l07-rudy.wav",
+   "text": "Dito na lang. Picture tayo, lahat!",
+   "caption": "I'll leave it here. Photo, everybody!",
+   "seconds": 2.58
+  },
+  {
+   "n": 8,
+   "speaker": "guest",
+   "file": "lines/l08-guest.wav",
+   "text": "Isa, dalawa…",
+   "caption": "One, two…",
+   "seconds": 1.72
+  },
+  {
+   "n": 9,
+   "speaker": "liza",
+   "file": "lines/l09-liza.wav",
+   "text": "Nico, tumawag ulit 'yung bangko. Three months na tayong late.",
+   "caption": "Nico, the bank called again. We're three months behind.",
+   "seconds": 5.1
+  },
+  {
+   "n": 10,
+   "speaker": "nico",
+   "file": "lines/l10-nico.wav",
+   "text": "Alam ko. May papasok na pera, promise.",
+   "caption": "I know. Money's coming in. I promise.",
+   "seconds": 3.75
+  },
+  {
+   "n": 11,
+   "speaker": "liza",
+   "file": "lines/l11-liza.wav",
+   "text": "Galing saan? Diyan sa channel mo?",
+   "caption": "From where? That channel of yours?",
+   "seconds": 2.39
+  },
+  {
+   "n": 12,
+   "speaker": "nico",
+   "file": "lines/l12-nico.wav",
+   "text": "Kumikita na siya, Liz. Legit.",
+   "caption": "It's making money now, Liz.",
+   "seconds": 2.7
+  },
+  {
+   "n": 13,
+   "speaker": "liza",
+   "file": "lines/l13-liza.wav",
+   "text": "Eighteen hundred. Sa isang buwan. Nico… ibenta na lang natin 'yung shop. Please.",
+   "caption": "Eighteen hundred. In a month. Nico… let's sell the shop. Please.",
+   "seconds": 7.53
+  },
+  {
+   "n": 14,
+   "speaker": "nico",
+   "file": "lines/l14-nico.wav",
+   "text": "One more month lang, Liz.",
+   "caption": "One more month.",
+   "seconds": 1.68
+  },
+  {
+   "n": 15,
+   "speaker": "liza",
+   "file": "lines/l15-liza.wav",
+   "text": "Pakainin mo si Bea. Bea, huwag mong hayaang magpuyat si Papa, okay?",
+   "caption": "Feed Bea. Bea, don't let Papa stay up late, okay?",
+   "seconds": 5.35
+  },
+  {
+   "n": 16,
+   "speaker": "bea",
+   "file": "lines/l16-bea.wav",
+   "text": "Opo, Ma.",
+   "caption": "Yes, Ma.",
+   "seconds": 1.19
+  },
+  {
+   "n": 17,
+   "speaker": "bea",
+   "file": "lines/l17-bea.wav",
+   "text": "Pa, ano po 'yung \"Lumang Tape\"?",
+   "caption": "Pa, what's \"Old Tape\"?",
+   "seconds": 2.16
+  },
+  {
+   "n": 18,
+   "speaker": "nico",
+   "file": "lines/l18-nico.wav",
+   "text": "Wala. Work lang.",
+   "caption": "Nothing. Work.",
+   "seconds": 1.67
+  },
+  {
+   "n": 19,
+   "speaker": "bea",
+   "file": "lines/l19-bea.wav",
+   "text": "Pa, may box po sa labas. Nababasa na po.",
+   "caption": "Pa, there's a box outside. It's getting wet.",
+   "seconds": 3.38
+  },
+  {
+   "n": 20,
+   "speaker": "nico",
+   "file": "lines/l20-nico.wav",
+   "text": "Walang sender.",
+   "caption": "No sender.",
+   "seconds": 1.2
+  },
+  {
+   "n": 21,
+   "speaker": "bea",
+   "file": "lines/l21-bea.wav",
+   "text": "Pa, iba po 'yung itsura ng pera.",
+   "caption": "Pa, the money looks different.",
+   "seconds": 2.56
+  },
+  {
+   "n": 22,
+   "speaker": "nico",
+   "file": "lines/l22-nico.wav",
+   "text": "Luma lang 'yan. Tatanggapin pa 'yan ng bank.",
+   "caption": "It's just old. The bank will still take it.",
+   "seconds": 2.65
+  },
+  {
+   "n": 23,
+   "speaker": "nico",
+   "file": "lines/l23-nico.wav",
+   "text": "Shh. Huwag mo munang sasabihin kay Mama, ha?",
+   "caption": "Shh. Don't tell Mama yet, okay?",
+   "seconds": 3.26
+  },
+  {
+   "n": 24,
+   "speaker": "bea",
+   "file": "lines/l24-bea.wav",
+   "text": "…Opo.",
+   "caption": "…Okay.",
+   "seconds": 0.98
+  },
+  {
+   "n": 25,
+   "speaker": "guest",
+   "file": "lines/l25-guest.wav",
+   "text": "Sa labas tayo! Kasama 'yung dyip!",
+   "caption": "Outside, everyone! With the jeep!",
+   "seconds": 2.54
+  },
+  {
+   "n": 26,
+   "speaker": "bea",
+   "file": "lines/l26-bea.wav",
+   "text": "Pa.",
+   "caption": "Pa.",
+   "seconds": 0.74
+  },
+  {
+   "n": 27,
+   "speaker": "nico",
+   "file": "lines/l27-nico.wav",
+   "text": "Hm?",
+   "caption": "Hm?",
+   "seconds": 0.91
+  },
+  {
+   "n": 28,
+   "speaker": "bea",
+   "file": "lines/l28-bea.wav",
+   "text": "Sino po 'yung nakatayo sa may kusina?",
+   "caption": "Who's that standing by the kitchen?",
+   "seconds": 2.3
+  },
+  {
+   "n": 29,
+   "speaker": "nico",
+   "file": "lines/l29-nico.wav",
+   "text": "…Tao ba 'yan?",
+   "caption": "…Is that a person?",
+   "seconds": 1.06
+  },
+  {
+   "n": 30,
+   "speaker": "bea",
+   "file": "lines/l30-bea.wav",
+   "text": "Kanina pa po siya diyan.",
+   "caption": "It's been there the whole time.",
+   "seconds": 1.68
+  },
+  {
+   "n": 31,
+   "speaker": "nico",
+   "file": "lines/l31-nico.wav",
+   "text": "Kanina pa?",
+   "caption": "The whole time?",
+   "seconds": 0.93
+  },
+  {
+   "n": 32,
+   "speaker": "jojo",
+   "file": "lines/l32-jojo.wav",
+   "text": "Bye, Tay!",
+   "caption": "Bye, Dad!",
+   "seconds": 1.75
+  },
+  {
+   "n": 33,
+   "speaker": "bea",
+   "file": "lines/l33-bea.wav",
+   "text": "Pa… ipo-post mo po ba 'yan?",
+   "caption": "Pa… are you going to post that?",
+   "seconds": 1.85
+  },
+  {
+   "n": 34,
+   "speaker": "nico",
+   "file": "lines/l34-nico.wav",
+   "text": "Hindi. …I don't know.",
+   "caption": "No. …I don't know.",
+   "seconds": 2.54
+  },
+  {
+   "n": 35,
+   "speaker": "bea",
+   "file": "lines/l35-bea.wav",
+   "text": "Huwag na po.",
+   "caption": "Please don't.",
+   "seconds": 1.21
+  },
+  {
+   "n": 36,
+   "speaker": "nico",
+   "file": "lines/l36-nico.wav",
+   "text": "Matulog ka na, anak.",
+   "caption": "Go to sleep, sweetheart.",
+   "seconds": 1.78
+  },
+  {
+   "n": 37,
+   "speaker": "nico",
+   "file": "lines/l37-nico.wav",
+   "text": "Tape one. No label. Walang pangalan.",
+   "caption": "Tape one. No label. No name.",
+   "seconds": 3.86
+  },
+  {
+   "n": 38,
+   "speaker": "nico",
+   "file": "lines/l38-nico.wav",
+   "text": "Bea.",
+   "caption": "Bea.",
+   "seconds": 0.64
+  }
+ ]
+}
