@@ -16,6 +16,7 @@ Season 3 is famous, **real, documented** ghost cases from around the world, in E
 | 22 | Eighty-Eight Years (the Okiku doll) | Iwamizawa, Hokkaido, Japan | `assets/videos/ep22-okiku-v1/ep22-eighty-eight-years.mp4` | 55.6 s |
 | 23 | Backwards (the Bell Witch, 1817–1821) | Adams, Tennessee, USA | `assets/videos/ep23-bell-v2/ep23-backwards.mp4` | 57.7 s |
 | 24 | They Turn Their Heads (the Island of the Dolls) | Xochimilco, Mexico City | `assets/videos/ep24-dolls-v1/ep24-they-turn-their-heads.mp4` | 53.0 s |
+| 25 | Camera Three (Hampton Court Palace CCTV, 2003) | Hampton Court, England | `assets/videos/ep25-hampton-v1/ep25-camera-three.mp4` | 49.4 s |
 
 ---
 
@@ -128,3 +129,31 @@ don't look at the dolls. they're already looking at you 🪆 #islandofthedolls #
 **TikTok pinned comment:** `count the dolls facing the water on the way out. now on the way back.`
 
 **When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok).
+
+---
+
+## Broadcast 25: Camera Three (Hampton Court Palace CCTV, 2003)
+
+**YouTube title:** `This fire door is locked. Watch it.`
+Alternative: `Hampton Court Palace CCTV, October 2003`
+
+**YouTube description**
+```
+Hampton Court Palace, October 2003. Three days running, the same fire doors flew open by themselves. On the second day, the palace's own CCTV recorded a figure in a long robe, with a pale face, step out of the doorway and pull the doors shut. The palace released the footage. It has never explained it.
+
+Watch camera three. 📹
+
+Broadcast 25 · After Sign-Off · Season 3: real cases from around the world. A reconstruction in pixel 3D, not the real footage. Skeptics say it was a visitor in costume or a prank.
+#HamptonCourt #CCTV #ghoststory #truehorror #haunted #shorts
+```
+
+**Pinned comment:** `Who closed the doors? 📹`
+
+**TikTok caption**
+```
+this fire door is locked. watch it 📹 #hamptoncourt #cctv #truehorror #scarystories #haunted #fyp
+```
+**Cover text:** `WATCH CAMERA 3`
+**TikTok pinned comment:** `look at camera 3 the FIRST time you see the camera wall.`
+
+**When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); a UK post at 8–10 p.m. UK time also fits.

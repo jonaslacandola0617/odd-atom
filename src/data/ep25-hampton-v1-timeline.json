@@ -1,0 +1,81 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 49.37,
+  "duration_frames": 1481,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "This fire door is locked. Watch it.",
+      "start": 0.1,
+      "end": 2.85,
+      "kind": "narrator",
+      "beat_before": "hook: camera 4 full screen, the closed fire doors, a slow digital zoom"
+    },
+    {
+      "id": "l02",
+      "text": "Hampton Court Palace, England. October, two thousand three. Three days running, the same fire doors flew open by themselves.",
+      "start": 4.85,
+      "end": 13.65,
+      "kind": "narrator",
+      "beat_before": "the doors burst open; cut to the guard walking the gallery with a torch"
+    },
+    {
+      "id": "l03",
+      "text": "Each time, a guard came to shut them.",
+      "start": 14.25,
+      "end": 16.52,
+      "kind": "narrator",
+      "beat_before": "the guard walking"
+    },
+    {
+      "id": "l04",
+      "text": "On the second day, the security camera caught something else.",
+      "start": 18.72,
+      "end": 22.15,
+      "kind": "narrator",
+      "beat_before": "he reaches the doors and pushes them shut; cut to the four-camera wall"
+    },
+    {
+      "id": "l05",
+      "text": "A figure in a long robe, with a pale face, stepped out of the doorway, and pulled the doors shut.",
+      "start": 23.75,
+      "end": 29.67,
+      "kind": "narrator",
+      "beat_before": "camera 4 full screen: the doors burst open again; something in the doorway"
+    },
+    {
+      "id": "l06",
+      "text": "The palace released the footage. It has never explained it.",
+      "start": 32.07,
+      "end": 35.37,
+      "kind": "narrator",
+      "beat_before": "the robed figure steps out, pulls the doors shut, and is gone"
+    },
+    {
+      "id": "l07",
+      "text": "Skeptics say it was a visitor in costume. Or a prank.",
+      "start": 36.57,
+      "end": 39.97,
+      "kind": "narrator",
+      "beat_before": "the guard hurries back down the gallery; the doors are shut; silence"
+    },
+    {
+      "id": "l08",
+      "text": "No one was ever identified.",
+      "start": 40.97,
+      "end": 42.8,
+      "kind": "narrator",
+      "beat_before": "the camera wall: on camera 3, far behind the guard, a figure (almost missed)"
+    },
+    {
+      "id": "l09",
+      "text": "Now look at camera three.",
+      "start": 44.8,
+      "end": 46.17,
+      "kind": "narrator",
+      "beat_before": "the wall again: on camera 3 the figure is closer"
+    }
+  ]
+}

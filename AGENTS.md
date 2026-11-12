@@ -54,6 +54,17 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 25 "Camera Three" (Hampton Court, 2003; a guard's patrol cut against the CCTV).
 
+- **Episode 25 "Camera Three" (2026-11-12):** the user asked for the "next ep". The Hampton Court Palace CCTV figure (October 2003), a real documented incident. `Ep25CameraThree` / `src/horror/ep25/` is 49.4 s, in English.
+  - **Form:** a guard's handheld torch patrol (colour) cut hard against the palace CCTV (monochrome, 8 fps, names and timestamps): camera 4 full screen (the doors burst open), the guard pushes them shut, the four-camera wall (push-in), camera 4 again (a hooded, pale-faced figure steps out and pulls the doors shut, as described in the reports), the guard hurries back, the wall again (on camera 3 a figure behind him, closer; the push ends on camera 3), camera 3 full screen (right behind him), he turns: empty; the torch dies; a pale face in the EXIT sign's green.
+  - **Picture technique:** each CCTV tile is its own small `ThreeCanvas` of the same world from a fixed camera, rendered at 8 fps; the wall is a CSS grid pushed in with a computed offset to land on a chosen tile; the room beyond the doors is dimly lit so a dark figure in the doorway reads.
+  - **Sound:** near silence, no score: the control room's hum and a fire-door alarm that beeps while the doors are open and simply stops when the figure closes them; the doors, footsteps and keys from ElevenLabs SFX (272 credits); one low hit on the face.
+  - **Care:** no staff named; no historical identity claimed; the skeptics' view in the narration; a reconstruction, not the footage.
+  - **Voice:** Jack, both takes at once (1,322 credits; take 1 used).
+  - **Sound figures:** bed presence −16.9 / −9.2 dB (near silence by design), lines ≥13.9 dB with no lifts, −14.0 LUFS, decoded peak −1.25 dBFS, the loop restarts from black.
+  - **Delivery:** `assets/videos/ep25-hampton-v1/`. Notes are in `docs/production/ep25-hampton/README.md`; the publishing kit is `docs/publishing/ep25/README.md` and `docs/publishing/POSTS-ep21-30.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 26 "Post Three" (the Castle of Good Hope, Cape Town; a night guard's radio log).
+
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
   - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. **From 2026-11-11 (Episode 13) the user has a paid ElevenLabs Starter account (a new account):** flows from the old account (for example `L6hejcAiUNKAfyBLB3C3`) return "no access to this template", so start a new flow. Free-tier "busy" refusals should be rare now. If one happens, the user's earlier rule still applies: retry every 30 min, at most 4 times, one attempt per check-in.

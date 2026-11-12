@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack – Deep Dark Horror Narrator",
+    "text": "[whispers] This fire door is locked. Watch it. [long pause] [softly] Hampton Court Palace, England. October, two thousand three. Three days running, the same fire doors flew open by themselves. [long pause] Each time, a guard came to shut them. [long pause] On the second day, the security camera caught something else. [long pause] A figure in a long robe, with a pale face, stepped out of the doorway, and pulled the doors shut. [long pause] The palace released the footage. It has never explained it. [long pause] Skeptics say it was a visitor in costume. Or a prank. [long pause] No one was ever identified. [long pause] [whispers] Now look at camera three.",
+    "flow_id": "v8zP0Uv9sccfMY4LdoWe (new flow on the Starter account)",
+    "attempts": ["2026-11-12: one call, both takes started at once (661 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep25-take1.mp3: 41.68 s, 661 credits (used)",
+      "public/assets/audio/eleven-takes/ep25-take2.mp3: 41.28 s, 661 credits (kept, unused)"
+    ],
+    "processing": "split into 9 lines, pauses inside a line capped at 0.45 s, no tempo change; timeline 49.37 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "v8zP0Uv9sccfMY4LdoWe",
+    "prompts": {
+      "burst": "Heavy double wooden fire doors violently bursting open in an empty stone and wood palace corridor at night, push bar clank, doors slamming against the walls, long echo, no music",
+      "steps": "A security guard walking alone down a long old palace corridor at night, footsteps on wooden floorboards, a bunch of keys jingling, a torch clicking on, quiet echo, no music",
+      "room": "A small security control room at night, the electrical hum and whine of old CCTV monitors, a computer fan, a faint radio hiss, no voices, no music",
+      "shut": "A heavy old double door being slowly pulled shut from the other side, hinges creaking, the latch clicking into place, empty hall echo, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: 272 credits",
+    "files": "public/assets/audio/eleven-sfx/ep25-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: the loudest burst with an early peak (burst-1) and a second one (burst-3), the steadiest hum (room-1), clear footstep takes (steps-1, -2, -3), short shuts (shut-1, shut-3)"
+  },
+  "script_source": "docs/stories/season-3-world.md #25 (a real reported case: the Hampton Court Palace CCTV figure, 2003)"
+}
