@@ -1,0 +1,21 @@
+{
+  "name": "after-sign-off-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Schedules After Sign-Off shorts in YouTube Studio and TikTok Studio by driving your own Chrome.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "login": "node src/cli.mjs login",
+    "download": "node src/cli.mjs download",
+    "plan": "node src/cli.mjs plan",
+    "check": "node src/cli.mjs check",
+    "schedule": "node src/cli.mjs schedule",
+    "status": "node src/cli.mjs status",
+    "watched": "node src/cli.mjs watched",
+    "test": "node src/selftest.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "1.63.0"
+  }
+}

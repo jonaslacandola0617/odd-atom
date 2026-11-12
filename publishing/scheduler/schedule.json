@@ -1,0 +1,575 @@
+{
+  "about": "After Sign-Off posting schedule. Times are Philippine time (+08:00). Edit freely; run `npm run check` after editing.",
+  "videoSource": "https://raw.githubusercontent.com/jonaslacandola0617/odd-atom/05e90baba90bbdc7ac2ce967d3757e7854d1e9f2/",
+  "defaults": {
+    "youtubeTime": "20:30",
+    "tiktokTime": "21:30",
+    "utcOffset": "+08:00"
+  },
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "story": "Do Not Look at the Moon",
+      "file": "assets/videos/ep01-moon-v4/ep01-viral-cut-eerie-voice.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-16T20:30:00+08:00",
+        "title": "If you hear this alert, do not look at the moon",
+        "description": "If this alert ever comes on your TV, close your curtains. Now.\n\nWatch the street in the first five seconds. Then watch the clock. 👁️\n\nBroadcast 01 · After Sign-Off. Original fiction.\n#analoghorror #emergencyalert #horror #scary #creepy #shorts",
+        "tags": [
+          "analoghorror",
+          "emergencyalert",
+          "horror",
+          "scary",
+          "creepy"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "Who opened the curtains? 👀"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-16T21:30:00+08:00",
+        "caption": "if this alert comes on tonight… close your curtains 🌕 #analoghorror #emergencyalert #horror #scary #creepy #fyp",
+        "aiGenerated": true,
+        "coverText": "DO NOT LOOK AT THE MOON",
+        "pinnedComment": "The clock says 10:39. Then 10:42. Where did the three minutes go?"
+      }
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "story": "The Mask on Channel 11",
+      "file": "assets/videos/ep02-mask-v3/ep02-the-mask-on-channel-11-eerie-voice.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-18T20:30:00+08:00",
+        "title": "He hijacked two TV channels in one night. No one knows who.",
+        "description": "November 22, 1987. Chicago. A man in a rubber mask cut into two TV broadcasts in one night. He was never identified.\n\nCheck the VCR. Then check the coffee table. 📺\n\nBroadcast 02 · After Sign-Off. True story (the 1987 Chicago signal intrusions), recreated in low-poly 3D. No real broadcast footage or audio is used.\n#analoghorror #unsolved #truestory #maxheadroom #80s #shorts",
+        "tags": [
+          "analoghorror",
+          "unsolved",
+          "truestory",
+          "maxheadroom",
+          "80s"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "If this came on your TV at 11:15 pm… would you keep watching, or pull the plug? 📼"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-18T21:30:00+08:00",
+        "caption": "1987: he cut into your TV. twice. nobody knows who he is 📺 #unsolvedmysteries #analoghorror #maxheadroom #80s #truestory #fyp",
+        "aiGenerated": true,
+        "coverText": "HE GOT INTO YOUR TV",
+        "pinnedComment": "The VCR is recording the whole time. Did you notice which channel it switches to?"
+      }
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "story": "Footprints in the Snow",
+      "file": "assets/videos/ep03-snow-v3/ep03-footprints-in-the-snow-eerie-voice.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-20T20:30:00+08:00",
+        "title": "Footprints led to the house. None led away.",
+        "description": "Bavaria, 1922. Tracks in the snow led from the forest to a lonely farm. None led away. Then the farmer heard footsteps in the attic.\n\nWatch the attic window in the very first second. 🕯️\n\nBroadcast 03 · After Sign-Off. True story (the unsolved Hinterkaifeck case), recreated in low-poly 3D. Nothing violent is shown.\n#unsolved #unsolvedmysteries #truestory #analoghorror #history #shorts",
+        "tags": [
+          "unsolved",
+          "unsolvedmysteries",
+          "truestory",
+          "analoghorror",
+          "history"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "If you found footprints to your door and none leading away… would you search the attic? 🕯️"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-20T21:30:00+08:00",
+        "caption": "footprints to the door. none leading away. 1922 🕯️ #unsolvedmysteries #truestory #analoghorror #history #fyp",
+        "aiGenerated": true,
+        "coverText": "HE SEARCHED THE ATTIC",
+        "pinnedComment": "Watch the ceiling boards when he looks up."
+      }
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "story": "Rules for the Night Shift",
+      "file": "assets/videos/ep04-night-v3/ep04-rules-for-the-night-shift-eerie-voice.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-22T20:30:00+08:00",
+        "title": "Rules for the night shift at a mountain weather station",
+        "description": "Kestrel Ridge Weather Station. You're alone up here until morning. Follow the rules.\n\nDid you read rule 7 before it was read to you? 📋\n\nBroadcast 04 · After Sign-Off. Original fiction.\n#analoghorror #rulehorror #nightshift #horror #creepy #shorts",
+        "tags": [
+          "analoghorror",
+          "rulehorror",
+          "nightshift",
+          "horror",
+          "creepy"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "Whose voice was at the door? 🚪"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-22T21:30:00+08:00",
+        "caption": "rule 6: the morning shift arrives at seven 🕓 #rulehorror #analoghorror #nightshift #horror #scary #fyp",
+        "aiGenerated": true,
+        "coverText": "DO NOT OPEN THE DOOR",
+        "pinnedComment": "Check the last row of the log. That's not the outside temperature."
+      }
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "story": "Nine Hikers, One Cut Tent",
+      "file": "assets/videos/ep05-tent-v3/ep05-nine-hikers-one-cut-tent-eerie-voice.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-24T20:30:00+08:00",
+        "title": "Nine hikers cut their tent open from the inside",
+        "description": "February 1959, the northern Urals. Nine experienced hikers cut their tent open from the inside and walked into the snow in their socks.\n\nCount the lines of footprints. 👣\n\nBroadcast 05 · After Sign-Off. True story (the Dyatlov Pass incident), recreated in low-poly 3D. Nothing violent is shown.\n#dyatlovpass #unsolvedmysteries #truestory #analoghorror #history #shorts",
+        "tags": [
+          "dyatlovpass",
+          "unsolvedmysteries",
+          "truestory",
+          "analoghorror",
+          "history"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "Nine experienced hikers chose the frozen dark over their tent. What could make you do that? 🏔️"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-24T21:30:00+08:00",
+        "caption": "they cut the tent open from the INSIDE 🏔️ #dyatlovpass #unsolvedmysteries #truestory #history #analoghorror #fyp",
+        "aiGenerated": true,
+        "coverText": "CUT FROM THE INSIDE",
+        "pinnedComment": "Look at the floor of the tent in the first second."
+      }
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "story": "The Sound That Matched Us",
+      "file": "assets/videos/ep06-sonar-v2/ep06-the-sound-that-matched-us-eerie-voice.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-26T20:30:00+08:00",
+        "title": "Our sonar picked up our own submarine. Behind us.",
+        "description": "300 metres down, the contact behind us had our exact sound. Same propeller. Same rattle.\n\nWatch the wide shot before the reveal. Who's standing next to him? 👀\n\nBroadcast 06 · After Sign-Off. Original fiction.\n#analoghorror #submarine #horror #scary #creepy #shorts",
+        "tags": [
+          "analoghorror",
+          "submarine",
+          "horror",
+          "scary",
+          "creepy"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "If the cook was standing next to him… who knocked? 🚪"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-26T21:30:00+08:00",
+        "caption": "the contact behind us sounded exactly like us 🔊 #analoghorror #submarine #horror #scary #creepy #fyp",
+        "aiGenerated": true,
+        "coverText": "HE WAS NEXT TO ME",
+        "pinnedComment": "Pause at 0:33. Look at the hatch."
+      }
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "story": "This Is the Voice of Vrillon",
+      "file": "assets/videos/ep07-vrillon-v1/ep07-the-voice-of-vrillon.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-28T20:30:00+08:00",
+        "title": "In 1977, a voice took over the evening news",
+        "description": "26 November 1977, southern England. During the early evening news, the sound on one transmitter was replaced for about six minutes by a calm, distorted voice that said it was not from Earth. The picture never changed. The station apologised; the authorities called it a hoax. No one was ever identified.\n\nWatch the clock. Then watch the child. 👀\n\nBroadcast 07 · After Sign-Off. True story (the Southern Television broadcast interruption), recreated in low-poly 3D. No original broadcast audio is used.\n#analoghorror #unsolved #truestory #broadcastintrusion #horror #shorts",
+        "tags": [
+          "analoghorror",
+          "unsolved",
+          "truestory",
+          "broadcastintrusion",
+          "horror"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "Six minutes. One transmitter. Nobody was ever identified. Who do you think was really speaking? 📺"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-28T21:30:00+08:00",
+        "caption": "1977: the newsreader kept talking but the voice wasn't his 📺 (true, never solved) #analoghorror #unsolved #truestory #creepy #fyp",
+        "aiGenerated": true,
+        "coverText": "THAT IS NOT HIS VOICE",
+        "pinnedComment": "Look at the TV in the empty room. Who's still watching?"
+      }
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "story": "Room Zero",
+      "file": "assets/videos/ep08-room-v1/ep08-room-zero.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-30T20:30:00+08:00",
+        "title": "My thermal camera found a warm room that isn't on the plans",
+        "description": "Empty house. No power, no heating. One wall upstairs reads 37 °C on my thermal camera. On the plans there's nothing behind it.\n\nWatch the carpet in the thermal shots. Then count the windows. 👀\n\nBroadcast 08 · After Sign-Off. Original fiction.\n#analoghorror #thermalcamera #horror #scary #creepy #shorts",
+        "tags": [
+          "analoghorror",
+          "thermalcamera",
+          "horror",
+          "scary",
+          "creepy"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "The door has no handle on the hallway side. So who's it for? 🚪"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-30T21:30:00+08:00",
+        "caption": "the wall was 37°C in a house with no power 🌡️ #analoghorror #thermalcamera #horror #scary #creepy #fyp",
+        "aiGenerated": true,
+        "coverText": "IT KNOCKED BACK",
+        "pinnedComment": "Count the upstairs windows from outside. Then count the rooms."
+      }
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "story": "The Lighthouse That Went Dark",
+      "file": "assets/videos/ep09-lighthouse-v1/ep09-the-lighthouse-that-went-dark.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-12-02T20:30:00+08:00",
+        "title": "Three lighthouse keepers vanished. One left his coat.",
+        "description": "December 1900. A lighthouse in the Flannan Isles, off the west of Scotland, went dark. Storms kept the relief boat away for eleven days. When it landed, all three keepers were gone. One set of oilskins was still on its hook.\n\nLook at the kitchen. Then look down the path in the last shot. 🕯️\n\nBroadcast 09 · After Sign-Off. True story (the Flannan Isles lighthouse), recreated in low-poly 3D. Nothing violent is shown.\n#unsolvedmysteries #lighthouse #truestory #analoghorror #scotland #shorts",
+        "tags": [
+          "unsolvedmysteries",
+          "lighthouse",
+          "truestory",
+          "analoghorror",
+          "scotland"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "Two men went down to the landing in a storm. The third ran out without his coat. What did he see from the doorway? 🕯️"
+      },
+      "tiktok": {
+        "publishAt": "2026-12-02T21:30:00+08:00",
+        "caption": "3 lighthouse keepers vanished in 1900. one left his coat behind 🕯️ #unsolvedmysteries #lighthouse #truestory #analoghorror #scotland #fyp",
+        "aiGenerated": true,
+        "coverText": "ONE LEFT HIS COAT",
+        "pinnedComment": "Pause on the doorway at 0:51."
+      }
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "story": "The Night the Lake Breathed Out",
+      "file": "assets/videos/ep10-lake-v1/ep10-the-night-the-lake-breathed-out.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-12-04T20:30:00+08:00",
+        "title": "In one night, this lake breathed out",
+        "description": "21 August 1986, Cameroon. Late at night, Lake Nyos released a huge cloud of carbon dioxide. Heavier than air, it flowed down the valleys below. 1,746 people died that night. Today, pipes draw the gas up from the bottom of the lake.\n\nWatch the lamp in the window. Then listen. 🌫️\n\nBroadcast 10 · After Sign-Off. True story (the Lake Nyos disaster), recreated in low-poly 3D. No people are shown.\n#lakenyos #truestory #science #analoghorror #cameroon #shorts",
+        "tags": [
+          "lakenyos",
+          "truestory",
+          "science",
+          "analoghorror",
+          "cameroon"
+        ],
+        "playlist": "Season 1: After Sign-Off",
+        "pinnedComment": "The gas had been building at the bottom for years. Scientists still debate what set it off that night. Which lake do you think is being watched today? 🌫️"
+      },
+      "tiktok": {
+        "publishAt": "2026-12-04T21:30:00+08:00",
+        "caption": "in 1986 a calm lake released a cloud that flowed down the valley like water 🌫️ #lakenyos #truestory #science #analoghorror #cameroon #fyp",
+        "aiGenerated": true,
+        "coverText": "THE LAKE BREATHED OUT",
+        "pinnedComment": "Listen to the crickets at 0:27."
+      }
+    },
+    {
+      "ep": 11,
+      "season": 2,
+      "story": "The Passenger on Balete Drive",
+      "file": "assets/videos/ep11-balete-v1/ep11-the-passenger-on-balete-drive.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-17T20:30:00+08:00",
+        "title": "Huwag kang titingin sa salamin sa Balete Drive",
+        "description": "Balete Drive, New Manila, Quezon City. Mula pa noong dekada singkwenta, iisa ang kuwento ng mga taxi driver: isang babaeng nakaputi sa tabi ng puno ng balete, pumapara. Hindi mahalaga kung huminto ka o hindi.\n\nTingnan mo ang upuan sa likod sa unang segundo. 👻\n\nBroadcast 11 · After Sign-Off. Kilalang urban legend sa Pilipinas, ginawa sa low-poly 3D. Walang totoong biktimang natukoy kailanman.\n#BaleteDrive #WhiteLady #kwentongkatatakutan #pinoyhorror #urbanlegend #shorts",
+        "tags": [
+          "BaleteDrive",
+          "WhiteLady",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "urbanlegend"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Walang nakaalam kung sino talaga siya. Sino sa tingin mo siya, bago siya naging kuwento? 👻 (May sarili ka bang Balete Drive story?)"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-17T21:30:00+08:00",
+        "caption": "kung dadaan ka sa balete drive pagkalipas ng hatinggabi… huwag kang titingin sa salamin 👻 #baletedrive #whitelady #kwentongkatatakutan #pinoyhorror #taglishhorror #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "HUWAG KANG TITINGIN SA SALAMIN",
+        "pinnedComment": "Tingnan mo ang metro sa 0:26."
+      }
+    },
+    {
+      "ep": 12,
+      "season": 2,
+      "story": "Tik-Tik",
+      "file": "assets/videos/ep12-tiktik-v1/ep12-tik-tik.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-19T20:30:00+08:00",
+        "title": "Pag humihina ang tunog… lumalapit siya",
+        "description": "Sabi ng matatanda: kapag malakas ang \"tik-tik,\" malayo pa. Kapag mahina na… nasa bubong mo na. Isang gabi ng pista, nagbuhos si Lola ng asin sa bintana. Kinaumagahan, nakakalat ang asin. Mula sa loob.\n\nGamitin ang headphones. 🎧 Pakinggan kung saan galing ang huling \"tik.\"\n\nBroadcast 12 · After Sign-Off. Original na kuwento (fiction), batay sa paniniwala tungkol sa tiktik.\n#tiktik #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #shorts",
+        "tags": [
+          "tiktik",
+          "aswang",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "pinoyfolklore"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Sino ang nagbukas ng bintana? 👀 At sa inyo ba, asin, bawang o ilaw ang panlaban? Kuwento niyo ang sabi ng lola niyo."
+      },
+      "tiktok": {
+        "publishAt": "2026-11-19T21:30:00+08:00",
+        "caption": "kapag humihina ang tunog ng tiktik… hindi siya lumalayo 👂 (gamitin ang headphones) #tiktik #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "MAHINA = MALAPIT",
+        "pinnedComment": "Pakinggan sa headphones ang 0:31. Sa kaliwa."
+      }
+    },
+    {
+      "ep": 13,
+      "season": 2,
+      "story": "Half of Her",
+      "file": "assets/videos/ep13-half-v1/ep13-half-of-her.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-21T20:30:00+08:00",
+        "title": "Kapag may nakita kang kalahating babae… hanapin mo ang asin",
+        "description": "Sa Visayas, sabi nila, may mga babaeng dalawa ang buhay. Sa araw, kapitbahay. Sa gabi, iniiwan niya ang kalahati ng sarili niya. Kapag nakita mo ang kalahating iyon… alam mo na ang gagawin.\n\nTingnan mo ang palda ng kapitbahay. 👀\n\nBroadcast 13 · After Sign-Off. Kuwentong-bayan (folklore) ng manananggal, ginawa sa low-poly 3D.\n#manananggal #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #shorts",
+        "tags": [
+          "manananggal",
+          "aswang",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "pinoyfolklore"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Sinong kapitbahay ang hindi nagsimba noong Linggo? 👀 Sa inyo ba, asin, abo o bawang ang sabi ng lola niyo?"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-21T21:30:00+08:00",
+        "caption": "kapag may nakita kang kalahating babae na nakatayo sa sagingan… huwag kang sisigaw 🦇 #manananggal #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "HANAPIN MO ANG ASIN",
+        "pinnedComment": "Tingnan mo ulit ang palda sa 0:15."
+      }
+    },
+    {
+      "ep": 14,
+      "season": 2,
+      "story": "The Guests of Dominican Hill",
+      "file": "assets/videos/ep14-hill-v1/ep14-the-guests-of-dominican-hill.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-23T20:30:00+08:00",
+        "title": "Sa Baguio, may hotel na kumakain pa rin ang mga bisita",
+        "description": "Dominican Hill, Baguio. Ang lumang Diplomat Hotel: itinayo ng mga Dominikano, pinagtaguan noong giyera, naging hotel, at iniwan sa hamog. Sabi ng mga tagapagbantay, pagkalipas ng hatinggabi, may kumakatok. Tapos, tunog ng mga plato.\n\nBilangin mo ang mga upuan bago at pagkatapos mamatay ang flashlight. 🕯️\n\nBroadcast 14 · After Sign-Off. Kilalang kuwento ng multo, ginawa sa low-poly 3D. Walang tala ang mga historyador na nangyari ang mga pugot na kuwento. Heritage site ito; igalang ang lugar.\n#DiplomatHotel #Baguio #kwentongkatatakutan #pinoyhorror #ghoststory #shorts",
+        "tags": [
+          "DiplomatHotel",
+          "Baguio",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "ghoststory"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Sino ang naghanda ng mesa? 🕯️ Nakapunta ka na ba sa Dominican Hill? Ano ang naramdaman mo?"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-23T21:30:00+08:00",
+        "caption": "sa baguio, may hotel na bumababa pa rin ang mga bisita para maghapunan 🕯️ #diplomathotel #baguio #kwentongkatatakutan #pinoyhorror #ghoststory #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "HUWAG KA NANG MAGHAPUNAN DOON",
+        "pinnedComment": "Tingnan mo ang dulo ng mesa sa 0:44."
+      }
+    },
+    {
+      "ep": 15,
+      "season": 2,
+      "story": "Don't Pick Up the Baby",
+      "file": "assets/videos/ep15-baby-v1/ep15-dont-pick-up-the-baby.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-25T20:30:00+08:00",
+        "title": "Kapag may umiiyak na sanggol sa damuhan… huwag kang hihinto",
+        "description": "Huling biyahe. Madilim na daan sa probinsya. May umiiyak na sanggol sa damuhan, nakabalot sa lampin. Siyempre, huminto ang driver. Magaan pa sa una…\n\nPanoorin ulit ang windshield sa dulo. 👶\n\nBroadcast 15 · After Sign-Off. Kuwentong-bayan (folklore) ng tiyanak, ginawa sa low-poly 3D. Kathang-isip ang driver at ang jeep.\n#tiyanak #aswang #kwentongkatatakutan #pinoyhorror #pinoyfolklore #shorts",
+        "tags": [
+          "tiyanak",
+          "aswang",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "pinoyfolklore"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Nakaalala kaya siya sa tamang oras? 👕 Ano pa ang ibang panlaban sa tiyanak na sabi ng lola niyo?"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-25T21:30:00+08:00",
+        "caption": "kapag may narinig kang umiiyak na sanggol sa damuhan sa gabi… huwag kang hihinto 👶 #tiyanak #kwentongkatatakutan #pinoyhorror #pinoyfolklore #jeepney #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "HUWAG KANG HIHINTO",
+        "pinnedComment": "Tingnan mo ang windshield sa 0:50. At sa likod ng jeep."
+      }
+    },
+    {
+      "ep": 16,
+      "season": 2,
+      "story": "Ward Three",
+      "file": "assets/videos/ep16-ward-v1/ep16-ward-three.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-27T20:30:00+08:00",
+        "title": "Huwag mong aalisin ang tingin mo sa nurse sa Ward 3",
+        "description": "Clark, Pampanga. Nang magsara ang base, naiwan ang ospital. Sabi ng mga bumibisita: mga boses, mga bato mula sa dilim, at isang nurse na nakaputi sa pagitan ng mga kama. Huwag mong aalisin ang tingin mo sa kanya.\n\nBilangin mo ang mga bato. 👀\n\nBroadcast 16 · After Sign-Off. Kilalang kuwento ng multo, ginawa sa low-poly 3D. Mga ulat at alamat lamang ang mga kababalaghan. Huwag pumasok nang walang pahintulot.\n#Clark #Pampanga #kwentongkatatakutan #pinoyhorror #ghoststory #shorts",
+        "tags": [
+          "Clark",
+          "Pampanga",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "ghoststory"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Ano kaya ang narinig nila sa tape? 📼 Taga-Pampanga ka ba? Ano ang kuwento ng ospital sa inyo?"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-27T21:30:00+08:00",
+        "caption": "sa abandonadong ospital sa clark… huwag mong aalisin ang tingin mo sa nurse 👀 #clark #pampanga #kwentongkatatakutan #pinoyhorror #ghoststory #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "HUWAG KANG TITINGIN SA IBA",
+        "pinnedComment": "Ilan ang bato sa sahig sa 0:38? Ilan ang ibinato?"
+      }
+    },
+    {
+      "ep": 17,
+      "season": 2,
+      "story": "The Road That Wouldn't End",
+      "file": "assets/videos/ep17-road-v1/ep17-the-road-that-wouldnt-end.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-11-29T20:30:00+08:00",
+        "title": "Kapag tatlong beses mo nang nadaanan ang parehong tindahan… huminto ka",
+        "description": "Gabi. Isang tricycle. Isang daang napapalibutan ng kawayan. Nadaanan niya ang tindahan ni Aling Nena. Tapos, nadaanan niya ulit. At ulit. Sabi ng mga lola, kapag ganito… huminto ka at baligtarin mo ang damit mo.\n\nTingnan mo ang presyuhan sa bawat daan. 👀\n\nBroadcast 17 · After Sign-Off. Kuwentong-bayan (folklore) ng tikbalang, ginawa sa low-poly 3D. Kathang-isip ang tindahan at ang rider.\n#tikbalang #tabitabipo #kwentongkatatakutan #pinoyhorror #pinoyfolklore #shorts",
+        "tags": [
+          "tikbalang",
+          "tabitabipo",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "pinoyfolklore"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Nagsabi ka ba ng \"tabi tabi po\" pauwi kanina? 🐴 Ano ang sabi ng lola niyo kapag naliligaw?"
+      },
+      "tiktok": {
+        "publishAt": "2026-11-29T21:30:00+08:00",
+        "caption": "kung tatlong beses mo nang nadaanan ang parehong tindahan… huminto ka 🐴 #tikbalang #tabitabipo #kwentongkatatakutan #pinoyhorror #pinoyfolklore #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "TATLONG BESES NA",
+        "pinnedComment": "Sino ang nakatayo sa likod ng tindahan sa 0:03?"
+      }
+    },
+    {
+      "ep": 18,
+      "season": 2,
+      "story": "The Light in the Quezon Room",
+      "file": "assets/videos/ep18-palace-v1/ep18-the-light-in-the-quezon-room.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-12-01T20:30:00+08:00",
+        "title": "Gabi-gabi, may ilaw sa Malacañang na kusang bumubukas",
+        "description": "Malacañang. Sa loob ng maraming henerasyon, iisa ang kuwento ng mga nagtatrabaho roon: isang ilaw na kusang bumubukas, mga yabag sa itaas, usok sa kuwartong walang tao, tawa ng bata sa pasilyo.\n\nTingnan mo ang upuan sa opisina. Dalawang beses. 🕯️\n\nBroadcast 18 · After Sign-Off. Mga kuwento at alaala ng mga nagtrabaho sa palasyo, iniulat sa mga pahayagan, ginawa sa low-poly 3D. Walang taong pinangalanan.\n#Malacanang #kwentongkatatakutan #pinoyhorror #ghoststory #urbanlegend #shorts",
+        "tags": [
+          "Malacanang",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "ghoststory",
+          "urbanlegend"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Ano kaya ang ipinag-aalala niya hanggang ngayon? 🕯️ May kakilala ka bang nagtrabaho sa palasyo? Ano ang kuwento nila?"
+      },
+      "tiktok": {
+        "publishAt": "2026-12-01T21:30:00+08:00",
+        "caption": "gabi-gabi, may isang ilaw sa malacañang na kusang bumubukas 🕯️ #malacanang #kwentongkatatakutan #pinoyhorror #ghoststory #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "KUSANG BUMUBUKAS",
+        "pinnedComment": "Tingnan mo ang upuan sa 0:21 at sa 0:47."
+      }
+    },
+    {
+      "ep": 19,
+      "season": 2,
+      "story": "Santelmo",
+      "file": "assets/videos/ep19-santelmo-v1/ep19-santelmo.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-12-03T20:30:00+08:00",
+        "title": "Kapag may liwanag na sumusunod sa'yo sa palayan… huwag mo itong sundan",
+        "description": "Gabi. Palayan. Isang bola ng apoy na sumasabay sa bawat hakbang mo. Kapag huminto ka, humihinto rin ito. Sabi ng matatanda, kaluluwa raw ito ng nalunod… at dinadala ka nito sa tubig.\n\nPanoorin ang kanal sa unang malawak na kuha. 👀\n\nBroadcast 19 · After Sign-Off. Kuwentong-bayan (folklore) ng santelmo, at ang totoong St. Elmo's fire, ginawa sa low-poly 3D.\n#santelmo #kwentongkatatakutan #pinoyhorror #pinoyfolklore #stelmosfire #shorts",
+        "tags": [
+          "santelmo",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "pinoyfolklore",
+          "stelmosfire"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Sino kaya ang hindi na nakauwi galing sa ilog? 🔥 May nakakita na ba sa inyo ng santelmo? Saan?"
+      },
+      "tiktok": {
+        "publishAt": "2026-12-03T21:30:00+08:00",
+        "caption": "kapag may liwanag na sumusunod sa'yo sa palayan… huwag mo itong sundan 🔥 #santelmo #kwentongkatatakutan #pinoyhorror #pinoyfolklore #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "HUWAG MO ITONG SUNDAN",
+        "pinnedComment": "Tingnan mo ang kanal sa 0:10. May isa pang ilaw."
+      }
+    },
+    {
+      "ep": 20,
+      "season": 2,
+      "story": "The Theatre by the Bay",
+      "file": "assets/videos/ep20-theatre-v1/ep20-the-theatre-by-the-bay.mp4",
+      "watched": false,
+      "youtube": {
+        "publishAt": "2026-12-05T20:30:00+08:00",
+        "title": "Sa teatrong ito, laging may nakaupo sa mga bakanteng upuan",
+        "description": "Manila Film Center. Noong Nobyembre 17, 1981, bandang alas tres ng madaling-araw, bumagsak ang scaffolding at nahulog ang mga trabahador sa basang semento. Hanggang ngayon, hindi malinaw kung ilan ang namatay. Mula noon, iisa ang kuwento ng mga guwardiya at performer: puno raw ang mga upuan pagpatay ng ilaw.\n\nPanoorin ang unang segundo. Bilangin ang mga upuang nakababa. 🕯️\n\nBroadcast 20 · After Sign-Off. Season finale. Totoong aksidente; alamat lamang ang mga multo. Inaalala namin ang mga trabahador at ang kanilang mga pamilya.\n#ManilaFilmCenter #kwentongkatatakutan #pinoyhorror #ghoststory #urbanlegend #shorts",
+        "tags": [
+          "ManilaFilmCenter",
+          "kwentongkatatakutan",
+          "pinoyhorror",
+          "ghoststory",
+          "urbanlegend"
+        ],
+        "playlist": "Season 2: Kwentong Kababalaghan",
+        "pinnedComment": "Ilan nga ba talaga sila? 🕯️ Ito ang huling episode ng Season 2. Para sa mga trabahador at sa kanilang mga pamilya."
+      },
+      "tiktok": {
+        "publishAt": "2026-12-05T21:30:00+08:00",
+        "caption": "sa teatrong ito, laging may nakaupo sa mga bakanteng upuan 🕯️ #manilafilmcenter #kwentongkatatakutan #pinoyhorror #ghoststory #fyp #fypシ",
+        "aiGenerated": true,
+        "coverText": "LAGING MAY NAKAUPO",
+        "pinnedComment": "Tingnan mo ang orasan sa 0:14. At sa teatro."
+      },
+      "notOn": [
+        "11-17"
+      ],
+      "note": "Real accident on 17 November 1981: never post on 17 November unless as a remembrance."
+    }
+  ]
+}
