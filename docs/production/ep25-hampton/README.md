@@ -106,7 +106,12 @@ python3 scripts/caption_check.py src/data/ep25-hampton-v1-timeline.json assets/v
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 38,664,334 bytes; SHA-256 `b97cfb075c5b3ed0f724fec8df7875bed78cdabbcba5e796654ce97a020b6ecb`.
+- **Streams:** H.264 1080×1920, 1,481 frames, 49.37 s; AAC 49.37 s (the checked `mix.m4a` muxed with `-c copy`). It decodes with no errors.
+- **Loudness:** −14.1 LUFS integrated; peak −1.1 dBFS (ffmpeg ebur128).
+- **Dark key:** mean luma sampled twice a second runs 3–61/255, median 20; the brightest frames are the torch on the doors at arm's length.
+- **Captions:** all 11 caption cards were found on screen at their timeline times (`out/oddatom/ep25-captions`, not tracked).
+- **Muted contact sheet** (every 2 s): camera 4 on the doors; the guard's walk with the torch and the green EXIT; the camera wall; the hooded figure in the doorway on camera 4; the guard hurrying back; the wall pushing in to camera 3; camera 3 full screen with the figure behind him; the face in the dark. It reads without sound.
 
 ## Known limits
 
