@@ -1,7 +1,8 @@
 <!doctype html><html><body>
 <input type="file" id="f">
+<div id="mask" hidden style="position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:10"><div style="position:absolute;right:20px;top:20px;background:#fff;padding:10px">Preview your video on your phone<button onclick="mask.remove()">Got it</button></div></div>
 <div id="form" hidden>
-  <div class="public-DraftEditor-content" contenteditable="true">filename</div>
+  <div class="public-DraftEditor-content" contenteditable="true">ep01-viral-cut-eerie-voice</div>
   <span onclick="ai.hidden=false">Show more</span>
   <div id="ai" hidden><div><span>AI-generated content</span><div id="sw" style="display:inline-block;width:30px;height:16px;background:#ccc" role="switch" aria-checked="false" onclick="this.setAttribute('aria-checked','true')"></div></div></div>
   <label><input type="radio" name="when" checked>Now</label>
@@ -18,5 +19,5 @@ let H='10',M='00';
 for(let h=0;h<24;h++){const s=document.createElement('span');s.textContent=String(h).padStart(2,'0');s.onclick=()=>{H=s.textContent;time.value=H+':'+M};tp.appendChild(s)}
 for(let m=0;m<60;m+=5){const s=document.createElement('span');s.textContent=String(m).padStart(2,'0');s.onclick=()=>{M=s.textContent;time.value=H+':'+M};tp.appendChild(s)}
 for(let d=1;d<=30;d++){const s=document.createElement('span');s.textContent=String(d);s.onclick=()=>{date.value='2026-11-'+String(d).padStart(2,'0');cal.hidden=true};cal.appendChild(s)}
-f.onchange=()=>{form.hidden=false;setTimeout(()=>document.querySelector('button[data-e2e]').disabled=false,1500)}
+f.onchange=()=>{form.hidden=false;mask.hidden=false;setTimeout(()=>document.querySelector('button[data-e2e]').disabled=false,1500)}
 </script></body></html>

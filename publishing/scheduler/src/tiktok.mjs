@@ -15,12 +15,34 @@ async function findInput(page, re) {
 }
 
 /**
+ * TikTok Studio shows tips over the page ("Preview your video on your phone",
+ * "New editing features" …) that dim the page and block clicks. Close any that
+ * are open.
+ */
+async function dismissPopups(page) {
+  for (let round = 0; round < 4; round++) {
+    const btn = page.getByRole('button', { name: /^(got it|ok|okay|skip|not now|dismiss|close|cancel)$/i })
+      .filter({ visible: true }).first();
+    if (!(await btn.count())) return;
+    await btn.click({ timeout: 3_000 }).catch(() => {});
+    await page.waitForTimeout(500);
+  }
+}
+
+/**
  * TikTok's caption box pre-fills the file name and pops up suggestions while
  * you type a hashtag. Clear it, type the words, and type each hashtag slowly,
  * closing its suggestion list with a space.
  */
 async function typeCaption(page, editor, caption) {
-  await editor.click();
+  await dismissPopups(page);
+  // Click if possible; if something still covers the box, focus it directly.
+  await editor.click({ timeout: 5_000 }).catch(async () => { await editor.focus(); });
+  await editor.evaluate((el) => {
+    el.focus();
+    const r = document.createRange(); r.selectNodeContents(el); r.collapse(false);
+    const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+  });
   await page.waitForTimeout(300);
   for (let i = 0; i < 3; i++) {
     await page.keyboard.press('ControlOrMeta+A');
@@ -75,6 +97,7 @@ export async function scheduleTikTok(context, ep, file, { auto }) {
   try { await editor.waitFor({ timeout: 180_000 }); }
   catch { editor = page.locator('[contenteditable="true"]').first(); await editor.waitFor({ timeout: 10_000 }); }
 
+  await dismissPopups(page);
   await step('set the caption', async () => {
     await typeCaption(page, editor, tk.caption);
     const flat = (x) => String(x).replace(/\s+/g, '').toLowerCase();
@@ -84,6 +107,7 @@ export async function scheduleTikTok(context, ep, file, { auto }) {
     }
   });
 
+  await dismissPopups(page);
   if (tk.aiGenerated) {
     await step('turn on "AI-generated content"', async () => {
       const more = page.getByText(/^Show more$/).first();
@@ -101,6 +125,7 @@ export async function scheduleTikTok(context, ep, file, { auto }) {
     });
   }
 
+  await dismissPopups(page);
   await step('choose "Schedule"', async () => {
     const radio = page.getByRole('radio', { name: /schedule/i });
     if (await radio.count()) await radio.first().check({ force: true });
@@ -144,6 +169,7 @@ export async function scheduleTikTok(context, ep, file, { auto }) {
     if ((await box.inputValue()) !== t.ymd) throw new Error(`TikTok shows ${await box.inputValue()}`);
   });
 
+  await dismissPopups(page);
   const postBtn = page.locator('button[data-e2e="post_video_button"]').or(page.getByRole('button', { name: /^schedule$/i })).last();
   console.log('   … waiting for the upload to finish');
   await step('wait for the upload to finish', async () => {
