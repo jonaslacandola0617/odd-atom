@@ -55,6 +55,11 @@
     - Use **all four takes as variations**, rotating through them so repeated actions never sound identical ("a squeaking floor will not always have the same squeak").
     - Pick a different take on each repeat, deterministically per cue.
   - **Nico design approved (user):** "nico is approved". The user is making the other characters' sheets in ChatGPT; proceed with the stylized toon Nico.
+  - **Free online models (user, 2026-11-12):** "find free models online like sketchfab and cgtrader then lets just remodel them".
+    - Rules and candidates are in `docs/stories/original-series/transfers/ASSET-SOURCING.md`.
+    - **The repo is PUBLIC:** CC0 and CC-BY may be committed, with credit for CC-BY. Royalty-Free (CGTrader) and Sketchfab Standard models must stay out of Git (Drive only). NC, ND and editorial licences are not used.
+    - The user downloads, since the sites need accounts, and shares via Drive. Claude imports and restyles in Blender.
+    - Quaternius CC0 base characters and animation library are the lead. Their hosts are not allowed yet.
   - **Nico v2 TOON (2026-11-12):** `assets3d/characters/nico/build_nico_toon.py` builds `public/assets/3d/nico/nico-v2-toon.glb`.
     - **Model:** the CC0 MakeHuman body and rig; the head scaled 13%; the inner mouth and eye-socket lining removed and the face smoothed; spiky hair; thick glasses; the sheet's palette.
     - **Face:** a painted pixel-face decal with seven expressions, drawn by `src/horror/transfers/nicoFace.ts` (`setFace(expr)`), instead of shape keys.
