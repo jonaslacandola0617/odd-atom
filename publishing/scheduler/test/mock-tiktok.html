@@ -19,5 +19,6 @@ let H='10',M='00';
 for(let h=0;h<24;h++){const s=document.createElement('span');s.textContent=String(h).padStart(2,'0');s.onclick=()=>{H=s.textContent;time.value=H+':'+M};tp.appendChild(s)}
 for(let m=0;m<60;m+=5){const s=document.createElement('span');s.textContent=String(m).padStart(2,'0');s.onclick=()=>{M=s.textContent;time.value=H+':'+M};tp.appendChild(s)}
 for(let d=1;d<=30;d++){const s=document.createElement('span');s.textContent=String(d);s.onclick=()=>{date.value='2026-11-'+String(d).padStart(2,'0');cal.hidden=true};cal.appendChild(s)}
+document.querySelector('.public-DraftEditor-content').addEventListener('paste',e=>{e.preventDefault();const t=e.clipboardData.getData('text/plain');document.execCommand('insertText',false,t)});
 f.onchange=()=>{form.hidden=false;mask.hidden=false;setTimeout(()=>document.querySelector('button[data-e2e]').disabled=false,1500)}
 </script></body></html>

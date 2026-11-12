@@ -30,41 +30,46 @@ async function dismissPopups(page) {
 }
 
 /**
- * TikTok's caption box pre-fills the file name and pops up suggestions while
- * you type a hashtag. Clear it, type the words, and type each hashtag slowly,
- * closing its suggestion list with a space.
+ * TikTok's caption box (a Draft.js editor) pre-fills the file name and loses
+ * its place when text is typed in quick bursts. So: clear it, then paste the
+ * whole caption in one go (like Ctrl+V). If that doesn't take, type it slowly.
  */
-async function typeCaption(page, editor, caption) {
-  await dismissPopups(page);
-  // Click if possible; if something still covers the box, focus it directly.
-  await editor.click({ timeout: 5_000 }).catch(async () => { await editor.focus(); });
-  await editor.evaluate((el) => {
-    el.focus();
-    const r = document.createRange(); r.selectNodeContents(el); r.collapse(false);
-    const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
-  });
-  await page.waitForTimeout(300);
-  for (let i = 0; i < 3; i++) {
+async function clearEditor(page, editor) {
+  for (let i = 0; i < 4 && norm(await editor.innerText()); i++) {
     await page.keyboard.press('ControlOrMeta+A');
     await page.keyboard.press('Delete');
     await page.waitForTimeout(300);
-    if (!norm(await editor.innerText())) break;
   }
   const left = norm(await editor.innerText()).length;
   for (let i = 0; i < left + 5 && norm(await editor.innerText()); i++) await page.keyboard.press('Backspace');
-  const parts = caption.split(/(\s+)/);
-  for (const part of parts) {
-    if (!part) continue;
-    if (/^\s+$/.test(part)) { await page.keyboard.press('Space'); continue; }
-    if (part.startsWith('#')) {
-      await page.keyboard.type(part, { delay: 60 });
-      await page.waitForTimeout(900);
-    } else {
-      await page.keyboard.insertText(part);
-    }
-  }
-  await page.keyboard.press('Space');       // closes the last hashtag's suggestion list
-  await page.waitForTimeout(600);
+}
+
+async function typeCaption(page, editor, caption) {
+  const flat = (x) => String(x).replace(/\s+/g, '').toLowerCase();
+  const ok = async () => {
+    const shown = flat(await editor.innerText());
+    return shown.startsWith(flat(caption).slice(0, 25)) && shown.includes(flat(caption).slice(-12));
+  };
+  await dismissPopups(page);
+  // Click if possible; if something still covers the box, focus it directly.
+  await editor.click({ timeout: 5_000 }).catch(async () => { await editor.focus(); });
+  await page.waitForTimeout(300);
+  await clearEditor(page, editor);
+
+  // 1) Paste the whole caption.
+  await editor.evaluate((el, text) => {
+    el.focus();
+    const dt = new DataTransfer();
+    dt.setData('text/plain', text);
+    el.dispatchEvent(new ClipboardEvent('paste', { clipboardData: dt, bubbles: true, cancelable: true }));
+  }, caption);
+  await page.waitForTimeout(1200);
+  if (await ok()) { await page.keyboard.press('Escape').catch(() => {}); return; }
+
+  // 2) Type it slowly, character by character, like a person.
+  await clearEditor(page, editor);
+  await page.keyboard.type(caption, { delay: 35 });
+  await page.waitForTimeout(800);
   await page.keyboard.press('Escape').catch(() => {});
 }
 
