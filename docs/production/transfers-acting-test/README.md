@@ -64,6 +64,20 @@ The user's go-ahead: "I think its good enough to run on 20s test".
   confirm. Decoded AAC peak is −2.0 dBFS.
 - **No listening pass:** this runtime cannot audition audio.
 
+## Delivery check (from the encoded MP4)
+
+- **File:** `transfers-acting-test-20s.mp4`, H.264 1920×1080, 600 frames, 20.00 s, AAC
+  (`mix.m4a` muxed with `-c copy`). Poster at 16.5 s.
+- **Render time:** 148 s for 600 frames (about 0.25 s a frame at concurrency 3).
+  A 4-minute episode would take about 30 min.
+- **Known weaknesses seen in frames from the MP4:**
+  - In shot 1 the held tape is mostly hidden by his hand.
+  - Under the CRT light his skin goes pale and grey.
+  - The collar edge is still slightly stepped.
+  - In shot 4 his head turns over the left shoulder but not fully round to the
+    doorway, so the eyeline is approximate.
+  - The tape's living room is sparse.
+
 ## Status
 
 Not approved by the user. This is a capability test, not an episode.

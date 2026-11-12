@@ -33,7 +33,14 @@
     - **Look stills:** `src/horror/transfers/NicoLook.tsx` / `node scripts/render_nico_look.cjs` render the PS1 look into `assets3d/characters/nico/look-v1/` (about 1.2 s a still). The first WebGL still in a fresh browser can come out black, so the script renders a discarded warm-up.
     - **Sheets:** `assets3d/characters/nico/sheet-v1/`. Provenance is in `assets3d/characters/nico/README.md` and `ATTRIBUTION.md`.
     - **Lessons:** keep every base vertex until the shape keys are added (an early face deletion shifted every key, which exploded in three.js); bake non-armature modifiers before glTF export (the skin-modifier glasses vanished); set the Remotion three camera during render, not in an effect.
-  - **Status:** nothing approved; no ElevenLabs credits spent. Nico v1's sheet waits for the user's verdict. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
+  - **Acting test v1 (2026-11-12):** the user said of Nico v1, "I think its good enough to run on 20s test".
+    - **Delivery:** `TransfersActingTest` (`src/horror/transfers/ActingTest.tsx`) at `assets/videos/transfers-acting-test-v1/transfers-acting-test-20s.mp4`, 1080p, 20 s.
+    - **Shots:** Nico threads a tape; the 4:3 home video shows a still figure behind a birthday cake; a close-up from inside the TV as focus turns to fear; the figure stands in his own back doorway; its head tilts; black.
+    - **Technique:** per-frame posing (rest reset, world-axis rotations, two-bone IK, finger curls, a tape held in the hand) and the expression shape keys; 640×360 PS1 look, letterboxed to 2.39:1.
+    - **Sound:** `scripts/transfers_test_sound.py`. Reused SFX and library sounds plus synthesis, no new credits, −16 LUFS (a judgement for the user; there is no dialogue), decoded peak −2.0 dBFS.
+    - **Render:** 148 s for 600 frames.
+    - **Notes:** `docs/production/transfers-acting-test/README.md`.
+  - **Status:** nothing approved; no ElevenLabs credits spent; the acting test awaits the user's verdict. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".
