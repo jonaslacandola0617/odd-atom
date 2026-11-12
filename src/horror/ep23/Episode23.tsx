@@ -1,8 +1,8 @@
 // Episode 23: "Backwards" (Season 3, a real reported case: the Bell Witch, Adams, Tennessee,
 // 1817-1821). Season 3 rule: no shared template; and, from the user's note after Episode 22, the
 // PICTURE must tell the story and frighten with motion, not only the narration.
-// Form: told BACKWARDS, scene by scene, each joined by a rewind in which the previous scene runs
-// backwards fast: the funeral (1820) -> the sickroom and the vial -> supper, when the voice talked
+// Form: told BACKWARDS, scene by scene, joined by HARD CUTS (v2; v1's rewind transitions were
+// rejected by the user): the funeral (1820) -> the sickroom and the vial -> supper, when the voice talked
 // (1819) -> the children's room (1818) -> outside, the first scratching (1817) -> the first night.
 // Every shot moves (tracking, creeping, orbiting, pushing), and every scene has one event the
 // picture shows: the lanterns blown out down the line and the mourners turning; a vial rolling on
@@ -70,14 +70,9 @@ const SCENES: [number, Scene, string][] = [
 	[K.rew[3][1], 'out', '1817'],
 	[K.post, 'post', '1817'],
 ];
-/** which scene, and at what scene time: inside a rewind the PREVIOUS scene runs backwards, fast */
+/** which scene, and at what scene time. v2 (the user's note on v1: the rewind transitions "ruin the
+ * scariness"): no rewinds at all. Each scene simply runs on, forward, until a hard cut to the next. */
 const sceneAt = (t: number): {scene: Scene; label: string; tt: number; rew: boolean} => {
-	for (const [a, b] of K.rew) {
-		if (t >= a && t < b) {
-			const prev = [...SCENES].reverse().find((s) => s[0] <= a)!;
-			return {scene: prev[1], label: prev[2], tt: a - (t - a) * 7, rew: true};
-		}
-	}
 	const cur = [...SCENES].reverse().find((s) => s[0] <= t)!;
 	return {scene: cur[1], label: cur[2], tt: t, rew: false};
 };
@@ -89,11 +84,11 @@ const shotFor = (scene: Scene, tt: number): Shot => {
 		case 'grave':
 			return tt < K.gust[1] + 0.3
 				? {from: [[-3.2, 2.4, 8.2], [-0.3, 0.8, 0]], to: [[2.6, 2.3, 7.7], [0.3, 0.8, 0]], t0: 0, t1: K.gust[1] + 0.3, fov: 50, hand: 0.6}
-				: {from: [[0.3, 1.8, 7.2], [0, 1.35, 1.6]], to: [[0.1, 1.6, 4.4], [0, 1.45, 1.6]], t0: K.gust[1] + 0.3, t1: K.rew[0][0], fov: 50, hand: 0.9};
+				: {from: [[0.3, 1.8, 7.2], [0, 1.35, 1.6]], to: [[0.1, 1.6, 4.4], [0, 1.45, 1.6]], t0: K.gust[1] + 0.3, t1: K.rew[0][1], fov: 50, hand: 0.9};
 		case 'sick':
 			return tt < K.vial[1]
 				? {from: [add(SICK, [0.3, 1.65, 3.2]), add(SICK, [-0.2, 0.75, -1.0])], to: [add(SICK, [0.8, 1.45, 0.75]), add(SICK, [1.55, 1.05, -0.55])], t0: K.rew[0][1], t1: K.vial[1], fov: 52, hand: 0.8}
-				: {from: [add(SICK, [0.75, 1.4, 0.55]), add(SICK, [1.4, 1.05, -0.9])], to: [add(SICK, [0.6, 1.2, 0.2]), add(SICK, [0.0, 0.78, -0.95])], t0: K.vial[1], t1: K.rew[1][0], fov: 50, hand: 0.7};
+				: {from: [add(SICK, [0.75, 1.4, 0.55]), add(SICK, [1.4, 1.05, -0.9])], to: [add(SICK, [0.6, 1.2, 0.2]), add(SICK, [0.0, 0.78, -0.95])], t0: K.vial[1], t1: K.rew[1][1], fov: 50, hand: 0.7};
 		case 'table':
 			if (tt < K.lean[0]) {
 				const a0 = 0.9, a1 = -0.5;
@@ -102,9 +97,9 @@ const shotFor = (scene: Scene, tt: number): Shot => {
 				const p = add(TABLE, [Math.sin(a) * 2.4, 1.7, 0.3 + Math.cos(a) * 2.4]);
 				return {from: [p, add(TABLE, [0, 0.85, -0.2])], to: [p, add(TABLE, [0, 0.85, -0.2])], t0: 0, t1: 1, fov: 52, hand: 0.4};
 			}
-			return {from: [add(TABLE, [0.9, 1.5, 1.6]), add(TABLE, [0.05, 1.0, -1.6])], to: [add(TABLE, [0.55, 1.45, 0.95]), add(TABLE, [0.1, 1.05, -2.0])], t0: K.lean[0], t1: K.rew[2][0], fov: 52, hand: 0.6};
+			return {from: [add(TABLE, [0.9, 1.5, 1.6]), add(TABLE, [0.05, 1.0, -1.6])], to: [add(TABLE, [0.55, 1.45, 0.95]), add(TABLE, [0.1, 1.05, -2.0])], t0: K.lean[0], t1: K.rew[2][1], fov: 52, hand: 0.6};
 		case 'kids':
-			return {from: [add(KIDS, [-0.3, 1.45, 2.7]), add(KIDS, [-0.85, 0.55, -0.6])], to: [add(KIDS, [-0.45, 1.3, 1.7]), add(KIDS, [-0.8, 0.5, -0.4])], t0: K.rew[2][1], t1: K.rew[3][0], fov: 54, hand: 0.9};
+			return {from: [add(KIDS, [-0.3, 1.45, 2.7]), add(KIDS, [-0.85, 0.55, -0.6])], to: [add(KIDS, [-0.45, 1.3, 1.7]), add(KIDS, [-0.8, 0.5, -0.4])], t0: K.rew[2][1], t1: K.rew[3][1], fov: 54, hand: 0.9};
 		case 'out':
 			return tt < L.l08.start - 0.2
 				? {from: [add(OUT, [1.15, 1.45, 3.4]), add(OUT, [0.25, 1.15, 0.6])], to: [add(OUT, [1.05, 1.35, -2.2]), add(OUT, [0.2, 1.1, -4.8])], t0: K.rew[3][1], t1: L.l08.start - 0.2, fov: 52, hand: 0.7}
@@ -338,7 +333,7 @@ export const Episode23: React.FC<{includeAudio?: boolean; captions?: boolean}> =
 			</div>
 			<Overlay t={t} captions={captions} />
 			<AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 48%, rgba(0,0,0,0) 36%, rgba(0,0,0,0.9) 100%)'}} />
-			{includeAudio && <Audio src={staticFile('assets/audio/ep23-bell-v1/mix.m4a')} />}
+			{includeAudio && <Audio src={staticFile('assets/audio/ep23-bell-v2/mix.m4a')} />}
 		</AbsoluteFill>
 	);
 };

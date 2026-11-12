@@ -1,6 +1,6 @@
 # Episode 23 publishing kit: "Backwards" (the Bell Witch)
 
-**Upload this file:** `assets/videos/ep23-bell-v1/ep23-backwards.mp4` (57.7 s, 1080×1920; it ends on the first night and loops into the funeral). Its poster is `ep23-backwards-poster.png` (the mourners with lanterns).
+**Upload this file:** `assets/videos/ep23-bell-v2/ep23-backwards.mp4` (57.7 s, 1080×1920; it ends on the first night and loops into the funeral). Its poster is `assets/videos/ep23-bell-v2/ep23-backwards-poster.png` (the mourners with lanterns).
 These are drafts to paste; nothing has been posted. No view counts are guaranteed.
 
 **A real, reported case:** the Bell Witch, Adams, Tennessee, 1817–1821.
@@ -12,7 +12,7 @@ These are drafts to paste; nothing has been posted. No view counts are guarantee
 ## What the cut is built for
 
 - **First seconds:** a funeral in the snow, then a laugh and a gust that snuffs every lantern; the mourners turn to look at you.
-- **The trick:** the story rewinds. Every scene runs backwards into the one before it, until you reach the first night.
+- **The trick:** the story is told backwards: each hard cut goes further back in time, until you reach the first night.
 - **The mute test:** a vial rolls by itself, an empty chair's shadow appears, a quilt is yanked off a bed, scratches appear on the wall, something moves through the corn.
 
 ## Titles (A/B test)
@@ -28,7 +28,7 @@ These are drafts to paste; nothing has been posted. No view counts are guarantee
 ```
 Adams, Tennessee, 1817 to 1821. A farm family reported scratching on the walls, covers pulled off the children's beds, and a voice that talked for three years. When John Bell was buried, witnesses said it laughed over his grave.
 
-Watch it backwards. Then watch it again. 🕯️
+Told backwards. Then watch it again. 🕯️
 
 Broadcast 23 · After Sign-Off · Season 3: real cases from around the world. A reconstruction in pixel 3D. Almost all of the story comes from one book written 70 years later, and the family's own account has never been found.
 #BellWitch #Tennessee #ghoststory #truehorror #haunted #shorts

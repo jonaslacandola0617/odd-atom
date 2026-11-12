@@ -38,8 +38,9 @@
   - **Care:** faces in shadow or turned away; no one shown harmed; the narration says the story comes from one book written 70 years later and the family's account is lost.
   - **Voice:** Jack, both takes at once (1,574 credits; take 1 used), no tempo change.
   - **Sound figures:** score presence −12.5 / −2.9 dB, lines ≥4.7 dB (l06 +4.3, l07 +2.6, l02 +0.5), −14.0 LUFS, decoded peak −1.1 dBFS, seam −18.2 / −19.1 dBFS.
-  - **Delivery:** `assets/videos/ep23-bell-v1/`. Notes are in `docs/production/ep23-bell/README.md`; the publishing kit is `docs/publishing/ep23/README.md` and `docs/publishing/POSTS-ep21-30.md`.
+  - **Delivery:** `assets/videos/ep23-bell-v2/` (v1 rejected). Notes are in `docs/production/ep23-bell/README.md`; the publishing kit is `docs/publishing/ep23/README.md` and `docs/publishing/POSTS-ep21-30.md`.
   - **Status:** no user approval and no listening pass.
+  - **v2 (the user's note on v1: "what is that transition … it ruins the scariness of the video, that reverse thing transition in each clip"):** the rewinds were removed completely: hard cuts, each scene running forward to the cut, no rewind sounds or reversed swells. **No rewind, reverse or gimmick transitions in future episodes: cut hard, or cut to black and silence.** Delivery `assets/videos/ep23-bell-v2/`, audio `public/assets/audio/ep23-bell-v2/`; v1 is kept as rejected.
   - **Next in the season order:** Episode 24 "They Turn Their Heads" (the Island of the Dolls; first person in a boat).
 
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.

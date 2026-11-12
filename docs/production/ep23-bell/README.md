@@ -1,4 +1,14 @@
-# Episode 23: "Backwards" (v1)
+# Episode 23: "Backwards" (v2: hard cuts; v1 rejected)
+
+**v2 (current):** `assets/videos/ep23-bell-v2/ep23-backwards.mp4`, poster `ep23-backwards-poster.png`. **The user's note on v1:** "what is that transition, do you even have to add that, it ruins the scariness of the video, that reverse thing transition in each clip". v2 removes the rewinds completely:
+- **Picture:** each scene runs **forward** to a **hard cut** into the next (earlier) scene; the cameras keep moving up to the cut; the date cards carry the backwards order. No "REWIND" card, no tearing bars, no reversed motion.
+- **Sound:** no rewind whir, no film clicks, no reversed swells; each cut lands straight in the next scene's own sound. Audio is in `public/assets/audio/ep23-bell-v2/` (the split narration is reused from v1).
+- **v2 mix:** −14.0 LUFS, decoded peak −1.1 dBFS, score presence −12.6 / −3.2 dB, lines ≥4.7 dB (l06 +4.3, l07 +2.6, l02 +0.4), seam −18.2 / −19.1 dBFS.
+- **v1** (`assets/videos/ep23-bell-v1/`) is kept as the **rejected** version. The rest of this README describes v1's build; everything except the rewinds applies to v2.
+
+---
+
+## v1 notes
 
 **Delivery:** `assets/videos/ep23-bell-v1/ep23-backwards.mp4` (1080×1920, 30 fps, 57.67 s, H.264 two-pass tuned for grain, AAC 192k) with its poster `ep23-backwards-poster.png` (frame 60: the mourners with lanterns at the grave). Size and hash are in "Review of the encoded file". It has **no user approval** and **no listening pass**.
 

@@ -14,7 +14,7 @@ Season 3 is famous, **real, documented** ghost cases from around the world, in E
 |---|---|---|---|---|
 | 21 | Watch the Chair (the Enfield poltergeist, 1977) | London, England | `assets/videos/ep21-chair-v1/ep21-watch-the-chair.mp4` | 59.0 s |
 | 22 | Eighty-Eight Years (the Okiku doll) | Iwamizawa, Hokkaido, Japan | `assets/videos/ep22-okiku-v1/ep22-eighty-eight-years.mp4` | 55.6 s |
-| 23 | Backwards (the Bell Witch, 1817–1821) | Adams, Tennessee, USA | `assets/videos/ep23-bell-v1/ep23-backwards.mp4` | 57.7 s |
+| 23 | Backwards (the Bell Witch, 1817–1821) | Adams, Tennessee, USA | `assets/videos/ep23-bell-v2/ep23-backwards.mp4` | 57.7 s |
 
 ---
 
@@ -83,7 +83,7 @@ Alternative: `The Bell Witch, told backwards`
 ```
 Adams, Tennessee, 1817 to 1821. A farm family reported scratching on the walls, covers pulled off the children's beds, and a voice that talked for three years. When John Bell was buried, witnesses said it laughed over his grave.
 
-Watch it backwards. Then watch it again. 🕯️
+Told backwards. Then watch it again. 🕯️
 
 Broadcast 23 · After Sign-Off · Season 3: real cases from around the world. A reconstruction in pixel 3D. Almost all of the story comes from one book written 70 years later, and the family's own account has never been found.
 #BellWitch #Tennessee #ghoststory #truehorror #haunted #shorts

@@ -7,7 +7,7 @@ const {selectComposition, renderStill, renderMedia, openBrowser} = require('@rem
 const {execFileSync} = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const id = 'Ep23Backwards';
-const tag = 'ep23-bell-v1';
+const tag = 'ep23-bell-v2';
 const pick = () => {
 	const c = [process.env.REMOTION_BROWSER, '/usr/bin/chromium', ...(fs.existsSync('/opt/pw-browsers') ? fs.readdirSync('/opt/pw-browsers').filter((d) => d.startsWith('chromium_headless_shell')).map((d) => {
 		const sub = fs.readdirSync(path.join('/opt/pw-browsers', d)).find((s) => s.startsWith('chrome-headless-shell'));
@@ -37,7 +37,7 @@ const pick = () => {
 		let mark = -1;
 		await renderMedia({serveUrl, composition, inputProps, codec: 'h264', pixelFormat: 'yuv420p', crf: 16, audioBitrate: '192k', outputLocation: tmp, puppeteerInstance: browser, concurrency: 3, chromiumOptions: {gl: 'swangle'}, logLevel: 'error',
 			onProgress: ({renderedFrames}) => { const n = Math.floor(renderedFrames / 100); if (n !== mark) { mark = n; console.log('rendered', renderedFrames, '/', composition.durationInFrames); } }});
-		const dest = path.join(root, 'assets/videos/ep23-bell-v1');
+		const dest = path.join(root, 'assets/videos/ep23-bell-v2');
 		fs.mkdirSync(dest, {recursive: true});
 		const normalize = 'scale=in_range=pc:out_range=tv:in_color_matrix=bt601:out_color_matrix=bt709,format=yuv420p';
 		// Two-pass 6.2 Mbit/s: the full-screen static and tape noise made CRF 22 come out at 148 MB
@@ -47,7 +47,7 @@ const pick = () => {
 		const pic = path.join(outDir, 'picture.mp4');
 		execFileSync('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-i', tmp, ...enc, '-pass', '2', '-an', '-movflags', '+faststart', pic], {stdio: 'inherit'});
 		// the delivered file carries the checked mix.m4a (measured in scripts/ep23_sound.py), muxed with -c copy
-		execFileSync('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-i', pic, '-i', path.join(root, 'public/assets/audio/ep23-bell-v1/mix.m4a'), '-map', '0:v', '-map', '1:a', '-c', 'copy', '-shortest', '-movflags', '+faststart', path.join(dest, 'ep23-backwards.mp4')], {stdio: 'inherit'});
+		execFileSync('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-i', pic, '-i', path.join(root, 'public/assets/audio/ep23-bell-v2/mix.m4a'), '-map', '0:v', '-map', '1:a', '-c', 'copy', '-shortest', '-movflags', '+faststart', path.join(dest, 'ep23-backwards.mp4')], {stdio: 'inherit'});
 		await renderStill({serveUrl, composition, inputProps: {includeAudio: false, captions: false}, frame: 60, output: path.join(dest, 'ep23-backwards-poster.png'), puppeteerInstance: browser, logLevel: 'error'});
 		console.log('saved', dest);
 	} finally {

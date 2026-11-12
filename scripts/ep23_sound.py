@@ -1,4 +1,4 @@
-"""Episode 23 "Backwards" sound (Season 3: the Bell Witch, Adams, Tennessee, 1817-1821).
+"""Episode 23 "Backwards" sound, v2 (the rewind transitions and their sounds removed after the user's note on v1) (Season 3: the Bell Witch, Adams, Tennessee, 1817-1821).
 
 Season 3 rule: each episode has its own sound language. This one runs BACKWARDS too: every scene
 ends in a film rewind (a rising whir and a reversed swell sucked back into the previous scene), and
@@ -25,7 +25,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import horror_score as hs
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'public/assets/audio/ep23-bell-v1'
+OUT = ROOT / 'public/assets/audio/ep23-bell-v2'
+VOICE = ROOT / 'public/assets/audio/ep23-bell-v1/voice'  # the split narration is unchanged from v1
 LIB = ROOT / 'public/assets/audio/library/curio-bureau/curio_sfx_v1'
 TL = json.loads((ROOT / 'src/data/ep23-bell-v1-timeline.json').read_text())
 SR = 48000
@@ -151,13 +152,11 @@ def pan(x, p):
     return np.stack([x * np.cos(a), x * np.sin(a)], 1)
 
 
-rewinding = np.zeros(N)
-for a_, b_ in REW:
-    rewinding = np.maximum(rewinding, span(a_, b_, 0.02))
-grave = span(0, REW[0][0], 0.02)
-sick = span(REW[0][1], REW[1][0], 0.02)
-table = span(REW[1][1], REW[2][0], 0.02)
-kids = span(REW[2][1], REW[3][0], 0.02)
+rewinding = np.zeros(N)  # v2: no rewinds; each scene runs on to a hard cut
+grave = span(0, REW[0][1], 0.01)
+sick = span(REW[0][1], REW[1][1], 0.01)
+table = span(REW[1][1], REW[2][1], 0.01)
+kids = span(REW[2][1], REW[3][1], 0.01)
 out = span(REW[3][1], POST, 0.02)
 post = span(POST, DUR, 0.02)
 
@@ -184,7 +183,7 @@ def compress(x, thresh_db=-24.0, ratio=3.0, att=0.005, rel=0.15):
 # ------------------------------------------------------------------ voice (dry, close)
 voice = np.zeros((N, 2))
 for lid, l in L.items():
-    v = load(OUT / 'voice' / f'{lid}.wav')
+    v = load(VOICE / f'{lid}.wav')
     v = filt(v, SR, lo=80, hi=11000)
     v *= 10 ** ((-21.0 - 20 * np.log10(np.sqrt(np.mean(v ** 2)) + 1e-12)) / 20)
     v = compress(v)
@@ -243,7 +242,7 @@ n = int(0.4 * SR)
 tt = np.arange(n) / SR
 scrape = filt(rng.standard_normal(n) * (1 + 0.9 * np.sign(np.sin(2 * np.pi * 21 * tt))), SR, lo=200, hi=2400) * np.sin(np.pi * tt / 0.4) * 0.12
 place(fx, pan(verb(scrape, 0.8, 0.3, seed=2310, bright=2400), 0.0), SCRAPE)
-wv = load(OUT / 'voice' / 'l05.wav')[::-1]
+wv = load(VOICE / 'l05.wav')[::-1]
 whisper = filt(wv, SR, lo=1200, hi=5000)
 whisper = whisper / (np.abs(whisper).max() + 1e-9) * 0.05
 place(fx, pan(verb(whisper[:int(1.4 * SR)], 1.2, 0.6, seed=2311, bright=4000), -0.6), SCRAPE + 0.2)
@@ -262,16 +261,7 @@ place(fx, np.stack([rustle * np.linspace(1.0, 0.6, n), rustle * np.linspace(0.3,
 # the first night: one slow scratch into the bedpost
 place(fx, pan(sfx('scratch-2'), 0.1), GROOVE[0], -6)
 place(fx, pan(sfx('scratch-3')[:int(1.5 * SR)], 0.1), GROOVE[0] + 1.0, -10)
-# the rewinds: a rising whir with flutter, a click as the film catches
-for k, (a_, b_) in enumerate(REW):
-    n = int((b_ - a_) * SR)
-    tt = np.arange(n) / SR
-    f = 300 + 2200 * (tt / tt[-1]) ** 1.5
-    whir = np.sin(2 * np.pi * np.cumsum(f) / SR) * (0.6 + 0.4 * np.sin(2 * np.pi * 37 * tt)) * 0.05
-    whir += filt(rng.standard_normal(n), SR, lo=1000, hi=7000) * 0.03
-    place(fx, st(fade(whir, 0.01, 0.02)), a_)
-    ck = int(0.02 * SR)
-    place(fx, st(filt(rng.standard_normal(ck), SR, lo=1000, hi=6000) * 0.25), b_)
+# v2: no rewind whir or click; each cut lands straight in the next scene's sound
 write(OUT / 'stem-foley-fx.wav', fx)
 
 # ------------------------------------------------------------------ score: a drone and strings; reversed swells into every rewind
@@ -282,8 +272,6 @@ mus += st(hs.drone_mid(T, qf, drone_e, root=73.42) * 1.5)
 str_e = env([(0, 0.3), (LAUGH, 1.0), (REW[0][0], 0.6), (LEAN, 1.0), (YANK, 1.2), (CORN[0], 0.8), (CORN[1], 1.3), (POST, 0.5), (DUR, 0.3)])
 trem = env([(0, 0.2), (LAUGH, 1.0), (REW[0][0], 0.4), (CORN[0], 0.6), (CORN[1], 1.0), (POST, 0.3), (DUR, 0.2)])
 mus += st(hs.strings(T, qf, [146.83, 155.56, 220.0], str_e, trem, SR, seed=2320) * 2.0)
-for k, (a_, b_) in enumerate(REW):
-    place(mus, hs.reverse_swell(SR, [146.83, 207.65, 293.66], 1.2, seed=2330 + k), a_ - 1.2)
 place(mus, hs.stinger(SR, seed=2340, size=1.1), LAUGH)
 place(mus, hs.riser(SR, 1.0, seed=2341), YANK - 1.0)
 mus *= (1 - speech * (1 - db(-7)))[:, None] * hush[:, None]
@@ -368,7 +356,7 @@ take = ROOT / 'public/assets/audio/eleven-takes/ep23-take1.mp3'
     'original_synthesis': [
         'score (scripts/horror_score.py): a D2 mid-band drone, tremolo strings, reversed swells into each rewind, one stinger at the laugh, a riser into the yank',
         'places: wind and snow, rooms, hearth and candle crackle, crickets (synthesized)',
-        'foley: laboured breathing, a vial rolling, cutlery, a chair scraping, corn rustling, the four film rewinds (synthesized); a whisper made from the reversed, filtered narration line 5',
+        'foley: laboured breathing, a vial rolling, cutlery, a chair scraping, corn rustling (synthesized); a whisper made from the reversed, filtered narration line 5 (v2: no rewind sounds)',
     ],
     'elevenlabs_sfx': {'flow_id': 'dxoXiHRrtfx5ejv6Y8UC', 'model': 'eleven_text_to_sound_v2', 'used': SFX_USED, 'note': 'four prompts x four variations (68 credits per prompt); variations picked by measured envelope and spectrum, not by listening'},
     'music_presence_note': 'music_presence measures the score only; voice margins are against everything',
