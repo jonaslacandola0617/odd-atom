@@ -9,3 +9,6 @@ __pycache__/
 .env.local
 references/videos/
 references/frames/
+
+# Personal scheduler progress files (delivered to the user, not tracked)
+publishing/state-fixed/
