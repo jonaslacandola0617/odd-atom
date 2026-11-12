@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 53.36,
+  "duration_frames": 1601,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "You're the overnight guest. It's two fifty-eight in the morning. The storm just stopped.",
+      "start": 1.5,
+      "end": 6.98,
+      "kind": "narrator",
+      "beat_before": "hook: the phone camera in the bedroom in a roaring storm, lightning through the French doors; the storm cuts to dead silence and the rain stops in the air"
+    },
+    {
+      "id": "l02",
+      "text": "Monte Cristo Homestead. Junee, New South Wales. Built in the eighteen eighties by the Crawley family.",
+      "start": 7.98,
+      "end": 14.48,
+      "kind": "narrator",
+      "beat_before": "cut to the house from outside, wet, moonlit; our window lit upstairs"
+    },
+    {
+      "id": "l03",
+      "text": "Mister Crawley died here in nineteen ten. His wife stayed on, and rarely left the house again.",
+      "start": 15.48,
+      "end": 21.13,
+      "kind": "narrator",
+      "beat_before": "cut to the upstairs hall from your door: candlelight under the far door"
+    },
+    {
+      "id": "l04",
+      "text": "For decades, guests who spent the night have reported footsteps on the balcony. Voices. Being touched.",
+      "start": 22.73,
+      "end": 29.24,
+      "kind": "narrator",
+      "beat_before": "the candlelight under the door goes out; cut back to the room"
+    },
+    {
+      "id": "l05",
+      "text": "No one has ever proven anything. The house closed to visitors in twenty twenty-five.",
+      "start": 31.24,
+      "end": 35.94,
+      "kind": "narrator",
+      "beat_before": "the phone light sweeps the room; the wardrobe door creaks open by itself"
+    },
+    {
+      "id": "l06",
+      "text": "You hear the footsteps now. On the balcony, outside your door.",
+      "start": 37.74,
+      "end": 41.55,
+      "kind": "narrator",
+      "beat_before": "the phone turns to the French doors"
+    },
+    {
+      "id": "l07",
+      "text": "Something touches your shoulder.",
+      "start": 44.15,
+      "end": 45.82,
+      "kind": "narrator",
+      "beat_before": "behind the lace, a woman in black walks past on the balcony, and stops at the doors"
+    },
+    {
+      "id": "l08",
+      "text": "Turn the camera around.",
+      "start": 48.02,
+      "end": 49.36,
+      "kind": "narrator",
+      "beat_before": "pale fingers on your shoulder"
+    }
+  ]
+}

@@ -123,6 +123,22 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 29 "Checkout Is at Ten" (Monte Cristo Homestead, Junee, New South Wales; the overnight guest, in real time).
 
+- **Episode 29 "Checkout Is at Ten" (2026-11-12):** the user asked for the "next ep". Monte Cristo Homestead (Junee, New South Wales), a real place with reported hauntings, closed to visitors since January 2025 and private. `Ep29CheckoutIsAtTen` / `src/horror/ep29/` is 53.4 s, in English.
+  - **Form:** second person, in real time on the phone's own clock (2:58 to 3:01). The frame is the phone's camera screen: torch, status bar, REC, and stop and flip buttons.
+  - **The bookends:** a roaring storm cuts to dead silence (the rain hangs in the air); at the end the camera flips around and the storm slams back over the last frame and the black, so the loop restarts inside the same storm.
+  - **The events:** the house with your window lit; candlelight under a far door goes out; the wardrobe creaks open; a woman in black walks the balcony behind the lace and turns to face you; pale fingers on your shoulder; the front camera shows your face and hers beside it.
+  - **Sound:** no score: the storm, the balcony footsteps, the wardrobe and a breath (ElevenLabs SFX, 272 credits); drips, frogs, the candle and the phone's click synthesized.
+  - **Lessons:**
+    - a black figure needs a lit backdrop (the night outside the doors was raised to a moonlit blue);
+    - a phone torch 15 cm from a hand overexposes it, so dim it as the camera turns;
+    - mirror the front camera with `translateX(width) scale(-6, 6)`.
+  - **Care:** the family is not named; the unverified tragedy stories and the 1960 killing are not used; nothing is claimed as proven; no visiting framing.
+  - **Voice:** Jack, both takes at once (1,430 credits; take 1 used), no tempo change.
+  - **Sound figures:** bed presence −19.7 dB during speech and +4.5 dB in the gaps (the storm bookends; near silence between them by design), lines ≥16.2 dB with no lifts, −14.0 LUFS, decoded peak −2.04 dBFS, the loop seam inside the storm (−13.9 / −8.9 dBFS).
+  - **Delivery:** `assets/videos/ep29-monte-v1/`. Notes are in `docs/production/ep29-monte/README.md`; the publishing kit is `docs/publishing/ep29/README.md` and `docs/publishing/POSTS-ep21-30.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 30 "What They Tell You" (Poveglia, the Venetian Lagoon; the season finale: the legend, corrected by the record).
+
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
   - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. **From 2026-11-11 (Episode 13) the user has a paid ElevenLabs Starter account (a new account):** flows from the old account (for example `L6hejcAiUNKAfyBLB3C3`) return "no access to this template", so start a new flow. Free-tier "busy" refusals should be rare now. If one happens, the user's earlier rule still applies: retry every 30 min, at most 4 times, one attempt per check-in.

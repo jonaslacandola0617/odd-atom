@@ -1,0 +1,142 @@
+{
+  "episode": "Ep29CheckoutIsAtTen",
+  "duration_seconds": 53.36,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep29-take1.mp3",
+    "sha256": "76e69787051d1fac4d0f84a4919b1be96b5e22bd37d7ce2a481fcda54fef1eb7",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (library voice)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep29-take1.mp3: 45.20 s, 715 credits (used)",
+      "public/assets/audio/eleven-takes/ep29-take2.mp3: 47.20 s, 715 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep29-monte/prompt.json"
+  },
+  "original_synthesis": [
+    "NO SCORE: a wall of storm that cuts to dead silence, and comes back at the end (Season 3 sound language for Episode 29)",
+    "room tone, the drips from the gutters, frogs, the candle going out, the phone camera switching, low hits (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "aql4G2yklsN5AOJWSJUw",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "storm-4": {
+        "path": "public/assets/audio/eleven-sfx/ep29-storm-4.mp3",
+        "sha256": "cdfa3e464262786d216d509f3f3553e04ca02e090234efaa0a9b1621a75da82f"
+      },
+      "storm-3": {
+        "path": "public/assets/audio/eleven-sfx/ep29-storm-3.mp3",
+        "sha256": "d33afceeeebed03b12afbc0b8e95d52221513fec31198f8505cc3aa9617baeb6"
+      },
+      "storm-2": {
+        "path": "public/assets/audio/eleven-sfx/ep29-storm-2.mp3",
+        "sha256": "57f8d3d67387165e08ab3d8444fc1a78770f1112260071a511aec0e1965ddccf"
+      },
+      "wardrobe-2": {
+        "path": "public/assets/audio/eleven-sfx/ep29-wardrobe-2.mp3",
+        "sha256": "bf5390949e30e0d5f69ed9395f557f610a65163e131bcefb137aead5be286da6"
+      },
+      "balcony-1": {
+        "path": "public/assets/audio/eleven-sfx/ep29-balcony-1.mp3",
+        "sha256": "ef553724a578e300c0a9f7c3b59daaa15645cf3202c666c2ffb37f71e2f6dd7a"
+      },
+      "balcony-2": {
+        "path": "public/assets/audio/eleven-sfx/ep29-balcony-2.mp3",
+        "sha256": "29a0efd556d861aeda040344d6190be3a9c191338d165eaa38b40c30bcdf8145"
+      },
+      "breath-4": {
+        "path": "public/assets/audio/eleven-sfx/ep29-breath-4.mp3",
+        "sha256": "4135f53fd06bebb729d4e3d143e0c66fdb94c321aad7c8e859dd9cc42594684d"
+      }
+    },
+    "note": "four prompts x four variations (68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "there is no music; music_presence measures the whole non-voice bed against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    29.639999999999997,
+    42.0,
+    46.22,
+    50.059999999999995,
+    52.46
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -2.04,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -13.9,
+    "last_quarter_second": -8.9
+  },
+  "limiter": "tanh soft limiter, ceiling -3.25 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 21.9,
+      "phone_band_voice_minus_all_db": 21.3,
+      "voice_minus_bed_db": 21.9
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 22.3,
+      "phone_band_voice_minus_all_db": 20.5,
+      "voice_minus_bed_db": 22.3
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 22.8,
+      "phone_band_voice_minus_all_db": 21.4,
+      "voice_minus_bed_db": 22.8
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 22.4,
+      "phone_band_voice_minus_all_db": 20.9,
+      "voice_minus_bed_db": 22.4
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 22.7,
+      "phone_band_voice_minus_all_db": 21.5,
+      "voice_minus_bed_db": 22.7
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 16.2,
+      "phone_band_voice_minus_all_db": 13.5,
+      "voice_minus_bed_db": 16.2
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 23.2,
+      "phone_band_voice_minus_all_db": 20.5,
+      "voice_minus_bed_db": 23.2
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 16.9,
+      "phone_band_voice_minus_all_db": 23.6,
+      "voice_minus_bed_db": 16.9
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -19.7,
+    "music_minus_voice_in_gaps_db": 4.5,
+    "music_share_of_gaps_seconds": 17.7
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

@@ -20,6 +20,7 @@ Season 3 is famous, **real, documented** ghost cases from around the world, in E
 | 26 | Post Three (the Castle of Good Hope) | Cape Town, South Africa | `assets/videos/ep26-castle-v1/ep26-post-three.mp4` | 59.8 s |
 | 27 | The Ball (Waverly Hills Sanatorium) | Louisville, Kentucky, USA | `assets/videos/ep27-ball-v1/ep27-the-ball.mp4` | 55.0 s |
 | 28 | Developing (the Brown Lady of Raynham Hall, 1936) | Norfolk, England | `assets/videos/ep28-brown-v1/ep28-developing.mp4` | 57.2 s |
+| 29 | Checkout Is at Ten (Monte Cristo Homestead) | Junee, New South Wales, Australia | `assets/videos/ep29-monte-v1/ep29-checkout-is-at-ten.mp4` | 53.4 s |
 
 ---
 
@@ -244,3 +245,31 @@ the most famous ghost photograph ever taken. watch it develop 📷 #brownlady #r
 **TikTok pinned comment:** `look at the print in the very first second.`
 
 **When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); a UK post at 8–10 p.m. UK time also fits.
+
+---
+
+## Broadcast 29: Checkout Is at Ten (Monte Cristo Homestead)
+
+**YouTube title:** `You're the overnight guest. It's 2:58.`
+Alternative: `Turn the camera around.`
+
+**YouTube description**
+```
+Monte Cristo Homestead, Junee, New South Wales. Built in the 1880s by the Crawley family. Mr Crawley died here in 1910; his wife stayed on and rarely left the house again. For decades, overnight guests reported footsteps on the balcony, voices, being touched. Nothing has ever been proven. The house closed to visitors in 2025.
+
+You're the overnight guest. Turn the camera around. 📱
+
+Broadcast 29 · After Sign-Off · Season 3: real cases from around the world. A reconstruction in pixel 3D. The house is private property; please respect it.
+#MonteCristo #Junee #haunted #ghoststory #truehorror #shorts
+```
+
+**Pinned comment:** `What time did she get there? 📱`
+
+**TikTok caption**
+```
+you're the overnight guest. it's 2:58. turn the camera around 📱 #montecristohomestead #australia #truehorror #scarystories #haunted #fyp
+```
+**Cover text:** `TURN THE CAMERA AROUND`
+**TikTok pinned comment:** `watch the clock in the top corner.`
+
+**When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); an Australia post at 7–9 p.m. Sydney time also fits.
