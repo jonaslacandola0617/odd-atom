@@ -150,7 +150,14 @@ python3 scripts/caption_check.py src/data/ep20-theatre-v1-timeline.json assets/v
 5. **The figures read as white eggs** under the full flashlight; the dust was darkened and the beam softened for the sweep, so they read as grey, seated backs.
 6. **The hard hat in the dark wide** was hidden twice by seat backs; its seat is now the aisle seat, folded down, framed from the aisle with a cold light.
 
-ENCODED_REVIEW
+## Review of the encoded file
+
+- **File:** 48,391,433 bytes; SHA-256 `107cc5101e79e7a806c197bc853e627c4fbae1d8e3f17e032170a288bd5c6265`.
+- **Streams:** H.264 1080×1920, 1,799 frames, 59.97 s; AAC 59.96 s (the checked `mix.m4a` muxed with `-c copy` over Remotion's picture). It decodes with no errors.
+- **Loudness:** −14.1 LUFS integrated; true peak −1.3 dBFS.
+- **Loop seam:** the first and last frames differ by a mean of 0.29/255 (both about 4/255 luma).
+- **Captions:** all 13 caption cards were found on screen at their timeline times (`out/oddatom/ep20-captions`, not tracked).
+- **Contact sheet** (every 2.5 s): the hook seats, the building, the 1981 scaffold with the clock, the black, the hard hat on the plank, the festival carpet, the stairs, the folding seats, the dust-grey backs, and the hat on the seat all read as planned.
 
 ## Known limits
 
