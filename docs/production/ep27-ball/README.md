@@ -103,7 +103,24 @@ python3 scripts/caption_check.py src/data/ep27-ball-v1-timeline.json assets/vide
 
 ## Review of the encoded file
 
-(filled after the render)
+- **File:** 43,278,868 bytes; SHA-256 `6988abd5287793acb338d86769fc43fe92771027af2a23ecf0c0a58d1e5254d9`.
+- **Streams:**
+  - H.264 1080×1920, 1,650 frames, 55.00 s.
+  - AAC 55.00 s: the checked `mix.m4a`, muxed with `-c copy`.
+  - It decodes with no errors.
+- **Loudness:** −14.0 LUFS integrated; peak −1.6 dBFS (ffmpeg ebur128).
+- **Dark key:** mean luma, sampled twice a second, runs 15–82/255 with a median of 30. The brightest frames are the pale infrared ground outside and the floor under the lamp at the ball.
+- **Captions:** all 10 caption cards were found on screen at their timeline times (`out/oddatom/ep27-captions`, not tracked).
+- **Muted contact sheet** (every 2 s), in order:
+  - the ball rolling away;
+  - the building on its hill with the lamp in one window;
+  - the porch;
+  - the tunnel, with the ball bouncing ahead;
+  - the corridor and the ward;
+  - the ball at the bed, back at the feet, and the boot;
+  - the ball in the dark doorway, and its return.
+
+  The eyes fall between the 2-second samples; they were checked in the stills (frames 1,608 and 1,626). It reads without sound.
 
 ## Known limits
 
