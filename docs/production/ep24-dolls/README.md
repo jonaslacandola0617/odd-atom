@@ -98,7 +98,12 @@ python3 scripts/caption_check.py src/data/ep24-dolls-v1-timeline.json assets/vid
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 42,734,140 bytes; SHA-256 `b0b4082f94f025ce4266c5211f1d340418906e546e4f67d8bb9fc582e07a3669`.
+- **Streams:** H.264 1080×1920, 1,587 frames, 52.90 s (4 frames short of the 1,591-frame timeline: they fell in the closing black, so nothing visible is lost); AAC 53.03 s (the checked `mix.m4a` muxed with `-c copy`). It decodes with no errors.
+- **Loudness:** −14.1 LUFS integrated; peak −1.2 dBFS (ffmpeg ebur128).
+- **Dark key:** mean luma sampled twice a second runs 3–42/255, median 19.
+- **Captions:** all 14 caption cards were found on screen at their timeline times (`out/oddatom/ep24-captions`, not tracked).
+- **Muted contact sheet** (every 2 s): the canal and the dolls in the trees; the hut; the turn; the way back with the dolls facing the boat; the reflection on the tilt down; the face on the look up; black. The ride reads without sound.
 
 ## Known limits
 
