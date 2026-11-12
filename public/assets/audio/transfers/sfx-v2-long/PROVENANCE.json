@@ -3,10 +3,10 @@
   "generated": "2026-11-12",
   "provider": "ElevenLabs connector, eleven_text_to_sound_v2, duration_seconds 20 (signature 8), loop on for beds, prompt influence 0.3",
   "flow_id": "yJpLZFjVDXtWV9F71b0G",
-  "user_request": "\"Use the remaining credits cant the sfx be longer?\" (2026-11-12)",
+  "user_request": "\"Use the remaining credits cant the sfx be longer?\" (2026-11-12); then \"Some sfx needs to be longer ... regenerate sfx that needs to be longer\"",
   "takes": "one take each: looping beds play continuously, so the 4-take rotation rule is for repeated actions, not for beds",
-  "credits": "8 x 67 + 27 = 563 (about 3.3 credits per second; the estimate tool quoted 10 per second)",
-  "levels": "crt-idle (mean -62 dB) and camcorder-room (mean -54 dB) are very quiet and need gain in the mix",
+  "credits": "first batch 563; second batch (10 longer regenerations) 349; about 3.3 credits per second",
+  "levels": "crt-idle (mean -62 dB) and camcorder-room (mean -54 dB) are very quiet and need gain in the mix; dawn-village (mean -47 dB) is quiet",
   "listening": "not yet heard by the user; loop seams not checked by ear",
   "files": {
     "camcorder-room-loop20.mp3": {
@@ -62,6 +62,66 @@
       "seconds": 20.04,
       "loop": true,
       "sha256": "9da7cc92bba259162498213f7e1c0cf3e1ff82a365b616ef61be0118e04b7cc4"
+    },
+    "tape-breath-long8.mp3": {
+      "prompt": "Slow human breath played from a warped old VHS tape, wobbling pitch, hiss and dropouts",
+      "seconds": 8.05,
+      "loop": false,
+      "sha256": "70fb5413ca2473a1d162bcbb3121cb57cc208a5beb6263f10fa665fe247de9cf"
+    },
+    "phone-focus-long6.mp3": {
+      "prompt": "Smartphone camera autofocus lens motor clicking and hunting, very faint tiny mechanical ticks, close-mic",
+      "seconds": 6.03,
+      "loop": false,
+      "sha256": "d5a5725d8a52be8ddc51cb57311bb4942c9feb36cf69f76e0731914b6b249feb"
+    },
+    "breath-nervous-long8.mp3": {
+      "prompt": "Man's shaky nervous breathing through the nose, trying to stay quiet, close-mic",
+      "seconds": 8.05,
+      "loop": false,
+      "sha256": "f8d5010545e32c70e5875d777963ee6a8e02728c5a10f7a2aee13a3b55d9a04a"
+    },
+    "vcr-rewind-long6.mp3": {
+      "prompt": "Old VCR rewinding a tape, motor whine rising, tape spooling fast, close-mic",
+      "seconds": 6.03,
+      "loop": false,
+      "sha256": "24633bdfcefca998bb480dcd702bc94f3b64fd55e0d6c3f35d6a5908aa96cc30"
+    },
+    "marker-acetate-long6.mp3": {
+      "prompt": "Felt marker drawing slowly on a plastic sheet over glass, slow squeaky strokes, close-mic",
+      "seconds": 6.03,
+      "loop": false,
+      "sha256": "dfe665b06856d627dac3044f37dcfe823207ae8872d65268a3e8103e87f241a8"
+    },
+    "crt-on-long5.mp3": {
+      "prompt": "Old CRT television switching on, static crackle, degauss thump, then a thin high-pitched whine",
+      "seconds": 5.04,
+      "loop": false,
+      "sha256": "4d423c1db3831ec9d817393aec28f92652cf26280d70cc8eb2afec045c604f73"
+    },
+    "padlock-gate-long5.mp3": {
+      "prompt": "Rusty padlock unlocked with a key, then an old iron gate creaking open slowly, close-mic",
+      "seconds": 5.04,
+      "loop": false,
+      "sha256": "bccd92e8212e8bf4c820e0b12613d8291c1932cb295e429b433d9ca80b5575cc"
+    },
+    "compressor-loop20.mp3": {
+      "prompt": "Tire repair shop air compressor running, rattling motor, hiss of an air hose, outdoors in daytime",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "314bf84d926062384a1a7584c54613acc2d758ec64737a99865161f46037dd15"
+    },
+    "drum-fire-rain-loop20.mp3": {
+      "prompt": "Fire burning in a steel drum in light rain, crackling flames and hissing raindrops",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "be166cef0b61239e366e3c663afc361e9f9db236a630e0c2234dcf91b7c41d0a"
+    },
+    "dawn-village-loop20.mp3": {
+      "prompt": "Quiet village at dawn, roosters crowing in the distance, a few birds, distant dogs, light breeze",
+      "seconds": 20.04,
+      "loop": true,
+      "sha256": "dc15b1496dcded5016e91d77277e52c969275c7096c31fd26ec11f0feff83d12"
     }
   }
 }
