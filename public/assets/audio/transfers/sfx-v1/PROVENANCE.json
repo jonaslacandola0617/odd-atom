@@ -1,0 +1,270 @@
+{
+  "library": "TRANSFERS sound library v1 (reusable across the series)",
+  "generated": "2026-11-12",
+  "provider": "ElevenLabs connector, eleven_text_to_sound_v2, prompt influence 0.3, loop off",
+  "flow_id": "3ofVikjGr9Beq7qU4EXI",
+  "user_approval": "user: \"if we need to spend credits we can certainly do so we can still reuse it in our videos\"",
+  "credits": "60 variations at about 16.7 credits each: about 1,000 credits",
+  "prompts": {
+    "vhs-insert": "VHS cassette pushed into a VCR slot, plastic flap clacks, motorized loading mechanism whirs and clunks, close-mic",
+    "vcr-play": "Old VCR starting playback, tape heads spinning up with a soft mechanical whir and a relay click, close-mic",
+    "cassette": "Plastic VHS cassette picked up off a wooden desk, hollow plastic rattle and light tap, close-mic",
+    "crt-on": "Old CRT television switching on, static crackle, degauss thump, then a thin high-pitched whine",
+    "chair": "Cheap old office chair creaking as a man slowly shifts his weight, squeaky metal spring, close-mic",
+    "rain-tin": "Steady light rain on a corrugated tin roof at night, heard from inside a small room, no thunder",
+    "fan": "Old electric stand fan running on low in a quiet room, soft motor hum and gentle blade whoosh",
+    "breath-nervous": "Man's shaky nervous breathing through the nose, trying to stay quiet, close-mic",
+    "gasp": "Man's sharp startled intake of breath, close-mic, dry room",
+    "camcorder-room": "Old camcorder microphone recording a quiet empty room, VHS tape hiss, faint motor whine and soft handling noise",
+    "camcorder-setdown": "Camcorder set down on a wooden table, muffled thump and scrape heard through its built-in microphone",
+    "drone": "Low dark ambient drone, deep sustained tone with slow unsettling swells and a faint metallic shimmer, no melody",
+    "sub-hit": "Deep sub-bass horror impact, single heavy hit with a long dark rumbling tail",
+    "tape-breath": "Slow human breath played from a warped old VHS tape, wobbling pitch, hiss and dropouts",
+    "step": "Single slow barefoot step on an old vinyl tile floor in a silent dark room"
+  },
+  "naming": "<prompt key>-<variation 1..4>.mp3",
+  "files": {
+    "breath-nervous-1.mp3": {
+      "sha256": "028c58c30135ed988a48fb3b82b12b729addf9efed26ca0af82b62c26eb7e1ec",
+      "seconds": 1.04
+    },
+    "breath-nervous-2.mp3": {
+      "sha256": "a08d31cb9108f776cb2569e9123704dae96d160d255a079f12ecb68dd0755705",
+      "seconds": 0.52
+    },
+    "breath-nervous-3.mp3": {
+      "sha256": "ad2dc91a31bc4739f169d8fca383507a5b27c3ba7be6961f69b519c7e16e9fdb",
+      "seconds": 1.04
+    },
+    "breath-nervous-4.mp3": {
+      "sha256": "c95f3f6a21d4e1bafd08f48b6aab50988bd21a9e0e7527d823caf52a6fa7d1cd",
+      "seconds": 1.04
+    },
+    "camcorder-room-1.mp3": {
+      "sha256": "22aed5e0467f33e8c3d6a412c2dd89688fb8dc0586fea7a46574ed5cca3a58a5",
+      "seconds": 1.04
+    },
+    "camcorder-room-2.mp3": {
+      "sha256": "7f7f83ac4da1f4f7129853dbae53fd8847b5a61ea98afa2909e20aff4fd2d774",
+      "seconds": 1.04
+    },
+    "camcorder-room-3.mp3": {
+      "sha256": "01a9fcec10e1d44a1c1a306c50d6485a30d19b2def5e58cb01bd84348ec2c683",
+      "seconds": 5.04
+    },
+    "camcorder-room-4.mp3": {
+      "sha256": "2dc72f6e7ded45c26ead0fca7fa27bcc532144add7c748d74abe0e2d2cc823d1",
+      "seconds": 1.04
+    },
+    "camcorder-setdown-1.mp3": {
+      "sha256": "f705a6159f78c39ae1f5afd71cdaca65b551a8155af5be7b99116d3814ae2528",
+      "seconds": 2.04
+    },
+    "camcorder-setdown-2.mp3": {
+      "sha256": "80d2b9c7d6671a4c31f70dd2822cae49f86346bc9e38c70eab3e6e6e9ca17f52",
+      "seconds": 1.04
+    },
+    "camcorder-setdown-3.mp3": {
+      "sha256": "af807ca93fcefde6ff86497e145dfcbd56edf309b76907c666fc57dcd93c7e0f",
+      "seconds": 0.52
+    },
+    "camcorder-setdown-4.mp3": {
+      "sha256": "e72b6f214e493d9a877212d23d51687512b8dc83cde78b193781b9b22a6cda59",
+      "seconds": 1.04
+    },
+    "cassette-1.mp3": {
+      "sha256": "d42790454995f0a038824b8c5659daab07fce8b607ee8354dd67da8b196c8294",
+      "seconds": 1.04
+    },
+    "cassette-2.mp3": {
+      "sha256": "7cd54bfbdf04a46966aaa545ab4d907ce8d7bb8e7c302cd93ab2f29aee50bbba",
+      "seconds": 1.04
+    },
+    "cassette-3.mp3": {
+      "sha256": "6dc448478fb73b2fbb17322255d29fe456ed1fcd1c7cb1c0a9b28a3123f76f55",
+      "seconds": 1.04
+    },
+    "cassette-4.mp3": {
+      "sha256": "e8e5b9282406613153231a9fbaa9a57f21439bc82236b95c06575f9b0494b03d",
+      "seconds": 1.04
+    },
+    "chair-1.mp3": {
+      "sha256": "aa15b721308153469ea3bb2fb5500b7d099366a6a2a4d543e39a0ca69e922559",
+      "seconds": 1.04
+    },
+    "chair-2.mp3": {
+      "sha256": "7a79b1eec8861ecf44b4d1371f950d853377c098fbe7d49eff77b8250c2db46d",
+      "seconds": 1.04
+    },
+    "chair-3.mp3": {
+      "sha256": "d5169e0e4dff0fe887d93d25546b54a87b8167e6f449399f4bf8a5ebd1bda999",
+      "seconds": 2.04
+    },
+    "chair-4.mp3": {
+      "sha256": "8a5dafb9933296fc311e8c7e5e4347a8e8eefbfa803264caa88c2073fd4e0131",
+      "seconds": 1.04
+    },
+    "crt-on-1.mp3": {
+      "sha256": "1de2c5f332d0095d97bbb97f514737e7b4d6e5f08b93b9fec0185c825bba497d",
+      "seconds": 1.04
+    },
+    "crt-on-2.mp3": {
+      "sha256": "0fd9813cb29669bfafb6b85d3b7c745ec956adec4d33fbf2073b5eda0ead12d9",
+      "seconds": 12.04
+    },
+    "crt-on-3.mp3": {
+      "sha256": "600179e324107c8e15ad43bd64fea9eca38cf711b45abf7d73d210bfd401b933",
+      "seconds": 2.04
+    },
+    "crt-on-4.mp3": {
+      "sha256": "dc81247949327e8a5e69ae27debf860f0b447d51da7f134a9cd89333afb69faf",
+      "seconds": 1.04
+    },
+    "drone-1.mp3": {
+      "sha256": "41e08ad85ee5e3c4e1ed0fa54207d9b4a6f80fe241589a7057f49752432144f7",
+      "seconds": 1.04
+    },
+    "drone-2.mp3": {
+      "sha256": "65e4091d4352f80cf7686405ca54a45d8e61daa6b1b768d9e6ad4a6df4401367",
+      "seconds": 1.04
+    },
+    "drone-3.mp3": {
+      "sha256": "8fc2e8463c9f0f952d0ec702910b3de8f3fa1f98f87e08e17ca89fbd450e8038",
+      "seconds": 1.04
+    },
+    "drone-4.mp3": {
+      "sha256": "c5f2ae9a67ffcd575d97a8839b972c30fb18af37530f86405d3954d6721c8eed",
+      "seconds": 2.04
+    },
+    "fan-1.mp3": {
+      "sha256": "91c913b6d088b76bd88ecbc6a2e136abded7f21b28c99b9af0d8821dcb2db8a8",
+      "seconds": 1.04
+    },
+    "fan-2.mp3": {
+      "sha256": "8bbb2337c9e00f480cc90dfadcab531b15694340e7a652b9e04e1968223e85bc",
+      "seconds": 2.04
+    },
+    "fan-3.mp3": {
+      "sha256": "4368812366b04b5b74d14bded8cfaf347d63065ba7ccc7463bc3492983d914fe",
+      "seconds": 1.04
+    },
+    "fan-4.mp3": {
+      "sha256": "6c029e26914993d164b60c6bcfa2611db3849e8c067e997e0445a218cf54f695",
+      "seconds": 1.04
+    },
+    "gasp-1.mp3": {
+      "sha256": "ef4dea70760b2e86a1cdd1688151b8bb868ba57e8090c66b1e497c70cc78da74",
+      "seconds": 1.04
+    },
+    "gasp-2.mp3": {
+      "sha256": "374ca6e970f7100f34b3452f8bcdac0a1d4e04fd5be43270f48c7e6fbe13a243",
+      "seconds": 1.04
+    },
+    "gasp-3.mp3": {
+      "sha256": "628ed419a50a143a9fc53a47697f4390c6940335d10c07511323e6727c42605c",
+      "seconds": 1.04
+    },
+    "gasp-4.mp3": {
+      "sha256": "c3c97bc48adaac4d474f49c237c6e480a62d426818801d5106261be2debcacea",
+      "seconds": 2.04
+    },
+    "rain-tin-1.mp3": {
+      "sha256": "0aa903e6691f944cf15e54b733d455e6c47d1a838ac4c76fc86b43748964a2b8",
+      "seconds": 2.04
+    },
+    "rain-tin-2.mp3": {
+      "sha256": "4312b2b3d6ac523ab24e6c503376d00908741b6876feea10553704966b7db065",
+      "seconds": 1.04
+    },
+    "rain-tin-3.mp3": {
+      "sha256": "bd4e5182b30f3eef737769dca1d61288e8c3054c0a220e1b6e943d60ef9ea185",
+      "seconds": 2.04
+    },
+    "rain-tin-4.mp3": {
+      "sha256": "b0c79ed319ffb35dbc116197ea08ef6874e31030ec6a363de733cb20d3fc0986",
+      "seconds": 2.04
+    },
+    "step-1.mp3": {
+      "sha256": "921ab7c311f3e625a37ef32d11422a454d93c6662a93a31579be036413095809",
+      "seconds": 2.04
+    },
+    "step-2.mp3": {
+      "sha256": "e386648357baf25de525be5363462a6aadea006d9d2eca7259d29bd02a723abc",
+      "seconds": 4.05
+    },
+    "step-3.mp3": {
+      "sha256": "e563c29ae8a8ead02589d7743788c9232ee443d30743ef90535991ce906e0d45",
+      "seconds": 2.04
+    },
+    "step-4.mp3": {
+      "sha256": "d7de88203281b20524bd316593f2cfc479d3017702b5e9fc31f943dbc39d64ca",
+      "seconds": 1.04
+    },
+    "sub-hit-1.mp3": {
+      "sha256": "c7d0e973ff01fcdeb10d212389cad402eaf5f059d8344b5fb019a9bc78888381",
+      "seconds": 1.04
+    },
+    "sub-hit-2.mp3": {
+      "sha256": "d0263284686eaf767463b84927a762c982fc19597e5f536b9da9fd37258d70ea",
+      "seconds": 1.04
+    },
+    "sub-hit-3.mp3": {
+      "sha256": "efaac878babd4327b91b00c93e217b4e4e89ace587d3e44c015cac85dcf06fc1",
+      "seconds": 1.04
+    },
+    "sub-hit-4.mp3": {
+      "sha256": "7ff106836a63e346240b9650d8eb846efaf3e3c50455b836f9ccf35e245ccec9",
+      "seconds": 1.04
+    },
+    "tape-breath-1.mp3": {
+      "sha256": "f131edce0102ce3ae819f666c0737b34727dbfd4361ed576142f4c51fce3da8c",
+      "seconds": 1.04
+    },
+    "tape-breath-2.mp3": {
+      "sha256": "77e88e8e26bf1cc724ebee5e3ee12212bd560d182f2cd511b58b747dea797bb6",
+      "seconds": 2.04
+    },
+    "tape-breath-3.mp3": {
+      "sha256": "59644bbb02193061eec2f40f6265cd82bb584106bedc5b3bada3b7f43b436a6d",
+      "seconds": 1.04
+    },
+    "tape-breath-4.mp3": {
+      "sha256": "b5ea633253aced8523b9583395a5e6b865b575bf67911cd97cabbf68a78e3f77",
+      "seconds": 2.04
+    },
+    "vcr-play-1.mp3": {
+      "sha256": "d8dd36dc563eb08b45c25215184f398c8921679aed80442ff2f1b85ef36495a7",
+      "seconds": 1.04
+    },
+    "vcr-play-2.mp3": {
+      "sha256": "5ce2dc64415e5af38515b322a626678f5d73b30103b6819d0b8a7a5ed3e5285b",
+      "seconds": 2.04
+    },
+    "vcr-play-3.mp3": {
+      "sha256": "881c8aeb24b0f23b427389b09cbc67c43b1f09a32a6bb37d119cf767a075f753",
+      "seconds": 2.04
+    },
+    "vcr-play-4.mp3": {
+      "sha256": "64a771b19e39586534ecf594669658bd4c28e9723a6a255e9831f470f76411ae",
+      "seconds": 1.04
+    },
+    "vhs-insert-1.mp3": {
+      "sha256": "7f0b7315b09dd4b374f04a807f90100ebbe4c84edcebeed4e5943373744a1b5e",
+      "seconds": 1.04
+    },
+    "vhs-insert-2.mp3": {
+      "sha256": "7a04e900e3c23fb0a52fe105937258bafc0a72fcc535a92e48eca7fc0481da33",
+      "seconds": 2.04
+    },
+    "vhs-insert-3.mp3": {
+      "sha256": "8598dd22fe36226d9f61e549ec91cf48e84795d7db83fa92192d92e8ee823fc2",
+      "seconds": 2.04
+    },
+    "vhs-insert-4.mp3": {
+      "sha256": "a76ca8a76b3f37c1e8163eb7a5b70fe12f1b13a6ce86004eea269e477edd4754",
+      "seconds": 2.04
+    }
+  },
+  "note": "most clips are 1-2 s (the model default); beds (rain-tin, fan, drone, camcorder-room) need longer regenerations with an explicit duration before a final mix",
+  "listening_pass": "not performed (no audio audition in this runtime); the user is to pick key sounds by ear"
+}
