@@ -87,6 +87,24 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 27 "The Ball" (Waverly Hills Sanatorium; a night-vision walk following a ball that rolls away).
 
+- **Episode 27 "The Ball" (2026-11-12):** the user asked for the "next ep". Waverly Hills Sanatorium (Louisville, Kentucky), a real place with reported hauntings. `Ep27TheBall` / `src/horror/ep27/` is 55.0 s, in English.
+  - **Form:** an investigator's handheld black-and-white infrared camera (its own lamp, REC, timecode, corner marks; unlike Season 2's green camcorder) following the investigators' ball. There is no jump scare; the ball does everything:
+    - it rolls away by itself (the hook);
+    - the building on its hill, with our lamp in a window;
+    - it rolls along the open porch;
+    - in the body tunnel it bounces down the steps from behind us and past;
+    - on the third floor it turns into a ward, stops at an iron bed and rolls back to our feet;
+    - "Roll it back": it comes back, fast;
+    - two points of eyeshine in the dark at a child's height blink. Black.
+  - **Sound:** silence-heavy, no score: the camera fan, the building settling, the boots (Episode 26's steps reused), and the ball on concrete, bouncing and tapping the bed (ElevenLabs SFX, 272 credits). The eyes get no sound.
+  - **Lessons:** solve a moving prop's path from the cue time (the tunnel ball was still behind the camera at its cue); a building on a hill needs the camera above the hill's crest; infrared makes foliage pale.
+  - **Care:** no patient shown; the inflated toll is corrected in the narration; the boy is a story with no record; no Room 502 suicide material.
+  - **Voice:** Jack, both takes at once (1,332 credits; take 1 used), no tempo change.
+  - **Sound figures:** bed presence −14.9 / −9.9 dB (silence-heavy), lines ≥9.7 dB with no lifts, −14.0 LUFS, decoded peak −1.55 dBFS, the loop restarts from black and silence.
+  - **Delivery:** `assets/videos/ep27-ball-v1/`. Notes are in `docs/production/ep27-ball/README.md`; the publishing kit is `docs/publishing/ep27/README.md` and `docs/publishing/POSTS-ep21-30.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 28 "Developing" (the Brown Lady of Raynham Hall, 1936; flash after flash on the staircase).
+
 - **Season 2: Philippine ghost stories (2026-11-11):** the user asked for ten more episodes, mostly real Philippine ghost and horror stories, scarier than Season 1, for a Filipino audience.
   - **Slate:** `docs/stories/season-2-philippines.md`, Episodes 11–20: five reported hauntings, four folklore creatures and one original (Tik-Tik). Each has its claim versus what is documented, its sources (search summaries only), beats and hidden details. Season order: Balete Drive → Tik-Tik → Manananggal → Diplomat Hotel → Tiyanak → Clark → Tikbalang → Malacañang → Santelmo → Manila Film Center.
   - **Voice:** the user chose **Taglish narration and captions** read by the ElevenLabs library voice **Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`). The user listened to the test line (`public/assets/audio/eleven-takes/s2-test-juanito-take1.mp3`) and approved it. **From 2026-11-11 (Episode 13) the user has a paid ElevenLabs Starter account (a new account):** flows from the old account (for example `L6hejcAiUNKAfyBLB3C3`) return "no access to this template", so start a new flow. Free-tier "busy" refusals should be rare now. If one happens, the user's earlier rule still applies: retry every 30 min, at most 4 times, one attempt per check-in.

@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 55.01,
+  "duration_frames": 1650,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "We set the ball down on the third floor. Nobody touched it.",
+      "start": 0.1,
+      "end": 3.59,
+      "kind": "narrator",
+      "beat_before": "hook: infrared, the third-floor corridor; the ball starts rolling away from us by itself"
+    },
+    {
+      "id": "l02",
+      "text": "Waverly Hills Sanatorium. Louisville, Kentucky. A hospital for tuberculosis.",
+      "start": 5.09,
+      "end": 10.83,
+      "kind": "narrator",
+      "beat_before": "the ball rolls on into the dark; cut to the building on its hill at night"
+    },
+    {
+      "id": "l03",
+      "text": "Before there was a cure, thousands of patients died here.",
+      "start": 11.63,
+      "end": 15.09,
+      "kind": "narrator",
+      "beat_before": "cut to the open-air porch: the ball rolls along it, past the open windows"
+    },
+    {
+      "id": "l04",
+      "text": "The bodies went down a tunnel under the hill, five hundred feet long, so the living wouldn't see them leave.",
+      "start": 16.69,
+      "end": 22.27,
+      "kind": "narrator",
+      "beat_before": "cut to the tunnel: walking down the long steps"
+    },
+    {
+      "id": "l05",
+      "text": "Ghost stories say sixty-three thousand died. The records point to far fewer. Still, thousands.",
+      "start": 25.47,
+      "end": 32.08,
+      "kind": "narrator",
+      "beat_before": "from behind, the ball comes bouncing down the steps, past us, into the dark"
+    },
+    {
+      "id": "l06",
+      "text": "Investigators bring a ball up here. They say a little boy plays with it. They call him Timmy.",
+      "start": 33.28,
+      "end": 38.27,
+      "kind": "narrator",
+      "beat_before": "the third-floor corridor; the ball rolls ahead of us"
+    },
+    {
+      "id": "l07",
+      "text": "No record of him has ever been found.",
+      "start": 40.87,
+      "end": 42.92,
+      "kind": "narrator",
+      "beat_before": "the ball turns into a ward room; we follow; it stops against a bed frame"
+    },
+    {
+      "id": "l08",
+      "text": "Roll it back.",
+      "start": 46.52,
+      "end": 47.41,
+      "kind": "narrator",
+      "beat_before": "silence; the ball rolls back across the room and stops at our feet"
+    }
+  ]
+}

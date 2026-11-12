@@ -1,0 +1,145 @@
+{
+  "episode": "Ep27TheBall",
+  "duration_seconds": 55.01,
+  "voice": "ElevenLabs eleven_v4, Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep27-take1.mp3",
+    "sha256": "79f67fde51f1807ade6ca28230a8ce0f72872060001e36518b66120757ee667d",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (library voice)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep27-take1.mp3: 41.52 s, 666 credits (used)",
+      "public/assets/audio/eleven-takes/ep27-take2.mp3: 40.80 s, 666 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep27-ball/prompt.json"
+  },
+  "original_synthesis": [
+    "NO SCORE: silence-heavy; the camera fan, the building settling, the ball on concrete (Season 3 sound language for Episode 27)",
+    "the camera fan, corridor air, the wind on the porch and outside, crickets, the tunnel air, water drops, the metal tap of the bed, the boot scuff, the bump, two soft low hits (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "gvoreYbflgjzJZnEPUp1",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "building-3": {
+        "path": "public/assets/audio/eleven-sfx/ep27-building-3.mp3",
+        "sha256": "f338dbb2113eed3ddee3823911e54a110a4eb0da4dbf1e605191ee8c16039aa1"
+      },
+      "ep26-boots (reused)": {
+        "path": "public/assets/audio/eleven-sfx/ep26-boots-{1,4,2}.mp3",
+        "sha256": "see Episode 26 PROVENANCE"
+      },
+      "roll-2": {
+        "path": "public/assets/audio/eleven-sfx/ep27-roll-2.mp3",
+        "sha256": "ddb027ea85c4950028776996907e224349c2be9ae1b07a9f333883ecce9534be"
+      },
+      "roll-1": {
+        "path": "public/assets/audio/eleven-sfx/ep27-roll-1.mp3",
+        "sha256": "04cfa21ad3fc69a2828be8e53de04fbb6a0f3e8989103b743c08ed74cc524cf4"
+      },
+      "steps-2": {
+        "path": "public/assets/audio/eleven-sfx/ep27-steps-2.mp3",
+        "sha256": "efca2123487128043c39503dc8102e598dd93c2591b8fea602df2b5c573e0686"
+      },
+      "steps-1": {
+        "path": "public/assets/audio/eleven-sfx/ep27-steps-1.mp3",
+        "sha256": "43b4a395b45b60ee0c53b791124e9ee3a00bb9cc9ee234cd498ec2b4c26f6266"
+      },
+      "bed-4": {
+        "path": "public/assets/audio/eleven-sfx/ep27-bed-4.mp3",
+        "sha256": "f56aba0db9027596e7203da5ac9104c3c49e45e951853dcb0f6aa5fc3f8706bf"
+      },
+      "building-2": {
+        "path": "public/assets/audio/eleven-sfx/ep27-building-2.mp3",
+        "sha256": "bae61408b51e2cbf1abd5752994faae96a427db2df22d189cec16dcfe2adf964"
+      }
+    },
+    "note": "four prompts x four variations (68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "there is no music; music_presence measures the whole non-voice bed against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    22.47,
+    40.370000000000005,
+    52.459999999999994,
+    53.41
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.55,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -15.2,
+    "last_quarter_second": -240.0
+  },
+  "limiter": "tanh soft limiter, ceiling -2.48 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 9.7,
+      "phone_band_voice_minus_all_db": 10.7,
+      "voice_minus_bed_db": 9.7
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 17.6,
+      "phone_band_voice_minus_all_db": 14.0,
+      "voice_minus_bed_db": 17.6
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 17.1,
+      "phone_band_voice_minus_all_db": 15.7,
+      "voice_minus_bed_db": 17.1
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 19.4,
+      "phone_band_voice_minus_all_db": 17.9,
+      "voice_minus_bed_db": 19.4
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 20.0,
+      "phone_band_voice_minus_all_db": 18.4,
+      "voice_minus_bed_db": 20.0
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 13.5,
+      "phone_band_voice_minus_all_db": 13.5,
+      "voice_minus_bed_db": 13.5
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 21.7,
+      "phone_band_voice_minus_all_db": 20.2,
+      "voice_minus_bed_db": 21.7
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 22.3,
+      "phone_band_voice_minus_all_db": 22.9,
+      "voice_minus_bed_db": 22.3
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -14.9,
+    "music_minus_voice_in_gaps_db": -9.9,
+    "music_share_of_gaps_seconds": 22.2
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

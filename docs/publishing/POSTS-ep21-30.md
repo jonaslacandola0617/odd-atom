@@ -18,6 +18,7 @@ Season 3 is famous, **real, documented** ghost cases from around the world, in E
 | 24 | They Turn Their Heads (the Island of the Dolls) | Xochimilco, Mexico City | `assets/videos/ep24-dolls-v1/ep24-they-turn-their-heads.mp4` | 53.0 s |
 | 25 | Camera Three (Hampton Court Palace CCTV, 2003) | Hampton Court, England | `assets/videos/ep25-hampton-v1/ep25-camera-three.mp4` | 49.4 s |
 | 26 | Post Three (the Castle of Good Hope) | Cape Town, South Africa | `assets/videos/ep26-castle-v1/ep26-post-three.mp4` | 59.8 s |
+| 27 | The Ball (Waverly Hills Sanatorium) | Louisville, Kentucky, USA | `assets/videos/ep27-ball-v1/ep27-the-ball.mp4` | 55.0 s |
 
 ---
 
@@ -186,3 +187,31 @@ control, this is post three. someone is running in the corridor 📻 #castleofgo
 **TikTok pinned comment:** `watch the RX light on his radio. it comes on every time she's near.`
 
 **When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok); a South Africa post at 7–9 p.m. SAST also fits.
+
+---
+
+## Broadcast 27: The Ball (Waverly Hills Sanatorium)
+
+**YouTube title:** `We set the ball down. Nobody touched it.`
+Alternative: `Roll it back.`
+
+**YouTube description**
+```
+Waverly Hills Sanatorium, Louisville, Kentucky: a tuberculosis hospital where thousands of patients died before there was a cure. Investigators leave a ball on the third floor. They say a little boy plays with it. They call him Timmy. No record of him has ever been found.
+
+Watch the ball. Then watch the dark. ⚽
+
+Broadcast 27 · After Sign-Off · Season 3: real cases from around the world. A reconstruction in pixel 3D. The death toll is disputed; the "63,000" figure is legend.
+#WaverlyHills #Louisville #ghoststory #truehorror #haunted #shorts
+```
+
+**Pinned comment:** `Who rolled it back? ⚽`
+
+**TikTok caption**
+```
+we set the ball down. nobody touched it ⚽ #waverlyhills #sanatorium #truehorror #scarystories #haunted #fyp
+```
+**Cover text:** `ROLL IT BACK`
+**TikTok pinned comment:** `look at the height of the eyes.`
+
+**When:** US Eastern 7–9 p.m. (YouTube), 8–11 p.m. (TikTok).
