@@ -99,6 +99,11 @@
       - Not yet reviewed.
   - **Modelling paused (user, 2026-11-12):** "ill work on the characters later". The last state is the Nico v5 clay second pass; its open issues (messy hair, curled hands, crisper sneakers, a squarer jaw) are in the chat.
     - The next task went to a new session, `session_01Wcffamqj9sugSTngy8cr6J`: the TRANSFERS series bible plus the Episode 1 screenplay and an Episode 1–3 beat sheet, on branch `claude/transfers-bible`.
+  - **Series bible and Episode 1 screenplay (2026-11-12, writing only, not approved):**
+    - **Files:** `docs/stories/original-series/transfers/BIBLE.md`, `EP01-SCREENPLAY.md` ("Bayad Na", 5:20) and `EP01-03-BEATS.md`.
+    - **Proposed canon:** the entity is "Ang Kumuha" (*kumuha* means both "to film" and "to take"). It travels by being copied; the copier carries it; it takes whoever accepts a handed camera ("*Ikaw naman*") and sets it down. Tito Boy is the red herring and a victim. Nico's own father was taken on Tape 06. Bea's refusal and Nico holding the camera end Season 1, and the upload of Tape 10 is the cliffhanger.
+    - **Grammar:** the figure is never in the 2.39:1 frame, only in recordings; the entity's sound signature is the autofocus "focus hunt".
+    - Ten episodes of 4–6 min, each with its own form and scare placement; the care section is in the bible. No models, renders or credits were used.
   - **Status:** nothing approved; the realistic look is rejected; the stylized toon/pixel direction waits for the user's answers on proportions, faces and frame rate. No listening pass. The proposed next step is a 15–20 s test with one rigged original character, rendered in our dark PS1 look at 180×320, 270×480 and 360×640, with render time measured, using no ElevenLabs credits, once the user agrees. No episodes are to be made until the user picks a direction.
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
