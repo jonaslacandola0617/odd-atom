@@ -111,6 +111,16 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 20 "The Theatre by the Bay" (the season finale; a reported legend over a real accident).
 
+- **Episode 20 "The Theatre by the Bay" (2026-11-12):** the user asked for the "next ep". It is the Season 2 finale: a reported legend over a real accident (the Manila Film Center, 17 November 1981). `Ep20TheTheatreByTheBay` / `src/horror/ep20/` is 60.0 s, in Taglish.
+  - **World:** composites of the white building by the bay (now, 1981 with scaffolding, work lights and a site clock at 3:00, and the festival with searchlights and an empty red carpet), the lobby's grand staircase, and the theatre (ten rows of red folding seats with independent pads, a closed curtain, dust handprints, a clock at 3:00); `DustFigure` (seated, from behind, dust-grey, no face) and `HardHat` are local to `ep20/world.tsx`.
+  - **Story and picture:** a seat folds down by itself (the hook); the building; 1981, the empty scaffold sways, then black and total silence; a hard hat on a plank; the festival's empty carpet; footsteps, hammering and a trowel on the stairs; seats fold down one by one; silence; the beam sweeps rows of dust-grey backs, one turns its head; lights out; a hard hat on a seat, then gone; the loop.
+  - **Care:** no worker shown at any time; no crash sounded; the toll told as disputed; entombment not stated; no officials or politics; the last line honours the workers.
+  - **Voice:** Juanito, both takes at once (1,800 credits; take 1 used), atempo 1.05 to fit 60 s.
+  - **Sound:** presence −14.2 / −5.2 dB (the score is silent after the black on purpose), lines ≥4.9 dB (l08 +0.7), −14.0 LUFS, decoded peak −1.32 dBFS, bed seam −17.9 / −18.6 dBFS.
+  - **Delivery:** `assets/videos/ep20-theatre-v1/`. Notes (with English subtitles) are in `docs/production/ep20-theatre/README.md`; the publishing kit is `docs/publishing/ep20/README.md` and `docs/publishing/POSTS-ep11-20.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next:** **Season 2 is complete** (Episodes 11–20, all in Taglish with Juanito). From Episode 17 on, the delivered MP4 carries the checked `mix.m4a` muxed over Remotion's picture (`-c copy`), because Remotion's own AAC re-encode can peak just over −1 dBFS. What comes next is the user's call.
+
 - **Eerie ElevenLabs narration (2026-11-10):** the user connected ElevenLabs and asked to change the robotic voiceover into an eerie one for Episodes 1–6.
   - **Recommendation:** a human-sounding dark narrator. The robotic voice only fits diegetic framing, so Episode 1 keeps a broadcast chain and Episode 4 a tape chain, with the door line as the same voice through a door.
   - **Voices** (ElevenLabs connector, `eleven_v4`, audio tags): **Jack – Deep Dark Horror Narrator** for true cases (Episodes 2, 3, 5) and **True – Crime & Horror Narrator** for fiction (Episodes 1, 4, 6).

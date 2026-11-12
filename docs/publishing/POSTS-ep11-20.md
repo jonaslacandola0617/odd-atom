@@ -20,6 +20,7 @@ Season 2 is Philippine ghost stories with Taglish narration (Juanito) and Taglis
 | 17 | The Road That Wouldn't End | folklore (tikbalang) | `assets/videos/ep17-road-v1/ep17-the-road-that-wouldnt-end.mp4` | 57.7 s |
 | 18 | The Light in the Quezon Room | reported legend | `assets/videos/ep18-palace-v1/ep18-the-light-in-the-quezon-room.mp4` | 55.6 s |
 | 19 | Santelmo | folklore and science | `assets/videos/ep19-santelmo-v1/ep19-santelmo.mp4` | 51.9 s |
+| 20 | The Theatre by the Bay | reported legend over a real accident | `assets/videos/ep20-theatre-v1/ep20-the-theatre-by-the-bay.mp4` | 60.0 s |
 
 ---
 
@@ -254,3 +255,29 @@ kapag may liwanag na sumusunod sa'yo sa palayan… huwag mo itong sundan 🔥 #s
 - **Cover text:** `HUWAG MO ITONG SUNDAN` (the light at frame 0).
 - **Pinned comment:** `Tingnan mo ang kanal sa 0:10. May isa pang ilaw.`
 - **Care:** folklore told with respect and the science plainly; no jokes about real drownings. Full kit: `docs/publishing/ep19/README.md`.
+
+---
+
+## Broadcast 20: The Theatre by the Bay (reported legend over a real accident; the finale)
+
+**YouTube title:** `Sa teatrong ito, laging may nakaupo sa mga bakanteng upuan`
+Alternative: `In this theatre, someone is always sitting in the empty seats`
+
+**YouTube description**
+```
+Manila Film Center. Noong Nobyembre 17, 1981, bandang alas tres ng madaling-araw, bumagsak ang scaffolding at nahulog ang mga trabahador sa basang semento. Hanggang ngayon, hindi malinaw kung ilan ang namatay. Mula noon, iisa ang kuwento ng mga guwardiya at performer: puno raw ang mga upuan pagpatay ng ilaw.
+
+Panoorin ang unang segundo. Bilangin ang mga upuang nakababa. 🕯️
+
+Broadcast 20 · After Sign-Off. Season finale. Totoong aksidente; alamat lamang ang mga multo. Inaalala namin ang mga trabahador at ang kanilang mga pamilya.
+#ManilaFilmCenter #kwentongkatatakutan #pinoyhorror #ghoststory #urbanlegend #shorts
+```
+**YouTube pinned comment:** `Ilan nga ba talaga sila? 🕯️ Ito ang huling episode ng Season 2. Para sa mga trabahador at sa kanilang mga pamilya.`
+
+**TikTok caption**
+```
+sa teatrong ito, laging may nakaupo sa mga bakanteng upuan 🕯️ #manilafilmcenter #kwentongkatatakutan #pinoyhorror #ghoststory #fyp #fypシ
+```
+- **Cover text:** `LAGING MAY NAKAUPO` (the seats at frame 0).
+- **Pinned comment:** `Tingnan mo ang orasan sa 0:14. At sa teatro.`
+- **Care:** a real accident with real dead; the ghosts are legend; the toll is disputed; no officials named, no politics; avoid 17 November unless as a remembrance. Full kit: `docs/publishing/ep20/README.md`.

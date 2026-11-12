@@ -688,6 +688,18 @@ Taglish: "Sa teatrong ito… laging may nakaupo sa mga bakanteng upuan."
 8. **Reveal:** the flashlight sweeps the rows. Every seat is down. **Rows of figures sitting in the dark, all facing the stage, all grey with dust.** Their faces are never shown, only their backs and the dust. Stinger in silence. One turns its head.
 9. Lights out. A single hard hat on a seat, then gone. Loop to the folded seats.
 
+**Narration (Taglish, for Juanito):**
+1. Sa teatrong ito, laging may nakaupo sa mga bakanteng upuan.
+2. Maynila, nineteen eighty-one. Minadali ang pagtatayo ng isang film center, para matapos sa loob ng ilang buwan.
+3. Alas tres ng madaling-araw, noong ika-labimpito ng Nobyembre, bumagsak ang scaffolding.
+4. Nahulog ang mga trabahador sa basang semento.
+5. Hanggang ngayon, hindi malinaw kung ilan ang namatay. Pito, sabi ng isang ulat. Mas marami, sabi ng mga kuwento ng mga trabahador.
+6. Nagbukas ang festival sa takdang oras.
+7. Sabi ng mga guwardiya, may naririnig silang pagpupukpok sa gabi. At mga yabag, sa hagdang walang gumagamit.
+8. Sabi ng mga performer, puno raw ang mga upuan pagpatay ng ilaw.
+9. Multo raw sila, sabi ng mga tao.
+10. Baka naghihintay lang sila na banggitin ang mga pangalan nila.
+
 **Narration (English draft):**
 1. In this theatre, someone is always sitting in the empty seats.
 2. Manila, nineteen eighty one. A film center is rushed to be finished in months.

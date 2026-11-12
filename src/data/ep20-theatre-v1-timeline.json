@@ -1,0 +1,89 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 59.961,
+  "duration_frames": 1799,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.45 s, atempo 1.05",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Sa teatrong ito, laging may nakaupo sa mga bakanteng upuan.",
+      "start": 0.15,
+      "end": 4.563,
+      "kind": "narrator",
+      "beat_before": "hook: a flashlight on rows of folded red seats; one folds down by itself"
+    },
+    {
+      "id": "l02",
+      "text": "Maynila, nineteen eighty-one. Minadali ang pagtatayo ng isang film center, para matapos sa loob ng ilang buwan.",
+      "start": 5.263,
+      "end": 12.89,
+      "kind": "narrator",
+      "beat_before": "the white building by the bay at night, its columns like a temple"
+    },
+    {
+      "id": "l03",
+      "text": "Alas tres ng madaling-araw, noong ika-labimpito ng Nobyembre, bumagsak ang scaffolding.",
+      "start": 13.49,
+      "end": 19.299,
+      "kind": "narrator",
+      "beat_before": "1981 in picture only: scaffolding and work lights; a site clock at 3:00"
+    },
+    {
+      "id": "l04",
+      "text": "Nahulog ang mga trabahador sa basang semento.",
+      "start": 19.999,
+      "end": 22.88,
+      "kind": "narrator",
+      "beat_before": "the empty scaffold sways; cut to black (no people, nobody shown)"
+    },
+    {
+      "id": "l05",
+      "text": "Hanggang ngayon, hindi malinaw kung ilan ang namatay. Pito, sabi ng isang ulat. Mas marami, sabi ng mga kuwento ng mga trabahador.",
+      "start": 23.68,
+      "end": 32.659,
+      "kind": "narrator",
+      "beat_before": "silence; the dark site; a single hard hat on the scaffold planks"
+    },
+    {
+      "id": "l06",
+      "text": "Nagbukas ang festival sa takdang oras.",
+      "start": 33.359,
+      "end": 35.813,
+      "kind": "narrator",
+      "beat_before": "searchlights, an empty red carpet (no faces)"
+    },
+    {
+      "id": "l07",
+      "text": "Sabi ng mga guwardiya, may naririnig silang pagpupukpok sa gabi. At mga yabag, sa hagdang walang gumagamit.",
+      "start": 36.513,
+      "end": 43.66,
+      "kind": "narrator",
+      "beat_before": "the present: a guard's flashlight on the grand staircase; footsteps above"
+    },
+    {
+      "id": "l08",
+      "text": "Sabi ng mga performer, puno raw ang mga upuan pagpatay ng ilaw.",
+      "start": 44.36,
+      "end": 48.641,
+      "kind": "narrator",
+      "beat_before": "the theatre: one seat, then several, fold down, as if people are taking their seats"
+    },
+    {
+      "id": "l09",
+      "text": "Multo raw sila, sabi ng mga tao.",
+      "start": 51.341,
+      "end": 53.956,
+      "kind": "narrator",
+      "beat_before": "silence; the flashlight sweeps the rows: every seat down, dust-grey figures from behind, all facing the stage (stinger in silence); one turns its head"
+    },
+    {
+      "id": "l10",
+      "text": "Baka naghihintay lang sila na banggitin ang mga pangalan nila.",
+      "start": 54.756,
+      "end": 58.361,
+      "kind": "narrator",
+      "beat_before": "lights out; a hard hat on a seat in the dark, then gone; the folded seats"
+    }
+  ]
+}

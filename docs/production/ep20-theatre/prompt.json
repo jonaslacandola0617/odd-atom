@@ -1,0 +1,18 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Sa teatrong ito, laging may nakaupo sa mga bakanteng upuan. [long pause] [softly] Maynila, nineteen eighty-one. Minadali ang pagtatayo ng isang film center, para matapos sa loob ng ilang buwan. [long pause] Alas tres ng madaling-araw, noong ika-labimpito ng Nobyembre, bumagsak ang scaffolding. [long pause] Nahulog ang mga trabahador sa basang semento. [long pause] Hanggang ngayon, hindi malinaw kung ilan ang namatay. Pito, sabi ng isang ulat. Mas marami, sabi ng mga kuwento ng mga trabahador. [long pause] Nagbukas ang festival sa takdang oras. [long pause] Sabi ng mga guwardiya, may naririnig silang pagpupukpok sa gabi. At mga yabag, sa hagdang walang gumagamit. [long pause] Sabi ng mga performer, puno raw ang mga upuan pagpatay ng ilaw. [long pause] [whispers] Multo raw sila, sabi ng mga tao. [long pause] [softly] Baka naghihintay lang sila na banggitin ang mga pangalan nila.",
+    "flow_id": "nqLt9VBJgacgT4BdIK7p",
+    "attempts": [
+      "2026-11-12, Starter account: both takes started at once (900 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep20-take1.mp3: 63.92 s, 900 credits (used)",
+      "public/assets/audio/eleven-takes/ep20-take2.mp3: 63.92 s, 900 credits (kept, unused)"
+    ],
+    "processing": "split into 10 lines, pauses inside a line capped at 0.45 s, atempo 1.05 to fit 60 s; the timeline (60.0 s) was built from the real line lengths, with the long gap after line 8 for the reveal"
+  },
+  "script_source": "docs/stories/season-2-philippines.md #20 (reported legend over a real accident: the Manila Film Center, 1981), Taglish version for Juanito"
+}
