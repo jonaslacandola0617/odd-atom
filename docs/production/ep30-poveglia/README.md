@@ -96,7 +96,24 @@ python3 scripts/caption_check.py src/data/ep30-poveglia-v1-timeline.json assets/
 
 ## Review of the encoded file
 
-(filled in after the render)
+- **File:** 41,869,462 bytes; SHA-256 `961af37a03db3438cf914bd385a5e01dff0df8220e2f397d4962458074eaaf4d`.
+- **Streams:**
+  - H.264 1080×1920, 1,574 frames, 52.47 s. That is 2 frames short of the 1,576-frame timeline; they fall in the closing black.
+  - AAC 52.52 s: the checked `mix.m4a`, muxed with `-c copy`.
+  - It decodes with no errors.
+- **Loudness:** −14.1 LUFS integrated; peak −1.6 dBFS (ffmpeg ebur128).
+- **Key:** mean luma, sampled twice a second, runs 0–96/255 with a median of 50. That is **brighter than the season's dark key** (≤45): the legend is a dusk travel film and the record is grey daylight, by design. Only the closing frames are black.
+- **Captions:** all 10 caption cards were found on screen at their timeline times (`out/oddatom/ep30-captions`, not tracked).
+- **Muted contact sheet** (every 2 s), in order:
+  - the island at dusk, the birds lifting, the first RECORD card;
+  - the field with the grass parting, its card;
+  - the hospital façade;
+  - the tower, the birds and the bell, the "LEGEND" card;
+  - the grey corridor, walking to the end window;
+  - the lagoon, the boat leaving with the figure standing in it, "EMPTY SINCE 1968";
+  - black.
+
+  It reads without sound.
 
 ## Known limits
 
