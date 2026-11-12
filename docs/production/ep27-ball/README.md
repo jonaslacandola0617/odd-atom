@@ -64,7 +64,7 @@ Checked from **web-search summaries only**: Wikipedia, Asylum Projects, Mental F
 
 1. **The camera's lamp in the window** of the building from outside is on the third floor.
 2. **The ball turns into the ward by itself**, before the camera does.
-3. **The timecode** runs on through the black of the cut to the tunnel; nobody stopped recording.
+3. **The timecode** is continuous across every cut: one camera, never stopped, yet the tunnel and the third floor are minutes apart on foot.
 4. **The ball comes back faster** than it was sent.
 5. **The eyes are at the height of a child**, about 90 cm, and they blink once.
 
