@@ -64,7 +64,7 @@ Checked from **web-search summaries only** (Oddity Central, Mythlok, The Ghost i
 
 ## Picture standard
 
-- **Dark key:** the frame measured 15–16/255 mean luma before the silk lining, and about 30–40/255 with it (the lit silk behind her is the point; still under 45).
+- **Dark key:** the delivered frames measure 26–31/255 mean luma throughout (sampled twice a second): the dimly lit silk behind her is the brightest area, so her black hair reads; still under 45.
 - **Restraint and realism:** a real-scale altar, a 40 cm doll in a case, candlelight from below; no motion except time.
 
 ## Sound (`scripts/ep22_voice.py`, `scripts/ep22_sound.py`)
@@ -102,7 +102,12 @@ python3 scripts/caption_check.py src/data/ep22-okiku-v1-timeline.json assets/vid
 
 ## Review of the encoded file
 
-(Filled in after the render.)
+- **File:** 44,436,420 bytes; SHA-256 `44c446136f523608a0059956248681b9e65c0d0f6efa4efc85efd44826e9b126`.
+- **Streams:** H.264 1080×1920, 1,667 frames, 55.57 s; AAC 55.55 s (the checked `mix.m4a` muxed with `-c copy`). It decodes with no errors.
+- **Loudness:** −14.1 LUFS integrated; peak −4.0 dBFS (ffmpeg ebur128).
+- **Loop seam:** a deliberate jump in time (2026 → 1938): the last frame is the doll facing the lens with long hair, frame 0 is the doll facing the wall with a bob, at the same framing and exposure.
+- **Captions:** all 11 caption cards were found on screen at their timeline times (`out/oddatom/ep22-captions`, not tracked).
+- **Contact sheet** (every 2.5 s): the bob from behind in 1938; the hair lengthening through the 1960s and 1970s; short again after 1980; her face coming round into profile in the 1990s and to the lens by the 2020s; the breath fogging the glass over her face in 2026. It reads as one continuous turn.
 
 ## Known limits
 
