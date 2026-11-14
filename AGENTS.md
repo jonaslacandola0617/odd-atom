@@ -6,7 +6,7 @@
   - **Rules:** Season 3's rules hold (no shared template, the motion rule, hard cuts only, the sound and loudness standards), plus the care notes in the slate.
   - **Approved (user, 2026-11-14):** "approved, taglish with juanito, start ep 31". The slate and order are approved; **Taglish narration and captions with Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`) for every episode, a new flow per session, both takes by default. Posts: `docs/publishing/POSTS-ep31-40.md` (PH evening times).
   - **Season 4 standard (user, 2026-11-14, after Episode 31 v1: "good, please add an eerie/scary background music, and try to make the reel loop at the end like those viral videos"):** every episode has an **eerie score** (`scripts/horror_score.py`, loop-quantised, ducked under speech) and a **seamless loop**: no black at the end; the last shot is the first shot, played on negative time (`tv = t − DUR`), with the sound crossing the seam (a breath or a knock), and the first and last frames compared.
-  - **Status:** Episodes 31 (v2), 32 and 33 delivered; no user approval of any episode; no listening pass.
+  - **Status:** Episodes 31 (v2), 32, 33 and 34 delivered; no user approval of any episode; no listening pass.
 
 - **Episode 31 "Dalawa Sila" (2026-11-14):** the Season 4 opener: Clarita Villanueva (Manila City Jail, the old Bilibid, May 1953), a documented case. `Ep31DalawaSila` / `src/horror/ep31/` is 59.97 s, in Taglish.
   - **Form:** "the examination": only hands, arms, shoes and paper; she is never seen above the shoulder. A bite presses into her forearm in torchlight (hook) → the jail wall, a guard running → the corridor, her door opens → the cell: a cup rolls by itself, two shadows (tall; child-height) grow on the wall → the doctor's hands, the wet mark, a second bite presses in → the press (a reconstructed page, no real masthead) → the mayor's shoes, the hat falls → a photographer's flash: the cot sinks under someone unseen; in flash 2 the shadows stand by the cot → prayer: something crosses under the blanket → the report is typed, the typing stops, a bite presses into the doctor's wrist (our dramatisation) → black, the loop.
@@ -43,6 +43,18 @@
   - **Delivery:** `assets/videos/ep33-batibat-v1/`. Notes are in `docs/production/ep33-batibat/README.md`; the publishing kit is `docs/publishing/ep33/README.md` and `docs/publishing/POSTS-ep31-40.md`.
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 34 "Paatras" (the sigbin; following footprints that point the wrong way).
+
+- **Episode 34 "Paatras" (2026-11-14):** the user asked for the "next ep". Folklore: the sigbin (Visayas and Mindanao). `Ep34Paatras` / `src/horror/ep34/` is 49.11 s, in Taglish, with the Season 4 score and seamless loop.
+  - **Form:** "the tracker": prints that all point away from the house, cut against the creature backing toward it. Low along the trail, two eyes between two legs coming closer (hook) → the farm, goats turned to the field → the sigbin walking backwards in the field → the pen: three goats of four, the gate swings open → the dog backs into its kennel → the farmer follows the prints away → it backs toward the house behind him → the child asleep; at the window its back and ears rise → he turns: the prints lead home, to it under the window → its face upside down at the lens → the loop.
+  - **Picture technique:** `Sigbin` faces local +z and moves −z; its head hangs between the hind legs on an x-rotation near π (π+0.25 tilts the upside-down face up at the lens); the room's wall is built of thin boxes around a window opening so the creature outside can be seen.
+  - **Lessons:** a creature at night needs a rim light behind it and lighter mud, or it disappears; a single BackSide box has no window opening; check that every shot-dependent position helper covers every shot (the face shot first put it 12 m away).
+  - **Sound:** its wet steps in a wrong rhythm (two quick, one slow), across the loop seam; frogs and crickets that stop where it is near; goats, dog, snorts (ElevenLabs, about 267 credits); a score with a music-box figure that runs backwards.
+  - **Care:** folklore; no family shown or accused of keeping one; the child safe in every frame; no harm on screen.
+  - **Voice:** Juanito, both takes at once (1,088 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −13.8 / −5.4 dB, lines ≥4.8 dB (l06 +4.2, l08 +3.7), −14.0 LUFS, decoded peak −1.12 dBFS, seam −17.1 / −17.0 dBFS.
+  - **Delivery:** `assets/videos/ep34-sigbin-v1/`. Notes are in `docs/production/ep34-sigbin/README.md`; the publishing kit is `docs/publishing/ep34/README.md` and `docs/publishing/POSTS-ep31-40.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 35 "Bantay" (the amalanhig at the lamay; one night in hard cuts by the hour).
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".

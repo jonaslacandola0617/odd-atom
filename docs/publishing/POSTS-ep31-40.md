@@ -14,6 +14,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 | 31 | Dalawa Sila | documented case (1953) | `assets/videos/ep31-clarita-v2/ep31-dalawa-sila.mp4` | 59.97 s |
 | 32 | Tatlong Katok | folklore (kumakatok) | `assets/videos/ep32-katok-v1/ep32-tatlong-katok.mp4` | 55.68 s |
 | 33 | Igalaw Mo ang Daliri | folklore + documented (batibat, bangungot) | `assets/videos/ep33-batibat-v1/ep33-igalaw-mo-ang-daliri.mp4` | 56.02 s |
+| 34 | Paatras | folklore (sigbin) | `assets/videos/ep34-sigbin-v1/ep34-paatras.mp4` | 49.11 s |
 
 ---
 
@@ -53,3 +54,16 @@ Alternative: `Batibat: the spirit that sleeps on your chest`
 **Pinned comment:** `Naranasan mo na ba? Ano'ng ginawa mo para magising? 🦶 (Kung madalas, magpatingin sa doktor.)`
 
 Full kit: `docs/publishing/ep33/README.md`.
+
+---
+
+## Broadcast 34: Paatras (folklore)
+
+**YouTube title:** `Palayo ang mga bakas. Pero papalapit ito.`
+Alternative: `Sigbin: it walks backwards`
+
+**TikTok caption:** `palayo ang mga bakas. pero papalapit ito 🐾 #sigbin #kwentongkatatakutan #pinoyhorror #visayas #fyp #fypシ`
+
+**Pinned comment:** `Saan nagsisimula ang mga bakas? Tingnan mo ulit ang unang segundo. 🐾`
+
+Full kit: `docs/publishing/ep34/README.md`.
