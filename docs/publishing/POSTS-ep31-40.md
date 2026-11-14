@@ -12,6 +12,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 | # | Story | Kind | Upload this file | Length |
 |---|---|---|---|---|
 | 31 | Dalawa Sila | documented case (1953) | `assets/videos/ep31-clarita-v2/ep31-dalawa-sila.mp4` | 59.97 s |
+| 32 | Tatlong Katok | folklore (kumakatok) | `assets/videos/ep32-katok-v1/ep32-tatlong-katok.mp4` | 55.68 s |
 
 ---
 
@@ -25,3 +26,16 @@ Alternative: `The girl bitten by something no one could see (Manila, 1953)`
 **Pinned comment:** `Tingnan mo ulit ang unang segundo. Isa lang ba ang kagat? 🕯️`
 
 Full kit: `docs/publishing/ep31/README.md`.
+
+---
+
+## Broadcast 32: Tatlong Katok (folklore)
+
+**YouTube title:** `Tatlong katok, sa hatinggabi`
+Alternative: `Kumakatok: the three who knock at midnight`
+
+**TikTok caption:** `tatlong katok, sa hatinggabi 🚪 #kumakatok #kwentongkatatakutan #pinoyhorror #pamahiin #fyp #fypシ`
+
+**Pinned comment:** `May puting krus ba ang pinto ni Lola? Tingnan mo ulit. 🚪`
+
+Full kit: `docs/publishing/ep32/README.md`.

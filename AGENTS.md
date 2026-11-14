@@ -21,6 +21,18 @@
   - **Status:** the user said "good" about v1 and "this is great"; v2 has no user approval; no listening pass.
   - **Next in the season order:** Episode 32 "Tatlong Katok" (the kumakatok; one street from above).
 
+- **Episode 32 "Tatlong Katok" (2026-11-14):** the user asked to "proceed to next ep". Folklore: the kumakatok. `Ep32TatlongKatok` / `src/horror/ep32/` is 55.68 s, in Taglish. Built with the Season 4 standard (score and seamless loop) from the start.
+  - **Form:** "the street": one composite barangay at midnight, from above and through our jalousie; each knock lights a window, each death turns it to candlelight. The three knock across the street (hook) → crane, they walk under the streetlight → another door, three knocks (before the line), its window lights then turns to a candle → Nanay chalks a cross on our door → the street from above, windows lighting and turning, the three pass the crossed doors → they stop in front of our house, the crickets stop, the lead's hood tilts up to our window (two points of light) → they pass, we close the slats → the hall: three knocks from inside Lola's room, the light under her door goes out → the loop: the three at the door across the street, about to knock.
+  - **Picture technique:** a per-house window schedule (light, then candle) drives the story; `Robed` figures face local +x (walking −z is ry π/2, +z is −π/2); our window is a 2D frame over the 3D view with thin open slats (rotation 1.38) that close.
+  - **Lessons:** a night street needs ambient ≈1.0 plus porch bulbs over the doors that matter, or dark robes vanish; jalousie slats near the lens must be nearly edge-on, or they fill the frame; a hood "looking up" is a tilt about local z, and it needs eyeshine to read.
+  - **Sound:** one knock cut from an ElevenLabs take and placed on every knock in the picture (muffled for Lola's door); dogs in the gaps, chalk, robed steps (about 267 credits, picked by measurement); crickets that stop; a loop-quantised score (drone, string cluster, an original three-note music-box figure, heartbeat, bowed metal, swell and stingers, a riser).
+  - **Care:** folklore told as folklore; no real barangay; Lola's fate never shown; the white-cross custom respected; no faces.
+  - **Voice:** Juanito, both takes at once (1,240 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −12.3 / −2.5 dB, lines ≥4.7 dB (l06 +0.9), −14.0 LUFS, decoded peak −1.43 dBFS, seam −20.0 / −19.9 dBFS.
+  - **Delivery:** `assets/videos/ep32-katok-v1/`. Notes are in `docs/production/ep32-katok/README.md`; the publishing kit is `docs/publishing/ep32/README.md` and `docs/publishing/POSTS-ep31-40.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 33 "Igalaw Mo ang Daliri" (the batibat and bangungot; the sleeper's paralysis POV).
+
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".
   - **Slate:** `docs/stories/season-3-world.md`: ten real, documented cases on six continents, each with its own form, scare placement, sound language and visual language. Order: Enfield → Okiku doll → Bell Witch → Island of the Dolls → Hampton Court CCTV → Castle of Good Hope → Waverly Hills → Brown Lady → Monte Cristo Homestead → Poveglia. Folklore-only tales are out.
