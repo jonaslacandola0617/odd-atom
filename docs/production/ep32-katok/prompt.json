@@ -1,0 +1,31 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Tatlong katok, sa hatinggabi. At may mamamatay sa bahay na iyon. [long pause] [softly] Sa mga lumang kuwento, tatlo silang naglalakad sa gabi. Nakabalabal. Hindi mo makikita ang mukha. [long pause] Kakatok sila nang tatlong beses. Buksan mo man o hindi, may mamamatay pa rin. Ang pinakamatanda. O ang may sakit. [long pause] Kaya noon, gumuguhit ang mga tao ng puting krus sa pinto. [long pause] Ngayong gabi, sa kabilang bahay. Tapos sa kasunod. [long pause] [whispers] Tumigil sila sa tapat namin. [long pause] Tapos, lumampas. [long pause] [whispers] Hanggang may kumatok. Mula sa loob. Sa kuwarto ni Lola.",
+    "flow_id": "zQpcgoOGwdbkyG8RJNKB (new flow, 2026-11-14)",
+    "attempts": [
+      "2026-11-14: one call, both takes started at once (620 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep32-take1.mp3: 48.32 s, 620 credits (used)",
+      "public/assets/audio/eleven-takes/ep32-take2.mp3: 44.32 s, 620 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, pauses inside a line capped at 0.32 s, no tempo change; timeline 54.48 s with a 3.2 s gap for the approach"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "zQpcgoOGwdbkyG8RJNKB",
+    "prompts": {
+      "knock": "Three slow heavy knocks on an old wooden door at night, knuckles on wood, evenly spaced, then silence, quiet empty street, no music",
+      "dogs": "Several dogs barking in the distance in a quiet village at night, then one by one they whimper and fall silent, no music",
+      "chalk": "Chalk drawing quickly on a wooden door, scratching strokes, a hurried cross shape, close up, quiet night, no music",
+      "steps": "Slow bare footsteps of several people walking together on a concrete village street at night, long heavy cloth robes dragging on the ground, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep32-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: one knock cut from knock-1 (the loudest single transient) and placed on each knock in the picture; dogs-4 (the loudest); chalk-3 (3 s, the most strokes); steps-3 (the most continuous)"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #32 (folklore: the kumakatok), Taglish version for Juanito"
+}

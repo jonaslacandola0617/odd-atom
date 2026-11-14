@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 55.68,
+  "duration_frames": 1670,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Tatlong katok, sa hatinggabi. At may mamamatay sa bahay na iyon.",
+      "start": 1.6,
+      "end": 6.72,
+      "kind": "narrator",
+      "beat_before": "hook: across the street, three robed figures at a door; three knocks; that window lights"
+    },
+    {
+      "id": "l02",
+      "text": "Sa mga lumang kuwento, tatlo silang naglalakad sa gabi. Nakabalabal. Hindi mo makikita ang mukha.",
+      "start": 7.92,
+      "end": 15.24,
+      "kind": "narrator",
+      "beat_before": "the crane rises over the barangay: the three walk under the one streetlight"
+    },
+    {
+      "id": "l03",
+      "text": "Kakatok sila nang tatlong beses. Buksan mo man o hindi, may mamamatay pa rin. Ang pinakamatanda. O ang may sakit.",
+      "start": 17.44,
+      "end": 25.76,
+      "kind": "narrator",
+      "beat_before": "a door: knock, knock, knock; a window lights; later a candle in that window"
+    },
+    {
+      "id": "l04",
+      "text": "Kaya noon, gumuguhit ang mga tao ng puting krus sa pinto.",
+      "start": 27.16,
+      "end": 30.95,
+      "kind": "narrator",
+      "beat_before": "through our jalousie: Nanay chalks a white cross on our door, fast"
+    },
+    {
+      "id": "l05",
+      "text": "Ngayong gabi, sa kabilang bahay. Tapos sa kasunod.",
+      "start": 32.15,
+      "end": 36.34,
+      "kind": "narrator",
+      "beat_before": "the crane: house after house, a light, then a candle; they come up our street, skipping the crossed doors"
+    },
+    {
+      "id": "l06",
+      "text": "Tumigil sila sa tapat namin.",
+      "start": 39.54,
+      "end": 41.46,
+      "kind": "narrator",
+      "beat_before": "from our window: they stop at our gate; one turns its hood to the window"
+    },
+    {
+      "id": "l07",
+      "text": "Tapos, lumampas.",
+      "start": 44.06,
+      "end": 45.92,
+      "kind": "narrator",
+      "beat_before": "they move on; the dogs start again; Nanay breathes; we lower the jalousie"
+    },
+    {
+      "id": "l08",
+      "text": "Hanggang may kumatok. Mula sa loob. Sa kuwarto ni Lola.",
+      "start": 46.92,
+      "end": 51.08,
+      "kind": "narrator",
+      "beat_before": "inside: the hall; three knocks on Lola's door, from the inside; her door's light goes out"
+    }
+  ]
+}

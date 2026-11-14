@@ -1,0 +1,130 @@
+{
+  "episode": "Ep32TatlongKatok",
+  "duration_seconds": 55.68,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep32-take1.mp3",
+    "sha256": "b399656d89dfc3159dc777b737d51dda528c3c66e160fb3931b5d8b08a86ac83",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep32-take1.mp3: 48.32 s, 620 credits (used)",
+      "public/assets/audio/eleven-takes/ep32-take2.mp3: 44.32 s, 620 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep32-katok/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, an original three-note music-box figure, a heartbeat on the approach, bowed metal, a reversed swell and stingers (scripts/horror_score.py); all tones loop-quantised",
+    "the barangay at night, crickets that fall quiet when the three stop, a far tricycle, the house fan and hum, switch clicks, a match strike, a breath, the jalousie slats, a low hit (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "zQpcgoOGwdbkyG8RJNKB",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "knock-1": {
+        "path": "public/assets/audio/eleven-sfx/ep32-knock-1.mp3",
+        "sha256": "5faf4092e555e4c5ed9a1f1fa302b3428291e6b61481605d7ca3a240ef167da8"
+      },
+      "dogs-4": {
+        "path": "public/assets/audio/eleven-sfx/ep32-dogs-4.mp3",
+        "sha256": "fa206083c2fc421280a4861bbed4a221aec9f8d10b9060faa4af7106deb48da7"
+      },
+      "steps-3": {
+        "path": "public/assets/audio/eleven-sfx/ep32-steps-3.mp3",
+        "sha256": "9a15959b2ac5d68c346cea556d9f7f2ccf707d965a4d5a1a89d1077a40eca301"
+      },
+      "chalk-3": {
+        "path": "public/assets/audio/eleven-sfx/ep32-chalk-3.mp3",
+        "sha256": "12109e48618f744602f80a0bd39d63f04a5eb32481192d837c6b6779eedc07f0"
+      }
+    },
+    "note": "four prompts x four variations (about 68 credits per prompt); picked by measurement, not by listening; one knock is cut from knock-1 and placed on the picture"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    0.25,
+    15.690000000000001,
+    41.61,
+    51.33,
+    53.129999999999995
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.43,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -20.0,
+    "last_quarter_second": -19.9
+  },
+  "limiter": "tanh soft limiter, ceiling -3.31 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.4,
+    "l05": 0.3,
+    "l06": 3.1,
+    "l07": 0.0,
+    "l08": 0.1
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 9.1,
+      "phone_band_voice_minus_all_db": 19.3,
+      "voice_minus_bed_db": 9.1
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 7.3,
+      "phone_band_voice_minus_all_db": 9.4,
+      "voice_minus_bed_db": 7.3
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 7.2,
+      "phone_band_voice_minus_all_db": 14.9,
+      "voice_minus_bed_db": 7.2
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 8.4,
+      "voice_minus_bed_db": 4.7
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 12.0,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 5.4,
+      "phone_band_voice_minus_all_db": 14.2,
+      "voice_minus_bed_db": 5.4
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 7.4,
+      "phone_band_voice_minus_all_db": 10.6,
+      "voice_minus_bed_db": 7.4
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 12.7,
+      "voice_minus_bed_db": 4.7
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.3,
+    "music_minus_voice_in_gaps_db": -2.5,
+    "music_share_of_gaps_seconds": 19.0
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
