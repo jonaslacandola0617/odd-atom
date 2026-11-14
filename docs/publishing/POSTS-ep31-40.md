@@ -11,7 +11,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 
 | # | Story | Kind | Upload this file | Length |
 |---|---|---|---|---|
-| 31 | Dalawa Sila | documented case (1953) | `assets/videos/ep31-clarita-v1/ep31-dalawa-sila.mp4` | 59.97 s |
+| 31 | Dalawa Sila | documented case (1953) | `assets/videos/ep31-clarita-v2/ep31-dalawa-sila.mp4` | 59.97 s |
 
 ---
 

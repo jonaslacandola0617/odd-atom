@@ -1,6 +1,6 @@
 # Episode 31 publishing kit: "Dalawa Sila" (the Season 4 opener)
 
-**Upload this file:** `assets/videos/ep31-clarita-v1/ep31-dalawa-sila.mp4` (59.97 s, 1080×1920; it loops back to the first bite). Its poster is `ep31-dalawa-sila-poster.png` (the bite in the torchlight).
+**Upload this file:** `assets/videos/ep31-clarita-v2/ep31-dalawa-sila.mp4` (59.97 s, 1080×1920; v2, with the score; it loops seamlessly back to the first bite). Its poster is `ep31-dalawa-sila-poster.png` (the bite in the torchlight).
 These are drafts to paste; nothing has been posted. No view counts are guaranteed.
 
 **A documented case** (Manila, May 1953), with a real girl at its centre who was a minor at the time.

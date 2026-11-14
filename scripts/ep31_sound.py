@@ -1,4 +1,4 @@
-"""Episode 31 "Dalawa Sila" sound (Season 4 opener: Clarita Villanueva, Manila City Jail, 1953).
+"""Episode 31 "Dalawa Sila" sound, v2 (an eerie score and a seamless loop, at the user's request) (Season 4 opener: Clarita Villanueva, Manila City Jail, 1953).
 
 Sound language: NO SCORE. The jail itself: room tone, a far ceiling fan, the bulbs' hum, crickets
 outside; a typewriter, the press, a cup, a cell door (ElevenLabs SFX); the bites are a soft, close,
@@ -14,8 +14,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import horror_score as hs
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'public/assets/audio/ep31-clarita-v1'
-VOICE = OUT / 'voice'
+OUT = ROOT / 'public/assets/audio/ep31-clarita-v2'
+VOICE = ROOT / 'public/assets/audio/ep31-clarita-v1/voice'  # the v1 lines, unchanged
 LIB = ROOT / 'public/assets/audio/library/curio-bureau/curio_sfx_v1'
 TL = json.loads((ROOT / 'src/data/ep31-clarita-v1-timeline.json').read_text())
 SR = 48000
@@ -134,7 +134,8 @@ RIPPLE = (l('l07')['start'] + 1.4, l('l07')['start'] + 4.4)
 CUT_REPORT = l('l08')['start'] - 0.3
 TYPE_STOP = l('l08')['end'] + 0.3
 WRIST = (l('l08')['end'] + 0.6, l('l08')['end'] + 2.0)
-BLACK = DUR - 0.4
+LOOP = l('l08')['end'] + 2.25  # v2: the last shot is the first shot (her clean forearm); no black
+BLACK = DUR
 STINGERS = [CUT_WALL, CUT_CELL, BITE2[0], HAT, FLASH1, FLASH2, WRIST[0]]
 SFX = ROOT / 'public/assets/audio/eleven-sfx'
 SFX_USED = {}
@@ -287,8 +288,10 @@ def step(at, gain=0.08, hard=False):
     place(fx, st(x * gain), at)
 
 
-# the hook: a held breath, then the teeth press in
-breath_in(0.0, 0.5, 0.04)
+# the hook: a held breath, then the teeth press in. v2: the breath starts before the loop point and
+# finishes after it, so the seam is inside one breath
+breath_in(DUR - 0.3, 0.6, 0.04)
+breath_in(-0.3, 0.6, 0.04)
 bite(BITE[0] + 0.05, 0.14, 4, 0.5)
 # outside: the guard runs along the wall, his lamp's chain swinging
 for t0 in np.arange(CUT_WALL + 0.2, CUT_COR - 0.1, 0.28):
@@ -345,14 +348,39 @@ place(fx, st(dr * 0.03 * (1 - 0.5 * seg)), RIPPLE[0])
 # the report: the typewriter, until the hands stop; then the bite on the wrist, and silence
 tw = xloop(sfx('typewriter-4'), TYPE_STOP - CUT_REPORT)
 tw[-int(0.05 * SR):] *= np.linspace(1, 0, int(0.05 * SR))[:, None]
-place(fx, tw * (0.55 + 0.45 * duck[int(CUT_REPORT * SR):int(CUT_REPORT * SR) + len(tw)])[:, None], CUT_REPORT, -3)
+place(fx, tw * (0.55 + 0.45 * duck[int(CUT_REPORT * SR):int(CUT_REPORT * SR) + len(tw)])[:, None], CUT_REPORT, -6)
 breath_in(WRIST[0] - 0.5, 0.45, 0.035)
 bite(WRIST[0], 0.15, 4, 0.32)
 hit(WRIST[1] - 0.1, 0.24, 40)
 write(OUT / 'stem-foley-fx.wav', fx)
-mus = np.zeros((N, 2))  # no score in this episode
+# ------------------------------------------------------------------ v2: the score (eerie, low, minor; the user asked for it)
+# Built to loop: every tone has a whole number of cycles over the episode (qf) and every envelope
+# ends where it starts, so the score meets itself at the seam.
+mus = np.zeros((N, 2))
+loop_lvl = 0.7
+drone_e = env([(0, loop_lvl), (CUT_CELL, 0.9), (TALL, 1.1), (CUT_EXAM, 0.8), (BITE2[0], 1.1), (CUT_PHOTO, 0.9), (FLASH2, 1.4), (CUT_PRAYER, 0.8), (RIPPLE[1], 1.0), (WRIST[0], 1.3), (LOOP, loop_lvl), (DUR, loop_lvl)])
+mus += st(hs.drone_mid(T, qf, drone_e, root=58.27) * 1.7)
+str_e = env([(0, 0.45), (CUT_WALL, 0.55), (CUT_CELL, 0.8), (SMALL, 1.1), (CUT_EXAM, 0.7), (BITE2[1], 1.0), (CUT_PRESS, 0.6), (FLASH1, 0.9), (FLASH2, 1.5), (CUT_PRAYER, 0.7), (WRIST[0], 1.3), (LOOP, 0.45), (DUR, 0.45)])
+trem = env([(0, 0.25), (CUT_CELL, 0.5), (TALL, 0.8), (CUT_EXAM, 0.4), (SIT[0], 0.7), (FLASH2, 1.0), (CUT_PRAYER, 0.4), (TYPE_STOP, 0.9), (LOOP, 0.25), (DUR, 0.25)])
+mus += st(hs.strings(T, qf, [116.54, 123.47, 174.61], str_e, trem, SR, seed=3101) * 2.3)
+# a detuned music-box lullaby (an original tune), once after the hook and once, slower, before the end
+THEME = [329.63, 311.13, 261.63, 0, 246.94, 261.63, 220.0, 0, 207.65, 220.0, 196.0]
+place(mus, hs.music_box(SR, THEME, 0.42, 0.975, seed=3103), l('l01')['end'] + 0.05, -1.0)
+place(mus, hs.music_box(SR, THEME[:7], 0.55, 0.96, seed=3104), CUT_PRAYER + 0.2, -3.0)
+# bowed metal under the shadows
+place(mus, st(hs.metal_bow(SR, 5.0, 1120.0, seed=3105)), TALL - 1.0, 2.0)
+# the second flash: a riser and a reversed swell end on it, then the stinger
+place(mus, st(hs.riser(SR, 1.6, seed=3106)), FLASH2 - 1.6, -2.0)
+place(mus, st(hs.reverse_swell(SR, [116.54, 174.61, 246.94], 0.9, seed=3107)), FLASH2 - 0.9)
+place(mus, hs.stinger(SR, seed=3108, size=1.2), FLASH2)
+place(mus, hs.stinger(SR, seed=3109, size=0.7), BITE2[0])
+# a heartbeat from the prayer to the last bite, quickening; then the last stinger on the wrist
+place(mus, st(hs.heartbeat(SR, CUT_PRAYER + 1.0, WRIST[0], 58, 112, gain=0.9, seed=3110)), CUT_PRAYER + 1.0)
+place(mus, hs.stinger(SR, seed=3111, size=1.0), WRIST[0])
+mus *= (1 - speech * (1 - db(-7)))[:, None] * db(-2.8)
+write(OUT / 'stem-score.wav', mus)
 tvb = np.zeros((N, 2))
-bed = amb + fx
+bed = amb + fx + mus
 PRESENCE = hs.presence(voice, bed, TL['lines'], SR)
 
 # ------------------------------------------------------------------ every line at least 4.5 dB over everything else (lift at most 8 dB)
@@ -429,11 +457,12 @@ take = ROOT / 'public/assets/audio/eleven-takes/ep31-take1.mp3'
                        'voice_id': 'u1CVBnSUn9JiL8ssgd2v', 'voice_name': 'Juanito (ElevenLabs library voice, Filipino)', 'credits': json.loads((ROOT / 'docs/production/ep31-clarita/prompt.json').read_text())['narration'].get('takes'),
                        'prompt': 'docs/production/ep31-clarita/prompt.json'},
     'original_synthesis': [
-        'NO SCORE: the jail itself (Season 4 sound language for Episode 31): room tone, a ceiling fan, bulbs humming, crickets outside',
+        'v2 SCORE (the user asked for eerie/scary music): a mid-band drone, a detuned string cluster with tremolo, an original detuned music-box lullaby, bowed metal, a riser and reversed swell into the second flash, stingers, a heartbeat (scripts/horror_score.py); all tones loop-quantised',
+        'the jail itself: room tone, a ceiling fan, bulbs humming, crickets outside',
         'the bites (a soft, close, wet pressure, never a crunch), a held breath, running and walking steps, a lamp chain, heel clicks, the hat falling, flashbulbs, the cot springs, the blanket dragging, the lamp flame, low hits (synthesized)',
     ],
     'elevenlabs_sfx': {'flow_id': 'yHb6WbLuxxQMhDPhRmGR', 'model': 'eleven_text_to_sound_v2', 'used': SFX_USED, 'note': 'four prompts x four variations (about 68 credits per prompt); picked by measurement, not by listening'},
-    'music_presence_note': 'there is no music; music_presence measures the whole non-voice bed against the voice',
+    'music_presence_note': 'music_presence measures the whole non-voice bed (score, ambience, effects) against the voice',
     'real_recordings_used': False,
     'library_cues': USED,
     'stingers': STINGERS, 'stingers_inside_speech': clash,

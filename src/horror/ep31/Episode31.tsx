@@ -9,7 +9,8 @@
 // falls from his hand; a photographer's flash: the cot sinks as someone unseen sits on it, and in the
 // second flash the two shadows stand by the cot; prayer, the blanket ripples as something crosses
 // under it, then lies still; the report is typed, the typing stops, and a bite presses into the
-// doctor's own wrist (our dramatisation, never claimed). Black; the loop returns to the first bite.
+// doctor's own wrist (our dramatisation, never claimed). v2: then her clean forearm again, the frame-0
+// pose, so the reel loops seamlessly into the first bite; and an eerie score (scripts/ep31_sound.py).
 // Care: she was a minor: no face, nothing sexualised; doctors' explanation in the narration; the
 // mayor and the pastor are shown only as shoes, hands and a hat; the prayer is reported, not mocked.
 import React, {useLayoutEffect, useMemo, useRef} from 'react';
@@ -60,7 +61,10 @@ export const K = {
 	cutReport: L.l08.start - 0.3,
 	typeStop: L.l08.end + 0.3,
 	wrist: [L.l08.end + 0.6, L.l08.end + 2.0] as [number, number],
-	black: DUR - 0.4,
+	// v2: no black at the end; the last shot is the first shot (her clean forearm, the frame-0 pose),
+	// played on negative time, so the reel loops seamlessly into the first bite
+	loopShot: L.l08.end + 2.25,
+	black: DUR + 1,
 };
 export const STINGERS = [K.cutWall, K.cutCell, K.bite2[0], K.hatDrop[0], K.flash1, K.flash2, K.wrist[0]];
 
@@ -75,7 +79,7 @@ const shotAt = (t: number): Shot => {
 	if (t < K.cutPhoto) return 'mayor';
 	if (t < K.cutPrayer) return 'photo';
 	if (t < K.cutReport) return 'prayer';
-	if (t < K.black) return 'report';
+	if (t < K.loopShot) return 'report';
 	return 'black';
 };
 
@@ -405,7 +409,9 @@ const GRADE: Record<Shot, string> = {
 export const Episode31: React.FC<{includeAudio?: boolean; captions?: boolean}> = ({includeAudio = true, captions = true}) => {
 	const f = useCurrentFrame();
 	const t = f / 30;
-	const shot = shotAt(t);
+	// the loop shot runs on negative time: it is the hook's own first moments, before the bite
+	const tv = t >= K.loopShot ? t - DUR : t;
+	const shot = shotAt(tv);
 	const page = useLive(180, 300);
 	const report = useLive(72, 90);
 	// draw the page once and the report every frame (it is being typed)
@@ -436,14 +442,14 @@ export const Episode31: React.FC<{includeAudio?: boolean; captions?: boolean}> =
 				{shot !== 'black' && (
 					<ThreeCanvas width={LW} height={LH} gl={{antialias: false, preserveDrawingBuffer: true}} camera={{fov: 50, near: 0.02, far: 900}} style={{position: 'absolute', left: 0, top: 0, imageRendering: 'pixelated'}}>
 						<MatsProvider>
-							<Scene t={t} page={page} report={report} />
+							<Scene t={tv} page={page} report={report} />
 						</MatsProvider>
 					</ThreeCanvas>
 				)}
 			</div>
-			{shot !== 'black' && <Overlay t={t} captions={captions} shot={shot} />}
+			{shot !== 'black' && <Overlay t={tv} captions={captions} shot={shot} />}
 			<AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.75) 100%)'}} />
-			{includeAudio && <Audio src={staticFile('assets/audio/ep31-clarita-v1/mix.m4a')} />}
+			{includeAudio && <Audio src={staticFile('assets/audio/ep31-clarita-v2/mix.m4a')} />}
 		</AbsoluteFill>
 	);
 };
