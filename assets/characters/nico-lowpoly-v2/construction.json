@@ -1,0 +1,277 @@
+{
+  "source_v1_blend_sha256": "80e6d1677c6c0a95caa96e7dd54a64a3676f5e9ad8818cc7f757dff2385b046d",
+  "v1_files_preserved": {
+    "visual-review.json": "a03b00150f264daa71a7bca0518a95f019813fd46d26bfd126ff4f1549d08340",
+    "Nico_LowPoly.glb": "78c3b72f9235dd1309efecd308aa0fbae9d77046567f7e8cf6d029eb82840b08",
+    "Nico_ReviewSheet.png": "68894995aba287bcff71de1c94b28255bfb24ceea4a9a9c4ef8f55855fef4bf2",
+    "README.md": "66da7f5acb1c4164d4fcc38effb219c8cc0c025f595259ca978c97c1e04ee264",
+    "verification.json": "b7ff30ae664ee8addbb954c252d95cfc31d0f016f79c5874474411054b9acf3e",
+    "Nico_Delivery.zip": "483cdded0df7a42967a72fc82375260afcf3ebc8a956c7c2056e9c0c322191d0",
+    "Nico_Import_GLB.py": "3ff9da107524a225bb2d109bcc52017b5ff8067680d21b0e01081a312d59c5d5",
+    "Nico_LowPoly.blend": "80e6d1677c6c0a95caa96e7dd54a64a3676f5e9ad8818cc7f757dff2385b046d",
+    "textures/Nico_Hair.png": "daac00cc246bbbb921977b088c445e3ea74c0d4bdf198e0371e243cc8bf98c0a",
+    "textures/Nico_Skin.png": "6e92c03b77e7e4e174dc22e0e38a303c58f19e365745c97a2284605c7fe539cb",
+    "textures/Nico_Shoes.png": "ac919cd39767451b227840fc0de73a0da8a96f953f1e9315c13a089689b1269b",
+    "textures/Nico_Denim.png": "9e9b1ffd79ff10f776f4fe8775f36f7194ee47ba98089be9f788b299623e5cce",
+    "textures/Nico_Watch.png": "8a1d621ae4133f35f33caec5cdb72e966800a76b62a7e12a86ffa00abaa0372b",
+    "review/clay-head-three-quarter.png": "9767db737ca4e87122855ea0d8420b3c1bc359008c9d8c70e2508ab932cca1ff",
+    "review/clay-head-front.png": "f39bf30ed7d752ab16a0df24bd3e8c159c9b2fef51bca8be652a3e9968dff080",
+    "review/small-preview.png": "c5da33df9bca4a735fb057eda2f79dbf4dab74c5e580d19bb211adca2b41be4f",
+    "review/clay-head-profile.png": "e3f3cdc4a15b4a4ce0607069c6452b1b5113bbb020e2e26edaaaf023d9a1597f",
+    "review/body-three-quarter.png": "0ea15b3176d03c9b6c69fdf3ee66768dfaac28b882c1c87c811cc6e3343ea1d8",
+    "review/head-back-elevated.png": "d30e8f0dbfdf3a9ab3fcd5fa1d9abacff025a2e82e2418836aa4251dd2055e58",
+    "review/body-profile.png": "51215fb63dd3013ed5ec4fe4959896332f3cd0d3a40b18e29ff39845ffcc81b7",
+    "review/head-three-quarter.png": "57162b62cbe076ba623169525a8e228ccc6a5793b8872877e435e8fa93d785cd",
+    "review/hand-left.png": "7f3cc7a3c5465ad876e2a666aa81e54e14b20bcbbba1535145ae1e2e90453f46",
+    "review/shoes-detail.png": "75ee48354206c81e428fa079f65c6ee8227e2175a3216a854e3a330a980c2888",
+    "review/body-back.png": "83fcfb09fafa352b939a070d20284468f08de3cfd290e0db294bee6da05b2cef",
+    "review/body-front.png": "9604c0dca768180b80baf388287a57b3559b7052c5ce543db31443a18dd50ec8",
+    "review/glb-reimport-three-quarter.png": "3279f618c045cf1aa89a7bd73a4b3bf7569680abcbfc435810f1782f3ba2b450"
+  },
+  "v1_hair_vertex_hash": "d6801280b8830d3f28e2f62b9af637b6c2c3a6e7b6b70fbafa09611db4846eaf",
+  "outer_shape": "Old outer shell removed. New close scalp cover plus seven broad closed locks, including one bent crown lock.",
+  "locks": [
+    {
+      "object": "Nico_Hair_v2_Lock_01_MainSweep",
+      "control_path": [
+        [
+          0.047,
+          0.016,
+          1.713
+        ],
+        [
+          0.032,
+          -0.018,
+          1.738
+        ],
+        [
+          -0.006,
+          -0.043,
+          1.744
+        ],
+        [
+          -0.041,
+          -0.063,
+          1.716
+        ],
+        [
+          -0.056,
+          -0.062,
+          1.681
+        ]
+      ],
+      "full_widths": [
+        0.055,
+        0.07,
+        0.068,
+        0.05,
+        0.022
+      ],
+      "cowlick": false
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_02_LowerFringe",
+      "control_path": [
+        [
+          0.015,
+          0.014,
+          1.711
+        ],
+        [
+          0.005,
+          -0.017,
+          1.73
+        ],
+        [
+          -0.021,
+          -0.054,
+          1.715
+        ],
+        [
+          -0.019,
+          -0.073,
+          1.666
+        ]
+      ],
+      "full_widths": [
+        0.048,
+        0.055,
+        0.047,
+        0.02
+      ],
+      "cowlick": false
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_03_SideFringe",
+      "control_path": [
+        [
+          0.065,
+          0.019,
+          1.7
+        ],
+        [
+          0.062,
+          -0.016,
+          1.72
+        ],
+        [
+          0.045,
+          -0.047,
+          1.718
+        ],
+        [
+          0.037,
+          -0.073,
+          1.681
+        ]
+      ],
+      "full_widths": [
+        0.045,
+        0.051,
+        0.047,
+        0.025
+      ],
+      "cowlick": false
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_05_RearLeft",
+      "control_path": [
+        [
+          -0.025,
+          0.026,
+          1.716
+        ],
+        [
+          -0.045,
+          0.052,
+          1.7
+        ],
+        [
+          -0.042,
+          0.074,
+          1.674
+        ],
+        [
+          -0.03,
+          0.081,
+          1.621
+        ]
+      ],
+      "full_widths": [
+        0.051,
+        0.054,
+        0.047,
+        0.025
+      ],
+      "cowlick": false
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_06_RearRight",
+      "control_path": [
+        [
+          0.025,
+          0.025,
+          1.715
+        ],
+        [
+          0.047,
+          0.051,
+          1.697
+        ],
+        [
+          0.043,
+          0.074,
+          1.662
+        ],
+        [
+          0.036,
+          0.08,
+          1.603
+        ]
+      ],
+      "full_widths": [
+        0.051,
+        0.054,
+        0.042,
+        0.024
+      ],
+      "cowlick": false
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_07_Nape",
+      "control_path": [
+        [
+          0,
+          0.052,
+          1.7
+        ],
+        [
+          0.007,
+          0.081,
+          1.665
+        ],
+        [
+          0.008,
+          0.086,
+          1.625
+        ],
+        [
+          0.009,
+          0.084,
+          1.584
+        ]
+      ],
+      "full_widths": [
+        0.046,
+        0.048,
+        0.037,
+        0.024
+      ],
+      "cowlick": false
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_10_BentCowlick",
+      "control_path": [
+        [
+          0.004,
+          0.012,
+          1.727
+        ],
+        [
+          -0.013,
+          0.009,
+          1.737
+        ],
+        [
+          -0.03,
+          0.004,
+          1.747
+        ],
+        [
+          -0.042,
+          0,
+          1.743
+        ],
+        [
+          -0.044,
+          -0.004,
+          1.735
+        ]
+      ],
+      "full_widths": [
+        0.037,
+        0.037,
+        0.031,
+        0.025,
+        0.016
+      ],
+      "cowlick": true
+    }
+  ],
+  "other_changes": [
+    "Jaw corners/chin width reduced with a few planes",
+    "Neck tapers upward and recedes into jaw underside",
+    "Lower jeans widened; one extra row creates a small fabric break above the sneakers"
+  ],
+  "blender": "4.3.2"
+}

@@ -1,0 +1,10 @@
+{
+  "source": "v2-finished-elevated-three-quarter.png",
+  "box": [
+    161,
+    154,
+    525,
+    672
+  ],
+  "method": "Projected actual hair/face mesh vertices at Z >= 1.5m, two-pixel margin. Output will be resized to exactly 96 pixels high."
+}

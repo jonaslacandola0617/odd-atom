@@ -1,0 +1,21 @@
+{
+  "method": "Solid black hair with a white scalp/ear occluder. Closed white regions inside the hair mask are checked for possible scalp breakthrough; open fringe/ear cutouts are intentional. This is a view-specific diagnostic, not an all-angle geometric proof.",
+  "views": [
+    {
+      "view": "v2-hair-mask-front.png",
+      "enclosed_white_regions_px": []
+    },
+    {
+      "view": "v2-hair-mask-profile.png",
+      "enclosed_white_regions_px": []
+    },
+    {
+      "view": "v2-hair-mask-back.png",
+      "enclosed_white_regions_px": []
+    },
+    {
+      "view": "v2-hair-mask-elevated-three-quarter.png",
+      "enclosed_white_regions_px": []
+    }
+  ]
+}

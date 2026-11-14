@@ -1,0 +1,39 @@
+{
+  "source_blend_sha256": "80e6d1677c6c0a95caa96e7dd54a64a3676f5e9ad8818cc7f757dff2385b046d",
+  "blender": "4.3.2",
+  "hair_object": "Nico_Hair_ScalpMass \u2022 integrated crown cowlick",
+  "hair_vertices": 577,
+  "hair_polygons": 649,
+  "hair_triangles": 1150,
+  "hair_bounds": {
+    "min": [
+      -0.08351976424455643,
+      -0.07558184117078781,
+      1.6150000095367432
+    ],
+    "max": [
+      0.08360744267702103,
+      0.09731191396713257,
+      1.7497334480285645
+    ]
+  },
+  "back_lower_edge_min_z": 1.6150000095367432,
+  "back_lower_edge_center_min_z": 1.6150000095367432,
+  "head_z_sections": [
+    1.433,
+    1.465,
+    1.492,
+    1.505,
+    1.519,
+    1.547,
+    1.579,
+    1.608,
+    1.638,
+    1.667,
+    1.686,
+    1.704,
+    1.718,
+    1.723
+  ],
+  "observed_construction": "One connected scalp-shaped shell, predominantly horizontal contour rows with shallow radial relief; no distinct overlapping outer locks. The low rear boundary remains band-like and the small crown relief does not create a strongly directional outline."
+}

@@ -1,0 +1,81 @@
+{
+  "status": "rendered_and_inspected_user_design_review_pending",
+  "date": "2026-11-14",
+  "blend_sha256": "1f64b020d361b47230943614c3a5fc470df472630d7696159b3895b1eb7d9350",
+  "glb_sha256": "34c6860e58614e16a2bda117fb0f3da1611532dad94adc94d09859c305274d62",
+  "comparison_sheet_sha256": "bdd8684ea15a5eda3cf03dcb9157fe5ad4864328b951da1465147999f56ee00a",
+  "original_turnaround_sha256": "599f905ceee32b1b69f3679aa07e9737acc1b1d0d1f799ec26ead09ad7089b48",
+  "actual_blender_versions_tested": [
+    "4.3.2"
+  ],
+  "blender_293_tested": false,
+  "v1_all_files_unchanged": true,
+  "inspected": [
+    "Matched v1/v2 front, profile, back and elevated three-quarter gray heads",
+    "Solid hair masks beside the exact original turnaround; whole-head silhouettes separately",
+    "V2 finished front/profile/elevated three-quarter",
+    "Three finished body angles; before/after lower-leg crop",
+    "Actual GLB reimport head render",
+    "Finished head at exactly 96 pixels high",
+    "Final composite comparison sheet"
+  ],
+  "observed_changes": [
+    "Round v1 outer cap was replaced with an asymmetric front sweep and distinct overlapping volumetric locks.",
+    "Fringe sections terminate at unequal heights and leave the brows and frames readable.",
+    "Cowlick is a short bent side sweep, with a broad seated base. It is more visible from front/elevated three-quarter than true profile.",
+    "Profile has forward lift, an ear step and a closer tapered rear edge; rear hair no longer ends in the v1 horizontal band.",
+    "Back edge has modest uneven lengths and a narrower central nape.",
+    "Jaw corners and chin are narrower; the continuous neck tapers into the jaw underside.",
+    "Lower jeans are wider and overlap the sneakers with a small fabric break.",
+    "No visible scalp patch, detached hair piece or frame/ear clipping found in the inspected final views. Four final diagnostic hair masks contain no enclosed white regions of at least four pixels.",
+    "GLB reimport retains materials, silhouette and faceted normals."
+  ],
+  "iteration_corrections": [
+    "Initial thick column-like locks reduced to fewer flatter masses",
+    "Upright cowlick lowered and bent into the sweep",
+    "Intermediate back scalp breakthrough fixed by tightening cover clearance",
+    "Main lift moved forward and nape lengths staggered",
+    "Glasses/brows hidden in diagnostic masks to avoid false white cuts across hair"
+  ],
+  "remaining_differences": [
+    "The interpretation remains more geometric and less wispy/tousled than the drawn reference. Broad facets are intentional; fine wisps were not copied.",
+    "Shallow rear lock relief and fine texture detail are subdued at 96 pixels.",
+    "The cowlick hook reads best in front and elevated three-quarter views; profile foreshortens its lateral bend.",
+    "No rig, expressive deformation or extreme joint bends were tested. Blender 2.93 execution is unverified."
+  ],
+  "render_evidence_sha256": {
+    "v1-gray-back.png": "ed5cb14fa2569f7d89a56c8a5de89bbaacf590514fc9afff7de4a5c27a48d48b",
+    "v1-gray-elevated-three-quarter.png": "978f84975a3133ae6fc03660c2c479e68633ed7900762a07db9d77d9edd77052",
+    "v1-gray-front.png": "a63ae3c656f9761c54fdb9ac1acd2f12c40be89cdc15ca5781cb34f933bfcca3",
+    "v1-gray-profile.png": "d6a6e2fa243531dda79b620247006d4c88a8feab89feca2159ba2f5b200d0ddf",
+    "v1-hair-mask-back.png": "27658ffaec8d63a2003311ed7d2be6095f4db76365990ff73c3cdce3f2c72756",
+    "v1-hair-mask-elevated-three-quarter.png": "4ff52a3b3facbf27411115d13765903656fcdfc1e069d11509b20bf716e90c2a",
+    "v1-hair-mask-front.png": "4df24c50808cf9de300d23f03f2bee69e6c92591d55f1fcd771e217ec02a733f",
+    "v1-hair-mask-profile.png": "f86c2f0dbb11c90a6f8dda528bdc4437492e9e05c467535d412a18cd5942edc0",
+    "v1-silhouette-back.png": "9b0907ab66e720831ae268ffa7065263312547fafbe169fe7d80a4667e131eac",
+    "v1-silhouette-elevated-three-quarter.png": "ec7173e774cdb7f9664430d6de8d37c262e2a101b2ec00bb03d34435a8c9b027",
+    "v1-silhouette-front.png": "dd05ab6bff49694960506eccbb2de658ed1987eccb198a049a7c345af1bcecca",
+    "v1-silhouette-profile.png": "18b218e07aae99e137cddd2d076707671b2addf796a0c8bb738bf7e5cd83006d",
+    "v2-body-front.png": "2f1c0e0df6bd60e0c3ddeb5a701d0b0800c2b2b0ce4a742395421e43eb35ddc5",
+    "v2-body-profile.png": "aa4bf629435ccf2b4fa9806c8e41a77fad96e5ac37b9bead2443ce1f552d1e65",
+    "v2-body-three-quarter.png": "b408d2fc910e6005a613a6ea6ae84a8c92434e518cd7253796c015df55e43f31",
+    "v2-finished-elevated-three-quarter.png": "f72bf8b534e7e8b1681f9417fb17cc4fe15f06fe7315593809b73e6b55b5e54c",
+    "v2-finished-front.png": "dffe84dec8593da5a96669a9941b0c36b5abdfba5ae02595fae91ca59ca08ce6",
+    "v2-finished-profile.png": "5d561643e00cc6d64d18583d7909ee0a295d78138d0904eaefcc9d7d2d84bb55",
+    "v2-glb-reimport-head.png": "11c03c9540746b432e2be426b1553969ca12bc260c8427f81b04fbf35c4d685f",
+    "v2-gray-back.png": "96157344545503dbd7788e0629d38319fcc30c70b71a1d8784752706838265f6",
+    "v2-gray-elevated-three-quarter.png": "2ae3e6b1614cd387f771e710ba478542473fd7acab4c9567ab8667c627da3acd",
+    "v2-gray-front.png": "d4859f5ab6e4f8cdea1da5d6de4fd997874bd4ac78164f80ecd5cd7983ef4db4",
+    "v2-gray-profile.png": "163d1eb011fc40afe6f1d558ac73c4c3a231aebc770377d2587cbc7ef083c962",
+    "v2-hair-mask-back.png": "359025d082be55f6b9cf65e3b0281e97ce21a0f27f4b2d4607e9fdc1399566c4",
+    "v2-hair-mask-elevated-three-quarter.png": "7753aacaa3157b62ce82729a06ced40259ec0edc369bdc643d82ce09d918a845",
+    "v2-hair-mask-front.png": "b68ab8427cdaaeca13390ff784b8b48eff48c6202b184f95f816c460a20785d2",
+    "v2-hair-mask-profile.png": "e16318d77f52ae5fdd11c2c9e5e25f9bf8ce2128bf50315149f07c3457c16f28",
+    "v2-silhouette-back.png": "beca022a95dfe2b0c82b28a30564ed13a1f9cfcb8851fc170cb65c27dea2b0da",
+    "v2-silhouette-elevated-three-quarter.png": "e3a346ee946aa33235855a3cd53faa3f892f271adb57e5f0df084c1ca22578d5",
+    "v2-silhouette-front.png": "2de4f1ce3e6750c90803652a3d15e455d8f9c8fc73b89da41f777d29a34d9bc6",
+    "v2-silhouette-profile.png": "45d0657e405b16fd05a8b6e11d181b557e47f96ea08e33143e6683dc9a9700e0"
+  },
+  "technical_checks": "verification.json",
+  "user_artistic_approval": "pending"
+}

@@ -1,0 +1,1847 @@
+{
+  "status": "native_reopened_and_actual_glb_reimported",
+  "blender_versions_actually_tested": [
+    "4.3.2"
+  ],
+  "blender_293_tested": false,
+  "blend_sha256": "1f64b020d361b47230943614c3a5fc470df472630d7696159b3895b1eb7d9350",
+  "glb_sha256": "34c6860e58614e16a2bda117fb0f3da1611532dad94adc94d09859c305274d62",
+  "v1_preserved": true,
+  "changed_existing_meshes": [
+    "Nico_Skin_HeadAndNeck",
+    "Nico_QuietMouth",
+    "Nico_Jeans \u2022 continuous pelvis, crotch and joint loops"
+  ],
+  "unchanged_existing_meshes": [
+    "Nico_Nose \u2022 bridge, tip and alar planes",
+    "Nico_Ear.R",
+    "Nico_EarConcha.R",
+    "Nico_EyeSclera.R",
+    "Nico_Iris.R",
+    "Nico_Pupil.R",
+    "Nico_HeavyUpperLid.R",
+    "Nico_LidCrease.R",
+    "Nico_StraightBrow.R",
+    "Nico_Glasses_Rim.R",
+    "Nico_Glasses_Temple.R",
+    "Nico_Nostril.R",
+    "Nico_Ear.L",
+    "Nico_EarConcha.L",
+    "Nico_EyeSclera.L",
+    "Nico_Iris.L",
+    "Nico_Pupil.L",
+    "Nico_HeavyUpperLid.L",
+    "Nico_LidCrease.L",
+    "Nico_StraightBrow.L",
+    "Nico_Glasses_Rim.L",
+    "Nico_Glasses_Temple.L",
+    "Nico_Nostril.L",
+    "Nico_Glasses_Bridge",
+    "Nico_TShirt \u2022 joined torso and sleeve topology",
+    "Nico_ArmAndFiveFingerHand.R",
+    "Nico_ArmAndFiveFingerHand.L",
+    "Nico_SneakerSole.R",
+    "Nico_SneakerUpper.R",
+    "Nico_SneakerSole.L",
+    "Nico_SneakerUpper.L",
+    "Nico_Watch.L \u2022 closed resin band",
+    "Nico_Watch.L \u2022 beveled digital case",
+    "Nico_Watch.L \u2022 embedded LCD",
+    "Nico_Watch.L \u2022 side button",
+    "Nico_Watch.L \u2022 side button.001"
+  ],
+  "native": {
+    "triangles": 5732,
+    "mesh_count": 47,
+    "objects": [
+      {
+        "object": "Nico_Skin_HeadAndNeck",
+        "vertices": 448,
+        "triangles": 892,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 418,
+        "polygons": 418,
+        "geometry_hash": "b29a2392779e9f67bb93e537fbf9b87a280970f1435ad302baa12cba84d76928"
+      },
+      {
+        "object": "Nico_Nose \u2022 bridge, tip and alar planes",
+        "vertices": 9,
+        "triangles": 14,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 9,
+        "polygons": 9,
+        "geometry_hash": "778ff3cf1377c7fe6a33d9e671352bf13878a71595d9101739cdc218027841e8"
+      },
+      {
+        "object": "Nico_Ear.R",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 22,
+        "polygons": 22,
+        "geometry_hash": "1128bab94fd54dc4a6453760781a8c9b5bbb9c48ab57f89468dc548127347878"
+      },
+      {
+        "object": "Nico_EarConcha.R",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 10,
+        "polygons": 10,
+        "geometry_hash": "690a2af9057f1e1a64dc5e3cee5f44612735d2099488433cec29a9058538bd71"
+      },
+      {
+        "object": "Nico_EyeSclera.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 8,
+        "geometry_hash": "3de9f0ce7dbdf18ca3cdef42d49ee1870a53926127367137074bcec68526028d"
+      },
+      {
+        "object": "Nico_Iris.R",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 14,
+        "polygons": 14,
+        "geometry_hash": "39b3057d4d135ee8b8b10e78871d8d3e77251ff0906c8e646ba70ce32d43f76b"
+      },
+      {
+        "object": "Nico_Pupil.R",
+        "vertices": 20,
+        "triangles": 36,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 12,
+        "geometry_hash": "f49eef624c85a260809108239091c2967bd75b4d3d6d706fdbfc500745790ff0"
+      },
+      {
+        "object": "Nico_HeavyUpperLid.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 8,
+        "geometry_hash": "cf245651faf9327a514c35067fb3bc5d28ff354b579440f9bf348a37fcd97a97"
+      },
+      {
+        "object": "Nico_LidCrease.R",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 14,
+        "polygons": 14,
+        "geometry_hash": "8a425ee136d5b332588f06caa183e724de135b9a447066194db79d2652b7bfda"
+      },
+      {
+        "object": "Nico_StraightBrow.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 8,
+        "geometry_hash": "494c7329f8b3c8b90ff2419bf96f4dfad07b40309e6c866d4883933be1990e0e"
+      },
+      {
+        "object": "Nico_Glasses_Rim.R",
+        "vertices": 32,
+        "triangles": 64,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 32,
+        "polygons": 32,
+        "geometry_hash": "d4beed5ff7ea71b25873fd7e128e03ec5aae9e31c7a92c1fbef6dce94f0f5ca7"
+      },
+      {
+        "object": "Nico_Glasses_Temple.R",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 20,
+        "polygons": 20,
+        "geometry_hash": "be2fa1fad910bac2687c4ee57a1b81036e7b9112be3b7f581c0ae03b53bed5df"
+      },
+      {
+        "object": "Nico_Nostril.R",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 6,
+        "geometry_hash": "54343faa28418303bfeb8abe6be1c8299588ab548a9b417070ec043baf69fc42"
+      },
+      {
+        "object": "Nico_Ear.L",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 22,
+        "polygons": 22,
+        "geometry_hash": "66e84e08c8f5ab761441f7b53112789ea000cbc93caf4cfcfe6c7a706d0937cb"
+      },
+      {
+        "object": "Nico_EarConcha.L",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 10,
+        "polygons": 10,
+        "geometry_hash": "da03a5a4e68ab271e5397178dbb92fbb734ffded195d8091a47d836241a0afba"
+      },
+      {
+        "object": "Nico_EyeSclera.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 8,
+        "geometry_hash": "830fe3d91bbc8c3acc594026736cae13edde0c070e92fdad05d21a6df45f4344"
+      },
+      {
+        "object": "Nico_Iris.L",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 14,
+        "polygons": 14,
+        "geometry_hash": "9b38b3d9dce1bdaabd321df4e1ac122b81bba0547d959c084fc6b52a1b1c2d48"
+      },
+      {
+        "object": "Nico_Pupil.L",
+        "vertices": 20,
+        "triangles": 36,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 12,
+        "geometry_hash": "3231c2f940d538b4904463449d5eeb6fe19c9b54f723f4300ce780dd95c4fa6f"
+      },
+      {
+        "object": "Nico_HeavyUpperLid.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 8,
+        "geometry_hash": "d0c065b9bac56f10e0cf457e2c745287d2ca2c3565ad97ea2d5eeae5af974bea"
+      },
+      {
+        "object": "Nico_LidCrease.L",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 14,
+        "polygons": 14,
+        "geometry_hash": "884a5e5ee6be7ebbb8d46317f11eec7885fc14c38d10a9e31f156c3502e52fdc"
+      },
+      {
+        "object": "Nico_StraightBrow.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 8,
+        "geometry_hash": "0d63cb185e9e886eaaebcfed3e9c0fb4984b437b2d163c8a6ee4aa587d0801b9"
+      },
+      {
+        "object": "Nico_Glasses_Rim.L",
+        "vertices": 32,
+        "triangles": 64,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 32,
+        "polygons": 32,
+        "geometry_hash": "d6720fc9ab9c8200dcc3b5964e204587f41575c3494cf4946ec7a624034dba0f"
+      },
+      {
+        "object": "Nico_Glasses_Temple.L",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 20,
+        "polygons": 20,
+        "geometry_hash": "81dce6b60c594e0243b3a00b17eac65e8d26c2a06f6c6843ca1827cbf443fd5e"
+      },
+      {
+        "object": "Nico_Nostril.L",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 6,
+        "geometry_hash": "665fcad428f582d6c65ae10ae427decc7cea0fffdac7ac56a306c1ea625442e6"
+      },
+      {
+        "object": "Nico_Glasses_Bridge",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 20,
+        "polygons": 20,
+        "geometry_hash": "d3229450d5c63dd8811d61cfd10b959b831690aa8f641715f65213d6e5e46ca2"
+      },
+      {
+        "object": "Nico_QuietMouth",
+        "vertices": 25,
+        "triangles": 46,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 22,
+        "polygons": 22,
+        "geometry_hash": "8107aaaa2ded49a286230dc003828dd7cabc335b07dcf05fa180ab4beed43442"
+      },
+      {
+        "object": "Nico_TShirt \u2022 joined torso and sleeve topology",
+        "vertices": 224,
+        "triangles": 440,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 204,
+        "polygons": 204,
+        "geometry_hash": "26f5f071cdcd3a76d0d8de5b12ede477d81bd458a717d96b8b50527c1acefbdd"
+      },
+      {
+        "object": "Nico_ArmAndFiveFingerHand.R",
+        "vertices": 404,
+        "triangles": 804,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 394,
+        "polygons": 394,
+        "geometry_hash": "805ef2966b71b763d6ddd19432c02e04f3e5093114990409aed4cc090b4d944f"
+      },
+      {
+        "object": "Nico_ArmAndFiveFingerHand.L",
+        "vertices": 404,
+        "triangles": 804,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 394,
+        "polygons": 394,
+        "geometry_hash": "3898bb2f89a0fe0591da0c8a53cb677fda7e8a5a7d4d1ca538d2a4dbeb3c934f"
+      },
+      {
+        "object": "Nico_Jeans \u2022 continuous pelvis, crotch and joint loops",
+        "vertices": 175,
+        "triangles": 346,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 171,
+        "polygons": 171,
+        "geometry_hash": "74bc5afa781c1c84debcf4f12b5da1a3367bcdab1fb9ac2b54ecf783c472c585"
+      },
+      {
+        "object": "Nico_SneakerSole.R",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 22,
+        "polygons": 22,
+        "geometry_hash": "06aed463be2f4033992542a7c3ab3cdc660d8a84834ee643610b82d2ff716ffb"
+      },
+      {
+        "object": "Nico_SneakerUpper.R",
+        "vertices": 81,
+        "triangles": 158,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 74,
+        "polygons": 74,
+        "geometry_hash": "2f9c324cf0b3859589eb33bf75ad2cc94c14dcc0d181fed57cc5b039a9cd2e25"
+      },
+      {
+        "object": "Nico_SneakerSole.L",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 22,
+        "polygons": 22,
+        "geometry_hash": "8ae815d75d5687b28cb86d0845c6dbbb4329f3359ced965d26bccca5ffdbcc53"
+      },
+      {
+        "object": "Nico_SneakerUpper.L",
+        "vertices": 81,
+        "triangles": 158,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 74,
+        "polygons": 74,
+        "geometry_hash": "54656dd928f830933c66a04ff552e96415d34bf3a65f21fa9fe7bdb911c01414"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 closed resin band",
+        "vertices": 64,
+        "triangles": 128,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 64,
+        "polygons": 64,
+        "geometry_hash": "17141e830093a22d3e5796210e7e83ae682ce9ff2f47e0f94872edb4edfe22ed"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 beveled digital case",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 26,
+        "polygons": 26,
+        "geometry_hash": "ac928be897f03f5299417cb27eada603724be1d4c59ff44d6746269b741a7016"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 embedded LCD",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 6,
+        "geometry_hash": "4855d507f6e2272bcd79825c1dd6b4ab69604d2ddbbbeca1ce1a59397848bf96"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 26,
+        "polygons": 26,
+        "geometry_hash": "0948607171cfc490438372b57e3f1804e799d3955e1435126cf3863015dd8f17"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button.001",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 26,
+        "polygons": 26,
+        "geometry_hash": "0948607171cfc490438372b57e3f1804e799d3955e1435126cf3863015dd8f17"
+      },
+      {
+        "object": "Nico_Hair_v2_Underlayer \u2022 close fitted, stepped ear and taper",
+        "vertices": 225,
+        "triangles": 446,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 225,
+        "polygons": 225,
+        "geometry_hash": "011dfdb3ac3d4962fc71196520e4a4cca40aaec8deb98b827d71d45f39a1221c"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_01_MainSweep",
+        "vertices": 40,
+        "triangles": 76,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 34,
+        "polygons": 34,
+        "geometry_hash": "b279002d1101eaddd414fe016f87dcea563a61952c54242185357514d7080113"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_02_LowerFringe",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 26,
+        "polygons": 26,
+        "geometry_hash": "6082476e78588d152ee85fb9c8706a6fe91590c760a1aeabf53b6d33be0f2741"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_03_SideFringe",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 26,
+        "polygons": 26,
+        "geometry_hash": "9aec31a4ebae14fb0a4f8cf4e7adcbc8f102aef57934ecfa3c670753ccc7a58e"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_05_RearLeft",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 26,
+        "polygons": 26,
+        "geometry_hash": "bfbb4a42b675922bea03b420f652bfcde1a9f56606a4c51939763efdfad084d4"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_06_RearRight",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 26,
+        "polygons": 26,
+        "geometry_hash": "d761ab6fa45a6f4ca58c530d78712f112efc76e6c84e5219734643a7c27236ff"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_07_Nape",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 26,
+        "polygons": 26,
+        "geometry_hash": "5e096870d5f4468ae335c217fe91a980420e877c0f6435df7e8beefbdfe406fc"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_10_BentCowlick",
+        "vertices": 40,
+        "triangles": 76,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 34,
+        "polygons": 34,
+        "geometry_hash": "b71df20df01eb50758101cec227ff8d436b8f10d2afef4cc49fed3f1b1e7b448"
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.878000020980835,
+        -0.1720000058412552,
+        0.0
+      ],
+      "max": [
+        0.878000020980835,
+        0.11299999803304672,
+        1.746999979019165
+      ]
+    },
+    "packed_images": [
+      {
+        "name": "Nico_Denim.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "Nico_Hair.png",
+        "packed": true,
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "name": "Nico_Shoes.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "Nico_Skin.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "Nico_Watch.png",
+        "packed": true,
+        "size": [
+          256,
+          128
+        ]
+      }
+    ],
+    "armatures": 0
+  },
+  "raw_glb_import": {
+    "triangles": 5732,
+    "mesh_count": 47,
+    "objects": [
+      {
+        "object": "Nico_ArmAndFiveFingerHand.L",
+        "vertices": 1592,
+        "triangles": 804,
+        "nonmanifold_edges": 1592,
+        "zero_area_faces": 0,
+        "flat_polygons": 296,
+        "polygons": 804,
+        "geometry_hash": "2ee30714692a55f394acfea4ad3773712fa81ce23d8602496c00e0dc1f88b5b7"
+      },
+      {
+        "object": "Nico_ArmAndFiveFingerHand.R",
+        "vertices": 1592,
+        "triangles": 804,
+        "nonmanifold_edges": 1592,
+        "zero_area_faces": 0,
+        "flat_polygons": 296,
+        "polygons": 804,
+        "geometry_hash": "99fda133618d21aa0488b42826c5c0f04c5af7ebad6ce95cb0d4c749f723450b"
+      },
+      {
+        "object": "Nico_Ear.L",
+        "vertices": 100,
+        "triangles": 56,
+        "nonmanifold_edges": 100,
+        "zero_area_faces": 0,
+        "flat_polygons": 24,
+        "polygons": 56,
+        "geometry_hash": "862f0bd412995b85b662ea535e292d0bd481f3cf747ea65603b35a2e8ec3550a"
+      },
+      {
+        "object": "Nico_Ear.R",
+        "vertices": 100,
+        "triangles": 56,
+        "nonmanifold_edges": 100,
+        "zero_area_faces": 0,
+        "flat_polygons": 24,
+        "polygons": 56,
+        "geometry_hash": "86decb1f40a9f82deec3050cdfb6f967531d4339ca742106868debe51bcc46f9"
+      },
+      {
+        "object": "Nico_EarConcha.L",
+        "vertices": 48,
+        "triangles": 28,
+        "nonmanifold_edges": 48,
+        "zero_area_faces": 0,
+        "flat_polygons": 28,
+        "polygons": 28,
+        "geometry_hash": "965e52f8540630ef2a66f7bc05c7fc8f99296333aea3e6f575c9198d07008455"
+      },
+      {
+        "object": "Nico_EarConcha.R",
+        "vertices": 48,
+        "triangles": 28,
+        "nonmanifold_edges": 48,
+        "zero_area_faces": 0,
+        "flat_polygons": 28,
+        "polygons": 28,
+        "geometry_hash": "53b1bc2bac9c550c7c9fc859773934137f270ea4188bedad0eb52bfdad177121"
+      },
+      {
+        "object": "Nico_EyeSclera.L",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_polygons": 11,
+        "polygons": 20,
+        "geometry_hash": "b72502b40b21bf32271ac10dcb3a4740f183bebd9ad6dd6881e72441cb0e6cc7"
+      },
+      {
+        "object": "Nico_EyeSclera.R",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_polygons": 11,
+        "polygons": 20,
+        "geometry_hash": "00a2bf5e57a5b513611f1f83319695628a2e93de923551ccd64ac0f8db50ee50"
+      },
+      {
+        "object": "Nico_Glasses_Bridge",
+        "vertices": 84,
+        "triangles": 44,
+        "nonmanifold_edges": 84,
+        "zero_area_faces": 0,
+        "flat_polygons": 19,
+        "polygons": 44,
+        "geometry_hash": "cfaf8e36fc153285cca19bb0388c013b71638e5fcbe617a69e4ef94e9c40c68a"
+      },
+      {
+        "object": "Nico_Glasses_Rim.L",
+        "vertices": 128,
+        "triangles": 64,
+        "nonmanifold_edges": 128,
+        "zero_area_faces": 0,
+        "flat_polygons": 31,
+        "polygons": 64,
+        "geometry_hash": "2f82821532a92e46012ce92f5eb4467b7edba31c262b3403ee9d46d754855435"
+      },
+      {
+        "object": "Nico_Glasses_Rim.R",
+        "vertices": 128,
+        "triangles": 64,
+        "nonmanifold_edges": 128,
+        "zero_area_faces": 0,
+        "flat_polygons": 31,
+        "polygons": 64,
+        "geometry_hash": "ea1aa324f20f1e95348bedebeb30f3e285527fd1d98592c4c2bb29cc50604d32"
+      },
+      {
+        "object": "Nico_Glasses_Temple.L",
+        "vertices": 84,
+        "triangles": 44,
+        "nonmanifold_edges": 84,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 44,
+        "geometry_hash": "ab4ccb6bef46dfc4659470608d046eaa7e293af466b171ae8a6d330cb0ae7c70"
+      },
+      {
+        "object": "Nico_Glasses_Temple.R",
+        "vertices": 84,
+        "triangles": 44,
+        "nonmanifold_edges": 84,
+        "zero_area_faces": 0,
+        "flat_polygons": 7,
+        "polygons": 44,
+        "geometry_hash": "9e97a2c4a6cadf8578438690cb4fd5ddb21532b986e9bb83d0293d42c9257bfe"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_01_MainSweep",
+        "vertices": 144,
+        "triangles": 76,
+        "nonmanifold_edges": 144,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 76,
+        "geometry_hash": "58bb1b9e3f08be595047f8fd75188646ab2bbfec1030ff6ae6b4976fb796f5bb"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_02_LowerFringe",
+        "vertices": 112,
+        "triangles": 60,
+        "nonmanifold_edges": 112,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 60,
+        "geometry_hash": "9bae8fab5cc7a1ec63c90d2e6f22356116f7f1372d2ffb3acbe4dd415ab4ed0a"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_03_SideFringe",
+        "vertices": 112,
+        "triangles": 60,
+        "nonmanifold_edges": 112,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 60,
+        "geometry_hash": "751c81acdb05e016f592dfe555ff65569ea23ec22d59d09c216c013466702188"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_05_RearLeft",
+        "vertices": 112,
+        "triangles": 60,
+        "nonmanifold_edges": 112,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 60,
+        "geometry_hash": "12598f7ccbf9c77ee581b5617f2954772433bb2a66c6ca1f7bbc3b402e6e780e"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_06_RearRight",
+        "vertices": 112,
+        "triangles": 60,
+        "nonmanifold_edges": 112,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 60,
+        "geometry_hash": "9df20ff9d276c21fef8862d52d2de6da0eeacd8b902cca67e755a8621c374758"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_07_Nape",
+        "vertices": 112,
+        "triangles": 60,
+        "nonmanifold_edges": 112,
+        "zero_area_faces": 0,
+        "flat_polygons": 5,
+        "polygons": 60,
+        "geometry_hash": "f7f86fae5163517d5d9e5c71ece1964721809685b065e1d4622c7bc45fc53024"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_10_BentCowlick",
+        "vertices": 144,
+        "triangles": 76,
+        "nonmanifold_edges": 144,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 76,
+        "geometry_hash": "d9475032bed6eb4467cc0d34227847bd772df67aaeecfa69a3c346fa46c4d1a8"
+      },
+      {
+        "object": "Nico_Hair_v2_Underlayer \u2022 close fitted, stepped ear and taper",
+        "vertices": 896,
+        "triangles": 446,
+        "nonmanifold_edges": 896,
+        "zero_area_faces": 0,
+        "flat_polygons": 33,
+        "polygons": 446,
+        "geometry_hash": "b24ade063be9b538e657afcd984b50a37e54cc270ec4307731ff3813b0d75946"
+      },
+      {
+        "object": "Nico_HeavyUpperLid.L",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 20,
+        "geometry_hash": "a1c6b441862ab4d00895dda646e1aab9e50110513740e7b717a1692439b94a1f"
+      },
+      {
+        "object": "Nico_HeavyUpperLid.R",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 20,
+        "geometry_hash": "860e00ad1d5833e97bf7c3ab7c6acf9fb2fb3934b1f344bea3f2e21702e28649"
+      },
+      {
+        "object": "Nico_Iris.L",
+        "vertices": 70,
+        "triangles": 44,
+        "nonmanifold_edges": 70,
+        "zero_area_faces": 0,
+        "flat_polygons": 24,
+        "polygons": 44,
+        "geometry_hash": "db8c79d594ed81182e94f37f6dcd25325f54c8200441dcc23d87d811fa2b97ff"
+      },
+      {
+        "object": "Nico_Iris.R",
+        "vertices": 70,
+        "triangles": 44,
+        "nonmanifold_edges": 70,
+        "zero_area_faces": 0,
+        "flat_polygons": 24,
+        "polygons": 44,
+        "geometry_hash": "b3fd2bf7cc5aad6d18baf3410a25788fc5600e94d871d667b911cd4014e31203"
+      },
+      {
+        "object": "Nico_Jeans \u2022 continuous pelvis, crotch and joint loops",
+        "vertices": 688,
+        "triangles": 346,
+        "nonmanifold_edges": 688,
+        "zero_area_faces": 0,
+        "flat_polygons": 34,
+        "polygons": 346,
+        "geometry_hash": "cab0d66de4ffe3e1f34a7cc76d091b6b9ef7925c1cad284db83f339983a3618e"
+      },
+      {
+        "object": "Nico_LidCrease.L",
+        "vertices": 56,
+        "triangles": 28,
+        "nonmanifold_edges": 56,
+        "zero_area_faces": 0,
+        "flat_polygons": 3,
+        "polygons": 28,
+        "geometry_hash": "7f8aac6f11e18a9d081a5ee6445e4fc940675018d83e725f669f01936086eb38"
+      },
+      {
+        "object": "Nico_LidCrease.R",
+        "vertices": 56,
+        "triangles": 28,
+        "nonmanifold_edges": 56,
+        "zero_area_faces": 0,
+        "flat_polygons": 3,
+        "polygons": 28,
+        "geometry_hash": "24ccd9d341b8b51aae5888a383229694895bc7cd30e4374056d2422a2753c097"
+      },
+      {
+        "object": "Nico_Nose \u2022 bridge, tip and alar planes",
+        "vertices": 32,
+        "triangles": 14,
+        "nonmanifold_edges": 32,
+        "zero_area_faces": 0,
+        "flat_polygons": 10,
+        "polygons": 14,
+        "geometry_hash": "b7c797e47e142af9cf07182029b61a3aa95b73c7686239275d0727296ee09b9a"
+      },
+      {
+        "object": "Nico_Nostril.L",
+        "vertices": 24,
+        "triangles": 12,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 12,
+        "geometry_hash": "95741ef5e1dab7e1bc884e6fe2f707bf590ee2d71d6fa8a57bc47db7cf915f6a"
+      },
+      {
+        "object": "Nico_Nostril.R",
+        "vertices": 24,
+        "triangles": 12,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0,
+        "flat_polygons": 11,
+        "polygons": 12,
+        "geometry_hash": "3786560dad0e197486d81f0162edf7416ad977ab97cde3b542d18219b8041f8e"
+      },
+      {
+        "object": "Nico_Pupil.L",
+        "vertices": 60,
+        "triangles": 36,
+        "nonmanifold_edges": 60,
+        "zero_area_faces": 0,
+        "flat_polygons": 18,
+        "polygons": 36,
+        "geometry_hash": "cd7f3cae6eee6e4fbe40e92bd478c9f120f2ea66b53756f41b361036418a8909"
+      },
+      {
+        "object": "Nico_Pupil.R",
+        "vertices": 60,
+        "triangles": 36,
+        "nonmanifold_edges": 60,
+        "zero_area_faces": 0,
+        "flat_polygons": 18,
+        "polygons": 36,
+        "geometry_hash": "de04c5d742ec3d5c15d116372ccee4d41d088ce4addc819769ecbd9b4f31b4e6"
+      },
+      {
+        "object": "Nico_QuietMouth",
+        "vertices": 90,
+        "triangles": 46,
+        "nonmanifold_edges": 90,
+        "zero_area_faces": 0,
+        "flat_polygons": 0,
+        "polygons": 46,
+        "geometry_hash": "05c1f2cac1a47f23e68c04010d3c1e44f9263235c106d3a99a7845587e5f232b"
+      },
+      {
+        "object": "Nico_Skin_HeadAndNeck",
+        "vertices": 1728,
+        "triangles": 892,
+        "nonmanifold_edges": 1728,
+        "zero_area_faces": 0,
+        "flat_polygons": 65,
+        "polygons": 892,
+        "geometry_hash": "a116ca1cb98ac197a5dbc09216ccda7ed5b54a7f0c5f7e3160d741ae8817fe94"
+      },
+      {
+        "object": "Nico_SneakerSole.L",
+        "vertices": 96,
+        "triangles": 56,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_polygons": 28,
+        "polygons": 56,
+        "geometry_hash": "929cd3b70df77f830ca542e427cbf0e35301d40e07658ceea177ea9e1c2cbbc0"
+      },
+      {
+        "object": "Nico_SneakerSole.R",
+        "vertices": 96,
+        "triangles": 56,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_polygons": 28,
+        "polygons": 56,
+        "geometry_hash": "37796dcec172318cbde9b78a40b7feeb94ada98874e79920cd72275df728eaa1"
+      },
+      {
+        "object": "Nico_SneakerUpper.L",
+        "vertices": 288,
+        "triangles": 158,
+        "nonmanifold_edges": 288,
+        "zero_area_faces": 0,
+        "flat_polygons": 65,
+        "polygons": 158,
+        "geometry_hash": "81fbc9e21b389fe8086d6735e9142a5f90c6a4a6060223bffb8b613fa52196f5"
+      },
+      {
+        "object": "Nico_SneakerUpper.R",
+        "vertices": 288,
+        "triangles": 158,
+        "nonmanifold_edges": 288,
+        "zero_area_faces": 0,
+        "flat_polygons": 65,
+        "polygons": 158,
+        "geometry_hash": "25c0296468cc5257b4aaea61a833443a08b27ef1ff14c064987790209f246832"
+      },
+      {
+        "object": "Nico_StraightBrow.L",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 20,
+        "geometry_hash": "e8c7571955d1b8bb43d433d5d418123004dd88ceb1bfca73def2f2ea26781431"
+      },
+      {
+        "object": "Nico_StraightBrow.R",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 20,
+        "geometry_hash": "a11496dddd43bd5bad4efc0dc193e3c3d74a1ba89f9ecfa4ad26552f9e764b6e"
+      },
+      {
+        "object": "Nico_TShirt \u2022 joined torso and sleeve topology",
+        "vertices": 834,
+        "triangles": 440,
+        "nonmanifold_edges": 834,
+        "zero_area_faces": 0,
+        "flat_polygons": 102,
+        "polygons": 440,
+        "geometry_hash": "79d09337c89388a6cf89fa08252102cff90cd3d8f0838106971505bedefa33bf"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 beveled digital case",
+        "vertices": 96,
+        "triangles": 44,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_polygons": 44,
+        "polygons": 44,
+        "geometry_hash": "164a43210f8a9c03d6c97eb3f084892ff2af826201cf887c961b035cae88e985"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 closed resin band",
+        "vertices": 192,
+        "triangles": 128,
+        "nonmanifold_edges": 192,
+        "zero_area_faces": 0,
+        "flat_polygons": 127,
+        "polygons": 128,
+        "geometry_hash": "0da2a3d4d0c3d5307cf83aabed15c63ec669c78614d7e3731f26436d5b8588c6"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 embedded LCD",
+        "vertices": 24,
+        "triangles": 12,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 12,
+        "geometry_hash": "6370d45847668f299a2a91abfe571b97abd896462a5053f603a14f519d356132"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button",
+        "vertices": 96,
+        "triangles": 44,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_polygons": 44,
+        "polygons": 44,
+        "geometry_hash": "50bc100f2a2ccb9d2fb2f2a35cb24967ca14097bfb4ae4dd64a1b2f9cf869283"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button.001",
+        "vertices": 96,
+        "triangles": 44,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_polygons": 44,
+        "polygons": 44,
+        "geometry_hash": "50bc100f2a2ccb9d2fb2f2a35cb24967ca14097bfb4ae4dd64a1b2f9cf869283"
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.878000020980835,
+        -0.1720000058412552,
+        0.0
+      ],
+      "max": [
+        0.878000020980835,
+        0.11299999803304672,
+        1.746999979019165
+      ]
+    }
+  },
+  "editable_glb_import": {
+    "triangles": 5732,
+    "mesh_count": 47,
+    "objects": [
+      {
+        "object": "Nico_ArmAndFiveFingerHand.L",
+        "vertices": 404,
+        "triangles": 804,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 296,
+        "polygons": 804,
+        "geometry_hash": "9e03b171d7d1240ea166a4ee80d8ca91335b028a51b06015679bcca6b5084d25"
+      },
+      {
+        "object": "Nico_ArmAndFiveFingerHand.R",
+        "vertices": 404,
+        "triangles": 804,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 296,
+        "polygons": 804,
+        "geometry_hash": "94e164605295a72957540e0fba00b3d2c8ad6b4fefbe6945c99273592de2fb9c"
+      },
+      {
+        "object": "Nico_Ear.L",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 24,
+        "polygons": 56,
+        "geometry_hash": "9d0dedd7d63f34bc4a6e254e0ba93df5a3aad24b59fb26a61a5c536b83465df8"
+      },
+      {
+        "object": "Nico_Ear.R",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 24,
+        "polygons": 56,
+        "geometry_hash": "bd0b6eb7980fabc13635e2ddf3e71bd5c6a25eadf8af43c97d4711d6a035b617"
+      },
+      {
+        "object": "Nico_EarConcha.L",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 28,
+        "polygons": 28,
+        "geometry_hash": "2b315ae56d18c542a57817e52c38d8cb9feae662e34d250a00c5bbbbc058364d"
+      },
+      {
+        "object": "Nico_EarConcha.R",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 28,
+        "polygons": 28,
+        "geometry_hash": "8a104f217f7e64bc519db6f528b1f2ed16824abb432db6acbb9f4cf2664eecc5"
+      },
+      {
+        "object": "Nico_EyeSclera.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 11,
+        "polygons": 20,
+        "geometry_hash": "fc6850c262f680d152b25f7b02dde18e5fe6bfb8a9ac2d115babf7c1ae2ce38e"
+      },
+      {
+        "object": "Nico_EyeSclera.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 11,
+        "polygons": 20,
+        "geometry_hash": "ba6f45009cd6d4168a930411211599daf3631a14d95342d1d0fb3d9e9e0ff787"
+      },
+      {
+        "object": "Nico_Glasses_Bridge",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 19,
+        "polygons": 44,
+        "geometry_hash": "3be06f9372f8df7df6e25679e7bdf497fff6d79346bff92a0fd152da62c7d707"
+      },
+      {
+        "object": "Nico_Glasses_Rim.L",
+        "vertices": 32,
+        "triangles": 64,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 31,
+        "polygons": 64,
+        "geometry_hash": "85b6adde4542a66a20b16d4f746ed5b635bec43343f77cc6d1fc072c5afbb004"
+      },
+      {
+        "object": "Nico_Glasses_Rim.R",
+        "vertices": 32,
+        "triangles": 64,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 31,
+        "polygons": 64,
+        "geometry_hash": "c63e9b8a1b6b2bc8761c130dea815f84d72b3d978dab5d793267f99461dacc67"
+      },
+      {
+        "object": "Nico_Glasses_Temple.L",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 44,
+        "geometry_hash": "2bd1920b245ed7bea82993195dc0589e9fdfd7f1c88115d6e16fffdb26dc7e69"
+      },
+      {
+        "object": "Nico_Glasses_Temple.R",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 7,
+        "polygons": 44,
+        "geometry_hash": "93d421cda94c05228dc0d61e3362a2a44c96e955ccb0eedcb8f599c5914b6f17"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_01_MainSweep",
+        "vertices": 40,
+        "triangles": 76,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 76,
+        "geometry_hash": "cb59818788d9855a6cce576391c78ba8e1b01202caa9aa1dbe22e82a99262adc"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_02_LowerFringe",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 60,
+        "geometry_hash": "593237053ce282252c4f01bf68c2129c85b0848d80557f2db2204920490a069a"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_03_SideFringe",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 60,
+        "geometry_hash": "b6c36799f3a53a8e3fd346a9c81bb1a31f90b21a6a1ef2d785beb2d7db1dbdef"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_05_RearLeft",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 6,
+        "polygons": 60,
+        "geometry_hash": "879a6ad19ad66ea37cb689f480d4c3598cc96d62536038a0af19e5e60f4902ad"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_06_RearRight",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 60,
+        "geometry_hash": "1ef0d604e891b990189ea1efce652ac1878b7a6d8eb5b070f64e5fc2de854e3a"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_07_Nape",
+        "vertices": 32,
+        "triangles": 60,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 5,
+        "polygons": 60,
+        "geometry_hash": "9286aa258c7321fb4fb2d61a4beae792dc45a1d19ed1e88a6bc024faff099d6b"
+      },
+      {
+        "object": "Nico_Hair_v2_Lock_10_BentCowlick",
+        "vertices": 40,
+        "triangles": 76,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 8,
+        "polygons": 76,
+        "geometry_hash": "58902529fd4e132551ea83fdd2b77f0d5570a9dea7582ad723113db26fd81745"
+      },
+      {
+        "object": "Nico_Hair_v2_Underlayer \u2022 close fitted, stepped ear and taper",
+        "vertices": 225,
+        "triangles": 446,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 33,
+        "polygons": 446,
+        "geometry_hash": "346ea96bbe95319ba46cae387868337ea8bdedae1d798be77944fb53cb601df6"
+      },
+      {
+        "object": "Nico_HeavyUpperLid.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 20,
+        "geometry_hash": "0bc99e8ac3f571d84a5d497dc84f4f298492733275704656855787d164c43592"
+      },
+      {
+        "object": "Nico_HeavyUpperLid.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 20,
+        "geometry_hash": "28ddfffe3a6636466eab84e65c1df07cd64399425dcc1a00dcb515f9752ac7b3"
+      },
+      {
+        "object": "Nico_Iris.L",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 24,
+        "polygons": 44,
+        "geometry_hash": "48d3a4508d351c72e93c011b01b1ff9956e398ac16c04d4228911ab4c6e149aa"
+      },
+      {
+        "object": "Nico_Iris.R",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 24,
+        "polygons": 44,
+        "geometry_hash": "3ad8439d62cf13a3039b4ffd83eec200027c2a0c25612a6b2fedd67a4add6df6"
+      },
+      {
+        "object": "Nico_Jeans \u2022 continuous pelvis, crotch and joint loops",
+        "vertices": 175,
+        "triangles": 346,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 34,
+        "polygons": 346,
+        "geometry_hash": "8f258fed9b7ed088af2d04fc77987bdb674cc3525b195702d02291fe98937032"
+      },
+      {
+        "object": "Nico_LidCrease.L",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 3,
+        "polygons": 28,
+        "geometry_hash": "fce0fbc198694f12bb48bda4dbccb3bd73a4488dbf9ac960d13d1aeabbba167d"
+      },
+      {
+        "object": "Nico_LidCrease.R",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 3,
+        "polygons": 28,
+        "geometry_hash": "42b4db031638358ee65108095874f580ba4fddfd887484873d077e5da4e384bd"
+      },
+      {
+        "object": "Nico_Nose \u2022 bridge, tip and alar planes",
+        "vertices": 9,
+        "triangles": 14,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 10,
+        "polygons": 14,
+        "geometry_hash": "7db5890a2f57aa7dc46592d6c221f7fe00887a5c5b24e863d69309a1e5289f98"
+      },
+      {
+        "object": "Nico_Nostril.L",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 12,
+        "geometry_hash": "881ceaf5de78acaa623d3316e9b769089f53233a2f8829a124f89a5a9768453c"
+      },
+      {
+        "object": "Nico_Nostril.R",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 11,
+        "polygons": 12,
+        "geometry_hash": "0bc8405812143ff424b2c90dfc5ae196d241dc1a81f3447b4264f0d1d6155394"
+      },
+      {
+        "object": "Nico_Pupil.L",
+        "vertices": 20,
+        "triangles": 36,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 18,
+        "polygons": 36,
+        "geometry_hash": "8e0f397d93f418315c58c5eaa8680d6546102844d638b2a07cde8d50ffe7b2c7"
+      },
+      {
+        "object": "Nico_Pupil.R",
+        "vertices": 20,
+        "triangles": 36,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 18,
+        "polygons": 36,
+        "geometry_hash": "e35074e0dc1a5851fe716306e4a256a15c9140271f05d6db38e6210b98eeddcd"
+      },
+      {
+        "object": "Nico_QuietMouth",
+        "vertices": 25,
+        "triangles": 46,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 0,
+        "polygons": 46,
+        "geometry_hash": "6049d7db834bf412e5ea1310e18e5f21416f3bfd0570d44f26cb4c33f9d63951"
+      },
+      {
+        "object": "Nico_Skin_HeadAndNeck",
+        "vertices": 448,
+        "triangles": 892,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 65,
+        "polygons": 892,
+        "geometry_hash": "56946170882f0d27f44e04b2b8699fcf93c2100fc5231da3d1d0034f5469da93"
+      },
+      {
+        "object": "Nico_SneakerSole.L",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 28,
+        "polygons": 56,
+        "geometry_hash": "e0d0cc7f86ffced409d3a9e7be04108db31e66914d4cdfb1d94a3d657d2ac9f7"
+      },
+      {
+        "object": "Nico_SneakerSole.R",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 28,
+        "polygons": 56,
+        "geometry_hash": "d37438ab5012874122324f4ea756b082dbf06f78a695f90161bd4d3af66fd7e8"
+      },
+      {
+        "object": "Nico_SneakerUpper.L",
+        "vertices": 81,
+        "triangles": 158,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 65,
+        "polygons": 158,
+        "geometry_hash": "84166f745a9f09259dd66d53700bd1e6ecd0b2c862f32ab721f4f1f0a5a562ab"
+      },
+      {
+        "object": "Nico_SneakerUpper.R",
+        "vertices": 81,
+        "triangles": 158,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 65,
+        "polygons": 158,
+        "geometry_hash": "46c339ff7074a51aa18f8fb0434442432a92ea4b10afc901e1138bd0eef0abba"
+      },
+      {
+        "object": "Nico_StraightBrow.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 20,
+        "geometry_hash": "02d035c4a18078d83d8dad5963ebc68e53d5b2f02c58b74af233fa17bf0f1805"
+      },
+      {
+        "object": "Nico_StraightBrow.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 20,
+        "geometry_hash": "24717abafb3d848fd140e2540aa331b2c8dc0d00131fc06eee25941bb0bdff60"
+      },
+      {
+        "object": "Nico_TShirt \u2022 joined torso and sleeve topology",
+        "vertices": 222,
+        "triangles": 440,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 102,
+        "polygons": 440,
+        "geometry_hash": "1b038551813839276ac5fa0a95f04b4266838c2409e6ce8adc9fd2d476e5ec2f"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 beveled digital case",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 44,
+        "polygons": 44,
+        "geometry_hash": "d7f985ad62dd1b5aa7d295c2e83755b14759632e3182c59bf84adf238ad98dcb"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 closed resin band",
+        "vertices": 64,
+        "triangles": 128,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 127,
+        "polygons": 128,
+        "geometry_hash": "4de79cfaab6773b2b2d5f344a00abcf4bdd0726c313e5ff847b2cb94eafc68a0"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 embedded LCD",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 12,
+        "polygons": 12,
+        "geometry_hash": "5a8ddcfe87a5984fdae4f1e573338d7e3778e3d86b2f05556aff0487e495fc18"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 44,
+        "polygons": 44,
+        "geometry_hash": "384cce44febc4f084cc356ff61895dc372c82a73ffddb883d9a53cd004ea732c"
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button.001",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_polygons": 44,
+        "polygons": 44,
+        "geometry_hash": "384cce44febc4f084cc356ff61895dc372c82a73ffddb883d9a53cd004ea732c"
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.878000020980835,
+        -0.1720000058412552,
+        0.0
+      ],
+      "max": [
+        0.878000020980835,
+        0.11299999803304672,
+        1.746999979019165
+      ]
+    }
+  },
+  "glb_editing_restore": [
+    {
+      "object": "Nico_ArmAndFiveFingerHand.L",
+      "hardware_vertices": 1592,
+      "welded_vertices": 404,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_ArmAndFiveFingerHand.R",
+      "hardware_vertices": 1592,
+      "welded_vertices": 404,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Ear.L",
+      "hardware_vertices": 100,
+      "welded_vertices": 30,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Ear.R",
+      "hardware_vertices": 100,
+      "welded_vertices": 30,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_EarConcha.L",
+      "hardware_vertices": 48,
+      "welded_vertices": 16,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_EarConcha.R",
+      "hardware_vertices": 48,
+      "welded_vertices": 16,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_EyeSclera.L",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_EyeSclera.R",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Bridge",
+      "hardware_vertices": 84,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Rim.L",
+      "hardware_vertices": 128,
+      "welded_vertices": 32,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Rim.R",
+      "hardware_vertices": 128,
+      "welded_vertices": 32,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Temple.L",
+      "hardware_vertices": 84,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Temple.R",
+      "hardware_vertices": 84,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_01_MainSweep",
+      "hardware_vertices": 144,
+      "welded_vertices": 40,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_02_LowerFringe",
+      "hardware_vertices": 112,
+      "welded_vertices": 32,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_03_SideFringe",
+      "hardware_vertices": 112,
+      "welded_vertices": 32,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_05_RearLeft",
+      "hardware_vertices": 112,
+      "welded_vertices": 32,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_06_RearRight",
+      "hardware_vertices": 112,
+      "welded_vertices": 32,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_07_Nape",
+      "hardware_vertices": 112,
+      "welded_vertices": 32,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Hair_v2_Lock_10_BentCowlick",
+      "hardware_vertices": 144,
+      "welded_vertices": 40,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Hair_v2_Underlayer \u2022 close fitted, stepped ear and taper",
+      "hardware_vertices": 896,
+      "welded_vertices": 225,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_HeavyUpperLid.L",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_HeavyUpperLid.R",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Iris.L",
+      "hardware_vertices": 70,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Iris.R",
+      "hardware_vertices": 70,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Jeans \u2022 continuous pelvis, crotch and joint loops",
+      "hardware_vertices": 688,
+      "welded_vertices": 175,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_LidCrease.L",
+      "hardware_vertices": 56,
+      "welded_vertices": 16,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_LidCrease.R",
+      "hardware_vertices": 56,
+      "welded_vertices": 16,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Nose \u2022 bridge, tip and alar planes",
+      "hardware_vertices": 32,
+      "welded_vertices": 9,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Nostril.L",
+      "hardware_vertices": 24,
+      "welded_vertices": 8,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Nostril.R",
+      "hardware_vertices": 24,
+      "welded_vertices": 8,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Pupil.L",
+      "hardware_vertices": 60,
+      "welded_vertices": 20,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Pupil.R",
+      "hardware_vertices": 60,
+      "welded_vertices": 20,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_QuietMouth",
+      "hardware_vertices": 90,
+      "welded_vertices": 25,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Skin_HeadAndNeck",
+      "hardware_vertices": 1728,
+      "welded_vertices": 448,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_SneakerSole.L",
+      "hardware_vertices": 96,
+      "welded_vertices": 30,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_SneakerSole.R",
+      "hardware_vertices": 96,
+      "welded_vertices": 30,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_SneakerUpper.L",
+      "hardware_vertices": 288,
+      "welded_vertices": 81,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_SneakerUpper.R",
+      "hardware_vertices": 288,
+      "welded_vertices": 81,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_StraightBrow.L",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_StraightBrow.R",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_TShirt \u2022 joined torso and sleeve topology",
+      "hardware_vertices": 834,
+      "welded_vertices": 222,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 beveled digital case",
+      "hardware_vertices": 96,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 closed resin band",
+      "hardware_vertices": 192,
+      "welded_vertices": 64,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 embedded LCD",
+      "hardware_vertices": 24,
+      "welded_vertices": 8,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 side button",
+      "hardware_vertices": 96,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 side button.001",
+      "hardware_vertices": 96,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    }
+  ],
+  "embedded_images": 5,
+  "required_extensions": [],
+  "note": "Raw glTF vertices split at hard normals/UV boundaries. The supplied helper restores welded editing topology while preserving authored corner normals. This is unrigged; no bend/acting validation is claimed."
+}
