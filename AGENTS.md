@@ -6,7 +6,7 @@
   - **Rules:** Season 3's rules hold (no shared template, the motion rule, hard cuts only, the sound and loudness standards), plus the care notes in the slate.
   - **Approved (user, 2026-11-14):** "approved, taglish with juanito, start ep 31". The slate and order are approved; **Taglish narration and captions with Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`) for every episode, a new flow per session, both takes by default. Posts: `docs/publishing/POSTS-ep31-40.md` (PH evening times).
   - **Season 4 standard (user, 2026-11-14, after Episode 31 v1: "good, please add an eerie/scary background music, and try to make the reel loop at the end like those viral videos"):** every episode has an **eerie score** (`scripts/horror_score.py`, loop-quantised, ducked under speech) and a **seamless loop**: no black at the end; the last shot is the first shot, played on negative time (`tv = t − DUR`), with the sound crossing the seam (a breath or a knock), and the first and last frames compared.
-  - **Status:** Episodes 31 (v2) and 32 delivered; no user approval of either episode; no listening pass.
+  - **Status:** Episodes 31 (v2), 32 and 33 delivered; no user approval of any episode; no listening pass.
 
 - **Episode 31 "Dalawa Sila" (2026-11-14):** the Season 4 opener: Clarita Villanueva (Manila City Jail, the old Bilibid, May 1953), a documented case. `Ep31DalawaSila` / `src/horror/ep31/` is 59.97 s, in Taglish.
   - **Form:** "the examination": only hands, arms, shoes and paper; she is never seen above the shoulder. A bite presses into her forearm in torchlight (hook) → the jail wall, a guard running → the corridor, her door opens → the cell: a cup rolls by itself, two shadows (tall; child-height) grow on the wall → the doctor's hands, the wet mark, a second bite presses in → the press (a reconstructed page, no real masthead) → the mayor's shoes, the hat falls → a photographer's flash: the cot sinks under someone unseen; in flash 2 the shadows stand by the cot → prayer: something crosses under the blanket → the report is typed, the typing stops, a bite presses into the doctor's wrist (our dramatisation) → black, the loop.
@@ -32,6 +32,17 @@
   - **Delivery:** `assets/videos/ep32-katok-v1/`. Notes are in `docs/production/ep32-katok/README.md`; the publishing kit is `docs/publishing/ep32/README.md` and `docs/publishing/POSTS-ep31-40.md`.
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 33 "Igalaw Mo ang Daliri" (the batibat and bangungot; the sleeper's paralysis POV).
+
+- **Episode 33 "Igalaw Mo ang Daliri" (2026-11-14):** the user asked for the "next ep". The batibat (Ilocano folklore) and bangungot (documented: Manila cases 1948–1982, 96% men, modal time 3 a.m.). `Ep33IgalawMoAngDaliri` / `src/horror/ep33/` is 56.02 s, in Taglish, with the Season 4 score and seamless loop.
+  - **Form:** "paralysis POV": his view locked to his head (camera `up` is −x, beyond his head), cut against his big toe. The grey shape leans in and the frame is pressed (hook) → the tree bows and falls → its trunk as a house post, something shifts in the rafters → husband and wife under the kulambo, the bark breathes → the kulambo sags, his chest pressed → the clock 2:59 → 3:00, three chimes → his POV, the face comes down, its eyes open → the toe trembles and moves → he gasps awake, turns to his wife → her toe doesn't move; the shape is over her → the loop (his POV).
+  - **Lessons:** a dark entity's face needs a faint emissive so it reads at night; in a POV the near face must stay ≥0.7 m from the lens or the camera ends up inside it; a foot lying on its back reads from the side, not sole-on; the tunnel vignette (a radial gradient that tightens) sells the paralysis.
+  - **Sound:** his strained breathing (ElevenLabs) in the POV, running across the loop seam, the world muffled; the clock tick on whole seconds and three synthesized chimes; the tree falling and the post creaking (ElevenLabs, about 267 credits); a heartbeat under the toe that stops dead on waking; a loop-quantised score.
+  - **Care:** no death shown; the medical view in the narration; the batibat's size is never a joke; the wife's state left open; the posts suggest seeing a doctor.
+  - **Voice:** Juanito, both takes at once (1,492 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −10.6 / −3.1 dB, lines ≥4.6 dB (l06 +1.7, l07 +1.2, l08 +0.5), −14.0 LUFS, decoded peak −1.48 dBFS, seam −18.9 / −18.9 dBFS.
+  - **Delivery:** `assets/videos/ep33-batibat-v1/`. Notes are in `docs/production/ep33-batibat/README.md`; the publishing kit is `docs/publishing/ep33/README.md` and `docs/publishing/POSTS-ep31-40.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 34 "Paatras" (the sigbin; following footprints that point the wrong way).
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".

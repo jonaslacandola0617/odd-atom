@@ -13,6 +13,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 |---|---|---|---|---|
 | 31 | Dalawa Sila | documented case (1953) | `assets/videos/ep31-clarita-v2/ep31-dalawa-sila.mp4` | 59.97 s |
 | 32 | Tatlong Katok | folklore (kumakatok) | `assets/videos/ep32-katok-v1/ep32-tatlong-katok.mp4` | 55.68 s |
+| 33 | Igalaw Mo ang Daliri | folklore + documented (batibat, bangungot) | `assets/videos/ep33-batibat-v1/ep33-igalaw-mo-ang-daliri.mp4` | 56.02 s |
 
 ---
 
@@ -39,3 +40,16 @@ Alternative: `Kumakatok: the three who knock at midnight`
 **Pinned comment:** `May puting krus ba ang pinto ni Lola? Tingnan mo ulit. 🚪`
 
 Full kit: `docs/publishing/ep32/README.md`.
+
+---
+
+## Broadcast 33: Igalaw Mo ang Daliri (folklore and a documented phenomenon)
+
+**YouTube title:** `Hindi ka makagalaw. Igalaw mo ang daliri ng paa mo.`
+Alternative: `Batibat: the spirit that sleeps on your chest`
+
+**TikTok caption:** `hindi ka makagalaw. igalaw mo ang daliri ng paa mo 🦶 #bangungot #batibat #sleepparalysis #kwentongkatatakutan #pinoyhorror #fyp`
+
+**Pinned comment:** `Naranasan mo na ba? Ano'ng ginawa mo para magising? 🦶 (Kung madalas, magpatingin sa doktor.)`
+
+Full kit: `docs/publishing/ep33/README.md`.
