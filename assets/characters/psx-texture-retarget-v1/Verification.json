@@ -1,0 +1,151 @@
+{
+  "blender_tested": "4.3.2",
+  "blender_2_93_tested": false,
+  "source": {
+    "meshes": 1,
+    "vertices": 481,
+    "triangles": 744,
+    "triangle_geometry_sha256": "3f42a83e94134b595de8357814c3dad6a1d26a82293519830ec20758cc984bec",
+    "bounds": [
+      [
+        -0.5962642431259155,
+        0.5962642431259155
+      ],
+      [
+        -0.15673455595970154,
+        0.15166974067687988
+      ],
+      [
+        0.0035583777353167534,
+        1.805055022239685
+      ]
+    ]
+  },
+  "native_reopened": {
+    "meshes": 1,
+    "vertices": 481,
+    "triangles": 744,
+    "triangle_geometry_sha256": "3f42a83e94134b595de8357814c3dad6a1d26a82293519830ec20758cc984bec",
+    "bounds": [
+      [
+        -0.5962642431259155,
+        0.5962642431259155
+      ],
+      [
+        -0.15673455595970154,
+        0.15166974067687988
+      ],
+      [
+        0.0035583777353167534,
+        1.805055022239685
+      ]
+    ]
+  },
+  "glb_reimported": {
+    "meshes": 1,
+    "vertices": 583,
+    "triangles": 744,
+    "triangle_geometry_sha256": "3883fe63f0053cf3d6aafe71137d188a65f8858edcdbd91be6f5716e35eb67fc",
+    "bounds": [
+      [
+        -0.5962642431259155,
+        0.5962642431259155
+      ],
+      [
+        -0.15673427283763885,
+        0.15166974067687988
+      ],
+      [
+        0.003558399621397257,
+        1.8050549030303955
+      ]
+    ],
+    "max_position_error_metres": 3.993539000528275e-07,
+    "all_triangles_matched_one_to_one": true
+  },
+  "native_uv_layers": [
+    "Original_UV",
+    "Attached_Atlas_UV"
+  ],
+  "native_images": [
+    {
+      "name": "Attached_Texture.png",
+      "packed": true,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "CharacterMat_baseColor.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "glb_images": [
+    {
+      "name": "Attached_Texture",
+      "sha256": "b5bca7bc9d9128d753783df465db585acacaa7273fa9ff9f776eb52fe6a206bd",
+      "matches_supplied_atlas": true
+    }
+  ],
+  "geometry_preserved": true,
+  "glb_texture_samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9984
+    }
+  ],
+  "texture_filtering": "nearest",
+  "rigs": 0,
+  "animations_in_source": false,
+  "artistic_status": "Rendered and inspected; remaining shape/texture limitations documented in README. No user approval implied.",
+  "files": {
+    "PSX_Retextured.blend": "b04e1cee79401de23a701e5f2200287c20e14a3f13f285620732e1c6814d2a01",
+    "PSX_Retextured.glb": "b2458ef2a801606047938a33c6e978761e248fe2d621fe2b88b5a0fe1ab591bd",
+    "Attached_Texture.png": "b5bca7bc9d9128d753783df465db585acacaa7273fa9ff9f776eb52fe6a206bd"
+  },
+  "render_comparison": {
+    "front": {
+      "mean_absolute_channel_error_0_255": 0.054224479166666666,
+      "max_channel_error": 16.0,
+      "note": "Matching cameras; float32 coordinate/UV and renderer sampling differences are included."
+    },
+    "three-quarter": {
+      "mean_absolute_channel_error_0_255": 0.036819270833333334,
+      "max_channel_error": 16.0,
+      "note": "Matching cameras; float32 coordinate/UV and renderer sampling differences are included."
+    },
+    "head": {
+      "mean_absolute_channel_error_0_255": 0.178525,
+      "max_channel_error": 27.0,
+      "note": "Matching cameras; float32 coordinate/UV and renderer sampling differences are included."
+    }
+  },
+  "visual_review": {
+    "inspected": [
+      "front",
+      "back",
+      "profile",
+      "three-quarter",
+      "head",
+      "reimported GLB head"
+    ],
+    "changes_after_inspection": [
+      "Reprojected vertical shoe faces to remove stretched stripes.",
+      "Kept fingertips inside skin chart.",
+      "Moved rear crown triangle chart to avoid face-color bleed.",
+      "Refit eyes, nose and mouth to replacement pixel atlas.",
+      "Corrected rear pelvis-to-leg chart orientation and neck chart continuity."
+    ],
+    "remaining": [
+      "Inherited jacket/collar/long-sleeve silhouette remains under short-sleeve texture.",
+      "Palms and shoe sides lack dedicated atlas art and reuse nearby regions.",
+      "Sparse head geometry stretches large pixel blocks on oblique surfaces; this is not a rebuilt head or hair model."
+    ],
+    "approval": "Pending user review."
+  }
+}

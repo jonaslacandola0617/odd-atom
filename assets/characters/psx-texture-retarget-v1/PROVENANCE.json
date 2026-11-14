@@ -1,0 +1,21 @@
+{
+  "model_source": "User-uploaded 90s_survival_horror_protagonist_psx_style.zip",
+  "model_title": "90s Survival Horror Protagonist (PSX Style)",
+  "author": "Jim Wing",
+  "license": "CC-BY-4.0",
+  "model_url": "https://sketchfab.com/3d-models/90s-survival-horror-protagonist-psx-style-cb4302ee78264867ab1d77b2cb59eacd",
+  "texture_source": "https://drive.google.com/file/d/1ILEojXpcWdaxXDZmyzi7Q-W1HK1cPInw/view",
+  "texture_sha256": "b5bca7bc9d9128d753783df465db585acacaa7273fa9ff9f776eb52fe6a206bd",
+  "texture_dimensions": [
+    1254,
+    1254
+  ],
+  "texture_modified": false,
+  "superseded_texture": "Earlier realistic atlas was explicitly replaced by the user; not used in these deliveries.",
+  "source_file_hashes": {
+    "source/license.txt": "fb519e82d73541dadadbd3aaf191c0413ba7e6301953141a004ad533529368b7",
+    "source/scene.bin": "931b0c7de1cd021ab9839bbb97c225b8058e16d2c6f557abe6e85e49d2091896",
+    "source/scene.gltf": "78ec2d5d14da98e26006adbc47bb8c8bf636e4110cb8c2d8639b8ede14cac68c",
+    "source/textures/CharacterMat_baseColor.png": "29150449cfe03c530c59871df9367e897ce6647b9c7ec62f97f349f0d144198e"
+  }
+}
