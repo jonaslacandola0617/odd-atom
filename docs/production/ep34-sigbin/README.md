@@ -54,3 +54,7 @@ Figures (`public/assets/audio/ep34-sigbin-v1/PROVENANCE.json`): bed presence −
 ## Render
 
 `npm run sound:ep34` then `npm run render:ep34` (stills: `npm run still:ep34`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep34-sigbin-v1/ep34-paatras.mp4`: 39,460,691 bytes, SHA-256 `c67f3c086f2fa82939fb1cf36c5ca9cda639e336f1c8c0bbc1f121087c9a806b`; H.264 1080×1920, 1,473 frames (49.1 s); AAC 49.09 s; measured from the file: −14.0 LUFS, sample peak −1.12 dBFS. The decoded first and last frames differ by 0.64/255 on average (the loop). A contact board of the encoded file was checked for every shot. No listening pass.
