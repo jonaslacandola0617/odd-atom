@@ -58,3 +58,7 @@ Figures (`public/assets/audio/ep33-batibat-v1/PROVENANCE.json`): bed presence �
 ## Render
 
 `npm run sound:ep33` then `npm run render:ep33` (stills: `npm run still:ep33`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep33-batibat-v1/ep33-igalaw-mo-ang-daliri.mp4`: 45,369,535 bytes, SHA-256 `625f7051cbbb2ffe5c5879b097984dd63878456231a9b5f4b46dacaaa3979d4f`; H.264 1080×1920, 1,680 frames (56.0 s); AAC 56.02 s; measured from the file: −14.0 LUFS, sample peak −1.48 dBFS. The decoded first and last frames differ by 1.14/255 on average (the loop). A contact board of the encoded file was checked for every shot. No listening pass.
