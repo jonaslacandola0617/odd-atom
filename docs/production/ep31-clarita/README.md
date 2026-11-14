@@ -75,3 +75,7 @@ Figures (from `public/assets/audio/ep31-clarita-v1/PROVENANCE.json`):
 ## Render
 
 `npm run sound:ep31` then `npm run render:ep31` (stills: `npm run still:ep31`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep31-clarita-v1/ep31-dalawa-sila.mp4`: 48,123,811 bytes, SHA-256 `b930a90f38cc9bf0d8e26ff3575bfc1f23ec5348a129d2819d573fa5cb8e9822`; H.264 1080×1920, 1,799 frames (59.97 s); AAC 59.95 s; measured from the file: −14.1 LUFS integrated, sample peak −1.74 dBFS. A 5-second contact board of the encoded file was checked for every shot (the hook bite, the wall and guard, the corridor, the cell, the exam, the press page, the mayor at the bars, the flash, the prayer, the typing). No listening pass.
