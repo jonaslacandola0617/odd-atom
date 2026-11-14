@@ -32,7 +32,7 @@ Most of the episode is the sleeper's own view, locked to his head, cut hard agai
 | 50.5 | Her foot | Her toe does not move; the shape is over her now | "Kung kaya mo pa." / If you still can. |
 | 54.2 | His POV | The ceiling; the shape at the edge again: the loop | |
 
-**Hidden details:** the altar candle goes out in the last shot; the clock reads 2:58 in the wide shots before it reads 2:59; the kulambo stays sagged in every shot after the weight lands.
+**Hidden details:** the altar candle goes out in the last shot; the clock reads 2:58 in the wide shots before it reads 2:59; the kulambo stays sagged until he wakes, then springs back: the weight has moved to her.
 
 ## Facts and their limits
 

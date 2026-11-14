@@ -10,7 +10,7 @@ These are drafts to paste; nothing has been posted. No view counts are guarantee
 - **First second:** you are lying on your back; a vast grey shape leans in from the edge and the view presses down.
 - **Escalation:** the tree bowing and falling; the trunk as a house post; the kulambo sagging under nothing; 2:59 to 3:00; the grey face coming down, eyes opening; the toe that finally moves; then the wife's toe that doesn't.
 - **The loop:** it ends in his POV again, the shape at the edge.
-- **Hidden details:** the altar candle goes out in the last shot; the clock reads 2:58, then 2:59, then 3:00; the kulambo stays sagged.
+- **Hidden details:** the altar candle goes out in the last shot; the clock reads 2:58, then 2:59, then 3:00; the kulambo springs back when he wakes: the weight has moved.
 
 ## Titles (A/B test)
 
