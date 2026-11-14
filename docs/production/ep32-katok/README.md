@@ -52,3 +52,7 @@ Figures (`public/assets/audio/ep32-katok-v1/PROVENANCE.json`): bed presence −1
 ## Render
 
 `npm run sound:ep32` then `npm run render:ep32` (stills: `npm run still:ep32`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep32-katok-v1/ep32-tatlong-katok.mp4`: 44,891,259 bytes, SHA-256 `d3eec4060aad849713648f8a04d939fd64c09fc09ccc2b7560fdbfde7297cc99`; H.264 1080×1920, 1,670 frames (55.67 s); AAC 55.66 s; measured from the file: −14.1 LUFS, sample peak −1.43 dBFS. The decoded first and last frames differ by 0.82/255 on average (the loop). A contact board of the encoded file was checked for every shot. No listening pass.
