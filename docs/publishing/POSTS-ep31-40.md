@@ -15,6 +15,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 | 32 | Tatlong Katok | folklore (kumakatok) | `assets/videos/ep32-katok-v1/ep32-tatlong-katok.mp4` | 55.68 s |
 | 33 | Igalaw Mo ang Daliri | folklore + documented (batibat, bangungot) | `assets/videos/ep33-batibat-v1/ep33-igalaw-mo-ang-daliri.mp4` | 56.02 s |
 | 34 | Paatras | folklore (sigbin) | `assets/videos/ep34-sigbin-v1/ep34-paatras.mp4` | 49.11 s |
+| 35 | Bantay | folklore (amalanhig) + custom (lamay) | `assets/videos/ep35-bantay-v1/ep35-bantay.mp4` | 52.04 s |
 
 ---
 
@@ -67,3 +68,16 @@ Alternative: `Sigbin: it walks backwards`
 **Pinned comment:** `Saan nagsisimula ang mga bakas? Tingnan mo ulit ang unang segundo. 🐾`
 
 Full kit: `docs/publishing/ep34/README.md`.
+
+---
+
+## Broadcast 35: Bantay (folklore and custom)
+
+**YouTube title:** `Humahamog ang salamin ng kabaong. Mula sa loob.`
+Alternative: `Amalanhig: run in zigzags`
+
+**TikTok caption:** `humahamog ang salamin ng kabaong. mula sa loob 🕯️ #amalanhig #lamay #kwentongkatatakutan #pinoyhorror #fyp #fypシ`
+
+**Pinned comment:** `Tingnan mo ulit ang salamin sa alas dos. Bukas ba o sarado ang kabaong? 🕯️`
+
+Full kit: `docs/publishing/ep35/README.md`.
