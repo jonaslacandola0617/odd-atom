@@ -54,6 +54,7 @@ import {Episode31,ep31Config} from './horror/ep31/Episode31';
 import {Episode32,ep32Config} from './horror/ep32/Episode32';
 import {Episode33,ep33Config} from './horror/ep33/Episode33';
 import {Episode34,ep34Config} from './horror/ep34/Episode34';
+import {Episode35,ep35Config} from './horror/ep35/Episode35';
 import {OddAtomJupiterV3,oddAtomJupiterV3Config} from './OddAtomJupiterV3';
 
 export const RemotionRoot: React.FC = () => (
@@ -87,6 +88,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep32TatlongKatok" component={Episode32} defaultProps={{includeAudio:true,captions:true}} {...ep32Config}/>
     <Composition id="Ep33IgalawMoAngDaliri" component={Episode33} defaultProps={{includeAudio:true,captions:true}} {...ep33Config}/>
     <Composition id="Ep34Paatras" component={Episode34} defaultProps={{includeAudio:true,captions:true}} {...ep34Config}/>
+    <Composition id="Ep35Bantay" component={Episode35} defaultProps={{includeAudio:true,captions:true}} {...ep35Config}/>
     <Composition id="ChannelAvatar" component={ChannelAvatar} durationInFrames={1} fps={30} width={800} height={800}/>
     <Composition id="ChannelBanner" component={ChannelBanner} durationInFrames={1} fps={30} width={2560} height={1440}/>
     <Composition id="Ep05NineHikersOneCutTent" component={Episode05} defaultProps={{includeAudio:true,captions:true}} {...ep05Config}/>

@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Humahamog ang salamin ng kabaong. Mula sa loob. [long pause] [softly] Bakit tayo nagpupuyat sa lamay? Sabi ng matatanda, para bantayan ang bangkay. [long pause] Dahil noon, may mga nilalang na kumukuha ng patay. [long pause] Sa mga kuwento sa Kabisayaan, may amalanhig. Bangkay na bumabangon. [long pause] Matigas ang katawan. Hindi makabaluktot. Kaya diretso lang itong maglakad, pero mabilis. [long pause] Kapag hinabol ka raw, tumakbo ka nang paliko-liko. [long pause] [whispers] Alas tres na. Tulog na ang lahat ng nagbabantay. [long pause] [whispers] Maliban sa iyo.",
+    "flow_id": "ca5s2GetYsp9lHxp7QWQ (new flow, 2026-11-14)",
+    "attempts": ["2026-11-14: one call, both takes started at once (582 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep35-take1.mp3: 41.44 s, 582 credits (used)",
+      "public/assets/audio/eleven-takes/ep35-take2.mp3: 42.53 s, 582 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, pauses inside a line capped at 0.32 s, no tempo change; gaps widened for the picture; timeline 52.04 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "ca5s2GetYsp9lHxp7QWQ",
+    "prompts": {
+      "chairs": "Plastic chairs being knocked over and scraping across a tiled floor, crashing and clattering, inside a quiet house at night, no music",
+      "prayers": "A small group of people softly murmuring prayers together in a room at night, indistinct voices, no words clear, no music",
+      "tuko": "A tokay gecko calling loudly at night outside a house, the classic repeated two-note call, tropical night, no music",
+      "cards": "Playing cards being shuffled and slapped down on a wooden table, coins clinking, quiet night, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep35-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: chairs-3 (the loudest) and chairs-1 for the three crashes; prayers-3 (the longest, 14 s) looped as the 9 p.m. bed; tuko-4 (the longest, 4 s); cards-1 (the loudest)"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #35 (folklore: the amalanhig at the lamay), Taglish version for Juanito"
+}
