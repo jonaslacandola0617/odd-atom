@@ -1,5 +1,12 @@
 # Video delivery
 
+- **Season 4: local Philippine horror stories (2026-11-14), slate only:** the user asked for "philippine based again … really scary local stories", researched across Reddit, Facebook, IG, X, blogs and YouTube.
+  - **Slate:** `docs/stories/season-4-philippines.md`, Episodes 31–40, each with its own form, scare placement, sound and visual language: Clarita Villanueva (Bilibid, 1953) → kumakatok → batibat/bangungot → sigbin → amalanhig at the lamay → the UP Ikot jeep → barang and the Siquijor Holy Week healers → Maria Labo (told as a chain-text rumour) → *sundo* → Malinta Tunnel (finale). Reserves and exclusions (San Juanico, school mass hysteria, Teachers' Camp, Biringan, Sagada and others) are listed with reasons.
+  - **Research limits:** Reddit, Facebook, IG, X and TikTok were not reachable, and a direct fetch of `lifestyle.inquirer.net` was refused; everything is from search summaries. No individual's post or TV testimony is adapted (KMJS "Sundo", the 2019 Teachers' Camp account and student-submitted school stories are listed as needing permission).
+  - **Rules:** Season 3's rules hold (no shared template, the motion rule, hard cuts only, the sound and loudness standards), plus the care notes in the slate.
+  - **Voice:** proposed Taglish narration and captions with Juanito (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`), as in Season 2; **waiting for the user to confirm** language and voice.
+  - **Status:** no user approval of the slate; no narration, SFX or credits spent; no episode built. Do not build until the user approves.
+
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".
   - **Slate:** `docs/stories/season-3-world.md`: ten real, documented cases on six continents, each with its own form, scare placement, sound language and visual language. Order: Enfield → Okiku doll → Bell Witch → Island of the Dolls → Hampton Court CCTV → Castle of Good Hope → Waverly Hills → Brown Lady → Monte Cristo Homestead → Poveglia. Folklore-only tales are out.
