@@ -5,6 +5,7 @@ out/
 *.tsbuildinfo
 __pycache__/
 *.py[cod]
+assets/characters/nico-lowpoly-v1/*.blend[1-9]
 .env
 .env.local
 references/videos/

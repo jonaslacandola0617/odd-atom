@@ -1,0 +1,50 @@
+{
+  "status": "rendered_and_inspected_user_design_approval_pending",
+  "date": "2026-11-14",
+  "blend_sha256": "80e6d1677c6c0a95caa96e7dd54a64a3676f5e9ad8818cc7f757dff2385b046d",
+  "glb_sha256": "78c3b72f9235dd1309efecd308aa0fbae9d77046567f7e8cf6d029eb82840b08",
+  "triangles": 5952,
+  "blender_versions_actually_tested": [
+    "4.3.2"
+  ],
+  "blender_293_tested": false,
+  "reference_review": "Original turnaround, T-pose drawings and three earlier render sheets supplied in chat. Earlier editable meshes were not present, so no donor geometry was retained.",
+  "geometry_inspection": [
+    "Final texture-free head: front, profile, elevated three-quarter",
+    "Final full body: front, profile, back and three-quarter, same orthographic scale",
+    "Large three-quarter head and elevated back/crown view",
+    "Native left hand/watch and sneaker detail",
+    "Actual GLB imported into an empty Blender scene, welded with corner normals preserved, then rendered again"
+  ],
+  "observations": [
+    "Crown was lowered with underlying skull; the small cowlick is continuous with the crown rather than a detached fin.",
+    "Hair is one closed manifold mesh; broad directional relief is geometric and visible in untextured views.",
+    "No visible scalp breakthrough or loose hair pieces in inspected views. The nape is tidy and rear relief is restrained.",
+    "Glasses retain rectangular depth in three-quarter and profile views. No eye/frame collision observed in the reviewed images.",
+    "Short recessed neck meets the collar, with a defined underside of the jaw.",
+    "Raised sleeve corners and back-hem jean breakthrough were corrected and re-rendered. No remaining visible hem/sleeve clipping found in these views.",
+    "Hands have four fingers and a thumb, joined to the arm mesh. The left watch sits above the dorsal wrist.",
+    "Sneakers were rebuilt from wedge-like uppers to a lower toe box and instep, with uppers seated on the soles. Both feet touch the same ground plane.",
+    "Reimported GLB retains visible flat facets, palette and texture details."
+  ],
+  "remaining_limits": [
+    "Facial expression is static; expression shapes and extreme joint bending were not tested because this pass has no rig.",
+    "Rear hair relief, stubble and painted shoe detail become subdued at small on-screen sizes; the major hair/glasses/clothing silhouette remains the main identity cue.",
+    "The native Blender 4.3.2 file is not a 2.93-native save; GLB and the optional import helper are supplied, but 2.93 execution remains untested."
+  ],
+  "render_evidence_sha256": {
+    "body-back.png": "83fcfb09fafa352b939a070d20284468f08de3cfd290e0db294bee6da05b2cef",
+    "body-front.png": "9604c0dca768180b80baf388287a57b3559b7052c5ce543db31443a18dd50ec8",
+    "body-profile.png": "51215fb63dd3013ed5ec4fe4959896332f3cd0d3a40b18e29ff39845ffcc81b7",
+    "body-three-quarter.png": "0ea15b3176d03c9b6c69fdf3ee66768dfaac28b882c1c87c811cc6e3343ea1d8",
+    "clay-head-front.png": "f39bf30ed7d752ab16a0df24bd3e8c159c9b2fef51bca8be652a3e9968dff080",
+    "clay-head-profile.png": "e3f3cdc4a15b4a4ce0607069c6452b1b5113bbb020e2e26edaaaf023d9a1597f",
+    "clay-head-three-quarter.png": "9767db737ca4e87122855ea0d8420b3c1bc359008c9d8c70e2508ab932cca1ff",
+    "glb-reimport-three-quarter.png": "3279f618c045cf1aa89a7bd73a4b3bf7569680abcbfc435810f1782f3ba2b450",
+    "hand-left.png": "7f3cc7a3c5465ad876e2a666aa81e54e14b20bcbbba1535145ae1e2e90453f46",
+    "head-back-elevated.png": "d30e8f0dbfdf3a9ab3fcd5fa1d9abacff025a2e82e2418836aa4251dd2055e58",
+    "head-three-quarter.png": "57162b62cbe076ba623169525a8e228ccc6a5793b8872877e435e8fa93d785cd",
+    "shoes-detail.png": "75ee48354206c81e428fa079f65c6ee8227e2175a3216a854e3a330a980c2888"
+  },
+  "artist_approval": "pending; technical checks do not imply user design approval"
+}

@@ -1,0 +1,1815 @@
+{
+  "blender_version_actually_tested": "4.3.2",
+  "blender_293_tested": false,
+  "native_blend_sha256": "80e6d1677c6c0a95caa96e7dd54a64a3676f5e9ad8818cc7f757dff2385b046d",
+  "glb_sha256": "78c3b72f9235dd1309efecd308aa0fbae9d77046567f7e8cf6d029eb82840b08",
+  "native_reopened": {
+    "meshes": 40,
+    "triangles": 5952,
+    "bounds": {
+      "min": [
+        -0.878000020980835,
+        -0.1720000058412552,
+        0.0
+      ],
+      "max": [
+        0.878000020980835,
+        0.11299999803304672,
+        1.7497334480285645
+      ]
+    },
+    "objects": [
+      {
+        "object": "Nico_Skin_HeadAndNeck",
+        "vertices": 448,
+        "triangles": 892,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 418,
+        "polygons": 418,
+        "materials": [
+          "Skin \u2022 warm tan \u2022 painted stubble and tired eyes"
+        ]
+      },
+      {
+        "object": "Nico_Nose \u2022 bridge, tip and alar planes",
+        "vertices": 9,
+        "triangles": 14,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 9,
+        "polygons": 9,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Ear.R",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 22,
+        "polygons": 22,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_EarConcha.R",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 10,
+        "polygons": 10,
+        "materials": [
+          "Ear \u2022 concha"
+        ]
+      },
+      {
+        "object": "Nico_EyeSclera.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 8,
+        "polygons": 8,
+        "materials": [
+          "Eyes \u2022 muted warm sclera"
+        ]
+      },
+      {
+        "object": "Nico_Iris.R",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 14,
+        "polygons": 14,
+        "materials": [
+          "Eyes \u2022 dark brown"
+        ]
+      },
+      {
+        "object": "Nico_Pupil.R",
+        "vertices": 20,
+        "triangles": 36,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 12,
+        "materials": [
+          "Eyes \u2022 pupil"
+        ]
+      },
+      {
+        "object": "Nico_HeavyUpperLid.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 8,
+        "polygons": 8,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_LidCrease.R",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 14,
+        "polygons": 14,
+        "materials": [
+          "Skin \u2022 eyelid plane"
+        ]
+      },
+      {
+        "object": "Nico_StraightBrow.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 8,
+        "polygons": 8,
+        "materials": [
+          "Hair \u2022 painted charcoal black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Rim.R",
+        "vertices": 32,
+        "triangles": 64,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 32,
+        "polygons": 32,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Temple.R",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 20,
+        "polygons": 20,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Nostril.R",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 6,
+        "polygons": 6,
+        "materials": [
+          "Mouth \u2022 muted brown"
+        ]
+      },
+      {
+        "object": "Nico_Ear.L",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 22,
+        "polygons": 22,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_EarConcha.L",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 10,
+        "polygons": 10,
+        "materials": [
+          "Ear \u2022 concha"
+        ]
+      },
+      {
+        "object": "Nico_EyeSclera.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 8,
+        "polygons": 8,
+        "materials": [
+          "Eyes \u2022 muted warm sclera"
+        ]
+      },
+      {
+        "object": "Nico_Iris.L",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 14,
+        "polygons": 14,
+        "materials": [
+          "Eyes \u2022 dark brown"
+        ]
+      },
+      {
+        "object": "Nico_Pupil.L",
+        "vertices": 20,
+        "triangles": 36,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 12,
+        "materials": [
+          "Eyes \u2022 pupil"
+        ]
+      },
+      {
+        "object": "Nico_HeavyUpperLid.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 8,
+        "polygons": 8,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_LidCrease.L",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 14,
+        "polygons": 14,
+        "materials": [
+          "Skin \u2022 eyelid plane"
+        ]
+      },
+      {
+        "object": "Nico_StraightBrow.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 8,
+        "polygons": 8,
+        "materials": [
+          "Hair \u2022 painted charcoal black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Rim.L",
+        "vertices": 32,
+        "triangles": 64,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 32,
+        "polygons": 32,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Temple.L",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 20,
+        "polygons": 20,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Nostril.L",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 6,
+        "polygons": 6,
+        "materials": [
+          "Mouth \u2022 muted brown"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Bridge",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 20,
+        "polygons": 20,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_QuietMouth",
+        "vertices": 25,
+        "triangles": 46,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 22,
+        "polygons": 22,
+        "materials": [
+          "Mouth \u2022 muted brown"
+        ]
+      },
+      {
+        "object": "Nico_Hair_ScalpMass \u2022 integrated crown cowlick",
+        "vertices": 577,
+        "triangles": 1150,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 649,
+        "polygons": 649,
+        "materials": [
+          "Hair \u2022 painted charcoal black"
+        ]
+      },
+      {
+        "object": "Nico_TShirt \u2022 joined torso and sleeve topology",
+        "vertices": 224,
+        "triangles": 440,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 204,
+        "polygons": 204,
+        "materials": [
+          "Shirt \u2022 faded dark teal",
+          "Shirt \u2022 restrained fold plane",
+          "Shirt \u2022 rib collar and cuff"
+        ]
+      },
+      {
+        "object": "Nico_ArmAndFiveFingerHand.R",
+        "vertices": 404,
+        "triangles": 804,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 394,
+        "polygons": 394,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_ArmAndFiveFingerHand.L",
+        "vertices": 404,
+        "triangles": 804,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 394,
+        "polygons": 394,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Jeans \u2022 continuous pelvis, crotch and joint loops",
+        "vertices": 159,
+        "triangles": 314,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 155,
+        "polygons": 155,
+        "materials": [
+          "Jeans \u2022 painted charcoal denim"
+        ]
+      },
+      {
+        "object": "Nico_SneakerSole.R",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 22,
+        "polygons": 22,
+        "materials": [
+          "Sneakers \u2022 worn gray rubber"
+        ]
+      },
+      {
+        "object": "Nico_SneakerUpper.R",
+        "vertices": 81,
+        "triangles": 158,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 74,
+        "polygons": 74,
+        "materials": [
+          "Sneakers \u2022 gray worn canvas and painted laces"
+        ]
+      },
+      {
+        "object": "Nico_SneakerSole.L",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 22,
+        "polygons": 22,
+        "materials": [
+          "Sneakers \u2022 worn gray rubber"
+        ]
+      },
+      {
+        "object": "Nico_SneakerUpper.L",
+        "vertices": 81,
+        "triangles": 158,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 74,
+        "polygons": 74,
+        "materials": [
+          "Sneakers \u2022 gray worn canvas and painted laces"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 closed resin band",
+        "vertices": 64,
+        "triangles": 128,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 64,
+        "polygons": 64,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 beveled digital case",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 26,
+        "polygons": 26,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 embedded LCD",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 6,
+        "polygons": 6,
+        "materials": [
+          "Watch \u2022 painted LCD"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 26,
+        "polygons": 26,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button.001",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 26,
+        "polygons": 26,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      }
+    ],
+    "packed_textures": [
+      {
+        "image": "Nico_Denim.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "image": "Nico_Hair.png",
+        "packed": true,
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "image": "Nico_Shoes.png",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "image": "Nico_Skin.png",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "image": "Nico_Watch.png",
+        "packed": true,
+        "size": [
+          256,
+          128
+        ]
+      }
+    ],
+    "armatures": 0,
+    "modifiers": [],
+    "feet": {
+      "L": {
+        "min_z": 0.0,
+        "max_z": 0.026000000536441803
+      },
+      "R": {
+        "min_z": 0.0,
+        "max_z": 0.026000000536441803
+      }
+    },
+    "Nico_ArmAndFiveFingerHand_max_mirror_error": 0.0,
+    "bilateral_arm_max_mirror_error": 0.0,
+    "Nico_SneakerSole_max_mirror_error": 0.0,
+    "Nico_SneakerUpper_max_mirror_error": 0.0,
+    "watch_anatomical_left": true
+  },
+  "actual_glb_reimported": {
+    "meshes": 40,
+    "triangles": 5952,
+    "bounds": {
+      "min": [
+        -0.878000020980835,
+        -0.1720000058412552,
+        0.0
+      ],
+      "max": [
+        0.878000020980835,
+        0.11299999803304672,
+        1.7497334480285645
+      ]
+    },
+    "objects": [
+      {
+        "object": "Nico_ArmAndFiveFingerHand.L",
+        "vertices": 1592,
+        "triangles": 804,
+        "nonmanifold_edges": 1592,
+        "zero_area_faces": 0,
+        "flat_faces": 296,
+        "polygons": 804,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_ArmAndFiveFingerHand.R",
+        "vertices": 1592,
+        "triangles": 804,
+        "nonmanifold_edges": 1592,
+        "zero_area_faces": 0,
+        "flat_faces": 296,
+        "polygons": 804,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Ear.L",
+        "vertices": 100,
+        "triangles": 56,
+        "nonmanifold_edges": 100,
+        "zero_area_faces": 0,
+        "flat_faces": 24,
+        "polygons": 56,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Ear.R",
+        "vertices": 100,
+        "triangles": 56,
+        "nonmanifold_edges": 100,
+        "zero_area_faces": 0,
+        "flat_faces": 24,
+        "polygons": 56,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_EarConcha.L",
+        "vertices": 48,
+        "triangles": 28,
+        "nonmanifold_edges": 48,
+        "zero_area_faces": 0,
+        "flat_faces": 28,
+        "polygons": 28,
+        "materials": [
+          "Ear \u2022 concha"
+        ]
+      },
+      {
+        "object": "Nico_EarConcha.R",
+        "vertices": 48,
+        "triangles": 28,
+        "nonmanifold_edges": 48,
+        "zero_area_faces": 0,
+        "flat_faces": 28,
+        "polygons": 28,
+        "materials": [
+          "Ear \u2022 concha"
+        ]
+      },
+      {
+        "object": "Nico_EyeSclera.L",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_faces": 11,
+        "polygons": 20,
+        "materials": [
+          "Eyes \u2022 muted warm sclera"
+        ]
+      },
+      {
+        "object": "Nico_EyeSclera.R",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_faces": 11,
+        "polygons": 20,
+        "materials": [
+          "Eyes \u2022 muted warm sclera"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Bridge",
+        "vertices": 84,
+        "triangles": 44,
+        "nonmanifold_edges": 84,
+        "zero_area_faces": 0,
+        "flat_faces": 19,
+        "polygons": 44,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Rim.L",
+        "vertices": 128,
+        "triangles": 64,
+        "nonmanifold_edges": 128,
+        "zero_area_faces": 0,
+        "flat_faces": 31,
+        "polygons": 64,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Rim.R",
+        "vertices": 128,
+        "triangles": 64,
+        "nonmanifold_edges": 128,
+        "zero_area_faces": 0,
+        "flat_faces": 31,
+        "polygons": 64,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Temple.L",
+        "vertices": 84,
+        "triangles": 44,
+        "nonmanifold_edges": 84,
+        "zero_area_faces": 0,
+        "flat_faces": 8,
+        "polygons": 44,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Temple.R",
+        "vertices": 84,
+        "triangles": 44,
+        "nonmanifold_edges": 84,
+        "zero_area_faces": 0,
+        "flat_faces": 7,
+        "polygons": 44,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Hair_ScalpMass \u2022 integrated crown cowlick",
+        "vertices": 2448,
+        "triangles": 1150,
+        "nonmanifold_edges": 2448,
+        "zero_area_faces": 0,
+        "flat_faces": 201,
+        "polygons": 1150,
+        "materials": [
+          "Hair \u2022 painted charcoal black"
+        ]
+      },
+      {
+        "object": "Nico_HeavyUpperLid.L",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 20,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_HeavyUpperLid.R",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 20,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Iris.L",
+        "vertices": 70,
+        "triangles": 44,
+        "nonmanifold_edges": 70,
+        "zero_area_faces": 0,
+        "flat_faces": 24,
+        "polygons": 44,
+        "materials": [
+          "Eyes \u2022 dark brown"
+        ]
+      },
+      {
+        "object": "Nico_Iris.R",
+        "vertices": 70,
+        "triangles": 44,
+        "nonmanifold_edges": 70,
+        "zero_area_faces": 0,
+        "flat_faces": 24,
+        "polygons": 44,
+        "materials": [
+          "Eyes \u2022 dark brown"
+        ]
+      },
+      {
+        "object": "Nico_Jeans \u2022 continuous pelvis, crotch and joint loops",
+        "vertices": 624,
+        "triangles": 314,
+        "nonmanifold_edges": 624,
+        "zero_area_faces": 0,
+        "flat_faces": 46,
+        "polygons": 314,
+        "materials": [
+          "Jeans \u2022 painted charcoal denim"
+        ]
+      },
+      {
+        "object": "Nico_LidCrease.L",
+        "vertices": 56,
+        "triangles": 28,
+        "nonmanifold_edges": 56,
+        "zero_area_faces": 0,
+        "flat_faces": 3,
+        "polygons": 28,
+        "materials": [
+          "Skin \u2022 eyelid plane"
+        ]
+      },
+      {
+        "object": "Nico_LidCrease.R",
+        "vertices": 56,
+        "triangles": 28,
+        "nonmanifold_edges": 56,
+        "zero_area_faces": 0,
+        "flat_faces": 3,
+        "polygons": 28,
+        "materials": [
+          "Skin \u2022 eyelid plane"
+        ]
+      },
+      {
+        "object": "Nico_Nose \u2022 bridge, tip and alar planes",
+        "vertices": 32,
+        "triangles": 14,
+        "nonmanifold_edges": 32,
+        "zero_area_faces": 0,
+        "flat_faces": 10,
+        "polygons": 14,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Nostril.L",
+        "vertices": 24,
+        "triangles": 12,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 12,
+        "materials": [
+          "Mouth \u2022 muted brown"
+        ]
+      },
+      {
+        "object": "Nico_Nostril.R",
+        "vertices": 24,
+        "triangles": 12,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0,
+        "flat_faces": 11,
+        "polygons": 12,
+        "materials": [
+          "Mouth \u2022 muted brown"
+        ]
+      },
+      {
+        "object": "Nico_Pupil.L",
+        "vertices": 60,
+        "triangles": 36,
+        "nonmanifold_edges": 60,
+        "zero_area_faces": 0,
+        "flat_faces": 18,
+        "polygons": 36,
+        "materials": [
+          "Eyes \u2022 pupil"
+        ]
+      },
+      {
+        "object": "Nico_Pupil.R",
+        "vertices": 60,
+        "triangles": 36,
+        "nonmanifold_edges": 60,
+        "zero_area_faces": 0,
+        "flat_faces": 18,
+        "polygons": 36,
+        "materials": [
+          "Eyes \u2022 pupil"
+        ]
+      },
+      {
+        "object": "Nico_QuietMouth",
+        "vertices": 90,
+        "triangles": 46,
+        "nonmanifold_edges": 90,
+        "zero_area_faces": 0,
+        "flat_faces": 6,
+        "polygons": 46,
+        "materials": [
+          "Mouth \u2022 muted brown"
+        ]
+      },
+      {
+        "object": "Nico_Skin_HeadAndNeck",
+        "vertices": 1728,
+        "triangles": 892,
+        "nonmanifold_edges": 1728,
+        "zero_area_faces": 0,
+        "flat_faces": 65,
+        "polygons": 892,
+        "materials": [
+          "Skin \u2022 warm tan \u2022 painted stubble and tired eyes"
+        ]
+      },
+      {
+        "object": "Nico_SneakerSole.L",
+        "vertices": 96,
+        "triangles": 56,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_faces": 28,
+        "polygons": 56,
+        "materials": [
+          "Sneakers \u2022 worn gray rubber"
+        ]
+      },
+      {
+        "object": "Nico_SneakerSole.R",
+        "vertices": 96,
+        "triangles": 56,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_faces": 28,
+        "polygons": 56,
+        "materials": [
+          "Sneakers \u2022 worn gray rubber"
+        ]
+      },
+      {
+        "object": "Nico_SneakerUpper.L",
+        "vertices": 288,
+        "triangles": 158,
+        "nonmanifold_edges": 288,
+        "zero_area_faces": 0,
+        "flat_faces": 65,
+        "polygons": 158,
+        "materials": [
+          "Sneakers \u2022 gray worn canvas and painted laces"
+        ]
+      },
+      {
+        "object": "Nico_SneakerUpper.R",
+        "vertices": 288,
+        "triangles": 158,
+        "nonmanifold_edges": 288,
+        "zero_area_faces": 0,
+        "flat_faces": 65,
+        "polygons": 158,
+        "materials": [
+          "Sneakers \u2022 gray worn canvas and painted laces"
+        ]
+      },
+      {
+        "object": "Nico_StraightBrow.L",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 20,
+        "materials": [
+          "Hair \u2022 painted charcoal black"
+        ]
+      },
+      {
+        "object": "Nico_StraightBrow.R",
+        "vertices": 36,
+        "triangles": 20,
+        "nonmanifold_edges": 36,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 20,
+        "materials": [
+          "Hair \u2022 painted charcoal black"
+        ]
+      },
+      {
+        "object": "Nico_TShirt \u2022 joined torso and sleeve topology",
+        "vertices": 834,
+        "triangles": 440,
+        "nonmanifold_edges": 834,
+        "zero_area_faces": 0,
+        "flat_faces": 102,
+        "polygons": 440,
+        "materials": [
+          "Shirt \u2022 faded dark teal",
+          "Shirt \u2022 restrained fold plane",
+          "Shirt \u2022 rib collar and cuff"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 beveled digital case",
+        "vertices": 96,
+        "triangles": 44,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_faces": 44,
+        "polygons": 44,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 closed resin band",
+        "vertices": 192,
+        "triangles": 128,
+        "nonmanifold_edges": 192,
+        "zero_area_faces": 0,
+        "flat_faces": 127,
+        "polygons": 128,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 embedded LCD",
+        "vertices": 24,
+        "triangles": 12,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 12,
+        "materials": [
+          "Watch \u2022 painted LCD"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button",
+        "vertices": 96,
+        "triangles": 44,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_faces": 44,
+        "polygons": 44,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button.001",
+        "vertices": 96,
+        "triangles": 44,
+        "nonmanifold_edges": 96,
+        "zero_area_faces": 0,
+        "flat_faces": 44,
+        "polygons": 44,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      }
+    ]
+  },
+  "glb_editing_restore": [
+    {
+      "object": "Nico_ArmAndFiveFingerHand.L",
+      "hardware_vertices": 1592,
+      "welded_vertices": 404,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_ArmAndFiveFingerHand.R",
+      "hardware_vertices": 1592,
+      "welded_vertices": 404,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Ear.L",
+      "hardware_vertices": 100,
+      "welded_vertices": 30,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Ear.R",
+      "hardware_vertices": 100,
+      "welded_vertices": 30,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_EarConcha.L",
+      "hardware_vertices": 48,
+      "welded_vertices": 16,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_EarConcha.R",
+      "hardware_vertices": 48,
+      "welded_vertices": 16,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_EyeSclera.L",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_EyeSclera.R",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Bridge",
+      "hardware_vertices": 84,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Rim.L",
+      "hardware_vertices": 128,
+      "welded_vertices": 32,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Rim.R",
+      "hardware_vertices": 128,
+      "welded_vertices": 32,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Temple.L",
+      "hardware_vertices": 84,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Glasses_Temple.R",
+      "hardware_vertices": 84,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Hair_ScalpMass \u2022 integrated crown cowlick",
+      "hardware_vertices": 2448,
+      "welded_vertices": 577,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_HeavyUpperLid.L",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_HeavyUpperLid.R",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Iris.L",
+      "hardware_vertices": 70,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Iris.R",
+      "hardware_vertices": 70,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Jeans \u2022 continuous pelvis, crotch and joint loops",
+      "hardware_vertices": 624,
+      "welded_vertices": 159,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_LidCrease.L",
+      "hardware_vertices": 56,
+      "welded_vertices": 16,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_LidCrease.R",
+      "hardware_vertices": 56,
+      "welded_vertices": 16,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Nose \u2022 bridge, tip and alar planes",
+      "hardware_vertices": 32,
+      "welded_vertices": 9,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Nostril.L",
+      "hardware_vertices": 24,
+      "welded_vertices": 8,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Nostril.R",
+      "hardware_vertices": 24,
+      "welded_vertices": 8,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Pupil.L",
+      "hardware_vertices": 60,
+      "welded_vertices": 20,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Pupil.R",
+      "hardware_vertices": 60,
+      "welded_vertices": 20,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_QuietMouth",
+      "hardware_vertices": 90,
+      "welded_vertices": 25,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Skin_HeadAndNeck",
+      "hardware_vertices": 1728,
+      "welded_vertices": 448,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_SneakerSole.L",
+      "hardware_vertices": 96,
+      "welded_vertices": 30,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_SneakerSole.R",
+      "hardware_vertices": 96,
+      "welded_vertices": 30,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_SneakerUpper.L",
+      "hardware_vertices": 288,
+      "welded_vertices": 81,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_SneakerUpper.R",
+      "hardware_vertices": 288,
+      "welded_vertices": 81,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_StraightBrow.L",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_StraightBrow.R",
+      "hardware_vertices": 36,
+      "welded_vertices": 12,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_TShirt \u2022 joined torso and sleeve topology",
+      "hardware_vertices": 834,
+      "welded_vertices": 222,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 beveled digital case",
+      "hardware_vertices": 96,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 closed resin band",
+      "hardware_vertices": 192,
+      "welded_vertices": 64,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 embedded LCD",
+      "hardware_vertices": 24,
+      "welded_vertices": 8,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 side button",
+      "hardware_vertices": 96,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    },
+    {
+      "object": "Nico_Watch.L \u2022 side button.001",
+      "hardware_vertices": 96,
+      "welded_vertices": 24,
+      "original_corner_normals_restored": true
+    }
+  ],
+  "editable_glb_import": {
+    "meshes": 40,
+    "triangles": 5952,
+    "bounds": {
+      "min": [
+        -0.878000020980835,
+        -0.1720000058412552,
+        0.0
+      ],
+      "max": [
+        0.878000020980835,
+        0.11299999803304672,
+        1.7497334480285645
+      ]
+    },
+    "objects": [
+      {
+        "object": "Nico_ArmAndFiveFingerHand.L",
+        "vertices": 404,
+        "triangles": 804,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 296,
+        "polygons": 804,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_ArmAndFiveFingerHand.R",
+        "vertices": 404,
+        "triangles": 804,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 296,
+        "polygons": 804,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Ear.L",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 24,
+        "polygons": 56,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Ear.R",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 24,
+        "polygons": 56,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_EarConcha.L",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 28,
+        "polygons": 28,
+        "materials": [
+          "Ear \u2022 concha"
+        ]
+      },
+      {
+        "object": "Nico_EarConcha.R",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 28,
+        "polygons": 28,
+        "materials": [
+          "Ear \u2022 concha"
+        ]
+      },
+      {
+        "object": "Nico_EyeSclera.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 11,
+        "polygons": 20,
+        "materials": [
+          "Eyes \u2022 muted warm sclera"
+        ]
+      },
+      {
+        "object": "Nico_EyeSclera.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 11,
+        "polygons": 20,
+        "materials": [
+          "Eyes \u2022 muted warm sclera"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Bridge",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 19,
+        "polygons": 44,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Rim.L",
+        "vertices": 32,
+        "triangles": 64,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 31,
+        "polygons": 64,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Rim.R",
+        "vertices": 32,
+        "triangles": 64,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 31,
+        "polygons": 64,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Temple.L",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 8,
+        "polygons": 44,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Glasses_Temple.R",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 7,
+        "polygons": 44,
+        "materials": [
+          "Glasses \u2022 matte black"
+        ]
+      },
+      {
+        "object": "Nico_Hair_ScalpMass \u2022 integrated crown cowlick",
+        "vertices": 577,
+        "triangles": 1150,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 201,
+        "polygons": 1150,
+        "materials": [
+          "Hair \u2022 painted charcoal black"
+        ]
+      },
+      {
+        "object": "Nico_HeavyUpperLid.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 20,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_HeavyUpperLid.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 20,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Iris.L",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 24,
+        "polygons": 44,
+        "materials": [
+          "Eyes \u2022 dark brown"
+        ]
+      },
+      {
+        "object": "Nico_Iris.R",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 24,
+        "polygons": 44,
+        "materials": [
+          "Eyes \u2022 dark brown"
+        ]
+      },
+      {
+        "object": "Nico_Jeans \u2022 continuous pelvis, crotch and joint loops",
+        "vertices": 159,
+        "triangles": 314,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 46,
+        "polygons": 314,
+        "materials": [
+          "Jeans \u2022 painted charcoal denim"
+        ]
+      },
+      {
+        "object": "Nico_LidCrease.L",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 3,
+        "polygons": 28,
+        "materials": [
+          "Skin \u2022 eyelid plane"
+        ]
+      },
+      {
+        "object": "Nico_LidCrease.R",
+        "vertices": 16,
+        "triangles": 28,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 3,
+        "polygons": 28,
+        "materials": [
+          "Skin \u2022 eyelid plane"
+        ]
+      },
+      {
+        "object": "Nico_Nose \u2022 bridge, tip and alar planes",
+        "vertices": 9,
+        "triangles": 14,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 10,
+        "polygons": 14,
+        "materials": [
+          "Skin \u2022 ears and hands"
+        ]
+      },
+      {
+        "object": "Nico_Nostril.L",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 12,
+        "materials": [
+          "Mouth \u2022 muted brown"
+        ]
+      },
+      {
+        "object": "Nico_Nostril.R",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 11,
+        "polygons": 12,
+        "materials": [
+          "Mouth \u2022 muted brown"
+        ]
+      },
+      {
+        "object": "Nico_Pupil.L",
+        "vertices": 20,
+        "triangles": 36,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 18,
+        "polygons": 36,
+        "materials": [
+          "Eyes \u2022 pupil"
+        ]
+      },
+      {
+        "object": "Nico_Pupil.R",
+        "vertices": 20,
+        "triangles": 36,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 18,
+        "polygons": 36,
+        "materials": [
+          "Eyes \u2022 pupil"
+        ]
+      },
+      {
+        "object": "Nico_QuietMouth",
+        "vertices": 25,
+        "triangles": 46,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 6,
+        "polygons": 46,
+        "materials": [
+          "Mouth \u2022 muted brown"
+        ]
+      },
+      {
+        "object": "Nico_Skin_HeadAndNeck",
+        "vertices": 448,
+        "triangles": 892,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 65,
+        "polygons": 892,
+        "materials": [
+          "Skin \u2022 warm tan \u2022 painted stubble and tired eyes"
+        ]
+      },
+      {
+        "object": "Nico_SneakerSole.L",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 28,
+        "polygons": 56,
+        "materials": [
+          "Sneakers \u2022 worn gray rubber"
+        ]
+      },
+      {
+        "object": "Nico_SneakerSole.R",
+        "vertices": 30,
+        "triangles": 56,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 28,
+        "polygons": 56,
+        "materials": [
+          "Sneakers \u2022 worn gray rubber"
+        ]
+      },
+      {
+        "object": "Nico_SneakerUpper.L",
+        "vertices": 81,
+        "triangles": 158,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 65,
+        "polygons": 158,
+        "materials": [
+          "Sneakers \u2022 gray worn canvas and painted laces"
+        ]
+      },
+      {
+        "object": "Nico_SneakerUpper.R",
+        "vertices": 81,
+        "triangles": 158,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 65,
+        "polygons": 158,
+        "materials": [
+          "Sneakers \u2022 gray worn canvas and painted laces"
+        ]
+      },
+      {
+        "object": "Nico_StraightBrow.L",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 20,
+        "materials": [
+          "Hair \u2022 painted charcoal black"
+        ]
+      },
+      {
+        "object": "Nico_StraightBrow.R",
+        "vertices": 12,
+        "triangles": 20,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 20,
+        "materials": [
+          "Hair \u2022 painted charcoal black"
+        ]
+      },
+      {
+        "object": "Nico_TShirt \u2022 joined torso and sleeve topology",
+        "vertices": 222,
+        "triangles": 440,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 102,
+        "polygons": 440,
+        "materials": [
+          "Shirt \u2022 faded dark teal",
+          "Shirt \u2022 restrained fold plane",
+          "Shirt \u2022 rib collar and cuff"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 beveled digital case",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 44,
+        "polygons": 44,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 closed resin band",
+        "vertices": 64,
+        "triangles": 128,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 127,
+        "polygons": 128,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 embedded LCD",
+        "vertices": 8,
+        "triangles": 12,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 12,
+        "polygons": 12,
+        "materials": [
+          "Watch \u2022 painted LCD"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 44,
+        "polygons": 44,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      },
+      {
+        "object": "Nico_Watch.L \u2022 side button.001",
+        "vertices": 24,
+        "triangles": 44,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "flat_faces": 44,
+        "polygons": 44,
+        "materials": [
+          "Watch \u2022 cheap black resin"
+        ]
+      }
+    ]
+  },
+  "glb_embedding": {
+    "images": 5,
+    "all_images_in_binary_buffer": true,
+    "extensions_required": [],
+    "materials": 18
+  },
+  "technical_issues": [],
+  "scope": "Geometry/material/texture import checks. Raw glTF hardware vertices split at hard normals; included helper restores welded editing topology with the original corner normals. Visual approval and deformation tests are separate; no rig included."
+}
