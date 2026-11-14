@@ -1,0 +1,136 @@
+{
+  "episode": "Ep34Paatras",
+  "duration_seconds": 49.11,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep34-take1.mp3",
+    "sha256": "08cc88d29d125a1faff931d2b6f4234736192cb1356192e9eb03116e31c39929",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep34-take1.mp3: 40.8 s, 544 credits (used)",
+      "public/assets/audio/eleven-takes/ep34-take2.mp3: 38.32 s, 544 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep34-sigbin/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, an original music-box figure that runs down and then back up (backwards), bowed metal, a heartbeat under the farmer, a reversed swell, a riser and stingers (scripts/horror_score.py); loop-quantised",
+    "the farm at night: frogs and crickets that stop wherever it is near, banana leaves, the lamp hiss; its wet steps in a wrong rhythm (two quick, one slow), the farmer's steps, the gate creak, a low hit (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "c9xroXarp4hskrjsvjJL",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "hooves-2": {
+        "path": "public/assets/audio/eleven-sfx/ep34-hooves-2.mp3",
+        "sha256": "8d4aeb2c16c7b1d7355684f7188a500ee8b0f8d48add16d16d709268ab396b02"
+      },
+      "goats-4": {
+        "path": "public/assets/audio/eleven-sfx/ep34-goats-4.mp3",
+        "sha256": "725afa5f3ecf96d60f5db4b93d8d7a47ec9b77514ebba11380fef1f49f8c7f06"
+      },
+      "goats-2": {
+        "path": "public/assets/audio/eleven-sfx/ep34-goats-2.mp3",
+        "sha256": "5b0c59c2d3766d6fd12bfd4d709b4806dfbae8dc370c6d21efe5d72483947c1a"
+      },
+      "dog-2": {
+        "path": "public/assets/audio/eleven-sfx/ep34-dog-2.mp3",
+        "sha256": "da69ea1f34d20472b863834df976a49213c1f5ae83ea0f8778a9e5de96630094"
+      },
+      "snort-3": {
+        "path": "public/assets/audio/eleven-sfx/ep34-snort-3.mp3",
+        "sha256": "a09cb477ba1b2e4a514e78182e32fd25fdf42536baf31fe52d5c707fc85e2468"
+      },
+      "snort-1": {
+        "path": "public/assets/audio/eleven-sfx/ep34-snort-1.mp3",
+        "sha256": "895a49fbc9ceeed0e87c635f5acf15348ba36c8d208bef08ef082acd0af9a3b4"
+      }
+    },
+    "note": "four prompts x four variations (about 68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    22.669999999999998,
+    40.85,
+    45.01
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.12,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -17.1,
+    "last_quarter_second": -17.0
+  },
+  "limiter": "tanh soft limiter, ceiling -1.74 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.2,
+    "l05": 1.5,
+    "l06": 4.2,
+    "l07": 1.1,
+    "l08": 3.7
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 7.7,
+      "phone_band_voice_minus_all_db": 16.9,
+      "voice_minus_bed_db": 7.7
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 5.9,
+      "phone_band_voice_minus_all_db": 11.1,
+      "voice_minus_bed_db": 5.9
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 6.1,
+      "phone_band_voice_minus_all_db": 12.5,
+      "voice_minus_bed_db": 6.1
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 13.4,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 5.0,
+      "phone_band_voice_minus_all_db": 14.6,
+      "voice_minus_bed_db": 5.0
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.9,
+      "phone_band_voice_minus_all_db": 14.9,
+      "voice_minus_bed_db": 4.9
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 5.6,
+      "phone_band_voice_minus_all_db": 14.2,
+      "voice_minus_bed_db": 5.6
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 18.2,
+      "voice_minus_bed_db": 4.8
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -13.8,
+    "music_minus_voice_in_gaps_db": -5.4,
+    "music_share_of_gaps_seconds": 18.6
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

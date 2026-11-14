@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 49.11,
+  "duration_frames": 1473,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Palayo ang mga bakas. Pero papalapit ito.",
+      "start": 0.8,
+      "end": 4.61,
+      "kind": "narrator",
+      "beat_before": "hook: low along the trail of prints, all pointing away; far down the trail, two eyes between two legs, coming closer"
+    },
+    {
+      "id": "l02",
+      "text": "Sa Visayas at Mindanao, may kuwento ng sigbin. Naglalakad daw ito nang paatras, nakayuko ang ulo sa pagitan ng mga hulihang paa.",
+      "start": 6.21,
+      "end": 16.19,
+      "kind": "narrator",
+      "beat_before": "the farm at night: the goats all standing, turned toward the field"
+    },
+    {
+      "id": "l03",
+      "text": "Parang kambing na walang sungay. Malalaki ang tainga. At mabaho.",
+      "start": 17.59,
+      "end": 22.47,
+      "kind": "narrator",
+      "beat_before": "the pen: the goats crowd a corner; there were four; the gate swings open; prints leading out"
+    },
+    {
+      "id": "l04",
+      "text": "Sa gabi raw ito lumalabas, para uminom ng dugo.",
+      "start": 24.07,
+      "end": 27.58,
+      "kind": "narrator",
+      "beat_before": "the dog: it whimpers and backs into its kennel, eyes on the dark"
+    },
+    {
+      "id": "l05",
+      "text": "Kaya kapag may nakita kang bakas na palayo sa bahay mo,",
+      "start": 29.38,
+      "end": 32.67,
+      "kind": "narrator",
+      "beat_before": "the farmer with his lamp follows the prints out into the field, away from the house"
+    },
+    {
+      "id": "l06",
+      "text": "huwag mo itong sundan.",
+      "start": 34.87,
+      "end": 36.24,
+      "kind": "narrator",
+      "beat_before": "behind him, toward the house: it backs up the trail, stepping into its own prints, ears dragging"
+    },
+    {
+      "id": "l07",
+      "text": "Dahil baka hindi iyon palayo.",
+      "start": 38.64,
+      "end": 40.65,
+      "kind": "narrator",
+      "beat_before": "inside: the child asleep, the lamp; at the window, its back rises; the lamp gutters"
+    },
+    {
+      "id": "l08",
+      "text": "Baka pauwi na ito.",
+      "start": 43.05,
+      "end": 44.71,
+      "kind": "narrator",
+      "beat_before": "the farmer turns; his lamp follows the prints back to the house, to the window; then its face, upside down, looks up at us"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Palayo ang mga bakas. Pero papalapit ito. [long pause] [softly] Sa Visayas at Mindanao, may kuwento ng sigbin. Naglalakad daw ito nang paatras, nakayuko ang ulo sa pagitan ng mga hulihang paa. [long pause] Parang kambing na walang sungay. Malalaki ang tainga. At mabaho. [long pause] Sa gabi raw ito lumalabas, para uminom ng dugo. [long pause] Kaya kapag may nakita kang bakas na palayo sa bahay mo, [long pause] [whispers] huwag mo itong sundan. [long pause] Dahil baka hindi iyon palayo. [long pause] [whispers] Baka pauwi na ito.",
+    "flow_id": "c9xroXarp4hskrjsvjJL (new flow, 2026-11-14)",
+    "attempts": [
+      "2026-11-14: one call, both takes started at once (544 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep34-take1.mp3: 40.8 s, 544 credits (used)",
+      "public/assets/audio/eleven-takes/ep34-take2.mp3: 38.32 s, 544 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, pauses inside a line capped at 0.32 s, no tempo change; gaps widened for the picture; timeline 49.11 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "c9xroXarp4hskrjsvjJL",
+    "prompts": {
+      "goats": "Goats bleating nervously in a bamboo pen at night, restless hooves shuffling on mud, then sudden silence, rural farm, no music",
+      "dog": "A frightened dog whimpering and whining, backing away with its chain rattling, rural night, no music",
+      "hooves": "Slow wet hoof steps squelching in thick mud, an animal walking very slowly at night, close, no music",
+      "snort": "A low wet animal snort and a slow guttural breath, something large sniffing right up close in the dark, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep34-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: goats-4 (the loudest) and goats-2 (the longest); dog-2 (the loudest); hooves-2 (the most active; all four takes are very quiet, so the steps are also synthesized); snort-1 (the loudest) at the lens, snort-3 at the window"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #34 (folklore: the sigbin), Taglish version for Juanito"
+}
