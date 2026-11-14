@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 59.971,
+  "duration_frames": 1799,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.24 s, atempo 1.05",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Walang tao sa selda. Pero may kumakagat sa kanya.",
+      "start": 0.1,
+      "end": 3.876,
+      "kind": "narrator",
+      "beat_before": "hook: her forearm on the cot blanket in a pool of torchlight; a ring of bite marks presses into clean skin"
+    },
+    {
+      "id": "l02",
+      "text": "Maynila, Mayo, nineteen fifty-three. Isang dalagitang nagngangalang Clarita, nakakulong sa Manila City Jail, ang lumang Bilibid.",
+      "start": 4.876,
+      "end": 14.006,
+      "kind": "narrator",
+      "beat_before": "cut: the old Bilibid wall at night, 1953; a guard runs along it with a lamp toward one lit window"
+    },
+    {
+      "id": "l03",
+      "text": "Gabi-gabi, sumisigaw siya. Dalawa raw sila. Isang malaki at maitim. At isang maliit.",
+      "start": 14.906,
+      "end": 21.65,
+      "kind": "narrator",
+      "beat_before": "cut: the cell; a tin cup rolls across the floor by itself; on the wall by the cot, two shadows, one tall, one small"
+    },
+    {
+      "id": "l04",
+      "text": "Tinawag ang mga doktor. Ayon sa mga ulat, nakita nila ang mga marka ng ngipin sa braso niya. Basa pa, parang laway.",
+      "start": 22.65,
+      "end": 30.579,
+      "kind": "narrator",
+      "beat_before": "cut: the examination; a doctor's hands under a lamp hold her wrist; the mark glistens"
+    },
+    {
+      "id": "l05",
+      "text": "Pumunta mismo ang mayor ng Maynila. Sabi niya sa mga reporter, nakita niya ito.",
+      "start": 32.079,
+      "end": 37.126,
+      "kind": "narrator",
+      "beat_before": "a second, smaller bite forms beside the first; cut: the press, the page rolling out; cut: polished shoes and a hat at the bars"
+    },
+    {
+      "id": "l06",
+      "text": "May mga doktor na nagsabing nasa isip lang ito. Pero walang nakapagpaliwanag sa mga kagat.",
+      "start": 38.026,
+      "end": 43.985,
+      "kind": "narrator",
+      "beat_before": "the hat drops; cut: the flashbulb photograph of the arm, developing in halftone"
+    },
+    {
+      "id": "l07",
+      "text": "Isang pastor na Amerikano ang nanalangin sa kanya nang ilang araw. Pagkatapos, tumigil daw ang mga kagat.",
+      "start": 44.985,
+      "end": 51.549,
+      "kind": "narrator",
+      "beat_before": "cut: prayer; two pairs of hands over hers on the blanket; the blanket ripples, then lies still"
+    },
+    {
+      "id": "l08",
+      "text": "Dalawa sila. At walang nakakaalam kung saan sila pumunta.",
+      "start": 52.649,
+      "end": 56.671,
+      "kind": "narrator",
+      "beat_before": "cut: the doctor's hands type the report under the lamp"
+    }
+  ]
+}

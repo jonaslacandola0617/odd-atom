@@ -1,11 +1,23 @@
 # Video delivery
 
-- **Season 4: local Philippine horror stories (2026-11-14), slate only:** the user asked for "philippine based again … really scary local stories", researched across Reddit, Facebook, IG, X, blogs and YouTube.
+- **Season 4: local Philippine horror stories (2026-11-14):** the user asked for "philippine based again … really scary local stories", researched across Reddit, Facebook, IG, X, blogs and YouTube.
   - **Slate:** `docs/stories/season-4-philippines.md`, Episodes 31–40, each with its own form, scare placement, sound and visual language: Clarita Villanueva (Bilibid, 1953) → kumakatok → batibat/bangungot → sigbin → amalanhig at the lamay → the UP Ikot jeep → barang and the Siquijor Holy Week healers → Maria Labo (told as a chain-text rumour) → *sundo* → Malinta Tunnel (finale). Reserves and exclusions (San Juanico, school mass hysteria, Teachers' Camp, Biringan, Sagada and others) are listed with reasons.
   - **Research limits:** Reddit, Facebook, IG, X and TikTok were not reachable, and a direct fetch of `lifestyle.inquirer.net` was refused; everything is from search summaries. No individual's post or TV testimony is adapted (KMJS "Sundo", the 2019 Teachers' Camp account and student-submitted school stories are listed as needing permission).
   - **Rules:** Season 3's rules hold (no shared template, the motion rule, hard cuts only, the sound and loudness standards), plus the care notes in the slate.
-  - **Voice:** proposed Taglish narration and captions with Juanito (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`), as in Season 2; **waiting for the user to confirm** language and voice.
-  - **Status:** no user approval of the slate; no narration, SFX or credits spent; no episode built. Do not build until the user approves.
+  - **Approved (user, 2026-11-14):** "approved, taglish with juanito, start ep 31". The slate and order are approved; **Taglish narration and captions with Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`) for every episode, a new flow per session, both takes by default. Posts: `docs/publishing/POSTS-ep31-40.md` (PH evening times).
+  - **Status:** Episode 31 delivered; no user approval of any episode; no listening pass.
+
+- **Episode 31 "Dalawa Sila" (2026-11-14):** the Season 4 opener: Clarita Villanueva (Manila City Jail, the old Bilibid, May 1953), a documented case. `Ep31DalawaSila` / `src/horror/ep31/` is 59.97 s, in Taglish.
+  - **Form:** "the examination": only hands, arms, shoes and paper; she is never seen above the shoulder. A bite presses into her forearm in torchlight (hook) → the jail wall, a guard running → the corridor, her door opens → the cell: a cup rolls by itself, two shadows (tall; child-height) grow on the wall → the doctor's hands, the wet mark, a second bite presses in → the press (a reconstructed page, no real masthead) → the mayor's shoes, the hat falls → a photographer's flash: the cot sinks under someone unseen; in flash 2 the shadows stand by the cot → prayer: something crosses under the blanket → the report is typed, the typing stops, a bite presses into the doctor's wrist (our dramatisation) → black, the loop.
+  - **Picture technique:** bite marks drawn live tooth by tooth on a canvas decal (`drawBite`, `Decal`); a blanket plane displaced per frame (ripple, dent); wall shadows are canvas silhouettes on transparent planes.
+  - **Lessons:** hands must enter from the side or far side, never from the lens (sleeves filled the frame); a cell needs a ceiling bulb as well as the floor lamp to read; a cell group's back wall rotates with `-side * π/2`; a child shadow needs shoulders, or it reads as a keyhole.
+  - **Sound:** no score; the jail's room tone, fan, hum, crickets; ElevenLabs SFX (typewriter, press, cup, cell door; about 267 credits, picked by measurement); synthesized wet-pressure bites, flashbulbs, cot springs, the blanket.
+  - **Care:** a minor and a real person: no face, nothing sexualised; doctors' view in the narration; the mayor and the pastor are not named on screen; the prayer is reported, not mocked.
+  - **Voice:** Juanito, both takes at once (1,672 credits; take 1 used), inner pauses capped at 0.24 s, atempo 1.05 to fit 60 s.
+  - **Sound figures:** bed presence −10.3 / −9.5 dB, lines ≥4.8 dB (l08 +1.2), −14.0 LUFS, decoded peak −1.74 dBFS, the loop restarts from black and silence.
+  - **Delivery:** `assets/videos/ep31-clarita-v1/`. Notes are in `docs/production/ep31-clarita/README.md`; the publishing kit is `docs/publishing/ep31/README.md` and `docs/publishing/POSTS-ep31-40.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 32 "Tatlong Katok" (the kumakatok; one street from above).
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".

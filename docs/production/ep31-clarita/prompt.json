@@ -1,0 +1,31 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Walang tao sa selda. Pero may kumakagat sa kanya. [long pause] [softly] Maynila, Mayo, nineteen fifty-three. Isang dalagitang nagngangalang Clarita, nakakulong sa Manila City Jail, ang lumang Bilibid. [long pause] Gabi-gabi, sumisigaw siya. Dalawa raw sila. Isang malaki at maitim. At isang maliit. [long pause] Tinawag ang mga doktor. Ayon sa mga ulat, nakita nila ang mga marka ng ngipin sa braso niya. Basa pa, parang laway. [long pause] Pumunta mismo ang mayor ng Maynila. Sabi niya sa mga reporter, nakita niya ito. [long pause] May mga doktor na nagsabing nasa isip lang ito. Pero walang nakapagpaliwanag sa mga kagat. [long pause] Isang pastor na Amerikano ang nanalangin sa kanya nang ilang araw. Pagkatapos, tumigil daw ang mga kagat. [long pause] [whispers] Dalawa sila. At walang nakakaalam kung saan sila pumunta.",
+    "flow_id": "yHb6WbLuxxQMhDPhRmGR (new flow, 2026-11-14)",
+    "attempts": [
+      "2026-11-14: one call, both takes started at once (836 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep31-take1.mp3: 65.6 s, 836 credits (used)",
+      "public/assets/audio/eleven-takes/ep31-take2.mp3: 68.64 s, 836 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, pauses inside a line capped at 0.24 s, atempo 1.05 to fit 60 s; timeline 59.97 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "yHb6WbLuxxQMhDPhRmGR",
+    "prompts": {
+      "typewriter": "Old 1950s office typewriter typing slowly in a quiet room at night, keys striking paper, a carriage return bell once, no music",
+      "cup": "A tin cup rolling slowly across a concrete prison cell floor and stopping against iron bars, quiet empty cell at night, no music",
+      "press": "An old 1950s newspaper printing press running, rhythmic heavy mechanical clatter of rollers and paper, industrial, no music",
+      "door": "Heavy iron prison cell door with a big lock, keys jingling, the lock turning and the barred door creaking open slowly, echo in a stone corridor, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep31-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: cup-4 (3 s, the longest roll), press-2 (5 s steady, the loudest), door-3 (the loudest of the four), typewriter-4 (3 s, most active)"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #31 (a documented case: Clarita Villanueva, Manila City Jail, May 1953), Taglish version for Juanito"
+}

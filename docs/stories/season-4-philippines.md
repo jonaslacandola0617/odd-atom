@@ -2,7 +2,7 @@
 
 Date: 2026-11-14. The user's brief: "lets proceed with season 4, i want to be philippine based again this time really scary local stories, look for local stories i think reddit has a lot of them, try to research everything facebook, ig, twitter, bloggs, yt etc, everything search for 10 local stories but make sure they are all scary and would freak anyone out."
 
-Status: **a slate for the user to review.** No episode is built, no narration or sound effects are generated, no ElevenLabs credits are spent, nothing has user approval, and no views are guaranteed.
+Status: **approved by the user on 2026-11-14** ("approved, taglish with juanito, start ep 31"): the ten, the order, and Taglish narration and captions with Juanito. Episode 31 is delivered (`docs/production/ep31-clarita/README.md`). No episode has user approval, and no views are guaranteed.
 
 ## What I could and could not reach
 

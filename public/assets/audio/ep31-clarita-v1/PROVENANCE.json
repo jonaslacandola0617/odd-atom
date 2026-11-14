@@ -1,0 +1,132 @@
+{
+  "episode": "Ep31DalawaSila",
+  "duration_seconds": 59.971,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.24 s, atempo 1.05",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep31-take1.mp3",
+    "sha256": "3ce507f8b1d93240473cdcffac268e411870fa9e05c9f25b3597eea0a26496e6",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep31-take1.mp3: 65.6 s, 836 credits (used)",
+      "public/assets/audio/eleven-takes/ep31-take2.mp3: 68.64 s, 836 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep31-clarita/prompt.json"
+  },
+  "original_synthesis": [
+    "NO SCORE: the jail itself (Season 4 sound language for Episode 31): room tone, a ceiling fan, bulbs humming, crickets outside",
+    "the bites (a soft, close, wet pressure, never a crunch), a held breath, running and walking steps, a lamp chain, heel clicks, the hat falling, flashbulbs, the cot springs, the blanket dragging, the lamp flame, low hits (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "yHb6WbLuxxQMhDPhRmGR",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "press-2": {
+        "path": "public/assets/audio/eleven-sfx/ep31-press-2.mp3",
+        "sha256": "277918397f02f0b1bbddddca3bd11590e460eafaaaad0c6d53715e60f20718d0"
+      },
+      "door-3": {
+        "path": "public/assets/audio/eleven-sfx/ep31-door-3.mp3",
+        "sha256": "5af060928f75a83a57e0cd6e2145a318735258d8ddbb2a502736bbb528615c5c"
+      },
+      "cup-4": {
+        "path": "public/assets/audio/eleven-sfx/ep31-cup-4.mp3",
+        "sha256": "a11c2ec0951924e8aa596cb12845a0e778a0702ef53913d5da56688f0fb13cda"
+      },
+      "typewriter-4": {
+        "path": "public/assets/audio/eleven-sfx/ep31-typewriter-4.mp3",
+        "sha256": "8111afdc297ce4cdf3b0a496de57e3a0e50db31f82a2c8fef6bd61b834b5973c"
+      }
+    },
+    "note": "four prompts x four variations (about 68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "there is no music; music_presence measures the whole non-voice bed against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    4.5760000000000005,
+    14.606,
+    30.729,
+    37.275999999999996,
+    37.876000000000005,
+    44.165,
+    57.271
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.74,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -18.9,
+    "last_quarter_second": -240.0
+  },
+  "limiter": "tanh soft limiter, ceiling -7.91 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 1.2
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 14.5,
+      "phone_band_voice_minus_all_db": 19.8,
+      "voice_minus_bed_db": 14.5
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 12.3,
+      "phone_band_voice_minus_all_db": 8.9,
+      "voice_minus_bed_db": 12.3
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 10.4,
+      "phone_band_voice_minus_all_db": 6.6,
+      "voice_minus_bed_db": 10.4
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 22.2,
+      "phone_band_voice_minus_all_db": 20.5,
+      "voice_minus_bed_db": 22.2
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 6.8,
+      "phone_band_voice_minus_all_db": 5.0,
+      "voice_minus_bed_db": 6.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 21.9,
+      "phone_band_voice_minus_all_db": 19.8,
+      "voice_minus_bed_db": 21.9
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 19.3,
+      "phone_band_voice_minus_all_db": 16.6,
+      "voice_minus_bed_db": 19.3
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 9.6,
+      "voice_minus_bed_db": 4.8
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -10.3,
+    "music_minus_voice_in_gaps_db": -9.5,
+    "music_share_of_gaps_seconds": 10.8
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
