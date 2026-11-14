@@ -56,3 +56,7 @@ Figures (`public/assets/audio/ep35-bantay-v1/PROVENANCE.json`): bed presence −
 ## Render
 
 `npm run sound:ep35` then `npm run render:ep35` (stills: `npm run still:ep35`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep35-bantay-v1/ep35-bantay.mp4`: 41,693,428 bytes, SHA-256 `72122067fcdee433a93d9459018d6ebd0339817d77159888764c648a13a285d0`; H.264 1080×1920, 1,561 frames (52.03 s); AAC 52.03 s; measured from the file: −14.0 LUFS, sample peak −1.5 dBFS. The decoded first and last frames differ by 3.46/255 on average (the loop). A contact board of the encoded file was checked for every shot. No listening pass.
