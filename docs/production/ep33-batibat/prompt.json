@@ -1,0 +1,31 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Hindi ka makagalaw. At may nakadagan sa dibdib mo. [long pause] [softly] Sa mga Ilokano, may tinatawag na batibat. Isang matandang espiritu na nakatira sa puno. [long pause] Kapag pinutol ang puno at ginawang haligi ng bahay, sumasama raw siya. [long pause] At sinumang matulog sa tabi ng haliging iyon, dadaganan niya. [long pause] Bangungot naman ang tawag ng iba. Sa isang pag-aaral sa Maynila, halos lahat ng namatay sa pagtulog ay mga lalaki. Kadalasan, bandang alas tres ng madaling-araw. [long pause] Sabi ng mga doktor, may kinalaman ito sa puso at sa paghinga. [long pause] [whispers] Pero kapag nagising ka nang hindi makagalaw, alam mo na ang gagawin. Igalaw mo ang daliri ng paa mo. [long pause] [whispers] Kung kaya mo pa.",
+    "flow_id": "xOvPJ12vuHpmYtP4GLDI (new flow, 2026-11-14)",
+    "attempts": [
+      "2026-11-14: one call, both takes started at once (746 credits each)"
+    ],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep33-take1.mp3: 51.36 s, 746 credits (used)",
+      "public/assets/audio/eleven-takes/ep33-take2.mp3: 51.44 s, 746 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, pauses inside a line capped at 0.32 s, no tempo change; timeline 56.02 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "xOvPJ12vuHpmYtP4GLDI",
+    "prompts": {
+      "breath": "A person in sleep paralysis struggling to breathe, strained shallow gasps through the nose, close and intimate, silent room at night, no music",
+      "tree": "A huge old tree groaning and creaking, then cracking and crashing down to the ground, branches snapping, outdoors at dusk, no music",
+      "clock": "An old pendulum wall clock ticking slowly in a dark wooden house at night, then striking three times, no music",
+      "creak": "An old wooden house post and floorboards creaking slowly under a very heavy weight, deep wood groans, quiet night, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep33-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: breath-2 (3 s, the longest) for the paralysis, breath-1 (the loudest, 1 s) for the gasp; tree-4 (4 s, the loudest; its crash peak at 1.24 s is aligned to the end of the fall); creak-3 (the loudest); no clock take had three clean strikes, so the tick and the chimes are synthesized"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #33 (the batibat, Ilocano folklore, and bangungot), Taglish version for Juanito"
+}

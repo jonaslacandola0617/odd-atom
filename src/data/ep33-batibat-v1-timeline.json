@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 56.02,
+  "duration_frames": 1681,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Hindi ka makagalaw. At may nakadagan sa dibdib mo.",
+      "start": 0.6,
+      "end": 4.27,
+      "kind": "narrator",
+      "beat_before": "hook: his POV on the banig, the ceiling; a vast dark shape leans in from the edge; the frame is pressed down"
+    },
+    {
+      "id": "l02",
+      "text": "Sa mga Ilokano, may tinatawag na batibat. Isang matandang espiritu na nakatira sa puno.",
+      "start": 5.27,
+      "end": 11.8,
+      "kind": "narrator",
+      "beat_before": "the old tree at dusk: its branches bow under a weight no one can see"
+    },
+    {
+      "id": "l03",
+      "text": "Kapag pinutol ang puno at ginawang haligi ng bahay, sumasama raw siya.",
+      "start": 12.8,
+      "end": 17.55,
+      "kind": "narrator",
+      "beat_before": "the tree comes down; then the trunk stands as a post inside a new house"
+    },
+    {
+      "id": "l04",
+      "text": "At sinumang matulog sa tabi ng haliging iyon, dadaganan niya.",
+      "start": 18.55,
+      "end": 22.99,
+      "kind": "narrator",
+      "beat_before": "the new house at night: a man and his wife asleep under the kulambo by the post; the bark moves"
+    },
+    {
+      "id": "l05",
+      "text": "Bangungot naman ang tawag ng iba. Sa isang pag-aaral sa Maynila, halos lahat ng namatay sa pagtulog ay mga lalaki. Kadalasan, bandang alas tres ng madaling-araw.",
+      "start": 24.39,
+      "end": 35.34,
+      "kind": "narrator",
+      "beat_before": "the wall clock: 2:59, the minute hand jumps to 3:00; the kulambo sags as weight settles on it"
+    },
+    {
+      "id": "l06",
+      "text": "Sabi ng mga doktor, may kinalaman ito sa puso at sa paghinga.",
+      "start": 36.34,
+      "end": 40.5,
+      "kind": "narrator",
+      "beat_before": "back in his POV: the face lowers into the frame; his hand trembles at the frame edge"
+    },
+    {
+      "id": "l07",
+      "text": "Pero kapag nagising ka nang hindi makagalaw, alam mo na ang gagawin. Igalaw mo ang daliri ng paa mo.",
+      "start": 41.9,
+      "end": 48.51,
+      "kind": "narrator",
+      "beat_before": "his big toe in the moonlight, trembling; it moves"
+    },
+    {
+      "id": "l08",
+      "text": "Kung kaya mo pa.",
+      "start": 50.71,
+      "end": 51.82,
+      "kind": "narrator",
+      "beat_before": "he gasps awake; the room is empty; beside him his wife, turned away; her foot: the toe does not move"
+    }
+  ]
+}

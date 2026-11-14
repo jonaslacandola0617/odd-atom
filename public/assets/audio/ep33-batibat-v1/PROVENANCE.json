@@ -1,0 +1,128 @@
+{
+  "episode": "Ep33IgalawMoAngDaliri",
+  "duration_seconds": 56.02,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep33-take1.mp3",
+    "sha256": "7f09b1194f633c8e29478c7e00c45e5fecf1bc27eebb0209e86ef7892e49810a",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep33-take1.mp3: 51.36 s, 746 credits (used)",
+      "public/assets/audio/eleven-takes/ep33-take2.mp3: 51.44 s, 746 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep33-batibat/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, an original out-of-tune music-box lullaby, bowed metal, a heartbeat under the toe that stops dead on waking, a reversed swell and stingers (scripts/horror_score.py); all tones loop-quantised",
+    "the house at night, insects that drop away in his POV (paralysis), the clock tick on whole seconds and its three chimes, wind and birds at dusk, the banig, a low hit (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "xOvPJ12vuHpmYtP4GLDI",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "breath-2": {
+        "path": "public/assets/audio/eleven-sfx/ep33-breath-2.mp3",
+        "sha256": "b53666e94f20d69a48c753490ed20487987bb836d43a8c4a75b3fe2a64ea5ee3"
+      },
+      "tree-4": {
+        "path": "public/assets/audio/eleven-sfx/ep33-tree-4.mp3",
+        "sha256": "59e2038ad503bae4270be2557bd56a998dbe7f30bcc287f6a948d49042d525e1"
+      },
+      "creak-3": {
+        "path": "public/assets/audio/eleven-sfx/ep33-creak-3.mp3",
+        "sha256": "7cb650646de385d3791eb1e6740b954ee8ef73aeedcc50ad401eff1770c3b622"
+      },
+      "breath-1": {
+        "path": "public/assets/audio/eleven-sfx/ep33-breath-1.mp3",
+        "sha256": "33f4dab735738da23112e0c75a5fdbddbd2d1a035309ce497ae56a4a113d4363"
+      }
+    },
+    "note": "four prompts x four variations (about 68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    40.8,
+    49.11,
+    50.46
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.48,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -18.9,
+    "last_quarter_second": -18.9
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 1.7,
+    "l07": 1.2,
+    "l08": 0.5
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 6.4,
+      "phone_band_voice_minus_all_db": 9.0,
+      "voice_minus_bed_db": 6.4
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 8.2,
+      "phone_band_voice_minus_all_db": 12.7,
+      "voice_minus_bed_db": 8.2
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 5.4,
+      "phone_band_voice_minus_all_db": 10.3,
+      "voice_minus_bed_db": 5.4
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 6.9,
+      "phone_band_voice_minus_all_db": 9.4,
+      "voice_minus_bed_db": 6.9
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 5.7,
+      "phone_band_voice_minus_all_db": 11.1,
+      "voice_minus_bed_db": 5.7
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.6,
+      "phone_band_voice_minus_all_db": 8.1,
+      "voice_minus_bed_db": 4.6
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 14.2,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 11.9,
+      "voice_minus_bed_db": 4.7
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -10.6,
+    "music_minus_voice_in_gaps_db": -3.1,
+    "music_share_of_gaps_seconds": 13.8
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
