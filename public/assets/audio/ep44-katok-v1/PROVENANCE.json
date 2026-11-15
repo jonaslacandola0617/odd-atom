@@ -1,0 +1,162 @@
+{
+  "episode": "Ep44SumunodAngKatok",
+  "duration_seconds": 48.88,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep44-take1.mp3",
+    "sha256": "59e4c3b5f9b95fc7c5f364545a894c75f30f6757e51714be755c3d10e077e8fb",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": {
+      "take1": {
+        "seconds": 44.96,
+        "credits": 626,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep44-take1.mp3"
+      },
+      "take2": {
+        "seconds": 44.32,
+        "credits": 626,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep44-take2.mp3"
+      }
+    },
+    "prompt": "docs/production/ep44-katok/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, bowed metal, a heartbeat from my bed to the door, a synthesized stinger doubling the ElevenLabs one (scripts/horror_score.py); loop-quantised; it drops out at the wake",
+    "every knock placed on its door in the picture (one knock cut from Episode 32's ElevenLabs take; far doors muffled), candle crackle at the wake, a breath across the seam (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "dVySou8LXQ7oUqrMWw1o",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "house-1": {
+        "path": "public/assets/audio/eleven-sfx/ep44-house-1.mp3",
+        "sha256": "61573a3e32ba69a6d33629510f4a0a97b621c06cdc720f93f4fb9b767f5e5511"
+      },
+      "ep35-prayers-1": {
+        "path": "public/assets/audio/eleven-sfx/ep35-prayers-1.mp3",
+        "sha256": "8d0e58d360e2ad4c64f49a69eb27265750b7bc0babaf76cca123561ffbc97a9b"
+      },
+      "ep32-knock-1": {
+        "path": "public/assets/audio/eleven-sfx/ep32-knock-1.mp3",
+        "sha256": "5faf4092e555e4c5ed9a1f1fa302b3428291e6b61481605d7ca3a240ef167da8"
+      },
+      "ep39-slippers-4": {
+        "path": "public/assets/audio/eleven-sfx/ep39-slippers-4.mp3",
+        "sha256": "25bdcab5c0b6a683d15e27e4467cf2c916a4bb49c3e43e950e670bb283598ec7"
+      },
+      "door-3": {
+        "path": "public/assets/audio/eleven-sfx/ep44-door-3.mp3",
+        "sha256": "490be7d6a051ec87ba8f4c4b9ae8e946c8dc3861d817ad5a1e99bccf7b1e66a9"
+      },
+      "ep41-neck-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-neck-2.mp3",
+        "sha256": "1e85182a3390097ac5a5b5ebc1fc59b68ea6f2cbff6b2a2619de864c9a7c27cc"
+      },
+      "ep41-drone-4": {
+        "path": "public/assets/audio/eleven-sfx/ep41-drone-4.mp3",
+        "sha256": "6029622abf471bb66c2f065e139962df0b5c7c60112bb09c8997a6cddb035869"
+      },
+      "ep41-musicbox-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-musicbox-2.mp3",
+        "sha256": "80252fa4f2b960b32f2d1766182f7c7e56cf301b8ea16bf5fdf077011de134e3"
+      },
+      "ep41-riser-4": {
+        "path": "public/assets/audio/eleven-sfx/ep41-riser-4.mp3",
+        "sha256": "3fa2d3caa1a01453ac09994deb240a1a3988792b18abf3ffb34f49923e8c0521"
+      },
+      "ep41-stinger-1": {
+        "path": "public/assets/audio/eleven-sfx/ep41-stinger-1.mp3",
+        "sha256": "f4a9ff34b15fae48a69c23851025450d1d08849b0d8dd9eacad6360716f91c4d"
+      }
+    },
+    "generated": "2 prompts x 4 variations (about 252 credits): house at night 15 s loop, doorknob and door opening 4 s",
+    "reused": "Episode 32 knock-1, Episode 35 prayers-1, Episode 39 slippers-4, and unused Episode 41 variations (drone-4, stinger-1, riser-4, musicbox-2) with its neck-crack take (neck-2)",
+    "note": "picked by measurement (RMS, peak), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    45.730000000000004
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.27,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -20.2,
+    "last_quarter_second": -24.6
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 14.2,
+      "phone_band_voice_minus_all_db": 20.1,
+      "voice_minus_bed_db": 14.2
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 17.2,
+      "phone_band_voice_minus_all_db": 13.3,
+      "voice_minus_bed_db": 17.2
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 15.1,
+      "phone_band_voice_minus_all_db": 18.0,
+      "voice_minus_bed_db": 15.1
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 14.4,
+      "phone_band_voice_minus_all_db": 17.3,
+      "voice_minus_bed_db": 14.4
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 11.6,
+      "phone_band_voice_minus_all_db": 12.4,
+      "voice_minus_bed_db": 11.6
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 11.8,
+      "phone_band_voice_minus_all_db": 18.0,
+      "voice_minus_bed_db": 11.8
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 11.1,
+      "phone_band_voice_minus_all_db": 12.3,
+      "voice_minus_bed_db": 11.1
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 8.5,
+      "phone_band_voice_minus_all_db": 6.2,
+      "voice_minus_bed_db": 8.5
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.0,
+    "music_minus_voice_in_gaps_db": -4.4,
+    "music_share_of_gaps_seconds": 14.0
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

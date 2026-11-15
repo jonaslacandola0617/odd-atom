@@ -14,6 +14,7 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 | 41 | Bilang sa Bintana | commuter's experience (night UV Express) | `assets/videos/ep41-uv-v1/ep41-bilang-sa-bintana.mp4` | 50.17 s |
 | 42 | Ikalabing-apat | night guards' experience (the elevator) | `assets/videos/ep42-lift-v1/ep42-ikalabing-apat.mp4` | 52.85 s |
 | 43 | Si Jun-Jun | call-center agents' experience (the boy) | `assets/videos/ep43-junjun-v1/ep43-si-jun-jun.mp4` | 49.19 s |
+| 44 | Sumunod ang Katok | an experience after a wake (the knocking) | `assets/videos/ep44-katok-v1/ep44-sumunod-ang-katok.mp4` | 48.88 s |
 
 ---
 
@@ -34,3 +35,9 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 - **YouTube title:** `Sumama pala siya.` (alt: `Si Jun-Jun, sa graveyard shift`)
 - **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep43/README.md`.
 - **Hashtags:** `#kwentongkatatakutan #pinoyhorror #callcenter #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #callcenter #fyp`
+
+## Broadcast 44: Sumunod ang Katok (personal experience, retold)
+
+- **YouTube title:** `Sumunod ang katok pauwi.` (alt: `Huwag mo raw buksan.`)
+- **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep44/README.md`.
+- **Hashtags:** `#kwentongkatatakutan #pinoyhorror #lamay #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #lamay #fyp`

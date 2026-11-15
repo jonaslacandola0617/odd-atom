@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 48.88,
+  "duration_frames": 1466,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Tatlong katok sa pinto ng kuwarto ko. Pero tulog na ang lahat sa bahay.",
+      "start": 0.4,
+      "end": 5.54,
+      "kind": "narrator",
+      "beat_before": "hook: the house from above, ceiling off; three knocks: my door shudders, a light under it"
+    },
+    {
+      "id": "l02",
+      "text": "Galing kami sa probinsya, sa lamay ni Lolo. Siyam na gabi kaming nagbantay.",
+      "start": 6.54,
+      "end": 11.64,
+      "kind": "narrator",
+      "beat_before": "the wake in the province: the coffin, candles, white flowers, mourners"
+    },
+    {
+      "id": "l03",
+      "text": "Unang gabi pag-uwi, may kumatok sa pinto sa harap.",
+      "start": 13.04,
+      "end": 16.4,
+      "kind": "narrator",
+      "beat_before": "from above: night 1, three knocks at the front door; it shudders"
+    },
+    {
+      "id": "l04",
+      "text": "Pangalawang gabi, sa pinto ng kusina.",
+      "start": 17.8,
+      "end": 20.46,
+      "kind": "narrator",
+      "beat_before": "from above: night 2, the kitchen door"
+    },
+    {
+      "id": "l05",
+      "text": "Pangatlong gabi, sa kuwarto nina Mama. Papalapit.",
+      "start": 21.86,
+      "end": 25.83,
+      "kind": "narrator",
+      "beat_before": "from above: night 3, Mama and Papa's door; they sit up in bed"
+    },
+    {
+      "id": "l06",
+      "text": "Ngayong gabi, sa pinto ko na.",
+      "start": 27.43,
+      "end": 29.73,
+      "kind": "narrator",
+      "beat_before": "my POV from bed: under my door the light, and the shadows of two feet; three knocks"
+    },
+    {
+      "id": "l07",
+      "text": "Sabi ni Mama, huwag daw buksan. Baka hindi pa raw siya nakakapagpaalam.",
+      "start": 31.13,
+      "end": 37.0,
+      "kind": "narrator",
+      "beat_before": "my hand on the knob, trembling"
+    },
+    {
+      "id": "l08",
+      "text": "Binuksan ko. Sa dulo ng pasilyo, nakatayo si Lolo. Nakatalikod... pero nakaharap ang mukha niya sa akin.",
+      "start": 38.8,
+      "end": 45.28,
+      "kind": "narrator",
+      "beat_before": "the door opens on the hall: at its end Lolo, his back to me; his head turns round, his body does not"
+    }
+  ]
+}

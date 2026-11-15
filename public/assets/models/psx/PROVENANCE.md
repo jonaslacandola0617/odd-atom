@@ -54,4 +54,13 @@ The user shared these from their Google Drive folder (2026-11-15) and stated tha
 |---|---|---|
 | `characters/Character_12.fbx` + `.png` | `Characters_psx.rar` | `8a260253…` / `f35ab9b5…` |
 
+**Added for Episode 44 (2026-11-15):**
+
+| File | Source archive | SHA-256 |
+|---|---|---|
+| `props/derelict-couch.glb` | `PSX-Derelict-Furniture-Standard.zip` (`glb/couch.glb`) | `87951657…` |
+| `props/derelict-fridge.glb` | `PSX-Derelict-Furniture-Standard.zip` (`glb/fridge.glb`) | `34c39d37…` |
+| `props/derelict-shelf.glb` | `PSX-Derelict-Furniture-Standard.zip` (`glb/shelf.glb`) | `e92fe67e…` |
+| `props/derelict-vase.glb` | `PSX-Derelict-Furniture-Standard.zip` (`glb/vase.glb`) | `aeb035e5…` |
+
 Loaded and posed by `src/horror/psx/models.tsx`.

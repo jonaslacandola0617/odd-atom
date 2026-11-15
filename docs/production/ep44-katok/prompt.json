@@ -1,0 +1,64 @@
+{
+  "flow_id": "dVySou8LXQ7oUqrMWw1o",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
+    "node_id": "hFh8xjAQgJHB4b1GdqYR",
+    "prompt": "[whispers] Tatlong katok sa pinto ng kuwarto ko. Pero tulog na ang lahat sa bahay. [long pause] [softly] Galing kami sa probinsya, sa lamay ni Lolo. Siyam na gabi kaming nagbantay. [long pause] Unang gabi pag-uwi, may kumatok sa pinto sa harap. [long pause] Pangalawang gabi, sa pinto ng kusina. [long pause] Pangatlong gabi, sa kuwarto nina Mama. Papalapit. [long pause] [whispers] Ngayong gabi, sa pinto ko na. [long pause] Sabi ni Mama, huwag daw buksan. Baka hindi pa raw siya nakakapagpaalam. [long pause] [whispers] Binuksan ko. Sa dulo ng pasilyo, nakatayo si Lolo. Nakatalikod... pero nakaharap ang mukha niya sa akin.",
+    "takes": {
+      "take1": {
+        "seconds": 44.96,
+        "credits": 626,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep44-take1.mp3"
+      },
+      "take2": {
+        "seconds": 44.32,
+        "credits": 626,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep44-take2.mp3"
+      }
+    }
+  },
+  "sfx": {
+    "house-night-loop": {
+      "node_id": "D8yKEbRUEbdv9L2Ub6hF",
+      "prompt": "Inside a quiet Filipino house at 3 a.m.: an electric fan whirring in another room, an old refrigerator humming, crickets and a distant dog outside, wooden house settling, still and uneasy night ambience.",
+      "duration_seconds": 15,
+      "loop": true,
+      "variations": 4,
+      "credits_each": 50,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep44-house-1.mp3",
+        "public/assets/audio/eleven-sfx/ep44-house-2.mp3",
+        "public/assets/audio/eleven-sfx/ep44-house-3.mp3",
+        "public/assets/audio/eleven-sfx/ep44-house-4.mp3"
+      ]
+    },
+    "door-open": {
+      "node_id": "ux4XxH1FEOC5FitsrYfK",
+      "prompt": "A trembling hand slowly turning an old metal doorknob, the latch clicking, then a wooden bedroom door creaking open slowly into a silent hallway.",
+      "duration_seconds": 4,
+      "loop": false,
+      "variations": 4,
+      "credits_each": 13,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep44-door-1.mp3",
+        "public/assets/audio/eleven-sfx/ep44-door-2.mp3",
+        "public/assets/audio/eleven-sfx/ep44-door-3.mp3",
+        "public/assets/audio/eleven-sfx/ep44-door-4.mp3"
+      ]
+    }
+  },
+  "reused": [
+    "public/assets/audio/eleven-sfx/ep32-knock-1.mp3",
+    "ep35-prayers-1.mp3",
+    "ep39-slippers-4.mp3",
+    "ep41-drone-4.mp3",
+    "ep41-stinger-1.mp3",
+    "ep41-riser-4.mp3",
+    "ep41-musicbox-2.mp3",
+    "ep41-neck-2.mp3"
+  ],
+  "note": "Picks made by measurement (RMS, peak), not by listening."
+}

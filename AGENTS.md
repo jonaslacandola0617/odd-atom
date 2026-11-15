@@ -100,6 +100,28 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 44 "Sumunod ang Katok" (the knocking that followed the family home).
 
+- **Episode 44 "Sumunod ang Katok" (2026-11-15):** the user asked for the "next ep". After a grandfather's wake, knocking follows the family home, door by door, retold. `Ep44SumunodAngKatok` / `src/horror/ep44/` is 48.88 s, in Taglish, with the score and seamless loop.
+  - **Form:** "the plan": the house straight down from above, the knocking climbing the plan.
+    - Three knocks at my door (hook; across the seam).
+    - The wake.
+    - The front door, the kitchen door, Mama and Papa's door.
+    - From my bed: the light under my door and the shadows of two feet.
+    - My hand on the knob.
+    - Down the hall, Lolo with his back to me: his head turns round in snaps, his body does not; then he is nearer.
+    - The loop.
+  - **Picture technique:** a `Wall` helper with door gaps, `Door` (hinge, shake, glow), derelict-pack furniture; Lolo is `Character_29`, pale.
+  - **Lessons:**
+    - a top-down floor plan needs a high camera and a narrow lens (about 15 m, 26°);
+    - keep a wake's candles inside the portrait cone.
+  - **Sound:**
+    - generated: house at night (15 s loop) and a doorknob and door (flow `dVySou8LXQ7oUqrMWw1o`, about 252 credits, all variations in Git);
+    - reused: Episode 32's knock (cut and placed on every door), Episode 35's prayers, Episode 39's slippers, and Episode 41's unused drone, stinger, riser and music box.
+  - **Voice:** Juanito, both takes (1,252 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −12.0 / −4.4 dB, lines ≥8.5 dB with no lifts, −14.0 LUFS, decoded peak −1.27 dBFS.
+  - **Delivery:** `assets/videos/ep44-katok-v1/`. Notes are in `docs/production/ep44-katok/README.md`; the publishing kit is `docs/publishing/ep44/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 45 "Ang Humahaplos" (the campus CR).
+
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.
   - **Kit:** `src/horror/psx/models.tsx` (`PsxCharacter`, `PsxProp`, `applyPose` with world-axis bone rotations, `ARMS_DOWN`, `SIT`, PS1 materials). Files in use: `public/assets/models/psx/` with `PROVENANCE.md`.
