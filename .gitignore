@@ -9,3 +9,7 @@ __pycache__/
 .env.local
 references/videos/
 references/frames/
+
+# PSX packs from the user's Drive: licences unconfirmed, keep out of Git (docs/stories/original-series/transfers/PSX-ASSETS.md)
+public/assets/3d/psx-local/
+assets3d/psx-local/
