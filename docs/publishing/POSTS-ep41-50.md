@@ -13,6 +13,7 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 |---|---|---|---|---|
 | 41 | Bilang sa Bintana | commuter's experience (night UV Express) | `assets/videos/ep41-uv-v1/ep41-bilang-sa-bintana.mp4` | 50.17 s |
 | 42 | Ikalabing-apat | night guards' experience (the elevator) | `assets/videos/ep42-lift-v1/ep42-ikalabing-apat.mp4` | 52.85 s |
+| 43 | Si Jun-Jun | call-center agents' experience (the boy) | `assets/videos/ep43-junjun-v1/ep43-si-jun-jun.mp4` | 49.19 s |
 
 ---
 
@@ -27,3 +28,9 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 - **YouTube title:** `Tumatabi na lang ako. Para makalabas siya.` (alt: `Ang elevator galing sa ikalabing-apat`)
 - **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep42/README.md`.
 - **Hashtags:** `#kwentongkatatakutan #pinoyhorror #nightshift #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #nightshift #fyp`
+
+## Broadcast 43: Si Jun-Jun (personal experience, retold)
+
+- **YouTube title:** `Sumama pala siya.` (alt: `Si Jun-Jun, sa graveyard shift`)
+- **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep43/README.md`.
+- **Hashtags:** `#kwentongkatatakutan #pinoyhorror #callcenter #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #callcenter #fyp`

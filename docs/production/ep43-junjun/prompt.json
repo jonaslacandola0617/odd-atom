@@ -1,0 +1,104 @@
+{
+  "flow_id": "USvypiF3DYNfkpU534SP",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
+    "node_id": "NWzXMJHyUo6aoZvAn3kT",
+    "prompt": "[whispers] Alas-dos ng madaling-araw, may batang naglalaro sa ilalim ng mga mesa namin. [long pause] [softly] Call center agent ako noon. Graveyard shift, sa isang lumang building. [long pause] Jun-Jun ang tawag sa kanya ng mga matagal na. Huwag mo raw siyang pansinin. [long pause] Sa pagitan ng mga tawag, naririnig ko siyang tumatakbo sa likod ko. [long pause] Sa itim na monitor, nakita ko siya. Nakaupo sa paanan ko. [long pause] Nag-resign ako. Lumipat ng kumpanya, ibang building. [long pause] Unang gabi sa bagong floor, may humila sa kable ng headset ko. [long pause] [whispers] Pagsilip ko sa ilalim ng mesa... nandoon siya. Sumama pala siya.",
+    "takes": {
+      "take1": {
+        "seconds": 45.6,
+        "credits": 652,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep43-take1.mp3"
+      },
+      "take2": {
+        "seconds": 44.8,
+        "credits": 652,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep43-take2.mp3"
+      }
+    }
+  },
+  "sfx": {
+    "callcenter-floor-loop": {
+      "node_id": "gjaPi8FIQlBSvTogjN37",
+      "prompt": "A large office call center floor at 2 a.m., mostly empty: air conditioning hum, computer fans, a few distant agents murmuring quietly into headsets, occasional keyboard typing, buzzing fluorescent lights, lonely late-night ambience.",
+      "duration_seconds": 15,
+      "loop": true,
+      "variations": 4,
+      "credits_each": 50,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep43-floor-1.mp3",
+        "public/assets/audio/eleven-sfx/ep43-floor-2.mp3",
+        "public/assets/audio/eleven-sfx/ep43-floor-3.mp3",
+        "public/assets/audio/eleven-sfx/ep43-floor-4.mp3"
+      ]
+    },
+    "small-feet-running": {
+      "node_id": "aR3hGHKyUjbTWuHVtx6W",
+      "prompt": "Small bare feet of a little child running quickly across office carpet behind you, light soft rapid footsteps passing from left to right, then stopping suddenly, quiet room.",
+      "duration_seconds": 4,
+      "loop": false,
+      "variations": 4,
+      "credits_each": 13,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep43-feet-1.mp3",
+        "public/assets/audio/eleven-sfx/ep43-feet-2.mp3",
+        "public/assets/audio/eleven-sfx/ep43-feet-3.mp3",
+        "public/assets/audio/eleven-sfx/ep43-feet-4.mp3"
+      ]
+    },
+    "faint-giggle": {
+      "node_id": "M0miGMDLZYYSRWTOBtW5",
+      "prompt": "A single faint, breathy giggle of a small child, far away under a desk in a dark empty office, eerie, soft echo.",
+      "duration_seconds": 3,
+      "loop": false,
+      "variations": 4,
+      "credits_each": 10,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep43-giggle-1.mp3",
+        "public/assets/audio/eleven-sfx/ep43-giggle-2.mp3",
+        "public/assets/audio/eleven-sfx/ep43-giggle-3.mp3",
+        "public/assets/audio/eleven-sfx/ep43-giggle-4.mp3"
+      ]
+    },
+    "headset-tones": {
+      "node_id": "pQ8LVA08ZyMScZCc4LOa",
+      "prompt": "Call center headset sounds: a soft electronic incoming-call beep, a click, then the faint hiss of an open line, and a short disconnect tone.",
+      "duration_seconds": 3,
+      "loop": false,
+      "variations": 4,
+      "credits_each": 10,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep43-headset-1.mp3",
+        "public/assets/audio/eleven-sfx/ep43-headset-2.mp3",
+        "public/assets/audio/eleven-sfx/ep43-headset-3.mp3",
+        "public/assets/audio/eleven-sfx/ep43-headset-4.mp3"
+      ]
+    },
+    "cable-tug": {
+      "node_id": "cdmROrGGyrUQqnWkfFsz",
+      "prompt": "A headset cable being tugged slowly in short jerks from under a desk, plastic cable scraping across the desk edge, a headset sliding on a laminate desk, then a small thud.",
+      "duration_seconds": 4,
+      "loop": false,
+      "variations": 4,
+      "credits_each": 13,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep43-cable-1.mp3",
+        "public/assets/audio/eleven-sfx/ep43-cable-2.mp3",
+        "public/assets/audio/eleven-sfx/ep43-cable-3.mp3",
+        "public/assets/audio/eleven-sfx/ep43-cable-4.mp3"
+      ]
+    }
+  },
+  "reused": [
+    "public/assets/audio/eleven-sfx/ep41-musicbox-1.mp3",
+    "ep41-drone-3.mp3",
+    "ep41-stinger-4.mp3",
+    "ep41-riser-2.mp3",
+    "ep41-whispers-3.mp3",
+    "ep41-neck-2.mp3"
+  ],
+  "note": "Picks made by measurement (RMS, peak), not by listening."
+}

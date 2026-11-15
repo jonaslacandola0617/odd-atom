@@ -48,4 +48,10 @@ The user shared these from their Google Drive folder (2026-11-15) and stated tha
 | `props/office/wall_clock.glb` | `OFFICE` | `6a2e89b5…` |
 | `props/office/water_cooler.glb` | `OFFICE` | `0861481c…` |
 
+**Added for Episode 43 (2026-11-15):** scaled to a child's height with an enlarged head (a `scale` pose step); the packs have no child model.
+
+| File | Source archive | SHA-256 |
+|---|---|---|
+| `characters/Character_12.fbx` + `.png` | `Characters_psx.rar` | `8a260253…` / `f35ab9b5…` |
+
 Loaded and posed by `src/horror/psx/models.tsx`.

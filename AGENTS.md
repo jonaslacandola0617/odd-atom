@@ -75,6 +75,31 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 43 "Si Jun-Jun" (the call-center boy).
 
+- **Episode 43 "Si Jun-Jun" (2026-11-15):** the user asked for the "next ep". Call-center agents' experience of the boy on the 2 a.m. floor who follows an agent to a new company, retold. `Ep43SiJunJun` / `src/horror/ep43/` is 49.19 s, in Taglish, with the score and seamless loop.
+  - **Form:** "under the desks": the boy is never whole and lit.
+    - He runs past in the aisle, seen from inside a desk's cave (hook).
+    - The floor; the senior agent looks at me, then at the floor.
+    - Feet behind me; a chair rolls by itself.
+    - In my dark monitor (the view from it, mirrored), his head at my feet, lifting.
+    - My chair turns toward the exit; the new floor.
+    - My headset cable tugged in jerks.
+    - Under my desk he hugs his knees; his head snaps up to the lens.
+    - The loop.
+  - **The boy:** `Character_12` scaled to 1.12 m with a new `['scale', s]` pose step (head ×1.38), because the packs have no child model.
+  - **Lessons:**
+    - keep cameras out of panel planes (a black frame);
+    - light and follow the prop in a "behind me" turn;
+    - shoot under a desk from below desk-top height with the chair removed;
+    - the office chair GLB has no texture (tint it).
+  - **Sound:**
+    - generated: the call floor (15 s loop), small feet, a giggle, headset tones, a cable tug (flow `USvypiF3DYNfkpU534SP`, about 384 credits, all variations in Git);
+    - reused: Episode 41's unused music box, drone, stinger, riser and whispers.
+  - **Voice:** Juanito, both takes (1,304 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −9.9 / −3.1 dB, lines ≥6.2 dB with no lifts, −14.0 LUFS, decoded peak −2.24 dBFS.
+  - **Delivery:** `assets/videos/ep43-junjun-v1/`. Notes are in `docs/production/ep43-junjun/README.md`; the publishing kit is `docs/publishing/ep43/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 44 "Sumunod ang Katok" (the knocking that followed the family home).
+
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.
   - **Kit:** `src/horror/psx/models.tsx` (`PsxCharacter`, `PsxProp`, `applyPose` with world-axis bone rotations, `ARMS_DOWN`, `SIT`, PS1 materials). Files in use: `public/assets/models/psx/` with `PROVENANCE.md`.

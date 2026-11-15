@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 49.19,
+  "duration_frames": 1476,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Alas-dos ng madaling-araw, may batang naglalaro sa ilalim ng mga mesa namin.",
+      "start": 0.4,
+      "end": 5.59,
+      "kind": "narrator",
+      "beat_before": "hook: under a desk, chair wheels; small bare feet run past between the desks"
+    },
+    {
+      "id": "l02",
+      "text": "Call center agent ako noon. Graveyard shift, sa isang lumang building.",
+      "start": 6.59,
+      "end": 11.36,
+      "kind": "narrator",
+      "beat_before": "the floor at 2 a.m. from above the cubicles: a few agents in headsets, monitors glowing"
+    },
+    {
+      "id": "l03",
+      "text": "Jun-Jun ang tawag sa kanya ng mga matagal na. Huwag mo raw siyang pansinin.",
+      "start": 12.36,
+      "end": 16.37,
+      "kind": "narrator",
+      "beat_before": "the senior agent beside me leans back, looks at me, then down at the floor"
+    },
+    {
+      "id": "l04",
+      "text": "Sa pagitan ng mga tawag, naririnig ko siyang tumatakbo sa likod ko.",
+      "start": 17.77,
+      "end": 21.94,
+      "kind": "narrator",
+      "beat_before": "my POV at my screen between calls; behind me a chair rolls by itself"
+    },
+    {
+      "id": "l05",
+      "text": "Sa itim na monitor, nakita ko siya. Nakaupo sa paanan ko.",
+      "start": 23.74,
+      "end": 28.14,
+      "kind": "narrator",
+      "beat_before": "the dark second monitor: my face in it, and at my feet a small figure, head bowed"
+    },
+    {
+      "id": "l06",
+      "text": "Nag-resign ako. Lumipat ng kumpanya, ibang building.",
+      "start": 29.74,
+      "end": 33.26,
+      "kind": "narrator",
+      "beat_before": "my cleared desk on the old floor; my chair turns by itself toward the exit"
+    },
+    {
+      "id": "l07",
+      "text": "Unang gabi sa bagong floor, may humila sa kable ng headset ko.",
+      "start": 34.66,
+      "end": 38.78,
+      "kind": "narrator",
+      "beat_before": "the new floor, other colours; my headset cable on the desk, pulled down in jerks"
+    },
+    {
+      "id": "l08",
+      "text": "Pagsilip ko sa ilalim ng mesa... nandoon siya. Sumama pala siya.",
+      "start": 40.78,
+      "end": 45.59,
+      "kind": "narrator",
+      "beat_before": "I lean down to look under the desk: dark, then him, hugging his knees"
+    }
+  ]
+}

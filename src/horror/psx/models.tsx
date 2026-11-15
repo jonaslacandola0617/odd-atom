@@ -102,7 +102,7 @@ const useAsset = (path: string, tex?: string, tint?: {color?: string; emissive?:
 export type Axis = 'x' | 'y' | 'z';
 /** One step for a bone, in the character's own space: a rotation about an axis, or 'aim', which turns
  *  the bone so it points (toward its first child bone) along a direction, whatever its rest angle. */
-export type Step = [Axis, number] | ['aim', [number, number, number]];
+export type Step = [Axis, number] | ['aim', [number, number, number]] | ['scale', number];
 /** bone name (without the "mixamorig" prefix) -> steps, applied in order */
 export type Pose = Record<string, Step[]>;
 const AX = {x: new THREE.Vector3(1, 0, 0), y: new THREE.Vector3(0, 1, 0), z: new THREE.Vector3(0, 0, 1)};
@@ -114,6 +114,13 @@ const applyPose = (root: THREE.Object3D, pose: Pose) => {
 		return m;
 	})()) as Map<THREE.Bone, THREE.Quaternion>;
 	rest.forEach((q, b) => b.quaternion.copy(q));
+	// bone scales (a 'scale' step, e.g. a child's larger head) are reset to rest on every pose as well
+	const restS = (root.userData.restS ??= (() => {
+		const m = new Map<THREE.Bone, THREE.Vector3>();
+		root.traverse((b) => (b as THREE.Bone).isBone && m.set(b as THREE.Bone, b.scale.clone()));
+		return m;
+	})()) as Map<THREE.Bone, THREE.Vector3>;
+	restS.forEach((v, b) => b.scale.copy(v));
 	// work in the character's own space: undo the root's own transform
 	const rootInv = new THREE.Quaternion();
 	root.updateMatrixWorld(true);
@@ -130,6 +137,10 @@ const applyPose = (root: THREE.Object3D, pose: Pose) => {
 		qs.identity();
 		const child = b.children.find((k) => (k as THREE.Bone).isBone);
 		for (const [kind, v] of spec) {
+			if (kind === 'scale') {
+				b.scale.copy(restS.get(b)!).multiplyScalar(v as number);
+				continue;
+			}
 			if (kind === 'aim') {
 				if (!child) continue;
 				// where the bone points now (rest, under its posed parents), in character space
