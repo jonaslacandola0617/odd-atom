@@ -20,6 +20,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 | 37 | Pitong Biyernes | folk belief (barang) + tradition (Siquijor healers) | `assets/videos/ep37-barang-v1/ep37-pitong-biyernes.mp4` | 51.91 s |
 | 38 | FWD: Ingat Kayo | urban legend (Maria Labo, chain text) | `assets/videos/ep38-labo-v1/ep38-fwd-ingat-kayo.mp4` | 48.67 s |
 | 39 | Sino ang Susundo | folk belief (sundo) | `assets/videos/ep39-sundo-v1/ep39-sino-ang-susundo.mp4` | 48.79 s |
+| 40 | Patayin ang Ilaw | history + reported haunting (Malinta Tunnel, finale) | `assets/videos/ep40-malinta-v1/ep40-patayin-ang-ilaw.mp4` | 59.91 s |
 
 ---
 
@@ -135,3 +136,14 @@ Alternative: `Hindi ako ang sinusundo niya.`
 **Pinned comment:** `May nakaupo na ba sa kabilang upuan sa unang segundo? 🪑`
 
 Full kit: `docs/publishing/ep39/README.md`.
+
+## Broadcast 40: Patayin ang Ilaw (history and reported haunting, finale)
+
+**YouTube title:** `Patayin ang ilaw.`
+Alternative: `Anim kami. Pito ang sumagot.`
+
+**TikTok caption:** `sa night tour ng malinta, pinapapatay ang lahat ng ilaw 🔦 anim kami. pito ang sumagot. #corregidor #malintatunnel #kwentongkatatakutan #pinoyhorror #fyp #fypシ`
+
+**Pinned comment:** `Ilang ilaw ang nasa unang segundo? At ilang tao? 🔦`
+
+Full kit: `docs/publishing/ep40/README.md`.
