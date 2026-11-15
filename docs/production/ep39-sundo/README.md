@@ -53,3 +53,7 @@ Figures (`public/assets/audio/ep39-sundo-v1/PROVENANCE.json`): bed presence −1
 ## Render
 
 `npm run sound:ep39` then `npm run render:ep39` (stills: `npm run still:ep39`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep39-sundo-v1/ep39-sino-ang-susundo.mp4`: 38,821,136 bytes, SHA-256 `46e40a63e5ed80b59a6ef5e4d1959171bc1a4a4f15135353c55a2397d7f2a503`; H.264 1080×1920, 1,460 frames (48.67 s); AAC 48.79 s; measured from the file: −14.1 LUFS, sample peak −1.1 dBFS. The decoded first and last frames differ by 4.83/255 on average (the loop). A contact board of the encoded file (one frame every 3 s) was checked for every shot. No listening pass.
