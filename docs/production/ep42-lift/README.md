@@ -54,7 +54,7 @@ The lobby is shown in colour. The 14th floor is seen only through its CCTV: grey
   - lines ≥4.6 dB over everything else (lifts: l01 +0.8, l08 +0.5);
   - −14.0 LUFS; decoded peak −1.06 dBFS;
   - no stinger inside speech.
-- **The seam:** −12.4 / −22.2 dBFS. The hook's ding falls 0.15 s after the seam, inside the first measured quarter-second. The beds run continuously across it.
+- **The seam:** last frame vs frame 0: 5.19/255 (the indicator stepping to L). Audio −12.4 / −22.2 dBFS. The hook's ding falls 0.15 s after the seam, inside the first measured quarter-second. The beds run continuously across it.
 
 ## Voice
 
