@@ -109,7 +109,14 @@ added by `python3 scripts/transfers_psx_test_sound.py`. The renders are local on
   shading (shirt, jeans, hair, skin and shoes for Nico; skirt and blouse for Bea).
 - Face swapping: whole-texture swaps (`setFace`), as PS1 games did, work and cost nothing
   at render time.
-- The user's eyeglasses model on Nico's head bone (it replaced my box frames).
+- The user's eyeglasses model on Nico's head bone (it replaced my box frames). **Fit
+  (after the user's "isnt properly sitting … the frames look big"):** `fitGlasses` in
+  `PsxTest.tsx` measures the head instead of guessing. It finds the pupils on the mesh from
+  their texture position, sizes the frame to 1.18 × his eye spacing (`GLASSES_SIZE`), sets
+  the frame's back face 5 mm off the eyes and drops it 5 mm so the bridge rests on the nose
+  root. The arms end inside his low-poly head, as in PS1 games. Check views:
+  `node scripts/render_transfers_psx.cjs --glasses` (front, 3/4, both profiles, at 320 and
+  960 wide).
 
 ### What did not work (yet)
 - **Nico's beard.** The base has a full photo beard; lifting it towards skin leaves a heavy

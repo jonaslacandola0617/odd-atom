@@ -25,6 +25,7 @@ const STILLS = [
 	['tape-1991-wide', 'TransfersPsxStill', {shot: 'tape', f: 5}],
 	['tape-1991-push', 'TransfersPsxStill', {shot: 'tape', f: 85}],
 ];
+const GLASSES = [0, -0.6, -Math.PI / 2, Math.PI / 2, 0.6].flatMap((turn, i) => [[`glasses-${i}-320`, 'TransfersPsxSheet', {mode: 'glasses', turn}], [`glasses-${i}-960`, 'TransfersPsxSheet', {mode: 'glasses', turn, lw: 960}]]);
 const SHEETS = [
 	['sheet-turnaround', 'TransfersPsxSheet', {mode: 'turn'}],
 	['sheet-before', 'TransfersPsxSheet', {mode: 'before'}],
@@ -36,7 +37,7 @@ const SHEETS = [
 	const browser = await openBrowser('chrome', {browserExecutable: pick(), chromiumOptions: {gl: 'swangle'}});
 	const times = {};
 	try {
-		const jobs = [...(arg('--stills') ? STILLS : []), ...(arg('--sheets') ? SHEETS : [])].filter(([n]) => !only || only.includes(n));
+		const jobs = [...(arg('--stills') ? STILLS : []), ...(arg('--sheets') ? SHEETS : []), ...(arg('--glasses') ? GLASSES : [])].filter(([n]) => !only || only.includes(n));
 		let warm = false;
 		for (const [name, id, props] of jobs) {
 			const composition = await selectComposition({serveUrl, id, inputProps: props, puppeteerInstance: browser});

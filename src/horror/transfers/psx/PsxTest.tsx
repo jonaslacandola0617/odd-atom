@@ -187,6 +187,62 @@ const poseAsleep = (c: Char, B: Bones) => {
 };
 
 /** Nico's own 3D additions on the restyled pack body: black rectangular glasses and messy black hair clumps. */
+// The user's eyeglasses model (oculos.obj, 2026-11-15), measured in glTF units: frame front 1.547 wide
+// (x -0.769..0.778), lens centres at x = +-0.414, lens/frame centre y = 0.005, frame back face z = 0.43,
+// front z = 0.487, temples run back to z = -0.868.
+const GL = {lensX: 0.414, frameW: 1.547, centreY: 0.005, backZ: 0.43};
+/** Frame size relative to Nico's eye spacing (1 = lens centres exactly on the pupils). */
+const GLASSES_SIZE = 1.18;
+// Nico's pupils on his 256x256 face texture (texels), see assets3d/characters/psx/restyle_textures.py
+const NICO_EYES_TEX: [number, number][] = [[161.5, 45.2], [182.6, 45.2]];
+
+/** Find the surface point (holder frame) whose UV is `uv`, among triangles accepted by `keep`. */
+const pointAtUV = (mesh: THREE.SkinnedMesh, toHolder: THREE.Matrix4, uv: [number, number], keep: (p: THREE.Vector3) => boolean) => {
+	const g = mesh.geometry;
+	const pos = g.getAttribute('position'), uvs = g.getAttribute('uv');
+	const idx = g.getIndex();
+	const n = idx ? idx.count : pos.count;
+	const P = (i: number) => mesh.applyBoneTransform(i, new THREE.Vector3().fromBufferAttribute(pos, i)).applyMatrix4(mesh.matrixWorld).applyMatrix4(toHolder);
+	for (let t = 0; t < n; t += 3) {
+		const [i0, i1, i2] = [0, 1, 2].map((k) => (idx ? idx.getX(t + k) : t + k));
+		const [ax, ay, bx, by, cx, cy] = [uvs.getX(i0), uvs.getY(i0), uvs.getX(i1), uvs.getY(i1), uvs.getX(i2), uvs.getY(i2)];
+		const d = (by - cy) * (ax - cx) + (cx - bx) * (ay - cy);
+		if (Math.abs(d) < 1e-12) continue;
+		const w0 = ((by - cy) * (uv[0] - cx) + (cx - bx) * (uv[1] - cy)) / d;
+		const w1 = ((cy - ay) * (uv[0] - cx) + (ax - cx) * (uv[1] - cy)) / d;
+		const w2 = 1 - w0 - w1;
+		if (w0 < -1e-4 || w1 < -1e-4 || w2 < -1e-4) continue;
+		const p = P(i0).multiplyScalar(w0).add(P(i1).multiplyScalar(w1)).add(P(i2).multiplyScalar(w2));
+		if (keep(p)) return p;
+	}
+	return null;
+};
+
+/** Measured fit of the glasses on Nico's head (holder frame, rest pose): centre, scale. */
+export type GlassesFit = {centre: THREE.Vector3; k: number; eyeL: THREE.Vector3; eyeR: THREE.Vector3; headW: number; earW: number; noseZ: number};
+const fitGlasses = (c: Char, mesh: THREE.SkinnedMesh, pts: THREE.Vector3[], top: number): GlassesFit => {
+	const toHolder = c.holder.matrixWorld.clone().invert();
+	const front = (p: THREE.Vector3) => p.y > top - 0.2 && p.z > 0;
+	const [eyeL, eyeR] = NICO_EYES_TEX.map(([u, v]) => pointAtUV(mesh, toHolder, [u / 256, v / 256], front)!);
+	const mid = eyeL.clone().add(eyeR).multiplyScalar(0.5);
+	const eyeZ = Math.max(eyeL.z, eyeR.z);
+	// head width just behind the eyes (temple level), and at the ears where the arms pass
+	const band = pts.filter((p) => Math.abs(p.y - mid.y) < 0.025);
+	const headW = 2 * Math.max(...band.filter((p) => p.z < eyeZ - 0.025 && p.z > eyeZ - 0.07).map((p) => Math.abs(p.x - mid.x)));
+	const earW = 2 * Math.max(...band.filter((p) => p.z < eyeZ - 0.07 && p.z > eyeZ - 0.15).map((p) => Math.abs(p.x - mid.x)));
+	// nose root: the most forward point between the eyes, at and just above eye level
+	const noseZ = Math.max(...pts.filter((p) => Math.abs(p.x - mid.x) < 0.012 && p.y > mid.y - 0.004 && p.y < mid.y + 0.012).map((p) => p.z));
+	const ipd = eyeL.distanceTo(eyeR);
+	// sized from his eye spacing (user, 2026-11-15: "the frames look big for nico"); the arms end inside his
+	// low-poly head, as in PS1 games, rather than the frame being widened to clear it
+	const k = (GLASSES_SIZE * ipd) / (2 * GL.lensX);
+	// sitting on the face: back face 5 mm off the eyes, the bridge resting on (slightly into) the nose root,
+	// lowered so the pupils sit just above the lens centres
+	const backZ = eyeZ + 0.005;
+	const centre = V(mid.x, mid.y - GL.centreY * k - 0.005, backZ - GL.backZ * k);
+	return {centre, k, eyeL, eyeR, headW, earW, noseZ};
+};
+
 const addNicoParts = (c: Char, glassesModel?: THREE.Object3D) => {
 	const head = c.bone(NICO_B.head);
 	c.holder.updateMatrixWorld(true);
@@ -204,13 +260,13 @@ const addNicoParts = (c: Char, glassesModel?: THREE.Object3D) => {
 	}
 	const top = Math.max(...pts.map((p) => p.y));
 	const front = Math.max(...pts.filter((p) => p.y > top - 0.16 && p.y < top - 0.08).map((p) => p.z));
-	const eyeY = top - 0.112, eyeZ = front - (glassesModel ? 0.012 : 0.001);
 	const headInv = head.matrixWorld.clone().invert();
-	const toHead = (p: THREE.Vector3) => c.holder.localToWorld(p.clone()).applyMatrix4(headInv);
 	const restQ = head.getWorldQuaternion(new THREE.Quaternion()).invert().multiply(c.holder.getWorldQuaternion(new THREE.Quaternion()));
 	const g = new THREE.Group();
+	let at = V(0, top - 0.112, front - 0.001);
 	if (glassesModel) {
-		// the user's eyeglasses model (oculos.obj, 2026-11-15): 1.55 units wide, frame front at +0.487 z
+		const fit = fitGlasses(c, mesh, pts, top);
+		c.holder.userData.glassesFit = fit;
 		const m = glassesModel.clone(true);
 		psxify(m, P);
 		m.traverse((o) => {
@@ -220,13 +276,11 @@ const addNicoParts = (c: Char, glassesModel?: THREE.Object3D) => {
 			mat.alphaTest = 0.5;
 			mat.side = THREE.DoubleSide;
 		});
-		const k = 0.138 / 1.547;
-		m.scale.setScalar(k);
-		m.position.set(-0.0045 * k, 0.002, -0.487 * k + 0.009);
+		m.scale.setScalar(fit.k);
 		g.add(m);
+		at = fit.centre;
 	} else {
 		const frameMat = lam({color: '#0c0b0b'});
-		const g = new THREE.Group();
 		const rim = 0.0045, lw = 0.04, lh = 0.025, gap = 0.012;
 		for (const sx of [1, -1]) {
 			const cx = sx * (gap / 2 + lw / 2);
@@ -235,15 +289,11 @@ const addNicoParts = (c: Char, glassesModel?: THREE.Object3D) => {
 			g.add(box(rim, lh, rim, frameMat, [cx + sx * lw / 2, 0, 0]));
 			g.add(box(rim, lh, rim, frameMat, [cx - sx * lw / 2, 0, 0]));
 			g.add(box(rim, rim, 0.1, frameMat, [sx * (gap / 2 + lw), lh / 2 - 0.004, -0.05]));
-			const lens = new THREE.Mesh(new THREE.PlaneGeometry(lw, lh), psx(new THREE.MeshLambertMaterial({color: '#c8d8e8', transparent: true, opacity: 0.1, depthWrite: false}), P));
-			lens.position.set(cx, 0, 0.001);
-			lens.userData.lens = true;
-			g.add(lens);
 		}
 		g.add(box(gap, rim, rim, frameMat, [0, lh / 2 - 0.004, 0]));
-}
+	}
 	g.traverse((o) => { (o as THREE.Mesh).userData.noFace = true; });
-	g.position.copy(toHead(V(0, eyeY, eyeZ)));
+	g.position.copy(c.holder.localToWorld(at.clone()).applyMatrix4(headInv));
 	g.quaternion.copy(restQ);
 	g.scale.setScalar(1 / head.getWorldScale(new THREE.Vector3()).x);
 	head.add(g);
@@ -584,8 +634,8 @@ const FogBg: React.FC<{color: string; near: number; far: number}> = ({color, nea
 	return null;
 };
 
-const Pixel: React.FC<{w: number; h: number; children: React.ReactNode; style?: React.CSSProperties}> = ({w, h, children, style}) => (
-	<div style={{position: 'absolute', left: (1920 - w * K) / 2, top: (1080 - h * K) / 2, width: w, height: h, transform: `scale(${K})`, transformOrigin: '0 0', ...style}}>
+const Pixel: React.FC<{w: number; h: number; k?: number; children: React.ReactNode; style?: React.CSSProperties}> = ({w, h, k = K, children, style}) => (
+	<div style={{position: 'absolute', left: (1920 - w * k) / 2, top: (1080 - h * k) / 2, width: w, height: h, transform: `scale(${k})`, transformOrigin: '0 0', ...style}}>
 		<ThreeCanvas width={w} height={h} gl={{antialias: false, preserveDrawingBuffer: true, powerPreference: 'high-performance'}} camera={{fov: 50, near: 0.03, far: 40}} style={{imageRendering: 'pixelated'}}>
 			{children}
 		</ThreeCanvas>
@@ -700,8 +750,8 @@ export const TransfersPsxTest: React.FC<PsxTestProps> = () => {
 };
 
 // Character sheet in the same look: turnaround of the restyled Nico and Bea, or one character's faces.
-export type PsxSheetProps = {mode: 'turn' | 'faces' | 'before'; who?: 'nico' | 'bea'; expr?: Expr};
-const SheetScene: React.FC<{a: Assets; mode: PsxSheetProps['mode']; who: 'nico' | 'bea'; expr: Expr}> = ({a, mode, who, expr}) => {
+export type PsxSheetProps = {mode: 'turn' | 'faces' | 'before' | 'glasses'; who?: 'nico' | 'bea'; expr?: Expr; turn?: number; lw?: number};
+const SheetScene: React.FC<{a: Assets; mode: PsxSheetProps['mode']; who: 'nico' | 'bea'; expr: Expr; turn: number}> = ({a, mode, who, expr, turn}) => {
 	const group = useMemo(() => {
 		const g = new THREE.Group();
 		const floor = new THREE.Mesh(new THREE.PlaneGeometry(14, 6, 14, 6), lam({map: grimeTex(4, '#3a3833', {speck: 600})}));
@@ -717,7 +767,13 @@ const SheetScene: React.FC<{a: Assets; mode: PsxSheetProps['mode']; who: 'nico' 
 		fill.position.set(3, 1.5, 2);
 		g.add(fill);
 		g.add(new THREE.HemisphereLight('#3a4050', '#15110c', 0.5));
-		if (mode === 'faces') {
+		if (mode === 'glasses') {
+			const c = buildNico(a);
+			c.holder.rotation.y = turn;
+			const f = c.holder.userData.glassesFit as GlassesFit;
+			(window as unknown as {psxDebug: string}).psxDebug = `k ${f.k.toFixed(4)} ipd ${f.eyeL.distanceTo(f.eyeR).toFixed(3)} headW ${f.headW.toFixed(3)} earW ${f.earW.toFixed(3)} frameW ${(GL.frameW * f.k).toFixed(3)} templesW ${(1.545 * f.k).toFixed(3)} eyeZ ${f.eyeL.z.toFixed(3)} noseZ ${f.noseZ.toFixed(3)} backZ ${(f.centre.z + GL.backZ * f.k).toFixed(3)}`;
+			g.add(c.holder);
+		} else if (mode === 'faces') {
 			const c = who === 'nico' ? buildNico(a) : buildBea(a);
 			setFace(c.root, who === 'nico' ? a.faces.nico : a.faces.bea, expr);
 			g.add(c.holder);
@@ -737,7 +793,15 @@ const SheetScene: React.FC<{a: Assets; mode: PsxSheetProps['mode']; who: 'nico' 
 			});
 		}
 		return g;
-	}, [a, mode, who, expr]);
+	}, [a, mode, who, expr, turn]);
+	if (mode === 'glasses')
+		return (
+			<>
+				<FogBg color="#0b0b0c" near={8} far={20} />
+				<Cam pos={V(0, 1.575, 0.75)} look={V(0, 1.56, 0)} fov={26} />
+				<primitive object={group} />
+			</>
+		);
 	const faces = mode === 'faces';
 	const y = faces ? (who === 'nico' ? 1.58 : 1.1) : 0.95;
 	return (
@@ -748,12 +812,13 @@ const SheetScene: React.FC<{a: Assets; mode: PsxSheetProps['mode']; who: 'nico' 
 		</>
 	);
 };
-export const TransfersPsxSheet: React.FC<PsxSheetProps> = ({mode, who = 'nico', expr = 'neutral'}) => {
+export const TransfersPsxSheet: React.FC<PsxSheetProps> = ({mode, who = 'nico', expr = 'neutral', turn = 0, lw = LW}) => {
 	const a = useAssets();
 	if (!a) return <AbsoluteFill style={{background: '#000'}} />;
 	return (
 		<AbsoluteFill style={{background: '#000'}}>
-			<Pixel w={LW} h={LH}><SheetScene a={a} mode={mode} who={who} expr={expr} /></Pixel>
+			<Pixel w={lw} h={Math.round((lw * 9) / 16)} k={1920 / lw}><SheetScene a={a} mode={mode} who={who} expr={expr} turn={turn} /></Pixel>
+			{mode === 'glasses' ? <DebugText /> : null}
 		</AbsoluteFill>
 	);
 };
