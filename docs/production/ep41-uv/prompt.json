@@ -1,0 +1,124 @@
+{
+  "flow_id": "uIbJVElVeRxF6juAhqKV",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
+    "node_id": "9Zq318hi52YvsFCq58OJ",
+    "prompt": "[whispers] Labing-isa kami sa UV. Sa salamin ng bintana, labintatlo. [long pause] [softly] Alas-dos ng madaling-araw. Huling biyahe pauwi galing sa trabaho. [long pause] Sa tabi ko, dalawang babae. Sa bawat lubak, umuuga kaming lahat. Sila, hindi. [long pause] Naglaro na lang ako sa cellphone. Para hindi ko sila tingnan. [long pause] Pero sa bintana, kita ko. Nakaharap silang dalawa sa akin. [long pause] [whispers] Tumingin ako. Wala na sila. [long pause] Walang huminto. Walang bumaba. Mainit pa ang upuan. [long pause] [whispers] Pagtingin ko ulit sa bintana... nandiyan pa rin sila. Mas malapit.",
+    "takes": {
+      "take1": {
+        "seconds": 46.84,
+        "credits": 602,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep41-take1.mp3"
+      },
+      "take2": {
+        "seconds": 44.67,
+        "credits": 602,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep41-take2.mp3"
+      }
+    }
+  },
+  "sfx": {
+    "van-interior": {
+      "node_id": "sWwKgLczdOq4tqHobeBz",
+      "prompt_preview": "Inside a small passe… (187 chars)",
+      "duration_seconds": 12,
+      "loop": true,
+      "variations": 4,
+      "approx_credits_each": 40,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep41-van-1.mp3",
+        "public/assets/audio/eleven-sfx/ep41-van-2.mp3",
+        "public/assets/audio/eleven-sfx/ep41-van-3.mp3",
+        "public/assets/audio/eleven-sfx/ep41-van-4.mp3"
+      ]
+    },
+    "horror-drone-bed": {
+      "node_id": "DfzrARDPiH6sMnychjr4",
+      "prompt_preview": "Dark horror ambient … (191 chars)",
+      "duration_seconds": 20,
+      "loop": true,
+      "variations": 4,
+      "approx_credits_each": 67,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep41-drone-1.mp3",
+        "public/assets/audio/eleven-sfx/ep41-drone-2.mp3",
+        "public/assets/audio/eleven-sfx/ep41-drone-3.mp3",
+        "public/assets/audio/eleven-sfx/ep41-drone-4.mp3"
+      ]
+    },
+    "whispers": {
+      "node_id": "VW28VT3zBPwn7kVC4oH1",
+      "prompt_preview": "Many soft overlappin… (104 chars)",
+      "duration_seconds": 6,
+      "loop": false,
+      "variations": 4,
+      "approx_credits_each": 20,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep41-whispers-1.mp3",
+        "public/assets/audio/eleven-sfx/ep41-whispers-2.mp3",
+        "public/assets/audio/eleven-sfx/ep41-whispers-3.mp3",
+        "public/assets/audio/eleven-sfx/ep41-whispers-4.mp3"
+      ]
+    },
+    "neck-turn": {
+      "node_id": "GXlaAUaI8crbWx2Qtm4s",
+      "prompt_preview": "Slow creaking and cr… (118 chars)",
+      "duration_seconds": 3,
+      "loop": false,
+      "variations": 4,
+      "approx_credits_each": 10,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep41-neck-1.mp3",
+        "public/assets/audio/eleven-sfx/ep41-neck-2.mp3",
+        "public/assets/audio/eleven-sfx/ep41-neck-3.mp3",
+        "public/assets/audio/eleven-sfx/ep41-neck-4.mp3"
+      ]
+    },
+    "stinger": {
+      "node_id": "BZgSkuPGwoiGe41Msm46",
+      "prompt_preview": "Horror jump scare st… (119 chars)",
+      "duration_seconds": 4,
+      "loop": false,
+      "variations": 4,
+      "approx_credits_each": 13,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep41-stinger-1.mp3",
+        "public/assets/audio/eleven-sfx/ep41-stinger-2.mp3",
+        "public/assets/audio/eleven-sfx/ep41-stinger-3.mp3",
+        "public/assets/audio/eleven-sfx/ep41-stinger-4.mp3"
+      ]
+    },
+    "music-box": {
+      "node_id": "GdT1UyvCKzHauS1cE8Fu",
+      "prompt_preview": "Old broken music box… (124 chars)",
+      "duration_seconds": 10,
+      "loop": false,
+      "variations": 4,
+      "approx_credits_each": 33,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep41-musicbox-1.mp3",
+        "public/assets/audio/eleven-sfx/ep41-musicbox-2.mp3",
+        "public/assets/audio/eleven-sfx/ep41-musicbox-3.mp3",
+        "public/assets/audio/eleven-sfx/ep41-musicbox-4.mp3"
+      ]
+    },
+    "riser": {
+      "node_id": "DySeW0orPmoL6FbmPiOP",
+      "prompt_preview": "Horror tension riser… (122 chars)",
+      "duration_seconds": 6,
+      "loop": false,
+      "variations": 4,
+      "approx_credits_each": 20,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep41-riser-1.mp3",
+        "public/assets/audio/eleven-sfx/ep41-riser-2.mp3",
+        "public/assets/audio/eleven-sfx/ep41-riser-3.mp3",
+        "public/assets/audio/eleven-sfx/ep41-riser-4.mp3"
+      ]
+    }
+  },
+  "note": "The connector returns only prompt previews; the full SFX prompt text is on the flow (open it in ElevenLabs Flows). Picks were made by measurement (RMS, peak), not by listening."
+}

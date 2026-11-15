@@ -10,6 +10,7 @@ import * as THREE from 'three';
 import {useThree} from '@react-three/fiber';
 import {FBXLoader} from 'three/examples/jsm/loaders/FBXLoader.js';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
+import {OBJLoader} from 'three/examples/jsm/loaders/OBJLoader.js';
 import * as SkeletonUtils from 'three/examples/jsm/utils/SkeletonUtils.js';
 import {ps1} from '../ps1';
 import {SNAP6} from '../ep01/world';
@@ -23,6 +24,7 @@ const loadFile = (path: string): Promise<THREE.Group> => {
 			path,
 			new Promise((res, rej) => {
 				if (path.endsWith('.glb')) new GLTFLoader().load(url, (g) => res(g.scene), undefined, rej);
+					else if (path.endsWith('.obj')) new OBJLoader().load(url, res, undefined, rej);
 				else new FBXLoader().load(url, res, undefined, rej);
 			}),
 		);
@@ -180,7 +182,9 @@ export const PsxCharacter: React.FC<{
 	position?: [number, number, number];
 	rotation?: [number, number, number];
 	tint?: {color?: string; emissive?: string};
-}> = ({name, height, pose = ARMS_DOWN, position = [0, 0, 0], rotation = [0, 0, 0], tint}) => {
+	/** called after posing with a lookup of a bone's world position (e.g. to put a phone in a hand) */
+	probe?: (where: (bone: string) => THREE.Vector3) => void;
+}> = ({name, height, pose = ARMS_DOWN, position = [0, 0, 0], rotation = [0, 0, 0], tint, probe}) => {
 	const obj = useAsset(`assets/models/psx/characters/${name}.fbx`, `assets/models/psx/characters/${name}.png`, tint);
 	const scale = useMemo(() => {
 		if (!obj) return 1;
@@ -189,6 +193,23 @@ export const PsxCharacter: React.FC<{
 	}, [obj, height]);
 	if (!obj) return null;
 	applyPose(obj, pose);
+	if (probe) {
+		const parent = obj.parent;
+		obj.parent = null; // measure in the model's own space, then apply our group's transform
+		obj.updateMatrixWorld(true);
+		const eul = new THREE.Euler(...rotation);
+		probe((bone) => {
+			let b: THREE.Object3D | undefined;
+			obj.traverse((o) => {
+				if (!b && (o as THREE.Bone).isBone && o.name.replace(/^mixamorig:?/, '') === bone) b = o;
+			});
+			const v = new THREE.Vector3();
+			b?.getWorldPosition(v);
+			return v.multiplyScalar(scale).applyEuler(eul).add(new THREE.Vector3(...position));
+		});
+		obj.parent = parent;
+		obj.updateMatrixWorld(true);
+	}
 	return (
 		<group position={position} rotation={rotation} scale={scale}>
 			<primitive object={obj} />
@@ -196,15 +217,16 @@ export const PsxCharacter: React.FC<{
 	);
 };
 
-/** A static prop (GLB/FBX) scaled by s. */
-export const PsxProp: React.FC<{path: string; s?: number; position?: [number, number, number]; rotation?: [number, number, number]; tint?: {color?: string; emissive?: string}}> = ({
+/** A static prop (GLB/FBX/OBJ) scaled by s; tex replaces its texture (OBJs from the car pack need one). */
+export const PsxProp: React.FC<{path: string; tex?: string; s?: number; position?: [number, number, number]; rotation?: [number, number, number]; tint?: {color?: string; emissive?: string}}> = ({
 	path,
+	tex,
 	s = 1,
 	position = [0, 0, 0],
 	rotation = [0, 0, 0],
 	tint,
 }) => {
-	const obj = useAsset(path, undefined, tint);
+	const obj = useAsset(path, tex, tint);
 	if (!obj) return null;
 	return (
 		<group position={position} rotation={rotation} scale={s}>

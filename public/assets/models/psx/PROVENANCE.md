@@ -10,4 +10,27 @@ The user shared these from their Google Drive folder (2026-11-15) and stated tha
 | `props/derelict-chair.glb` | `PSX-Derelict-Furniture-Standard.zip` (`glb/chair.glb`) | `758315c4…` |
 | `props/derelict-mattress.glb` | `PSX-Derelict-Furniture-Standard.zip` (`glb/mattress.glb`) | `11b7294c…` |
 
+**Added for Episode 41 (2026-11-15):**
+
+| File | Source archive | SHA-256 |
+|---|---|---|
+| `characters/Character_14.fbx` + `.png` | `Characters_psx.rar` | `421fff50…` / `e9cae348…` |
+| `characters/Character_30.fbx` + `.png` | `Characters_psx.rar` | `c5927709…` / `724e24ce…` |
+| `characters/Character_03.fbx` + `.png` | `Characters_psx.rar` | `829af9a0…` / `0a54845f…` |
+| `characters/Character_05.fbx` + `.png` | `Characters_psx.rar` | `fc86215b…` / `38c3a42c…` |
+| `characters/Character_10.fbx` + `.png` | `Characters_psx.rar` | `fdeb0f1c…` / `0942abfb…` |
+| `characters/Character_11.fbx` + `.png` | `Characters_psx.rar` | `dac4eeca…` / `891e1dc5…` |
+| `characters/Character_Female_12.fbx` + `.png` | `Characters_psx.rar` | `cc17f58f…` / `9b29c23d…` |
+| `characters/Character_Female_13.fbx` + `.png` | `Characters_psx.rar` | `7dcd1d1e…` / `5fe44e77…` |
+| `characters/Character_Female_05.fbx` + `.png` | `Characters_psx.rar` | `2349f78e…` / `012cd54a…` |
+| `characters/Character_31_Female.fbx` + `.png` | `Characters_psx.rar` | `61a7221c…` / `f6f309d8…` |
+| `characters/Character_Monster_05.fbx` + `.png` | `Characters_psx.rar` | `3ba5a6ae…` / `4ca51066…` |
+| `props/car4/Car4.obj` | `PSX_Style_Cars` (`Car 04/Car4.obj`) | `0c4f70cc…` |
+| `props/car4/car4_lightgrey.png` | `PSX_Style_Cars` (`Car 04/car4_lightgrey.png`) | `1dd03e93…` |
+| `props/car4/car4.png` | `PSX_Style_Cars` (`Car 04/car4.png`) | `20b758b4…` |
+| `props/urban/street_light.glb` | `URBAN` (`Traffic lights/street_light.glb`) | `6a9e2f48…` |
+| `props/urban/flat_square_concrete.glb` | `URBAN` (`Buildings Prebuild/`) | `79e57cd5…` |
+| `props/urban/flat_Lshape_brick.glb` | `URBAN` (`Buildings Prebuild/`) | `5ba1d4e5…` |
+| `props/urban/flat_square_brick_alt.glb` | `URBAN` (`Buildings Prebuild/`) | `50f37d17…` |
+
 Loaded and posed by `src/horror/psx/models.tsx`.

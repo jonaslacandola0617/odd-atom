@@ -9,13 +9,43 @@
     - posts say "batay sa mga karanasang ibinahagi online" and claim nothing as verified;
     - if a poster objects, the user decides whether to take the video down or credit them;
     - never use stories tied to a real crime or a real victim.
-  - **Slate:** `docs/stories/season-5-philippines.md` (Episodes 41–50, drafted 2026-11-15, awaiting the user's approval).
+  - **Slate:** `docs/stories/season-5-philippines.md` (Episodes 41–50, drafted 2026-11-15). The user has not explicitly approved the slate, but said (2026-11-15): "just proceed with the animation … generate better scary and spooky sound effects bgm and other sfx in elevenlabs … browse the library first". Production began in the same session with Episode 41, in slate order.
+  - **Sound upgrade (the same request):** generate long and looping ElevenLabs effects (`duration_seconds` up to 30, `loop` true; about 3.3 credits per second per variation) for beds and BGM layers under `horror_score`. Check the Curio library and the earlier `eleven-sfx` takes first.
   - **Scarier animation with the rigs (the user's ask):** use the skeletons, not just poses. Examples:
     - motion that is wrong: a head turning past human limits, a neck that bends back, a jerky stop-motion step (pose held, then a snap), a body that walks backwards or crawls, a figure that is closer every cut;
     - small human tells: breathing, a hand twitch, a head tilt toward the lens;
     - the pack's own horror figures (`Character_Monster_*`, `Character_Killer_*`, the long-haired `Character_Monster_05`), used with care and never as a real person;
     - faces kept mostly in shadow, with the reveal held longer than before.
     Pose everything by aim. Check every pose in stills for limbs passing through bodies before rendering.
+
+- **Episode 41 "Bilang sa Bintana" (2026-11-15):** the Season 5 opener and the first full PSX-model episode. A commuter's night UV Express experience shared online, retold. `Ep41BilangSaBintana` / `src/horror/ep41/` is 50.17 s, in Taglish, with the score and seamless loop.
+  - **Form:** "the count in the window": the van cut against its dark left window, where a mirrored copy of the cabin keeps its own occupants. The beats:
+    - the hook: my face in the glass, and two pale women beside me, heads turned to me;
+    - the avenue;
+    - everyone sways at a pothole; the women don't;
+    - the phone POV, with her pale hand still beside it, and one breath;
+    - their heads turn to me in held-then-snapped steps, too far;
+    - I turn: the seats are empty and dented;
+    - my hand on the warm vinyl;
+    - the window again: nearer, at my shoulder (Monster_05's long hair); her head tips to the lens;
+    - the loop.
+  - **Kit additions:**
+    - a `probe` prop on `PsxCharacter` for bone world positions (read them in `useFrame`);
+    - OBJ loading and `tex` on `PsxProp`.
+  - **Lessons:**
+    - a reflection of a row of people needs a grazing camera along the glass, behind any backrest and clear of pillars;
+    - a POV camera must sit in front of the face mesh;
+    - a PSX cabin needs ambient about 1.6.
+  - **Sound:** the first episode with long and looping ElevenLabs effects: a 12 s van loop and a 20 s drone bed, plus whispers, neck crack, stinger, music box and riser (flow `uIbJVElVeRxF6juAhqKV`, about 812 credits, picked by measurement). The mix:
+    - a bump for every jolt in the picture;
+    - neck cracks on every snap;
+    - the score drops out at the empty seats;
+    - the stinger in the silence after the last line.
+  - **Voice:** Juanito, both takes (1,204 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −11.3 / −3.2 dB, lines ≥6.4 dB with no lifts, −14.0 LUFS, decoded peak −1.1 dBFS, seam −22.6 / −22.5 dBFS.
+  - **Delivery:** `assets/videos/ep41-uv-v1/`. Notes are in `docs/production/ep41-uv/README.md`; the publishing kit is `docs/publishing/ep41/README.md` and `docs/publishing/POSTS-ep41-50.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 42 "Ikalabing-apat" (the guard's elevator).
 
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.

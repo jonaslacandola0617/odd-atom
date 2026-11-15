@@ -1,0 +1,149 @@
+{
+  "episode": "Ep41BilangSaBintana",
+  "duration_seconds": 50.17,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep41-take1.mp3",
+    "sha256": "45b82a3efe84c50641eb2318475232c83f63186957ca83da63be8e1e1893ac08",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": {
+      "take1": {
+        "seconds": 46.84,
+        "credits": 602,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep41-take1.mp3"
+      },
+      "take2": {
+        "seconds": 44.67,
+        "credits": 602,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep41-take2.mp3"
+      }
+    },
+    "prompt": "docs/production/ep41-uv/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, bowed metal at the phone, a heartbeat under the head-turn that stops dead at the empty seats, a synthesized stinger doubling the ElevenLabs one (scripts/horror_score.py); loop-quantised; the score drops out while I look at the empty seats",
+    "a thump and rattle for every bump in the picture, lamps whooshing past, her one breath, my hand on the vinyl, a rustle as I turn (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "uIbJVElVeRxF6juAhqKV",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "van-3": {
+        "path": "public/assets/audio/eleven-sfx/ep41-van-3.mp3",
+        "sha256": "da1b2d9dd72197602ae903dbe72ee8db74aab6c3eee535cdea65d4e44364d621"
+      },
+      "neck-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-neck-2.mp3",
+        "sha256": "1e85182a3390097ac5a5b5ebc1fc59b68ea6f2cbff6b2a2619de864c9a7c27cc"
+      },
+      "whispers-1": {
+        "path": "public/assets/audio/eleven-sfx/ep41-whispers-1.mp3",
+        "sha256": "82cf1cfd23f5bef08edc30087069bc3604b49dda380214b7b9190f33e04dcc3a"
+      },
+      "drone-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-drone-2.mp3",
+        "sha256": "026295eb892b77b9a72e46751e1206c85acd9c810cc33f836aab46e153ba03ef"
+      },
+      "musicbox-3": {
+        "path": "public/assets/audio/eleven-sfx/ep41-musicbox-3.mp3",
+        "sha256": "bcc2ac69362e736e7855c45f45f1de4a533a118b39ccfb36f0e89039ba056bad"
+      },
+      "riser-3": {
+        "path": "public/assets/audio/eleven-sfx/ep41-riser-3.mp3",
+        "sha256": "c3343fcf878e8764310704e96de452131b8a93aca479db484b1b6247d7db9540"
+      },
+      "stinger-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-stinger-2.mp3",
+        "sha256": "8a1aaa95c6ea95dffa4c18a5639005a53da70e61ecfb3a60c51df46c738d2cef"
+      }
+    },
+    "generated": "7 prompts x 4 variations (about 812 credits): van-interior 12 s loop, horror drone bed 20 s loop, whispers 6 s, neck crack 3 s, stinger 4 s, music box 10 s, riser 6 s",
+    "note": "long and looping takes (duration_seconds and loop set) for the beds; picked by measurement (RMS, peak, onset), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    47.17
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.1,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -22.6,
+    "last_quarter_second": -22.5
+  },
+  "limiter": "tanh soft limiter, ceiling -2.62 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 12.8,
+      "phone_band_voice_minus_all_db": 13.1,
+      "voice_minus_bed_db": 12.8
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 13.9,
+      "phone_band_voice_minus_all_db": 16.0,
+      "voice_minus_bed_db": 13.9
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 11.3,
+      "phone_band_voice_minus_all_db": 15.3,
+      "voice_minus_bed_db": 11.3
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 9.7,
+      "phone_band_voice_minus_all_db": 12.9,
+      "voice_minus_bed_db": 9.7
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 7.0,
+      "phone_band_voice_minus_all_db": 9.7,
+      "voice_minus_bed_db": 7.0
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 16.2,
+      "phone_band_voice_minus_all_db": 26.0,
+      "voice_minus_bed_db": 16.2
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 6.4,
+      "phone_band_voice_minus_all_db": 4.7,
+      "voice_minus_bed_db": 6.4
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 7.0,
+      "phone_band_voice_minus_all_db": 11.1,
+      "voice_minus_bed_db": 7.0
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.3,
+    "music_minus_voice_in_gaps_db": -3.2,
+    "music_share_of_gaps_seconds": 16.0
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

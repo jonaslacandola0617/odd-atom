@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 50.17,
+  "duration_frames": 1505,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Labing-isa kami sa UV. Sa salamin ng bintana, labintatlo.",
+      "start": 0.4,
+      "end": 5.31,
+      "kind": "narrator",
+      "beat_before": "hook: the dark side window; in it the rear bench, and two pale women right beside me, heads turned to me"
+    },
+    {
+      "id": "l02",
+      "text": "Alas-dos ng madaling-araw. Huling biyahe pauwi galing sa trabaho.",
+      "start": 6.51,
+      "end": 11.16,
+      "kind": "narrator",
+      "beat_before": "the UV Express alone on a night avenue under sodium lamps"
+    },
+    {
+      "id": "l03",
+      "text": "Sa tabi ko, dalawang babae. Sa bawat lubak, umuuga kaming lahat. Sila, hindi.",
+      "start": 12.16,
+      "end": 18.92,
+      "kind": "narrator",
+      "beat_before": "from the front: the passengers sway with a bump; the two women beside me do not move"
+    },
+    {
+      "id": "l04",
+      "text": "Naglaro na lang ako sa cellphone. Para hindi ko sila tingnan.",
+      "start": 20.12,
+      "end": 23.44,
+      "kind": "narrator",
+      "beat_before": "my phone: a game glowing; at the edge, their knees, perfectly still"
+    },
+    {
+      "id": "l05",
+      "text": "Pero sa bintana, kita ko. Nakaharap silang dalawa sa akin.",
+      "start": 26.04,
+      "end": 30.21,
+      "kind": "narrator",
+      "beat_before": "the window: in the reflection both their heads turn, too far, in jerks, to face me"
+    },
+    {
+      "id": "l06",
+      "text": "Tumingin ako. Wala na sila.",
+      "start": 32.61,
+      "end": 34.58,
+      "kind": "narrator",
+      "beat_before": "I turn: the two seats beside me are empty"
+    },
+    {
+      "id": "l07",
+      "text": "Walang huminto. Walang bumaba. Mainit pa ang upuan.",
+      "start": 35.98,
+      "end": 39.95,
+      "kind": "narrator",
+      "beat_before": "my hand on the empty vinyl, still dented; the van keeps going, nobody looks up"
+    },
+    {
+      "id": "l08",
+      "text": "Pagtingin ko ulit sa bintana... nandiyan pa rin sila. Mas malapit.",
+      "start": 42.35,
+      "end": 46.77,
+      "kind": "narrator",
+      "beat_before": "the window again: they are in it, closer, at my shoulder"
+    }
+  ]
+}
