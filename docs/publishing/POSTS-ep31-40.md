@@ -16,6 +16,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 | 33 | Igalaw Mo ang Daliri | folklore + documented (batibat, bangungot) | `assets/videos/ep33-batibat-v1/ep33-igalaw-mo-ang-daliri.mp4` | 56.02 s |
 | 34 | Paatras | folklore (sigbin) | `assets/videos/ep34-sigbin-v1/ep34-paatras.mp4` | 49.11 s |
 | 35 | Bantay | folklore (amalanhig) + custom (lamay) | `assets/videos/ep35-bantay-v1/ep35-bantay.mp4` | 52.04 s |
+| 36 | Sunugin Mo ang Damit | campus legend (UP Ikot jeep) | `assets/videos/ep36-ikot-v1/ep36-sunugin-mo-ang-damit.mp4` | 52.44 s |
 
 ---
 
@@ -81,3 +82,16 @@ Alternative: `Amalanhig: run in zigzags`
 **Pinned comment:** `Tingnan mo ulit ang salamin sa alas dos. Bukas ba o sarado ang kabaong? 🕯️`
 
 Full kit: `docs/publishing/ep35/README.md`.
+
+---
+
+## Broadcast 36: Sunugin Mo ang Damit (campus legend)
+
+**YouTube title:** `Sa salamin, puno ang dyip. Pero ikaw lang ang nakaupo.`
+Alternative: `The Ikot jeep: burn your clothes`
+
+**TikTok caption:** `sa salamin, puno ang dyip. pero ikaw lang ang nakaupo 🪟 #ikot #updiliman #kwentongkatatakutan #pinoyhorror #fyp #fypシ`
+
+**Pinned comment:** `Panoorin ulit ang bintana habang bumababa sila. Nakaupo pa rin ba sila? 🪟`
+
+Full kit: `docs/publishing/ep36/README.md`.
