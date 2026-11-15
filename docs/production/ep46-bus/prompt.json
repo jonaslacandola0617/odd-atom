@@ -1,0 +1,90 @@
+{
+  "flow_id": "h5EIP6tIdelmGnwmnM6E",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
+    "node_id": "pnSvHj82EzQAgi6MyEM5",
+    "prompt": "[whispers] Bente-tres kami sa bus. Pero bente-kuwatro ang bilang ni kuya. [long pause] [softly] Huling biyahe pahilaga, alas-dose ng gabi. Tulog na halos lahat. [long pause] Sa isang liko sa tabi ng bangin, may pumara. Babae. Mag-isa, walang dala. [long pause] Umupo siya sa likod ko. Basang-basa ang buhok niya. Pero hindi umuulan. [long pause] Lumapit si kuya para maningil. Pagtingin niya sa upuan... wala nang tao. [long pause] Inihinto ng driver ang bus. Binilang kami isa-isa. Bente-tres. [long pause] Pero yung sandalan sa likod ko, may lubog pa. At basa. [long pause] [whispers] Bumilang ulit si kuya. Pagdating sa akin, tumigil siya. Nakatingin siya sa likod ko.",
+    "takes": {
+      "take1": {
+        "seconds": 51.92,
+        "credits": 671,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep46-take1.mp3"
+      },
+      "take2": {
+        "seconds": 51.68,
+        "credits": 671,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep46-take2.mp3"
+      }
+    }
+  },
+  "sfx": {
+    "bus-night-loop": {
+      "node_id": "E1Swws5y84a3DCP4b48D",
+      "prompt": "Inside an old provincial bus driving at night on a mountain road: a low diesel engine drone, loose windows and panels rattling softly, air-conditioning hum, tires on worn asphalt, occasional creak of the body on curves, sleeping passengers, steady and lonely.",
+      "duration_seconds": 20,
+      "loop": true,
+      "prompt_influence": 0.4,
+      "variations": 4,
+      "credits_each": 67,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep46-busloop-1.mp3",
+        "public/assets/audio/eleven-sfx/ep46-busloop-2.mp3",
+        "public/assets/audio/eleven-sfx/ep46-busloop-3.mp3",
+        "public/assets/audio/eleven-sfx/ep46-busloop-4.mp3"
+      ],
+      "picked": "busloop-1 (steadiest: 4 dB window range)"
+    },
+    "ticket-punch": {
+      "node_id": "RST4jvNcLEcDR6QcP0c8",
+      "prompt": "A bus conductor's metal ticket puncher clicking sharply several times, one click at a time with pauses, coins jingling in his hand, inside a quiet bus.",
+      "duration_seconds": 4,
+      "loop": false,
+      "prompt_influence": 0.5,
+      "variations": 4,
+      "credits_each": 13,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep46-punch-1.mp3",
+        "public/assets/audio/eleven-sfx/ep46-punch-2.mp3",
+        "public/assets/audio/eleven-sfx/ep46-punch-3.mp3",
+        "public/assets/audio/eleven-sfx/ep46-punch-4.mp3"
+      ],
+      "picked": "punch-4 (no clipping; one click cut from its loudest onset)"
+    },
+    "brakes-door": {
+      "node_id": "gpa5yD8DvWrDqBYQ05Oq",
+      "prompt": "A large old bus slowing down with a long squeal of air brakes and a pneumatic hiss, then the folding door clattering open, engine idling, crickets outside at night.",
+      "duration_seconds": 6,
+      "loop": false,
+      "prompt_influence": 0.5,
+      "variations": 4,
+      "credits_each": 20,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep46-brakes-1.mp3",
+        "public/assets/audio/eleven-sfx/ep46-brakes-2.mp3",
+        "public/assets/audio/eleven-sfx/ep46-brakes-3.mp3",
+        "public/assets/audio/eleven-sfx/ep46-brakes-4.mp3"
+      ],
+      "picked": "brakes-2 (narrowest range)"
+    }
+  },
+  "reused": [
+    "ep36-coin-1.mp3",
+    "ep36-vinyl-1.mp3",
+    "ep40-cicadas-1.mp3",
+    "ep41-drone-1.mp3",
+    "ep41-stinger-2.mp3",
+    "ep41-riser-1.mp3",
+    "ep41-musicbox-1.mp3",
+    "ep41-whispers-1.mp3",
+    "ep41-neck-1.mp3"
+  ],
+  "credits": {
+    "narration": 1342,
+    "sfx": 400,
+    "total_about": 1742
+  },
+  "note": "every variation downloaded right after generation and kept in Git; picked by measurement (RMS, peak, onsets), not by listening"
+}

@@ -147,6 +147,32 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 46 "Huling Biyahe Pahilaga" (the night bus north).
 
+- **Episode 46 "Huling Biyahe Pahilaga" (2026-11-15):** the user asked for the "next ep". The last bus north: a lone woman boards at a curve by a ravine and is gone when the conductor comes to collect, retold. `Ep46HulingBiyahePahilaga` / `src/horror/ep46/` is 53.52 s, in Taglish, with the score and seamless loop.
+  - **Form:** "the count": the conductor's ticket punch counts the riders, a click a row.
+    - Up the aisle, his last click points at her behind me (hook).
+    - The bus on the mountain road, LAST TRIP.
+    - She waits under the lamp at the curve; the bus stops, the door opens.
+    - She comes down the aisle in held-then-snapped steps, dripping, and sits behind me.
+    - He comes to collect; a flicker; the seat is empty.
+    - The bus stops, lights up; he counts every seat.
+    - The backrest behind me, a wet hollow, dripping.
+    - He counts again, stops at me, looks behind me; she comes over my seat at the lens.
+    - The loop.
+  - **Cast:** me `Character_14`, her `Character_Female_12` (long sleeves; the pack's long-haired young women all wear crop tops), the conductor `Character_30`, the driver `Character_03`; the bus and road are box-built, with the URBAN street lamp.
+  - **Lessons:**
+    - a seat directly behind another is hidden from the front, so shoot from the aisle side;
+    - a dark tint over a dark texture goes black;
+    - `circleGeometry` decals face +z.
+  - **Sound:**
+    - generated: the bus at night (20 s loop), the ticket punch, air brakes and door (flow `h5EIP6tIdelmGnwmnM6E`, about 400 credits, all variations in Git);
+    - reused: Episode 36's coin and vinyl, Episode 40's cicadas, and Episode 41's drone, stinger, riser, music box, whispers and neck crack;
+    - one punch click on every count in the picture.
+  - **Voice:** Juanito, both takes (1,342 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −11.6 / −4.8 dB, lines ≥7.7 dB with no lifts, −14.0 LUFS, decoded peak −1.48 dBFS, seam −24.4 / −22.3 dBFS.
+  - **Delivery:** `assets/videos/ep46-bus-v1/`. Notes are in `docs/production/ep46-bus/README.md`; the publishing kit is `docs/publishing/ep46/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 47 "Sa Pader ng Bahay ni Lola" (the chattering in the walls).
+
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.
   - **Kit:** `src/horror/psx/models.tsx` (`PsxCharacter`, `PsxProp`, `applyPose` with world-axis bone rotations, `ARMS_DOWN`, `SIT`, PS1 materials). Files in use: `public/assets/models/psx/` with `PROVENANCE.md`.

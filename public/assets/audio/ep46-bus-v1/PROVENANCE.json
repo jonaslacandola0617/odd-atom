@@ -1,0 +1,170 @@
+{
+  "episode": "Ep46HulingBiyahePahilaga",
+  "duration_seconds": 53.52,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep46-take1.mp3",
+    "sha256": "df4615d2f2de207472b9ee46af54cf3f6bb43c456ca4db514e86fd69fa1d1873",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": {
+      "take1": {
+        "seconds": 51.92,
+        "credits": 671,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep46-take1.mp3"
+      },
+      "take2": {
+        "seconds": 51.68,
+        "credits": 671,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep46-take2.mp3"
+      }
+    },
+    "prompt": "docs/production/ep46-bus/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, bowed metal when she is gone, a heartbeat through the recount, a synthesized stinger doubling the ElevenLabs one (scripts/horror_score.py); loop-quantised; it drops out when she is gone",
+    "her wet steps on each held step of the picture, drips on the vinyl, the strips crackling as she goes, a breath across the seam (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "h5EIP6tIdelmGnwmnM6E",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "busloop-1": {
+        "path": "public/assets/audio/eleven-sfx/ep46-busloop-1.mp3",
+        "sha256": "8a14d3f7b3fd6873ef07ab9dda3828bb7e2f51eceb363df55143dbf9aef438e0"
+      },
+      "ep40-cicadas-1": {
+        "path": "public/assets/audio/eleven-sfx/ep40-cicadas-1.mp3",
+        "sha256": "4718fb11aebf5cabc71c911ada327e2dd20e96bf57bfee9b55ff6b4ee936f6ab"
+      },
+      "punch-4": {
+        "path": "public/assets/audio/eleven-sfx/ep46-punch-4.mp3",
+        "sha256": "bfde246447bf162d6bbeafbbb80f2a6d81de15cbbf4a047a6731458926951a79"
+      },
+      "brakes-2": {
+        "path": "public/assets/audio/eleven-sfx/ep46-brakes-2.mp3",
+        "sha256": "87f92480a16281b133960c1b7478265b75c1f1cd36d3a7b6c4f9897c8a60cb3c"
+      },
+      "ep36-coin-1": {
+        "path": "public/assets/audio/eleven-sfx/ep36-coin-1.mp3",
+        "sha256": "bd65b40b2503c66212ddd00e7a6d4b0068c542b6e802955acaadf7048ccb2fbb"
+      },
+      "ep36-vinyl-1": {
+        "path": "public/assets/audio/eleven-sfx/ep36-vinyl-1.mp3",
+        "sha256": "8e17172bbeb8cbfc0b0103dd07d0e613dea33b27e750249fced6d129931cba1b"
+      },
+      "ep41-whispers-1": {
+        "path": "public/assets/audio/eleven-sfx/ep41-whispers-1.mp3",
+        "sha256": "82cf1cfd23f5bef08edc30087069bc3604b49dda380214b7b9190f33e04dcc3a"
+      },
+      "ep41-neck-1": {
+        "path": "public/assets/audio/eleven-sfx/ep41-neck-1.mp3",
+        "sha256": "9309e1dc89a37e1cc967ff3e4d8cff03ce316cd6ce323011ed1319aba10153b8"
+      },
+      "ep41-drone-1": {
+        "path": "public/assets/audio/eleven-sfx/ep41-drone-1.mp3",
+        "sha256": "697a3e59363df206a236f9820546365f77cc034a5f4343fc5f3a157cfc3ad422"
+      },
+      "ep41-musicbox-1": {
+        "path": "public/assets/audio/eleven-sfx/ep41-musicbox-1.mp3",
+        "sha256": "e551796226d2a2dce7bb36c2b1de8fc93bb8d4ce41d0d6f0223c60ebf280cd77"
+      },
+      "ep41-riser-1": {
+        "path": "public/assets/audio/eleven-sfx/ep41-riser-1.mp3",
+        "sha256": "c061f2995a45b831825d5e78048aae7ed01797b6454a62bf57bff2c911322613"
+      },
+      "ep41-stinger-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-stinger-2.mp3",
+        "sha256": "8a1aaa95c6ea95dffa4c18a5639005a53da70e61ecfb3a60c51df46c738d2cef"
+      }
+    },
+    "generated": "3 prompts x 4 variations (about 400 credits): the bus at night 20 s loop, the ticket punch 4 s, air brakes and the door 6 s",
+    "reused": "Episode 36 coin-1 and vinyl-1, Episode 40 cicadas-1, and Episode 41 variations (drone-1, stinger-2, riser-1, musicbox-1, whispers-1, neck-1)",
+    "note": "picked by measurement (RMS, peak), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    50.52
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.48,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -24.4,
+    "last_quarter_second": -22.3
+  },
+  "limiter": "tanh soft limiter, ceiling -2.50 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 11.0,
+      "phone_band_voice_minus_all_db": 18.1,
+      "voice_minus_bed_db": 11.0
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 16.5,
+      "phone_band_voice_minus_all_db": 16.7,
+      "voice_minus_bed_db": 16.5
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 9.4,
+      "phone_band_voice_minus_all_db": 9.9,
+      "voice_minus_bed_db": 9.4
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 9.5,
+      "phone_band_voice_minus_all_db": 13.2,
+      "voice_minus_bed_db": 9.5
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 9.4,
+      "phone_band_voice_minus_all_db": 11.9,
+      "voice_minus_bed_db": 9.4
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 7.7,
+      "phone_band_voice_minus_all_db": 8.2,
+      "voice_minus_bed_db": 7.7
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 12.8,
+      "phone_band_voice_minus_all_db": 13.2,
+      "voice_minus_bed_db": 12.8
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 9.4,
+      "phone_band_voice_minus_all_db": 11.9,
+      "voice_minus_bed_db": 9.4
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.6,
+    "music_minus_voice_in_gaps_db": -4.8,
+    "music_share_of_gaps_seconds": 13.8
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

@@ -47,3 +47,9 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 - **YouTube title:** `Huwag kang lilingon sa CR.` (alt: `May humahaplos sa buhok ko.`)
 - **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep45/README.md`.
 - **Hashtags:** `#kwentongkatatakutan #pinoyhorror #campushorror #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #campushorror #fyp`
+
+## Broadcast 46: Huling Biyahe Pahilaga (personal experience, retold)
+
+- **YouTube title:** `Bente-tres kami. Bente-kuwatro ang bilang.` (alt: `Huwag kang lilingon sa bus.`)
+- **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep46/README.md`.
+- **Hashtags:** `#kwentongkatatakutan #pinoyhorror #lasttrip #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #lasttrip #fyp`

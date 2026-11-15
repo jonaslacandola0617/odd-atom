@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 53.52,
+  "duration_frames": 1606,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Bente-tres kami sa bus. Pero bente-kuwatro ang bilang ni kuya.",
+      "start": 0.4,
+      "end": 4.57,
+      "kind": "narrator",
+      "beat_before": "hook: down the aisle, the conductor counting with his punch; it stops on the seat behind me: her"
+    },
+    {
+      "id": "l02",
+      "text": "Huling biyahe pahilaga, alas-dose ng gabi. Tulog na halos lahat.",
+      "start": 5.57,
+      "end": 10.24,
+      "kind": "narrator",
+      "beat_before": "the bus on the mountain road at night, from above"
+    },
+    {
+      "id": "l03",
+      "text": "Sa isang liko sa tabi ng bangin, may pumara. Babae. Mag-isa, walang dala.",
+      "start": 11.64,
+      "end": 17.41,
+      "kind": "narrator",
+      "beat_before": "the curve by the ravine: a woman under the lamp; the bus slows, the door opens"
+    },
+    {
+      "id": "l04",
+      "text": "Umupo siya sa likod ko. Basang-basa ang buhok niya. Pero hindi umuulan.",
+      "start": 18.81,
+      "end": 23.55,
+      "kind": "narrator",
+      "beat_before": "she comes down the aisle in held-then-snapped steps, dripping, and sits behind me"
+    },
+    {
+      "id": "l05",
+      "text": "Lumapit si kuya para maningil. Pagtingin niya sa upuan... wala nang tao.",
+      "start": 24.95,
+      "end": 29.8,
+      "kind": "narrator",
+      "beat_before": "the conductor walks back to collect; the seat is empty"
+    },
+    {
+      "id": "l06",
+      "text": "Inihinto ng driver ang bus. Binilang kami isa-isa. Bente-tres.",
+      "start": 31.4,
+      "end": 36.5,
+      "kind": "narrator",
+      "beat_before": "the bus stopped, lights on: he counts everyone with his punch"
+    },
+    {
+      "id": "l07",
+      "text": "Pero yung sandalan sa likod ko, may lubog pa. At basa.",
+      "start": 37.9,
+      "end": 41.88,
+      "kind": "narrator",
+      "beat_before": "the empty seat: the headrest dented and wet, dripping"
+    },
+    {
+      "id": "l08",
+      "text": "Bumilang ulit si kuya. Pagdating sa akin, tumigil siya. Nakatingin siya sa likod ko.",
+      "start": 43.48,
+      "end": 49.92,
+      "kind": "narrator",
+      "beat_before": "his POV counting again; at me he stops: she is behind me"
+    }
+  ]
+}
