@@ -98,6 +98,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep37PitongBiyernes" component={Episode37} defaultProps={{includeAudio:true,captions:true}} {...ep37Config}/>
     <Composition id="Ep38FwdIngatKayo" component={Episode38} defaultProps={{includeAudio:true,captions:true}} {...ep38Config}/>
     <Composition id="Ep39SinoAngSusundo" component={Episode39} defaultProps={{includeAudio:true,captions:true}} {...ep39Config}/>
+    <Composition id="Ep39SinoAngSusundoPSX" component={Episode39} defaultProps={{includeAudio:true,captions:true,psx:true}} {...ep39Config}/>
     <Composition id="Ep40PatayinAngIlaw" component={Episode40} defaultProps={{includeAudio:true,captions:true}} {...ep40Config}/>
     <Composition id="ChannelAvatar" component={ChannelAvatar} durationInFrames={1} fps={30} width={800} height={800}/>
     <Composition id="ChannelBanner" component={ChannelBanner} durationInFrames={1} fps={30} width={2560} height={1440}/>

@@ -259,6 +259,8 @@
     "sound:ep39": "python3 scripts/ep39_sound.py",
     "still:ep39": "node scripts/render_ep39.cjs --stills",
     "render:ep39": "node scripts/render_ep39.cjs",
+    "still:ep39-psx": "node scripts/render_ep39_psx.cjs --stills",
+    "render:ep39-psx": "node scripts/render_ep39_psx.cjs",
     "voice:ep40": "python3 scripts/ep40_voice.py",
     "sound:ep40": "python3 scripts/ep40_sound.py",
     "still:ep40": "node scripts/render_ep40.cjs --stills",

@@ -1,0 +1,49 @@
+# PSX model packs: inventory and first test (2026-11-15)
+
+The user shared 13 archives of PS1-style models (Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`), licensed and free to use and edit (their statement; the archives carry no licence files), and asked for one Season 4 episode to be recreated with them as a test. The raw packs (about 290 MB) are not in Git. The files in use are in `public/assets/models/psx/` (see its `PROVENANCE.md`).
+
+## What's in the packs
+
+| Archive | Contents | State in three.js |
+|---|---|---|
+| `Characters_psx.rar` | 79 people (FBX + PNG): civilians young and old, police, firefighters, doctors, hazmat, "Killer" and "Monster" figures | **Works.** Mixamo rigs (33–65 bones), about 900–1,400 triangles each, one texture each. The single animation is a one-frame A-pose, so every pose is set in code. |
+| `Characters_Extras.rar` | 36 more people, killers and monsters | Same rig and format (not yet sheeted). |
+| `female_secretary.zip`, `male_casual.zip`, `PSXJapaneseSchoolgirl.zip` | Single characters | Load; textures need re-linking (they show grey or black). |
+| `PSX-Derelict-Furniture-Standard.zip` | chair, couch, fridge, mattress, shelf, vase (GLB/FBX/Blend) | **Works** (GLB with embedded textures; grim, stained look). |
+| `URBAN.zip` | 483 models: prebuilt flats and a hangar, wall and fence kits (brick, stucco, plaster, drystone, picket, metal), building parts with doors and windows, street and traffic lights, bus stops, cones, barriers, vents, pipes, litter | **Works** (GLB, textures embedded or in `textures/`). |
+| `OFFICE.zip` | 180 models: desks, chairs, dividers, filing cabinets, phones, water cooler, clock | GLB; not yet tested. |
+| `RetroModelPack.rar`, `Street_Furniture.zip` | TV, clock, locker, table, bucket, tools; trash, barrel, flashlight, crowbar | Load, but **textures don't link** (white): they need mapping by hand. |
+| `PSX_Style_Cars.zip` | 12 cars (OBJ + MTL), including a taxi and a police car | Some load textured; most render **black** (MTL paths need fixing). |
+| `pots & plants.zip` | pots, sansevieria, bird of paradise, calathea | GLB; not yet sheeted. |
+| `DoriHome.fbx` | One 24 MB scene | Not yet opened. |
+
+Contact sheets: `sheet-characters.jpg` (all 79 of `Characters_psx`) and `sheet-props.jpg` (buildings, street, furniture, props, cars, single characters). They were rendered by a throwaway three.js viewer in headless Chromium.
+
+## How they're used
+
+`src/horror/psx/models.tsx`:
+- **Loading:** `PsxCharacter` and `PsxProp` load FBX or GLB once per page, inside Remotion's `delayRender`. They replace the materials with our PS1 lambert (vertex snap, dither) and the character's own texture.
+- **Posing:** `applyPose` rotates named Mixamo bones about the character's own axes (rest pose faces +z, its left hand toward +x), root to leaf, from the rest pose. `ARMS_DOWN` and `SIT` are presets.
+
+**Lessons:**
+- Remotion's `ThreeCanvas` only redraws on frame changes. A model that arrives after the first draw must call R3F's `advance()` before `continueRender`, or it never appears.
+- The FBXs embed the creator's absolute Windows texture paths (harmless 404s). Load the PNG beside each FBX instead.
+- Skinned bounds don't follow code poses, so `frustumCulled` is off.
+- Normalise each character by its rest-pose height (the FBX units vary).
+- A beige shirt reads as bare skin in a dim ward. Choose clothes by value as well as colour.
+
+## First test: Episode 39 "Sino ang Susundo" (PSX)
+
+`Ep39SinoAngSusundoPSX`: the same composition as `Ep39SinoAngSusundo` with `psx: true`. Same shots, timing, captions and **the same checked v1 mix** (`public/assets/audio/ep39-sundo-v1/mix.m4a`), so it compares picture against picture.
+- **Cast:**
+  - Tatay: `Character_29`, lying on the derelict mattress;
+  - me: `Character_08`, seated, dozing on night 3;
+  - Nanay: `Character_29_Female`, tinted pale, seated in the far chair in the hook and standing in the doorway at the end.
+- **Props:** both chairs are the derelict chair.
+- **Changes from v1 in PSX mode only:**
+  - no blanket, and the pillow is raised for the thicker mattress;
+  - the close-ups aim at the PSX head height;
+  - the whisper camera is pulled back.
+- **What these models can't do yet:** there's no face rig, so Tatay's night 1 smile becomes his head lifting toward the doorway, and nobody's mouth moves. The hand reach on night 4 is small.
+
+**Delivery:** `assets/videos/ep39-sundo-psx-v1/ep39-sino-ang-susundo-psx.mp4`. Render with `npm run render:ep39-psx` (stills: `npm run still:ep39-psx`). It has no user approval and no listening pass (the mix is v1's, unchanged).

@@ -165,7 +165,7 @@ export const Ward: React.FC<{shadowK: number; tubeFlick: number}> = ({shadowK, t
 };
 
 // ------------------------------------------------------------------ the bed, the IV, the machine, Tatay
-export const Bed: React.FC<{t: number; look: number; smile: number; talk: number; reach: number; breathe?: number}> = ({t, look, smile, talk, reach, breathe = 1}) => {
+export const Bed: React.FC<{t: number; look: number; smile: number; talk: number; reach: number; breathe?: number; figure?: boolean; mattress?: boolean}> = ({t, look, smile, talk, reach, breathe = 1, figure = true, mattress = true}) => {
 	const M = useM();
 	const b = Math.sin(t * 1.4) * 0.006 * breathe;
 	const drop = (t * 0.9) % 1;
@@ -178,10 +178,12 @@ export const Bed: React.FC<{t: number; look: number; smile: number; talk: number
 			)}
 			<Box p={[0, 0.8, -1.0]} s={[0.92, 0.04, 0.04]} m={M.iron} unit={1} />
 			<Box p={[0, 0.5, 0]} s={[0.9, 0.06, 2.0]} m={M.iron} unit={0.4} />
-			<Box p={[0, 0.58, 0]} s={[0.86, 0.1, 1.95]} m={M.mattress} unit={0.3} />
-			<Box p={[0, 0.66, -0.75]} s={[0.55, 0.08, 0.32]} m={M.pillow} unit={0.1} />
-			{/* the blanket over his body */}
-			<Box p={[0, 0.7 + b, 0.2]} s={[0.62, 0.14, 1.4]} m={M.blanket} unit={0.2} />
+			{mattress && <Box p={[0, 0.58, 0]} s={[0.86, 0.1, 1.95]} m={M.mattress} unit={0.3} />}
+			<Box p={[0, mattress ? 0.66 : 0.75, -0.75]} s={[0.55, 0.08, 0.32]} m={M.pillow} unit={0.1} />
+			{/* the blanket over his body (none on the PSX mattress: he lies on it) */}
+			{mattress && <Box p={[0, 0.7 + b, 0.2]} s={[0.62, 0.14, 1.4]} m={M.blanket} unit={0.2} />}
+			{figure && (
+				<>
 			{/* his head, lying face up, tipped toward the foot (the doorway); look > 0 turns it toward my chair */}
 			<group position={HEAD} rotation={[-Math.PI / 2 + 0.25, 0, 0]}>
 				<group rotation={[0, look * 0.6, 0]}>
@@ -204,6 +206,8 @@ export const Bed: React.FC<{t: number; look: number; smile: number; talk: number
 				<Box p={[0.12, 0, 0]} s={[0.24, 0.06, 0.07]} m={M.skin} unit={1} />
 				<Box p={[0.26, 0, 0]} s={[0.07, 0.03, 0.08]} m={M.skin} unit={1} />
 			</group>
+				</>
+			)}
 			{/* the IV stand at the head, the bag, the drip falling */}
 			<Cyl p={[-0.65, 0.95, -1.05]} r0={0.015} h={1.9} m={M.iron} n={5} />
 			<Box p={[-0.65, 1.75, -1.05]} s={[0.14, 0.2, 0.04]} m={M.ivBag} unit={1} />

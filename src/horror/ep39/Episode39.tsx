@@ -19,6 +19,7 @@ import timeline from '../../data/ep39-sundo-v1-timeline.json';
 import {rng} from '../ps1';
 import {handheld} from '../entities';
 import {Bed, Chair, DOOR, FAR_CHAIR0, HEAD, MatsProvider, Me, MY_CHAIR, Nanay, V3, Ward} from './world';
+import {PsxChair, PsxMattress, PsxMe, PsxNanay, PsxTatay} from './psxCast';
 
 export const LW = 180;
 export const LH = 320;
@@ -91,14 +92,16 @@ const push = (t: number, t0: number, t1: number, a: V3, b: V3, la: V3, lb: V3, f
 	return {p: [p[0] + hh.dp[0], p[1] + hh.dp[1], p[2]], l: mix3(la, lb, k), fov};
 };
 
-const poseAt = (t: number, shot: Shot): CamPose => {
+const PSX_HEAD: V3 = [0, 0.95, -0.66]; // the PSX Tatay's head sits higher, on the thicker mattress
+const poseAt = (t: number, shot: Shot, psx = false): CamPose => {
+	const H = psx ? PSX_HEAD : HEAD;
 	switch (shot) {
 		case 'hook':
 			return push(t, -2, K.cutWard, [0.2, 1.6, 3.2], [0.15, 1.5, 2.6], [-0.1, 0.75, -0.2], [-0.15, 0.75, -0.2], 62);
 		case 'ward':
 			return push(t, K.cutWard, K.cutN1, [0.2, 1.75, 3.4], [0.15, 1.6, 2.7], [0, 0.75, -0.3], [0, 0.75, -0.3], 60);
 		case 'n1':
-			return push(t, K.cutN1, K.cutN2, [0.25, 1.5, 2.6], [0.1, 1.2, 0.9], [0, 0.8, -0.5], HEAD, 46);
+			return push(t, K.cutN1, K.cutN2, [0.25, 1.5, 2.6], [0.1, 1.2, 0.9], [0, 0.8, -0.5], H, 46);
 		case 'n2':
 			return push(t, K.cutN2, K.cutN3, [0.25, 1.45, 2.3], [-0.1, 1.35, 0.7], [0, 0.9, -0.6], [-0.7, 1.3, -1.4], 48);
 		case 'n3':
@@ -106,23 +109,25 @@ const poseAt = (t: number, shot: Shot): CamPose => {
 		case 'n4':
 			return push(t, K.cutN4, K.cutWhisper, [0.6, 1.3, 1.6], [0.85, 1.05, 0.55], [0.5, 0.7, -0.25], [0.65, 0.7, -0.25], 46);
 		case 'whisper':
-			return push(t, K.cutWhisper, K.cutTurn, [0.45, 1.2, -0.3], [0.35, 1.05, -0.45], HEAD, HEAD, 44);
+			return psx
+				? push(t, K.cutWhisper, K.cutTurn, [0.62, 1.42, -0.05], [0.5, 1.3, -0.25], H, H, 44)
+				: push(t, K.cutWhisper, K.cutTurn, [0.45, 1.2, -0.3], [0.35, 1.05, -0.45], HEAD, HEAD, 44);
 		case 'turn': {
 			// my eyes: from Tatay, a turn over my shoulder to the doorway; then a slow push toward her
 			const turn = ease(lin(t, K.cutTurn + 0.1, K.turned));
 			const p0: V3 = [MY_CHAIR[0] - 0.05, 1.15, MY_CHAIR[2]];
 			const near = ease(lin(t, K.turned, K.loopShot));
 			const door: V3 = [DOOR[0], 1.45, DOOR[2]];
-			const l = mix3(HEAD, door, turn);
+			const l = mix3(H, door, turn);
 			return {p: [p0[0] - 0.15 * near, p0[1], p0[2] + 0.5 * near], l, fov: 50 - 14 * near};
 		}
 	}
 };
 
 // ------------------------------------------------------------------ the scene
-const Scene: React.FC<{t: number}> = ({t}) => {
+const Scene: React.FC<{t: number; psx: boolean}> = ({t, psx}) => {
 	const shot = shotAt(t);
-	const pose = poseAt(t, shot);
+	const pose = poseAt(t, shot, psx);
 	const flick = 0.93 + 0.07 * Math.sin(t * 13) * Math.sin(t * 5.1);
 	const tubeFlick = shot === 'turn' && t > K.turned - 0.1 && t < K.turned + 0.15 ? 0 : 1;
 	const fc = farChair(t, shot);
@@ -134,15 +139,31 @@ const Scene: React.FC<{t: number}> = ({t}) => {
 			<pointLight position={[DOOR[0], 2.0, DOOR[2] + 0.9]} intensity={1.6} distance={3} decay={1} color="#b8d8c0" />
 			{shot === 'turn' && <pointLight position={[DOOR[0], 1.5, DOOR[2] - 1.0]} intensity={1.4} distance={2} decay={1} color="#c8d8e0" />}
 			<Ward shadowK={shot === 'n2' ? ease(lin(t, K.shadow[0], K.shadow[1])) : 0} tubeFlick={tubeFlick} />
-			<Bed t={t} look={shot === 'whisper' ? 0.35 : shot === 'n4' ? 0.6 : 0} smile={shot === 'n1' ? ease(lin(t, K.smile[0], K.smile[1])) : 0}
-				talk={(shot === 'n2' && t > L.l04.start + 1.4 && t < L.l04.end) || (shot === 'whisper' && t > L.l07.start && t < L.l07.end) ? 1 : 0}
-				reach={shot === 'n4' ? ease(lin(t, K.reach[0], K.reach[1])) : shot === 'whisper' ? 1 : 0} breathe={shot === 'whisper' ? 0.5 : 1} />
-			<Chair p={MY_CHAIR} ry={-Math.PI / 2} />
-			<Chair p={fc} ry={Math.PI / 2} />
-			{shot !== 'turn' && <Me asleep={shot === 'n3' ? 1 : 0} turn={0} />}
-			{/* Nanay: in the far chair (the hook), in the doorway (the end) */}
-			{shot === 'hook' && <Nanay pose="sit" p={[FAR_CHAIR0[0], 0, FAR_CHAIR0[2]]} ry={Math.PI / 2} bow={0.35} />}
-			{shot === 'turn' && t > K.turned - 0.05 && <Nanay pose="stand" p={[DOOR[0], 0, DOOR[2] - 0.1]} ry={Math.PI} bow={-0.1} />}
+			{psx ? (
+				<>
+					<Bed t={t} look={0} smile={0} talk={0} reach={0} figure={false} mattress={false} />
+					<PsxMattress />
+					<PsxTatay t={t} look={shot === 'whisper' ? 0.35 : shot === 'n4' ? 0.6 : 0} lift={shot === 'n1' ? ease(lin(t, K.smile[0], K.smile[1])) : 0}
+						reach={shot === 'n4' ? ease(lin(t, K.reach[0], K.reach[1])) : shot === 'whisper' ? 1 : 0} breathe={shot === 'whisper' ? 0.5 : 1} />
+					<PsxChair p={MY_CHAIR} ry={-Math.PI / 2} />
+					<PsxChair p={fc} ry={Math.PI / 2} />
+					{shot !== 'turn' && <PsxMe asleep={shot === 'n3' ? 1 : 0} />}
+					{shot === 'hook' && <PsxNanay pose="sit" bow={0.35} />}
+					{shot === 'turn' && t > K.turned - 0.05 && <PsxNanay pose="stand" bow={-0.05} />}
+				</>
+			) : (
+				<>
+				<Bed t={t} look={shot === 'whisper' ? 0.35 : shot === 'n4' ? 0.6 : 0} smile={shot === 'n1' ? ease(lin(t, K.smile[0], K.smile[1])) : 0}
+					talk={(shot === 'n2' && t > L.l04.start + 1.4 && t < L.l04.end) || (shot === 'whisper' && t > L.l07.start && t < L.l07.end) ? 1 : 0}
+					reach={shot === 'n4' ? ease(lin(t, K.reach[0], K.reach[1])) : shot === 'whisper' ? 1 : 0} breathe={shot === 'whisper' ? 0.5 : 1} />
+				<Chair p={MY_CHAIR} ry={-Math.PI / 2} />
+				<Chair p={fc} ry={Math.PI / 2} />
+				{shot !== 'turn' && <Me asleep={shot === 'n3' ? 1 : 0} turn={0} />}
+				{/* Nanay: in the far chair (the hook), in the doorway (the end) */}
+				{shot === 'hook' && <Nanay pose="sit" p={[FAR_CHAIR0[0], 0, FAR_CHAIR0[2]]} ry={Math.PI / 2} bow={0.35} />}
+				{shot === 'turn' && t > K.turned - 0.05 && <Nanay pose="stand" p={[DOOR[0], 0, DOOR[2] - 0.1]} ry={Math.PI} bow={-0.1} />}
+				</>
+			)}
 		</>
 	);
 };
@@ -216,7 +237,7 @@ const Overlay: React.FC<{t: number; captions: boolean}> = ({t, captions}) => {
 };
 
 // ------------------------------------------------------------------ assembly
-export const Episode39: React.FC<{includeAudio?: boolean; captions?: boolean}> = ({includeAudio = true, captions = true}) => {
+export const Episode39: React.FC<{includeAudio?: boolean; captions?: boolean; psx?: boolean}> = ({includeAudio = true, captions = true, psx = false}) => {
 	const f = useCurrentFrame();
 	const t = f / 30;
 	// the loop shot runs on negative time: the hook's own first moments
@@ -227,7 +248,7 @@ export const Episode39: React.FC<{includeAudio?: boolean; captions?: boolean}> =
 			<div style={{position: 'absolute', left: 0, top: 0, width: LW, height: LH, transform: `scale(${SCALE})`, transformOrigin: '0 0', filter: 'saturate(0.6) contrast(1.12) hue-rotate(-8deg)'}}>
 				<ThreeCanvas width={LW} height={LH} gl={{antialias: false, preserveDrawingBuffer: true}} camera={{fov: 50, near: 0.02, far: 60}} style={{position: 'absolute', left: 0, top: 0, imageRendering: 'pixelated'}}>
 					<MatsProvider>
-						<Scene t={tv} />
+						<Scene t={tv} psx={psx} />
 					</MatsProvider>
 				</ThreeCanvas>
 			</div>
