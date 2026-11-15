@@ -184,7 +184,7 @@ const buildShopScene = (a: Assets, evening: boolean, withFigure = false): ShopSc
 	g.add(notebook);
 	let figure: Char | null = null;
 	if (withFigure) {
-		figure = makeChar(a.glb.figure_base, 1.97, {material: lam({color: '#4a4d56'}), frontRy: Math.PI / 2});
+		figure = makeChar(a.glb.figure_base, 1.97, {material: lam({color: '#6a6e78'}), frontRy: Math.PI / 2});
 		figure.holder.position.set(env.at.doorX, 0, env.at.zb + 0.06);
 		figure.holder.rotation.y = 0.35; // facing into the shop, towards the phone
 		g.add(figure.holder);
@@ -894,7 +894,7 @@ export const Episode01: React.FC<{audio?: boolean; from?: number; to?: number}> 
 	for (const d of SHOP_SHOTS) nodes.push(seq(d.from, d.to, <AbsoluteFill style={{background: '#000'}}><Pixel w={640} h={360} k={3}><ShopShot a={a} def={d} /></Pixel><Letterbox /></AbsoluteFill>, `shop${d.from}`));
 	for (const pc of PHONE_CLIPS) nodes.push(seq(pc.from, pc.to, (
 		<AbsoluteFill style={{background: '#000'}}>
-			<Pixel w={640} h={360} k={3} style={{filter: `blur(${(Math.abs(Math.sin(t * 2.3)) * 1.6).toFixed(2)}px)`}}><PhoneClip a={a} tc={pc.tc} from={pc.from} /></Pixel>
+			<Pixel w={640} h={360} k={3} style={{filter: `blur(${(Math.abs(Math.sin(t * 2.3)) * 0.9).toFixed(2)}px)`}}><PhoneClip a={a} tc={pc.tc} from={pc.from} /></Pixel>
 			<div style={{position: 'absolute', left: 60, top: 40, color: '#fff', fontFamily: 'sans-serif', fontSize: 34}}><span style={{color: '#e02020'}}>●</span> {(() => { const s = pc.tc(t) - 258.2; return `00:${String(Math.floor(s / 60)).padStart(2, '0')}:${String(Math.floor(s) % 60).padStart(2, '0')}`; })()}</div>
 		</AbsoluteFill>
 	), `phone${pc.from}`));
