@@ -18,6 +18,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 | 35 | Bantay | folklore (amalanhig) + custom (lamay) | `assets/videos/ep35-bantay-v1/ep35-bantay.mp4` | 52.04 s |
 | 36 | Sunugin Mo ang Damit | campus legend (UP Ikot jeep) | `assets/videos/ep36-ikot-v1/ep36-sunugin-mo-ang-damit.mp4` | 52.44 s |
 | 37 | Pitong Biyernes | folk belief (barang) + tradition (Siquijor healers) | `assets/videos/ep37-barang-v1/ep37-pitong-biyernes.mp4` | 51.91 s |
+| 38 | FWD: Ingat Kayo | urban legend (Maria Labo, chain text) | `assets/videos/ep38-labo-v1/ep38-fwd-ingat-kayo.mp4` | 48.67 s |
 
 ---
 
@@ -109,3 +110,16 @@ Alternative: `Barang: what the bamboo tube is for`
 **Pinned comment:** `Pakinggan ulit ang katahimikan bago siya umubo. Ilang beses mo narinig ang pakpak? 🪲`
 
 Full kit: `docs/publishing/ep37/README.md`.
+
+---
+
+## Broadcast 38: FWD: Ingat Kayo (urban legend)
+
+**YouTube title:** `FWD: Si Maria Labo, nakabalik na raw. Ingat kayo.`
+Alternative: `Maria Labo: the chain text`
+
+**TikTok caption:** `FWD: si maria labo nakabalik na raw. ingat kayo 📱 #marialabo #kwentongkatatakutan #pinoyhorror #urbanlegend #fyp #fypシ`
+
+**Pinned comment:** `Ilang beses nagbago ang lugar sa mga text? At ano ang huling text? 📱`
+
+Full kit: `docs/publishing/ep38/README.md`.
