@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 59.906,
+  "duration_frames": 1797,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.24 s, atempo 1.06",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Sa Malinta, may sandaling pinapapatay ang lahat ng ilaw.",
+      "start": 0.5,
+      "end": 4.25,
+      "kind": "narrator",
+      "beat_before": "hook: a lateral, six beams on the concrete; they go out one by one"
+    },
+    {
+      "id": "l02",
+      "text": "Corregidor. Itinayo ang tunnel na ito laban sa bomba. Noong 1942, naging ospital ito ng mga sugatang Pilipino at Amerikano.",
+      "start": 5.25,
+      "end": 15.505,
+      "kind": "narrator",
+      "beat_before": "the island at night, the tunnel mouth; cicadas; then (mid-line) the main tunnel, bed bolts in the floor"
+    },
+    {
+      "id": "l03",
+      "text": "Noong 1945, may mga sundalong Hapon na nakulong sa loob, at may mga pagsabog. May mga lagusang gumuho na hindi na binuksan.",
+      "start": 16.405,
+      "end": 26.253,
+      "kind": "narrator",
+      "beat_before": "a lateral sealed by rubble; dust trickles down in a beam"
+    },
+    {
+      "id": "l04",
+      "text": "Sa night tour, may isang hiling ang gabay.",
+      "start": 27.153,
+      "end": 29.906,
+      "kind": "narrator",
+      "beat_before": "the guide ahead turns and lifts a hand; the beams gather on him"
+    },
+    {
+      "id": "l05",
+      "text": "Patayin ang ilaw.",
+      "start": 30.906,
+      "end": 32.187,
+      "kind": "narrator",
+      "beat_before": "the group from behind, six beams"
+    },
+    {
+      "id": "l06",
+      "text": "Pagbukas ng ilaw, pareho pa rin kami. Halos.",
+      "start": 41.187,
+      "end": 44.372,
+      "kind": "narrator",
+      "beat_before": "the beams go out one by one (1.4 s); then about seven and a half seconds of black: after-images, a dim glow where no one stands"
+    },
+    {
+      "id": "l07",
+      "text": "Nagbilang ang gabay. Anim kami. Pito ang sumagot.",
+      "start": 46.772,
+      "end": 50.414,
+      "kind": "narrator",
+      "beat_before": "a beam finds, at the back of the group, an extra figure in an old helmet, head bowed; the lights die by themselves; the guide's beam comes back"
+    },
+    {
+      "id": "l08",
+      "text": "Para sa lahat ng namatay rito, sa lahat ng panig. Huwag natin silang kalimutan.",
+      "start": 52.214,
+      "end": 56.906,
+      "kind": "narrator",
+      "beat_before": "the guide's beam counting heads: six, and a seventh"
+    }
+  ]
+}

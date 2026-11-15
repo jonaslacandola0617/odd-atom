@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Sa Malinta, may sandaling pinapapatay ang lahat ng ilaw. [long pause] [softly] Corregidor. Itinayo ang tunnel na ito laban sa bomba. Noong 1942, naging ospital ito ng mga sugatang Pilipino at Amerikano. [long pause] Noong 1945, may mga sundalong Hapon na nakulong sa loob, at may mga pagsabog. May mga lagusang gumuho na hindi na binuksan. [long pause] Sa night tour, may isang hiling ang gabay. [long pause] [whispers] Patayin ang ilaw. [long pause] [whispers] Pagbukas ng ilaw, pareho pa rin kami. Halos. [long pause] [whispers] Nagbilang ang gabay. Anim kami. Pito ang sumagot. [long pause] [softly] Para sa lahat ng namatay rito, sa lahat ng panig. Huwag natin silang kalimutan.",
+    "flow_id": "UHsHawCfAljwSC64eMFR (new flow, 2026-11-15)",
+    "attempts": ["2026-11-15: one call, both takes started at once (693 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep40-take1.mp3: 54.83 s, 693 credits (used)",
+      "public/assets/audio/eleven-takes/ep40-take2.mp3: 54.52 s, 693 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, pauses inside a line capped at 0.24 s, atempo 1.06 to fit 60 s with the long black; timeline 59.91 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "UHsHawCfAljwSC64eMFR",
+    "prompts": {
+      "tunnel": "Inside a long concrete tunnel at night, deep hollow room tone, slow water drips echoing, faint distant wind at the entrance, no music",
+      "steps": "A small group of people walking slowly on gritty concrete inside an echoing tunnel, shoes scuffing, close, no voices, no music",
+      "bed": "An old rusty metal hospital bed frame creaking slowly under weight, in a dark echoing concrete room, no music",
+      "cicadas": "Tropical island night outside, loud cicadas and crickets, warm humid air, distant sea, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep40-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: tunnel-3 (the loudest; looped), steps-2 (the loudest of the 3 s takes; looped on the walk, and single steps cut from it for the black), bed-1 (moderate peak, 2 s), cicadas-3 (2 s, no clipping; looped)"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #40 (Malinta Tunnel, Corregidor: the tunnel's documented history and the reported haunting on the night lateral tour), Taglish version for Juanito; no visitor's or guide's account is adapted"
+}

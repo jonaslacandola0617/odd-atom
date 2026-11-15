@@ -1,0 +1,127 @@
+{
+  "episode": "Ep40PatayinAngIlaw",
+  "duration_seconds": 59.906,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.24 s, atempo 1.06",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep40-take1.mp3",
+    "sha256": "9fc7bd3d89a78e2d5c2ad976b057c86c5a1cc82547f2834635f57f7b2f3f1881",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep40-take1.mp3: 54.83 s, 693 credits (used)",
+      "public/assets/audio/eleven-takes/ep40-take2.mp3: 54.52 s, 693 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep40-malinta/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, an original falling music-box figure (in the tunnel and at dawn), bowed metal at the rubble, a heartbeat from the lights coming back to their dying, a reversed swell and a stinger when my beam finds him, a smaller stinger on the seventh (scripts/horror_score.py); loop-quantised; silent in both blacks",
+    "flashlight clicks for every beam out and on, the lights dying with a buzz, drips (one across the loop seam), dust trickling, the slab creaking, breathing in the black, many footsteps cut from one ElevenLabs step take, a far handbell, a rustle, low hits, the sea and wind, a breath across the loop seam (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "UHsHawCfAljwSC64eMFR",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "tunnel-3": {
+        "path": "public/assets/audio/eleven-sfx/ep40-tunnel-3.mp3",
+        "sha256": "e4d0439b13e9f0a56e72fdd084fa353c41e4e6dfd0e8b166ac57e50101ca1a44"
+      },
+      "cicadas-3": {
+        "path": "public/assets/audio/eleven-sfx/ep40-cicadas-3.mp3",
+        "sha256": "71995342436cad43ee7598d23678e556813d2690bceb5f10e018b3fbd73eb7db"
+      },
+      "steps-2": {
+        "path": "public/assets/audio/eleven-sfx/ep40-steps-2.mp3",
+        "sha256": "1baedb08f4d3fbd22248ae7bd3dae3457b84a0ca57eae7f766485e210f792230"
+      },
+      "bed-1": {
+        "path": "public/assets/audio/eleven-sfx/ep40-bed-1.mp3",
+        "sha256": "2859c6fb55bf6406a7f6ed6b5da2b37e9427f9def1d954ae6d727ae00c43a3d4"
+      }
+    },
+    "note": "four prompts x four variations (about 68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    44.872,
+    50.614000000000004
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.27,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -23.5,
+    "last_quarter_second": -23.1
+  },
+  "limiter": "tanh soft limiter, ceiling -5.12 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 14.5,
+      "phone_band_voice_minus_all_db": 19.0,
+      "voice_minus_bed_db": 14.5
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 9.1,
+      "phone_band_voice_minus_all_db": 9.5,
+      "voice_minus_bed_db": 9.1
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 9.9,
+      "phone_band_voice_minus_all_db": 13.1,
+      "voice_minus_bed_db": 9.9
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 10.2,
+      "phone_band_voice_minus_all_db": 13.1,
+      "voice_minus_bed_db": 10.2
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 13.8,
+      "phone_band_voice_minus_all_db": 20.0,
+      "voice_minus_bed_db": 13.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 11.1,
+      "phone_band_voice_minus_all_db": 12.9,
+      "voice_minus_bed_db": 11.1
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 9.7,
+      "phone_band_voice_minus_all_db": 12.2,
+      "voice_minus_bed_db": 9.7
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 11.5,
+      "phone_band_voice_minus_all_db": 10.6,
+      "voice_minus_bed_db": 11.5
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.0,
+    "music_minus_voice_in_gaps_db": -4.3,
+    "music_share_of_gaps_seconds": 20.5
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
