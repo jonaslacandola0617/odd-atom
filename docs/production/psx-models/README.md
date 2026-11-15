@@ -47,3 +47,5 @@ Contact sheets: `sheet-characters.jpg` (all 79 of `Characters_psx`) and `sheet-p
 - **What these models can't do yet:** there's no face rig, so Tatay's night 1 smile becomes his head lifting toward the doorway, and nobody's mouth moves. The hand reach on night 4 is small.
 
 **Delivery:** `assets/videos/ep39-sundo-psx-v1/ep39-sino-ang-susundo-psx.mp4`. Render with `npm run render:ep39-psx` (stills: `npm run still:ep39-psx`). It has no user approval and no listening pass (the mix is v1's, unchanged).
+
+**Review of the encoded file:** `ep39-sino-ang-susundo-psx.mp4`, 38,902,333 bytes, SHA-256 `fcaced5dbad9dceadaca8795d10b9a5f4f746f784d815406f7200cf0d6ed320c`; H.264 1080×1920, 1,460 frames (48.67 s); AAC 48.79 s; −14.1 LUFS, sample peak −1.1 dBFS (the v1 mix); first and last frames differ by 5.0/255 on average (the loop). A contact board (one frame every 3 s) was checked for every shot.
