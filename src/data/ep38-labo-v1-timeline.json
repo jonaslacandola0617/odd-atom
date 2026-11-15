@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 48.67,
+  "duration_frames": 1460,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "FWD: Si Maria Labo, nakabalik na raw. Ingat kayo.",
+      "start": 1.0,
+      "end": 5.81,
+      "kind": "narrator",
+      "beat_before": "hook: the phone in a hand in the dark: 1 message received; it opens: FWD"
+    },
+    {
+      "id": "l02",
+      "text": "Noong dekada nobenta, kumalat ito sa text. Isang babaeng naging aswang daw, at tinaga ng asawa ang mukha niya.",
+      "start": 6.81,
+      "end": 14.58,
+      "kind": "narrator",
+      "beat_before": "the town at night from above: in window after window, a phone screen lights green"
+    },
+    {
+      "id": "l03",
+      "text": "Nasa Iloilo raw siya. Hindi, sa Capiz. Hindi, nandito na raw.",
+      "start": 15.58,
+      "end": 20.49,
+      "kind": "narrator",
+      "beat_before": "the phone: forwards pile up, each FWD longer, each place different"
+    },
+    {
+      "id": "l04",
+      "text": "Manikurista raw siya sa palengke. Laging nakatakip ang buhok sa kalahati ng mukha.",
+      "start": 21.49,
+      "end": 26.25,
+      "kind": "narrator",
+      "beat_before": "the market by day: a manicure stall, a woman with her hair over half her face"
+    },
+    {
+      "id": "l05",
+      "text": "Walang biktimang naitala. Walang petsa. Tsismis lang na pinapasa-pasa.",
+      "start": 27.45,
+      "end": 32.12,
+      "kind": "narrator",
+      "beat_before": "the phone: the thread scrolls, FWD: FWD: FWD:, the inbox count climbing"
+    },
+    {
+      "id": "l06",
+      "text": "Pero gabi-gabi, may nanay na nagsasara ng pinto.",
+      "start": 33.12,
+      "end": 36.45,
+      "kind": "narrator",
+      "beat_before": "night: a mother hurries her children inside and bars the door"
+    },
+    {
+      "id": "l07",
+      "text": "Isang text mula sa hindi kilalang numero.",
+      "start": 37.85,
+      "end": 40.7,
+      "kind": "narrator",
+      "beat_before": "the phone on the table vibrates: an unknown number"
+    },
+    {
+      "id": "l08",
+      "text": "Nasa labas na ako.",
+      "start": 43.1,
+      "end": 44.27,
+      "kind": "narrator",
+      "beat_before": "the message: Diin kamo? Ara ko sa gwa. The phone light lifts to the jalousie"
+    }
+  ]
+}

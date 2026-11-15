@@ -1,0 +1,126 @@
+{
+  "episode": "Ep38FwdIngatKayo",
+  "duration_seconds": 48.67,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep38-take1.mp3",
+    "sha256": "130eafd6af6cc200a88968007f5ba7b73eb8fcab04e08bf3399b1dc3a7b3d600",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep38-take1.mp3: 44.24 s, 619 credits (used)",
+      "public/assets/audio/eleven-takes/ep38-take2.mp3: 45.76 s, 619 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep38-labo/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, an original music-box figure on the message tone's three notes, bowed metal under the count, a heartbeat from the unknown number to the face, a reversed swell and a stinger at the face (scripts/horror_score.py); loop-quantised",
+    "an original message tone (three short rising beeps, not any real ringtone) on every message, keypad clicks, faint tones spreading through the town, crickets, wind, the nail file, quick steps, glass slats, a breath outside, a low hit (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "tzXH3wlop0hENgRPt8ab",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "market-3": {
+        "path": "public/assets/audio/eleven-sfx/ep38-market-3.mp3",
+        "sha256": "8aa70a94eacbc6dc8502882d10fb0282268b900adfa094a3fd324c7461e752c8"
+      },
+      "vibrate-3": {
+        "path": "public/assets/audio/eleven-sfx/ep38-vibrate-3.mp3",
+        "sha256": "1d4552a2251e48da05e17a620b237b8b050396e85047dd52c1434783649aebc7"
+      },
+      "door-2": {
+        "path": "public/assets/audio/eleven-sfx/ep38-door-2.mp3",
+        "sha256": "73af6ed70da7a33508caabf7ddd91de98d04deb8eb7e87b00e43c4975fdfbe96"
+      },
+      "whetstone-2": {
+        "path": "public/assets/audio/eleven-sfx/ep38-whetstone-2.mp3",
+        "sha256": "3e6c43826476aba1a57262baa661b12d4f4a4578845d23d976645808cf2d076c"
+      }
+    },
+    "note": "four prompts x four variations (about 68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    44.470000000000006
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.15,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -15.3,
+    "last_quarter_second": -15.2
+  },
+  "limiter": "tanh soft limiter, ceiling -3.08 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.4,
+    "l02": 1.5,
+    "l03": 0.1,
+    "l04": 0.8,
+    "l05": 3.3,
+    "l06": 5.2,
+    "l07": 2.4,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 4.9,
+      "phone_band_voice_minus_all_db": 15.6,
+      "voice_minus_bed_db": 4.9
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 7.9,
+      "voice_minus_bed_db": 4.7
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 8.5,
+      "voice_minus_bed_db": 4.7
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 10.3,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 15.0,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 6.9,
+      "phone_band_voice_minus_all_db": 15.9,
+      "voice_minus_bed_db": 6.9
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 13.7,
+      "voice_minus_bed_db": 4.7
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 8.0,
+      "phone_band_voice_minus_all_db": 15.8,
+      "voice_minus_bed_db": 8.0
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.6,
+    "music_minus_voice_in_gaps_db": -3.3,
+    "music_share_of_gaps_seconds": 14.4
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

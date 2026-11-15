@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] FWD: Si Maria Labo, nakabalik na raw. Ingat kayo. [long pause] [softly] Noong dekada nobenta, kumalat ito sa text. Isang babaeng naging aswang daw, at tinaga ng asawa ang mukha niya. [long pause] Nasa Iloilo raw siya. Hindi, sa Capiz. Hindi, nandito na raw. [long pause] Manikurista raw siya sa palengke. Laging nakatakip ang buhok sa kalahati ng mukha. [long pause] Walang biktimang naitala. Walang petsa. Tsismis lang na pinapasa-pasa. [long pause] Pero gabi-gabi, may nanay na nagsasara ng pinto. [long pause] [whispers] Isang text mula sa hindi kilalang numero. [long pause] [whispers] Nasa labas na ako.",
+    "flow_id": "tzXH3wlop0hENgRPt8ab (new flow, 2026-11-15)",
+    "attempts": ["2026-11-15: one call, both takes started at once (619 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep38-take1.mp3: 44.24 s, 619 credits (used)",
+      "public/assets/audio/eleven-takes/ep38-take2.mp3: 45.76 s, 619 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, pauses inside a line capped at 0.32 s, no tempo change; gaps widened for the picture; timeline 48.67 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "tzXH3wlop0hENgRPt8ab",
+    "prompts": {
+      "market": "A busy Filipino wet market in the morning, vendors calling, chatter, plastic bags, distant tricycles, no music",
+      "whetstone": "A long blade slowly sharpened on a whetstone, steady scraping strokes, close, quiet room at night, no music",
+      "vibrate": "An old mobile phone vibrating on a wooden table, buzzing and rattling against the wood, quiet room, no music",
+      "door": "A wooden door slammed shut and a heavy wooden bar dropped across it, then glass jalousie slats rattling, night, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep38-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: market-3 (the longest, 4 s; looped), whetstone-2 (the loudest), vibrate-3 (2 s; vibrate-1 to -3 measure near full scale, so it is normalised before use), door-2 (the loudest of the 2 s takes)"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #38 (Visayan urban legend: Maria Labo, told as a chain text), Taglish version for Juanito; the on-screen texts use Hiligaynon phrases (Indi, Ari na siya diri, Diin kamo? Ara ko sa gwa.)"
+}
