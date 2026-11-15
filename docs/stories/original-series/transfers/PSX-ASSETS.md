@@ -6,6 +6,28 @@ described as "licensed approved". Nothing here is approved as the series look ye
 
 ## Licences: read this first
 
+**Update (user, 2026-11-15):** "for the license, i read each model posts and i assure they
+are all free to use so we dont have any problem with that." The user also shared the
+store page of the character packs: **"Characters PSX" by Elbolilloduro** on itch.io
+(`elbolilloduro.itch.io/characters-psx`, 137 characters: 12 police, 41 civilians,
+4 firefighters, 4 doctors, 4 hazmat, 8 killers, 6 monsters, 34+ extras; FBX and .blend).
+Its licence, translated from Spanish by the user:
+
+> This resource may be used for both commercial and non-commercial projects; no attribution
+> is required. However, you may not re-upload this resource, whether individually or as part
+> of a collection, to other locations, regardless of whether it has been modified or altered
+> in any other way.
+
+What this means for us:
+- **Using the packs in published videos is fine** (the user's assurance for every pack; the
+  written terms above for the character packs). Rendered videos and stills may be committed
+  and posted.
+- **The packs' files must never be uploaded anywhere**, modified or not. That includes this
+  public repo: the converted GLBs, restyled and expression textures, and face templates stay
+  in the git-ignored `psx-local/` folders and on the user's Drive. Our code, which only reads
+  them, is committed.
+- The earlier table below records what was found before the user's confirmation.
+
 **The repo is public.** Only CC0 and CC-BY may be committed (CC-BY with credit). Anything
 else stays out of Git and lives in the git-ignored `public/assets/3d/psx-local/` and
 `assets3d/psx-local/`.

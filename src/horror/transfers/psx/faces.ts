@@ -6,7 +6,7 @@ import * as THREE from 'three';
 import {staticFile} from 'remotion';
 import {nearest} from '../../psx';
 
-export const EXPRESSIONS = ['neutral', 'focused', 'worried', 'fear', 'smile', 'sleepy', 'shh'] as const;
+export const EXPRESSIONS = ['neutral', 'focused', 'worried', 'fear', 'smile', 'sleepy', 'shh', 'talk'] as const;
 export type Expr = (typeof EXPRESSIONS)[number];
 export type Who = 'nico' | 'bea';
 

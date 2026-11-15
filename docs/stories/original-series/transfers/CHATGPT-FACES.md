@@ -29,9 +29,9 @@ not in the public repo. They are on the private review page "TRANSFERS PSX Test"
 | `nico-face-mask.png` | White = the part we paste back. For you, not for ChatGPT. |
 | `bea-face-template.png`, `bea-face-guide.png`, `bea-face-mask.png` | The same for Bea (88×88 texels on her 512×512 texture). |
 
-## The 7 expressions
+## The 8 expressions
 
-Use exactly these names: `neutral`, `focused`, `worried`, `fear`, `smile`, `sleepy`, `shh`.
+Use exactly these names: `neutral`, `focused`, `worried`, `fear`, `smile`, `sleepy`, `shh`, `talk`.
 
 | Name | Nico | Bea |
 |---|---|---|
@@ -42,6 +42,10 @@ Use exactly these names: `neutral`, `focused`, `worried`, `fear`, `smile`, `slee
 | `smile` | a forced smile: the mouth smiles, the eyes don't | a small polite smile (unsettling if held) |
 | `sleepy` | eyelids two-thirds closed | eyes half open (her "asleep but watching" look) |
 | `shh` | whisper: lips pushed together and forward, eyes wary | the same; a finger is not needed (that is the hand pose) |
+| `talk` | the neutral face mid-word: mouth half open, jaw slightly down, teeth barely showing; nothing else changes | the same |
+
+`talk` is swapped with `neutral` while a character speaks (PS1-style lip flap), so it must
+match `neutral` exactly apart from the mouth.
 
 ## The prompt (paste into ChatGPT once per character, then ask for each expression)
 
@@ -82,7 +86,7 @@ Then, in the same chat, one message per expression:
 > Same face, same layout, same lighting. Expression: FOCUSED (brows drawn down and together,
 > eyes narrowed as if staring at a screen).
 
-(and so on for WORRIED, FEAR, SMILE, SLEEPY, SHH, using the descriptions in the table above).
+(and so on for WORRIED, FEAR, SMILE, SLEEPY, SHH and TALK, using the descriptions in the table above).
 
 **Check each result before you save it:** lay it over the guide image (or flick between the
 two). The eyes should be on the cyan lines, the mouth on the yellow line, and the face the
@@ -93,9 +97,9 @@ size; the eyes on the cyan lines" and regenerate.
 
 - Save each as PNG, 1024×1024, named `<who>-<expression>.png`: `nico-neutral.png`,
   `nico-focused.png`, `nico-worried.png`, `nico-fear.png`, `nico-smile.png`,
-  `nico-sleepy.png`, `nico-shh.png`, and the same for `bea-…`.
-- Put all 14 in one Drive folder and share the folder link in chat. Two or three per
-  character is enough to start (neutral, focused, fear).
+  `nico-sleepy.png`, `nico-shh.png`, `nico-talk.png`, and the same for `bea-…`.
+- Put all 16 in one Drive folder and share the folder link in chat. If time is short, start
+  with neutral, talk, focused and fear for each.
 
 ## What happens next (Claude's side)
 

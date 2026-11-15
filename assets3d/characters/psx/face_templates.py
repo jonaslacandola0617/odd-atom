@@ -28,7 +28,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')
 TEX = os.path.join(ROOT, 'public', 'assets', '3d', 'psx-local')
 TPL = os.path.join(ROOT, 'assets3d', 'psx-local', 'face-templates')
 SIZE = 1024
-EXPRESSIONS = ['neutral', 'focused', 'worried', 'fear', 'smile', 'sleepy', 'shh']
+EXPRESSIONS = ['neutral', 'focused', 'worried', 'fear', 'smile', 'sleepy', 'shh', 'talk']
 
 CHARS = {
 	# box = (x0, y0, x1, y1) on the native texture; fbx/tex inside the extracted packs

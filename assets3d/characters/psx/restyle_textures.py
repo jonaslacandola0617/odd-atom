@@ -22,7 +22,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')
 OUT = os.path.join(ROOT, 'public', 'assets', '3d', 'psx-local')
 SS = 4  # supersampling for warps and paint, then box-filtered back to the native texture size
 
-EXPRESSIONS = ['neutral', 'focused', 'worried', 'fear', 'smile', 'sleepy', 'shh']
+EXPRESSIONS = ['neutral', 'focused', 'worried', 'fear', 'smile', 'sleepy', 'shh', 'talk']
 
 
 def hexc(h):
@@ -174,6 +174,9 @@ def expression(img, F, expr):
 			('scale', eL[0], eL[1], 1.0, 0.85, 2.0 * u), ('scale', eR[0], eR[1], 1.0, 0.85, 2.0 * u),
 			('move', inner(eL, 1), F.by, 0.4 * u, 0.5 * u, 2.0 * u), ('move', inner(eR, -1), F.by, -0.4 * u, 0.5 * u, 2.0 * u)])
 		return paint(img, lambda d, s: d.ellipse(s(m[0] - 1.1 * u, m[1] - 0.6 * u, m[0] + 1.1 * u, m[1] + 0.9 * u), fill=col(F.dark, 0.9)))
+	if expr == 'talk':  # mid-word: jaw down a little, mouth open (swapped with neutral for lip flap)
+		img = warp(img, [('move', m[0], m[1] + 2 * u, 0, 1.0 * u, 3.2 * u)])
+		return paint(img, lambda d, s: d.ellipse(s(m[0] - F.mw * 0.55, m[1] - 0.3 * u, m[0] + F.mw * 0.55, m[1] + 1.9 * u), fill=col(F.dark, 0.9)))
 	raise ValueError(expr)
 
 
