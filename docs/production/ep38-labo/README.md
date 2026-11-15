@@ -54,3 +54,7 @@ Figures (`public/assets/audio/ep38-labo-v1/PROVENANCE.json`): bed presence −11
 ## Render
 
 `npm run sound:ep38` then `npm run render:ep38` (stills: `npm run still:ep38`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep38-labo-v1/ep38-fwd-ingat-kayo.mp4`: 39,443,283 bytes, SHA-256 `1917f3742825596c6b5281835316fa242a6de997f6b6f7123cdd2f8cb5cc6855`; H.264 1080×1920, 1,460 frames (48.67 s); AAC 48.66 s; measured from the file: −14.1 LUFS, sample peak −1.1 dBFS. The decoded first and last frames differ by 1.80/255 on average (the loop). A contact board of the encoded file was checked for every shot. No listening pass.
