@@ -2,12 +2,14 @@
 
 - **Standing direction for the next season (user, 2026-11-15, after the PSX test v2):** "Yeah this is good enough and we made a better look rather than being a blocks of models, apply this to future videos, for the next season on a new session, I want more local personal experience people have shared online. And with our new models i want the animation more spooky more scary and more horror."
   - **Models:** every future episode uses the user's PSX models (`src/horror/psx/models.tsx`, `docs/production/psx-models/README.md`) for people and, where they fit, furniture, streets and buildings. The blocky `Rider`/`Villager` figures are retired for new work (keep them only for objects the packs lack). Copy each new model into `public/assets/models/psx/` and add it to `PROVENANCE.md`; keep the full packs out of Git (re-download from the Drive folder in a new session).
-  - **Season 5 (start in a new session):** local Philippine **personal experiences shared online**, in Taglish with Juanito, with the Season 4 standard (eerie score, seamless loop) and all earlier rules (motion rule, hard cuts, loudness, care).
-  - **Rights (unchanged, and stricter for personal stories):** never adapt one person's post (Reddit, Facebook, TikTok, YouTube storytime, KMJS-type testimony) without the author's written permission. Three routes, told to the user on 2026-11-15:
-    1. the user sends links and gets the author's written OK (credited or anonymous);
-    2. a channel call for submissions with consent;
-    3. composite "pattern" experiences that many people report in the same form (the 3 a.m. knock, the relative seen at the wake, the figure in the jeepney window), retold in our own words with no one's details.
-    Draft the slate on route 3 and slot in 1 and 2 as permissions arrive. Never name or expose a private person or family, and never present a composite as one named person's true account.
+  - **Season 5 (started 2026-11-15 on the user's "start season 5"):** local Philippine **personal experiences shared online**, in Taglish with Juanito, with the Season 4 standard (eerie score, seamless loop) and all earlier rules (motion rule, hard cuts, loudness, care).
+  - **Rights (user decision, 2026-11-15, replacing the earlier "written permission" rule for publicly shared personal stories):** "we dont have to adapt their real identity just their personal story … we dont need permission people already shared it through public platforms." Our safeguards, stated to the user:
+    - retell the experience in our own words, never copying the poster's text;
+    - no names, usernames, photos, exact addresses, employers, schools or hospitals; change identifying details;
+    - posts say "batay sa mga karanasang ibinahagi online" and claim nothing as verified;
+    - if a poster objects, the user decides whether to take the video down or credit them;
+    - never use stories tied to a real crime or a real victim.
+  - **Slate:** `docs/stories/season-5-philippines.md` (Episodes 41–50, drafted 2026-11-15, awaiting the user's approval).
   - **Scarier animation with the rigs (the user's ask):** use the skeletons, not just poses. Examples:
     - motion that is wrong: a head turning past human limits, a neck that bends back, a jerky stop-motion step (pose held, then a snap), a body that walks backwards or crawls, a figure that is closer every cut;
     - small human tells: breathing, a hand twitch, a head tilt toward the lens;
