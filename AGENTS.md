@@ -6,7 +6,7 @@
   - **Rules:** Season 3's rules hold (no shared template, the motion rule, hard cuts only, the sound and loudness standards), plus the care notes in the slate.
   - **Approved (user, 2026-11-14):** "approved, taglish with juanito, start ep 31". The slate and order are approved; **Taglish narration and captions with Juanito** (`u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`) for every episode, a new flow per session, both takes by default. Posts: `docs/publishing/POSTS-ep31-40.md` (PH evening times).
   - **Season 4 standard (user, 2026-11-14, after Episode 31 v1: "good, please add an eerie/scary background music, and try to make the reel loop at the end like those viral videos"):** every episode has an **eerie score** (`scripts/horror_score.py`, loop-quantised, ducked under speech) and a **seamless loop**: no black at the end; the last shot is the first shot, played on negative time (`tv = t − DUR`), with the sound crossing the seam (a breath or a knock), and the first and last frames compared.
-  - **Status:** Episodes 31 (v2) and 32–38 delivered; no user approval of any episode; no listening pass.
+  - **Status:** Episodes 31 (v2) and 32–39 delivered; no user approval of any episode; no listening pass.
 
 - **Episode 31 "Dalawa Sila" (2026-11-14):** the Season 4 opener: Clarita Villanueva (Manila City Jail, the old Bilibid, May 1953), a documented case. `Ep31DalawaSila` / `src/horror/ep31/` is 59.97 s, in Taglish.
   - **Form:** "the examination": only hands, arms, shoes and paper; she is never seen above the shoulder. A bite presses into her forearm in torchlight (hook) → the jail wall, a guard running → the corridor, her door opens → the cell: a cup rolls by itself, two shadows (tall; child-height) grow on the wall → the doctor's hands, the wet mark, a second bite presses in → the press (a reconstructed page, no real masthead) → the mayor's shoes, the hat falls → a photographer's flash: the cot sinks under someone unseen; in flash 2 the shadows stand by the cot → prayer: something crosses under the blanket → the report is typed, the typing stops, a bite presses into the doctor's wrist (our dramatisation) → black, the loop.
@@ -103,6 +103,18 @@
   - **Delivery:** `assets/videos/ep38-labo-v1/`. Notes are in `docs/production/ep38-labo/README.md`; the publishing kit is `docs/publishing/ep38/README.md` and `docs/publishing/POSTS-ep31-40.md`.
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 39 "Sino ang Susundo" (the *sundo*).
+
+- **Episode 39 "Sino ang Susundo" (2026-11-15):** the user asked for the "next ep". A Filipino folk belief: the *sundo*, the loved one who comes to fetch the dying. `Ep39SinoAngSusundo` / `src/horror/ep39/` is 48.79 s, in Taglish, with the Season 4 score and seamless loop.
+  - **Form:** "the nights": four nights in a composite public ward, each a hard cut onto a slow push toward the bed, a little closer each night. From the doorway, my chair and across the bed the other chair, someone in it (hook) → the ward → night 1, Tatay smiles at the empty doorway → night 2, beside the drip's shadow on the wall a woman's → night 3, I sleep, the other chair slides nearer → night 4, his hand takes mine → "Nandito na siya. Pero hindi ako ang sinusundo niya." → I turn; the tube flickers: Nanay in the doorway, looking at me → the loop (the far chair).
+  - **Picture technique:** Tatay's head is a group tilted `-π/2 + 0.25` with an inner look rotation; the wall shadows (IV, woman) are a canvas on the wall; the shared `Rider` serves as me and as Nanay (pale).
+  - **Lessons:** a hook that depends on two chairs must have both inside the portrait cone: move the props closer and widen the lens (fov 62) rather than pull the camera back through a wall.
+  - **Sound:** ElevenLabs concentrator (looped and folded across the loop seam), ward, slippers, a woman humming far off only between lines (about 267 credits, picked by measurement); synthesized tube hum that drops with the flicker, a loop-quantised IV drip, the chair scrape, a breath across the seam; a loop-quantised score with a music-box lullaby.
+  - **Care:** no real hospital or family; the KMJS "Sundo" story not used; the father's death not shown; the fetcher is loving; nothing claims the son will die.
+  - **Voice:** Juanito, both takes at once (1,244 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −11.4 / −4.4 dB, lines ≥4.6 dB (lifts up to +3.9 dB, l08; phone band ≥6.7 dB), −14.0 LUFS, decoded peak −1.12 dBFS, seam −16.4 / −16.4 dBFS.
+  - **Delivery:** `assets/videos/ep39-sundo-v1/`. Notes are in `docs/production/ep39-sundo/README.md`; the publishing kit is `docs/publishing/ep39/README.md` and `docs/publishing/POSTS-ep31-40.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 40 "Patayin ang Ilaw" (Malinta Tunnel, Corregidor; the season finale).
 
 - **Season 3: famous real ghost cases from around the world (2026-11-12):** the user asked for ten more episodes (21–30) of "famous super really scary ghost stories around the world", then (relayed) "I want real story" and "something true to life super scary".
   - **The user's criticism of Season 2:** every episode had the same shape (intro → story → mid hint → silence → one lit reveal → aftermath → loop): "too predictable … each video should be unique, not a reused template".

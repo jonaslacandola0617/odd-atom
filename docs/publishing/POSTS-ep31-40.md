@@ -19,6 +19,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 | 36 | Sunugin Mo ang Damit | campus legend (UP Ikot jeep) | `assets/videos/ep36-ikot-v1/ep36-sunugin-mo-ang-damit.mp4` | 52.44 s |
 | 37 | Pitong Biyernes | folk belief (barang) + tradition (Siquijor healers) | `assets/videos/ep37-barang-v1/ep37-pitong-biyernes.mp4` | 51.91 s |
 | 38 | FWD: Ingat Kayo | urban legend (Maria Labo, chain text) | `assets/videos/ep38-labo-v1/ep38-fwd-ingat-kayo.mp4` | 48.67 s |
+| 39 | Sino ang Susundo | folk belief (sundo) | `assets/videos/ep39-sundo-v1/ep39-sino-ang-susundo.mp4` | 48.79 s |
 
 ---
 
@@ -123,3 +124,14 @@ Alternative: `Maria Labo: the chain text`
 **Pinned comment:** `Ilang beses nagbago ang lugar sa mga text? At ano ang huling text? 📱`
 
 Full kit: `docs/publishing/ep38/README.md`.
+
+## Broadcast 39: Sino ang Susundo (folk belief)
+
+**YouTube title:** `Dalawa ang upuan sa tabi ng kama ni Tatay.`
+Alternative: `Hindi ako ang sinusundo niya.`
+
+**TikTok caption:** `dalawa ang upuan sa tabi ng kama ni tatay. isa lang ang inuupuan ko 🪑 #sundo #kwentongkatatakutan #pinoyhorror #pamahiin #fyp #fypシ`
+
+**Pinned comment:** `May nakaupo na ba sa kabilang upuan sa unang segundo? 🪑`
+
+Full kit: `docs/publishing/ep39/README.md`.
