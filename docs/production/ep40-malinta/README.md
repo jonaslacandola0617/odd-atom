@@ -60,3 +60,7 @@ Figures (`public/assets/audio/ep40-malinta-v1/PROVENANCE.json`): bed presence �
 ## Render
 
 `npm run sound:ep40` then `npm run render:ep40` (stills: `npm run still:ep40`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep40-malinta-v1/ep40-patayin-ang-ilaw.mp4`: 47,660,613 bytes, SHA-256 `dc81a1114384acdc61af1461e2536dd600f44655ab08c1efce00be90bbc21d5f`; H.264 1080×1920, 1,797 frames (59.9 s); AAC 59.88 s; measured from the file: −14.1 LUFS, sample peak −1.3 dBFS. The decoded first and last frames differ by 1.68/255 on average (the loop). A contact board of the encoded file (one frame every 3 s) was checked for every shot, and the found and count frames were checked as full-size stills. No listening pass.
