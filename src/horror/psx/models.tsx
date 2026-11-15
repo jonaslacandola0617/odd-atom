@@ -192,11 +192,13 @@ export const PsxCharacter: React.FC<{
 		return height / (b.max.y - b.min.y);
 	}, [obj, height]);
 	if (!obj) return null;
+	// pose (and measure) the model detached from the scene, in its own space only: under a mirrored
+	// parent (scale x −1) a world matrix has no clean rotation, and the pose would come out wrong
+	const parent = obj.parent;
+	obj.parent = null;
+	obj.updateMatrixWorld(true);
 	applyPose(obj, pose);
 	if (probe) {
-		const parent = obj.parent;
-		obj.parent = null; // measure in the model's own space, then apply our group's transform
-		obj.updateMatrixWorld(true);
 		const eul = new THREE.Euler(...rotation);
 		probe((bone) => {
 			let b: THREE.Object3D | undefined;
@@ -207,9 +209,9 @@ export const PsxCharacter: React.FC<{
 			b?.getWorldPosition(v);
 			return v.multiplyScalar(scale).applyEuler(eul).add(new THREE.Vector3(...position));
 		});
-		obj.parent = parent;
-		obj.updateMatrixWorld(true);
 	}
+	obj.parent = parent;
+	obj.updateMatrixWorld(true);
 	return (
 		<group position={position} rotation={rotation} scale={scale}>
 			<primitive object={obj} />

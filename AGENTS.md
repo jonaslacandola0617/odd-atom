@@ -37,6 +37,7 @@
     - a reflection of a row of people needs a grazing camera along the glass, behind any backrest and clear of pillars;
     - a POV camera must sit in front of the face mesh;
     - a PSX cabin needs ambient about 1.6.
+    - `PsxCharacter` poses the model detached from its parents: under a mirrored group, poses came out wrong from the second rendered frame on (stills hide it). Check any PSX shot with a short sequential render, not stills only.
   - **Sound:** the first episode with long and looping ElevenLabs effects: a 12 s van loop and a 20 s drone bed, plus whispers, neck crack, stinger, music box and riser (flow `uIbJVElVeRxF6juAhqKV`, about 812 credits, picked by measurement). The mix:
     - a bump for every jolt in the picture;
     - neck cracks on every snap;

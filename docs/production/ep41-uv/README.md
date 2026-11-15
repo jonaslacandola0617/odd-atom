@@ -28,6 +28,8 @@ One night ride, cut between the van and its dark left window, where the reflecti
 
 ## Lessons
 
+- **Pose a model detached from its parents** (`obj.parent = null` around `applyPose`). Under the mirrored reflection group (scale x −1), the world matrix has no clean rotation, so "character space" came out wrong. Stills hid it, because on a page's first frame the model isn't in the scene yet. The first full render had my reflected head thrown back and a broken loop seam. Fixed in the kit, then checked with a sequential render of the last 125 frames (last frame vs frame 0: 1.7/255).
+
 - **A reflection of people sitting in a row** needs a grazing view along the glass, or your own reflection hides them.
 - **Keep the window camera out of objects:** behind any backrest (the mirrored backrest otherwise fills the frame), and clear of window pillars (move the pillar if the steeper aim needs it).
 - **Read probed positions in `useFrame`, not during render:** a stale camera rendered the floor.
