@@ -14,9 +14,17 @@ import {canvasTex, grimeTex, nearest, prng, psx, psxify} from '../../psx';
 import {Expr, FaceSet, loadFaces, setFace} from './faces';
 
 export const PSX_FPS = 30;
-const LW = 320, LH = 180, K = 6;
-const SNAP: [number, number] = [LW / 2, LH / 2];
-const P = {snap: SNAP};
+// Internal resolution: 320x180 by default (6x upscale); 640x360 tried at the user's request (3x).
+// Set per render through the `lw` prop; vertex snapping follows the pixel grid.
+let LW = 320, LH = 180, K = 6;
+const P: {snap: [number, number]} = {snap: [LW / 2, LH / 2]};
+const setRes = (lw: number) => {
+	LW = lw;
+	LH = Math.round((lw * 9) / 16);
+	K = 1920 / lw;
+	P.snap = [LW / 2, LH / 2];
+};
+const TW = () => Math.round((LH * 4) / 3); // the 4:3 tape picture
 
 // ------------------------------------------------------------------ timeline (frames)
 export const SHOTS = {wide: [0, 105], nico: [105, 195], tape: [195, 285], door: [285, 375]} as const;
@@ -728,8 +736,9 @@ const TapeOverlay: React.FC<{f: number; stamp: string}> = ({f, stamp}) => {
 };
 
 // ------------------------------------------------------------------ compositions
-export type PsxTestProps = {only?: 'wide' | 'nico' | 'tape' | 'door'};
-export const TransfersPsxTest: React.FC<PsxTestProps> = () => {
+export type PsxTestProps = {lw?: number};
+export const TransfersPsxTest: React.FC<PsxTestProps> = ({lw = 320}) => {
+	setRes(lw);
 	const frame = useCurrentFrame();
 	const a = useAssets();
 	if (!a) return <AbsoluteFill style={{background: '#000'}} />;
@@ -741,7 +750,7 @@ export const TransfersPsxTest: React.FC<PsxTestProps> = () => {
 			<Sequence from={w0} durationInFrames={w1 - w0}><Pixel w={LW} h={LH}><ShopScene a={a} shot="wide" f={frame - w0} /></Pixel><Letterbox /></Sequence>
 			<Sequence from={n0} durationInFrames={n1 - n0}><Pixel w={LW} h={LH}><ShopScene a={a} shot="nico" f={frame - n0} /></Pixel><Letterbox /></Sequence>
 			<Sequence from={t0} durationInFrames={t1 - t0}>
-				<Pixel w={240} h={180} style={{filter: `blur(${hunt.toFixed(2)}px) contrast(1.08) saturate(0.85)`}}><RoomScene a={a} f={tf} /></Pixel>
+				<Pixel w={TW()} h={LH} style={{filter: `blur(${((hunt * 6) / K).toFixed(2)}px) contrast(1.08) saturate(0.85)`}}><RoomScene a={a} f={tf} /></Pixel>
 				<TapeOverlay f={tf} stamp="JUN.14 1991 8:31PM" />
 			</Sequence>
 			<Sequence from={d0} durationInFrames={d1 - d0}><Pixel w={LW} h={LH}><ShopScene a={a} shot="door" f={frame - d0} /></Pixel><Letterbox /></Sequence>
@@ -812,7 +821,8 @@ const SheetScene: React.FC<{a: Assets; mode: PsxSheetProps['mode']; who: 'nico' 
 		</>
 	);
 };
-export const TransfersPsxSheet: React.FC<PsxSheetProps> = ({mode, who = 'nico', expr = 'neutral', turn = 0, lw = LW}) => {
+export const TransfersPsxSheet: React.FC<PsxSheetProps> = ({mode, who = 'nico', expr = 'neutral', turn = 0, lw = 320}) => {
+	setRes(mode === 'glasses' ? 320 : lw);
 	const a = useAssets();
 	if (!a) return <AbsoluteFill style={{background: '#000'}} />;
 	return (
@@ -824,19 +834,20 @@ export const TransfersPsxSheet: React.FC<PsxSheetProps> = ({mode, who = 'nico', 
 };
 
 // Single shop frame for the stills (any shot at any time, any expression for the face close-up).
-export type PsxStillProps = {shot: ShopShot | 'tape'; f: number; expr?: Expr; debug?: boolean};
+export type PsxStillProps = {shot: ShopShot | 'tape'; f: number; expr?: Expr; debug?: boolean; lw?: number};
 const DebugText: React.FC = () => {
 	const [t, setT] = useState('');
 	useEffect(() => { const h = delayRender('dbg'); setTimeout(() => { setT((window as unknown as {psxDebug?: string}).psxDebug ?? '-'); continueRender(h); }, 500); }, []);
 	return <div style={{position: 'absolute', left: 20, bottom: 10, color: '#0f0', fontSize: 30, fontFamily: 'monospace'}}>{t}</div>;
 };
-export const TransfersPsxStill: React.FC<PsxStillProps> = ({shot, f, expr, debug}) => {
+export const TransfersPsxStill: React.FC<PsxStillProps> = ({shot, f, expr, debug, lw = 320}) => {
+	setRes(lw);
 	const a = useAssets();
 	if (!a) return <AbsoluteFill style={{background: '#000'}} />;
 	if (shot === 'tape')
 		return (
 			<AbsoluteFill style={{background: '#000'}}>
-				<Pixel w={240} h={180}><RoomScene a={a} f={f} /></Pixel>
+				<Pixel w={TW()} h={LH}><RoomScene a={a} f={f} /></Pixel>
 				<TapeOverlay f={f} stamp="JUN.14 1991 8:31PM" />
 			</AbsoluteFill>
 		);

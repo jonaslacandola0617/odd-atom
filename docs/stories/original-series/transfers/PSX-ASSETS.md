@@ -93,6 +93,11 @@ added by `python3 scripts/transfers_psx_test_sound.py`. The renders are local on
   door is hidden) with our banner "INGAT, TATAY RUDY!"; the figure is a `Characters_psx`
   body rendered as a near-black silhouette with longer forearms. Walls, floor, the half-down
   shutter, the street, rain, the bench, the tapes on the shelves and the CRT picture are ours.
+- **640×360 (user, 2026-11-15: "can you try to use 640x360 resolution"):** the internal
+  resolution is now a prop (`lw`, 320 or 640; the tape follows at 4:3, the vertex snap follows
+  the pixel grid). `node scripts/render_transfers_psx.cjs --res 640 --stills --clip` writes
+  `*-640` files. At 640×360 the edges, glasses and dither are finer and the wobble calmer;
+  textures are unchanged, so close-ups still show texture pixels. 81.5 s for 390 frames.
 - **Render time:** about 72–74 s for the 390 frames (0.19 s a frame) at `concurrency: 2`
   with software WebGL; stills take 1.2–2.5 s each. A 5-minute episode at this rate is about
   28 minutes.

@@ -16,6 +16,9 @@ const pick = () => {
 const arg = (k) => process.argv.includes(k);
 const onlyI = process.argv.indexOf('--only');
 const only = onlyI > 0 ? process.argv[onlyI + 1].split(',') : null;
+const resI = process.argv.indexOf('--res');
+const RES = resI > 0 ? Number(process.argv[resI + 1]) : 320; // internal width: 320 (default) or 640
+const SUF = RES === 320 ? '' : `-${RES}`;
 const OUT = path.join(root, 'assets3d/psx-local/renders');
 const STILLS = [
 	['shop-wide', 'TransfersPsxStill', {shot: 'wide', f: 40}],
@@ -39,7 +42,8 @@ const SHEETS = [
 	try {
 		const jobs = [...(arg('--stills') ? STILLS : []), ...(arg('--sheets') ? SHEETS : []), ...(arg('--glasses') ? GLASSES : [])].filter(([n]) => !only || only.includes(n));
 		let warm = false;
-		for (const [name, id, props] of jobs) {
+		for (const [name0, id, props0] of jobs) {
+			const name = name0 + SUF, props = {...props0, lw: props0.lw ?? RES};
 			const composition = await selectComposition({serveUrl, id, inputProps: props, puppeteerInstance: browser});
 			if (!warm) { // the first WebGL still in a fresh browser can come out black
 				await renderStill({serveUrl, composition, inputProps: props, frame: 0, output: path.join(OUT, '.warm.png'), puppeteerInstance: browser, chromiumOptions: {gl: 'swangle'}, logLevel: 'error', timeoutInMilliseconds: 180000});
@@ -51,15 +55,15 @@ const SHEETS = [
 			console.log('saved', name, times[name].toFixed(1) + 's');
 		}
 		if (arg('--clip')) {
-			const composition = await selectComposition({serveUrl, id: 'TransfersPsxTest', inputProps: {}, puppeteerInstance: browser});
+			const composition = await selectComposition({serveUrl, id: 'TransfersPsxTest', inputProps: {lw: RES}, puppeteerInstance: browser});
 			const t = Date.now();
-			await renderMedia({serveUrl, composition, codec: 'h264', crf: 16, outputLocation: path.join(OUT, 'transfers-psx-test-v1-silent.mp4'), puppeteerInstance: browser, chromiumOptions: {gl: 'swangle'}, concurrency: 2, logLevel: 'error', timeoutInMilliseconds: 240000, muted: true});
-			times.clip = (Date.now() - t) / 1000;
-			console.log('clip', times.clip.toFixed(1) + 's for', composition.durationInFrames, 'frames');
+			await renderMedia({serveUrl, composition, inputProps: {lw: RES}, codec: 'h264', crf: 16, outputLocation: path.join(OUT, `transfers-psx-test-v1${SUF}-silent.mp4`), puppeteerInstance: browser, chromiumOptions: {gl: 'swangle'}, concurrency: 2, logLevel: 'error', timeoutInMilliseconds: 240000, muted: true});
+			times['clip' + SUF] = (Date.now() - t) / 1000;
+			console.log('clip', times['clip' + SUF].toFixed(1) + 's for', composition.durationInFrames, 'frames');
 		}
 	} finally {
 		fs.rmSync(path.join(OUT, '.warm.png'), {force: true});
-		fs.writeFileSync(path.join(OUT, 'times.json'), JSON.stringify(times, null, 1));
+		fs.writeFileSync(path.join(OUT, `times${SUF}.json`), JSON.stringify(times, null, 1));
 		await browser.close({silent: true});
 		fs.rmSync(serveUrl, {recursive: true, force: true});
 	}
