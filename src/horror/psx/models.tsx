@@ -98,8 +98,11 @@ const useAsset = (path: string, tex?: string, tint?: {color?: string; emissive?:
 
 // ------------------------------------------------------------------ posing
 export type Axis = 'x' | 'y' | 'z';
-/** bone name (without the "mixamorig" prefix) -> rotations about the character's own axes, in order */
-export type Pose = Record<string, [Axis, number][]>;
+/** One step for a bone, in the character's own space: a rotation about an axis, or 'aim', which turns
+ *  the bone so it points (toward its first child bone) along a direction, whatever its rest angle. */
+export type Step = [Axis, number] | ['aim', [number, number, number]];
+/** bone name (without the "mixamorig" prefix) -> steps, applied in order */
+export type Pose = Record<string, Step[]>;
 const AX = {x: new THREE.Vector3(1, 0, 0), y: new THREE.Vector3(0, 1, 0), z: new THREE.Vector3(0, 0, 1)};
 
 const applyPose = (root: THREE.Object3D, pose: Pose) => {
@@ -114,6 +117,7 @@ const applyPose = (root: THREE.Object3D, pose: Pose) => {
 	root.updateMatrixWorld(true);
 	root.getWorldQuaternion(rootInv).invert();
 	const pq = new THREE.Quaternion(), qs = new THREE.Quaternion(), tmp = new THREE.Quaternion();
+	const a = new THREE.Vector3(), c = new THREE.Vector3();
 	root.traverse((o) => {
 		const b = o as THREE.Bone;
 		if (!b.isBone) return;
@@ -122,25 +126,42 @@ const applyPose = (root: THREE.Object3D, pose: Pose) => {
 		b.parent!.getWorldQuaternion(pq);
 		pq.premultiply(rootInv); // parent orientation in character space
 		qs.identity();
-		for (const [a, ang] of spec) qs.premultiply(tmp.setFromAxisAngle(AX[a], ang));
+		const child = b.children.find((k) => (k as THREE.Bone).isBone);
+		for (const [kind, v] of spec) {
+			if (kind === 'aim') {
+				if (!child) continue;
+				// where the bone points now (rest, under its posed parents), in character space
+				b.getWorldPosition(a);
+				child.getWorldPosition(c);
+				const d = c.sub(a).applyQuaternion(rootInv).normalize().applyQuaternion(qs);
+				qs.premultiply(tmp.setFromUnitVectors(d, new THREE.Vector3(...(v as [number, number, number])).normalize()));
+			} else qs.premultiply(tmp.setFromAxisAngle(AX[kind], v as number));
+		}
 		// local' = parent^-1 * q * parent * local
 		b.quaternion.copy(pq.clone().invert().multiply(qs).multiply(pq).multiply(rest.get(b)!));
 		b.updateMatrixWorld(true);
 	});
 };
 
-/** Arms hanging at the sides from the A-pose. */
-export const ARMS_DOWN: Pose = {LeftArm: [['z', -0.85]], RightArm: [['z', 0.85]]};
-/** Seated on a chair: thighs forward, shins down, forearms on the thighs. */
+// Presets by aim (character space: +x its left, +y up, +z forward), so they hold for any rest pose.
+/** Arms hanging at the sides, slightly out from the hips, elbows a touch bent. */
+export const ARMS_DOWN: Pose = {
+	LeftArm: [['aim', [0.2, -1, 0]]],
+	RightArm: [['aim', [-0.2, -1, 0]]],
+	LeftForeArm: [['aim', [0.1, -1, 0.12]]],
+	RightForeArm: [['aim', [-0.1, -1, 0.12]]],
+};
+/** Seated on a chair: thighs forward, shins down, upper arms down at the sides, forearms resting
+ *  forward along the thighs (hands on the knees). */
 export const SIT: Pose = {
-	LeftUpLeg: [['x', -1.5]],
-	RightUpLeg: [['x', -1.5]],
-	LeftLeg: [['x', 1.5]],
-	RightLeg: [['x', 1.5]],
-	LeftArm: [['z', -1.0], ['x', -0.25]],
-	RightArm: [['z', 1.0], ['x', -0.25]],
-	LeftForeArm: [['x', -1.1]],
-	RightForeArm: [['x', -1.1]],
+	LeftUpLeg: [['aim', [0.06, -0.08, 1]]],
+	RightUpLeg: [['aim', [-0.06, -0.08, 1]]],
+	LeftLeg: [['aim', [0, -1, 0.06]]],
+	RightLeg: [['aim', [0, -1, 0.06]]],
+	LeftArm: [['aim', [0.28, -1, 0.2]]],
+	RightArm: [['aim', [-0.28, -1, 0.2]]],
+	LeftForeArm: [['aim', [0.05, -0.3, 1]]],
+	RightForeArm: [['aim', [-0.05, -0.3, 1]]],
 };
 export const merge = (...ps: Pose[]): Pose => {
 	const out: Pose = {};

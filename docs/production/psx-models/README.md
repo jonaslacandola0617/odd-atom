@@ -23,7 +23,7 @@ Contact sheets: `sheet-characters.jpg` (all 79 of `Characters_psx`) and `sheet-p
 
 `src/horror/psx/models.tsx`:
 - **Loading:** `PsxCharacter` and `PsxProp` load FBX or GLB once per page, inside Remotion's `delayRender`. They replace the materials with our PS1 lambert (vertex snap, dither) and the character's own texture.
-- **Posing:** `applyPose` rotates named Mixamo bones about the character's own axes (rest pose faces +z, its left hand toward +x), root to leaf, from the rest pose. `ARMS_DOWN` and `SIT` are presets.
+- **Posing:** `applyPose` works root to leaf from the rest pose, in the character's own space (rest pose faces +z, its left hand toward +x). Each step either rotates a bone about an axis, or **aims** it: `['aim', [x, y, z]]` turns the bone so it points toward its child along that direction, whatever angle it started at. `ARMS_DOWN` and `SIT` are built from aims.
 
 **Lessons:**
 - Remotion's `ThreeCanvas` only redraws on frame changes. A model that arrives after the first draw must call R3F's `advance()` before `continueRender`, or it never appears.
@@ -31,6 +31,7 @@ Contact sheets: `sheet-characters.jpg` (all 79 of `Characters_psx`) and `sheet-p
 - Skinned bounds don't follow code poses, so `frustumCulled` is off.
 - Normalise each character by its rest-pose height (the FBX units vary).
 - A beige shirt reads as bare skin in a dim ward. Choose clothes by value as well as colour.
+- **Pose limbs by aim, never by fixed angles.** In v1, `ARMS_DOWN` lowered each arm 0.85 rad about z from the A-pose, but the rest arms sit at a different angle, so they swung past the body and the hands came out through the stomach (the user: "why the hands sticking out of their stomach"). Aiming the upper arm and forearm at target directions fixed it in v2.
 
 ## First test: Episode 39 "Sino ang Susundo" (PSX)
 
@@ -46,6 +47,6 @@ Contact sheets: `sheet-characters.jpg` (all 79 of `Characters_psx`) and `sheet-p
   - the whisper camera is pulled back.
 - **What these models can't do yet:** there's no face rig, so Tatay's night 1 smile becomes his head lifting toward the doorway, and nobody's mouth moves. The hand reach on night 4 is small.
 
-**Delivery:** `assets/videos/ep39-sundo-psx-v1/ep39-sino-ang-susundo-psx.mp4`. Render with `npm run render:ep39-psx` (stills: `npm run still:ep39-psx`). It has no user approval and no listening pass (the mix is v1's, unchanged).
+**Delivery:** v1 `assets/videos/ep39-sundo-psx-v1/` (kept; hands through the stomach); **v2 `assets/videos/ep39-sundo-psx-v2/ep39-sino-ang-susundo-psx.mp4`** (aim-based arms: at the sides lying and standing, forearms on the thighs sitting, Tatay's reach lifts his hand off the mattress toward mine). Render with `npm run render:ep39-psx` (stills: `npm run still:ep39-psx`). It has no user approval and no listening pass (the mix is v1's, unchanged).
 
 **Review of the encoded file:** `ep39-sino-ang-susundo-psx.mp4`, 38,902,333 bytes, SHA-256 `fcaced5dbad9dceadaca8795d10b9a5f4f746f784d815406f7200cf0d6ed320c`; H.264 1080×1920, 1,460 frames (48.67 s); AAC 48.79 s; −14.1 LUFS, sample peak −1.1 dBFS (the v1 mix); first and last frames differ by 5.0/255 on average (the loop). A contact board (one frame every 3 s) was checked for every shot.

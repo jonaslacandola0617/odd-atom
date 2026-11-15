@@ -22,8 +22,8 @@ export const PsxTatay: React.FC<{t: number; look: number; lift: number; reach: n
 				Spine2: [['x', b]],
 				Neck: [['x', 0.25 + 0.3 * lift]],
 				Head: [['y', 0.7 * look], ['x', 0.15 * lift]],
-				LeftArm: [['z', 0.55 * reach], ['y', -0.6 * reach]],
-				LeftForeArm: [['x', -0.4 * reach]],
+				// his left hand (on my side) lifts off the mattress and out toward mine
+				...(reach > 0 ? {LeftArm: [['aim', [0.2 + 0.8 * reach, -1 + 0.9 * reach, 0.6 * reach]] as const], LeftForeArm: [['aim', [0.1 + 0.9 * reach, -1 + 0.8 * reach, 0.12 + 0.5 * reach]] as const]} : {}),
 			})}
 		/>
 	);
