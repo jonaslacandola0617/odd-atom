@@ -52,7 +52,7 @@ The house is seen straight down from above (no ceiling, a narrow lens from high 
   - presence −12.0 dB in speech and −4.4 dB in the gaps;
   - lines ≥8.5 dB over everything else (phone band ≥6.2 dB), with no lifts;
   - −14.0 LUFS; decoded peak −1.27 dBFS;
-  - seam −20.2 / −24.6 dBFS (the hook's knocks cross it).
+  - seam −20.2 / −24.6 dBFS (the hook's knocks cross it); last frame vs frame 0: 2.05/255.
 
 ## Voice
 
