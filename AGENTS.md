@@ -1,11 +1,26 @@
 # Video delivery
 
+- **Standing direction for the next season (user, 2026-11-15, after the PSX test v2):** "Yeah this is good enough and we made a better look rather than being a blocks of models, apply this to future videos, for the next season on a new session, I want more local personal experience people have shared online. And with our new models i want the animation more spooky more scary and more horror."
+  - **Models:** every future episode uses the user's PSX models (`src/horror/psx/models.tsx`, `docs/production/psx-models/README.md`) for people and, where they fit, furniture, streets and buildings. The blocky `Rider`/`Villager` figures are retired for new work (keep them only for objects the packs lack). Copy each new model into `public/assets/models/psx/` and add it to `PROVENANCE.md`; keep the full packs out of Git (re-download from the Drive folder in a new session).
+  - **Season 5 (start in a new session):** local Philippine **personal experiences shared online**, in Taglish with Juanito, with the Season 4 standard (eerie score, seamless loop) and all earlier rules (motion rule, hard cuts, loudness, care).
+  - **Rights (unchanged, and stricter for personal stories):** never adapt one person's post (Reddit, Facebook, TikTok, YouTube storytime, KMJS-type testimony) without the author's written permission. Three routes, told to the user on 2026-11-15:
+    1. the user sends links and gets the author's written OK (credited or anonymous);
+    2. a channel call for submissions with consent;
+    3. composite "pattern" experiences that many people report in the same form (the 3 a.m. knock, the relative seen at the wake, the figure in the jeepney window), retold in our own words with no one's details.
+    Draft the slate on route 3 and slot in 1 and 2 as permissions arrive. Never name or expose a private person or family, and never present a composite as one named person's true account.
+  - **Scarier animation with the rigs (the user's ask):** use the skeletons, not just poses. Examples:
+    - motion that is wrong: a head turning past human limits, a neck that bends back, a jerky stop-motion step (pose held, then a snap), a body that walks backwards or crawls, a figure that is closer every cut;
+    - small human tells: breathing, a hand twitch, a head tilt toward the lens;
+    - the pack's own horror figures (`Character_Monster_*`, `Character_Killer_*`, the long-haired `Character_Monster_05`), used with care and never as a real person;
+    - faces kept mostly in shadow, with the reveal held longer than before.
+    Pose everything by aim. Check every pose in stills for limbs passing through bodies before rendering.
+
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.
   - **Kit:** `src/horror/psx/models.tsx` (`PsxCharacter`, `PsxProp`, `applyPose` with world-axis bone rotations, `ARMS_DOWN`, `SIT`, PS1 materials). Files in use: `public/assets/models/psx/` with `PROVENANCE.md`.
   - **Lessons:** in `ThreeCanvas`, call R3F `advance()` after an async model arrives before `continueRender`, or it never draws; the FBXs embed Windows texture paths, so load the PNG beside each one; turn off `frustumCulled` on posed skinned meshes; normalise by rest height; **pose limbs by aim (`['aim', dir]`), never by fixed angles** (v1's fixed arm angles pushed the hands out through the stomach).
   - **First test:** `Ep39SinoAngSusundoPSX` (Episode 39 with `psx: true`; same shots, captions and the unchanged v1 mix). Tatay is `Character_29`, me `Character_08`, Nanay `Character_29_Female` (tinted pale); the chairs and mattress are from the derelict pack. No face rig, so the smile is a head lift. Delivery: v1 `assets/videos/ep39-sundo-psx-v1/` (the user: "Its good but why the hands sticking out of their stomach"), **v2 `assets/videos/ep39-sundo-psx-v2/`** with aim-based arms; `npm run render:ep39-psx`.
-  - **Status:** the user called v1 "good" apart from the hands; v2 has no user approval; no listening pass.
+  - **Status:** **approved by the user (2026-11-15):** "Yeah this is good enough and we made a better look rather than being a blocks of models, apply this to future videos". No listening pass.
 
 - **Season 4: local Philippine horror stories (2026-11-14):** the user asked for "philippine based again … really scary local stories", researched across Reddit, Facebook, IG, X, blogs and YouTube.
   - **Slate:** `docs/stories/season-4-philippines.md`, Episodes 31–40, each with its own form, scare placement, sound and visual language: Clarita Villanueva (Bilibid, 1953) → kumakatok → batibat/bangungot → sigbin → amalanhig at the lamay → the UP Ikot jeep → barang and the Siquijor Holy Week healers → Maria Labo (told as a chain-text rumour) → *sundo* → Malinta Tunnel (finale). Reserves and exclusions (San Juanico, school mass hysteria, Teachers' Camp, Biringan, Sagada and others) are listed with reasons.
