@@ -102,7 +102,7 @@ const useAsset = (path: string, tex?: string, tint?: {color?: string; emissive?:
 export type Axis = 'x' | 'y' | 'z';
 /** One step for a bone, in the character's own space: a rotation about an axis, or 'aim', which turns
  *  the bone so it points (toward its first child bone) along a direction, whatever its rest angle. */
-export type Step = [Axis, number] | ['aim', [number, number, number]] | ['scale', number];
+export type Step = [Axis, number] | ['aim', [number, number, number]] | ['scale', number] | ['stretch', number];
 /** bone name (without the "mixamorig" prefix) -> steps, applied in order */
 export type Pose = Record<string, Step[]>;
 const AX = {x: new THREE.Vector3(1, 0, 0), y: new THREE.Vector3(0, 1, 0), z: new THREE.Vector3(0, 0, 1)};
@@ -139,6 +139,13 @@ const applyPose = (root: THREE.Object3D, pose: Pose) => {
 		for (const [kind, v] of spec) {
 			if (kind === 'scale') {
 				b.scale.copy(restS.get(b)!).multiplyScalar(v as number);
+				continue;
+			}
+			if (kind === 'stretch') {
+				// lengthen the bone along its own axis (Mixamo bones point along local +y); a child
+				// that should keep its size takes the inverse ('stretch', 1/s)
+				const r = restS.get(b)!;
+				b.scale.set(r.x, r.y * (v as number), r.z);
 				continue;
 			}
 			if (kind === 'aim') {
@@ -195,7 +202,9 @@ export const PsxCharacter: React.FC<{
 	tint?: {color?: string; emissive?: string};
 	/** called after posing with a lookup of a bone's world position (e.g. to put a phone in a hand) */
 	probe?: (where: (bone: string) => THREE.Vector3) => void;
-}> = ({name, height, pose = ARMS_DOWN, position = [0, 0, 0], rotation = [0, 0, 0], tint, probe}) => {
+	/** one arm reaches a world point, straight, its forearm stretched to whatever length it takes */
+	reach?: {arm: 'Left' | 'Right'; target: [number, number, number]};
+}> = ({name, height, pose = ARMS_DOWN, position = [0, 0, 0], rotation = [0, 0, 0], tint, probe, reach}) => {
 	const obj = useAsset(`assets/models/psx/characters/${name}.fbx`, `assets/models/psx/characters/${name}.png`, tint);
 	const scale = useMemo(() => {
 		if (!obj) return 1;
@@ -209,6 +218,27 @@ export const PsxCharacter: React.FC<{
 	obj.parent = null;
 	obj.updateMatrixWorld(true);
 	applyPose(obj, pose);
+	if (reach) {
+		// the target in the model's own (detached) space
+		const T = new THREE.Vector3(...reach.target).sub(new THREE.Vector3(...position)).applyQuaternion(new THREE.Quaternion().setFromEuler(new THREE.Euler(...rotation)).invert()).divideScalar(scale);
+		const bone = (n: string) => {
+			let f: THREE.Object3D | undefined;
+			obj.traverse((o) => {
+				if (!f && (o as THREE.Bone).isBone && o.name.replace(/^mixamorig:?/, '') === n) f = o;
+			});
+			return f!;
+		};
+		const up = `${reach.arm}Arm`, fore = `${reach.arm}ForeArm`, hand = `${reach.arm}Hand`;
+		const qi = obj.quaternion.clone().invert();
+		const sh = bone(up).getWorldPosition(new THREE.Vector3());
+		const dir = T.clone().sub(sh).applyQuaternion(qi).normalize().toArray() as [number, number, number];
+		const aimed = merge(pose, {[up]: [['aim', dir]], [fore]: [['aim', dir]]});
+		applyPose(obj, aimed);
+		const e = bone(fore).getWorldPosition(new THREE.Vector3());
+		const h = bone(hand).getWorldPosition(new THREE.Vector3());
+		const k = T.distanceTo(e) / Math.max(1e-4, h.distanceTo(e));
+		applyPose(obj, merge(aimed, {[fore]: [['stretch', k]], [hand]: [['stretch', 1 / k]]}));
+	}
 	if (probe) {
 		const eul = new THREE.Euler(...rotation);
 		probe((bone) => {

@@ -1,0 +1,89 @@
+{
+  "flow_id": "a8s0O25d4u0Cc6XrG5TQ",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
+    "node_id": "mE4AMHUNmaNBieTOS9a4",
+    "prompt": "[whispers] May humahaplos sa buhok ko. Pero mag-isa lang ako sa CR. [long pause] [softly] Night class, sa isang lumang building sa campus. Alas-nuwebe, sarado na ang ibang palapag. [long pause] Pumasok ako sa CR sa dulo ng pasilyo. Patay-sindi ang ilaw. [long pause] Naghilamos ako. Sa salamin, sarado lahat ng pinto ng cubicle. [long pause] Tapos, may humaplos sa buhok ko. Dahan-dahan. Parang nanay. [long pause] [whispers] Hindi ako lumingon. Tumingin ako sa salamin. [long pause] Bukas na ang huling cubicle. May kamay na lumalabas, hanggang sa ulo ko. [long pause] [whispers] Ang haba ng braso niya... galing pa sa loob ng cubicle.",
+    "takes": {
+      "take1": {
+        "seconds": 49.12,
+        "credits": 636,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep45-take1.mp3"
+      },
+      "take2": {
+        "seconds": 48.0,
+        "credits": 636,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep45-take2.mp3"
+      }
+    }
+  },
+  "sfx": {
+    "cr-night-loop": {
+      "node_id": "g8sGalge8nOPBZ92Etcs",
+      "prompt": "An empty old school restroom at night: a flickering fluorescent tube buzzing and ticking, a slow faucet drip echoing on tiles, a faint ventilation hum, distant empty corridor, cold and lonely tiled room ambience.",
+      "duration_seconds": 15,
+      "loop": true,
+      "prompt_influence": 0.4,
+      "variations": 4,
+      "credits_each": 50,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep45-crloop-1.mp3",
+        "public/assets/audio/eleven-sfx/ep45-crloop-2.mp3",
+        "public/assets/audio/eleven-sfx/ep45-crloop-3.mp3",
+        "public/assets/audio/eleven-sfx/ep45-crloop-4.mp3"
+      ],
+      "picked": "crloop-1 (steadiest: about 14 dB window range, no events)"
+    },
+    "faucet-splash": {
+      "node_id": "hgNmDzNQIvtyswe4vzjs",
+      "prompt": "An old faucet turned on in a tiled restroom, water running into a ceramic sink, hands splashing water on a face twice, then the faucet squeaking off and a few drips.",
+      "duration_seconds": 5,
+      "loop": false,
+      "prompt_influence": 0.5,
+      "variations": 4,
+      "credits_each": 17,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep45-faucet-1.mp3",
+        "public/assets/audio/eleven-sfx/ep45-faucet-2.mp3",
+        "public/assets/audio/eleven-sfx/ep45-faucet-3.mp3",
+        "public/assets/audio/eleven-sfx/ep45-faucet-4.mp3"
+      ],
+      "picked": "faucet-1 (peak -5 dBFS; faucet-3 clips)"
+    },
+    "stall-door": {
+      "node_id": "25GDtUCcPObTb6d8o2gL",
+      "prompt": "A cubicle door in an old tiled restroom slowly creaking open by itself, a long thin metal hinge squeal, the latch rattling, echo on tiles.",
+      "duration_seconds": 4,
+      "loop": false,
+      "prompt_influence": 0.5,
+      "variations": 4,
+      "credits_each": 13,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep45-stall-1.mp3",
+        "public/assets/audio/eleven-sfx/ep45-stall-2.mp3",
+        "public/assets/audio/eleven-sfx/ep45-stall-3.mp3",
+        "public/assets/audio/eleven-sfx/ep45-stall-4.mp3"
+      ],
+      "picked": "stall-3 (smooth, peak -2.4 dBFS; 1, 2 and 4 clip)"
+    }
+  },
+  "reused": [
+    "ep25-steps-2.mp3",
+    "ep39-humming-3.mp3",
+    "ep42-lobby-2.mp3",
+    "ep41-drone-3.mp3",
+    "ep41-stinger-3.mp3",
+    "ep41-riser-2.mp3",
+    "ep41-musicbox-4.mp3",
+    "ep41-neck-3.mp3"
+  ],
+  "credits": {
+    "narration": 1272,
+    "sfx": 320,
+    "total_about": 1592
+  },
+  "note": "every variation downloaded right after generation and kept in Git; picked by measurement (RMS, peak), not by listening"
+}

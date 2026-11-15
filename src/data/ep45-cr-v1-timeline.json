@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 51.67,
+  "duration_frames": 1550,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "May humahaplos sa buhok ko. Pero mag-isa lang ako sa CR.",
+      "start": 0.4,
+      "end": 5.04,
+      "kind": "narrator",
+      "beat_before": "hook: in the mirror, a pale hand stroking my hair; I alone at the sink"
+    },
+    {
+      "id": "l02",
+      "text": "Night class, sa isang lumang building sa campus. Alas-nuwebe, sarado na ang ibang palapag.",
+      "start": 6.04,
+      "end": 13.13,
+      "kind": "narrator",
+      "beat_before": "the dark campus corridor, one lit CR door at its end"
+    },
+    {
+      "id": "l03",
+      "text": "Pumasok ako sa CR sa dulo ng pasilyo. Patay-sindi ang ilaw.",
+      "start": 14.53,
+      "end": 18.84,
+      "kind": "narrator",
+      "beat_before": "the CR wide: the tube flickering, four cubicles"
+    },
+    {
+      "id": "l04",
+      "text": "Naghilamos ako. Sa salamin, sarado lahat ng pinto ng cubicle.",
+      "start": 20.24,
+      "end": 25.05,
+      "kind": "narrator",
+      "beat_before": "the mirror: I splash my face; all four cubicle doors shut"
+    },
+    {
+      "id": "l05",
+      "text": "Tapos, may humaplos sa buhok ko. Dahan-dahan. Parang nanay.",
+      "start": 26.65,
+      "end": 31.81,
+      "kind": "narrator",
+      "beat_before": "the real view: nothing touches me, but my hair dips with each stroke"
+    },
+    {
+      "id": "l06",
+      "text": "Hindi ako lumingon. Tumingin ako sa salamin.",
+      "start": 33.21,
+      "end": 36.13,
+      "kind": "narrator",
+      "beat_before": "the mirror close: the hand on my head"
+    },
+    {
+      "id": "l07",
+      "text": "Bukas na ang huling cubicle. May kamay na lumalabas, hanggang sa ulo ko.",
+      "start": 37.73,
+      "end": 42.8,
+      "kind": "narrator",
+      "beat_before": "the mirror wide: the last cubicle open, the arm crossing the room"
+    },
+    {
+      "id": "l08",
+      "text": "Ang haba ng braso niya... galing pa sa loob ng cubicle.",
+      "start": 44.4,
+      "end": 48.07,
+      "kind": "narrator",
+      "beat_before": "the cubicle: her head leans out, tipped too far sideways"
+    }
+  ]
+}

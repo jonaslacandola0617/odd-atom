@@ -122,6 +122,31 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 45 "Ang Humahaplos" (the campus CR).
 
+- **Episode 45 "Ang Humahaplos" (2026-11-15):** the user asked for the "next ep". A student alone in an old campus CR at night feels a hand stroking their hair, retold. `Ep45AngHumahaplos` / `src/horror/ep45/` is 51.67 s, in Taglish, with the score and seamless loop.
+  - **Form:** "the mirror and the room": the mirror is cut against the room, and they disagree.
+    - In the mirror, a pale hand strokes my hair (hook).
+    - The dark corridor and the lit CR door; the flickering tube.
+    - In the mirror, all four cubicle doors are shut.
+    - In the room, nothing touches me, but my head dips with each stroke; the last door creaks, unseen.
+    - In the mirror, the hand; then wide: the last cubicle open, the arm across the whole room.
+    - Back along the arm to her: her head comes out of the cubicle in held-then-snapped steps, tipped onto its side, then snaps upright at the lens.
+    - The loop.
+  - **Kit additions:** a `['stretch', s]` pose step and a `reach` prop on `PsxCharacter` (aims an arm at a world point and stretches the forearm to fit, every frame).
+  - **Cast:** me `Character_08`; her `Character_Monster_05`, pale. The set is box-built (the packs have no restroom props).
+  - **Lessons:**
+    - plan a crossing limb against the partitions;
+    - measure head heights with the probe before aiming at them;
+    - print probe values with `renderStill`'s `onBrowserLog`.
+  - **Sound:**
+    - generated: the CR at night (15 s loop), faucet, stall door (flow `a8s0O25d4u0Cc6XrG5TQ`, about 320 credits, all variations in Git);
+    - reused: Episode 25's steps, Episode 39's humming, Episode 42's lobby, and Episode 41's unused drone, stinger, riser, music box and neck cracks;
+    - the tube's buzz is gated by the picture's flicker; a brush on hair on every stroke.
+  - **Voice:** Juanito, both takes (1,272 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −9.8 / −6.1 dB, lines ≥4.8 dB (l08 +0.3), −14.0 LUFS, decoded peak −2.35 dBFS, seam −21.8 / −24.6 dBFS.
+  - **Delivery:** `assets/videos/ep45-cr-v1/`. Notes are in `docs/production/ep45-cr/README.md`; the publishing kit is `docs/publishing/ep45/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 46 "Huling Biyahe Pahilaga" (the night bus north).
+
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.
   - **Kit:** `src/horror/psx/models.tsx` (`PsxCharacter`, `PsxProp`, `applyPose` with world-axis bone rotations, `ARMS_DOWN`, `SIT`, PS1 materials). Files in use: `public/assets/models/psx/` with `PROVENANCE.md`.
