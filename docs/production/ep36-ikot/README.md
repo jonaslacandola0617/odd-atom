@@ -56,3 +56,7 @@ Figures (`public/assets/audio/ep36-ikot-v1/PROVENANCE.json`): bed presence −12
 ## Render
 
 `npm run sound:ep36` then `npm run render:ep36` (stills: `npm run still:ep36`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep36-ikot-v1/ep36-sunugin-mo-ang-damit.mp4`: 41,842,610 bytes, SHA-256 `f76fe22ec08270ce76a9daae5cfbc6a48cec93754533e4e883567a88e3ca7345`; H.264 1080×1920, 1,573 frames (52.43 s); AAC 52.42 s; measured from the file: −14.0 LUFS, sample peak −1.4 dBFS. The decoded first and last frames differ by 3.13/255 on average (the loop). A contact board of the encoded file and four frames of the room reveal were checked. No listening pass.
