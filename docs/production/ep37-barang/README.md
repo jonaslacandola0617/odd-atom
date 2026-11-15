@@ -57,3 +57,7 @@ Figures (`public/assets/audio/ep37-barang-v1/PROVENANCE.json`): bed presence −
 ## Render
 
 `npm run sound:ep37` then `npm run render:ep37` (stills: `npm run still:ep37`). The script deletes its Remotion bundle.
+
+## Review of the encoded file
+
+`assets/videos/ep37-barang-v1/ep37-pitong-biyernes.mp4`: 41,926,772 bytes, SHA-256 `d147748af12371bc03b486ca9319c1796c3f0ea1ba948fe4315d022c42ae0319`; H.264 1080×1920, 1,557 frames (51.9 s); AAC 51.88 s; measured from the file: −14.1 LUFS, sample peak −1.5 dBFS. The decoded first and last frames differ by 2.99/255 on average (the loop). A contact board of the encoded file was checked for every shot. No listening pass.
