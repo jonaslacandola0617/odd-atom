@@ -17,38 +17,38 @@ export const PSX_FPS = 30;
 // Internal resolution: 320x180 by default (6x upscale); 640x360 tried at the user's request (3x).
 // Set per render through the `lw` prop; vertex snapping follows the pixel grid.
 let LW = 320, LH = 180, K = 6;
-const P: {snap: [number, number]} = {snap: [LW / 2, LH / 2]};
-const setRes = (lw: number) => {
+export const P: {snap: [number, number]} = {snap: [LW / 2, LH / 2]};
+export const setRes = (lw: number) => {
 	LW = lw;
 	LH = Math.round((lw * 9) / 16);
 	K = 1920 / lw;
 	P.snap = [LW / 2, LH / 2];
 };
-const TW = () => Math.round((LH * 4) / 3); // the 4:3 tape picture
+export const TW = () => Math.round((LH * 4) / 3); // the 4:3 tape picture
 
 // ------------------------------------------------------------------ timeline (frames)
 export const SHOTS = {wide: [0, 105], nico: [105, 195], tape: [195, 285], door: [285, 375]} as const;
 export const PSX_FRAMES = 390;
 
 // ------------------------------------------------------------------ math helpers
-const clamp = (x: number, a = 0, b = 1) => Math.min(b, Math.max(a, x));
-const ease = (t: number) => { t = clamp(t); return t * t * (3 - 2 * t); };
-const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
-const V = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
-const wp = (o: THREE.Object3D) => o.getWorldPosition(new THREE.Vector3());
-const rotWorldQ = (bone: THREE.Object3D, q: THREE.Quaternion) => {
+export const clamp = (x: number, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+export const ease = (t: number) => { t = clamp(t); return t * t * (3 - 2 * t); };
+export const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
+export const V = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
+export const wp = (o: THREE.Object3D) => o.getWorldPosition(new THREE.Vector3());
+export const rotWorldQ = (bone: THREE.Object3D, q: THREE.Quaternion) => {
 	bone.updateWorldMatrix(true, false);
 	const pq = bone.parent!.getWorldQuaternion(new THREE.Quaternion());
 	bone.quaternion.premultiply(pq.clone().invert().multiply(q).multiply(pq));
 	bone.updateMatrixWorld(true);
 };
-const rotW = (bone: THREE.Object3D, axis: THREE.Vector3, a: number) => rotWorldQ(bone, new THREE.Quaternion().setFromAxisAngle(axis.clone().normalize(), a));
-const aim = (bone: THREE.Object3D, child: THREE.Object3D, target: THREE.Vector3) => {
+export const rotW = (bone: THREE.Object3D, axis: THREE.Vector3, a: number) => rotWorldQ(bone, new THREE.Quaternion().setFromAxisAngle(axis.clone().normalize(), a));
+export const aim = (bone: THREE.Object3D, child: THREE.Object3D, target: THREE.Vector3) => {
 	const h = wp(bone);
 	const cur = wp(child).sub(h).normalize(), des = target.clone().sub(h).normalize();
 	rotWorldQ(bone, new THREE.Quaternion().setFromUnitVectors(cur, des));
 };
-const ik = (up: THREE.Object3D, lo: THREE.Object3D, hand: THREE.Object3D, target: THREE.Vector3, pole: THREE.Vector3) => {
+export const ik = (up: THREE.Object3D, lo: THREE.Object3D, hand: THREE.Object3D, target: THREE.Vector3, pole: THREE.Vector3) => {
 	const S = wp(up), E0 = wp(lo), W0 = wp(hand);
 	const a = E0.distanceTo(S), b = W0.distanceTo(E0);
 	const toT = target.clone().sub(S);
@@ -63,8 +63,8 @@ const ik = (up: THREE.Object3D, lo: THREE.Object3D, hand: THREE.Object3D, target
 
 // ------------------------------------------------------------------ assets
 const GLBS = ['nico_base', 'bea_base', 'figure_base', 'tv', 'desk', 'desklamp', 'monitor', 'pc', 'keyboard', 'chair', 'bookcase', 'binders', 'cabinet',
-	'wallclock', 'mug', 'shelf', 'box', 'floppy', 'trashcan', 'streetlight', 'trash_urban', 'conditioner', 'dorihome', 'fridge_old', 'glasses_user'] as const;
-type GlbName = (typeof GLBS)[number];
+	'wallclock', 'mug', 'shelf', 'box', 'floppy', 'trashcan', 'streetlight', 'trash_urban', 'conditioner', 'dorihome', 'fridge_old', 'glasses_user', 'rudy', 'lola', 'jojo', 'guest_m1', 'guest_m2', 'guest_f1', 'guest_f2'] as const;
+export type GlbName = (typeof GLBS)[number];
 export type Assets = {glb: Record<GlbName, THREE.Group>; faces: {nico: FaceSet; bea: FaceSet}};
 
 export const useAssets = () => {
@@ -85,7 +85,7 @@ export const useAssets = () => {
 };
 
 /** Clone a prop, PSX its materials, rotate, scale (to height h or factor s) and stand it at `at` (bottom centre). */
-const prop = (src: THREE.Object3D, at: [number, number, number], o: {ry?: number; h?: number; s?: number; tint?: THREE.ColorRepresentation} = {}) => {
+export const prop = (src: THREE.Object3D, at: [number, number, number], o: {ry?: number; h?: number; s?: number; tint?: THREE.ColorRepresentation} = {}) => {
 	const c = src.clone(true);
 	psxify(c, {...P, tint: o.tint});
 	c.rotation.y = o.ry ?? 0;
@@ -101,18 +101,18 @@ const prop = (src: THREE.Object3D, at: [number, number, number], o: {ry?: number
 	return c;
 };
 
-const lam = (o: THREE.MeshLambertMaterialParameters) => psx(new THREE.MeshLambertMaterial(o), P);
-const box = (w: number, h: number, d: number, mat: THREE.Material, at: [number, number, number], seg = 1) => {
+export const lam = (o: THREE.MeshLambertMaterialParameters) => psx(new THREE.MeshLambertMaterial(o), P);
+export const box = (w: number, h: number, d: number, mat: THREE.Material, at: [number, number, number], seg = 1) => {
 	const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d, Math.max(1, Math.round(w * seg)), Math.max(1, Math.round(h * seg)), Math.max(1, Math.round(d * seg))), mat);
 	m.position.set(...at);
 	return m;
 };
-const black = () => new THREE.MeshBasicMaterial({color: 0x000000});
+export const black = () => new THREE.MeshBasicMaterial({color: 0x000000});
 
 // ------------------------------------------------------------------ characters
-type Char = {holder: THREE.Group; root: THREE.Object3D; bone: (n: string) => THREE.Object3D; rest: Map<THREE.Object3D, THREE.Quaternion>; height: number; L: (x: number, y: number, z: number) => THREE.Vector3; D: (x: number, y: number, z: number) => THREE.Vector3};
+export type Char = {holder: THREE.Group; root: THREE.Object3D; bone: (n: string) => THREE.Object3D; rest: Map<THREE.Object3D, THREE.Quaternion>; height: number; L: (x: number, y: number, z: number) => THREE.Vector3; D: (x: number, y: number, z: number) => THREE.Vector3};
 
-const makeChar = (src: THREE.Group, height: number, opts: {faces?: FaceSet; material?: THREE.Material; frontRy?: number} = {}): Char => {
+export const makeChar = (src: THREE.Group, height: number, opts: {faces?: FaceSet; material?: THREE.Material; frontRy?: number} = {}): Char => {
 	const root = skClone(src);
 	root.rotation.y = opts.frontRy ?? 0; // turn the model so it faces local +Z
 	psxify(root, P);
@@ -145,16 +145,16 @@ const makeChar = (src: THREE.Group, height: number, opts: {faces?: FaceSet; mate
 		D: (x, y, z) => V(x, y, z).transformDirection(holder.matrixWorld),
 	};
 };
-const reset = (c: Char) => { c.rest.forEach((q, b) => b.quaternion.copy(q)); c.holder.updateMatrixWorld(true); };
+export const reset = (c: Char) => { c.rest.forEach((q, b) => b.quaternion.copy(q)); c.holder.updateMatrixWorld(true); };
 
 // bone names per rig (three.js strips '.' and ':' from glTF node names)
-const NICO_B = {hips: 'pelvis', spine: 'spine', chest: 'chest', neck: 'neck', head: 'head', ua: (s: 'l' | 'r') => `upper_arm_${s === 'l' ? 'left' : 'right'}`, fa: (s: 'l' | 'r') => `forearm_${s === 'l' ? 'left' : 'right'}`, hand: (s: 'l' | 'r') => `hand_${s === 'l' ? 'left' : 'right'}`, th: (s: 'l' | 'r') => `thigh_${s === 'l' ? 'left' : 'right'}`, sh: (s: 'l' | 'r') => `shin${s === 'l' ? 'L' : 'R'}`, ft: (s: 'l' | 'r') => `foot_${s === 'l' ? 'left' : 'right'}`};
-const MIX = (s: 'l' | 'r') => (s === 'l' ? 'Left' : 'Right');
-const MIX_B = {hips: 'mixamorigHips', spine: 'mixamorigSpine', chest: 'mixamorigSpine2', neck: 'mixamorigNeck', head: 'mixamorigHead', ua: (s: 'l' | 'r') => `mixamorig${MIX(s)}Arm`, fa: (s: 'l' | 'r') => `mixamorig${MIX(s)}ForeArm`, hand: (s: 'l' | 'r') => `mixamorig${MIX(s)}Hand`, th: (s: 'l' | 'r') => `mixamorig${MIX(s)}UpLeg`, sh: (s: 'l' | 'r') => `mixamorig${MIX(s)}Leg`, ft: (s: 'l' | 'r') => `mixamorig${MIX(s)}Foot`};
-type Bones = typeof NICO_B;
+export const NICO_B = {hips: 'pelvis', spine: 'spine', chest: 'chest', neck: 'neck', head: 'head', ua: (s: 'l' | 'r') => `upper_arm_${s === 'l' ? 'left' : 'right'}`, fa: (s: 'l' | 'r') => `forearm_${s === 'l' ? 'left' : 'right'}`, hand: (s: 'l' | 'r') => `hand_${s === 'l' ? 'left' : 'right'}`, th: (s: 'l' | 'r') => `thigh_${s === 'l' ? 'left' : 'right'}`, sh: (s: 'l' | 'r') => `shin${s === 'l' ? 'L' : 'R'}`, ft: (s: 'l' | 'r') => `foot_${s === 'l' ? 'left' : 'right'}`};
+export const MIX = (s: 'l' | 'r') => (s === 'l' ? 'Left' : 'Right');
+export const MIX_B = {hips: 'mixamorigHips', spine: 'mixamorigSpine', chest: 'mixamorigSpine2', neck: 'mixamorigNeck', head: 'mixamorigHead', ua: (s: 'l' | 'r') => `mixamorig${MIX(s)}Arm`, fa: (s: 'l' | 'r') => `mixamorig${MIX(s)}ForeArm`, hand: (s: 'l' | 'r') => `mixamorig${MIX(s)}Hand`, th: (s: 'l' | 'r') => `mixamorig${MIX(s)}UpLeg`, sh: (s: 'l' | 'r') => `mixamorig${MIX(s)}Leg`, ft: (s: 'l' | 'r') => `mixamorig${MIX(s)}Foot`};
+export type Bones = typeof NICO_B;
 
 /** Seated at a desk (desk in front, local +Z). `lean`, `look` (yaw, pitch) in radians. */
-const poseSeated = (c: Char, B: Bones, o: {lean?: number; yaw?: number; pitch?: number; handZ?: number; deskY?: number} = {}) => {
+export const poseSeated = (c: Char, B: Bones, o: {lean?: number; yaw?: number; pitch?: number; handZ?: number; deskY?: number} = {}) => {
 	reset(c);
 	const b = c.bone;
 	const side = c.D(1, 0, 0), up = c.D(0, 1, 0);
@@ -178,7 +178,7 @@ const poseSeated = (c: Char, B: Bones, o: {lean?: number; yaw?: number; pitch?: 
 };
 
 /** Asleep on her right side, knees drawn up, hands under her cheek. The holder's rotation lays her down. */
-const poseAsleep = (c: Char, B: Bones) => {
+export const poseAsleep = (c: Char, B: Bones) => {
 	reset(c);
 	const b = c.bone;
 	for (const s of ['l', 'r'] as const) {
@@ -198,7 +198,7 @@ const poseAsleep = (c: Char, B: Bones) => {
 // The user's eyeglasses model (oculos.obj, 2026-11-15), measured in glTF units: frame front 1.547 wide
 // (x -0.769..0.778), lens centres at x = +-0.414, lens/frame centre y = 0.005, frame back face z = 0.43,
 // front z = 0.487, temples run back to z = -0.868.
-const GL = {lensX: 0.414, frameW: 1.547, centreY: 0.005, backZ: 0.43};
+export const GL = {lensX: 0.414, frameW: 1.547, centreY: 0.005, backZ: 0.43};
 /** Frame size relative to Nico's eye spacing (1 = lens centres exactly on the pupils). */
 const GLASSES_SIZE = 1.18;
 // Nico's pupils on his 256x256 face texture (texels), see assets3d/characters/psx/restyle_textures.py
@@ -228,7 +228,7 @@ const pointAtUV = (mesh: THREE.SkinnedMesh, toHolder: THREE.Matrix4, uv: [number
 
 /** Measured fit of the glasses on Nico's head (holder frame, rest pose): centre, scale. */
 export type GlassesFit = {centre: THREE.Vector3; k: number; eyeL: THREE.Vector3; eyeR: THREE.Vector3; headW: number; earW: number; noseZ: number};
-const fitGlasses = (c: Char, mesh: THREE.SkinnedMesh, pts: THREE.Vector3[], top: number): GlassesFit => {
+export const fitGlasses = (c: Char, mesh: THREE.SkinnedMesh, pts: THREE.Vector3[], top: number): GlassesFit => {
 	const toHolder = c.holder.matrixWorld.clone().invert();
 	const front = (p: THREE.Vector3) => p.y > top - 0.2 && p.z > 0;
 	const [eyeL, eyeR] = NICO_EYES_TEX.map(([u, v]) => pointAtUV(mesh, toHolder, [u / 256, v / 256], front)!);
@@ -251,7 +251,7 @@ const fitGlasses = (c: Char, mesh: THREE.SkinnedMesh, pts: THREE.Vector3[], top:
 	return {centre, k, eyeL, eyeR, headW, earW, noseZ};
 };
 
-const addNicoParts = (c: Char, glassesModel?: THREE.Object3D) => {
+export const addNicoParts = (c: Char, glassesModel?: THREE.Object3D) => {
 	const head = c.bone(NICO_B.head);
 	c.holder.updateMatrixWorld(true);
 	const mesh = (() => { let m: THREE.SkinnedMesh | null = null; c.root.traverse((o) => { if ((o as THREE.SkinnedMesh).isSkinnedMesh) m = o as THREE.SkinnedMesh; }); return m!; })();
@@ -348,10 +348,13 @@ export const buildBea = (a: Assets) => {
 };
 
 // ------------------------------------------------------------------ the shop (Episode 1, night)
-const SHOP = {w: 4, d: 6, h: 2.8};
-type Shop = {group: THREE.Group; nico: Char; bea: Char; crt: {tex: THREE.CanvasTexture; ctx: CanvasRenderingContext2D}; crtLight: THREE.PointLight; lamp: THREE.PointLight; rain: THREE.LineSegments; rainBase: Float32Array; nicoSeat: THREE.Vector3};
+export const SHOP = {w: 4, d: 6, h: 2.8};
+export type Shop = {group: THREE.Group; nico: Char; bea: Char; crt: {tex: THREE.CanvasTexture; ctx: CanvasRenderingContext2D}; crtLight: THREE.PointLight; lamp: THREE.PointLight; rain: THREE.LineSegments; rainBase: Float32Array; nicoSeat: THREE.Vector3};
+export {buildShop};
 
-const buildShop = (a: Assets): Shop => {
+export type ShopEnv = {group: THREE.Group; crt: {tex: THREE.CanvasTexture; ctx: CanvasRenderingContext2D}; mon: {tex: THREE.CanvasTexture; ctx: CanvasRenderingContext2D}; crtLight: THREE.PointLight; lamp: THREE.PointLight; tube: THREE.PointLight; night: THREE.PointLight; hemi: THREE.HemisphereLight; rain: THREE.LineSegments; rainBase: Float32Array; shutter: THREE.Mesh; shutterBar: THREE.Mesh; at: {x0: number; x1: number; zb: number; zf: number; h: number; deskZ: number; deskTop: number; benchX: number; benchY: number; doorX: number; crtFront: THREE.Vector3; monFront: THREE.Vector3}};
+/** The shop without people. evening: shutter up, the tube light on, dusk outside (Episode 1, Scene 1). */
+export const buildShopEnv = (a: Assets, opts: {evening?: boolean} = {}): ShopEnv => {
 	const g = new THREE.Group();
 	const {w, d, h} = SHOP;
 	const x0 = -w / 2, x1 = w / 2, zb = -d / 2, zf = d / 2;
@@ -399,9 +402,10 @@ const buildShop = (a: Assets): Shop => {
 	shutT.wrapS = shutT.wrapT = THREE.RepeatWrapping;
 	shutT.repeat.set(4, 3);
 	const shutter = new THREE.Mesh(new THREE.PlaneGeometry(w, 1.3, 8, 4), lam({map: shutT, side: THREE.DoubleSide}));
-	shutter.position.set(0, h - 0.25 - 0.65, zf);
+	shutter.position.set(0, h - 0.25 - 0.65 + (opts.evening ? 1.1 : 0), zf);
 	g.add(shutter);
-	g.add(box(w, 0.06, 0.05, lam({color: '#2a2b2e'}), [0, h - 0.25 - 1.3, zf]));
+	const shutterBar = box(w, 0.06, 0.05, lam({color: '#2a2b2e'}), [0, h - 0.25 - 1.3 + (opts.evening ? 1.1 : 0), zf]);
+	g.add(shutterBar);
 	// outside: wet road, kerb, a closed market front across the street, the streetlight, rain
 	const road = new THREE.Mesh(new THREE.PlaneGeometry(30, 14, 30, 14), lam({map: grimeTex(5, '#2b2a2a', {speck: 900, stains: 20})}));
 	road.rotation.x = -Math.PI / 2;
@@ -444,7 +448,8 @@ const buildShop = (a: Assets): Shop => {
 	const tv = prop(a.glb.tv, [x0 + 0.27, deskTop, deskZ - 0.25], {h: 0.42, ry: Math.PI});
 	g.add(tv);
 	const tvB = new THREE.Box3().setFromObject(tv);
-	g.add(prop(a.glb.monitor, [x0 + 0.24, deskTop, deskZ + 0.38], {h: 0.36, ry: Math.PI}));
+	const monitor = prop(a.glb.monitor, [x0 + 0.24, deskTop, deskZ + 0.38], {h: 0.36, ry: Math.PI});
+	g.add(monitor);
 	g.add(prop(a.glb.keyboard, [x0 + 0.55, deskTop, deskZ + 0.3], {s: 1, ry: Math.PI / 2}));
 	g.add(prop(a.glb.pc, [x0 + 0.3, 0, deskZ + 0.55], {h: 0.42, ry: Math.PI / 2}));
 	g.add(prop(a.glb.desklamp, [x0 + 0.22, deskTop, deskZ + 0.05], {h: 0.42, ry: Math.PI / 2}));
@@ -498,17 +503,46 @@ const buildShop = (a: Assets): Shop => {
 	scr.position.set(tvB.max.x + 0.004, tvB.min.y + (tvB.max.y - tvB.min.y) * 0.56, (tvB.min.z + tvB.max.z) / 2);
 	scr.rotation.y = Math.PI / 2;
 	g.add(scr);
+	// the PC monitor's picture (dashboard, capture window, search, upload), redrawn per shot
+	const monB = new THREE.Box3().setFromObject(monitor);
+	const monC = document.createElement('canvas');
+	monC.width = 64;
+	monC.height = 48;
+	const monTex = new THREE.CanvasTexture(monC);
+	monTex.colorSpace = THREE.SRGBColorSpace;
+	nearest(monTex);
+	const mscr = new THREE.Mesh(new THREE.PlaneGeometry((monB.max.z - monB.min.z) * 0.7, (monB.max.y - monB.min.y) * 0.5), psx(new THREE.MeshBasicMaterial({map: monTex}), P));
+	mscr.position.set(monB.max.x + 0.004, monB.min.y + (monB.max.y - monB.min.y) * 0.6, (monB.min.z + monB.max.z) / 2);
+	mscr.rotation.y = Math.PI / 2;
+	g.add(mscr);
 	const crtLight = new THREE.PointLight('#8fb0ff', 2.2, 4.5, 1.6);
 	crtLight.position.set(tvB.max.x + 0.25, scr.position.y, scr.position.z);
 	g.add(crtLight);
 	const lamp = new THREE.PointLight('#ffb366', 3.2, 5, 1.7);
 	lamp.position.set(x0 + 0.45, deskTop + 0.38, deskZ + 0.05);
 	g.add(lamp);
-	g.add(new THREE.HemisphereLight('#2a3040', '#120e0a', 0.32));
-	const night = new THREE.PointLight('#6f7f9a', 2.6, 5, 1.4); // spill from the street through the shutter gap
+	const hemi = new THREE.HemisphereLight(opts.evening ? '#55607a' : '#2a3040', '#120e0a', opts.evening ? 0.6 : 0.32);
+	g.add(hemi);
+	const night = new THREE.PointLight('#6f7f9a', 3.6, 5.5, 1.4); // spill from the street through the shutter gap
 	night.position.set(1.0, 1.7, -0.4);
 	g.add(night);
+	// the fluorescent tube (on in the early evening, off at night)
+	const tube = new THREE.PointLight('#e9f3e6', opts.evening ? 7 : 0, 8, 1.3);
+	tube.position.set(0, h - 0.12, -0.6);
+	g.add(tube);
+	g.add(box(1.2, 0.04, 0.06, opts.evening ? new THREE.MeshBasicMaterial({color: '#e9f3e6'}) : lam({color: '#9a9a96'}), [0, h - 0.04, -0.6]));
+	if (opts.evening) street.color.set('#7f8fb0');
+	return {
+		group: g, crt: {tex: crtTex, ctx: crtC.getContext('2d')!}, mon: {tex: monTex, ctx: monC.getContext('2d')!}, crtLight, lamp, tube, night, hemi, rain, rainBase, shutter, shutterBar,
+		at: {x0, x1, zb, zf, h, deskZ, deskTop, benchX: x1 - 0.26, benchY: 0.45, doorX: (dx0 + dx1) / 2, crtFront: V(tvB.max.x, scr.position.y, scr.position.z), monFront: V(monB.max.x, mscr.position.y, mscr.position.z)},
+	};
+};
 
+const buildShop = (a: Assets): Shop => {
+	const env = buildShopEnv(a);
+	const g = env.group;
+	const {x0, x1, deskZ} = env.at;
+	const {crt, crtLight, lamp, rain, rainBase} = env;
 	// ---------------- characters
 	const nico = buildNico(a);
 	nico.holder.position.set(x0 + 1.1, -0.36, deskZ);
@@ -530,10 +564,10 @@ const buildShop = (a: Assets): Shop => {
 	jacket.position.set(0.0, 0.62, 0.06);
 	bea.holder.add(jacket);
 	g.add(bea.holder);
-	return {group: g, nico, bea, crt: {tex: crtTex, ctx: crtC.getContext('2d')!}, crtLight, lamp, rain, rainBase, nicoSeat: nico.holder.position.clone()};
+	return {group: g, nico, bea, crt, crtLight, lamp, rain, rainBase, nicoSeat: nico.holder.position.clone()};
 };
 
-const drawCrt = (s: Shop, f: number, figure: number) => {
+export const drawCrt = (s: {crt: Shop['crt']}, f: number, figure: number) => {
 	const g = s.crt.ctx;
 	const r = prng(1000 + f);
 	// the paused tape: a dim greenish room, a black doorway on the left; tracking noise crawls over it
@@ -552,7 +586,7 @@ const drawCrt = (s: Shop, f: number, figure: number) => {
 	s.crt.tex.needsUpdate = true;
 };
 
-const updateRain = (s: Shop, f: number) => {
+export const updateRain = (s: {rain: THREE.LineSegments; rainBase: Float32Array}, f: number) => {
 	const a = s.rain.geometry.getAttribute('position') as THREE.BufferAttribute;
 	const arr = a.array as Float32Array;
 	const n = s.rainBase.length / 3;
@@ -567,8 +601,8 @@ const updateRain = (s: Shop, f: number) => {
 };
 
 // ------------------------------------------------------------------ the 1991 living room (DoriHome pack)
-type Room = {group: THREE.Group; figure: Char; tube: THREE.PointLight};
-const buildRoom = (a: Assets): Room => {
+export type Room = {group: THREE.Group; figure: Char; tube: THREE.PointLight};
+export const buildRoom = (a: Assets): Room => {
 	const g = new THREE.Group();
 	const house = a.glb.dorihome.clone(true);
 	psxify(house, {...P});
@@ -621,7 +655,7 @@ const buildRoom = (a: Assets): Room => {
 };
 
 // ------------------------------------------------------------------ r3f scene wrappers
-const Cam: React.FC<{pos: THREE.Vector3; look: THREE.Vector3; fov: number; roll?: number}> = ({pos, look, fov, roll = 0}) => {
+export const Cam: React.FC<{pos: THREE.Vector3; look: THREE.Vector3; fov: number; roll?: number}> = ({pos, look, fov, roll = 0}) => {
 	const {camera, scene} = useThree();
 	const cam = camera as THREE.PerspectiveCamera;
 	cam.position.copy(pos);
@@ -634,7 +668,7 @@ const Cam: React.FC<{pos: THREE.Vector3; look: THREE.Vector3; fov: number; roll?
 	return null;
 };
 
-const FogBg: React.FC<{color: string; near: number; far: number}> = ({color, near, far}) => {
+export const FogBg: React.FC<{color: string; near: number; far: number}> = ({color, near, far}) => {
 	const {scene, gl} = useThree();
 	scene.fog = new THREE.Fog(color, near, far);
 	scene.background = new THREE.Color(color);
@@ -642,7 +676,7 @@ const FogBg: React.FC<{color: string; near: number; far: number}> = ({color, nea
 	return null;
 };
 
-const Pixel: React.FC<{w: number; h: number; k?: number; children: React.ReactNode; style?: React.CSSProperties}> = ({w, h, k = K, children, style}) => (
+export const Pixel: React.FC<{w: number; h: number; k?: number; children: React.ReactNode; style?: React.CSSProperties}> = ({w, h, k = K, children, style}) => (
 	<div style={{position: 'absolute', left: (1920 - w * k) / 2, top: (1080 - h * k) / 2, width: w, height: h, transform: `scale(${k})`, transformOrigin: '0 0', ...style}}>
 		<ThreeCanvas width={w} height={h} gl={{antialias: false, preserveDrawingBuffer: true, powerPreference: 'high-performance'}} camera={{fov: 50, near: 0.03, far: 40}} style={{imageRendering: 'pixelated'}}>
 			{children}
@@ -650,7 +684,7 @@ const Pixel: React.FC<{w: number; h: number; k?: number; children: React.ReactNo
 	</div>
 );
 
-const Letterbox: React.FC = () => {
+export const Letterbox: React.FC = () => {
 	const bar = Math.round((1080 - 1920 / 2.39) / 2);
 	return (
 		<>
@@ -661,9 +695,9 @@ const Letterbox: React.FC = () => {
 };
 
 // handheld drift: slow, small, deterministic
-const drift = (f: number, amp = 0.012, seed = 0) => V(Math.sin(f * 0.031 + seed) * amp + Math.sin(f * 0.077 + seed * 2) * amp * 0.4, Math.sin(f * 0.043 + seed * 3) * amp * 0.6, Math.sin(f * 0.025 + seed) * amp * 0.5);
+export const drift = (f: number, amp = 0.012, seed = 0) => V(Math.sin(f * 0.031 + seed) * amp + Math.sin(f * 0.077 + seed * 2) * amp * 0.4, Math.sin(f * 0.043 + seed * 3) * amp * 0.6, Math.sin(f * 0.025 + seed) * amp * 0.5);
 
-type ShopShot = 'wide' | 'nico' | 'door' | 'nicoface';
+export type ShopShot = 'wide' | 'nico' | 'door' | 'nicoface';
 const ShopScene: React.FC<{a: Assets; shot: ShopShot; f: number; expr?: Expr}> = ({a, shot, f, expr}) => {
 	const shop = useMemo(() => buildShop(a), [a]);
 	updateRain(shop, f);
@@ -720,7 +754,7 @@ const RoomScene: React.FC<{a: Assets; f: number}> = ({a, f}) => {
 };
 
 // ------------------------------------------------------------------ tape overlay (4:3)
-const TapeOverlay: React.FC<{f: number; stamp: string}> = ({f, stamp}) => {
+export const TapeOverlay: React.FC<{f: number; stamp: string}> = ({f, stamp}) => {
 	const band = ((f * 13) % 1300) - 100;
 	return (
 		<>
@@ -812,7 +846,7 @@ const SheetScene: React.FC<{a: Assets; mode: PsxSheetProps['mode']; who: 'nico' 
 			</>
 		);
 	const faces = mode === 'faces';
-	const y = faces ? (who === 'nico' ? 1.58 : 1.1) : 0.95;
+	const y = faces ? (who === 'nico' ? 1.58 : 1.17) : 0.95;
 	return (
 		<>
 			<FogBg color="#0b0b0c" near={8} far={20} />

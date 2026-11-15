@@ -32,7 +32,7 @@ const GLASSES = [0, -0.6, -Math.PI / 2, Math.PI / 2, 0.6].flatMap((turn, i) => [
 const SHEETS = [
 	['sheet-turnaround', 'TransfersPsxSheet', {mode: 'turn'}],
 	['sheet-before', 'TransfersPsxSheet', {mode: 'before'}],
-	...['nico', 'bea'].flatMap((who) => ['neutral', 'focused', 'worried', 'fear', 'smile', 'sleepy', 'shh'].map((expr) => [`face-${who}-${expr}`, 'TransfersPsxSheet', {mode: 'faces', who, expr}])),
+	...['nico', 'bea'].flatMap((who) => ['neutral', 'focused', 'worried', 'fear', 'smile', 'sleepy', 'shh', 'talk'].map((expr) => [`face-${who}-${expr}`, 'TransfersPsxSheet', {mode: 'faces', who, expr}])),
 ];
 (async () => {
 	fs.mkdirSync(OUT, {recursive: true});

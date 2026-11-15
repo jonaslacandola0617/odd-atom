@@ -32,6 +32,13 @@ FBX = [
 	('trashcan', 'StreetFurniture/street/TrashCan/TrashCan.fbx', 'StreetFurniture/street/TrashCan/TrashCan.png'),
 	('conditioner', 'StreetFurniture/street/Conditioner/Conditioner.fbx', 'StreetFurniture/street/Conditioner/Conditioner.png'),
 	('dorihome', 'DoriHome/DoriHome.fbx', None),
+	('rudy', 'CharactersPsx/Characters_psx/Models/Male/Character_06.fbx', 'CharactersPsx/Characters_psx/Textures/Character_06.png'),  # Ep1 1991 cast
+	('lola', 'CharactersPsx/Characters_psx/Models/Female/Character_29_Female.fbx', 'CharactersPsx/Characters_psx/Textures/Character_29_Female.png'),  # Ep1 1991 cast
+	('jojo', 'CharactersPsx/Characters_psx/Models/Male/Character_12.fbx', 'CharactersPsx/Characters_psx/Textures/Character_12.png'),  # Ep1 1991 cast
+	('guest_m1', 'CharactersPsx/Characters_psx/Models/Male/Character_03.fbx', 'CharactersPsx/Characters_psx/Textures/Character_03.png'),  # Ep1 1991 cast
+	('guest_m2', 'CharactersPsx/Characters_psx/Models/Male/Character_10.fbx', 'CharactersPsx/Characters_psx/Textures/Character_10.png'),  # Ep1 1991 cast
+	('guest_f1', 'CharactersPsx/Characters_psx/Models/Female/Character_Female_05.fbx', 'CharactersPsx/Characters_psx/Textures/Character_Female_05.png'),  # Ep1 1991 cast
+	('guest_f2', 'CharactersPsx/Characters_psx/Models/Female/Character_Female_14.fbx', 'CharactersPsx/Characters_psx/Textures/Character_Female_14.png'),  # Ep1 1991 cast
 	('figure_base', 'CharactersPsx/Characters_psx/Models/Male/Character_29.fbx', None),  # rendered as a black silhouette only
 ]
 GLB = [

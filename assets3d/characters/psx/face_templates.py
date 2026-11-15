@@ -98,7 +98,13 @@ def templates(packs):
 	print('wrote', TPL)
 
 
-def composite(folder):
+def composite(folder, packs=None):
+	"""Paste the painted faces in. With `packs`, expressions not supplied yet are re-made from the painted
+	neutral with the procedural warps, so a lip flap never swaps between two different faces."""
+	rt = None
+	if packs:
+		sys.path.insert(0, os.path.dirname(__file__))
+		import restyle_textures as rt
 	for who, c in CHARS.items():
 		x0, y0, x1, y1 = c['box']
 		w, h = x1 - x0, y1 - y0
@@ -124,12 +130,25 @@ def composite(folder):
 			tex.paste(region, (x0, y0))
 			tex.save(out)
 			print('composited', who, e)
+		if rt and os.path.exists(os.path.join(folder, f'{who}-neutral.png')):
+			_, _, F = (rt.build_nico if who == 'nico' else rt.build_bea)(packs)
+			neutral = np.array(Image.open(os.path.join(TEX, who, 'tex_neutral.png')).convert('RGB')) / 255
+			hi = rt.up(neutral)
+			for e in EXPRESSIONS:
+				if e == 'neutral' or os.path.exists(os.path.join(folder, f'{who}-{e}.png')):
+					continue
+				auto = os.path.join(TEX, who, f'tex_{e}_auto.png')
+				out = os.path.join(TEX, who, f'tex_{e}.png')
+				if os.path.exists(out) and not os.path.exists(auto):
+					shutil.copyfile(out, auto)
+				rt.save(rt.down(rt.expression(hi, F, e), (neutral.shape[1], neutral.shape[0])), out)
+				print('re-made from painted neutral', who, e)
 
 
 if __name__ == '__main__':
 	if sys.argv[1] == 'templates':
 		templates(sys.argv[2])
 	elif sys.argv[1] == 'composite':
-		composite(sys.argv[2])
+		composite(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)
 	else:
 		sys.exit(__doc__)

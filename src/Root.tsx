@@ -55,6 +55,7 @@ import {Episode28,ep28Config} from './horror/ep28/Episode28';
 import {Episode29,ep29Config} from './horror/ep29/Episode29';
 import {Episode30,ep30Config} from './horror/ep30/Episode30';
 import {OddAtomJupiterV3,oddAtomJupiterV3Config} from './OddAtomJupiterV3';
+import {Episode01 as TransfersEp01,EP01_FRAMES,EP01_FPS} from './horror/transfers/ep01/Episode01';
 import {TransfersPsxTest,TransfersPsxStill,TransfersPsxSheet,PSX_FRAMES,PSX_FPS} from './horror/transfers/psx/PsxTest';
 
 export const RemotionRoot: React.FC = () => (
@@ -87,6 +88,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="TransfersActingTest" component={TransfersActingTest} durationInFrames={ACT_FRAMES} fps={ACT_FPS} width={1920} height={1080} defaultProps={{withAudio:false}}/>
     <Composition id="NicoToonSheet" component={NicoToonSheet} durationInFrames={1} fps={30} width={1920} height={1080} defaultProps={{shot:'lineup' as const,lw:640}}/>
     <Composition id="NicoV3Sheet" component={NicoV3Sheet} durationInFrames={1} fps={30} width={1920} height={1080} defaultProps={{shot:'lineup' as const,lw:640}}/>
+    <Composition id="TransfersEp01" component={TransfersEp01} durationInFrames={EP01_FRAMES} fps={EP01_FPS} width={1920} height={1080} defaultProps={{audio:true}}/>
     <Composition id="TransfersPsxTest" component={TransfersPsxTest} durationInFrames={PSX_FRAMES} fps={PSX_FPS} width={1920} height={1080} defaultProps={{}}/>
     <Composition id="TransfersPsxStill" component={TransfersPsxStill} durationInFrames={1} fps={PSX_FPS} width={1920} height={1080} defaultProps={{shot:'wide' as const,f:0}}/>
     <Composition id="TransfersPsxSheet" component={TransfersPsxSheet} durationInFrames={1} fps={PSX_FPS} width={1920} height={1080} defaultProps={{mode:'turn' as const,who:'nico' as const}}/>
