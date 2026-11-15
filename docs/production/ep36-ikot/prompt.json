@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Sa salamin, puno ang dyip. Pero ikaw lang ang nakaupo. [long pause] [softly] Sa UP Diliman, may kuwento tungkol sa Ikot, ang dyip na umiikot sa kampus. [long pause] Gabi na. Isa-isang bumababa ang mga pasahero. At lahat sila, lumilingon sa iyo. [long pause] Bilangin mo ang barya sa upuan. Sobra ng isa. [long pause] Sa huling hinto, hindi lumingon ang drayber. Mahina lang niyang sinabi, [long pause] [whispers] pagdating mo, sunugin mo ang damit mo. [long pause] Alamat lang daw iyon. Pero buong biyahe raw, may nakakapit sa likod mo. [long pause] [whispers] At umiikot pa rin ang Ikot.",
+    "flow_id": "todI6x3jsNGpt5SJUHcQ (new flow, 2026-11-15)",
+    "attempts": ["2026-11-15: one call, both takes started at once (599 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep36-take1.mp3: 43.2 s, 599 credits (used)",
+      "public/assets/audio/eleven-takes/ep36-take2.mp3: 47.04 s, 599 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, pauses inside a line capped at 0.32 s, no tempo change; gaps widened for the picture; timeline 52.44 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "todI6x3jsNGpt5SJUHcQ",
+    "prompts": {
+      "diesel": "Inside an old Filipino jeepney at night, diesel engine idling and rattling, then pulling away, metal body vibrating, no music",
+      "coin": "A coin tapped sharply three times on a metal jeepney roof rail, then coins dropped on a vinyl bench, close, no music",
+      "vinyl": "A vinyl bench seat slowly creaking and sinking as someone heavy sits down beside you, close and quiet, no music",
+      "fire": "Cloth catching fire in a metal can at night, crackling flames, fabric burning and hissing, close, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep36-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: diesel-4 (the loudest; all four are about 1 s, so it is looped under a synthesized throb); coin-1 (the loudest; its first 0.8 s); vinyl-2 (the loudest); fire-4 (the loudest of the 3 s takes), looped"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #36 (campus legend: the UP Ikot jeep), Taglish version for Juanito"
+}

@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 52.44,
+  "duration_frames": 1573,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Sa salamin, puno ang dyip. Pero ikaw lang ang nakaupo.",
+      "start": 0.6,
+      "end": 5.39,
+      "kind": "narrator",
+      "beat_before": "hook: inside the jeep, the window across shows our bench full; beside her, empty"
+    },
+    {
+      "id": "l02",
+      "text": "Sa UP Diliman, may kuwento tungkol sa Ikot, ang dyip na umiikot sa kampus.",
+      "start": 6.79,
+      "end": 12.98,
+      "kind": "narrator",
+      "beat_before": "the campus at night: acacias, sodium lights, the Ikot in a puddle"
+    },
+    {
+      "id": "l03",
+      "text": "Gabi na. Isa-isang bumababa ang mga pasahero. At lahat sila, lumilingon sa iyo.",
+      "start": 14.18,
+      "end": 20.2,
+      "kind": "narrator",
+      "beat_before": "stop by stop, passengers get off, each looks back at her"
+    },
+    {
+      "id": "l04",
+      "text": "Bilangin mo ang barya sa upuan. Sobra ng isa.",
+      "start": 21.8,
+      "end": 25.19,
+      "kind": "narrator",
+      "beat_before": "the coins on the bench: one too many"
+    },
+    {
+      "id": "l05",
+      "text": "Sa huling hinto, hindi lumingon ang drayber. Mahina lang niyang sinabi,",
+      "start": 28.19,
+      "end": 32.96,
+      "kind": "narrator",
+      "beat_before": "alone: in the window, a grey figure beside her, its head bowed on her shoulder; the jeep stops"
+    },
+    {
+      "id": "l06",
+      "text": "pagdating mo, sunugin mo ang damit mo.",
+      "start": 33.96,
+      "end": 36.78,
+      "kind": "narrator",
+      "beat_before": "the driver from behind; he does not turn"
+    },
+    {
+      "id": "l07",
+      "text": "Alamat lang daw iyon. Pero buong biyahe raw, may nakakapit sa likod mo.",
+      "start": 40.38,
+      "end": 45.05,
+      "kind": "narrator",
+      "beat_before": "her room: the jacket comes off: two grey handprints on its back; then the can, the fire"
+    },
+    {
+      "id": "l08",
+      "text": "At umiikot pa rin ang Ikot.",
+      "start": 46.65,
+      "end": 49.04,
+      "kind": "narrator",
+      "beat_before": "the Ikot passes empty; in its window, her reflection, sitting"
+    }
+  ]
+}
