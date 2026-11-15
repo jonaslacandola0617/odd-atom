@@ -1,0 +1,89 @@
+{
+  "flow_id": "FMahe5qlmOqjxHibXC7L",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
+    "node_id": "5TRMEWnJIYXJBxq8Txd8",
+    "prompt": "[whispers] Alas-tres ng madaling-araw. Bumukas ang elevator sa lobby. Walang laman. [long pause] [softly] Security guard ako sa isang lumang building. Sa gabi, ako lang ang gising. [long pause] Sa monitor, galing ang elevator sa ikalabing-apat na palapag. Bakante 'yon. Matagal nang sarado. [long pause] Unang gabi, sinilip ko sa CCTV. Bumukas ang pinto sa ikalabing-apat. Walang tao. [long pause] Pangalawang gabi, may nakatayo sa dulo ng pasilyo. [long pause] Pangatlong gabi, nasa tapat na siya ng elevator. [long pause] [whispers] Kagabi, wala na siya sa ikalabing-apat. [long pause] [whispers] Kaya ngayon, pagbukas ng pinto sa lobby... tumatabi na lang ako. Para makalabas siya.",
+    "takes": {
+      "take1": {
+        "seconds": 49.36,
+        "credits": 684,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep42-take1.mp3"
+      },
+      "take2": {
+        "seconds": 52.56,
+        "credits": 684,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep42-take2.mp3"
+      }
+    }
+  },
+  "sfx": {
+    "elevator-arrive": {
+      "node_id": "I7pCNhksdgty50uS6Ncv",
+      "prompt": "An old office building elevator arriving in an empty marble lobby at night: a soft mechanical slowdown, one single dull ding, then the steel doors sliding open with a heavy rumble, quiet echo, no voices.",
+      "duration_seconds": 5,
+      "loop": false,
+      "variations": 4,
+      "credits_each": 17,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep42-elevator-1.mp3",
+        "public/assets/audio/eleven-sfx/ep42-elevator-2.mp3",
+        "public/assets/audio/eleven-sfx/ep42-elevator-3.mp3",
+        "public/assets/audio/eleven-sfx/ep42-elevator-4.mp3"
+      ]
+    },
+    "shaft-loop": {
+      "node_id": "jxJVn0htIMKxtKXrm72L",
+      "prompt": "Inside an old elevator shaft at night: a low steady motor hum, steel cables creaking slowly, a faint hollow wind moving up the shaft, distant metallic ticks, dark and eerie, continuous ambience.",
+      "duration_seconds": 15,
+      "loop": true,
+      "variations": 4,
+      "credits_each": 50,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep42-shaft-1.mp3",
+        "public/assets/audio/eleven-sfx/ep42-shaft-2.mp3",
+        "public/assets/audio/eleven-sfx/ep42-shaft-3.mp3",
+        "public/assets/audio/eleven-sfx/ep42-shaft-4.mp3"
+      ]
+    },
+    "lobby-night-loop": {
+      "node_id": "Zx12KX3JL02Fhl5sgG6G",
+      "prompt": "An empty office building lobby at 3 a.m.: fluorescent tubes buzzing, an air conditioner droning, a security desk computer fan, very faint city traffic outside the glass doors, lonely and uneasy room tone.",
+      "duration_seconds": 15,
+      "loop": true,
+      "variations": 4,
+      "credits_each": 50,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep42-lobby-1.mp3",
+        "public/assets/audio/eleven-sfx/ep42-lobby-2.mp3",
+        "public/assets/audio/eleven-sfx/ep42-lobby-3.mp3",
+        "public/assets/audio/eleven-sfx/ep42-lobby-4.mp3"
+      ]
+    },
+    "glass-door": {
+      "node_id": "bYSuohfTxt77WRqd1Moh",
+      "prompt": "An automatic glass sliding door in a quiet lobby opening by itself at night: a motor whir, the glass panels sliding apart, a rush of outside air, then closing again with a soft thud.",
+      "duration_seconds": 5,
+      "loop": false,
+      "variations": 4,
+      "credits_each": 17,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep42-door-1.mp3",
+        "public/assets/audio/eleven-sfx/ep42-door-2.mp3",
+        "public/assets/audio/eleven-sfx/ep42-door-3.mp3",
+        "public/assets/audio/eleven-sfx/ep42-door-4.mp3"
+      ]
+    }
+  },
+  "reused": [
+    "public/assets/audio/eleven-sfx/ep41-drone-1.mp3",
+    "ep41-stinger-3.mp3",
+    "ep41-riser-1.mp3",
+    "ep41-whispers-2.mp3",
+    "ep41-neck-2.mp3"
+  ],
+  "note": "Picks made by measurement (RMS, peak, onset), not by listening."
+}

@@ -46,8 +46,34 @@
   - **Voice:** Juanito, both takes (1,204 credits; take 1 used), no tempo change.
   - **Sound figures:** presence −11.3 / −3.2 dB, lines ≥6.4 dB with no lifts, −14.0 LUFS, decoded peak −1.1 dBFS, seam −22.6 / −22.5 dBFS.
   - **Delivery:** `assets/videos/ep41-uv-v1/`. Notes are in `docs/production/ep41-uv/README.md`; the publishing kit is `docs/publishing/ep41/README.md` and `docs/publishing/POSTS-ep41-50.md`.
-  - **Status:** no user approval and no listening pass.
+  - **Status:** **approved by the user (2026-11-15):** "The quality sheesh this the best animation weve made so far, though that really took a lot of tokens and time but its good i love it. Next ep". No listening pass. This is the Season 5 quality bar; reach it with fewer iterations (reuse the kit, plan cameras against geometry before the first still).
   - **Next in the season order:** Episode 42 "Ikalabing-apat" (the guard's elevator).
+
+- **Episode 42 "Ikalabing-apat" (2026-11-15):** the user asked for the "next ep". Night guards' experience of an elevator coming down from a closed floor, retold. `Ep42Ikalabingapat` / `src/horror/ep42/` is 52.85 s, in Taglish, with the score and seamless loop.
+  - **Form:** "the monitor": the lobby in colour; the 14th floor only on CCTV (grey, 8 fps stop-motion, OSD).
+    - The doors open on the empty car (hook).
+    - The guard at his desk; the status screen (14, and no 13 in the list).
+    - On the 14F CCTV, night by night: empty; someone at the far end, nearer each second; at the doors, her head turning round to the camera in snaps.
+    - "Kagabi": empty; the countdown to L.
+    - He stands aside; the doors open on nothing; on the lobby camera she walks out past him and her head snaps up to the lens.
+    - The loop.
+  - **Cast:** `Character_17_Police` as the guard, `Character_Female_09` (pale) as her. Props from the PSX OFFICE pack.
+  - **Built in far fewer iterations than Episode 41:**
+    - cameras planned against the geometry;
+    - prop sizes read from the GLB bounds;
+    - two still passes.
+  - **Lessons:**
+    - an on-screen display drawn with the caption helper must not inherit its centred alignment;
+    - a readable in-scene screen needs about 96×72 texels and a camera far enough back to fit it.
+  - **Sound:**
+    - generated: an elevator arrival, a 15 s shaft loop, a 15 s lobby loop and a glass door (flow `FMahe5qlmOqjxHibXC7L`, about 532 credits, all variations in Git);
+    - reused: Episode 41's unused drone, stinger, riser and whispers, and its neck-crack take;
+    - the 14th floor is heard through a monitor band.
+  - **Voice:** Juanito, both takes (1,368 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −8.2 / −3.4 dB, lines ≥4.6 dB (l01 +0.8, l08 +0.5), −14.0 LUFS, decoded peak −1.06 dBFS.
+  - **Delivery:** `assets/videos/ep42-lift-v1/`. Notes are in `docs/production/ep42-lift/README.md`; the publishing kit is `docs/publishing/ep42/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 43 "Si Jun-Jun" (the call-center boy).
 
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.

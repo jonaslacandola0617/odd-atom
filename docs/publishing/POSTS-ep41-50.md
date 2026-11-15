@@ -12,6 +12,7 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 | # | Story | Kind | Upload this file | Length |
 |---|---|---|---|---|
 | 41 | Bilang sa Bintana | commuter's experience (night UV Express) | `assets/videos/ep41-uv-v1/ep41-bilang-sa-bintana.mp4` | 50.17 s |
+| 42 | Ikalabing-apat | night guards' experience (the elevator) | `assets/videos/ep42-lift-v1/ep42-ikalabing-apat.mp4` | 52.85 s |
 
 ---
 
@@ -20,3 +21,9 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 - **YouTube title:** `Labing-isa kami sa UV. Sa bintana, labintatlo.` (alt: `Sila, hindi umuuga.`)
 - **YouTube description and TikTok caption, cover text, pinned comment:** `docs/publishing/ep41/README.md`.
 - **Hashtags:** `#kwentongkatatakutan #pinoyhorror #UVExpress #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #uvexpress #fyp`
+
+## Broadcast 42: Ikalabing-apat (personal experience, retold)
+
+- **YouTube title:** `Tumatabi na lang ako. Para makalabas siya.` (alt: `Ang elevator galing sa ikalabing-apat`)
+- **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep42/README.md`.
+- **Hashtags:** `#kwentongkatatakutan #pinoyhorror #nightshift #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #nightshift #fyp`

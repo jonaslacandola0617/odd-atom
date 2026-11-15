@@ -33,4 +33,19 @@ The user shared these from their Google Drive folder (2026-11-15) and stated tha
 | `props/urban/flat_Lshape_brick.glb` | `URBAN` (`Buildings Prebuild/`) | `5ba1d4e5…` |
 | `props/urban/flat_square_brick_alt.glb` | `URBAN` (`Buildings Prebuild/`) | `50f37d17…` |
 
+**Added for Episode 42 (2026-11-15):** (not every copied office prop is placed in the scene)
+
+| File | Source archive | SHA-256 |
+|---|---|---|
+| `characters/Character_17_Police.fbx` + `.png` | `Characters_psx.rar` | `a1749f79…` / `732993a5…` |
+| `characters/Character_Female_09.fbx` + `.png` | `Characters_psx.rar` | `4b5b1d7c…` / `f353417e…` |
+| `props/office/computer_monitor.glb` | `OFFICE` | `3ff1d1f7…` |
+| `props/office/desk1_weathered.glb` | `OFFICE` | `07b4cb9d…` |
+| `props/office/desk_phone_with_cable.glb` | `OFFICE` | `fdc6c8db…` |
+| `props/office/file_cabinet_large.glb` | `OFFICE` | `5ac8fc70…` |
+| `props/office/office_chair_black.glb` | `OFFICE` | `f1a786ae…` |
+| `props/office/square_desklamp.glb` | `OFFICE` | `5216994b…` |
+| `props/office/wall_clock.glb` | `OFFICE` | `6a2e89b5…` |
+| `props/office/water_cooler.glb` | `OFFICE` | `0861481c…` |
+
 Loaded and posed by `src/horror/psx/models.tsx`.

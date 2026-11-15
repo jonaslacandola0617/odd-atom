@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 52.85,
+  "duration_frames": 1586,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Alas-tres ng madaling-araw. Bumukas ang elevator sa lobby. Walang laman.",
+      "start": 0.4,
+      "end": 6.11,
+      "kind": "narrator",
+      "beat_before": "hook: the lobby, the floor display counting down to L, the doors open on an empty car"
+    },
+    {
+      "id": "l02",
+      "text": "Security guard ako sa isang lumang building. Sa gabi, ako lang ang gising.",
+      "start": 7.11,
+      "end": 11.93,
+      "kind": "narrator",
+      "beat_before": "the guard at his desk, the monitors, the lobby behind him"
+    },
+    {
+      "id": "l03",
+      "text": "Sa monitor, galing ang elevator sa ikalabing-apat na palapag. Bakante 'yon. Matagal nang sarado.",
+      "start": 12.93,
+      "end": 19.63,
+      "kind": "narrator",
+      "beat_before": "the monitor: the elevator panel reads 14; the 14th-floor tile is dark"
+    },
+    {
+      "id": "l04",
+      "text": "Unang gabi, sinilip ko sa CCTV. Bumukas ang pinto sa ikalabing-apat. Walang tao.",
+      "start": 20.83,
+      "end": 27.24,
+      "kind": "narrator",
+      "beat_before": "CCTV 14F, night one: the doors open on the empty hallway"
+    },
+    {
+      "id": "l05",
+      "text": "Pangalawang gabi, may nakatayo sa dulo ng pasilyo.",
+      "start": 28.84,
+      "end": 32.19,
+      "kind": "narrator",
+      "beat_before": "CCTV 14F, night two: at the far end of the hallway, someone standing"
+    },
+    {
+      "id": "l06",
+      "text": "Pangatlong gabi, nasa tapat na siya ng elevator.",
+      "start": 33.79,
+      "end": 36.78,
+      "kind": "narrator",
+      "beat_before": "CCTV 14F, night three: right at the elevator doors, head bowed; it lifts toward the camera"
+    },
+    {
+      "id": "l07",
+      "text": "Kagabi, wala na siya sa ikalabing-apat.",
+      "start": 38.38,
+      "end": 41.27,
+      "kind": "narrator",
+      "beat_before": "CCTV 14F, last night: empty; the elevator display: 14, going down"
+    },
+    {
+      "id": "l08",
+      "text": "Kaya ngayon, pagbukas ng pinto sa lobby... tumatabi na lang ako. Para makalabas siya.",
+      "start": 43.67,
+      "end": 49.25,
+      "kind": "narrator",
+      "beat_before": "the lobby: the display reaches L, the guard steps aside, the doors open"
+    }
+  ]
+}

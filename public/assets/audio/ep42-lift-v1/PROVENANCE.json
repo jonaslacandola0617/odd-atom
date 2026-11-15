@@ -1,0 +1,158 @@
+{
+  "episode": "Ep42Ikalabingapat",
+  "duration_seconds": 52.85,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep42-take1.mp3",
+    "sha256": "bad54f9b688e57e6bef9144c50768a940f48adeee1dd8260b8951fc9161bc6c9",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": {
+      "take1": {
+        "seconds": 49.36,
+        "credits": 684,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep42-take1.mp3"
+      },
+      "take2": {
+        "seconds": 52.56,
+        "credits": 684,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep42-take2.mp3"
+      }
+    },
+    "prompt": "docs/production/ep42-lift/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, bowed metal at the monitor, a heartbeat under night three, a synthesized stinger doubling the ElevenLabs one (scripts/horror_score.py); loop-quantised; it drops out for \"Kagabi\" and returns with the countdown",
+    "CCTV hiss and a muffled monitor band for everything on the 14th floor, the floor indicator ticking down, a rustle when the guard stands (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "FMahe5qlmOqjxHibXC7L",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "lobby-3": {
+        "path": "public/assets/audio/eleven-sfx/ep42-lobby-3.mp3",
+        "sha256": "c3fc48eb0eb7df1c59ef166951111bd777331f39011ca4c4289b7a048ef3d96b"
+      },
+      "shaft-2": {
+        "path": "public/assets/audio/eleven-sfx/ep42-shaft-2.mp3",
+        "sha256": "392dc434a4a2cd0e792179063e5a8e3c1a302bccb7a74fc09f49ba92b7d8e93a"
+      },
+      "elevator-2": {
+        "path": "public/assets/audio/eleven-sfx/ep42-elevator-2.mp3",
+        "sha256": "9f67378b4ebb7327654305aaf1848f6410085659b6b276b7a24a234646225659"
+      },
+      "ep41-neck-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-neck-2.mp3",
+        "sha256": "1e85182a3390097ac5a5b5ebc1fc59b68ea6f2cbff6b2a2619de864c9a7c27cc"
+      },
+      "door-3": {
+        "path": "public/assets/audio/eleven-sfx/ep42-door-3.mp3",
+        "sha256": "89e7ed69c88012ff4cceaac188339cff1eabca6f205b6a4cfc6cc605e35648f8"
+      },
+      "ep41-whispers-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-whispers-2.mp3",
+        "sha256": "37af7576020add806fc3027d231c12d29fe9ca4b55d395ef5fb087b1a57f3171"
+      },
+      "ep41-drone-1": {
+        "path": "public/assets/audio/eleven-sfx/ep41-drone-1.mp3",
+        "sha256": "697a3e59363df206a236f9820546365f77cc034a5f4343fc5f3a157cfc3ad422"
+      },
+      "ep41-riser-1": {
+        "path": "public/assets/audio/eleven-sfx/ep41-riser-1.mp3",
+        "sha256": "c061f2995a45b831825d5e78048aae7ed01797b6454a62bf57bff2c911322613"
+      },
+      "ep41-stinger-3": {
+        "path": "public/assets/audio/eleven-sfx/ep41-stinger-3.mp3",
+        "sha256": "4277985e611fcc323f91258afce2eaf9ef88750a1ee9ab25e18c8da2e2d353b2"
+      }
+    },
+    "generated": "4 prompts x 4 variations (about 532 credits): elevator arrival 5 s, elevator shaft 15 s loop, lobby night tone 15 s loop, glass door 5 s",
+    "reused": "unused Episode 41 variations (drone-1, stinger-3, riser-1, whispers-2) and its neck-crack take (neck-2)",
+    "note": "picked by measurement (RMS, peak, onset), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    50.2
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.06,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -12.4,
+    "last_quarter_second": -22.2
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.8,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.5
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 4.6,
+      "phone_band_voice_minus_all_db": 4.9,
+      "voice_minus_bed_db": 4.6
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 16.4,
+      "phone_band_voice_minus_all_db": 17.7,
+      "voice_minus_bed_db": 16.4
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 10.0,
+      "phone_band_voice_minus_all_db": 9.9,
+      "voice_minus_bed_db": 10.0
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 10.6,
+      "phone_band_voice_minus_all_db": 9.9,
+      "voice_minus_bed_db": 10.6
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 8.8,
+      "phone_band_voice_minus_all_db": 8.0,
+      "voice_minus_bed_db": 8.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 9.0,
+      "phone_band_voice_minus_all_db": 11.7,
+      "voice_minus_bed_db": 9.0
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 19.1,
+      "phone_band_voice_minus_all_db": 18.2,
+      "voice_minus_bed_db": 19.1
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 6.1,
+      "voice_minus_bed_db": 4.7
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -8.2,
+    "music_minus_voice_in_gaps_db": -3.4,
+    "music_share_of_gaps_seconds": 14.4
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
