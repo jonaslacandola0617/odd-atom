@@ -17,6 +17,7 @@ Season 4 is local Philippine horror (a documented case, folklore, reported haunt
 | 34 | Paatras | folklore (sigbin) | `assets/videos/ep34-sigbin-v1/ep34-paatras.mp4` | 49.11 s |
 | 35 | Bantay | folklore (amalanhig) + custom (lamay) | `assets/videos/ep35-bantay-v1/ep35-bantay.mp4` | 52.04 s |
 | 36 | Sunugin Mo ang Damit | campus legend (UP Ikot jeep) | `assets/videos/ep36-ikot-v1/ep36-sunugin-mo-ang-damit.mp4` | 52.44 s |
+| 37 | Pitong Biyernes | folk belief (barang) + tradition (Siquijor healers) | `assets/videos/ep37-barang-v1/ep37-pitong-biyernes.mp4` | 51.91 s |
 
 ---
 
@@ -95,3 +96,16 @@ Alternative: `The Ikot jeep: burn your clothes`
 **Pinned comment:** `Panoorin ulit ang bintana habang bumababa sila. Nakaupo pa rin ba sila? 🪟`
 
 Full kit: `docs/publishing/ep36/README.md`.
+
+---
+
+## Broadcast 37: Pitong Biyernes (folk belief and tradition)
+
+**YouTube title:** `Gumalaw ang takip ng kawayan. Mula sa loob.`
+Alternative: `Barang: what the bamboo tube is for`
+
+**TikTok caption:** `gumalaw ang takip ng kawayan. mula sa loob 🪲 #siquijor #barang #kwentongkatatakutan #pinoyhorror #fyp #fypシ`
+
+**Pinned comment:** `Pakinggan ulit ang katahimikan bago siya umubo. Ilang beses mo narinig ang pakpak? 🪲`
+
+Full kit: `docs/publishing/ep37/README.md`.
