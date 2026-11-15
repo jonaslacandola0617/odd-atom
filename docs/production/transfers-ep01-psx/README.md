@@ -45,6 +45,15 @@ is approved.
   git-ignored `assets3d/psx-local/ep01/` and joins them; stills with `--stills 3,45,…` (seconds).
 - The draft mix is then muxed with ffmpeg (`-c:v copy`).
 
+## Delivery (v0)
+
+- `assets/videos/transfers-ep01-psx-draft-v0/transfers-ep01-psx-draft-v0.mp4`: 1920×1080, 30 fps,
+  6:00 picture (the draft mix's audio runs 5:57 under it), H.264 two-pass at about 2 Mbit/s so it
+  fits GitHub's 100 MB limit (98.5 MB), the mix's AAC copied unchanged (decoded peak −1.1 dBFS,
+  about −14.6 LUFS as measured for the mix). Poster: the phone-clip frame with the figure.
+- Render time: about 41 minutes for 10,800 frames at `concurrency: 2` with software WebGL
+  (0.11–0.33 s a frame; the 1991 tape at 320×240 plus its overlays is the slowest).
+
 ## Known gaps (the next pass)
 
 - **Faces:** only the two neutral faces are painted; the other expressions are warps of them.
