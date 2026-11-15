@@ -53,7 +53,7 @@ The boy is never shown whole and lit. He appears as a small figure running past 
   - presence −9.9 dB in speech and −3.1 dB in the gaps;
   - lines ≥6.2 dB over everything else (phone band ≥5.0 dB), with no lifts;
   - −14.0 LUFS; decoded peak −2.24 dBFS;
-  - seam −20.1 / −16.8 dBFS (the run begins at the seam).
+  - seam −20.1 / −16.8 dBFS (the run begins at the seam); last frame vs frame 0: 2.6/255.
 
 ## Voice
 
