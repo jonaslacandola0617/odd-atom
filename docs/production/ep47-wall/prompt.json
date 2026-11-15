@@ -1,0 +1,74 @@
+{
+  "flow_id": "WfXJhVQWB87PTxsPKNQr",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
+    "node_id": "qhXaXY4STIUYcPiwwWDv",
+    "prompt": "[whispers] Gabi-gabi, may nagkukuwentuhan sa loob ng pader. Pero walang tao sa kabila. [long pause] [softly] Bakasyon noon sa lumang bahay ni Lola sa norte. Kahoy ang dingding, luma na ang mga tabla. [long pause] Pagpatay ng ilaw, nagsisimula sila. Mahina. Parang maraming maliliit na boses. [long pause] Sabi ni Lola, mga engkanto raw. Huwag ko raw silang sasagutin, kahit tawagin ako. [long pause] Pangatlong gabi, may tumawag sa pangalan ko. Mula sa pader. [long pause] Hindi ko natiis. Idinikit ko ang tenga ko sa tabla, at sumagot ako. [long pause] Tumahimik lahat. Tapos may bumulong sa kabila... boses ni Lola. [long pause] [whispers] Pero si Lola, tulog sa tabi ko. Nakadilat.",
+    "takes": {
+      "take1": {
+        "seconds": 52.32,
+        "credits": 684,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep47-take1.mp3"
+      },
+      "take2": {
+        "seconds": 57.84,
+        "credits": 684,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep47-take2.mp3"
+      }
+    }
+  },
+  "sfx": {
+    "wall-chatter-loop": {
+      "node_id": "KiE1sjchCl0flr3ENP4g",
+      "prompt": "Many tiny voices murmuring and chattering unintelligibly inside a hollow wooden wall at night, like a small crowd far away, soft giggles and hushed talking, faint scratching on wood, muffled and close, eerie.",
+      "duration_seconds": 15,
+      "loop": true,
+      "prompt_influence": 0.45,
+      "variations": 4,
+      "credits_each": 50,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep47-chatter-1.mp3",
+        "public/assets/audio/eleven-sfx/ep47-chatter-2.mp3",
+        "public/assets/audio/eleven-sfx/ep47-chatter-3.mp3",
+        "public/assets/audio/eleven-sfx/ep47-chatter-4.mp3"
+      ],
+      "picked": "chatter-1 (narrowest range, about 10 dB)"
+    },
+    "wall-whisper": {
+      "node_id": "UyO4v5DYHIbYRL3gdrPD",
+      "prompt": "An old woman's voice whispering softly and slowly from the other side of a thin wooden wall, very close to the ear, unintelligible words, breathy, intimate and wrong.",
+      "duration_seconds": 5,
+      "loop": false,
+      "prompt_influence": 0.5,
+      "variations": 4,
+      "credits_each": 17,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep47-whisper-1.mp3",
+        "public/assets/audio/eleven-sfx/ep47-whisper-2.mp3",
+        "public/assets/audio/eleven-sfx/ep47-whisper-3.mp3",
+        "public/assets/audio/eleven-sfx/ep47-whisper-4.mp3"
+      ],
+      "picked": "whisper-2 (the only clear one; the others sit 20+ dB lower)"
+    }
+  },
+  "reused": [
+    "ep44-house-1.mp3",
+    "ep35-tuko-1.mp3",
+    "ep40-cicadas-1.mp3",
+    "ep41-drone-2.mp3",
+    "ep41-stinger-4.mp3",
+    "ep41-riser-3.mp3",
+    "ep41-musicbox-2.mp3",
+    "ep41-whispers-3.mp3",
+    "ep41-neck-4.mp3"
+  ],
+  "credits": {
+    "narration": 1368,
+    "sfx": 267,
+    "total_about": 1635
+  },
+  "note": "every variation downloaded right after generation and kept in Git; picked by measurement (RMS, peak), not by listening"
+}

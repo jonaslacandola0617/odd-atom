@@ -53,3 +53,9 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 - **YouTube title:** `Bente-tres kami. Bente-kuwatro ang bilang.` (alt: `Huwag kang lilingon sa bus.`)
 - **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep46/README.md`.
 - **Hashtags:** `#kwentongkatatakutan #pinoyhorror #lasttrip #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #lasttrip #fyp`
+
+## Broadcast 47: Sa Pader ng Bahay ni Lola (personal experience, retold)
+
+- **YouTube title:** `Huwag mong sasagutin ang pader.` (alt: `May nagkukuwentuhan sa loob ng pader`)
+- **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep47/README.md`.
+- **Hashtags:** `#kwentongkatatakutan #pinoyhorror #engkanto #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #engkanto #fyp`

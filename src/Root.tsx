@@ -65,6 +65,7 @@ import {Episode43,ep43Config} from './horror/ep43/Episode43';
 import {Episode44,ep44Config} from './horror/ep44/Episode44';
 import {Episode45,ep45Config} from './horror/ep45/Episode45';
 import {Episode46,ep46Config} from './horror/ep46/Episode46';
+import {Episode47,ep47Config} from './horror/ep47/Episode47';
 import {Episode40,ep40Config} from './horror/ep40/Episode40';
 import {OddAtomJupiterV3,oddAtomJupiterV3Config} from './OddAtomJupiterV3';
 
@@ -111,6 +112,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep44SumunodAngKatok" component={Episode44} defaultProps={{includeAudio:true,captions:true}} {...ep44Config}/>
     <Composition id="Ep45AngHumahaplos" component={Episode45} defaultProps={{includeAudio:true,captions:true}} {...ep45Config}/>
     <Composition id="Ep46HulingBiyahePahilaga" component={Episode46} defaultProps={{includeAudio:true,captions:true}} {...ep46Config}/>
+    <Composition id="Ep47SaPaderNgBahayNiLola" component={Episode47} defaultProps={{includeAudio:true,captions:true}} {...ep47Config}/>
     <Composition id="Ep40PatayinAngIlaw" component={Episode40} defaultProps={{includeAudio:true,captions:true}} {...ep40Config}/>
     <Composition id="ChannelAvatar" component={ChannelAvatar} durationInFrames={1} fps={30} width={800} height={800}/>
     <Composition id="ChannelBanner" component={ChannelBanner} durationInFrames={1} fps={30} width={2560} height={1440}/>

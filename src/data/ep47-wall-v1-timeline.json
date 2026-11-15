@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 55.78,
+  "duration_frames": 1673,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Gabi-gabi, may nagkukuwentuhan sa loob ng pader. Pero walang tao sa kabila.",
+      "start": 0.4,
+      "end": 6.12,
+      "kind": "narrator",
+      "beat_before": "hook: the plank wall at a child's height; light passes behind the gaps, dust sifts out"
+    },
+    {
+      "id": "l02",
+      "text": "Bakasyon noon sa lumang bahay ni Lola sa norte. Kahoy ang dingding, luma na ang mga tabla.",
+      "start": 7.12,
+      "end": 13.38,
+      "kind": "narrator",
+      "beat_before": "the old house up north at night, one capiz window lit"
+    },
+    {
+      "id": "l03",
+      "text": "Pagpatay ng ilaw, nagsisimula sila. Mahina. Parang maraming maliliit na boses.",
+      "start": 14.78,
+      "end": 21.17,
+      "kind": "narrator",
+      "beat_before": "the room: Lola and me on the floor bed; the gasera goes out; lights move behind the planks"
+    },
+    {
+      "id": "l04",
+      "text": "Sabi ni Lola, mga engkanto raw. Huwag ko raw silang sasagutin, kahit tawagin ako.",
+      "start": 22.57,
+      "end": 28.28,
+      "kind": "narrator",
+      "beat_before": "Lola standing over me, a finger to her lips, shaking her head"
+    },
+    {
+      "id": "l05",
+      "text": "Pangatlong gabi, may tumawag sa pangalan ko. Mula sa pader.",
+      "start": 29.88,
+      "end": 34.2,
+      "kind": "narrator",
+      "beat_before": "my eyes on the wall: the gaps light one by one toward my head"
+    },
+    {
+      "id": "l06",
+      "text": "Hindi ko natiis. Idinikit ko ang tenga ko sa tabla, at sumagot ako.",
+      "start": 35.6,
+      "end": 40.25,
+      "kind": "narrator",
+      "beat_before": "my ear against the planks; the gap by my ear glows"
+    },
+    {
+      "id": "l07",
+      "text": "Tumahimik lahat. Tapos may bumulong sa kabila... boses ni Lola.",
+      "start": 42.05,
+      "end": 46.8,
+      "kind": "narrator",
+      "beat_before": "all goes dark and still; an eye opens in the gap at my ear"
+    },
+    {
+      "id": "l08",
+      "text": "Pero si Lola, tulog sa tabi ko. Nakadilat.",
+      "start": 48.6,
+      "end": 52.18,
+      "kind": "narrator",
+      "beat_before": "I turn: Lola beside me, eyes open, her head turned round to me too far"
+    }
+  ]
+}

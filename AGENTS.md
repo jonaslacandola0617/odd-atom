@@ -173,6 +173,33 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 47 "Sa Pader ng Bahay ni Lola" (the chattering in the walls).
 
+- **Episode 47 "Sa Pader ng Bahay ni Lola" (2026-11-15):** the user asked for the "next ep". A child on holiday in Lola's old wooden house up north hears small voices talking inside the plank wall; told not to answer, the child answers, retold. `Ep47SaPaderNgBahayNiLola` / `src/horror/ep47/` is 55.78 s, in Taglish, with the score and seamless loop.
+  - **Form:** "the wall": a child's height, the old planks close, and what moves behind the gaps.
+    - Lights pass behind the planks, gaps glowing (hook).
+    - The old house at night.
+    - The gasera goes out; the lights begin.
+    - Lola, a finger to her lips.
+    - My name: a light steps gap to gap toward my head.
+    - My ear to the planks; I answer; everything stops.
+    - In the silence, Lola's voice through the boards; an eye in the hole by my ear.
+    - Lola beside me, eyes open, her head turned round to me too far; it comes up at the lens.
+    - The loop.
+  - **Cast:** me `Character_10` at a child's height (head ×1.35), Lola `Character_29_Female`; box-built house and room; the derelict mattress.
+  - **Lessons:**
+    - light leaking through planks needs a lit slit in each gap (Lambert lighting has no occlusion);
+    - an eye behind a 3 cm gap needs a hole;
+    - box pillows hide lying faces;
+    - a wooden room at night needs ambient about 1.5 and a moon fill.
+  - **Sound:**
+    - generated: voices chattering in a wall (15 s loop) and an old woman whispering through it (flow `WfXJhVQWB87PTxsPKNQr`, about 267 credits, all variations in Git);
+    - reused: Episode 44's house loop, Episode 35's tuko, Episode 40's cicadas, and Episode 41's drone, stinger, riser, music box, whispers and neck crack;
+    - the voices stop dead when I answer.
+  - **Voice:** Juanito, both takes (1,368 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −10.8 / −3.3 dB, lines ≥7.9 dB with no lifts, −14.0 LUFS, decoded peak −1.79 dBFS, seam −23.8 / −23.2 dBFS.
+  - **Delivery:** `assets/videos/ep47-wall-v1/`. Notes are in `docs/production/ep47-wall/README.md`; the publishing kit is `docs/publishing/ep47/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 48 "Bedspace" (one more sleeper than there are of us).
+
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.
   - **Kit:** `src/horror/psx/models.tsx` (`PsxCharacter`, `PsxProp`, `applyPose` with world-axis bone rotations, `ARMS_DOWN`, `SIT`, PS1 materials). Files in use: `public/assets/models/psx/` with `PROVENANCE.md`.

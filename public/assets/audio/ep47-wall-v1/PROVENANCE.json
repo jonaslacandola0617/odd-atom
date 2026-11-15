@@ -1,0 +1,166 @@
+{
+  "episode": "Ep47SaPaderNgBahayNiLola",
+  "duration_seconds": 55.78,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep47-take1.mp3",
+    "sha256": "d7397acb9f52d70f9bf52c7c26b0f6bc8d3860c66bd1a314df6b21e61537c12d",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": {
+      "take1": {
+        "seconds": 52.32,
+        "credits": 684,
+        "used": true,
+        "file": "public/assets/audio/eleven-takes/ep47-take1.mp3"
+      },
+      "take2": {
+        "seconds": 57.84,
+        "credits": 684,
+        "used": false,
+        "file": "public/assets/audio/eleven-takes/ep47-take2.mp3"
+      }
+    },
+    "prompt": "docs/production/ep47-wall/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, bowed metal after Lola's voice, a heartbeat from the call to the hush, a synthesized stinger doubling the ElevenLabs one (scripts/horror_score.py); loop-quantised; it drops out in the silence after I answer",
+    "the gasera blown out, scratches on the boards at my ear, a breath across the seam (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "WfXJhVQWB87PTxsPKNQr",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "ep44-house-1": {
+        "path": "public/assets/audio/eleven-sfx/ep44-house-1.mp3",
+        "sha256": "61573a3e32ba69a6d33629510f4a0a97b621c06cdc720f93f4fb9b767f5e5511"
+      },
+      "ep40-cicadas-1": {
+        "path": "public/assets/audio/eleven-sfx/ep40-cicadas-1.mp3",
+        "sha256": "4718fb11aebf5cabc71c911ada327e2dd20e96bf57bfee9b55ff6b4ee936f6ab"
+      },
+      "chatter-1": {
+        "path": "public/assets/audio/eleven-sfx/ep47-chatter-1.mp3",
+        "sha256": "ee5172e2c4fe968bb433a6daddadecf35b099c4c123cbc98b103f0b7c1f80a54"
+      },
+      "ep35-tuko-1": {
+        "path": "public/assets/audio/eleven-sfx/ep35-tuko-1.mp3",
+        "sha256": "c8b3bad432536936d0d00fa035c0a7eb991340941f202825bcc1208a3b8220fa"
+      },
+      "ep41-whispers-3": {
+        "path": "public/assets/audio/eleven-sfx/ep41-whispers-3.mp3",
+        "sha256": "08aad022b4ee23aaa96eed27ed0937668f85257e3f50434a9ff1a31da264dfca"
+      },
+      "whisper-2": {
+        "path": "public/assets/audio/eleven-sfx/ep47-whisper-2.mp3",
+        "sha256": "a341416780308e601aec842bd8ea57359f1568272a27a8a16beded24fe8e8f1a"
+      },
+      "ep41-neck-4": {
+        "path": "public/assets/audio/eleven-sfx/ep41-neck-4.mp3",
+        "sha256": "50999f245cd2472093f6363e47106c0ea976067f5eeb450d9a5e4b9b80058b86"
+      },
+      "ep41-drone-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-drone-2.mp3",
+        "sha256": "026295eb892b77b9a72e46751e1206c85acd9c810cc33f836aab46e153ba03ef"
+      },
+      "ep41-musicbox-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-musicbox-2.mp3",
+        "sha256": "80252fa4f2b960b32f2d1766182f7c7e56cf301b8ea16bf5fdf077011de134e3"
+      },
+      "ep41-riser-3": {
+        "path": "public/assets/audio/eleven-sfx/ep41-riser-3.mp3",
+        "sha256": "c3343fcf878e8764310704e96de452131b8a93aca479db484b1b6247d7db9540"
+      },
+      "ep41-stinger-4": {
+        "path": "public/assets/audio/eleven-sfx/ep41-stinger-4.mp3",
+        "sha256": "b52c3dcc1e9c3d8c5ead98cc481f481bc998b8c9245b004b8193cfa6f406c67e"
+      }
+    },
+    "generated": "2 prompts x 4 variations (about 267 credits): voices chattering inside a wooden wall 15 s loop, an old woman whispering through the wall 5 s",
+    "reused": "Episode 44 house-1, Episode 35 tuko-1, Episode 40 cicadas-1, and Episode 41 variations (drone-2, stinger-4, riser-3, musicbox-2, whispers-3, neck-4)",
+    "note": "picked by measurement (RMS, peak), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    52.78
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.79,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -23.8,
+    "last_quarter_second": -23.2
+  },
+  "limiter": "tanh soft limiter, ceiling -3.35 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 7.9,
+      "phone_band_voice_minus_all_db": 8.7,
+      "voice_minus_bed_db": 7.9
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 15.1,
+      "phone_band_voice_minus_all_db": 19.6,
+      "voice_minus_bed_db": 15.1
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 11.8,
+      "phone_band_voice_minus_all_db": 10.1,
+      "voice_minus_bed_db": 11.8
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 13.8,
+      "phone_band_voice_minus_all_db": 15.1,
+      "voice_minus_bed_db": 13.8
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 8.8,
+      "phone_band_voice_minus_all_db": 7.6,
+      "voice_minus_bed_db": 8.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 8.5,
+      "phone_band_voice_minus_all_db": 6.9,
+      "voice_minus_bed_db": 8.5
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 34.3,
+      "phone_band_voice_minus_all_db": 39.6,
+      "voice_minus_bed_db": 34.3
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 10.3,
+      "phone_band_voice_minus_all_db": 14.6,
+      "voice_minus_bed_db": 10.3
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -10.8,
+    "music_minus_voice_in_gaps_db": -3.3,
+    "music_share_of_gaps_seconds": 14.4
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
