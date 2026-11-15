@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Dalawa ang upuan sa tabi ng kama ni Tatay. Isa lang ang inuupuan ko. [long pause] [softly] Sabi ng matatanda, bago pumanaw ang isang tao, may sumusundo sa kanya. Isang mahal sa buhay na nauna na. [long pause] Unang gabi. Ngumiti si Tatay sa pinto. Walang tao roon. [long pause] Ikalawang gabi. Sabi niya, mamaya pa. Mamaya pa. [long pause] Ikatlong gabi. Nakatulog ako. Paggising ko, mas malapit na ang kabilang upuan. [long pause] Ikaapat na gabi. Hinawakan ni Tatay ang kamay ko. [long pause] [whispers] Nandito na siya. Pero hindi ako ang sinusundo niya. [long pause] [whispers] Si Nanay. Nakatingin sa akin.",
+    "flow_id": "kBXifU3jE0k2CWVgyMlV (new flow, 2026-11-15)",
+    "attempts": ["2026-11-15: one call, both takes started at once (622 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep39-take1.mp3: 50.8 s, 622 credits (used)",
+      "public/assets/audio/eleven-takes/ep39-take2.mp3: 51.28 s, 622 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, no tempo change; gaps set for the picture; timeline 48.79 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "kBXifU3jE0k2CWVgyMlV",
+    "prompts": {
+      "oxygen": "An oxygen concentrator machine humming and hissing in a quiet hospital room at night, steady breathing cycle, no music",
+      "ward": "A public hospital ward at night, distant coughing, a far heart monitor beeping, fluorescent hum, quiet, no music",
+      "slippers": "Slow soft slippers shuffling along a tiled hospital corridor at night, getting closer, then stopping, no music",
+      "humming": "A woman softly humming a gentle lullaby far away down a hallway, wordless, slightly echoing, no instruments"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep39-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: oxygen-3 (the longest, 4 s; looped), ward-3 (the longest, 3 s; looped), slippers-4 (the loudest), humming-3 (the loudest of the 2 s takes)"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #39 (Filipino belief: the sundo), Taglish version for Juanito; a composite family, no individual's story adapted"
+}

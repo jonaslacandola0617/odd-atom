@@ -1,0 +1,126 @@
+{
+  "episode": "Ep39SinoAngSusundo",
+  "duration_seconds": 48.79,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep39-take1.mp3",
+    "sha256": "318d371d90d1dc6b1a266317c8c1a1646b5054d0ba5dbcc5a6dcd59c64296c02",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep39-take1.mp3: 50.8 s, 622 credits (used)",
+      "public/assets/audio/eleven-takes/ep39-take2.mp3: 51.28 s, 622 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep39-sundo/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, an original slow music-box lullaby (twice), bowed metal under night three, a heartbeat from night four to the doorway, a reversed swell and a stinger when Nanay is in the doorway (scripts/horror_score.py); loop-quantised",
+    "the tube hum (it drops out when the tube flickers), the IV drip on a loop-quantised period, a breathing hiss with the concentrator, the chair scraping nearer, cloth, a fabric rustle, the tube buzz, a low hit, a breath across the loop seam (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "kBXifU3jE0k2CWVgyMlV",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "ward-3": {
+        "path": "public/assets/audio/eleven-sfx/ep39-ward-3.mp3",
+        "sha256": "422bb39186e6a70931c2e033fcaceffdfc6ee98b8cef7bd9f8b1f0ce34b96c69"
+      },
+      "oxygen-3": {
+        "path": "public/assets/audio/eleven-sfx/ep39-oxygen-3.mp3",
+        "sha256": "ef9958f50edfc845ebb03f506fdcc3e49221bdd6495ef3797a9dca54172c17eb"
+      },
+      "humming-3": {
+        "path": "public/assets/audio/eleven-sfx/ep39-humming-3.mp3",
+        "sha256": "d8e32557b2665c051b1a778c587afddc2d63fc5b125644df2eecb890c9bcf58f"
+      },
+      "slippers-4": {
+        "path": "public/assets/audio/eleven-sfx/ep39-slippers-4.mp3",
+        "sha256": "25bdcab5c0b6a683d15e27e4467cf2c916a4bb49c3e43e950e670bb283598ec7"
+      }
+    },
+    "note": "four prompts x four variations (about 68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    41.98
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.12,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -16.4,
+    "last_quarter_second": -16.4
+  },
+  "limiter": "tanh soft limiter, ceiling -1.63 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.5,
+    "l02": 1.0,
+    "l03": 1.4,
+    "l04": 1.7,
+    "l05": 3.0,
+    "l06": 3.7,
+    "l07": 1.9,
+    "l08": 3.9
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 12.1,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 6.7,
+      "voice_minus_bed_db": 4.7
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 5.0,
+      "phone_band_voice_minus_all_db": 13.2,
+      "voice_minus_bed_db": 5.0
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 13.5,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 12.8,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 11.2,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 4.6,
+      "phone_band_voice_minus_all_db": 12.8,
+      "voice_minus_bed_db": 4.6
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 4.9,
+      "phone_band_voice_minus_all_db": 14.3,
+      "voice_minus_bed_db": 4.9
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.4,
+    "music_minus_voice_in_gaps_db": -4.4,
+    "music_share_of_gaps_seconds": 11.5
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

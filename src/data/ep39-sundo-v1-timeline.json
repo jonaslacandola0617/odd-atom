@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 48.79,
+  "duration_frames": 1464,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Dalawa ang upuan sa tabi ng kama ni Tatay. Isa lang ang inuupuan ko.",
+      "start": 0.6,
+      "end": 5.78,
+      "kind": "narrator",
+      "beat_before": "hook: the ward bed from the doorway; my chair, and across the bed the other chair, someone in it"
+    },
+    {
+      "id": "l02",
+      "text": "Sabi ng matatanda, bago pumanaw ang isang tao, may sumusundo sa kanya. Isang mahal sa buhay na nauna na.",
+      "start": 6.68,
+      "end": 14.91,
+      "kind": "narrator",
+      "beat_before": "the push across the ward toward the bed (the camera is the visitor)"
+    },
+    {
+      "id": "l03",
+      "text": "Unang gabi. Ngumiti si Tatay sa pinto. Walang tao roon.",
+      "start": 15.81,
+      "end": 19.99,
+      "kind": "narrator",
+      "beat_before": "night 1: Tatay smiles at the empty doorway"
+    },
+    {
+      "id": "l04",
+      "text": "Ikalawang gabi. Sabi niya, mamaya pa. Mamaya pa.",
+      "start": 20.89,
+      "end": 25.3,
+      "kind": "narrator",
+      "beat_before": "night 2, closer: the drip; on the wall, the drip's shadow joined by a woman's"
+    },
+    {
+      "id": "l05",
+      "text": "Ikatlong gabi. Nakatulog ako. Paggising ko, mas malapit na ang kabilang upuan.",
+      "start": 26.2,
+      "end": 31.93,
+      "kind": "narrator",
+      "beat_before": "night 3, closer: I sleep; the other chair slides nearer the bed"
+    },
+    {
+      "id": "l06",
+      "text": "Ikaapat na gabi. Hinawakan ni Tatay ang kamay ko.",
+      "start": 32.83,
+      "end": 36.37,
+      "kind": "narrator",
+      "beat_before": "night 4, closest: his hand takes mine"
+    },
+    {
+      "id": "l07",
+      "text": "Nandito na siya. Pero hindi ako ang sinusundo niya.",
+      "start": 37.37,
+      "end": 40.98,
+      "kind": "narrator",
+      "beat_before": "his eyes go past me, to the doorway behind me"
+    },
+    {
+      "id": "l08",
+      "text": "Si Nanay. Nakatingin sa akin.",
+      "start": 42.98,
+      "end": 45.39,
+      "kind": "narrator",
+      "beat_before": "I turn: in the doorway, Nanay, looking at me"
+    }
+  ]
+}
