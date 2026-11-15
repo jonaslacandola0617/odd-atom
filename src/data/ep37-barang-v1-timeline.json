@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 51.91,
+  "duration_frames": 1557,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Gumalaw ang takip ng kawayan. Mula sa loob.",
+      "start": 0.5,
+      "end": 4.02,
+      "kind": "narrator",
+      "beat_before": "hook: macro on the bamboo tube; its cork lifts and jiggles; antennae in the gap"
+    },
+    {
+      "id": "l02",
+      "text": "Sa Siquijor, may lumang paniniwala sa barang. Mga insektong ikinukulong sa kawayan, at pinapadala sa isang pangalan.",
+      "start": 4.92,
+      "end": 13.88,
+      "kind": "narrator",
+      "beat_before": "the table: the beetle crawls out over the cork, past the paper with a name"
+    },
+    {
+      "id": "l03",
+      "text": "Biyernes Santo. Tahimik ang mga kampana.",
+      "start": 14.78,
+      "end": 18.06,
+      "kind": "narrator",
+      "beat_before": "the window sill: the island at dusk, the church bell hanging still; the beetle opens its wings"
+    },
+    {
+      "id": "l04",
+      "text": "Lilipad ito nang mababa. Sa daan, sa baryo, sa ilalim ng pinto.",
+      "start": 18.96,
+      "end": 24.41,
+      "kind": "narrator",
+      "beat_before": "the flight: low over the road, between the houses, to the lit gap under a door"
+    },
+    {
+      "id": "l05",
+      "text": "At papasok sa natutulog.",
+      "start": 25.31,
+      "end": 27.23,
+      "kind": "narrator",
+      "beat_before": "his sleeping face, huge; the beetle lands by his ear and crawls behind it"
+    },
+    {
+      "id": "l06",
+      "text": "Kinabukasan, hindi na siya makatayo. May gumagalaw sa ilalim ng balat niya.",
+      "start": 28.43,
+      "end": 33.55,
+      "kind": "narrator",
+      "beat_before": "morning: his forearm on the banig; something moves under the skin"
+    },
+    {
+      "id": "l07",
+      "text": "Pero karamihan sa mga mananambal ng Siquijor, nanggagamot. Tuwing Sabado de Gloria, nagluluto sila ng gamot sa bundok.",
+      "start": 34.55,
+      "end": 42.29,
+      "kind": "narrator",
+      "beat_before": "the mountain at golden hour: the healers' cauldron, herbs, smoke"
+    },
+    {
+      "id": "l08",
+      "text": "Kapag tama ang gamot, lalabas din ito.",
+      "start": 44.49,
+      "end": 47.31,
+      "kind": "narrator",
+      "beat_before": "the bottle to his mouth; silence; a tiny click of wings from inside him"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "episode": "Ep37PitongBiyernes",
+  "duration_seconds": 51.91,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, atempo 1.0",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep37-take1.mp3",
+    "sha256": "72492cc50ab30e56682b2d721c051f44003f55671b415a6546661017fa9e4284",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": [
+      "public/assets/audio/eleven-takes/ep37-take1.mp3: 47.28 s, 657 credits (used)",
+      "public/assets/audio/eleven-takes/ep37-take2.mp3: 49.76 s, 657 credits (kept, unused)"
+    ],
+    "prompt": "docs/production/ep37-barang/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, an original seven-note music-box figure, bowed metal under the flight, a heartbeat from the face to the arm, a reversed swell into the cough, stingers (scripts/horror_score.py); loop-quantised; it drops almost to nothing in the silence before the cough",
+    "the lamp hiss, room tone, crickets; the sea and wind at dusk (no bells: Good Friday); the cork knocking; tiny steps on wood and skin; the shell snapping open; the sleeper breathing; a wet creak under the skin; a far rooster; the medicine poured; two clicks of wings inside him; legs scrabbling on the banig; a low hit (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "8392ieR7Wy214gWEniE8",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "cauldron-2": {
+        "path": "public/assets/audio/eleven-sfx/ep37-cauldron-2.mp3",
+        "sha256": "9c43d8df3c0a367cdaae183b4735b10b53824f65f479a71fefb827d530db61ca"
+      },
+      "scrape-2": {
+        "path": "public/assets/audio/eleven-sfx/ep37-scrape-2.mp3",
+        "sha256": "39e2e2c51b471bba568b78666ab30b080b2e129357599278d1bb4d1aa875e6da"
+      },
+      "buzz-2": {
+        "path": "public/assets/audio/eleven-sfx/ep37-buzz-2.mp3",
+        "sha256": "5512697bbec57c19bfae3207ab9f14bc5330f075b4e91b722275a22e21ead928"
+      },
+      "cough-4": {
+        "path": "public/assets/audio/eleven-sfx/ep37-cough-4.mp3",
+        "sha256": "463fbc4adb29a2d770fcc1e8b0a76f58abdacbae9a292627929cfed7631efc98"
+      }
+    },
+    "note": "four prompts x four variations (about 68 credits per prompt); picked by measurement, not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    4.22,
+    27.48,
+    47.660000000000004
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.5,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -15.8,
+    "last_quarter_second": -15.8
+  },
+  "limiter": "tanh soft limiter, ceiling -2.39 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 3.1,
+    "l02": 0.0,
+    "l03": 0.4,
+    "l04": 4.3,
+    "l05": 4.8,
+    "l06": 2.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 5.4,
+      "phone_band_voice_minus_all_db": 16.6,
+      "voice_minus_bed_db": 5.4
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 5.5,
+      "phone_band_voice_minus_all_db": 8.7,
+      "voice_minus_bed_db": 5.5
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 14.5,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 14.0,
+      "voice_minus_bed_db": 4.7
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 18.9,
+      "voice_minus_bed_db": 4.7
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 4.6,
+      "phone_band_voice_minus_all_db": 14.1,
+      "voice_minus_bed_db": 4.6
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 5.2,
+      "phone_band_voice_minus_all_db": 14.9,
+      "voice_minus_bed_db": 5.2
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 18.5,
+      "phone_band_voice_minus_all_db": 28.7,
+      "voice_minus_bed_db": 18.5
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -14.1,
+    "music_minus_voice_in_gaps_db": -3.4,
+    "music_share_of_gaps_seconds": 13.1
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

@@ -246,7 +246,11 @@
     "voice:ep36": "python3 scripts/ep36_voice.py",
     "sound:ep36": "python3 scripts/ep36_sound.py",
     "still:ep36": "node scripts/render_ep36.cjs --stills",
-    "render:ep36": "node scripts/render_ep36.cjs"
+    "render:ep36": "node scripts/render_ep36.cjs",
+    "voice:ep37": "python3 scripts/ep37_voice.py",
+    "sound:ep37": "python3 scripts/ep37_sound.py",
+    "still:ep37": "node scripts/render_ep37.cjs --stills",
+    "render:ep37": "node scripts/render_ep37.cjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

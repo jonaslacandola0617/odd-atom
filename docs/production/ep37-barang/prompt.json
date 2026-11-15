@@ -1,0 +1,29 @@
+{
+  "model_id": "eleven_v4",
+  "narration": {
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "text": "[whispers] Gumalaw ang takip ng kawayan. Mula sa loob. [long pause] [softly] Sa Siquijor, may lumang paniniwala sa barang. Mga insektong ikinukulong sa kawayan, at pinapadala sa isang pangalan. [long pause] Biyernes Santo. Tahimik ang mga kampana. [long pause] Lilipad ito nang mababa. Sa daan, sa baryo, sa ilalim ng pinto. [long pause] [whispers] At papasok sa natutulog. [long pause] Kinabukasan, hindi na siya makatayo. May gumagalaw sa ilalim ng balat niya. [long pause] Pero karamihan sa mga mananambal ng Siquijor, nanggagamot. Tuwing Sabado de Gloria, nagluluto sila ng gamot sa bundok. [long pause] [whispers] Kapag tama ang gamot, lalabas din ito.",
+    "flow_id": "8392ieR7Wy214gWEniE8 (new flow, 2026-11-15)",
+    "attempts": ["2026-11-15: one call, both takes started at once (657 credits each)"],
+    "takes": [
+      "public/assets/audio/eleven-takes/ep37-take1.mp3: 47.28 s, 657 credits (used)",
+      "public/assets/audio/eleven-takes/ep37-take2.mp3: 49.76 s, 657 credits (kept, unused)"
+    ],
+    "processing": "split into 8 lines, pauses inside a line capped at 0.32 s, no tempo change; gaps kept short (0.5-1.2 s) except 2.2 s before the last line; timeline 51.91 s"
+  },
+  "sound_effects": {
+    "model_id": "eleven_text_to_sound_v2",
+    "flow_id": "8392ieR7Wy214gWEniE8",
+    "prompts": {
+      "scrape": "Insects scratching and crawling inside a closed bamboo tube, hard chitin legs scraping on wood, very close, no music",
+      "buzz": "A large beetle buzzing its wings, taking off and flying close past the microphone, low droning buzz, no music",
+      "cauldron": "A large pot of herbal medicine boiling and bubbling over a wood fire outdoors on a mountain, crackling fire, no music",
+      "cough": "A man coughing hard and choking, then spitting something out onto a woven mat, close, indoors, no music"
+    },
+    "credits": "four variations per prompt at about 17 credits each: about 267 credits",
+    "files": "public/assets/audio/eleven-sfx/ep37-<prompt>-<1..4>.mp3 (all 16 kept)",
+    "picked_by": "measurement, not listening: scrape-2 (the longest, 6 s; looped), buzz-2 (the longest, 4 s; looped), cauldron-2 (2 s, looped), cough-4 (the loudest)"
+  },
+  "script_source": "docs/stories/season-4-philippines.md #37 (Siquijor folk belief: the barang and the healers), Taglish version for Juanito"
+}
