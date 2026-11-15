@@ -190,7 +190,7 @@ const Scene: React.FC<{t: number}> = ({t}) => {
 	const lit = b ? [[0.2, -0.8], [-2.4, 1.4], [2.6, -2.8], [0.2, 1.4]] : [[-2.4, -2.8], [2.6, 1.4], [0.2, 1.4]];
 	// the hook's run (stop-motion: his position steps every 1/10 s), along the aisle behind row 0
 	const rq = Math.floor(t * 10) / 10;
-	const runX = 5.0 - 1.25 * (rq - K.run0[0]);
+	const runX = 4.6 - 1.25 * (rq - K.run0[0]);
 	// the chair behind me that rolls by itself
 	const roll = shot === 'pov' ? lin(t, K.behind - 0.4, K.turn[1] + 1.5) : 0;
 	const tug = K.tugs.reduce((v, s) => v + ease(lin(t, s, s + 0.08)), 0) / K.tugs.length;
@@ -243,6 +243,7 @@ const Scene: React.FC<{t: number}> = ({t}) => {
 			{(shot === 'floor' || shot === 'senior' || shot === 'reflect' || shot === 'newfloor') && <Agent name="Character_08" x={ME_X} z={0} t={t} seed={7} extra={shot === 'reflect' ? {Neck: [['x', 0.1]]} : {}} />}
 			{/* the boy */}
 			{shot === 'hook' && <Boy p={[runX, 0, 1.55]} ry={-Math.PI / 2} run={rq * 15} />}
+			{shot === 'hook' && <pointLight position={[2.2, 1.6, 1.7]} intensity={1.3} distance={3} decay={1} color="#b8c8e8" />}
 			{shot === 'reflect' && <Boy p={[ME_X + 0.5, 0, CHAIR_DZ + 0.1]} ry={-Math.PI / 2 - 0.5} sit up={0.6 * ease(lin(t, K.lift, K.lift + 0.12))} />}
 			{shot === 'under' && <Boy p={[ME_X + 0.05, 0, -0.08]} ry={0} sit up={ease(lin(t, K.snap, K.snap + 0.08))} />}
 			{shot === 'under' && <pointLight position={[ME_X, 0.55, 0.6]} intensity={0.9 * glow} distance={1.3} decay={1} color="#9ac0ff" />}
