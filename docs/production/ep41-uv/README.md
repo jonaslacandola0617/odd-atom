@@ -62,7 +62,7 @@ One night ride, cut between the van and its dark left window, where the reflecti
   - presence −11.3 dB in speech and −3.2 dB in the gaps;
   - lines ≥6.4 dB over everything else (phone band ≥4.7 dB), with no lifts;
   - −14.0 LUFS; decoded peak −1.1 dBFS;
-  - seam −22.6 / −22.5 dBFS;
+  - seam −22.6 / −22.5 dBFS; last frame vs frame 0: 1.39/255;
   - no stinger inside speech.
 
 ## Voice
