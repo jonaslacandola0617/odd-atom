@@ -68,3 +68,4 @@ The user on v1: "Didnt we have monster/ghost characters please use them if it fi
 - The window: the model's own hollow eyes and open mouth replace the drawn boxes; blood runs straight down (world down, across her sideways face) from both eyes and the mouth, lengthening over the held shot, with a bead at each tip. The sources were placed by rendering coloured markers in the face's frame (Monster_03's eyes sit at about (0.10, 0.15) and (0.0, 0.12), its mouth at (0.07, −0.01)).
 - Timing is unchanged, so the checked v1 mix (`public/assets/audio/ep51-popo-v1/mix.m4a`) is muxed again.
 - v1 is kept.
+- Delivery: `assets/videos/ep51-popo-v2/ep51-po-po-po.mp4`, 47800429 bytes, SHA-256 `4bf99d13f4ff1edc8b7cad1b8ff0dff71ce5093811fd1ce8e8176f9fdf220913`; 59.9 s, −14.0 LUFS, true peak −1.1 dBFS; last frame against frame 0: 2.8/255 (the loop). Frames checked at 7.5, 49, 50.5 and 56 s.
