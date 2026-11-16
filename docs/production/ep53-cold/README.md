@@ -52,3 +52,7 @@
 ## Status
 
 Delivered; no user approval and no listening pass.
+
+## Delivery
+
+`assets/videos/ep53-cold-v1/ep53-two-nights.mp4`, 46886399 bytes, SHA-256 `1f1916c677582687fa665bdd9ccabe84cd506de566cea844635a09b054385f78`; 59.2 s, −14.0 LUFS (integrated, decoded), true peak −1.0 dBFS; last frame against frame 0: 2.8/255 (the loop). Frames checked at 0.5, 16, 22, 28.5, 37.5, 47.5, 50.2, 52 and 55.5 s. The first render's lap sheet tilted with the body as it lay back; it now stays flat on the tray (re-rendered).
