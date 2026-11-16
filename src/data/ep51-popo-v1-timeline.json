@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 59.916,
+  "duration_frames": 1797,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change; the door voice is Alden (S9V0fuqWOqX0i8Kb8ctu), take 1",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "The summer I turned fifteen, I watched a white hat drift along the top of my grandparents' hedge. That hedge is eight feet tall.",
+      "start": 0.3,
+      "end": 8.1,
+      "kind": "narrator",
+      "beat_before": "hook: summer daylight, the tall hedge; a white hat glides along its top, stops where I stand, tilts"
+    },
+    {
+      "id": "l02",
+      "text": "When I told Grandpa, the colour left his face. By dark they had sealed me upstairs. Paper over every window. A bowl of salt in each corner.",
+      "start": 9.1,
+      "end": 17.8,
+      "kind": "narrator",
+      "beat_before": "Grandpa turns; Grandma pastes newspaper over the window, salt bowls in the corners"
+    },
+    {
+      "id": "l03",
+      "text": "\"Don't open that door before sunrise. Whatever you hear.\"",
+      "start": 18.6,
+      "end": 21.91,
+      "kind": "narrator",
+      "beat_before": "Grandma at the sliding door, closing it on me and Grandpa"
+    },
+    {
+      "id": "l04",
+      "text": "Around two, the salt started turning black. Then something tapped on every window at once. On the second floor.",
+      "start": 26.51,
+      "end": 33.3,
+      "kind": "narrator",
+      "beat_before": "silent night: the sealed room, one bulb; the salt in the near bowl darkens grain by grain (the viewer sees it first)"
+    },
+    {
+      "id": "l05",
+      "text": "Then, through the door, Grandpa's voice.",
+      "start": 34.9,
+      "end": 37.58,
+      "kind": "narrator",
+      "beat_before": "the tapping runs round every papered window; the papers dent inward; \"po po po\" outside"
+    },
+    {
+      "id": "d01",
+      "text": "It's all over now. You can come out. Open the door for Grandpa.",
+      "start": 37.98,
+      "end": 43.216,
+      "kind": "door",
+      "beat_before": "the door: on its paper, a shadow far too tall folds down at the waist to the height of a man"
+    },
+    {
+      "id": "l06",
+      "text": "But Grandpa was sitting right beside me. And he was shaking his head.",
+      "start": 44.416,
+      "end": 48.036,
+      "kind": "narrator",
+      "beat_before": "Grandpa beside me, his hand on my shoulder, slowly shaking his head; the shadow tilts its head to listen"
+    },
+    {
+      "id": "l07",
+      "text": "At dawn they drove me out of the valley. She walked beside the car the whole way, bent down to my window. I didn't look. Not once.",
+      "start": 50.636,
+      "end": 58.116,
+      "kind": "narrator",
+      "beat_before": "dawn: the car on the valley road; she strides beside it, bent double, her face at my window; her smile"
+    }
+  ]
+}

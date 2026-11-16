@@ -1,0 +1,142 @@
+{
+  "episode": "Ep51PoPoPo",
+  "duration_seconds": 59.916,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change; the door voice is Alden (S9V0fuqWOqX0i8Kb8ctu), take 1",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep51-take1.mp3",
+    "sha256": "fd65d7307e3fafb59970c16f860af8f3220d8978762e26291cde036a0ea91748",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (ElevenLabs library voice)",
+    "credits": 1602,
+    "prompt": "docs/production/ep51-popo/prompt.json",
+    "door_voice": {
+      "path": "public/assets/audio/eleven-takes/ep51-door-voice-1.mp3",
+      "voice_id": "S9V0fuqWOqX0i8Kb8ctu",
+      "voice_name": "Alden - Tired Old Man (ElevenLabs library voice)"
+    }
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone (root 41.2 Hz), a string cluster (E2 F2 B2 C3) that swells through the night to the door and stops dead at the tear, bowed metal when she folds and when her head tips, a riser into the tear, a heartbeat under Grandpa shaking his head, a synthesized stinger with the tear (scripts/horror_score.py); loop-quantised",
+    "the leaves brushing as the hat glides, the cicadas cut dead at the peek, paper rustle, the sliding door and its clack, nail taps on glass (layered over the ElevenLabs taps), the hallway lamp hum, floorboard creaks, her breath on the glass, her heavy steps on the gravel (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "uHNGTmumzm2eTXu7RR4R",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "cicadas-1": {
+        "path": "public/assets/audio/eleven-sfx/ep51-cicadas-1.mp3",
+        "sha256": "d89b2f380fbd710757dae631c1c099b5dc103d73d96a09d5a73fc6588a022346"
+      },
+      "room-2": {
+        "path": "public/assets/audio/eleven-sfx/ep51-room-2.mp3",
+        "sha256": "08383d3a0c92ad6c7243e4244a4f49853f0647f31feb4b61e5788a947b5569d1"
+      },
+      "car-4": {
+        "path": "public/assets/audio/eleven-sfx/ep51-car-4.mp3",
+        "sha256": "d4a7f01bf4718605e826d81c74f36d810ee1ea2c5f1222fd103aeea4ae2f8e6b"
+      },
+      "popo-2": {
+        "path": "public/assets/audio/eleven-sfx/ep51-popo-2.mp3",
+        "sha256": "01192b3252bb5a702cc9011744b74a5c5649b53efc9f9d7aeca65d25a1d8ec76"
+      },
+      "salt-2": {
+        "path": "public/assets/audio/eleven-sfx/ep51-salt-2.mp3",
+        "sha256": "fbda69eca1835affcdaa3ae922dbf1a3db5b192ae8688276199ea6305876dbfa"
+      },
+      "taps-3": {
+        "path": "public/assets/audio/eleven-sfx/ep51-taps-3.mp3",
+        "sha256": "a8a1fb41a5fc723b65dc0fb779ae8e83e6361aa6a64f14eb0210cab32bda8956"
+      },
+      "tear-4": {
+        "path": "public/assets/audio/eleven-sfx/ep51-tear-4.mp3",
+        "sha256": "7998976e84d18ab04e1c14f005c0de69ba85d662cc7474af143a333ada72bace"
+      }
+    },
+    "generated": "first run without duration set (7 prompts x 4 variations, 1-16 s, about 476 credits; all kept, the short ones as ep51-short-*); second run with duration_seconds and loop set (cicadas 15 s loop, room 20 s loop, po po po 6 s, taps 6 s, car 15 s loop; 20 variations, about 828 credits)",
+    "reused": "none (no Episode 41 drone, riser, stinger, neck crack or music box)",
+    "note": "picked by measurement (RMS, range), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    48.336
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.76,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -22.8,
+    "last_quarter_second": -23.4
+  },
+  "limiter": "tanh soft limiter, ceiling -3.73 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "d01": 3.8,
+    "l06": 0.0,
+    "l07": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 8.1,
+      "phone_band_voice_minus_all_db": 10.6,
+      "voice_minus_bed_db": 8.1
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 9.7,
+      "phone_band_voice_minus_all_db": 14.0,
+      "voice_minus_bed_db": 9.7
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 11.3,
+      "phone_band_voice_minus_all_db": 13.7,
+      "voice_minus_bed_db": 11.3
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 6.2,
+      "phone_band_voice_minus_all_db": 11.0,
+      "voice_minus_bed_db": 6.2
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 7.4,
+      "phone_band_voice_minus_all_db": 11.6,
+      "voice_minus_bed_db": 7.4
+    },
+    {
+      "id": "d01",
+      "voice_minus_all_db": 4.7,
+      "phone_band_voice_minus_all_db": 10.5,
+      "voice_minus_bed_db": 4.7
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 5.8,
+      "phone_band_voice_minus_all_db": 9.4,
+      "voice_minus_bed_db": 5.8
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 11.1,
+      "phone_band_voice_minus_all_db": 19.5,
+      "voice_minus_bed_db": 11.1
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.1,
+    "music_minus_voice_in_gaps_db": -2.8,
+    "music_share_of_gaps_seconds": 14.3
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

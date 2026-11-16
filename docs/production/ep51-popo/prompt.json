@@ -1,0 +1,117 @@
+{
+  "flow_id": "uHNGTmumzm2eTXu7RR4R",
+  "account": "the new ElevenLabs account (from 2026-11-16)",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr)",
+    "node_id": "Jm8nRfmzonA6thPBizaA",
+    "prompt": "[quietly] The summer I turned fifteen, I watched a white hat drift along the top of my grandparents' hedge. That hedge is eight feet tall. [long pause] When I told Grandpa, the colour left his face. By dark they had sealed me upstairs. Paper over every window. A bowl of salt in each corner. [long pause] [whispers] \"Don't open that door before sunrise. Whatever you hear.\" [long pause] Around two, the salt started turning black. Then something tapped on every window at once. On the second floor. [long pause] Then, through the door, Grandpa's voice. [long pause] But Grandpa was sitting right beside me. [whispers] And he was shaking his head. [long pause] At dawn they drove me out of the valley. She walked beside the car the whole way, bent down to my window. [whispers] I didn't look. Not once.",
+    "takes": 1602,
+    "takes_note": "both takes (801 credits each); take 1 used (51.2 s raw; inner pauses capped at 0.22 s), take 2 kept (50.6 s)",
+    "files": [
+      "public/assets/audio/eleven-takes/ep51-take1.mp3",
+      "public/assets/audio/eleven-takes/ep51-take2.mp3"
+    ]
+  },
+  "door_voice": {
+    "model": "eleven_v4",
+    "voice": "Alden - Tired Old Man (S9V0fuqWOqX0i8Kb8ctu)",
+    "node_id": "Xron0bOSVpFkGFtyZiuW",
+    "prompt": "[softly, kind] It's all over now. [short pause] You can come out. [short pause] [gently] Open the door for Grandpa.",
+    "credits": 230,
+    "files": [
+      "public/assets/audio/eleven-takes/ep51-door-voice-1.mp3",
+      "public/assets/audio/eleven-takes/ep51-door-voice-2.mp3"
+    ],
+    "used": "take 1"
+  },
+  "sfx_first_run_note": "The first run put the duration in the prompt text, which does not set it: 7 prompts x 4 variations came back 1-16 s (about 476 credits). All are kept: ep51-short-cicadas/popo/room/car-*, and ep51-tap-*, ep51-tear-*, ep51-salt-* (the tear and salt were used from this run).",
+  "sfx": {
+    "cicadas-loop": {
+      "node_id": "9VSBlirOs4luYQ10AA7G",
+      "prompt": "Japanese countryside on a hot summer afternoon: a dense chorus of higurashi and minmin cicadas in the trees, a faint breeze through a tall hedge, very distant crows, no music, no voices.",
+      "duration_seconds": 15,
+      "loop": true,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep51-cicadas-1.mp3",
+        "public/assets/audio/eleven-sfx/ep51-cicadas-2.mp3",
+        "public/assets/audio/eleven-sfx/ep51-cicadas-3.mp3",
+        "public/assets/audio/eleven-sfx/ep51-cicadas-4.mp3"
+      ]
+    },
+    "room-loop": {
+      "node_id": "VbRaKStMfaqfiPYSVFlh",
+      "prompt": "Inside a sealed tatami room at night: a low, pressurised, uneasy drone with a slow pulse, faint wind pressing against paper-covered windows, wooden house creaking very softly. Dark ambient, no melody.",
+      "duration_seconds": 20,
+      "loop": true,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep51-room-1.mp3",
+        "public/assets/audio/eleven-sfx/ep51-room-2.mp3",
+        "public/assets/audio/eleven-sfx/ep51-room-3.mp3",
+        "public/assets/audio/eleven-sfx/ep51-room-4.mp3"
+      ]
+    },
+    "popo": {
+      "node_id": "jxLO63c5PAoCjh81qxRK",
+      "prompt": "A deep, hollow, breathy voice outside a house at night slowly repeating \"po... po... po...\" - low, wooden, almost like air blown across a bottle, unhuman and patient, close to a window. Dry, no reverb tail, no music.",
+      "duration_seconds": 6,
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep51-popo-1.mp3",
+        "public/assets/audio/eleven-sfx/ep51-popo-2.mp3",
+        "public/assets/audio/eleven-sfx/ep51-popo-3.mp3",
+        "public/assets/audio/eleven-sfx/ep51-popo-4.mp3"
+      ]
+    },
+    "taps": {
+      "node_id": "JsYY9QjvMHGU3RjQkhVc",
+      "prompt": "Long fingernails tapping on glass behind newspaper, fast, moving from one window to the next all around a small room, then all windows at once, at night, close and dry.",
+      "duration_seconds": 6,
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep51-taps-1.mp3",
+        "public/assets/audio/eleven-sfx/ep51-taps-2.mp3",
+        "public/assets/audio/eleven-sfx/ep51-taps-3.mp3",
+        "public/assets/audio/eleven-sfx/ep51-taps-4.mp3"
+      ]
+    },
+    "car-loop": {
+      "node_id": "eD9m1l9fzlYRmykNpVe2",
+      "prompt": "Interior of an old small car driving slowly on a gravel country road at dawn, engine idling low, tyres crunching gravel, windows closed, birds faint outside, no music.",
+      "duration_seconds": 15,
+      "loop": true,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep51-car-1.mp3",
+        "public/assets/audio/eleven-sfx/ep51-car-2.mp3",
+        "public/assets/audio/eleven-sfx/ep51-car-3.mp3",
+        "public/assets/audio/eleven-sfx/ep51-car-4.mp3"
+      ]
+    },
+    "tear": {
+      "node_id": "kk7SItyueO1eyrD3aqDH",
+      "prompt": "A single violent rip of newspaper torn off a window frame, sharp and close, with a low hollow thud underneath, horror stinger, dry, then silence.",
+      "duration_seconds": "default (2-9 s)",
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep51-tear-1.mp3",
+        "public/assets/audio/eleven-sfx/ep51-tear-2.mp3",
+        "public/assets/audio/eleven-sfx/ep51-tear-3.mp3",
+        "public/assets/audio/eleven-sfx/ep51-tear-4.mp3"
+      ]
+    },
+    "salt": {
+      "node_id": "kARv3qHiGhqlVEtOAYbi",
+      "prompt": "Fine grains of salt in a ceramic bowl crackling and hissing softly as they darken, like something burning without flame, quiet and close, in a silent room.",
+      "duration_seconds": "default (1-16 s)",
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep51-salt-1.mp3",
+        "public/assets/audio/eleven-sfx/ep51-salt-2.mp3",
+        "public/assets/audio/eleven-sfx/ep51-salt-3.mp3",
+        "public/assets/audio/eleven-sfx/ep51-salt-4.mp3"
+      ]
+    }
+  },
+  "picks": "cicadas-1 (steadiest), room-2 (loudest and steadiest), popo-2, taps-3 (quiet; layered with synthesized nail clicks), car-4, tear-4, salt-2; by measurement, not listening",
+  "credits_total_approx": 3136
+}
