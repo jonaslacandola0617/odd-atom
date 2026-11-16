@@ -159,6 +159,7 @@ const Scene: React.FC<{t: number}> = ({t}) => {
 		return (
 			<>
 				{cam}
+				<fog attach="fog" args={['#8a96aa', 400, 500]} />
 				<ambientLight intensity={2.2} color="#c8ccc8" />
 				<directionalLight position={[3, 8, -2]} intensity={0.9} color="#e8e8e0" />
 				<Flood t={t} />
@@ -174,6 +175,7 @@ const Scene: React.FC<{t: number}> = ({t}) => {
 		return (
 			<>
 				{cam}
+				<fog attach="fog" args={['#8a96aa', 400, 500]} />
 				<ambientLight intensity={1.9} color="#6a7490" />
 				<pointLight position={[0, 2.3, -1.2]} intensity={1.4} distance={4} decay={1} color="#d8c0a0" />
 				<Sala open={open} knob={knob} t={t} feet={shot === 'door' && t > K.knobs[0] - 0.8} />
@@ -191,7 +193,9 @@ const Scene: React.FC<{t: number}> = ({t}) => {
 	return (
 		<>
 			{cam}
-			{dream && <fog attach="fog" args={['#8a96aa', 0.6, 4.2]} />}
+			{/* the fog is always attached (three.js compiles fog into each material's shader), and pushed out of
+			    range in the house, so the dream looks the same however the render is chunked */}
+			<fog attach="fog" args={['#8a96aa', dream ? 0.6 : 400, dream ? 4.2 : 500]} />
 			<ambientLight intensity={dream ? 1.9 : 1.8} color={dream ? '#9aa8c0' : '#5a6480'} />
 			<pointLight position={[1.8, 1.5, 0]} intensity={dream ? 1.5 : 3.0} distance={5} decay={1} color="#a0b4d8" />
 			{/* a cold fill on her face when she turns to me in the house */}
