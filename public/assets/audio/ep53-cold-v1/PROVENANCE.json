@@ -1,0 +1,169 @@
+{
+  "episode": "Ep53TwoNightsInTheColdRoom",
+  "duration_seconds": 59.182,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, atempo 1.03",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep53-take1.mp3",
+    "sha256": "f2dd92022712b0fdb5847c3cd6237c76f982d2cbe81dff5973c68ce06046af00",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (ElevenLabs library voice)",
+    "credits": 1846,
+    "prompt": "docs/production/ep53-cold/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone (root 36.7 Hz) and a string cluster that tighten through the first night and stop dead in every blackout, a synthesized stinger at the one sitting up and at the one that rises toward me, bowed metal under the torch, a heartbeat while the torch searches (scripts/horror_score.py); loop-quantised",
+    "the tube ballast buzz and its click when the light returns, the torch click and its dying flicker, a pen on paper, a far morning street (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "SuHzrmyga31E9t0PiTA2",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "room-3": {
+        "path": "public/assets/audio/eleven-sfx/ep53-room-3.mp3",
+        "sha256": "53b23fc66f5ca93a7b435e8da16437e863f80bdfce82ecbe8524d22acf3c8443"
+      },
+      "cut-1": {
+        "path": "public/assets/audio/eleven-sfx/ep53-cut-1.mp3",
+        "sha256": "67c7d1dcf85c5681f0f95cde97ea9c1f7903895fdcbb4b6a0035d8b8c45e9253"
+      },
+      "genon-1": {
+        "path": "public/assets/audio/eleven-sfx/ep53-genon-1.mp3",
+        "sha256": "4712a094ce547ea367c02d8fb7f3cd76df49ae7b2c11744556b19caea98923ff"
+      },
+      "genfail-2": {
+        "path": "public/assets/audio/eleven-sfx/ep53-genfail-2.mp3",
+        "sha256": "29bb209829a13dfc1f31a57bd1f689e9a6fae032028390a379d44763b77c4dcb"
+      },
+      "sheet-1": {
+        "path": "public/assets/audio/eleven-sfx/ep53-sheet-1.mp3",
+        "sha256": "dbbeceeab23c3fcdf2e63053f440b6a7675f2e2615b75baf3cad08c34cb6ffdb"
+      },
+      "sheet-3": {
+        "path": "public/assets/audio/eleven-sfx/ep53-sheet-3.mp3",
+        "sha256": "d073c028e441e308425e461998e93c07c9c1eb9b51bff2212a913e6d9ac1c5bf"
+      },
+      "sutures-4": {
+        "path": "public/assets/audio/eleven-sfx/ep53-sutures-4.mp3",
+        "sha256": "893d0b49c47088d8a231a1864a797c974fcf5c4b3b87b81602a4aa87af3ff6ae"
+      },
+      "tray-1": {
+        "path": "public/assets/audio/eleven-sfx/ep53-tray-1.mp3",
+        "sha256": "266d3610d1d4d67af822f8ed6971a85e6e11a8951ddf4f33aef3625f0405ce44"
+      },
+      "tray-2": {
+        "path": "public/assets/audio/eleven-sfx/ep53-tray-2.mp3",
+        "sha256": "14ecb74735b18d4ac16c27c05348d740bfad3f8c99d3c3fdeeeb6d225bc583ae"
+      },
+      "heads-3": {
+        "path": "public/assets/audio/eleven-sfx/ep53-heads-3.mp3",
+        "sha256": "3fed530bd9e20ec414450638c8c48b32ef48ccf8a8b714534f889e23fc715ad1"
+      },
+      "sheet-4": {
+        "path": "public/assets/audio/eleven-sfx/ep53-sheet-4.mp3",
+        "sha256": "763a130bb59176ca1b555059aefff0b827fed18340ac7770f7440cae2e7998c3"
+      },
+      "tray-3": {
+        "path": "public/assets/audio/eleven-sfx/ep53-tray-3.mp3",
+        "sha256": "f64e0d829ddfe64ccf9ae5dcb7729ba4ef1f3b0378c56d1466ce0590131eb6bf"
+      },
+      "drone-1": {
+        "path": "public/assets/audio/eleven-sfx/ep53-drone-1.mp3",
+        "sha256": "d144ad9192d8a716ddc706e459bd1e5d3f7f18575974ad3a2ce82f3ee0c5e0fb"
+      }
+    },
+    "generated": "9 prompts x 4 variations, duration set on the node (about 860 credits): cold room 15 s loop, power cut 3 s, generator restart 5 s, generator failing 4 s, sheet sliding 3 s, tray squeal 3 s, sutures tearing 3 s, heads turning under sheets 3 s, cold drone 20 s loop",
+    "reused": "none (no Episode 41 drone, riser, stinger, neck crack or music box)",
+    "note": "picked by measurement (RMS, range), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    27.323,
+    49.664
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.0,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -28.2,
+    "last_quarter_second": -25.8
+  },
+  "limiter": "tanh soft limiter, ceiling -1.75 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0,
+    "l09": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 12.1,
+      "phone_band_voice_minus_all_db": 13.4,
+      "voice_minus_bed_db": 12.1
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 8.9,
+      "phone_band_voice_minus_all_db": 6.9,
+      "voice_minus_bed_db": 8.9
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 14.0,
+      "phone_band_voice_minus_all_db": 14.9,
+      "voice_minus_bed_db": 14.0
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 6.6,
+      "phone_band_voice_minus_all_db": 4.7,
+      "voice_minus_bed_db": 6.6
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 11.6,
+      "phone_band_voice_minus_all_db": 10.6,
+      "voice_minus_bed_db": 11.6
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 12.4,
+      "phone_band_voice_minus_all_db": 12.4,
+      "voice_minus_bed_db": 12.4
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 9.3,
+      "phone_band_voice_minus_all_db": 11.9,
+      "voice_minus_bed_db": 9.3
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 16.5,
+      "phone_band_voice_minus_all_db": 21.1,
+      "voice_minus_bed_db": 16.5
+    },
+    {
+      "id": "l09",
+      "voice_minus_all_db": 8.8,
+      "phone_band_voice_minus_all_db": 5.4,
+      "voice_minus_bed_db": 8.8
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -8.9,
+    "music_minus_voice_in_gaps_db": -3.5,
+    "music_share_of_gaps_seconds": 18.6
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

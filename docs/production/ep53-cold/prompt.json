@@ -1,0 +1,127 @@
+{
+ "flow_id": "SuHzrmyga31E9t0PiTA2",
+ "account": "the new ElevenLabs account (from 2026-11-16)",
+ "narration": {
+  "model": "eleven_v4",
+  "voice": "Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr)",
+  "node_id": "UDYEhenAzpWj66UWbNP8",
+  "prompt": "[low, tired] My brother works nights in a hospital mortuary. I stayed with him for two nights, in the cold room. [long pause] The power cuts out all the time. Then it's black, until the generator comes back. [long pause] [quietly] The first time it came back, one of the sheets had slipped. [long pause] My brother covered it again without looking. He said, you don't look at them when the light is off. [long pause] [shaken] The third time, one of them was sitting up. By the door. The stitches down its chest had pulled open. [long pause] He said it was gas. Bodies do that. He laid it back down... and his hands were shaking. [long pause] [quietly] The second night, the generator didn't come back. I turned on my torch. [long pause] [whispers] Every covered head in that room had turned toward me. [long pause] [low] In the morning, he counted the register twice. Fourteen brought in. [short pause] Fifteen in the room.",
+  "takes": 1846,
+  "takes_note": "both takes (923 credits each, 54.6 s raw); take 1 used (inner pauses capped at 0.22 s, atempo 1.03), take 2 kept",
+  "files": [
+   "public/assets/audio/eleven-takes/ep53-take1.mp3",
+   "public/assets/audio/eleven-takes/ep53-take2.mp3"
+  ]
+ },
+ "sfx": {
+  "room-loop": {
+   "node_id": "pXl6diNh5McnmKAznZ0z",
+   "prompt": "Inside a hospital mortuary cold room at night: the steady drone of a refrigeration compressor and evaporator fans, a fluorescent tube's ballast buzzing, faint metallic ticks of cold steel, no voices, no music.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep53-room-1.mp3",
+    "public/assets/audio/eleven-sfx/ep53-room-2.mp3",
+    "public/assets/audio/eleven-sfx/ep53-room-3.mp3",
+    "public/assets/audio/eleven-sfx/ep53-room-4.mp3"
+   ]
+  },
+  "power-cut": {
+   "node_id": "qMtRYiVKrjFnpvkJexAw",
+   "prompt": "Mains power cutting out in a building: fluorescent lights and a refrigeration compressor winding down to silence with a dying electrical whine and a clunk, then nothing.",
+   "duration_seconds": 3,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep53-cut-1.mp3",
+    "public/assets/audio/eleven-sfx/ep53-cut-2.mp3",
+    "public/assets/audio/eleven-sfx/ep53-cut-3.mp3",
+    "public/assets/audio/eleven-sfx/ep53-cut-4.mp3"
+   ]
+  },
+  "generator-restart": {
+   "node_id": "jbvRtzINRfyoWJ4090ZI",
+   "prompt": "An old diesel standby generator outside a building coughing, sputtering twice, then catching and roaring into a steady run, followed by fluorescent tubes clicking and flickering on with a loud electrical buzz.",
+   "duration_seconds": 5,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep53-genon-1.mp3",
+    "public/assets/audio/eleven-sfx/ep53-genon-2.mp3",
+    "public/assets/audio/eleven-sfx/ep53-genon-3.mp3",
+    "public/assets/audio/eleven-sfx/ep53-genon-4.mp3"
+   ]
+  },
+  "generator-fails": {
+   "node_id": "7Yf3D68SxTKfHfEQiRZ9",
+   "prompt": "An old diesel generator outside trying to start and failing: the starter grinding, two weak coughs, then it dies and goes silent. Distant, muffled through a wall.",
+   "duration_seconds": 4,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep53-genfail-1.mp3",
+    "public/assets/audio/eleven-sfx/ep53-genfail-2.mp3",
+    "public/assets/audio/eleven-sfx/ep53-genfail-3.mp3",
+    "public/assets/audio/eleven-sfx/ep53-genfail-4.mp3"
+   ]
+  },
+  "sheet-slide": {
+   "node_id": "87Blaai0LGRe1Xx7jV26",
+   "prompt": "A heavy cotton sheet slowly sliding off a body on a steel mortuary tray and dropping to a tiled floor, close and quiet, with a soft wet thud of a limb against metal.",
+   "duration_seconds": 3,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep53-sheet-1.mp3",
+    "public/assets/audio/eleven-sfx/ep53-sheet-2.mp3",
+    "public/assets/audio/eleven-sfx/ep53-sheet-3.mp3",
+    "public/assets/audio/eleven-sfx/ep53-sheet-4.mp3"
+   ]
+  },
+  "tray-squeal": {
+   "node_id": "fAXBxB4xy4pCOMfZ6iCl",
+   "prompt": "A steel mortuary body tray squealing and grinding as weight shifts on it, a long metallic shriek then a hard clank, in a tiled cold room with reverb. Horror stinger.",
+   "duration_seconds": 3,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep53-tray-1.mp3",
+    "public/assets/audio/eleven-sfx/ep53-tray-2.mp3",
+    "public/assets/audio/eleven-sfx/ep53-tray-3.mp3",
+    "public/assets/audio/eleven-sfx/ep53-tray-4.mp3"
+   ]
+  },
+  "sutures": {
+   "node_id": "FuZNS81y5vWPYOccO8JS",
+   "prompt": "Wet surgical stitches tearing open one after another, thread snapping and skin peeling apart, slow and close, gruesome horror foley.",
+   "duration_seconds": 3,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep53-sutures-1.mp3",
+    "public/assets/audio/eleven-sfx/ep53-sutures-2.mp3",
+    "public/assets/audio/eleven-sfx/ep53-sutures-3.mp3",
+    "public/assets/audio/eleven-sfx/ep53-sutures-4.mp3"
+   ]
+  },
+  "heads-turn": {
+   "node_id": "okFVU42fdoRIxAObO3As",
+   "prompt": "In a silent dark room, many cloth sheets rustling at once as heads slowly turn under them, stiff necks creaking softly, a dozen at the same moment, then dead silence.",
+   "duration_seconds": 3,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep53-heads-1.mp3",
+    "public/assets/audio/eleven-sfx/ep53-heads-2.mp3",
+    "public/assets/audio/eleven-sfx/ep53-heads-3.mp3",
+    "public/assets/audio/eleven-sfx/ep53-heads-4.mp3"
+   ]
+  },
+  "cold-drone": {
+   "node_id": "YAqbBklixQxzWTg8gc8W",
+   "prompt": "A dark ambient horror drone: cold metallic resonance like a bowed steel table, slow detuned low strings breathing underneath, frozen and sterile, no melody, no percussion.",
+   "duration_seconds": 20,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep53-drone-1.mp3",
+    "public/assets/audio/eleven-sfx/ep53-drone-2.mp3",
+    "public/assets/audio/eleven-sfx/ep53-drone-3.mp3",
+    "public/assets/audio/eleven-sfx/ep53-drone-4.mp3"
+   ]
+  }
+ },
+ "sfx_credits": "about 863 (9 prompts x 4 variations)"
+}

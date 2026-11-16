@@ -60,7 +60,7 @@ Rendered as a contact sheet when the user asked for the packs' monsters ("Didnt 
 | Model | What it looks like | Used |
 |---|---|---|
 | `Character_Monster` | white, emaciated, wide staring eyes, a gaping black grin | Episode 52 (the lechuza) |
-| `Character_Monster_01` | flayed brown body, a face split down one side, sores | |
+| `Character_Monster_01` | flayed brown body, a face split down one side, sores | Episode 53 (the one that sits up) |
 | `Character_Monster_02` | white, bulging eyes, the lower face torn in strips, holes in the chest | Episode 48 |
 | `Character_Monster_03` | a woman with long black hair, hollow black eyes, a slack open mouth, a dark wrapped body | Episode 51 v2 (Hasshaku-sama) |
 | `Character_Monster_04` | a gaunt woman in a dark dress, a skull face with a jaw hanging open to the chest | |
