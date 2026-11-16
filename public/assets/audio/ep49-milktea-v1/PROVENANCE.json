@@ -1,0 +1,177 @@
+{
+  "episode": "Ep49BukasPaKagabi",
+  "duration_seconds": 59.83,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep49-take1.mp3",
+    "sha256": "0c30d94828ff0b3115308a4a6cb3ec5a32cef8f94e042da2719c3f52f945baa3",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": 1576,
+    "prompt": "docs/production/ep49-milktea/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, bowed metal after the queue turns, a heartbeat from the counter to the exit, a synthesized stinger doubling the ElevenLabs one (scripts/horror_score.py); loop-quantised; it drops out by day",
+    "a fridge hum (120/240/360 Hz), the receipt paper, a breath across the seam (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "18e3nTjfWiM9wFnn8LAP",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "ep45-crloop-1": {
+        "path": "public/assets/audio/eleven-sfx/ep45-crloop-1.mp3",
+        "sha256": "5e240a593a103045a2231bae1c7b148e9b7431f5b5c2e383f885cd2b865f243b"
+      },
+      "ep42-lobby-2": {
+        "path": "public/assets/audio/eleven-sfx/ep42-lobby-2.mp3",
+        "sha256": "dcc7156eb0e654d79d63348c9f9630a212c0eaec57557f792d905c1b345cd25d"
+      },
+      "shop-4": {
+        "path": "public/assets/audio/eleven-sfx/ep49-shop-4.mp3",
+        "sha256": "1d9dc3de06d986ff9e0202dc522156ddef5c6b3da7acf958ea6f0e8b2ef780a6"
+      },
+      "ep48-roomloop-b1": {
+        "path": "public/assets/audio/eleven-sfx/ep48-roomloop-b1.mp3",
+        "sha256": "d0957982d495578e4839e26d74d4bd578ef1e7765ccf77d1d90c849087402dbc"
+      },
+      "ep40-cicadas-1": {
+        "path": "public/assets/audio/eleven-sfx/ep40-cicadas-1.mp3",
+        "sha256": "4718fb11aebf5cabc71c911ada327e2dd20e96bf57bfee9b55ff6b4ee936f6ab"
+      },
+      "street-2": {
+        "path": "public/assets/audio/eleven-sfx/ep49-street-2.mp3",
+        "sha256": "a51ada153cc9df04fedbcfbff2bd62d9b4b62913dc2253928965e1b6411d2081"
+      },
+      "scooter-4": {
+        "path": "public/assets/audio/eleven-sfx/ep49-scooter-4.mp3",
+        "sha256": "9a8e0687a7b26ce5a803947cd7f2938f289bbaeea4e07302a910e5692d359a09"
+      },
+      "sealer-3": {
+        "path": "public/assets/audio/eleven-sfx/ep49-sealer-3.mp3",
+        "sha256": "268480992428ff6a8921d32ed4247cf186a10f72d6902d0fec75914ea302b8b6"
+      },
+      "printer-4": {
+        "path": "public/assets/audio/eleven-sfx/ep49-printer-4.mp3",
+        "sha256": "6727986ee406f070475c8d3d73d6f37e13cb0c3bd60fe78ef6be92cc922b4379"
+      },
+      "ep42-door-3": {
+        "path": "public/assets/audio/eleven-sfx/ep42-door-3.mp3",
+        "sha256": "89e7ed69c88012ff4cceaac188339cff1eabca6f205b6a4cfc6cc605e35648f8"
+      },
+      "padlock-2": {
+        "path": "public/assets/audio/eleven-sfx/ep49-padlock-2.mp3",
+        "sha256": "535e06479d2401a520ad1397c31007faebfa0284184a4f861a839cd8a49140f5"
+      },
+      "ep29-breath-4": {
+        "path": "public/assets/audio/eleven-sfx/ep29-breath-4.mp3",
+        "sha256": "4135f53fd06bebb729d4e3d143e0c66fdb94c321aad7c8e859dd9cc42594684d"
+      },
+      "ep41-neck-4": {
+        "path": "public/assets/audio/eleven-sfx/ep41-neck-4.mp3",
+        "sha256": "50999f245cd2472093f6363e47106c0ea976067f5eeb450d9a5e4b9b80058b86"
+      },
+      "ep41-drone-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-drone-2.mp3",
+        "sha256": "026295eb892b77b9a72e46751e1206c85acd9c810cc33f836aab46e153ba03ef"
+      },
+      "ep41-musicbox-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-musicbox-2.mp3",
+        "sha256": "80252fa4f2b960b32f2d1766182f7c7e56cf301b8ea16bf5fdf077011de134e3"
+      },
+      "ep41-riser-3": {
+        "path": "public/assets/audio/eleven-sfx/ep41-riser-3.mp3",
+        "sha256": "c3343fcf878e8764310704e96de452131b8a93aca479db484b1b6247d7db9540"
+      },
+      "ep41-stinger-4": {
+        "path": "public/assets/audio/eleven-sfx/ep41-stinger-4.mp3",
+        "sha256": "b52c3dcc1e9c3d8c5ead98cc481f481bc998b8c9245b004b8193cfa6f406c67e"
+      }
+    },
+    "generated": "6 prompts x 4 variations (about 572 credits): the shop at 2 a.m. 15 s loop, a day street 15 s loop, a scooter arriving 6 s, a cup sealer 3 s, a receipt printer 3 s, a padlock and chain on a shutter 4 s",
+    "reused": "Episode 45 crloop-1, Episode 42 lobby-2 and door-3, Episode 48 roomloop-b1, Episode 40 cicadas-1, Episode 29 breath-4, and Episode 41 variations (drone-2, stinger-4, riser-3, musicbox-2, neck-4)",
+    "note": "picked by measurement (RMS, range, onset), not by listening; every shop loop has deep gaps, so the bed layers it compressed over the steadier tube and lobby loops"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    57.38
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.21,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -24.7,
+    "last_quarter_second": -25.1
+  },
+  "limiter": "tanh soft limiter, ceiling -1.20 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 11.5,
+      "phone_band_voice_minus_all_db": 11.7,
+      "voice_minus_bed_db": 11.5
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 10.9,
+      "phone_band_voice_minus_all_db": 10.9,
+      "voice_minus_bed_db": 10.9
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 9.4,
+      "phone_band_voice_minus_all_db": 12.6,
+      "voice_minus_bed_db": 9.4
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 10.0,
+      "phone_band_voice_minus_all_db": 9.1,
+      "voice_minus_bed_db": 10.0
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 9.5,
+      "phone_band_voice_minus_all_db": 8.8,
+      "voice_minus_bed_db": 9.5
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 7.6,
+      "phone_band_voice_minus_all_db": 8.4,
+      "voice_minus_bed_db": 7.6
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 13.3,
+      "phone_band_voice_minus_all_db": 12.3,
+      "voice_minus_bed_db": 13.3
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 13.1,
+      "phone_band_voice_minus_all_db": 12.3,
+      "voice_minus_bed_db": 13.1
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -10.3,
+    "music_minus_voice_in_gaps_db": -3.8,
+    "music_share_of_gaps_seconds": 12.5
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

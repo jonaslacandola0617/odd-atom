@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 59.83,
+  "duration_frames": 1795,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Bukas pa 'yung milk tea shop kagabi. Pero anim na buwan na pala itong sarado.",
+      "start": 0.4,
+      "end": 5.36,
+      "kind": "narrator",
+      "beat_before": "hook: the lit shopfront at night from my scooter; the queue inside turns its heads to me at once, bodies still"
+    },
+    {
+      "id": "l02",
+      "text": "Rider ako. Alas-dos ng madaling-araw, may booking: dalawang milk tea, sa shop sa kanto.",
+      "start": 6.36,
+      "end": 12.77,
+      "kind": "narrator",
+      "beat_before": "the dark corner, one shop lit; my scooter pulls up"
+    },
+    {
+      "id": "l03",
+      "text": "Bukas ang ilaw. May pila. Lahat nakaharap sa counter. Walang gumagalaw. Walang nagsasalita.",
+      "start": 13.97,
+      "end": 21.25,
+      "kind": "narrator",
+      "beat_before": "inside, behind the queue: backs, still; nobody moves"
+    },
+    {
+      "id": "l04",
+      "text": "Ngumiti ang crew. Hindi siya kumukurap. Inabot niya ang order ko, at ang resibo.",
+      "start": 22.45,
+      "end": 27.87,
+      "kind": "narrator",
+      "beat_before": "the crew at the counter: the smile, the sealer, the receipt"
+    },
+    {
+      "id": "l05",
+      "text": "Paglabas ko, lumingon ako. Nakatingin silang lahat sa akin. Pero nakaharap pa rin ang katawan nila sa counter.",
+      "start": 29.07,
+      "end": 35.95,
+      "kind": "narrator",
+      "beat_before": "walking out, I look back: every head turned round to me, the bodies still facing the counter"
+    },
+    {
+      "id": "l06",
+      "text": "Kinabukasan, dumaan ako. Naka-kandado. Maalikabok. Anim na buwan na raw sarado, sabi ng guard.",
+      "start": 37.55,
+      "end": 44.68,
+      "kind": "narrator",
+      "beat_before": "day: the same shopfront, shutter down, padlocked, dust; the guard"
+    },
+    {
+      "id": "l07",
+      "text": "Pero nasa bulsa ko pa ang resibo. Petsa kagabi. Alas-dos.",
+      "start": 45.88,
+      "end": 50.29,
+      "kind": "narrator",
+      "beat_before": "my hand: the receipt from my pocket, the date"
+    },
+    {
+      "id": "l08",
+      "text": "Sa likod, may sulat-kamay: \"Balik ka, sir. Kulang pa ang pila.\"",
+      "start": 51.69,
+      "end": 56.53,
+      "kind": "narrator",
+      "beat_before": "night again: the shop lit, the queue with a gap for me; the crew at the glass, her head snaps to the lens"
+    }
+  ]
+}

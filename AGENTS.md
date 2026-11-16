@@ -226,6 +226,33 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 49 "Bukas Pa Kagabi" (the milk tea shop).
 
+- **Episode 49 "Bukas Pa Kagabi" (2026-11-16):** the user asked for the "next ep". A delivery rider's 2 a.m. pickup at a milk tea shop that, the next day, is padlocked and has been closed for six months, with the receipt still in his pocket, retold. `Ep49BukasPaKagabi` / `src/horror/ep49/` is 59.83 s, in Taglish, with the score and seamless loop.
+  - **Form:** "the shopfront": one shop through its glass by night, cut against itself by day.
+    - The queue's heads come round to the lens in snaps, bodies still (hook).
+    - The dark corner; my scooter pulls up.
+    - Inside along their backs: nobody moves; the whole queue breathes once, together.
+    - The crew's head tips in snaps; the sealer; she reaches the cups out; the receipt.
+    - Walking out, I look back: every head turned round past a neck's limit.
+    - Day: the padlock; the shutter, FOR RENT; the guard: six months.
+    - The receipt: 11/15, 02:00 AM; on the back, "Balik ka, sir. Kulang pa ang pila."
+    - Night: she is at the glass; her head comes up at the lens.
+    - The loop.
+  - **Cast:** the queue `Character_03`, `29_Female`, `30`, `31_Female`, `05` (grey); the crew `Character_Female_12`, pale (`Female_09`'s camisole swapped out for care); the guard `Character_17_Police`; me `Character_14`. The shop and scooter are box-built (no brand).
+  - **Lessons:**
+    - faces turned toward an outside camera are backlit by the shop's tubes: add a cold fill inside the glass;
+    - stagger a queue seen end-on;
+    - keep a walking-out camera off the door mullion.
+  - **Sound:**
+    - generated: the shop (15 s loop), a day street (15 s loop), a scooter, a cup sealer, a receipt printer, a padlock (flow `18e3nTjfWiM9wFnn8LAP`, about 572 credits, all variations in Git);
+    - the shop loops all have deep gaps, so the bed is shop-4 compressed over Episode 45's tube loop, Episode 42's lobby and a synthesized fridge hum;
+    - reused: Episode 48's room loop (far traffic), Episode 42's door, Episode 40's cicadas, Episode 29's breath, and Episode 41's drone, stinger, riser, music box and neck crack;
+    - neck cracks on every snap; the score drops out by day.
+  - **Voice:** Juanito, both takes (1,576 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −10.3 / −3.8 dB, lines ≥7.6 dB with no lifts, −14.0 LUFS, decoded peak −1.21 dBFS, seam −24.7 / −25.1 dBFS.
+  - **Delivery:** `assets/videos/ep49-milktea-v1/`. Notes are in `docs/production/ep49-milktea/README.md`; the publishing kit is `docs/publishing/ep49/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 50 "Si Lola sa Panaginip" (the season finale).
+
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.
   - **Kit:** `src/horror/psx/models.tsx` (`PsxCharacter`, `PsxProp`, `applyPose` with world-axis bone rotations, `ARMS_DOWN`, `SIT`, PS1 materials). Files in use: `public/assets/models/psx/` with `PROVENANCE.md`.

@@ -65,3 +65,9 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 - **YouTube title:** `Lima kami. Anim ang natutulog.` (alt: `Bilangin mo ang natutulog sa kuwarto niyo`)
 - **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep48/README.md`.
 - **Hashtags:** `#kwentongkatatakutan #pinoyhorror #boardinghouse #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #boardinghouse #fyp`
+
+## Broadcast 49: Bukas Pa Kagabi (personal experience, retold)
+
+- **YouTube title:** `Bukas pa 'yung milk tea shop kagabi.` (alt: `Anim na buwan na raw itong sarado`)
+- **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep49/README.md`.
+- **Hashtags:** `#kwentongkatatakutan #pinoyhorror #rider #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #rider #fyp`

@@ -1,0 +1,87 @@
+{
+  "flow_id": "18e3nTjfWiM9wFnn8LAP",
+  "account": "the new ElevenLabs account (from 2026-11-16)",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
+    "node_id": "tcFHTtMQp16RkE5iNduv",
+    "prompt": "[whispers] Bukas pa 'yung milk tea shop kagabi. Pero anim na buwan na pala itong sarado. [long pause] [softly] Rider ako. Alas-dos ng madaling-araw, may booking: dalawang milk tea, sa shop sa kanto. [long pause] Bukas ang ilaw. May pila. Lahat nakaharap sa counter. Walang gumagalaw. Walang nagsasalita. [long pause] Ngumiti ang crew. Hindi siya kumukurap. Inabot niya ang order ko, at ang resibo. [long pause] Paglabas ko, lumingon ako. Nakatingin silang lahat sa akin. Pero nakaharap pa rin ang katawan nila sa counter. [long pause] Kinabukasan, dumaan ako. Naka-kandado. Maalikabok. Anim na buwan na raw sarado, sabi ng guard. [long pause] Pero nasa bulsa ko pa ang resibo. Petsa kagabi. Alas-dos. [long pause] [whispers] Sa likod, may sulat-kamay: \"Balik ka, sir. Kulang pa ang pila.\"",
+    "takes": 1576,
+    "takes_note": "both takes (788 credits each); take 1 used (65.6 s raw; inner pauses capped at 0.32 s), take 2 kept (62.0 s)",
+    "files": [
+      "public/assets/audio/eleven-takes/ep49-take1.mp3",
+      "public/assets/audio/eleven-takes/ep49-take2.mp3"
+    ]
+  },
+  "sfx": {
+    "shop-loop": {
+      "node_id": "lvQr7nNDcA2wwvb3MMGT",
+      "prompt": "Inside a small empty milk tea shop at 2 a.m.: a refrigerator compressor humming, a fluorescent tube buzzing, a chiller ticking, a faint drip, total stillness, no music, no voices, eerie and lonely.",
+      "duration_seconds": 15,
+      "loop": true,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep49-shop-1.mp3",
+        "public/assets/audio/eleven-sfx/ep49-shop-2.mp3",
+        "public/assets/audio/eleven-sfx/ep49-shop-3.mp3",
+        "public/assets/audio/eleven-sfx/ep49-shop-4.mp3"
+      ]
+    },
+    "day-street": {
+      "node_id": "wbeDVwPsQtpKyNY7eQyS",
+      "prompt": "A busy street corner in Manila in the late morning: jeepneys and tricycles passing, distant horns, people walking, a vendor far away, warm daytime city ambience.",
+      "duration_seconds": 15,
+      "loop": true,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep49-street-1.mp3",
+        "public/assets/audio/eleven-sfx/ep49-street-2.mp3",
+        "public/assets/audio/eleven-sfx/ep49-street-3.mp3",
+        "public/assets/audio/eleven-sfx/ep49-street-4.mp3"
+      ]
+    },
+    "scooter": {
+      "node_id": "U2ZHMNbLbGJzNFgdjlO8",
+      "prompt": "A small motorcycle scooter arriving on an empty street at night, slowing down, idling for a moment, then the engine switched off, silence after.",
+      "duration_seconds": 6,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep49-scooter-1.mp3",
+        "public/assets/audio/eleven-sfx/ep49-scooter-2.mp3",
+        "public/assets/audio/eleven-sfx/ep49-scooter-3.mp3",
+        "public/assets/audio/eleven-sfx/ep49-scooter-4.mp3"
+      ]
+    },
+    "sealer": {
+      "node_id": "78xH7yFgLBIJnTQyZaRL",
+      "prompt": "A milk tea cup sealing machine pressing a plastic film lid onto a cup: a mechanical clunk, a short hiss of heat, a click as it releases.",
+      "duration_seconds": 3,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep49-sealer-1.mp3",
+        "public/assets/audio/eleven-sfx/ep49-sealer-2.mp3",
+        "public/assets/audio/eleven-sfx/ep49-sealer-3.mp3",
+        "public/assets/audio/eleven-sfx/ep49-sealer-4.mp3"
+      ]
+    },
+    "printer": {
+      "node_id": "4Jn1LUiqh3QrYCOewn6F",
+      "prompt": "A small thermal receipt printer printing a short receipt, a fast buzzing chatter, then the paper torn off.",
+      "duration_seconds": 3,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep49-printer-1.mp3",
+        "public/assets/audio/eleven-sfx/ep49-printer-2.mp3",
+        "public/assets/audio/eleven-sfx/ep49-printer-3.mp3",
+        "public/assets/audio/eleven-sfx/ep49-printer-4.mp3"
+      ]
+    },
+    "padlock": {
+      "node_id": "Kd5sEqDUne5j1GGZMPHZ",
+      "prompt": "A heavy padlock and chain on a rusty rolling metal shop shutter, rattled by a hand, the shutter shaking, metallic and dusty.",
+      "duration_seconds": 4,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep49-padlock-1.mp3",
+        "public/assets/audio/eleven-sfx/ep49-padlock-2.mp3",
+        "public/assets/audio/eleven-sfx/ep49-padlock-3.mp3",
+        "public/assets/audio/eleven-sfx/ep49-padlock-4.mp3"
+      ]
+    }
+  },
+  "credits_spent_about": 2148
+}
