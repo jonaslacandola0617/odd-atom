@@ -1,5 +1,18 @@
 # Video delivery
 
+- **Season 6 direction (user, 2026-11-16, after Season 5; to start in a new session):** "lets go back now to the english videos, lets keep the personal experience while maintaining spooky and horrific story, you can also add some gore, i also noticed some of S5's sequence are lookalike, I want every story unique to one another … since our options span to wordlwide now im assume youll pick really scary people have experience and i want the animation to be improved in terms of the scariness … 100 scariness. do this in a new session, make sure that the session will keep the quality of the animation, if not improve it."
+  - **Read first:** `docs/stories/season-6-brief.md`. It covers the request, why Season 5 looked alike (measured), the uniqueness rules, how to make it scarier, the care rules with gore, the research notes, and every Season 5 lesson and pitfall in one place.
+  - **In short:**
+    - **stories:** worldwide personal experiences shared online, the scariest ones, retold in our own words;
+    - **language:** English (Jack by default, or check a test line with the user);
+    - **gore:** allowed where the story earns it, never on a real person or tied to a real crime;
+    - **uniqueness:** every episode unique in scare mechanism, entity, form or camera grammar, scare placement, sound palette, look, structure and setting;
+    - **endings:** the head-snap-to-lens ending at most once in the season;
+    - **sound:** no reuse of Episode 41's drone, riser, stinger, neck crack or music box;
+    - **scares:** at least three escalating scares per episode;
+    - **kept:** the PSX models and kit, and every earlier standard.
+  - **Episodes:** 51–60; the slate goes in `docs/stories/season-6-world.md`, with a uniqueness table, before production.
+
 - **Standing direction for the next season (user, 2026-11-15, after the PSX test v2):** "Yeah this is good enough and we made a better look rather than being a blocks of models, apply this to future videos, for the next season on a new session, I want more local personal experience people have shared online. And with our new models i want the animation more spooky more scary and more horror."
   - **Models:** every future episode uses the user's PSX models (`src/horror/psx/models.tsx`, `docs/production/psx-models/README.md`) for people and, where they fit, furniture, streets and buildings. The blocky `Rider`/`Villager` figures are retired for new work (keep them only for objects the packs lack). Copy each new model into `public/assets/models/psx/` and add it to `PROVENANCE.md`; keep the full packs out of Git (re-download from the Drive folder in a new session).
   - **Season 5 (started 2026-11-15 on the user's "start season 5"):** local Philippine **personal experiences shared online**, in Taglish with Juanito, with the Season 4 standard (eerie score, seamless loop) and all earlier rules (motion rule, hard cuts, loudness, care).
