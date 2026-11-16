@@ -58,3 +58,7 @@ The first render used `Character_11` (a smiling man) under barred feathers that 
 - the mantle is 340 smaller, darker, unbarred feathers;
 - the wing feathers are a lighter material (`#e0d4bc`) so the wing spreads across the lens in the work light, and the arms stretch less (×1.5, not ×1.9), so the stinger is a wing with its face peering over it rather than one long pale limb.
 Timing and the mix are unchanged.
+
+## Delivery
+
+`assets/videos/ep52-branch-v1/ep52-the-branch.mp4`, 38672126 bytes, SHA-256 `7d390f002b6a78f2348ceeea6daced8ac927b84f678b81a480833f599fb40615`; 48.3 s, −14.1 LUFS (integrated, decoded), true peak −1.4 dBFS; last frame against frame 0: 2.6/255 (the loop). Frames checked at 1, 24.5, 33, 36 and 44 s.
