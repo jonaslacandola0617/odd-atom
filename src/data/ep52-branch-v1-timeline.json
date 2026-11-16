@@ -1,0 +1,49 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 48.3,
+  "duration_frames": 1449,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Two in the morning, I got a work order to cut the power to one house. Last street in the colonia.",
+      "start": 2.8,
+      "end": 8.93,
+      "kind": "narrator",
+      "beat_before": "hook: the phone at branch height in the work light: a man's face among feathers, tipping its head"
+    },
+    {
+      "id": "l02",
+      "text": "A neighbour was waiting by the pole. She didn't say a word. She just pointed up, into the tree.",
+      "start": 10.13,
+      "end": 15.3,
+      "kind": "narrator",
+      "beat_before": "the colonia street; then the neighbour under the sodium lamp, pointing up into the tree"
+    },
+    {
+      "id": "l03",
+      "text": "I went up in the bucket, filming. I thought it was the biggest owl I'd ever seen. Then it turned to the light. It had a man's face.",
+      "start": 17.5,
+      "end": 25.17,
+      "kind": "narrator",
+      "beat_before": "the bucket rising into the canopy; the work light swings onto a hunched feathered back"
+    },
+    {
+      "id": "l04",
+      "text": "It wasn't finished changing. Those were still a man's legs. And everywhere the feathers were coming through... the skin was splitting open.",
+      "start": 27.17,
+      "end": 35.08,
+      "kind": "narrator",
+      "beat_before": "its head swivels round to the light: a man's face, held"
+    },
+    {
+      "id": "l05",
+      "text": "I drove off with the bucket still up. On my phone there's a second video. I didn't take it. It's from the branch. Looking down at my truck.",
+      "start": 38.08,
+      "end": 45.9,
+      "kind": "narrator",
+      "beat_before": "the arms unfold into wings far too long; the phone falls"
+    }
+  ]
+}

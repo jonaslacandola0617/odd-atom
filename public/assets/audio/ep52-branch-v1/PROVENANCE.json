@@ -1,0 +1,116 @@
+{
+  "episode": "Ep52TheBranch",
+  "duration_seconds": 48.3,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep52-take1.mp3",
+    "sha256": "35c7bfa1f252b57a735bd3be7461bcdf9bccaad3adb064a844dafe7d34d05545",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (ElevenLabs library voice)",
+    "credits": 1450,
+    "prompt": "docs/production/ep52-branch/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone (root 38.9 Hz), a string cluster (C#2 D2 G#2 D#3) that tightens to the wings and stops dead on them, bowed metal as its face comes round, a riser and a synthesized stinger at the wings, a heartbeat under the gore (scripts/horror_score.py); loop-quantised",
+    "the diesel idle, the transformer close by, the work light click and buzz, feathers rustling, an owl hiss, talons on bark, blood dripping, the phone falling and landing, gallery taps, wind in the leaves and breathing at the microphone in the clip (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "UPdz7VfqnS3TyRW1ZPzx",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "hum-3": {
+        "path": "public/assets/audio/eleven-sfx/ep52-hum-3.mp3",
+        "sha256": "4bc896d3f492ab8d1870f1bf72dbaafe0be8c9f76541dc0db26b7fa0091fd28f"
+      },
+      "dogs-4": {
+        "path": "public/assets/audio/eleven-sfx/ep52-dogs-4.mp3",
+        "sha256": "f3fc03c072d6952dab5e519e08977be01186b8b9bcfdcac5e80e78dcf64f8450"
+      },
+      "whistle-3": {
+        "path": "public/assets/audio/eleven-sfx/ep52-whistle-3.mp3",
+        "sha256": "91b6129b867cde990a6b6396e4eda6d2dd0dd041b6df94f08a1054bbbf2682ec"
+      },
+      "bucket-2": {
+        "path": "public/assets/audio/eleven-sfx/ep52-bucket-2.mp3",
+        "sha256": "6effa61b12f22f80cc77eff66c34f4567877aa06aab5baa3ac47dce1a3c52f52"
+      },
+      "split-3": {
+        "path": "public/assets/audio/eleven-sfx/ep52-split-3.mp3",
+        "sha256": "dc3298d7362918cac88d12332243271644fd3ab3796114d236064eec97b016f8"
+      },
+      "wings-1": {
+        "path": "public/assets/audio/eleven-sfx/ep52-wings-1.mp3",
+        "sha256": "efced620da1714c5ba6f09873f587ff5fb7a93aef6d9426f35c41792fe389e6a"
+      },
+      "truck-2": {
+        "path": "public/assets/audio/eleven-sfx/ep52-truck-2.mp3",
+        "sha256": "1b03e81b1913a8f561f4350f8e2d5125dd72c8f461922d85bef1f0c0085100ac"
+      }
+    },
+    "generated": "7 prompts x 4 variations, duration set on the node (about 760 credits): transformer hum and crickets 15 s loop, the whistle 5 s, wings 3 s, skin splitting 5 s, bucket hydraulics 8 s, truck pulling away 8 s, dogs 7 s",
+    "reused": "none (no Episode 41 drone, riser, stinger, neck crack or music box)",
+    "note": "picked by measurement (RMS, range), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    35.35
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.39,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -25.4,
+    "last_quarter_second": -23.0
+  },
+  "limiter": "tanh soft limiter, ceiling -5.71 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 11.9,
+      "phone_band_voice_minus_all_db": 10.2,
+      "voice_minus_bed_db": 11.9
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 13.8,
+      "phone_band_voice_minus_all_db": 19.1,
+      "voice_minus_bed_db": 13.8
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 7.8,
+      "phone_band_voice_minus_all_db": 12.2,
+      "voice_minus_bed_db": 7.8
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 5.8,
+      "phone_band_voice_minus_all_db": 9.3,
+      "voice_minus_bed_db": 5.8
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 10.6,
+      "phone_band_voice_minus_all_db": 10.3,
+      "voice_minus_bed_db": 10.6
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.0,
+    "music_minus_voice_in_gaps_db": -3.4,
+    "music_share_of_gaps_seconds": 13.6
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

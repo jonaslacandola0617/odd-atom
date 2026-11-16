@@ -1,0 +1,105 @@
+{
+  "flow_id": "UPdz7VfqnS3TyRW1ZPzx",
+  "account": "the new ElevenLabs account (from 2026-11-16)",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr)",
+    "node_id": "2V3IV4QDdNqZd94KCdiN",
+    "prompt": "[tired, low] Two in the morning, I got a work order to cut the power to one house. Last street in the colonia. [long pause] A neighbour was waiting by the pole. She didn't say a word. She just pointed up, into the tree. [long pause] I went up in the bucket, filming. I thought it was the biggest owl I'd ever seen. [short pause] Then it turned to the light. [whispers] It had a man's face. [long pause] [shaken] It wasn't finished changing. Those were still a man's legs. And everywhere the feathers were coming through... the skin was splitting open. [long pause] [quietly] I drove off with the bucket still up. On my phone there's a second video. I didn't take it. [whispers] It's from the branch. Looking down at my truck.",
+    "takes": 1450,
+    "takes_note": "both takes (725 credits each); take 1 used (45.7 s raw; inner pauses capped at 0.22 s), take 2 kept (44.4 s)",
+    "files": [
+      "public/assets/audio/eleven-takes/ep52-take1.mp3",
+      "public/assets/audio/eleven-takes/ep52-take2.mp3"
+    ]
+  },
+  "sfx": {
+    "hum-loop": {
+      "node_id": "AdGqhebQt31IPmz1oQy9",
+      "prompt": "A pole-mounted electrical transformer humming at night in a quiet small-town neighbourhood in South Texas, crickets in dry grass, a far highway, a chain-link fence ticking in a light wind, no music, no voices.",
+      "duration_seconds": 15,
+      "loop": true,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep52-hum-1.mp3",
+        "public/assets/audio/eleven-sfx/ep52-hum-2.mp3",
+        "public/assets/audio/eleven-sfx/ep52-hum-3.mp3",
+        "public/assets/audio/eleven-sfx/ep52-hum-4.mp3"
+      ]
+    },
+    "whistle": {
+      "node_id": "VKSAo9GROUolVFFqTDkl",
+      "prompt": "A long eerie whistle from high in a tree at night, almost human, rising then bending down out of tune, like someone whistling for a dog but wrong, then a soft hiss like a barn owl. Dry, close.",
+      "duration_seconds": 5,
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep52-whistle-1.mp3",
+        "public/assets/audio/eleven-sfx/ep52-whistle-2.mp3",
+        "public/assets/audio/eleven-sfx/ep52-whistle-3.mp3",
+        "public/assets/audio/eleven-sfx/ep52-whistle-4.mp3"
+      ]
+    },
+    "wings": {
+      "node_id": "czXgmD7ENsoStG9nEsGf",
+      "prompt": "Enormous wings snapping open very close to the microphone: leathery cracks, joints popping, wet feathers tearing loose, a heavy whoosh of air, horror stinger, then silence.",
+      "duration_seconds": 3,
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep52-wings-1.mp3",
+        "public/assets/audio/eleven-sfx/ep52-wings-2.mp3",
+        "public/assets/audio/eleven-sfx/ep52-wings-3.mp3",
+        "public/assets/audio/eleven-sfx/ep52-wings-4.mp3"
+      ]
+    },
+    "split": {
+      "node_id": "mGJYxcIvE7LX8G0Htqk3",
+      "prompt": "Wet skin slowly splitting and stiff feather quills pushing out through flesh, small crackles and moist tearing, close and quiet, gruesome body horror foley.",
+      "duration_seconds": 5,
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep52-split-1.mp3",
+        "public/assets/audio/eleven-sfx/ep52-split-2.mp3",
+        "public/assets/audio/eleven-sfx/ep52-split-3.mp3",
+        "public/assets/audio/eleven-sfx/ep52-split-4.mp3"
+      ]
+    },
+    "bucket": {
+      "node_id": "ToaclvUf3VX9lH8E1hQh",
+      "prompt": "The hydraulic boom of a utility bucket truck raising slowly at night: a pump motor whining, hydraulic hiss, metal creaks, the diesel idling underneath.",
+      "duration_seconds": 8,
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep52-bucket-1.mp3",
+        "public/assets/audio/eleven-sfx/ep52-bucket-2.mp3",
+        "public/assets/audio/eleven-sfx/ep52-bucket-3.mp3",
+        "public/assets/audio/eleven-sfx/ep52-bucket-4.mp3"
+      ]
+    },
+    "truck": {
+      "node_id": "xJznrGtP0OS0vnCw0Zsb",
+      "prompt": "Inside the cab of a diesel utility truck pulling away fast at night, engine revving hard, gears, gravel spraying, the empty boom rattling behind, breathing hard.",
+      "duration_seconds": 8,
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep52-truck-1.mp3",
+        "public/assets/audio/eleven-sfx/ep52-truck-2.mp3",
+        "public/assets/audio/eleven-sfx/ep52-truck-3.mp3",
+        "public/assets/audio/eleven-sfx/ep52-truck-4.mp3"
+      ]
+    },
+    "dogs": {
+      "node_id": "BpyfahIiMhU2iAZkxqtf",
+      "prompt": "Several dogs in backyards barking at night in a small neighbourhood, then one by one they whimper and fall silent, leaving only crickets.",
+      "duration_seconds": 7,
+      "loop": false,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep52-dogs-1.mp3",
+        "public/assets/audio/eleven-sfx/ep52-dogs-2.mp3",
+        "public/assets/audio/eleven-sfx/ep52-dogs-3.mp3",
+        "public/assets/audio/eleven-sfx/ep52-dogs-4.mp3"
+      ]
+    }
+  },
+  "how": "nodes added with creative_add_flow_node with duration_seconds and loop set, then run (no wasted short takes this time)",
+  "picks": "hum-3, whistle-3, wings-1, split-3, bucket-2, truck-2, dogs-4; by measurement, not listening",
+  "credits_total_approx": 2210
+}
