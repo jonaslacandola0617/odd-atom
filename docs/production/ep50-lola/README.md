@@ -32,6 +32,7 @@ The dream (cold, washed out, fog) cut hard against the house (dark, warm, rain).
 
 - A night interior with ambient `#4a5470` at 1.15 renders black after the grade and vignette: about 1.8 with `#5a6480`, plus a motivated source, is the floor.
 - A light strip under a door must sit on the floor in front of the door's face, not inside it, and above the caption band.
+- `rng` with a negative seed returns negative values, so a grain seeded from `t` turns black on the loop shot (negative time) and darkens it (the first render's seam was 5.9/255): seed it from `t + 600`.
 - Water seen from a window needs a high camera looking down and an opaque surface, or the waders show through.
 
 ## Sound (`scripts/ep50_sound.py`)
@@ -45,7 +46,7 @@ The dream (cold, washed out, fog) cut hard against the house (dark, warm, rain).
   - the rosary in both dreams; the doorknob twice; the door open on the rain;
   - the mattress gives in the last dream and again in the house;
   - neck cracks on every snap of her head (the hook's cross the seam); the stinger after the last line.
-- **Figures:** presence −9.6 dB in speech and −3.2 dB in the gaps; lines ≥7.0 dB over everything else (phone band ≥7.5 dB), with no lifts; −14.0 LUFS; decoded peak −2.72 dBFS; seam −24.8 / −25.0 dBFS.
+- **Figures:** presence −9.6 dB in speech and −3.2 dB in the gaps; lines ≥7.0 dB over everything else (phone band ≥7.5 dB), with no lifts; −14.0 LUFS; decoded peak −2.72 dBFS; seam −24.8 / −25.0 dBFS; picture seam 2.8/255 (frame 0 vs the last frame).
 
 ## Voice
 

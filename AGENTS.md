@@ -267,7 +267,8 @@
   - **Lessons:**
     - a night interior needs ambient about 1.8 (`#5a6480`) plus a motivated source, or it goes black after the grade;
     - a light strip under a door sits on the floor in front of it, above the caption band;
-    - a head that turns first and a body that follows: the head gives back what the body takes.
+    - a head that turns first and a body that follows: the head gives back what the body takes;
+    - **the grain's `rng` seed must stay positive** (`Math.floor((t + 600) * 24)`): seeded from negative time, the loop shot's grain went black and the seam measured 5.9/255 (Episode 49: 4.4); fixed in Episodes 49 and 50 (re-rendered: 3.2 and 2.8). Episodes 40–48 still carry the old line; their dark loop shots kept it small.
   - **Sound:**
     - generated: rain on a roof (15 s loop), a flooded street, a front door opening, a mattress, rosary beads (flow `KoKWpDSnj3uvRbGHTWPT`, about 467 credits, all variations in Git);
     - reused: Episode 44's house loop and Episode 41's drone, stinger, riser, music box and neck crack;

@@ -33,6 +33,7 @@ One milk tea shop seen through its glass by night, cut against itself by day.
 - Faces turned toward a camera outside a lit shop are backlit by its tubes: add a cold fill just inside the glass, or the turn doesn't read.
 - A queue seen end-on hides itself: stagger it left and right and bring the camera near the axis.
 - Keep a walking-out camera off the door's mullion (a black bar filled the first exit frame).
+- `rng` with a negative seed returns negative values: the grain seeded from `t` went black on the loop shot (negative time) and darkened the last 1.7 s. Seed it from `t + 600`. Episodes 40–48 share the old line; their dark loop shots hid it (seams ≤1.4/255).
 
 ## Sound (`scripts/ep49_sound.py`)
 
@@ -45,7 +46,7 @@ One milk tea shop seen through its glass by night, cut against itself by day.
   - one breath from the whole queue at once;
   - the sealer, the printer and the glass door; the padlock by day;
   - the score drops out by day and comes back at the receipt; the stinger falls after the last line.
-- **Figures:** presence −10.3 dB in speech and −3.8 dB in the gaps; lines ≥7.6 dB over everything else (phone band ≥8.4 dB), with no lifts; −14.0 LUFS; decoded peak −1.21 dBFS; seam −24.7 / −25.1 dBFS; picture seam 4.4/255 (frame 0 vs the last frame: the same framing, the difference is grain and tube flicker).
+- **Figures:** presence −10.3 dB in speech and −3.8 dB in the gaps; lines ≥7.6 dB over everything else (phone band ≥8.4 dB), with no lifts; −14.0 LUFS; decoded peak −1.21 dBFS; seam −24.7 / −25.1 dBFS; picture seam 3.2/255 (frame 0 vs the last frame; v1's first render measured 4.4 because the grain was black on negative time, see Lessons).
 
 ## Voice
 
