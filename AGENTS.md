@@ -200,6 +200,24 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 48 "Bedspace" (one more sleeper than there are of us).
 
+- **Episode 48 "Bedspace" (in progress, 2026-11-16):** the user asked for the "next ep". Five students in an old Manila boarding house count six sleepers; the sixth, facing the wall in the bunk above mine, ends up in my bed behind me, facing me.
+  - **Blocked on credits:** the ElevenLabs account ran out (36 credits left; Juanito's narration needs about 740 per take). Asked how to proceed, the user chose **"I'll top up or wait"**. On their "continue", regenerate the narration in flow `hGPDgw0ks4oe2SVkpIjf`, node `WPUDJVI9IAqAHXOFLEDf` (both takes), and the three missing room-loop variations (node `lUJZl7faB3WOdP6TYV6L`). The prompt and the node IDs are in `docs/production/ep48-bedspace/prompt.json`.
+  - **Done so far:**
+    - `src/horror/ep48/world.tsx`: the room with three double-decks (A along the left wall, mine below and the sixth above; C and D along the back wall), the window, the fan, the phone-torch cone and pool (`Torch`), the dust motes and the building;
+    - `Character_Monster_02` copied and added to `PROVENANCE.md` for the sixth sleeper;
+    - one room loop and four bunk creaks downloaded and in Git.
+  - **Plan:** "the count from the corner": a ceiling-corner camera at (2.8, 2.65, 2.3), where all three bunks' open sides face it; the phone torch counts sleepers, one pool of light per count.
+    - Hook: the count ends on the sixth, facing the wall above my bunk.
+    - The building at night.
+    - 3 a.m.: I wake with my phone.
+    - My count, standing: four friends, my empty bed, then the sixth.
+    - Morning: the mattress bare and dusty; the others staring at it.
+    - Recount from my bed: the upper bunk empty, still six.
+    - Close on my bunk: it lies behind me, facing the wall.
+    - Its head turns round to my nape; on the stinger it comes over my shoulder at the lens.
+    - The loop.
+    Reuse Episode 29's breath for the nape. Me `Character_11`, the four friends `Character_05`, `Character_08`, `Character_10` and `Character_12`.
+
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.
   - **Kit:** `src/horror/psx/models.tsx` (`PsxCharacter`, `PsxProp`, `applyPose` with world-axis bone rotations, `ARMS_DOWN`, `SIT`, PS1 materials). Files in use: `public/assets/models/psx/` with `PROVENANCE.md`.
