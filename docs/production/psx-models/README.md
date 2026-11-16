@@ -52,3 +52,22 @@ Contact sheets: `sheet-characters.jpg` (all 79 of `Characters_psx`) and `sheet-p
 **Review of the encoded file:** `ep39-sino-ang-susundo-psx.mp4`, 38,902,333 bytes, SHA-256 `fcaced5dbad9dceadaca8795d10b9a5f4f746f784d815406f7200cf0d6ed320c`; H.264 1080×1920, 1,460 frames (48.67 s); AAC 48.79 s; −14.1 LUFS, sample peak −1.1 dBFS (the v1 mix); first and last frames differ by 5.0/255 on average (the loop). A contact board (one frame every 3 s) was checked for every shot.
 
 **Review of v2:** `assets/videos/ep39-sundo-psx-v2/ep39-sino-ang-susundo-psx.mp4`, 38,913,094 bytes, SHA-256 `53f7439055d4f0361f3a1c224955357db880bfa09c243f442ac176573d5c516b`; 1,460 frames (48.67 s); −14.1 LUFS, sample peak −1.1 dBFS (the v1 mix); loop 5.0/255. A contact board (one frame every 3 s) was checked: no hands through any body in any shot.
+
+## The horror figures (inventory, 2026-11-16)
+
+Rendered as a contact sheet when the user asked for the packs' monsters ("Didnt we have monster/ghost characters please use them if it fits"). All are in `Characters_psx/Models/Killers/` with textures in `Characters_psx/Textures/`; copy only what an episode uses.
+
+| Model | What it looks like | Used |
+|---|---|---|
+| `Character_Monster` | white, emaciated, wide staring eyes, a gaping black grin | Episode 52 (the lechuza) |
+| `Character_Monster_01` | flayed brown body, a face split down one side, sores | |
+| `Character_Monster_02` | white, bulging eyes, the lower face torn in strips, holes in the chest | Episode 48 |
+| `Character_Monster_03` | a woman with long black hair, hollow black eyes, a slack open mouth, a dark wrapped body | Episode 51 v2 (Hasshaku-sama) |
+| `Character_Monster_04` | a gaunt woman in a dark dress, a skull face with a jaw hanging open to the chest | |
+| `Character_Monster_05` | long black hair over the face, a white shirt bloodied down the front | Episodes 41, 45 |
+| `Character_Monster_06` | green rotting ghoul, a skull face with an open mouth | |
+| `Character_Monster_07` | a skull face on a dark ragged body | |
+| `Character_Monster_08` | hairy all over, no face showing | |
+| `Character_Killer`, `_01` … `_10` | masked men: sack, stitched leather, pale skin mask, pig, owl, bear, clown, grinning old-man mask; several bloodied | |
+
+Lesson: about 20 `ThreeCanvas` tiles on one page lose their WebGL contexts (the first tiles render blank); render a sheet in groups of five or so.

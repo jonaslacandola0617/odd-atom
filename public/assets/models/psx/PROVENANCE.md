@@ -64,4 +64,11 @@ The user shared these from their Google Drive folder (2026-11-15) and stated tha
 | `props/derelict-shelf.glb` | `PSX-Derelict-Furniture-Standard.zip` (`glb/shelf.glb`) | `e92fe67e…` |
 | `props/derelict-vase.glb` | `PSX-Derelict-Furniture-Standard.zip` (`glb/vase.glb`) | `aeb035e5…` |
 
+**Added for Episodes 51 v2 and 52 (2026-11-16):** the user asked for the packs' monster figures in place of plain faces ("51 jumpscare isnt really scary because its just the face of a woman"). The packs were re-downloaded from the Drive folder; only the two models in use are copied.
+
+| File | Source archive | SHA-256 |
+|---|---|---|
+| `characters/Character_Monster_03.fbx` + `.png` | `Characters_psx.rar` | `6efdb43f…` / `05d55977…` |
+| `characters/Character_Monster.fbx` + `.png` | `Characters_psx.rar` | `70361692…` / `b4413950…` |
+
 Loaded and posed by `src/horror/psx/models.tsx`.

@@ -96,11 +96,13 @@ const useMatsInner = () =>
 			// a vane, barred dark and pale, its shaft down the middle, a dark tip
 			for (let y = 0; y < 32; y++) {
 				const w = Math.max(1, Math.round(4 * Math.sin((Math.PI * (y + 3)) / 35)));
-				g.fillStyle = y % 7 < 3 ? '#4e4234' : '#2e261e';
-				if (y > 25) g.fillStyle = '#16120e';
+				// soft, ragged and dark (the barred vane read as a checkerboard at this size)
+				g.fillStyle = ['#2a2219', '#2f261c', '#251e16', '#33291e'][(y * 7) % 4];
+				if (y > 24) g.fillStyle = '#120e0a';
+				if ((y * 13) % 5 === 0) g.fillStyle = '#1a140f';
 				g.fillRect(4 - w, y, w * 2, 1);
 			}
-			g.fillStyle = '#5e5242';
+			g.fillStyle = '#3e3428';
 			g.fillRect(4, 0, 1, 25);
 		});
 		const curtain = tex(8, 8, (g) => {
@@ -127,7 +129,8 @@ const useMatsInner = () =>
 			glass: bas('#1a2230'),
 			lit: bas('#ffffff', {map: curtain}),
 			black: bas('#050505'),
-			feather: lam('#ffffff', {map: feather, transparent: true, alphaTest: 0.5, side: THREE.DoubleSide}),
+			wingFeather: lam('#e0d4bc', {map: feather, transparent: true, alphaTest: 0.5, side: THREE.DoubleSide}),
+			feather: lam('#8a8070', {map: feather, transparent: true, alphaTest: 0.5, side: THREE.DoubleSide}),
 			talon: lam('#1a1612'),
 			blood: bas('#7a0806'),
 			vest: lam('#d8e020'),
@@ -296,7 +299,7 @@ const ITH = 1.75;
 export const It: React.FC<{p: V3; ry: number; pose: ItPose; t: number}> = ({p, ry, pose, t}) => {
 	const {turn, open, tilt = 0, lean = 0} = pose;
 	const breathe = 0.04 * Math.sin(t * 2.2);
-	const st = 1 + 0.9 * open; // the arms lengthen as they open
+	const st = 1 + 0.5 * open; // the arms lengthen as they open
 	const P: Pose = merge(
 		{
 			// perched: thighs back and down, shins forward (its knees bent the wrong way), hunched over
@@ -325,9 +328,9 @@ export const It: React.FC<{p: V3; ry: number; pose: ItPose; t: number}> = ({p, r
 	return (
 		<>
 			<PsxCharacter
-				name="Character_11"
+				name="Character_Monster"
 				height={ITH}
-				tint={{color: '#8c7e6c', emissive: '#100c08'}}
+				tint={{color: '#b4ada0', emissive: '#0e0c0a'}}
 				position={[p[0], p[1] - 0.42, p[2]]}
 				rotation={[0, ry, 0]}
 				pose={P}
@@ -344,7 +347,7 @@ export const It: React.FC<{p: V3; ry: number; pose: ItPose; t: number}> = ({p, r
 	);
 };
 
-const NB = 200, NW = 30;
+const NB = 340, NW = 34;
 /** every feather, placed from the bones each frame: a hunched mantle down its back and shoulders, a ruff
  *  round the neck, and a wing's worth hanging from each arm (which push out through the skin as grow rises) */
 const Feathers: React.FC<{pose: ItPose; ry: number}> = ({pose, ry}) => {
@@ -374,9 +377,9 @@ const Feathers: React.FC<{pose: ItPose; ry: number}> = ({pose, ry}) => {
 		const back = new THREE.Vector3().crossVectors(side, axis).normalize(); // points away from its chest
 		for (let i = 0; i < NB; i++) {
 			const [u, v, w] = seeds[i];
-			const along = i < 170 ? -0.25 + u * 1.25 : 0.95 + u * 0.12; // from below the hips; the last few: a ruff at the neck
-			const ang = (v - 0.5) * (i < 120 ? 3.4 : 6.28); // the back, then all the way round
-			const rad = (i < 170 ? 0.2 + 0.08 * Math.max(0, 0.3 - along) : 0.13) * (1 + 0.15 * w);
+			const along = i < 300 ? -0.25 + u * 1.25 : 0.95 + u * 0.12; // from below the hips; the last few: a ruff at the neck
+			const ang = (v - 0.5) * (i < 220 ? 3.4 : 6.28); // the back, then all the way round
+			const rad = (i < 300 ? 0.17 + 0.08 * Math.max(0, 0.3 - along) : 0.13) * (1 + 0.15 * w);
 			const out = back.clone().multiplyScalar(Math.cos(ang)).addScaledVector(side, Math.sin(ang));
 			pos.copy(a).addScaledVector(axis, along * L).addScaledVector(out, rad);
 			// lie the feather down the body, its face outward
@@ -384,8 +387,8 @@ const Feathers: React.FC<{pose: ItPose; ry: number}> = ({pose, ry}) => {
 			const xAx = new THREE.Vector3().crossVectors(down, out).normalize();
 			m.makeBasis(xAx, down.clone().negate(), out);
 			q.setFromRotationMatrix(m);
-			const len = i < 170 ? 0.26 + 0.12 * w : 0.12;
-			sc.set(0.11 + 0.04 * w, len, 1);
+			const len = i < 300 ? 0.2 + 0.1 * w : 0.12;
+			sc.set(0.075 + 0.03 * w, len, 1);
 			m.compose(pos, q, sc);
 			body.current.setMatrixAt(i, m);
 		}
@@ -415,7 +418,7 @@ const Feathers: React.FC<{pose: ItPose; ry: number}> = ({pose, ry}) => {
 				q.setFromRotationMatrix(m);
 				const g = Math.min(1, pose.grow * 1.3 - u * 0.3); // the outer feathers come through last
 				const len = (0.2 + 0.55 * u) * (0.15 + 0.85 * Math.max(0, g)) * (1 + 1.3 * pose.open);
-				sc.set((0.08 + 0.04 * u) * (1 + 0.6 * pose.open), Math.max(0.01, len), 1);
+				sc.set((0.1 + 0.05 * u) * (1 + 0.9 * pose.open), Math.max(0.01, len), 1);
 				m.compose(pos, q, sc);
 				wings.current.setMatrixAt(k++, m);
 			}
@@ -427,7 +430,7 @@ const Feathers: React.FC<{pose: ItPose; ry: number}> = ({pose, ry}) => {
 	return (
 		<>
 			<instancedMesh ref={body} args={[geo, M.feather, NB]} frustumCulled={false} />
-			<instancedMesh ref={wings} args={[geo, M.feather, NW * 2]} frustumCulled={false} />
+			<instancedMesh ref={wings} args={[geo, M.wingFeather, NW * 2]} frustumCulled={false} />
 		</>
 	);
 };

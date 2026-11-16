@@ -7,7 +7,7 @@
 // locked-off through the night. The scare mechanism is imitation: it borrows Grandpa's voice at the door
 // while Grandpa sits beside me, shaking his head. Wrong motion: a figure 2.75 m tall who folds at the waist,
 // her neck stretching down to bring her head to a man's height. The face is shown once (the window).
-// Cast: me Character_10; Grandpa Character_29; Grandma Character_29_Female; her Character_Female_12, pale,
+// Cast: me Character_10; Grandpa Character_29; Grandma Character_29_Female; her Character_Monster_03 (hollow eyes, black hair), pale,
 // stretched, in a built dress and hat.
 import React, {useLayoutEffect, useMemo, useRef} from 'react';
 import {AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame} from 'remotion';
@@ -207,7 +207,7 @@ const Scene: React.FC<{t: number}> = ({t}) => {
 	if (shot === 'hook' || shot === 'grandpa') {
 		const x = -2.7 + 2.7 * ease(lin(t, -1.8, K.hatStop));
 		const walking = t < K.hatStop;
-		const y = 0.12 + 0.17 * ease(lin(t, K.peek, K.peek + 1.2));
+		const y = 0.12 + 0.4 * ease(lin(t, K.peek, K.peek + 1.2));
 		const roll = 0.32 * ease(lin(t, K.peek + 1.6, K.peek + 2.4));
 		const pale = shot === 'grandpa' ? ease(lin(t, K.grandpaTurn + 1.2, K.grandpaTurn + 2.6)) : 0;
 		return (
@@ -369,15 +369,20 @@ const ShadowDoor: React.FC<{t: number}> = ({t}) => {
 	return <SlidingDoor open={0} paperMat={mat} />;
 };
 /** her face at the window, the paper torn away: her body lies along the outside of the wall (out of sight),
- *  so the head comes in sideways; black eyes and a too-wide dark mouth over the PSX face, placed from the
- *  head bones (Head, HeadTop_End) every frame */
+ *  so the head comes in sideways; Monster_03's own hollow eyes and open mouth, and black blood that runs
+ *  straight down (world down, across her sideways face) from both eyes and the mouth, longer the longer we hold */
 const FB = {head: new THREE.Vector3(), top: new THREE.Vector3(), ok: false};
+// measured on Monster_03 with markers: its sockets and open mouth in the face frame
+const BLOOD_SRC: V3[] = [[0.1, 0.15, 0.21], [0.0, 0.12, 0.21], [0.069, -0.01, 0.21]];
 const Face: React.FC<{t: number}> = ({t}) => {
 	const M = useM();
 	const head: V3 = [W1[0] + 0.12, 1.36, -2.24];
 	const breathe = 0.004 * Math.sin(t * 3);
 	const slide = 0.06 * (1 - ease(lin(t, K.tear - 0.1, K.tear + 0.9))); // she settles to the glass
 	const feat = React.useRef<THREE.Group>(null);
+	const drips = React.useRef<(THREE.Mesh | null)[]>([]);
+	const ooze = [0.01 + 0.075 * ease(lin(t, K.tear + 0.2, K.tear + 2.4)), 0.01 + 0.09 * ease(lin(t, K.tear + 0.5, K.tear + 2.6)), 0.015 + 0.11 * ease(lin(t, K.tear + 0.1, K.tear + 2.2))];
+	const beads = React.useRef<(THREE.Mesh | null)[]>([]);
 	const place = () => {
 		const g = feat.current;
 		if (!g || !FB.ok) return;
@@ -391,6 +396,23 @@ const Face: React.FC<{t: number}> = ({t}) => {
 		g.position.copy(FB.head).addScaledVector(up, 0.35 * len);
 		g.scale.setScalar(len / 0.276);
 		g.visible = true;
+		g.updateMatrixWorld(true);
+		BLOOD_SRC.forEach((src, i) => {
+			const d = drips.current[i];
+			if (!d) return;
+			const w = g.localToWorld(new THREE.Vector3(...src));
+			const parent = d.parent!;
+			parent.updateMatrixWorld(true);
+			const l = parent.worldToLocal(w.clone());
+			d.position.set(l.x, l.y - ooze[i] / 2, l.z + 0.002);
+			d.scale.set(1, ooze[i], 1);
+			d.visible = true;
+			const bd = beads.current[i];
+			if (bd) {
+				bd.position.set(l.x, l.y - ooze[i], l.z + 0.003);
+				bd.visible = true;
+			}
+		});
 	};
 	useFrame(place, -1);
 	React.useLayoutEffect(place);
@@ -399,9 +421,9 @@ const Face: React.FC<{t: number}> = ({t}) => {
 			<pointLight position={[W1[0], 1.36, -1.7]} intensity={1.6} distance={1.4} decay={1} color="#e8e0d0" />
 			<group position={[0, breathe, slide]}>
 				<PsxCharacter
-					name="Character_Female_12"
+					name="Character_Monster_03"
 					height={2.75}
-					tint={{color: '#dcdcd4', emissive: '#2a2a26'}}
+					tint={{color: '#e8e6de', emissive: '#22221e'}}
 					position={[head[0] + 2.432, head[1], head[2]]}
 					rotation={[0, 0, Math.PI / 2]}
 					pose={ARMS_DOWN}
@@ -413,16 +435,22 @@ const Face: React.FC<{t: number}> = ({t}) => {
 				/>
 				{/* in the face's own frame: x across, y up the head, z out of the face */}
 				<group ref={feat} visible={false}>
-					<Box p={[0.029 + 0.062, 0.067, 0.155]} s={[0.044, 0.032, 0.01]} m={M.eye} />
-					<Box p={[0.029 - 0.062, 0.067, 0.155]} s={[0.044, 0.032, 0.01]} m={M.eye} />
-					<Box p={[0.029, -0.075, 0.152]} s={[0.25, 0.03, 0.01]} m={M.mouth} />
-					<Box p={[0.029 + 0.125, -0.06, 0.15]} s={[0.02, 0.04, 0.01]} m={M.mouth} />
-					<Box p={[0.029 - 0.125, -0.06, 0.15]} s={[0.02, 0.04, 0.01]} m={M.mouth} />
 					{/* her hat brim, crushed against the glass above her head */}
 					<mesh position={[0, 0.2, -0.02]} material={M.hat}>
 						<cylinderGeometry args={[0.36, 0.36, 0.025, 14]} />
 					</mesh>
 				</group>
+				{/* the blood, in world down */}
+				{BLOOD_SRC.map((_, i) => (
+					<mesh key={i} ref={(r) => (drips.current[i] = r)} visible={false} material={M.blood}>
+						<boxGeometry args={[i === 2 ? 0.011 : 0.007, 1, 0.004]} />
+					</mesh>
+				))}
+				{BLOOD_SRC.map((_, i) => (
+					<mesh key={'b' + i} ref={(r) => (beads.current[i] = r)} visible={false} material={M.blood}>
+						<boxGeometry args={[i === 2 ? 0.018 : 0.012, 0.014, 0.005]} />
+					</mesh>
+				))}
 			</group>
 		</>
 	);

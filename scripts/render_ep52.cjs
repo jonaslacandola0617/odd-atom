@@ -1,6 +1,6 @@
 // Render stills or the final MP4 for Episode 52 "The Branch".
-//   node scripts/render_ep50.cjs --stills [--frames 30,120]
-//   node scripts/render_ep50.cjs [--audio-only-remux]
+//   node scripts/render_ep52.cjs --stills [--frames 30,120]
+//   node scripts/render_ep52.cjs [--audio-only-remux]
 const fs = require('node:fs'), path = require('node:path');
 const {bundle} = require('@remotion/bundler');
 const {selectComposition, renderStill, renderMedia, openBrowser} = require('@remotion/renderer');

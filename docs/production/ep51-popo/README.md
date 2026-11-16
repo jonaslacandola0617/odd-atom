@@ -7,7 +7,7 @@
 ## Uniqueness (Season 6 table)
 
 - **Mechanism:** imitation (it borrows Grandpa's voice).
-- **Entity:** a woman 2.75 m tall (`Character_Female_12`, pale, stretched), a built white dress and a wide hat with a black band; she folds at the waist and her neck stretches down to bring her head to a man's height.
+- **Entity:** a woman 2.75 m tall (`Character_Monster_03` in v2: long black hair, hollow black eyes, a slack open mouth; v1 used `Character_Female_12`), a built white dress and a wide hat with a black band; she folds at the waist and her neck stretches down to bring her head to a man's height.
 - **Form:** daylight bookends (overexposed summer) and a sealed room, held locked-off through the night.
 - **Scares:** (1) the hat stops, the cicadas die, her eyes over the hedge; (2) the salt blackens and nails tap every window at once; (3) the shadow folds down on the door's paper while Grandpa's voice asks to come in; (4) the newspaper tears: her sideways face, black eyes; (5) dawn, bent double beside the car, her hand at my window.
 - **Look:** bleached overexposed day with a pale bloom edge; dusk sepia; yellowed-newspaper night under one bulb; cold valley mist at dawn. Serif captions; the door's voice in pale yellow italics.
@@ -59,3 +59,12 @@ Delivered; no user approval and no listening pass.
 ## Review of the encoded file
 
 `assets/videos/ep51-popo-v1/ep51-po-po-po.mp4`, 47838976 bytes, SHA-256 `abe34a6d13653b19325d7f1eeefd16675bc3b314f9b268219d51769fe3b67cad`; H.264 1080×1920, 1,797 frames (59.9 s); AAC 59.88 s; −14.0 LUFS; last frame against frame 0: 1.8/255 mean difference (the loop). A contact board (one frame every 3 s) was checked for every shot.
+
+## v2 (2026-11-16): a monster's face
+
+The user on v1: "Didnt we have monster/ghost characters please use them if it fits 51 jumpscare isnt really scary because its just the face of a woman bro nothings scary about that".
+- She is now `Character_Monster_03` everywhere (the hedge peek, the window, the walk beside the car), with the same height, fold, dress and hat; the tint is lighter (`#f2f0ea`) so her face stays white against the hollow eyes.
+- The hedge peek rises 0.4 m (not 0.17 m): her face clears the hedge under the hat.
+- The window: the model's own hollow eyes and open mouth replace the drawn boxes; blood runs straight down (world down, across her sideways face) from both eyes and the mouth, lengthening over the held shot, with a bead at each tip. The sources were placed by rendering coloured markers in the face's frame (Monster_03's eyes sit at about (0.10, 0.15) and (0.0, 0.12), its mouth at (0.07, −0.01)).
+- Timing is unchanged, so the checked v1 mix (`public/assets/audio/ep51-popo-v1/mix.m4a`) is muxed again.
+- v1 is kept.

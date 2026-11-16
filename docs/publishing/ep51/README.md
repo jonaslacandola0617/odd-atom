@@ -1,6 +1,6 @@
 # Episode 51 publishing kit: "Po Po Po" (Season 6 opener)
 
-**Upload this file:** `assets/videos/ep51-popo-v1/ep51-po-po-po.mp4` (59.9 s, 1080×1920; it loops back to the white hat gliding along the hedge). Its poster is `ep51-po-po-po-poster.png`.
+**Upload this file:** `assets/videos/ep51-popo-v2/ep51-po-po-po.mp4` (v2, her monster's face; v1 is kept) (59.9 s, 1080×1920; it loops back to the white hat gliding along the hedge). Its poster is `ep51-po-po-po-poster.png`.
 These are drafts to paste; nothing has been posted. No view counts are guaranteed.
 
 **A personal experience shared online, retold in our own words.** Every post says "based on experiences shared online". Nothing is claimed as verified; no real village, family or shrine is named.

@@ -5,7 +5,7 @@
 //   (z −2) at x −0.5, W2 in the left wall (x −2) at z −1.2, both papered over with newspaper; the sliding
 //   paper door in the right wall (x 2) at z −0.45..0.45. Salt bowls in the four corners and one by the futon.
 // - THE ROAD (dawn): a valley road along −z, fields, mist, poles; the family car (the PSX car pack's Car4).
-// - HER: the user's PSX Character_Female_12, pale, stretched to 2.75 m, in a built white dress and a wide
+// - HER: the user's PSX Character_Monster_03 (long black hair, hollow eyes), pale, stretched to 2.75 m, in a built white dress and a wide
 //   white hat; she folds at the waist. She is never shown as a real person.
 import React, {createContext, useContext, useMemo} from 'react';
 import * as THREE from 'three';
@@ -125,6 +125,7 @@ const useMatsInner = () =>
 			hatband: lam('#16120e'),
 			mouth: bas('#050404'),
 			eye: bas('#000000'),
+			blood: bas('#6e0a0c'),
 			seat: lam('#4a4a52'),
 			trim: lam('#2e2e34'),
 		};
@@ -388,7 +389,8 @@ export const Car: React.FC<{z: number; bump: number}> = ({z, bump}) => (
 
 // ------------------------------------------------------------------ her
 export const HER_H = 2.75;
-const HER_PALE = {color: '#e8e8e2', emissive: '#55554f'};
+// Monster_03's own face (hollow black eyes, a slack open mouth) with the pale cast kept light so the face stays white
+const HER_PALE = {color: '#f2f0ea', emissive: '#2c2c28'};
 export type HerPose = {fold: number; drop?: number; headYaw?: number; headRoll?: number; stride?: number; armsOut?: number};
 /** where her head and hips are, read each time she is drawn (the hat and the skirt follow) */
 const BONES = {head: new THREE.Vector3(), top: new THREE.Vector3(), hips: new THREE.Vector3(), ready: false};
@@ -416,7 +418,7 @@ export const Her: React.FC<{p: V3; ry: number; pose: HerPose; t: number; reach?:
 	return (
 		<>
 			<PsxCharacter
-				name="Character_Female_12"
+				name="Character_Monster_03"
 				height={HER_H}
 				tint={HER_PALE}
 				position={p}

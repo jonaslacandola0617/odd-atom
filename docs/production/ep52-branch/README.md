@@ -7,7 +7,7 @@
 ## Uniqueness (Season 6 table)
 
 - **Mechanism:** transformation, caught halfway.
-- **Entity:** a man (`Character_11`, the grinning face, tinted grey-brown) with an owl's mantle growing through him: about 200 feathers placed from his bones every frame, a ruff, wings hanging from his arms that unfold far too long, talons on his toes, knees bent the wrong way, perched.
+- **Entity:** `Character_Monster` (white, emaciated, wide staring eyes, a gaping black grin; it still reads as a man's face, gone wrong) with an owl's mantle growing through it: about 340 dark feathers placed from its bones every frame, a ruff, wings hanging from its arms that unfold toward the lens in pale feathers that catch the work light, talons on its toes, knees bent the wrong way, perched.
 - **Form:** a found phone video (REC, timer, focus box, compression blocks, exposure pumping), ending in the phone's gallery and a clip from the branch.
 - **Scares:** (1) the cold open is the worst: his face in the work light; (2) the neighbour's silent point, something shifts in the dark leaves; (3) the light clicks on: a hunched feathered back; its head swivels round: a man's face, held; (4) its legs are a man's legs; the skin of its forearm splits as quills push through, blood drips (**gore**); (5) the wings snap open at the lens; the phone falls; (6) quiet and wrong: a clip he never took, from the branch, looking down at him.
 - **Look:** a phone at night: sodium orange, saturated; the work light blows it cold and bright; 8×8 compression blocks; the gallery's clean UI.
@@ -50,3 +50,11 @@
 ## Status
 
 Delivered; no user approval and no listening pass.
+
+## Revision before delivery (2026-11-16)
+
+The first render used `Character_11` (a smiling man) under barred feathers that read as a striped blanket. The user, on Episode 51, said a plain human face is not scary and asked for the packs' monster figures where they fit, so before delivery:
+- the creature is `Character_Monster` (tint `#b4ada0`);
+- the mantle is 340 smaller, darker, unbarred feathers;
+- the wing feathers are a lighter material (`#e0d4bc`) so the wing spreads across the lens in the work light, and the arms stretch less (×1.5, not ×1.9), so the stinger is a wing with its face peering over it rather than one long pale limb.
+Timing and the mix are unchanged.

@@ -1,13 +1,13 @@
 // Render stills or the final MP4 for Episode 51 "Po Po Po".
-//   node scripts/render_ep50.cjs --stills [--frames 30,120]
-//   node scripts/render_ep50.cjs [--audio-only-remux]
+//   node scripts/render_ep51.cjs --stills [--frames 30,120]
+//   node scripts/render_ep51.cjs [--audio-only-remux]
 const fs = require('node:fs'), path = require('node:path');
 const {bundle} = require('@remotion/bundler');
 const {selectComposition, renderStill, renderMedia, openBrowser} = require('@remotion/renderer');
 const {execFileSync} = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const id = 'Ep51PoPoPo';
-const tag = 'ep51-popo-v1';
+const tag = 'ep51-popo-v2';
 const pick = () => {
 	const c = [process.env.REMOTION_BROWSER, '/usr/bin/chromium', ...(fs.existsSync('/opt/pw-browsers') ? fs.readdirSync('/opt/pw-browsers').filter((d) => d.startsWith('chromium_headless_shell')).map((d) => {
 		const sub = fs.readdirSync(path.join('/opt/pw-browsers', d)).find((s) => s.startsWith('chrome-headless-shell'));
@@ -37,7 +37,7 @@ const pick = () => {
 		let mark = -1;
 		await renderMedia({serveUrl, composition, inputProps, codec: 'h264', pixelFormat: 'yuv420p', crf: 16, audioBitrate: '192k', outputLocation: tmp, puppeteerInstance: browser, concurrency: 3, chromiumOptions: {gl: 'swangle'}, logLevel: 'error',
 			onProgress: ({renderedFrames}) => { const n = Math.floor(renderedFrames / 100); if (n !== mark) { mark = n; console.log('rendered', renderedFrames, '/', composition.durationInFrames); } }});
-		const dest = path.join(root, 'assets/videos/ep51-popo-v1');
+		const dest = path.join(root, 'assets/videos', tag);
 		fs.mkdirSync(dest, {recursive: true});
 		const normalize = 'scale=in_range=pc:out_range=tv:in_color_matrix=bt601:out_color_matrix=bt709,format=yuv420p';
 		// Two-pass 6.2 Mbit/s: the full-screen static and tape noise made CRF 22 come out at 148 MB
