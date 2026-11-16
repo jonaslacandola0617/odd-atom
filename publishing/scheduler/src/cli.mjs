@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // After Sign-Off scheduler. Commands:
 //   login                      open Chrome so you can sign in to YouTube and TikTok (once)
-//   download [--all]           download the videos for the next 7 days (or all 20)
+//   download [--all]           download the videos for the next 7 days (or all)
 //   plan --start YYYY-MM-DD [--order mixed|1-20|11-20,1-10] [--skip 1-2] [--seed text] [--yt 20:30] [--tt 21:30]
 //   check                      check the schedule for mistakes
 //   schedule [--days 7] [--only youtube|tiktok] [--ep N] [--auto] [--tiktok-days 10]
@@ -65,7 +65,7 @@ async function download(eps) {
   fs.mkdirSync(VIDEOS_DIR, { recursive: true });
   for (const e of eps) {
     const dest = videoPath(e);
-    const url = schedule.videoSource + e.file.split('/').map(encodeURIComponent).join('/');
+    const url = (e.videoSource || schedule.videoSource) + e.file.split('/').map(encodeURIComponent).join('/');
     const head = await fetch(url, { method: 'HEAD' });
     const size = Number(head.headers.get('content-length'));
     if (fs.existsSync(dest) && fs.statSync(dest).size === size) { console.log(`✓ have Episode ${e.ep}`); continue; }
@@ -81,7 +81,12 @@ async function download(eps) {
 
 // ---------- plan ----------
 function parseOrder(spec) {
-  if (!spec || spec === 'mixed') return [1, 11, 2, 12, 3, 13, 4, 14, 5, 15, 6, 16, 7, 17, 8, 18, 9, 19, 10, 20];
+  if (!spec || spec === 'mixed') {
+    // Seasons 1/2 alternating, then Seasons 3/4 alternating (English/Taglish), then Season 5.
+    const zip = (a, b) => a.flatMap((x, i) => [x, b[i]]);
+    const r = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
+    return [...zip(r(1, 10), r(11, 20)), ...zip(r(21, 30), r(31, 40)), ...r(41, 50)];
+  }
   return spec.split(',').flatMap((part) => {
     const [a, b] = part.split('-').map(Number);
     if (!b) return [a];
@@ -158,8 +163,12 @@ function plan() {
       const idx = queue.findIndex((n) => !(byEp.get(n).notOn || []).includes(ymd.slice(5)));
       if (idx >= 0) {
         const e = byEp.get(queue.splice(idx, 1)[0]);
-        e.youtube.publishAt = `${ymd}T${yt}:00${schedule.defaults.utcOffset}`;
-        e.tiktok.publishAt = `${ymd}T${tt}:00${schedule.defaults.utcOffset}`;
+        // Season 3 (English, global audience) goes out at US-evening times.
+        const g = e.audience === 'global' && !flags.yt && !flags.tt;
+        const ytT = g ? schedule.defaults.globalYoutubeTime || yt : yt;
+        const ttT = g ? schedule.defaults.globalTiktokTime || tt : tt;
+        e.youtube.publishAt = `${ymd}T${ytT}:00${schedule.defaults.utcOffset}`;
+        e.tiktok.publishAt = `${ymd}T${ttT}:00${schedule.defaults.utcOffset}`;
         console.log(`${ymd} ${names[dow]}  Episode ${String(e.ep).padStart(2)}  ${e.story}`);
       }
     }

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // After Sign-Off Facebook scheduler. Commands:
 //   login                      open Chrome so you can sign in to Facebook / Meta Business Suite (once)
-//   download [--all]           download the videos that are due (or all 20)
-//   plan --start YYYY-MM-DD [--order 11-20,1-10] [--skip 1-2] [--seed text] [--time 20:00]
+//   download [--all]           download the videos that are due (or all)
+//   plan --start YYYY-MM-DD [--order 11-20,1-10,31-50,21-30] [--skip 1-2] [--seed text] [--time 20:00]
 //   check                      check the schedule for mistakes
 //   schedule [--days 60] [--max-days 28] [--ep N] [--auto]
 //   status                     show what is scheduled
@@ -63,7 +63,7 @@ async function download(eps) {
   fs.mkdirSync(VIDEOS_DIR, { recursive: true });
   for (const e of eps) {
     const dest = videoPath(e);
-    const url = schedule.videoSource + e.file.split('/').map(encodeURIComponent).join('/');
+    const url = (e.videoSource || schedule.videoSource) + e.file.split('/').map(encodeURIComponent).join('/');
     const head = await fetch(url, { method: 'HEAD' });
     const size = Number(head.headers.get('content-length'));
     if (fs.existsSync(dest) && fs.statSync(dest).size === size) { console.log(`✓ have Episode ${e.ep}`); continue; }
@@ -79,7 +79,7 @@ async function download(eps) {
 
 // ---------- plan ----------
 function parseOrder(spec) {
-  return String(spec || '11-20,1-10').split(',').flatMap((part) => {
+  return String(spec || '11-20,1-10,31-50,21-30').split(',').flatMap((part) => {
     const [a, b] = part.split('-').map(Number);
     if (!b) return [a];
     const step = a <= b ? 1 : -1;

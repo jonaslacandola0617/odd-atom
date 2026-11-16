@@ -35,10 +35,11 @@ Double-click **`STATUS.bat`** to see what is scheduled.
 
 `schedule.json` holds all 20 episodes. Each caption is the YouTube title, a blank line, then the YouTube description, with `#shorts` changed to `#reels`. You can edit any of them in Notepad.
 
-The order is **the Philippine stories first (Episodes 11–20), then Season 1 (Episodes 1–10)**, one Reel per posting day at **8:00 pm Philippine time**. Each week, **1 or 2 random days are left out, never a Monday**. It starts **Monday 16 November 2026**:
+All 50 episodes are in it, one Reel per posting day at **8:00 pm Philippine time**, with each week's **1 or 2 random days left out, never a Monday**. Philippine stories always come first:
 
-- 11–20: 16 to 29 November
-- 1–10: 30 November to 13 December
+- **Episodes 11–20, then 1–10:** 16 November to 13 December 2026.
+- **Episodes 31–50** (Seasons 4 and 5, Philippine stories): 14 December 2026 to 8 January 2027.
+- **Episodes 21–30** (Season 3, real cases around the world, in English): 9 to 21 January 2027.
 
 If your Page will be ready later, re-plan from that date. Open a Command Prompt in the folder and run, for example:
 

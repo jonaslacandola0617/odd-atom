@@ -16,7 +16,7 @@ It costs nothing and needs no API keys or developer accounts. It never sees your
 2. Double-click **`2-LOGIN.bat`**. A Chrome window opens with a separate "After Sign-Off" profile (your normal Chrome is untouched).
    - Sign in to **YouTube Studio** with the channel's Google account, and to **TikTok**.
    - In YouTube Studio, set the language to **English** (profile picture → Language). The tool reads the English labels and dates.
-   - In YouTube Studio, create two playlists once: **Season 1: After Sign-Off** and **Season 2: Kwentong Kababalaghan**. If they don't exist, the tool skips that step.
+   - In YouTube Studio, create these playlists once (exact names): **Season 1: After Sign-Off**, **Season 2: Kwentong Kababalaghan**, **Season 3: Real Cases Around the World**, **Season 4: Kwentong Pinoy** and **Season 5: Mga Karanasan**. If one doesn't exist, the tool skips that step.
    - Close the Chrome window. You stay signed in for next time.
 
 ## Scheduling
@@ -40,7 +40,11 @@ Double-click **`STATUS.bat`** to see what is scheduled. Once videos are live, it
 
 `schedule.json` holds all 20 episodes: the video file, YouTube title, description, tags and playlist, and the TikTok caption, all from the posting kits. Edit it with Notepad if you want to change any text.
 
-It alternates Season 1 and Season 2 (1, 11, 2, 12 …), with YouTube at **8:30 pm** and TikTok at **9:30 pm**, Philippine time. Episodes 1, 11 and 2 are on 16, 17 and 18 November. The rest run from **Thursday 19 November to Wednesday 9 December**. Each week **1 or 2 random days are left out (never a Monday)**, so the channel doesn't post like a machine every single day. Episode 20 (the Manila Film Center) is never put on 17 November.
+All 50 episodes are in it, with YouTube at **8:30 pm** and TikTok at **9:30 pm** Philippine time, one per posting day, and each week **1 or 2 random days left out (never a Monday)**. Episode 20 (the Manila Film Center) is never put on 17 November.
+
+- **Episodes 1–20** (Seasons 1 and 2, alternating): 16 November to 9 December 2026.
+- **Episodes 21–50**: Season 3 (English, real cases around the world) alternating with Season 4 (Taglish), then Season 5, from **Saturday 12 December 2026 to Monday 18 January 2027**.
+- **Season 3 goes out at US-evening times**, as its posting kit recommends: YouTube at **8:30 am** and TikTok at **9:30 am** Philippine time, which is 7:30 and 8:30 pm US Eastern the evening before.
 
 To re-plan, open a Command Prompt in the folder and run, for example:
 

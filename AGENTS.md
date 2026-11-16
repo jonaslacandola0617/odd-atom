@@ -1,5 +1,12 @@
 # Video delivery
 
+- **Episodes 21–50 added to both schedulers (2026-11-16):** the user said the new videos are done and asked for "the same auto posting script for them".
+  - **Source:** `publishing/tools/add_episodes.py <ref> 21 50` reads each `docs/publishing/epNN/README.md` from `origin/claude/season-4-ph-slate` (commit `d207c1e`, which includes the videos branch). It takes the upload file, the first A/B title, the YouTube description, the TikTok caption, the cover text and the pinned comment. Per-episode `videoSource` downloads come from that commit.
+  - **Playlists** (the user creates them): Season 3: Real Cases Around the World, Season 4: Kwentong Pinoy, Season 5: Mga Karanasan.
+  - **YouTube/TikTok:** order 21,31,22,32 … 30,40 then 41–50, from Sat 12 Dec 2026 to Mon 18 Jan 2027, with 1–2 random days off a week, never Monday. Season 3 (`audience: global`) goes out at YouTube 08:30 and TikTok 09:30 PH time (7:30/8:30 pm US Eastern), per its kit; Seasons 4 and 5 at 20:30/21:30.
+  - **Facebook:** 31–50 then 21–30 at 20:00, from Mon 14 Dec 2026 to Thu 21 Jan 2027.
+  - **Status:** Episodes 1–20 keep their dates; nothing has been posted or scheduled by Claude. Only Episode 41 has user approval.
+
 - **Facebook scheduler (2026-11-12):** the user asked for a separate scheduler for a new Facebook Page, with the Philippine stories first and then Season 1.
   - **Tool:** `publishing/facebook-scheduler/` (download `publishing/after-sign-off-facebook-scheduler.zip`). It drives the same Chrome profile through Meta Business Suite's Reels composer (`business.facebook.com/latest/reels_composer`): upload, caption (a pasted `paste` event), Meta's AI label if the page has one (Business Suite's Reels composer has none), Next to the Share step, Schedule, date (mm/dd/yyyy, then "Nov 16, 2026") and time (hour/minute/meridiem spinbuttons or one "8:00 PM" box).
   - **Recording:** a Reel is recorded only after a "scheduled" message or a return to the content/planner page; otherwise the tool asks the user. The scheduling window is assumed to be about 28 days (`--max-days`).
