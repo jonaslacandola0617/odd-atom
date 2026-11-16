@@ -1,0 +1,157 @@
+{
+  "episode": "Ep48Bedspace",
+  "duration_seconds": 58.94,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep48-take1.mp3",
+    "sha256": "9d1fd7bc32f9098cdaff8d9db239a524faea7fce05ab3712dc03a9b5b6460e55",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+    "voice_name": "Juanito (ElevenLabs library voice, Filipino)",
+    "credits": "both failed: quota exceeded (not charged)",
+    "prompt": "docs/production/ep48-bedspace/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone, a detuned string cluster with tremolo, bowed metal at the empty upper bunk, a heartbeat from the bed shot to the snap, a synthesized stinger doubling the ElevenLabs one (scripts/horror_score.py); loop-quantised; it drops out at the bare mattress",
+    "a phone-torch click on every count, the sheets, a breath across the seam (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "58XmqiblL5aw1dUC52LC",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "roomloop-b1": {
+        "path": "public/assets/audio/eleven-sfx/ep48-roomloop-b1.mp3",
+        "sha256": "d0957982d495578e4839e26d74d4bd578ef1e7765ccf77d1d90c849087402dbc"
+      },
+      "ep40-cicadas-1": {
+        "path": "public/assets/audio/eleven-sfx/ep40-cicadas-1.mp3",
+        "sha256": "4718fb11aebf5cabc71c911ada327e2dd20e96bf57bfee9b55ff6b4ee936f6ab"
+      },
+      "creak-1": {
+        "path": "public/assets/audio/eleven-sfx/ep48-creak-1.mp3",
+        "sha256": "bb484d52c002e13eb8d21ab2563124b296f8d95992c7219564436837f89d40fc"
+      },
+      "creak-2": {
+        "path": "public/assets/audio/eleven-sfx/ep48-creak-2.mp3",
+        "sha256": "141422f0619664d46efdc97f36d2dd052647d272637f406c45aad9e948d3ed03"
+      },
+      "creak-3": {
+        "path": "public/assets/audio/eleven-sfx/ep48-creak-3.mp3",
+        "sha256": "8dd87ee7d33ac698780d3ae32bccce0cbdf99486c4788c624d23f5f4eecefc4b"
+      },
+      "creak-4": {
+        "path": "public/assets/audio/eleven-sfx/ep48-creak-4.mp3",
+        "sha256": "9b91f652786cab7a74bfe3b2cf10138e0a5a1d64ff94c050c8a3b7a1cc90fd4f"
+      },
+      "ep29-breath-4": {
+        "path": "public/assets/audio/eleven-sfx/ep29-breath-4.mp3",
+        "sha256": "4135f53fd06bebb729d4e3d143e0c66fdb94c321aad7c8e859dd9cc42594684d"
+      },
+      "ep41-neck-4": {
+        "path": "public/assets/audio/eleven-sfx/ep41-neck-4.mp3",
+        "sha256": "50999f245cd2472093f6363e47106c0ea976067f5eeb450d9a5e4b9b80058b86"
+      },
+      "ep41-drone-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-drone-2.mp3",
+        "sha256": "026295eb892b77b9a72e46751e1206c85acd9c810cc33f836aab46e153ba03ef"
+      },
+      "ep41-musicbox-2": {
+        "path": "public/assets/audio/eleven-sfx/ep41-musicbox-2.mp3",
+        "sha256": "80252fa4f2b960b32f2d1766182f7c7e56cf301b8ea16bf5fdf077011de134e3"
+      },
+      "ep41-riser-3": {
+        "path": "public/assets/audio/eleven-sfx/ep41-riser-3.mp3",
+        "sha256": "c3343fcf878e8764310704e96de452131b8a93aca479db484b1b6247d7db9540"
+      },
+      "ep41-stinger-4": {
+        "path": "public/assets/audio/eleven-sfx/ep41-stinger-4.mp3",
+        "sha256": "b52c3dcc1e9c3d8c5ead98cc481f481bc998b8c9245b004b8193cfa6f406c67e"
+      }
+    },
+    "generated": "old account flow hGPDgw0ks4oe2SVkpIjf: a bunk creak 4 s (4 variations) and the boarding room 20 s loop (1 of 4; the rest failed on quota); new account flow 58XmqiblL5aw1dUC52LC: the boarding room 20 s loop again (4 variations, about 268 credits)",
+    "reused": "Episode 29 breath-4, Episode 40 cicadas-1, and Episode 41 variations (drone-2, stinger-4, riser-3, musicbox-2, neck-4)",
+    "note": "picked by measurement (RMS, peak), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    55.940000000000005
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.3,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -23.5,
+    "last_quarter_second": -25.3
+  },
+  "limiter": "tanh soft limiter, ceiling -3.70 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 9.9,
+      "phone_band_voice_minus_all_db": 15.9,
+      "voice_minus_bed_db": 9.9
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 12.1,
+      "phone_band_voice_minus_all_db": 15.4,
+      "voice_minus_bed_db": 12.1
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 10.8,
+      "phone_band_voice_minus_all_db": 14.8,
+      "voice_minus_bed_db": 10.8
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 11.3,
+      "phone_band_voice_minus_all_db": 16.1,
+      "voice_minus_bed_db": 11.3
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 16.3,
+      "phone_band_voice_minus_all_db": 16.7,
+      "voice_minus_bed_db": 16.3
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 9.9,
+      "phone_band_voice_minus_all_db": 11.8,
+      "voice_minus_bed_db": 9.9
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 8.1,
+      "phone_band_voice_minus_all_db": 11.2,
+      "voice_minus_bed_db": 8.1
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 5.2,
+      "phone_band_voice_minus_all_db": 8.1,
+      "voice_minus_bed_db": 5.2
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.6,
+    "music_minus_voice_in_gaps_db": -3.9,
+    "music_share_of_gaps_seconds": 14.0
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

@@ -200,25 +200,31 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 48 "Bedspace" (one more sleeper than there are of us).
 
-- **Episode 48 "Bedspace" (in progress, 2026-11-16):** the user asked for the "next ep". Five students in an old Manila boarding house count six sleepers; the sixth, facing the wall in the bunk above mine, ends up in my bed behind me, facing me.
-  - **Blocked on credits:** the ElevenLabs account ran out (36 credits left; Juanito's narration needs about 740 per take). Asked how to proceed, the user chose **"I'll top up or wait"**.
-  - **Account switch (user, 2026-11-16):** "Save your audios/sfx to repo im going to switch account with 40K creds". Before the switch, every ElevenLabs generation was confirmed in Git and on the remote: 397 files in `eleven-sfx/`, 86 in `eleven-takes/`, and all 188 files named in the episodes' `prompt.json` present.
-  - **Resuming:** on the new account the old flows (`hGPDgw0ks4oe2SVkpIjf` and earlier) won't open, so start a **new flow**. Regenerate the narration (Juanito `u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`, both takes) and the room loop from the prompts in `docs/production/ep48-bedspace/prompt.json`. Juanito is a library voice, so check that it is available on the new account (`creative_list_voices`) before generating. The bunk creaks and the one room loop already in Git can be reused.
-  - **Done so far:**
-    - `src/horror/ep48/world.tsx`: the room with three double-decks (A along the left wall, mine below and the sixth above; C and D along the back wall), the window, the fan, the phone-torch cone and pool (`Torch`), the dust motes and the building;
-    - `Character_Monster_02` copied and added to `PROVENANCE.md` for the sixth sleeper;
-    - one room loop and four bunk creaks downloaded and in Git.
-  - **Plan:** "the count from the corner": a ceiling-corner camera at (2.8, 2.65, 2.3), where all three bunks' open sides face it; the phone torch counts sleepers, one pool of light per count.
+- **Episode 48 "Bedspace" (2026-11-16):** the user asked for the "next ep". Five students in an old Manila boarding house count six sleepers; the sixth, facing the wall in the bunk above mine, ends up in my bed behind me, facing me, retold. `Ep48Bedspace` / `src/horror/ep48/` is 58.94 s, in Taglish, with the score and seamless loop.
+  - **Account switch:** the old ElevenLabs account ran out mid-episode; the user switched to a new account ("Save your audios/sfx to repo im going to switch account with 40K creds"; "Done you may continue"). Old flows (`hGPDgw0ks4oe2SVkpIjf` and earlier) don't open on it, so **start a new flow every episode**. Everything generated on both accounts is in Git.
+  - **Form:** "the count from the corner": a ceiling-corner camera where all three bunks' open sides face it; the phone torch counts sleepers, one pool of light per count.
     - Hook: the count ends on the sixth, facing the wall above my bunk.
-    - The building at night.
-    - 3 a.m.: I wake with my phone.
-    - My count, standing: four friends, my empty bed, then the sixth.
-    - Morning: the mattress bare and dusty; the others staring at it.
-    - Recount from my bed: the upper bunk empty, still six.
-    - Close on my bunk: it lies behind me, facing the wall.
-    - Its head turns round to my nape; on the stinger it comes over my shoulder at the lens.
+    - The building at night; 3 a.m., I wake with my phone.
+    - My count, standing, a click on every number: four friends, my empty bed, the sixth.
+    - Morning: the mattress bare and dusty; the four stare at it.
+    - The recount: the upper bunk empty, still six (the last count lands on my bed).
+    - Close on my bunk: it lies behind me; its head turns round to my nape in snaps; on the stinger it comes over my shoulder at the lens.
     - The loop.
-    Reuse Episode 29's breath for the nape. Me `Character_11`, the four friends `Character_05`, `Character_08`, `Character_10` and `Character_12`.
+  - **Cast:** me `Character_10`, the friends `Character_12`, `Character_11`, `Character_08`, `Character_05`, the sixth `Character_Monster_02` (pale).
+  - **Lessons:**
+    - a lying head bone sits 0.87 h from the feet (probe), not 0.93 h;
+    - box pillows hide lying heads (again): leave them off in close-ups;
+    - a bunk close-up camera must be raised to see a figure behind the sleeper;
+    - `Character_11`'s face grins: not for a frightened lead.
+  - **Sound:**
+    - generated: four bunk creaks and the boarding-room loop (old flow `hGPDgw0ks4oe2SVkpIjf`), the room loop again (new flow `58XmqiblL5aw1dUC52LC`, about 268 credits); all variations in Git;
+    - reused: Episode 29's breath, Episode 40's cicadas, and Episode 41's drone, stinger, riser, music box and neck crack;
+    - a torch click on every count; creaks when it has moved and on each turn; neck cracks on the snaps.
+  - **Voice:** Juanito, both takes on the new account (1,474 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −12.6 / −3.9 dB, lines ≥4.9 dB with no lifts, −14.0 LUFS, decoded peak −1.3 dBFS, seam −23.5 / −25.3 dBFS.
+  - **Delivery:** `assets/videos/ep48-bedspace-v1/`. Notes are in `docs/production/ep48-bedspace/README.md`; the publishing kit is `docs/publishing/ep48/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next in the season order:** Episode 49 "Bukas Pa Kagabi" (the milk tea shop).
 
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.

@@ -133,7 +133,6 @@ const Bunk: React.FC<{c: [number, number]; alongZ: boolean; sheet: 'sheet' | 'sh
 			))}
 			<Box p={[0, LOW - 0.07, 0]} s={[0.84, 0.14, 1.92]} m={M[sheet]} />
 			<Box p={[0, HIGH - 0.07, 0]} s={[0.84, 0.14, 1.92]} m={bare ? M.foam : M[sheet]} />
-			<Box p={[0, LOW + 0.03, -0.8]} s={[0.5, 0.07, 0.3]} m={M.pillow} />
 			{!bare && <Box p={[0, HIGH + 0.03, -0.8]} s={[0.5, 0.07, 0.3]} m={M.pillow} />}
 			{/* the ladder at the foot */}
 			{[0.75, 1.05, 1.3].map((y) => (

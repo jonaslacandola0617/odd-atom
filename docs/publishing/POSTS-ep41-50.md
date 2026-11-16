@@ -59,3 +59,9 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 - **YouTube title:** `Huwag mong sasagutin ang pader.` (alt: `May nagkukuwentuhan sa loob ng pader`)
 - **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep47/README.md`.
 - **Hashtags:** `#kwentongkatatakutan #pinoyhorror #engkanto #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #engkanto #fyp`
+
+## Broadcast 48: Bedspace (personal experience, retold)
+
+- **YouTube title:** `Lima kami. Anim ang natutulog.` (alt: `Bilangin mo ang natutulog sa kuwarto niyo`)
+- **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep48/README.md`.
+- **Hashtags:** `#kwentongkatatakutan #pinoyhorror #boardinghouse #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #boardinghouse #fyp`

@@ -1,12 +1,17 @@
 {
-  "flow_id": "hGPDgw0ks4oe2SVkpIjf",
-  "status": "blocked: ElevenLabs credits ran out on 2026-11-16 (narration needs 737 credits per take; 36 left)",
+  "status": "completed on the new ElevenLabs account (2026-11-16); the old flow is not reachable from it",
   "narration": {
     "model": "eleven_v4",
     "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
-    "node_id": "WPUDJVI9IAqAHXOFLEDf",
     "prompt": "[whispers] Lima kaming nag-bedspace sa lumang boarding house. Pero anim ang natutulog. [long pause] [softly] Luma na ang building. Tatlong double-deck sa isang kuwarto. Kami lang ang umuupa. [long pause] Alas-tres, nagising ako. Binilang ko kami gamit ang flashlight ng cellphone. [long pause] Isa, dalawa, tatlo, apat, lima... anim. Yung nasa itaas ng kama ko, nakaharap sa pader. [long pause] Kinabukasan, sabi nila, walang natutulog doon. Puro alikabok ang kutson. [long pause] Kagabi, binilang ko ulit. Anim pa rin. Pero wala na siya sa itaas. [long pause] Lumipat na siya. Nasa kama ko na. Sa likod ko mismo. [long pause] [whispers] Ramdam ko ang hininga niya sa batok ko. Hindi pala siya nakaharap sa pader. Nakaharap siya sa akin.",
-    "takes": "both failed: quota exceeded (not charged)"
+    "takes": 1474,
+    "old_node_id": "WPUDJVI9IAqAHXOFLEDf",
+    "node_id": "k3p91YmO3rdOGbk2n1gb",
+    "takes_note": "both takes generated on the new account (737 credits each); take 1 used (56.96 s), take 2 kept (57.04 s)",
+    "files": [
+      "public/assets/audio/eleven-takes/ep48-take1.mp3",
+      "public/assets/audio/eleven-takes/ep48-take2.mp3"
+    ]
   },
   "sfx": {
     "boarding-room-loop": {
@@ -16,9 +21,14 @@
       "loop": true,
       "variations_ok": 1,
       "files": [
-        "public/assets/audio/eleven-sfx/ep48-roomloop-3.mp3"
+        "public/assets/audio/eleven-sfx/ep48-roomloop-3.mp3",
+        "public/assets/audio/eleven-sfx/ep48-roomloop-b1.mp3",
+        "public/assets/audio/eleven-sfx/ep48-roomloop-b2.mp3",
+        "public/assets/audio/eleven-sfx/ep48-roomloop-b3.mp3",
+        "public/assets/audio/eleven-sfx/ep48-roomloop-b4.mp3"
       ],
-      "note": "variations 1, 2 and 4 failed: quota exceeded"
+      "note": "old account: variation 3 only (1, 2 and 4 failed on quota); new account: the same prompt again, 4 variations (about 67 credits each); b1 used (the steadiest, range 2.2 dB)",
+      "new_node_id": "BRrDvpVj2hFIvvVxDBF3"
     },
     "bunk-creak": {
       "node_id": "djpmG8owf52mtliq1rVL",
@@ -34,5 +44,7 @@
       ]
     }
   },
-  "credits_spent_about": 120
+  "credits_spent_about": 1862,
+  "old_flow_id": "hGPDgw0ks4oe2SVkpIjf",
+  "flow_id": "58XmqiblL5aw1dUC52LC"
 }

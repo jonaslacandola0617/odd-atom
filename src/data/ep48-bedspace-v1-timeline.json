@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 58.94,
+  "duration_frames": 1768,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Lima kaming nag-bedspace sa lumang boarding house. Pero anim ang natutulog.",
+      "start": 0.4,
+      "end": 5.52,
+      "kind": "narrator",
+      "beat_before": "hook: from the ceiling corner, the phone torch counts the sleepers; the sixth faces the wall above my bunk"
+    },
+    {
+      "id": "l02",
+      "text": "Luma na ang building. Tatlong double-deck sa isang kuwarto. Kami lang ang umuupa.",
+      "start": 6.52,
+      "end": 11.77,
+      "kind": "narrator",
+      "beat_before": "the old boarding house at night, one window lit"
+    },
+    {
+      "id": "l03",
+      "text": "Alas-tres, nagising ako. Binilang ko kami gamit ang flashlight ng cellphone.",
+      "start": 13.17,
+      "end": 18.22,
+      "kind": "narrator",
+      "beat_before": "me in my bunk at 3 a.m.; the phone light comes on"
+    },
+    {
+      "id": "l04",
+      "text": "Isa, dalawa, tatlo, apat, lima... anim. Yung nasa itaas ng kama ko, nakaharap sa pader.",
+      "start": 19.62,
+      "end": 28.4,
+      "kind": "narrator",
+      "beat_before": "my count, standing: the torch on each sleeper; the sixth"
+    },
+    {
+      "id": "l05",
+      "text": "Kinabukasan, sabi nila, walang natutulog doon. Puro alikabok ang kutson.",
+      "start": 30.0,
+      "end": 35.35,
+      "kind": "narrator",
+      "beat_before": "morning: the upper mattress bare and dusty, the others staring at it"
+    },
+    {
+      "id": "l06",
+      "text": "Kagabi, binilang ko ulit. Anim pa rin. Pero wala na siya sa itaas.",
+      "start": 36.75,
+      "end": 41.74,
+      "kind": "narrator",
+      "beat_before": "the recount from my bed: the upper bunk empty; still six"
+    },
+    {
+      "id": "l07",
+      "text": "Lumipat na siya. Nasa kama ko na. Sa likod ko mismo.",
+      "start": 43.14,
+      "end": 47.35,
+      "kind": "narrator",
+      "beat_before": "my bunk: it lies behind me, facing the wall"
+    },
+    {
+      "id": "l08",
+      "text": "Ramdam ko ang hininga niya sa batok ko. Hindi pala siya nakaharap sa pader. Nakaharap siya sa akin.",
+      "start": 49.15,
+      "end": 55.34,
+      "kind": "narrator",
+      "beat_before": "its head comes round to my nape, held then snapped; then over my shoulder at the lens"
+    }
+  ]
+}
