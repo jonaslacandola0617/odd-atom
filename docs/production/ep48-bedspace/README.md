@@ -42,7 +42,7 @@ A ceiling-corner camera where all three double-decks' open sides face it; the ph
   - the bunk creaks before the empty upper bunk is shown, as it lies behind me, and on each turn of its head;
   - its breath at my nape; neck cracks on every snap;
   - the score drops out at the bare mattress (a music box only), and the stinger falls after the last line.
-- **Figures:** presence −12.6 dB in speech and −3.9 dB in the gaps; lines ≥4.9 dB with no lifts; −14.0 LUFS; decoded peak −1.3 dBFS; seam −23.5 / −25.3 dBFS.
+- **Figures:** presence −12.6 dB in speech and −3.9 dB in the gaps; lines ≥4.9 dB with no lifts; −14.0 LUFS; decoded peak −1.3 dBFS; seam −23.5 / −25.3 dBFS; picture seam 0.82/255 (frame 0 vs the last frame).
 
 ## Voice
 
