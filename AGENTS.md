@@ -201,7 +201,9 @@
   - **Next in the season order:** Episode 48 "Bedspace" (one more sleeper than there are of us).
 
 - **Episode 48 "Bedspace" (in progress, 2026-11-16):** the user asked for the "next ep". Five students in an old Manila boarding house count six sleepers; the sixth, facing the wall in the bunk above mine, ends up in my bed behind me, facing me.
-  - **Blocked on credits:** the ElevenLabs account ran out (36 credits left; Juanito's narration needs about 740 per take). Asked how to proceed, the user chose **"I'll top up or wait"**. On their "continue", regenerate the narration in flow `hGPDgw0ks4oe2SVkpIjf`, node `WPUDJVI9IAqAHXOFLEDf` (both takes), and the three missing room-loop variations (node `lUJZl7faB3WOdP6TYV6L`). The prompt and the node IDs are in `docs/production/ep48-bedspace/prompt.json`.
+  - **Blocked on credits:** the ElevenLabs account ran out (36 credits left; Juanito's narration needs about 740 per take). Asked how to proceed, the user chose **"I'll top up or wait"**.
+  - **Account switch (user, 2026-11-16):** "Save your audios/sfx to repo im going to switch account with 40K creds". Before the switch, every ElevenLabs generation was confirmed in Git and on the remote: 397 files in `eleven-sfx/`, 86 in `eleven-takes/`, and all 188 files named in the episodes' `prompt.json` present.
+  - **Resuming:** on the new account the old flows (`hGPDgw0ks4oe2SVkpIjf` and earlier) won't open, so start a **new flow**. Regenerate the narration (Juanito `u1CVBnSUn9JiL8ssgd2v`, `eleven_v4`, both takes) and the room loop from the prompts in `docs/production/ep48-bedspace/prompt.json`. Juanito is a library voice, so check that it is available on the new account (`creative_list_voices`) before generating. The bunk creaks and the one room loop already in Git can be reused.
   - **Done so far:**
     - `src/horror/ep48/world.tsx`: the room with three double-decks (A along the left wall, mine below and the sixth above; C and D along the back wall), the window, the fan, the phone-torch cone and pool (`Torch`), the dust motes and the building;
     - `Character_Monster_02` copied and added to `PROVENANCE.md` for the sixth sleeper;
