@@ -1,0 +1,75 @@
+{
+  "flow_id": "KoKWpDSnj3uvRbGHTWPT",
+  "account": "the new ElevenLabs account (from 2026-11-16)",
+  "narration": {
+    "model": "eleven_v4",
+    "voice": "Juanito (u1CVBnSUn9JiL8ssgd2v)",
+    "node_id": "ePlIvAF4mh4fMBmcgFwv",
+    "prompt": "[whispers] Mula nang mamatay si Lola, dinadalaw niya ako sa panaginip. Pero 'yung huling dalaw... hindi na siya. [long pause] [softly] Unang beses, nakaupo siya sa paanan ng kama ko. \"Huwag kang lalabas bukas, apo.\" [long pause] Hindi ako lumabas. Kinabukasan, hanggang dibdib ang baha sa kanto. Mula noon, lagi na siyang nagbabantay. [long pause] Kagabi, nandoon ulit siya sa paanan ng kama. Pero nakatalikod siya sa akin. [long pause] [whispers] \"Apo, pagbuksan mo ako ng pinto. Malamig dito sa labas.\" [long pause] Lumapit ako. Unang humarap ang ulo niya, bago ang katawan. Rosaryo ni Lola. Pero ibang mukha. [long pause] Nagising ako. Bukas ang pinto sa sala. Hindi ko binuksan 'yon. [long pause] [whispers] At sa paanan ng kama ko, lubog pa ang kutson. Parang may nakaupo pa rin.",
+    "takes": 1568,
+    "takes_note": "both takes (784 credits each); take 1 used (61.5 s raw; inner pauses capped at 0.32 s), take 2 kept (61.2 s)",
+    "files": [
+      "public/assets/audio/eleven-takes/ep50-take1.mp3",
+      "public/assets/audio/eleven-takes/ep50-take2.mp3"
+    ]
+  },
+  "sfx": {
+    "rain-loop": {
+      "node_id": "N2Gz2VuGBmBkq9ConqmD",
+      "prompt": "Steady night rain on a galvanized iron roof of a Filipino house, gutters dripping, distant thunder far away, calm and lonely, no music.",
+      "duration_seconds": 15,
+      "loop": true,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep50-rain-1.mp3",
+        "public/assets/audio/eleven-sfx/ep50-rain-2.mp3",
+        "public/assets/audio/eleven-sfx/ep50-rain-3.mp3",
+        "public/assets/audio/eleven-sfx/ep50-rain-4.mp3"
+      ]
+    },
+    "flood": {
+      "node_id": "AuBH0AALxu6ApEnXAZMN",
+      "prompt": "A flooded city street in the morning after a storm: brown water sloshing, people wading slowly through chest-deep water, distant voices, a dog barking far away, light rain.",
+      "duration_seconds": 8,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep50-flood-1.mp3",
+        "public/assets/audio/eleven-sfx/ep50-flood-2.mp3",
+        "public/assets/audio/eleven-sfx/ep50-flood-3.mp3",
+        "public/assets/audio/eleven-sfx/ep50-flood-4.mp3"
+      ]
+    },
+    "door-open": {
+      "node_id": "c0nX7Wnaxe5Ryd7y7dum",
+      "prompt": "An old wooden front door slowly creaking open by itself at night, wind and rain coming in, the door bumping softly against the wall.",
+      "duration_seconds": 5,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep50-door-1.mp3",
+        "public/assets/audio/eleven-sfx/ep50-door-2.mp3",
+        "public/assets/audio/eleven-sfx/ep50-door-3.mp3",
+        "public/assets/audio/eleven-sfx/ep50-door-4.mp3"
+      ]
+    },
+    "mattress": {
+      "node_id": "56TAVG75IGBExPguPoxH",
+      "prompt": "Old bed springs and a foam mattress creaking slowly as someone light sits down at the foot of the bed, in a silent room.",
+      "duration_seconds": 3,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep50-mattress-1.mp3",
+        "public/assets/audio/eleven-sfx/ep50-mattress-2.mp3",
+        "public/assets/audio/eleven-sfx/ep50-mattress-3.mp3",
+        "public/assets/audio/eleven-sfx/ep50-mattress-4.mp3"
+      ]
+    },
+    "rosary": {
+      "node_id": "3CWTTst1ZbAzWKcq5RQl",
+      "prompt": "Wooden rosary beads slipping slowly through an old woman's fingers, soft clicking, very close and quiet.",
+      "duration_seconds": 4,
+      "files": [
+        "public/assets/audio/eleven-sfx/ep50-rosary-1.mp3",
+        "public/assets/audio/eleven-sfx/ep50-rosary-2.mp3",
+        "public/assets/audio/eleven-sfx/ep50-rosary-3.mp3",
+        "public/assets/audio/eleven-sfx/ep50-rosary-4.mp3"
+      ]
+    }
+  },
+  "credits_spent_about": 2035
+}

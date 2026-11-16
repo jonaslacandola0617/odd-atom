@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 59.46,
+  "duration_frames": 1784,
+  "voice": "ElevenLabs eleven_v4, Juanito (u1CVBnSUn9JiL8ssgd2v), Taglish, one take, split into lines, inner pauses capped at 0.32 s, no tempo change",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Mula nang mamatay si Lola, dinadalaw niya ako sa panaginip. Pero 'yung huling dalaw... hindi na siya.",
+      "start": 0.4,
+      "end": 7.58,
+      "kind": "narrator",
+      "beat_before": "hook: the dream: someone seated at the foot of my bed, back to me; her head comes round in snaps, face in shadow"
+    },
+    {
+      "id": "l02",
+      "text": "Unang beses, nakaupo siya sa paanan ng kama ko. \"Huwag kang lalabas bukas, apo.\"",
+      "start": 8.58,
+      "end": 14.51,
+      "kind": "narrator",
+      "beat_before": "the first dream: Lola at the foot of the bed, facing me, the rosary in her hands"
+    },
+    {
+      "id": "l03",
+      "text": "Hindi ako lumabas. Kinabukasan, hanggang dibdib ang baha sa kanto. Mula noon, lagi na siyang nagbabantay.",
+      "start": 15.71,
+      "end": 23.86,
+      "kind": "narrator",
+      "beat_before": "the house by day: the street outside the window, flooded chest-deep; then Lola in my doorway at night, watching"
+    },
+    {
+      "id": "l04",
+      "text": "Kagabi, nandoon ulit siya sa paanan ng kama. Pero nakatalikod siya sa akin.",
+      "start": 25.26,
+      "end": 30.21,
+      "kind": "narrator",
+      "beat_before": "the last dream: the foot of the bed, a grey-haired woman, her back to me"
+    },
+    {
+      "id": "l05",
+      "text": "\"Apo, pagbuksan mo ako ng pinto. Malamig dito sa labas.\"",
+      "start": 31.41,
+      "end": 35.66,
+      "kind": "narrator",
+      "beat_before": "the house: the dark sala, the front door; the knob turns, a shadow under it"
+    },
+    {
+      "id": "l06",
+      "text": "Lumapit ako. Unang humarap ang ulo niya, bago ang katawan. Rosaryo ni Lola. Pero ibang mukha.",
+      "start": 37.06,
+      "end": 44.24,
+      "kind": "narrator",
+      "beat_before": "the dream: I come closer; her head turns round first, the body after; the rosary; not her face"
+    },
+    {
+      "id": "l07",
+      "text": "Nagising ako. Bukas ang pinto sa sala. Hindi ko binuksan 'yon.",
+      "start": 45.64,
+      "end": 49.84,
+      "kind": "narrator",
+      "beat_before": "the house: I wake; the sala, the front door open on the rain"
+    },
+    {
+      "id": "l08",
+      "text": "At sa paanan ng kama ko, lubog pa ang kutson. Parang may nakaupo pa rin.",
+      "start": 51.24,
+      "end": 56.16,
+      "kind": "narrator",
+      "beat_before": "my bed: the dent at its foot; then she is sitting there, in the house, and her head snaps to the lens"
+    }
+  ]
+}

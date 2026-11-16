@@ -253,6 +253,31 @@
   - **Status:** no user approval and no listening pass.
   - **Next in the season order:** Episode 50 "Si Lola sa Panaginip" (the season finale).
 
+- **Episode 50 "Si Lola sa Panaginip" (2026-11-16):** the user asked for the "next ep". The Season 5 finale. A late grandmother visits in dreams to warn the family, until one night the old woman at the foot of the bed is not her, retold. `Ep50SiLolaSaPanaginip` / `src/horror/ep50/` is 59.46 s, in Taglish, with the score and seamless loop.
+  - **Form:** "the dream and the house": the dream (cold, washed, fog) cut hard against the house (dark, rain).
+    - From my pillow, an old woman at the foot of the bed, back to me; her head starts to come round (hook).
+    - Lola on my bed, turned to me, the rosary: "Huwag kang lalabas bukas, apo."
+    - The flood from my window; Lola in my doorway at night.
+    - The last dream: her back to me.
+    - The sala: two feet break the light under the front door; the knob turns.
+    - Her head turns round first, the body after: Lola's rosary, not Lola's face.
+    - The front door open on the rain; the dent at the foot of my bed; she is sitting there and her head snaps to the lens.
+    - The loop.
+  - **Cast:** Lola `Character_29_Female` (warm); the stranger `Character_31_Female`, pale; neighbours `Character_03`, `Character_05`.
+  - **Lessons:**
+    - a night interior needs ambient about 1.8 (`#5a6480`) plus a motivated source, or it goes black after the grade;
+    - a light strip under a door sits on the floor in front of it, above the caption band;
+    - a head that turns first and a body that follows: the head gives back what the body takes.
+  - **Sound:**
+    - generated: rain on a roof (15 s loop), a flooded street, a front door opening, a mattress, rosary beads (flow `KoKWpDSnj3uvRbGHTWPT`, about 467 credits, all variations in Git);
+    - reused: Episode 44's house loop and Episode 41's drone, stinger, riser, music box and neck crack;
+    - the dream is the house heard under water; Lola's music box slows in the last dream.
+  - **Voice:** Juanito, both takes (1,568 credits; take 1 used), no tempo change.
+  - **Sound figures:** presence −9.6 / −3.2 dB, lines ≥7.0 dB with no lifts, −14.0 LUFS, decoded peak −2.72 dBFS, seam −24.8 / −25.0 dBFS.
+  - **Delivery:** `assets/videos/ep50-lola-v1/`. Notes are in `docs/production/ep50-lola/README.md`; the publishing kit is `docs/publishing/ep50/README.md`.
+  - **Status:** no user approval and no listening pass.
+  - **Next:** **Season 5 is complete** (Episodes 41–50, Taglish, Juanito, the PSX models). Only Episode 41 has the user's approval. What comes next is the user's call.
+
 - **PSX model packs (user, 2026-11-15):** "I have these PSX/PS1 style models … licensed and free to use … feel free to do anything with them. Try to recreate one of our season 4 videos using those models so we can see if they'll work out." Drive folder `124GZkGnO3AsaZA1aB5oyEBBmTX0UT2Im`: 13 archives (about 290 MB; not in Git). Inventory, contact sheets and lessons: `docs/production/psx-models/README.md`.
   - **What works:** 115 Mixamo-rigged people (`Characters_psx`, `Characters_Extras`; one-frame A-pose only, so poses are set in code), the derelict furniture, URBAN (483 street and building models) and OFFICE (GLB). The Retro and Street props and most cars need their textures re-linked.
   - **Kit:** `src/horror/psx/models.tsx` (`PsxCharacter`, `PsxProp`, `applyPose` with world-axis bone rotations, `ARMS_DOWN`, `SIT`, PS1 materials). Files in use: `public/assets/models/psx/` with `PROVENANCE.md`.

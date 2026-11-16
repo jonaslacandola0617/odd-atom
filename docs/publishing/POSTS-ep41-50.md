@@ -71,3 +71,9 @@ Season 5 retells Philippine personal horror experiences that people shared onlin
 - **YouTube title:** `Bukas pa 'yung milk tea shop kagabi.` (alt: `Anim na buwan na raw itong sarado`)
 - **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep49/README.md`.
 - **Hashtags:** `#kwentongkatatakutan #pinoyhorror #rider #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #rider #fyp`
+
+## Broadcast 50: Si Lola sa Panaginip (personal experience, retold; Season 5 finale)
+
+- **YouTube title:** `Hindi na si Lola 'yung huling dalaw.` (alt: `Dinadalaw ako ni Lola sa panaginip`)
+- **Description, TikTok caption, cover text, pinned comment:** `docs/publishing/ep50/README.md`.
+- **Hashtags:** `#kwentongkatatakutan #pinoyhorror #lola #shorts` / TikTok `#kwentongkatatakutan #pinoyhorror #lola #fyp`
