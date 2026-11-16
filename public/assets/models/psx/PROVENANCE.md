@@ -53,6 +53,7 @@ The user shared these from their Google Drive folder (2026-11-15) and stated tha
 | File | Source archive | SHA-256 |
 |---|---|---|
 | `characters/Character_12.fbx` + `.png` | `Characters_psx.rar` | `8a260253…` / `f35ab9b5…` |
+| `characters/Character_Monster_02.fbx` + `.png` | `Characters_psx.rar` | `316c8937…` / `69120191…` |
 
 **Added for Episode 44 (2026-11-15):**
 
