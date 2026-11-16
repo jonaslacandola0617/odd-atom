@@ -328,6 +328,14 @@ export const Opened: React.FC<{x: number; z: number; lean: number; tilt: number;
 		Head: [['x', 0.1], ['z', tilt * 0.6]],
 	});
 	return (
+		<>
+		<group position={[x, TRAY_TOP + 0.04, z - 0.25]}>
+				{/* the sheet fallen to its lap */}
+				<Box p={[0, 0.07, 0.55]} s={[0.52, 0.16, 1.05]} m={M.sheet} />
+				<Box p={[-0.1, 0.18, 0.98]} s={[0.12, 0.14, 0.12]} m={M.sheet} />
+				<Box p={[0.1, 0.18, 0.98]} s={[0.12, 0.14, 0.12]} m={M.sheet} />
+				<Box p={[-0.37, -0.03, 0.42]} s={[0.8, 0.24, 0.012]} m={M.sheet} r={[0, Math.PI / 2, 0]} />
+		</group>
 		<group position={[x, TRAY_TOP + 0.04, z - 0.25]} rotation={[-a, 0, 0]}>
 			<PsxCharacter
 				name="Character_Monster_01"
@@ -344,12 +352,8 @@ export const Opened: React.FC<{x: number; z: number; lean: number; tilt: number;
 				}}
 			/>
 			<Incision ooze={ooze} t={t} />
-			{/* the sheet fallen to its lap */}
-			<Box p={[0, 0.07, 0.55]} s={[0.52, 0.16, 1.05]} m={M.sheet} />
-			<Box p={[-0.1, 0.18, 0.98]} s={[0.12, 0.14, 0.12]} m={M.sheet} />
-			<Box p={[0.1, 0.18, 0.98]} s={[0.12, 0.14, 0.12]} m={M.sheet} />
-			<Box p={[-0.37, -0.03, 0.42]} s={[0.8, 0.24, 0.012]} m={M.sheet} r={[0, Math.PI / 2, 0]} />
 		</group>
+		</>
 	);
 };
 /** the Y-incision, open: drawn every frame on a canvas (the stitches torn, the edges parted, dark inside,
