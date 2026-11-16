@@ -55,3 +55,7 @@
 ## Status
 
 Delivered; no user approval and no listening pass.
+
+## Review of the encoded file
+
+`assets/videos/ep51-popo-v1/ep51-po-po-po.mp4`, 47838976 bytes, SHA-256 `abe34a6d13653b19325d7f1eeefd16675bc3b314f9b268219d51769fe3b67cad`; H.264 1080×1920, 1,797 frames (59.9 s); AAC 59.88 s; −14.0 LUFS; last frame against frame 0: 1.8/255 mean difference (the loop). A contact board (one frame every 3 s) was checked for every shot.
