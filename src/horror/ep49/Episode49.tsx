@@ -284,7 +284,7 @@ const Overlay: React.FC<{t: number; captions: boolean}> = ({t, captions}) => {
 		g.putImageData(img, 0, 0);
 		const n = noise.current!.getContext('2d')!;
 		const ni = n.createImageData(LW, LH);
-		const r = rng(Math.floor(t * 24) * 7919 + 49);
+		const r = rng(Math.floor((t + 600) * 24) * 7919 + 49); // offset: a negative seed (the loop shot) makes rng negative and the grain black
 		for (let i = 0; i < ni.data.length; i += 4) {
 			const v = r() * 255;
 			ni.data[i] = ni.data[i + 1] = ni.data[i + 2] = v;
