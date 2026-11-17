@@ -59,4 +59,4 @@ Delivered; no user approval and no listening pass.
 
 ## Delivery
 
-Rendering; the MP4 follows in the next commit.
+`assets/videos/ep56-forest-v1/ep56-forest.mp4`, 44352423 bytes, SHA-256 `2ff875dc5765575cb1893c689b6bdc8594d1a54860d75213f0474267d8be85a7`; 56.1 s, −14.1 LUFS (integrated, decoded), peak −1.8 dBFS; last frame against frame 0: 0.4/255 (the loop). Frames checked at 1, 14, 21, 24, 29, 33, 35 (the torch dead), 38, 44, 49 and 53.1 s.
