@@ -64,4 +64,4 @@ Delivered; no user approval and no listening pass.
 
 ## Delivery
 
-Rendering; the MP4 follows in the next commit.
+`assets/videos/ep57-station-v1/ep57-station.mp4`, 47130370 bytes, SHA-256 `8fc8f51b28e222371e9aea9de609297aba2bb498d2cefd161691c2f83ccb9823`; 59.6 s, −14.1 LUFS (integrated, decoded), peak −1.4 dBFS; last frame against frame 0: 0.96/255 (the loop). Frames checked at 1, 10, 16, 20, 24, 30, 35, 36.5, 42, 47, 50.3 and 55 s.
