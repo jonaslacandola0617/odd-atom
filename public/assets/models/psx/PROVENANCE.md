@@ -78,4 +78,10 @@ The user shared these from their Google Drive folder (2026-11-15) and stated tha
 | `characters/Character_Monster_01.fbx` + `.png` | `Characters_psx.rar` | `b6073bd5…` / `70f2e71e…` |
 | `characters/Character_25_Doctor_B.fbx` + `.png` | `Characters_psx.rar` (`Character_25_Doctor`); the PNG is derived: warm mid-saturation pixels (the skin) darkened to 42% value so he reads as a Nigerian attendant; the FBX is unchanged | `c605e333…` / `a4d70697…` |
 
+**Added for Episode 54 (2026-11-17):**
+
+| File | Source archive | SHA-256 |
+|---|---|---|
+| `characters/Character_Monster_04.fbx` + `.png` | `Characters_psx.rar` | `444d6854…` / `3396ff7c…` |
+
 Loaded and posed by `src/horror/psx/models.tsx`.

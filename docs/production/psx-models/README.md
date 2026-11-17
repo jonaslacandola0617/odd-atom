@@ -63,7 +63,7 @@ Rendered as a contact sheet when the user asked for the packs' monsters ("Didnt 
 | `Character_Monster_01` | flayed brown body, a face split down one side, sores | Episode 53 (the one that sits up) |
 | `Character_Monster_02` | white, bulging eyes, the lower face torn in strips, holes in the chest | Episode 48 |
 | `Character_Monster_03` | a woman with long black hair, hollow black eyes, a slack open mouth, a dark wrapped body | Episode 51 v2 (Hasshaku-sama) |
-| `Character_Monster_04` | a gaunt woman in a dark dress, a skull face with a jaw hanging open to the chest | |
+| `Character_Monster_04` | a gaunt woman in a dark dress, a skull face with a jaw hanging open to the chest | Episode 54 (the figure on the monitor) |
 | `Character_Monster_05` | long black hair over the face, a white shirt bloodied down the front | Episodes 41, 45 |
 | `Character_Monster_06` | green rotting ghoul, a skull face with an open mouth | |
 | `Character_Monster_07` | a skull face on a dark ragged body | |

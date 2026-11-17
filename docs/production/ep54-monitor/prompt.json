@@ -1,0 +1,127 @@
+{
+ "flow_id": "3JiSPiXPisi0ASA1us0u",
+ "account": "the new ElevenLabs account (from 2026-11-16)",
+ "narration": {
+  "model": "eleven_v4",
+  "voice": "Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr)",
+  "node_id": "crunf6RpaINbPTX3bNEd",
+  "prompt": "[low, calm] I was babysitting twins. They were asleep upstairs, and the monitor was on the couch beside me. [long pause] [quietly] The sound lights started jumping. Up there, nothing was moving. And the voice was right up against the microphone. [long pause] [shaken] I panned the camera to the door, and back. Something tall was bent over the crib, looking down at them. [long pause] [breathless] I ran up and hit the light. Nobody. They were both asleep. [short pause] [whispers] Then I looked at the monitor in my hand.",
+  "takes": 1044,
+  "takes_note": "both takes (522 credits each); take 1 used (31.8 s raw; inner pauses capped at 0.22 s; no tempo change), take 2 kept",
+  "files": [
+   "public/assets/audio/eleven-takes/ep54-take1.mp3",
+   "public/assets/audio/eleven-takes/ep54-take2.mp3"
+  ]
+ },
+ "speaker": {
+  "model": "eleven_v4",
+  "voice": "Grizzy - Expressive Dark Fantasy (fhNley3gMN1oXT2fQZjN)",
+  "node_id": "CSRsNNWqTsLtr55eFwmy",
+  "prompt": "[whispering, very close, slow] Shhhh... They're sleeping. [short pause] Don't come up.",
+  "takes": 172,
+  "takes_note": "both takes (86 credits each); take 1 used",
+  "files": [
+   "public/assets/audio/eleven-takes/ep54-speaker-take1.mp3",
+   "public/assets/audio/eleven-takes/ep54-speaker-take2.mp3"
+  ]
+ },
+ "sfx": {
+  "monitor-hiss": {
+   "node_id": "oJfUojTYqLQ3YUU3ubNG",
+   "prompt": "The small speaker of a cheap baby monitor in a quiet room: a soft steady radio hiss with faint digital crackle and the occasional low squelch, an empty nursery heard through it, no voices, no music.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep54-hiss-1.mp3",
+    "public/assets/audio/eleven-sfx/ep54-hiss-2.mp3",
+    "public/assets/audio/eleven-sfx/ep54-hiss-3.mp3",
+    "public/assets/audio/eleven-sfx/ep54-hiss-4.mp3"
+   ]
+  },
+  "winter-house": {
+   "node_id": "7sjLhcODmtXf9Dy0wYEi",
+   "prompt": "A quiet suburban living room on a winter night: a furnace humming through the vents, wind pressing on the windows, the house creaking with the cold, a refrigerator far off. No voices, no music, no TV.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep54-house-1.mp3",
+    "public/assets/audio/eleven-sfx/ep54-house-2.mp3",
+    "public/assets/audio/eleven-sfx/ep54-house-3.mp3",
+    "public/assets/audio/eleven-sfx/ep54-house-4.mp3"
+   ]
+  },
+  "pan-motor": {
+   "node_id": "8CMn8pQUNwadlcrWIcW3",
+   "prompt": "A tiny plastic camera motor panning, a thin electric whirr and gear clicks, stopping, then whirring back the other way and stopping. Close, small.",
+   "duration_seconds": 3,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep54-pan-1.mp3",
+    "public/assets/audio/eleven-sfx/ep54-pan-2.mp3",
+    "public/assets/audio/eleven-sfx/ep54-pan-3.mp3",
+    "public/assets/audio/eleven-sfx/ep54-pan-4.mp3"
+   ]
+  },
+  "feedback": {
+   "node_id": "X3bfh0PtYxhVqkfGmGPs",
+   "prompt": "Piercing audio feedback squeal from a baby monitor brought into the same room as its camera, rising fast into a shriek then cutting off. Horror stinger.",
+   "duration_seconds": 3,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep54-feedback-1.mp3",
+    "public/assets/audio/eleven-sfx/ep54-feedback-2.mp3",
+    "public/assets/audio/eleven-sfx/ep54-feedback-3.mp3",
+    "public/assets/audio/eleven-sfx/ep54-feedback-4.mp3"
+   ]
+  },
+  "stairs-run": {
+   "node_id": "rGkBh8q8x4mhb744JIob",
+   "prompt": "Someone running up a carpeted wooden staircase in a house, fast heavy footsteps, a creaking step, panting breath, then stopping at the top.",
+   "duration_seconds": 3,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep54-stairs-1.mp3",
+    "public/assets/audio/eleven-sfx/ep54-stairs-2.mp3",
+    "public/assets/audio/eleven-sfx/ep54-stairs-3.mp3",
+    "public/assets/audio/eleven-sfx/ep54-stairs-4.mp3"
+   ]
+  },
+  "door-light": {
+   "node_id": "87Qc0jLj32hXriU8CwHB",
+   "prompt": "A bedroom door pushed open fast, the handle hitting the wall, then a plastic light switch snapped on. Close, indoors.",
+   "duration_seconds": 2,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep54-door-1.mp3",
+    "public/assets/audio/eleven-sfx/ep54-door-2.mp3",
+    "public/assets/audio/eleven-sfx/ep54-door-3.mp3",
+    "public/assets/audio/eleven-sfx/ep54-door-4.mp3"
+   ]
+  },
+  "static-burst": {
+   "node_id": "RmTH6FpZwLhW5dqFhMkl",
+   "prompt": "A sudden harsh burst of digital video static and signal breakup from a small speaker, a crunching glitch hit that cuts off sharply. Horror jump scare.",
+   "duration_seconds": 2,
+   "loop": false,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep54-static-1.mp3",
+    "public/assets/audio/eleven-sfx/ep54-static-2.mp3",
+    "public/assets/audio/eleven-sfx/ep54-static-3.mp3",
+    "public/assets/audio/eleven-sfx/ep54-static-4.mp3"
+   ]
+  },
+  "nursery-drone": {
+   "node_id": "sQByircNIFcyVP4DGErq",
+   "prompt": "A dark ambient horror bed: a soft detuned toy-like glass tone held under a low breathing pad, cold and empty, slowly pulsing, no melody, no percussion.",
+   "duration_seconds": 20,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep54-drone-1.mp3",
+    "public/assets/audio/eleven-sfx/ep54-drone-2.mp3",
+    "public/assets/audio/eleven-sfx/ep54-drone-3.mp3",
+    "public/assets/audio/eleven-sfx/ep54-drone-4.mp3"
+   ]
+  }
+ },
+ "sfx_credits": "about 845 (8 prompts x 4 variations)"
+}

@@ -1,0 +1,125 @@
+{
+  "episode": "Ep54Monitor",
+  "duration_seconds": 46.458,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change; the speaker voice is Grizzy (fhNley3gMN1oXT2fQZjN), take 1",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep54-take1.mp3",
+    "sha256": "b9df7b5db8eed66dffa4c528ce4f50e5f0412ecc673f1fcd95bcbf43b2d366a7",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (ElevenLabs library voice)",
+    "credits": 1044,
+    "prompt": "docs/production/ep54-monitor/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone (root 41.2 Hz) and a high string cluster that tighten to the pan and to the end, bowed metal under the whisper, a synthesized stinger at each refresh where it has moved (scripts/horror_score.py); loop-quantised",
+    "the monitor hiss (filtered noise with digital crackle), the LED ticks, the speaker band on the whisper (synthesized processing of the ElevenLabs take)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "3JiSPiXPisi0ASA1us0u",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "house-2": {
+        "path": "public/assets/audio/eleven-sfx/ep54-house-2.mp3",
+        "sha256": "e2ce1198ba542eb6e7ae330d3db765f281b6851f96e42a4a5a577ba85737a8c2"
+      },
+      "hiss-3": {
+        "path": "public/assets/audio/eleven-sfx/ep54-hiss-3.mp3",
+        "sha256": "1f0c5f5df5c47f2ac886fad94298b65a22f6839ea193741aa88cb526ad263bcf"
+      },
+      "pan-4": {
+        "path": "public/assets/audio/eleven-sfx/ep54-pan-4.mp3",
+        "sha256": "1c7d0d16b8f9f02e25d3130ccfd11b98d2b3f709ae8791dd09c4d59e71e2eb57"
+      },
+      "static-2": {
+        "path": "public/assets/audio/eleven-sfx/ep54-static-2.mp3",
+        "sha256": "b37e92e31c6123510529c58ca8e2b4915ca6988569494dabc822d76b3073b8e3"
+      },
+      "stairs-4": {
+        "path": "public/assets/audio/eleven-sfx/ep54-stairs-4.mp3",
+        "sha256": "b6a5441384ef1df34438568396235eac9f116615c129d51007184bc92ac404d9"
+      },
+      "door-3": {
+        "path": "public/assets/audio/eleven-sfx/ep54-door-3.mp3",
+        "sha256": "d524a92a8a9d496a9d888f6a736ad0ec781840edc4ea12a4e6d119dcaf4b7da9"
+      },
+      "feedback-3": {
+        "path": "public/assets/audio/eleven-sfx/ep54-feedback-3.mp3",
+        "sha256": "4fdbf3d07f18c966336bde9970b8e46e9738939f7e27ba0178ddc0ebe77877c7"
+      },
+      "static-3": {
+        "path": "public/assets/audio/eleven-sfx/ep54-static-3.mp3",
+        "sha256": "53d7ab19b5ac131296f9f81a58755ef0dccc13e17a3151d4567abbd9feddc7b7"
+      },
+      "drone-3": {
+        "path": "public/assets/audio/eleven-sfx/ep54-drone-3.mp3",
+        "sha256": "069ba88e04ab57fa66001f66d0c14d5db7e7ff0e60d07aecea63683a711cfd9b"
+      }
+    },
+    "generated": "8 prompts x 4 variations, duration set on the node (about 840 credits): monitor hiss 15 s loop (all four takes nearly silent; synthesized instead), winter house 15 s loop, pan motor 3 s, feedback squeal 3 s, stairs run 3 s, door and light 2 s, static burst 2 s, nursery drone 20 s loop",
+    "reused": "none (no Episode 41 drone, riser, stinger, neck crack or music box)",
+    "note": "picked by measurement (RMS, range), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    25.608,
+    41.558
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.18,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -25.3,
+    "last_quarter_second": -25.4
+  },
+  "limiter": "tanh soft limiter, ceiling -2.15 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "s01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 12.2,
+      "phone_band_voice_minus_all_db": 14.0,
+      "voice_minus_bed_db": 12.2
+    },
+    {
+      "id": "s01",
+      "voice_minus_all_db": 11.1,
+      "phone_band_voice_minus_all_db": 15.7,
+      "voice_minus_bed_db": 11.1
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 10.8,
+      "phone_band_voice_minus_all_db": 10.5,
+      "voice_minus_bed_db": 10.8
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 9.7,
+      "phone_band_voice_minus_all_db": 11.2,
+      "voice_minus_bed_db": 9.7
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 10.6,
+      "phone_band_voice_minus_all_db": 13.5,
+      "voice_minus_bed_db": 10.6
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.6,
+    "music_minus_voice_in_gaps_db": -4.1,
+    "music_share_of_gaps_seconds": 19.1
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

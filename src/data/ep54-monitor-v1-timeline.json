@@ -1,0 +1,49 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 46.458,
+  "duration_frames": 1394,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change; the speaker voice is Grizzy (fhNley3gMN1oXT2fQZjN), take 1",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "I was babysitting twins. They were asleep upstairs, and the monitor was on the couch beside me.",
+      "start": 4.0,
+      "end": 9.51,
+      "kind": "narrator",
+      "beat_before": "hook: the monitor in my hands, night vision: two cribs, the mobile turning, and something too thin standing perfectly still in the dark corner"
+    },
+    {
+      "id": "s01",
+      "text": "Shhh... They're sleeping. Don't come up.",
+      "start": 11.71,
+      "end": 14.968,
+      "kind": "speaker",
+      "beat_before": "the monitor: the sound lights jump in a silent room; the voice comes through the speaker"
+    },
+    {
+      "id": "l02",
+      "text": "The sound lights started jumping. Up there, nothing was moving. And the voice was right up against the microphone.",
+      "start": 15.868,
+      "end": 22.558,
+      "kind": "narrator",
+      "beat_before": "the monitor; the corner"
+    },
+    {
+      "id": "l03",
+      "text": "I panned the camera to the door, and back. Something tall was bent over the crib, looking down at them.",
+      "start": 26.758,
+      "end": 32.698,
+      "kind": "narrator",
+      "beat_before": "I pan to the door (empty) and back: it is bent over the left crib, folded at the hips, its face over the baby"
+    },
+    {
+      "id": "l04",
+      "text": "I ran up and hit the light. Nobody. They were both asleep. Then I looked at the monitor in my hand.",
+      "start": 35.298,
+      "end": 41.258,
+      "kind": "narrator",
+      "beat_before": "up the stairs; the door; the light: the nursery lit, nobody, the twins asleep"
+    }
+  ]
+}
