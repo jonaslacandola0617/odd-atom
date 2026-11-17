@@ -45,3 +45,7 @@
 ## Status
 
 Delivered; no user approval and no listening pass.
+
+## Delivery
+
+`assets/videos/ep54-monitor-v1/ep54-monitor.mp4`, 37164407 bytes, SHA-256 `c51820e01b5a9d7c30958910c442f384e05bc22924c75e102acdc81ec3a24482`; 46.5 s, −14.1 LUFS (integrated, decoded), true peak −1.1 dBFS; last frame against frame 0: 1.1/255 (the loop). Frames checked at 1, 6, 12, 23.4, 26, 34, 37, 40 and 42.5 s.
