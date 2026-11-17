@@ -73,4 +73,4 @@ Delivered; no user approval and no listening pass.
 
 ## Delivery
 
-Rendering; the MP4 follows in the next commit.
+`assets/videos/ep55-lift-v1/ep55-lift.mp4`, 46348472 bytes, SHA-256 `3ba63fffc2c4559f4d4dbf93c48910f94cd6a9bcba6463db5c60bad37362cc26`; 59.3 s, −14.1 LUFS (integrated, decoded), peak −2.3 dBFS; last frame against frame 0: 2.6/255 (the loop). Frames checked at 1, 12, 19, 26, 27.8, 33, 41, 43.6, 47, 53 and 56.8 s.
