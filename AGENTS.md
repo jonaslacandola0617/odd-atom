@@ -72,6 +72,21 @@
     - **Status:** no user approval and no listening pass.
     - **Next in the season order:** Episode 56 "The Music in the Forest" (KKN, Indonesia).
 
+  - **Episode 56 "The Music in the Forest" (2026-11-17):** the user asked for the "next ep". `Ep56TheMusicInTheForest` / `src/horror/ep56/` is 56.1 s, in English (Jack), with a score of its own (an original, synthesized gamelan phrase) and a seamless loop. Students on a village posting in East Java are told never to pass the stone gate; at midnight gamelan plays past it; my friend walks to it in time; each time my torch swings back, a dancer is nearer; her feet hang above the leaves, her arms reach too long; at the stream my friend sits in the water, his arm swollen black with bites, snakes under his sarong; she stands over him and comes at the light (retold from the *KKN di Desa Penari* thread; no village named; his fate left open).
+    - **Form:** a single unbroken torch walk (no cuts until the loop). **Mechanism:** the lure. **Gore:** the bitten arm and the snakes.
+    - **Her:** `Character_Monster_07` (copied from `Characters_Extras.rar`, `Extras_Rig/Killer_M/`; in `PROVENANCE.md`), dressed as a court dancer (headdress, green scarf, batik cloth), floating above the ground, arms stretched. My friend: `Character_10` in a batik sarong.
+    - **Lessons:**
+      - a one-take walk is a distance table, scaled to arrive on the beat;
+      - check every position helper over the whole take;
+      - a torch needs a point light at its target to light a face at 4 m;
+      - a batik pattern at 180 px turns into letters (use staggered dots);
+      - the restricted ElevenLabs connector refuses music, so the gamelan is synthesized.
+    - **Sound:** night insects that fall silent while she is in the light, steps in wet leaves, the gamelan (far, then nearer with every swing, dead when the torch dies), the stream, one bronze gong struck close, snakes, the full ensemble on the last beat. Flow `BoVFiRL9l7kX81Lmck7B` (about 2,206 credits; every take in Git).
+    - **Sound figures:** presence −8.8 / −2.8 dB, lines ≥5.3 dB with no lifts, −14.0 LUFS, decoded peak −1.76 dBFS, seam −28.1 / −27.0 dBFS.
+    - **Delivery:** `assets/videos/ep56-forest-v1/`. Notes are in `docs/production/ep56-forest/README.md`; the publishing kit is `docs/publishing/ep56/README.md`.
+    - **Status:** no user approval and no listening pass.
+    - **Next in the season order:** Episode 57 (Kisaragi, Japan).
+
 - **Standing direction for the next season (user, 2026-11-15, after the PSX test v2):** "Yeah this is good enough and we made a better look rather than being a blocks of models, apply this to future videos, for the next season on a new session, I want more local personal experience people have shared online. And with our new models i want the animation more spooky more scary and more horror."
   - **Models:** every future episode uses the user's PSX models (`src/horror/psx/models.tsx`, `docs/production/psx-models/README.md`) for people and, where they fit, furniture, streets and buildings. The blocky `Rider`/`Villager` figures are retired for new work (keep them only for objects the packs lack). Copy each new model into `public/assets/models/psx/` and add it to `PROVENANCE.md`; keep the full packs out of Git (re-download from the Drive folder in a new session).
   - **Season 5 (started 2026-11-15 on the user's "start season 5"):** local Philippine **personal experiences shared online**, in Taglish with Juanito, with the Season 4 standard (eerie score, seamless loop) and all earlier rules (motion rule, hard cuts, loudness, care).

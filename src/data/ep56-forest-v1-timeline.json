@@ -1,0 +1,57 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 56.1,
+  "duration_frames": 1683,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change; take 1",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "The village gave us one rule. Never go past the stone gate into the forest. At midnight, past the gate, someone started playing gamelan.",
+      "start": 1.8,
+      "end": 10.22,
+      "kind": "narrator",
+      "beat_before": "hook: the torch on the stone gate; past it, in the black between the trees, a pale arm held out in a dancer's pose"
+    },
+    {
+      "id": "l02",
+      "text": "My friend was already walking toward it. He wouldn't answer me. He was walking in time.",
+      "start": 12.62,
+      "end": 17.8,
+      "kind": "narrator",
+      "beat_before": "through the gate; my friend ahead on the path, walking in time to the gamelan, his head tilting"
+    },
+    {
+      "id": "l03",
+      "text": "Every time my torch came back to the trees, she was there. Dancing. Slowly. A little closer.",
+      "start": 20.4,
+      "end": 26.7,
+      "kind": "narrator",
+      "beat_before": "the torch swings off into the trees and back: she is there, dancing, nearer each time"
+    },
+    {
+      "id": "l04",
+      "text": "Her feet never touched the ground. And her arms kept reaching, further than arms should go.",
+      "start": 28.9,
+      "end": 34.39,
+      "kind": "narrator",
+      "beat_before": "her feet hang above the leaves; her arms reach, too long, toward the light"
+    },
+    {
+      "id": "l05",
+      "text": "I found him at the stream. His arm was black and swollen with bites. And something was moving under his sarong.",
+      "start": 37.39,
+      "end": 44.11,
+      "kind": "narrator",
+      "beat_before": "the music stops; the stream; my friend sitting in it, his back to me; the torch finds his arm (the gong)"
+    },
+    {
+      "id": "l06",
+      "text": "The elders never blamed her. They blamed us. We broke the rule. I still don't know if he came back.",
+      "start": 46.71,
+      "end": 52.7,
+      "kind": "narrator",
+      "beat_before": "the torch swings up from him: the dancer behind him, her arms round him; back to the gate"
+    }
+  ]
+}

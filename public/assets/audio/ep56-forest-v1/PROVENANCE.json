@@ -1,0 +1,121 @@
+{
+  "episode": "Ep56TheMusicInTheForest",
+  "duration_seconds": 56.1,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change; take 1",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep56-take1.mp3",
+    "sha256": "3926c7315affae25496c74fef04e7444f6cdbeb9d2eab8f58b3a0db47e046891",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (ElevenLabs library voice)",
+    "credits": 1526,
+    "prompt": "docs/production/ep56-forest/prompt.json"
+  },
+  "original_synthesis": [
+    "THE GAMELAN: an original sixteen-beat phrase on a pelog-like seven-tone set at 72 beats a minute (saron, bonang at double time, kenong, kempul, a soft gong every sixteen beats), synthesized from inharmonic partials with paired-instrument beating; far (dark, wet) at first, nearer with every swing of the torch; stops dead when the torch dies; one full-ensemble stroke at the end. Not a transcription of any real piece.",
+    "SCORE: a mid-band drone and a string cluster that tighten with the music and die with it (scripts/horror_score.py); a synthesized stinger under the gong and the last stroke; loop-quantised",
+    "the torch switch flickering (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "BoVFiRL9l7kX81Lmck7B",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "jungle-1": {
+        "path": "public/assets/audio/eleven-sfx/ep56-jungle-1.mp3",
+        "sha256": "fc90c92892c84c488ba7089c130abec47c0add4a2fbfe6ba41a4ee0aaea9f796"
+      },
+      "stream-3": {
+        "path": "public/assets/audio/eleven-sfx/ep56-stream-3.mp3",
+        "sha256": "b6e40c6ab87cfe8de9667eb1a0ceae1e394bb406c474cde1cd3f5f2ba6fae565"
+      },
+      "steps-2": {
+        "path": "public/assets/audio/eleven-sfx/ep56-steps-2.mp3",
+        "sha256": "8ec50ce69bba78f880e652708af50c48907cb5fb714fb7e5b7e1d51e3427cc98"
+      },
+      "gong-3": {
+        "path": "public/assets/audio/eleven-sfx/ep56-gong-3.mp3",
+        "sha256": "e4f94d365523a6279c7f6ddccc28ef9da0a0f21e1761677849019e8e3d9bb58d"
+      },
+      "snakes-2": {
+        "path": "public/assets/audio/eleven-sfx/ep56-snakes-2.mp3",
+        "sha256": "f6b0fb84efcfa03eb25941747aff3c7e2e2c1e9736c35aab6ca7651f1b03e456"
+      },
+      "snakes-3": {
+        "path": "public/assets/audio/eleven-sfx/ep56-snakes-3.mp3",
+        "sha256": "7299670f59e7faee69f2ca47ed2689cfd343fe5573977f8bb24cb676c77c9c47"
+      }
+    },
+    "generated": "5 prompts x 4 variations, duration and loop set on the node (about 680 credits): jungle at night 15 s loop, steps in wet leaves 10 s loop, stream 15 s loop, snakes 5 s, a bronze gong 6 s",
+    "reused": "none (no Episode 41 drone, riser, stinger, neck crack or music box)",
+    "note": "picked by measurement (RMS, range), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    37.04,
+    52.95
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.76,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -28.1,
+    "last_quarter_second": -27.0
+  },
+  "limiter": "tanh soft limiter, ceiling -3.78 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 13.4,
+      "phone_band_voice_minus_all_db": 17.2,
+      "voice_minus_bed_db": 13.4
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 9.5,
+      "phone_band_voice_minus_all_db": 11.0,
+      "voice_minus_bed_db": 9.5
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 7.7,
+      "phone_band_voice_minus_all_db": 7.7,
+      "voice_minus_bed_db": 7.7
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 7.7,
+      "phone_band_voice_minus_all_db": 8.3,
+      "voice_minus_bed_db": 7.7
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 4.8,
+      "phone_band_voice_minus_all_db": 5.3,
+      "voice_minus_bed_db": 4.8
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 7.7,
+      "phone_band_voice_minus_all_db": 10.0,
+      "voice_minus_bed_db": 7.7
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -8.8,
+    "music_minus_voice_in_gaps_db": -2.8,
+    "music_share_of_gaps_seconds": 18.0
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}

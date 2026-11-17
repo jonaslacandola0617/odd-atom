@@ -1,0 +1,79 @@
+{
+ "flow_id": "BoVFiRL9l7kX81Lmck7B",
+ "account": "the new ElevenLabs account (from 2026-11-16)",
+ "narration": {
+  "model": "eleven_v4",
+  "voice": "Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr)",
+  "node_id": "ECsJgsmpX1NSG9XkQ4ik",
+  "prompt": "[low, calm] The village gave us one rule. Never go past the stone gate into the forest. At midnight, past the gate, someone started playing gamelan. [long pause] [uneasy] My friend was already walking toward it. He wouldn't answer me. He was walking in time. [long pause] [quietly] Every time my torch came back to the trees, she was there. Dancing. Slowly. A little closer. [long pause] [whispers] Her feet never touched the ground. And her arms kept reaching, further than arms should go. [long pause] [shaken] I found him at the stream. His arm was black and swollen with bites. And something was moving under his sarong. [long pause] [low, calm] The elders never blamed her. They blamed us. We broke the rule. [short pause] I still don't know if he came back.",
+  "takes": 1526,
+  "takes_note": "both takes (763 credits each); take 1 used (50.4 s raw; inner pauses capped at 0.22 s; no tempo change); take 2 kept",
+  "files": [
+   "public/assets/audio/eleven-takes/ep56-take1.mp3",
+   "public/assets/audio/eleven-takes/ep56-take2.mp3"
+  ]
+ },
+ "sfx": {
+  "jungle": {
+   "node_id": "lwyHkGrg3nrmUxe8SzbE",
+   "prompt": "A humid tropical forest in Java at midnight: dense cicadas and crickets, tree frogs, dripping leaves, a faint warm wind in the canopy. No music, no voices, no birds singing.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep56-jungle-1.mp3",
+    "public/assets/audio/eleven-sfx/ep56-jungle-2.mp3",
+    "public/assets/audio/eleven-sfx/ep56-jungle-3.mp3",
+    "public/assets/audio/eleven-sfx/ep56-jungle-4.mp3"
+   ]
+  },
+  "steps": {
+   "node_id": "uOr52igbtEnTdff6gLIb",
+   "prompt": "Close footsteps of one person walking slowly through wet leaves and soft mud on a forest path at night, sandals, twigs snapping, a steady pace. No music, no voices.",
+   "duration_seconds": 10,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep56-steps-1.mp3",
+    "public/assets/audio/eleven-sfx/ep56-steps-2.mp3",
+    "public/assets/audio/eleven-sfx/ep56-steps-3.mp3",
+    "public/assets/audio/eleven-sfx/ep56-steps-4.mp3"
+   ]
+  },
+  "stream": {
+   "node_id": "PsEpkMavhEjScBX7bv48",
+   "prompt": "A small shallow stream running over stones in a jungle at night, close, gentle trickling water, insects around it. No music, no voices.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep56-stream-1.mp3",
+    "public/assets/audio/eleven-sfx/ep56-stream-2.mp3",
+    "public/assets/audio/eleven-sfx/ep56-stream-3.mp3",
+    "public/assets/audio/eleven-sfx/ep56-stream-4.mp3"
+   ]
+  },
+  "snakes": {
+   "node_id": "GKaiLZBuxiHkgZKINkYd",
+   "prompt": "Several snakes slithering over wet skin and cloth, very close: scaly sliding, soft wet rustling, a low hiss. No music, no voices.",
+   "duration_seconds": 5,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep56-snakes-1.mp3",
+    "public/assets/audio/eleven-sfx/ep56-snakes-2.mp3",
+    "public/assets/audio/eleven-sfx/ep56-snakes-3.mp3",
+    "public/assets/audio/eleven-sfx/ep56-snakes-4.mp3"
+   ]
+  },
+  "gong": {
+   "node_id": "wVewKnoQrHUwh3e6fbHv",
+   "prompt": "One large bronze gong struck once, very close, a deep shimmering boom with a long slow beating decay. No other instruments.",
+   "duration_seconds": 6,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep56-gong-1.mp3",
+    "public/assets/audio/eleven-sfx/ep56-gong-2.mp3",
+    "public/assets/audio/eleven-sfx/ep56-gong-3.mp3",
+    "public/assets/audio/eleven-sfx/ep56-gong-4.mp3"
+   ]
+  }
+ },
+ "gamelan": "synthesized in scripts/ep56_sound.py (original phrase); no music generation was used",
+ "sfx_credits": "about 680 (20 variations)",
+ "total_credits": "about 2,206"
+}

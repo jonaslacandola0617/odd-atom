@@ -66,7 +66,7 @@ Rendered as a contact sheet when the user asked for the packs' monsters ("Didnt 
 | `Character_Monster_04` | a gaunt woman in a dark dress, a skull face with a jaw hanging open to the chest | Episode 54 (the figure on the monitor) |
 | `Character_Monster_05` | long black hair over the face, a white shirt bloodied down the front | Episodes 41, 45, 55 |
 | `Character_Monster_06` | green rotting ghoul, a skull face with an open mouth | |
-| `Character_Monster_07` | a skull face on a dark ragged body | |
+| `Character_Monster_07` | a skull face on a dark ragged body | Episode 56 (the dancer) |
 | `Character_Monster_08` | hairy all over, no face showing | |
 | `Character_Killer`, `_01` … `_10` | masked men: sack, stitched leather, pale skin mask, pig, owl, bear, clown, grinning old-man mask; several bloodied | |
 
