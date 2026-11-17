@@ -1,0 +1,100 @@
+{
+ "flow_id": "7vtshxktumFRFK2EHMoJ",
+ "account": "the new ElevenLabs account (from 2026-11-16)",
+ "narration": {
+  "model": "eleven_v4",
+  "voice": "Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr)",
+  "node_id": "RB4qZYnDjwCzLq4xLWkn",
+  "prompt": "[low, tense] Two in the morning, coming down the ghat road, there was something in my mirror. On all fours. And it was keeping up. [long pause] [calm, remembering] An hour before, on a bend above the village, a woman in a shawl had waved me down. Alone. No bag. [long pause] [quietly] She walked into my headlights, and I saw her feet. The heels were at the front. Her toes pointed back, down the road. [long pause] [hard] I didn't stop. I put my foot down. I hit her. [long pause] [shaken] In the camera, she gets up. The bones of her shins are through the skin. Her knees bend backwards. And she runs. [long pause] [breathless] Sixty. Seventy. Eighty, on a mountain road. I looked left. She was at my window, keeping pace. [long pause] [low, calm] The old drivers call her the chudail. They say never stop for her, and never look back. I didn't. I made it down by dawn. [long pause] [whispers] Then I watched the cabin camera. All the way down, a hand was resting on the back of my seat.",
+  "takes": 1978,
+  "takes_note": "both takes (989 credits each); take 2 used (57.3 s raw, shorter than take 1's 60.0 s): inner pauses capped at 0.16 s, atempo 1.07, and two sentences left out to fit 60 s ('Alone. No bag.' and 'I didn't. I made it down by dawn.'); take 1 kept",
+  "files": [
+   "public/assets/audio/eleven-takes/ep55-take1.mp3",
+   "public/assets/audio/eleven-takes/ep55-take2.mp3"
+  ]
+ },
+ "sfx": {
+  "taxi": {
+   "node_id": "ZYiu6rPCbGyDGGWlpeCl",
+   "prompt": "Inside an old diesel taxi driving fast down a mountain road at night: the rattling diesel engine, tyres on rough asphalt, wind roaring past the windows, the body creaking on the bends. No music, no voices, no horn.",
+   "duration_seconds": 20,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep55-taxi-1.mp3",
+    "public/assets/audio/eleven-sfx/ep55-taxi-2.mp3",
+    "public/assets/audio/eleven-sfx/ep55-taxi-3.mp3",
+    "public/assets/audio/eleven-sfx/ep55-taxi-4.mp3"
+   ]
+  },
+  "bells": {
+   "node_id": "sMBuA1Tfxf7ywLK1xuGC",
+   "prompt": "Small brass ankle bells jingling in a fast running rhythm on bare feet, close, dry, with the slap of bare feet and hands on asphalt, someone running on all fours. No music, no voices.",
+   "duration_seconds": 10,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep55-bells-1.mp3",
+    "public/assets/audio/eleven-sfx/ep55-bells-2.mp3",
+    "public/assets/audio/eleven-sfx/ep55-bells-3.mp3",
+    "public/assets/audio/eleven-sfx/ep55-bells-4.mp3"
+   ]
+  },
+  "impact": {
+   "node_id": "Zh7TWx2GUiPVCNiCCbXn",
+   "prompt": "A car hits a person at speed: a heavy dull thud on the bumper and bonnet, a sharp crack of bones breaking, a body rolling on the road. No screams, no music.",
+   "duration_seconds": 3,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep55-impact-1.mp3",
+    "public/assets/audio/eleven-sfx/ep55-impact-2.mp3",
+    "public/assets/audio/eleven-sfx/ep55-impact-3.mp3",
+    "public/assets/audio/eleven-sfx/ep55-impact-4.mp3"
+   ]
+  },
+  "bones": {
+   "node_id": "4BudeKLoWRU0HP0hUb2j",
+   "prompt": "Close, wet, slow cracking and grinding of broken bones, joints popping and snapping back the wrong way, as a broken body pushes itself up off the ground. No voices, no music.",
+   "duration_seconds": 4,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep55-bones-1.mp3",
+    "public/assets/audio/eleven-sfx/ep55-bones-2.mp3",
+    "public/assets/audio/eleven-sfx/ep55-bones-3.mp3",
+    "public/assets/audio/eleven-sfx/ep55-bones-4.mp3"
+   ]
+  },
+  "nails": {
+   "node_id": "n05i7kxwLKytO2RivAJb",
+   "prompt": "Long fingernails slowly tapping and scraping on a vinyl car seat back, very close, inside a car. No voices, no music.",
+   "duration_seconds": 4,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep55-nails-1.mp3",
+    "public/assets/audio/eleven-sfx/ep55-nails-2.mp3",
+    "public/assets/audio/eleven-sfx/ep55-nails-3.mp3",
+    "public/assets/audio/eleven-sfx/ep55-nails-4.mp3"
+   ]
+  },
+  "hills": {
+   "node_id": "XJF4usMrJI0vdeSiTZxb",
+   "prompt": "A pine forest on a Himalayan hillside at night: cold wind in the pines, crickets, a distant dog barking far down the valley, an idling diesel car nearby. No music, no voices.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep55-hills-1.mp3",
+    "public/assets/audio/eleven-sfx/ep55-hills-2.mp3",
+    "public/assets/audio/eleven-sfx/ep55-hills-3.mp3",
+    "public/assets/audio/eleven-sfx/ep55-hills-4.mp3"
+   ]
+  },
+  "brakes": {
+   "node_id": "DAlhbzYpRktgnxGbmYhA",
+   "prompt": "An old car braking hard on a gravel-edged mountain road, tyres skidding and crunching on grit, the engine dropping to idle. No music, no voices.",
+   "duration_seconds": 3,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep55-brakes-1.mp3",
+    "public/assets/audio/eleven-sfx/ep55-brakes-2.mp3",
+    "public/assets/audio/eleven-sfx/ep55-brakes-3.mp3",
+    "public/assets/audio/eleven-sfx/ep55-brakes-4.mp3"
+   ]
+  }
+ },
+ "sfx_credits": "about 784 (28 variations)",
+ "total_credits": "about 2,762"
+}

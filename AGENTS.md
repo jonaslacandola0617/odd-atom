@@ -58,6 +58,20 @@
     - **Status:** no user approval and no listening pass.
     - **Next in the season order:** Episode 55 (the chudail, India).
 
+  - **Episode 55 "The Lift" (2026-11-17):** the user asked for the "next ep". `Ep55TheLift` / `src/horror/ep55/` is 59.28 s, in English (Jack), with a score of its own and a seamless loop. A taxi driver on a hill road in Himachal at 2 a.m.: a woman in a shawl waves him down; in his headlights her feet point backwards; he hits her; she gets up on backward knees and runs; at 80 km/h she is at the window; on the dawn cabin footage, her hand was on his seat all the way down (retold from a driver's account shared online and churel/chudail folklore; no real road or shrine named).
+    - **Form:** a three-channel taxi dashcam (CH1 FRONT, CH2 CABIN in infrared grey, CH3 REAR in tail-light red), with a speed readout, date stamp, G-sensor event and `▶ PLAYBACK ×4` on her feet. **Mechanism:** pursuit. **Gore:** shin bones through the skin, blood across the windscreen (dried and wiper-smeared at dawn).
+    - **Her:** `Character_Monster_05` with a built red shawl, brass ankle bells, feet turned back in every shot, knees bent the wrong way after the hit. Me: `Character_30`.
+    - **Lessons:**
+      - the car stays at the origin and the road passes it (distance integrated from the speed readout, a `c·z²` bend), so picture, readout and sound share one speed;
+      - a mirror-mounted cabin camera in portrait barely sees the side windows: check sight lines against seat backs and pillars (the passenger seat is folded flat);
+      - reversed feet read only side-on;
+      - keep the red tail light between the car and the figure.
+    - **Sound:** the taxi and the wind by speed, the hillside when it stands, the ankle bells (the motif, across the seam), the brakes and the skid, the impact, the bones, the G-sensor beep, her palm on the glass, the nails on the vinyl. Flow `7vtshxktumFRFK2EHMoJ` (about 2,762 credits; every take in Git). Take 2 of the narration is used, at atempo 1.07, with two sentences left out to fit 60 s.
+    - **Sound figures:** presence −11.0 / −3.2 dB, lines ≥6.5 dB with no lifts, −14.0 LUFS, decoded peak −2.33 dBFS, seam −21.7 / −21.7 dBFS.
+    - **Delivery:** `assets/videos/ep55-lift-v1/`. Notes are in `docs/production/ep55-lift/README.md`; the publishing kit is `docs/publishing/ep55/README.md`.
+    - **Status:** no user approval and no listening pass.
+    - **Next in the season order:** Episode 56 "The Music in the Forest" (KKN, Indonesia).
+
 - **Standing direction for the next season (user, 2026-11-15, after the PSX test v2):** "Yeah this is good enough and we made a better look rather than being a blocks of models, apply this to future videos, for the next season on a new session, I want more local personal experience people have shared online. And with our new models i want the animation more spooky more scary and more horror."
   - **Models:** every future episode uses the user's PSX models (`src/horror/psx/models.tsx`, `docs/production/psx-models/README.md`) for people and, where they fit, furniture, streets and buildings. The blocky `Rider`/`Villager` figures are retired for new work (keep them only for objects the packs lack). Copy each new model into `public/assets/models/psx/` and add it to `PROVENANCE.md`; keep the full packs out of Git (re-download from the Drive folder in a new session).
   - **Season 5 (started 2026-11-15 on the user's "start season 5"):** local Philippine **personal experiences shared online**, in Taglish with Juanito, with the Season 4 standard (eerie score, seamless loop) and all earlier rules (motion rule, hard cuts, loudness, care).

@@ -1,0 +1,73 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 59.276,
+  "duration_frames": 1778,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.16 s, atempo 1.07 to fit 60 s; take 2 (the shorter); two sentences left out for time",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Two in the morning, coming down the ghat road, there was something in my mirror. On all fours. And it was keeping up.",
+      "start": 1.4,
+      "end": 7.775,
+      "kind": "narrator",
+      "beat_before": "hook: the cabin camera, through the back window, red in the tail lights: something on all fours on the road behind, gaining"
+    },
+    {
+      "id": "l02",
+      "text": "An hour before, on a bend above the village, a woman in a shawl had waved me down.",
+      "start": 9.075,
+      "end": 13.547,
+      "kind": "narrator",
+      "beat_before": "the front dashcam: the ghat road, switchbacks, pines, the crash barrier; a figure on the bend waving"
+    },
+    {
+      "id": "l03",
+      "text": "She walked into my headlights, and I saw her feet. The heels were at the front. Her toes pointed back, down the road.",
+      "start": 16.547,
+      "end": 22.994,
+      "kind": "narrator",
+      "beat_before": "the taxi slows; she walks into the headlights; her feet: heels forward, toes back (the viewer sees it first)"
+    },
+    {
+      "id": "l04",
+      "text": "I didn't stop. I put my foot down. I hit her.",
+      "start": 24.794,
+      "end": 27.597,
+      "kind": "narrator",
+      "beat_before": "I floor it; she stands in the beam; the impact: the windscreen cracks, blood across it"
+    },
+    {
+      "id": "l05",
+      "text": "In the camera, she gets up. The bones of her shins are through the skin. Her knees bend backwards. And she runs.",
+      "start": 29.597,
+      "end": 35.744,
+      "kind": "narrator",
+      "beat_before": "the cabin camera through the back window: she lies in the red light; bones through her shins; her knees bend backwards; she rises and runs"
+    },
+    {
+      "id": "l06",
+      "text": "Sixty. Seventy. Eighty, on a mountain road. I looked left. She was at my window, keeping pace.",
+      "start": 37.244,
+      "end": 43.329,
+      "kind": "narrator",
+      "beat_before": "the speed climbs; the cabin camera: at the passenger window, keeping pace, hair streaming"
+    },
+    {
+      "id": "l07",
+      "text": "The old drivers call her the chudail. They say never stop for her, and never look back.",
+      "start": 45.129,
+      "end": 49.59,
+      "kind": "narrator",
+      "beat_before": "the front dashcam: she is gone; the road; dawn coming up over the ridge, the town below"
+    },
+    {
+      "id": "l08",
+      "text": "Then I watched the cabin camera. All the way down, a hand was resting on the back of my seat.",
+      "start": 50.99,
+      "end": 56.076,
+      "kind": "narrator",
+      "beat_before": "the cabin camera at dawn, played back: me driving, alone; a pale hand with long nails resting on the top of my seat"
+    }
+  ]
+}

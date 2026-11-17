@@ -1,0 +1,151 @@
+{
+  "episode": "Ep55TheLift",
+  "duration_seconds": 59.276,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.16 s, atempo 1.07 to fit 60 s; take 2 (the shorter); two sentences left out for time",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep55-take2.mp3",
+    "sha256": "45935bfada48eb8ed1cfa1afe82dbe4725f725c37bcab601f5ce30929b71ff3c",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (ElevenLabs library voice)",
+    "credits": 1978,
+    "prompt": "docs/production/ep55-lift/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone (root 36.71 Hz) and a string cluster that drop out dead at the impact and come back as she gets up, bowed metal as she walks out, a synthesized stinger at the impact, at her palm on the glass and as her face comes out from behind my seat (scripts/horror_score.py); loop-quantised",
+    "the wind past the glass (filtered noise, rising with the speed), the bells as she walks (struck partials), the G-sensor beep, her palm on the glass (synthesized)"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "7vtshxktumFRFK2EHMoJ",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "taxi-3": {
+        "path": "public/assets/audio/eleven-sfx/ep55-taxi-3.mp3",
+        "sha256": "b6b0623a84d747030051b69e5f061e80223e29339507adc18bd64ff063501bcc"
+      },
+      "hills-2": {
+        "path": "public/assets/audio/eleven-sfx/ep55-hills-2.mp3",
+        "sha256": "d10f4b688d485340093c526cbb967cbf2f4829d2f0555eb3f496a36d1257e20d"
+      },
+      "bells-1": {
+        "path": "public/assets/audio/eleven-sfx/ep55-bells-1.mp3",
+        "sha256": "c1a40d934b58e2b7661216e9368c7208e86757fed94a23e1d4c3cd21a5df9398"
+      },
+      "brakes-2": {
+        "path": "public/assets/audio/eleven-sfx/ep55-brakes-2.mp3",
+        "sha256": "0a9f756e8ca16352820b63d1aa80c1894ab488ac9897bf0d3de72e0de47db9b8"
+      },
+      "brakes-3": {
+        "path": "public/assets/audio/eleven-sfx/ep55-brakes-3.mp3",
+        "sha256": "3b664eaf1710d78907c98915099e75e740eb6f6c3399c709e605bccd54790a35"
+      },
+      "impact-2": {
+        "path": "public/assets/audio/eleven-sfx/ep55-impact-2.mp3",
+        "sha256": "73cc7f2116f74528cb7073c390f981554d3553948223b5a47920d9e09d4cda9e"
+      },
+      "bones-1": {
+        "path": "public/assets/audio/eleven-sfx/ep55-bones-1.mp3",
+        "sha256": "df5ccf033be54b4d286a9b26865f27a5c4b04647984f601ecc9da87d70484dff"
+      },
+      "bones-3": {
+        "path": "public/assets/audio/eleven-sfx/ep55-bones-3.mp3",
+        "sha256": "95d514afeebe3af5396353e59452452c3ede89bb3c6be71ba5d768d778ffd004"
+      },
+      "nails-2": {
+        "path": "public/assets/audio/eleven-sfx/ep55-nails-2.mp3",
+        "sha256": "dee00f9701de923f3d68ad5bb686c01ff7521af05e9ebe4464c0102232dda9c2"
+      },
+      "nails-4": {
+        "path": "public/assets/audio/eleven-sfx/ep55-nails-4.mp3",
+        "sha256": "0d59c447c3245619bcac323a573f78398af094e56a40cc9d430ac00664b0e01f"
+      }
+    },
+    "generated": "7 prompts x 4 variations, duration and loop set on the node (about 784 credits): diesel taxi 20 s loop, ankle bells running 10 s loop, impact 3 s, bones 4 s, nails 4 s, hillside at night 15 s loop, brakes 3 s",
+    "reused": "none (no Episode 41 drone, riser, stinger, neck crack or music box)",
+    "note": "picked by measurement (RMS, range), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    27.717000000000002,
+    43.479,
+    56.326
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -2.33,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -21.7,
+    "last_quarter_second": -21.7
+  },
+  "limiter": "tanh soft limiter, ceiling -4.90 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0,
+    "l04": 0.0,
+    "l05": 0.0,
+    "l06": 0.0,
+    "l07": 0.0,
+    "l08": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 9.7,
+      "phone_band_voice_minus_all_db": 15.0,
+      "voice_minus_bed_db": 9.7
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 12.7,
+      "phone_band_voice_minus_all_db": 13.4,
+      "voice_minus_bed_db": 12.7
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 12.1,
+      "phone_band_voice_minus_all_db": 15.4,
+      "voice_minus_bed_db": 12.1
+    },
+    {
+      "id": "l04",
+      "voice_minus_all_db": 11.2,
+      "phone_band_voice_minus_all_db": 14.5,
+      "voice_minus_bed_db": 11.2
+    },
+    {
+      "id": "l05",
+      "voice_minus_all_db": 6.5,
+      "phone_band_voice_minus_all_db": 5.6,
+      "voice_minus_bed_db": 6.5
+    },
+    {
+      "id": "l06",
+      "voice_minus_all_db": 6.7,
+      "phone_band_voice_minus_all_db": 11.1,
+      "voice_minus_bed_db": 6.7
+    },
+    {
+      "id": "l07",
+      "voice_minus_all_db": 15.5,
+      "phone_band_voice_minus_all_db": 19.9,
+      "voice_minus_bed_db": 15.5
+    },
+    {
+      "id": "l08",
+      "voice_minus_all_db": 8.2,
+      "phone_band_voice_minus_all_db": 10.1,
+      "voice_minus_bed_db": 8.2
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -11.0,
+    "music_minus_voice_in_gaps_db": -3.2,
+    "music_share_of_gaps_seconds": 17.4
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
