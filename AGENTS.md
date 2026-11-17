@@ -87,6 +87,19 @@
     - **Status:** no user approval and no listening pass.
     - **Next in the season order:** Episode 57 (Kisaragi, Japan).
 
+  - **Episode 57 "The Station That Isn't" (2026-11-17):** the user asked for the "next ep". `Ep57TheStationThatIsnt` / `src/horror/ep57/` is 59.6 s, in English (Jack, three spoken lines; the rest on screen as her posts), with a score of its own and a seamless loop. A woman posts to a forum from a late train in Japan; it stops at KISARAGI, a station on no map; she walks the line, drums come nearer, a man on one leg shouts from a tunnel; a stranger's car; "battery low"; then only replies (retold from the 2004 thread; she isn't named, nothing claims she died, the posts are our wording).
+    - **Form:** a 2004 forum's grey page (posts typing in, timestamps, a "new post" tone, the new-reply mark), cut hard against mercury-vapour blue-green. **Mechanism:** wrong geometry. **Gore:** the stump.
+    - **Figures:** `Character_Monster_06` (the man on one leg; the shin collapsed with `['stretch', 0.02]`, a stump with bone and blood) and `Character_Killer_09` (the driver, a grinning old man's face; his head turns slowly), both from `Characters_Extras.rar`, in `PROVENANCE.md`.
+    - **Lessons:**
+      - a forum page is a 2D overlay laid out from the bottom up (draw the title bar after the posts);
+      - a passenger-seat camera needs to sit back and to the side to see the driver;
+      - tube lights in a white carriage blow out above ambient 0.5.
+    - **Sound:** the thread hears where she is (train, platform hum, ballast, car); drums and a bell nearer along the line, cut dead by one dry shout; the engine drops when he stops talking; an original two-note post tone. Flow `wZZL3Cd6pftFY0nBvzmw` (about 1,552 credits; every take in Git).
+    - **Sound figures:** presence −12.6 / −7.6 dB (long silent stretches by design), lines ≥11.2 dB with no lifts, −14.0 LUFS, decoded peak −1.43 dBFS, seam −24.4 / −23.9 dBFS.
+    - **Delivery:** `assets/videos/ep57-station-v1/`. Notes are in `docs/production/ep57-station/README.md`; the publishing kit is `docs/publishing/ep57/README.md`.
+    - **Status:** no user approval and no listening pass.
+    - **Next in the season order:** Episode 58 (the black-eyed children, UK).
+
 - **Standing direction for the next season (user, 2026-11-15, after the PSX test v2):** "Yeah this is good enough and we made a better look rather than being a blocks of models, apply this to future videos, for the next season on a new session, I want more local personal experience people have shared online. And with our new models i want the animation more spooky more scary and more horror."
   - **Models:** every future episode uses the user's PSX models (`src/horror/psx/models.tsx`, `docs/production/psx-models/README.md`) for people and, where they fit, furniture, streets and buildings. The blocky `Rider`/`Villager` figures are retired for new work (keep them only for objects the packs lack). Copy each new model into `public/assets/models/psx/` and add it to `PROVENANCE.md`; keep the full packs out of Git (re-download from the Drive folder in a new session).
   - **Season 5 (started 2026-11-15 on the user's "start season 5"):** local Philippine **personal experiences shared online**, in Taglish with Juanito, with the Season 4 standard (eerie score, seamless loop) and all earlier rules (motion rule, hard cuts, loudness, care).

@@ -1,0 +1,33 @@
+{
+  "provisional": false,
+  "fps": 30,
+  "duration_seconds": 59.6,
+  "duration_frames": 1788,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change; take 1",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Late one night in 2004, a woman began posting to a forum from a train that would not stop.",
+      "start": 1.2,
+      "end": 7.73,
+      "kind": "narrator",
+      "beat_before": "hook: the platform sign under a mercury lamp: KISARAGI, nothing before it, nothing after"
+    },
+    {
+      "id": "l02",
+      "text": "Then she heard drums. And a small bell. Coming closer, along the line.",
+      "start": 29.0,
+      "end": 33.71,
+      "kind": "narrator",
+      "beat_before": "walking back along the tracks in the phone light; the drums nearer; the tunnel"
+    },
+    {
+      "id": "l03",
+      "text": "Her last post said her battery was low. The thread is still waiting.",
+      "start": 52.4,
+      "end": 56.68,
+      "kind": "narrator",
+      "beat_before": "the thread: her last post; then only replies, and the new-reply mark"
+    }
+  ]
+}

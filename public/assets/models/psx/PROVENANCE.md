@@ -91,3 +91,10 @@ The user shared these from their Google Drive folder (2026-11-15) and stated tha
 | `characters/Character_Monster_07.fbx` + `.png` | `Characters_Extras.rar` (`Extras_Rig/Killer_M/`, texture from `Textures/`) | `57aa1ec4…` / `0bc6c747…` |
 
 Loaded and posed by `src/horror/psx/models.tsx`.
+
+**Added for Episode 57 (2026-11-17):**
+
+| File | Source archive | SHA-256 |
+|---|---|---|
+| `characters/Character_Monster_06.fbx` + `.png` | `Characters_Extras.rar` (`Extras_Rig/Killer_M/`, texture from `Textures/`) | `01936047…` / `9ccbb570…` |
+| `characters/Character_Killer_09.fbx` + `.png` | `Characters_Extras.rar` (`Extras_Rig/Killer_M/`, texture from `Textures/`) | `d4469a8b…` / `c6ac593c…` |

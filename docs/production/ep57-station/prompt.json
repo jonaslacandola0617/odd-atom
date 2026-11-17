@@ -1,0 +1,91 @@
+{
+ "flow_id": "wZZL3Cd6pftFY0nBvzmw",
+ "account": "the new ElevenLabs account (from 2026-11-16)",
+ "narration": {
+  "model": "eleven_v4",
+  "voice": "Jack - Deep Dark Horror Narrator (BVPhWQykET1TSvfGzrUr)",
+  "node_id": "5ZIhexDGIFQPFBnEqWoi",
+  "prompt": "[low, calm] Late one night in 2004, a woman began posting to a forum from a train that would not stop. [long pause] [quietly] Then she heard drums. And a small bell. Coming closer, along the line. [long pause] [low, slow] Her last post said her battery was low. The thread is still waiting.",
+  "takes": 580,
+  "takes_note": "both takes (290 credits each); take 1 used (20.3 s raw; inner pauses capped at 0.22 s; no tempo change; three lines placed at fixed times); take 2 kept",
+  "files": [
+   "public/assets/audio/eleven-takes/ep57-take1.mp3",
+   "public/assets/audio/eleven-takes/ep57-take2.mp3"
+  ]
+ },
+ "sfx": {
+  "platform": {
+   "node_id": "fCxUlQkxCXTwvCrbMUrD",
+   "prompt": "An empty rural train platform at night in the countryside: the steady electric hum of an old mercury-vapour lamp, faint insects, a cold wind. No voices, no music, no trains.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep57-platform-1.mp3",
+    "public/assets/audio/eleven-sfx/ep57-platform-2.mp3",
+    "public/assets/audio/eleven-sfx/ep57-platform-3.mp3",
+    "public/assets/audio/eleven-sfx/ep57-platform-4.mp3"
+   ]
+  },
+  "train": {
+   "node_id": "lmPNsEtR8Wz2QrPLoJ2J",
+   "prompt": "Inside an empty local electric train at night: steady rail clatter over joints, a low motor whine, the carriage swaying and creaking. No announcements, no voices, no music.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep57-train-1.mp3",
+    "public/assets/audio/eleven-sfx/ep57-train-2.mp3",
+    "public/assets/audio/eleven-sfx/ep57-train-3.mp3",
+    "public/assets/audio/eleven-sfx/ep57-train-4.mp3"
+   ]
+  },
+  "drums": {
+   "node_id": "HmDwzMDM53vc0z0lOLMW",
+   "prompt": "Far away across dark fields at night: slow, heavy wooden drums beating and a small bright hand bell ringing, a procession moving, distant and echoing. No voices, no melody.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep57-drums-1.mp3",
+    "public/assets/audio/eleven-sfx/ep57-drums-2.mp3",
+    "public/assets/audio/eleven-sfx/ep57-drums-3.mp3",
+    "public/assets/audio/eleven-sfx/ep57-drums-4.mp3"
+   ]
+  },
+  "shout": {
+   "node_id": "VfvcObYm9lC7kDudt5jW",
+   "prompt": "A man shouts once, hoarse and angry, from the mouth of a railway tunnel at night, the echo cut off sharply into silence. No music.",
+   "duration_seconds": 3,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep57-shout-1.mp3",
+    "public/assets/audio/eleven-sfx/ep57-shout-2.mp3",
+    "public/assets/audio/eleven-sfx/ep57-shout-3.mp3",
+    "public/assets/audio/eleven-sfx/ep57-shout-4.mp3"
+   ]
+  },
+  "ballast": {
+   "node_id": "zvfOlKfzEbzw1RfC9TIs",
+   "prompt": "Close footsteps of one person walking slowly along a railway line at night, shoes crunching on gravel ballast and stepping on wooden sleepers. No voices, no music.",
+   "duration_seconds": 10,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep57-ballast-1.mp3",
+    "public/assets/audio/eleven-sfx/ep57-ballast-2.mp3",
+    "public/assets/audio/eleven-sfx/ep57-ballast-3.mp3",
+    "public/assets/audio/eleven-sfx/ep57-ballast-4.mp3"
+   ]
+  },
+  "car": {
+   "node_id": "WVW1Z9I6EeF1kNIf10B2",
+   "prompt": "Inside a small car driving slowly up a winding mountain road at night: a quiet engine, tyres on rough asphalt, the indicator ticking now and then. No radio, no voices, no music.",
+   "duration_seconds": 15,
+   "loop": true,
+   "files": [
+    "public/assets/audio/eleven-sfx/ep57-car-1.mp3",
+    "public/assets/audio/eleven-sfx/ep57-car-2.mp3",
+    "public/assets/audio/eleven-sfx/ep57-car-3.mp3",
+    "public/assets/audio/eleven-sfx/ep57-car-4.mp3"
+   ]
+  }
+ },
+ "sfx_credits": "about 972 (24 variations)",
+ "total_credits": "about 1,552"
+}

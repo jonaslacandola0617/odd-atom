@@ -1,0 +1,99 @@
+{
+  "episode": "Ep57TheStationThatIsnt",
+  "duration_seconds": 59.6,
+  "voice": "ElevenLabs eleven_v4, Jack (BVPhWQykET1TSvfGzrUr), English, one take, split into lines, inner pauses capped at 0.22 s, no tempo change; take 1",
+  "narration_take": {
+    "path": "public/assets/audio/eleven-takes/ep57-take1.mp3",
+    "sha256": "62415260c6f46d9693234ab4da8bf6ebab808ee5605fd1a412fe0fb71496ad38",
+    "provider": "ElevenLabs connector, eleven_v4",
+    "voice_id": "BVPhWQykET1TSvfGzrUr",
+    "voice_name": "Jack - Deep Dark Horror Narrator (ElevenLabs library voice)",
+    "credits": 580,
+    "prompt": "docs/production/ep57-station/prompt.json"
+  },
+  "original_synthesis": [
+    "SCORE: a mid-band drone and a string cluster, silent through the long stretches on the platform and the line, tightening to the shout and to the driver turning, a synthesized stinger at each (scripts/horror_score.py); loop-quantised",
+    "the \"new post\" tone: two soft sine notes (original), on every post"
+  ],
+  "elevenlabs_sfx": {
+    "flow_id": "wZZL3Cd6pftFY0nBvzmw",
+    "model": "eleven_text_to_sound_v2",
+    "used": {
+      "platform-2": {
+        "path": "public/assets/audio/eleven-sfx/ep57-platform-2.mp3",
+        "sha256": "e6874ec2fd5073a6e150f629d83d604699308050192f1461f1edb54df3ce9d10"
+      },
+      "train-1": {
+        "path": "public/assets/audio/eleven-sfx/ep57-train-1.mp3",
+        "sha256": "e10b4e48ab91d634176810bcc4fe3778e0799c57d1c481f3f5311ca997a8f72c"
+      },
+      "car-3": {
+        "path": "public/assets/audio/eleven-sfx/ep57-car-3.mp3",
+        "sha256": "35330fb7cab6c16bc558d36a074c0f9f9ddd51df7b31b2eb2f8b250554a4c781"
+      },
+      "ballast-1": {
+        "path": "public/assets/audio/eleven-sfx/ep57-ballast-1.mp3",
+        "sha256": "9e7729c3bc37551231851c93ea4fd5a423a8ac78f2b7b6ab1a4d384046e7e3fd"
+      },
+      "drums-1": {
+        "path": "public/assets/audio/eleven-sfx/ep57-drums-1.mp3",
+        "sha256": "d63adec9b14c07481902e1a2105c7d6e9de560eb68632508b98d95a4c9b20d2f"
+      },
+      "shout-2": {
+        "path": "public/assets/audio/eleven-sfx/ep57-shout-2.mp3",
+        "sha256": "6f0d4d6fa86e310dcdea361bf563abb3da8cdb915928a2b5a9a90bf56338024d"
+      }
+    },
+    "generated": "6 prompts x 4 variations, duration and loop set on the node (about 972 credits): platform at night 15 s loop, train interior 15 s loop, drums and bell far off 15 s loop, a shout from a tunnel 3 s, steps on ballast 10 s loop, car on a mountain road 15 s loop",
+    "reused": "none (no Episode 41 drone, riser, stinger, neck crack or music box)",
+    "note": "picked by measurement (RMS, range), not by listening"
+  },
+  "music_presence_note": "music_presence measures the whole non-voice bed (score, ambience, effects) against the voice",
+  "real_recordings_used": false,
+  "library_cues": {},
+  "stingers": [
+    36.31,
+    50.0
+  ],
+  "stingers_inside_speech": [],
+  "loudness_target_lufs": -14.0,
+  "measured_integrated_lufs": -14.0,
+  "encoded_sample_peak_dbfs": -1.43,
+  "loop_seam_rms_dbfs": {
+    "first_quarter_second": -24.4,
+    "last_quarter_second": -23.9
+  },
+  "limiter": "tanh soft limiter, ceiling -2.88 dBFS (lowered until the decoded AAC peaks at or below -1 dBFS)",
+  "line_lifts_db": {
+    "l01": 0.0,
+    "l02": 0.0,
+    "l03": 0.0
+  },
+  "voice_margins_db": [
+    {
+      "id": "l01",
+      "voice_minus_all_db": 10.8,
+      "phone_band_voice_minus_all_db": 22.7,
+      "voice_minus_bed_db": 10.8
+    },
+    {
+      "id": "l02",
+      "voice_minus_all_db": 11.2,
+      "phone_band_voice_minus_all_db": 7.5,
+      "voice_minus_bed_db": 11.2
+    },
+    {
+      "id": "l03",
+      "voice_minus_all_db": 17.3,
+      "phone_band_voice_minus_all_db": 20.5,
+      "voice_minus_bed_db": 17.3
+    }
+  ],
+  "music_presence": {
+    "phone_band": "200-4000 Hz",
+    "music_minus_voice_during_speech_db": -12.6,
+    "music_minus_voice_in_gaps_db": -7.6,
+    "music_share_of_gaps_seconds": 44.1
+  },
+  "listening_pass": "not performed (no audio audition in this runtime)"
+}
